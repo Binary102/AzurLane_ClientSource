@@ -26564,6 +26564,17 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[22253] = {
+		desc_get = "",
+		name = "전탄 발사 – 改",
+		desc = "자신의 주포로 8회 공격할 때마다 전탄 발사(모가미-改)를 전개한다.",
+		type = 1,
+		max_level = 1,
+		id = 22253,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[22261] = {
 		desc_get = "",
 		name = "전탄 발사 - 타카오형Ⅰ",
@@ -30885,6 +30896,7 @@ pg.skill_data_template = {
 		22242,
 		22251,
 		22252,
+		22253,
 		22261,
 		22262,
 		22311,

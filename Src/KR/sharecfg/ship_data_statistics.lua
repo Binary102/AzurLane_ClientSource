@@ -113084,7 +113084,7 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[303154] = {
-		name = "最上.改",
+		name = "모가미 .改",
 		type = 3,
 		personality = 2,
 		oxy_max = 0,

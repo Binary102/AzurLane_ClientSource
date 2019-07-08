@@ -785,7 +785,7 @@ pg.medal_template = {
 		explain2 = "탁월한 지휘관"
 	},
 	[10091] = {
-		explain1 = "메탈블러드 명의 여수",
+		explain1 = "메탈블러드 명의 수여",
 		name = "메탈 블러드 해군 무공 훈장 ",
 		type = 0,
 		count_inherit = 0,
@@ -808,7 +808,7 @@ pg.medal_template = {
 		}
 	},
 	[10092] = {
-		explain1 = "메탈블러드 명의 여수",
+		explain1 = "메탈블러드 명의 수여",
 		name = "메탈 블러드 해군 무공 훈장 ",
 		type = 0,
 		count_inherit = 0,
@@ -831,7 +831,7 @@ pg.medal_template = {
 		}
 	},
 	[10093] = {
-		explain1 = "메탈블러드 명의 여수",
+		explain1 = "메탈블러드 명의 수여",
 		name = "메탈 블러드 해군 무공 훈장 ",
 		target_id = "0",
 		type = 0,
@@ -850,7 +850,7 @@ pg.medal_template = {
 		explain2 = "훌륭한 지휘관"
 	},
 	[10094] = {
-		explain1 = "메탈블러드 명의 여수",
+		explain1 = "메탈블러드 명의 수여",
 		name = "메탈 블러드 해군 무공 훈장 ",
 		target_id = "0",
 		type = 0,
@@ -869,7 +869,7 @@ pg.medal_template = {
 		explain2 = "훌륭한 지휘관"
 	},
 	[10095] = {
-		explain1 = "메탈블러드 명의 여수",
+		explain1 = "메탈블러드 명의 수여",
 		name = "메탈 블러드 해군 무공 훈장 ",
 		target_id = "0",
 		type = 0,

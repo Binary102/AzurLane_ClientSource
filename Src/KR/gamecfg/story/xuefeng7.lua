@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "지휘관이라는 통찰력와 순발력이 필요한 일은 이 namecode:22}님이 조금 더 분발해 주겠어!",
+			say = "지휘관이라는 통찰력와 순발력이 필요한 일은 이 {namecode:22}님이 조금 더 분발해 주겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

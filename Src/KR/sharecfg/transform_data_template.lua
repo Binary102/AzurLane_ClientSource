@@ -12706,7 +12706,7 @@ pg.transform_data_template = {
 	},
 	[18801] = {
 		use_gold = 400,
-		name = "舰体改良I",
+		name = "선체 개수Ⅰ",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -12715,7 +12715,7 @@ pg.transform_data_template = {
 		id = 18801,
 		icon = "hp_1",
 		skill_id = 0,
-		descrip = "耐久+80",
+		descrip = "",
 		condition_id = {},
 		effect = {
 			{
@@ -12737,7 +12737,7 @@ pg.transform_data_template = {
 	},
 	[18802] = {
 		use_gold = 600,
-		name = "装填强化I",
+		name = "장전 강화Ⅰ",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -12746,7 +12746,7 @@ pg.transform_data_template = {
 		id = 18802,
 		icon = "rl_1",
 		skill_id = 0,
-		descrip = "装填+5",
+		descrip = "",
 		condition_id = {
 			18801
 		},
@@ -12770,7 +12770,7 @@ pg.transform_data_template = {
 	},
 	[18803] = {
 		use_gold = 800,
-		name = "主炮改良I",
+		name = "주포 개수Ⅰ",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -12779,7 +12779,7 @@ pg.transform_data_template = {
 		id = 18803,
 		icon = "mgup_1",
 		skill_id = 0,
-		descrip = "主炮武器效率+5%",
+		descrip = "",
 		condition_id = {
 			18801
 		},
@@ -12803,7 +12803,7 @@ pg.transform_data_template = {
 	},
 	[18804] = {
 		use_gold = 1000,
-		name = "炮击强化I",
+		name = "포격 강화Ⅰ",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -12812,7 +12812,7 @@ pg.transform_data_template = {
 		id = 18804,
 		icon = "cn_1",
 		skill_id = 0,
-		descrip = "炮击+10",
+		descrip = "",
 		condition_id = {
 			18803
 		},
@@ -12836,7 +12836,7 @@ pg.transform_data_template = {
 	},
 	[18805] = {
 		use_gold = 1200,
-		name = "防空炮改良I",
+		name = "대공포 강화Ⅰ",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -12845,7 +12845,7 @@ pg.transform_data_template = {
 		id = 18805,
 		icon = "aaup_1",
 		skill_id = 0,
-		descrip = "防空炮武器效率+5%",
+		descrip = "",
 		condition_id = {
 			18803
 		},
@@ -12869,7 +12869,7 @@ pg.transform_data_template = {
 	},
 	[18806] = {
 		use_gold = 1500,
-		name = "防空强化I",
+		name = "대공 강화Ⅰ",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -12878,7 +12878,7 @@ pg.transform_data_template = {
 		id = 18806,
 		icon = "aa_1",
 		skill_id = 0,
-		descrip = "防空+15",
+		descrip = "",
 		condition_id = {
 			18805
 		},
@@ -12902,7 +12902,7 @@ pg.transform_data_template = {
 	},
 	[18807] = {
 		use_gold = 1800,
-		name = "舰体改良II",
+		name = "선체 개수Ⅱ",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -12911,7 +12911,7 @@ pg.transform_data_template = {
 		id = 18807,
 		icon = "hp_2",
 		skill_id = 0,
-		descrip = "耐久+80/耐久+120",
+		descrip = "",
 		condition_id = {
 			18805
 		},
@@ -12945,7 +12945,7 @@ pg.transform_data_template = {
 	},
 	[18808] = {
 		use_gold = 2000,
-		name = "雷击强化I",
+		name = "뇌장 강화Ⅰ",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -12954,7 +12954,7 @@ pg.transform_data_template = {
 		id = 18808,
 		icon = "tp_1",
 		skill_id = 0,
-		descrip = "雷击+10",
+		descrip = "",
 		condition_id = {
 			18807
 		},
@@ -12978,7 +12978,7 @@ pg.transform_data_template = {
 	},
 	[18809] = {
 		use_gold = 2500,
-		name = "主炮改良II",
+		name = "주포 개수Ⅱ",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -12987,7 +12987,7 @@ pg.transform_data_template = {
 		id = 18809,
 		icon = "mgup_1",
 		skill_id = 0,
-		descrip = "主炮武器效率+5%/主炮武器效率+5%",
+		descrip = "",
 		condition_id = {
 			18807
 		},
@@ -13021,7 +13021,7 @@ pg.transform_data_template = {
 	},
 	[18810] = {
 		use_gold = 3000,
-		name = "炮击强化II",
+		name = "화력 강화Ⅱ",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -13030,7 +13030,7 @@ pg.transform_data_template = {
 		id = 18810,
 		icon = "cn_2",
 		skill_id = 0,
-		descrip = "炮击+5/炮击+15",
+		descrip = "",
 		condition_id = {
 			18804,
 			18809
@@ -13073,7 +13073,7 @@ pg.transform_data_template = {
 	},
 	[18811] = {
 		use_gold = 4000,
-		name = "近代化改造",
+		name = "근대화 개수",
 		max_level = 1,
 		skin_id = 302109,
 		use_ship = 1,
@@ -13083,13 +13083,13 @@ pg.transform_data_template = {
 		icon = "mt_red",
 		skill_id = 0,
 		descrip = [[
-近代化改造完成
+근대화 개조 완료
 
-改造后<color=#92fc63>【主武器】</color>装备栏位装备类型更改为<color=#92fc63>【重巡主炮】</color>
-原来的<color=#92fc63>【主武器】</color>栏位装备将被放入仓库
-改造后<color=#92fc63>【主炮底座+1】</color>、<color=#92fc63>【鱼雷底座-1】</color>
-改造后<color=#92fc63>【全弹发射II】</color>技能将升级为<color=#92fc63>【全弹发射改】</color>
-改造后<color=#92fc63>【反潜】</color>属性将归零、无法装备<color=#92fc63>声呐和深水炸弹</color>]],
+개조 후<color=#92fc63>[주 무기]</color>장비 칸의 장비 종류가<color=#92fc63>[중순 주포]</color>로 변경.
+기존의<color=#92fc63>[주 무기]</color>칸의 장비는 창고로 이전.
+개조 후<color=#92fc63>[주포 발사 수+1]</color>, <color=#92fc63>[어뢰 발사 수-1]</color>
+개조 후<color=#92fc63>[전탄 발사II]</color>스킬,<color=#92fc63>[전탄 발사·改]</color>로 업그레이드.
+개조 후<color=#92fc63>[대잠]</color>속성은 0으로 돌아가며, <color=#92fc63>소나와 폭뢰</color>를 착용 불가. ]],
 		condition_id = {
 			18809,
 			18810
@@ -13120,7 +13120,7 @@ pg.transform_data_template = {
 	},
 	[18812] = {
 		use_gold = 3000,
-		name = "战术启发",
+		name = "전술 확충",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -13129,7 +13129,7 @@ pg.transform_data_template = {
 		id = 18812,
 		icon = "skill_red",
 		skill_id = 11220,
-		descrip = "习得技能【持续打击】",
+		descrip = "",
 		condition_id = {
 			18811
 		},

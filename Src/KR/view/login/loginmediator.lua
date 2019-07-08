@@ -159,7 +159,6 @@ function slot0.handleNotification(slot0, slot1)
 				system = SYSTEM_PROLOGUE
 			})
 		else
-			slot0:blockEvents()
 			slot0.facade:sendNotification(GAME.LOAD_PLAYER_DATA, {
 				id = slot3.uid
 			})

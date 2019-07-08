@@ -806,7 +806,7 @@ function updateDrop(slot0, slot1, slot2)
 	for slot12, slot13 in ipairs(slot7) do
 		slot8 = slot0:Find(slot13[1])
 
-		if slot1.type ~= slot13[2] and not IsNil(slot8) then
+		if slot4 ~= slot13[2] and not IsNil(slot8) then
 			setActive(slot8, false)
 		end
 	end

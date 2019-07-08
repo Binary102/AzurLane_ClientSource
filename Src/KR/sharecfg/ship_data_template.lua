@@ -60182,7 +60182,7 @@ pg.ship_data_template = {
 			19190,
 			19200,
 			19210,
-			19000
+			19001
 		},
 		hide_buff_list = {
 			53
@@ -60231,7 +60231,7 @@ pg.ship_data_template = {
 			19190,
 			19200,
 			19210,
-			19000
+			19002
 		},
 		hide_buff_list = {
 			53

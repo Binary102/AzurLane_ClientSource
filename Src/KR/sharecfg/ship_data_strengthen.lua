@@ -2770,11 +2770,11 @@ pg.ship_data_strengthen = {
 			47
 		},
 		level_exp = {
+			30,
+			25,
 			0,
 			0,
-			0,
-			0,
-			0
+			15
 		},
 		attr_exp = {
 			12,

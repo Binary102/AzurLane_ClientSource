@@ -59,9 +59,7 @@ function slot0.listNotificationInterests(slot0)
 		GAME.BUILD_SHIP_IMMEDIATELY_DONE,
 		BuildShipProxy.REMOVED,
 		BuildShipProxy.UPDATED,
-		PlayerProxy.UPDATED,
-		GAME.SKIP_BATCH_DONE,
-		GAME.START_BATCH_GET_SHIP
+		PlayerProxy.UPDATED
 	}
 end
 
@@ -80,10 +78,6 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:updateProject(slot3.index, slot3.buildShip)
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:updatePlayer(slot3)
-	elseif slot2 == GAME.SKIP_BATCH_DONE then
-		slot0:unblockEvents()
-	elseif slot2 == GAME.START_BATCH_GET_SHIP then
-		slot0:blockEvents()
 	end
 end
 

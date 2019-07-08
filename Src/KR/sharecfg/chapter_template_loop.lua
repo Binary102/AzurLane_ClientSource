@@ -16206,7 +16206,7 @@ pg.chapter_template_loop = {
 	[1100001] = {
 		enter_story = "",
 		submarine_num = 0,
-		boss_refresh = 5,
+		boss_refresh = 3,
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
@@ -16217,7 +16217,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
-		avoid_ratio = 10,
+		avoid_ratio = 14,
 		time = 43200,
 		mine_id = 2001,
 		uifx = "",
@@ -16306,8 +16306,6 @@ pg.chapter_template_loop = {
 		},
 		enemy_refresh = {
 			0,
-			1,
-			1,
 			1,
 			1
 		},
@@ -16644,7 +16642,7 @@ pg.chapter_template_loop = {
 	[1100002] = {
 		enter_story = "",
 		submarine_num = 0,
-		boss_refresh = 5,
+		boss_refresh = 4,
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
@@ -16655,7 +16653,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
-		avoid_ratio = 11,
+		avoid_ratio = 15,
 		time = 43200,
 		mine_id = 2001,
 		uifx = "",
@@ -16744,7 +16742,6 @@ pg.chapter_template_loop = {
 		},
 		enemy_refresh = {
 			0,
-			1,
 			1,
 			1,
 			1
@@ -17138,7 +17135,7 @@ pg.chapter_template_loop = {
 	[1100003] = {
 		enter_story = "",
 		submarine_num = 0,
-		boss_refresh = 6,
+		boss_refresh = 4,
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
@@ -17149,7 +17146,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
-		avoid_ratio = 12,
+		avoid_ratio = 16,
 		time = 43200,
 		mine_id = 2001,
 		uifx = "",
@@ -17238,8 +17235,7 @@ pg.chapter_template_loop = {
 		},
 		enemy_refresh = {
 			0,
-			1,
-			1,
+			2,
 			1,
 			1
 		},
@@ -17700,7 +17696,7 @@ pg.chapter_template_loop = {
 	[1100004] = {
 		enter_story = "",
 		submarine_num = 0,
-		boss_refresh = 6,
+		boss_refresh = 5,
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
@@ -17711,7 +17707,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
-		avoid_ratio = 12,
+		avoid_ratio = 15,
 		time = 43200,
 		mine_id = 2001,
 		uifx = "",
@@ -18212,7 +18208,7 @@ pg.chapter_template_loop = {
 	[1100005] = {
 		enter_story = "",
 		submarine_num = 0,
-		boss_refresh = 6,
+		boss_refresh = 5,
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
@@ -18223,7 +18219,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
-		avoid_ratio = 13,
+		avoid_ratio = 16,
 		time = 43200,
 		mine_id = 2001,
 		uifx = "",
@@ -18826,7 +18822,7 @@ pg.chapter_template_loop = {
 	[1100006] = {
 		enter_story = "",
 		submarine_num = 0,
-		boss_refresh = 7,
+		boss_refresh = 5,
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
@@ -18837,7 +18833,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
-		avoid_ratio = 14,
+		avoid_ratio = 17,
 		time = 43200,
 		mine_id = 2001,
 		uifx = "",
@@ -19445,7 +19441,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
-		avoid_ratio = 14,
+		avoid_ratio = 17,
 		time = 43200,
 		mine_id = 2001,
 		uifx = "",
@@ -19470,7 +19466,7 @@ pg.chapter_template_loop = {
 			{
 				{
 					5,
-					4,
+					5,
 					0
 				},
 				{
@@ -19484,17 +19480,17 @@ pg.chapter_template_loop = {
 			{
 				"level",
 				1,
-				70
+				60
 			},
 			{
 				"torpedo",
 				1,
-				700
+				550
 			},
 			{
 				"dodge",
 				1,
-				400
+				320
 			}
 		},
 		expedition_id_weight_list = {
@@ -19913,7 +19909,7 @@ pg.chapter_template_loop = {
 	[1100012] = {
 		enter_story = "",
 		submarine_num = 0,
-		boss_refresh = 6,
+		boss_refresh = 5,
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
@@ -19924,7 +19920,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
-		avoid_ratio = 15,
+		avoid_ratio = 18,
 		time = 43200,
 		mine_id = 2001,
 		uifx = "",
@@ -19949,7 +19945,7 @@ pg.chapter_template_loop = {
 			{
 				{
 					5,
-					4,
+					5,
 					0
 				},
 				{
@@ -19963,17 +19959,17 @@ pg.chapter_template_loop = {
 			{
 				"level",
 				1,
-				73
+				64
 			},
 			{
 				"cannon",
 				1,
-				850
+				650
 			},
 			{
 				"dodge",
 				1,
-				450
+				360
 			}
 		},
 		expedition_id_weight_list = {
@@ -20448,7 +20444,7 @@ pg.chapter_template_loop = {
 	[1100013] = {
 		enter_story = "",
 		submarine_num = 0,
-		boss_refresh = 6,
+		boss_refresh = 5,
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
@@ -20459,7 +20455,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
-		avoid_ratio = 16,
+		avoid_ratio = 19,
 		time = 43200,
 		mine_id = 2001,
 		uifx = "",
@@ -20484,7 +20480,7 @@ pg.chapter_template_loop = {
 			{
 				{
 					5,
-					4,
+					5,
 					0
 				},
 				{
@@ -20498,17 +20494,17 @@ pg.chapter_template_loop = {
 			{
 				"level",
 				1,
-				76
+				68
 			},
 			{
 				"cannon",
 				1,
-				950
+				750
 			},
 			{
 				"air",
 				-1,
-				2000
+				1800
 			}
 		},
 		expedition_id_weight_list = {
@@ -21052,7 +21048,7 @@ pg.chapter_template_loop = {
 	[1100014] = {
 		enter_story = "",
 		submarine_num = 0,
-		boss_refresh = 6,
+		boss_refresh = 5,
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
@@ -21063,7 +21059,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
-		avoid_ratio = 15,
+		avoid_ratio = 19,
 		time = 43200,
 		mine_id = 2001,
 		uifx = "",
@@ -21076,7 +21072,7 @@ pg.chapter_template_loop = {
 			{
 				{
 					7,
-					4,
+					5,
 					0
 				},
 				{
@@ -21102,17 +21098,17 @@ pg.chapter_template_loop = {
 			{
 				"level",
 				1,
-				80
+				72
 			},
 			{
 				"torpedo",
 				1,
-				800
+				750
 			},
 			{
 				"dodge",
 				1,
-				550
+				450
 			}
 		},
 		expedition_id_weight_list = {
@@ -21606,7 +21602,7 @@ pg.chapter_template_loop = {
 	[1100015] = {
 		enter_story = "",
 		submarine_num = 0,
-		boss_refresh = 7,
+		boss_refresh = 6,
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
@@ -21617,7 +21613,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
-		avoid_ratio = 16,
+		avoid_ratio = 20,
 		time = 43200,
 		mine_id = 2001,
 		uifx = "",
@@ -21630,7 +21626,7 @@ pg.chapter_template_loop = {
 			{
 				{
 					7,
-					4,
+					5,
 					0
 				},
 				{
@@ -21656,17 +21652,17 @@ pg.chapter_template_loop = {
 			{
 				"level",
 				1,
-				83
+				76
 			},
 			{
 				"air",
 				1,
-				1200
+				900
 			},
 			{
 				"antiaircraft",
 				1,
-				1800
+				1400
 			}
 		},
 		expedition_id_weight_list = {
@@ -22262,7 +22258,7 @@ pg.chapter_template_loop = {
 	[1100016] = {
 		enter_story = "",
 		submarine_num = 0,
-		boss_refresh = 7,
+		boss_refresh = 6,
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
@@ -22273,7 +22269,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
-		avoid_ratio = 17,
+		avoid_ratio = 21,
 		time = 43200,
 		mine_id = 2001,
 		uifx = "",
@@ -22286,7 +22282,7 @@ pg.chapter_template_loop = {
 			{
 				{
 					7,
-					4,
+					5,
 					0
 				},
 				{
@@ -22312,17 +22308,17 @@ pg.chapter_template_loop = {
 			{
 				"level",
 				1,
-				86
+				80
 			},
 			{
 				"cannon",
 				1,
-				1350
+				1000
 			},
 			{
 				"antiaircraft",
 				1,
-				2500
+				1800
 			}
 		},
 		expedition_id_weight_list = {
@@ -42386,13 +42382,6 @@ pg.chapter_template_loop = {
 				"1x1_3faxihuodong_normal",
 				13,
 				8
-			},
-			{
-				2,
-				8,
-				"1x1_2faxihuodong_normal",
-				0,
-				0
 			},
 			{
 				1,

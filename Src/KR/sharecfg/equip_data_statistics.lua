@@ -58174,7 +58174,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 45,
 		icon = "50600",
-		value_1 = "25/회",
+		value_1 = "38/회",
 		attribute_2 = "antiaircraft",
 		avoid_extra = 0,
 		rarity = 5,
@@ -58199,7 +58199,7 @@ pg.equip_data_statistics = {
 		id = 90601,
 		base = 90600,
 		is_siren = 0,
-		value_1 = "29/회",
+		value_1 = "42/회",
 		weapon_id = {
 			90601
 		},
@@ -58209,7 +58209,7 @@ pg.equip_data_statistics = {
 		id = 90602,
 		base = 90600,
 		is_siren = 0,
-		value_1 = "33/회",
+		value_1 = "46/회",
 		weapon_id = {
 			90602
 		},
@@ -58219,7 +58219,7 @@ pg.equip_data_statistics = {
 		id = 90603,
 		base = 90600,
 		is_siren = 0,
-		value_1 = "37/회",
+		value_1 = "50/회",
 		weapon_id = {
 			90603
 		},
@@ -58229,7 +58229,7 @@ pg.equip_data_statistics = {
 		id = 90604,
 		base = 90600,
 		is_siren = 0,
-		value_1 = "41/회",
+		value_1 = "54/회",
 		weapon_id = {
 			90604
 		},
@@ -58239,7 +58239,7 @@ pg.equip_data_statistics = {
 		id = 90605,
 		base = 90600,
 		is_siren = 0,
-		value_1 = "45/회",
+		value_1 = "58/회",
 		weapon_id = {
 			90605
 		},
@@ -58249,7 +58249,7 @@ pg.equip_data_statistics = {
 		id = 90606,
 		base = 90600,
 		is_siren = 0,
-		value_1 = "49/회",
+		value_1 = "62/회",
 		weapon_id = {
 			90606
 		},
@@ -58259,7 +58259,7 @@ pg.equip_data_statistics = {
 		id = 90607,
 		base = 90600,
 		is_siren = 0,
-		value_1 = "53/회",
+		value_1 = "66/회",
 		weapon_id = {
 			90607
 		},
@@ -58269,7 +58269,7 @@ pg.equip_data_statistics = {
 		id = 90608,
 		base = 90600,
 		is_siren = 0,
-		value_1 = "57/회",
+		value_1 = "70/회",
 		weapon_id = {
 			90608
 		},
@@ -58279,7 +58279,7 @@ pg.equip_data_statistics = {
 		id = 90609,
 		base = 90600,
 		is_siren = 0,
-		value_1 = "61/회",
+		value_1 = "74/회",
 		weapon_id = {
 			90609
 		},
@@ -58289,7 +58289,7 @@ pg.equip_data_statistics = {
 		id = 90610,
 		base = 90600,
 		is_siren = 0,
-		value_1 = "65/회",
+		value_1 = "78/회",
 		weapon_id = {
 			90610
 		},

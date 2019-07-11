@@ -10452,7 +10452,7 @@ UID: 사령부에서 각 지휘관에게 전달한 고유의 신분 증명
 		key = "challenge_end_tip"
 	},
 	pass_times = {
-		tip = "通关次数",
+		tip = "클리어 횟수 ",
 		key = "pass_times"
 	},
 	list_empty_tip_billboardui = {

@@ -204,11 +204,6 @@ function slot0.setMode(slot0)
 	setActive(slot0:findTF("name_container/Image", slot0.topPanel), not slot0.isVisitMode)
 	setActive(slot0:findTF("name_container/Image", slot0.topPanel), not isVisitMode)
 	setActive(slot0.floorBtn, not slot0.isVisitMode)
-
-	if LOCK_SEC_FLOOR then
-		setActive(slot0.floorBtn, false)
-	end
-
 	setActive(slot0.eyeBtn, not slot0.isVisitMode)
 	setActive(slot0.clickTF, not slot0.isVisitMode)
 

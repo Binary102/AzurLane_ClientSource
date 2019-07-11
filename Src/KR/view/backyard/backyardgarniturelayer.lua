@@ -122,7 +122,7 @@ function slot0.didEnter(slot0)
 		else
 			slot0:filter(slot0.contextData.index or 0)
 		end
-	end, SFX_PANEL, SFX_PANEL)
+	end, SFX_PANEL)
 	triggerToggle(slot0.sortBtn, true)
 	onInputChanged(slot0, slot0.searchBar, function (slot0)
 		slot0.searchKey = slot0
@@ -263,7 +263,6 @@ end
 function slot0.applyTheme(slot0, slot1)
 	slot2 = {}
 	slot3 = pg.furniture_data_template
-	slot4 = pg.furniture_data_template
 
 	table.sort(slot1, function (slot0, slot1)
 		if ((slot0.parent ~= 0 and 1) or 0) == ((slot1.parent ~= 0 and 1) or 0) then
@@ -277,7 +276,7 @@ function slot0.applyTheme(slot0, slot1)
 		end
 	end)
 
-	for slot8, slot9 in ipairs(slot1) do
+	for slot7, slot8 in ipairs(slot1) do
 		table.insert(slot2, function (slot0)
 			if Furniture.New(slot0).position then
 				slot1:emit(BackYardGarnitureMediator.ADD_FURNITURE, slot1, slot0)
@@ -458,11 +457,9 @@ function slot0.filterAll(slot0, slot1)
 		return
 	end
 
-	slot2 = Furniture.INDEX_TO_TYPES[slot1]
-
-	for slot6, slot7 in pairs(slot0.furnitureVOs) do
-		if table.contains(slot2, slot7:getConfig("type")) and slot7:isMatchSearchKey(slot0.searchKey) then
-			table.insert(slot0.decorationVOs, slot7)
+	for slot5, slot6 in pairs(slot0.furnitureVOs) do
+		if slot1 == slot6:getConfig("tag") and slot6:isMatchSearchKey(slot0.searchKey) then
+			table.insert(slot0.decorationVOs, slot6)
 		end
 	end
 end

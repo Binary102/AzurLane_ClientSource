@@ -45,7 +45,9 @@ slot0.CLICK_CHALLENGE_BTN = "LevelMediator2:CLICK_CHALLENGE_BTN"
 function slot0.register(slot0)
 	slot1 = getProxy(PlayerProxy)
 
-	slot0:bind(slot0.ON_COMMANDER_OP, function (slot0, slot1)
+	slot0:bind(slot0.ON_COMMANDER_OP, function (slot0, slot1, slot2)
+		slot0.contextData.commanderOPChapter = slot2
+
 		slot0:sendNotification(GAME.COMMANDER_FORMATION_OP, {
 			data = slot1
 		})
@@ -601,7 +603,11 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == ChapterProxy.CHAPTER_UPDATED then
 		slot0.viewComponent:updateChapterVO(slot3.chapter, slot3.dirty)
 	elseif slot2 == GAME.COMMANDER_ELIT_FORMATION_OP_DONE then
-		slot0.viewComponent:updateFleetEdit(slot3.chapterId, slot3.index)
+		if slot0.contextData.commanderOPChapter then
+			slot0.contextData.commanderOPChapter.eliteCommanderList = getProxy(ChapterProxy):getChapterById(slot3.chapterId).eliteCommanderList
+
+			slot0.viewComponent:updateFleetEdit(elf.contextData.commanderOPChapter, slot3.index)
+		end
 	elseif slot2 == ChapterProxy.CHAPTER_ADDED then
 		slot0.viewComponent:updateChapterVO(slot3.chapter, 0)
 	elseif slot2 == ChapterProxy.CHAPTER_EXTAR_FLAG_UPDATED then

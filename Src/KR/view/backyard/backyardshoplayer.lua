@@ -115,7 +115,7 @@ function slot0.didEnter(slot0)
 	slot0:initTags()
 	onToggle(slot0, slot0.ascToggle, function (slot0)
 		slot0:updateFurnitureOrder(slot0)
-	end, SFX_PANEL, SFX_PANEL)
+	end, SFX_PANEL)
 	onButton(slot0, slot0.filterBtn, function ()
 		slot0:openIndexPanel()
 	end, SFX_PANEL)
@@ -264,17 +264,9 @@ function slot0.initThemeItem(slot0, slot1)
 
 	onButton(slot0, slot2.maskLocked, function ()
 		slot0:showMsgBox({
-			number = 0,
-			isShowCalc = true,
-			maxNumber = 1,
-			isTheme = true,
-			hideGem = true,
-			isLock = true,
-			max = 1,
 			icon = slot1.themeVO:getConfig("icon"),
 			content = i18n("backyard_theme_lock_tip"),
-			desc = i18n("backyard_theme_open_tip", slot1.themeVO:getConfig("deblocking")),
-			ids = slot1.themeVO:getRemainFurIds(slot0.furnitureVOs)
+			desc = i18n("backyard_theme_open_tip", slot1.themeVO:getConfig("deblocking"))
 		}, nil, true)
 	end)
 	onButton(slot0, slot2.tr, function ()
@@ -708,9 +700,9 @@ function slot0.showMsgBox(slot0, slot1, slot2, slot3)
 			removeOnButton(slot0:findTF("max", slot5))
 		end
 
-		setActive(slot9, slot15 > 0 and not slot1.isLock)
-		setActive(slot10, slot14 > 0 and not slot1.isLock)
-		setActive(slot7, slot1.isLock)
+		setActive(slot9, slot15 > 0)
+		setActive(slot10, slot14 > 0)
+		setActive(slot7, false)
 	end
 
 	setActive(slot6, slot1.purchased)

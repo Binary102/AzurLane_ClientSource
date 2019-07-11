@@ -1408,6 +1408,47 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1050000] = {
+		map = 1050000,
+		name = "오퍼레이션 주노|| ||SP. CHAPTER||SP.",
+		bgm = "level02",
+		type = 3,
+		on_activity = 20224,
+		title = "SP",
+		drop_by_map_display = "",
+		enter_story = "ZHUNUO1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "white",
+		bg = "Map_1050000",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1050010] = {
 		map = 1050010,
 		name = "오퍼레이션 주노|| ||SP. CHAPTER||SP.",
@@ -3770,6 +3811,7 @@ pg.expedition_data_by_map = {
 		1040001,
 		1040010,
 		1040011,
+		1050000,
 		1050010,
 		1060000,
 		1060001,

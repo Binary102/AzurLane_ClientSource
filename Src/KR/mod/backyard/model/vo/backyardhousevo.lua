@@ -876,10 +876,9 @@ end
 
 function slot0.getCountByIndex(slot0, slot1)
 	slot2 = 0
-	slot3 = Furniture.INDEX_TO_TYPES[slot1]
 
-	for slot7, slot8 in pairs(slot0.furnitures) do
-		if table.contains(slot3, slot8:getConfig("type")) then
+	for slot6, slot7 in pairs(slot0.furnitures) do
+		if slot1 == slot7:getConfig("tag") then
 			slot2 = slot2 + 1
 		end
 	end
@@ -895,12 +894,8 @@ function slot0.getCountByIndex(slot0, slot1)
 	return slot2
 end
 
-function slot0.getIndexByType(slot0)
-	for slot4, slot5 in ipairs(Furniture.INDEX_TO_TYPES) do
-		if table.contains(slot5, slot0) then
-			return slot4
-		end
-	end
+function slot0.getIndexByType(slot0, slot1)
+	return slot1:getConfig("tag")
 end
 
 function slot0.canPutFurniture(slot0, slot1)
@@ -908,7 +903,7 @@ function slot0.canPutFurniture(slot0, slot1)
 		return true
 	end
 
-	return slot0:getCountByIndex(slot3) < pg.dorm_data_template[slot0.level].limit[slot0.getIndexByType(slot2)]
+	return slot0:getCountByIndex(slot3) < pg.dorm_data_template[slot0.level].limit[slot0:getIndexByType(slot1)]
 end
 
 function slot0.getSameConfigIdFurnitrues(slot0, slot1)
@@ -1036,6 +1031,38 @@ function slot0.getMoveableFurnitures(slot0)
 	end
 
 	return slot1
+end
+
+function slot0.getTransportPoint(slot0, slot1, slot2)
+	if slot0.furnitures[slot2]:isTransPort() and slot0:hasEmptyGrid() then
+		return function (slot0)
+			slot1 = {
+				slot0
+			}
+			slot2 = {}
+
+			function slot3(slot0)
+				if not table.contains(slot0, slot0) and not slot1:isBound(slot0) then
+					table.insert(slot2, slot0)
+				end
+			end
+
+			while #slot1 > 0 do
+				if slot0:canMoveBoat(slot1, table.remove(slot1, 1)) then
+					return slot4
+				else
+					slot3(Vector2(slot4.x, slot4.y - 1))
+					slot3(Vector2(slot4.x - 1, slot4.y))
+					slot3(Vector2(slot4.x + 1, slot4.y))
+					slot3(Vector2(slot4.x, slot4.y + 1))
+				end
+
+				table.insert(slot2, slot4)
+			end
+		end(slot3:getTransportPoint())
+	else
+		return slot0:getSingleByRamdom()
+	end
 end
 
 function slot0.getSaveData(slot0)

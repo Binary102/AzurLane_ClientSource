@@ -76,6 +76,12 @@ function slot0.execute(slot0, slot1)
 		end
 	elseif slot3 == BACKYARD.SHIP_EXITED then
 		slot4:exitShipById(slot2.id)
+	elseif slot3 == BACKYARD.INTERACTION_TRANSPORT then
+		slot4:InterActionTransport(slot2.shipId, slot2.furnitureId)
+	elseif slot3 == BACKYARD.INTERACTION_TRANSPORT_AGAIN then
+		slot4:InterActionTransportAgain(slot2.shipId, slot2.furnitureId)
+	elseif slot3 == BACKYARD.INTERACTION_TRANSPORT_END then
+		slot4:InterActionTransportEnd(slot2.shipId, slot2.furnitureId)
 	end
 end
 

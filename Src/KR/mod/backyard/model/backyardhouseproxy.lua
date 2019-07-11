@@ -30,6 +30,9 @@ slot0.ON_SPINE_EXTRA_INTERACTION = "BackYardHouseProxy_ON_SPINE_EXTRA_INTERACTIO
 slot0.ON_CLEAR_SPINE_EXTRA_INTERACTION = "BackYardHouseProxy_ON_CLEAR_SPINE_EXTRA_INTERACTION"
 slot0.APPLY_EFFECT = "BackYardHouseProxy_APPLY_EFFECT"
 slot0.DISABLE_EFFECT = "BackYardHouseProxy_DISABLE_EFFECT"
+slot0.TRANSPORT_INTERAACTION_START = "BackYardHouseProxy_TRANSPORT_INTERAACTION_START"
+slot0.TRANSPORT_INTERAACTION_START_AGAIN = "BackYardHouseProxy_TRANSPORT_INTERAACTION_START_AGAIN"
+slot0.TRANSPORT_INTERAACTION_START_END = "BackYardHouseProxy_TRANSPORT_INTERAACTION_START_END"
 slot1 = require("Mod/BackYard/view/BackYardTool")
 slot2 = pg.furniture_compose_template
 
@@ -216,6 +219,50 @@ function slot0.addInterAction(slot0, slot1, slot2)
 	slot0:sendNotification(slot0.CHANGE_BGM, {
 		furnitureId = slot2
 	})
+end
+
+function slot0.InterActionTransport(slot0, slot1, slot2)
+	slot0:cancelShipMove(slot1)
+	slot0:changeShipPos(slot1, slot5)
+	slot0.data.ships[slot1].setLockPosition(slot3, nil)
+	slot0.data.ships[slot1].setSpineId(slot3, slot2)
+	slot0.data.furnitures[slot2].setSpineId(slot4, slot1)
+	slot0:sendNotification(slot0.TRANSPORT_INTERAACTION_START, {
+		shipId = slot1,
+		furnitureId = slot2
+	})
+end
+
+function slot0.InterActionTransportAgain(slot0, slot1, slot2)
+	slot0.data.ships[slot1].setSpineId(slot3, nil)
+	slot0.data.furnitures[slot2].setSpineId(slot4, nil)
+
+	slot5 = {}
+
+	for slot10, slot11 in pairs(slot6) do
+		if slot11:isTransPort() and slot4.configId == slot11.configId then
+			table.insert(slot5, slot11.id)
+		end
+	end
+
+	slot7 = nil
+
+	slot0:sendNotification(slot0.TRANSPORT_INTERAACTION_START_AGAIN, {
+		shipId = slot1,
+		furnitureId = (#slot5 ~= 1 or slot5[1]) and _.detect(slot5, function (slot0)
+			return slot0 ~= slot0
+		end)
+	})
+end
+
+function slot0.InterActionTransportEnd(slot0, slot1, slot2)
+	slot0.data.ships[slot1].setSpineId(slot3, nil)
+	slot0.data.furnitures[slot2].setSpineId(slot4, nil)
+	slot0:sendNotification(slot0.TRANSPORT_INTERAACTION_START_END, {
+		shipId = slot1
+	})
+	slot0:changeShipPos(slot1, slot5)
+	slot0:addShipMove(slot1, true)
 end
 
 function slot0.addSpineInterAction(slot0, slot1, slot2)
@@ -589,14 +636,20 @@ function slot0.shipRomdonMove(slot0, slot1, slot2)
 		slot0.delayTimer[slot3] = nil
 	end
 
-	slot0.delayTimer[slot3] = Timer.New(function ()
-		slot0.timer[slot1]:Start()
-		slot0.timer[slot1].Start.delayTimer[slot0.timer[slot1]]:Stop()
+	slot7 = math.random(10, 20)
 
-		slot0.timer[slot1].Start.delayTimer[slot0.timer[slot1]].Stop.delayTimer[slot0.timer[slot1].Start.delayTimer[slot0.timer[slot1]]] = nil
-	end, (slot2 and 0.0001) or math.random(10, 20), 1)
+	if slot2 then
+		slot0.timer[slot3]:Start()
+	else
+		slot0.delayTimer[slot3] = Timer.New(function ()
+			slot0.timer[slot1]:Start()
+			slot0.timer[slot1].Start.delayTimer[slot0.timer[slot1]]:Stop()
 
-	slot0.delayTimer[slot3]:Start()
+			slot0.timer[slot1].Start.delayTimer[slot0.timer[slot1]].Stop.delayTimer[slot0.timer[slot1].Start.delayTimer[slot0.timer[slot1]]] = nil
+		end, slot7, 1)
+
+		slot0.delayTimer[slot3]:Start()
+	end
 end
 
 function slot0.updateArchState(slot0, slot1, slot2)
@@ -841,8 +894,6 @@ function slot0.initWallFurnitruePos(slot0, slot1, slot2)
 end
 
 function slot0.getFurnitureById(slot0, slot1)
-	print(slot1)
-
 	return slot0.data.furnitures[slot1]
 end
 

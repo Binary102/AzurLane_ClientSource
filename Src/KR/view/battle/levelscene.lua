@@ -2251,12 +2251,14 @@ end
 
 function slot0.updateFleetEdit(slot0, slot1, slot2)
 	if slot0.levelFleetView and slot0.levelFleetView:GetLoaded() then
-		if slot0.contextData.map:getChapter(slot1) and slot0.levelFleetView.chapter.id == slot4.id then
-			slot0.levelFleetView:ActionInvoke("setOnHard", slot4)
+		slot3 = slot0.contextData.map
+
+		if slot1 and slot0.levelFleetView.chapter.id == slot1.id then
+			slot0.levelFleetView:ActionInvoke("setOnHard", slot1)
 		end
 
-		if slot4 and slot0.levelCMDFormationView and slot0.levelCMDFormationView:GetLoaded() then
-			slot0.levelCMDFormationView:ActionInvoke("updateFleet", slot4:wrapEliteFleet(slot2))
+		if slot1 and slot0.levelCMDFormationView and slot0.levelCMDFormationView:GetLoaded() then
+			slot0.levelCMDFormationView:ActionInvoke("updateFleet", slot1:wrapEliteFleet(slot2))
 		end
 	end
 
@@ -3666,8 +3668,8 @@ function slot0.openCommanderPanel(slot0, slot1, slot2, slot3)
 					FleetType = LevelUIConst.FLEET_TYPE_SELECT,
 					data = slot0,
 					fleetId = slot2.id,
-					chapterId = slot0.emit
-				})
+					chapterId = slot1
+				}, chapter)
 			end
 
 			return
@@ -3688,8 +3690,8 @@ function slot0.openCommanderPanel(slot0, slot1, slot2, slot3)
 					FleetType = LevelUIConst.FLEET_TYPE_EDIT,
 					data = slot0,
 					index = slot1,
-					chapterId = slot0
-				})
+					chapterId = slot2
+				}, chapter)
 			end
 
 			return

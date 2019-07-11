@@ -1469,6 +1469,318 @@ pg.emoji_template = {
 			1
 		}
 	},
+	[301] = {
+		achieve = 0,
+		index = 970,
+		pic = "part2_abc",
+		desc = "<color=#92fc63>[えいえいおー]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 301,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	[302] = {
+		achieve = 0,
+		index = 971,
+		pic = "part2_arky",
+		desc = "<color=#92fc63>[パシャ]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 302,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	[303] = {
+		achieve = 0,
+		index = 972,
+		pic = "part2_aks3",
+		desc = "<color=#92fc63>[落ちるにゃ]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 303,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	[304] = {
+		achieve = 0,
+		index = 973,
+		pic = "part2_aynm",
+		desc = "<color=#92fc63>[ああああ]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 304,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	[305] = {
+		achieve = 0,
+		index = 974,
+		pic = "part2_bbr",
+		desc = "<color=#92fc63>[いいね]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 305,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	[306] = {
+		achieve = 0,
+		index = 975,
+		pic = "part2_bil",
+		desc = "<color=#92fc63>[マジック！]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 306,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	[307] = {
+		achieve = 0,
+		index = 976,
+		pic = "part2_brcr",
+		desc = "<color=#92fc63>[照れるな///]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 307,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	[308] = {
+		achieve = 0,
+		index = 977,
+		pic = "part2_crb",
+		desc = "<color=#92fc63>[一緒にどうだ？]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 308,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	[309] = {
+		achieve = 0,
+		index = 978,
+		pic = "part2_dih",
+		desc = "<color=#92fc63>[パタッ]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 309,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	[310] = {
+		achieve = 0,
+		index = 979,
+		pic = "part2_edrj",
+		desc = "<color=#92fc63>[充電中]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 310,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	[311] = {
+		achieve = 0,
+		index = 980,
+		pic = "part2_etpriz",
+		desc = "<color=#92fc63>[行け！]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 311,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	[312] = {
+		achieve = 0,
+		index = 981,
+		pic = "part2_flfy",
+		desc = "<color=#92fc63>[うわあああ]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 312,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	[313] = {
+		achieve = 0,
+		index = 982,
+		pic = "part2_fs",
+		desc = "<color=#92fc63>[よっしゃー！]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 313,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	[314] = {
+		achieve = 0,
+		index = 983,
+		pic = "part2_hbk",
+		desc = "<color=#92fc63>[プーーー]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 314,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	[315] = {
+		achieve = 0,
+		index = 984,
+		pic = "part2_hnnn",
+		desc = "<color=#92fc63>[あばばばば]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 315,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	[316] = {
+		achieve = 0,
+		index = 985,
+		pic = "part2_hp",
+		desc = "<color=#92fc63>[ツンツン丸]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 316,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	[317] = {
+		achieve = 0,
+		index = 986,
+		pic = "part2_jbr",
+		desc = "<color=#92fc63>[ピンポン]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 317,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	[318] = {
+		achieve = 0,
+		index = 987,
+		pic = "part2_lp",
+		desc = "<color=#92fc63>[ガブガブ]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 318,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	[319] = {
+		achieve = 0,
+		index = 988,
+		pic = "part2_mknm",
+		desc = "<color=#92fc63>[えへへー]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 319,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	[320] = {
+		achieve = 0,
+		index = 989,
+		pic = "part2_mks",
+		desc = "<color=#92fc63>[ガーン]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 320,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	[321] = {
+		achieve = 0,
+		index = 990,
+		pic = "part2_sdeig",
+		desc = "<color=#92fc63>[あちこち]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 321,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	[322] = {
+		achieve = 0,
+		index = 991,
+		pic = "part2_srcy",
+		desc = "<color=#92fc63>[バタバタ]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 322,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	[323] = {
+		achieve = 0,
+		index = 992,
+		pic = "part2_ync",
+		desc = "<color=#92fc63>[♪～]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 323,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	[324] = {
+		achieve = 0,
+		index = 993,
+		pic = "part2_z23",
+		desc = "<color=#92fc63>[聞いてください！]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 324,
+		icon = "",
+		type = {
+			2
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1582,7 +1894,31 @@ pg.emoji_template = {
 		237,
 		238,
 		239,
-		240
+		240,
+		301,
+		302,
+		303,
+		304,
+		305,
+		306,
+		307,
+		308,
+		309,
+		310,
+		311,
+		312,
+		313,
+		314,
+		315,
+		316,
+		317,
+		318,
+		319,
+		320,
+		321,
+		322,
+		323,
+		324
 	}
 }
 

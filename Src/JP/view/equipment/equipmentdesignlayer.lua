@@ -31,13 +31,16 @@ function slot0.init(slot0)
 	slot0.decBtn = slot0:findTF("dec_btn", slot0.sortBtn)
 	slot0.sortImgAsc = slot0:findTF("asc", slot0.decBtn)
 	slot0.sortImgDec = slot0:findTF("desc", slot0.decBtn)
+	slot0.indexPanel = slot0:findTF("index")
+	slot0.tagContainer = slot0:findTF("adapt/mask/panel", slot0.indexPanel)
+	slot0.tagTpl = slot0:findTF("tpl", slot0.tagContainer)
 	slot0.UIMgr = pg.UIMgr.GetInstance()
 
 	setActive(slot0.equipmentView, false)
 	setParent(slot0._tf, slot0.parentTF)
 	slot0._tf:SetSiblingIndex(slot1)
 
-	slot0.listEmptyTF = slot0.contextData.emptyTF
+	slot0.listEmptyTF = slot0:findTF("empty")
 
 	setActive(slot0.listEmptyTF, false)
 
@@ -57,11 +60,6 @@ function slot0.didEnter(slot0)
 	slot0.topPanel = GameObject.Find("/OverlayCamera/Overlay/UIMain/blur_panel/adapt/top")
 
 	setParent(slot0.top, slot0.topPanel)
-
-	slot0.indexPanel = slot0.contextData.indexTF
-	slot0.tagContainer = slot0:findTF("adapt/mask/panel", slot0.indexPanel)
-	slot0.tagTpl = slot0:findTF("tpl", slot0.tagContainer)
-
 	slot0:initDesigns()
 	onToggle(slot0, slot0.sortBtn, function (slot0)
 		if slot0 then

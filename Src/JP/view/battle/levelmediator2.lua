@@ -45,7 +45,9 @@ slot0.CLICK_CHALLENGE_BTN = "LevelMediator2:CLICK_CHALLENGE_BTN"
 function slot0.register(slot0)
 	slot1 = getProxy(PlayerProxy)
 
-	slot0:bind(slot0.ON_COMMANDER_OP, function (slot0, slot1)
+	slot0:bind(slot0.ON_COMMANDER_OP, function (slot0, slot1, slot2)
+		slot0.contextData.commanderOPChapter = slot2
+
 		slot0:sendNotification(GAME.COMMANDER_FORMATION_OP, {
 			data = slot1
 		})
@@ -53,12 +55,13 @@ function slot0.register(slot0)
 	slot0:bind(slot0.ON_SELECT_COMMANDER, function (slot0, slot1, slot2, slot3)
 		FormationMediator.onSelectCommander(slot1, slot2)
 
-		slot0.contextData.selectedChapterVO = getProxy(ChapterProxy).getChapterById(slot4, slot3)
+		slot0.contextData.selectedChapterVO = slot3
 	end)
 	slot0:bind(slot0.ON_SELECT_ELITE_COMMANDER, function (slot0, slot1, slot2, slot3)
-		slot5 = getProxy(ChapterProxy).getChapterById(slot4, slot3)
-		slot0.contextData.editEliteChapter = slot5
-		slot6 = slot5:getEliteFleetCommanders()[slot1] or {}
+		slot4 = getProxy(ChapterProxy)
+		slot5 = slot3.id
+		slot0.contextData.editEliteChapter = slot3
+		slot6 = slot3:getEliteFleetCommanders()[slot1] or {}
 		slot7 = nil
 
 		if slot6[slot2] then
@@ -67,7 +70,8 @@ function slot0.register(slot0)
 
 		function slot8()
 			if slot0.contextData.editEliteChapter then
-				slot0.contextData.editEliteChapter = slot1:getChapterById(slot0.contextData.editEliteChapter.id)
+				slot1.eliteCommanderList = slot1:getChapterById(slot0).eliteCommanderList
+				slot0.contextData.editEliteChapter = slot0.contextData
 			end
 		end
 
@@ -601,7 +605,11 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == ChapterProxy.CHAPTER_UPDATED then
 		slot0.viewComponent:updateChapterVO(slot3.chapter, slot3.dirty)
 	elseif slot2 == GAME.COMMANDER_ELIT_FORMATION_OP_DONE then
-		slot0.viewComponent:updateFleetEdit(slot3.chapterId, slot3.index)
+		if slot0.contextData.commanderOPChapter then
+			slot0.contextData.commanderOPChapter.eliteCommanderList = getProxy(ChapterProxy):getChapterById(slot3.chapterId).eliteCommanderList
+
+			slot0.viewComponent:updateFleetEdit(slot0.contextData.commanderOPChapter, slot3.index)
+		end
 	elseif slot2 == ChapterProxy.CHAPTER_ADDED then
 		slot0.viewComponent:updateChapterVO(slot3.chapter, 0)
 	elseif slot2 == ChapterProxy.CHAPTER_EXTAR_FLAG_UPDATED then
@@ -746,7 +754,7 @@ function slot0.handleNotification(slot0, slot1)
 						if slot0.aiActs and #slot0.aiActs > 0 then
 							slot1.viewComponent:doPlayCommander(slot8, slot2)
 							coroutine.yield()
-							slot1.viewComponent:easeAvoid(slot1.viewComponent.grid.cellFleets[slot3.findex].tf.position, slot2)
+							slot1.viewComponent:easeAvoid(slot1.viewComponent.grid.cellFleets[slot3.fleets[slot3.findex].id].tf.position, slot2)
 							coroutine.yield()
 						end
 					elseif slot6.type == ChapterConst.BoxBanaiDamage then
@@ -780,6 +788,7 @@ function slot0.handleNotification(slot0, slot1)
 					end)
 				elseif slot0 == ChapterConst.OpSubState then
 					slot1:saveSubState(slot3.subAutoAttack)
+					slot1.viewComponent.grid:OnChangeSubAutoAttack()
 				elseif slot0 == ChapterConst.OpStrategy then
 					if slot0.arg1 == ChapterConst.StrategyExchange then
 						for slot9, slot10 in ipairs(slot5) do
@@ -792,6 +801,27 @@ function slot0.handleNotification(slot0, slot1)
 					end
 				elseif slot0 == ChapterConst.OpBarrier then
 					slot1.viewComponent.levelStageView:tryAutoTrigger()
+				elseif slot0 == ChapterConst.OpSubTeleport then
+					slot4 = _.detect(slot3.fleets, function (slot0)
+						return slot0.id == slot0.id
+					end)
+					slot7, slot8 = slot3:findPath(nil, slot5, slot6)
+					slot11 = getProxy(PlayerProxy)
+					slot12 = slot11:getData()
+
+					slot12:consume({
+						oil = math.ceil(pg.strategy_data_template[ChapterConst.StrategySubTeleport].arg[2] * #slot4:getShips(false) * slot7 - 1e-05)
+					})
+					slot1.viewComponent:updateRes(slot12)
+					slot11:updatePlayer(slot12)
+
+					slot1.viewComponent.grid.subTeleportMode = false
+
+					slot1.viewComponent.grid:moveSub(table.indexof(slot3.fleets, slot4), slot0.fullpath, nil, function ()
+						slot0.viewComponent.grid:TurnOffSubTeleport()
+						slot0.viewComponent.grid.TurnOffSubTeleport.viewComponent.levelStageView:SwitchBottomStage(false)
+						slot0.viewComponent.grid.TurnOffSubTeleport.viewComponent.levelStageView.SwitchBottomStage.viewComponent.grid:updateQuadCells(ChapterConst.QuadStateNormal)
+					end)
 				end
 			end)
 
@@ -946,19 +976,15 @@ function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3, slot4)
 	end, function (slot0, slot1, slot2)
 		slot1()
 	end, function (slot0)
-		print(PrintTable(slot0:getEliteFleetList()[]))
+		slot1 = slot0:getEliteFleetList()[]
 
-		if print then
-			print(table.indexof(slot1, slot2.id))
+		if slot0.getEliteFleetList() then
 			table.remove(slot1, table.indexof(slot1, slot2.id))
 		end
 
-		if slot0[1] then
-			table.insert(slot1, slot0[1])
-		end
-
-		slot3:updateChapter(slot0)
-		slot3:duplicateEliteFleet(slot0)
+		table.insert(slot1, slot0[1])
+		slot1:updateChapter(slot0)
+		slot1:duplicateEliteFleet(slot0)
 	end
 end
 

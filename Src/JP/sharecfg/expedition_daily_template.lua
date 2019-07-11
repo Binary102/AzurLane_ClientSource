@@ -2,10 +2,11 @@ pg = pg or {}
 pg.expedition_daily_template = {
 	[201] = {
 		tips = "月・木・日曜日開放！",
-		pic = "daily1",
+		limit_type = 1,
 		limit_time = 3,
-		id = 201,
+		pic = "daily1",
 		title = "商船护送",
+		id = 201,
 		des = "海上通商を担う商船から敵PTボート群を引きつけ、強化パーツ報酬を手に入れろ！",
 		weekday = {
 			1,
@@ -57,10 +58,11 @@ pg.expedition_daily_template = {
 	},
 	[301] = {
 		tips = "火・金・日曜日開放！",
-		pic = "daily2",
+		limit_type = 1,
 		limit_time = 3,
-		id = 301,
+		pic = "daily2",
 		title = "海域突进",
+		id = 301,
 		des = "海域に跋扈する自爆ボートを掃討し、スキル習熟訓練用の教材を捜索せよ！",
 		weekday = {
 			2,
@@ -92,10 +94,11 @@ pg.expedition_daily_template = {
 	},
 	[401] = {
 		tips = "水・土・日曜日開放！",
-		pic = "daily3",
+		limit_type = 1,
 		limit_time = 3,
-		id = 401,
+		pic = "daily3",
 		title = "斩首行动",
+		id = 401,
 		des = "複数に出現する敵主力艦を撃破し、装備箱を入手せよ！",
 		weekday = {
 			3,
@@ -126,21 +129,52 @@ pg.expedition_daily_template = {
 		}
 	},
 	[501] = {
-		tips = "乞うご期待！",
-		pic = "daily4",
-		limit_time = 0,
+		tips = "毎日開放（毎週2回まで挑戦可能）",
+		limit_type = 2,
+		limit_time = 2,
+		pic = "daily5",
+		title = "通商破壊",
 		id = 501,
-		title = "敬请期待",
-		des = "乞うご期待！",
-		weekday = {},
-		expedition_and_lv_limit_list = {}
+		des = "潜水艦による通商破壊訓練を行い、各種潜水艦装備の設計図を入手する",
+		weekday = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		},
+		expedition_and_lv_limit_list = {
+			{
+				1000,
+				35
+			},
+			{
+				1001,
+				45
+			},
+			{
+				1002,
+				55
+			},
+			{
+				1003,
+				65
+			},
+			{
+				1004,
+				75
+			}
+		}
 	},
 	[601] = {
 		tips = "战术研修每天开启",
-		pic = "daily6",
+		limit_type = 1,
 		limit_time = 3,
-		id = 601,
+		pic = "daily6",
 		title = "战术研修",
+		id = 601,
 		des = "强大的特战敌人出现了！击破有几率获得战术升级材料",
 		weekday = {
 			1,

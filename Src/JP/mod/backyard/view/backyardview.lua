@@ -110,7 +110,7 @@ function slot0.stopAllBoatMove(slot0, slot1)
 				end
 
 				slot0()
-			elseif slot1.furnitureVOs[slot0.boatVO:getSpineId()]:isLoopSpineInterAction() then
+			elseif slot1.furnitureVOs[slot0.boatVO:getSpineId()]:isTransPort() or slot3:isLoopSpineInterAction() then
 				slot0()
 			else
 				slot0:breakSpineAnim(slot0)
@@ -128,6 +128,10 @@ function slot0.stopAllBoatMove(slot0, slot1)
 end
 
 function slot0.enableDecorateMode(slot0, slot1)
+	if defaultValue(slot0.decorateMode, false) == slot1 then
+		return
+	end
+
 	slot0.decorateMode = slot1
 
 	setActive(slot0.backBtn, slot1)
@@ -166,6 +170,16 @@ function slot0.enableDecorateMode(slot0, slot1)
 	end
 end
 
+function slot0.anyShipInTransPort(slot0)
+	for slot4, slot5 in pairs(slot0.shipModels) do
+		if slot5:inTransport() then
+			return true
+		end
+	end
+
+	return false
+end
+
 function slot0.didEnter(slot0)
 	slot0:initHouse()
 	onButton(slot0, slot0.floorGrid, function ()
@@ -179,6 +193,10 @@ function slot0.didEnter(slot0)
 		if slot0.inInitFurnitrues then
 			pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_is_loading"))
 
+			return
+		end
+
+		if slot0:anyShipInTransPort() then
 			return
 		end
 
@@ -1388,11 +1406,7 @@ function slot0.rotateFurn(slot0, slot1)
 
 	slot2.localScale = Vector3(-slot2.localScale.x, 1, 1)
 
-	if slot1:hasInterActionShipId() then
-		for slot7, slot8 in ipairs(slot3) do
-			slot0.shipModels[slot8]:updateExpTFScale(slot0.getSign(slot2.localScale.x * slot0.shipModels[slot8].tf.localScale.x < 0))
-		end
-	elseif slot1:getSpineId() then
+	if slot1:getSpineId() then
 		slot0.shipModels[slot1:getSpineId()]:changeInnerDir(slot0.getSign(slot2.localScale.x * slot0.shipModels[slot1:getSpineId()].tf.localScale.x < 0))
 		slot4:updateModelDir()
 	end
@@ -1521,6 +1535,24 @@ function slot0.loadBoatModal(slot0, slot1, slot2)
 
 		return
 	end)
+
+	return
+end
+
+function slot0.InterActionTransport(slot0, slot1, slot2)
+	slot0.shipModels[slot1]:InterActionTransport(slot2)
+
+	return
+end
+
+function slot0.InterActionTransportAgain(slot0, slot1, slot2)
+	slot0.shipModels[slot1]:InterActionTransportAgain(slot2)
+
+	return
+end
+
+function slot0.InterActionTransportEnd(slot0, slot1)
+	slot0.shipModels[slot1]:InterActionTransportEnd(furnId)
 
 	return
 end

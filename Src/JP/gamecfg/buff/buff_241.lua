@@ -1,6 +1,6 @@
 return {
 	time = 0,
-	name = "制空权buff-1",
+	name = "势均力敌",
 	init_effect = "",
 	id = 241,
 	picture = "",

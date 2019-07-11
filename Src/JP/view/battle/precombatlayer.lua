@@ -1,5 +1,8 @@
 slot0 = class("PreCombatLayer", import("..base.BaseUI"))
 slot1 = import("..ship.FormationUI")
+slot2 = {
+	[99.0] = true
+}
 slot0.FORM_EDIT = "EDIT"
 slot0.FORM_PREVIEW = "PREVIEW"
 slot0.ObjectiveList = {
@@ -10,7 +13,8 @@ slot0.ObjectiveList = {
 	"battle_preCombatLayer_time_limit",
 	"battle_preCombatLayer_boss_destruct",
 	"battle_preCombatLayer_damage_before_end",
-	"battle_result_defeat_all_enemys"
+	"battle_result_defeat_all_enemys",
+	"battle_preCombatLayer_destory_transport_ship"
 }
 
 function slot0.getUIName(slot0)
@@ -33,6 +37,7 @@ function slot0.init(slot0)
 
 	slot0._mainGS = slot1:Find("gear_score/main/Text")
 	slot0._vanguardGS = slot1:Find("gear_score/vanguard/Text")
+	slot0._subGS = slot1:Find("gear_score/submarine/Text")
 	slot0._gridTFs = {
 		vanguard = {},
 		main = {}
@@ -95,10 +100,29 @@ function slot0.SetStageID(slot0, slot1)
 	slot0._stageID = slot1
 
 	for slot7, slot8 in ipairs(slot3) do
-		updateDrop(cloneTplTo(slot0._item, slot0._spoilsContainer), {
-			id = slot8[2],
-			type = slot8[1]
-		})
+		updateDrop(slot9, slot10)
+		onButton(slot0, cloneTplTo(slot0._item, slot0._spoilsContainer), function ()
+			if pg.item_data_statistics[slot0[2]] and slot1[slot0.type] then
+				slot2 = {}
+
+				for slot6, slot7 in ipairs(slot1) do
+					slot2[#slot2 + 1] = {
+						hideName = true,
+						type = slot8,
+						id = slot7[2],
+						anonymous = slot7[1] == DROP_TYPE_SHIP and not table.contains(slot2.chapter.dropShipIdList, slot7[2])
+					}
+				end
+
+				slot2:emit(slot3.ON_DROP_LIST, {
+					item2Row = true,
+					itemList = slot2,
+					content = slot0.display
+				})
+			else
+				slot2:emit(slot3.ON_DROP, slot4)
+			end
+		end, SFX_PANEL)
 	end
 
 	function slot4(slot0, slot1)

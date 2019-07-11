@@ -1054,6 +1054,22 @@ pg.gametip = {
 		tip = "敵艦をすべて撃破",
 		key = "battle_result_defeat_all_enemys"
 	},
+	battle_result_base_score = {
+		tip = "ステージクリア：",
+		key = "battle_result_base_score"
+	},
+	battle_result_dead_score = {
+		tip = "味方戦闘不能*$1：",
+		key = "battle_result_dead_score"
+	},
+	battle_result_score = {
+		tip = "輸送艦撃破*$1：",
+		key = "battle_result_score"
+	},
+	battle_result_score_total = {
+		tip = "合計：",
+		key = "battle_result_score_total"
+	},
 	battle_levelScene_0Oil = {
 		tip = "燃料ポイントが空になりました",
 		key = "battle_levelScene_0Oil"
@@ -1133,6 +1149,10 @@ pg.gametip = {
 	battle_preCombatLayer_damage_before_end = {
 		tip = "時間制限内で最大ダメージを狙おう",
 		key = "battle_preCombatLayer_damage_before_end"
+	},
+	battle_preCombatLayer_destory_transport_ship = {
+		tip = "輸送艦$1隻以上を撃破",
+		key = "battle_preCombatLayer_destory_transport_ship"
 	},
 	battle_preCombatMediator_leastLimit = {
 		tip = "第一艦隊に艦を配置する必要があります",
@@ -1225,6 +1245,10 @@ pg.gametip = {
 	battle_autobot_unlock = {
 		tip = "自律(オート)戦闘機能が開放されました",
 		key = "battle_autobot_unlock"
+	},
+	tips_confirm_teleport_sub = {
+		tip = "作戦指示：<color=#92fc63FF>潜水艦隊</color>の作戦エリアを<color=#92fc63FF>$1</color>から<color=#92fc63FF>$2</color>に変更するには<color=#92fc63FF>$3</color>マス移動させる必要があり、燃料<color=#92fc63FF>$4</color>を消費します。作戦エリアを変更しますか？ ",
+		key = "tips_confirm_teleport_sub"
 	},
 	backyard_addExp_Info = {
 		tip = "留守の||<color=#FAFAF7FF>$1</color>|| の間、十分に休憩しました！||食糧を|| <color=#92fc63FF>$2</color>|| 消費し、経験値|| <color=#92fc63FF>$3</color>|| を入手しました！",
@@ -3558,7 +3582,7 @@ pg.gametip = {
 		key = "event_type_unlimit"
 	},
 	dailyLevel_restCount_notEnough = {
-		tip = "出撃可能回数不足",
+		tip = "これ以上挑戦できません",
 		key = "dailyLevel_restCount_notEnough"
 	},
 	dailyLevel_unopened = {
@@ -4964,6 +4988,64 @@ pg.gametip = {
 		tip = {
 			{
 				info = [[
+■通商破壊
+開放時間：毎日開放
+通商破壊とは、潜水艦隊を操作し、敵輸送艦を撃破す
+ることで報酬を入手する特殊ステージです。
+通商破壊特殊ステージは毎日開放されますが、毎週最
+大2回しか挑戦できません。
+
+潜水艦の操縦方法は水上艦と違い、砲撃や航空攻撃が 
+できない代わりに「潜航」することができます。
+潜航状態中は敵に探知されない（敵探知ゲージが最大
+にならない）限り攻撃されません。
+
+潜水艦を操縦する際に、画面右下のボタンでそれぞれ
+  「特殊弾幕攻撃（各艦1回のみ）」→潜水艦専用の
+特殊弾幕攻撃
+  「浮上/潜航状態変更」→潜航状態で敵の水上攻撃を
+回避
+ 「操作キャラ交代」→同艦隊の他の潜水艦に使用
+キャラを切り替え
+  「潜水雷撃（弾薬消費）」→装備している魚雷を
+使用する通常攻撃 を使用することができます。
+
+特別ステージではそれぞれのクリア条件（目標地点
+到達、最後に出現する敵を撃破など）が設定されてい
+ます。
+また、下記のルールに則った最終的な戦闘評価に応
+じて「潜水艦専用装備」「対潜装備」の設計図を入手
+することができます。
+
+得点ルール：
+　特別ステージクリア　+100Pt
+　輸送艦撃破　+10Pt
+   味方艦が戦闘不能  -15Pt
+
+戦闘評価ルール：
+　S評価　120Pt以上
+　A評価　100Pt以上
+　B評価　70Pt以上
+
+潜水艦の攻撃手段は弾薬数に依存するため、弾薬数
+に注意しながらステージを攻略しましょう。
+
+注意点：
+・潜水艦に装備されている「魚雷（兵装）」と「魚雷
+（設備）」はその艦の所持弾薬数を増加させることが
+できます。
+・特殊ステージでは、潜水艦のスキルは無効になりま
+す。また、一部艦船の特殊弾幕は「特殊攻撃ボタン」
+をタップすることで使用できます。特殊攻撃は弾薬数
+を消費しませんが、一度の挑戦につき1回しか使用でき
+ません。
+　「シュルクーフ」の特殊攻撃は浮上時に自動で使用
+されます（一度の挑戦で1回のみ使用可能）
+・特殊ステージでは、特殊弾幕（全弾発射含む）によ
+る敵に与えるダメージが上昇します。
+・潜水艦の浮上/潜航を行った直後に、操作艦船を交
+代させることはできません。
+
 商船護衛開放時間：月・木・日
 
 海域掃討開放時間：火・金・日
@@ -7305,6 +7387,10 @@ pg.gametip = {
 		tip = "<size=23>訓練中</size>",
 		key = "word_status_train"
 	},
+	word_status_challenge = {
+		tip = "<size=23>ﾁｬﾚﾝｼﾞ出撃 </size>",
+		key = "word_status_challenge"
+	},
 	challenge_current_score = {
 		tip = "累計得点：$1",
 		key = "challenge_current_score"
@@ -8611,7 +8697,7 @@ pg.gametip = {
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "イベント期間、ル・マラン、ジャン・バール、マサチューセッツなどの出現率UP！",
+		tip = "イベント期間、伊168、U-101、伊25、伊56、U-522の出現率UP！",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -10746,6 +10832,10 @@ Pt」が加算されます。
 	secondarypassword_confirm_tips = {
 		tip = "パスワードヒントは<color=#FFDE38>「%s」</color>でよろしいですか？",
 		key = "secondarypassword_confirm_tips"
+	},
+	word_rest_times = {
+		tip = "<color=#FFDE38FF>残り回数 ：%s回</color> ",
+		key = "word_rest_times"
 	}
 }
 

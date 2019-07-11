@@ -108,44 +108,14 @@ pg.ship_skin_words_extra = {
 		detail = "",
 		feeling5 = {
 			{
-				1000,
-				"そう言えば、指揮官のそばにいると、いつもなんかドキドキしてて落ち着かないです。……これは指揮官の「愛のマホウ」ですか？"
-			}
-		}
-	},
-	[801041] = {
-		touch = "",
-		feeling3 = "",
-		login = "",
-		feeling1 = "",
-		expedition = "",
-		win_mvp = "",
-		home = "",
-		mission = "",
-		touch2 = "",
-		upgrade = "",
-		feeling4 = "",
-		mail = "",
-		lose = "",
-		main = "",
-		profile = "",
-		mission_complete = "",
-		headtouch = "",
-		feeling2 = "",
-		battle = "",
-		id = 801041,
-		detail = "",
-		feeling5 = {
-			{
-				1000,
+				1100,
 				"そう言えば、指揮官のそばにいると、いつもなんかドキドキしてて落ち着かないです。……これは指揮官の「愛のマホウ」ですか？"
 			}
 		}
 	},
 	all = {
 		999010,
-		801040,
-		801041
+		801040
 	}
 }
 

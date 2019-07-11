@@ -174,7 +174,7 @@ function slot0.onPauseBtn(slot0)
 			}
 		})
 		slot1:Pause()
-	elseif slot0.contextData.system == SYSTEM_SUBMARINE_RUN then
+	elseif slot0.contextData.system == SYSTEM_SUBMARINE_RUN or slot0.contextData.system == SYSTEM_SUB_ROUTINE then
 		slot1:Pause()
 		slot0:warnFunc(function ()
 			ys.Battle.BattleState.GetInstance():Resume()
@@ -308,7 +308,7 @@ function slot0.GenBattleData(slot0)
 		slot12 = {}
 		slot13, slot14 = slot5.getSubAidFlag(slot6)
 
-		if slot13 == true then
+		if slot13 == true or slot13 > 0 then
 			slot1.SubFlag = 1
 			slot1.TotalSubAmmo = 1
 			slot12 = slot14:getShipsByTeam(TeamType.Submarine, false)
@@ -534,33 +534,11 @@ function slot0.GenBattleData(slot0)
 	elseif slot0.contextData.mainFleetId then
 		slot5 = slot2 == SYSTEM_DUEL
 		slot0.mainShips = slot3:getShipsByFleet(nil)
-		slot9 = {}
-		slot10 = {}
-		slot11 = {}
 
-		for slot16, slot17 in ipairs(slot12) do
-			if table.contains(slot4, slot17) then
-				BattleVertify.cloneShipVertiry = true
-			end
-
-			slot4[#slot4 + 1] = slot17
-
-			table.insert(slot9, slot18)
-			table.insert(slot1.MainUnitList, slot0(slot2, slot18, nil, slot5))
-		end
-
-		for slot17, slot18 in ipairs(slot13) do
-			if table.contains(slot4, slot18) then
-				BattleVertify.cloneShipVertiry = true
-			end
-
-			slot4[#slot4 + 1] = slot18
-
-			table.insert(slot10, slot19)
-			table.insert(slot1.VanguardUnitList, slot0(slot2, slot19, nil, slot5))
-		end
-
-		slot0.viewComponent:setFleet(slot9, slot10, slot11)
+		slot12(slot13, slot9, slot1.MainUnitList)
+		slot12(slot14, slot10, slot1.VanguardUnitList)
+		slot12(slot15, slot11, slot1.SubUnitList)
+		slot0.viewComponent:setFleet({}, {}, {})
 	end
 
 	slot1.RivalVanguardUnitList = {}
@@ -701,12 +679,6 @@ function slot0.GenBattleData(slot0)
 			})
 		end
 	end
-
-	if slot2 == SYSTEM_HP_SHARE_ACT_BOSS then
-		slot1.SpecificBossHPRate = slot0.contextData.specificBossHPRate
-	end
-
-	slot1.DropInfoList = slot0.contextData.drops
 end
 
 function slot0.listNotificationInterests(slot0)
@@ -742,7 +714,7 @@ function slot0.handleNotification(slot0, slot1)
 			end
 		else
 			slot6 = nil
-			slot6 = (slot5 ~= SYSTEM_CHALLENGE or BattleChallengeResultLayer) and (slot5 ~= SYSTEM_DODGEM or BattleDodgemResultLayer) and (slot5 ~= SYSTEM_SUBMARINE_RUN or BattleSubmarineRunResultLayer) and (slot5 ~= SYSTEM_HP_SHARE_ACT_BOSS or BattleContributionResultLayer) and BattleResultLayer
+			slot6 = (slot5 ~= SYSTEM_CHALLENGE or BattleChallengeResultLayer) and (slot5 ~= SYSTEM_DODGEM or BattleDodgemResultLayer) and (slot5 ~= SYSTEM_SUBMARINE_RUN or BattleSubmarineRunResultLayer) and (slot5 ~= SYSTEM_SUB_ROUTINE or BattleSubmarineRoutineResultLayer) and (slot5 ~= SYSTEM_HP_SHARE_ACT_BOSS or BattleContributionResultLayer) and BattleResultLayer
 			slot7 = {}
 
 			if slot5 == SYSTEM_SCENARIO then

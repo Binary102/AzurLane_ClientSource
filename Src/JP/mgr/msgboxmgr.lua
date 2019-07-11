@@ -306,11 +306,14 @@ function slot2(slot0, slot1)
 		slot2(slot3, slot4, slot5)
 
 		slot2 = slot0
+		slot3 = {}
+		slot2.singleItemIntros = slot3
+		slot2 = slot0
 		slot3 = slot0
 		slot3 = slot3._tf
 		slot4 = slot3
 		slot3 = slot3.Find
-		slot5 = "window/single_item_panel/name_mode/intro_view/Viewport/intro"
+		slot5 = "window/single_item_panel/name_mode/intro_view/Viewport/Content/intro"
 		slot3 = slot3(slot4, slot5)
 		slot2.singleItemIntro = slot3
 		slot2 = slot0
@@ -380,6 +383,15 @@ function slot2(slot0, slot1)
 		slot5 = slot5.sprite
 
 		slot2(slot3, slot4, slot5)
+
+		slot2 = table
+		slot2 = slot2.insert
+		slot3 = slot0
+		slot3 = slot3.singleItemIntros
+		slot4 = slot0
+		slot4 = slot4.singleItemIntro
+
+		slot2(slot3, slot4)
 
 		slot2 = slot0
 		slot3 = slot0
@@ -1259,7 +1271,7 @@ function slot6(slot0, slot1)
 	SetActive(slot5, true)
 	setFrame(slot4, slot1.frame or 1)
 	setText(slot2, slot1.name or "")
-	setText(findTF(slot0._sigleItemPanel, "name_mode/intro_view/Viewport/intro"), slot1.content or "")
+	setText(findTF(slot0._sigleItemPanel, "name_mode/intro_view/Viewport/Content/intro"), slot1.content or "")
 
 	slot8 = SetActive
 	slot9 = findTF(slot0._sigleItemPanel, "icon_bg/icon").parent
@@ -1284,6 +1296,28 @@ function slot6(slot0, slot1)
 
 	slot8(slot9, slot10)
 end
+
+function slot7(slot0, slot1)
+	slot2 = slot0.singleItemIntros
+	slot2 = slot2[slot1]
+
+	if not slot2 then
+		slot2 = slot0.singleItemIntros
+		slot3 = cloneTplTo
+		slot4 = slot0.singleItemIntro
+		slot5 = slot0.singleItemIntro
+		slot5 = slot5.parent
+		slot3 = slot3(slot4, slot5)
+		slot2[slot1] = slot3
+	end
+
+	slot2 = slot0.singleItemIntros
+	slot2 = slot2[slot1]
+
+	return slot2
+end
+
+slot1.GetSingleItemIntro = slot7
 
 function slot7(slot0, slot1)
 	slot2 = rtf
@@ -1415,54 +1449,49 @@ function slot7(slot0, slot1)
 	slot3 = slot0._tf
 	slot4 = slot3
 	slot3 = slot3.Find
-	slot5 = "window/single_item_panel/name_mode/intro_view/Viewport/intro"
+	slot5 = "window/single_item_panel/name_mode/intro_view/Viewport/Content/intro"
 	slot3 = slot3(slot4, slot5)
-	slot4 = SetActive
-	slot5 = slot3
-	slot6 = slot1.drop
-	slot6 = slot6.type
-	slot7 = DROP_TYPE_SHIP
+	slot4 = 1
+	slot5 = SetActive
+	slot6 = slot3
+	slot7 = slot1.drop
+	slot7 = slot7.type
+	slot8 = DROP_TYPE_SHIP
 
-	if slot6 ~= slot7 then
-		slot6 = slot1.drop
-		slot6 = slot6.type
-		slot7 = DROP_TYPE_RESOURCE
+	if slot7 ~= slot8 then
+		slot7 = slot1.drop
+		slot7 = slot7.type
+		slot8 = DROP_TYPE_RESOURCE
 
-		if slot6 ~= slot7 then
-			slot6 = slot1.drop
-			slot6 = slot6.type
-			slot7 = DROP_TYPE_ITEM
+		if slot7 ~= slot8 then
+			slot7 = slot1.drop
+			slot7 = slot7.type
+			slot8 = DROP_TYPE_ITEM
 
-			if slot6 ~= slot7 then
-				slot6 = slot1.drop
-				slot6 = slot6.type
-				slot7 = DROP_TYPE_FURNITURE
+			if slot7 ~= slot8 then
+				slot7 = slot1.drop
+				slot7 = slot7.type
+				slot8 = DROP_TYPE_FURNITURE
 
-				if slot6 ~= slot7 then
-					slot6 = slot1.drop
-					slot6 = slot6.type
-					slot7 = DROP_TYPE_STRATEGY
+				if slot7 ~= slot8 then
+					slot7 = slot1.drop
+					slot7 = slot7.type
+					slot8 = DROP_TYPE_STRATEGY
 
-					if slot6 ~= slot7 then
-						slot4(slot5, slot1.drop.type == DROP_TYPE_SKIN)
-						setActive(slot0.singleItemIntro, slot0.settings.numUpdate == nil)
+					if slot7 ~= slot8 then
+						slot5(slot6, slot1.drop.type == DROP_TYPE_SKIN)
 						setActive(slot0._countDescTxt, slot0.settings.numUpdate ~= nil)
 
-						slot6 = slot0._tf
-						slot5 = slot0._tf.Find
-						slot7 = "window/single_item_panel/name_mode/name"
-						slot5 = slot5(slot6, slot7)
-						slot6 = setText
-						slot7 = slot5
-						slot8 = HXSet
-						slot8 = slot8.hxLan
-						slot9 = slot1.name
+						slot7 = setText
+						slot8 = slot0._tf:Find("window/single_item_panel/name_mode/name")
+						slot9 = HXSet.hxLan
+						slot10 = slot1.name
 
-						if not slot9 then
-							slot6(slot7, slot8(slot1.drop.cfg.name or ""))
+						if not slot10 then
+							slot7(slot8, slot9(slot1.drop.cfg.name or ""))
 
-							slot8 = ScrollTxt:changeToScroll(slot5)
-							slot7 = ScrollTxt.changeToScroll(slot5).setText
+							slot9 = ScrollTxt:changeToScroll(slot6)
+							slot8 = ScrollTxt.changeToScroll(slot6).setText
 						end
 					end
 				end
@@ -1470,61 +1499,61 @@ function slot7(slot0, slot1)
 		end
 	end
 
-	slot9 = getText
-	slot10 = slot5
+	slot10 = getText
+	slot11 = slot6
 
-	slot7(slot8, slot9(slot10))
+	slot8(slot9, slot10(slot11))
 
-	slot7 = table
-	slot7 = slot7.insert
-	slot8 = slot0._scrollTxts
-	slot9 = slot6
+	slot8 = table
+	slot8 = slot8.insert
+	slot9 = slot0._scrollTxts
+	slot10 = slot7
 
-	slot7(slot8, slot9)
+	slot8(slot9, slot10)
 
-	slot7 = -170
-	slot8 = go
-	slot9 = slot0._SingleItemshipTypeTF
-	slot8 = slot8(slot9)
-	slot8 = slot8.activeSelf
+	slot8 = -170
+	slot9 = go
+	slot10 = slot0._SingleItemshipTypeTF
+	slot9 = slot9(slot10)
+	slot9 = slot9.activeSelf
 
-	if not slot8 then
-		slot7 = -230
+	if not slot9 then
+		slot8 = -230
 	end
 
-	slot9 = setActive
-	slot10 = slot0._SingleItemshipTypeBgTF
+	slot10 = setActive
+	slot11 = slot0._SingleItemshipTypeBgTF
+	slot12 = slot9
+
+	slot10(slot11, slot12)
+
+	slot10 = Vector2
 	slot11 = slot8
+	slot12 = slot6.localPosition
+	slot12 = slot12.y
+	slot10 = slot10(slot11, slot12)
+	slot6.localPosition = slot10
+	slot10 = slot0._tf
+	slot11 = slot10
+	slot10 = slot10.Find
+	slot12 = "window/single_item_panel/detail"
+	slot10 = slot10(slot11, slot12)
+	slot11 = slot1.drop
+	slot11 = slot11.type
+	slot12 = DROP_TYPE_ITEM
 
-	slot9(slot10, slot11)
-
-	slot9 = Vector2
-	slot10 = slot7
-	slot11 = slot5.localPosition
-	slot11 = slot11.y
-	slot9 = slot9(slot10, slot11)
-	slot5.localPosition = slot9
-	slot9 = slot0._tf
-	slot10 = slot9
-	slot9 = slot9.Find
-	slot11 = "window/single_item_panel/detail"
-	slot9 = slot9(slot10, slot11)
-	slot10 = slot1.drop
-	slot10 = slot10.type
-	slot11 = DROP_TYPE_ITEM
-
-	if slot10 == slot11 then
-		setActive(slot9, slot1.drop.cfg.type == 11)
+	if slot11 == slot12 then
+		setActive(slot10, slot1.drop.cfg.type == 11)
 
 		if slot1.drop.cfg.type == 11 then
-			slot12 = slot9
-			slot11 = slot9.GetComponent
-			slot13 = "RichText"
-			slot11 = slot11(slot12, slot13)
-			slot12 = slot11
-			slot11 = slot11.AddListener
+			slot13 = slot10
+			slot12 = slot10.GetComponent
+			slot14 = "RichText"
+			slot12 = slot12(slot13, slot14)
+			slot13 = slot12
+			slot12 = slot12.AddListener
 
-			function slot13(slot0, slot1)
+			function slot14(slot0, slot1)
 				slot2 = {}
 				slot3 = _
 				slot3 = slot3.map
@@ -1604,196 +1633,210 @@ function slot7(slot0, slot1)
 				slot3(slot4, slot5)
 			end
 
-			slot11(slot12, slot13)
+			slot12(slot13, slot14)
 		end
 	end
 
-	slot11 = slot1.content
+	slot12 = slot1.content
 
-	if slot11 then
-		slot11 = slot1.content
+	if slot12 then
+		slot12 = slot1.content
 
-		if slot11 ~= "" then
-			slot11 = slot0.singleItemIntroTF
-			slot12 = slot1.content
-			slot11.text = slot12
+		if slot12 ~= "" then
+			slot12 = slot0.singleItemIntroTF
+			slot13 = slot1.content
+			slot12.text = slot13
 		end
 	else
-		slot11 = slot1.drop
-		slot11 = slot11.type
-		slot12 = DROP_TYPE_RESOURCE
+		slot12 = slot1.drop
+		slot12 = slot12.type
+		slot13 = DROP_TYPE_RESOURCE
 
-		if slot11 == slot12 then
-			slot11 = setText
-			slot12 = slot3
-			slot13 = slot1.drop
-			slot13 = slot13.cfg
-			slot13 = slot13.display
+		if slot12 == slot13 then
+			slot12 = setText
+			slot13 = slot3
+			slot14 = slot1.drop
+			slot14 = slot14.cfg
+			slot14 = slot14.display
 
-			slot11(slot12, slot13)
+			slot12(slot13, slot14)
 		else
-			slot11 = slot1.drop
-			slot11 = slot11.type
-			slot12 = DROP_TYPE_ITEM
+			slot12 = slot1.drop
+			slot12 = slot12.type
+			slot13 = DROP_TYPE_ITEM
 
-			if slot11 == slot12 then
-				slot11 = setText
-				slot12 = slot3
-				slot13 = HXSet
-				slot13 = slot13.hxLan
-				slot14 = slot1.drop
-				slot14 = slot14.cfg
-				slot14 = slot14.display
+			if slot12 == slot13 then
+				slot12 = setText
+				slot13 = slot3
+				slot14 = HXSet
+				slot14 = slot14.hxLan
+				slot15 = slot1.drop
+				slot15 = slot15.cfg
+				slot15 = slot15.display
 
-				slot11(slot12, slot13(slot14))
+				slot12(slot13, slot14(slot15))
 			else
-				slot11 = slot1.drop
-				slot11 = slot11.type
-				slot12 = DROP_TYPE_FURNITURE
+				slot12 = slot1.drop
+				slot12 = slot12.type
+				slot13 = DROP_TYPE_FURNITURE
 
-				if slot11 == slot12 then
-					slot11 = setText
-					slot12 = slot3
-					slot13 = slot1.drop
-					slot13 = slot13.cfg
-					slot13 = slot13.describe
+				if slot12 == slot13 then
+					slot12 = setText
+					slot13 = slot3
+					slot14 = slot1.drop
+					slot14 = slot14.cfg
+					slot14 = slot14.describe
 
-					slot11(slot12, slot13)
+					slot12(slot13, slot14)
 				else
-					slot11 = slot1.drop
-					slot11 = slot11.type
-					slot12 = DROP_TYPE_SHIP
+					slot12 = slot1.drop
+					slot12 = slot12.type
+					slot13 = DROP_TYPE_SHIP
 
-					if slot11 == slot12 then
-						slot11 = slot2
-						slot11 = slot11.ship_data_statistics
-						slot12 = slot1.drop
-						slot12 = slot12.id
-						slot11 = slot11[slot12]
-						slot11 = slot11.skin_id
-						slot12 = Ship
-						slot12 = slot12.getWords
-						slot13 = slot11
-						slot14 = "drop_descrip"
-						slot12 = slot12(slot13, slot14)
-						slot13 = setText
-						slot14 = slot3
+					if slot12 == slot13 then
+						slot12 = slot2
+						slot12 = slot12.ship_data_statistics
+						slot13 = slot1.drop
+						slot13 = slot13.id
+						slot12 = slot12[slot13]
+						slot12 = slot12.skin_id
+						slot13 = Ship
+						slot13 = slot13.getWords
+						slot14 = slot12
+						slot15 = "drop_descrip"
+						slot13 = slot13(slot14, slot15)
+						slot14 = setText
+						slot15 = slot3
 
-						if not slot12 then
-							slot15 = i18n
-							slot16 = "ship_drop_desc_default"
-							slot15 = slot15(slot16)
+						if not slot13 then
+							slot16 = i18n
+							slot17 = "ship_drop_desc_default"
+							slot16 = slot16(slot17)
 						end
 
-						slot13(slot14, slot15)
+						slot14(slot15, slot16)
 					else
-						slot11 = slot1.drop
-						slot11 = slot11.type
-						slot12 = DROP_TYPE_EQUIP
+						slot12 = slot1.drop
+						slot12 = slot12.type
+						slot13 = DROP_TYPE_EQUIP
 
-						if slot11 == slot12 then
-							slot11 = 1
-							slot12 = 4
-							slot13 = 1
+						if slot12 == slot13 then
+							slot12 = 1
+							slot13 = 4
+							slot14 = 1
 
-							for slot14 = slot11, slot12, slot13 do
-								slot16 = slot2
-								slot15 = slot2.GetChild
-								slot17 = slot14 - 1
-								slot15 = slot15(slot16, slot17)
-								slot16 = slot1.drop
-								slot16 = slot16.cfg
-								slot17 = "attribute_"
-								slot18 = slot14
-								slot17 = slot17 .. slot18
-								slot16 = slot16[slot17]
-								slot17 = setActive
+							for slot15 = slot12, slot13, slot14 do
+								slot17 = slot2
+								slot16 = slot2.GetChild
+								slot18 = slot15 - 1
+								slot16 = slot16(slot17, slot18)
+								slot17 = slot1.drop
+								slot17 = slot17.cfg
+								slot18 = "attribute_"
 								slot19 = slot15
-								slot18 = slot15.Find
-								slot20 = "opend"
-								slot18 = slot18(slot19, slot20)
-								slot19 = slot16
+								slot18 = slot18 .. slot19
+								slot17 = slot17[slot18]
+								slot18 = setActive
+								slot20 = slot16
+								slot19 = slot16.Find
+								slot21 = "opend"
+								slot19 = slot19(slot20, slot21)
+								slot20 = slot17
 
-								slot17(slot18, slot19)
+								slot18(slot19, slot20)
 
-								slot17 = setActive
-								slot19 = slot15
-								slot18 = slot15.Find
-								slot20 = "attrLockTpl"
-								slot18 = slot18(slot19, slot20)
-								slot19 = not slot16
+								slot18 = setActive
+								slot20 = slot16
+								slot19 = slot16.Find
+								slot21 = "attrLockTpl"
+								slot19 = slot19(slot20, slot21)
+								slot20 = not slot17
 
-								slot17(slot18, slot19)
+								slot18(slot19, slot20)
 
-								if slot16 then
-									slot17 = setText
-									slot19 = slot15
-									slot18 = slot15.Find
-									slot20 = "opend/type_name"
-									slot18 = slot18(slot19, slot20)
-									slot19 = AttributeType
-									slot19 = slot19.Type2Name
+								if slot17 then
+									slot18 = setText
 									slot20 = slot16
+									slot19 = slot16.Find
+									slot21 = "opend/type_name"
+									slot19 = slot19(slot20, slot21)
+									slot20 = AttributeType
+									slot20 = slot20.Type2Name
+									slot21 = slot17
 
-									slot17(slot18, slot19(slot20))
+									slot18(slot19, slot20(slot21))
 
-									slot17 = setText
-									slot19 = slot15
-									slot18 = slot15.Find
-									slot20 = "opend/value"
-									slot18 = slot18(slot19, slot20)
-									slot19 = slot1.drop
-									slot19 = slot19.cfg
-									slot20 = "value_"
-									slot21 = slot14
-									slot20 = slot20 .. slot21
-									slot19 = slot19[slot20]
+									slot18 = setText
+									slot20 = slot16
+									slot19 = slot16.Find
+									slot21 = "opend/value"
+									slot19 = slot19(slot20, slot21)
+									slot20 = slot1.drop
+									slot20 = slot20.cfg
+									slot21 = "value_"
+									slot22 = slot15
+									slot21 = slot21 .. slot22
+									slot20 = slot20[slot21]
 
-									slot17(slot18, slot19)
+									slot18(slot19, slot20)
 								end
 							end
 						else
-							slot11 = slot1.drop
-							slot11 = slot11.type
-							slot12 = DROP_TYPE_STRATEGY
+							slot12 = slot1.drop
+							slot12 = slot12.type
+							slot13 = DROP_TYPE_STRATEGY
 
-							if slot11 == slot12 then
-								slot11 = setText
-								slot12 = slot3
-								slot13 = slot1.drop
-								slot13 = slot13.cfg
-								slot13 = slot13.desc
+							if slot12 == slot13 then
+								slot12 = setText
+								slot13 = slot3
+								slot14 = slot1.drop
+								slot14 = slot14.cfg
+								slot14 = slot14.desc
 
-								slot11(slot12, slot13)
+								slot12(slot13, slot14)
+
+								slot12 = slot1.extendDesc
+
+								if slot12 then
+									slot4 = slot4 + 1
+									slot12 = setText
+									slot14 = slot0
+									slot13 = slot0.GetSingleItemIntro
+									slot15 = slot4
+									slot13 = slot13(slot14, slot15)
+									slot14 = slot1.extendDesc
+
+									slot12(slot13, slot14)
+								end
 							else
-								slot11 = slot1.drop
-								slot11 = slot11.type
-								slot12 = DROP_TYPE_SKIN
+								slot12 = slot1.drop
+								slot12 = slot12.type
+								slot13 = DROP_TYPE_SKIN
 
-								if slot11 == slot12 then
-									slot11 = setText
-									slot12 = slot3
-									slot13 = slot1.drop
-									slot13 = slot13.cfg
-									slot13 = slot13.desc
+								if slot12 == slot13 then
+									slot12 = setText
+									slot13 = slot3
+									slot14 = slot1.drop
+									slot14 = slot14.cfg
+									slot14 = slot14.desc
 
-									slot11(slot12, slot13)
+									slot12(slot13, slot14)
 								else
-									slot11 = slot1.drop
-									slot11 = slot11.type
-									slot12 = DROP_TYPE_EQUIPMENT_SKIN
+									slot12 = slot1.drop
+									slot12 = slot12.type
+									slot13 = DROP_TYPE_EQUIPMENT_SKIN
 
-									if slot11 == slot12 then
-										slot11 = slot1.drop
-										slot11 = slot11.cfg
-										slot11 = slot11.desc
-										slot12 = _
-										slot12 = slot12.map
-										slot13 = slot1.drop
-										slot13 = slot13.cfg
-										slot13 = slot13.equip_type
+									if slot12 == slot13 then
+										slot12 = slot1.drop
+										slot12 = slot12.cfg
+										slot12 = slot12.desc
+										slot13 = _
+										slot13 = slot13.map
+										slot14 = slot1.drop
+										slot14 = slot14.cfg
+										slot14 = slot14.equip_type
 
-										function slot14(slot0)
+										function slot15(slot0)
 											slot1 = EquipType
 											slot1 = slot1.Type2Name2
 											slot2 = slot0
@@ -1801,92 +1844,92 @@ function slot7(slot0, slot1)
 											return slot1(slot2)
 										end
 
-										slot12 = slot12(slot13, slot14)
-										slot13 = setText
-										slot14 = slot3
-										slot15 = slot11
-										slot16 = "\n\n"
-										slot17 = i18n
-										slot18 = "word_fit"
-										slot17 = slot17(slot18)
-										slot18 = ": "
-										slot19 = table
-										slot19 = slot19.concat
-										slot20 = slot12
-										slot21 = ","
-										slot19 = slot19(slot20, slot21)
-										slot15 = slot15 .. slot16 .. slot17 .. slot18 .. slot19
+										slot13 = slot13(slot14, slot15)
+										slot14 = setText
+										slot15 = slot3
+										slot16 = slot12
+										slot17 = "\n\n"
+										slot18 = i18n
+										slot19 = "word_fit"
+										slot18 = slot18(slot19)
+										slot19 = ": "
+										slot20 = table
+										slot20 = slot20.concat
+										slot21 = slot13
+										slot22 = ","
+										slot20 = slot20(slot21, slot22)
+										slot16 = slot16 .. slot17 .. slot18 .. slot19 .. slot20
 
-										slot13(slot14, slot15)
+										slot14(slot15, slot16)
 									else
-										slot11 = slot1.drop
-										slot11 = slot11.type
-										slot12 = DROP_TYPE_VITEM
+										slot12 = slot1.drop
+										slot12 = slot12.type
+										slot13 = DROP_TYPE_VITEM
 
-										if slot11 == slot12 then
-											slot11 = setText
-											slot12 = slot3
-											slot13 = HXSet
-											slot13 = slot13.hxLan
-											slot14 = slot1.drop
-											slot14 = slot14.cfg
-											slot14 = slot14.display
+										if slot12 == slot13 then
+											slot12 = setText
+											slot13 = slot3
+											slot14 = HXSet
+											slot14 = slot14.hxLan
+											slot15 = slot1.drop
+											slot15 = slot15.cfg
+											slot15 = slot15.display
 
-											slot11(slot12, slot13(slot14))
+											slot12(slot13, slot14(slot15))
 										else
-											slot11 = slot1.drop
-											slot11 = slot11.type
-											slot12 = DROP_TYPE_WORLD_ITEM
+											slot12 = slot1.drop
+											slot12 = slot12.type
+											slot13 = DROP_TYPE_WORLD_ITEM
 
-											if slot11 == slot12 then
-												slot11 = setText
-												slot12 = slot3
-												slot13 = HXSet
-												slot13 = slot13.hxLan
-												slot14 = slot1.drop
-												slot14 = slot14.cfg
-												slot14 = slot14.display
+											if slot12 == slot13 then
+												slot12 = setText
+												slot13 = slot3
+												slot14 = HXSet
+												slot14 = slot14.hxLan
+												slot15 = slot1.drop
+												slot15 = slot15.cfg
+												slot15 = slot15.display
 
-												slot11(slot12, slot13(slot14))
+												slot12(slot13, slot14(slot15))
 											else
-												slot11 = slot1.drop
-												slot11 = slot11.type
-												slot12 = DROP_TYPE_ICON_FRAME
+												slot12 = slot1.drop
+												slot12 = slot12.type
+												slot13 = DROP_TYPE_ICON_FRAME
 
-												if slot11 == slot12 then
-													slot11 = setText
-													slot12 = slot3
-													slot13 = slot1.drop
-													slot13 = slot13.cfg
-													slot13 = slot13.desc
+												if slot12 == slot13 then
+													slot12 = setText
+													slot13 = slot3
+													slot14 = slot1.drop
+													slot14 = slot14.cfg
+													slot14 = slot14.desc
 
-													slot11(slot12, slot13)
+													slot12(slot13, slot14)
 												else
-													slot11 = slot1.drop
-													slot11 = slot11.type
-													slot12 = DROP_TYPE_CHAT_FRAME
+													slot12 = slot1.drop
+													slot12 = slot12.type
+													slot13 = DROP_TYPE_CHAT_FRAME
 
-													if slot11 == slot12 then
-														slot11 = setText
-														slot12 = slot3
-														slot13 = slot1.drop
-														slot13 = slot13.cfg
-														slot13 = slot13.desc
+													if slot12 == slot13 then
+														slot12 = setText
+														slot13 = slot3
+														slot14 = slot1.drop
+														slot14 = slot14.cfg
+														slot14 = slot14.desc
 
-														slot11(slot12, slot13)
+														slot12(slot13, slot14)
 													else
-														slot11 = slot1.drop
-														slot11 = slot11.type
-														slot12 = DROP_TYPE_EMOJI
+														slot12 = slot1.drop
+														slot12 = slot12.type
+														slot13 = DROP_TYPE_EMOJI
 
-														if slot11 == slot12 then
-															slot11 = setText
-															slot12 = slot3
-															slot13 = slot1.drop
-															slot13 = slot13.cfg
-															slot13 = slot13.item_desc
+														if slot12 == slot13 then
+															slot12 = setText
+															slot13 = slot3
+															slot14 = slot1.drop
+															slot14 = slot14.cfg
+															slot14 = slot14.item_desc
 
-															slot11(slot12, slot13)
+															slot12(slot13, slot14)
 														end
 													end
 												end
@@ -1902,66 +1945,74 @@ function slot7(slot0, slot1)
 		end
 	end
 
-	slot11 = slot1.intro
+	slot12 = slot1.intro
 
-	if slot11 then
-		slot11 = setText
-		slot12 = slot3
-		slot13 = slot1.intro
-
-		slot11(slot12, slot13)
-	end
-
-	slot11 = slot1.enabelYesBtn
-
-	if slot11 ~= nil then
-		slot11 = slot0._btnContainer
-		slot12 = slot11
-		slot11 = slot11.GetChild
-		slot13 = 1
-		slot11 = slot11(slot12, slot13)
-		slot12 = setButtonEnabled
-		slot13 = slot11
-		slot14 = slot1.enabelYesBtn
+	if slot12 then
+		slot12 = setText
+		slot13 = slot3
+		slot14 = slot1.intro
 
 		slot12(slot13, slot14)
+	end
 
-		slot12 = eachChild
-		slot13 = slot11
+	slot12 = slot1.enabelYesBtn
 
-		function slot14(slot0)
+	if slot12 ~= nil then
+		slot12 = slot0._btnContainer
+		slot13 = slot12
+		slot12 = slot12.GetChild
+		slot14 = 1
+		slot12 = slot12(slot13, slot14)
+		slot13 = setButtonEnabled
+		slot14 = slot12
+		slot15 = slot1.enabelYesBtn
+
+		slot13(slot14, slot15)
+
+		slot13 = eachChild
+		slot14 = slot12
+
+		function slot15(slot0)
 			GetOrAddComponent(slot0, typeof(CanvasGroup)).alpha = (slot0.enabelYesBtn and 1) or 0.3
 		end
 
-		slot12(slot13, slot14)
+		slot13(slot14, slot15)
 	end
 
-	slot11 = slot1.show_medal
+	slot12 = ipairs
+	slot13 = slot0.singleItemIntros
+	slot12, slot13, slot14 = slot12(slot13)
 
-	if slot11 then
-		slot12 = slot0
-		slot11 = slot0.createBtn
-		slot13 = {
+	for slot15, slot16 in slot12, slot13, slot14 do
+		setActive(slot16, slot15 <= slot4 and slot5 == nil)
+	end
+
+	slot12 = slot1.show_medal
+
+	if slot12 then
+		slot13 = slot0
+		slot12 = slot0.createBtn
+		slot14 = {
 			sibling = 0,
 			hideEvent = true
 		}
-		slot14 = slot1.show_medal
-		slot14 = slot14.desc
-		slot13.text = slot14
-		slot14 = slot3
-		slot14 = slot14.BUTTON_MEDAL
-		slot13.btnType = slot14
-		slot14 = SFX_UI_BUILDING_EXCHANGE
-		slot13.sound = slot14
+		slot15 = slot1.show_medal
+		slot15 = slot15.desc
+		slot14.text = slot15
+		slot15 = slot3
+		slot15 = slot15.BUTTON_MEDAL
+		slot14.btnType = slot15
+		slot15 = SFX_UI_BUILDING_EXCHANGE
+		slot14.sound = slot15
 
-		slot11(slot12, slot13)
+		slot12(slot13, slot14)
 	end
 
-	slot12 = slot0
-	slot11 = slot0.Loaded
-	slot13 = slot1
+	slot13 = slot0
+	slot12 = slot0.Loaded
+	slot14 = slot1
 
-	slot11(slot12, slot13)
+	slot12(slot13, slot14)
 end
 
 function slot8(slot0, slot1)

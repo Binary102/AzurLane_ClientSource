@@ -10,6 +10,7 @@ slot0.TYPE_STAGE = 8
 slot0.TYPE_ARCH = 9
 slot0.TYPE_WALL_MAT = 10
 slot0.TYPE_MOVEABLE = 11
+slot0.TYPE_TRANSPORT = 12
 slot0.INDEX_TO_COMFORTABLE_TYPE = {
 	slot0.TYPE_WALLPAPER,
 	slot0.TYPE_FURNITURE,
@@ -22,31 +23,6 @@ slot0.INDEX_TO_COMFORTABLE_TYPE = {
 	slot0.TYPE_FURNITURE,
 	slot0.TYPE_WALL,
 	slot0.TYPE_FURNITURE
-}
-slot0.INDEX_TO_TYPES = {
-	{
-		slot0.TYPE_FURNITURE,
-		slot0.TYPE_MAT,
-		slot0.TYPE_STAGE,
-		slot0.TYPE_ARCH,
-		slot0.TYPE_MOVEABLE
-	},
-	{
-		slot0.TYPE_DECORATE
-	},
-	{
-		slot0.TYPE_WALLPAPER
-	},
-	{
-		slot0.TYPE_FLOORPAPER
-	},
-	{
-		slot0.TYPE_WALL,
-		slot0.TYPE_WALL_MAT
-	},
-	{
-		slot0.TYPE_COLLECTION
-	}
 }
 slot0.INDEX_TO_SHOP_TYPE = {
 	{
@@ -61,7 +37,8 @@ slot0.INDEX_TO_SHOP_TYPE = {
 		slot0.TYPE_COLLECTION,
 		slot0.TYPE_STAGE,
 		slot0.TYPE_ARCH,
-		slot0.TYPE_MOVEABLE
+		slot0.TYPE_MOVEABLE,
+		slot0.TYPE_TRANSPORT
 	},
 	{
 		slot0.TYPE_DECORATE

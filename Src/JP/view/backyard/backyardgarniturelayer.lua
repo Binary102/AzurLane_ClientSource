@@ -458,11 +458,9 @@ function slot0.filterAll(slot0, slot1)
 		return
 	end
 
-	slot2 = Furniture.INDEX_TO_TYPES[slot1]
-
-	for slot6, slot7 in pairs(slot0.furnitureVOs) do
-		if table.contains(slot2, slot7:getConfig("type")) and slot7:isMatchSearchKey(slot0.searchKey) then
-			table.insert(slot0.decorationVOs, slot7)
+	for slot5, slot6 in pairs(slot0.furnitureVOs) do
+		if slot1 == slot6:getConfig("tag") and slot6:isMatchSearchKey(slot0.searchKey) then
+			table.insert(slot0.decorationVOs, slot6)
 		end
 	end
 end

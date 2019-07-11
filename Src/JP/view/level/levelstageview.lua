@@ -8,9 +8,9 @@ function slot0.OnInit(slot0)
 	slot0:InitUI()
 	slot0:AddListener()
 
-	if Application.isEditor then
-		chapter_skip_battle = PlayerPrefs.GetInt("chapter_skip_battle") or 0
+	chapter_skip_battle = PlayerPrefs.GetInt("chapter_skip_battle") or 0
 
+	if Application.isEditor then
 		function switch_chapter_skip_battle()
 			chapter_skip_battle = 1 - chapter_skip_battle
 
@@ -39,6 +39,8 @@ function slot0.OnDestroy(slot0)
 	end
 end
 
+slot1 = -300
+
 function slot0.InitUI(slot0)
 	slot0.topStage = slot0:findTF("top_stage", slot0._tf)
 	slot0.resStage = slot0:findTF("resources", slot0.topStage)
@@ -48,14 +50,26 @@ function slot0.InitUI(slot0)
 	setActive(slot0.topStage, true)
 
 	slot0.bottomStage = slot0:findTF("bottom_stage", slot0._tf)
-	slot0.funcBtn = slot0:findTF("func_button", slot0.bottomStage)
-	slot0.retreatBtn = slot0:findTF("retreat_button", slot0.bottomStage)
-	slot0.switchBtn = slot0:findTF("switch_button", slot0.bottomStage)
-	slot0.resetBtn = slot0:findTF("reset_button", slot0.bottomStage)
+	slot0.normalRole = findTF(slot0.bottomStage, "normal")
+	slot0.funcBtn = slot0:findTF("func_button", slot0.normalRole)
+	slot0.retreatBtn = slot0:findTF("retreat_button", slot0.normalRole)
+	slot0.switchBtn = slot0:findTF("switch_button", slot0.normalRole)
+	slot0.resetBtn = slot0:findTF("reset_button", slot0.normalRole)
+	slot0.helpBtn = slot0:findTF("help_button", slot0.normalRole)
+	slot0.teleportSubRole = findTF(slot0.bottomStage, "teleportSub")
+	slot0.deployBtn = slot0:findTF("confirm_button", slot0.teleportSubRole)
+	slot0.undeployBtn = slot0:findTF("cancel_button", slot0.teleportSubRole)
 
 	setActive(slot0.bottomStage, true)
+	setAnchoredPosition(slot0.normalRole, {
+		x = 0,
+		y = 0
+	})
+	setAnchoredPosition(slot0.teleportSubRole, {
+		x = 0,
+		y = slot0
+	})
 
-	slot0.helpBtn = slot0:findTF("help_button", slot0.bottomStage)
 	slot0.leftStage = slot0:findTF("left_stage", slot0._tf)
 
 	setActive(slot0.leftStage, true)
@@ -386,6 +400,33 @@ function slot0.AddListener(slot0)
 			helps = i18n("help_battle_ac")
 		})
 	end, SFX_UI_CLICK)
+	onButton(slot0, slot0.deployBtn, function ()
+		slot1, slot2 = slot0.contextData.chapterVO.GetSubmarineFleet(slot0)
+		slot3 = slot1.startPos
+
+		if not slot0.grid.subTeleportTargetLine then
+			return
+		end
+
+		slot5, slot6 = slot0:findPath(nil, slot3, slot4)
+
+		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			content = i18n("tips_confirm_teleport_sub", slot0.grid:TransformLine2PlanePos(slot3), slot0.grid:TransformLine2PlanePos(slot4), slot5, math.ceil(pg.strategy_data_template[ChapterConst.StrategySubTeleport].arg[2] * #slot1:getShips(false) * slot5 - 1e-05)),
+			onYes = function ()
+				slot0:emit(LevelMediator2.ON_OP, {
+					type = ChapterConst.OpSubTeleport,
+					id = slot1.id,
+					arg1 = slot2.row,
+					arg2 = slot2.column
+				})
+			end
+		})
+	end, SFX_UI_CLICK)
+	onButton(slot0, slot0.undeployBtn, function ()
+		slot0:SwitchBottomStage(false)
+		slot0.SwitchBottomStage.grid:TurnOffSubTeleport()
+		slot0.SwitchBottomStage.grid.TurnOffSubTeleport.grid:updateQuadCells(ChapterConst.QuadStateNormal)
+	end, SFX_UI_CLICK)
 end
 
 function slot0.SetSeriesOperation(slot0, slot1)
@@ -638,14 +679,41 @@ function slot0.updateBombPanel(slot0, slot1)
 	return
 end
 
+function slot0.UpdateTeleportSubmarine(slot0)
+	return
+end
+
 function slot0.updateFleetBuff(slot0)
-	setActive(slot6, false)
+	slot3 = slot0.contextData.chapterVO.getFleetStgIds(slot1, slot2)
+	slot4 = {}
 
-	slot7 = UIItemList.New(slot5, slot6)
+	if slot0.contextData.chapterVO:GetSubmarineFleet() and _.filter(slot5:getStrategies(), function (slot0)
+		if pg.strategy_data_template[slot0.id].type ~= ChapterConst.StgTypePassive or slot0.count <= 0 then
+			slot2 = false
+		else
+			slot2 = true
+		end
 
-	slot7:make(function (slot0, slot1, slot2)
+		return slot2
+	end) and #slot6 > 0 then
+		_.each(slot6, function (slot0)
+			table.insert(slot0, {
+				id = slot0.id,
+				count = slot0.count
+			})
+
+			return
+		end)
+	end
+
+	setActive(slot8, false)
+
+	slot9 = UIItemList.New(slot7, slot8)
+
+	slot9:make(function (slot0, slot1, slot2)
 		setActive(findTF(slot2, "frame"), false)
 		setActive(findTF(slot2, "Text"), false)
+		setActive(findTF(slot2, "times"), false)
 
 		if slot0 == UIItemList.EventUpdate then
 			if slot1 + 1 <= #slot0 then
@@ -669,18 +737,40 @@ function slot0.updateFleetBuff(slot0)
 				return
 			end
 
-			GetImageSpriteFromAtlasAsync("commanderskillicon/" .. slot2[(slot1 + 1) - #slot0].getConfig(slot3, "icon"), "", slot2)
-			setText(findTF(slot2, "Text"), "Lv." .. slot2[(slot1 + 1) - #slot0].getConfig(slot3, "lv"))
-			setActive(findTF(slot2, "Text"), true)
-			setActive(findTF(slot2, "frame"), true)
-			onButton(slot1, slot2, function ()
-				slot0:emit(LevelMediator2.ON_COMMANDER_SKILL, slot0)
+			if slot1 + 1 <= #slot0 + #slot2 then
+				GetImageSpriteFromAtlasAsync("strategyicon/" .. pg.strategy_data_template[slot2[(slot1 + 1) - #slot0].id].icon, "", slot2)
+				setActive(findTF(slot2, "times"), true)
+				setText(findTF(slot2, "times"), slot2[(slot1 + 1) - #slot0].count)
+				onButton(slot1, slot2, function ()
+					slot0:HandleShowMsgBox({
+						yesText = "text_confirm",
+						hideNo = true,
+						content = "",
+						type = MSGBOX_TYPE_SINGLE_ITEM,
+						drop = {
+							type = DROP_TYPE_STRATEGY,
+							id = slot1.id,
+							cfg = slot1
+						},
+						extendDesc = string.format(i18n("word_rest_times"), slot2.count)
+					})
 
-				return
-			end, SFX_PANEL)
+					return
+				end, SFX_PANEL)
+			else
+				GetImageSpriteFromAtlasAsync("commanderskillicon/" .. slot3[(slot1 + 1) - #slot0 - #slot2].getConfig(slot3, "icon"), "", slot2)
+				setText(findTF(slot2, "Text"), "Lv." .. slot3[(slot1 + 1) - #slot0 - #slot2].getConfig(slot3, "lv"))
+				setActive(findTF(slot2, "Text"), true)
+				setActive(findTF(slot2, "frame"), true)
+				onButton(slot1, slot2, function ()
+					slot0:emit(LevelMediator2.ON_COMMANDER_SKILL, slot0)
+
+					return
+				end, SFX_PANEL)
+			end
 		end
 	end)
-	slot7:align(#slot0.contextData.chapterVO.getFleetStgIds(slot1, slot2) + #_.map(_.values(slot0.contextData.chapterVO.fleet.getCommanders(slot2)), function (slot0)
+	slot9:align(#slot3 + #slot4 + #_.map(_.values(slot2:getCommanders()), function (slot0)
 		return slot0:getSkills()[1]
 	end))
 
@@ -853,6 +943,9 @@ function slot0.updateStageStrategy(slot0)
 		return slot1
 	end) then
 		table.insert(slot11, 2, {
+			id = ChapterConst.StrategySubTeleport
+		})
+		table.insert(slot11, 2, {
 			id = ChapterConst.StrategySubAutoAttack
 		})
 		table.insert(slot11, 2, {
@@ -938,20 +1031,28 @@ function slot0.updateStageStrategy(slot0)
 							return
 						end
 
-						if slot8 == ChapterConst.StgTypeForm then
-							slot0:emit(LevelMediator2.ON_OP, {
-								type = ChapterConst.OpStrategy,
-								id = slot7:getNextStgUser(slot1.id),
-								arg1 = slot9[table.indexof(slot9, slot1.id) % #slot9 + 1]
-							})
+						if slot1.id == ChapterConst.StrategySubTeleport then
+							slot0:SwitchBottomStage(true)
+							slot0.SwitchBottomStage.grid:ShowStaticHuntingRange()
+							slot0.SwitchBottomStage.grid.ShowStaticHuntingRange:updateStageStrategy()
+							slot0.SwitchBottomStage.grid.ShowStaticHuntingRange.updateStageStrategy.grid:PrepareSubTeleport()
+							slot0.SwitchBottomStage.grid.ShowStaticHuntingRange.updateStageStrategy.grid.PrepareSubTeleport.grid:updateQuadCells(ChapterConst.QuadStateTeleportSub)
 						else
-							slot0:emit(LevelUIConst.DISPLAY_STRATEGY_INFO, slot0)
+							if slot8 == ChapterConst.StgTypeForm then
+								slot0:emit(LevelMediator2.ON_OP, {
+									type = ChapterConst.OpStrategy,
+									id = slot7:getNextStgUser(slot1.id),
+									arg1 = slot9[table.indexof(slot9, slot1.id) % #slot9 + 1]
+								})
+							else
+								slot0:emit(LevelUIConst.DISPLAY_STRATEGY_INFO, slot0)
+							end
 						end
 					end
 				end
 			end, SFX_PANEL)
 
-			if slot4 == 1 then
+			if slot4 == ChapterConst.StgTypeForm or slot4 == ChapterConst.StgTypeConst then
 				setText(slot2:Find("nums"), "")
 				setActive(slot2:Find("mask"), false)
 
@@ -1012,11 +1113,64 @@ function slot0.updateStageFleet(slot0)
 	return
 end
 
-function slot0.shiftStagePanel(slot0)
-	shiftPanel(slot0.bottomStage, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+function slot0.ShiftStagePanelIn(slot0)
 	shiftPanel(slot0.topStage, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
-	shiftPanel(slot0.rightStage, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+	shiftPanel(slot0.bottomStage, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 	shiftPanel(slot0.leftStage, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+	shiftPanel(slot0.rightStage, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+
+	return
+end
+
+function slot0.ShiftStagePanelOut(slot0)
+	shiftPanel(slot0.topStage, 0, slot0.topStage.rect.height, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+	shiftPanel(slot0.bottomStage, 0, -slot0.bottomStage.rect.height, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+	shiftPanel(slot0.leftStage, -slot0.leftStage.rect.width - 200, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+	shiftPanel(slot0.rightStage, slot0.rightStage.rect.width + 200, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+
+	return
+end
+
+function slot0.SwitchBottomStage(slot0, slot1)
+	slot2 = shiftPanel
+	slot3 = slot0.teleportSubRole
+	slot4 = 0
+
+	if slot1 then
+		slot5 = 0
+	else
+		slot5 = slot0
+	end
+
+	slot2(slot3, slot4, slot5, 0.3, 0, true, true)
+
+	slot2 = shiftPanel
+	slot3 = slot0.normalRole
+	slot4 = 0
+
+	if not slot1 or not slot0 then
+		slot5 = 0
+	end
+
+	slot2(slot3, slot4, slot5, 0.3, 0, true, true)
+
+	slot2 = shiftPanel
+	slot3 = slot0.leftStage
+
+	if not slot1 or not (-slot0.leftStage.rect.width - 200) then
+		slot4 = 0
+	end
+
+	slot2(slot3, slot4, 0, 0.3, 0, true)
+
+	slot2 = shiftPanel
+	slot3 = slot0.rightStage
+
+	if not slot1 or not (slot0.rightStage.rect.width + 200) then
+		slot4 = 0
+	end
+
+	slot2(slot3, slot4, 0, 0.3, 0, true)
 
 	return
 end
@@ -1521,15 +1675,6 @@ function slot0.updateTrait(slot0, slot1)
 			slot7.trait = slot1
 		end
 	end
-
-	return
-end
-
-function slot0.ShiftPanelToChapter(slot0)
-	shiftPanel(slot0.topStage, 0, slot0.topStage.rect.height, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
-	shiftPanel(slot0.bottomStage, 0, -slot0.bottomStage.rect.height, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
-	shiftPanel(slot0.leftStage, -slot0.leftStage.rect.width - 200, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
-	shiftPanel(slot0.rightStage, slot0.rightStage.rect.width + 200, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 
 	return
 end

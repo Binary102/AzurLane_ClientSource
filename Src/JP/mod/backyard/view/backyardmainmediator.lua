@@ -30,6 +30,9 @@ slot0.ON_CLEAR_SPINR_EXTRA = "BackyardMainMediator:ON_CLEAR_SPINR_EXTRA"
 slot0.ON_ADD_MOVE_FURNITURE = "BackyardMainMediator:ON_ADD_MOVE_FURNITURE"
 slot0.ON_REMOVE_MOVE_FURNITURE = "BackyardMainMediator:ON_REMOVE_MOVE_FURNITURE"
 slot0.ON_CHECK_EFFECT = "BackyardMainMediator:ON_CHECK_EFFECT"
+slot0.INTERACTION_TRANSPORT = "BackyardMainMediator:INTERACTION_TRANSPORT"
+slot0.INTERACTION_TRANSPORT_AGAIN = "BackyardMainMediator:INTERACTION_TRANSPORT_AGAIN"
+slot0.INTERACTION_TRANSPORT_END = "BackyardMainMediator:INTERACTION_TRANSPORT_END"
 
 function slot0.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, nil, slot1)
@@ -40,6 +43,27 @@ function slot0.onRegister(slot0)
 
 	slot0.viewComponent:setHouse(getBackYardProxy(BackYardHouseProxy).getData(slot1))
 	slot0.viewComponent:updateExtendItemVO(getProxy(BagProxy))
+	slot0:bind(slot0.INTERACTION_TRANSPORT, function (slot0, slot1, slot2)
+		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
+			name = BACKYARD.INTERACTION_TRANSPORT,
+			shipId = slot1,
+			furnitureId = slot2
+		})
+	end)
+	slot0:bind(slot0.INTERACTION_TRANSPORT_AGAIN, function (slot0, slot1, slot2)
+		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
+			name = BACKYARD.INTERACTION_TRANSPORT_AGAIN,
+			shipId = slot1,
+			furnitureId = slot2
+		})
+	end)
+	slot0:bind(slot0.INTERACTION_TRANSPORT_END, function (slot0, slot1, slot2)
+		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
+			name = BACKYARD.INTERACTION_TRANSPORT_END,
+			shipId = slot1,
+			furnitureId = slot2
+		})
+	end)
 	slot0:bind(slot0.ON_ADD_MOVE_FURNITURE, function (slot0, slot1)
 		slot0:addMoveForFurniture(slot1, 1)
 	end)
@@ -266,7 +290,10 @@ function slot0.listNotificationInterests(slot0)
 		BackYardHouseProxy.BACKYARD_ADD_SHIP,
 		BackYardHouseProxy.BACKYARD_EXIT_SHIP,
 		BackYardHouseProxy.APPLY_EFFECT,
-		BackYardHouseProxy.DISABLE_EFFECT
+		BackYardHouseProxy.DISABLE_EFFECT,
+		BackYardHouseProxy.TRANSPORT_INTERAACTION_START,
+		BackYardHouseProxy.TRANSPORT_INTERAACTION_START_AGAIN,
+		BackYardHouseProxy.TRANSPORT_INTERAACTION_START_END
 	}
 end
 
@@ -390,6 +417,12 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:applyEffect(slot3)
 	elseif slot2 == BackYardHouseProxy.DISABLE_EFFECT then
 		slot0.viewComponent:disableEffect(slot3)
+	elseif slot2 == BackYardHouseProxy.TRANSPORT_INTERAACTION_START then
+		slot0.viewComponent:InterActionTransport(slot3.shipId, slot3.furnitureId)
+	elseif slot2 == BackYardHouseProxy.TRANSPORT_INTERAACTION_START_AGAIN then
+		slot0.viewComponent:InterActionTransportAgain(slot3.shipId, slot3.furnitureId)
+	elseif slot2 == BackYardHouseProxy.TRANSPORT_INTERAACTION_START_END then
+		slot0.viewComponent:InterActionTransportEnd(slot3.shipId)
 	end
 end
 

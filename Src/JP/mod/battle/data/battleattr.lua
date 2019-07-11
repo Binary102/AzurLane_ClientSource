@@ -128,6 +128,7 @@ ys.Battle.BattleAttr = {
 		slot0._attr or .oxyMax = slot1.oxy_max
 		slot0._attr or .oxyCost = slot1.oxy_cost
 		slot0._attr or .oxyRecovery = slot1.oxy_recovery
+		slot0._attr or .oxyRecoveryBench = slot1.oxy_recovery_bench
 		slot0._attr or .oxyAtkDuration = slot1.attack_duration
 		slot0._attr or .raidDist = slot1.raid_distance
 		slot0._attr or .sonarRange = slot1.sonarRange or 0

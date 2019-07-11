@@ -820,7 +820,7 @@ function slot2(slot0)
 							slot14 = slot14.GetInstance
 							slot14 = slot14()
 							slot15 = slot14
-							slot14 = slot14.DescTime
+							slot14 = slot14.STimeDescS
 							slot16 = slot0
 							slot16 = slot16.shipVO
 							slot16 = slot16.proposeTime
@@ -1536,7 +1536,7 @@ function slot2(slot0)
 					slot6 = slot6.GetInstance
 					slot6 = slot6()
 					slot7 = slot6
-					slot6 = slot6.DescTime
+					slot6 = slot6.STimeDescS
 					slot8 = slot0.shipVO
 					slot8 = slot8.proposeTime
 					slot9 = "%Y年%m月%d日"

@@ -23,7 +23,7 @@ function slot4.DoPrologue(slot0)
 			slot0._uiMediator:ShowTimer()
 			slot0._uiMediator.ShowTimer._state:ChangeState(slot1.Battle.BattleState.BATTLE_STATE_FIGHT)
 			slot0._uiMediator.ShowTimer._state.ChangeState._waveUpdater:Start()
-		end, true)
+		end, SYSTEM_SUBMARINE_RUN)
 
 		slot0 = slot0._uiMediator.OpeningEffect._dataProxy:GetFleetByIFF(slot1.Battle.BattleConfig.FRIENDLY_CODE)
 
@@ -98,19 +98,33 @@ function slot4.onHateChain(slot0, slot1)
 end
 
 function slot4.onWillDie(slot0, slot1)
-	if slot1.Dispatcher.GetDeathReason(slot2) == slot0.Battle.BattleConst.UnitDeathReason.KILLED or slot3 == slot0.Battle.BattleConst.UnitDeathReason.DESTRUCT then
-		for slot7, slot8 in pairs(slot0._unitDataList) do
-			slot8:TriggerBuff(slot0.Battle.BattleConst.BuffEffectType.ON_FRIENDLY_SHIP_DYING, {
-				unit = slot8
+	slot3 = slot1.Dispatcher.GetDeathReason(slot2)
+
+	if slot1.Dispatcher.GetIFF(slot2) == slot0.Battle.BattleConfig.FRIENDLY_CODE then
+		slot0._dataProxy:DelScoreWhenPlayerDead(slot2)
+	end
+
+	if slot3 == slot0.Battle.BattleConst.UnitDeathReason.KILLED or slot3 == slot0.Battle.BattleConst.UnitDeathReason.DESTRUCT then
+		for slot8, slot9 in pairs(slot0._unitDataList) do
+			slot9:TriggerBuff(slot0.Battle.BattleConst.BuffEffectType.ON_FRIENDLY_SHIP_DYING, {
+				unit = slot9
 			})
 		end
 	end
 
-	if slot2:GetTemplate().type == ShipType.JinBi then
+	if slot2:GetTemplate().type == ShipType.JinBi and slot3 == slot0.Battle.BattleConst.UnitDeathReason.KILLED then
 		slot0._dataProxy:CalcKillingSupplyShip()
 	end
 
-	slot1.super.onWillDie(slot0, slot1)
+	slot5 = slot0._dataProxy:IsThereBoss()
+
+	if slot2:IsBoss() and not slot5 then
+		if slot3 == slot0.Battle.BattleConst.UnitDeathReason.DESTRUCT then
+			slot0._dataProxy:AddScoreWhenBossDestruct()
+		end
+
+		slot0._dataProxy:KillAllEnemy()
+	end
 end
 
 function slot4.onSubmarineShift(slot0, slot1)

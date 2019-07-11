@@ -13,7 +13,6 @@ function slot0.Ctor(slot0, slot1)
 		slot0:initTheme(slot4)
 
 		if slot0:isSameConfigId(slot0.furnitures) then
-			print("check theme" .. slot0.id)
 			slot0:checkSystemTheme()
 		end
 	else

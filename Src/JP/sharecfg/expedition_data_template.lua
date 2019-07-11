@@ -39,20 +39,20 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 1,
+		type = 15,
 		ai_mov = 0,
 		add_icon = "",
-		name = "通商破壊作戦",
+		name = "通商破壊",
 		exp_commander = 0,
-		time_limit = 120,
+		time_limit = 10,
 		exp_commander_ratio = 30,
 		dungeon_id = 1000,
 		exp = 120,
 		icon = "qz1",
 		difficulty = 1,
-		level = 10,
+		level = 15,
 		map_id = 10001,
-		limit_type = 1,
+		limit_type = 4,
 		icon_type = 1,
 		plot_type = 0,
 		id = 1000,
@@ -60,22 +60,35 @@ pg.expedition_data_template = {
 		award_display = {
 			{
 				2,
-				59001
+				59001,
+				"少量"
 			},
 			{
 				2,
-				59002
+				53993,
+				"少量"
+			},
+			{
+				2,
+				53990,
+				"100%出現"
+			},
+			{
+				2,
+				30001,
+				"1"
 			}
 		},
 		objective_1 = {
-			1
+			5,
+			90
 		},
 		objective_2 = {
 			2
 		},
 		objective_3 = {
-			5,
-			120
+			9,
+			2
 		},
 		bufficon = {}
 	},
@@ -83,20 +96,20 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 1,
+		type = 15,
 		ai_mov = 0,
 		add_icon = "",
-		name = "通商破壊作戦",
+		name = "通商破壊",
 		exp_commander = 0,
-		time_limit = 120,
+		time_limit = 10,
 		exp_commander_ratio = 30,
 		dungeon_id = 1001,
-		exp = 195,
+		exp = 180,
 		icon = "qz1",
 		difficulty = 1,
-		level = 30,
+		level = 35,
 		map_id = 10001,
-		limit_type = 1,
+		limit_type = 4,
 		icon_type = 1,
 		plot_type = 0,
 		id = 1001,
@@ -104,22 +117,35 @@ pg.expedition_data_template = {
 		award_display = {
 			{
 				2,
-				59001
+				59001,
+				"少量"
 			},
 			{
 				2,
-				59002
+				53994,
+				"少量"
+			},
+			{
+				2,
+				53991,
+				"30%出現"
+			},
+			{
+				2,
+				30001,
+				"1"
 			}
 		},
 		objective_1 = {
-			1
+			5,
+			90
 		},
 		objective_2 = {
 			2
 		},
 		objective_3 = {
-			5,
-			120
+			9,
+			2
 		},
 		bufficon = {}
 	},
@@ -127,20 +153,20 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 1,
+		type = 15,
 		ai_mov = 0,
 		add_icon = "",
-		name = "通商破壊作戦",
+		name = "通商破壊",
 		exp_commander = 0,
-		time_limit = 120,
+		time_limit = 10,
 		exp_commander_ratio = 30,
 		dungeon_id = 1002,
-		exp = 345,
+		exp = 240,
 		icon = "qz1",
 		difficulty = 1,
-		level = 70,
+		level = 50,
 		map_id = 10001,
-		limit_type = 1,
+		limit_type = 4,
 		icon_type = 1,
 		plot_type = 0,
 		id = 1002,
@@ -148,22 +174,139 @@ pg.expedition_data_template = {
 		award_display = {
 			{
 				2,
-				59001
+				59001,
+				"少量"
 			},
 			{
 				2,
-				59002
+				53994,
+				"少量"
+			},
+			{
+				2,
+				53991,
+				"70%出現"
+			},
+			{
+				2,
+				30001,
+				"2"
 			}
 		},
 		objective_1 = {
-			1
+			5,
+			120
 		},
 		objective_2 = {
 			2
 		},
 		objective_3 = {
+			9,
+			2
+		},
+		bufficon = {}
+	},
+	[1003] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		add_icon = "",
+		name = "通商破壊",
+		exp_commander = 1,
+		time_limit = 10,
+		exp_commander_ratio = 30,
+		dungeon_id = 1003,
+		exp = 300,
+		icon = "qz1",
+		difficulty = 1,
+		level = 70,
+		map_id = 10001,
+		limit_type = 4,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1003,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				59001,
+				"少量"
+			},
+			{
+				2,
+				53995,
+				"少量"
+			},
+			{
+				2,
+				53992,
+				"10%出現"
+			}
+		},
+		objective_1 = {
 			5,
 			120
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			9,
+			2
+		},
+		bufficon = {}
+	},
+	[1004] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		add_icon = "",
+		name = "通商破壊",
+		exp_commander = 2,
+		time_limit = 10,
+		exp_commander_ratio = 30,
+		dungeon_id = 1004,
+		exp = 360,
+		icon = "qz1",
+		difficulty = 1,
+		level = 90,
+		map_id = 10001,
+		limit_type = 4,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1004,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				59001,
+				"少量"
+			},
+			{
+				2,
+				53995,
+				"少量"
+			},
+			{
+				2,
+				53992,
+				"35%出現"
+			}
+		},
+		objective_1 = {
+			5,
+			180
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			9,
+			2
 		},
 		bufficon = {}
 	},
@@ -231646,6 +231789,8 @@ pg.expedition_data_template = {
 		1000,
 		1001,
 		1002,
+		1003,
+		1004,
 		2000,
 		2001,
 		2002,

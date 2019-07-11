@@ -139,8 +139,6 @@ function slot8.InitData(slot0, slot1)
 		slot0._repressEnemyHpRant = slot2.repressEnemyHpRant
 	end
 
-	slot0._dropInfo = slot3.Battle.BattleDrops.New(slot1.DropInfoList)
-
 	slot0:InitStageData()
 
 	slot0._cldSystem = slot3.Battle.BattleCldSystem.New(slot0)
@@ -228,10 +226,6 @@ function slot8.Clear(slot0)
 	slot0._cldSystem:Dispose()
 
 	slot0._cldSystem = nil
-
-	slot0._dropInfo:Dispose()
-
-	slot0._dropInfo = nil
 	slot0._dungeonInfo = nil
 	slot0._flagShipUnit = nil
 	slot0._friendlyShipList = nil
@@ -258,12 +252,6 @@ function slot8.DeactiveProxy(slot0)
 end
 
 function slot8.InitUserShipsData(slot0, slot1, slot2, slot3, slot4)
-	if slot0._battleInitData.battleType == SYSTEM_SUBMARINE_RUN then
-		for slot8, slot9 in ipairs(slot4) do
-			slot0:SpawnManualSub(slot9, slot3)
-		end
-	end
-
 	for slot8, slot9 in ipairs(slot2) do
 		slot10 = slot0:SpawnVanguard(slot9, slot3)
 	end
@@ -272,7 +260,17 @@ function slot8.InitUserShipsData(slot0, slot1, slot2, slot3, slot4)
 		slot10 = slot0:SpawnMain(slot9, slot3)
 	end
 
-	slot0:GetFleetByIFF(slot3):SetSubUnitData(slot4)
+	slot5 = slot0:GetFleetByIFF(slot3)
+
+	if slot0._battleInitData.battleType == SYSTEM_SUBMARINE_RUN or slot6 == SYSTEM_SUB_ROUTINE then
+		for slot10, slot11 in ipairs(slot4) do
+			slot0:SpawnManualSub(slot11, slot3)
+		end
+
+		slot5:ShiftManualSub()
+	else
+		slot5:SetSubUnitData(slot4)
+	end
 end
 
 function slot8.SetSubmarinAidData(slot0)
@@ -722,7 +720,7 @@ function slot8.SpawnManualSub(slot0, slot1, slot2)
 	slot0:GetFleetByIFF(slot2).AddManualSubmarine(slot5, slot4)
 	slot0._cldSystem:InitShipCld(slot4)
 	slot0:DispatchEvent(slot1.Event.New(slot2.ADD_UNIT, {
-		type = slot0.UnitType.PLAYER_UNIT,
+		type = slot0.UnitType.SUB_UNIT,
 		unit = slot4
 	}))
 
@@ -777,13 +775,6 @@ function slot8.KillUnit(slot0, slot1)
 			if table.contains(TeamType.SubShipType, slot2:GetTemplate().type) then
 				slot0:UpdateHostileSubmarine(false)
 			end
-		end
-
-		if slot5 ~= slot1.UnitDeathReason.LEAVE and (slot0._dropInfo:CreateDrops(slot2:GetTemplateID()).itemCount ~= nil or slot7.resourceCount ~= nil) then
-			slot0._dropInfo:DispatchEvent(slot2.Event.New(slot3.ENEMY_DROP, {
-				scenePos = slot2:GetPosition(),
-				drops = slot7
-			}))
 		end
 	else
 		if slot4 == slot0.FRIENDLY_CODE then
@@ -867,36 +858,42 @@ function slot8.generatePlayerUnit(slot0, slot1, slot2, slot3, slot4)
 		}
 	end
 
-	slot10 = slot2.CreateBattleUnitData(slot5, slot3.UnitType.PLAYER_UNIT, slot2, slot1.tmpID, slot1.skinId, slot1.equipment, slot6, slot7, slot0._completelyRepress, slot0._repressReduce, nil, slot1.baseList, slot1.preloasList)
-	slot9 = slot2.CreateBattleUnitData(slot5, slot3.UnitType.PLAYER_UNIT, slot2, slot1.tmpID, slot1.skinId, slot1.equipment, slot6, slot7, slot0._completelyRepress, slot0._repressReduce, nil, slot1.baseList, slot1.preloasList).InitCurrentHP
+	slot8 = slot2.UnitType.PLAYER_UNIT
 
-	if not slot1.initHPRate then
-		slot11 = 1
+	if slot0._battleInitData.battleType == SYSTEM_SUBMARINE_RUN or slot9 == SYSTEM_SUB_ROUTINE then
+		slot8 = slot2.UnitType.SUB_UNIT
 	end
 
-	slot9(slot10, slot11)
-	slot8:SetRarity(slot1.rarity)
-	slot8:SetShipName(slot1.name)
+	slot12 = slot3.CreateBattleUnitData(slot5, slot8, slot2, slot1.tmpID, slot1.skinId, slot1.equipment, slot6, slot7, slot0._completelyRepress, slot0._repressReduce, nil, slot1.baseList, slot1.preloasList)
+	slot11 = slot3.CreateBattleUnitData(slot5, slot8, slot2, slot1.tmpID, slot1.skinId, slot1.equipment, slot6, slot7, slot0._completelyRepress, slot0._repressReduce, nil, slot1.baseList, slot1.preloasList).InitCurrentHP
 
-	slot0._unitList[slot5] = slot8
+	if not slot1.initHPRate then
+		slot13 = 1
+	end
 
-	slot0:setShipUnitBound(slot8)
+	slot11(slot12, slot13)
+	slot10:SetRarity(slot1.rarity)
+	slot10:SetShipName(slot1.name)
 
-	if slot8:GetIFF() == slot0.FRIENDLY_CODE then
-		slot0._friendlyShipList[slot5] = slot8
+	slot0._unitList[slot5] = slot10
+
+	slot0:setShipUnitBound(slot10)
+
+	if slot10:GetIFF() == slot0.FRIENDLY_CODE then
+		slot0._friendlyShipList[slot5] = slot10
 	else
-		if slot8:GetIFF() == slot0.FOE_CODE then
-			slot0._foeShipList[slot5] = slot8
+		if slot10:GetIFF() == slot0.FOE_CODE then
+			slot0._foeShipList[slot5] = slot10
 		end
 	end
 
-	slot8:SetPosition(slot3)
-	slot2.InitUnitSkill(slot1, slot8)
-	slot2.InitEquipSkill(slot1.equipment, slot8, Ship.WEAPON_COUNT)
-	slot2.InitCommanderSkill(slot4, slot8)
-	slot8:SetGearScore(slot1.shipGS)
+	slot10:SetPosition(slot3)
+	slot3.InitUnitSkill(slot1, slot10)
+	slot3.InitEquipSkill(slot1.equipment, slot10, Ship.WEAPON_COUNT)
+	slot3.InitCommanderSkill(slot4, slot10)
+	slot10:SetGearScore(slot1.shipGS)
 
-	return slot8
+	return slot10
 end
 
 function slot8.GetUnitList(slot0)
@@ -927,10 +924,6 @@ end
 
 function slot8.GetCountDown(slot0)
 	return slot0._countDown
-end
-
-function slot8.GetDropInfo(slot0)
-	return slot0._dropInfo
 end
 
 function slot8.SpawnAirFighter(slot0, slot1)
@@ -1456,7 +1449,17 @@ function slot8.SubmarineStrike(slot0, slot1)
 	end
 
 	slot2:SubWarcry()
-	slot2:GetSubList()[1].TriggerBuff(slot5, slot0.BuffEffectType.ON_SUB_LEADER)
+
+	for slot8, slot9 in ipairs(slot4) do
+		if slot8 == 1 then
+			slot9:TriggerBuff(slot0.BuffEffectType.ON_SUB_LEADER)
+		else
+			slot9:TriggerBuff(slot0.BuffEffectType.ON_SUB_CONSORT)
+		end
+	end
+
+	slot5 = slot4[1]
+
 	slot2:GetSubAidVO():Cast()
 
 	return

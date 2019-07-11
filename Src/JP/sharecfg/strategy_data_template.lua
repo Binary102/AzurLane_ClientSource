@@ -50,6 +50,29 @@ pg.strategy_data_template = {
 			exchange
 		}
 	},
+	[10] = {
+		buff_id = 0,
+		name = "範囲外支援 ",
+		type = 4,
+		id = 10,
+		icon = "10",
+		desc = "潜水艦の支援範囲外でも潜水支援を使用可能 ",
+		arg = {
+			map_call
+		}
+	},
+	[11] = {
+		buff_id = 0,
+		name = "作戦範囲変更 ",
+		type = 3,
+		id = 11,
+		icon = "11",
+		desc = "潜水艦の作戦エリアを変更する ",
+		arg = {
+			sub_move,
+			1.1
+		}
+	},
 	[90] = {
 		buff_id = 90,
 		name = "危機発生",
@@ -156,6 +179,8 @@ pg.strategy_data_template = {
 		3,
 		4,
 		9,
+		10,
+		11,
 		90,
 		91,
 		9500,

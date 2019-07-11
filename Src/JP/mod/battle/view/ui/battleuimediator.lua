@@ -75,11 +75,13 @@ end
 function slot6.OpeningEffect(slot0, slot1, slot2)
 	slot0._uiMGR:SetActive(false)
 
-	if slot2 then
+	if slot2 == SYSTEM_SUBMARINE_RUN then
 		slot0._skillView:SubmarineButton()
 
 		slot0._joystick.anchorMin = Vector2(slot0.JOY_STICK_DEFAULT_PREFERENCE.x, slot0.JOY_STICK_DEFAULT_PREFERENCE.y)
 		slot0._joystick.anchorMax = Vector2(slot0.JOY_STICK_DEFAULT_PREFERENCE.x, slot0.JOY_STICK_DEFAULT_PREFERENCE.y)
+	elseif slot2 == SYSTEM_SUB_ROUTINE then
+		slot0._skillView:SubRoutineButton()
 	elseif pg.SeriesGuideMgr.GetInstance().currIndex and slot3:isEnd() then
 		slot0._skillView:NormalButton()
 	else

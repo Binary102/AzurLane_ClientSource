@@ -14,8 +14,15 @@ end
 
 function slot2.OverHeat(slot0)
 	slot0.super.OverHeat(slot0)
-	slot0._playerTorpedoVO:RemoveWeapon(slot0)
 	slot0._playerTorpedoVO:DispatchOverLoadChange()
+end
+
+function slot2.GetType(slot0)
+	return slot0.Battle.BattleConst.EquipmentType.DISPOSABLE_TORPEDO
+end
+
+function slot2.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
+	return slot0.super.createMajorEmitter(slot0, 1, slot2, slot3, slot4, slot5)
 end
 
 return

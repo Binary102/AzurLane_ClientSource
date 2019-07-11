@@ -9,12 +9,19 @@ end
 
 function ys.Battle.BattleSubmarineAidVO.SetUseable(slot0, slot1)
 	slot0._useable = slot1
-	slot0._current = 1
+	slot0._current = (slot1 and 1) or 0
 	slot0._max = 1
+
+	slot0:DispatchOverLoadChange()
+	slot0:DispatchCountChange()
 end
 
 function ys.Battle.BattleSubmarineAidVO.GetUseable(slot0)
 	return slot0._useable
+end
+
+function ys.Battle.BattleSubmarineAidVO.IsOverLoad(slot0)
+	return slot0._current < slot0._max or slot0._count < 1
 end
 
 function ys.Battle.BattleSubmarineAidVO.Cast(slot0)

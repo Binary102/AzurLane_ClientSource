@@ -112,22 +112,22 @@ function slot0.Preload(slot0)
 				table.insert(slot3, slot13)
 			end
 
-			slot13, slot13 = slot6:getFleetBattleBuffs(slot7)
+			slot12, slot12 = slot6:getFleetBattleBuffs(slot7)
 
-			slot0.addCommanderBuffRes(slot11)
-			slot0.addChapterBuffRes(slot10)
+			slot0.addCommanderBuffRes(slot10)
+			slot0.addChapterBuffRes(slot9)
 
-			if _.detect(slot6.fleets, function (slot0)
-				return slot0:getFleetType() == FleetType.Submarine and slot0:isValid() and slot0:inHuntingRange(slot0.line.row, slot0.line.column)
-			end) then
-				for slot16, slot17 in ipairs(slot12) do
-					table.insert(slot3, slot17)
+			slot11, slot12 = slot5.getSubAidFlag(slot6)
+
+			if slot11 == true or slot11 > 0 then
+				for slot17, slot18 in ipairs(slot13) do
+					table.insert(slot3, slot18)
 				end
 
-				slot16, slot16 = slot6:getFleetBattleBuffs(slot9)
+				slot17, slot17 = slot6:getFleetBattleBuffs(slot12)
 
-				slot0.addCommanderBuffRes(slot14)
-				slot0.addChapterBuffRes(slot13)
+				slot0.addCommanderBuffRes(slot15)
+				slot0.addChapterBuffRes(slot14)
 			end
 		elseif slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS then
 			if getProxy(FleetProxy).getActivityFleets(slot5)[slot0.contextData.actId][slot0.contextData.mainFleetId] then

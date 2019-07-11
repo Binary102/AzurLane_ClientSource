@@ -36,14 +36,22 @@ ys or .Battle.BattleDataFunction.CreateBattleUnitData = function (slot0, slot1, 
 
 		slot14 = Ship.WEAPON_COUNT
 	else
-		if slot1 == slot0.UnitType.ENEMY_UNIT then
-			slot1.Battle.BattleEnemyUnit.New(slot0, slot2):SetRepress(slot8)
+		if slot1 == slot0.UnitType.SUB_UNIT then
+			slot1.Battle.BattleSubUnit.New(slot0, slot2).SetSkinId(slot13, slot4)
+			slot1.Battle.BattleSubUnit.New(slot0, slot2).SetRepressReduce(slot13, slot9)
+			slot1.Battle.BattleSubUnit.New(slot0, slot2):SetWeaponInfo(slot11, slot12)
+
+			slot14 = Ship.WEAPON_COUNT
 		else
-			if slot1 == slot0.UnitType.BOSS_UNIT then
-				slot1.Battle.BattleBossUnit.New(slot0, slot2):SetRepress(slot8)
+			if slot1 == slot0.UnitType.ENEMY_UNIT then
+				slot1.Battle.BattleEnemyUnit.New(slot0, slot2):SetRepress(slot8)
 			else
-				if slot1 == slot0.UnitType.NPC_UNIT then
-					slot13 = slot1.Battle.BattleNPCUnit.New(slot0, slot2)
+				if slot1 == slot0.UnitType.BOSS_UNIT then
+					slot1.Battle.BattleBossUnit.New(slot0, slot2):SetRepress(slot8)
+				else
+					if slot1 == slot0.UnitType.NPC_UNIT then
+						slot13 = slot1.Battle.BattleNPCUnit.New(slot0, slot2)
+					end
 				end
 			end
 		end
@@ -72,18 +80,25 @@ ys or .Battle.BattleDataFunction.CreateBattleUnitData = function (slot0, slot1, 
 			if not slot20.id then
 				slot15[#slot15 + 1] = {
 					equipment = false,
+					torpedoAmmo = 0,
 					skin = slot20.skin
 				}
 			else
+				if not slot20.equipmentInfo or not slot20.equipmentInfo.config.torpedo_ammo then
+					slot21 = 0
+				end
+
 				if not slot14 or slot19 <= slot14 or #slot2.GetWeaponDataFromID(slot20.id).weapon_id then
 					slot15[#slot15 + 1] = {
 						equipment = slot2.GetWeaponDataFromID(slot20.id),
-						skin = slot20.skin
+						skin = slot20.skin,
+						torpedoAmmo = slot21
 					}
 				else
 					slot15[#slot15 + 1] = {
 						equipment = false,
-						skin = slot20.skin
+						skin = slot20.skin,
+						torpedoAmmo = slot21
 					}
 				end
 			end
@@ -197,61 +212,66 @@ ys or .Battle.BattleDataFunction.InitCommanderSkill = function (slot0, slot1)
 	return
 end
 
-ys or .Battle.BattleDataFunction.CreateWeaponUnit = function (slot0, slot1, slot2, slot3)
+ys or .Battle.BattleDataFunction.CreateWeaponUnit = function (slot0, slot1, slot2, slot3, slot4)
 	if not slot3 then
 		slot3 = -1
 	end
 
-	slot4 = slot1:GetUnitType()
-	slot5 = nil
+	slot5 = slot1:GetUnitType()
+	slot6 = nil
+	slot7 = slot0:GetWeaponPropertyDataFromID()
 
-	if slot0:GetWeaponPropertyDataFromID().type == slot1.EquipmentType.MAIN_CANNON then
-		slot5 = slot2.Battle.BattleWeaponUnit.New()
+	if not slot4 then
+		slot8 = slot7.type
+	end
+
+	if slot8 == slot1.EquipmentType.MAIN_CANNON then
+		slot6 = slot2.Battle.BattleWeaponUnit.New()
 	else
-		if slot6.type == slot1.EquipmentType.SUB_CANNON then
-			slot5 = slot2.Battle.BattleWeaponUnit.New()
+		if slot8 == slot1.EquipmentType.SUB_CANNON then
+			slot6 = slot2.Battle.BattleWeaponUnit.New()
 		else
-			if slot6.type == slot1.EquipmentType.TORPEDO then
-				slot5 = slot2.Battle.BattleTorpedoUnit.New()
+			if slot8 == slot1.EquipmentType.TORPEDO then
+				slot6 = slot2.Battle.BattleTorpedoUnit.New()
 			else
-				if slot6.type == slot1.EquipmentType.MANUAL_TORPEDO then
-					slot5 = slot2.Battle.BattleManualTorpedoUnit.New()
+				if slot8 == slot1.EquipmentType.MANUAL_TORPEDO then
+					slot6 = slot2.Battle.BattleManualTorpedoUnit.New()
 				else
-					if slot6.type == slot1.EquipmentType.ANTI_AIR then
-						slot5 = slot2.Battle.BattleAntiAirUnit.New()
+					if slot8 == slot1.EquipmentType.ANTI_AIR then
+						slot6 = slot2.Battle.BattleAntiAirUnit.New()
 					else
-						if slot6.type == slot1.EquipmentType.FLEET_ANTI_AIR then
-							slot5 = slot2.Battle.BattleWeaponUnit.New()
+						if slot8 == slot1.EquipmentType.FLEET_ANTI_AIR then
+							slot6 = slot2.Battle.BattleWeaponUnit.New()
 						else
-							if slot6.type == slot1.EquipmentType.SCOUT or slot6.type == slot1.EquipmentType.PASSIVE_SCOUT then
-								slot5 = slot2.Battle.BattleHiveUnit.New()
+							if slot8 == slot1.EquipmentType.SCOUT or slot8 == slot1.EquipmentType.PASSIVE_SCOUT then
+								slot6 = slot2.Battle.BattleHiveUnit.New()
 							else
-								if slot6.type == slot1.EquipmentType.SPECIAL then
-									slot5 = slot2.Battle.BattleSpecialWeapon.New()
+								if slot8 == slot1.EquipmentType.SPECIAL then
+									slot6 = slot2.Battle.BattleSpecialWeapon.New()
 								else
-									if slot6.type == slot1.EquipmentType.ANTI_SEA then
-										slot5 = slot2.Battle.BattleDirectHitWeaponUnit.New()
+									if slot8 == slot1.EquipmentType.ANTI_SEA then
+										slot6 = slot2.Battle.BattleDirectHitWeaponUnit.New()
 									else
-										if slot6.type == slot1.EquipmentType.HAMMER_HEAD then
-											slot5 = slot2.Battle.BattleHammerHeadWeaponUnit.New()
+										if slot8 == slot1.EquipmentType.HAMMER_HEAD then
+											slot6 = slot2.Battle.BattleHammerHeadWeaponUnit.New()
 										else
-											if slot6.type == slot1.EquipmentType.BOMBER_PRE_CAST_ALERT then
-												slot5 = slot2.Battle.BattleBombWeaponUnit.New()
+											if slot8 == slot1.EquipmentType.BOMBER_PRE_CAST_ALERT then
+												slot6 = slot2.Battle.BattleBombWeaponUnit.New()
 											else
-												if slot6.type == slot1.EquipmentType.POINT_HIT_AND_LOCK then
-													slot5 = slot2.Battle.BattlePointHitWeaponUnit.New()
+												if slot8 == slot1.EquipmentType.POINT_HIT_AND_LOCK then
+													slot6 = slot2.Battle.BattlePointHitWeaponUnit.New()
 												else
-													if slot6.type == slot1.EquipmentType.BEAM then
-														slot5 = slot2.Battle.BattleLaserUnit.New()
+													if slot8 == slot1.EquipmentType.BEAM then
+														slot6 = slot2.Battle.BattleLaserUnit.New()
 													else
-														if slot6.type == slot1.EquipmentType.DEPTH_CHARGE then
-															slot5 = slot2.Battle.BattleDepthChargeUnit.New()
+														if slot8 == slot1.EquipmentType.DEPTH_CHARGE then
+															slot6 = slot2.Battle.BattleDepthChargeUnit.New()
 														else
-															if slot6.type == slot1.EquipmentType.REPEATER_ANTI_AIR then
-																slot5 = slot2.Battle.BattleRepeaterAntiAirUnit.New()
+															if slot8 == slot1.EquipmentType.REPEATER_ANTI_AIR then
+																slot6 = slot2.Battle.BattleRepeaterAntiAirUnit.New()
 															else
-																if slot6.type == slot1.EquipmentType.DISPOSABLE_TORPEDO then
-																	slot5 = slot2.Battle.BattleDisposableTorpedoUnit.New()
+																if slot8 == slot1.EquipmentType.DISPOSABLE_TORPEDO then
+																	slot6 = slot2.Battle.BattleDisposableTorpedoUnit.New()
 																end
 															end
 														end
@@ -269,24 +289,24 @@ ys or .Battle.BattleDataFunction.CreateWeaponUnit = function (slot0, slot1, slot
 		end
 	end
 
-	slot5:SetPotentialFactor(slot2)
-	slot5:SetEquipmentIndex(slot3)
-	slot5:SetTemplateData(slot6)
-	slot5:SetHostData(slot1)
+	slot6:SetPotentialFactor(slot2)
+	slot6:SetEquipmentIndex(slot3)
+	slot6:SetTemplateData(slot7)
+	slot6:SetHostData(slot1)
 
-	if slot4 == slot1.UnitType.PLAYER_UNIT then
-		slot5:OverrideGCD(slot3.PLAYER_WEAPON_GLOBAL_COOL_DOWN_DURATION)
+	if slot5 == slot1.UnitType.PLAYER_UNIT then
+		slot6:OverrideGCD(slot3.PLAYER_WEAPON_GLOBAL_COOL_DOWN_DURATION)
 	else
-		if slot4 == slot1.UnitType.ENEMY_UNIT or slot1.UnitType.BOSS_UNIT then
-			slot5:HostOnEnemy()
+		if slot5 == slot1.UnitType.ENEMY_UNIT or slot1.UnitType.BOSS_UNIT then
+			slot6:HostOnEnemy()
 		end
 	end
 
-	if slot6.type == slot1.EquipmentType.SCOUT or slot6.type == slot1.EquipmentType.PASSIVE_SCOUT then
-		slot5:EnterCoolDown()
+	if slot7.type == slot1.EquipmentType.SCOUT or slot7.type == slot1.EquipmentType.PASSIVE_SCOUT then
+		slot6:EnterCoolDown()
 	end
 
-	return slot5
+	return slot6
 end
 
 ys or .Battle.BattleDataFunction.CreateAircraftUnit = function (slot0, slot1, slot2, slot3)

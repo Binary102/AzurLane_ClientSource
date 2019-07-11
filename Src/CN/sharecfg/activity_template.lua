@@ -6550,40 +6550,14 @@ pg.activity_template = {
 	[300] = {
 		mark = 20190516,
 		title_res_tag = "huiliu",
+		time = "stop",
 		type = 56,
 		bg = "",
 		config_id = 1,
 		is_show = 2,
 		config_client = "",
 		id = 300,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					5,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					7,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[301] = {
 		mark = 20190606,
@@ -7345,6 +7319,7 @@ pg.activity_template = {
 	[326] = {
 		mark = 20190627,
 		title_res_tag = "france_re_main",
+		time = "stop",
 		type = 12,
 		config_id = 0,
 		is_show = 4,
@@ -7365,33 +7340,6 @@ pg.activity_template = {
 			1240018,
 			1240019,
 			1240021
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					6,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					7,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		bg = {
 			"clutter/activity_bg_france_re_main"
@@ -7483,6 +7431,7 @@ pg.activity_template = {
 	[329] = {
 		mark = 20190627,
 		title_res_tag = "",
+		time = "stop",
 		type = 13,
 		bg = "",
 		config_id = 0,
@@ -7507,71 +7456,18 @@ pg.activity_template = {
 			14744,
 			14745,
 			14746
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					6,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					7,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[330] = {
 		mark = 20190627,
 		title_res_tag = "france_re_oil",
+		time = "stop",
 		type = 54,
 		config_id = 330,
 		is_show = 1,
 		config_client = "",
 		id = 330,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					6,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					7,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/activity_bg_france_re_oil"
 		}
@@ -7837,20 +7733,32 @@ pg.activity_template = {
 	[335] = {
 		mark = 20190627,
 		title_res_tag = "",
+		time = "stop",
 		type = 1,
 		bg = "",
 		config_id = 4,
 		is_show = 0,
 		config_client = "",
 		id = 335,
+		config_data = {}
+	},
+	[336] = {
+		mark = 20190711,
+		title_res_tag = "",
+		type = 1,
+		bg = "",
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		id = 336,
 		config_data = {},
 		time = {
 			timer,
 			{
 				{
 					2019,
-					6,
-					27
+					7,
+					11
 				},
 				{
 					0,
@@ -7862,7 +7770,7 @@ pg.activity_template = {
 				{
 					2019,
 					7,
-					11
+					24
 				},
 				{
 					23,
@@ -8888,6 +8796,7 @@ pg.activity_template = {
 		333,
 		334,
 		335,
+		336,
 		1001,
 		1002,
 		1004,

@@ -10,6 +10,7 @@ function slot1.Ctor(slot0)
 	slot0.CD_BAR_NAME = "CDBarContainer/chargeWeaponCD"
 	slot0.CHARGE_AREA_NAME = "ChargeAreaContainer/ChargeArea"
 	slot0.ARROW_BAR_NAME = "EnemyArrowContainer/MainArrow"
+	slot0.SUB_ARROW_BAR = "EnemyArrowContainer/SubArrow"
 end
 
 function slot1.MakeCharacter(slot0)

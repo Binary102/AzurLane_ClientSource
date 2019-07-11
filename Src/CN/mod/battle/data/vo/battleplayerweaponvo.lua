@@ -7,12 +7,17 @@ ys.Battle.BattlePlayerWeaponVO.__name = "BattlePlayerWeaponVO"
 function ys.Battle.BattlePlayerWeaponVO.Ctor(slot0, slot1)
 	slot0.EventDispatcher.AttachEventDispatcher(slot0)
 
+	slot0._GCD = slot1
+
+	slot0:Reset()
+end
+
+function ys.Battle.BattlePlayerWeaponVO.Reset(slot0)
 	slot0._isOverLoad = false
-	slot0._current = slot1
-	slot0._max = slot1
+	slot0._current = slot0._GCD
+	slot0._max = slot0._GCD
 	slot0._count = 0
 	slot0._total = 0
-	slot0._GCD = slot1
 	slot0._weaponList = {}
 	slot0._overHeatList = {}
 	slot0._readyList = {}
@@ -242,6 +247,7 @@ function ys.Battle.BattlePlayerWeaponVO.Deduct(slot0, slot1)
 		slot0._max = math.max(slot0._GCD, slot0:GetNextTimeStamp() - pg.TimeMgr.GetInstance():GetCombatTime())
 
 		slot0:resetCurrent()
+	elseif slot1:GetType() == slot0.Battle.BattleConst.EquipmentType.DISPOSABLE_TORPEDO then
 	else
 		slot0._current = 0
 	end

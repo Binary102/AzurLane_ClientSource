@@ -361,15 +361,7 @@ function slot0.nextPage(slot0, slot1, slot2)
 			slot0.viewComponent:switch2EquipmentSkinPage()
 		end
 
-		if slot7 == ShipViewConst.PAGE.FASHION then
-			if not slot0.viewComponent:hasFashion() then
-				slot0.viewComponent:switchToPage(ShipViewConst.PAGE.DETAIL, true)
-			else
-				slot0.viewComponent:switchToPage(slot7, true)
-			end
-		else
-			slot0.viewComponent:switchToPage(slot7, true)
-		end
+		slot0.viewComponent:switchToPage(slot7, true)
 	end
 
 	return slot6

@@ -140,6 +140,10 @@ function LoadSpriteAsync(slot0, slot1)
 	end), true, false)
 end
 
+function LoadWithoutBuffer(slot0, slot1, slot2)
+	return ResourceMgr.Inst:getAssetSync(slot0, slot1, slot2, true, false)
+end
+
 function LoadImageSpriteAsync(slot0, slot1, slot2)
 	slot1:GetComponent(typeof(Image)).enabled = false
 	slot0[slot1.GetComponent(typeof(Image))] = slot0

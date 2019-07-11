@@ -3435,7 +3435,9 @@ pg.skill_data_template = {
 		type = 3,
 		max_level = 10,
 		id = 3511,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"4",
@@ -3493,7 +3495,9 @@ pg.skill_data_template = {
 		type = 2,
 		max_level = 10,
 		id = 3521,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"4.5",
@@ -3551,7 +3555,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 3531,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -3609,7 +3615,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 3571,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -3667,7 +3675,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 3581,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -3725,7 +3735,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 3591,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -3783,7 +3795,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 3611,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"1.5%",
@@ -3830,6 +3844,126 @@ pg.skill_data_template = {
 				},
 				{
 					"6.0%"
+				}
+			}
+		}
+	},
+	[3621] = {
+		desc_get = "",
+		name = "空域确认",
+		desc = "战斗中，若制空状态不为制空权劣势或制空权丧失，提升自身炮击、雷击、装填$1",
+		type = 3,
+		max_level = 10,
+		id = 3621,
+		system_transform = {
+			[11.0] = 3500
+		},
+		desc_get_add = {
+			{
+				"5%",
+				"15%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[3631] = {
+		desc_get = "",
+		name = "远洋支援",
+		desc = "自身氧气存量额外提高$1点；在潜艇编队中时，在该编队的狩猎范围外，可以进行一次战斗内潜艇支援",
+		type = 3,
+		max_level = 10,
+		id = 3631,
+		system_transform = {
+			[11.0] = 3500
+		},
+		desc_get_add = {
+			{
+				"2",
+				"20"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"2",
+					"+2"
+				},
+				{
+					"4",
+					"+2"
+				},
+				{
+					"6",
+					"+2"
+				},
+				{
+					"8",
+					"+2"
+				},
+				{
+					"10",
+					"+2"
+				},
+				{
+					"12",
+					"+2"
+				},
+				{
+					"14",
+					"+2"
+				},
+				{
+					"16",
+					"+2"
+				},
+				{
+					"18",
+					"+2"
+				},
+				{
+					"20"
 				}
 			}
 		}
@@ -15972,7 +16106,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 11370,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -16025,7 +16161,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 11380,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -16083,7 +16221,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 11390,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -16244,7 +16384,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 11410,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"2.5%",
@@ -16463,7 +16605,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 11440,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -16669,7 +16813,9 @@ pg.skill_data_template = {
 		type = 3,
 		max_level = 10,
 		id = 11460,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -16727,7 +16873,9 @@ pg.skill_data_template = {
 		type = 3,
 		max_level = 10,
 		id = 11461,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -18318,7 +18466,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 11670,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -18362,7 +18512,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 11680,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -21322,7 +21474,9 @@ pg.skill_data_template = {
 		type = 3,
 		max_level = 10,
 		id = 12010,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -22572,7 +22726,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 12180,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
@@ -24036,6 +24192,396 @@ pg.skill_data_template = {
 				},
 				{
 					"15.0%"
+				}
+			}
+		}
+	},
+	[12370] = {
+		desc_get = "",
+		name = "格伦的问候",
+		desc = "自身进场时，放飞一架零式小型水上侦察机进行攻击(威力依据雷击属性和技能等级)，本场战斗中队伍中所有潜艇、潜母的命中提高$1",
+		type = 1,
+		max_level = 10,
+		id = 12370,
+		system_transform = {
+			[11.0] = 3500
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%",
+					"+0.5%"
+				},
+				{
+					"8.5%",
+					"+0.5%"
+				},
+				{
+					"9.0%",
+					"+1%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[12380] = {
+		desc_get = "",
+		name = "临别之礼",
+		desc = "自身氧气不足上浮时，发射一轮炮击弹幕(威力依据技能等级)；该弹幕及自身炮击命中时有$1概率降低被命中敌人的装填、命中$2，持续15秒",
+		type = 1,
+		max_level = 10,
+		id = 12380,
+		system_transform = {
+			[11.0] = 3500
+		},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"5.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%",
+					"+0.5%"
+				},
+				{
+					"8.5%",
+					"+0.5%"
+				},
+				{
+					"9.0%",
+					"+1%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[12390] = {
+		desc_get = "",
+		name = "复仇之刃",
+		desc = "对航母造成的伤害提高$1；战斗中，自身氧气不足上浮时，发射一轮必定暴击的鱼雷弹幕(威力和样式依据技能等级)",
+		type = 1,
+		max_level = 10,
+		id = 12390,
+		system_transform = {
+			[11.0] = 3500
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.2%"
+				},
+				{
+					"6.2%",
+					"+1.2%"
+				},
+				{
+					"7.4%",
+					"+1.6%"
+				},
+				{
+					"9.0%",
+					"+1.5%"
+				},
+				{
+					"10.5%",
+					"+1.5%"
+				},
+				{
+					"12.0%",
+					"+2.0%"
+				},
+				{
+					"14.0%",
+					"+1.8%"
+				},
+				{
+					"15.8%",
+					"+1.8%"
+				},
+				{
+					"17.6%",
+					"+2.4%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[12400] = {
+		desc_get = "",
+		name = "大鱼突击！",
+		desc = "战斗中，自身命中属性提高$1；位于潜艇编队僚舰位时，开始战斗后向前移动，18秒后，开始撤退回原位",
+		type = 3,
+		max_level = 10,
+		id = 12400,
+		system_transform = {
+			[11.0] = 3500
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[12410] = {
+		desc_get = "",
+		name = "狼群战术-U101",
+		desc = "出击时，编队中铁血阵营潜艇角色回避率提高$1，对驱逐、轻巡伤害提高$1；出击时，编队中每有一个铁血阵营潜艇角色，自身雷击、装填属性上升$2",
+		type = 2,
+		max_level = 10,
+		id = 12410,
+		system_transform = {
+			[11.0] = 3500
+		},
+		desc_get_add = {
+			{
+				"2.5%",
+				"7.0%"
+			},
+			{
+				"1.5%",
+				"6.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
 				}
 			}
 		}
@@ -28220,6 +28766,28 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[23511] = {
+		desc_get = "",
+		name = "全弹发射I",
+		desc = "进入战斗时，触发全弹发射-Type IXC型I",
+		type = 1,
+		max_level = 1,
+		id = 23511,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[23512] = {
+		desc_get = "",
+		name = "全弹发射II",
+		desc = "进入战斗时，触发全弹发射-Type IXC型II",
+		type = 1,
+		max_level = 1,
+		id = 23512,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[24011] = {
 		desc_get = "",
 		name = "全弹发射I",
@@ -29041,7 +29609,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29321,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 29323
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
@@ -29052,7 +29622,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29322,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 29324
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
@@ -29239,6 +29811,50 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29412,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29421] = {
+		desc_get = "",
+		name = "专属弹幕-伊168I",
+		desc = "进入战斗时，触发专属弹幕-伊168I",
+		type = 1,
+		max_level = 1,
+		id = 29421,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29422] = {
+		desc_get = "",
+		name = "专属弹幕-伊168II",
+		desc = "进入战斗时，触发专属弹幕-伊168II",
+		type = 1,
+		max_level = 1,
+		id = 29422,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29431] = {
+		desc_get = "",
+		name = "专属弹幕-U101I",
+		desc = "进入战斗时，触发专属弹幕-U101I",
+		type = 1,
+		max_level = 1,
+		id = 29431,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29432] = {
+		desc_get = "",
+		name = "专属弹幕-U101II",
+		desc = "进入战斗时，触发专属弹幕-U101II",
+		type = 1,
+		max_level = 1,
+		id = 29432,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -32139,6 +32755,8 @@ pg.skill_data_template = {
 		3581,
 		3591,
 		3611,
+		3621,
+		3631,
 		4001,
 		4011,
 		4021,
@@ -32460,6 +33078,11 @@ pg.skill_data_template = {
 		12330,
 		12350,
 		12360,
+		12370,
+		12380,
+		12390,
+		12400,
+		12410,
 		18010,
 		18040,
 		18050,
@@ -32642,6 +33265,8 @@ pg.skill_data_template = {
 		23312,
 		23411,
 		23412,
+		23511,
+		23512,
 		24011,
 		24012,
 		24111,
@@ -32735,6 +33360,10 @@ pg.skill_data_template = {
 		29402,
 		29411,
 		29412,
+		29421,
+		29422,
+		29431,
+		29432,
 		101010,
 		101020,
 		101030,

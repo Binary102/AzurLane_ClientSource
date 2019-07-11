@@ -66,12 +66,7 @@ function slot0.setShip(slot0, slot1)
 	end
 
 	slot0.shipVO = slot1
-	slot0.isSpBg = pg.ship_skin_template[slot0.shipVO.skinId].rarity_bg and slot3.rarity_bg ~= ""
 
-	slot0:updatePreference(slot1)
-	slot0.shipDetailView:ActionInvoke("UpdateUI")
-	slot0.shipFashionView:ActionInvoke("UpdateUI")
-	slot0.shipEquipView:ActionInvoke("UpdateUI")
 	setActive(slot0.npcFlagTF, slot1:isActivityNpc())
 
 	if slot2 and not slot0:checkToggleActive(ShipViewConst.currentPage) then
@@ -79,6 +74,13 @@ function slot0.setShip(slot0, slot1)
 	end
 
 	slot0:setToggleEnable()
+
+	slot0.isSpBg = pg.ship_skin_template[slot0.shipVO.skinId].rarity_bg and slot3.rarity_bg ~= ""
+
+	slot0:updatePreference(slot1)
+	slot0.shipDetailView:ActionInvoke("UpdateUI")
+	slot0.shipFashionView:ActionInvoke("UpdateUI")
+	slot0.shipEquipView:ActionInvoke("UpdateUI")
 end
 
 function slot0.setToggleEnable(slot0)
@@ -101,7 +103,7 @@ function slot0.checkToggleActive(slot0, slot1)
 	elseif slot1 == ShipViewConst.PAGE.REMOULD then
 		return not slot0.shipVO:isTestShip() and not slot0.shipVO:isBluePrintShip() and pg.ship_data_trans[slot0.shipVO.groupId]
 	elseif slot1 == ShipViewConst.PAGE.FASHION then
-		return true
+		return slot0:hasFashion()
 	else
 		return false
 	end
@@ -1024,8 +1026,6 @@ function slot0.loadPainting(slot0, slot1)
 		end))
 		LeanTween.alphaCanvas(slot7, 1, 0.3):setFrom(0):setUseEstimatedTime(true)
 	end
-
-	print("gg")
 
 	slot0.LoadShipVOId = slot0.shipVO.id
 	slot0.LoadPaintingCode = slot1

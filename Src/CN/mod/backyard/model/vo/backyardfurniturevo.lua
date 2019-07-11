@@ -59,11 +59,37 @@ function slot0.getShipExtra(slot0)
 	return slot0.spineExtra
 end
 
+function slot0.isTransPort(slot0)
+	return slot0:getConfig("type") == Furniture.TYPE_TRANSPORT
+end
+
+function slot0.getTransportPoint(slot0)
+	if slot0:isTransPort() then
+		slot1 = slot0:getConfig("spine")[3][1]
+
+		if slot0.dir == 1 then
+			return Vector2(slot0.position.x + slot1[1], slot0.position.y + slot1[2])
+		elseif slot0.dir == 2 then
+			return Vector2(slot0.position.x + slot1[2], slot0.position.y + slot1[1])
+		end
+	end
+end
+
+function slot0.getTransportAnims(slot0, slot1)
+	if slot0:isTransPort() then
+		return slot0:getConfig("spine")[3][2][slot1]
+	end
+end
+
 function slot0.canInterActionSpineExtra(slot0)
 	return slot0:getCurrSpineCnt() < slot0:getSpineMaxCnt()
 end
 
 function slot0.getSpineMaxCnt(slot0)
+	if slot0:isTransPort() then
+		return 2
+	end
+
 	slot1 = 0
 
 	if slot0:isSpine() then
@@ -214,6 +240,10 @@ function slot0.getInterActionSpineCfg(slot0)
 end
 
 function slot0.isInterActionSpine(slot0)
+	if slot0:isTransPort() then
+		return true
+	end
+
 	return slot0:getInterActionSpineCfg() ~= nil and #slot1 > 0
 end
 
@@ -256,6 +286,16 @@ end
 function slot0.getTailAction(slot0)
 	if slot0:isSpine() then
 		return slot0:getInterActionSpineCfg()[3][4]
+	end
+end
+
+function slot0.hasEndAnimName(slot0)
+	return slot0:getEndAnimName() ~= nil
+end
+
+function slot0.getEndAnimName(slot0)
+	if slot0:isSpine() then
+		return slot0:getInterActionSpineCfg()[3][5]
 	end
 end
 
@@ -819,7 +859,7 @@ function slot0.canTriggerInteraction(slot0, slot1)
 		return false
 	end
 
-	return (slot0:isInterActionSpine() and slot0:canInterActionSpine()) or slot0:canInterAction() or slot0:isStageFurniture() or slot0:isArch()
+	return (slot0:isInterActionSpine() and slot0:canInterActionSpine()) or slot0:canInterAction() or slot0:isStageFurniture() or slot0:isArch() or slot0:isTransPort()
 end
 
 function slot0.getSurroundGrid(slot0)

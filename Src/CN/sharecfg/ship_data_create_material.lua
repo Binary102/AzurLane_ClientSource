@@ -70,13 +70,11 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>精锐舰船</color>：12%",
 			"<color=#3dc6ff>稀有舰船</color>：51%",
 			"普通舰船：30%",
-			"<color=#ffde38>恶毒</color>：2%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>让巴尔</color>：1.8%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>马萨诸塞</color>：1.8%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>倔强</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>敦刻尔克</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>絮库夫</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#3dc6ff>福尔班</color>：5%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>伊168</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>U-101</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>伊25</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>伊56</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>U-522</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

@@ -1040,6 +1040,22 @@ pg.gametip = {
 		tip = "击败所有的敌方角色",
 		key = "battle_result_defeat_all_enemys"
 	},
+	battle_result_base_score = {
+		tip = "通关基础分：",
+		key = "battle_result_base_score"
+	},
+	battle_result_dead_score = {
+		tip = "我方阵亡*$1：",
+		key = "battle_result_dead_score"
+	},
+	battle_result_score = {
+		tip = "摧毁运输舰*$1：",
+		key = "battle_result_score"
+	},
+	battle_result_score_total = {
+		tip = "总计：",
+		key = "battle_result_score_total"
+	},
 	battle_levelScene_0Oil = {
 		tip = "石油产量为0",
 		key = "battle_levelScene_0Oil"
@@ -1119,6 +1135,10 @@ pg.gametip = {
 	battle_preCombatLayer_damage_before_end = {
 		tip = "战斗结束前尽可能取得更高伤害",
 		key = "battle_preCombatLayer_damage_before_end"
+	},
+	battle_preCombatLayer_destory_transport_ship = {
+		tip = "至少摧毁$1艘运输舰",
+		key = "battle_preCombatLayer_destory_transport_ship"
 	},
 	battle_preCombatMediator_leastLimit = {
 		tip = "无法取消，第一舰队上必须要有舰船！",
@@ -1211,6 +1231,10 @@ pg.gametip = {
 	battle_autobot_unlock = {
 		tip = "自律战斗功能已开放",
 		key = "battle_autobot_unlock"
+	},
+	tips_confirm_teleport_sub = {
+		tip = "发布指令：将<color=#92fc63FF>潜艇编队</color>从<color=#92fc63FF>$1</color>区域调动到<color=#92fc63FF>$2</color>区域，需要移动<color=#92fc63FF>$3</color>格，消耗<color=#92fc63FF>$4</color>点石油，是否确认？",
+		key = "tips_confirm_teleport_sub"
 	},
 	backyard_addExp_Info = {
 		tip = "指挥官不在的 ||<color=#FAFAF7FF>$1</color>|| 里得到了充分的休息！||一共消灭了|| <color=#92fc63FF>$2</color>|| 的食物，获得了|| <color=#92fc63FF>$3</color>|| 的经验~",
@@ -3529,7 +3553,7 @@ pg.gametip = {
 		key = "event_type_unlimit"
 	},
 	dailyLevel_restCount_notEnough = {
-		tip = "日常关卡挑战次数不足",
+		tip = "关卡次数不足，无法挑战",
 		key = "dailyLevel_restCount_notEnough"
 	},
 	dailyLevel_unopened = {
@@ -4916,19 +4940,35 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		tip = {
 			{
 				info = [[
-商船护送开启时间为：每周一、周四、周日
+※ 破交作战开启时间：每天开放，每周最多可挑战两次
+◆ 破交作战模式下，指挥官将操纵<color=#92fc63>潜艇编队</color>出战
+◆ 不同的<color=#92fc63>鱼雷武器</color>将为<color=#92fc63>装备舰船</color>提供不同数量的<color=#92fc63>弹药</color>
+<color=#92fc63>◆ 鱼雷设备</color>将为<color=#92fc63>装备舰船</color>提供额外的<color=#92fc63>弹药</color>
+◆ 破交作战模式下，<color=#92fc63>所有潜艇技能</color>不生效，潜艇的全弹
+发射、专属弹幕通过<color=#92fc63>特殊攻击按钮</color>触发(<color=#92fc63>絮库夫专属弹幕</color>
+通过<color=#92fc63>上浮</color>触发，每场战斗仅限1次)
+◆ 破交作战模式下，全弹发射、专属弹幕<color=#92fc63>伤害提高</color>
+◆ 计分方式：
+◆ 通关基础分：<color=#92fc63>100</color>分
+◆ 击破1艘运输舰：<color=#92fc63>+10</color>分
+◆ 1位己方舰船被重创：<color=#92fc63>-15</color>分
+◆ S评价：<color=#92fc63>120</color>分
+◆ A评价：<color=#92fc63>100</color>分
+◆ B评价：<color=#92fc63>70</color>分
 
-海域突进开启时间为：每周二、周五、周日
+※ 商船护送开启时间为：每周一、周四、周日
 
-斩首行动开启时间为：每周三、周六、周日
+※ 海域突进开启时间为：每周二、周五、周日
 
-战术研修开启时间为：每天开放
-<color=#92fc63>航空</color> 敌方旗舰拥有极高的耐久，使用<color=#92fc63>航空兵器</color>能造成巨
-量伤害
-<color=#92fc63>炮击</color> 敌方旗舰拥有极高的耐久，使用<color=#92fc63>炮击兵器</color>能造成巨
-量伤害
-<color=#92fc63>雷击</color> 敌方旗舰拥有极高的耐久，使用<color=#92fc63>鱼雷兵器</color>能造成巨
-量伤害]]
+※ 斩首行动开启时间为：每周三、周六、周日
+
+※ 战术研修开启时间为：每天开放
+◆ <color=#92fc63>航空</color> 敌方旗舰拥有极高的耐久，使用<color=#92fc63>航空兵器</color>能造成
+巨量伤害
+◆ <color=#92fc63>炮击</color> 敌方旗舰拥有极高的耐久，使用<color=#92fc63>炮击兵器</color>能造成
+巨量伤害
+◆ <color=#92fc63>雷击</color> 敌方旗舰拥有极高的耐久，使用<color=#92fc63>鱼雷兵器</color>能造成
+巨量伤害]]
 			}
 		}
 	},
@@ -7078,6 +7118,10 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		tip = "训练中",
 		key = "word_status_train"
 	},
+	word_status_challenge = {
+		tip = "限界挑战中",
+		key = "word_status_challenge"
+	},
 	challenge_rule = {
 		key = "challenge_rule",
 		tip = {
@@ -8684,7 +8728,7 @@ $3]],
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "恶毒、让巴尔、马萨诸塞、倔强、敦刻尔克、絮库夫、福尔班出现概率UP",
+		tip = "伊168、U-101、伊25、伊56、U-522出现概率UP",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -10476,11 +10520,11 @@ UID：
 		key = "challenge_expire_warn"
 	},
 	challenge_normal_tip = {
-		tip = "挑战关卡并刷新高分成绩，获取奖励！ ",
+		tip = "挑战关卡并刷新高分成绩，获取奖励！",
 		key = "challenge_normal_tip"
 	},
 	challenge_unlimited_tip = {
-		tip = "挑战自身极限，突破更多关卡！ ",
+		tip = "挑战自身极限，突破更多关卡！",
 		key = "challenge_unlimited_tip"
 	},
 	commander_prefab_rename_success = {
@@ -10682,6 +10726,10 @@ UID：
 	secondarypassword_confirm_tips = {
 		tip = "请再次确认密码提示文本\n<color=#FFDE38>“%s”</color>",
 		key = "secondarypassword_confirm_tips"
+	},
+	word_rest_times = {
+		tip = "<color=#FFDE38FF>剩余次数 ：%s次</color>",
+		key = "word_rest_times"
 	}
 }
 

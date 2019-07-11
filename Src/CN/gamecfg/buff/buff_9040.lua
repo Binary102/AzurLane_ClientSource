@@ -12,17 +12,14 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffShiftBullet",
+			type = "BattleBuffOverrideBullet",
 			trigger = {
-				"onAttach",
-				"onRemove"
+				"onBulletCreate"
 			},
 			arg_list = {
-				bullet_id = 9007,
-				index = {
-					1,
-					2,
-					3
+				bullet_type = 3,
+				override = {
+					diverFilter = {}
 				}
 			}
 		},

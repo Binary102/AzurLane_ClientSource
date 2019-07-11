@@ -1033,6 +1033,38 @@ function slot0.getMoveableFurnitures(slot0)
 	return slot1
 end
 
+function slot0.getTransportPoint(slot0, slot1, slot2)
+	if slot0.furnitures[slot2]:isTransPort() and slot0:hasEmptyGrid() then
+		return function (slot0)
+			slot1 = {
+				slot0
+			}
+			slot2 = {}
+
+			function slot3(slot0)
+				if not table.contains(slot0, slot0) and not slot1:isBound(slot0) then
+					table.insert(slot2, slot0)
+				end
+			end
+
+			while #slot1 > 0 do
+				if slot0:canMoveBoat(slot1, table.remove(slot1, 1)) then
+					return slot4
+				else
+					slot3(Vector2(slot4.x, slot4.y - 1))
+					slot3(Vector2(slot4.x - 1, slot4.y))
+					slot3(Vector2(slot4.x + 1, slot4.y))
+					slot3(Vector2(slot4.x, slot4.y + 1))
+				end
+
+				table.insert(slot2, slot4)
+			end
+		end(slot3:getTransportPoint())
+	else
+		return slot0:getSingleByRamdom()
+	end
+end
+
 function slot0.getSaveData(slot0)
 	slot1 = {}
 

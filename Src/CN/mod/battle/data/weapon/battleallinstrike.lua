@@ -109,6 +109,10 @@ function ys.Battle.BattleAllInStrike.GetHost(slot0)
 	return slot0._host
 end
 
+function ys.Battle.BattleAllInStrike.GetType(slot0)
+	return slot0.EquipmentType.AIR_ASSIST
+end
+
 function ys.Battle.BattleAllInStrike.Fire(slot0)
 	slot0._host:TriggerBuff(slot0.Battle.BattleConst.BuffEffectType.ON_ALL_IN_STRIKE_STEADY, {})
 

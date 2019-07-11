@@ -69,11 +69,9 @@ function slot2(slot0, slot1, slot2)
 
 	slot9(slot10)
 
-	slot9 = slot8.extra_param
-	slot9 = slot9.diveFilter
-	slot9 = slot9 or {
-		2
-	}
+	slot10 = slot7
+	slot9 = slot7.GetDiveFilter
+	slot9 = slot9(slot10)
 	slot11 = slot7
 	slot10 = slot7.GetPosition
 	slot10 = slot10(slot11)
@@ -186,8 +184,6 @@ function slot2(slot0, slot1, slot2)
 
 			slot1(slot2)
 		end
-
-		return
 	end
 
 	function slot13(slot0)
@@ -211,8 +207,6 @@ function slot2(slot0, slot1, slot2)
 
 			slot2(slot3, slot4)
 		end
-
-		return
 	end
 
 	function slot14(slot0)
@@ -324,8 +318,6 @@ function slot2(slot0, slot1, slot2)
 		slot6 = slot6.GetUniqueID
 
 		slot4(slot5, slot6(slot7))
-
-		return
 	end
 
 	slot16 = slot6
@@ -353,10 +345,6 @@ function slot2(slot0, slot1, slot2)
 	slot27 = slot14
 
 	slot15(slot16, slot17, slot18, slot19, slot20, slot21, slot22, slot23, slot24, slot25, slot26, slot27)
-
-	return
-
-	slot9 = 
 end
 
 slot1.onBulletHitFunc = slot2
@@ -367,8 +355,6 @@ function slot2(slot0)
 	slot2 = slot0
 
 	slot1(slot2)
-
-	return
 end
 
 slot1.onBulletMissFunc = slot2
@@ -424,8 +410,6 @@ function slot2(slot0, slot1, slot2)
 				slot3(slot4, slot5, slot6, slot7)
 			end
 		end
-
-		return
 	end
 
 	slot6 = slot6(slot7, slot8, slot9)
@@ -487,8 +471,6 @@ function slot2(slot0, slot1, slot2)
 			slot7(slot8, slot9(slot10, slot11))
 		end
 	end
-
-	return
 end
 
 slot1.MakeModel = slot2

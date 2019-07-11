@@ -1579,7 +1579,7 @@ pg.furniture_data_template = {
 		deblocking = 1,
 		level = 1,
 		rarity = 4,
-		tag = 1,
+		tag = 6,
 		belong = 1,
 		canputon = 0,
 		discount = 0,
@@ -1660,7 +1660,7 @@ pg.furniture_data_template = {
 		deblocking = 1,
 		level = 1,
 		rarity = 4,
-		tag = 1,
+		tag = 6,
 		belong = 1,
 		canputon = 0,
 		discount = 0,
@@ -1742,7 +1742,7 @@ pg.furniture_data_template = {
 		deblocking = 1,
 		level = 1,
 		rarity = 4,
-		tag = 1,
+		tag = 6,
 		belong = 1,
 		canputon = 0,
 		discount = 20,
@@ -1859,7 +1859,7 @@ pg.furniture_data_template = {
 		icon = "liyuqiwoicon",
 		deblocking = 1,
 		level = 1,
-		tag = 1,
+		tag = 6,
 		rarity = 4,
 		picture = "chuanmo/liyuqiwo",
 		canputon = 0,
@@ -2241,7 +2241,7 @@ pg.furniture_data_template = {
 		deblocking = 1,
 		level = 1,
 		rarity = 2,
-		tag = 1,
+		tag = 6,
 		belong = 1,
 		canputon = 0,
 		discount = 0,
@@ -2298,7 +2298,7 @@ pg.furniture_data_template = {
 		deblocking = 1,
 		level = 1,
 		rarity = 3,
-		tag = 1,
+		tag = 6,
 		belong = 1,
 		canputon = 0,
 		discount = 0,
@@ -2380,7 +2380,7 @@ pg.furniture_data_template = {
 		deblocking = 1,
 		level = 1,
 		rarity = 3,
-		tag = 1,
+		tag = 6,
 		belong = 1,
 		canputon = 0,
 		discount = 0,
@@ -2908,7 +2908,7 @@ pg.furniture_data_template = {
 		deblocking = 1,
 		level = 1,
 		rarity = 4,
-		tag = 1,
+		tag = 6,
 		belong = 1,
 		canputon = 0,
 		discount = 0,
@@ -3334,7 +3334,7 @@ pg.furniture_data_template = {
 		deblocking = 1,
 		level = 1,
 		rarity = 4,
-		tag = 1,
+		tag = 6,
 		belong = 1,
 		canputon = 0,
 		discount = 0,
@@ -85276,6 +85276,2789 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[46001] = {
+		can_rotate = 0,
+		name = "纤维支架地面",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		belong = 0,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "dibancpicon",
+		deblocking = 1,
+		level = 1,
+		tag = 4,
+		rarity = 4,
+		picture = "cyberpunk/dibancp",
+		canputon = 0,
+		discount = 0,
+		id = 46001,
+		comfortable = 4,
+		describe = "欢迎来到数字世界！",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46002] = {
+		can_rotate = 0,
+		name = "虹彩线条墙壁",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		belong = 0,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "qiangbicpicon",
+		deblocking = 1,
+		level = 5,
+		tag = 3,
+		rarity = 4,
+		picture = "cyberpunk/qiangbicp",
+		canputon = 0,
+		discount = 0,
+		id = 46002,
+		comfortable = 4,
+		describe = "欢迎来到数字世界！",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46101] = {
+		advice = 0,
+		name = "多彩唱片机",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "cyberpunk/changpianjicp",
+		can_rotate = 1,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "changpianjicpicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 46101,
+		comfortable = 3,
+		describe = "来一曲朋克音乐如何？",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					25,
+					47
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46102] = {
+		advice = 0,
+		name = "数字浴缸",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "cyberpunk/chizicp",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chizicpicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 46102,
+		comfortable = 3,
+		describe = "需要加一点营养液吗？",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					20,
+					-32
+				},
+				{
+					-1,
+					1
+				},
+				"cyberpunk/chizicp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46103] = {
+		can_rotate = 0,
+		name = "人行道",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "daocpicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "cyberpunk/daocp",
+		canputon = 0,
+		discount = 0,
+		id = 46103,
+		comfortable = 2,
+		describe = "无论何时何地，都要遵守交通规则哦",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46104] = {
+		can_rotate = 0,
+		name = "霓虹招牌",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dengpaicpicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "cyberpunk/dengpaicp",
+		canputon = 0,
+		discount = 0,
+		id = 46104,
+		comfortable = 2,
+		describe = "这里似乎有什么好玩的呢~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46105] = {
+		can_rotate = 0,
+		name = "电子灯柱·蓝",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dengzhu2cpicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "cyberpunk/dengzhu2cp",
+		canputon = 0,
+		discount = 0,
+		id = 46105,
+		comfortable = 2,
+		describe = "散发着冷冷的蓝光",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46106] = {
+		can_rotate = 0,
+		name = "电子灯柱·黄",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dengzhucpicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "cyberpunk/dengzhucp",
+		canputon = 0,
+		discount = 0,
+		id = 46106,
+		comfortable = 2,
+		describe = "散发着淡淡的黄光",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46107] = {
+		can_rotate = 0,
+		name = "经典电视机",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "dianshicpicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "cyberpunk/dianshicp",
+		canputon = 0,
+		discount = 0,
+		id = 46107,
+		comfortable = 3,
+		describe = "扭动这里可以转台~",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46108] = {
+		can_rotate = 0,
+		name = "唱片造型地垫",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dianzicpicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "cyberpunk/dianzicp",
+		canputon = 0,
+		discount = 0,
+		id = 46108,
+		comfortable = 2,
+		describe = "印着唱片形状的地垫~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46109] = {
+		can_rotate = 1,
+		name = "液晶广告牌",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "guanggaopaicpicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "cyberpunk/guanggaopaicp",
+		canputon = 0,
+		discount = 0,
+		id = 46109,
+		comfortable = 2,
+		describe = "嗯…？好像有点故障了…",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46110] = {
+		can_rotate = 0,
+		name = "爱心井盖",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jinggaicpicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "cyberpunk/jinggaicp",
+		canputon = 0,
+		discount = 0,
+		id = 46110,
+		comfortable = 2,
+		describe = "打开也进不了下水道的哦",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46111] = {
+		can_rotate = 0,
+		name = "智能机械1号",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "jiqi2cpicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "cyberpunk/jiqi2cp",
+		canputon = 0,
+		discount = 0,
+		id = 46111,
+		comfortable = 3,
+		describe = "「你好，请问有什么能帮你的吗？」",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46112] = {
+		can_rotate = 0,
+		name = "智能机械2号",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "jiqicpicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "cyberpunk/jiqicp",
+		canputon = 0,
+		discount = 0,
+		id = 46112,
+		comfortable = 3,
+		describe = "「你好，请问有什么能帮你的吗？」",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46113] = {
+		can_rotate = 0,
+		name = "微型机器人",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jiqirencpicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "cyberpunk/jiqirencp",
+		canputon = 0,
+		discount = 0,
+		id = 46113,
+		comfortable = 2,
+		describe = "检测到危险，警告——",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46114] = {
+		can_rotate = 0,
+		name = "警告路沿",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "luduncpicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "cyberpunk/luduncp",
+		canputon = 0,
+		discount = 0,
+		id = 46114,
+		comfortable = 2,
+		describe = "当心不要撞到了哦",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46115] = {
+		can_rotate = 1,
+		name = "霓虹广告牌",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "lupai2cpicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "cyberpunk/lupai2cp",
+		canputon = 0,
+		discount = 0,
+		id = 46115,
+		comfortable = 2,
+		describe = "发光的是氦哦~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46116] = {
+		can_rotate = 0,
+		name = "电子路牌·浪花",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "lupai3cpicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "cyberpunk/lupai3cp",
+		canputon = 0,
+		discount = 0,
+		id = 46116,
+		comfortable = 3,
+		describe = "前方海岸~",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46117] = {
+		can_rotate = 0,
+		name = "电子路牌·爱心",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "lupaicpicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "cyberpunk/lupaicp",
+		canputon = 0,
+		discount = 0,
+		id = 46117,
+		comfortable = 3,
+		describe = "前方——休息站？",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46118] = {
+		can_rotate = 0,
+		name = "马路",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 4,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "malucpicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "cyberpunk/malucp",
+		canputon = 0,
+		discount = 0,
+		id = 46118,
+		comfortable = 2,
+		describe = "出行请遵守交通规则~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46119] = {
+		can_rotate = 0,
+		name = "排风机器",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "paifengqicpicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "cyberpunk/paifengqicp",
+		canputon = 0,
+		discount = 0,
+		id = 46119,
+		comfortable = 3,
+		describe = "「滋滋，通风不畅，警告——」",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46120] = {
+		can_rotate = 1,
+		name = "停行牌",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "paizicpicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "cyberpunk/paizicp",
+		canputon = 0,
+		discount = 0,
+		id = 46120,
+		comfortable = 2,
+		describe = "前方人行道，请停车让行~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46121] = {
+		advice = 0,
+		name = "休眠舱",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "cyberpunk/xiumiancangcp",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "xiumiancangcpicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 46121,
+		comfortable = 3,
+		describe = "这次要休眠多久呢~？",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-11,
+					-17
+				},
+				{
+					1,
+					1
+				},
+				"cyberpunk/xiumiancangcp_using",
+				0,
+				{
+					{
+						23,
+						34
+					},
+					{
+						704,
+						504
+					},
+					"cyberpunk/xiumiancangcp_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46122] = {
+		advice = 0,
+		name = "充气座椅·淡紫",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "cyberpunk/yizi2cp",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "yizi2iconcp",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 46122,
+		comfortable = 2,
+		describe = "淡紫色的座椅~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					12,
+					54
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46123] = {
+		advice = 0,
+		name = "充气座椅·淡绿",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "cyberpunk/yizi3cp",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "yizi3cpicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 46123,
+		comfortable = 2,
+		describe = "淡绿色的座椅~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					12,
+					54
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46124] = {
+		advice = 0,
+		name = "充气座椅·淡蓝",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "cyberpunk/yizicp",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "yizicpicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 46124,
+		comfortable = 2,
+		describe = "淡蓝色的座椅~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					12,
+					54
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46125] = {
+		can_rotate = 0,
+		name = "液晶隔断",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 3,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "zhalancpicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "cyberpunk/zhalancp",
+		canputon = 0,
+		discount = 0,
+		id = 46125,
+		comfortable = 3,
+		describe = "附带信息查询机能的隔断",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46126] = {
+		can_rotate = 0,
+		name = "全息展台",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "zhanshitaicpicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "cyberpunk/zhanshitaicp",
+		canputon = 0,
+		discount = 0,
+		id = 46126,
+		comfortable = 3,
+		describe = "全息投影就不怕被盗啦~",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46127] = {
+		can_rotate = 0,
+		name = "磁悬浮圆桌",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "zhuozicpicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "cyberpunk/zhuozicp",
+		canputon = 1,
+		discount = 0,
+		id = 46127,
+		comfortable = 3,
+		describe = "嗯…感觉似乎放不太稳呢…",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {
+			0,
+			8.17
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46128] = {
+		can_rotate = 0,
+		name = "数据通路",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "zoudaocpicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "cyberpunk/zoudaocp",
+		canputon = 0,
+		discount = 0,
+		id = 46128,
+		comfortable = 2,
+		describe = "装饰着数据电路的通路",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			11,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46129] = {
+		can_rotate = 0,
+		name = "悬浮飞车",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "checpicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 46129,
+		comfortable = 4,
+		describe = "要来比一比速度吗~？",
+		dorm_id = 0,
+		gem_price = 150,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cybercarB",
+				"normal"
+			},
+			{
+				"cybercarT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit0",
+						nil,
+						"sit"
+					}
+				},
+				{
+					nil,
+					nil,
+					nil,
+					nil,
+					"sit"
+				},
+				{
+					0
+				}
+			},
+			{
+				{
+					-26.29,
+					37.2
+				},
+				{
+					312,
+					272
+				},
+				"cyberpunk/cybercar_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.7
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"cybercarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[46130] = {
+		advice = 0,
+		name = "全息猫",
+		count = 1,
+		type = 2,
+		dir = 0,
+		gain_by = "",
+		is_get_time_note = 0,
+		belong = 1,
+		can_rotate = 1,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "touyingcpicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		picture = "",
+		canputon = 0,
+		discount = 0,
+		id = 46130,
+		comfortable = 4,
+		describe = "全息投影的猫猫！",
+		dorm_id = 0,
+		gem_price = 150,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cybermao",
+				"normal"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46131] = {
+		can_rotate = 1,
+		name = "传送门",
+		gain_by = "",
+		type = 12,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "men2cpicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 46131,
+		comfortable = 4,
+		describe = "目的地…似乎不能选呢",
+		dorm_id = 0,
+		gem_price = 150,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cybermen",
+				"normal"
+			},
+			[3] = {
+				{
+					1,
+					0
+				},
+				{
+					{
+						{
+							{
+								"walk",
+								"walk1"
+							},
+							0.5
+						}
+					},
+					{
+						{
+							{
+								"walk",
+								"walk2"
+							},
+							0.5
+						}
+					}
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				{
+					"cybermenCharControl"
+				},
+				{
+					"cybermenCharControl2"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46301] = {
+		can_rotate = 0,
+		name = "智能睡床",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chuancpicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 3,
+		picture = "cyberpunk/chuancp",
+		canputon = 0,
+		discount = 0,
+		id = 46301,
+		comfortable = 3,
+		describe = "可自动调节温度、软硬和窗外的风景~",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46302] = {
+		can_rotate = 0,
+		name = "舱门",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "mencpicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 2,
+		picture = "cyberpunk/mencp",
+		canputon = 0,
+		discount = 0,
+		id = 46302,
+		comfortable = 2,
+		describe = "需要指纹声纹及瞳孔验证~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46303] = {
+		can_rotate = 0,
+		name = "爱心壁灯",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "qiangzhiicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 2,
+		picture = "cyberpunk/qiangzhi",
+		canputon = 0,
+		discount = 0,
+		id = 46303,
+		comfortable = 2,
+		describe = "图案似乎…不能变呢",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46304] = {
+		can_rotate = 0,
+		name = "通风口",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "tongfengkoucpicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 2,
+		picture = "cyberpunk/tongfengkoucp",
+		canputon = 0,
+		discount = 0,
+		id = 46304,
+		comfortable = 2,
+		describe = "不可以从这里爬进去哦",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[46305] = {
+		can_rotate = 0,
+		name = "涂鸦墙",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 4,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "tuyabancpicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 3,
+		picture = "cyberpunk/tuyabancp",
+		canputon = 0,
+		discount = 0,
+		id = 46305,
+		comfortable = 3,
+		describe = "一起来街头涂鸦吧！！",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 46,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -86569,7 +89352,45 @@ pg.furniture_data_template = {
 		45307,
 		45308,
 		45309,
-		45310
+		45310,
+		46001,
+		46002,
+		46101,
+		46102,
+		46103,
+		46104,
+		46105,
+		46106,
+		46107,
+		46108,
+		46109,
+		46110,
+		46111,
+		46112,
+		46113,
+		46114,
+		46115,
+		46116,
+		46117,
+		46118,
+		46119,
+		46120,
+		46121,
+		46122,
+		46123,
+		46124,
+		46125,
+		46126,
+		46127,
+		46128,
+		46129,
+		46130,
+		46131,
+		46301,
+		46302,
+		46303,
+		46304,
+		46305
 	}
 }
 

@@ -165,6 +165,27 @@ function slot2(slot0, slot1, slot2)
 	slot3 = slot0
 	slot3 = slot3.DetailType0
 	slot0.detailType = slot3
+	slot3 = slot0.proposeTF
+	slot3 = slot3.childCount
+	slot4 = 0
+
+	if slot3 > slot4 then
+		slot3 = slot0.proposeTF
+		slot4 = slot3
+		slot3 = slot3.GetChild
+		slot5 = 0
+		slot3 = slot3(slot4, slot5)
+		slot0.proposeModel = slot3
+		slot3 = slot0.proposeModel
+
+		if slot3 then
+			slot3 = GetComponent
+			slot4 = slot0.proposeModel
+			slot5 = "SkeletonGraphic"
+			slot3 = slot3(slot4, slot5)
+			slot0.sg = slot3
+		end
+	end
 end
 
 slot0.Ctor = slot2
@@ -174,6 +195,45 @@ function slot2(slot0, slot1)
 	slot3 = slot0.go
 
 	slot2(slot3)
+
+	slot2 = slot0.proposeModel
+
+	if slot2 then
+		slot2 = LeanTween
+		slot2 = slot2.cancel
+		slot3 = slot0.proposeModel
+
+		slot2(slot3)
+
+		slot2 = LeanTween
+		slot2 = slot2.value
+		slot3 = go
+		slot4 = slot0.proposeModel
+		slot3 = slot3(slot4)
+		slot4 = 0
+		slot5 = 1
+		slot6 = 0.4
+		slot2 = slot2(slot3, slot4, slot5, slot6)
+		slot3 = slot2
+		slot2 = slot2.setOnUpdate
+		slot4 = System
+		slot4 = slot4.Action_float
+
+		function slot5(slot0)
+			slot1 = slot0
+			slot1 = slot1.sg
+			slot2 = Color
+			slot2 = slot2.New
+			slot3 = 1
+			slot4 = 1
+			slot5 = 1
+			slot6 = slot0
+			slot2 = slot2(slot3, slot4, slot5, slot6)
+			slot1.color = slot2
+		end
+
+		slot2(slot3, slot4(slot5))
+	end
 
 	if slot1 then
 		slot2 = slot0.go
@@ -536,117 +596,70 @@ function slot2(slot0)
 			slot13 = slot1.propose
 
 			if not slot13 and not slot6 then
-				slot13 = slot0.isLoadingPropose
+				slot13 = slot0.proposeTF
+				slot13 = slot13.childCount
 
-				if not slot13 then
-					slot13 = slot0.proposeTF
-					slot13 = slot13.childCount
-
-					if slot13 == 0 then
-						slot13 = true
-						slot0.isLoadingPropose = slot13
-						slot13 = LoadAndInstantiateSync
-						slot14 = "UI"
-						slot15 = "heartShipCard"
-						slot13 = slot13(slot14, slot15)
-						slot0.proposeModel = slot13
-						slot14 = slot0.proposeModel
-						slot14 = slot14.transform
-						slot15 = slot14
-						slot14 = slot14.SetParent
-						slot16 = slot0.proposeTF
-						slot17 = false
-
-						slot14(slot15, slot16, slot17)
-
-						slot14 = GetComponent
-						slot15 = slot0.proposeModel
-						slot16 = typeof
-						slot17 = RectTransform
-						slot14 = slot14(slot15, slot16(slot17))
-						slot15 = Vector3
-						slot16 = 0.5
-						slot17 = 0.5
-						slot18 = 0.5
-						slot15 = slot15(slot16, slot17, slot18)
-						slot14.localScale = slot15
-						slot15 = slot14.rect
-						slot16 = 40
-						slot15.height = slot16
-						slot15 = slot14.rect
-						slot16 = 40
-						slot15.width = slot16
-						slot15 = Vector3
-						slot16 = 0
-						slot17 = 0
-						slot18 = 0
-						slot15 = slot15(slot16, slot17, slot18)
-						slot14.localPosition = slot15
-						slot15 = Vector3
-						slot16 = 0
-						slot17 = 0
-						slot18 = 0
-						slot15 = slot15(slot16, slot17, slot18)
-						slot14.localRotation = slot15
-						slot15 = nil
-						slot0.isLoadingPropose = slot15
-					end
-
-					slot13 = slot0.proposeTF
-					slot14 = slot13
-					slot13 = slot13.GetChild
-					slot15 = 0
+				if slot13 == 0 then
+					slot13 = LoadAndInstantiateSync
+					slot14 = "UI"
+					slot15 = "heartShipCard"
 					slot13 = slot13(slot14, slot15)
 					slot0.proposeModel = slot13
-					slot13 = go
-					slot14 = slot0.proposeModel
-					slot13 = slot13(slot14)
 					slot14 = GetComponent
 					slot15 = slot0.proposeModel
 					slot16 = "SkeletonGraphic"
 					slot14 = slot14(slot15, slot16)
-					slot15 = false
-					slot14.enabled = slot15
-					slot15 = LeanTween
-					slot15 = slot15.cancel
-					slot16 = slot13
+					slot0.sg = slot14
+					slot14 = slot0.proposeModel
+					slot14 = slot14.transform
+					slot15 = slot14
+					slot14 = slot14.SetParent
+					slot16 = slot0.proposeTF
+					slot17 = false
 
-					slot15(slot16)
+					slot14(slot15, slot16, slot17)
 
-					slot15 = LeanTween
-					slot15 = slot15.value
-					slot16 = slot13
+					slot14 = GetComponent
+					slot15 = slot0.proposeModel
+					slot16 = typeof
+					slot17 = RectTransform
+					slot14 = slot14(slot15, slot16(slot17))
+					slot15 = Vector3
+					slot16 = 0.5
+					slot17 = 0.5
+					slot18 = 0.5
+					slot15 = slot15(slot16, slot17, slot18)
+					slot14.localScale = slot15
+					slot15 = slot14.rect
+					slot16 = 40
+					slot15.height = slot16
+					slot15 = slot14.rect
+					slot16 = 40
+					slot15.width = slot16
+					slot15 = Vector3
+					slot16 = 0
 					slot17 = 0
-					slot18 = 1
-					slot19 = 0.4
-					slot15 = slot15(slot16, slot17, slot18, slot19)
-					slot16 = slot15
-					slot15 = slot15.setOnComplete
-					slot17 = System
-					slot17 = slot17.Action
-
-					function slot18()
-						slot0 = slot0
-						slot1 = true
-						slot0.enabled = slot1
-					end
-
-					slot15(slot16, slot17(slot18))
+					slot18 = 0
+					slot15 = slot15(slot16, slot17, slot18)
+					slot14.localPosition = slot15
+					slot15 = Vector3
+					slot16 = 0
+					slot17 = 0
+					slot18 = 0
+					slot15 = slot15(slot16, slot17, slot18)
+					slot14.localRotation = slot15
 				end
+
+				slot13 = slot0.sg
+				slot14 = true
+				slot13.enabled = slot14
 			end
 		else
 			slot13 = slot0.proposeTF
 			slot13 = slot13.childCount
 
 			if slot13 ~= 0 then
-				slot13 = GetComponent
-				slot14 = slot0.proposeTF
-				slot15 = slot14
-				slot14 = slot14.GetChild
-				slot16 = 0
-				slot14 = slot14(slot15, slot16)
-				slot15 = "SkeletonGraphic"
-				slot13 = slot13(slot14, slot15)
+				slot13 = slot0.sg
 				slot14 = false
 				slot13.enabled = slot14
 			end

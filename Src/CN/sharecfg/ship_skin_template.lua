@@ -22949,7 +22949,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "南安普顿级轻巡洋舰——南安普顿，舷号C83",
-		voice_actor = -1,
+		voice_actor = 187,
 		air_bomb_skin = "",
 		illustrator = 20,
 		rarity_bg = "",
@@ -26210,7 +26210,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "确捷级轻巡洋舰——确捷，舷号08",
-		voice_actor = -1,
+		voice_actor = 188,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -26315,7 +26315,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 70196,
 		desc = "指挥官，您怎么来这里了…？我？如您所见，我正在自习。我觉得实战经验上的缺陷，还是需要用知识和规程来扬长避短才是",
-		voice_actor = -1,
+		voice_actor = 188,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -52774,7 +52774,7 @@ pg.ship_skin_template = {
 		},
 		live2d_offset = {
 			30,
-			-55,
+			-85,
 			0
 		},
 		fx_container = {
@@ -53388,6 +53388,279 @@ pg.ship_skin_template = {
 						{
 							-0.55,
 							2.21,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[308040] = {
+		name = "伊25",
+		bullet_skin_main = "",
+		ship_group = 30804,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "I25",
+		hand_id = 14,
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 308040,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "I25",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "巡潜乙型潜水舰伊25",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.9,
+					0.15,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.209,
+					0.03,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.42,
+							2.388,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[308050] = {
+		name = "伊56",
+		bullet_skin_main = "",
+		ship_group = 30805,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "I56",
+		hand_id = 14,
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 308050,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "I56",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "巡潜乙型改二型潜水舰伊56",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.87,
+					0.319,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.088,
+					0.236,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.329,
+							2.323,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[308060] = {
+		name = "伊168",
+		bullet_skin_main = "",
+		ship_group = 30806,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "I168",
+		hand_id = 14,
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 308060,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "I168",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "海大VI型a型潜水舰伊168",
+		voice_actor = 33,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.268,
+					0.246,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.002,
+					0.241,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.465,
+							2.445,
 							0
 						}
 					}
@@ -59990,6 +60263,188 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[408060] = {
+		name = "U-101",
+		bullet_skin_main = "",
+		ship_group = 40806,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "U101",
+		hand_id = 13,
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 408060,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "U101",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "铁血VIIB型潜艇U-101",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.287,
+					0.619,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.997,
+					0.302,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.541,
+							2.497,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408070] = {
+		name = "U-522",
+		bullet_skin_main = "",
+		ship_group = 40807,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "U522",
+		hand_id = 13,
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 408070,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "U522",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "铁血IXC型潜艇U-522",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.099,
+					0.335,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.261,
+					0.208,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.48,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[501010] = {
 		name = "鞍山",
 		bullet_skin_main = "",
@@ -62488,7 +62943,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "自由鸢尾大胆级驱逐舰—倔强",
-		voice_actor = -1,
+		voice_actor = 158,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -62593,7 +63048,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 70202,
 		desc = "据说夏天的海洋有着非同寻常的魔力，吸引人们驻足沙滩。但是，我除了热之外，一点魔力也没有察觉到……是我弄错了什么吗？",
-		voice_actor = -1,
+		voice_actor = 158,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -75507,6 +75962,9 @@ pg.ship_skin_template = {
 		308020,
 		308021,
 		308030,
+		308040,
+		308050,
+		308060,
 		312010,
 		312011,
 		312012,
@@ -75568,6 +76026,8 @@ pg.ship_skin_template = {
 		408041,
 		408050,
 		408051,
+		408060,
+		408070,
 		501010,
 		501011,
 		501020,

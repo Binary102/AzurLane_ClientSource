@@ -82,7 +82,8 @@ function slot5.InitCharacterFactory(slot0)
 		[slot1.UnitType.BOSS_UNIT] = slot0.Battle.BattleBossCharacterFactory.GetInstance(),
 		[slot1.UnitType.NPC_UNIT] = slot0.Battle.BattleNPCCharacterFactory.GetInstance(),
 		[slot1.UnitType.AIRCRAFT_UNIT] = slot0.Battle.BattleAircraftCharacterFactory.GetInstance(),
-		[slot1.UnitType.AIRFIGHTER_UNIT] = slot0.Battle.BattleAirFighterCharacterFactory.GetInstance()
+		[slot1.UnitType.AIRFIGHTER_UNIT] = slot0.Battle.BattleAirFighterCharacterFactory.GetInstance(),
+		[slot1.UnitType.SUB_UNIT] = slot0.Battle.BattleSubCharacterFactory.GetInstance()
 	}
 end
 
@@ -412,6 +413,8 @@ function slot5.AddPlayerCharacter(slot0, slot1)
 
 	if slot0._dataProxy:GetInitData().battleType ~= SYSTEM_DUEL then
 		if slot2 == SYSTEM_SHAM then
+		elseif slot2 == SYSTEM_SUBMARINE_RUN or slot2 == SYSTEM_SUB_ROUTINE then
+			slot1:SetBarHidden(false, false)
 		else
 			slot1:SetBarHidden(not slot3, slot3)
 		end
@@ -477,7 +480,7 @@ end
 
 function slot5.AllBulletNeutralize(slot0)
 	for slot4, slot5 in pairs(slot0._characterList) do
-		if slot5.__name == slot0.Battle.BattlePlayerCharacter.__name then
+		if slot5.__name == slot0.Battle.BattlePlayerCharacter.__name or slot5.__name == slot0.Battle.BattleSubCharacter.__name then
 			slot5:DisableWeaponTrack()
 		end
 	end

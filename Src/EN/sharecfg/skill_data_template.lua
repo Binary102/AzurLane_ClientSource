@@ -3435,7 +3435,9 @@ pg.skill_data_template = {
 		type = 3,
 		max_level = 10,
 		id = 3511,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"4",
@@ -3493,7 +3495,9 @@ pg.skill_data_template = {
 		type = 2,
 		max_level = 10,
 		id = 3521,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"4.5",
@@ -3551,7 +3555,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 3531,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"4.5%",
@@ -3609,7 +3615,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 3571,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -3667,7 +3675,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 3581,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -3725,7 +3735,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 3591,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -3783,7 +3795,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 3611,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"1.5%",
@@ -3830,6 +3844,126 @@ pg.skill_data_template = {
 				},
 				{
 					"6.0%"
+				}
+			}
+		}
+	},
+	[3621] = {
+		desc_get = "",
+		name = "Airspace Affirmation",
+		desc = "When your Aerial Superiority status is higher than \"AD\": increases this boat's FP, TRP, and RLD by $1.",
+		type = 3,
+		max_level = 10,
+		id = 3621,
+		system_transform = {
+			[11.0] = 3500
+		},
+		desc_get_add = {
+			{
+				"5%",
+				"15%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[3631] = {
+		desc_get = "",
+		name = "Open Ocean Support",
+		desc = "Increases this boat's OXY by $1. Once per sortie, while this boat is afloat: you can call in Submarine Support even if your fleet is outside the Submarine Fleet's ASR.",
+		type = 3,
+		max_level = 10,
+		id = 3631,
+		system_transform = {
+			[11.0] = 3500
+		},
+		desc_get_add = {
+			{
+				"2",
+				"20"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"2",
+					"+2"
+				},
+				{
+					"4",
+					"+2"
+				},
+				{
+					"6",
+					"+2"
+				},
+				{
+					"8",
+					"+2"
+				},
+				{
+					"10",
+					"+2"
+				},
+				{
+					"12",
+					"+2"
+				},
+				{
+					"14",
+					"+2"
+				},
+				{
+					"16",
+					"+2"
+				},
+				{
+					"18",
+					"+2"
+				},
+				{
+					"20"
 				}
 			}
 		}
@@ -15681,7 +15815,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 11370,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -15734,7 +15870,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 11380,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -15792,7 +15930,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 11390,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"5%",
@@ -15953,7 +16093,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 11410,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"2.5%",
@@ -16172,7 +16314,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 11440,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"20.0%",
@@ -16378,7 +16522,9 @@ pg.skill_data_template = {
 		type = 3,
 		max_level = 10,
 		id = 11460,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -16436,7 +16582,9 @@ pg.skill_data_template = {
 		type = 3,
 		max_level = 10,
 		id = 11461,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"5.0%",
@@ -18027,7 +18175,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 11670,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {},
 		desc_add = {
 			{
@@ -18071,7 +18221,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 11680,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {
 			{
 				"1.0%",
@@ -20588,7 +20740,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 10,
 		id = 12180,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 3500
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
@@ -21294,6 +21448,396 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[12370] = {
+		desc_get = "",
+		name = "Glen Assault",
+		desc = "When this boat enters the battle: launches a special Type 0 Small Recon Seaplane airstrike (DMG is based on this boat's TRP stat.) Increases Accuracy by $1 for all SSs and SSVs in your fleet.",
+		type = 1,
+		max_level = 10,
+		id = 12370,
+		system_transform = {
+			[11.0] = 3500
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%",
+					"+0.5%"
+				},
+				{
+					"8.5%",
+					"+0.5%"
+				},
+				{
+					"9.0%",
+					"+1%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[12380] = {
+		desc_get = "",
+		name = "Destructive Departure",
+		desc = "When this boat resurfaces: fires a special barrage (DMG is based on the skill's level.) When this boat hits an enemy with this barrage and its Main Guns: $1 chance to decrease the enemy's Accuracy and RLD by $2 for 15s.",
+		type = 1,
+		max_level = 10,
+		id = 12380,
+		system_transform = {
+			[11.0] = 3500
+		},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"5.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%",
+					"+0.5%"
+				},
+				{
+					"8.5%",
+					"+0.5%"
+				},
+				{
+					"9.0%",
+					"+1%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[12390] = {
+		desc_get = "",
+		name = "Turning The Tables!",
+		desc = "Increases this boat's DMG to Carriers by $1. When this boat resurfaces: fires a special guaranteed Critical Hit torpedo barrage. Barrage DMG is based on the skill's level.",
+		type = 1,
+		max_level = 10,
+		id = 12390,
+		system_transform = {
+			[11.0] = 3500
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.2%"
+				},
+				{
+					"6.2%",
+					"+1.2%"
+				},
+				{
+					"7.4%",
+					"+1.6%"
+				},
+				{
+					"9.0%",
+					"+1.5%"
+				},
+				{
+					"10.5%",
+					"+1.5%"
+				},
+				{
+					"12.0%",
+					"+2.0%"
+				},
+				{
+					"14.0%",
+					"+1.8%"
+				},
+				{
+					"15.8%",
+					"+1.8%"
+				},
+				{
+					"17.6%",
+					"+2.4%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[12400] = {
+		desc_get = "",
+		name = "Great Shark's Bite",
+		desc = "Increases this boat's Accuracy by $1. When called into battle when placed in the first or last position in the Submarine Fleet: continues advancing beyond its starting position then returns to it after 18s.",
+		type = 3,
+		max_level = 10,
+		id = 12400,
+		system_transform = {
+			[11.0] = 3500
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[12410] = {
+		desc_get = "",
+		name = "Wolf Pack Formation - U-101",
+		desc = "Increases Evasion Rate by $1 and DMG to DDs and CLs by $1 for all your Iron Blood SSs. For each Iron Blood SS in your fleet: increases this boat's TRP and RLD by $2.",
+		type = 2,
+		max_level = 10,
+		id = 12410,
+		system_transform = {
+			[11.0] = 3500
+		},
+		desc_get_add = {
+			{
+				"2.5%",
+				"7.0%"
+			},
+			{
+				"1.5%",
+				"6.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shell +",
@@ -21582,7 +22126,7 @@ pg.skill_data_template = {
 		}
 	},
 	[18100] = {
-		desc_get = "After the battle begins and every 30s after that: deploys 4 rotating shields that can each block up to 8 hits. Shields last for <color=#92fc63FF>5</color>s (<color=#92fc63FF>15</color>s when fully upgraded.)",
+		desc_get = "After the battle begins and every 30s after that: deploys 4 rotating shields that can each block up to 8 hits. Shields last for <color=#92fc63FF5></color>s (<color=#92fc63FF15></color>s when fully upgraded.)",
 		name = "Well-Rounded Armor+",
 		desc = "After the battle begins and every 30s after that: deploys 4 rotating shields that can each block up to 8 hits. Shields last for $1s.",
 		type = 2,
@@ -24138,6 +24682,28 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[23511] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Type IXC immediately after entering the battle.",
+		type = 1,
+		max_level = 1,
+		id = 23511,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[23512] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Type IXC immediately after entering the battle.",
+		type = 1,
+		max_level = 1,
+		id = 23512,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[24011] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -24959,7 +25525,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29321,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 29323
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
@@ -24970,7 +25538,9 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29322,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 29324
+		},
 		desc_get_add = {},
 		desc_add = {}
 	},
@@ -25047,6 +25617,50 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29362,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29421] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: I-168 immediately after entering the battle.",
+		type = 1,
+		max_level = 1,
+		id = 29421,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29422] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: I-168 immediately after entering the battle.",
+		type = 1,
+		max_level = 1,
+		id = 29422,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29431] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: U-101 immediately after entering the battle.",
+		type = 1,
+		max_level = 1,
+		id = 29431,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29432] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: U-101 immediately after entering the battle.",
+		type = 1,
+		max_level = 1,
+		id = 29432,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -27068,6 +27682,8 @@ pg.skill_data_template = {
 		3581,
 		3591,
 		3611,
+		3621,
+		3631,
 		4001,
 		4011,
 		4021,
@@ -27345,6 +27961,11 @@ pg.skill_data_template = {
 		12260,
 		12270,
 		12360,
+		12370,
+		12380,
+		12390,
+		12400,
+		12410,
 		18010,
 		18040,
 		18050,
@@ -27511,6 +28132,8 @@ pg.skill_data_template = {
 		23312,
 		23411,
 		23412,
+		23511,
+		23512,
 		24011,
 		24012,
 		24111,
@@ -27594,6 +28217,10 @@ pg.skill_data_template = {
 		29351,
 		29361,
 		29362,
+		29421,
+		29422,
+		29431,
+		29432,
 		101010,
 		101020,
 		101030,

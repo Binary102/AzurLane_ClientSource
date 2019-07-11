@@ -15362,6 +15362,100 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[112011] = {
+		ship_group = 11201,
+		name = "Revigorating Hestia ",
+		bg = "106",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "zaoshen_2",
+		air_bullet_skin = "",
+		hand_id = 1,
+		shop_type_id = 6,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		id = 112011,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "zaoshen_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70095,
+		desc = "Listen, everyone~! Playing by the beach is fun, but please keep safety in mind! If you begin to feel ill, come see me~! ",
+		voice_actor = 1,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.855,
+					0.938,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.855,
+					0.938,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.72,
+							2.21,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[201010] = {
 		ship_group = 20101,
 		name = "Amazon",
@@ -18099,6 +18193,123 @@ pg.ship_skin_template = {
 			propose = 2.5
 		}
 	},
+	[201212] = {
+		ship_group = 20121,
+		name = "Beach Picnic! ",
+		bg = "106",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "biaoqiang_3",
+		air_bullet_skin = "",
+		hand_id = 13,
+		shop_type_id = 6,
+		lip_smoothing = 0,
+		bullet_skin_main = "",
+		skin_type = 0,
+		id = 201212,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "biaoqiang_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70088,
+		desc = "Everyone, hurry up! We rarely get to go out to play, so let's make every minute count! Javelin packed plenty of lunches, so let's have a picnic by the beach! ",
+		voice_actor = 23,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.24,
+					1.17,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.22,
+					1.17,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.34,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			propose = 2.5
+		}
+	},
 	[201213] = {
 		ship_group = 20121,
 		name = "Let’s Become Waitresses! ",
@@ -19913,7 +20124,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "Southampton-class light cruiser – Southampton. ",
-		voice_actor = 88,
+		voice_actor = 187,
 		air_bomb_skin = "",
 		illustrator = 20,
 		rarity_bg = "",
@@ -26701,6 +26912,100 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[207021] = {
+		ship_group = 20702,
+		name = "Coast Watcher ",
+		bg = "106",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "huangjiafangzhou_2",
+		air_bullet_skin = "",
+		hand_id = 1,
+		shop_type_id = 6,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		id = 207021,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "huangjiafangzhou_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70089,
+		desc = "Nothing says summer like the sun, the beach, and destroyers... Ahem! Th-that's right! Even though we're relaxing, we still have to keep an eye out for enemy destroyers! Commander, I may be in a swimsuit, but I'm ready to sortie at any time! ",
+		voice_actor = 5,
+		air_bomb_skin = "",
+		illustrator = 18,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.93,
+					1.3,
+					0
+				}
+			},
+			plane = {
+				{
+					0.83,
+					1.22,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[207022] = {
 		ship_group = 20702,
 		name = "Guardian of the Ball ",
@@ -31104,6 +31409,105 @@ pg.ship_skin_template = {
 						{
 							-0.32,
 							2.53,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301179] = {
+		ship_group = 30117,
+		name = "Kagerou (Retrofit) ",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "yangyan_g",
+		air_bullet_skin = "",
+		hand_id = 14,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 2,
+		id = 301179,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yangyan_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "The newly-retrofitted Kagerou has arrived~ I won't let that sister of mine pass me up anymore! Commander, lead us forward towards distant shores! ",
+		voice_actor = 141,
+		air_bomb_skin = "",
+		illustrator = 13,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.73,
+					1.27,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.17,
+					0.15,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.14,
+					3.2,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.58,
+							2.28,
 							0
 						}
 					}
@@ -46422,6 +46826,282 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[308040] = {
+		ship_group = 30804,
+		name = "I-25 ",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "I25",
+		air_bullet_skin = "",
+		hand_id = 14,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		id = 308040,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "I25",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "Type B1 cruiser submarine – I-25. ",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.9,
+					0.15,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.209,
+					0.03,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.42,
+							2.388,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[308050] = {
+		ship_group = 30805,
+		name = "I-56 ",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "I56",
+		air_bullet_skin = "",
+		hand_id = 14,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		id = 308050,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "I56",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "Type B3 Mod. 2 cruiser submarine – I-56. ",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.87,
+					0.319,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.088,
+					0.236,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.329,
+							2.323,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[308060] = {
+		ship_group = 30806,
+		name = "I-168 ",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "I168",
+		air_bullet_skin = "",
+		hand_id = 14,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		id = 308060,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "I168",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "Kaidai Type VIa submarine – I-168. ",
+		voice_actor = 33,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.268,
+					0.246,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.002,
+					0.241,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.465,
+							2.445,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[312010] = {
 		ship_group = 31201,
 		name = "Akashi",
@@ -52294,6 +52974,190 @@ pg.ship_skin_template = {
 						{
 							-0.51,
 							2.18,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408060] = {
+		ship_group = 40806,
+		name = "U-101",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "U101",
+		air_bullet_skin = "",
+		hand_id = 13,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		id = 408060,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "U101",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "Iron Blood Type VIIC submarine – U-101. ",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.287,
+					0.619,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.997,
+					0.302,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.541,
+							2.497,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408070] = {
+		ship_group = 40807,
+		name = "U-522",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "U522",
+		air_bullet_skin = "",
+		hand_id = 13,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		id = 408070,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "U522",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "Iron Blood Type IXC submarine – U-522. ",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.099,
+					0.335,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.261,
+					0.208,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.48,
+							2.43,
 							0
 						}
 					}
@@ -65068,6 +65932,7 @@ pg.ship_skin_template = {
 		108010,
 		108020,
 		112010,
+		112011,
 		201010,
 		201020,
 		201021,
@@ -65093,6 +65958,7 @@ pg.ship_skin_template = {
 		201130,
 		201140,
 		201210,
+		201212,
 		201213,
 		201214,
 		201218,
@@ -65170,6 +66036,7 @@ pg.ship_skin_template = {
 		206050,
 		206051,
 		207020,
+		207021,
 		207022,
 		207030,
 		207031,
@@ -65211,6 +66078,7 @@ pg.ship_skin_template = {
 		301168,
 		301170,
 		301171,
+		301179,
 		301180,
 		301189,
 		301200,
@@ -65356,6 +66224,9 @@ pg.ship_skin_template = {
 		308020,
 		308021,
 		308030,
+		308040,
+		308050,
+		308060,
 		312010,
 		312011,
 		312013,
@@ -65409,6 +66280,8 @@ pg.ship_skin_template = {
 		408041,
 		408050,
 		408051,
+		408060,
+		408070,
 		501010,
 		501020,
 		501030,

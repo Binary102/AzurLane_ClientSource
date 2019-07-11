@@ -592,9 +592,9 @@ function slot0.canClearTorpedo(slot0)
 	end)
 end
 
-function slot0.getHuntingRange(slot0)
+function slot0.getHuntingRange(slot0, slot1)
 	if slot0:getFleetType() == FleetType.Submarine then
-		slot1 = slot0.startPos
+		slot2 = slot1 or slot0.startPos
 
 		return _.map(slot0:getShipsByTeam(TeamType.Submarine, true)[1]:getHuntingRange(slot0.getShipsByTeam(TeamType.Submarine, true)[1]:getHuntingLv() + (slot0:triggerSkill(FleetSkill.TypeHuntingLv) or 0)), function (slot0)
 			return {

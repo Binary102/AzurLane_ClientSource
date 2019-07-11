@@ -98657,6 +98657,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 35,
+		land_based = "",
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -99334,6 +99335,13 @@ pg.chapter_template = {
 				8
 			},
 			{
+				2,
+				8,
+				"1x1_2faxihuodong_normal",
+				0,
+				0
+			},
+			{
 				1,
 				4,
 				"4x4_2faxihuodong_normal",
@@ -99356,8 +99364,7 @@ pg.chapter_template = {
 			100,
 			100,
 			4,
-			4,
-			""
+			4
 		},
 		box_list = {},
 		random_box_list = {
@@ -99397,7 +99404,6 @@ pg.chapter_template = {
 				0
 			}
 		},
-		land_based = {},
 		chapter_buff = {}
 	},
 	[1140011] = {

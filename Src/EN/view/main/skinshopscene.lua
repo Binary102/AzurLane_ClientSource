@@ -609,7 +609,7 @@ function slot0.updatePrice(slot0, slot1)
 
 			slot0.originalPriceTxt.text = slot8
 
-			setActive(tf(go(slot0.originalPriceTxt)).parent, slot4:isDisCount())
+			setActive(tf(go(slot0.originalPriceTxt)).parent, false)
 		end
 	end
 end

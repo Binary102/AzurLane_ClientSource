@@ -42,6 +42,9 @@ function slot0.register(slot0)
 		slot0.viewComponent:SetCurrentFleet(FleetProxy.PVP_FLEET_ID)
 	elseif slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS then
 		slot0.viewComponent:SetCurrentFleet(1)
+	elseif slot0.contextData.system == SYSTEM_SUB_ROUTINE then
+		slot0.viewComponent:SetStageID(slot0.contextData.stageId)
+		slot0.viewComponent:SetCurrentFleet(slot0.contextData.fleetID)
 	else
 		slot0.viewComponent:SetStageID(slot0.contextData.stageId)
 		slot0.viewComponent:SetCurrentFleet(slot4.combatFleetId)
@@ -77,6 +80,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.CHANGE_FLEET_SHIP, function (slot0, slot1, slot2, slot3)
 		slot0.contextData.form = PreCombatLayer.FORM_EDIT
+		slot0.contextData.fleetID = slot2.id
 		slot4 = {}
 
 		FormationMediator.saveEdit()
@@ -198,7 +202,9 @@ function slot0.register(slot0)
 end
 
 function slot0.changeFleet(slot0, slot1)
-	getProxy(PlayerProxy).combatFleetId = slot1
+	if slot0.contextData.system ~= SYSTEM_SUB_ROUTINE then
+		getProxy(PlayerProxy).combatFleetId = slot1
+	end
 
 	slot0.viewComponent:SetCurrentFleet(slot1)
 	slot0.viewComponent:UpdateFleetView(true)
@@ -207,10 +213,14 @@ end
 
 function slot0.refreshEdit(slot0, slot1)
 	getProxy(FleetProxy).EdittingFleet = slot1
-	slot3 = nil
-	(slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS or slot2:getActivityFleets()[slot0.contextData.actID]) and slot2:getData()[slot1.id] = slot1
 
-	slot0.viewComponent:SetFleets((slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS or slot2.getActivityFleets()[slot0.contextData.actID]) and slot2.getData())
+	if slot0.contextData.system ~= SYSTEM_SUB_ROUTINE then
+		slot3 = nil
+		(slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS or slot2:getActivityFleets()[slot0.contextData.actID]) and slot2:getData()[slot1.id] = slot1
+
+		slot0.viewComponent:SetFleets((slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS or slot2.getActivityFleets()[slot0.contextData.actID]) and slot2.getData())
+	end
+
 	slot0.viewComponent:UpdateFleetView(false)
 end
 
@@ -224,7 +234,11 @@ function slot0.commitEdit(slot0, slot1)
 		end
 	elseif #slot3.ships == 0 then
 		slot2:commitEdittingFleet(slot1)
-		slot0:changeFleet(1)
+
+		if slot0.contextData.system == SYSTEM_SUB_ROUTINE then
+		else
+			slot0:changeFleet(1)
+		end
 	else
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("ship_formationMediaror_trash_warning", slot3.defaultName),

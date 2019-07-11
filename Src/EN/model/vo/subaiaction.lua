@@ -104,7 +104,7 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 		end
 
 		if #slot0.movePath > 0 then
-			slot2.viewComponent.grid:moveSub(slot4, slot0.movePath, Clone(slot0.movePath), slot3)
+			slot2.viewComponent.grid:moveSub(slot4, slot0.movePath, nil, slot3)
 		else
 			slot3()
 		end

@@ -61,7 +61,6 @@ function slot0.Flush(slot0)
 
 	slot4 = slot0.event.ships
 
-	Canvas.ForceUpdateCanvases()
 	slot0.condition1:setText(not slot0.event.reachLevel() or not slot2 or not slot3)
 	setActive(findTF(slot0.conditions, "condition_1/mark"), slot1)
 	setActive(findTF(slot0.conditions, "condition_1/mark1"), not slot1)

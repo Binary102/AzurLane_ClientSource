@@ -11,6 +11,7 @@ ys.Battle.OxyState.STATE_RAID = "STATE_RAID"
 ys.Battle.OxyState.STATE_RETREAT = "STATE_RETREAT"
 ys.Battle.OxyState.STATE_FREE_DIVE = "STATE_FREE_DIVE"
 ys.Battle.OxyState.STATE_FREE_FLOAT = "STATE_FREE_FLOAT"
+ys.Battle.OxyState.STATE_FREE_BENCH = "STATE_FREE_BENCH"
 ys.Battle.OxyState.STATE_DEEP_MINE = "STATE_DEEP_MINE"
 
 function ys.Battle.OxyState.Ctor(slot0, slot1)
@@ -23,6 +24,7 @@ function ys.Battle.OxyState.Ctor(slot0, slot1)
 	slot0._retreatState = slot0.Battle.RetreatOxyState.New()
 	slot0._freeDiveState = slot0.Battle.FreeDiveOxyState.New()
 	slot0._freeFloatState = slot0.Battle.FreeFloatOxyState.New()
+	slot0._freeBenchState = slot0.Battle.FreeBenchOxyState.New()
 	slot0._deepMineState = slot0.Battle.DeepMineOxyState.New()
 
 	slot0._target:AddBuff(slot0.Battle.BattleBuffUnit.New(8520))
@@ -76,6 +78,8 @@ function ys.Battle.OxyState.ChangeState(slot0, slot1, slot2)
 		slot0:OnFreeDiveState()
 	elseif slot1 == slot0.STATE_FREE_FLOAT then
 		slot0:OnFreeFloatState()
+	elseif slot1 == slot0.STATE_FREE_BENCH then
+		slot0:OnFreeBenchState()
 	elseif slot1 == slot0.STATE_DEEP_MINE then
 		slot0:OnDeepMineState()
 	end
@@ -87,8 +91,8 @@ function ys.Battle.OxyState.OxyConsume(slot0)
 	slot0._target:OxyConsume()
 end
 
-function ys.Battle.OxyState.OxyRecover(slot0)
-	slot0._target:OxyRecover()
+function ys.Battle.OxyState.OxyRecover(slot0, slot1)
+	slot0._target:OxyRecover(slot1)
 end
 
 function ys.Battle.OxyState.OnIdleState(slot0)
@@ -184,6 +188,18 @@ function ys.Battle.OxyState.OnFreeFloatState(slot0)
 	slot0._target:TriggerBuff(slot1.BuffEffectType.ON_SUBMARINE_FLOAT, {})
 	slot0._target:RemoveBuff(slot2.SUB_DIVE_IMMUNE_IGNITE_BUFF)
 	slot0._target:AddBuff(slot0.Battle.BattleBuffUnit.New(slot2.SUB_FLOAT_DISIMMUNE_IGNITE_BUFF))
+end
+
+function ys.Battle.OxyState.OnFreeBenchState(slot0)
+	slot0._currentState = slot0._freeBenchState
+	slot0._target:GetCldData().Surface = slot0._currentState:GetDiveState()
+
+	slot0._target:ChangeWeaponDiveState()
+	slot0._target:SetDiveInvisible(false)
+	slot0._target:StateChange(slot0.Battle.UnitState.STATE_MOVE)
+	slot0._target:PlayFX("qianting_chushui", false)
+	slot0._target:RemoveBuff(slot1.SUB_DIVE_IMMUNE_IGNITE_BUFF)
+	slot0._target:AddBuff(slot0.Battle.BattleBuffUnit.New(slot1.SUB_FLOAT_DISIMMUNE_IGNITE_BUFF))
 end
 
 function ys.Battle.OxyState.OnDeepMineState(slot0)

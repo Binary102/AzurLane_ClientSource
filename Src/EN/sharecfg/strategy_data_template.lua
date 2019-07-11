@@ -50,6 +50,29 @@ pg.strategy_data_template = {
 			exchange
 		}
 	},
+	[10] = {
+		buff_id = 0,
+		name = "Unrestricted Support",
+		type = 4,
+		id = 10,
+		icon = "10",
+		desc = "Submarine Support can be called in beyond the fleet's ASR boundaries.",
+		arg = {
+			map_call
+		}
+	},
+	[11] = {
+		buff_id = 0,
+		name = "Positional Change",
+		type = 3,
+		id = 11,
+		icon = "11",
+		desc = "Changes the Submarine Fleet's position on the map.",
+		arg = {
+			sub_move,
+			1.1
+		}
+	},
 	[90] = {
 		buff_id = 90,
 		name = "RED ALERT!",
@@ -156,6 +179,8 @@ pg.strategy_data_template = {
 		3,
 		4,
 		9,
+		10,
+		11,
 		90,
 		91,
 		9500,

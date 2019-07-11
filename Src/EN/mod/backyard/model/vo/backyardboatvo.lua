@@ -12,8 +12,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0.money = slot1.state_info_4
 	slot0.energy = slot1.energy
 	slot0.skinId = slot1.skinId
-	slot0.furnitureId = slot1.furnitureId
 	slot0.lockPathList = {}
+	slot0.furnitureId = slot1.furnitureId
 	slot0.spineId = slot1.spineId
 	slot0.stageId = slot1.stageId
 	slot0.spineExtra = nil

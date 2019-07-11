@@ -765,7 +765,7 @@ function slot2(slot0)
 					slot13 = slot0
 					slot13 = slot13.shipVO
 					slot13 = slot13.proposeTime
-					slot14 = "%B.%d,    %y"
+					slot14 = "%B %d, %Y"
 
 					slot9(slot10, slot11(slot12, slot13, slot14))
 				else
@@ -1000,7 +1000,7 @@ function slot2(slot0)
 							slot4 = slot3
 							slot3 = slot3.STimeDescS
 							slot5 = slot0
-							slot6 = "%B.%d,    %y"
+							slot6 = "%B %d, %Y"
 
 							slot1(slot2, slot3(slot4, slot5, slot6))
 						end

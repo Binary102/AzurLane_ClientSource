@@ -26,20 +26,63 @@ end
 slot1.Ctor = slot2
 
 function slot2(slot0)
-	slot1 = slot0:GetTemplate()
-	slot4 = slot1.extra_param.diveFilter or {
-		2
+	slot2 = slot0
+	slot1 = slot0.GetTemplate
+	slot1 = slot1(slot2)
+	slot2 = slot1.hit_type
+	slot3 = slot0
+	slot3 = slot3.GetDataProxy
+	slot3 = slot3()
+	slot5 = slot0
+	slot4 = slot0.GetDiveFilter
+	slot4 = slot4(slot5)
+	slot5 = {
+		_bullet = slot0
 	}
+	slot7 = slot0
+	slot6 = slot0.GetWeapon
+	slot6 = slot6(slot7)
+	slot7 = slot6
+	slot6 = slot6.GetEquipmentIndex
+	slot6 = slot6(slot7)
+	slot5.equipIndex = slot6
+	slot7 = slot0
+	slot6 = slot0.BuffTrigger
+	slot8 = slot1
+	slot8 = slot8.Battle
+	slot8 = slot8.BattleConst
+	slot8 = slot8.BuffEffectType
+	slot8 = slot8.ON_BOMB_BULLET_BANG
+	slot9 = slot5
 
-	slot0:BuffTrigger(slot1.Battle.BattleConst.BuffEffectType.ON_BOMB_BULLET_BANG, slot5)
-	slot0.GetDataProxy():SpawnColumnArea(slot0:GetEffectField(), slot0:GetIFF(), slot0:GetExplodePostion(), slot1.hit_type.range, slot1.hit_type.time, function (slot0)
-		slot1, slot2, slot3 = ipairs(slot0)
+	slot6(slot7, slot8, slot9)
+
+	function slot6(slot0)
+		slot1 = ipairs
+		slot2 = slot0
+		slot1, slot2, slot3 = slot1(slot2)
 
 		for slot4, slot5 in slot1, slot2, slot3 do
-			if slot5.Active then
+			slot6 = slot5.Active
+
+			if slot6 then
+				slot6 = slot0
+				slot6 = slot6.GetSceneMediator
+				slot6 = slot6()
+				slot7 = slot6
+				slot6 = slot6.GetCharacter
+				slot8 = slot5.UID
+				slot6 = slot6(slot7, slot8)
+				slot7 = slot6
+				slot6 = slot6.GetUnitData
+				slot6 = slot6(slot7)
 				slot7 = false
-				slot8 = slot0.GetSceneMediator():GetCharacter(slot5.UID):GetUnitData().GetCurrentOxyState(slot6)
-				slot9, slot10, slot11 = ipairs(slot1)
+				slot9 = slot6
+				slot8 = slot6.GetCurrentOxyState
+				slot8 = slot8(slot9)
+				slot9 = ipairs
+				slot10 = slot1
+				slot9, slot10, slot11 = slot9(slot10)
 
 				for slot12, slot13 in slot9, slot10, slot11 do
 					if slot8 == slot13 then
@@ -48,13 +91,37 @@ function slot2(slot0)
 				end
 
 				if not slot7 then
-					slot2:HandleDamage(slot3, slot6)
+					slot9 = slot2
+					slot10 = slot9
+					slot9 = slot9.HandleDamage
+					slot11 = slot3
+					slot12 = slot6
+
+					slot9(slot10, slot11, slot12)
 				end
 			end
 		end
-	end)
+	end
 
-	slot7 = slot1.extra_param.friendlyFire
+	slot8 = slot3
+	slot7 = slot3.SpawnColumnArea
+	slot10 = slot0
+	slot9 = slot0.GetEffectField
+	slot9 = slot9(slot10)
+	slot11 = slot0
+	slot10 = slot0.GetIFF
+	slot10 = slot10(slot11)
+	slot12 = slot0
+	slot11 = slot0.GetExplodePostion
+	slot11 = slot11(slot12)
+	slot12 = slot2.range
+	slot13 = slot2.time
+	slot14 = slot6
+
+	slot7(slot8, slot9, slot10, slot11, slot12, slot13, slot14)
+
+	slot7 = slot1.extra_param
+	slot7 = slot7.friendlyFire
 
 	if slot7 then
 		slot8 = slot3

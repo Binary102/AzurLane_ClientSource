@@ -9646,6 +9646,389 @@ pg.transform_data_template = {
 			30
 		}
 	},
+	[16701] = {
+		use_gold = 300,
+		name = "Hull Improvement Ⅰ",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 1,
+		star_limit = 2,
+		id = 16701,
+		icon = "hp_1",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {},
+		effect = {
+			{
+				durability = 45
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18001,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[16702] = {
+		use_gold = 400,
+		name = "Reload Enhancement Ⅰ",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 5,
+		star_limit = 2,
+		id = 16702,
+		icon = "rl_1",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			16701
+		},
+		effect = {
+			{
+				reload = 5
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18001,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[16703] = {
+		use_gold = 600,
+		name = "Main Gun Improvement Ⅰ",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 20,
+		star_limit = 3,
+		id = 16703,
+		icon = "mgup_1",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			16701
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18001,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[16704] = {
+		use_gold = 800,
+		name = "Firepower Enhancement Ⅰ",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 25,
+		star_limit = 3,
+		id = 16704,
+		icon = "cn_1",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			16703
+		},
+		effect = {
+			{
+				cannon = 10
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18001,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[16705] = {
+		use_gold = 1000,
+		name = "Torpedo Improvement Ⅰ",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 35,
+		star_limit = 4,
+		id = 16705,
+		icon = "tpup_1",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			16703
+		},
+		effect = {
+			{
+				equipment_proficiency_2 = 0.05
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18001,
+					3
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[16706] = {
+		use_gold = 1200,
+		name = "Torpedo Enhancement Ⅰ",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 40,
+		star_limit = 4,
+		id = 16706,
+		icon = "tp_1",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			16705
+		},
+		effect = {
+			{
+				torpedo = 10
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18001,
+					4
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[16707] = {
+		use_gold = 1500,
+		name = "Hull Improvement Ⅱ",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 50,
+		star_limit = 4,
+		id = 16707,
+		icon = "hp_2",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			16705
+		},
+		effect = {
+			{
+				durability = 45
+			},
+			{
+				durability = 75
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18002,
+					1
+				}
+			},
+			{
+				{
+					18002,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[16708] = {
+		use_gold = 1800,
+		name = "Tactical Learning",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 55,
+		star_limit = 4,
+		id = 16708,
+		icon = "skill_yellow",
+		skill_id = 5001,
+		descrip = "",
+		condition_id = {
+			16707
+		},
+		effect = {
+			{
+				skill_id = 5001
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18002,
+					3
+				}
+			}
+		},
+		gear_score = {
+			25
+		}
+	},
+	[16709] = {
+		use_gold = 2000,
+		name = "Motor Enhancement",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 70,
+		star_limit = 5,
+		id = 16709,
+		icon = "sp_1",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			16705
+		},
+		effect = {
+			{
+				speed = 3
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18002,
+					3
+				}
+			}
+		},
+		gear_score = {
+			30
+		}
+	},
+	[16710] = {
+		use_gold = 2500,
+		name = "ASW Enhancement Ⅱ ",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 75,
+		star_limit = 5,
+		id = 16710,
+		icon = "as_2",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			16709
+		},
+		effect = {
+			{
+				antisub = 5
+			},
+			{
+				antisub = 15
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18002,
+					2
+				}
+			},
+			{
+				{
+					18002,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[16711] = {
+		use_gold = 3000,
+		name = "Modernization",
+		max_level = 1,
+		skin_id = 301179,
+		use_ship = 1,
+		level_limit = 85,
+		star_limit = 5,
+		id = 16711,
+		icon = "mt_red",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			16709,
+			16710
+		},
+		effect = {
+			{
+				reload = 15,
+				torpedo = 30
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18003,
+					1
+				}
+			}
+		},
+		gear_score = {
+			50
+		}
+	},
 	[16801] = {
 		use_gold = 200,
 		name = "Hull Improvement Ⅰ",
@@ -17498,7 +17881,7 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 	},
 	[30102] = {
 		use_gold = 600,
-		name = "Anti-Air Enhancement Ⅰ",
+		name = "Reload Enhancement Ⅰ",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -17531,7 +17914,7 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 	},
 	[30103] = {
 		use_gold = 800,
-		name = "Main Gun Improvement Ⅰ",
+		name = "Torpedo Improvement Ⅰ",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -17564,7 +17947,7 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 	},
 	[30104] = {
 		use_gold = 1000,
-		name = "Firepower Enhancement Ⅰ",
+		name = "Torpedo Enhancement Ⅰ",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -17597,7 +17980,7 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 	},
 	[30105] = {
 		use_gold = 1200,
-		name = "Main Gun Improvement Ⅱ",
+		name = "Main Gun Improvement Ⅰ",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -17640,7 +18023,7 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 	},
 	[30106] = {
 		use_gold = 1500,
-		name = "Firepower Enhancement Ⅱ",
+		name = "Firepower Enhancement Ⅰ",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -17684,7 +18067,7 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 	},
 	[30107] = {
 		use_gold = 1800,
-		name = "Hull Improvement Ⅱ",
+		name = "Motor Enhancement",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -17727,7 +18110,7 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 	},
 	[30108] = {
 		use_gold = 2000,
-		name = "Anti-Air Enhancement Ⅱ",
+		name = "Evasion Enhancement Ⅱ",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -17771,7 +18154,7 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 	},
 	[30109] = {
 		use_gold = 2500,
-		name = "Torpedo Improvement Ⅱ",
+		name = "Hull Improvement Ⅱ",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -17814,7 +18197,7 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 	},
 	[30110] = {
 		use_gold = 3000,
-		name = "Torpedo Enhancement Ⅲ",
+		name = "Firepower Enhancement Ⅱ",
 		max_level = 3,
 		skin_id = 0,
 		use_ship = 0,
@@ -20657,6 +21040,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		15510,
 		15511,
 		15512,
+		16701,
+		16702,
+		16703,
+		16704,
+		16705,
+		16706,
+		16707,
+		16708,
+		16709,
+		16710,
+		16711,
 		16801,
 		16802,
 		16803,

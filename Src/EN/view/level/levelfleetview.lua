@@ -1138,7 +1138,6 @@ function slot2(slot0, slot1, slot2)
 			slot3 = slot1
 			slot4 = slot0
 			slot4 = slot4.chapter
-			slot4 = slot4.id
 
 			slot0(slot1, slot2, slot3, slot4)
 		end
@@ -1160,7 +1159,6 @@ function slot2(slot0, slot1, slot2)
 			slot3 = slot1
 			slot4 = slot0
 			slot4 = slot4.chapter
-			slot4 = slot4.id
 
 			slot0(slot1, slot2, slot3, slot4)
 		end
@@ -3188,7 +3186,6 @@ function slot2(slot0, slot1, slot2, slot3)
 			slot2 = slot2.OPEN_COMMANDER_PANEL
 			slot3 = slot1
 			slot4 = slot2
-			slot4 = slot4.id
 			slot5 = slot3
 
 			slot0(slot1, slot2, slot3, slot4, slot5)
@@ -3210,7 +3207,6 @@ function slot2(slot0, slot1, slot2, slot3)
 			slot2 = slot2.OPEN_COMMANDER_PANEL
 			slot3 = slot1
 			slot4 = slot2
-			slot4 = slot4.id
 			slot5 = slot3
 
 			slot0(slot1, slot2, slot3, slot4, slot5)

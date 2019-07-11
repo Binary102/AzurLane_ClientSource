@@ -37,22 +37,60 @@ end
 slot1.MakeBullet = slot2
 
 function slot2(slot0, slot1, slot2)
-	slot6 = slot0.GetDataProxy()
+	slot4 = slot0
+	slot3 = slot0.GetBulletData
+	slot3 = slot3(slot4)
+	slot5 = slot3
+	slot4 = slot3.GetTemplate
+	slot4 = slot4(slot5)
+	slot5 = slot4.hit_type
+	slot6 = slot0
+	slot6 = slot6.GetDataProxy
+	slot6 = slot6()
+	slot8 = slot0
+	slot7 = slot0.GetBulletData
+	slot7 = slot7(slot8)
+	slot9 = slot7
+	slot8 = slot7.GetTemplate
+	slot8 = slot8(slot9)
+	slot9 = slot1
+	slot9 = slot9.Battle
+	slot9 = slot9.PlayBattleSFX
+	slot10 = slot8.hit_sfx
 
-	slot1.Battle.PlayBattleSFX(slot0:GetBulletData().GetTemplate(slot7).hit_sfx)
+	slot9(slot10)
 
-	slot9 = slot0.GetBulletData().GetTemplate(slot7).extra_param.diveFilter or {
-		2
-	}
+	slot10 = slot7
+	slot9 = slot7.GetDiveFilter
+	slot9 = slot9(slot10)
 
 	function slot10(slot0)
-		slot1, slot2, slot3 = ipairs(slot0)
+		slot1 = ipairs
+		slot2 = slot0
+		slot1, slot2, slot3 = slot1(slot2)
 
 		for slot4, slot5 in slot1, slot2, slot3 do
-			if slot5.Active then
+			slot6 = slot5.Active
+
+			if slot6 then
+				slot6 = slot0
+				slot7 = slot6
+				slot6 = slot6.GetSceneMediator
+				slot6 = slot6(slot7)
+				slot7 = slot6
+				slot6 = slot6.GetCharacter
+				slot8 = slot5.UID
+				slot6 = slot6(slot7, slot8)
+				slot7 = slot6
+				slot6 = slot6.GetUnitData
+				slot6 = slot6(slot7)
 				slot7 = false
-				slot8 = slot0:GetSceneMediator():GetCharacter(slot5.UID):GetUnitData().GetCurrentOxyState(slot6)
-				slot9, slot10, slot11 = ipairs(slot1)
+				slot9 = slot6
+				slot8 = slot6.GetCurrentOxyState
+				slot8 = slot8(slot9)
+				slot9 = ipairs
+				slot10 = slot1
+				slot9, slot10, slot11 = slot9(slot10)
 
 				for slot12, slot13 in slot9, slot10, slot11 do
 					if slot8 == slot13 then
@@ -61,13 +99,19 @@ function slot2(slot0, slot1, slot2)
 				end
 
 				if not slot7 then
-					slot2:HandleDamage(slot3, slot6)
+					slot9 = slot2
+					slot10 = slot9
+					slot9 = slot9.HandleDamage
+					slot11 = slot3
+					slot12 = slot6
+
+					slot9(slot10, slot11, slot12)
 				end
 			end
 		end
 	end
 
-	slot11 = slot0:GetBulletData().GetTemplate(slot3).hit_type.range
+	slot11 = slot5.range
 
 	if slot11 then
 		slot12 = slot6

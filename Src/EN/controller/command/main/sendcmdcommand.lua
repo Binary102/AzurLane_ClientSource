@@ -20,9 +20,27 @@ class("SendCmdCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 					})
 				end
 			end
-		elseif slot2.arg1 == "clear" and slot2.arg2 == "buffer" then
-			PlayerPrefs.DeleteAll()
-			PlayerPrefs.Save()
+		elseif slot2.arg1 == "clear" then
+			if slot2.arg2 == "buffer" then
+				PlayerPrefs.DeleteAll()
+				PlayerPrefs.Save()
+			end
+		elseif slot2.arg1 == "enemykill" then
+			slot3 = nil
+
+			if slot2.arg2 == "on" then
+				slot3 = 1
+
+				PlayerPrefs.SetInt("chapter_skip_battle", 1)
+				PlayerPrefs.Save()
+			elseif slot2.arg2 == "off" then
+				slot3 = 0
+
+				PlayerPrefs.SetInt("chapter_skip_battle", 0)
+				PlayerPrefs.Save()
+			end
+
+			pg.TipsMgr:GetInstance():ShowTips((slot3 == 1 and "已开启战斗跳略") or "已关闭战斗跳略")
 		end
 
 		return

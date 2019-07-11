@@ -1038,6 +1038,22 @@ pg.gametip = {
 		tip = "Defeat all enemy ships",
 		key = "battle_result_defeat_all_enemys"
 	},
+	battle_result_base_score = {
+		tip = "Stage cleared:",
+		key = "battle_result_base_score"
+	},
+	battle_result_dead_score = {
+		tip = "Casualties * $1:",
+		key = "battle_result_dead_score"
+	},
+	battle_result_score = {
+		tip = "Cargo Ships sunk * $1:",
+		key = "battle_result_score"
+	},
+	battle_result_score_total = {
+		tip = "Total:",
+		key = "battle_result_score_total"
+	},
 	battle_levelScene_0Oil = {
 		tip = "Oil Production is 0",
 		key = "battle_levelScene_0Oil"
@@ -1113,6 +1129,10 @@ pg.gametip = {
 	battle_preCombatLayer_damage_before_end = {
 		tip = "战斗结束前尽可能取得更高伤害",
 		key = "battle_preCombatLayer_damage_before_end"
+	},
+	battle_preCombatLayer_destory_transport_ship = {
+		tip = "Sink $1 or more Cargo Ships. ",
+		key = "battle_preCombatLayer_destory_transport_ship"
 	},
 	battle_preCombatMediator_leastLimit = {
 		tip = "Fleet 1 may not be empty!",
@@ -1205,6 +1225,10 @@ pg.gametip = {
 	battle_autobot_unlock = {
 		tip = "Auto combat unlocked!",
 		key = "battle_autobot_unlock"
+	},
+	tips_confirm_teleport_sub = {
+		tip = "To change the <color=#92fc63FF>Submarine Fleet's</color> position from <color=#92fc63FF>$1</color> to <color=#92fc63FF>$2</color>, they must be moved <color=#92fc63FF>$3</color> tiles, which will cost <color=#92fc63FF>$4</color> Oil. Continue? ",
+		key = "tips_confirm_teleport_sub"
 	},
 	backyard_addExp_Info = {
 		tip = "Commander, everyone rested up while you were gone during\n||<color=#FAFAF7FF>$1</color>|| ||  You used up ||<color=#A9F548FF>$2</color>|| snacks, and received ||<color=#A9F548FF>$3</color>|| EXP.",
@@ -3430,7 +3454,7 @@ February 8th.]]
 		key = "event_type_unlimit"
 	},
 	dailyLevel_restCount_notEnough = {
-		tip = "You're out of daily stage challenges.",
+		tip = "You're out of daily stage challenges. ",
 		key = "dailyLevel_restCount_notEnough"
 	},
 	dailyLevel_unopened = {
@@ -4815,15 +4839,36 @@ used as the main gun of Battleships and Battlecruisers
 		tip = {
 			{
 				info = [[
+Supply Line Disruption
+1. Supply Line Disruption is available every day of the week.
+2. During this Daily Challenge, you'll be able to manually control your Submarines on a special stage and claim rewards by sinking enemy Cargo Ships.
+3. This Daily Challenge is available every day of the week, but you can only clear it 2 times per week.
+4. Submarines control differently from other vessels. They can't fire Salvos or launch Airstrikes, but instead, they have an ability called Dive.
+5. Additionally, they have an Emergency Boost that gives a short speed boost, a Torpedo Attack with limited uses, and an All Out Assault that they can use once.
+6. Furthermore, you can tap the icon in the top left corner to change which Submarine you're controlling.
+7. Once you clear the stage by sinking the Cargo Ships at the end of it, the points you earned during the Daily Challenge will be tallied
+8. You'll also receive Submarine and Anti-Sub gear based on how well you did.
+9. Points are given for clearing the stage, sinking enemies, and completing the stage without any of your Submarines sinking.
+10. Remember that your Submarines depend on their torpedoes to deal damage, so try to make every shot count.
 
+Tips:
+1. Equipping your Submarine correctly will give them more ammunition to use. Both Auxiliary and Main Weapon torpedoes count!
+2. Submarine skills don't work during the Daily Challenge, so plan your strategy accordingly.
+3. However, they can still use their All Out Assaults once.
+4. Surcouf will fire her All Out Assault automatically when she resurfaces, but like all other Submarines, she can only fire it once.
+5. All Out Assaults deal increased damage to enemies during this Daily Challenge.
+6. You can't change to another Submarine to control immediately after Diving or Resurfacing.
 
-Escort Cargo times: Monday, Thursday, Sunday
+Escort Cargo is available on Mondays, Thursdays, and Sundays.
 
+Maritime Attack is available on Tuesdays, Fridays, and Sundays.
 
-Maritime Attack times: Tuesday, Friday, Sunday
+Fierce Assault is available on Wednesdays, Saturdays, and Sundays.
 
-
-Urgent Ops times: Wednesday, Saturday, Sunday]]
+Tactical Training is available every day of the week.
+<color=#92fc63>Airstrikes</color> are highly effective for <color=#92fc63>Tactical Training (Aviation)</color>.
+<color=#92fc63>Main Fleet Salvos</color> are highly effective for <color=#92fc63>Tactical Training (Shelling)</color>.
+<color=#92fc63>Vanguard Torpedoes</color> are highly effective for <color=#92fc63>Tactical Training (Torpedo)</color>.]]
 			}
 		}
 	},
@@ -8346,7 +8391,7 @@ with Anti-Sub gear.
 		key = "airi_error_code_ 100818"
 	},
 	buildship_new_tip = {
-		tip = "Jean Bart, Massachusetts, Dunkerque, Surcouf, Forbin are increased during the event period.",
+		tip = "I-168, U-101, I-25, I-56, U-522 are increased during the event period.",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -9675,6 +9720,10 @@ Returning Commanders:
 	secondarypassword_confirm_tips = {
 		tip = "Would you like to set <color=#FFDE38>\"%s\"</color> as your Secondary Password hint? ",
 		key = "secondarypassword_confirm_tips"
+	},
+	word_rest_times = {
+		tip = "<color=#FFDE38FF>Uses Left: %s</color> ",
+		key = "word_rest_times"
 	}
 }
 

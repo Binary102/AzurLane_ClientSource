@@ -9719,6 +9719,153 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70088] = {
+		group_type = 0,
+		resource_num = 1080,
+		desc = "购买皮肤:标枪泳装",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 9837,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 10,
+		resource_type = 14,
+		id = 70088,
+		genre = "skin_shop",
+		discount_time = {
+			{
+				{
+					2019,
+					7,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		effect_args = {
+			201212
+		}
+	},
+	[70089] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:皇家方舟泳装",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 9836,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 10,
+		resource_type = 14,
+		id = 70089,
+		genre = "skin_shop",
+		discount_time = {
+			{
+				{
+					2019,
+					7,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		effect_args = {
+			207021
+		}
+	},
+	[70095] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤:女灶神泳装",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 9835,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 10,
+		resource_type = 14,
+		id = 70095,
+		genre = "skin_shop",
+		discount_time = {
+			{
+				{
+					2019,
+					7,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		effect_args = {
+			112011
+		}
+	},
 	[70109] = {
 		group_type = 0,
 		resource_num = 1080,
@@ -9727,7 +9874,7 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 0,
 		time_second = 0,
 		order = 9854,
 		time = "always",
@@ -13884,6 +14031,9 @@ pg.shop_template = {
 		70085,
 		70086,
 		70087,
+		70088,
+		70089,
+		70095,
 		70109,
 		70110,
 		70111,

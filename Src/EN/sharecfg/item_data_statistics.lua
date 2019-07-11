@@ -16718,6 +16718,398 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[53990] = {
+		display = "Chance to receive following designs",
+		rarity = 2,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 53990,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
+				1
+			},
+			{
+				2,
+				47,
+				1
+			},
+			{
+				2,
+				48,
+				1
+			},
+			{
+				2,
+				49,
+				1
+			},
+			{
+				2,
+				50,
+				1
+			},
+			{
+				2,
+				51,
+				1
+			},
+			{
+				2,
+				52,
+				1
+			},
+			{
+				2,
+				53,
+				1
+			},
+			{
+				2,
+				54,
+				1
+			},
+			{
+				2,
+				55,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[53991] = {
+		display = "Chance to receive following designs",
+		rarity = 3,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 53991,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10091,
+				1
+			},
+			{
+				2,
+				10092,
+				1
+			},
+			{
+				2,
+				10093,
+				1
+			},
+			{
+				2,
+				10094,
+				1
+			},
+			{
+				2,
+				10095,
+				1
+			},
+			{
+				2,
+				10096,
+				1
+			},
+			{
+				2,
+				10097,
+				1
+			},
+			{
+				2,
+				10098,
+				1
+			},
+			{
+				2,
+				10099,
+				1
+			},
+			{
+				2,
+				10100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
+				1
+			},
+			{
+				2,
+				47,
+				1
+			},
+			{
+				2,
+				48,
+				1
+			},
+			{
+				2,
+				49,
+				1
+			},
+			{
+				2,
+				50,
+				1
+			},
+			{
+				2,
+				51,
+				1
+			},
+			{
+				2,
+				52,
+				1
+			},
+			{
+				2,
+				53,
+				1
+			},
+			{
+				2,
+				54,
+				1
+			},
+			{
+				2,
+				55,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[53992] = {
+		display = "Chance to receive following designs",
+		rarity = 4,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 53992,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				11034,
+				1
+			},
+			{
+				2,
+				11035,
+				1
+			},
+			{
+				2,
+				11036,
+				1
+			},
+			{
+				2,
+				11037,
+				1
+			},
+			{
+				2,
+				10091,
+				1
+			},
+			{
+				2,
+				10092,
+				1
+			},
+			{
+				2,
+				10093,
+				1
+			},
+			{
+				2,
+				10094,
+				1
+			},
+			{
+				2,
+				10095,
+				1
+			},
+			{
+				2,
+				10096,
+				1
+			},
+			{
+				2,
+				10097,
+				1
+			},
+			{
+				2,
+				10098,
+				1
+			},
+			{
+				2,
+				10099,
+				1
+			},
+			{
+				2,
+				10100,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[53993] = {
+		display = "Chance to receive following T1 gear part",
+		rarity = 1,
+		type = 99,
+		name = "T1 Mystery Gear Part",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 53993,
+		icon = "Props/54011",
+		display_icon = {
+			{
+				2,
+				17001,
+				1
+			},
+			{
+				2,
+				17021,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[53994] = {
+		display = "Chance to receive following T1-T2 gear part",
+		rarity = 2,
+		type = 99,
+		name = "T2 Mystery Gear Part",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 53994,
+		icon = "Props/54012",
+		display_icon = {
+			{
+				2,
+				17002,
+				1
+			},
+			{
+				2,
+				17022,
+				1
+			},
+			{
+				2,
+				17001,
+				1
+			},
+			{
+				2,
+				17021,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[53995] = {
+		display = "Chance to receive following T1-T3 gear part",
+		rarity = 3,
+		type = 99,
+		name = "T3 Mystery Gear Part",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 53995,
+		icon = "Props/54013",
+		display_icon = {
+			{
+				2,
+				17003,
+				1
+			},
+			{
+				2,
+				17023,
+				1
+			},
+			{
+				2,
+				17002,
+				1
+			},
+			{
+				2,
+				17022,
+				1
+			},
+			{
+				2,
+				17001,
+				1
+			},
+			{
+				2,
+				17021,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[54001] = {
 		display = "Chance to receive a random T1 skill book",
 		rarity = 2,
@@ -57091,6 +57483,12 @@ Skins and their drop rates:
 		53097,
 		53098,
 		53099,
+		53990,
+		53991,
+		53992,
+		53993,
+		53994,
+		53995,
 		54001,
 		54002,
 		54003,

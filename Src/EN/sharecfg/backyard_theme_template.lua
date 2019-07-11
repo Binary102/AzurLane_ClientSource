@@ -1250,6 +1250,58 @@ pg.backyard_theme_template = {
 			45310
 		}
 	},
+	[46] = {
+		Cfg_1 = 5,
+		name = "Cyberspace",
+		desc = "Authenticating... Complete. Greetings, User. Welcome to the Cyberspace.",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 46,
+		icon = "cpthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			46001,
+			46002,
+			46101,
+			46102,
+			46103,
+			46104,
+			46105,
+			46106,
+			46107,
+			46108,
+			46109,
+			46110,
+			46111,
+			46112,
+			46113,
+			46114,
+			46115,
+			46116,
+			46117,
+			46118,
+			46119,
+			46120,
+			46121,
+			46122,
+			46123,
+			46124,
+			46125,
+			46126,
+			46127,
+			46128,
+			46301,
+			46302,
+			46303,
+			46304,
+			46305
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1276,7 +1328,8 @@ pg.backyard_theme_template = {
 		41,
 		42,
 		43,
-		45
+		45,
+		46
 	}
 }
 

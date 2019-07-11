@@ -32,6 +32,10 @@ function slot2.Update(slot0)
 	end
 end
 
+function slot2.UpdateVigilantBarPosition(slot0)
+	slot0._vigilantBar:UpdateVigilantBarPosition(slot0._referenceVector + slot0._hpBarOffset)
+end
+
 function slot2.RegisterWeaponListener(slot0, slot1)
 	slot0.super.RegisterWeaponListener(slot0, slot1)
 	slot1:RegisterEventListener(slot0, slot1.WEAPON_INTERRUPT, slot0.onWeaponInterrupted)

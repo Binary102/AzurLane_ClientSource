@@ -1,4 +1,5 @@
 slot0 = class("Stage", import(".BaseVO"))
+slot0.SubmarinStage = 15
 
 function slot0.Ctor(slot0, slot1)
 	slot0.configId = slot1.id

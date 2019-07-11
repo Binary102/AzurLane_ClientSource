@@ -287,6 +287,10 @@ function ys.Battle.BattleBuffEffect.onSubLeader(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
+function ys.Battle.BattleBuffEffect.onSubConsort(slot0, slot1, slot2)
+	slot0:onTrigger(slot1, slot2)
+end
+
 function ys.Battle.BattleBuffEffect.onBulletCollide(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return
@@ -465,6 +469,10 @@ function ys.Battle.BattleBuffEffect.onSubmarinFreeDive(slot0, slot1, slot2, slot
 end
 
 function ys.Battle.BattleBuffEffect.onSubmarinFreeFloat(slot0, slot1, slot2, slot3)
+	slot0:onTrigger(slot1, slot2, slot3)
+end
+
+function ys.Battle.BattleBuffEffect.onSubmarineFreeSpecial(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
 end
 

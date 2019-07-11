@@ -20,9 +20,9 @@ function slot0.ShipStatu2Name(slot0)
 	elseif slot0.inElite then
 		slot1 = i18n("word_status_inFight")
 	elseif slot0.inActivity then
-		slot1 = i18n("word_status_inFight")
+		slot1 = i18n("word_status_challenge")
 	elseif slot0.inChallenge then
-		slot1 = i18n("word_status_inFight")
+		slot1 = i18n("word_status_challenge")
 	elseif slot0.shamInFleet or slot0.inSham then
 		slot1 = i18n("word_status_inFight")
 	elseif slot0.inFleet then

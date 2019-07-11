@@ -396,4 +396,22 @@ function slot0.doSkipBattle(slot0)
 	slot0.flag = bit.bor(slot1, ChapterConst.DirtyAttachment, ChapterConst.DirtyAchieve, ChapterConst.DirtyFleet, ChapterConst.DirtyChampion)
 end
 
+function slot0.doTeleportSub(slot0)
+	slot3 = _.detect(slot0.chapter.fleets, function (slot0)
+		return slot0:getFleetType() == FleetType.Submarine and slot0:isValid()
+	end)
+	slot3.line = {
+		row = slot0.op.arg1,
+		column = slot0.op.arg2
+	}
+	slot3.startPos = {
+		row = slot0.op.arg1,
+		column = slot0.op.arg2
+	}
+	slot0.fullpath = {
+		slot3.line,
+		slot3.line
+	}
+end
+
 return slot0

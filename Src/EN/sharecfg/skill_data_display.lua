@@ -288,6 +288,14 @@ pg.skill_data_display = {
 		id = 3611,
 		name = "Wolf Pack Tactics"
 	},
+	[3621] = {
+		id = 3621,
+		name = "Airspace Affirmation"
+	},
+	[3631] = {
+		id = 3631,
+		name = "Open Ocean Support"
+	},
 	[4001] = {
 		id = 4001,
 		name = "Defensive Stance"
@@ -1616,6 +1624,34 @@ pg.skill_data_display = {
 		id = 12360,
 		name = "Messenger of Love "
 	},
+	[12370] = {
+		id = 12370,
+		name = "Glen Assault "
+	},
+	[12380] = {
+		id = 12380,
+		name = "Destructive Departure "
+	},
+	[12390] = {
+		id = 12390,
+		name = "Turning The Tables! "
+	},
+	[12391] = {
+		id = 12391,
+		name = "Turning The Tables! "
+	},
+	[12400] = {
+		id = 12400,
+		name = "Great Shark's Bite "
+	},
+	[12410] = {
+		id = 12410,
+		name = "Wolf Pack Formation - U-101 "
+	},
+	[12411] = {
+		id = 12411,
+		name = "Wolf Pack Formation - U-101 "
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shell +"
@@ -2286,19 +2322,27 @@ pg.skill_data_display = {
 	},
 	[23311] = {
 		id = 23311,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[23312] = {
 		id = 23312,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[23411] = {
 		id = 23411,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[23412] = {
 		id = 23412,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
+	},
+	[23511] = {
+		id = 23511,
+		name = "All Out Assault Ⅰ"
+	},
+	[23512] = {
+		id = 23512,
+		name = "All Out Assault Ⅱ"
 	},
 	[24011] = {
 		id = 24011,
@@ -2632,6 +2676,22 @@ pg.skill_data_display = {
 		id = 29362,
 		name = "All Out Assault: Sirius II "
 	},
+	[29421] = {
+		id = 29421,
+		name = "All Out Assault Ⅰ"
+	},
+	[29422] = {
+		id = 29422,
+		name = "All Out Assault Ⅱ"
+	},
+	[29431] = {
+		id = 29431,
+		name = "All Out Assault Ⅰ"
+	},
+	[29432] = {
+		id = 29432,
+		name = "All Out Assault Ⅱ"
+	},
 	[101010] = {
 		id = 101010,
 		name = "Protagonist Aura"
@@ -2837,6 +2897,8 @@ pg.skill_data_display = {
 		3581,
 		3591,
 		3611,
+		3621,
+		3631,
 		4001,
 		4011,
 		4021,
@@ -3169,6 +3231,13 @@ pg.skill_data_display = {
 		12260,
 		12270,
 		12360,
+		12370,
+		12380,
+		12390,
+		12391,
+		12400,
+		12410,
+		12411,
 		18010,
 		18040,
 		18041,
@@ -3340,6 +3409,8 @@ pg.skill_data_display = {
 		23312,
 		23411,
 		23412,
+		23511,
+		23512,
 		24011,
 		24012,
 		24111,
@@ -3423,6 +3494,10 @@ pg.skill_data_display = {
 		29351,
 		29361,
 		29362,
+		29421,
+		29422,
+		29431,
+		29432,
 		101010,
 		101020,
 		101030,

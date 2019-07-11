@@ -140,6 +140,10 @@ function LoadSpriteAsync(slot0, slot1)
 	end), true, false)
 end
 
+function LoadWithoutBuffer(slot0, slot1, slot2)
+	return ResourceMgr.Inst:getAssetSync(slot0, slot1, slot2, true, false)
+end
+
 function LoadImageSpriteAsync(slot0, slot1, slot2)
 	slot1:GetComponent(typeof(Image)).enabled = false
 	slot0[slot1.GetComponent(typeof(Image))] = slot0
@@ -501,7 +505,7 @@ function slot5(slot0, slot1, slot2, slot3)
 			setActive(slot2, slot1)
 		elseif slot1 then
 			LoadAndInstantiateAsync("ui", string.lower(slot0), function (slot0)
-				if IsNil(slot0) then
+				if IsNil(slot0) or findTF(slot0, "icon_bg/" .. findTF .. "(Clone)") then
 					Object.Destroy(slot0)
 				else
 					setParent(slot0, slot0:Find("icon_bg"))
@@ -510,7 +514,7 @@ function slot5(slot0, slot1, slot2, slot3)
 						slot1:SetAsLastSibling()
 					end
 
-					setActive(slot0, slot1)
+					setActive(slot0, setActive)
 				end
 			end)
 		end
@@ -929,9 +933,9 @@ function updateDrop(slot0, slot1, slot2)
 			id = slot1.id
 		}), slot2)
 	elseif slot4 == DROP_TYPE_CHAT_FRAME then
-		updateAttire(slot0, AttireConst.TYPE_CHAT_FRAME, pg.item_data_chat[slot1.id])
+		updateAttire(slot0, AttireConst.TYPE_CHAT_FRAME, pg.item_data_chat[slot1.id], slot2)
 	elseif slot4 == DROP_TYPE_ICON_FRAME then
-		updateAttire(slot0, AttireConst.TYPE_ICON_FRAME, pg.item_data_frame[slot1.id])
+		updateAttire(slot0, AttireConst.TYPE_ICON_FRAME, pg.item_data_frame[slot1.id], slot2)
 	elseif slot4 == DROP_TYPE_EMOJI then
 		slot6 = pg.emoji_template[slot1.id].item_desc
 
@@ -944,30 +948,30 @@ function updateDrop(slot0, slot1, slot2)
 	slot2(slot0, slot1.count)
 end
 
-function updateAttire(slot0, slot1, slot2)
-	slot3 = slot2
+function updateAttire(slot0, slot1, slot2, slot3)
+	slot4 = slot2
 
 	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. 4))
-	setFrame(findTF(slot0, "icon_bg/frame"), slot4)
+	setFrame(findTF(slot0, "icon_bg/frame"), slot5)
 
-	slot5 = findTF(slot0, "icon_bg/icon")
-	slot6 = nil
+	slot6 = findTF(slot0, "icon_bg/icon")
+	slot7 = nil
 
 	if slot1 == AttireConst.TYPE_CHAT_FRAME then
-		slot6 = "chat_frame"
+		slot7 = "chat_frame"
 	elseif slot1 == AttireConst.TYPE_ICON_FRAME then
-		slot6 = "icon_frame"
+		slot7 = "icon_frame"
 	end
 
-	GetImageSpriteFromAtlasAsync("Props/" .. slot6, "", slot5)
-	slot0(slot0, HXSet.hxLan(slot3.name), settings)
+	GetImageSpriteFromAtlasAsync("Props/" .. slot7, "", slot6)
+	slot0(slot0, HXSet.hxLan(slot4.name), slot3)
 end
 
-function updateEmoji(slot0, slot1)
-	GetImageSpriteFromAtlasAsync("Props/" .. slot3, "", slot2)
+function updateEmoji(slot0, slot1, slot2)
+	GetImageSpriteFromAtlasAsync("Props/" .. slot4, "", slot3)
 	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. 4))
-	setFrame(findTF(slot0, "icon_bg/frame"), slot4)
-	slot0(slot0, HXSet.hxLan(slot1.name), settings)
+	setFrame(findTF(slot0, "icon_bg/frame"), slot5)
+	slot0(slot0, HXSet.hxLan(slot1.name), slot2)
 end
 
 function GetOwnedpropCount(slot0)

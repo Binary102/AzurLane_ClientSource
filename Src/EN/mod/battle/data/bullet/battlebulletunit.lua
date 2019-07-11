@@ -180,6 +180,8 @@ function ys.Battle.BattleBulletUnit.SetTemplateData(slot0, slot1)
 	slot0._field = slot1.effect_type
 	slot0._gravity = slot2.gravity or 0
 	slot0._fieldSwitchHeight = slot2.effectSwitchHeight or 0
+
+	slot0:SetDiverFilter()
 end
 
 function ys.Battle.BattleBulletUnit.GetModleID(slot0)
@@ -468,6 +470,20 @@ function ys.Battle.BattleBulletUnit.GetPushPower(slot0)
 	end
 end
 
+function ys.Battle.BattleBulletUnit.SetDiverFilter(slot0, slot1)
+	if slot1 == nil then
+		slot0._diveFilter = slot0._tempData.extra_param.diveFilter or {
+			2
+		}
+	else
+		slot0._diveFilter = slot1
+	end
+end
+
+function ys.Battle.BattleBulletUnit.GetDiveFilter(slot0)
+	return slot0._diveFilter
+end
+
 function ys.Battle.BattleBulletUnit.GetVelocity(slot0)
 	return slot0._velocity
 end
@@ -513,6 +529,14 @@ function ys.Battle.BattleBulletUnit.InitCldComponent(slot0)
 		IFF = slot0:GetIFF(),
 		UID = slot0:GetUniqueID()
 	})
+end
+
+function ys.Battle.BattleBulletUnit.ResetCldSurface(slot0)
+	if slot0:GetDiveFilter() and #slot1 == 0 then
+		slot0:GetCldData().Surface = slot0.Battle.BattleConst.OXY_STATE.DIVE
+	else
+		slot0:GetCldData().Surface = slot0.Battle.BattleConst.OXY_STATE.FLOAT
+	end
 end
 
 function ys.Battle.BattleBulletUnit.GetBoxSize(slot0)

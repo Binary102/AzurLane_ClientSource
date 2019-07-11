@@ -125,7 +125,7 @@ function slot0.register(slot0)
 			if slot2:getContextByMediator(ActivityBossBattleMediator) then
 				slot3:removeChild(slot3:getContextByMediator(PreCombatMediator))
 			end
-		elseif slot0 == SYSTEM_ROUTINE then
+		elseif slot0 == SYSTEM_ROUTINE or slot0 == SYSTEM_SUB_ROUTINE then
 			if slot2:getContextByMediator(DailyLevelMediator) then
 				slot3:removeChild(slot3:getContextByMediator(PreCombatMediator))
 			end

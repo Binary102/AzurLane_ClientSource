@@ -1,6 +1,6 @@
 return {
 	time = 0,
-	name = "潜艇run专用反潜状态",
+	name = "潜艇run专用反潜状态--巡逻舰",
 	init_effect = "",
 	picture = "",
 	desc = "潜艇run专用反潜状态",

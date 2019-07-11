@@ -5899,6 +5899,44 @@ pg.activity_template = {
 			}
 		}
 	},
+	[30167] = {
+		mark = 20190711,
+		title_res_tag = "",
+		type = 1,
+		bg = "",
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		id = 30167,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					7,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[30500] = {
 		mark = 20181030,
 		title_res_tag = "",
@@ -6464,6 +6502,7 @@ pg.activity_template = {
 		30164,
 		30165,
 		30166,
+		30167,
 		30500,
 		30501,
 		30502,

@@ -300,9 +300,10 @@ function slot0.didEnter(slot0)
 				slot0.contextData.warp = StoreHouseConst.WARP_TO_DESIGN
 
 				slot0:updateCapacity()
-				slot0:emit(EquipmentMediator.OPEN_DESIGN, slot0.listEmptyTF)
+				slot0:emit(EquipmentMediator.OPEN_DESIGN)
 				setActive(slot0.tip, false)
 				setActive(slot0.capacityTF.parent, false)
+				setActive(slot0.listEmptyTF, false)
 			end
 		else
 			slot0:emit(EquipmentMediator.CLOSE_DESIGN_LAYER)

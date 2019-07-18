@@ -4932,7 +4932,7 @@ pg.ship_data_group = {
 	[119] = {
 		nationality = 2,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 203019,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 119,
@@ -4940,8 +4940,17 @@ pg.ship_data_group = {
 		index_id = 133,
 		group_type = 20301,
 		trans_type = 0,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"A",
+			"B",
+			"E",
+			"C",
+			"B",
+			"B"
+		},
+		trans_skill = {
+			12420
+		},
 		description = {
 			{
 				"支援要請（ランダム出現）",

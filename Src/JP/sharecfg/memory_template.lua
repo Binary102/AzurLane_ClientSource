@@ -8448,6 +8448,50 @@ pg.memory_template = {
 		icon = "memory_biaoqiangmanhua",
 		is_open = 0
 	},
+	[840] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "対決…？",
+		condition = "「隅っこのヒマワリ」DAY1解放",
+		story = "I56XIAOFU1",
+		id = 840,
+		icon = "memory_i56xiaofu",
+		is_open = 0
+	},
+	[841] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "なぞの誤解？",
+		condition = "「隅っこのヒマワリ」DAY3解放",
+		story = "I56XIAOFU2",
+		id = 841,
+		icon = "memory_i56xiaofu",
+		is_open = 0
+	},
+	[842] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "新しい仲間?",
+		condition = "「隅っこのヒマワリ」DAY5解放",
+		story = "I56XIAOFU3",
+		id = 842,
+		icon = "memory_i56xiaofu",
+		is_open = 0
+	},
+	[843] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "lasst uns gehen！",
+		condition = "「隅っこのヒマワリ」DAY7解放",
+		story = "I56XIAOFU4",
+		id = 843,
+		icon = "memory_i56xiaofu",
+		is_open = 0
+	},
 	[10000] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -10108,6 +10152,10 @@ pg.memory_template = {
 		827,
 		828,
 		829,
+		840,
+		841,
+		842,
+		843,
 		10000,
 		10001,
 		10002,

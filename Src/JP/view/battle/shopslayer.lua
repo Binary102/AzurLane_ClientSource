@@ -2656,7 +2656,7 @@ function slot3(slot0, slot1)
 			slot2 = slot0
 			slot3 = slot2
 			slot2 = slot2.findTF
-			slot4 = "window/item/display_panel/desc"
+			slot4 = "window/item/display_panel/desc/desc"
 			slot5 = slot0
 			slot5 = slot5.singleBoxTF
 			slot2 = slot2(slot3, slot4, slot5)

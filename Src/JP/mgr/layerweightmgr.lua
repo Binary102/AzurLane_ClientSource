@@ -5,13 +5,17 @@ pg.LayerWeightMgr.ADAPT_TAG = "(Adapt)"
 pg.LayerWeightMgr.RECYCLE_ADAPT_TAG = "recycleAdapt"
 
 function pg.LayerWeightMgr.Init(slot0, slot1)
-	slot0.uiOrigin = tf(instantiate(slot3))
+	slot0.baseParent = tf(GameObject.Find("UICamera/Canvas"))
+	slot0.uiOrigin = tf(instantiate(slot2))
 	slot0.uiOrigin.name = "UIOrigin"
 
-	slot0.uiOrigin:SetParent(slot2, false)
+	slot0.uiOrigin:SetParent(slot0.baseParent, false)
 
 	GetOrAddComponent(slot0.uiOrigin, typeof(CanvasGroup)).interactable = false
 	GetOrAddComponent(slot0.uiOrigin, typeof(CanvasGroup)).blocksRaycasts = false
+	slot0.lvCameraTf = tf(GameObject.Find("LevelCamera"))
+	slot0.lvParent = tf(GameObject.Find("LevelCamera/Canvas"))
+	slot0.lvCamera = GetOrAddComponent(slot0.lvCameraTf, typeof(Camera))
 	slot0.adaptPool = {}
 	slot0.UIMain = rtf(GameObject.Find("UICamera/Canvas/UIMain"))
 	slot0.OverlayMain = rtf(GameObject.Find("OverlayCamera/Overlay/UIMain"))
@@ -78,6 +82,7 @@ function pg.LayerWeightMgr.DelList(slot0, slot1)
 end
 
 function pg.LayerWeightMgr.LayerSortHandler(slot0)
+	slot0:switchOriginParent()
 	slot0:SortStoreUIs()
 
 	slot1 = false
@@ -203,6 +208,14 @@ end
 
 function pg.LayerWeightMgr.ShowOrHideTF(slot0, slot1, slot2)
 	GetOrAddComponent(slot1, typeof(CanvasGroup)).alpha = (slot2 and 1) or 0
+end
+
+function pg.LayerWeightMgr.switchOriginParent(slot0)
+	if slot0.lvCamera.enabled then
+		slot0.uiOrigin:SetParent(slot0.lvParent, false)
+	else
+		slot0.uiOrigin:SetParent(slot0.baseParent, false)
+	end
 end
 
 function pg.LayerWeightMgr.GetAdaptObj(slot0)

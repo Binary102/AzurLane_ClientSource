@@ -5031,6 +5031,10 @@ pg.gametip = {
 に注意しながらステージを攻略しましょう。
 
 注意点：
+・操作中の潜水艦は潜水力ゲージが減少し、潜水力ゲ
+ージがなくなると自動で浮上します。
+・減少した潜水力ゲージは他の潜水艦に操作キャラを
+切り替えることで徐々に回復します。
 ・潜水艦に装備されている「魚雷（兵装）」と「魚雷
 （設備）」はその艦の所持弾薬数を増加させることが
 できます。
@@ -5490,13 +5494,13 @@ pg.gametip = {
 			disableScroll = true,
 			helpbg = true,
 			windowSize = {
-				y = 710
+				y = 720
 			},
 			helpSize = {
 				y = 400
 			},
 			helpPos = {
-				y = 45
+				y = 50
 			}
 		}
 	},
@@ -6282,6 +6286,10 @@ pg.gametip = {
 	ship_remould_warning_102174 = {
 		tip = "近代化改修は<color=#92fc63>輝く☆マイク</color>を消費します。\n続けますか？ ",
 		key = "ship_remould_warning_102174"
+	},
+	ship_remould_warning_203114 = {
+		tip = "<size=35>改造で<color=#92fc63>【魚雷】枠</color>が\n<color=#92fc63>【副兵装】枠</color>に変更されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>",
+		key = "ship_remould_warning_203114"
 	},
 	ship_remould_warning_205124 = {
 		tip = "近代化改修は<color=#92fc63>戦士の心得</color>を消費します。\n続けますか？ ",

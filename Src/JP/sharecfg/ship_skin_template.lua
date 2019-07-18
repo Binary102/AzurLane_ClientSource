@@ -25924,6 +25924,111 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[203019] = {
+		name = "ロンドン改",
+		bullet_skin_main = "",
+		ship_group = 20301,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "lundun_g",
+		hand_id = 1,
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 2,
+		id = 203019,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "lundun_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "あの…閣下、その「どちら様？」というような顔をされましても…私も改造でこんな格好になるなんて思っていませんでしたよ？でも、そうですね…閣下、この服、かわいいとは思いませんか？ふふふ",
+		voice_actor = 16,
+		air_bomb_skin = "",
+		illustrator = 15,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.272,
+					0.355,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.11,
+					1.095,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.212,
+					0.002,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.056,
+					0.834,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.671,
+							2.082,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[203020] = {
 		name = "シュロップシャー",
 		bullet_skin_main = "",
@@ -52814,6 +52919,99 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[308041] = {
+		name = "ウサギとサンゴ礁",
+		bullet_skin_main = "",
+		ship_group = 30804,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "I25_2",
+		hand_id = 14,
+		air_bullet_skin = "",
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "103",
+		skin_type = 0,
+		id = 308041,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "I25_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70205,
+		desc = "指揮官さん、こんにちは。この格好…？学園で授業を受ける日なのでいつもとは違う格好にしてみましたよ？ところで指揮官さん、授業参観に来てくれませんか？",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.02,
+					0.44,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.04,
+					0.666,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.55,
+							2.21,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[308050] = {
 		name = "伊56",
 		bullet_skin_main = "",
@@ -52905,6 +53103,99 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[308051] = {
+		name = "隅っコのひまわり",
+		bullet_skin_main = "",
+		ship_group = 30805,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "I56_2",
+		hand_id = 14,
+		air_bullet_skin = "",
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "103",
+		skin_type = 0,
+		id = 308051,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "I56_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "学園っていいよね…隅っこにいると、誰とも話すことなくずっとこのまま……うん……",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.108,
+					0.082,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.236,
+					-0.27,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.55,
+							2.21,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[308060] = {
 		name = "伊168",
 		bullet_skin_main = "",
@@ -52989,6 +53280,99 @@ pg.ship_skin_template = {
 						{
 							-0.465,
 							2.445,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[308061] = {
+		name = "今日はお祭り気分！",
+		bullet_skin_main = "",
+		ship_group = 30806,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "I168_2",
+		hand_id = 14,
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "114",
+		skin_type = 0,
+		id = 308061,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "I168_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70203,
+		desc = "いつもの格好とはちょっと違うって？そんなの見ればわかるんじゃ……はいはい、謝らなくていいわよ。せっかくの地上のお祭りなんだから、楽しませてもらうわよ",
+		voice_actor = 33,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.098,
+					0.383,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.052,
+					0.111,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.532,
+							2.13,
 							0
 						}
 					}
@@ -59682,6 +60066,99 @@ pg.ship_skin_template = {
 						{
 							-0.541,
 							2.497,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408061] = {
+		name = "学園のPosaunist",
+		bullet_skin_main = "",
+		ship_group = 40806,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "U101_2",
+		hand_id = 13,
+		air_bullet_skin = "",
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "103",
+		skin_type = 0,
+		id = 408061,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "U101_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70204,
+		desc = "指揮官、吹奏楽部へようこそ～――なんで吹奏楽部って？だって学園で大サメをいじれる部活ないもん…なーんてね！こう見えても私、音楽のことも好きなんだ！",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.211,
+					0.654,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.023,
+					0.09,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.35,
 							0
 						}
 					}
@@ -74963,6 +75440,7 @@ pg.ship_skin_template = {
 		202230,
 		202231,
 		203010,
+		203019,
 		203020,
 		203030,
 		203040,
@@ -75217,8 +75695,11 @@ pg.ship_skin_template = {
 		308021,
 		308030,
 		308040,
+		308041,
 		308050,
+		308051,
 		308060,
+		308061,
 		312010,
 		312011,
 		312012,
@@ -75281,6 +75762,7 @@ pg.ship_skin_template = {
 		408050,
 		408051,
 		408060,
+		408061,
 		408070,
 		501010,
 		501020,

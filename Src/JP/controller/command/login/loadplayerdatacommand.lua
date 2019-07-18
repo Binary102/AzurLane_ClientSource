@@ -63,6 +63,7 @@ class("LoadPlayerDataCommand", pm.SimpleCommand).execute = function (slot0, slot
 			BilibiliSdkMgr.inst:enterServer(tostring(slot6.id), slot6.name, slot2.id, slot2.name, slot2.registerTime * 1000, slot2.level, "vip0", slot2:getTotalGem())
 		end
 
+		slot5:recordLoginedServer(slot4.uid, slot6.id)
 		slot1:sendNotification(GAME.LOAD_PLAYER_DATA_DONE)
 		BilibiliSdkMgr.inst:callSdkApi("bindCpu", nil)
 		getProxy(PlayerProxy).setInited(slot7, true)

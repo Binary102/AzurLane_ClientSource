@@ -21838,6 +21838,110 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[12420] = {
+		desc_get = "",
+		name = "Sharpshooter of Londinium",
+		desc = "When this ship fires its Main Guns: $1 chance to deal double DMG with them. When this ship sinks an enemy: increases its Accuracy by $2 (can be stacked up to 8 times.)",
+		type = 1,
+		max_level = 10,
+		id = 12420,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"15.0%",
+				"30.0%"
+			},
+			{
+				"0.5%",
+				"1.5%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"0.5%",
+					"+0.1%"
+				},
+				{
+					"0.6%",
+					"+0.1%"
+				},
+				{
+					"0.7%",
+					"+0.1%"
+				},
+				{
+					"0.8%",
+					"+0.1%"
+				},
+				{
+					"0.9%",
+					"+0.1%"
+				},
+				{
+					"1.0%",
+					"+0.1%"
+				},
+				{
+					"1.1%",
+					"+0.1%"
+				},
+				{
+					"1.2%",
+					"+0.1%"
+				},
+				{
+					"1.3%",
+					"+0.1%"
+				},
+				{
+					"1.5%",
+					"+0.1%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shell +",
@@ -22126,7 +22230,7 @@ pg.skill_data_template = {
 		}
 	},
 	[18100] = {
-		desc_get = "After the battle begins and every 30s after that: deploys 4 rotating shields that can each block up to 8 hits. Shields last for <color=#92fc63FF5></color>s (<color=#92fc63FF15></color>s when fully upgraded.)",
+		desc_get = "After the battle begins and every 30s after that: deploys 4 rotating shields that can each block up to 8 hits. Shields last for <color=#92fc63FF>5</color>s (<color=#92fc63FF>15</color>s when fully upgraded.)",
 		name = "Well-Rounded Armor+",
 		desc = "After the battle begins and every 30s after that: deploys 4 rotating shields that can each block up to 8 hits. Shields last for $1s.",
 		type = 2,
@@ -27966,6 +28070,7 @@ pg.skill_data_template = {
 		12390,
 		12400,
 		12410,
+		12420,
 		18010,
 		18040,
 		18050,

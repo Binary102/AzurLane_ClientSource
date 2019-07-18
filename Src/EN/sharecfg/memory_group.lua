@@ -770,6 +770,18 @@ pg.memory_group = {
 			829
 		}
 	},
+	[161] = {
+		title = "Wallflower in the Corner ",
+		type = 2,
+		id = 161,
+		icon = "title_event",
+		memories = {
+			840,
+			841,
+			842,
+			843
+		}
+	},
 	[501] = {
 		title = "{namecode:98}'s Commission",
 		type = 3,
@@ -1250,6 +1262,7 @@ pg.memory_group = {
 		158,
 		159,
 		160,
+		161,
 		501,
 		502,
 		503,

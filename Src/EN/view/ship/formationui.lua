@@ -28,7 +28,7 @@ slot1 = {
 slot0.BUFF_TYEP = slot1
 slot1 = {
 	"FIRST",
-	"SECNOD",
+	"SECOND",
 	"THIRD",
 	"FOURTH",
 	"FIFTH",

@@ -3073,7 +3073,7 @@ function slot2(slot0, slot1)
 				slot0(slot1, slot2, slot3)
 			end
 
-			slot0 = setText
+			slot0 = setTextEN
 			slot1 = slot0
 			slot1 = slot1.storyContent
 			slot2 = slot1

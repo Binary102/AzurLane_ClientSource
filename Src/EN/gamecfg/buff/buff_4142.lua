@@ -8,7 +8,7 @@ return {
 				},
 				arg_list = {
 					number = -0.01,
-					attr = "cannonDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -18,7 +18,7 @@ return {
 				},
 				arg_list = {
 					number = -0.01,
-					attr = "torpedoDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_2_T_1"
 				}
 			},
 			{
@@ -28,7 +28,7 @@ return {
 				},
 				arg_list = {
 					number = -0.01,
-					attr = "cannonDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			},
 			{
@@ -38,7 +38,7 @@ return {
 				},
 				arg_list = {
 					number = -0.01,
-					attr = "torpedoDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_2_T_2"
 				}
 			}
 		}
@@ -52,7 +52,7 @@ return {
 				},
 				arg_list = {
 					number = -0.02,
-					attr = "cannonDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -62,7 +62,7 @@ return {
 				},
 				arg_list = {
 					number = -0.02,
-					attr = "torpedoDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_2_T_1"
 				}
 			},
 			{
@@ -72,7 +72,7 @@ return {
 				},
 				arg_list = {
 					number = -0.02,
-					attr = "cannonDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			},
 			{
@@ -82,7 +82,7 @@ return {
 				},
 				arg_list = {
 					number = -0.02,
-					attr = "torpedoDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_2_T_2"
 				}
 			}
 		}
@@ -96,7 +96,7 @@ return {
 				},
 				arg_list = {
 					number = -0.03,
-					attr = "cannonDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -106,7 +106,7 @@ return {
 				},
 				arg_list = {
 					number = -0.03,
-					attr = "torpedoDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_2_T_1"
 				}
 			},
 			{
@@ -116,7 +116,7 @@ return {
 				},
 				arg_list = {
 					number = -0.03,
-					attr = "cannonDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			},
 			{
@@ -126,7 +126,7 @@ return {
 				},
 				arg_list = {
 					number = -0.03,
-					attr = "torpedoDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_2_T_2"
 				}
 			}
 		}
@@ -140,7 +140,7 @@ return {
 				},
 				arg_list = {
 					number = -0.04,
-					attr = "cannonDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -150,7 +150,7 @@ return {
 				},
 				arg_list = {
 					number = -0.04,
-					attr = "torpedoDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_2_T_1"
 				}
 			},
 			{
@@ -160,7 +160,7 @@ return {
 				},
 				arg_list = {
 					number = -0.04,
-					attr = "cannonDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			},
 			{
@@ -170,7 +170,7 @@ return {
 				},
 				arg_list = {
 					number = -0.04,
-					attr = "torpedoDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_2_T_2"
 				}
 			}
 		}
@@ -184,7 +184,7 @@ return {
 				},
 				arg_list = {
 					number = -0.05,
-					attr = "cannonDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -194,7 +194,7 @@ return {
 				},
 				arg_list = {
 					number = -0.05,
-					attr = "torpedoDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_2_T_1"
 				}
 			},
 			{
@@ -204,7 +204,7 @@ return {
 				},
 				arg_list = {
 					number = -0.05,
-					attr = "cannonDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			},
 			{
@@ -214,7 +214,7 @@ return {
 				},
 				arg_list = {
 					number = -0.05,
-					attr = "torpedoDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_2_T_2"
 				}
 			}
 		}
@@ -228,7 +228,7 @@ return {
 				},
 				arg_list = {
 					number = -0.06,
-					attr = "cannonDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -238,7 +238,7 @@ return {
 				},
 				arg_list = {
 					number = -0.06,
-					attr = "torpedoDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_2_T_1"
 				}
 			},
 			{
@@ -248,7 +248,7 @@ return {
 				},
 				arg_list = {
 					number = -0.06,
-					attr = "cannonDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			},
 			{
@@ -258,7 +258,7 @@ return {
 				},
 				arg_list = {
 					number = -0.06,
-					attr = "torpedoDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_2_T_2"
 				}
 			}
 		}
@@ -272,7 +272,7 @@ return {
 				},
 				arg_list = {
 					number = -0.07,
-					attr = "cannonDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -282,7 +282,7 @@ return {
 				},
 				arg_list = {
 					number = -0.07,
-					attr = "torpedoDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_2_T_1"
 				}
 			},
 			{
@@ -292,7 +292,7 @@ return {
 				},
 				arg_list = {
 					number = -0.07,
-					attr = "cannonDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			},
 			{
@@ -302,7 +302,7 @@ return {
 				},
 				arg_list = {
 					number = -0.07,
-					attr = "torpedoDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_2_T_2"
 				}
 			}
 		}
@@ -316,7 +316,7 @@ return {
 				},
 				arg_list = {
 					number = -0.08,
-					attr = "cannonDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -326,7 +326,7 @@ return {
 				},
 				arg_list = {
 					number = -0.08,
-					attr = "torpedoDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_2_T_1"
 				}
 			},
 			{
@@ -336,7 +336,7 @@ return {
 				},
 				arg_list = {
 					number = -0.08,
-					attr = "cannonDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			},
 			{
@@ -346,7 +346,7 @@ return {
 				},
 				arg_list = {
 					number = -0.08,
-					attr = "torpedoDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_2_T_2"
 				}
 			}
 		}
@@ -360,7 +360,7 @@ return {
 				},
 				arg_list = {
 					number = -0.09,
-					attr = "cannonDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -370,7 +370,7 @@ return {
 				},
 				arg_list = {
 					number = -0.09,
-					attr = "torpedoDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_2_T_1"
 				}
 			},
 			{
@@ -380,7 +380,7 @@ return {
 				},
 				arg_list = {
 					number = -0.09,
-					attr = "cannonDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			},
 			{
@@ -390,7 +390,7 @@ return {
 				},
 				arg_list = {
 					number = -0.09,
-					attr = "torpedoDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_2_T_2"
 				}
 			}
 		}
@@ -404,7 +404,7 @@ return {
 				},
 				arg_list = {
 					number = -0.1,
-					attr = "cannonDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -414,7 +414,7 @@ return {
 				},
 				arg_list = {
 					number = -0.1,
-					attr = "torpedoDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_2_T_1"
 				}
 			},
 			{
@@ -424,7 +424,7 @@ return {
 				},
 				arg_list = {
 					number = -0.1,
-					attr = "cannonDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			},
 			{
@@ -434,7 +434,7 @@ return {
 				},
 				arg_list = {
 					number = -0.1,
-					attr = "torpedoDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_2_T_2"
 				}
 			}
 		}
@@ -464,7 +464,7 @@ return {
 			},
 			arg_list = {
 				number = -0.01,
-				attr = "cannonDamageRatioFromShipType_1"
+				attr = "DMG_FROM_TAG_1_T_1"
 			}
 		},
 		{
@@ -474,7 +474,7 @@ return {
 			},
 			arg_list = {
 				number = -0.01,
-				attr = "torpedoDamageRatioFromShipType_1"
+				attr = "DMG_FROM_TAG_2_T_1"
 			}
 		},
 		{
@@ -484,7 +484,7 @@ return {
 			},
 			arg_list = {
 				number = -0.01,
-				attr = "cannonDamageRatioFromShipType_2"
+				attr = "DMG_FROM_TAG_1_T_2"
 			}
 		},
 		{
@@ -494,7 +494,7 @@ return {
 			},
 			arg_list = {
 				number = -0.01,
-				attr = "torpedoDamageRatioFromShipType_2"
+				attr = "DMG_FROM_TAG_2_T_2"
 			}
 		}
 	}

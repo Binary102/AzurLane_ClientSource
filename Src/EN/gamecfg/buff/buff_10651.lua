@@ -8,7 +8,7 @@ return {
 				},
 				arg_list = {
 					number = 0.15,
-					attr = "damageRatioByShipType_1"
+					attr = "DMG_TAG_EHC_T_1"
 				}
 			},
 			{
@@ -18,7 +18,7 @@ return {
 				},
 				arg_list = {
 					number = 0.15,
-					attr = "damageRatioByShipType_2"
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			},
 			{
@@ -28,7 +28,7 @@ return {
 				},
 				arg_list = {
 					number = 0.15,
-					attr = "damageRatioByShipType_18"
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			}
 		}
@@ -42,7 +42,7 @@ return {
 				},
 				arg_list = {
 					number = 0.172,
-					attr = "damageRatioByShipType_1"
+					attr = "DMG_TAG_EHC_T_1"
 				}
 			},
 			{
@@ -52,7 +52,7 @@ return {
 				},
 				arg_list = {
 					number = 0.172,
-					attr = "damageRatioByShipType_2"
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			},
 			{
@@ -62,7 +62,7 @@ return {
 				},
 				arg_list = {
 					number = 0.172,
-					attr = "damageRatioByShipType_18"
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			}
 		}
@@ -76,7 +76,7 @@ return {
 				},
 				arg_list = {
 					number = 0.194,
-					attr = "damageRatioByShipType_1"
+					attr = "DMG_TAG_EHC_T_1"
 				}
 			},
 			{
@@ -86,7 +86,7 @@ return {
 				},
 				arg_list = {
 					number = 0.194,
-					attr = "damageRatioByShipType_2"
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			},
 			{
@@ -96,7 +96,7 @@ return {
 				},
 				arg_list = {
 					number = 0.194,
-					attr = "damageRatioByShipType_18"
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			}
 		}
@@ -110,7 +110,7 @@ return {
 				},
 				arg_list = {
 					number = 0.216,
-					attr = "damageRatioByShipType_1"
+					attr = "DMG_TAG_EHC_T_1"
 				}
 			},
 			{
@@ -120,7 +120,7 @@ return {
 				},
 				arg_list = {
 					number = 0.216,
-					attr = "damageRatioByShipType_2"
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			},
 			{
@@ -130,7 +130,7 @@ return {
 				},
 				arg_list = {
 					number = 0.216,
-					attr = "damageRatioByShipType_18"
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			}
 		}
@@ -144,7 +144,7 @@ return {
 				},
 				arg_list = {
 					number = 0.238,
-					attr = "damageRatioByShipType_1"
+					attr = "DMG_TAG_EHC_T_1"
 				}
 			},
 			{
@@ -154,7 +154,7 @@ return {
 				},
 				arg_list = {
 					number = 0.238,
-					attr = "damageRatioByShipType_2"
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			},
 			{
@@ -164,7 +164,7 @@ return {
 				},
 				arg_list = {
 					number = 0.238,
-					attr = "damageRatioByShipType_18"
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			}
 		}
@@ -178,7 +178,7 @@ return {
 				},
 				arg_list = {
 					number = 0.26,
-					attr = "damageRatioByShipType_1"
+					attr = "DMG_TAG_EHC_T_1"
 				}
 			},
 			{
@@ -188,7 +188,7 @@ return {
 				},
 				arg_list = {
 					number = 0.26,
-					attr = "damageRatioByShipType_2"
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			},
 			{
@@ -198,7 +198,7 @@ return {
 				},
 				arg_list = {
 					number = 0.26,
-					attr = "damageRatioByShipType_18"
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			}
 		}
@@ -212,7 +212,7 @@ return {
 				},
 				arg_list = {
 					number = 0.282,
-					attr = "damageRatioByShipType_1"
+					attr = "DMG_TAG_EHC_T_1"
 				}
 			},
 			{
@@ -222,7 +222,7 @@ return {
 				},
 				arg_list = {
 					number = 0.282,
-					attr = "damageRatioByShipType_2"
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			},
 			{
@@ -232,7 +232,7 @@ return {
 				},
 				arg_list = {
 					number = 0.282,
-					attr = "damageRatioByShipType_18"
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			}
 		}
@@ -246,7 +246,7 @@ return {
 				},
 				arg_list = {
 					number = 0.304,
-					attr = "damageRatioByShipType_1"
+					attr = "DMG_TAG_EHC_T_1"
 				}
 			},
 			{
@@ -256,7 +256,7 @@ return {
 				},
 				arg_list = {
 					number = 0.304,
-					attr = "damageRatioByShipType_2"
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			},
 			{
@@ -266,7 +266,7 @@ return {
 				},
 				arg_list = {
 					number = 0.304,
-					attr = "damageRatioByShipType_18"
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			}
 		}
@@ -280,7 +280,7 @@ return {
 				},
 				arg_list = {
 					number = 0.326,
-					attr = "damageRatioByShipType_1"
+					attr = "DMG_TAG_EHC_T_1"
 				}
 			},
 			{
@@ -290,7 +290,7 @@ return {
 				},
 				arg_list = {
 					number = 0.326,
-					attr = "damageRatioByShipType_2"
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			},
 			{
@@ -300,7 +300,7 @@ return {
 				},
 				arg_list = {
 					number = 0.326,
-					attr = "damageRatioByShipType_18"
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			}
 		}
@@ -314,7 +314,7 @@ return {
 				},
 				arg_list = {
 					number = 0.35,
-					attr = "damageRatioByShipType_1"
+					attr = "DMG_TAG_EHC_T_1"
 				}
 			},
 			{
@@ -324,7 +324,7 @@ return {
 				},
 				arg_list = {
 					number = 0.35,
-					attr = "damageRatioByShipType_2"
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			},
 			{
@@ -334,7 +334,7 @@ return {
 				},
 				arg_list = {
 					number = 0.35,
-					attr = "damageRatioByShipType_18"
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			}
 		}
@@ -363,7 +363,7 @@ return {
 			},
 			arg_list = {
 				number = 0.15,
-				attr = "damageRatioByShipType_1"
+				attr = "DMG_TAG_EHC_T_1"
 			}
 		},
 		{
@@ -373,7 +373,7 @@ return {
 			},
 			arg_list = {
 				number = 0.15,
-				attr = "damageRatioByShipType_2"
+				attr = "DMG_TAG_EHC_T_2"
 			}
 		},
 		{
@@ -383,7 +383,7 @@ return {
 			},
 			arg_list = {
 				number = 0.15,
-				attr = "damageRatioByShipType_18"
+				attr = "DMG_TAG_EHC_T_18"
 			}
 		}
 	}

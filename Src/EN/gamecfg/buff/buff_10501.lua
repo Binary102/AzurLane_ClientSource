@@ -10,7 +10,7 @@ return {
 				arg_list = {
 					group = 10501,
 					number = 0.05,
-					attr = "damageRatioByNationality_3"
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			}
 		}
@@ -26,7 +26,7 @@ return {
 				arg_list = {
 					group = 10501,
 					number = 0.072,
-					attr = "damageRatioByNationality_3"
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			}
 		}
@@ -42,7 +42,7 @@ return {
 				arg_list = {
 					group = 10501,
 					number = 0.094,
-					attr = "damageRatioByNationality_3"
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			}
 		}
@@ -58,7 +58,7 @@ return {
 				arg_list = {
 					group = 10501,
 					number = 0.116,
-					attr = "damageRatioByNationality_3"
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			}
 		}
@@ -74,7 +74,7 @@ return {
 				arg_list = {
 					group = 10501,
 					number = 0.138,
-					attr = "damageRatioByNationality_3"
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			}
 		}
@@ -90,7 +90,7 @@ return {
 				arg_list = {
 					group = 10501,
 					number = 0.16,
-					attr = "damageRatioByNationality_3"
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			}
 		}
@@ -106,7 +106,7 @@ return {
 				arg_list = {
 					group = 10501,
 					number = 0.182,
-					attr = "damageRatioByNationality_3"
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			}
 		}
@@ -122,7 +122,7 @@ return {
 				arg_list = {
 					group = 10501,
 					number = 0.204,
-					attr = "damageRatioByNationality_3"
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			}
 		}
@@ -138,7 +138,7 @@ return {
 				arg_list = {
 					group = 10501,
 					number = 0.226,
-					attr = "damageRatioByNationality_3"
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			}
 		}
@@ -154,7 +154,7 @@ return {
 				arg_list = {
 					group = 10501,
 					number = 0.25,
-					attr = "damageRatioByNationality_3"
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			}
 		}
@@ -184,7 +184,7 @@ return {
 			arg_list = {
 				group = 10501,
 				number = 0.05,
-				attr = "damageRatioByNationality_3"
+				attr = "DMG_TAG_EHC_N_3"
 			}
 		}
 	}

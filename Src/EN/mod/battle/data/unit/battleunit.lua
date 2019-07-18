@@ -412,6 +412,8 @@ end
 
 function slot9.AddLabelTag(slot0, slot1)
 	table.insert(slot0._labelTagList, slot1)
+
+	slot2[slot1] = (slot0:GetCurrent("labelTag")[slot1] or 0) + 1
 end
 
 function slot9.RemoveLabelTag(slot0, slot1)
@@ -419,9 +421,16 @@ function slot9.RemoveLabelTag(slot0, slot1)
 		if slot6 == slot1 then
 			table.remove(slot0._labelTagList, slot5)
 
+			slot0:GetCurrent("labelTag")[slot1] = slot0.GetCurrent("labelTag")[slot1] - 1
+
 			break
 		end
 	end
+end
+
+function slot9.setStandardLabelTag(slot0)
+	slot0:AddLabelTag(slot1)
+	slot0:AddLabelTag("T_" .. slot0._tmpData.type)
 end
 
 function slot9.GetRarity(slot0)

@@ -6089,7 +6089,7 @@ pg.enemy_data_statistics = {
 	},
 	[139] = {
 		cannon = 0,
-		name = "水面水雷",
+		name = "Surface Torpedo",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -6216,7 +6216,7 @@ pg.enemy_data_statistics = {
 	},
 	[140] = {
 		cannon = 0,
-		name = "水下水雷",
+		name = "Submerged Torpedo",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

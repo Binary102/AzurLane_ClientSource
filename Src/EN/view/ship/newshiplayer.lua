@@ -301,6 +301,7 @@ function slot0.showExitTip(slot0, slot1)
 		end
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			modal = true,
 			content = i18n("ship_lock_tip"),
 			onYes = function ()
 				triggerButton(slot0._lockBtn)

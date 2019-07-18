@@ -69,7 +69,12 @@ function ys.Battle.BattlePlayerUnit.SetTemplate(slot0, slot1, slot2)
 	slot2.SetCurrent(slot0, "srcShipType", slot0._tmpData.type)
 
 	slot0._personality = slot1.Battle.BattleDataFunction.GetShipPersonality(slot0._tmpData.personality)
-	slot0._labelTagList = Clone(slot0._tmpData.tag_list)
+
+	for slot6, slot7 in ipairs(slot0._tmpData.tag_list) do
+		slot0:AddLabelTag(slot7)
+	end
+
+	slot0:setStandardLabelTag()
 end
 
 function ys.Battle.BattlePlayerUnit.overrideSkin(slot0, slot1, slot2)

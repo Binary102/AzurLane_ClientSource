@@ -438,6 +438,10 @@ function slot6.TriggerBuff(slot0)
 	return
 end
 
+function slot6.GetLabelTag(slot0)
+	return {}
+end
+
 function slot6.GetCurrentOxyState(slot0)
 	return nil
 end

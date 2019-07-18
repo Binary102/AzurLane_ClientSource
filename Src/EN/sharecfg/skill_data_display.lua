@@ -1644,6 +1644,10 @@ pg.skill_data_display = {
 		id = 12400,
 		name = "Great Shark's Bite "
 	},
+	[12401] = {
+		id = 12401,
+		name = "大鱼突击！"
+	},
 	[12410] = {
 		id = 12410,
 		name = "Wolf Pack Formation - U-101 "
@@ -1651,6 +1655,14 @@ pg.skill_data_display = {
 	[12411] = {
 		id = 12411,
 		name = "Wolf Pack Formation - U-101 "
+	},
+	[12420] = {
+		id = 12420,
+		name = "Londinium"
+	},
+	[12421] = {
+		id = 12421,
+		name = "Londinium"
 	},
 	[18010] = {
 		id = 18010,
@@ -3236,8 +3248,11 @@ pg.skill_data_display = {
 		12390,
 		12391,
 		12400,
+		12401,
 		12410,
 		12411,
+		12420,
+		12421,
 		18010,
 		18040,
 		18041,

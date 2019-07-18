@@ -3354,7 +3354,7 @@ February 8th.]]
 		key = "buy_item_quest"
 	},
 	refresh_shopStreet_question = {
-		tip = "Spend $1 <color=#92fc63>$2</color> to refresh the list of items in the shop?\n\n<size=22>(Bought <size=25><color=#FF0000>$3</color></size> times today)</size>",
+		tip = "Spend $1 <color=#92fc63>$2</color> to refresh the list of items in the shop?\n\n<size=30>(Bought <size=30><color=#FF0000>$3</color></size> times today)</size>",
 		key = "refresh_shopStreet_question"
 	},
 	event_start_success = {
@@ -5317,13 +5317,13 @@ Attack/Support Range Level:
 			disableScroll = true,
 			helpbg = true,
 			windowSize = {
-				y = 660
+				y = 720
 			},
 			helpSize = {
 				y = 400
 			},
 			helpPos = {
-				y = 20
+				y = 50
 			}
 		}
 	},
@@ -6074,6 +6074,10 @@ Attack/Support Range Level:
 	ship_remould_sueecss = {
 		tip = "Improved!",
 		key = "ship_remould_sueecss"
+	},
+	ship_remould_warning_203114 = {
+		tip = "This ship's <color=#92fc63>Torpedo slot</color> will be converted into an <color=#92fc63>Auxiliary Weapon slot.</color><color=#92fc63>\n<material=underline c=#92fc63 event=clickDetail>View more info here.</material></color>\nWould you like to proceed with the retrofit? ",
+		key = "ship_remould_warning_203114"
 	},
 	ship_remould_warning_310014 = {
 		tip = [[
@@ -8399,7 +8403,7 @@ with Anti-Sub gear.
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "Destroyers, Light Cruisers, Light Carriers, Repair Ships, Monitors and more!",
+		tip = "Light: Destroyers, Light Cruisers,Repair Ships and more!",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {

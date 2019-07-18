@@ -94,10 +94,11 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.super.Ctor(slot0, slot1)
 
 	slot0.id = slot1.user_id or slot1.id
-	slot0.power = slot1.point or slot1.score or 0
-	slot0.name = slot1.name
 	slot0.lv = slot1.lv or slot1.level
-	slot0.arenaRank = slot1.arena_rank or slot1.rank or 0
+	slot0.name = slot1.name
+	slot0.power = slot1.point or slot1.score or 0
+	slot0.rank = slot1.rank or 0
+	slot0.arenaRank = math.min(math.max(slot1.arena_rank or 0, 1), 14)
 	slot0.type = slot2
 end
 
@@ -109,12 +110,12 @@ function slot0.getPainting(slot0)
 	end
 end
 
-function slot0.getRank(slot0)
-	return slot0.rank
-end
-
 function slot0.setRank(slot0, slot1)
 	slot0.rank = slot1
+end
+
+function slot0.setArenaRank(slot0, slot1)
+	slot0.arenaRank = slot1
 end
 
 function slot0.getPowerTxt(slot0)

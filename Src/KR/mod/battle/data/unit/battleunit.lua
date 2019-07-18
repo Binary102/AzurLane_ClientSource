@@ -1181,6 +1181,7 @@ function slot9.InitOxygen(slot0)
 	slot0._maxOxy = slot0:GetAttrByName("oxyMax")
 	slot0._currentOxy = slot0:GetAttrByName("oxyMax")
 	slot0._oxyRecovery = slot0:GetAttrByName("oxyRecovery")
+	slot0._oxyRecoveryBench = slot0:GetAttrByName("oxyRecoveryBench")
 	slot0._oxyConsume = slot0:GetAttrByName("oxyCost")
 	slot0._oxyState = slot0.Battle.OxyState.New(slot0)
 
@@ -1203,8 +1204,9 @@ function slot9.UpdateOxygen(slot0, slot1)
 	end
 end
 
-function slot9.OxyRecover(slot0)
-	slot0._currentOxy = math.min(slot0._maxOxy, slot0._currentOxy + slot0._oxyRecovery * (pg.TimeMgr.GetInstance():GetCombatTime() - slot0._lastOxyUpdateStamp))
+function slot9.OxyRecover(slot0, slot1)
+	slot2 = nil
+	slot0._currentOxy = math.min(slot0._maxOxy, slot0._currentOxy + ((not slot1 or slot0._oxyRecoveryBench) and slot0._oxyRecovery) * (pg.TimeMgr.GetInstance():GetCombatTime() - slot0._lastOxyUpdateStamp))
 end
 
 function slot9.OxyConsume(slot0)
@@ -1226,7 +1228,7 @@ function slot9.GetOxygenProgress(slot0)
 
 	if slot0._oxyState:GetCurrentStateName() == slot0.Battle.RaidOxyState.__name then
 		slot1 = 1 - slot0._phaseSwitcher:GetPhaseProgress()
-	elseif slot2 == slot0.Battle.FreeDiveOxyState.__name or slot2 == slot0.Battle.FreeFloatOxyState.__name then
+	elseif slot2 == slot0.Battle.FreeDiveOxyState.__name or slot2 == slot0.Battle.FreeFloatOxyState.__name or slot2 == slot0.Battle.FreeBenchOxyState.__name then
 		slot1 = slot0._currentOxy / slot0._maxOxy
 	end
 

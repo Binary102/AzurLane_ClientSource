@@ -9,12 +9,17 @@ function ys.Battle.BattleSubmarineFuncVO.Ctor(slot0, slot1)
 
 	slot0._isOverLoad = false
 	slot0._current = slot1
-	slot0._max = slot1
+	slot0._defaultMax = slot1
+	slot0._active = true
+
+	slot0:ResetMax()
 end
 
 function ys.Battle.BattleSubmarineFuncVO.Update(slot0, slot1)
-	if slot0._current < slot0._max then
+	if slot0._active and slot0._current < slot0._max then
 		if slot0._max <= slot1 - slot0._reloadStartTime then
+			slot0:ResetMax()
+
 			slot0._current = slot0._max
 			slot0._reloadStartTime = nil
 
@@ -25,11 +30,19 @@ function ys.Battle.BattleSubmarineFuncVO.Update(slot0, slot1)
 	end
 end
 
+function ys.Battle.BattleSubmarineFuncVO.SetActive(slot0, slot1)
+	slot0._active = slot1
+end
+
 function ys.Battle.BattleSubmarineFuncVO.ResetCurrent(slot0)
 	slot0._current = 0
 	slot0._reloadStartTime = pg.TimeMgr.GetInstance():GetCombatTime()
 
 	slot0:DispatchOverLoadChange()
+end
+
+function ys.Battle.BattleSubmarineFuncVO.ResetMax(slot0)
+	slot0._max = slot0._defaultMax
 end
 
 function ys.Battle.BattleSubmarineFuncVO.SetMax(slot0, slot1)

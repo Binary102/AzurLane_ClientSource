@@ -1,16 +1,21 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "20226",
-		type = 3,
+		type = 2,
 		id = 1,
-		pic = "temp6",
+		pic = "temp2",
+		param = {
+			"scene get boat",
+			{
+				projectName = "new"
+			}
+		},
 		time = {
 			{
 				{
 					2019,
 					7,
-					11
+					18
 				},
 				{
 					0,
@@ -22,7 +27,7 @@ pg.activity_banner = {
 				{
 					2019,
 					7,
-					18
+					31
 				},
 				{
 					23,

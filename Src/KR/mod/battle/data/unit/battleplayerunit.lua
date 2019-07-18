@@ -321,7 +321,7 @@ function ys.Battle.BattlePlayerUnit.OxyConsume(slot0)
 	slot0.super.OxyConsume(slot0)
 
 	if slot0._currentOxy <= 0 then
-		slot0._fleet:ChangeSubmarineState(slot1.Battle.OxyState.STATE_FREE_FLOAT)
+		slot0._fleet:ChangeSubmarineState(slot1.Battle.OxyState.STATE_FREE_FLOAT, true)
 	end
 end
 

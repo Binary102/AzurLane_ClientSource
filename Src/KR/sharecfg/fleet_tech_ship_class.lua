@@ -1374,7 +1374,20 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			30801,
 			30802,
-			30803
+			30803,
+			30804,
+			30805
+		}
+	},
+	[30802] = {
+		shiptype = 8,
+		name = "해대형 ",
+		t_level = 7,
+		id = 30802,
+		t_level_1 = 100,
+		nation = 3,
+		ships = {
+			30806
 		}
 	},
 	[31201] = {
@@ -1573,7 +1586,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 125,
 		nation = 4,
 		ships = {
-			40805
+			40805,
+			40806
 		}
 	},
 	[40802] = {
@@ -1586,6 +1600,17 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			40801,
 			40804
+		}
+	},
+	[40803] = {
+		shiptype = 8,
+		name = "IXC형 ",
+		t_level = 7,
+		id = 40803,
+		t_level_1 = 140,
+		nation = 4,
+		ships = {
+			40807
 		}
 	},
 	[50101] = {
@@ -1850,6 +1875,7 @@ pg.fleet_tech_ship_class = {
 		30705,
 		30706,
 		30801,
+		30802,
 		31201,
 		31801,
 		40101,
@@ -1868,6 +1894,7 @@ pg.fleet_tech_ship_class = {
 		40701,
 		40801,
 		40802,
+		40803,
 		50101,
 		50201,
 		50202,

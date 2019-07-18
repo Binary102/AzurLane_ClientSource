@@ -15,8 +15,7 @@ pg.ship_data_create_material = {
 			"<color=#ffde38>SS Rare</color>：7%",
 			"<color=#d797ff>S Rare</color>：12%",
 			"<color=#3dc6ff>Rare</color>：51%",
-			"Normal：30%",
-			"<color=#d797ff>글로리어스</color>：2.5%(<color=#92fc63>up!</color>)"
+			"Normal：30%"
 		}
 	},
 	{
@@ -71,13 +70,11 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>S Rare</color>：12%",
 			"<color=#3dc6ff>Rare</color>：51%",
 			"Normal：30%",
-			"<color=#ffde38>쇼카쿠</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>즈이카쿠</color>：0.7%",
-			"<color=#ffde38>유키카제</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>노와키</color>：4.0%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>모가미</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#3dc6ff>이세</color>：6.75%(<color=#92fc63>up!</color>)",
-			"<color=#3dc6ff>휴가</color>：6.75%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>이168</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>U-101</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>이25</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>이56</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>U-522</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

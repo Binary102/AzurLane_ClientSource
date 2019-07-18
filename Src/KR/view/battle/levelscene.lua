@@ -647,8 +647,7 @@ function slot0.updateChapterVO(slot0, slot1, slot2)
 			slot5 = true
 
 			if slot0.grid then
-				slot0.grid:clearFleets()
-				slot0.grid:initFleets()
+				slot0.grid:RefreshFleetCells()
 
 				slot4 = true
 			end
@@ -675,7 +674,7 @@ function slot0.updateChapterVO(slot0, slot1, slot2)
 
 			if slot0.grid then
 				if slot2 >= 0 and bit.band(slot2, ChapterConst.DirtyFleet) <= 0 then
-					slot0.grid:updateFleet(slot1.findex)
+					slot0.grid:updateFleet(slot1.fleets[slot1.findex].id)
 				end
 
 				slot0.grid:updateAttachments()
@@ -1429,11 +1428,13 @@ function slot0.updateMap(slot0)
 				setImageSprite(slot0.map, slot0, true)
 
 				if not setImageSprite:isEscort() then
-					slot0.map.pivot = Vector2(0, 0)
-					slot0.float.sizeDelta = Vector2(GetComponent(slot0.map, "Image").preferredWidth, GetComponent(slot0.map, "Image").preferredHeight)
-					slot0.float.localPosition = slot0.map.localPosition
+					slot1 = GetComponent(slot0.map, "Image")
+					slot0.map.pivot = Vector2(0.5, 0.5)
+					slot0.float.pivot = Vector2(0.5, 0.5)
+					slot0.float.localPosition = Vector2(0, 0)
 				else
 					slot0.map.pivot = Vector2(0.5, 0.5)
+					slot0.float.pivot = Vector2(0.5, 0.5)
 					slot3 = 1
 
 					if slot0.map.rect.width / slot0.map.rect.height < slot0._tf.rect.width / slot0._tf.rect.height then
@@ -2518,7 +2519,7 @@ function slot0.switchToMap(slot0)
 		return
 	end)):setEase(LeanTweenType.easeOutSine).uniqueId)
 
-	slot5 = LeanTween.value(go(slot0.map), slot0.map.pivot, Vector2.zero, slot0)
+	slot5 = LeanTween.value(go(slot0.map), slot0.map.pivot, Vector2(0.5, 0.5), slot0)
 
 	slot5:setOnUpdateVector2(function (slot0)
 		slot0.map.pivot = slot0
@@ -2533,7 +2534,7 @@ function slot0.switchToMap(slot0)
 	shiftPanel(slot0.leftChapter, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 	shiftPanel(slot0.rightChapter, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 	shiftPanel(slot0.topChapter, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
-	slot0.levelStageView:ShiftPanelToChapter(0)
+	slot0.levelStageView:ShiftStagePanelOut()
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.topPanel, slot0._tf)
 
 	if slot0.ambushWarning and slot0.ambushWarning.activeSelf then
@@ -3652,6 +3653,7 @@ end
 
 function slot0.openCommanderPanel(slot0, slot1, slot2, slot3)
 	slot4 = nil
+	slot5 = slot2.id
 
 	if not slot3 then
 		function slot4(slot0)
@@ -3661,7 +3663,7 @@ function slot0.openCommanderPanel(slot0, slot1, slot2, slot3)
 					fleetId = slot2.id
 				}
 
-				slot0:emit(LevelMediator2.ON_SELECT_COMMANDER, slot0.pos, slot2.id, slot0.emit)
+				slot0:emit(LevelMediator2.ON_SELECT_COMMANDER, slot0.pos, slot2.id, )
 				slot0:closeCommanderPanel()
 			else
 				slot0:emit(LevelMediator2.ON_COMMANDER_OP, {
@@ -3669,7 +3671,7 @@ function slot0.openCommanderPanel(slot0, slot1, slot2, slot3)
 					data = slot0,
 					fleetId = slot2.id,
 					chapterId = slot1
-				}, chapter)
+				}, )
 			end
 
 			return
@@ -3683,7 +3685,7 @@ function slot0.openCommanderPanel(slot0, slot1, slot2, slot3)
 					chapterId = 
 				}
 
-				slot0:emit(LevelMediator2.ON_SELECT_ELITE_COMMANDER, slot0.emit, slot0.pos, slot0)
+				slot0:emit(LevelMediator2.ON_SELECT_ELITE_COMMANDER, slot0.emit, slot0.pos, )
 				slot0:closeCommanderPanel()
 			else
 				slot0:emit(LevelMediator2.ON_COMMANDER_OP, {
@@ -3691,7 +3693,7 @@ function slot0.openCommanderPanel(slot0, slot1, slot2, slot3)
 					data = slot0,
 					index = slot1,
 					chapterId = slot2
-				}, chapter)
+				}, )
 			end
 
 			return
@@ -3846,9 +3848,9 @@ function slot0.willExit(slot0)
 	LeanTween.cancel(go(slot0.damageText))
 
 	slot0.map.localScale = Vector3.one
-	slot0.map.pivot = Vector2.zero
+	slot0.map.pivot = Vector2(0.5, 0.5)
 	slot0.float.localScale = Vector3.one
-	slot0.float.pivot = Vector2.zero
+	slot0.float.pivot = Vector2(0.5, 0.5)
 
 	clearImageSprite(slot0.map)
 	_.each(slot0.cloudRTFs, function (slot0)

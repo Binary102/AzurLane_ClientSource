@@ -60,8 +60,6 @@ function slot0.getShipExtra(slot0)
 end
 
 function slot0.isTransPort(slot0)
-	print(slot0:getConfig("type"), Furniture.TYPE_TRANSPORT)
-
 	return slot0:getConfig("type") == Furniture.TYPE_TRANSPORT
 end
 

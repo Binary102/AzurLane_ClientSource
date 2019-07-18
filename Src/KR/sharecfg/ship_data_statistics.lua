@@ -22,6 +22,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 0,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			100,
@@ -147,6 +148,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 0,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			100,
@@ -272,6 +274,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			265,
@@ -399,6 +402,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			330,
@@ -526,6 +530,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			459,
@@ -653,6 +658,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			654,
@@ -780,6 +786,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			280,
@@ -907,6 +914,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			348,
@@ -1034,6 +1042,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			485,
@@ -1161,6 +1170,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			689,
@@ -1288,6 +1298,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			280,
@@ -1415,6 +1426,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			348,
@@ -1542,6 +1554,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			485,
@@ -1669,6 +1682,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			689,
@@ -1796,6 +1810,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			292,
@@ -1925,6 +1940,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			363,
@@ -2054,6 +2070,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			505,
@@ -2183,6 +2200,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			719,
@@ -2312,6 +2330,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			286,
@@ -2439,6 +2458,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			356,
@@ -2566,6 +2586,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			495,
@@ -2693,6 +2714,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			705,
@@ -2820,6 +2842,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			278,
@@ -2947,6 +2970,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			346,
@@ -3074,6 +3098,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			481,
@@ -3201,6 +3226,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			685,
@@ -3328,6 +3354,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			292,
@@ -3455,6 +3482,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			363,
@@ -3582,6 +3610,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			505,
@@ -3709,6 +3738,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			719,
@@ -3836,6 +3866,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			338,
@@ -3965,6 +3996,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			420,
@@ -4094,6 +4126,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			585,
@@ -4223,6 +4256,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			832,
@@ -4352,6 +4386,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			343,
@@ -4481,6 +4516,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			427,
@@ -4610,6 +4646,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			594,
@@ -4739,6 +4776,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			846,
@@ -4868,6 +4906,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			331,
@@ -4997,6 +5036,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			412,
@@ -5126,6 +5166,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			573,
@@ -5255,6 +5296,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			816,
@@ -5384,6 +5426,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			325,
@@ -5513,6 +5556,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			404,
@@ -5642,6 +5686,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			563,
@@ -5771,6 +5816,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			800,
@@ -5900,6 +5946,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			325,
@@ -6029,6 +6076,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			404,
@@ -6158,6 +6206,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			563,
@@ -6287,6 +6336,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			800,
@@ -6416,6 +6466,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			325,
@@ -6545,6 +6596,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			404,
@@ -6674,6 +6726,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			563,
@@ -6803,6 +6856,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			800,
@@ -6932,6 +6986,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			294,
@@ -7059,6 +7114,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			366,
@@ -7186,6 +7242,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			509,
@@ -7313,6 +7370,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			725,
@@ -7440,6 +7498,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			319,
@@ -7567,6 +7626,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			397,
@@ -7694,6 +7754,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			553,
@@ -7821,6 +7882,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			786,
@@ -7948,6 +8010,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			293,
@@ -8075,6 +8138,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			364,
@@ -8202,6 +8266,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			507,
@@ -8329,6 +8394,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			721,
@@ -8456,6 +8522,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			293,
@@ -8583,6 +8650,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			364,
@@ -8710,6 +8778,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			507,
@@ -8837,6 +8906,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			721,
@@ -8964,6 +9034,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			277,
@@ -9091,6 +9162,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			345,
@@ -9218,6 +9290,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			480,
@@ -9345,6 +9418,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			683,
@@ -9472,6 +9546,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			294,
@@ -9599,6 +9674,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			366,
@@ -9726,6 +9802,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			509,
@@ -9853,6 +9930,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			725,
@@ -9980,6 +10058,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			331,
@@ -10109,6 +10188,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			412,
@@ -10238,6 +10318,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			573,
@@ -10367,6 +10448,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			816,
@@ -10496,6 +10578,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			335,
@@ -10625,6 +10708,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			417,
@@ -10754,6 +10838,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			580,
@@ -10883,6 +10968,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			826,
@@ -11012,6 +11098,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			341,
@@ -11141,6 +11228,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			424,
@@ -11270,6 +11358,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			590,
@@ -11399,6 +11488,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			840,
@@ -11528,6 +11618,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			331,
@@ -11657,6 +11748,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			412,
@@ -11786,6 +11878,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			573,
@@ -11915,6 +12008,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			816,
@@ -12044,6 +12138,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			331,
@@ -12173,6 +12268,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			412,
@@ -12302,6 +12398,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			573,
@@ -12431,6 +12528,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			816,
@@ -12560,6 +12658,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			294,
@@ -12687,6 +12786,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			366,
@@ -12814,6 +12914,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			509,
@@ -12941,6 +13042,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			725,
@@ -13068,6 +13170,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			294,
@@ -13195,6 +13298,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			366,
@@ -13322,6 +13426,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			509,
@@ -13449,6 +13554,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			725,
@@ -13576,6 +13682,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			331,
@@ -13705,6 +13812,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			412,
@@ -13834,6 +13942,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			573,
@@ -13963,6 +14072,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			816,
@@ -14092,6 +14202,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			341,
@@ -14221,6 +14332,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			424,
@@ -14350,6 +14462,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			590,
@@ -14479,6 +14592,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			840,
@@ -14608,6 +14722,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			554,
@@ -14738,6 +14853,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			689,
@@ -14868,6 +14984,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			959,
@@ -14998,6 +15115,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1365,
@@ -15128,6 +15246,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			554,
@@ -15258,6 +15377,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			689,
@@ -15388,6 +15508,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			959,
@@ -15518,6 +15639,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1365,
@@ -15648,6 +15770,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			595,
@@ -15776,6 +15899,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			740,
@@ -15904,6 +16028,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1030,
@@ -16032,6 +16157,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1466,
@@ -16160,6 +16286,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			595,
@@ -16288,6 +16415,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			740,
@@ -16416,6 +16544,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1030,
@@ -16544,6 +16673,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1466,
@@ -16672,6 +16802,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			620,
@@ -16800,6 +16931,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			771,
@@ -16928,6 +17060,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1073,
@@ -17056,6 +17189,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1527,
@@ -17184,6 +17318,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			605,
@@ -17314,6 +17449,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			752,
@@ -17444,6 +17580,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1047,
@@ -17574,6 +17711,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1490,
@@ -17704,6 +17842,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			605,
@@ -17834,6 +17973,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			752,
@@ -17964,6 +18104,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1047,
@@ -18094,6 +18235,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1490,
@@ -18224,6 +18366,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			646,
@@ -18354,6 +18497,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			803,
@@ -18484,6 +18628,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1118,
@@ -18614,6 +18759,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1591,
@@ -18744,6 +18890,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			751,
@@ -18874,6 +19021,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			934,
@@ -19004,6 +19152,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1300,
@@ -19134,6 +19283,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1849,
@@ -19264,6 +19414,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			751,
@@ -19394,6 +19545,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			934,
@@ -19524,6 +19676,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1300,
@@ -19654,6 +19807,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1849,
@@ -19784,6 +19938,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			554,
@@ -19914,6 +20069,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			689,
@@ -20044,6 +20200,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			959,
@@ -20174,6 +20331,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1365,
@@ -20304,6 +20462,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			595,
@@ -20432,6 +20591,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			740,
@@ -20560,6 +20720,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1030,
@@ -20688,6 +20849,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1466,
@@ -20816,6 +20978,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			620,
@@ -20944,6 +21107,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			771,
@@ -21072,6 +21236,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1073,
@@ -21200,6 +21365,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1527,
@@ -21328,6 +21494,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			760,
@@ -21458,6 +21625,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			945,
@@ -21588,6 +21756,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1316,
@@ -21718,6 +21887,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1872,
@@ -21848,6 +22018,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			751,
@@ -21978,6 +22149,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			934,
@@ -22108,6 +22280,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1300,
@@ -22238,6 +22411,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1849,
@@ -22368,6 +22542,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			565,
@@ -22498,6 +22673,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			703,
@@ -22628,6 +22804,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			978,
@@ -22758,6 +22935,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1392,
@@ -22888,6 +23066,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1591,
@@ -23018,6 +23197,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			565,
@@ -23148,6 +23328,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			703,
@@ -23278,6 +23459,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			978,
@@ -23408,6 +23590,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1392,
@@ -23538,6 +23721,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			558,
@@ -23668,6 +23852,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			694,
@@ -23798,6 +23983,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			966,
@@ -23928,6 +24114,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1375,
@@ -24058,6 +24245,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			628,
@@ -24189,6 +24377,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			781,
@@ -24320,6 +24509,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1087,
@@ -24451,6 +24641,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1546,
@@ -24582,6 +24773,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			555,
@@ -24715,6 +24907,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			690,
@@ -24848,6 +25041,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			961,
@@ -24981,6 +25175,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1367,
@@ -25114,6 +25309,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			563,
@@ -25241,6 +25437,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			700,
@@ -25368,6 +25565,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			975,
@@ -25495,6 +25693,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1387,
@@ -25622,6 +25821,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			563,
@@ -25749,6 +25949,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			700,
@@ -25876,6 +26077,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			975,
@@ -26003,6 +26205,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1387,
@@ -26130,6 +26333,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			573,
@@ -26257,6 +26461,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			713,
@@ -26384,6 +26589,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			992,
@@ -26511,6 +26717,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1411,
@@ -26638,6 +26845,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			581,
@@ -26765,6 +26973,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			723,
@@ -26892,6 +27101,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1006,
@@ -27019,6 +27229,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1431,
@@ -27146,6 +27357,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			590,
@@ -27273,6 +27485,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			734,
@@ -27400,6 +27613,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1021,
@@ -27527,6 +27741,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1453,
@@ -27654,6 +27869,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			788,
@@ -27781,6 +27997,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			980,
@@ -27908,6 +28125,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1365,
@@ -28035,6 +28253,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1942,
@@ -28162,6 +28381,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			818,
@@ -28289,6 +28509,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1017,
@@ -28416,6 +28637,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1416,
@@ -28543,6 +28765,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2014,
@@ -28670,6 +28893,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			670,
@@ -28799,6 +29023,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			834,
@@ -28928,6 +29153,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1161,
@@ -29057,6 +29283,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1651,
@@ -29186,6 +29413,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			693,
@@ -29315,6 +29543,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			862,
@@ -29444,6 +29673,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1200,
@@ -29573,6 +29803,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1708,
@@ -29702,6 +29933,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			693,
@@ -29831,6 +30063,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			862,
@@ -29960,6 +30193,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1200,
@@ -30089,6 +30323,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1708,
@@ -30218,6 +30453,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			638,
@@ -30345,6 +30581,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			794,
@@ -30472,6 +30709,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1105,
@@ -30599,6 +30837,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1571,
@@ -30726,6 +30965,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			717,
@@ -30855,6 +31095,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			892,
@@ -30984,6 +31225,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1242,
@@ -31113,6 +31355,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1766,
@@ -31242,6 +31485,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1153,
@@ -31369,6 +31613,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1434,
@@ -31496,6 +31741,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1996,
@@ -31623,6 +31869,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2840,
@@ -31750,6 +31997,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1153,
@@ -31877,6 +32125,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1434,
@@ -32004,6 +32253,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1996,
@@ -32131,6 +32381,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2840,
@@ -32258,6 +32509,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1192,
@@ -32385,6 +32637,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1483,
@@ -32512,6 +32765,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2065,
@@ -32639,6 +32893,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2937,
@@ -32766,6 +33021,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1183,
@@ -32893,6 +33149,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1472,
@@ -33020,6 +33277,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2049,
@@ -33147,6 +33405,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2914,
@@ -33274,6 +33533,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1226,
@@ -33401,6 +33661,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1525,
@@ -33528,6 +33789,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2123,
@@ -33655,6 +33917,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3020,
@@ -33782,6 +34045,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1226,
@@ -33909,6 +34173,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1525,
@@ -34036,6 +34301,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2123,
@@ -34163,6 +34429,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3020,
@@ -34290,6 +34557,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1241,
@@ -34417,6 +34685,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1544,
@@ -34544,6 +34813,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2149,
@@ -34671,6 +34941,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3057,
@@ -34798,6 +35069,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1251,
@@ -34925,6 +35197,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1556,
@@ -35052,6 +35325,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2166,
@@ -35179,6 +35453,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3081,
@@ -35306,6 +35581,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1241,
@@ -35433,6 +35709,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1544,
@@ -35560,6 +35837,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2149,
@@ -35687,6 +35965,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3057,
@@ -35814,6 +36093,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1315,
@@ -35941,6 +36221,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1636,
@@ -36068,6 +36349,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2277,
@@ -36195,6 +36477,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3239,
@@ -36322,6 +36605,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1353,
@@ -36449,6 +36733,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1683,
@@ -36576,6 +36861,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2343,
@@ -36703,6 +36989,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3333,
@@ -36830,6 +37117,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1345,
@@ -36957,6 +37245,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1673,
@@ -37084,6 +37373,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2329,
@@ -37211,6 +37501,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3313,
@@ -37338,6 +37629,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1303,
@@ -37465,6 +37757,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1621,
@@ -37592,6 +37885,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2257,
@@ -37719,6 +38013,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3210,
@@ -37846,6 +38141,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			782,
@@ -37972,6 +38268,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			973,
@@ -38098,6 +38395,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1354,
@@ -38224,6 +38522,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1927,
@@ -38350,6 +38649,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			654,
@@ -38476,6 +38776,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			813,
@@ -38602,6 +38903,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1132,
@@ -38728,6 +39030,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1610,
@@ -38854,6 +39157,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			744,
@@ -38980,6 +39284,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			925,
@@ -39106,6 +39411,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1288,
@@ -39232,6 +39538,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1832,
@@ -39358,6 +39665,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1183,
@@ -39485,6 +39793,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1472,
@@ -39612,6 +39921,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2049,
@@ -39739,6 +40049,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2914,
@@ -39866,6 +40177,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1183,
@@ -39993,6 +40305,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1472,
@@ -40120,6 +40433,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2049,
@@ -40247,6 +40561,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2914,
@@ -40374,6 +40689,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			797,
@@ -40500,6 +40816,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			991,
@@ -40626,6 +40943,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1380,
@@ -40752,6 +41070,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1963,
@@ -40878,6 +41197,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			975,
@@ -41005,6 +41325,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1213,
@@ -41132,6 +41453,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1688,
@@ -41259,6 +41581,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2402,
@@ -41386,6 +41709,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1042,
@@ -41513,6 +41837,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1296,
@@ -41640,6 +41965,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1804,
@@ -41767,6 +42093,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2566,
@@ -41894,6 +42221,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			979,
@@ -42021,6 +42349,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1218,
@@ -42148,6 +42477,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1696,
@@ -42275,6 +42605,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2412,
@@ -42402,6 +42733,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			816,
@@ -42529,6 +42861,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1015,
@@ -42656,6 +42989,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1413,
@@ -42783,6 +43117,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2010,
@@ -42910,6 +43245,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1108,
@@ -43037,6 +43373,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1378,
@@ -43164,6 +43501,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1919,
@@ -43291,6 +43629,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2730,
@@ -43418,6 +43757,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1102,
@@ -43545,6 +43885,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1371,
@@ -43672,6 +44013,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1908,
@@ -43799,6 +44141,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2715,
@@ -43926,6 +44269,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			800,
@@ -44052,6 +44396,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			995,
@@ -44178,6 +44523,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1385,
@@ -44304,6 +44650,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1970,
@@ -44430,6 +44777,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1108,
@@ -44557,6 +44905,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1378,
@@ -44684,6 +45033,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1919,
@@ -44811,6 +45161,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2730,
@@ -44925,7 +45276,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 1,
 		backyard_speed = "0.3",
 		star = 2,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 108011,
@@ -44938,6 +45289,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			273,
@@ -45157,7 +45509,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 1,
 		backyard_speed = "0.3",
 		star = 3,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 108012,
@@ -45170,6 +45522,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			340,
@@ -45389,7 +45742,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 2,
 		backyard_speed = "0.3",
 		star = 4,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 108013,
@@ -45402,6 +45755,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			473,
@@ -45621,7 +45975,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 2,
 		backyard_speed = "0.3",
 		star = 5,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 108014,
@@ -45634,6 +45988,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			672,
@@ -45853,7 +46208,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 1,
 		backyard_speed = "0.3",
 		star = 3,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 5,
 		ammo = 2,
 		id = 108021,
@@ -45866,6 +46221,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			310,
@@ -46054,10 +46410,6 @@ pg.ship_data_statistics = {
 				},
 				{
 					2,
-					0
-				},
-				{
-					2,
 					1
 				}
 			},
@@ -46097,7 +46449,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 1,
 		backyard_speed = "0.3",
 		star = 4,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 5,
 		ammo = 2,
 		id = 108022,
@@ -46110,6 +46462,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			386,
@@ -46298,10 +46651,6 @@ pg.ship_data_statistics = {
 				},
 				{
 					2,
-					0
-				},
-				{
-					2,
 					1
 				}
 			},
@@ -46341,7 +46690,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 2,
 		backyard_speed = "0.3",
 		star = 5,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 5,
 		ammo = 2,
 		id = 108023,
@@ -46354,6 +46703,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			537,
@@ -46542,10 +46892,6 @@ pg.ship_data_statistics = {
 				},
 				{
 					2,
-					0
-				},
-				{
-					2,
 					1
 				}
 			},
@@ -46585,7 +46931,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 2,
 		backyard_speed = "0.3",
 		star = 6,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 5,
 		ammo = 2,
 		id = 108024,
@@ -46598,6 +46944,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			764,
@@ -46786,10 +47133,6 @@ pg.ship_data_statistics = {
 				},
 				{
 					2,
-					0
-				},
-				{
-					2,
 					1
 				}
 			},
@@ -46842,6 +47185,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			771,
@@ -46979,6 +47323,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			959,
@@ -47116,6 +47461,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1335,
@@ -47253,6 +47599,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1899,
@@ -47390,6 +47737,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			221,
@@ -47517,6 +47865,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			275,
@@ -47644,6 +47993,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			383,
@@ -47771,6 +48121,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			544,
@@ -47898,6 +48249,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			221,
@@ -48025,6 +48377,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			275,
@@ -48152,6 +48505,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			383,
@@ -48279,6 +48633,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			544,
@@ -48406,6 +48761,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			221,
@@ -48533,6 +48889,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			275,
@@ -48660,6 +49017,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			383,
@@ -48787,6 +49145,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			544,
@@ -48914,6 +49273,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			218,
@@ -49041,6 +49401,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			271,
@@ -49168,6 +49529,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			377,
@@ -49295,6 +49657,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			536,
@@ -49422,6 +49785,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			218,
@@ -49549,6 +49913,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			271,
@@ -49676,6 +50041,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			377,
@@ -49803,6 +50169,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			536,
@@ -49930,6 +50297,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			219,
@@ -50057,6 +50425,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			272,
@@ -50184,6 +50553,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			379,
@@ -50311,6 +50681,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			540,
@@ -50438,6 +50809,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			219,
@@ -50565,6 +50937,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			272,
@@ -50692,6 +51065,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			379,
@@ -50819,6 +51193,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			540,
@@ -50946,6 +51321,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			219,
@@ -51073,6 +51449,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			272,
@@ -51200,6 +51577,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			379,
@@ -51327,6 +51705,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			540,
@@ -51454,6 +51833,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			221,
@@ -51581,6 +51961,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			275,
@@ -51708,6 +52089,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			383,
@@ -51835,6 +52217,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			545,
@@ -51962,6 +52345,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			226,
@@ -52089,6 +52473,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			281,
@@ -52216,6 +52601,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			391,
@@ -52343,6 +52729,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			557,
@@ -52470,6 +52857,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			228,
@@ -52597,6 +52985,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			284,
@@ -52724,6 +53113,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			395,
@@ -52851,6 +53241,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			561,
@@ -52978,6 +53369,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			245,
@@ -53105,6 +53497,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			305,
@@ -53232,6 +53625,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			424,
@@ -53359,6 +53753,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			603,
@@ -53486,6 +53881,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			221,
@@ -53613,6 +54009,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			275,
@@ -53740,6 +54137,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			383,
@@ -53867,6 +54265,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			544,
@@ -53994,6 +54393,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			255,
@@ -54123,6 +54523,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			317,
@@ -54252,6 +54653,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			441,
@@ -54381,6 +54783,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			628,
@@ -54510,6 +54913,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			248,
@@ -54639,6 +55043,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			308,
@@ -54768,6 +55173,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			429,
@@ -54897,6 +55303,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			610,
@@ -55026,6 +55433,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -55153,6 +55561,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			264,
@@ -55280,6 +55689,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			367,
@@ -55407,6 +55817,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			522,
@@ -55534,6 +55945,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			271,
@@ -55661,6 +56073,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			337,
@@ -55788,6 +56201,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			470,
@@ -55915,6 +56329,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			668,
@@ -56042,6 +56457,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			271,
@@ -56169,6 +56585,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			337,
@@ -56296,6 +56713,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			470,
@@ -56423,6 +56841,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			668,
@@ -56550,6 +56969,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			226,
@@ -56677,6 +57097,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			281,
@@ -56804,6 +57225,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			391,
@@ -56931,6 +57353,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			556,
@@ -57058,6 +57481,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			558,
@@ -57188,6 +57612,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			694,
@@ -57318,6 +57743,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			966,
@@ -57448,6 +57874,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1375,
@@ -57578,6 +58005,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			509,
@@ -57708,6 +58136,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			633,
@@ -57838,6 +58267,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			882,
@@ -57968,6 +58398,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1254,
@@ -58098,6 +58529,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			509,
@@ -58228,6 +58660,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			633,
@@ -58358,6 +58791,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			882,
@@ -58488,6 +58922,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1254,
@@ -58618,6 +59053,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			637,
@@ -58748,6 +59184,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			792,
@@ -58878,6 +59315,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1103,
@@ -59008,6 +59446,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1569,
@@ -59138,6 +59577,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			656,
@@ -59268,6 +59708,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			816,
@@ -59398,6 +59839,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1136,
@@ -59528,6 +59970,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1615,
@@ -59658,6 +60101,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			789,
@@ -59788,6 +60232,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			981,
@@ -59918,6 +60363,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1366,
@@ -60048,6 +60494,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1943,
@@ -60178,6 +60625,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			686,
@@ -60308,6 +60756,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			853,
@@ -60438,6 +60887,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1188,
@@ -60568,6 +61018,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1689,
@@ -60698,6 +61149,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			482,
@@ -60828,6 +61280,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			600,
@@ -60958,6 +61411,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			835,
@@ -61088,6 +61542,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1188,
@@ -61218,6 +61673,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			482,
@@ -61348,6 +61804,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			600,
@@ -61478,6 +61935,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			835,
@@ -61608,6 +62066,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1188,
@@ -61738,6 +62197,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			497,
@@ -61868,6 +62328,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			618,
@@ -61998,6 +62459,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			860,
@@ -62128,6 +62590,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1224,
@@ -62258,6 +62721,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			617,
@@ -62388,6 +62852,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			767,
@@ -62518,6 +62983,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1068,
@@ -62648,6 +63114,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1519,
@@ -62778,6 +63245,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			625,
@@ -62908,6 +63376,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			778,
@@ -63038,6 +63507,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1083,
@@ -63168,6 +63638,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1540,
@@ -63298,6 +63769,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			558,
@@ -63428,6 +63900,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			694,
@@ -63558,6 +64031,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			966,
@@ -63688,6 +64162,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1375,
@@ -63818,6 +64293,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			637,
@@ -63948,6 +64424,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			792,
@@ -64078,6 +64555,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1103,
@@ -64208,6 +64686,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1569,
@@ -64338,6 +64817,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			510,
@@ -64469,6 +64949,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			634,
@@ -64600,6 +65081,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			883,
@@ -64731,6 +65213,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1257,
@@ -64862,6 +65345,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			477,
@@ -64993,6 +65477,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			593,
@@ -65124,6 +65609,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			826,
@@ -65255,6 +65741,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1176,
@@ -65386,6 +65873,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			607,
@@ -65515,6 +66003,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			755,
@@ -65644,6 +66133,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1051,
@@ -65773,6 +66263,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1495,
@@ -65902,6 +66393,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			590,
@@ -66031,6 +66523,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			734,
@@ -66160,6 +66653,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1022,
@@ -66289,6 +66783,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1453,
@@ -66418,6 +66913,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			598,
@@ -66547,6 +67043,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			744,
@@ -66676,6 +67173,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1035,
@@ -66805,6 +67303,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1473,
@@ -66934,6 +67433,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			595,
@@ -67063,6 +67563,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			740,
@@ -67192,6 +67693,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1030,
@@ -67321,6 +67823,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1465,
@@ -67450,6 +67953,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			798,
@@ -67579,6 +68083,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			993,
@@ -67708,6 +68213,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1382,
@@ -67837,6 +68343,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1966,
@@ -67966,6 +68473,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			821,
@@ -68095,6 +68603,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1021,
@@ -68224,6 +68733,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1422,
@@ -68353,6 +68863,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2023,
@@ -68482,6 +68993,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			629,
@@ -68611,6 +69123,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			782,
@@ -68740,6 +69253,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1089,
@@ -68869,6 +69383,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1550,
@@ -68998,6 +69513,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			634,
@@ -69127,6 +69643,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			789,
@@ -69256,6 +69773,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1098,
@@ -69385,6 +69903,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1562,
@@ -69514,6 +70033,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			590,
@@ -69643,6 +70163,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			734,
@@ -69772,6 +70293,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1022,
@@ -69901,6 +70423,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1453,
@@ -70030,6 +70553,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1022,
@@ -70157,6 +70681,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1271,
@@ -70284,6 +70809,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1770,
@@ -70411,6 +70937,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2517,
@@ -70538,6 +71065,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			993,
@@ -70665,6 +71193,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1235,
@@ -70792,6 +71321,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1719,
@@ -70919,6 +71449,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2446,
@@ -71046,6 +71577,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1485,
@@ -71173,6 +71705,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1847,
@@ -71300,6 +71833,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2571,
@@ -71427,6 +71961,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			3658,
@@ -71554,6 +72089,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1250,
@@ -71681,6 +72217,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1555,
@@ -71808,6 +72345,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2165,
@@ -71935,6 +72473,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3080,
@@ -72062,6 +72601,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1298,
@@ -72189,6 +72729,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1615,
@@ -72316,6 +72857,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2248,
@@ -72443,6 +72985,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3197,
@@ -72570,6 +73113,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3197,
@@ -72696,6 +73240,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1276,
@@ -72823,6 +73368,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1587,
@@ -72950,6 +73496,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2210,
@@ -73077,6 +73624,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3144,
@@ -73204,6 +73752,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1272,
@@ -73331,6 +73880,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1582,
@@ -73458,6 +74008,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2203,
@@ -73585,6 +74136,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3134,
@@ -73712,6 +74264,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1334,
@@ -73839,6 +74392,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1659,
@@ -73966,6 +74520,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2310,
@@ -74093,6 +74648,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3286,
@@ -74220,6 +74776,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1334,
@@ -74347,6 +74904,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1659,
@@ -74474,6 +75032,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2310,
@@ -74601,6 +75160,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3286,
@@ -74728,6 +75288,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1334,
@@ -74855,6 +75416,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1659,
@@ -74982,6 +75544,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2310,
@@ -75109,6 +75672,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3286,
@@ -75236,6 +75800,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			687,
@@ -75362,6 +75927,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			855,
@@ -75488,6 +76054,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1190,
@@ -75614,6 +76181,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1693,
@@ -75740,6 +76308,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			890,
@@ -75866,6 +76435,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1107,
@@ -75992,6 +76562,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1541,
@@ -76118,6 +76689,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2192,
@@ -76244,6 +76816,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1105,
@@ -76370,6 +76943,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1374,
@@ -76496,6 +77070,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1913,
@@ -76622,6 +77197,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2722,
@@ -76748,6 +77324,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			778,
@@ -76874,6 +77451,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			968,
@@ -77000,6 +77578,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1347,
@@ -77126,6 +77705,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1917,
@@ -77252,6 +77832,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1027,
@@ -77379,6 +77960,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1278,
@@ -77506,6 +78088,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1779,
@@ -77633,6 +78216,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2530,
@@ -77760,6 +78344,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1123,
@@ -77887,6 +78472,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1397,
@@ -78014,6 +78600,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1945,
@@ -78141,6 +78728,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2766,
@@ -78268,6 +78856,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1053,
@@ -78395,6 +78984,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1310,
@@ -78522,6 +79112,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1824,
@@ -78649,6 +79240,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2594,
@@ -78776,6 +79368,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1062,
@@ -78903,6 +79496,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1321,
@@ -79030,6 +79624,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1839,
@@ -79157,6 +79752,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2616,
@@ -79284,6 +79880,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			587,
@@ -79411,6 +80008,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			730,
@@ -79538,6 +80136,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1017,
@@ -79665,6 +80264,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1446,
@@ -79792,6 +80392,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			587,
@@ -79919,6 +80520,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			730,
@@ -80046,6 +80648,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1017,
@@ -80173,6 +80776,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1446,
@@ -80300,6 +80904,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			609,
@@ -80427,6 +81032,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			758,
@@ -80554,6 +81160,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1055,
@@ -80681,6 +81288,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1500,
@@ -80808,6 +81416,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			290,
@@ -80937,6 +81546,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			361,
@@ -81066,6 +81676,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			502,
@@ -81195,6 +81806,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			714,
@@ -81324,6 +81936,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			290,
@@ -81453,6 +82066,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			361,
@@ -81582,6 +82196,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			502,
@@ -81711,6 +82326,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			714,
@@ -81841,6 +82457,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			282,
@@ -81971,6 +82588,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			351,
@@ -82101,6 +82719,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			488,
@@ -82231,6 +82850,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			694,
@@ -82361,6 +82981,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			282,
@@ -82491,6 +83112,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			351,
@@ -82621,6 +83243,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			488,
@@ -82751,6 +83374,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			694,
@@ -82881,6 +83505,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			282,
@@ -83011,6 +83636,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			351,
@@ -83141,6 +83767,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			488,
@@ -83271,6 +83898,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			694,
@@ -83401,6 +84029,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			276,
@@ -83528,6 +84157,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			343,
@@ -83655,6 +84285,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			478,
@@ -83782,6 +84413,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			680,
@@ -83909,6 +84541,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			295,
@@ -84036,6 +84669,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			367,
@@ -84163,6 +84797,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			511,
@@ -84290,6 +84925,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			726,
@@ -84417,6 +85053,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			284,
@@ -84544,6 +85181,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			353,
@@ -84671,6 +85309,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			492,
@@ -84798,6 +85437,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			700,
@@ -84925,6 +85565,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			359,
@@ -85052,6 +85693,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			447,
@@ -85179,6 +85821,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			622,
@@ -85306,6 +85949,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			884,
@@ -85433,6 +86077,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			304,
@@ -85560,6 +86205,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			378,
@@ -85687,6 +86333,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			526,
@@ -85814,6 +86461,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			749,
@@ -85941,6 +86589,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			298,
@@ -86068,6 +86717,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			371,
@@ -86195,6 +86845,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			516,
@@ -86322,6 +86973,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			734,
@@ -86449,6 +87101,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			346,
@@ -86576,6 +87229,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			430,
@@ -86703,6 +87357,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			599,
@@ -86830,6 +87485,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			852,
@@ -86957,6 +87613,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			286,
@@ -87084,6 +87741,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			356,
@@ -87211,6 +87869,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			495,
@@ -87338,6 +87997,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			704,
@@ -87465,6 +88125,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			286,
@@ -87592,6 +88253,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			356,
@@ -87719,6 +88381,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			495,
@@ -87846,6 +88509,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			704,
@@ -87973,6 +88637,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			286,
@@ -88100,6 +88765,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			356,
@@ -88227,6 +88893,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			495,
@@ -88354,6 +89021,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			704,
@@ -88481,6 +89149,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			286,
@@ -88608,6 +89277,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			356,
@@ -88735,6 +89405,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			495,
@@ -88862,6 +89533,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			704,
@@ -88989,6 +89661,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			261,
@@ -89116,6 +89789,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			325,
@@ -89243,6 +89917,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			452,
@@ -89370,6 +90045,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			643,
@@ -89497,6 +90173,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			336,
@@ -89624,6 +90301,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			418,
@@ -89751,6 +90429,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			582,
@@ -89878,6 +90557,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			827,
@@ -90005,6 +90685,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			336,
@@ -90132,6 +90813,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			418,
@@ -90259,6 +90941,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			582,
@@ -90386,6 +91069,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			827,
@@ -90513,6 +91197,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			252,
@@ -90640,6 +91325,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			313,
@@ -90767,6 +91453,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			436,
@@ -90894,6 +91581,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			620,
@@ -91021,6 +91709,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			252,
@@ -91148,6 +91837,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			313,
@@ -91275,6 +91965,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			436,
@@ -91402,6 +92093,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			620,
@@ -91529,6 +92221,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			240,
@@ -91656,6 +92349,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			298,
@@ -91783,6 +92477,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			415,
@@ -91910,6 +92605,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			591,
@@ -92037,6 +92733,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			240,
@@ -92164,6 +92861,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			298,
@@ -92291,6 +92989,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			415,
@@ -92418,6 +93117,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			591,
@@ -92545,6 +93245,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			240,
@@ -92672,6 +93373,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			298,
@@ -92799,6 +93501,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			415,
@@ -92926,6 +93629,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			591,
@@ -93053,6 +93757,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			240,
@@ -93180,6 +93885,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			298,
@@ -93307,6 +94013,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			415,
@@ -93434,6 +94141,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			591,
@@ -93561,6 +94269,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			244,
@@ -93688,6 +94397,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			304,
@@ -93815,6 +94525,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			423,
@@ -93942,6 +94653,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			602,
@@ -94069,6 +94781,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			244,
@@ -94196,6 +94909,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			304,
@@ -94323,6 +95037,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			423,
@@ -94450,6 +95165,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			602,
@@ -94577,6 +95293,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			240,
@@ -94704,6 +95421,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			298,
@@ -94831,6 +95549,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			415,
@@ -94958,6 +95677,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			591,
@@ -95085,6 +95805,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			295,
@@ -95212,6 +95933,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			367,
@@ -95339,6 +96061,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			511,
@@ -95466,6 +96189,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			727,
@@ -95593,6 +96317,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			394,
@@ -95720,6 +96445,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			490,
@@ -95847,6 +96573,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			682,
@@ -95974,6 +96701,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			971,
@@ -96101,6 +96829,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			394,
@@ -96228,6 +96957,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			490,
@@ -96355,6 +97085,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			682,
@@ -96482,6 +97213,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			971,
@@ -96609,6 +97341,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			394,
@@ -96736,6 +97469,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			490,
@@ -96863,6 +97597,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			682,
@@ -96990,6 +97725,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			971,
@@ -97117,6 +97853,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			336,
@@ -97244,6 +97981,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			418,
@@ -97371,6 +98109,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			582,
@@ -97498,6 +98237,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			827,
@@ -97625,6 +98365,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			336,
@@ -97752,6 +98493,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			418,
@@ -97879,6 +98621,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			582,
@@ -98006,6 +98749,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			827,
@@ -98133,6 +98877,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			336,
@@ -98260,6 +99005,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			418,
@@ -98387,6 +99133,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			582,
@@ -98514,6 +99261,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			827,
@@ -98641,6 +99389,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			336,
@@ -98768,6 +99517,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			418,
@@ -98895,6 +99645,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			582,
@@ -99022,6 +99773,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			827,
@@ -99149,6 +99901,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			312,
@@ -99278,6 +100031,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			388,
@@ -99407,6 +100161,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			541,
@@ -99536,6 +100291,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			769,
@@ -99665,6 +100421,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			312,
@@ -99794,6 +100551,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			388,
@@ -99923,6 +100681,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			541,
@@ -100052,6 +100811,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			769,
@@ -100181,6 +100941,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			317,
@@ -100310,6 +101071,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			394,
@@ -100439,6 +101201,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			549,
@@ -100568,6 +101331,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			780,
@@ -100697,6 +101461,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			312,
@@ -100826,6 +101591,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			388,
@@ -100955,6 +101721,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			541,
@@ -101084,6 +101851,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			769,
@@ -101213,6 +101981,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			252,
@@ -101340,6 +102109,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			313,
@@ -101467,6 +102237,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			436,
@@ -101594,6 +102365,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			620,
@@ -101721,6 +102493,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			348,
@@ -101848,6 +102621,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			433,
@@ -101975,6 +102749,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			602,
@@ -102102,6 +102877,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			857,
@@ -102229,6 +103005,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			369,
@@ -102359,6 +103136,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			459,
@@ -102489,6 +103267,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			639,
@@ -102619,6 +103398,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			910,
@@ -102749,6 +103529,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			493,
@@ -102879,6 +103660,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			613,
@@ -103009,6 +103791,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			853,
@@ -103139,6 +103922,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1214,
@@ -103269,6 +104053,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			550,
@@ -103399,6 +104184,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			684,
@@ -103529,6 +104315,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			953,
@@ -103659,6 +104446,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1355,
@@ -103789,6 +104577,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			493,
@@ -103919,6 +104708,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			613,
@@ -104049,6 +104839,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			853,
@@ -104179,6 +104970,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1214,
@@ -104309,6 +105101,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			686,
@@ -104439,6 +105232,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			853,
@@ -104569,6 +105363,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1188,
@@ -104699,6 +105494,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1690,
@@ -104829,6 +105625,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			686,
@@ -104959,6 +105756,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			853,
@@ -105089,6 +105887,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1188,
@@ -105219,6 +106018,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1690,
@@ -105349,6 +106149,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			434,
@@ -105479,6 +106280,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			540,
@@ -105609,6 +106411,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			752,
@@ -105739,6 +106542,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1069,
@@ -105869,6 +106673,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			447,
@@ -105999,6 +106804,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			556,
@@ -106129,6 +106935,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			774,
@@ -106259,6 +107066,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1101,
@@ -106389,6 +107197,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			434,
@@ -106519,6 +107328,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			540,
@@ -106649,6 +107459,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			752,
@@ -106779,6 +107590,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1069,
@@ -106909,6 +107721,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			540,
@@ -107039,6 +107852,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			672,
@@ -107169,6 +107983,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			935,
@@ -107299,6 +108114,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1330,
@@ -107429,6 +108245,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			589,
@@ -107558,6 +108375,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			733,
@@ -107687,6 +108505,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1020,
@@ -107816,6 +108635,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1450,
@@ -107945,6 +108765,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			589,
@@ -108074,6 +108895,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			733,
@@ -108203,6 +109025,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1020,
@@ -108332,6 +109155,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1450,
@@ -108461,6 +109285,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			601,
@@ -108590,6 +109415,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			748,
@@ -108719,6 +109545,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1041,
@@ -108848,6 +109675,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1481,
@@ -108977,6 +109805,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			601,
@@ -109106,6 +109935,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			748,
@@ -109235,6 +110065,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1041,
@@ -109364,6 +110195,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1481,
@@ -109493,6 +110325,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			918,
@@ -109622,6 +110455,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1142,
@@ -109751,6 +110585,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1590,
@@ -109880,6 +110715,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2261,
@@ -110009,6 +110845,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			918,
@@ -110138,6 +110975,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1142,
@@ -110267,6 +111105,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1590,
@@ -110396,6 +111235,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2261,
@@ -110525,6 +111365,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			732,
@@ -110654,6 +111495,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			910,
@@ -110783,6 +111625,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1267,
@@ -110912,6 +111755,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1803,
@@ -111041,6 +111885,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			738,
@@ -111170,6 +112015,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			918,
@@ -111299,6 +112145,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1278,
@@ -111428,6 +112275,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1819,
@@ -111557,6 +112405,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			738,
@@ -111686,6 +112535,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			918,
@@ -111815,6 +112665,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1278,
@@ -111944,6 +112795,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1819,
@@ -112073,6 +112925,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			738,
@@ -112202,6 +113055,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			918,
@@ -112331,6 +113185,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1278,
@@ -112460,6 +113315,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1819,
@@ -112589,6 +113445,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			738,
@@ -112718,6 +113575,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			918,
@@ -112847,6 +113705,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1278,
@@ -112976,6 +113835,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1819,
@@ -113105,6 +113965,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1840,
@@ -113234,6 +114095,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1087,
@@ -113363,6 +114225,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1352,
@@ -113492,6 +114355,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1882,
@@ -113621,6 +114485,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2678,
@@ -113750,6 +114615,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1087,
@@ -113879,6 +114745,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1352,
@@ -114008,6 +114875,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1882,
@@ -114137,6 +115005,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2678,
@@ -114266,6 +115135,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1087,
@@ -114395,6 +115265,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1352,
@@ -114524,6 +115395,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1882,
@@ -114653,6 +115525,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2678,
@@ -114782,6 +115655,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1087,
@@ -114911,6 +115785,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1352,
@@ -115040,6 +115915,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1882,
@@ -115169,6 +116045,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2678,
@@ -115298,6 +116175,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1260,
@@ -115424,6 +116302,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1567,
@@ -115550,6 +116429,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2182,
@@ -115676,6 +116556,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			3104,
@@ -115802,6 +116683,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1062,
@@ -115930,6 +116812,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1321,
@@ -116058,6 +116941,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1839,
@@ -116186,6 +117070,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2617,
@@ -116314,6 +117199,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1143,
@@ -116441,6 +117327,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1422,
@@ -116568,6 +117455,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1980,
@@ -116695,6 +117583,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2816,
@@ -116822,6 +117711,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1208,
@@ -116949,6 +117839,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1503,
@@ -117076,6 +117967,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2092,
@@ -117203,6 +118095,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2976,
@@ -117330,6 +118223,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1181,
@@ -117457,6 +118351,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1469,
@@ -117584,6 +118479,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2045,
@@ -117711,6 +118607,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2909,
@@ -117838,6 +118735,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1181,
@@ -117965,6 +118863,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1469,
@@ -118092,6 +118991,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2045,
@@ -118219,6 +119119,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2909,
@@ -118346,6 +119247,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1345,
@@ -118473,6 +119375,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1673,
@@ -118600,6 +119503,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2329,
@@ -118727,6 +119631,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3314,
@@ -118854,6 +119759,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1309,
@@ -118981,6 +119887,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1628,
@@ -119108,6 +120015,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2266,
@@ -119235,6 +120143,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3224,
@@ -119362,6 +120271,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1376,
@@ -119488,6 +120398,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1712,
@@ -119614,6 +120525,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2383,
@@ -119740,6 +120652,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3390,
@@ -119866,6 +120779,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			884,
@@ -119993,6 +120907,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1100,
@@ -120120,6 +121035,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1531,
@@ -120247,6 +121163,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2178,
@@ -120374,6 +121291,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			860,
@@ -120500,6 +121418,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1070,
@@ -120626,6 +121545,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1490,
@@ -120752,6 +121672,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2119,
@@ -120878,6 +121799,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			860,
@@ -121004,6 +121926,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1070,
@@ -121130,6 +122053,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1490,
@@ -121256,6 +122180,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2119,
@@ -121382,6 +122307,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			599,
@@ -121508,6 +122434,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			745,
@@ -121634,6 +122561,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1037,
@@ -121760,6 +122688,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1475,
@@ -121886,6 +122815,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			714,
@@ -122012,6 +122942,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			888,
@@ -122138,6 +123069,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1237,
@@ -122264,6 +123196,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1759,
@@ -122390,6 +123323,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			707,
@@ -122516,6 +123450,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			880,
@@ -122642,6 +123577,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1225,
@@ -122768,6 +123704,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1742,
@@ -122894,6 +123831,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1128,
@@ -123021,6 +123959,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1403,
@@ -123148,6 +124087,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1953,
@@ -123275,6 +124215,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2778,
@@ -123402,6 +124343,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1159,
@@ -123529,6 +124471,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1442,
@@ -123656,6 +124599,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2007,
@@ -123783,6 +124727,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2855,
@@ -123910,6 +124855,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			875,
@@ -124037,6 +124983,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1088,
@@ -124164,6 +125111,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1515,
@@ -124291,6 +125239,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2155,
@@ -124418,6 +125367,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			912,
@@ -124545,6 +125495,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1134,
@@ -124672,6 +125623,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1579,
@@ -124799,6 +125751,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2246,
@@ -124926,6 +125879,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1152,
@@ -125053,6 +126007,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1433,
@@ -125180,6 +126135,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1995,
@@ -125307,6 +126263,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2837,
@@ -125434,6 +126391,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1231,
@@ -125561,6 +126519,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1531,
@@ -125688,6 +126647,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2132,
@@ -125815,6 +126775,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			3033,
@@ -125942,6 +126903,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1240,
@@ -126069,6 +127031,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1543,
@@ -126196,6 +127159,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2148,
@@ -126323,6 +127287,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3055,
@@ -126450,6 +127415,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1077,
@@ -126577,6 +127543,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1340,
@@ -126704,6 +127671,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1865,
@@ -126831,6 +127799,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2654,
@@ -126945,7 +127914,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 1,
 		backyard_speed = "0.3",
 		star = 3,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 5,
 		ammo = 2,
 		id = 308011,
@@ -126958,6 +127927,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			349,
@@ -127189,7 +128159,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 1,
 		backyard_speed = "0.3",
 		star = 4,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 5,
 		ammo = 2,
 		id = 308012,
@@ -127202,6 +128172,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			434,
@@ -127433,7 +128404,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 2,
 		backyard_speed = "0.3",
 		star = 5,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 5,
 		ammo = 2,
 		id = 308013,
@@ -127446,6 +128417,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			604,
@@ -127677,7 +128649,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 2,
 		backyard_speed = "0.3",
 		star = 6,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 5,
 		ammo = 2,
 		id = 308014,
@@ -127690,6 +128662,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			860,
@@ -127921,7 +128894,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 1,
 		backyard_speed = "0.3",
 		star = 2,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 308021,
@@ -127934,6 +128907,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			333,
@@ -128157,7 +129131,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 1,
 		backyard_speed = "0.3",
 		star = 3,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 308022,
@@ -128170,6 +129144,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			414,
@@ -128393,7 +129368,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 2,
 		backyard_speed = "0.3",
 		star = 4,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 308023,
@@ -128406,6 +129381,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			577,
@@ -128629,7 +129605,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 2,
 		backyard_speed = "0.3",
 		star = 5,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 308024,
@@ -128642,6 +129618,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			821,
@@ -128865,7 +129842,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 1,
 		backyard_speed = "0.3",
 		star = 2,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 308031,
@@ -128878,6 +129855,7 @@ pg.ship_data_statistics = {
 		attack_duration = 4,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			335,
@@ -129105,7 +130083,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 1,
 		backyard_speed = "0.3",
 		star = 3,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 308032,
@@ -129118,6 +130096,7 @@ pg.ship_data_statistics = {
 		attack_duration = 4,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			417,
@@ -129345,7 +130324,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 2,
 		backyard_speed = "0.3",
 		star = 4,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 308033,
@@ -129358,6 +130337,7 @@ pg.ship_data_statistics = {
 		attack_duration = 4,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			580,
@@ -129585,7 +130565,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 2,
 		backyard_speed = "0.3",
 		star = 5,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 308034,
@@ -129598,6 +130578,7 @@ pg.ship_data_statistics = {
 		attack_duration = 4,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			826,
@@ -129816,6 +130797,2898 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[308041] = {
+		name = "이25",
+		type = 8,
+		personality = 2,
+		oxy_max = 218,
+		oxy_cost = 10,
+		huntingrange_level = 1,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 4,
+		rarity = 4,
+		ammo = 2,
+		id = 308041,
+		summon_offset = -10,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "IJN I25",
+		skin_id = 308040,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			314,
+			12,
+			99,
+			0,
+			0,
+			26,
+			0,
+			61,
+			10,
+			18.8,
+			25,
+			0
+		},
+		attrs_growth = {
+			7650,
+			122,
+			980,
+			0,
+			0,
+			128,
+			0,
+			900,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					-3
+				},
+				{
+					-1,
+					3
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[308042] = {
+		name = "이25",
+		type = 8,
+		personality = 2,
+		oxy_max = 218,
+		oxy_cost = 10,
+		huntingrange_level = 1,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 4,
+		rarity = 4,
+		ammo = 2,
+		id = 308042,
+		summon_offset = -10,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "IJN I25",
+		skin_id = 308040,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			391,
+			15,
+			124,
+			0,
+			0,
+			26,
+			0,
+			61,
+			10,
+			18.8,
+			25,
+			0
+		},
+		attrs_growth = {
+			7650,
+			122,
+			980,
+			0,
+			0,
+			128,
+			0,
+			900,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.05,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					-3
+				},
+				{
+					-1,
+					3
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[308043] = {
+		name = "이25",
+		type = 8,
+		personality = 2,
+		oxy_max = 218,
+		oxy_cost = 10,
+		huntingrange_level = 2,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 4,
+		rarity = 4,
+		ammo = 2,
+		id = 308043,
+		summon_offset = -10,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "IJN I25",
+		skin_id = 308040,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			544,
+			21,
+			173,
+			0,
+			0,
+			26,
+			0,
+			61,
+			10,
+			18.8,
+			25,
+			0
+		},
+		attrs_growth = {
+			7650,
+			122,
+			980,
+			0,
+			0,
+			128,
+			0,
+			900,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.05,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					-3
+				},
+				{
+					-1,
+					3
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[308044] = {
+		name = "이25",
+		type = 8,
+		personality = 2,
+		oxy_max = 218,
+		oxy_cost = 10,
+		huntingrange_level = 2,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 4,
+		rarity = 4,
+		ammo = 2,
+		id = 308044,
+		summon_offset = -10,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "IJN I25",
+		skin_id = 308040,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			773,
+			30,
+			246,
+			0,
+			0,
+			26,
+			0,
+			61,
+			10,
+			18.8,
+			25,
+			0
+		},
+		attrs_growth = {
+			7650,
+			122,
+			980,
+			0,
+			0,
+			128,
+			0,
+			900,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			7650,
+			283,
+			1225,
+			0,
+			0,
+			300,
+			0,
+			-6,
+			776,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.15,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					-3
+				},
+				{
+					-1,
+					3
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[308051] = {
+		name = "이56",
+		type = 8,
+		personality = 2,
+		oxy_max = 248,
+		oxy_cost = 10,
+		huntingrange_level = 1,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 4,
+		rarity = 4,
+		ammo = 2,
+		id = 308051,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "IJN I56",
+		skin_id = 308050,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			335,
+			11,
+			97,
+			0,
+			0,
+			23,
+			0,
+			57,
+			7,
+			14.4,
+			46,
+			0
+		},
+		attrs_growth = {
+			8180,
+			108,
+			956,
+			0,
+			0,
+			116,
+			0,
+			840,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					1,
+					-3
+				}
+			},
+			{
+				{
+					0,
+					3
+				},
+				{
+					1,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[308052] = {
+		name = "이56",
+		type = 8,
+		personality = 2,
+		oxy_max = 248,
+		oxy_cost = 10,
+		huntingrange_level = 1,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 4,
+		rarity = 4,
+		ammo = 2,
+		id = 308052,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "IJN I56",
+		skin_id = 308050,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			417,
+			14,
+			121,
+			0,
+			0,
+			23,
+			0,
+			57,
+			7,
+			14.4,
+			46,
+			0
+		},
+		attrs_growth = {
+			8180,
+			108,
+			956,
+			0,
+			0,
+			116,
+			0,
+			840,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.05,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					1,
+					-3
+				}
+			},
+			{
+				{
+					0,
+					3
+				},
+				{
+					1,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[308053] = {
+		name = "이56",
+		type = 8,
+		personality = 2,
+		oxy_max = 248,
+		oxy_cost = 10,
+		huntingrange_level = 2,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 4,
+		rarity = 4,
+		ammo = 2,
+		id = 308053,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "IJN I56",
+		skin_id = 308050,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			580,
+			19,
+			169,
+			0,
+			0,
+			23,
+			0,
+			57,
+			7,
+			14.4,
+			46,
+			0
+		},
+		attrs_growth = {
+			8180,
+			108,
+			956,
+			0,
+			0,
+			116,
+			0,
+			840,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.05,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					1,
+					-3
+				}
+			},
+			{
+				{
+					0,
+					3
+				},
+				{
+					1,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[308054] = {
+		name = "이56",
+		type = 8,
+		personality = 2,
+		oxy_max = 248,
+		oxy_cost = 10,
+		huntingrange_level = 2,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 4,
+		rarity = 4,
+		ammo = 2,
+		id = 308054,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "IJN I56",
+		skin_id = 308050,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			826,
+			27,
+			240,
+			0,
+			0,
+			23,
+			0,
+			57,
+			7,
+			14.4,
+			46,
+			0
+		},
+		attrs_growth = {
+			8180,
+			108,
+			956,
+			0,
+			0,
+			116,
+			0,
+			840,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			8170,
+			252,
+			1194,
+			0,
+			0,
+			267,
+			0,
+			4,
+			777,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.15,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					1,
+					-3
+				}
+			},
+			{
+				{
+					0,
+					3
+				},
+				{
+					1,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[308061] = {
+		name = "이168",
+		type = 8,
+		personality = 2,
+		oxy_max = 195,
+		oxy_cost = 10,
+		huntingrange_level = 1,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 4,
+		rarity = 5,
+		ammo = 2,
+		id = 308061,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "IJN I168",
+		skin_id = 308060,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			321,
+			12,
+			104,
+			0,
+			0,
+			42,
+			0,
+			59,
+			9,
+			18.4,
+			22,
+			0
+		},
+		attrs_growth = {
+			7840,
+			122,
+			1028,
+			0,
+			0,
+			210,
+			0,
+			876,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					3,
+					-1
+				},
+				{
+					3,
+					1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[308062] = {
+		name = "이168",
+		type = 8,
+		personality = 2,
+		oxy_max = 195,
+		oxy_cost = 10,
+		huntingrange_level = 1,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 4,
+		rarity = 5,
+		ammo = 2,
+		id = 308062,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "IJN I168",
+		skin_id = 308060,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			399,
+			15,
+			130,
+			0,
+			0,
+			42,
+			0,
+			59,
+			9,
+			18.4,
+			22,
+			0
+		},
+		attrs_growth = {
+			7840,
+			122,
+			1028,
+			0,
+			0,
+			210,
+			0,
+			876,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.05,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					3,
+					-1
+				},
+				{
+					3,
+					1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[308063] = {
+		name = "이168",
+		type = 8,
+		personality = 2,
+		oxy_max = 195,
+		oxy_cost = 10,
+		huntingrange_level = 2,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 4,
+		rarity = 5,
+		ammo = 2,
+		id = 308063,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "IJN I168",
+		skin_id = 308060,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			556,
+			21,
+			181,
+			0,
+			0,
+			42,
+			0,
+			59,
+			9,
+			18.4,
+			22,
+			0
+		},
+		attrs_growth = {
+			7840,
+			122,
+			1028,
+			0,
+			0,
+			210,
+			0,
+			876,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.05,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					3,
+					-1
+				},
+				{
+					3,
+					1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[308064] = {
+		name = "이168",
+		type = 8,
+		personality = 2,
+		oxy_max = 195,
+		oxy_cost = 10,
+		huntingrange_level = 2,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 4,
+		rarity = 5,
+		ammo = 2,
+		id = 308064,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "IJN I168",
+		skin_id = 308060,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			791,
+			30,
+			258,
+			0,
+			0,
+			42,
+			0,
+			59,
+			9,
+			18.4,
+			22,
+			0
+		},
+		attrs_growth = {
+			7840,
+			122,
+			1028,
+			0,
+			0,
+			210,
+			0,
+			876,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			7830,
+			283,
+			1282,
+			0,
+			0,
+			495,
+			0,
+			-7,
+			772,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.15,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					3,
+					-1
+				},
+				{
+					3,
+					1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
 	[310014] = {
 		name = "후소.改",
 		type = 10,
@@ -129838,6 +133711,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2816,
@@ -129964,6 +133838,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2976,
@@ -130090,6 +133965,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2909,
@@ -130216,6 +134092,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2909,
@@ -130342,6 +134219,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			682,
@@ -130479,6 +134357,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			848,
@@ -130616,6 +134495,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1181,
@@ -130753,6 +134633,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1680,
@@ -130890,6 +134771,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			334,
@@ -131019,6 +134901,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			415,
@@ -131148,6 +135031,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			578,
@@ -131277,6 +135161,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			822,
@@ -131406,6 +135291,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			334,
@@ -131535,6 +135421,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			415,
@@ -131664,6 +135551,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			578,
@@ -131793,6 +135681,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			822,
@@ -131922,6 +135811,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			330,
@@ -132051,6 +135941,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			411,
@@ -132180,6 +136071,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			572,
@@ -132309,6 +136201,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			814,
@@ -132438,6 +136331,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			330,
@@ -132567,6 +136461,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			411,
@@ -132696,6 +136591,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			572,
@@ -132825,6 +136721,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			814,
@@ -132954,6 +136851,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			324,
@@ -133083,6 +136981,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			403,
@@ -133212,6 +137111,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			561,
@@ -133341,6 +137241,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			798,
@@ -133470,6 +137371,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			324,
@@ -133599,6 +137501,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			403,
@@ -133728,6 +137631,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			561,
@@ -133857,6 +137761,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			798,
@@ -133986,6 +137891,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			345,
@@ -134115,6 +138021,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			429,
@@ -134244,6 +138151,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			598,
@@ -134373,6 +138281,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			851,
@@ -134502,6 +138411,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			344,
@@ -134631,6 +138541,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			428,
@@ -134760,6 +138671,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			596,
@@ -134889,6 +138801,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			847,
@@ -135018,6 +138931,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			340,
@@ -135147,6 +139061,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			423,
@@ -135276,6 +139191,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			589,
@@ -135405,6 +139321,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			838,
@@ -135534,6 +139451,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			340,
@@ -135663,6 +139581,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			423,
@@ -135792,6 +139711,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			589,
@@ -135921,6 +139841,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			838,
@@ -136050,6 +139971,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			433,
@@ -136179,6 +140101,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			539,
@@ -136308,6 +140231,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			750,
@@ -136437,6 +140361,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1066,
@@ -136566,6 +140491,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			578,
@@ -136696,6 +140622,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			719,
@@ -136826,6 +140753,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1001,
@@ -136956,6 +140884,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1424,
@@ -137086,6 +141015,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			578,
@@ -137216,6 +141146,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			719,
@@ -137346,6 +141277,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1001,
@@ -137476,6 +141408,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1424,
@@ -137606,6 +141539,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			578,
@@ -137736,6 +141670,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			719,
@@ -137866,6 +141801,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1001,
@@ -137996,6 +141932,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1424,
@@ -138126,6 +142063,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1424,
@@ -138256,6 +142194,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			601,
@@ -138386,6 +142325,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			748,
@@ -138516,6 +142456,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1041,
@@ -138646,6 +142587,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1480,
@@ -138776,6 +142718,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			874,
@@ -138905,6 +142848,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1087,
@@ -139034,6 +142978,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1513,
@@ -139163,6 +143108,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2153,
@@ -139292,6 +143238,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1099,
@@ -139421,6 +143368,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1367,
@@ -139550,6 +143498,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1903,
@@ -139679,6 +143628,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2708,
@@ -139808,6 +143758,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			691,
@@ -139937,6 +143888,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			859,
@@ -140066,6 +144018,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1196,
@@ -140195,6 +144148,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1702,
@@ -140324,6 +144278,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			750,
@@ -140453,6 +144408,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			933,
@@ -140582,6 +144538,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1299,
@@ -140711,6 +144668,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1847,
@@ -140840,6 +144798,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1241,
@@ -140967,6 +144926,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1544,
@@ -141094,6 +145054,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2149,
@@ -141220,6 +145181,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			3057,
@@ -141346,6 +145308,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1241,
@@ -141473,6 +145436,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1544,
@@ -141600,6 +145564,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2149,
@@ -141726,6 +145691,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			3057,
@@ -141852,6 +145818,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1456,
@@ -141981,6 +145948,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1811,
@@ -142110,6 +146078,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2521,
@@ -142239,6 +146208,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3587,
@@ -142368,6 +146338,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1477,
@@ -142496,6 +146467,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1837,
@@ -142624,6 +146596,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2558,
@@ -142752,6 +146725,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3639,
@@ -142880,6 +146854,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1317,
@@ -143007,6 +146982,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1638,
@@ -143134,6 +147110,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2280,
@@ -143261,6 +147238,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			3244,
@@ -143388,6 +147366,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1228,
@@ -143514,6 +147493,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1527,
@@ -143640,6 +147620,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2126,
@@ -143766,6 +147747,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			3025,
@@ -143879,7 +147861,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 1,
 		backyard_speed = "0.3",
 		star = 3,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 5,
 		ammo = 2,
 		id = 408011,
@@ -143892,6 +147874,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			211,
@@ -144135,7 +148118,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 1,
 		backyard_speed = "0.3",
 		star = 4,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 5,
 		ammo = 2,
 		id = 408012,
@@ -144148,6 +148131,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			262,
@@ -144391,7 +148375,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 2,
 		backyard_speed = "0.3",
 		star = 5,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 5,
 		ammo = 2,
 		id = 408013,
@@ -144404,6 +148388,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			365,
@@ -144647,7 +148632,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 2,
 		backyard_speed = "0.3",
 		star = 6,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 5,
 		ammo = 2,
 		id = 408014,
@@ -144660,6 +148645,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			520,
@@ -144903,7 +148889,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 1,
 		backyard_speed = "0.3",
 		star = 2,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 408031,
@@ -144916,6 +148902,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			203,
@@ -145155,7 +149142,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 1,
 		backyard_speed = "0.3",
 		star = 3,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 408032,
@@ -145168,6 +149155,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			253,
@@ -145407,7 +149395,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 2,
 		backyard_speed = "0.3",
 		star = 4,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 408033,
@@ -145420,6 +149408,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			352,
@@ -145659,7 +149648,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 2,
 		backyard_speed = "0.3",
 		star = 5,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 408034,
@@ -145672,6 +149661,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			501,
@@ -145911,7 +149901,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 1,
 		backyard_speed = "0.3",
 		star = 2,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 408041,
@@ -145924,6 +149914,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			203,
@@ -146167,7 +150158,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 1,
 		backyard_speed = "0.3",
 		star = 3,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 408042,
@@ -146180,6 +150171,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			253,
@@ -146423,7 +150415,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 2,
 		backyard_speed = "0.3",
 		star = 4,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 408043,
@@ -146436,6 +150428,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			352,
@@ -146679,7 +150672,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 2,
 		backyard_speed = "0.3",
 		star = 5,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 408044,
@@ -146692,6 +150685,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			501,
@@ -146935,7 +150929,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 1,
 		backyard_speed = "0.3",
 		star = 2,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 408051,
@@ -146948,6 +150942,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			202,
@@ -147183,7 +151178,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 1,
 		backyard_speed = "0.3",
 		star = 3,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 408052,
@@ -147196,6 +151191,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			251,
@@ -147431,7 +151427,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 2,
 		backyard_speed = "0.3",
 		star = 4,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 408053,
@@ -147444,6 +151440,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			349,
@@ -147679,7 +151676,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 2,
 		backyard_speed = "0.3",
 		star = 5,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 408054,
@@ -147692,6 +151689,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			497,
@@ -147918,6 +151916,2070 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[408061] = {
+		name = "U-101",
+		type = 8,
+		personality = 2,
+		oxy_max = 190,
+		oxy_cost = 10,
+		huntingrange_level = 1,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 4,
+		rarity = 5,
+		ammo = 2,
+		id = 408061,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-101",
+		skin_id = 408060,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			209,
+			9,
+			102,
+			0,
+			0,
+			41,
+			0,
+			60,
+			7,
+			14.4,
+			68,
+			0
+		},
+		attrs_growth = {
+			5100,
+			86,
+			1012,
+			0,
+			0,
+			202,
+			0,
+			888,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.1,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					1
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					-3
+				},
+				{
+					-1,
+					3
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408062] = {
+		name = "U-101",
+		type = 8,
+		personality = 2,
+		oxy_max = 190,
+		oxy_cost = 10,
+		huntingrange_level = 1,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 4,
+		rarity = 5,
+		ammo = 2,
+		id = 408062,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-101",
+		skin_id = 408060,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			260,
+			11,
+			127,
+			0,
+			0,
+			41,
+			0,
+			60,
+			7,
+			14.4,
+			68,
+			0
+		},
+		attrs_growth = {
+			5100,
+			86,
+			1012,
+			0,
+			0,
+			202,
+			0,
+			888,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.15,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					1
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					-3
+				},
+				{
+					-1,
+					3
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408063] = {
+		name = "U-101",
+		type = 8,
+		personality = 2,
+		oxy_max = 190,
+		oxy_cost = 10,
+		huntingrange_level = 2,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 4,
+		rarity = 5,
+		ammo = 2,
+		id = 408063,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-101",
+		skin_id = 408060,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			362,
+			15,
+			178,
+			0,
+			0,
+			41,
+			0,
+			60,
+			7,
+			14.4,
+			68,
+			0
+		},
+		attrs_growth = {
+			5100,
+			86,
+			1012,
+			0,
+			0,
+			202,
+			0,
+			888,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.15,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					1
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					-3
+				},
+				{
+					-1,
+					3
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408064] = {
+		name = "U-101",
+		type = 8,
+		personality = 2,
+		oxy_max = 190,
+		oxy_cost = 10,
+		huntingrange_level = 2,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 4,
+		rarity = 5,
+		ammo = 2,
+		id = 408064,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-101",
+		skin_id = 408060,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			515,
+			22,
+			254,
+			0,
+			0,
+			41,
+			0,
+			60,
+			7,
+			14.4,
+			68,
+			0
+		},
+		attrs_growth = {
+			5100,
+			86,
+			1012,
+			0,
+			0,
+			202,
+			0,
+			888,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			5090,
+			207,
+			1263,
+			0,
+			0,
+			473,
+			0,
+			-4,
+			777,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.25,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					1
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					-3
+				},
+				{
+					-1,
+					3
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408071] = {
+		name = "U-522",
+		type = 8,
+		personality = 2,
+		oxy_max = 228,
+		oxy_cost = 10,
+		huntingrange_level = 1,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 4,
+		rarity = 4,
+		ammo = 2,
+		id = 408071,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-522",
+		skin_id = 408070,
+		painting_dir = 1,
+		attack_duration = 4,
+		ignite_accuracy = 0,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			241,
+			8,
+			97,
+			0,
+			0,
+			31,
+			0,
+			61,
+			7,
+			14.4,
+			22,
+			0
+		},
+		attrs_growth = {
+			5885,
+			80,
+			964,
+			0,
+			0,
+			152,
+			0,
+			900,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.05,
+			0.85
+		},
+		strategy_list = {
+			{
+				10,
+				1
+			}
+		},
+		strategy_list_ai = {
+			{
+				10,
+				1
+			}
+		},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				},
+				{
+					2,
+					-2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					2
+				},
+				{
+					2,
+					-3
+				}
+			},
+			{
+				{
+					-3,
+					1
+				},
+				{
+					1,
+					-3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408072] = {
+		name = "U-522",
+		type = 8,
+		personality = 2,
+		oxy_max = 228,
+		oxy_cost = 10,
+		huntingrange_level = 1,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 4,
+		rarity = 4,
+		ammo = 2,
+		id = 408072,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-522",
+		skin_id = 408070,
+		painting_dir = 1,
+		attack_duration = 4,
+		ignite_accuracy = 0,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			300,
+			10,
+			121,
+			0,
+			0,
+			31,
+			0,
+			61,
+			7,
+			14.4,
+			22,
+			0
+		},
+		attrs_growth = {
+			5885,
+			80,
+			964,
+			0,
+			0,
+			152,
+			0,
+			900,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.1,
+			0.85
+		},
+		strategy_list = {
+			{
+				10,
+				1
+			}
+		},
+		strategy_list_ai = {
+			{
+				10,
+				1
+			}
+		},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				},
+				{
+					2,
+					-2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					2
+				},
+				{
+					2,
+					-3
+				}
+			},
+			{
+				{
+					-3,
+					1
+				},
+				{
+					1,
+					-3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408073] = {
+		name = "U-522",
+		type = 8,
+		personality = 2,
+		oxy_max = 228,
+		oxy_cost = 10,
+		huntingrange_level = 2,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 4,
+		rarity = 4,
+		ammo = 2,
+		id = 408073,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-522",
+		skin_id = 408070,
+		painting_dir = 1,
+		attack_duration = 4,
+		ignite_accuracy = 0,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			418,
+			14,
+			169,
+			0,
+			0,
+			31,
+			0,
+			61,
+			7,
+			14.4,
+			22,
+			0
+		},
+		attrs_growth = {
+			5885,
+			80,
+			964,
+			0,
+			0,
+			152,
+			0,
+			900,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.1,
+			0.85
+		},
+		strategy_list = {
+			{
+				10,
+				1
+			}
+		},
+		strategy_list_ai = {
+			{
+				10,
+				1
+			}
+		},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				},
+				{
+					2,
+					-2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					2
+				},
+				{
+					2,
+					-3
+				}
+			},
+			{
+				{
+					-3,
+					1
+				},
+				{
+					1,
+					-3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408074] = {
+		name = "U-522",
+		type = 8,
+		personality = 2,
+		oxy_max = 228,
+		oxy_cost = 10,
+		huntingrange_level = 2,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 4,
+		rarity = 4,
+		ammo = 2,
+		id = 408074,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-522",
+		skin_id = 408070,
+		painting_dir = 1,
+		attack_duration = 4,
+		ignite_accuracy = 0,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			594,
+			20,
+			242,
+			0,
+			0,
+			31,
+			0,
+			61,
+			7,
+			14.4,
+			22,
+			0
+		},
+		attrs_growth = {
+			5885,
+			80,
+			964,
+			0,
+			0,
+			152,
+			0,
+			900,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			5875,
+			183,
+			1201,
+			0,
+			0,
+			366,
+			0,
+			-1,
+			777,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.2,
+			0.85
+		},
+		strategy_list = {
+			{
+				10,
+				1
+			}
+		},
+		strategy_list_ai = {
+			{
+				10,
+				1
+			}
+		},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				},
+				{
+					2,
+					-2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					2
+				},
+				{
+					2,
+					-3
+				}
+			},
+			{
+				{
+					-3,
+					1
+				},
+				{
+					1,
+					-3
+				}
+			}
+		},
+		tag_list = {}
+	},
 	[501011] = {
 		name = "안샨 ",
 		type = 1,
@@ -147940,6 +154002,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			367,
@@ -148067,6 +154130,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			457,
@@ -148194,6 +154258,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			636,
@@ -148321,6 +154386,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			904,
@@ -148448,6 +154514,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			367,
@@ -148575,6 +154642,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			457,
@@ -148702,6 +154770,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			636,
@@ -148829,6 +154898,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			904,
@@ -148956,6 +155026,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			367,
@@ -149083,6 +155154,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			457,
@@ -149210,6 +155282,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			636,
@@ -149337,6 +155410,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			904,
@@ -149464,6 +155538,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			367,
@@ -149591,6 +155666,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			457,
@@ -149718,6 +155794,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			636,
@@ -149845,6 +155922,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			904,
@@ -149972,6 +156050,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			328,
@@ -150100,6 +156179,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			408,
@@ -150228,6 +156308,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			568,
@@ -150356,6 +156437,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			809,
@@ -150484,6 +156566,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			345,
@@ -150614,6 +156697,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			429,
@@ -150744,6 +156828,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			598,
@@ -150874,6 +156959,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			851,
@@ -151004,6 +157090,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			340,
@@ -151134,6 +157221,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			423,
@@ -151264,6 +157352,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			589,
@@ -151394,6 +157483,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			837,
@@ -151524,6 +157614,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 7,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			585,
@@ -151654,6 +157745,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 7,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			728,
@@ -151784,6 +157876,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 7,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1013,
@@ -151914,6 +158007,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 7,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1441,
@@ -152044,6 +158138,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 8,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			326,
@@ -152171,6 +158266,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 8,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			405,
@@ -152298,6 +158394,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 8,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			564,
@@ -152425,6 +158522,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 8,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			803,
@@ -152552,6 +158650,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 8,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			222,
@@ -152679,6 +158778,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 8,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			276,
@@ -152806,6 +158906,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 8,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			384,
@@ -152933,6 +159034,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 8,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			547,
@@ -153060,6 +159162,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 8,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			253,
@@ -153187,6 +159290,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 8,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			315,
@@ -153314,6 +159418,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 8,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			438,
@@ -153441,6 +159546,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 8,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			624,
@@ -153568,6 +159674,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 8,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			548,
@@ -153700,6 +159807,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 8,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			682,
@@ -153832,6 +159940,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 8,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			949,
@@ -153964,6 +160073,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 8,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1349,
@@ -154083,7 +160193,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 1,
 		backyard_speed = "0.3",
 		star = 2,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 808011,
@@ -154096,6 +160206,7 @@ pg.ship_data_statistics = {
 		attack_duration = 6,
 		ignite_accuracy = 0,
 		nationality = 8,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			454,
@@ -154335,7 +160446,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 1,
 		backyard_speed = "0.3",
 		star = 3,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 808012,
@@ -154348,6 +160459,7 @@ pg.ship_data_statistics = {
 		attack_duration = 6,
 		ignite_accuracy = 0,
 		nationality = 8,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			565,
@@ -154587,7 +160699,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 2,
 		backyard_speed = "0.3",
 		star = 4,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 808013,
@@ -154600,6 +160712,7 @@ pg.ship_data_statistics = {
 		attack_duration = 6,
 		ignite_accuracy = 0,
 		nationality = 8,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			787,
@@ -154839,7 +160952,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 2,
 		backyard_speed = "0.3",
 		star = 5,
-		oxy_recovery = 0,
+		oxy_recovery = 4,
 		rarity = 4,
 		ammo = 2,
 		id = 808014,
@@ -154852,6 +160965,7 @@ pg.ship_data_statistics = {
 		attack_duration = 6,
 		ignite_accuracy = 0,
 		nationality = 8,
+		oxy_recovery_bench = 8,
 		armor_type = 1,
 		attrs = {
 			1119,
@@ -155104,6 +161218,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 9,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			222,
@@ -155231,6 +161346,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 9,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			276,
@@ -155358,6 +161474,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 9,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			384,
@@ -155485,6 +161602,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 9,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			547,
@@ -155612,6 +161730,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 9,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1127,
@@ -155739,6 +161858,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 9,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1402,
@@ -155866,6 +161986,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 9,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1952,
@@ -155993,6 +162114,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 9,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2776,
@@ -156120,6 +162242,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 9,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1334,
@@ -156247,6 +162370,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 9,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1659,
@@ -156374,6 +162498,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 9,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2310,
@@ -156501,6 +162626,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 9,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3286,
@@ -156628,6 +162754,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1,
@@ -156753,6 +162880,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1,
@@ -156878,6 +163006,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1,
@@ -157003,6 +163132,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1465,
@@ -157128,6 +163258,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1966,
@@ -157253,6 +163384,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			3658,
@@ -157379,6 +163511,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3167,
@@ -157505,6 +163638,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1644,
@@ -157631,6 +163765,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1494,
@@ -157756,6 +163891,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2274,
@@ -157882,6 +164018,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2274,
@@ -158008,6 +164145,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2274,
@@ -158134,6 +164272,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2274,
@@ -158260,6 +164399,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2274,
@@ -158386,6 +164526,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2274,
@@ -158512,6 +164653,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2274,
@@ -158638,6 +164780,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2274,
@@ -158764,6 +164907,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			599,
@@ -158890,6 +165034,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			587,
@@ -159016,6 +165161,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			809,
@@ -159142,6 +165288,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2274,
@@ -159268,6 +165415,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			809,
@@ -159394,6 +165542,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			809,
@@ -159520,6 +165669,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			809,
@@ -159646,6 +165796,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			809,
@@ -159772,6 +165923,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			809,
@@ -159898,6 +166050,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1152,
@@ -160024,6 +166177,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1231,
@@ -160150,6 +166304,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1208,
@@ -160276,6 +166431,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			809,
@@ -160402,6 +166558,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			809,
@@ -160528,6 +166685,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			809,
@@ -160654,6 +166812,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1680,
@@ -160785,6 +166944,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1927,
@@ -160911,6 +167071,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			751,
@@ -161036,6 +167197,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			304,
@@ -161161,6 +167323,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			290,
@@ -161286,6 +167449,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			714,
@@ -161412,6 +167576,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2192,
@@ -161538,6 +167703,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			142758,
@@ -161663,6 +167829,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			175643,
@@ -161791,6 +167958,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			174723,
@@ -161917,6 +168085,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1036460,
@@ -162043,6 +168212,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1131480,
@@ -162169,6 +168339,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1376905,
@@ -162295,6 +168466,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1282100,
@@ -162421,6 +168593,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2766,
@@ -162547,6 +168720,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			694,
@@ -162672,6 +168846,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			694,
@@ -162797,6 +168972,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			7695,
@@ -162923,6 +169099,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			8210,
@@ -163049,6 +169226,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			851,
@@ -163174,6 +169352,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			142758,
@@ -163299,6 +169478,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			683,
@@ -163424,6 +169604,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2566,
@@ -163550,6 +169731,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2976,
@@ -163676,6 +169858,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			540,
@@ -163801,6 +169984,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1591,
@@ -163929,6 +170113,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			591,
@@ -164054,6 +170239,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			719,
@@ -164179,6 +170365,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2778,
@@ -164305,6 +170492,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2855,
@@ -164431,6 +170619,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1680,
@@ -164557,6 +170746,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2155,
@@ -164683,6 +170873,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			786,
@@ -164808,6 +170999,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			726,
@@ -164933,6 +171125,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2708,
@@ -165061,6 +171254,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			591,
@@ -165186,6 +171380,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1819,
@@ -165314,6 +171509,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2566,
@@ -165440,6 +171636,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2274,
@@ -165566,6 +171763,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2566,
@@ -165692,6 +171890,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1819,
@@ -165820,6 +172019,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2914,
@@ -165946,6 +172146,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2976,
@@ -166072,6 +172273,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			715,
@@ -166197,6 +172399,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2121,
@@ -166323,6 +172526,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			540,
@@ -166448,6 +172652,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2616,
@@ -166574,6 +172779,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			290,
@@ -166699,6 +172905,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2155,
@@ -166825,6 +173032,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			912,
@@ -166951,6 +173159,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			822,
@@ -167076,6 +173285,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			286,
@@ -167201,6 +173411,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			595,
@@ -167327,6 +173538,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			789,
@@ -167455,6 +173667,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			277,
@@ -167580,6 +173793,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			738,
@@ -167708,6 +173922,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			595,
@@ -167834,6 +174049,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			595,
@@ -167960,6 +174176,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			595,
@@ -168086,6 +174303,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			595,
@@ -168212,6 +174430,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -168339,6 +174558,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -168466,6 +174686,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -168593,6 +174814,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -168720,6 +174942,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -168847,6 +175070,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -168974,6 +175198,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -169101,6 +175326,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -169228,6 +175454,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -169355,6 +175582,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -169482,6 +175710,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -169609,6 +175838,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -169736,6 +175966,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -169863,6 +176094,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -169990,6 +176222,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -170117,6 +176350,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -170244,6 +176478,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -170371,6 +176606,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -170498,6 +176734,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -170625,6 +176862,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -170752,6 +176990,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -170879,6 +177118,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -171006,6 +177246,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -171133,6 +177374,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -171260,6 +177502,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -171387,6 +177630,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -171514,6 +177758,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -171641,6 +177886,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -171768,6 +178014,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -171895,6 +178142,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -172022,6 +178270,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -172149,6 +178398,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -172276,6 +178526,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -172403,6 +178654,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -172530,6 +178782,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -172657,6 +178910,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -172784,6 +179038,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -172911,6 +179166,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -173038,6 +179294,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -173165,6 +179422,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			175643,
@@ -173293,6 +179551,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1282100,
@@ -173420,6 +179679,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1282100,
@@ -173547,6 +179807,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2566,
@@ -173674,6 +179935,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2566,
@@ -173801,6 +180063,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -173928,6 +180191,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -174055,6 +180319,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -174182,6 +180447,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -174309,6 +180575,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -174436,6 +180703,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -174563,6 +180831,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -174690,6 +180959,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -174817,6 +181087,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -174944,6 +181215,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -175071,6 +181343,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -175198,6 +181471,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -175325,6 +181599,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -175452,6 +181727,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -175579,6 +181855,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -175706,6 +181983,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -175833,6 +182111,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -175960,6 +182239,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -176087,6 +182367,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -176214,6 +182495,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -176341,6 +182623,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -176468,6 +182751,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -176595,6 +182879,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -176722,6 +183007,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			212,
@@ -176849,6 +183135,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3197,
@@ -176972,6 +183259,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			904,
@@ -177093,6 +183381,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			904,
@@ -177214,6 +183503,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			904,
@@ -177335,6 +183625,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			904,
@@ -177456,6 +183747,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			904,
@@ -177577,6 +183869,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			904,
@@ -177698,6 +183991,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			904,
@@ -177819,6 +184113,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			904,
@@ -177940,6 +184235,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			904,
@@ -178061,6 +184357,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			904,
@@ -178182,6 +184479,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			904,
@@ -178303,6 +184601,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			904,
@@ -178424,6 +184723,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			904,
@@ -178545,6 +184845,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			904,
@@ -178666,6 +184967,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			904,
@@ -178787,6 +185089,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 5,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			904,
@@ -178908,6 +185211,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			20,
@@ -179160,6 +185464,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			20,
@@ -179412,6 +185717,7 @@ pg.ship_data_statistics = {
 		attack_duration = 5,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			20,
@@ -179664,6 +185970,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			924,
@@ -179795,6 +186102,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1459,
@@ -179922,6 +186230,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			454,
@@ -180049,6 +186358,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1291,
@@ -180176,6 +186486,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1634,
@@ -180303,6 +186614,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 9,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1334,
@@ -180430,6 +186742,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			588,
@@ -180560,6 +186873,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			731,
@@ -180690,6 +187004,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1018,
@@ -180820,6 +187135,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1449,
@@ -180950,6 +187266,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			655,
@@ -181079,6 +187396,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			815,
@@ -181208,6 +187526,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1134,
@@ -181337,6 +187656,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1614,
@@ -181466,6 +187786,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			293,
@@ -181593,6 +187914,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			364,
@@ -181720,6 +188042,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			507,
@@ -181847,6 +188170,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			721,
@@ -181974,6 +188298,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			929,
@@ -182101,6 +188426,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1156,
@@ -182228,6 +188554,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1609,
@@ -182355,6 +188682,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2288,
@@ -182482,6 +188810,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			637,
@@ -182612,6 +188941,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			792,
@@ -182742,6 +189072,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1103,
@@ -182872,6 +189203,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1569,
@@ -183002,6 +189334,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			698,
@@ -183131,6 +189464,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			868,
@@ -183260,6 +189594,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1209,
@@ -183389,6 +189724,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1720,
@@ -183518,6 +189854,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			314,
@@ -183645,6 +189982,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			391,
@@ -183772,6 +190110,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			544,
@@ -183899,6 +190238,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			773,
@@ -184026,6 +190366,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			972,
@@ -184153,6 +190494,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1209,
@@ -184280,6 +190622,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1683,
@@ -184407,6 +190750,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 101,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2395,
@@ -184534,6 +190878,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 103,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			708,
@@ -184663,6 +191008,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 103,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			881,
@@ -184792,6 +191138,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 103,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1226,
@@ -184921,6 +191268,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 103,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1745,
@@ -185050,6 +191398,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 103,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			313,
@@ -185177,6 +191526,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 103,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			389,
@@ -185304,6 +191654,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 103,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			542,
@@ -185431,6 +191782,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 103,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			771,
@@ -185558,6 +191910,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 103,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			700,
@@ -185688,6 +192041,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 103,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			871,
@@ -185818,6 +192172,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 103,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1212,
@@ -185948,6 +192303,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 103,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1724,
@@ -186078,6 +192434,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 103,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			721,
@@ -186204,6 +192561,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 103,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			897,
@@ -186330,6 +192688,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 103,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1248,
@@ -186456,6 +192815,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 103,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1776,
@@ -186582,6 +192942,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 103,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			721,
@@ -186708,6 +193069,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 103,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			897,
@@ -186834,6 +193196,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 103,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1248,
@@ -186960,6 +193323,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 103,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			1776,
@@ -187086,6 +193450,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 103,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			862,
@@ -187213,6 +193578,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 103,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1072,
@@ -187340,6 +193706,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 103,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1493,
@@ -187467,6 +193834,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 103,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2124,
@@ -187594,6 +193962,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 104,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			285,
@@ -187723,6 +194092,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 104,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			355,
@@ -187852,6 +194222,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 104,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			494,
@@ -187981,6 +194352,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 104,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			702,
@@ -188110,6 +194482,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 104,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			809,
@@ -188239,6 +194612,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 104,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1006,
@@ -188368,6 +194742,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 104,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1401,
@@ -188497,6 +194872,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 104,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1993,
@@ -188626,6 +195002,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 104,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1068,
@@ -188755,6 +195132,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 104,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1328,
@@ -188884,6 +195262,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 104,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1849,
@@ -189013,6 +195392,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 104,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			2631,
@@ -189142,6 +195522,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 104,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1233,
@@ -189270,6 +195651,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 104,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1534,
@@ -189398,6 +195780,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 104,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			2135,
@@ -189526,6 +195909,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 104,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			3037,
@@ -189654,6 +196038,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			815,
@@ -189784,6 +196169,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			815,
@@ -189914,6 +196300,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			815,
@@ -190044,6 +196431,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			815,
@@ -190174,6 +196562,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1334,
@@ -190301,6 +196690,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1334,
@@ -190428,6 +196818,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1334,
@@ -190555,6 +196946,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 2,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1334,
@@ -190682,6 +197074,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			824,
@@ -190811,6 +197204,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			824,
@@ -190940,6 +197334,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			824,
@@ -191069,6 +197464,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			824,
@@ -191198,6 +197594,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1423,
@@ -191325,6 +197722,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1423,
@@ -191452,6 +197850,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1423,
@@ -191579,6 +197978,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1423,
@@ -191706,6 +198106,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1041,
@@ -191835,6 +198236,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1041,
@@ -191964,6 +198366,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1041,
@@ -192093,6 +198496,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1041,
@@ -192222,6 +198626,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 8,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			943,
@@ -192351,6 +198756,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 8,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			943,
@@ -192480,6 +198886,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 8,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			943,
@@ -192609,6 +199016,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 8,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			943,
@@ -192738,6 +199146,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			924,
@@ -192869,6 +199278,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			924,
@@ -193000,6 +199410,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			924,
@@ -193131,6 +199542,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			924,
@@ -193262,6 +199674,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1459,
@@ -193389,6 +199802,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1459,
@@ -193516,6 +199930,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1459,
@@ -193643,6 +200058,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 1,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1459,
@@ -193770,6 +200186,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			454,
@@ -193897,6 +200314,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			454,
@@ -194024,6 +200442,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			454,
@@ -194151,6 +200570,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
 			454,
@@ -194278,6 +200698,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1291,
@@ -194405,6 +200826,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1291,
@@ -194532,6 +200954,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1291,
@@ -194659,6 +201082,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 3,
+		oxy_recovery_bench = 0,
 		armor_type = 2,
 		attrs = {
 			1291,
@@ -194786,6 +201210,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1634,
@@ -194913,6 +201338,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1634,
@@ -195040,6 +201466,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1634,
@@ -195167,6 +201594,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 4,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1634,
@@ -195294,6 +201722,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 9,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1334,
@@ -195421,6 +201850,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 9,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1334,
@@ -195548,6 +201978,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 9,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1334,
@@ -195675,6 +202106,7 @@ pg.ship_data_statistics = {
 		attack_duration = 0,
 		ignite_accuracy = 0,
 		nationality = 9,
+		oxy_recovery_bench = 0,
 		armor_type = 3,
 		attrs = {
 			1334,
@@ -196778,6 +203210,18 @@ pg.ship_data_statistics = {
 		308032,
 		308033,
 		308034,
+		308041,
+		308042,
+		308043,
+		308044,
+		308051,
+		308052,
+		308053,
+		308054,
+		308061,
+		308062,
+		308063,
+		308064,
 		310014,
 		310024,
 		310034,
@@ -196903,6 +203347,14 @@ pg.ship_data_statistics = {
 		408052,
 		408053,
 		408054,
+		408061,
+		408062,
+		408063,
+		408064,
+		408071,
+		408072,
+		408073,
+		408074,
 		501011,
 		501012,
 		501013,

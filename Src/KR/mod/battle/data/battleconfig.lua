@@ -118,6 +118,10 @@ ys.Battle.BattleConfig.SUB_UNIT_POS_Z = {
 	38
 }
 ys.Battle.BattleConfig.SUB_UNIT_OFFSET_X = -5
+ys.Battle.BattleConfig.SUB_BENCH_POS = {
+	Vector3(-325, 0, 228),
+	Vector3(-325, 0, 128)
+}
 ys.Battle.BattleConfig.SHIP_CLD_INTERVAL = 1
 ys.Battle.BattleConfig.SHIP_CLD_BUFF = 8010
 ys.Battle.BattleConfig.START_SPEED_CONST_A = 2.5
@@ -388,11 +392,16 @@ ys.Battle.BattleConfig.BATTLE_DODGEM_PASS_SCORE = 10
 ys.Battle.BattleConfig.SR_CONFIG = {
 	FLOAT_CD = 2,
 	DIVE_CD = 2,
-	BOOST_CD = 15,
+	BOOST_CD = 10,
+	SHIFT_CD = 10,
 	BOOST_SPEED = 2,
 	BOOST_DECAY = 0.2,
 	BOOST_DURATION = 12,
-	BOOST_DECAY_STAMP = 9
+	BOOST_DECAY_STAMP = 9,
+	BASE_POINT = 100,
+	POINT = 10,
+	DEAD_POINT = 15,
+	M = 2
 }
 ys.Battle.BattleConfig.CHALLENGE_ENHANCE = {
 	K = 1,

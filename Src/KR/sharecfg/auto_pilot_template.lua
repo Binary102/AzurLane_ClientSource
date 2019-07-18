@@ -197,6 +197,66 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[15001] = {
+		id = 15001,
+		name = "角色用/技能用AI - U101向前进随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = 25,
+					z = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 5,
+				param = {
+					stopCount = 90,
+					Z2 = -10,
+					moveCount = 240,
+					Z1 = 10,
+					duration = -1,
+					X1 = -10,
+					X2 = 10
+				}
+			}
+		}
+	},
+	[15002] = {
+		id = 15002,
+		name = "角色用/技能用AI - U101后撤后随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = -25,
+					z = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 5,
+				param = {
+					stopCount = 90,
+					Z2 = -10,
+					moveCount = 240,
+					Z1 = 10,
+					duration = -1,
+					X1 = -10,
+					X2 = 10
+				}
+			}
+		}
+	},
 	[20001] = {
 		id = 20001,
 		name = "蛋船固定移动ai-23",
@@ -376,6 +436,69 @@ pg.auto_pilot_template = {
 				param = {
 					x = -500,
 					z = 0
+				}
+			}
+		}
+	},
+	[20010] = {
+		id = 20010,
+		name = "上半部分随机移动-靠前",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 80,
+					moveCount = 240,
+					Z1 = 55,
+					duration = -1,
+					X1 = -30,
+					X2 = 0
+				}
+			}
+		}
+	},
+	[20011] = {
+		id = 20011,
+		name = "下半部分随机移动-靠前",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 55,
+					moveCount = 240,
+					Z1 = 30,
+					duration = -1,
+					X1 = -30,
+					X2 = 0
+				}
+			}
+		}
+	},
+	[20012] = {
+		id = 20012,
+		name = "随机移动-靠前",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 80,
+					moveCount = 240,
+					Z1 = 30,
+					duration = -1,
+					X1 = -30,
+					X2 = 0
 				}
 			}
 		}

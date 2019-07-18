@@ -45,9 +45,32 @@ pg.strategy_data_template = {
 		type = 2,
 		id = 9,
 		icon = "9",
-		desc = "与友方队伍交换位置",
+		desc = "잠수함 범위 밖에서 지원 가능",
 		arg = {
 			exchange
+		}
+	},
+	[10] = {
+		buff_id = 0,
+		name = "범위 밖 지원",
+		type = 4,
+		id = 10,
+		icon = "10",
+		desc = "잠수함 범위 이동",
+		arg = {
+			map_call
+		}
+	},
+	[11] = {
+		buff_id = 0,
+		name = "작전 범위 변경",
+		type = 3,
+		id = 11,
+		icon = "11",
+		desc = "移动潜艇的狩猎范围",
+		arg = {
+			sub_move,
+			1.1
 		}
 	},
 	[90] = {
@@ -156,6 +179,8 @@ pg.strategy_data_template = {
 		3,
 		4,
 		9,
+		10,
+		11,
 		90,
 		91,
 		9500,

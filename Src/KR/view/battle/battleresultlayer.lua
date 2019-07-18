@@ -116,6 +116,7 @@ function slot0.init(slot0)
 	slot0._conditions = slot0:findTF("main/conditions")
 	slot0._conditionContainer = slot0:findTF("bg16/list", slot0._conditions)
 	slot0._conditionTpl = slot0:findTF("bg16/conditionTpl", slot0._conditions)
+	slot0._conditionSubTpl = slot0:findTF("bg16/conditionSubTpl", slot0._conditions)
 	slot0._cmdExp = slot0:findTF("commanderExp", slot0._leftPanel)
 	slot0._cmdContainer = slot0:findTF("commander_container", slot0._cmdExp)
 	slot0._cmdTpl = slot0:findTF("commander_tpl", slot0._cmdExp)
@@ -266,7 +267,10 @@ function slot0.setCondition(slot0, slot1, slot2)
 	slot4 = nil
 	slot5 = slot3:Find("text"):GetComponent(typeof(Text))
 
-	if slot2 then
+	if slot2 == nil then
+		slot4 = "resources/condition_check"
+		slot5.text = setColorStr(slot1, "#FFFFFFFF")
+	elseif slot2 == true then
 		slot4 = "resources/condition_done"
 		slot5.text = setColorStr(slot1, "#FFFFFFFF")
 	else
@@ -422,7 +426,6 @@ function slot0.displayShips(slot0)
 	slot0._subSkipExp = {}
 	slot0._subCardAnimaFuncList = {}
 	slot1 = {}
-	slot2 = slot0.contextData.prefabFleet or slot0.shipVOs
 
 	for slot6, slot7 in ipairs(slot2) do
 		slot1[slot7.id] = slot7
@@ -443,7 +446,7 @@ function slot0.displayShips(slot0)
 	slot0._subAtkTplList = {}
 	slot7, slot8 = nil
 
-	SetActive(slot0._atkToggle, #(slot0.contextData.prefabFleet or slot0.contextData.oldMainShips) > 6)
+	SetActive(slot0._atkToggle, #slot0.contextData.oldMainShips > 6)
 
 	if #slot6 > 6 then
 		onToggle(slot0, slot0._atkToggle, function (slot0)
@@ -762,18 +765,20 @@ function slot0.displayShips(slot0)
 		end
 	end
 
-	slot9[#slot9].GetComponent(slot11, typeof(DftAniEvent)).SetEndEvent(slot12, function (slot0)
-		slot0._stateFlag = slot1.STATE_DISPLAYED
+	if slot9[#slot9] then
+		slot11:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
+			slot0._stateFlag = slot1.STATE_DISPLAYED
 
-		if not slot0._subFirstExpTF then
-			slot0:skip()
-		end
+			if not slot0._subFirstExpTF then
+				slot0:skip()
+			end
 
-		return
-	end)
+			return
+		end)
+	end
 
 	if #slot10 > 0 then
-		slot10[#slot10].GetComponent(slot13, typeof(DftAniEvent)):SetEndEvent(function (slot0)
+		slot10[#slot10].GetComponent(slot12, typeof(DftAniEvent)):SetEndEvent(function (slot0)
 			slot0._stateFlag = slot1.STATE_SUB_DISPLAYED
 
 			slot0:skip()

@@ -5,7 +5,6 @@ slot3 = ys.Battle.BattleConst
 slot4 = class("BattlePlayerCharacter", ys.Battle.BattleCharacter)
 ys.Battle.BattlePlayerCharacter = slot4
 slot4.__name = "BattlePlayerCharacter"
-slot4.CHARGE_AREA_OFFSET = Vector3(0.2, 0, 20)
 
 function slot4.Ctor(slot0)
 	slot0.super.Ctor(slot0)
@@ -77,10 +76,6 @@ function slot4.Update(slot0)
 	if slot0._unitData:GetOxyState() then
 		slot0:UpdateOxygenBar()
 	end
-end
-
-function slot4.UpdateSubVictory(slot0)
-	return
 end
 
 function slot4.UpdateOxygenBar(slot0)

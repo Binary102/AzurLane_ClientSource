@@ -92,6 +92,8 @@ class("ChapterOpCommand", import(".ChapterOpRoutine")).execute = function (slot0
 					slot0:doRequest()
 				elseif slot1.type == ChapterConst.OpSkipBattle then
 					slot0:doSkipBattle()
+				elseif slot1.type == ChapterConst.OpSubTeleport then
+					slot0:doTeleportSub()
 				end
 
 				slot2:updateChapter(slot0.chapter, slot0.flag)
@@ -113,7 +115,7 @@ class("ChapterOpCommand", import(".ChapterOpRoutine")).execute = function (slot0
 		else
 			pg.TipsMgr:GetInstance():ShowTips(errorTip("levelScene_operation", slot0.result))
 
-			if pg.TipsMgr.GetInstance().ShowTips.type ~= ChapterConst.OpRequest and slot1.type ~= ChapterConst.OpRetreat then
+			if pg.TipsMgr.GetInstance().ShowTips.type ~= ChapterConst.OpRequest and slot1.type ~= ChapterConst.OpRetreat and slot1.type ~= ChapterConst.OpSubTeleport then
 				slot0:sendNotification(GAME.CHAPTER_OP, {
 					type = ChapterConst.OpRequest,
 					id = slot1.id

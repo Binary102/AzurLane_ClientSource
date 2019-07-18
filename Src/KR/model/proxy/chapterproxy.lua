@@ -1069,20 +1069,31 @@ end
 function slot0.getSubAidFlag(slot0)
 	slot1 = ys.Battle.BattleConst.SubAidFlag
 	slot2 = slot0.fleet
+	slot3 = false
 
 	if _.detect(slot0.fleets, function (slot0)
-		return slot0:getFleetType() == FleetType.Submarine and slot0:isValid() and slot0:inHuntingRange(slot0.line.row, slot0.line.column)
+		return slot0:getFleetType() == FleetType.Submarine and slot0:isValid()
 	end) then
-		slot5 = getProxy(PlayerProxy).getRawData(slot4)
-		slot6, slot7 = slot0:getFleetCost(slot2)
-		slot8, slot9 = slot0:getFleetAmmo(slot3)
+		if slot4:inHuntingRange(slot2.line.row, slot2.line.column) then
+			slot3 = true
+		elseif _.detect(slot4:getStrategies(), function (slot0)
+			return slot0.id == ChapterConst.StrategyCallSubOutofRange
+		end) and slot6.count > 0 then
+			slot3 = true
+		end
+	end
 
-		if slot9 <= 0 then
+	if slot3 then
+		slot6 = getProxy(PlayerProxy).getRawData(slot5)
+		slot7, slot8 = slot0:getFleetCost(slot2)
+		slot9, slot10 = slot0:getFleetAmmo(slot4)
+
+		if slot10 <= 0 then
 			return slot1.AMMO_EMPTY
-		elseif slot5.oil < slot3:getSummonCost() + slot7.oil then
+		elseif slot6.oil < slot4:getSummonCost() + slot8.oil then
 			return slot1.OIL_EMPTY
 		else
-			return true, slot3
+			return true, slot4
 		end
 	else
 		return slot1.AID_EMPTY

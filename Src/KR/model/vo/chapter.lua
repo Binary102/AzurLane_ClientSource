@@ -1887,6 +1887,14 @@ function slot0.getBBship(slot0, slot1)
 	return slot2
 end
 
+function slot0.GetSubmarineFleet(slot0)
+	for slot4, slot5 in pairs(slot0.fleets) do
+		if slot5:getFleetType() == FleetType.Submarine and slot5:isValid() then
+			return slot5, slot4
+		end
+	end
+end
+
 function slot0.getStageCell(slot0, slot1, slot2)
 	if slot0:getChampion(slot1, slot2) and slot3.flag ~= 1 then
 		return slot3
@@ -1956,14 +1964,20 @@ function slot0.writeBack(slot0, slot1, slot2)
 
 	slot3.restAmmo = math.max(slot3.restAmmo - 1, 0)
 
-	if slot2.statistics.submarineAid and _.detect(slot0.fleets, function (slot0)
-		return slot0:getFleetType() == FleetType.Submarine and slot0:isValid() and slot0:inHuntingRange(slot0.line.row, slot0.line.column)
-	end) then
-		for slot9, slot10 in pairs(slot5.ships) do
-			slot4(slot10)
+	if slot2.statistics.submarineAid then
+		if _.detect(slot0.fleets, function (slot0)
+			return slot0:getFleetType() == FleetType.Submarine and slot0:isValid()
+		end) and not slot5:inHuntingRange(slot3.line.row, slot3.line.column) then
+			slot5:consumeOneStrategy(ChapterConst.StrategyCallSubOutofRange)
 		end
 
-		slot5.restAmmo = math.max(slot5.restAmmo - 1, 0)
+		if slot5 then
+			for slot9, slot10 in pairs(slot5.ships) do
+				slot4(slot10)
+			end
+
+			slot5.restAmmo = math.max(slot5.restAmmo - 1, 0)
+		end
 	end
 
 	if slot1 then

@@ -136,6 +136,8 @@ function slot2.EnterBattle(slot0, slot1, slot2)
 		slot0._battleCommand = slot0:AddCommand(slot0.Battle.BattleDodgemCommand.New())
 	elseif slot1.battleType == SYSTEM_SUBMARINE_RUN then
 		slot0._battleCommand = slot0:AddCommand(slot0.Battle.BattleSubmarineRunCommand.New())
+	elseif slot1.battleType == SYSTEM_SUB_ROUTINE then
+		slot0._battleCommand = slot0:AddCommand(slot0.Battle.BattleSubRoutineCommand.New())
 	elseif slot1.battleType == SYSTEM_HP_SHARE_ACT_BOSS then
 		slot0._battleCommand = slot0:AddCommand(slot0.Battle.BattleInheritDungeonCommand.New())
 	elseif slot1.battleType == SYSTEM_DEBUG then

@@ -12,8 +12,16 @@ slot4 = -1000
 slot5 = -1000
 slot2 = slot2(slot3, slot4, slot5)
 slot0.MapDefaultPos = slot2
+slot2 = Vector2
+slot3 = -60
+slot4 = 84.8
+slot2 = slot2(slot3, slot4)
+slot3 = Vector2
+slot4 = -50
+slot5 = 20
+slot3 = slot3(slot4, slot5)
 
-function slot2(slot0)
+function slot4(slot0)
 	slot1 = slot0
 	slot1 = slot1.super
 	slot1 = slot1.init
@@ -44,6 +52,8 @@ function slot2(slot0)
 	slot1 = {}
 	slot0.championTws = slot1
 	slot1 = {}
+	slot0.markQuads = slot1
+	slot1 = {}
 	slot0.rivals = slot1
 	slot1 = {}
 	slot0.pools = slot1
@@ -68,11 +78,71 @@ function slot2(slot0)
 	slot0.quadClickProxy = slot1
 	slot1 = {}
 	slot0.endAniFlag = slot1
+	slot1 = nil
+	slot0.subTeleportTargetLine = slot1
+	slot1 = false
+	slot0.subTeleportMode = slot1
+	slot1 = {}
+	slot0.cellEdges = slot1
+	slot1 = LoadWithoutBuffer
+	slot2 = "ui/commonUI_atlas"
+	slot3 = "add"
+	slot4 = typeof
+	slot5 = Material
+	slot1 = slot1(slot2, slot3, slot4(slot5))
+	slot0.material_Add = slot1
+	slot1 = ChapterConst
+	slot1 = slot1.__DEBUG__
+
+	if slot1 then
+		slot1 = Application
+		slot1 = slot1.isEditor
+
+		if slot1 then
+			slot1 = pg
+			slot1 = slot1.TimeMgr
+			slot1 = slot1.GetInstance
+			slot1 = slot1()
+			slot2 = slot1
+			slot1 = slot1.AddTimer
+			slot3 = "LevelUITimer"
+			slot4 = 0
+			slot5 = UnityEngine
+			slot5 = slot5.Time
+			slot5 = slot5.fixedDeltaTime
+
+			function slot6()
+				slot0 = slot0
+				slot1 = slot0
+				slot0 = slot0.Debug
+
+				slot0(slot1)
+			end
+
+			slot1 = slot1(slot2, slot3, slot4, slot5, slot6)
+			slot0._DebugTimer = slot1
+		end
+	end
 end
 
-slot0.init = slot2
+slot0.init = slot4
 
-function slot2(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11, slot12, slot13, slot14, slot15)
+function slot4(slot0)
+	slot1 = slot0.contextData
+	slot1 = slot1.chapterVO
+	slot2 = Input
+	slot2 = slot2.GetKey
+	slot3 = KeyCode
+	slot3 = slot3.A
+	slot2 = slot2(slot3)
+
+	if slot2 then
+	end
+end
+
+slot0.Debug = slot4
+
+function slot4(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11, slot12, slot13, slot14, slot15)
 	slot0.shipTpl = slot1
 	slot0.subTpl = slot2
 	slot0.transportTpl = slot3
@@ -90,9 +160,9 @@ function slot2(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, sl
 	slot0.arrowTpl = slot15
 end
 
-slot0.setItems = slot2
+slot0.setItems = slot4
 
-function slot2(slot0, slot1)
+function slot4(slot0, slot1)
 	slot2 = "fleet_"
 	slot3 = slot1
 	slot2 = slot2 .. slot3
@@ -128,9 +198,9 @@ function slot2(slot0, slot1)
 	return slot3
 end
 
-slot0.getFleetPool = slot2
+slot0.getFleetPool = slot4
 
-function slot2(slot0, slot1)
+function slot4(slot0, slot1)
 	slot2 = "champion_"
 	slot3 = slot1
 	slot2 = slot2 .. slot3
@@ -157,9 +227,54 @@ function slot2(slot0, slot1)
 	return slot3
 end
 
-slot0.getChampionPool = slot2
+slot0.getChampionPool = slot4
 
-function slot2(slot0)
+function slot4(slot0)
+	slot1 = "CellEdges"
+	slot2 = slot0.pools
+	slot2 = slot2[slot1]
+
+	if not slot2 then
+		slot3 = GameObject
+		slot3 = slot3.New
+		slot4 = "CellEdge"
+		slot3 = slot3(slot4)
+		slot5 = slot3
+		slot4 = slot3.AddComponent
+		slot6 = typeof
+		slot7 = Image
+		slot4 = slot4(slot5, slot6(slot7))
+		slot5 = Color
+		slot5 = slot5.New
+		slot6 = 1
+		slot7 = 0
+		slot8 = 0
+		slot9 = 1
+		slot5 = slot5(slot6, slot7, slot8, slot9)
+		slot4.color = slot5
+		slot5 = LoadSprite
+		slot6 = "ui/commonui_atlas"
+		slot7 = "white_dot"
+		slot5 = slot5(slot6, slot7)
+		slot4.sprite = slot5
+		slot5 = slot0.material_Add
+		slot4.material = slot5
+		slot5 = slot0
+		slot5 = slot5.New
+		slot6 = slot3
+		slot7 = 8
+		slot5 = slot5(slot6, slot7)
+		slot2 = slot5
+		slot5 = slot0.pools
+		slot5[slot1] = slot2
+	end
+
+	return slot2
+end
+
+slot0.getEdgePool = slot4
+
+function slot4(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot2 = slot0.cellAttachments
@@ -181,6 +296,11 @@ function slot2(slot0)
 
 	slot3 = slot0
 	slot2 = slot0.initTargetArrow
+
+	slot2(slot3)
+
+	slot3 = slot0
+	slot2 = slot0.InitDestinationMark
 
 	slot2(slot3)
 
@@ -246,9 +366,9 @@ function slot2(slot0)
 	end
 end
 
-slot0.initAll = slot2
+slot0.initAll = slot4
 
-function slot2(slot0)
+function slot4(slot0)
 	slot1 = IsNil
 	slot2 = slot0.cellRoot
 	slot1 = slot1(slot2)
@@ -266,6 +386,11 @@ function slot2(slot0)
 
 		slot2 = slot0
 		slot1 = slot0.clearTargetArrow
+
+		slot1(slot2)
+
+		slot2 = slot0
+		slot1 = slot0.ClearDestinationMark
 
 		slot1(slot2)
 
@@ -296,6 +421,25 @@ function slot2(slot0)
 		slot1 = slot0.clearPlane
 
 		slot1(slot2)
+
+		slot1 = nil
+		slot0.material_Add = slot1
+	end
+
+	slot1 = slot0.pools
+	slot1 = slot1.CellEdges
+
+	if slot1 then
+		slot1 = slot0.pools
+		slot1 = slot1.CellEdges
+		slot2 = slot1
+		slot1 = slot1.Clear
+
+		slot1(slot2)
+
+		slot1 = slot0.pools
+		slot2 = nil
+		slot1.CellEdges = slot2
 	end
 
 	slot1 = pairs
@@ -333,9 +477,9 @@ function slot2(slot0)
 	slot0.endAniFlag = slot2
 end
 
-slot0.clearAll = slot2
+slot0.clearAll = slot4
 
-function slot2(slot0)
+function slot4(slot0)
 	slot1 = pg
 	slot1 = slot1.UIMgr
 	slot1 = slot1.GetInstance
@@ -480,9 +624,9 @@ function slot2(slot0)
 	slot12(slot13, slot14)
 end
 
-slot0.initDrag = slot2
+slot0.initDrag = slot4
 
-function slot2(slot0)
+function slot4(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot2 = slot1.theme
@@ -738,6 +882,8 @@ function slot2(slot0)
 	slot13 = slot8 + slot13
 	slot5.anchoredPosition = slot13
 	slot5.sizeDelta = slot9
+	slot0.indexMin = slot10
+	slot0.indexMax = slot11
 	slot13 = Vector2
 	slot14 = math
 	slot14 = slot14.floor
@@ -1118,9 +1264,9 @@ function slot2(slot0)
 	end
 end
 
-slot0.initPlane = slot2
+slot0.initPlane = slot4
 
-function slot2(slot0)
+function slot4(slot0)
 	slot2 = slot0
 	slot1 = slot0.findTF
 	slot3 = "plane/display/mask"
@@ -1135,9 +1281,9 @@ function slot2(slot0)
 	slot2.texture = slot3
 end
 
-slot0.updatePoisonArea = slot2
+slot0.updatePoisonArea = slot4
 
-function slot2(slot0)
+function slot4(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot3 = slot0
@@ -1253,9 +1399,29 @@ function slot2(slot0)
 	return slot6
 end
 
-slot0.getPoisonTex = slot2
+slot0.getPoisonTex = slot4
 
-function slot2(slot0)
+function slot4(slot0, slot1, slot2)
+	slot3 = slot0.contextData
+	slot3 = slot3.chapterVO
+	slot4 = slot3.fleets
+	slot4 = slot4[slot1]
+	slot4 = slot4.id
+	slot5 = slot0.cellFleets
+	slot5 = slot5[slot4]
+
+	if slot5 then
+		slot7 = slot5
+		slot6 = slot5.showPoisonDamage
+		slot8 = slot2
+
+		slot6(slot7, slot8)
+	end
+end
+
+slot0.showFleetPoisonDamage = slot4
+
+function slot4(slot0)
 	slot2 = slot0
 	slot1 = slot0.killQuadTws
 
@@ -1263,6 +1429,11 @@ function slot2(slot0)
 
 	slot2 = slot0
 	slot1 = slot0.killPresentTws
+
+	slot1(slot2)
+
+	slot2 = slot0
+	slot1 = slot0.ClearEdges
 
 	slot1(slot2)
 
@@ -1319,253 +1490,452 @@ function slot2(slot0)
 	slot3(slot4, slot5, slot6, slot7)
 end
 
-slot0.clearPlane = slot2
+slot0.clearPlane = slot4
 
-function slot2(slot0)
+function slot4(slot0)
 	slot1 = slot0.cellFleets
 
 	if slot1 then
 		return
 	end
 
-	slot1 = {}
-	slot0.cellFleets = slot1
+	slot1 = slot0.contextData
+	slot1 = slot1.chapterVO
+	slot2 = {}
+	slot0.cellFleets = slot2
+	slot2 = pairs
+	slot3 = slot1.fleets
+	slot2, slot3, slot4 = slot2(slot3)
+
+	for slot5, slot6 in slot2, slot3, slot4 do
+		slot8 = slot0
+		slot7 = slot0.InitFleetCell
+		slot9 = slot6.id
+
+		slot7(slot8, slot9)
+	end
+end
+
+slot0.initFleets = slot4
+
+function slot4(slot0, slot1)
+	slot2 = slot0.contextData
+	slot2 = slot2.chapterVO
+	slot4 = slot2
+	slot3 = slot2.getFleetById
+	slot5 = slot1
+	slot3 = slot3(slot4, slot5)
+	slot5 = slot3
+	slot4 = slot3.isValid
+	slot4 = slot4(slot5)
+
+	if not slot4 then
+		return
+	end
+
+	slot4 = nil
+	slot6 = slot0
+	slot5 = slot0.getFleetPool
+	slot8 = slot3
+	slot7 = slot3.getFleetType
+	slot5 = slot5(slot6, slot7(slot8))
+	slot7 = slot5
+	slot6 = slot5.Dequeue
+	slot6 = slot6(slot7)
+	slot7 = slot6.transform
+	slot8 = Vector3
+	slot9 = slot2.theme
+	slot9 = slot9.angle
+	slot9 = -slot9
+	slot10 = 0
+	slot11 = 0
+	slot8 = slot8(slot9, slot10, slot11)
+	slot7.localEulerAngles = slot8
+	slot7 = setParent
+	slot8 = slot6
+	slot9 = slot0.cellRoot
+	slot10 = false
+
+	slot7(slot8, slot9, slot10)
+
+	slot7 = setActive
+	slot8 = slot6
+	slot9 = true
+
+	slot7(slot8, slot9)
+
+	slot7 = nil
+	slot9 = slot3
+	slot8 = slot3.getFleetType
+	slot8 = slot8(slot9)
+	slot9 = FleetType
+	slot9 = slot9.Transport
+
+	if slot8 == slot9 then
+		slot8 = TransportCellView
+		slot8 = slot8.New
+		slot9 = slot6
+		slot8 = slot8(slot9)
+		slot4 = slot8
+	else
+		slot9 = slot3
+		slot8 = slot3.getFleetType
+		slot8 = slot8(slot9)
+		slot9 = FleetType
+		slot9 = slot9.Submarine
+
+		if slot8 == slot9 then
+			slot8 = SubCellView
+			slot8 = slot8.New
+			slot9 = slot6
+			slot8 = slot8(slot9)
+			slot4 = slot8
+
+			function slot7()
+				slot0 = slot0
+				slot1 = slot0
+				slot0 = slot0.OnChangeSubAutoAttack
+
+				slot0(slot1)
+			end
+		else
+			slot8 = FleetCellView
+			slot8 = slot8.New
+			slot9 = slot6
+			slot8 = slot8(slot9)
+			slot4 = slot8
+		end
+	end
+
+	slot9 = slot3
+	slot8 = slot3.getFleetType
+	slot8 = slot8(slot9)
+	slot4.fleetType = slot8
+	slot9 = slot4
+	slot8 = slot4.setAction
+	slot10 = ChapterConst
+	slot10 = slot10.ShipIdleAction
+
+	slot8(slot9, slot10)
+
+	slot8 = slot4.tf
+	slot9 = slot2.theme
+	slot10 = slot9
+	slot9 = slot9.GetLinePosition
+	slot11 = slot3.line
+	slot11 = slot11.row
+	slot12 = slot3.line
+	slot12 = slot12.column
+	slot9 = slot9(slot10, slot11, slot12)
+	slot8.localPosition = slot9
+	slot8 = slot0.cellFleets
+	slot8[slot1] = slot4
+	slot9 = slot0
+	slot8 = slot0.RefreshFleetCell
+	slot10 = slot1
+	slot11 = slot7
+
+	slot8(slot9, slot10, slot11)
+end
+
+slot0.InitFleetCell = slot4
+
+function slot4(slot0)
+	slot1 = slot0.cellFleets
+
+	if not slot1 then
+		slot2 = slot0
+		slot1 = slot0.initFleetCells
+
+		slot1(slot2)
+
+		return
+	end
+
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot3 = slot1
 	slot2 = slot1.getDataType
 	slot2 = slot2(slot3)
-	slot3 = ipairs
-	slot4 = slot1.fleets
-	slot3, slot4, slot5 = slot3(slot4)
+	slot3 = {}
+	slot4 = pairs
+	slot5 = slot0.cellFleets
+	slot4, slot5, slot6 = slot4(slot5)
 
-	for slot6, slot7 in slot3, slot4, slot5 do
-		slot8 = slot0.cellFleets
-		slot9 = false
-		slot8[slot6] = slot9
-		slot8, slot9 = nil
+	for slot7, slot8 in slot4, slot5, slot6 do
+		slot10 = slot1
+		slot9 = slot1.getFleetById
 		slot11 = slot7
-		slot10 = slot7.isValid
-		slot10 = slot10(slot11)
+		slot9 = slot9(slot10, slot11)
 
-		if slot10 then
+		if not slot9 then
+			slot9 = table
+			slot9 = slot9.insert
+			slot10 = slot3
 			slot11 = slot7
-			slot10 = slot7.getFleetType
-			slot10 = slot10(slot11)
-			slot11 = FleetType
-			slot11 = slot11.Transport
 
-			if slot10 == slot11 then
-				slot11 = slot7
-				slot10 = slot7.getPrefab
-				slot10 = slot10(slot11)
-				slot8 = slot10
-			else
-				slot11 = slot1
-				slot10 = slot1.getMapShip
-				slot12 = slot7
-				slot10 = slot10(slot11, slot12)
-
-				if slot10 then
-					slot12 = slot10
-					slot11 = slot10.getPrefab
-					slot11 = slot11(slot12)
-					slot8 = slot11
-					slot12 = slot10
-					slot11 = slot10.getAttachmentPrefab
-					slot11 = slot11(slot12)
-					slot9 = slot11
-				end
-			end
+			slot9(slot10, slot11)
 		end
+	end
 
-		if slot8 then
-			slot11 = slot0
-			slot10 = slot0.getFleetPool
-			slot13 = slot7
-			slot12 = slot7.getFleetType
-			slot10 = slot10(slot11, slot12(slot13))
-			slot12 = slot10
-			slot11 = slot10.Dequeue
-			slot11 = slot11(slot12)
-			slot12 = "cell_fleet_"
-			slot13 = slot8
-			slot12 = slot12 .. slot13
-			slot11.name = slot12
-			slot12 = slot11.transform
-			slot13 = Vector3
-			slot14 = slot1.theme
-			slot14 = slot14.angle
-			slot14 = -slot14
-			slot15 = 0
-			slot16 = 0
-			slot13 = slot13(slot14, slot15, slot16)
-			slot12.localEulerAngles = slot13
-			slot12 = setParent
-			slot13 = slot11
-			slot14 = slot0.cellRoot
-			slot15 = false
+	slot4 = pairs
+	slot5 = slot3
+	slot4, slot5, slot6 = slot4(slot5)
 
-			slot12(slot13, slot14, slot15)
+	for slot7, slot8 in slot4, slot5, slot6 do
+		slot10 = slot0
+		slot9 = slot0.ClearFleetCell
+		slot11 = slot8
 
-			slot12 = setActive
-			slot13 = slot11
-			slot14 = true
+		slot9(slot10, slot11)
+	end
 
-			slot12(slot13, slot14)
+	slot4 = pairs
+	slot5 = slot1.fleets
+	slot4, slot5, slot6 = slot4(slot5)
 
-			slot13 = slot7
-			slot12 = slot7.getFleetType
-			slot12 = slot12(slot13)
-			slot13 = FleetType
-			slot13 = slot13.Transport
+	for slot7, slot8 in slot4, slot5, slot6 do
+		slot9 = slot0.cellFleets
+		slot10 = slot8.id
+		slot9 = slot9[slot10]
 
-			if slot12 == slot13 then
-				slot12 = slot0.cellFleets
-				slot13 = TransportCellView
-				slot13 = slot13.New
-				slot14 = slot11
-				slot13 = slot13(slot14)
-				slot12[slot6] = slot13
-			else
-				slot13 = slot7
-				slot12 = slot7.getFleetType
-				slot12 = slot12(slot13)
-				slot13 = FleetType
-				slot13 = slot13.Submarine
+		if not slot9 then
+			slot10 = slot0
+			slot9 = slot0.InitFleetCell
+			slot11 = slot8.id
 
-				if slot12 == slot13 then
-					slot12 = slot0.cellFleets
-					slot13 = SubCellView
-					slot13 = slot13.New
-					slot14 = slot11
-					slot13 = slot13(slot14)
-					slot12[slot6] = slot13
-				else
-					slot12 = slot0.cellFleets
-					slot13 = FleetCellView
-					slot13 = slot13.New
-					slot14 = slot11
-					slot13 = slot13(slot14)
-					slot12[slot6] = slot13
-				end
-			end
+			slot9(slot10, slot11)
+		else
+			slot10 = slot0
+			slot9 = slot0.RefreshFleetCell
+			slot11 = slot8.id
 
-			slot12 = slot0.cellFleets
-			slot12 = slot12[slot6]
-			slot14 = slot7
-			slot13 = slot7.getFleetType
-			slot13 = slot13(slot14)
-			slot12.fleetType = slot13
-			slot14 = slot12
-			slot13 = slot12.setLine
-			slot15 = slot7.line
-
-			slot13(slot14, slot15)
-
-			slot14 = slot12
-			slot13 = slot12.setPrefab
-			slot15 = slot8
-
-			slot13(slot14, slot15)
-
-			slot14 = slot12
-			slot13 = slot12.setAttachment
-			slot15 = slot9
-
-			slot13(slot14, slot15)
-
-			slot14 = slot12
-			slot13 = slot12.setAction
-			slot15 = ChapterConst
-			slot15 = slot15.ShipIdleAction
-
-			slot13(slot14, slot15)
-
-			slot14 = slot0
-			slot13 = slot0.updateFleet
-			slot15 = slot6
-
-			slot13(slot14, slot15)
-
-			slot14 = slot12
-			slot13 = slot12.loadSpine
-
-			function slot15()
-				slot0 = slot0
-				slot1 = slot0
-				slot0 = slot0.getModel
-				slot0 = slot0(slot1)
-				slot0 = slot0.transform
-				slot1 = slot1
-				slot1 = slot1.rotation
-				slot0.localRotation = slot1
-				slot0 = slot2
-				slot1 = slot0
-				slot0 = slot0.updateFleet
-				slot2 = slot3
-
-				slot0(slot1, slot2)
-			end
-
-			slot13(slot14, slot15)
+			slot9(slot10, slot11)
 		end
 	end
 end
 
-slot0.initFleets = slot2
+slot0.RefreshFleetCells = slot4
 
-function slot2(slot0, slot1, slot2)
-	slot3 = slot0.cellFleets
-	slot3 = slot3[slot1]
+function slot4(slot0, slot1, slot2)
+	slot3 = slot0.contextData
+	slot3 = slot3.chapterVO
+	slot5 = slot3
+	slot4 = slot3.getFleetById
+	slot6 = slot1
+	slot4 = slot4(slot5, slot6)
+	slot5 = slot0.cellFleets
+	slot5 = slot5[slot1]
+	slot6, slot7 = nil
+	slot9 = slot4
+	slot8 = slot4.isValid
+	slot8 = slot8(slot9)
 
-	if slot3 then
-		slot5 = slot3
-		slot4 = slot3.showPoisonDamage
-		slot6 = slot2
+	if slot8 then
+		slot9 = slot4
+		slot8 = slot4.getFleetType
+		slot8 = slot8(slot9)
+		slot9 = FleetType
+		slot9 = slot9.Transport
 
-		slot4(slot5, slot6)
+		if slot8 == slot9 then
+			slot9 = slot4
+			slot8 = slot4.getPrefab
+			slot8 = slot8(slot9)
+			slot6 = slot8
+		else
+			slot9 = slot3
+			slot8 = slot3.getMapShip
+			slot10 = slot4
+			slot8 = slot8(slot9, slot10)
+
+			if slot8 then
+				slot10 = slot8
+				slot9 = slot8.getPrefab
+				slot9 = slot9(slot10)
+				slot6 = slot9
+				slot10 = slot8
+				slot9 = slot8.getAttachmentPrefab
+				slot9 = slot9(slot10)
+				slot7 = slot9
+			end
+		end
+	end
+
+	if not slot6 then
+		slot9 = slot0
+		slot8 = slot0.ClearFleetCell
+		slot10 = slot1
+
+		slot8(slot9, slot10)
+
+		return
+	end
+
+	slot8 = slot5.go
+	slot9 = "cell_fleet_"
+	slot10 = slot6
+	slot9 = slot9 .. slot10
+	slot8.name = slot9
+	slot10 = slot5
+	slot9 = slot5.setLine
+	slot11 = slot4.line
+
+	slot9(slot10, slot11)
+
+	slot10 = slot5
+	slot9 = slot5.setPrefab
+	slot11 = slot6
+
+	slot9(slot10, slot11)
+
+	slot10 = slot5
+	slot9 = slot5.setAttachment
+	slot11 = slot7
+
+	slot9(slot10, slot11)
+
+	slot10 = slot5
+	slot9 = slot5.loadSpine
+
+	function slot11()
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.getModel
+		slot0 = slot0(slot1)
+		slot0 = slot0.transform
+		slot1 = slot1
+		slot1 = slot1.rotation
+		slot0.localRotation = slot1
+		slot0 = slot2
+		slot1 = slot0
+		slot0 = slot0.updateFleet
+		slot2 = slot3
+
+		slot0(slot1, slot2)
+
+		slot0 = slot4
+
+		if slot0 then
+			slot0 = slot4
+
+			slot0()
+		end
+	end
+
+	slot9(slot10, slot11)
+end
+
+slot0.RefreshFleetCell = slot4
+
+function slot4(slot0)
+	slot1 = slot0.cellFleets
+
+	if slot1 then
+		slot1 = pairs
+		slot2 = slot0.cellFleets
+		slot1, slot2, slot3 = slot1(slot2)
+
+		for slot4, slot5 in slot1, slot2, slot3 do
+			slot7 = slot0
+			slot6 = slot0.ClearFleetCell
+			slot8 = slot4
+
+			slot6(slot7, slot8)
+		end
+
+		slot1 = nil
+		slot0.cellFleets = slot1
 	end
 end
 
-slot0.showFleetPoisonDamage = slot2
+slot0.clearFleets = slot4
 
-function slot2(slot0)
+function slot4(slot0, slot1)
+	slot2 = slot0.cellFleets
+	slot2 = slot2[slot1]
+
+	if not slot2 then
+		return
+	end
+
+	slot4 = slot2
+	slot3 = slot2.clear
+
+	slot3(slot4)
+
+	slot3 = LeanTween
+	slot3 = slot3.cancel
+	slot4 = slot2.go
+
+	slot3(slot4)
+
+	slot3 = setActive
+	slot4 = slot2.go
+	slot5 = false
+
+	slot3(slot4, slot5)
+
+	slot3 = setParent
+	slot4 = slot2.go
+	slot5 = slot0.poolParent
+	slot6 = false
+
+	slot3(slot4, slot5, slot6)
+
+	slot4 = slot0
+	slot3 = slot0.getFleetPool
+	slot5 = slot2.fleetType
+	slot3 = slot3(slot4, slot5)
+	slot5 = slot3
+	slot4 = slot3.Enqueue
+	slot6 = slot2.go
+	slot7 = false
+
+	slot4(slot5, slot6, slot7)
+
+	slot4 = slot0.opBtns
+	slot4 = slot4[slot1]
+
+	if slot4 then
+		slot4 = Destroy
+		slot5 = slot0.opBtns
+		slot5 = slot5[slot1]
+		slot5 = slot5.gameObject
+
+		slot4(slot5)
+
+		slot4 = slot0.opBtns
+		slot5 = nil
+		slot4[slot1] = slot5
+	end
+
+	slot4 = slot0.cellFleets
+	slot5 = nil
+	slot4[slot1] = slot5
+end
+
+slot0.ClearFleetCell = slot4
+
+function slot4(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
-	slot2 = ipairs
+	slot2 = pairs
 	slot3 = slot1.fleets
 	slot2, slot3, slot4 = slot2(slot3)
 
 	for slot5, slot6 in slot2, slot3, slot4 do
 		slot8 = slot0
 		slot7 = slot0.updateFleet
-		slot9 = slot5
+		slot9 = slot6.id
 
 		slot7(slot8, slot9)
 	end
-
-	slot2 = pairs
-	slot3 = slot0.opBtns
-	slot2, slot3, slot4 = slot2(slot3)
-
-	for slot5, slot6 in slot2, slot3, slot4 do
-		slot7 = slot1.fleets
-		slot7 = slot7[slot5]
-
-		if not slot7 then
-			slot7 = setActive
-			slot8 = slot6
-			slot9 = false
-
-			slot7(slot8, slot9)
-		end
-	end
 end
 
-slot0.updateFleets = slot2
+slot0.updateFleets = slot4
 
-function slot2(slot0, slot1)
+function slot4(slot0, slot1)
 	slot2 = slot0.contextData
 	slot2 = slot2.chapterVO
 	slot4 = slot2
@@ -1573,8 +1943,10 @@ function slot2(slot0, slot1)
 	slot3 = slot3(slot4)
 	slot4 = slot0.cellFleets
 	slot4 = slot4[slot1]
-	slot5 = slot2.fleets
-	slot5 = slot5[slot1]
+	slot6 = slot2
+	slot5 = slot2.getFleetById
+	slot7 = slot1
+	slot5 = slot5(slot6, slot7)
 
 	if slot4 then
 		slot6 = slot5.line
@@ -1597,8 +1969,8 @@ function slot2(slot0, slot1)
 			slot9, slot10 = slot2:existEnemy(ChapterConst.SubjectPlayer, slot6.row, slot6.column)
 
 			setActive(slot4.tfShadow, not slot9 and not slot2:existFleet(FleetType.Transport, slot6.row, slot6.column))
-			setActive(slot4.tfShip, not slot9 and not slot2.existFleet(FleetType.Transport, slot6.row, slot6.column))
-			setActive(slot4.tfArrow, setActive)
+			slot0:SetSpineVisible(slot4.tfShip, not slot9 and not slot2.existFleet(FleetType.Transport, slot6.row, slot6.column))
+			setActive(slot4.tfArrow, slot0.SetSpineVisible)
 			setActive(slot4.tfOp, false)
 
 			slot13 = slot0.opBtns[slot1]
@@ -1651,44 +2023,50 @@ function slot2(slot0, slot1)
 			slot18 = "retreat"
 			slot16 = slot16(slot17, slot18)
 
-			if slot12 and slot7 and slot9 then
-				slot17 = ChapterConst
-				slot17 = slot17.AttachBoss
+			if slot12 and slot7 then
+				slot17 = slot0.subTeleportMode
 
-				if slot10 ~= slot17 then
-					slot17 = _
-					slot17 = slot17.any
-					slot18 = slot2.fleets
+				if not slot17 then
+					if slot9 then
+						slot17 = ChapterConst
+						slot17 = slot17.AttachBoss
 
-					function slot19(slot0)
-						slot1 = slot0.id
-						slot2 = slot0
-						slot2 = slot2.id
+						if slot10 ~= slot17 then
+							slot17 = _
+							slot17 = slot17.any
+							slot18 = slot2.fleets
 
-						if slot1 ~= slot2 then
-							slot2 = slot0
-							slot1 = slot0.getFleetType
-							slot1 = slot1(slot2)
-							slot2 = FleetType
-							slot2 = slot2.Normal
-
-							if slot1 == slot2 then
+							function slot19(slot0)
+								slot1 = slot0.id
 								slot2 = slot0
-								slot1 = slot0.isValid
-								slot1 = slot1(slot2)
-							end
-						else
-							slot1 = false
+								slot2 = slot2.id
 
-							if false then
-								slot1 = true
+								if slot1 ~= slot2 then
+									slot2 = slot0
+									slot1 = slot0.getFleetType
+									slot1 = slot1(slot2)
+									slot2 = FleetType
+									slot2 = slot2.Normal
+
+									if slot1 == slot2 then
+										slot2 = slot0
+										slot1 = slot0.isValid
+										slot1 = slot1(slot2)
+									end
+								else
+									slot1 = false
+
+									if false then
+										slot1 = true
+									end
+								end
+
+								return slot1
 							end
+
+							slot17 = slot17(slot18, slot19)
 						end
-
-						return slot1
 					end
-
-					slot17 = slot17(slot18, slot19)
 				else
 					slot17 = false
 
@@ -1706,12 +2084,16 @@ function slot2(slot0, slot1)
 			slot18 = "escape"
 			slot16 = slot16(slot17, slot18)
 
-			if slot12 and slot7 and slot9 then
-				slot15(slot16, slot10 == ChapterConst.AttachBoss)
+			if slot12 and slot7 then
+				slot17 = slot0.subTeleportMode
 
-				slot15 = setActive
-				slot16 = slot14
-				slot18 = slot14
+				if not slot17 and slot9 then
+					slot15(slot16, slot10 == ChapterConst.AttachBoss)
+
+					slot15 = setActive
+					slot16 = slot14
+					slot18 = slot14
+				end
 			end
 
 			slot17 = slot14.Find
@@ -1746,8 +2128,13 @@ function slot2(slot0, slot1)
 					slot0 = slot0.isfrozen
 					slot0 = slot0(slot1)
 
-					if slot0 then
-						return
+					if not slot0 then
+						slot0 = slot0
+						slot0 = slot0.subTeleportMode
+
+						if slot0 then
+							return
+						end
 					end
 
 					slot0 = slot1
@@ -2126,25 +2513,34 @@ function slot2(slot0, slot1)
 					slot9 = slot9(slot10, slot11)
 				end
 
-				setActive(slot4.tfShadow, not slot9)
-				setActive(slot4.tfShip, not slot9)
-				setActive(slot4.tfAmmo, slot3 == ChapterConst.TypeNone and not slot9)
+				slot11 = slot4
+				slot10 = slot4.SetActiveModel
+				slot12 = not slot9
 
-				slot11 = slot2
-				slot10 = slot2.getFleetAmmo
-				slot12 = slot5
-				slot10, slot11 = slot10(slot11, slot12)
-				slot12 = slot11
-				slot13 = "/"
-				slot14 = slot10
-				slot12 = slot12 .. slot13 .. slot14
+				slot10(slot11, slot12)
 
-				if slot11 == 0 then
-					slot13 = setColorStr
-					slot14 = slot12
-					slot15 = COLOR_RED
-					slot13 = slot13(slot14, slot15)
-					slot12 = slot13
+				slot10 = setActive
+				slot11 = slot4.tfAmmo
+
+				if not slot9 then
+					slot10(slot11, slot3 == ChapterConst.TypeNone)
+
+					slot11 = slot2
+					slot10 = slot2.getFleetAmmo
+					slot12 = slot5
+					slot10, slot11 = slot10(slot11, slot12)
+					slot12 = slot11
+					slot13 = "/"
+					slot14 = slot10
+					slot12 = slot12 .. slot13 .. slot14
+
+					if slot11 == 0 then
+						slot13 = setColorStr
+						slot14 = slot12
+						slot15 = COLOR_RED
+						slot13 = slot13(slot14, slot15)
+						slot12 = slot13
+					end
 				end
 
 				slot13 = setText
@@ -2223,79 +2619,9 @@ function slot2(slot0, slot1)
 	end
 end
 
-slot0.updateFleet = slot2
+slot0.updateFleet = slot4
 
-function slot2(slot0)
-	slot1 = slot0.cellFleets
-
-	if slot1 then
-		slot1 = slot0.contextData
-		slot1 = slot1.chapterVO
-		slot2 = ipairs
-		slot3 = slot0.cellFleets
-		slot2, slot3, slot4 = slot2(slot3)
-
-		for slot5, slot6 in slot2, slot3, slot4 do
-			if slot6 then
-				slot8 = slot6
-				slot7 = slot6.clear
-
-				slot7(slot8)
-
-				slot7 = LeanTween
-				slot7 = slot7.cancel
-				slot8 = slot6.go
-
-				slot7(slot8)
-
-				slot7 = setActive
-				slot8 = slot6.go
-				slot9 = false
-
-				slot7(slot8, slot9)
-
-				slot7 = setParent
-				slot8 = slot6.go
-				slot9 = slot0.poolParent
-				slot10 = false
-
-				slot7(slot8, slot9, slot10)
-
-				slot8 = slot0
-				slot7 = slot0.getFleetPool
-				slot9 = slot6.fleetType
-				slot7 = slot7(slot8, slot9)
-				slot9 = slot7
-				slot8 = slot7.Enqueue
-				slot10 = slot6.go
-				slot11 = false
-
-				slot8(slot9, slot10, slot11)
-			end
-		end
-
-		slot2 = nil
-		slot0.cellFleets = slot2
-	end
-
-	slot1 = pairs
-	slot2 = slot0.opBtns
-	slot1, slot2, slot3 = slot1(slot2)
-
-	for slot4, slot5 in slot1, slot2, slot3 do
-		slot6 = Destroy
-		slot7 = slot5.gameObject
-
-		slot6(slot7)
-	end
-
-	slot1 = {}
-	slot0.opBtns = slot1
-end
-
-slot0.clearFleets = slot2
-
-function slot2(slot0)
+function slot4(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot2 = cloneTplTo
@@ -2319,9 +2645,9 @@ function slot2(slot0)
 	slot2(slot3, slot4)
 end
 
-slot0.initTargetArrow = slot2
+slot0.initTargetArrow = slot4
 
-function slot2(slot0, slot1)
+function slot4(slot0, slot1)
 	slot2 = slot0.contextData
 	slot2 = slot2.chapterVO
 	slot3 = ChapterCell
@@ -2383,9 +2709,9 @@ function slot2(slot0, slot1)
 	end
 end
 
-slot0.updateTargetArrow = slot2
+slot0.updateTargetArrow = slot4
 
-function slot2(slot0)
+function slot4(slot0)
 	slot1 = IsNil
 	slot2 = slot0.arrowTarget
 	slot1 = slot1(slot2)
@@ -2401,9 +2727,148 @@ function slot2(slot0)
 	end
 end
 
-slot0.clearTargetArrow = slot2
+slot0.clearTargetArrow = slot4
 
-function slot2(slot0)
+function slot4(slot0)
+	slot1 = pg
+	slot1 = slot1.PoolMgr
+	slot2 = slot1
+	slot1 = slot1.GetInstance
+	slot1 = slot1(slot2)
+	slot2 = slot1
+	slot1 = slot1.GetPrefab
+	slot3 = "leveluiview/tpl_destination_mark"
+	slot4 = "tpl_destination_mark"
+	slot5 = true
+
+	function slot6(slot0)
+		slot1 = setActive
+		slot2 = slot0
+		slot3 = false
+
+		slot1(slot2, slot3)
+
+		slot1 = setParent
+		slot2 = slot0
+		slot3 = slot0
+		slot3 = slot3._tf
+
+		slot1(slot2, slot3)
+
+		slot1 = slot0
+		slot1 = slot1.contextData
+		slot1 = slot1.chapterVO
+		slot2 = tf
+		slot3 = slot0
+		slot2 = slot2(slot3)
+		slot3 = Vector3
+		slot4 = slot1.theme
+		slot4 = slot4.angle
+		slot4 = -slot4
+		slot5 = 0
+		slot6 = 0
+		slot3 = slot3(slot4, slot5, slot6)
+		slot2.localEulerAngles = slot3
+		slot2 = slot0
+		slot3 = tf
+		slot4 = slot0
+		slot3 = slot3(slot4)
+		slot2.destinationMark = slot3
+	end
+
+	slot1 = slot1(slot2, slot3, slot4, slot5, slot6)
+end
+
+slot0.InitDestinationMark = slot4
+
+function slot4(slot0, slot1)
+	if not slot1 then
+		slot2 = slot0.destinationMark
+		slot3 = slot2
+		slot2 = slot2.SetParent
+		slot4 = slot0._tf
+
+		slot2(slot3, slot4)
+
+		slot2 = go
+		slot3 = slot0.destinationMark
+		slot2 = slot2(slot3)
+		slot3 = slot2
+		slot2 = slot2.SetActive
+		slot4 = false
+
+		slot2(slot3, slot4)
+
+		return
+	end
+
+	slot2 = go
+	slot3 = slot0.destinationMark
+	slot2 = slot2(slot3)
+	slot3 = slot2
+	slot2 = slot2.SetActive
+	slot4 = true
+
+	slot2(slot3, slot4)
+
+	slot2 = slot0.contextData
+	slot2 = slot2.chapterVO
+	slot3 = ChapterCell
+	slot3 = slot3.Line2Name
+	slot4 = slot1.row
+	slot5 = slot1.column
+	slot3 = slot3(slot4, slot5)
+	slot4 = slot0.cellRoot
+	slot5 = slot4
+	slot4 = slot4.Find
+	slot6 = slot3
+	slot4 = slot4(slot5, slot6)
+	slot5 = slot0.destinationMark
+	slot6 = slot5
+	slot5 = slot5.SetParent
+	slot7 = slot4
+
+	slot5(slot6, slot7)
+
+	slot5 = slot0.destinationMark
+	slot6 = Vector3
+	slot7 = 0
+	slot8 = 40
+	slot9 = -40
+	slot6 = slot6(slot7, slot8, slot9)
+	slot5.localPosition = slot6
+end
+
+slot0.UpdateDestinationMark = slot4
+
+function slot4(slot0)
+	slot1 = IsNil
+	slot2 = slot0.destinationMark
+	slot1 = slot1(slot2)
+
+	if not slot1 then
+		slot1 = pg
+		slot1 = slot1.PoolMgr
+		slot2 = slot1
+		slot1 = slot1.GetInstance
+		slot1 = slot1(slot2)
+		slot2 = slot1
+		slot1 = slot1.ReturnPrefab
+		slot3 = "leveluiview/tpl_destination_mark"
+		slot4 = "tpl_destination_mark"
+		slot5 = go
+		slot6 = slot0.destinationMark
+
+		slot1(slot2, slot3, slot4, slot5(slot6))
+
+		slot1 = nil
+		slot0.destinationMark = slot1
+	end
+end
+
+slot0.ClearDestinationMark = slot4
+
+function slot4(slot0)
 	slot1 = slot0.cellChampions
 
 	if slot1 then
@@ -2555,9 +3020,9 @@ function slot2(slot0)
 	end
 end
 
-slot0.initChampions = slot2
+slot0.initChampions = slot4
 
-function slot2(slot0)
+function slot4(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot2 = ipairs
@@ -2573,9 +3038,9 @@ function slot2(slot0)
 	end
 end
 
-slot0.updateChampions = slot2
+slot0.updateChampions = slot4
 
-function slot2(slot0, slot1)
+function slot4(slot0, slot1)
 	slot2 = slot0.contextData
 	slot2 = slot2.chapterVO
 	slot3 = slot0.cellChampions
@@ -2622,6 +3087,185 @@ function slot2(slot0, slot1)
 			slot10 = true
 
 			slot6(slot7, slot8, slot9, slot10)
+		else
+			setActive(slot3.tfFighting, slot5)
+			setActive(slot3.tfEffectFound, slot4.trait == ChapterConst.TraitVirgin)
+			setActive(slot3.tfDamageCount, slot4.data > 0)
+
+			slot6 = setActive
+			slot8 = slot3.tf
+			slot7 = slot3.tf.Find
+			slot9 = "huoqiubaozha"
+			slot7 = slot7(slot8, slot9)
+			slot8 = false
+
+			slot6(slot7, slot8)
+
+			slot6 = slot4.trait
+			slot7 = ChapterConst
+			slot7 = slot7.TraitVirgin
+
+			if slot6 == slot7 then
+				slot6 = playSoundEffect
+				slot7 = SFX_UI_WEIGHANCHOR_ENEMY
+
+				slot6(slot7)
+			end
+
+			slot7 = slot3
+			slot6 = slot3.getModel
+			slot6 = slot6(slot7)
+
+			if slot6 then
+				slot8 = slot6
+				slot7 = slot6.GetComponent
+				slot9 = "SkeletonGraphic"
+				slot7 = slot7(slot8, slot9)
+				slot9 = slot0
+				slot8 = slot0.isHuntingRangeVisible
+				slot8 = slot8(slot9)
+
+				if slot8 then
+					slot8 = _
+					slot8 = slot8.any
+					slot9 = slot2.fleets
+
+					function slot10(slot0)
+						slot2 = slot0
+						slot1 = slot0.getFleetType
+						slot1 = slot1(slot2)
+						slot2 = FleetType
+						slot2 = slot2.Submarine
+
+						if slot1 == slot2 then
+							slot2 = slot0
+							slot1 = slot0.isValid
+							slot1 = slot1(slot2)
+
+							if slot1 then
+								slot2 = slot0
+								slot1 = slot0.inHuntingRange
+								slot3 = slot0
+								slot3 = slot3.row
+								slot4 = slot0
+								slot4 = slot4.column
+								slot1 = slot1(slot2, slot3, slot4)
+							end
+						else
+							slot1 = false
+
+							if false then
+								slot1 = true
+							end
+						end
+
+						return slot1
+					end
+
+					slot8 = slot8(slot9, slot10)
+				end
+
+				if slot8 then
+					slot9 = slot0.championTws
+					slot9 = slot9[slot1]
+
+					if not slot9 then
+						slot9 = _
+						slot9 = slot9.values
+						slot10 = slot0.championTws
+						slot9 = slot9(slot10)
+						slot9 = slot9[1]
+
+						if slot9 then
+							slot10 = slot9.tw.passed or 0
+
+							if slot9 then
+								slot11 = slot9.tw.direction or 1
+							end
+						end
+					end
+				else
+					slot9 = slot0.championTws
+					slot9 = slot9[slot1]
+
+					if slot9 then
+						slot9 = LeanTween
+						slot9 = slot9.cancel
+						slot10 = slot0.championTws
+						slot10 = slot10[slot1]
+						slot10 = slot10.uniqueId
+
+						slot9(slot10)
+
+						slot9 = slot0.championTws
+						slot10 = nil
+						slot9[slot1] = slot10
+						slot9 = Color
+						slot9 = slot9.white
+						slot7.color = slot9
+					end
+				end
+			end
+		end
+
+		slot5 = slot3.tf
+		slot6 = slot5
+		slot5 = slot5.Find
+		slot7 = "shadow"
+		slot5 = slot5(slot6, slot7)
+		slot6 = Vector3
+		slot7 = slot2.theme
+		slot7 = slot7.angle
+		slot8 = 0
+		slot9 = 0
+		slot6 = slot6(slot7, slot8, slot9)
+		slot5.localEulerAngles = slot6
+		slot5 = slot3.tf
+		slot6 = slot2.theme
+		slot7 = slot6
+		slot6 = slot6.GetLinePosition
+		slot8 = slot4.row
+		slot9 = slot4.column
+		slot6 = slot6(slot7, slot8, slot9)
+		slot5.localPosition = slot6
+		slot6 = slot3
+		slot5 = slot3.setLine
+		slot7 = {}
+		slot8 = slot4.row
+		slot7.row = slot8
+		slot8 = slot4.column
+		slot7.column = slot8
+
+		slot5(slot6, slot7)
+
+		slot5 = setActive
+		slot6 = slot3.tf
+		slot7 = slot4.trait
+		slot8 = ChapterConst
+		slot8 = slot8.TraitLurk
+
+		if slot7 ~= slot8 then
+			slot8 = slot2
+			slot7 = slot2.getChampionVisibility
+			slot9 = slot4
+			slot7 = slot7(slot8, slot9)
+
+			if slot7 then
+				slot8 = slot2
+				slot7 = slot2.existFleet
+				slot9 = FleetType
+				slot9 = slot9.Transport
+				slot10 = slot4.row
+				slot11 = slot4.column
+				slot7 = slot7(slot8, slot9, slot10, slot11)
+				slot7 = not slot7
+			end
+		else
+			slot7 = false
+
+			if false then
+				slot7 = true
+			end
 		end
 
 		slot5(slot6, slot7)
@@ -2633,9 +3277,9 @@ function slot2(slot0, slot1)
 	end
 end
 
-slot0.updateChampion = slot2
+slot0.updateChampion = slot4
 
-function slot2(slot0)
+function slot4(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot2 = nil
@@ -2664,9 +3308,9 @@ function slot2(slot0)
 	end
 end
 
-slot0.updateOni = slot2
+slot0.updateOni = slot4
 
-function slot2(slot0)
+function slot4(slot0)
 	slot1 = slot0.cellChampions
 
 	if slot1 then
@@ -2748,9 +3392,9 @@ function slot2(slot0)
 	end
 end
 
-slot0.clearChampions = slot2
+slot0.clearChampions = slot4
 
-function slot2(slot0)
+function slot4(slot0)
 	slot1 = slot0.sortFunc
 
 	if not slot1 then
@@ -2769,23 +3413,19 @@ function slot2(slot0)
 			slot1 = slot1.cellFleets
 
 			if slot1 then
-				slot1 = _
-				slot1 = slot1.each
+				slot1 = pairs
 				slot2 = slot0
 				slot2 = slot2.cellFleets
+				slot1, slot2, slot3 = slot1(slot2)
 
-				function slot3(slot0)
-					if slot0 then
-						slot1 = table
-						slot1 = slot1.insert
-						slot2 = slot0
-						slot3 = slot0
+				for slot4, slot5 in slot1, slot2, slot3 do
+					slot6 = table
+					slot6 = slot6.insert
+					slot7 = slot0
+					slot8 = slot5
 
-						slot1(slot2, slot3)
-					end
+					slot6(slot7, slot8)
 				end
-
-				slot1(slot2, slot3)
 			end
 
 			slot1 = slot0
@@ -2921,9 +3561,9 @@ function slot2(slot0)
 	slot1()
 end
 
-slot0.sortItems = slot2
+slot0.sortItems = slot4
 
-function slot2(slot0, slot1, slot2)
+function slot4(slot0, slot1, slot2)
 	slot3 = slot0.contextData
 	slot3 = slot3.chapterVO
 	slot5 = slot3
@@ -3155,27 +3795,34 @@ function slot2(slot0, slot1, slot2)
 					slot1 = ChapterConst
 					slot1 = slot1.QuadStateStrategy
 
-					if slot0 == slot1 then
+					if slot0 ~= slot1 then
 						slot0 = slot0
-						slot0 = slot0.quadClickProxy
+						slot0 = slot0.quadState
+						slot1 = ChapterConst
+						slot1 = slot1.QuadStateTeleportSub
 
-						if slot0 then
+						if slot0 == slot1 then
 							slot0 = slot0
 							slot0 = slot0.quadClickProxy
-							slot1 = slot1
 
-							slot0(slot1)
-						end
-					else
-						slot0 = slot0
-						slot0 = slot0.onCellClick
+							if slot0 then
+								slot0 = slot0
+								slot0 = slot0.quadClickProxy
+								slot1 = slot1
 
-						if slot0 then
+								slot0(slot1)
+							end
+						else
 							slot0 = slot0
 							slot0 = slot0.onCellClick
-							slot1 = slot1
 
-							slot0(slot1)
+							if slot0 then
+								slot0 = slot0
+								slot0 = slot0.onCellClick
+								slot1 = slot1
+
+								slot0(slot1)
+							end
 						end
 					end
 				end
@@ -3188,9 +3835,9 @@ function slot2(slot0, slot1, slot2)
 	end
 end
 
-slot0.initCell = slot2
+slot0.initCell = slot4
 
-function slot2(slot0, slot1, slot2)
+function slot4(slot0, slot1, slot2)
 	slot3 = slot0.contextData
 	slot3 = slot3.chapterVO
 	slot5 = slot3
@@ -3438,9 +4085,9 @@ function slot2(slot0, slot1, slot2)
 	end
 end
 
-slot0.clearCell = slot2
+slot0.clearCell = slot4
 
-function slot2(slot0)
+function slot4(slot0)
 	slot1 = 0
 	slot2 = ChapterConst
 	slot2 = slot2.MaxRow
@@ -3482,9 +4129,9 @@ function slot2(slot0)
 	slot1(slot2)
 end
 
-slot0.updateAttachments = slot2
+slot0.updateAttachments = slot4
 
-function slot2(slot0)
+function slot4(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot2 = slot1.cells
@@ -3527,9 +4174,10 @@ function slot2(slot0)
 	slot10 = 110
 	slot11 = 110
 	slot9 = slot9(slot10, slot11)
-	slot10 = true
+	slot10 = nil
+	slot11 = true
 
-	slot4(slot5, slot6, slot7, slot8, slot9, slot10)
+	slot4(slot5, slot6, slot7, slot8, slot9, slot10, slot11)
 
 	slot5 = slot0
 	slot4 = slot0.updatePoisonArea
@@ -3537,9 +4185,9 @@ function slot2(slot0)
 	slot4(slot5)
 end
 
-slot0.updateCellFlagList = slot2
+slot0.updateCellFlagList = slot4
 
-function slot2(slot0)
+function slot4(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot2 = slot1.cellAttachments
@@ -3805,9 +4453,9 @@ function slot2(slot0)
 	end
 end
 
-slot0.updateExtraAttachments = slot2
+slot0.updateExtraAttachments = slot4
 
-function slot2(slot0, slot1)
+function slot4(slot0, slot1)
 	slot2 = slot0.contextData
 	slot2 = slot2.chapterVO
 	slot4 = slot2
@@ -3951,14 +4599,22 @@ function slot2(slot0, slot1)
 						slot1 = slot0.line
 						slot1 = slot1.row
 						slot2 = slot0
-						slot1 = slot0.line
-						slot1 = slot1.row
-						slot2 = slot1
-						slot1 = slot0.line
-						slot1 = slot1.column
-						slot2 = slot2
 
-						return slot0.line.column <= slot3
+						if slot2 <= slot1 then
+							slot1 = slot0.line
+							slot1 = slot1.row
+							slot2 = slot1
+
+							if slot1 <= slot2 then
+								slot1 = slot0.line
+								slot1 = slot1.column
+								slot2 = slot2
+
+								if slot2 <= slot1 then
+									return slot0.line.column <= slot3
+								end
+							end
+						end
 					end
 				end
 
@@ -4065,9 +4721,9 @@ function slot2(slot0, slot1)
 	end
 end
 
-slot0.updateAreaAttachment = slot2
+slot0.updateAreaAttachment = slot4
 
-function slot2(slot0, slot1, slot2)
+function slot4(slot0, slot1, slot2)
 	slot3 = slot0.contextData
 	slot3 = slot3.chapterVO
 	slot5 = slot3
@@ -4599,38 +5255,36 @@ function slot2(slot0, slot1, slot2)
 											tw = slot19,
 											uniqueId = slot19.uniqueId
 										}
-
-										if false then
-											slot16 = slot0.attachTws
-											slot16 = slot16[slot5]
-
-											if slot16 then
-												slot16 = LeanTween
-												slot16 = slot16.cancel
-												slot17 = slot0.attachTws
-												slot17 = slot17[slot5]
-												slot17 = slot17.uniqueId
-
-												slot16(slot17)
-
-												slot16 = slot0.attachTws
-												slot17 = nil
-												slot16[slot5] = slot17
-
-												if slot13 then
-													slot16 = setImageColor
-													slot17 = findTF
-													slot18 = slot13
-													slot19 = "icon"
-													slot17 = slot17(slot18, slot19)
-													slot18 = Color
-													slot18 = slot18.white
-
-													slot16(slot17, slot18)
-												end
-											end
-										end
 									end
+								end
+							end
+						else
+							slot16 = slot0.attachTws
+							slot16 = slot16[slot5]
+
+							if slot16 then
+								slot16 = LeanTween
+								slot16 = slot16.cancel
+								slot17 = slot0.attachTws
+								slot17 = slot17[slot5]
+								slot17 = slot17.uniqueId
+
+								slot16(slot17)
+
+								slot16 = slot0.attachTws
+								slot17 = nil
+								slot16[slot5] = slot17
+
+								if slot13 then
+									slot16 = setImageColor
+									slot17 = findTF
+									slot18 = slot13
+									slot19 = "icon"
+									slot17 = slot17(slot18, slot19)
+									slot18 = Color
+									slot18 = slot18.white
+
+									slot16(slot17, slot18)
 								end
 							end
 						end
@@ -5636,253 +6290,319 @@ function slot2(slot0, slot1, slot2)
 	end
 end
 
-slot0.updateAttachment = slot2
+slot0.updateAttachment = slot4
 
-function slot2(slot0, slot1, ...)
+function slot4(slot0, slot1, ...)
 	if not slot1 then
 		slot2 = ChapterConst
-		slot2 = slot2.QuadStateNormal
+		slot1 = slot2.QuadStateNormal
 	end
 
-	slot0.quadState = slot2
-	slot2 = slot0.contextData
-	slot2 = slot2.chapterVO
-	slot3 = slot2.fleet
+	slot2 = slot0.subTeleportMode
 
-	if slot3 == nil then
+	if slot2 then
+		slot2 = ChapterConst
+		slot1 = slot2.QuadStateTeleportSub
+	end
+
+	slot0.quadState = slot1
+	slot3 = slot0
+	slot2 = slot0.updateQuadBase
+
+	slot2(slot3)
+
+	slot2 = ChapterConst
+	slot2 = slot2.QuadStateTeleportSub
+
+	if slot1 == slot2 then
+		slot3 = slot0
+		slot2 = slot0.UpdateQuadStateTeleportSub
+
+		slot2(slot3, ...)
+	else
+		slot2 = ChapterConst
+		slot2 = slot2.QuadStateFrozen
+
+		if slot1 == slot2 then
+			slot2 = slot0.contextData
+			slot2 = slot2.chapterVO
+			slot4 = slot2
+			slot3 = slot2.isPlayingWithBombEnemy
+			slot3 = slot3(slot4)
+
+			if slot3 then
+				slot4 = slot0
+				slot3 = slot0.hideQuadMark
+				slot5 = ChapterConst
+				slot5 = slot5.MarkBomb
+
+				slot3(slot4, slot5)
+			end
+		else
+			slot2 = ChapterConst
+			slot2 = slot2.QuadStateNormal
+
+			if slot1 == slot2 then
+				slot3 = slot0
+				slot2 = slot0.UpdateQuadStateNormal
+
+				slot2(slot3)
+			else
+				slot2 = ChapterConst
+				slot2 = slot2.QuadStateStrategy
+
+				if slot1 == slot2 then
+					slot3 = slot0
+					slot2 = slot0.UpdateQuadStateStrategy
+
+					slot2(slot3, ...)
+				end
+			end
+		end
+	end
+end
+
+slot0.updateQuadCells = slot4
+
+function slot4(slot0)
+	slot1 = slot0.contextData
+	slot1 = slot1.chapterVO
+	slot2 = slot1.fleet
+
+	if slot2 == nil then
 		return
 	end
 
-	slot4 = 0
-	slot5 = ChapterConst
-	slot5 = slot5.MaxRow
-	slot5 = slot5 - 1
-	slot6 = 1
+	slot3 = 0
+	slot4 = ChapterConst
+	slot4 = slot4.MaxRow
+	slot4 = slot4 - 1
+	slot5 = 1
 
-	for slot7 = slot4, slot5, slot6 do
-		slot8 = 0
-		slot9 = ChapterConst
-		slot9 = slot9.MaxColumn
-		slot9 = slot9 - 1
-		slot10 = 1
+	for slot6 = slot3, slot4, slot5 do
+		slot7 = 0
+		slot8 = ChapterConst
+		slot8 = slot8.MaxColumn
+		slot8 = slot8 - 1
+		slot9 = 1
 
-		for slot11 = slot8, slot9, slot10 do
-			slot13 = slot2
-			slot12 = slot2.getChapterCell
-			slot14 = slot7
-			slot15 = slot11
-			slot12 = slot12(slot13, slot14, slot15)
+		for slot10 = slot7, slot8, slot9 do
+			slot12 = slot1
+			slot11 = slot1.getChapterCell
+			slot13 = slot6
+			slot14 = slot10
+			slot11 = slot11(slot12, slot13, slot14)
 
-			if slot12 then
-				slot13 = slot12.walkable
+			if slot11 then
+				slot12 = slot11.walkable
 
-				if slot13 then
-					slot13 = ChapterCell
-					slot13 = slot13.Line2QuadName
-					slot14 = slot7
-					slot15 = slot11
+				if slot12 then
+					slot12 = ChapterCell
+					slot12 = slot12.Line2QuadName
+					slot13 = slot6
+					slot14 = slot10
+					slot12 = slot12(slot13, slot14)
+					slot13 = slot0.quadRoot
+					slot14 = slot13
+					slot13 = slot13.Find
+					slot15 = slot12
 					slot13 = slot13(slot14, slot15)
-					slot14 = slot0.quadRoot
-					slot15 = slot14
-					slot14 = slot14.Find
-					slot16 = slot13
+					slot14 = Vector3
+					slot14 = slot14.one
+					slot13.localScale = slot14
+					slot15 = slot1
+					slot14 = slot1.getQuadCellPic
+					slot16 = slot11
 					slot14 = slot14(slot15, slot16)
-					slot15 = Vector3
-					slot15 = slot15.one
-					slot14.localScale = slot15
-					slot16 = slot2
-					slot15 = slot2.getQuadCellPic
-					slot17 = slot12
-					slot15 = slot15(slot16, slot17)
 
-					if slot15 then
-						slot17 = slot0
-						slot16 = slot0.startQuadTween
+					if slot14 then
+						slot16 = slot0
+						slot15 = slot0.startQuadTween
+						slot17 = slot12
 						slot18 = slot13
-						slot19 = slot14
 
-						slot16(slot17, slot18, slot19)
+						slot15(slot16, slot17, slot18)
 					else
-						slot17 = slot0
-						slot16 = slot0.cancelQuadTween
+						slot16 = slot0
+						slot15 = slot0.cancelQuadTween
+						slot17 = slot12
 						slot18 = slot13
-						slot19 = slot14
 
-						slot16(slot17, slot18, slot19)
+						slot15(slot16, slot17, slot18)
 
-						slot16 = setImageAlpha
-						slot17 = slot14
-						slot18 = ChapterConst
-						slot18 = slot18.CellEaseOutAlpha
+						slot15 = setImageAlpha
+						slot16 = slot13
+						slot17 = ChapterConst
+						slot17 = slot17.CellEaseOutAlpha
 
-						slot16(slot17, slot18)
+						slot15(slot16, slot17)
 					end
 
-					slot16 = defaultValue
-					slot17 = slot15
-					slot18 = "cell_normal"
-					slot16 = slot16(slot17, slot18)
-					slot15 = slot16
-					slot16 = setImageSprite
-					slot17 = slot14
-					slot18 = GetSpriteFromAtlas
-					slot19 = "chapter/pic/cellgrid"
-					slot20 = slot15
+					slot15 = defaultValue
+					slot16 = slot14
+					slot17 = "cell_normal"
+					slot15 = slot15(slot16, slot17)
+					slot14 = slot15
+					slot15 = setImageSprite
+					slot16 = slot13
+					slot17 = GetSpriteFromAtlas
+					slot18 = "chapter/pic/cellgrid"
+					slot19 = slot14
 
-					slot16(slot17, slot18(slot19, slot20))
+					slot15(slot16, slot17(slot18, slot19))
 				end
 			end
 		end
 	end
 
-	slot4 = {}
-	slot5 = ChapterConst
-	slot5 = slot5.AttachAreaBoss
-	slot4[1] = slot5
-	slot5 = ipairs
-	slot6 = slot4
-	slot5, slot6, slot7 = slot5(slot6)
+	slot3 = {}
+	slot4 = ChapterConst
+	slot4 = slot4.AttachAreaBoss
+	slot3[1] = slot4
+	slot4 = ipairs
+	slot5 = slot3
+	slot4, slot5, slot6 = slot4(slot5)
 
-	for slot8, slot9 in slot5, slot6, slot7 do
-		slot11 = slot2
-		slot10 = slot2.calcAttachmenArea
-		slot12 = slot9
-		slot10, slot11, slot12, slot13, slot14, slot15 = slot10(slot11, slot12)
-		slot17 = slot2
-		slot16 = slot2.getChapterCell
-		slot18 = slot11
-		slot19 = slot13
-		slot16 = slot16(slot17, slot18, slot19)
+	for slot7, slot8 in slot4, slot5, slot6 do
+		slot10 = slot1
+		slot9 = slot1.calcAttachmenArea
+		slot11 = slot8
+		slot9, slot10, slot11, slot12, slot13, slot14 = slot9(slot10, slot11)
+		slot16 = slot1
+		slot15 = slot1.getChapterCell
+		slot17 = slot10
+		slot18 = slot12
+		slot15 = slot15(slot16, slot17, slot18)
 
-		if slot16 then
-			slot17 = slot16.walkable
+		if slot15 then
+			slot16 = slot15.walkable
 
-			if slot17 then
-				slot17 = ChapterCell
-				slot17 = slot17.MinMaxLine2QuadName
-				slot18 = slot10
-				slot19 = slot12
-				slot20 = slot11
-				slot21 = slot13
-				slot17 = slot17(slot18, slot19, slot20, slot21)
-				slot18 = slot0.quadRoot
-				slot19 = slot18
-				slot18 = slot18.Find
-				slot20 = slot17
-				slot18 = slot18(slot19, slot20)
-				slot19 = IsNil
-				slot20 = slot18
-				slot19 = slot19(slot20)
+			if slot16 then
+				slot16 = ChapterCell
+				slot16 = slot16.MinMaxLine2QuadName
+				slot17 = slot9
+				slot18 = slot11
+				slot19 = slot10
+				slot20 = slot12
+				slot16 = slot16(slot17, slot18, slot19, slot20)
+				slot17 = slot0.quadRoot
+				slot18 = slot17
+				slot17 = slot17.Find
+				slot19 = slot16
+				slot17 = slot17(slot18, slot19)
+				slot18 = IsNil
+				slot19 = slot17
+				slot18 = slot18(slot19)
 
-				if slot19 then
-					slot19 = PoolMgr
-					slot19 = slot19.GetInstance
-					slot19 = slot19()
-					slot20 = slot19
-					slot19 = slot19.GetPrefab
-					slot21 = "chapter/cell_quad"
-					slot22 = "cell_quad"
-					slot23 = false
+				if slot18 then
+					slot18 = PoolMgr
+					slot18 = slot18.GetInstance
+					slot18 = slot18()
+					slot19 = slot18
+					slot18 = slot18.GetPrefab
+					slot20 = "chapter/cell_quad"
+					slot21 = "cell_quad"
+					slot22 = false
 
-					function slot24(slot0)
+					function slot23(slot0)
 						slot1 = slot0.transform
 						slot0 = slot1
 					end
 
-					slot19(slot20, slot21, slot22, slot23, slot24)
+					slot18(slot19, slot20, slot21, slot22, slot23)
 
-					slot18.name = slot17
-					slot20 = slot18
-					slot19 = slot18.SetParent
-					slot21 = slot0.quadRoot
-					slot22 = false
+					slot17.name = slot16
+					slot19 = slot17
+					slot18 = slot17.SetParent
+					slot20 = slot0.quadRoot
+					slot21 = false
+
+					slot18(slot19, slot20, slot21)
+
+					slot18 = ChapterCell
+					slot18 = slot18.Line2QuadName
+					slot19 = slot10
+					slot20 = slot12
+					slot18 = slot18(slot19, slot20)
+					slot19 = slot0.quadRoot
+					slot20 = slot19
+					slot19 = slot19.Find
+					slot21 = slot18
+					slot19 = slot19(slot20, slot21)
+					slot21 = slot17
+					slot20 = slot17.SetSiblingIndex
+					slot23 = slot19
+					slot22 = slot19.GetSiblingIndex
+
+					slot20(slot21, slot22(slot23))
+				end
+
+				slot17.sizeDelta = slot14
+				slot18 = slot1.theme
+				slot19 = slot18
+				slot18 = slot18.GetLinePosition
+				slot20 = slot10
+				slot21 = slot12
+				slot18 = slot18(slot19, slot20, slot21)
+				slot19 = Vector3
+				slot20 = slot13.x
+				slot21 = slot13.y
+				slot22 = 0
+				slot19 = slot19(slot20, slot21, slot22)
+				slot18 = slot18 + slot19
+				slot17.anchoredPosition = slot18
+				slot18 = Vector3
+				slot18 = slot18.one
+				slot17.localScale = slot18
+				slot19 = slot1
+				slot18 = slot1.getQuadCellPic
+				slot20 = slot15
+				slot18 = slot18(slot19, slot20)
+
+				if slot18 then
+					slot20 = slot0
+					slot19 = slot0.startQuadTween
+					slot21 = slot16
+					slot22 = slot17
+
+					slot19(slot20, slot21, slot22)
+				else
+					slot20 = slot0
+					slot19 = slot0.cancelQuadTween
+					slot21 = slot16
+					slot22 = slot17
 
 					slot19(slot20, slot21, slot22)
 
-					slot19 = ChapterCell
-					slot19 = slot19.Line2QuadName
-					slot20 = slot11
-					slot21 = slot13
-					slot19 = slot19(slot20, slot21)
-					slot20 = slot0.quadRoot
-					slot21 = slot20
-					slot20 = slot20.Find
-					slot22 = slot19
-					slot20 = slot20(slot21, slot22)
-					slot22 = slot18
-					slot21 = slot18.SetSiblingIndex
-					slot24 = slot20
-					slot23 = slot20.GetSiblingIndex
+					slot19 = setImageAlpha
+					slot20 = slot17
+					slot21 = ChapterConst
+					slot21 = slot21.CellEaseOutAlpha
 
-					slot21(slot22, slot23(slot24))
+					slot19(slot20, slot21)
 				end
 
-				slot18.sizeDelta = slot15
-				slot19 = slot2.theme
-				slot20 = slot19
-				slot19 = slot19.GetLinePosition
-				slot21 = slot11
-				slot22 = slot13
-				slot19 = slot19(slot20, slot21, slot22)
-				slot20 = Vector3
-				slot21 = slot14.x
-				slot22 = slot14.y
-				slot23 = 0
-				slot20 = slot20(slot21, slot22, slot23)
-				slot19 = slot19 + slot20
-				slot18.anchoredPosition = slot19
-				slot19 = Vector3
-				slot19 = slot19.one
-				slot18.localScale = slot19
-				slot20 = slot2
-				slot19 = slot2.getQuadCellPic
-				slot21 = slot16
+				slot19 = defaultValue
+				slot20 = slot18
+				slot21 = "cell_normal"
 				slot19 = slot19(slot20, slot21)
+				slot18 = slot19
+				slot19 = setImageSprite
+				slot20 = slot17
+				slot21 = GetSpriteFromAtlas
+				slot22 = "chapter/pic/cellgrid"
+				slot23 = slot18
 
-				if slot19 then
-					slot21 = slot0
-					slot20 = slot0.startQuadTween
-					slot22 = slot17
-					slot23 = slot18
-
-					slot20(slot21, slot22, slot23)
-				else
-					slot21 = slot0
-					slot20 = slot0.cancelQuadTween
-					slot22 = slot17
-					slot23 = slot18
-
-					slot20(slot21, slot22, slot23)
-
-					slot20 = setImageAlpha
-					slot21 = slot18
-					slot22 = ChapterConst
-					slot22 = slot22.CellEaseOutAlpha
-
-					slot20(slot21, slot22)
-				end
-
-				slot20 = defaultValue
-				slot21 = slot19
-				slot22 = "cell_normal"
-				slot20 = slot20(slot21, slot22)
-				slot19 = slot20
-				slot20 = setImageSprite
-				slot21 = slot18
-				slot22 = GetSpriteFromAtlas
-				slot23 = "chapter/pic/cellgrid"
-				slot24 = slot19
-
-				slot20(slot21, slot22(slot23, slot24))
+				slot19(slot20, slot21(slot22, slot23))
 			end
 		end
 	end
 
-	slot5 = _
-	slot5 = slot5.any
-	slot6 = slot2.champions
+	slot4 = _
+	slot4 = slot4.any
+	slot5 = slot1.champions
 
-	function slot7(slot0)
+	function slot6(slot0)
 		slot1 = ChapterCell
 		slot1 = slot1.Line2QuadName
 		slot2 = slot0.row
@@ -5960,69 +6680,55 @@ function slot2(slot0, slot1, ...)
 		slot4(slot5, slot6(slot7, slot8))
 	end
 
-	slot5(slot6, slot7)
+	slot4(slot5, slot6)
 
-	slot5 = {}
-	slot6 = "cell_normal"
-	slot7 = slot0.quadState
-	slot8 = ChapterConst
-	slot8 = slot8.QuadStateStrategy
+	slot5 = slot0
+	slot4 = slot0.killPresentTws
 
-	if slot7 == slot8 then
-		slot7 = {
-			...
-		}
-		slot5 = slot7[1]
-		slot8 = slot7[2]
-		slot0.quadClickProxy = slot8
-		slot6 = "cell_barrier_select"
-	else
-		slot7 = slot0.quadState
-		slot8 = ChapterConst
-		slot8 = slot8.QuadStateNormal
+	slot4(slot5)
+end
 
-		if slot7 == slot8 then
-			slot8 = slot2
-			slot7 = slot2.existMoveLimit
-			slot7 = slot7(slot8)
+slot0.updateQuadBase = slot4
 
-			if slot7 then
-				slot8 = slot2
-				slot7 = slot2.checkAnyInteractive
-				slot7 = slot7(slot8)
+function slot4(slot0)
+	slot1 = slot0.contextData
+	slot1 = slot1.chapterVO
+	slot2 = slot1.fleet
+	slot3 = {}
+	slot5 = slot1
+	slot4 = slot1.existMoveLimit
+	slot4 = slot4(slot5)
 
-				if not slot7 then
-					slot8 = slot2
-					slot7 = slot2.calcWalkableCells
-					slot9 = ChapterConst
-					slot9 = slot9.SubjectPlayer
-					slot10 = slot3.line
-					slot10 = slot10.row
-					slot11 = slot3.line
-					slot11 = slot11.column
-					slot13 = slot3
-					slot12 = slot3.getSpeed
-					slot7 = slot7(slot8, slot9, slot10, slot11, slot12(slot13))
-					slot5 = slot7
-				end
-			end
+	if slot4 then
+		slot5 = slot1
+		slot4 = slot1.checkAnyInteractive
+		slot4 = slot4(slot5)
+
+		if not slot4 then
+			slot5 = slot1
+			slot4 = slot1.calcWalkableCells
+			slot6 = ChapterConst
+			slot6 = slot6.SubjectPlayer
+			slot7 = slot2.line
+			slot7 = slot7.row
+			slot8 = slot2.line
+			slot8 = slot8.column
+			slot10 = slot2
+			slot9 = slot2.getSpeed
+			slot4 = slot4(slot5, slot6, slot7, slot8, slot9(slot10))
+			slot3 = slot4
 		end
 	end
 
-	slot8 = slot0
-	slot7 = slot0.killPresentTws
+	slot4 = #slot3
+	slot5 = 0
 
-	slot7(slot8)
+	if slot4 > slot5 then
+		slot4 = _
+		slot4 = slot4.min
+		slot5 = slot3
 
-	slot7 = #slot5
-	slot8 = 0
-
-	if slot7 > slot8 then
-		slot7 = _
-		slot7 = slot7.min
-		slot8 = slot5
-
-		function slot9(slot0)
+		function slot6(slot0)
 			slot1 = ManhattonDist
 			slot2 = slot0
 			slot3 = slot0
@@ -6031,298 +6737,821 @@ function slot2(slot0, slot1, ...)
 			return slot1(slot2, slot3)
 		end
 
-		slot7 = slot7(slot8, slot9)
-		slot8 = ManhattonDist
-		slot9 = slot7
-		slot10 = slot3.line
-		slot8 = slot8(slot9, slot10)
-		slot9 = _
-		slot9 = slot9.each
-		slot10 = slot5
+		slot4 = slot4(slot5, slot6)
+		slot5 = ManhattonDist
+		slot6 = slot4
+		slot7 = slot2.line
+		slot5 = slot5(slot6, slot7)
+		slot6 = _
+		slot6 = slot6.each
+		slot7 = slot3
 
-		function slot11(slot0)
-			slot1 = ChapterCell
-			slot1 = slot1.Line2QuadName
-			slot2 = slot0.row
-			slot3 = slot0.column
-			slot1 = slot1(slot2, slot3)
-			slot2 = slot0
-			slot2 = slot2.quadRoot
-			slot3 = slot2
-			slot2 = slot2.Find
-			slot4 = slot1
-			slot2 = slot2(slot3, slot4)
-			slot3 = slot0
-			slot4 = slot3
-			slot3 = slot3.cancelQuadTween
-			slot5 = slot1
-			slot6 = slot2
+		function slot8(slot0)
+			slot1 = ChapterCell.Line2QuadName(slot0.row, slot0.column)
+			slot2 = slot0.quadRoot:Find(slot1)
 
-			slot3(slot4, slot5, slot6)
+			slot0:cancelQuadTween(slot1, slot2)
+			setImageSprite(slot2, GetSpriteFromAtlas("chapter/pic/cellgrid", "cell_normal"))
 
-			slot3 = slot0
-			slot3 = slot3.quadState
-			slot4 = ChapterConst
-			slot4 = slot4.QuadStateFrozen
+			slot3 = slot1:getRound() == ChapterConst.RoundPlayer
+			slot4 = setImageAlpha
+			slot5 = slot2
 
-			if slot3 ~= slot4 then
-				slot3 = setImageSprite
-				slot4 = slot2
-				slot5 = GetSpriteFromAtlas
-				slot6 = "chapter/pic/cellgrid"
-				slot7 = slot1
-
-				slot3(slot4, slot5(slot6, slot7))
+			if slot3 then
+				slot6 = 1
+			else
+				slot6 = ChapterConst
+				slot6 = slot6.CellEaseOutAlpha
 			end
 
-			slot3 = slot2
-			slot4 = slot3
-			slot3 = slot3.getRound
-			slot3 = slot3(slot4)
-			slot4 = ChapterConst
-			slot4 = slot4.RoundPlayer
+			slot4(slot5, slot6)
 
-			if slot3 == slot4 then
-				slot3 = slot0
-				slot3 = slot3.quadState
-				slot4 = ChapterConst
-				slot4 = slot4.QuadStateNormal
+			slot4 = Vector3
+			slot4 = slot4.zero
+			slot2.localScale = slot4
+			slot4 = LeanTween
+			slot4 = slot4.scale
+			slot5 = slot2
+			slot6 = Vector3
+			slot6 = slot6.one
+			slot7 = 0.2
+			slot4 = slot4(slot5, slot6, slot7)
+			slot5 = slot4
+			slot4 = slot4.setFrom
+			slot6 = Vector3
+			slot6 = slot6.zero
+			slot4 = slot4(slot5, slot6)
+			slot5 = slot4
+			slot4 = slot4.setEase
+			slot6 = LeanTweenType
+			slot6 = slot6.easeInOutSine
+			slot4 = slot4(slot5, slot6)
+			slot5 = slot4
+			slot4 = slot4.setDelay
+			slot6 = ManhattonDist
+			slot7 = slot0
+			slot8 = slot2
+			slot8 = slot8.line
+			slot6 = slot6(slot7, slot8)
+			slot7 = slot3
+			slot6 = slot6 - slot7
+			slot6 = slot6 * 0.1
+			slot4 = slot4(slot5, slot6)
+			slot5 = slot0
+			slot5 = slot5.presentTws
+			slot6 = {}
+			slot7 = slot4.uniqueId
+			slot6.uniqueId = slot7
+			slot5[slot1] = slot6
+		end
 
-				if slot3 == slot4 then
-					slot3 = setImageAlpha
-					slot4 = slot2
-					slot5 = 1
+		slot6(slot7, slot8)
+	end
 
-					slot3(slot4, slot5)
-				else
-					slot3 = slot0
-					slot3 = slot3.quadState
-					slot4 = ChapterConst
-					slot4 = slot4.QuadStateStrategy
+	slot5 = slot1
+	slot4 = slot1.isPlayingWithBombEnemy
+	slot4 = slot4(slot5)
 
-					if slot3 == slot4 then
-						slot3 = setImageAlpha
-						slot4 = slot2
-						slot5 = 1
+	if slot4 then
+		slot5 = slot0
+		slot4 = slot0.hideQuadMark
+		slot6 = ChapterConst
+		slot6 = slot6.MarkBomb
 
-						slot3(slot4, slot5)
-					else
-						slot3 = slot0
-						slot3 = slot3.quadState
-						slot4 = ChapterConst
-						slot4 = slot4.QuadStateFrozen
+		slot4(slot5, slot6)
 
-						if slot3 == slot4 then
-							slot3 = setImageAlpha
-							slot4 = slot2
-							slot5 = ChapterConst
-							slot5 = slot5.CellEaseOutAlpha
+		slot4 = slot1.fleet
+		slot5 = _
+		slot5 = slot5.map
+		slot6 = {}
+		slot7 = {
+			-1,
+			0
+		}
+		slot6[1] = slot7
+		slot7 = {
+			1,
+			0
+		}
+		slot6[2] = slot7
+		slot7 = {
+			0,
+			-1
+		}
+		slot6[3] = slot7
+		slot7 = {
+			0,
+			1
+		}
+		slot6[4] = slot7
 
-							slot3(slot4, slot5)
+		function slot7(slot0)
+			slot1 = {}
+			slot2 = slot0[1]
+			slot3 = slot0
+			slot3 = slot3.line
+			slot3 = slot3.row
+			slot2 = slot2 + slot3
+			slot1.row = slot2
+			slot2 = slot0[2]
+			slot3 = slot0
+			slot3 = slot3.line
+			slot3 = slot3.column
+			slot2 = slot2 + slot3
+			slot1.column = slot2
+
+			return slot1
+		end
+
+		slot5 = slot5(slot6, slot7)
+		slot7 = slot0
+		slot6 = slot0.showQuadMark
+		slot8 = slot5
+		slot9 = ChapterConst
+		slot9 = slot9.MarkBomb
+		slot10 = "cell_bomb"
+		slot11 = Vector2
+		slot12 = 100
+		slot13 = 100
+		slot11 = slot11(slot12, slot13)
+		slot12 = nil
+		slot13 = true
+
+		slot6(slot7, slot8, slot9, slot10, slot11, slot12, slot13)
+	end
+end
+
+slot0.UpdateQuadStateNormal = slot4
+
+function slot4(slot0, ...)
+	slot2 = slot0.contextData.chapterVO.fleet
+	slot0.quadClickProxy = ({
+		...
+	})[2]
+	slot5 = #(()[1] or {})
+	slot6 = 0
+
+	if slot5 > slot6 then
+		slot5 = _
+		slot5 = slot5.min
+		slot6 = slot4
+
+		function slot7(slot0)
+			slot1 = ManhattonDist
+			slot2 = slot0
+			slot3 = slot0
+			slot3 = slot3.line
+
+			return slot1(slot2, slot3)
+		end
+
+		slot5 = slot5(slot6, slot7)
+		slot6 = ManhattonDist
+		slot7 = slot5
+		slot8 = slot2.line
+		slot6 = slot6(slot7, slot8)
+		slot7 = _
+		slot7 = slot7.each
+		slot8 = slot4
+
+		function slot9(slot0)
+			slot1 = ChapterCell.Line2QuadName(slot0.row, slot0.column)
+			slot2 = slot0.quadRoot:Find(slot1)
+
+			slot0:cancelQuadTween(slot1, slot2)
+			setImageSprite(slot2, GetSpriteFromAtlas("chapter/pic/cellgrid", "cell_barrier_select"))
+
+			slot3 = slot1:getRound() == ChapterConst.RoundPlayer
+			slot4 = setImageAlpha
+			slot5 = slot2
+
+			if slot3 then
+				slot6 = 1
+			else
+				slot6 = ChapterConst
+				slot6 = slot6.CellEaseOutAlpha
+			end
+
+			slot4(slot5, slot6)
+
+			slot4 = Vector3
+			slot4 = slot4.zero
+			slot2.localScale = slot4
+			slot4 = LeanTween
+			slot4 = slot4.scale
+			slot5 = slot2
+			slot6 = Vector3
+			slot6 = slot6.one
+			slot7 = 0.2
+			slot4 = slot4(slot5, slot6, slot7)
+			slot5 = slot4
+			slot4 = slot4.setFrom
+			slot6 = Vector3
+			slot6 = slot6.zero
+			slot4 = slot4(slot5, slot6)
+			slot5 = slot4
+			slot4 = slot4.setEase
+			slot6 = LeanTweenType
+			slot6 = slot6.easeInOutSine
+			slot4 = slot4(slot5, slot6)
+			slot5 = slot4
+			slot4 = slot4.setDelay
+			slot6 = ManhattonDist
+			slot7 = slot0
+			slot8 = slot2
+			slot8 = slot8.line
+			slot6 = slot6(slot7, slot8)
+			slot7 = slot3
+			slot6 = slot6 - slot7
+			slot6 = slot6 * 0.1
+			slot4 = slot4(slot5, slot6)
+			slot5 = slot0
+			slot5 = slot5.presentTws
+			slot6 = {}
+			slot7 = slot4.uniqueId
+			slot6.uniqueId = slot7
+			slot5[slot1] = slot6
+		end
+
+		slot7(slot8, slot9)
+	end
+
+	slot6 = slot1
+	slot5 = slot1.isPlayingWithBombEnemy
+	slot5 = slot5(slot6)
+
+	if slot5 then
+		slot6 = slot0
+		slot5 = slot0.hideQuadMark
+		slot7 = ChapterConst
+		slot7 = slot7.MarkBomb
+
+		slot5(slot6, slot7)
+	end
+end
+
+slot0.UpdateQuadStateStrategy = slot4
+
+function slot4(slot0)
+	slot1 = slot0.contextData
+	slot1 = slot1.chapterVO
+	slot2 = _
+	slot2 = slot2.detect
+	slot3 = slot1.fleets
+
+	function slot4(slot0)
+		return slot0:getFleetType() == FleetType.Submarine
+	end
+
+	slot2 = slot2(slot3, slot4)
+
+	if not slot2 then
+		return
+	end
+
+	slot3 = {}
+	slot4 = 0
+	slot5 = ChapterConst
+	slot5 = slot5.MaxRow
+	slot5 = slot5 - 1
+	slot6 = 1
+
+	for slot7 = slot4, slot5, slot6 do
+		slot8 = 0
+		slot9 = ChapterConst
+		slot9 = slot9.MaxColumn
+		slot9 = slot9 - 1
+		slot10 = 1
+
+		for slot11 = slot8, slot9, slot10 do
+			slot13 = slot1
+			slot12 = slot1.getChapterCell
+			slot14 = slot7
+			slot15 = slot11
+			slot12 = slot12(slot13, slot14, slot15)
+
+			if slot12 then
+				slot13 = slot12.walkable
+
+				if slot13 then
+					slot14 = slot1
+					slot13 = slot1.getQuadCellPic
+					slot15 = slot12
+					slot13 = slot13(slot14, slot15)
+
+					if not slot13 then
+						slot15 = slot1
+						slot14 = slot1.considerAsObstacle
+						slot16 = ChapterConst
+						slot16 = slot16.SubjectPlayer
+						slot17 = slot7
+						slot18 = slot11
+						slot14 = slot14(slot15, slot16, slot17, slot18)
+
+						if not slot14 then
+							slot14 = table
+							slot14 = slot14.insert
+							slot15 = slot3
+							slot16 = {
+								row = slot7,
+								column = slot11
+							}
+
+							slot14(slot15, slot16)
 						end
 					end
 				end
-			else
-				slot3 = slot2
-				slot4 = slot3
-				slot3 = slot3.getRound
-				slot3 = slot3(slot4)
-				slot4 = ChapterConst
-				slot4 = slot4.RoundEnemy
-
-				if slot3 == slot4 then
-					slot3 = setImageAlpha
-					slot4 = slot2
-					slot5 = ChapterConst
-					slot5 = slot5.CellEaseOutAlpha
-
-					slot3(slot4, slot5)
-				end
-			end
-
-			slot3 = slot0
-			slot3 = slot3.quadState
-			slot4 = ChapterConst
-			slot4 = slot4.QuadStateNormal
-
-			if slot3 ~= slot4 then
-				slot3 = slot0
-				slot3 = slot3.quadState
-				slot4 = ChapterConst
-				slot4 = slot4.QuadStateStrategy
-
-				if slot3 == slot4 then
-					slot3 = LeanTween
-					slot3 = slot3.scale
-					slot4 = slot2
-					slot5 = Vector3
-					slot5 = slot5.one
-					slot6 = 0.2
-					slot3 = slot3(slot4, slot5, slot6)
-					slot4 = slot3
-					slot3 = slot3.setFrom
-					slot5 = Vector3
-					slot5 = slot5.zero
-					slot3 = slot3(slot4, slot5)
-					slot4 = slot3
-					slot3 = slot3.setEase
-					slot5 = LeanTweenType
-					slot5 = slot5.easeInOutSine
-					slot3 = slot3(slot4, slot5)
-					slot4 = slot3
-					slot3 = slot3.setDelay
-					slot5 = ManhattonDist
-					slot6 = slot0
-					slot7 = slot3
-					slot7 = slot7.line
-					slot5 = slot5(slot6, slot7)
-					slot6 = slot4
-					slot5 = slot5 - slot6
-					slot5 = slot5 * 0.1
-					slot3 = slot3(slot4, slot5)
-					slot4 = slot0
-					slot4 = slot4.presentTws
-					slot5 = {}
-					slot6 = slot3.uniqueId
-					slot5.uniqueId = slot6
-					slot4[slot1] = slot5
-					slot4 = Vector3
-					slot4 = slot4.zero
-					slot2.localScale = slot4
-				end
 			end
 		end
-
-		slot9(slot10, slot11)
 	end
 
-	slot8 = slot2
-	slot7 = slot2.isPlayingWithBombEnemy
-	slot7 = slot7(slot8)
+	function slot4(slot0)
+		slot1 = slot0
+		slot2 = slot1
+		slot1 = slot1.OnTeleportConfirm
+		slot3 = slot0
 
-	if slot7 then
-		slot8 = slot0
-		slot7 = slot0.hideQuadMark
-		slot9 = ChapterConst
-		slot9 = slot9.MarkBomb
-
-		slot7(slot8, slot9)
-
-		slot7 = slot0.quadState
-		slot8 = ChapterConst
-		slot8 = slot8.QuadStateNormal
-
-		if slot7 == slot8 then
-			slot7 = slot2.fleet
-			slot8 = _
-			slot8 = slot8.map
-			slot9 = {}
-			slot10 = {
-				-1,
-				0
-			}
-			slot9[1] = slot10
-			slot10 = {
-				1,
-				0
-			}
-			slot9[2] = slot10
-			slot10 = {
-				0,
-				-1
-			}
-			slot9[3] = slot10
-			slot10 = {
-				0,
-				1
-			}
-			slot9[4] = slot10
-
-			function slot10(slot0)
-				slot1 = {}
-				slot2 = slot0[1]
-				slot3 = slot0
-				slot3 = slot3.line
-				slot3 = slot3.row
-				slot2 = slot2 + slot3
-				slot1.row = slot2
-				slot2 = slot0[2]
-				slot3 = slot0
-				slot3 = slot3.line
-				slot3 = slot3.column
-				slot2 = slot2 + slot3
-				slot1.column = slot2
-
-				return slot1
-			end
-
-			slot8 = slot8(slot9, slot10)
-			slot10 = slot0
-			slot9 = slot0.showQuadMark
-			slot11 = slot8
-			slot12 = ChapterConst
-			slot12 = slot12.MarkBomb
-			slot13 = "cell_bomb"
-			slot14 = Vector2
-			slot15 = 100
-			slot16 = 100
-			slot14 = slot14(slot15, slot16)
-			slot15 = true
-
-			slot9(slot10, slot11, slot12, slot13, slot14, slot15)
-		end
-	end
-end
-
-slot0.updateQuadCells = slot2
-
-function slot2(slot0, slot1, slot2)
-	slot3 = slot0.presentTws
-	slot3 = slot3[slot1]
-
-	if slot3 then
-		slot3 = LeanTween
-		slot3 = slot3.cancel
-		slot4 = slot0.presentTws
-		slot4 = slot4[slot1]
-		slot4 = slot4.uniqueId
-
-		slot3(slot4)
-
-		slot3 = slot0.presentTws
-		slot4 = nil
-		slot3[slot1] = slot4
+		slot1(slot2, slot3)
 	end
 
-	slot3 = slot0.quadTws
-	slot3 = slot3[slot1]
+	slot0.quadClickProxy = slot4
+	slot5 = slot0
+	slot4 = slot0.frozen
 
-	if not slot3 then
+	slot4(slot5)
+
+	slot4 = 0
+	slot5 = _
+	slot5 = slot5.each
+	slot6 = slot3
+
+	function slot7(slot0)
+		slot1 = ChapterCell
+		slot1 = slot1.Line2QuadName
+		slot2 = slot0.row
+		slot3 = slot0.column
+		slot1 = slot1(slot2, slot3)
+		slot2 = slot0
+		slot2 = slot2.quadRoot
+		slot3 = slot2
+		slot2 = slot2.Find
+		slot4 = slot1
+		slot2 = slot2(slot3, slot4)
+		slot3 = slot0
+		slot4 = slot3
+		slot3 = slot3.cancelQuadTween
+		slot5 = slot1
+		slot6 = slot2
+
+		slot3(slot4, slot5, slot6)
+
 		slot3 = setImageAlpha
 		slot4 = slot2
-		slot5 = 1
+		slot5 = 0.4
 
 		slot3(slot4, slot5)
 
-		slot3 = _
-		slot3 = slot3.values
-		slot4 = slot0.quadTws
-		slot3 = slot3(slot4)
-		slot3 = slot3[1]
-		slot4 = slot3.tw.passed or 0
-		slot6 = LeanTween.alpha(slot2, ChapterConst.CellEaseOutAlpha, 1):setLoopPingPong()
-		slot6.passed = slot4
-		slot6.direction = slot3.tw.direction or 1
-		slot0.quadTws[slot1] = {
-			tw = slot6,
-			uniqueId = slot6.uniqueId
-		}
+		slot3 = LeanTween
+		slot3 = slot3.scale
+		slot4 = slot2
+		slot5 = Vector3
+		slot5 = slot5.one
+		slot6 = 0.2
+		slot3 = slot3(slot4, slot5, slot6)
+		slot4 = slot3
+		slot3 = slot3.setFrom
+		slot5 = Vector3
+		slot5 = slot5.zero
+		slot3 = slot3(slot4, slot5)
+		slot4 = slot3
+		slot3 = slot3.setEase
+		slot5 = LeanTweenType
+		slot5 = slot5.easeInOutSine
+		slot3 = slot3(slot4, slot5)
+		slot4 = slot3
+		slot3 = slot3.setOnComplete
+		slot5 = System
+		slot5 = slot5.Action
+
+		function slot6()
+			slot0 = slot0
+			slot0 = slot0 + 1
+			slot0 = slot0
+			slot0 = slot0
+			slot1 = slot1
+			slot1 = #slot1
+
+			if slot0 == slot1 then
+				slot0 = slot2
+				slot1 = slot0
+				slot0 = slot0.unfrozen
+
+				slot0(slot1)
+			end
+		end
+
+		slot3 = slot3(slot4, slot5(slot6))
+		slot4 = slot0
+		slot4 = slot4.presentTws
+		slot5 = {}
+		slot6 = slot3.uniqueId
+		slot5.uniqueId = slot6
+		slot4[slot1] = slot5
+		slot4 = Vector3
+		slot4 = slot4.zero
+		slot2.localScale = slot4
+	end
+
+	slot5(slot6, slot7)
+
+	slot6 = slot1
+	slot5 = slot1.isPlayingWithBombEnemy
+	slot5 = slot5(slot6)
+
+	if slot5 then
+		slot6 = slot0
+		slot5 = slot0.hideQuadMark
+		slot7 = ChapterConst
+		slot7 = slot7.MarkBomb
+
+		slot5(slot6, slot7)
 	end
 end
 
-slot0.startQuadTween = slot2
+slot0.UpdateQuadStateTeleportSub = slot4
 
-function slot2(slot0, slot1, slot2)
+function slot4(slot0)
+	slot1 = slot0.contextData
+	slot1 = slot1.chapterVO
+	slot3 = slot1
+	slot2 = slot1.GetSubmarineFleet
+	slot2, slot3 = slot2(slot3)
+	slot4 = slot0.cellFleets
+	slot5 = slot2.id
+	slot4 = slot4[slot5]
+	slot5 = slot2.startPos
+	slot6 = true
+	slot0.subTeleportMode = slot6
+	slot6 = pairs
+	slot7 = slot1.fleets
+	slot6, slot7, slot8 = slot6(slot7)
+
+	for slot9, slot10 in slot6, slot7, slot8 do
+		slot12 = slot10
+		slot11 = slot10.getFleetType
+		slot11 = slot11(slot12)
+		slot12 = FleetType
+		slot12 = slot12.Normal
+
+		if slot11 == slot12 then
+			slot12 = slot0
+			slot11 = slot0.updateFleet
+			slot13 = slot10.id
+
+			slot11(slot12, slot13)
+		end
+	end
+
+	slot7 = slot1
+	slot6 = slot1.existEnemy
+	slot8 = ChapterConst
+	slot8 = slot8.SubjectPlayer
+	slot9 = slot5.row
+	slot10 = slot5.column
+	slot6 = slot6(slot7, slot8, slot9, slot10)
+
+	if not slot6 then
+		slot7 = slot1
+		slot6 = slot1.existFleet
+		slot8 = FleetType
+		slot8 = slot8.Normal
+		slot9 = slot5.row
+		slot10 = slot5.column
+		slot6 = slot6(slot7, slot8, slot9, slot10)
+	end
+
+	slot7 = setActive
+	slot8 = slot4.tfAmmo
+
+	if not slot6 then
+		slot7(slot8, slot1:getDataType() == ChapterConst.TypeNone)
+		slot4:SetActive(true)
+
+		slot7 = slot1.subAutoAttack == 1
+
+		if not slot7 then
+			slot9 = slot0
+			slot8 = slot0.PlaySubAnimation
+			slot10 = slot4
+			slot11 = false
+
+			function slot12()
+				slot0 = slot0
+				slot1 = slot0
+				slot0 = slot0.SetActiveModel
+				slot2 = slot1
+				slot2 = not slot2
+
+				slot0(slot1, slot2)
+			end
+
+			slot8(slot9, slot10, slot11, slot12)
+		else
+			slot9 = slot4
+			slot8 = slot4.SetActiveModel
+			slot10 = not slot6
+
+			slot8(slot9, slot10)
+		end
+	end
+
+	slot8 = slot4.tf
+	slot9 = slot1.theme
+	slot10 = slot9
+	slot9 = slot9.GetLinePosition
+	slot11 = slot5.row
+	slot12 = slot5.column
+	slot9 = slot9(slot10, slot11, slot12)
+	slot8.localPosition = slot9
+	slot9 = slot0
+	slot8 = slot0.sortItems
+
+	slot8(slot9)
+end
+
+slot0.PrepareSubTeleport = slot4
+
+function slot4(slot0)
+	slot0.subTeleportTargetLine = nil
+
+	slot0:hideQuadMark(ChapterConst.MarkMovePathArrow)
+	slot0:hideQuadMark(ChapterConst.MarkHuntingRange)
+	slot0:ClearEdges()
+	slot0:UpdateDestinationMark()
+
+	slot0.subTeleportMode = false
+	slot2, slot3 = slot0.contextData.chapterVO.GetSubmarineFleet(slot1)
+
+	slot0.cellFleets[slot2.id]:SetActive(slot0.contextData.chapterVO.subAutoAttack == 1)
+
+	if not slot5 then
+		slot7 = slot0
+		slot6 = slot0.PlaySubAnimation
+		slot8 = slot4
+		slot9 = true
+
+		function slot10()
+			slot0 = slot0
+			slot1 = slot0
+			slot0 = slot0.updateFleet
+			slot2 = slot1
+			slot2 = slot2.id
+
+			slot0(slot1, slot2)
+		end
+
+		slot6(slot7, slot8, slot9, slot10)
+	else
+		slot7 = slot0
+		slot6 = slot0.updateFleet
+		slot8 = slot2.id
+
+		slot6(slot7, slot8)
+	end
+
+	slot7 = slot0
+	slot6 = slot0.ShowHuntingRange
+
+	slot6(slot7)
+end
+
+slot0.TurnOffSubTeleport = slot4
+
+function slot4(slot0, slot1)
+	slot2 = slot0.contextData
+	slot2 = slot2.chapterVO
+	slot4 = slot2
+	slot3 = slot2.getChapterCell
+	slot5 = slot1.row
+	slot6 = slot1.column
+	slot3 = slot3(slot4, slot5, slot6)
+
+	if slot3 then
+		slot4 = slot3.walkable
+
+		if slot4 and slot1 then
+			slot5 = slot2
+			slot4 = slot2.GetSubmarineFleet
+			slot4, slot5 = slot4(slot5)
+			slot6 = slot4.startPos
+			slot6 = slot6.row
+			slot7 = slot1.row
+
+			if slot6 == slot7 then
+				slot6 = slot4.startPos
+				slot6 = slot6.column
+				slot7 = slot1.column
+
+				if slot6 == slot7 then
+					return
+				end
+			end
+
+			slot7 = slot0
+			slot6 = slot0.ShowTargetHuntingRange
+			slot8 = slot1
+
+			slot6(slot7, slot8)
+
+			slot7 = slot0
+			slot6 = slot0.UpdateDestinationMark
+			slot8 = slot1
+
+			slot6(slot7, slot8)
+
+			slot7 = slot2
+			slot6 = slot2.findPath
+			slot8 = nil
+			slot9 = slot4.startPos
+			slot10 = slot1
+			slot6, slot7 = slot6(slot7, slot8, slot9, slot10)
+			slot9 = slot0
+			slot8 = slot0.hideQuadMark
+			slot10 = ChapterConst
+			slot10 = slot10.MarkMovePathArrow
+
+			slot8(slot9, slot10)
+
+			slot8 = 0
+
+			if slot6 > slot8 then
+				slot9 = slot0
+				slot8 = slot0.ShowPathInArrows
+				slot10 = slot7
+
+				slot8(slot9, slot10)
+
+				slot0.subTeleportTargetLine = slot1
+			end
+		end
+	end
+end
+
+slot0.OnTeleportConfirm = slot4
+
+function slot4(slot0, slot1)
+	slot2 = slot0.contextData
+	slot2 = slot2.chapterVO
+	slot3, slot4 = nil
+	slot5 = Clone
+	slot6 = slot1
+	slot5 = slot5(slot6)
+	slot6 = table
+	slot6 = slot6.remove
+	slot7 = slot5
+	slot8 = #slot5
+
+	slot6(slot7, slot8)
+
+	slot7 = slot2
+	slot6 = slot2.GetSubmarineFleet
+	slot6, slot7 = slot6(slot7)
+	slot8 = slot0.cellFleets
+	slot9 = slot6.id
+	slot4 = slot8[slot9]
+	slot8 = #slot5
+	slot9 = 1
+	slot10 = -1
+
+	for slot11 = slot8, slot9, slot10 do
+		slot12 = slot5[slot11]
+		slot14 = slot2
+		slot13 = slot2.existEnemy
+		slot15 = ChapterConst
+		slot15 = slot15.SubjectPlayer
+		slot16 = slot12.row
+		slot17 = slot12.column
+		slot13 = slot13(slot14, slot15, slot16, slot17)
+
+		if not slot13 then
+			slot14 = slot2
+			slot13 = slot2.getFleet
+			slot15 = FleetType
+			slot15 = slot15.Normal
+			slot16 = slot12.row
+			slot17 = slot12.column
+			slot13 = slot13(slot14, slot15, slot16, slot17)
+		end
+
+		if slot13 then
+			slot14 = table
+			slot14 = slot14.remove
+			slot15 = slot5
+			slot16 = slot11
+
+			slot14(slot15, slot16)
+		end
+	end
+
+	slot9 = slot0
+	slot8 = slot0.showQuadMark
+	slot10 = slot5
+	slot11 = ChapterConst
+	slot11 = slot11.MarkMovePathArrow
+	slot12 = "cell_path_arrow"
+	slot13 = Vector2
+	slot14 = 100
+	slot15 = 100
+	slot13 = slot13(slot14, slot15)
+	slot14 = nil
+	slot15 = true
+
+	slot8(slot9, slot10, slot11, slot12, slot13, slot14, slot15)
+
+	slot8 = #slot1
+	slot9 = 1
+	slot10 = -1
+
+	for slot11 = slot8, slot9, slot10 do
+		slot12 = slot1[slot11]
+		slot13 = ChapterCell
+		slot13 = slot13.Line2MarkName
+		slot14 = slot12.row
+		slot15 = slot12.column
+		slot16 = ChapterConst
+		slot16 = slot16.MarkMovePathArrow
+		slot13 = slot13(slot14, slot15, slot16)
+		slot14 = slot0.markQuads
+		slot14 = slot14[slot13]
+
+		if slot14 then
+			slot14.localEulerAngles = Vector3(0, 0, Mathf.Acos(slot17) * Mathf.Rad2Deg * ((Vector3.Cross(Vector3.up, slot16).z > 0 and 1) or -1))
+		end
+	end
+end
+
+slot0.ShowPathInArrows = slot4
+
+function slot4(slot0, slot1, slot2, slot3, slot4)
+	slot5 = slot0.presentTws
+	slot5 = slot5[slot1]
+
+	if slot5 then
+		slot5 = LeanTween
+		slot5 = slot5.cancel
+		slot6 = slot0.presentTws
+		slot6 = slot6[slot1]
+		slot6 = slot6.uniqueId
+
+		slot5(slot6)
+
+		slot5 = slot0.presentTws
+		slot6 = nil
+		slot5[slot1] = slot6
+	end
+
+	slot5 = slot0.quadTws
+	slot5 = slot5[slot1]
+
+	if not slot5 then
+		slot3 = slot3 or 1
+
+		if not slot4 then
+			slot5 = ChapterConst
+			slot4 = slot5.CellEaseOutAlpha
+		end
+
+		slot5 = setImageAlpha
+		slot6 = slot2
+		slot7 = slot3
+
+		slot5(slot6, slot7)
+
+		slot5 = _
+		slot5 = slot5.values
+		slot6 = slot0.quadTws
+		slot5 = slot5(slot6)
+		slot5 = slot5[1]
+
+		if slot5 then
+			slot6 = slot5.tw.passed or 0
+
+			if slot5 then
+				slot8 = LeanTween.alpha(slot2, slot4, 1):setLoopPingPong()
+				slot8.passed = slot6
+				slot8.direction = slot5.tw.direction or 1
+				slot0.quadTws[slot1] = {
+					tw = slot8,
+					uniqueId = slot8.uniqueId
+				}
+			end
+		end
+	end
+end
+
+slot0.startQuadTween = slot4
+
+function slot4(slot0, slot1, slot2)
 	slot3 = slot0.quadTws
 	slot3 = slot3[slot1]
 
@@ -6348,9 +7577,9 @@ function slot2(slot0, slot1, slot2)
 	slot3(slot4, slot5)
 end
 
-slot0.cancelQuadTween = slot2
+slot0.cancelQuadTween = slot4
 
-function slot2(slot0)
+function slot4(slot0)
 	slot1 = pairs
 	slot2 = slot0.quadTws
 	slot1, slot2, slot3 = slot1(slot2)
@@ -6367,9 +7596,9 @@ function slot2(slot0)
 	slot0.quadTws = slot1
 end
 
-slot0.killQuadTws = slot2
+slot0.killQuadTws = slot4
 
-function slot2(slot0)
+function slot4(slot0)
 	slot1 = pairs
 	slot2 = slot0.presentTws
 	slot1, slot2, slot3 = slot1(slot2)
@@ -6386,151 +7615,117 @@ function slot2(slot0)
 	slot0.presentTws = slot1
 end
 
-slot0.killPresentTws = slot2
+slot0.killPresentTws = slot4
 
-function slot2(slot0, slot1, slot2)
-	slot3 = slot0.markTws
-	slot3 = slot3[slot1]
+function slot4(slot0, slot1, slot2, slot3, slot4)
+	slot5 = slot0.markTws
+	slot5 = slot5[slot1]
 
-	if not slot3 then
-		slot3 = setImageAlpha
-		slot4 = slot2
-		slot5 = 1
+	if not slot5 then
+		slot4 = slot4 or 0.2
 
-		slot3(slot4, slot5)
+		setImageAlpha(slot2, slot3 or 1)
 
-		slot3 = _
-		slot3 = slot3.values
-		slot4 = slot0.markTws
-		slot3 = slot3(slot4)
-		slot3 = slot3[1]
-		slot4 = slot3.tw.passed or 0
-		slot6 = LeanTween.alpha(slot2, 0.4, 1):setLoopPingPong():setEase(LeanTweenType.easeInOutSine):setDelay(1)
-		slot6.passed = slot4
-		slot6.direction = slot3.tw.direction or 1
-		slot0.markTws[slot1] = {
-			tw = slot6,
-			uniqueId = slot6.uniqueId
-		}
-	end
-end
+		slot5 = _.values(slot0.markTws)[1]
 
-slot0.startMarkTween = slot2
+		if slot5 then
+			slot6 = slot5.tw.passed or 0
 
-function slot2(slot0, slot1, slot2)
-	slot3 = slot0.markTws
-	slot3 = slot3[slot1]
-
-	if slot3 then
-		slot3 = LeanTween
-		slot3 = slot3.cancel
-		slot4 = slot0.markTws
-		slot4 = slot4[slot1]
-		slot4 = slot4.uniqueId
-
-		slot3(slot4)
-
-		slot3 = slot0.markTws
-		slot4 = nil
-		slot3[slot1] = slot4
-	end
-
-	slot3 = setImageAlpha
-	slot4 = slot2
-	slot5 = ChapterConst
-	slot5 = slot5.CellEaseOutAlpha
-
-	slot3(slot4, slot5)
-end
-
-slot0.cancelMarkTween = slot2
-
-function slot2(slot0, slot1, slot2)
-	slot3 = slot0.contextData
-	slot3 = slot3.chapterVO
-	slot4 = pairs
-	slot5 = slot0.cellFleets
-	slot4, slot5, slot6 = slot4(slot5)
-
-	for slot7, slot8 in slot4, slot5, slot6 do
-		slot9 = slot3.fleets
-		slot9 = slot9[slot7]
-
-		if slot8 then
-			slot10 = slot9.line
-			slot10 = slot10.row
-
-			if slot10 == slot1 then
-				slot10 = slot9.line
-				slot10 = slot10.column
-
-				if slot10 == slot2 then
-					slot11 = slot9
-					slot10 = slot9.getFleetType
-					slot10 = slot10(slot11)
-					slot11 = FleetType
-					slot11 = slot11.Submarine
-
-					if slot10 == slot11 then
-						slot11 = slot0
-						slot10 = slot0.updateFleet
-						slot12 = slot7
-
-						slot10(slot11, slot12)
-					end
-				end
+			if slot5 then
+				slot8 = LeanTween.alpha(slot2, slot4, 0.7):setLoopPingPong():setEase(LeanTweenType.easeInOutSine):setDelay(1)
+				slot8.passed = slot6
+				slot8.direction = slot5.tw.direction or 1
+				slot0.markTws[slot1] = {
+					tw = slot8,
+					uniqueId = slot8.uniqueId
+				}
 			end
 		end
 	end
 end
 
-slot0.updateSubFleetByPos = slot2
+slot0.startMarkTween = slot4
 
-function slot2(slot0, slot1, slot2, slot3, slot4)
+function slot4(slot0, slot1, slot2, slot3)
+	slot4 = slot0.markTws
+	slot4 = slot4[slot1]
+
+	if slot4 then
+		slot4 = LeanTween
+		slot4 = slot4.cancel
+		slot5 = slot0.markTws
+		slot5 = slot5[slot1]
+		slot5 = slot5.uniqueId
+
+		slot4(slot5)
+
+		slot4 = slot0.markTws
+		slot5 = nil
+		slot4[slot1] = slot5
+	end
+
+	slot4 = setImageAlpha
+	slot5 = slot2
+
+	if not slot3 then
+		slot6 = ChapterConst
+		slot6 = slot6.CellEaseOutAlpha
+	end
+
+	slot4(slot5, slot6)
+end
+
+slot0.cancelMarkTween = slot4
+
+function slot4(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot0.contextData
 	slot5 = slot5.chapterVO
 	slot7 = slot5
 	slot6 = slot5.getDataType
 	slot6 = slot6(slot7)
 	slot7 = slot5.fleet
-	slot8 = slot0.cellFleets
+	slot8 = slot5.fleets
 	slot9 = slot5.findex
 	slot8 = slot8[slot9]
-	slot9 = setActive
-	slot10 = slot8.tfShip
-	slot11 = true
+	slot8 = slot8.id
+	slot9 = slot0.cellFleets
+	slot9 = slot9[slot8]
+	slot11 = slot0
+	slot10 = slot0.SetSpineVisible
+	slot12 = slot9.tfShip
+	slot13 = true
 
-	slot9(slot10, slot11)
+	slot10(slot11, slot12, slot13)
 
-	slot9 = setActive
-	slot10 = slot8.tfShadow
-	slot11 = true
+	slot10 = setActive
+	slot11 = slot9.tfShadow
+	slot12 = true
 
-	slot9(slot10, slot11)
+	slot10(slot11, slot12)
 
-	slot9 = setActive
-	slot10 = slot0.arrowTarget
-	slot11 = true
+	slot10 = setActive
+	slot11 = slot0.arrowTarget
+	slot12 = true
 
-	slot9(slot10, slot11)
+	slot10(slot11, slot12)
 
-	slot10 = slot0
-	slot9 = slot0.updateTargetArrow
-	slot11 = #slot2
-	slot11 = slot2[slot11]
+	slot11 = slot0
+	slot10 = slot0.updateTargetArrow
+	slot12 = #slot2
+	slot12 = slot2[slot12]
 
-	slot9(slot10, slot11)
+	slot10(slot11, slot12)
 
 	if slot3 then
-		slot10 = slot0
-		slot9 = slot0.updateAttachment
-		slot11 = slot3.row
-		slot12 = slot3.column
+		slot11 = slot0
+		slot10 = slot0.updateAttachment
+		slot12 = slot3.row
+		slot13 = slot3.column
 
-		slot9(slot10, slot11, slot12)
+		slot10(slot11, slot12, slot13)
 	end
 
-	function slot9(slot0)
+	function slot10(slot0)
 		slot1 = slot0
 		slot2 = ChapterConst
 		slot2 = slot2.TypeNone
@@ -6555,7 +7750,7 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 		end
 	end
 
-	function slot10(slot0)
+	function slot11(slot0)
 		slot1 = slot0
 		slot2 = slot1
 		slot1 = slot1.sortItems
@@ -6563,7 +7758,7 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 		slot1(slot2)
 	end
 
-	function slot11()
+	function slot12()
 		slot0 = setActive
 		slot1 = slot0
 		slot1 = slot1.arrowTarget
@@ -6616,8 +7811,7 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 		slot2 = slot0
 		slot3 = slot2
 		slot2 = slot2.updateFleet
-		slot4 = slot1
-		slot4 = slot4.findex
+		slot4 = slot5
 
 		slot2(slot3, slot4)
 
@@ -6653,12 +7847,100 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 			slot3()
 		end
 
-		slot3 = slot5
+		slot3 = slot6
 
 		if slot3 then
-			slot3 = slot5
+			slot3 = slot6
 
 			slot3()
+		end
+	end
+
+	slot14 = slot0
+	slot13 = slot0.updateQuadCells
+	slot15 = ChapterConst
+	slot15 = slot15.QuadStateFrozen
+
+	slot13(slot14, slot15)
+
+	slot14 = slot0
+	slot13 = slot0.moveCellView
+	slot15 = slot9
+	slot16 = slot1
+	slot17 = slot2
+	slot18 = slot10
+	slot19 = slot11
+	slot20 = slot12
+
+	slot13(slot14, slot15, slot16, slot17, slot18, slot19, slot20)
+end
+
+slot0.moveFleet = slot4
+
+function slot4(slot0, slot1, slot2, slot3, slot4)
+	slot5 = slot0.contextData
+	slot5 = slot5.chapterVO
+	slot6 = slot5.fleets
+	slot6 = slot6[slot1]
+	slot7 = slot0.cellFleets
+	slot8 = slot6.id
+	slot7 = slot7[slot8]
+	slot8 = #slot2
+	slot8 = slot2[slot8]
+
+	function slot9(slot0)
+		return
+	end
+
+	function slot10(slot0)
+		slot1 = slot0
+		slot2 = slot1
+		slot1 = slot1.sortItems
+
+		slot1(slot2)
+	end
+
+	function slot11()
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.existEnemy
+		slot2 = ChapterConst
+		slot2 = slot2.SubjectPlayer
+		slot3 = slot1
+		slot3 = slot3.row
+		slot4 = slot1
+		slot4 = slot4.column
+		slot0 = slot0(slot1, slot2, slot3, slot4)
+
+		if not slot0 then
+			slot0 = slot0
+			slot1 = slot0
+			slot0 = slot0.existAlly
+			slot2 = slot2
+			slot0 = slot0(slot1, slot2)
+		end
+
+		slot1 = slot3
+		slot2 = slot1
+		slot1 = slot1.SetActiveModel
+		slot3 = not slot0
+
+		slot1(slot2, slot3)
+
+		slot1 = slot2
+		slot2 = slot3
+		slot3 = slot2
+		slot2 = slot2.getModel
+		slot2 = slot2(slot3)
+		slot2 = slot2.transform
+		slot2 = slot2.localRotation
+		slot1.rotation = slot2
+		slot1 = slot4
+
+		if slot1 then
+			slot1 = slot4
+
+			slot1()
 		end
 	end
 
@@ -6670,10 +7952,12 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 	slot12(slot13, slot14)
 
 	slot13 = slot0
-	slot12 = slot0.moveCellView
-	slot14 = slot8
-	slot15 = slot1
-	slot16 = slot2
+	slot12 = slot0.teleportSubView
+	slot14 = slot7
+	slot16 = slot7
+	slot15 = slot7.getLine
+	slot15 = slot15(slot16)
+	slot16 = slot8
 	slot17 = slot9
 	slot18 = slot10
 	slot19 = slot11
@@ -6681,111 +7965,9 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 	slot12(slot13, slot14, slot15, slot16, slot17, slot18, slot19)
 end
 
-slot0.moveFleet = slot2
+slot0.moveSub = slot4
 
-function slot2(slot0, slot1, slot2, slot3, slot4)
-	slot5 = slot0.contextData
-	slot5 = slot5.chapterVO
-	slot6 = slot5.fleets
-	slot6 = slot6[slot1]
-	slot7 = slot0.cellFleets
-	slot7 = slot7[slot1]
-
-	function slot8(slot0)
-		slot1 = slot0
-		slot2 = slot1
-		slot1 = slot1.existEnemy
-		slot3 = ChapterConst
-		slot3 = slot3.SubjectPlayer
-		slot4 = slot0.row
-		slot5 = slot0.column
-		slot1 = slot1(slot2, slot3, slot4, slot5)
-
-		if not slot1 then
-			slot1 = slot0
-			slot2 = slot1
-			slot1 = slot1.existAlly
-			slot3 = slot1
-			slot1 = slot1(slot2, slot3)
-		end
-
-		slot2 = setActive
-		slot3 = slot2
-		slot3 = slot3.tfShadow
-		slot4 = not slot1
-
-		slot2(slot3, slot4)
-
-		slot2 = setActive
-		slot3 = slot2
-		slot3 = slot3.tfShip
-		slot4 = not slot1
-
-		slot2(slot3, slot4)
-
-		slot2 = setActive
-		slot3 = slot2
-		slot3 = slot3.tfAmmo
-		slot4 = not slot1
-
-		slot2(slot3, slot4)
-	end
-
-	function slot9(slot0)
-		slot1 = slot0
-		slot2 = slot1
-		slot1 = slot1.sortItems
-
-		slot1(slot2)
-	end
-
-	function slot10()
-		slot0 = slot0
-		slot1 = slot1
-		slot2 = slot1
-		slot1 = slot1.getModel
-		slot1 = slot1(slot2)
-		slot1 = slot1.transform
-		slot1 = slot1.localRotation
-		slot0.rotation = slot1
-		slot0 = slot2
-		slot1 = slot0
-		slot0 = slot0.updateFleet
-		slot2 = slot3
-
-		slot0(slot1, slot2)
-
-		slot0 = slot4
-
-		if slot0 then
-			slot0 = slot4
-
-			slot0()
-		end
-	end
-
-	slot12 = slot0
-	slot11 = slot0.updateQuadCells
-	slot13 = ChapterConst
-	slot13 = slot13.QuadStateFrozen
-
-	slot11(slot12, slot13)
-
-	slot12 = slot0
-	slot11 = slot0.moveCellView
-	slot13 = slot7
-	slot14 = slot2
-	slot15 = slot3
-	slot16 = slot8
-	slot17 = slot9
-	slot18 = slot10
-
-	slot11(slot12, slot13, slot14, slot15, slot16, slot17, slot18)
-end
-
-slot0.moveSub = slot2
-
-function slot2(slot0, slot1, slot2, slot3, slot4)
+function slot4(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot0.contextData
 	slot5 = slot5.chapterVO
 	slot6 = slot5.champions
@@ -6870,15 +8052,16 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-slot0.moveChampion = slot2
+slot0.moveChampion = slot4
 
-function slot2(slot0, slot1, slot2, slot3, slot4)
+function slot4(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot0.contextData
 	slot5 = slot5.chapterVO
 	slot6 = slot5.fleets
 	slot6 = slot6[slot1]
 	slot7 = slot0.cellFleets
-	slot7 = slot7[slot1]
+	slot8 = slot6.id
+	slot7 = slot7[slot8]
 
 	function slot8(slot0)
 		return
@@ -6904,14 +8087,15 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 		slot0 = slot2
 		slot1 = slot0
 		slot0 = slot0.updateFleet
-		slot2 = slot3
+		slot2 = slot0
+		slot2 = slot2.id
 
 		slot0(slot1, slot2)
 
-		slot0 = slot4
+		slot0 = slot3
 
 		if slot0 then
-			slot0 = slot4
+			slot0 = slot3
 
 			slot0()
 		end
@@ -6936,9 +8120,9 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 	slot11(slot12, slot13, slot14, slot15, slot16, slot17, slot18)
 end
 
-slot0.moveTransport = slot2
+slot0.moveTransport = slot4
 
-function slot2(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+function slot4(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot7 = nil
 	slot8 = coroutine
 	slot8 = slot8.wrap
@@ -7190,9 +8374,9 @@ function slot2(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot8()
 end
 
-slot0.moveCellView = slot2
+slot0.moveCellView = slot4
 
-function slot2(slot0, slot1, slot2, slot3, slot4, slot5)
+function slot4(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = slot0.contextData
 	slot6 = slot6.chapterVO
 	slot8 = slot1
@@ -7317,28 +8501,155 @@ function slot2(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot13(slot14, slot15(slot16))
 end
 
-slot0.moveStep = slot2
+slot0.moveStep = slot4
 
-function slot2(slot0)
-	slot1 = slot0.contextData
-	slot1 = slot1.chapterVO
-	slot2 = slot0.cellFleets
-	slot3 = slot1.findex
-	slot2 = slot2[slot3]
+function slot4(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+	slot7 = slot0.contextData
+	slot7 = slot7.chapterVO
+
+	function slot8()
+		slot0 = slot0
+		slot1 = slot1
+
+		slot0(slot1)
+
+		slot0 = slot2
+		slot1 = slot0
+		slot0 = slot0.setLine
+		slot2 = slot1
+
+		slot0(slot1, slot2)
+
+		slot0 = slot3
+		slot0 = slot0.theme
+		slot1 = slot0
+		slot0 = slot0.GetLinePosition
+		slot2 = slot1
+		slot2 = slot2.row
+		slot3 = slot1
+		slot3 = slot3.column
+		slot0 = slot0(slot1, slot2, slot3)
+		slot1 = slot2
+		slot1 = slot1.tf
+		slot1.localPosition = slot0
+		slot1 = slot4
+		slot2 = slot1
+
+		slot1(slot2)
+
+		slot1 = slot5
+		slot2 = slot1
+		slot1 = slot1.PlaySubAnimation
+		slot3 = slot2
+		slot4 = false
+		slot5 = slot6
+
+		slot1(slot2, slot3, slot4, slot5)
+	end
+
+	slot10 = slot0
+	slot9 = slot0.PlaySubAnimation
+	slot11 = slot1
+	slot12 = true
+	slot13 = slot8
+
+	slot9(slot10, slot11, slot12, slot13)
+end
+
+slot0.teleportSubView = slot4
+
+function slot4(slot0, slot1, slot2, slot3)
+	slot5 = slot1
+	slot4 = slot1.getModel
+	slot4 = slot4(slot5)
+
+	if not slot4 then
+		return
+	end
+
+	slot6 = slot4
+	slot5 = slot4.GetComponent
+	slot7 = "SkeletonGraphic"
+	slot5 = slot5(slot6, slot7)
+	slot7 = slot1
+	slot6 = slot1.setAction
 
 	if slot2 then
-		slot4 = slot0
-		slot3 = slot0.cameraFocus
-		slot5 = slot2.tf
-		slot5 = slot5.position
+		slot8 = ChapterConst
+		slot8 = slot8.ShipSwimAction
 
-		slot3(slot4, slot5)
+		if not slot8 then
+			slot8 = ChapterConst
+			slot8 = slot8.ShipIdleAction
+		end
+	end
+
+	slot6(slot7, slot8)
+
+	slot7 = slot1
+	slot6 = slot1.PlayShuiHua
+
+	slot1:PlayShuiHua()
+
+	slot6 = (slot2 and 1) or 0
+
+	LeanTween.value(slot4, slot6, slot1, 0.3):setEase(LeanTweenType.easeInOutSine):setOnUpdate(System.Action_float(function (slot0)
+		slot0.color = Color.Lerp(Color.New(1, 1, 1, 0), Color.New(1, 1, 1, 1), slot0)
+		slot0.tfAmmo.anchoredPosition = Vector2.Lerp(Vector2.Lerp, , slot0)
+
+		return
+	end)):setOnComplete(System.Action(function ()
+		slot0:SetActiveModel(not slot1)
+
+		if not slot1 then
+			slot2()
+		end
+
+		return
+	end))
+
+	return
+
+	slot6 = 1
+
+	if 1 then
+		slot6 = 0
+	end
+
+	slot7 = 0
+
+	if 0 then
+		slot7 = 1
 	end
 end
 
-slot0.adjustCameraFocus = slot2
+slot0.PlaySubAnimation = slot4
 
-function slot2(slot0, slot1, slot2)
+function slot4(slot0)
+	slot1 = slot0.contextData
+	slot1 = slot1.chapterVO
+	slot2 = slot1.fleets
+	slot3 = slot1.findex
+	slot2 = slot2[slot3]
+	slot2 = slot2.id
+	slot3 = slot0.cellFleets
+	slot3 = slot3[slot2]
+
+	if slot3 then
+		slot5 = slot0
+		slot4 = slot0.cameraFocus
+		slot6 = slot3.tf
+		slot6 = slot6.position
+
+		slot4(slot5, slot6)
+	end
+
+	return
+end
+
+slot0.adjustCameraFocus = slot4
+
+function slot4(slot0, slot1, slot2)
 	slot3 = ChapterCell
 	slot3 = slot3.Line2Name
 	slot4 = slot1.row
@@ -7355,11 +8666,13 @@ function slot2(slot0, slot1, slot2)
 	slot8 = slot2
 
 	slot5(slot6, slot7, slot8)
+
+	return
 end
 
-slot0.focusOnCell = slot2
+slot0.focusOnCell = slot4
 
-function slot2(slot0, slot1, slot2)
+function slot4(slot0, slot1, slot2)
 	slot3 = slot0.contextData
 	slot3 = slot3.chapterVO
 	slot4 = slot3.theme
@@ -7461,20 +8774,108 @@ function slot2(slot0, slot1, slot2)
 
 			slot0()
 		end
+
+		return
 	end
 
 	slot7 = slot7(slot8, slot9(slot10))
+
+	return
 end
 
-slot0.cameraFocus = slot2
+slot0.cameraFocus = slot4
+slot4 = {}
+slot5 = {
+	-1,
+	0
+}
+slot4[1] = slot5
+slot5 = {
+	0,
+	1
+}
+slot4[2] = slot5
+slot5 = {
+	1,
+	0
+}
+slot4[3] = slot5
+slot5 = {
+	0,
+	-1
+}
+slot4[4] = slot5
 
-function slot2(slot0)
-	return slot0.contextData.huntingRangeVisibility % 2 == 0
+function slot5(slot0, slot1, slot2, slot3, slot4)
+	slot5 = 0
+	slot6 = 1
+	slot7 = 1
+	slot8 = 4
+	slot9 = 1
+
+	for slot10 = slot7, slot8, slot9 do
+		slot11 = {}
+		slot12 = slot2.row
+		slot13 = slot0
+		slot13 = slot13[slot10]
+		slot13 = slot13[1]
+		slot12 = slot12 + slot13
+		slot11.row = slot12
+		slot12 = slot2.column
+		slot13 = slot0
+		slot13 = slot13[slot10]
+		slot13 = slot13[2]
+		slot12 = slot12 + slot13
+		slot11.column = slot12
+		slot12 = table
+		slot12 = slot12.containsdata
+		slot13 = slot1
+		slot14 = slot11
+		slot12 = slot12(slot13, slot14)
+
+		if not slot12 then
+			slot12 = bit
+			slot12 = slot12.bor
+			slot13 = slot5
+			slot14 = slot6
+			slot12 = slot12(slot13, slot14)
+			slot5 = slot12
+		end
+
+		slot6 = slot6 * 2
+	end
+
+	slot8 = slot0
+	slot7 = slot0.CreateEdge
+	slot9 = slot5
+	slot10 = slot2
+	slot11 = slot3
+	slot12 = slot4
+
+	slot7(slot8, slot9, slot10, slot11, slot12)
+
+	return
 end
 
-slot0.isHuntingRangeVisible = slot2
+slot0.AddCellEdge = slot5
 
-function slot2(slot0)
+function slot5(slot0)
+	slot1 = slot0.contextData
+	slot1 = slot1.huntingRangeVisibility
+	slot1 = slot1 % 2
+
+	if slot1 ~= 0 then
+		slot1 = false
+	else
+		slot1 = true
+	end
+
+	return slot1
+end
+
+slot0.isHuntingRangeVisible = slot5
+
+function slot5(slot0)
 	slot2 = slot0
 	slot1 = slot0.hideQuadMark
 	slot3 = ChapterConst
@@ -7483,48 +8884,19 @@ function slot2(slot0)
 	slot1(slot2, slot3)
 
 	slot2 = slot0
+	slot1 = slot0.ClearEdges
+
+	slot1(slot2)
+
+	slot2 = slot0
 	slot1 = slot0.isHuntingRangeVisible
 	slot1 = slot1(slot2)
 
 	if not slot1 then
-		slot1 = slot0.contextData
-		slot1 = slot1.chapterVO
-		slot2 = _
-		slot2 = slot2.each
-		slot3 = slot1.fleets
+		slot2 = slot0
+		slot1 = slot0.ShowHuntingRange
 
-		function slot4(slot0)
-			slot2 = slot0
-			slot1 = slot0.getFleetType
-			slot1 = slot1(slot2)
-			slot2 = FleetType
-			slot2 = slot2.Submarine
-
-			if slot1 == slot2 then
-				slot2 = slot0
-				slot1 = slot0.isValid
-				slot1 = slot1(slot2)
-
-				if slot1 then
-					slot1 = slot0
-					slot2 = slot1
-					slot1 = slot1.showQuadMark
-					slot4 = slot0
-					slot3 = slot0.getHuntingRange
-					slot3 = slot3(slot4)
-					slot4 = ChapterConst
-					slot4 = slot4.MarkHuntingRange
-					slot5 = "cell_hunting_range"
-					slot6 = Vector2
-					slot7 = 117
-					slot8 = 117
-
-					slot1(slot2, slot3, slot4, slot5, slot6(slot7, slot8))
-				end
-			end
-		end
-
-		slot2(slot3, slot4)
+		slot1(slot2)
 	end
 
 	slot1 = slot0.contextData
@@ -7541,11 +8913,343 @@ function slot2(slot0)
 	slot1 = slot0.updateChampions
 
 	slot1(slot2)
+
+	return
 end
 
-slot0.toggleHuntingRange = slot2
+slot0.toggleHuntingRange = slot5
 
-function slot2(slot0)
+function slot5(slot0)
+	slot1 = slot0.contextData
+	slot1 = slot1.chapterVO
+	slot3 = slot1
+	slot2 = slot1.GetSubmarineFleet
+	slot2, slot3 = slot2(slot3)
+
+	if slot2 then
+		slot5 = slot2
+		slot4 = slot2.getHuntingRange
+		slot4 = slot4(slot5)
+		slot5 = _
+		slot5 = slot5.filter
+		slot6 = slot4
+
+		function slot7(slot0)
+			slot1 = slot0
+			slot2 = slot1
+			slot1 = slot1.getChapterCell
+			slot3 = slot0.row
+			slot4 = slot0.column
+			slot1 = slot1(slot2, slot3, slot4)
+
+			if slot1 then
+				slot2 = slot1.walkable
+			end
+
+			return slot2
+		end
+
+		slot5 = slot5(slot6, slot7)
+		slot4 = slot5
+		slot6 = slot0
+		slot5 = slot0.RefreshHuntingRange
+		slot7 = slot4
+		slot8 = false
+
+		slot5(slot6, slot7, slot8)
+	end
+
+	return
+end
+
+slot0.ShowHuntingRange = slot5
+
+function slot5(slot0, slot1, slot2)
+	slot4 = slot0
+	slot3 = slot0.showQuadMark
+	slot5 = slot1
+	slot6 = ChapterConst
+	slot6 = slot6.MarkHuntingRange
+	slot7 = "cell_hunting_range"
+	slot8 = Vector2
+	slot9 = 100
+	slot10 = 100
+	slot8 = slot8(slot9, slot10)
+	slot9 = slot0.material_Add
+	slot10 = slot2
+
+	slot3(slot4, slot5, slot6, slot7, slot8, slot9, slot10)
+
+	slot3 = _
+	slot3 = slot3.each
+	slot4 = slot1
+
+	function slot5(slot0)
+		slot1 = slot0
+		slot2 = slot1
+		slot1 = slot1.AddCellEdge
+		slot3 = slot1
+		slot4 = slot0
+		slot5 = slot2
+		slot5 = not slot5
+		slot6 = 0
+
+		slot1(slot2, slot3, slot4, slot5, slot6)
+
+		return
+	end
+
+	slot3(slot4, slot5)
+
+	return
+end
+
+slot0.RefreshHuntingRange = slot5
+
+function slot5(slot0)
+	slot2 = slot0
+	slot1 = slot0.hideQuadMark
+	slot3 = ChapterConst
+	slot3 = slot3.MarkHuntingRange
+
+	slot1(slot2, slot3)
+
+	slot2 = slot0
+	slot1 = slot0.ClearEdges
+
+	slot1(slot2)
+
+	slot1 = slot0.contextData
+	slot1 = slot1.chapterVO
+	slot3 = slot1
+	slot2 = slot1.GetSubmarineFleet
+	slot2, slot3 = slot2(slot3)
+	slot5 = slot0
+	slot4 = slot0.isHuntingRangeVisible
+	slot4 = slot4(slot5)
+
+	if not slot4 then
+		slot4 = slot0.contextData
+		slot5 = slot0.contextData
+		slot5 = slot5.huntingRangeVisibility
+		slot5 = slot5 + 1
+		slot4.huntingRangeVisibility = slot5
+	end
+
+	slot5 = slot2
+	slot4 = slot2.getHuntingRange
+	slot4 = slot4(slot5)
+	slot5 = _
+	slot5 = slot5.filter
+	slot6 = slot4
+
+	function slot7(slot0)
+		slot1 = slot0
+		slot2 = slot1
+		slot1 = slot1.getChapterCell
+		slot3 = slot0.row
+		slot4 = slot0.column
+		slot1 = slot1(slot2, slot3, slot4)
+
+		if slot1 then
+			slot2 = slot1.walkable
+		end
+
+		return slot2
+	end
+
+	slot5 = slot5(slot6, slot7)
+	slot4 = slot5
+	slot6 = slot0
+	slot5 = slot0.RefreshHuntingRange
+	slot7 = slot4
+	slot8 = true
+
+	slot5(slot6, slot7, slot8)
+
+	return
+end
+
+slot0.ShowStaticHuntingRange = slot5
+
+function slot5(slot0, slot1)
+	slot3 = slot0
+	slot2 = slot0.hideQuadMark
+	slot4 = ChapterConst
+	slot4 = slot4.MarkHuntingRange
+
+	slot2(slot3, slot4)
+
+	slot3 = slot0
+	slot2 = slot0.ClearEdges
+
+	slot2(slot3)
+
+	slot2 = slot0.contextData
+	slot2 = slot2.chapterVO
+	slot4 = slot2
+	slot3 = slot2.GetSubmarineFleet
+	slot3, slot4 = slot3(slot4)
+	slot6 = slot3
+	slot5 = slot3.getHuntingRange
+	slot7 = slot1
+	slot5 = slot5(slot6, slot7)
+	slot6 = _
+	slot6 = slot6.filter
+	slot7 = slot5
+
+	function slot8(slot0)
+		slot1 = slot0
+		slot2 = slot1
+		slot1 = slot1.getChapterCell
+		slot3 = slot0.row
+		slot4 = slot0.column
+		slot1 = slot1(slot2, slot3, slot4)
+
+		if slot1 then
+			slot2 = slot1.walkable
+		end
+
+		return slot2
+	end
+
+	slot6 = slot6(slot7, slot8)
+	slot5 = slot6
+	slot7 = slot3
+	slot6 = slot3.getHuntingRange
+	slot6 = slot6(slot7)
+	slot7 = _
+	slot7 = slot7.filter
+	slot8 = slot6
+
+	function slot9(slot0)
+		slot1 = slot0
+		slot2 = slot1
+		slot1 = slot1.getChapterCell
+		slot3 = slot0.row
+		slot4 = slot0.column
+		slot1 = slot1(slot2, slot3, slot4)
+
+		if slot1 then
+			slot2 = slot1.walkable
+		end
+
+		return slot2
+	end
+
+	slot7 = slot7(slot8, slot9)
+	slot6 = slot7
+	slot7 = {}
+	slot8 = pairs
+	slot9 = slot6
+	slot8, slot9, slot10 = slot8(slot9)
+
+	for slot11, slot12 in slot8, slot9, slot10 do
+		slot13 = table
+		slot13 = slot13.containsdata
+		slot14 = slot5
+		slot15 = slot12
+		slot13 = slot13(slot14, slot15)
+
+		if not slot13 then
+			slot13 = table
+			slot13 = slot13.insert
+			slot14 = slot7
+			slot15 = slot12
+
+			slot13(slot14, slot15)
+		end
+	end
+
+	slot9 = slot0
+	slot8 = slot0.RefreshHuntingRange
+	slot10 = slot7
+	slot11 = true
+
+	slot8(slot9, slot10, slot11)
+
+	slot9 = slot0
+	slot8 = slot0.RefreshHuntingRange
+	slot10 = slot5
+	slot11 = false
+
+	slot8(slot9, slot10, slot11)
+
+	slot9 = slot0
+	slot8 = slot0.updateAttachments
+
+	slot8(slot9)
+
+	slot9 = slot0
+	slot8 = slot0.updateChampions
+
+	slot8(slot9)
+
+	return
+end
+
+slot0.ShowTargetHuntingRange = slot5
+
+function slot5(slot0)
+	slot1 = slot0.contextData
+	slot1 = slot1.chapterVO
+	slot3 = slot1
+	slot2 = slot1.GetSubmarineFleet
+	slot2, slot3 = slot2(slot3)
+
+	if not slot2 then
+		return
+	end
+
+	slot4 = slot0.cellFleets
+	slot5 = slot2.id
+	slot4 = slot4[slot5]
+	slot5 = slot1.subAutoAttack
+
+	if slot5 ~= 1 then
+		slot5 = false
+	else
+		slot5 = true
+	end
+
+	slot7 = slot4
+	slot6 = slot4.SetActive
+	slot8 = slot5
+
+	slot6(slot7, slot8)
+
+	slot7 = slot0
+	slot6 = slot0.SetSpineVisible
+	slot8 = slot4.tfShip
+	slot9 = not slot5
+
+	slot6(slot7, slot8, slot9)
+
+	slot7 = slot0
+	slot6 = slot0.PlaySubAnimation
+	slot8 = slot4
+	slot9 = not slot5
+
+	function slot10()
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.updateFleet
+		slot2 = slot1
+		slot2 = slot2.id
+
+		slot0(slot1, slot2)
+
+		return
+	end
+
+	slot6(slot7, slot8, slot9, slot10)
+
+	return
+end
+
+slot0.OnChangeSubAutoAttack = slot5
+
+function slot5(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot3 = slot1
@@ -7583,169 +9287,468 @@ function slot2(slot0)
 	slot10 = 105
 
 	slot3(slot4, slot5, slot6, slot7, slot8(slot9, slot10))
+
+	return
 end
 
-slot0.displayEscapeGrid = slot2
+slot0.displayEscapeGrid = slot5
 
-function slot2(slot0, slot1, slot2, slot3, slot4, slot5)
-	slot6 = slot0.contextData
-	slot6 = slot6.chapterVO
-	slot7 = ipairs
-	slot8 = slot1
-	slot7, slot8, slot9 = slot7(slot8)
+function slot5(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+	slot7 = slot0.contextData
+	slot7 = slot7.chapterVO
+	slot8 = pairs
+	slot9 = slot1
+	slot8, slot9, slot10 = slot8(slot9)
 
-	for slot10, slot11 in slot7, slot8, slot9 do
-		slot13 = slot6
-		slot12 = slot6.getChapterCell
-		slot14 = slot11.row
-		slot15 = slot11.column
-		slot12 = slot12(slot13, slot14, slot15)
+	for slot11, slot12 in slot8, slot9, slot10 do
+		slot14 = slot7
+		slot13 = slot7.getChapterCell
+		slot15 = slot12.row
+		slot16 = slot12.column
+		slot13 = slot13(slot14, slot15, slot16)
 
-		if slot12 then
-			slot13 = slot12.walkable
+		if slot13 then
+			slot14 = slot13.walkable
 
-			if slot13 then
-				slot13 = ChapterCell
-				slot13 = slot13.Line2MarkName
-				slot14 = slot11.row
-				slot15 = slot11.column
-				slot16 = slot2
-				slot13 = slot13(slot14, slot15, slot16)
-				slot14 = slot0.markRoot
-				slot15 = slot14
-				slot14 = slot14.Find
-				slot16 = slot13
-				slot14 = slot14(slot15, slot16)
+			if slot14 then
+				slot14 = ChapterCell
+				slot14 = slot14.Line2MarkName
+				slot15 = slot12.row
+				slot16 = slot12.column
+				slot17 = slot2
+				slot14 = slot14(slot15, slot16, slot17)
+				slot15 = slot0.markQuads
+				slot15 = slot15[slot14]
 
-				if not slot14 then
-					slot15 = PoolMgr
-					slot15 = slot15.GetInstance
-					slot15 = slot15()
-					slot16 = slot15
-					slot15 = slot15.GetPrefab
-					slot17 = "chapter/cell_quad"
-					slot18 = "cell_quad"
-					slot19 = false
+				if not slot15 then
+					slot16 = PoolMgr
+					slot16 = slot16.GetInstance
+					slot16 = slot16()
+					slot17 = slot16
+					slot16 = slot16.GetPrefab
+					slot18 = "chapter/cell_quad"
+					slot19 = "cell_quad"
+					slot20 = false
 
-					function slot20(slot0)
+					function slot21(slot0)
 						slot1 = slot0.transform
 						slot0 = slot1
+						slot1 = slot1
+						slot1 = slot1.markQuads
+						slot2 = slot2
+						slot3 = slot0
+						slot1[slot2] = slot3
+
+						return
 					end
 
-					slot15(slot16, slot17, slot18, slot19, slot20)
+					slot16(slot17, slot18, slot19, slot20, slot21)
 				end
 
-				slot14.name = slot13
-				slot16 = slot14
-				slot15 = slot14.SetParent
-				slot17 = slot0.markRoot
-				slot18 = false
+				slot15.name = slot14
+				slot17 = slot15
+				slot16 = slot15.SetParent
+				slot18 = slot0.markRoot
+				slot19 = false
 
-				slot15(slot16, slot17, slot18)
+				slot16(slot17, slot18, slot19)
 
-				slot15 = slot6.theme
-				slot15 = slot15.cellSize
-				slot14.sizeDelta = slot15
-				slot15 = slot6.theme
-				slot16 = slot15
-				slot15 = slot15.GetLinePosition
-				slot17 = slot11.row
-				slot18 = slot11.column
-				slot15 = slot15(slot16, slot17, slot18)
-				slot14.anchoredPosition = slot15
-				slot15 = Vector3
-				slot15 = slot15.one
-				slot14.localScale = slot15
-				slot16 = slot14
-				slot15 = slot14.SetAsLastSibling
+				slot16 = slot7.theme
+				slot16 = slot16.cellSize
+				slot15.sizeDelta = slot16
+				slot16 = slot7.theme
+				slot17 = slot16
+				slot16 = slot16.GetLinePosition
+				slot18 = slot12.row
+				slot19 = slot12.column
+				slot16 = slot16(slot17, slot18, slot19)
+				slot15.anchoredPosition = slot16
+				slot16 = Vector3
+				slot16 = slot16.one
+				slot15.localScale = slot16
+				slot17 = slot15
+				slot16 = slot15.SetAsLastSibling
 
-				slot15(slot16)
+				slot16(slot17)
 
-				slot15 = setImageSprite
-				slot16 = slot14
+				slot17 = slot15
+				slot16 = slot15.GetComponent
+				slot18 = typeof
+				slot19 = Image
+				slot16 = slot16(slot17, slot18(slot19))
 				slot17 = GetSpriteFromAtlas
 				slot18 = "chapter/pic/cellgrid"
 				slot19 = slot3
+				slot17 = slot17(slot18, slot19)
+				slot16.sprite = slot17
+				slot17 = slot16.color
+				slot18 = alpha
+				slot17.a = slot18
+				slot16.color = slot17
+				slot16.material = slot5
+				slot15.sizeDelta = slot4
 
-				slot15(slot16, slot17(slot18, slot19))
+				if not slot6 then
+					slot19 = slot0
+					slot18 = slot0.startMarkTween
+					slot20 = slot14
+					slot21 = slot15
 
-				slot15 = setImageAlpha
-				slot16 = slot14
-				slot17 = 1
+					slot18(slot19, slot20, slot21)
+				else
+					slot19 = slot0
+					slot18 = slot0.cancelMarkTween
+					slot20 = slot14
+					slot21 = slot15
+					slot22 = 1
 
-				slot15(slot16, slot17)
-
-				slot14.sizeDelta = slot4
-
-				if not slot5 then
-					slot16 = slot0
-					slot15 = slot0.startMarkTween
-					slot17 = slot13
-					slot18 = slot14
-
-					slot15(slot16, slot17, slot18)
+					slot18(slot19, slot20, slot21, slot22)
 				end
 			end
 		end
 	end
+
+	return
 end
 
-slot0.showQuadMark = slot2
+slot0.showQuadMark = slot5
 
-function slot2(slot0, slot1)
-	slot2 = slot0.markRoot
-	slot2 = slot2.childCount
-	slot2 = slot2 - 1
-	slot3 = 0
-	slot4 = -1
+function slot5(slot0, slot1)
+	slot2 = pairs
+	slot3 = slot0.markQuads
+	slot2, slot3, slot4 = slot2(slot3)
 
-	for slot5 = slot2, slot3, slot4 do
-		slot6 = slot0.markRoot
-		slot7 = slot6
-		slot6 = slot6.GetChild
-		slot8 = slot5
-		slot6 = slot6(slot7, slot8)
-		slot7 = slot6.name
-
+	for slot5, slot6 in slot2, slot3, slot4 do
 		if slot1 then
-			slot8 = tonumber
-			slot9 = string
-			slot9 = slot9.sub
-			slot10 = slot7
-			slot11 = string
-			slot11 = slot11.find
-			slot12 = slot7
-			slot13 = "#"
-			slot11 = slot11(slot12, slot13)
-			slot11 = slot11 + 1
-			slot8 = slot8(slot9(slot10, slot11))
+			slot7 = tonumber
+			slot8 = string
+			slot8 = slot8.sub
+			slot9 = slot5
+			slot10 = string
+			slot10 = slot10.find
+			slot11 = slot5
+			slot12 = "#"
+			slot10 = slot10(slot11, slot12)
+			slot10 = slot10 + 1
+			slot7 = slot7(slot8(slot9, slot10))
 
-			if slot8 == slot1 then
-				slot9 = slot0
-				slot8 = slot0.cancelMarkTween
-				slot10 = slot7
-				slot11 = slot6
+			if slot7 == slot1 then
+				slot8 = slot0
+				slot7 = slot0.cancelMarkTween
+				slot9 = slot5
+				slot10 = slot6
 
-				slot8(slot9, slot10, slot11)
+				slot7(slot8, slot9, slot10)
 
-				slot8 = PoolMgr
-				slot8 = slot8.GetInstance
-				slot8 = slot8()
-				slot9 = slot8
-				slot8 = slot8.ReturnPrefab
-				slot10 = "chapter/cell_quad"
-				slot11 = "cell_quad"
-				slot12 = slot6.gameObject
+				slot7 = slot0.markQuads
+				slot7 = slot7[slot5]
+				slot8 = slot7
+				slot7 = slot7.GetComponent
+				slot9 = typeof
+				slot10 = Image
+				slot7 = slot7(slot8, slot9(slot10))
+				slot8 = nil
+				slot7.material = slot8
+				slot7 = slot0.markQuads
+				slot8 = nil
+				slot7[slot5] = slot8
+				slot7 = PoolMgr
+				slot7 = slot7.GetInstance
+				slot7 = slot7()
+				slot8 = slot7
+				slot7 = slot7.ReturnPrefab
+				slot9 = "chapter/cell_quad"
+				slot10 = "cell_quad"
+				slot11 = slot6.gameObject
 
-				slot8(slot9, slot10, slot11, slot12)
+				slot7(slot8, slot9, slot10, slot11)
 			end
 		end
 	end
+
+	return
 end
 
-slot0.hideQuadMark = slot2
+slot0.hideQuadMark = slot5
 
-function slot2(slot0, slot1, slot2, slot3)
+function slot5(slot0, slot1, slot2, slot3, slot4)
+	slot5 = 0
+
+	if slot1 > slot5 then
+		slot5 = 16
+
+		if slot1 >= slot5 then
+			return
+		end
+	end
+
+	slot6 = slot0
+	slot5 = slot0.getEdgePool
+	slot5 = slot5(slot6)
+	slot6 = slot0.contextData
+	slot6 = slot6.chapterVO
+	slot7 = ChapterCell
+	slot7 = slot7.Line2Name
+	slot8 = slot2.row
+	slot9 = slot2.column
+	slot7 = slot7(slot8, slot9)
+	slot8 = slot6.theme
+	slot9 = slot8
+	slot8 = slot8.GetLinePosition
+	slot10 = slot2.row
+	slot11 = slot2.column
+	slot8 = slot8(slot9, slot10, slot11)
+	slot9 = slot6.theme
+	slot9 = slot9.cellSize
+	slot10 = 1
+	slot11 = 0
+	slot12 = 4
+
+	while slot11 < slot12 do
+		slot11 = slot11 + 1
+		slot12 = bit
+		slot12 = slot12.band
+		slot13 = slot1
+		slot14 = slot10
+		slot12 = slot12(slot13, slot14)
+		slot13 = 0
+
+		if slot12 > slot13 then
+			slot12 = slot7
+			slot13 = "_edge_"
+			slot14 = tostring
+			slot15 = slot11
+			slot14 = slot14(slot15)
+			slot12 = slot12 .. slot13 .. slot14
+			slot13 = slot0.cellEdges
+			slot13 = slot13[slot12]
+
+			if not slot13 then
+				slot13 = slot0.cellEdges
+				slot14 = tf
+				slot16 = slot5
+				slot15 = slot5.Dequeue
+				slot14 = slot14(slot15(slot16))
+				slot13[slot12] = slot14
+			end
+
+			slot13 = slot0.cellEdges
+			slot13 = slot13[slot12]
+			slot13.name = slot12
+			slot15 = slot13
+			slot14 = slot13.SetParent
+			slot16 = slot0.markRoot
+			slot17 = false
+
+			slot14(slot15, slot16, slot17)
+
+			slot15 = slot13
+			slot14 = slot13.SetAsLastSibling
+
+			slot14(slot15)
+
+			if not slot4 then
+				slot14 = 0
+			end
+
+			slot15 = bit
+			slot15 = slot15.band
+			slot16 = slot11
+			slot17 = 1
+			slot15 = slot15(slot16, slot17)
+
+			if slot15 ~= 1 then
+				slot15 = false
+			else
+				slot15 = true
+			end
+
+			slot16 = 3
+
+			if slot15 then
+				slot17 = slot9.x
+				slot18 = slot14 * 2
+				slot17 = slot17 - slot18
+
+				if not slot17 then
+					slot17 = slot16
+				end
+			end
+
+			if not slot15 or not slot16 then
+				slot18 = slot9.y
+				slot19 = slot14 * 2
+				slot18 = slot18 - slot19
+			end
+
+			slot19 = Vector2
+			slot19 = slot19.New
+			slot20 = slot17
+			slot21 = slot18
+			slot19 = slot19(slot20, slot21)
+			slot13.sizeDelta = slot19
+			slot19 = math
+			slot19 = slot19.pi
+			slot19 = slot19 * 0.5
+			slot20 = slot11 - 1
+			slot19 = slot19 * slot20
+			slot20 = math
+			slot20 = slot20.sin
+			slot21 = slot19
+			slot20 = slot20(slot21)
+			slot21 = slot9.x
+			slot21 = slot21 * 0.5
+			slot22 = slot16 * 0.5
+			slot21 = slot21 - slot22
+			slot21 = slot21 - slot14
+			slot20 = slot20 * slot21
+			slot21 = math
+			slot21 = slot21.cos
+			slot22 = slot19
+			slot21 = slot21(slot22)
+			slot22 = slot9.y
+			slot22 = slot22 * 0.5
+			slot23 = slot16 * 0.5
+			slot22 = slot22 - slot23
+			slot22 = slot22 - slot14
+			slot21 = slot21 * slot22
+			slot22 = Vector2
+			slot22 = slot22.New
+			slot23 = slot8.x
+			slot23 = slot20 + slot23
+			slot24 = slot8.y
+			slot24 = slot21 + slot24
+			slot22 = slot22(slot23, slot24)
+			slot13.anchoredPosition = slot22
+
+			if slot3 then
+				slot23 = slot0
+				slot22 = slot0.startMarkTween
+				slot24 = slot12
+				slot25 = slot13
+
+				slot22(slot23, slot24, slot25)
+			else
+				slot23 = slot0
+				slot22 = slot0.cancelMarkTween
+				slot24 = slot12
+				slot25 = slot13
+				slot26 = 1
+
+				slot22(slot23, slot24, slot25, slot26)
+			end
+		end
+
+		slot10 = slot10 * 2
+	end
+
+	return
+end
+
+slot0.CreateEdge = slot5
+
+function slot5(slot0, slot1)
+	slot2 = slot0.contextData
+	slot2 = slot2.chapterVO
+	slot3 = ChapterCell
+	slot3 = slot3.Line2Name
+	slot4 = slot1.row
+	slot5 = slot1.column
+	slot3 = slot3(slot4, slot5)
+	slot4 = 1
+	slot5 = 4
+	slot6 = 1
+
+	for slot7 = slot4, slot5, slot6 do
+		slot8 = slot3
+		slot9 = "_edge_"
+		slot10 = tostring
+		slot11 = slot7
+		slot10 = slot10(slot11)
+		slot8 = slot8 .. slot9 .. slot10
+		slot9 = slot0.cellEdges
+		slot9 = slot9[slot8]
+
+		if slot9 then
+			slot10 = slot0
+			slot9 = slot0.getEdgePool
+			slot9 = slot9(slot10)
+			slot10 = tf
+			slot11 = slot0.cellEdges
+			slot11 = slot11[slot8]
+			slot10 = slot10(slot11)
+			slot12 = slot0
+			slot11 = slot0.cancelMarkTween
+			slot13 = slot8
+			slot14 = slot10
+
+			slot11(slot12, slot13, slot14)
+
+			slot12 = slot9
+			slot11 = slot9.Enqueue
+			slot13 = slot10
+			slot14 = false
+
+			slot11(slot12, slot13, slot14)
+
+			slot11 = slot0.cellEdges
+			slot12 = nil
+			slot11[slot8] = slot12
+		end
+	end
+
+	return
+end
+
+slot0.ClearEdge = slot5
+
+function slot5(slot0)
+	slot1 = table
+	slot1 = slot1.getCount
+	slot2 = slot0.cellEdges
+	slot1 = slot1(slot2)
+	slot2 = 0
+
+	if slot1 <= slot2 then
+		return
+	end
+
+	slot2 = slot0
+	slot1 = slot0.getEdgePool
+	slot1 = slot1(slot2)
+	slot2 = pairs
+	slot3 = slot0.cellEdges
+	slot2, slot3, slot4 = slot2(slot3)
+
+	for slot5, slot6 in slot2, slot3, slot4 do
+		if slot6 then
+			slot8 = slot0
+			slot7 = slot0.cancelMarkTween
+			slot9 = slot5
+			slot10 = slot6
+
+			slot7(slot8, slot9, slot10)
+
+			slot8 = slot1
+			slot7 = slot1.Enqueue
+			slot9 = go
+			slot10 = slot6
+			slot9 = slot9(slot10)
+			slot10 = false
+
+			slot7(slot8, slot9, slot10)
+		end
+	end
+
+	slot2 = {}
+	slot0.cellEdges = slot2
+
+	return
+end
+
+slot0.ClearEdges = slot5
+
+function slot5(slot0, slot1, slot2, slot3)
 	slot4 = slot0.contextData
 	slot4 = slot4.chapterVO
 	slot6 = slot4
@@ -7869,24 +9872,86 @@ function slot2(slot0, slot1, slot2, slot3)
 					slot10 = slot10[1]
 
 					if slot10 then
-						slot11 = slot10.tw.passed or 0
+						slot11 = slot10.tw
+						slot11 = slot11.passed
 
-						if slot10 then
-							slot13 = slot5:GetComponent("Image")
-							slot15 = Material.New(slot14)
-							slot16 = LeanTween.value(slot5.gameObject, 0, 1, 1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong():setOnUpdate(System.Action_float(function (slot0)
-								slot0:SetColor("_Color", Color.Lerp(Color.black, Color.gray, slot0))
-
-								slot0.SetColor.material = slot0
-							end))
-							slot16.passed = slot11
-							slot16.direction = slot10.tw.direction or 1
-							slot0.shiningTws[slot7] = {
-								tw = slot16,
-								uniqueId = slot16.uniqueId
-							}
+						if not slot11 then
+							slot11 = 0
 						end
 					end
+
+					if slot10 then
+						slot12 = slot10.tw
+						slot12 = slot12.direction
+
+						if not slot12 then
+							slot12 = 1
+						end
+					end
+
+					slot14 = slot5
+					slot13 = slot5.GetComponent
+					slot15 = "Image"
+					slot13 = slot13(slot14, slot15)
+					slot14 = Shader
+					slot14 = slot14.Find
+					slot15 = "Spine/SkeletonGraphic (Additive)"
+					slot14 = slot14(slot15)
+					slot15 = Material
+					slot15 = slot15.New
+					slot16 = slot14
+					slot15 = slot15(slot16)
+					slot16 = LeanTween
+					slot16 = slot16.value
+					slot17 = slot5.gameObject
+					slot18 = 0
+					slot19 = 1
+					slot20 = 1
+					slot16 = slot16(slot17, slot18, slot19, slot20)
+					slot17 = slot16
+					slot16 = slot16.setEase
+					slot18 = LeanTweenType
+					slot18 = slot18.easeInOutSine
+					slot16 = slot16(slot17, slot18)
+					slot17 = slot16
+					slot16 = slot16.setLoopPingPong
+					slot16 = slot16(slot17)
+					slot17 = slot16
+					slot16 = slot16.setOnUpdate
+					slot18 = System
+					slot18 = slot18.Action_float
+
+					function slot19(slot0)
+						slot1 = slot0
+						slot2 = slot1
+						slot1 = slot1.SetColor
+						slot3 = "_Color"
+						slot4 = Color
+						slot4 = slot4.Lerp
+						slot5 = Color
+						slot5 = slot5.black
+						slot6 = Color
+						slot6 = slot6.gray
+						slot7 = slot0
+
+						slot1(slot2, slot3, slot4(slot5, slot6, slot7))
+
+						slot1 = slot1
+						slot2 = slot0
+						slot1.material = slot2
+
+						return
+					end
+
+					slot16 = slot16(slot17, slot18(slot19))
+					slot16.passed = slot11
+					slot16.direction = slot12
+					slot17 = slot0.shiningTws
+					slot18 = {}
+					slot18.tw = slot16
+					slot19 = slot16.uniqueId
+					slot18.uniqueId = slot19
+					slot17[slot7] = slot18
 				end
 			else
 				slot10 = slot0.shiningTws
@@ -7914,11 +9979,13 @@ function slot2(slot0, slot1, slot2, slot3)
 			end
 		end
 	end
+
+	return
 end
 
-slot0.shiningTarget = slot2
+slot0.shiningTarget = slot5
 
-function slot2(slot0, slot1, slot2)
+function slot5(slot0, slot1, slot2)
 	slot3 = slot0.contextData
 	slot3 = slot3.chapterVO
 	slot4, slot5 = nil
@@ -8016,6 +10083,8 @@ function slot2(slot0, slot1, slot2)
 
 			slot1()
 		end
+
+		return
 	end
 
 	slot8(slot9, slot10(slot11))
@@ -8029,9 +10098,9 @@ function slot2(slot0, slot1, slot2)
 	return slot4
 end
 
-slot0.shakeCell = slot2
+slot0.shakeCell = slot5
 
-function slot2(slot0)
+function slot5(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot3 = slot1
@@ -8054,25 +10123,105 @@ function slot2(slot0)
 	slot9 = 110
 	slot10 = 110
 	slot8 = slot8(slot9, slot10)
-	slot9 = false
+	slot9 = nil
+	slot10 = false
 
-	slot3(slot4, slot5, slot6, slot7, slot8, slot9)
+	slot3(slot4, slot5, slot6, slot7, slot8, slot9, slot10)
+
+	return
 end
 
-slot0.updateCoastalGunAttachArea = slot2
+slot0.updateCoastalGunAttachArea = slot5
 
-function slot2(slot0, slot1)
+function slot5(slot0, slot1, slot2)
+	slot4 = slot0
+	slot3 = slot0.findTF
+	slot5 = "model"
+	slot6 = slot1
+	slot3 = slot3(slot4, slot5, slot6)
+
+	if not slot3 then
+		return
+	end
+
+	slot5 = slot3
+	slot4 = slot3.GetComponent
+	slot6 = "SkeletonGraphic"
+	slot4 = slot4(slot5, slot6)
+
+	if slot2 then
+		slot5 = Color
+		slot5 = slot5.New
+		slot6 = 1
+		slot7 = 1
+		slot8 = 1
+		slot9 = 1
+		slot5 = slot5(slot6, slot7, slot8, slot9)
+		slot4.color = slot5
+	else
+		slot5 = Color
+		slot5 = slot5.New
+		slot6 = 1
+		slot7 = 1
+		slot8 = 1
+		slot9 = 0
+		slot5 = slot5(slot6, slot7, slot8, slot9)
+		slot4.color = slot5
+	end
+
+	return
+end
+
+slot0.SetSpineVisible = slot5
+
+function slot5(slot0, slot1)
+	slot2 = string
+	slot2 = slot2.char
+	slot3 = string
+	slot3 = slot3.byte
+	slot4 = "A"
+	slot3 = slot3(slot4)
+	slot4 = slot1.column
+	slot3 = slot3 + slot4
+	slot4 = slot0.indexMin
+	slot4 = slot4.x
+	slot3 = slot3 - slot4
+	slot2 = slot2(slot3)
+	slot3 = string
+	slot3 = slot3.char
+	slot4 = string
+	slot4 = slot4.byte
+	slot5 = "1"
+	slot4 = slot4(slot5)
+	slot5 = slot1.row
+	slot4 = slot4 + slot5
+	slot5 = slot0.indexMin
+	slot5 = slot5.y
+	slot4 = slot4 - slot5
+	slot3 = slot3(slot4)
+	slot4 = slot2
+	slot5 = slot3
+	slot4 = slot4 .. slot5
+
+	return slot4
+end
+
+slot0.TransformLine2PlanePos = slot5
+
+function slot5(slot0, slot1)
 	slot2 = slot0.parent
 	slot3 = slot2
 	slot2 = slot2.frozen
 	slot4 = slot1
 
 	slot2(slot3, slot4)
+
+	return
 end
 
-slot0.frozen = slot2
+slot0.frozen = slot5
 
-function slot2(slot0)
+function slot5(slot0)
 	slot1 = slot0.exited
 
 	if slot1 then
@@ -8084,23 +10233,60 @@ function slot2(slot0)
 	slot1 = slot1.unfrozen
 
 	slot1(slot2)
+
+	return
 end
 
-slot0.unfrozen = slot2
+slot0.unfrozen = slot5
 
-function slot2(slot0)
-	return slot0.parent.frozenCount > 0
+function slot5(slot0)
+	slot1 = slot0.parent
+	slot1 = slot1.frozenCount
+	slot2 = 0
+
+	if slot1 <= slot2 then
+		slot1 = false
+	else
+		slot1 = true
+	end
+
+	return slot1
 end
 
-slot0.isfrozen = slot2
+slot0.isfrozen = slot5
 
-function slot2(slot0)
+function slot5(slot0)
 	slot2 = slot0
 	slot1 = slot0.clearAll
 
 	slot1(slot2)
+
+	slot1 = ChapterConst
+	slot1 = slot1.__DEBUG__
+
+	if slot1 then
+		slot1 = slot0._DebugTimer
+
+		if slot1 then
+			slot1 = pg
+			slot1 = slot1.TimeMgr
+			slot2 = slot1
+			slot1 = slot1.GetInstance
+			slot1 = slot1(slot2)
+			slot2 = slot1
+			slot1 = slot1.RemoveTimer
+			slot3 = slot0._DebugTimer
+
+			slot1(slot2, slot3)
+
+			slot1 = nil
+			slot0._DebugTimer = slot1
+		end
+	end
+
+	return
 end
 
-slot0.clear = slot2
+slot0.clear = slot5
 
 return slot0

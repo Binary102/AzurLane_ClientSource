@@ -1,11 +1,11 @@
 return {
-	map_id = 10005,
+	map_id = 10008,
 	id = 1000,
 	stages = {
 		{
 			stageIndex = 1,
 			failCondition = 1,
-			timeCount = 180,
+			timeCount = 90,
 			backGroundStageID = 1,
 			passCondition = 1,
 			totalArea = {
@@ -48,8 +48,15 @@ return {
 					}
 				},
 				{
+					triggerType = 1,
+					waveIndex = 200,
+					preWaves = {},
+					triggerParams = {
+						timeout = 21.5
+					}
+				},
+				{
 					triggerType = 0,
-					key = true,
 					waveIndex = 101,
 					conditionType = 1,
 					preWaves = {
@@ -58,1293 +65,282 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							monsterTemplateID = 1026,
-							delay = 2,
-							chance = 1,
+							monsterTemplateID = 802,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
-								40,
+								-12,
 								0,
 								80
 							},
 							buffList = {
 								8001,
-								8002
+								8007
 							}
 						},
 						{
-							monsterTemplateID = 1026,
-							delay = 2,
-							chance = 1,
+							monsterTemplateID = 802,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
-								40,
+								-12,
 								0,
-								55
+								64
 							},
 							buffList = {
 								8001,
-								8002
+								8007
 							}
 						},
 						{
-							monsterTemplateID = 1026,
-							delay = 2,
-							chance = 1,
+							monsterTemplateID = 803,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
-								40,
+								-12,
 								0,
-								30
+								48
 							},
 							buffList = {
 								8001,
-								8002
+								8007,
+								8102
 							}
 						},
 						{
-							monsterTemplateID = 1026,
+							monsterTemplateID = 802,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								-12,
+								0,
+								32
+							},
+							buffList = {
+								8001,
+								8007
+							}
+						},
+						{
+							monsterTemplateID = 800,
 							delay = 3,
-							chance = 1,
+							moveCast = true,
 							corrdinate = {
-								40,
-								0,
-								65
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 3,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								45
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 4,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								90
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 4.5,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								80
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 4.5,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								40
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 5,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								60
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 5.5,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								50
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 6,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								40
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 7,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								20
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 7,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								35
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 7,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								50
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 7,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								70
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 7,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								85
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 8.5,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								60
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 8.5,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								50
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 9.5,
-							chance = 1,
-							corrdinate = {
-								40,
+								-6,
 								0,
 								75
 							},
 							buffList = {
 								8001,
-								8002
+								8007,
+								8101
 							}
 						},
 						{
-							monsterTemplateID = 1026,
-							delay = 10.5,
-							chance = 1,
+							monsterTemplateID = 801,
+							delay = 6,
+							moveCast = true,
 							corrdinate = {
-								40,
-								0,
-								90
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 9.5,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								35
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 10.5,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								20
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 9,
-							chance = 1,
-							corrdinate = {
-								40,
+								-6,
 								0,
 								55
 							},
 							buffList = {
 								8001,
-								8002
+								8007,
+								8608
 							}
 						},
 						{
-							monsterTemplateID = 1026,
-							delay = 10,
-							chance = 1,
+							monsterTemplateID = 803,
+							delay = 9,
+							moveCast = true,
 							corrdinate = {
-								40,
 								0,
-								70
+								0,
+								55
 							},
 							buffList = {
 								8001,
-								8002
+								8007,
+								8102
 							}
 						},
 						{
-							monsterTemplateID = 1026,
-							delay = 10,
-							chance = 1,
+							monsterTemplateID = 802,
+							delay = 9,
+							moveCast = true,
 							corrdinate = {
-								40,
+								0,
 								0,
 								40
 							},
 							buffList = {
 								8001,
-								8002
+								8007
 							}
 						},
 						{
-							monsterTemplateID = 1026,
-							delay = 11,
-							chance = 1,
+							monsterTemplateID = 802,
+							delay = 9,
+							moveCast = true,
 							corrdinate = {
-								40,
 								0,
-								80
+								0,
+								25
 							},
 							buffList = {
 								8001,
-								8002
+								8007
 							}
 						},
 						{
-							monsterTemplateID = 1026,
-							delay = 11.5,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								70
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
+							monsterTemplateID = 803,
 							delay = 12,
-							chance = 1,
+							moveCast = true,
 							corrdinate = {
-								40,
-								0,
-								60
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 12.5,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								50
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 13,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								40
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 13.5,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								20
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 14,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								30
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 14.5,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								40
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 15,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								50
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 15.5,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								60
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 16,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								70
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 17,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								90
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 17,
-							chance = 1,
-							corrdinate = {
-								40,
+								6,
 								0,
 								80
 							},
 							buffList = {
 								8001,
-								8002
+								8007,
+								8102
 							}
 						},
 						{
-							monsterTemplateID = 1026,
-							delay = 17,
-							chance = 1,
+							monsterTemplateID = 802,
+							delay = 12,
+							moveCast = true,
 							corrdinate = {
-								40,
-								0,
-								70
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 17,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								50
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 17,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								40
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 17,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								20
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 18.5,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								30
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 18.5,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								40
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 18.5,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								50
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 18.5,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								60
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 18.5,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								70
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 18.5,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								90
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 20,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								90
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 20,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								80
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 20,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								70
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 20,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								60
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 20,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								40
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 20,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								30
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 20,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								20
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 20.3,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								60
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 20.6,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								60
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 30,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								50
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 30.5,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								40
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 31,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								30
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 32,
-							chance = 1,
-							corrdinate = {
-								40,
+								6,
 								0,
 								65
 							},
 							buffList = {
 								8001,
-								8002
+								8007
 							}
 						},
 						{
-							monsterTemplateID = 1026,
-							delay = 33,
-							chance = 1,
+							monsterTemplateID = 803,
+							delay = 12,
+							moveCast = true,
 							corrdinate = {
-								40,
+								6,
+								0,
+								50
+							},
+							buffList = {
+								8001,
+								8007,
+								8102
+							}
+						},
+						{
+							monsterTemplateID = 802,
+							delay = 15,
+							moveCast = true,
+							corrdinate = {
+								12,
+								0,
+								75
+							},
+							buffList = {
+								8001,
+								8007
+							}
+						},
+						{
+							monsterTemplateID = 803,
+							delay = 15,
+							moveCast = true,
+							corrdinate = {
+								12,
 								0,
 								55
 							},
 							buffList = {
 								8001,
-								8002
+								8007,
+								8102
 							}
 						},
 						{
-							monsterTemplateID = 1026,
-							delay = 33,
-							chance = 1,
+							monsterTemplateID = 802,
+							delay = 15,
+							moveCast = true,
 							corrdinate = {
-								40,
+								12,
 								0,
-								70
+								35
 							},
 							buffList = {
 								8001,
-								8002
+								8007
 							}
 						},
 						{
-							monsterTemplateID = 1026,
-							delay = 34,
-							chance = 1,
+							monsterTemplateID = 800,
+							delay = 18,
+							moveCast = true,
 							corrdinate = {
-								40,
+								18,
 								0,
-								20
+								35
 							},
 							buffList = {
 								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 34,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								30
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 34,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								40
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 34,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								50
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 34,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								60
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 34,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								70
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 34,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								80
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 35,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								90
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 35,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								80
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 35,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								70
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 35,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								60
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 35,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								50
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 35,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								40
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 35,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								30
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 35,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								20
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 36,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								20
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 36,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								30
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 36,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								60
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 36,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								70
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 36,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								80
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 36,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								90
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 37,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								90
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 38,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								90
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 38,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								80
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 38,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								70
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 38,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								60
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 38,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								50
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 38,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								40
-							},
-							buffList = {
-								8001,
-								8002
-							}
-						},
-						{
-							monsterTemplateID = 1026,
-							delay = 38,
-							chance = 1,
-							corrdinate = {
-								40,
-								0,
-								30
-							},
-							buffList = {
-								8001,
-								8002
+								8007,
+								8101
 							}
 						}
+					}
+				},
+				{
+					triggerType = 0,
+					key = true,
+					waveIndex = 201,
+					conditionType = 1,
+					preWaves = {
+						200
+					},
+					triggerParam = {},
+					spawn = {
+						{
+							monsterTemplateID = 801,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								18,
+								0,
+								55
+							},
+							buffList = {
+								8001,
+								8007,
+								8608
+							}
+						}
+					}
+				},
+				{
+					triggerType = 8,
+					waveIndex = 900,
+					preWaves = {
+						201
+					},
+					triggerParams = {}
+				},
+				{
+					triggerType = 1,
+					waveIndex = 205,
+					preWaves = {
+						201
+					},
+					triggerParams = {
+						timeout = 1
 					}
 				}
 			}

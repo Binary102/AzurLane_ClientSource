@@ -1041,6 +1041,22 @@ pg.gametip = {
 		tip = "모든 적함을 격파",
 		key = "battle_result_defeat_all_enemys"
 	},
+	battle_result_base_score = {
+		tip = "클리어 기본 포인트:",
+		key = "battle_result_base_score"
+	},
+	battle_result_dead_score = {
+		tip = "아군 사망*$1:",
+		key = "battle_result_dead_score"
+	},
+	battle_result_score = {
+		tip = "수송선 파괴*$1：",
+		key = "battle_result_score"
+	},
+	battle_result_score_total = {
+		tip = "총 계:",
+		key = "battle_result_score_total"
+	},
 	battle_levelScene_0Oil = {
 		tip = "연료 포인트가 0이 되었습니다.",
 		key = "battle_levelScene_0Oil"
@@ -1116,6 +1132,10 @@ pg.gametip = {
 	battle_preCombatLayer_damage_before_end = {
 		tip = "가능한 목표에 더 많은 피해를 입히다",
 		key = "battle_preCombatLayer_damage_before_end"
+	},
+	battle_preCombatLayer_destory_transport_ship = {
+		tip = "수송선 최소 1척 파괴 ",
+		key = "battle_preCombatLayer_destory_transport_ship"
 	},
 	battle_preCombatMediator_leastLimit = {
 		tip = "제 1 함대에는 함선을 배속해야 합니다.",
@@ -1208,6 +1228,10 @@ pg.gametip = {
 	battle_autobot_unlock = {
 		tip = "자율전투(오토) 기능이 개방되었습니다.",
 		key = "battle_autobot_unlock"
+	},
+	tips_confirm_teleport_sub = {
+		tip = "지시: <color=#92fc63FF>잠수 편대</color>를 <color=#92fc63FF>$1</color>구역에서 <color=#92fc63FF>$2</color>구역으로 조정하려면 <color=#92fc63FF>$3</color>칸을 이동해야 하며, 석유를 <color=#92fc63FF>$4</color>포인트 소모하게 됩니다. 계속 하시겠습니까? ",
+		key = "tips_confirm_teleport_sub"
 	},
 	backyard_addExp_Info = {
 		tip = "자리를 비우신 ||<color=#FAFAF7FF>$1</color>|| 동안, 충분히 휴식했습니다! ||식량을|| <color=#92fc63FF>$2</color>|| 소비해서, 경험치를 || <color=#92fc63FF>$3</color>|| 획득했습니다!",
@@ -3546,7 +3570,7 @@ pg.gametip = {
 		key = "event_type_unlimit"
 	},
 	dailyLevel_restCount_notEnough = {
-		tip = "출격 가능 횟수 부족",
+		tip = "도전 횟수가 부족해 진행할 수 없습니다. ",
 		key = "dailyLevel_restCount_notEnough"
 	},
 	dailyLevel_unopened = {
@@ -4922,15 +4946,38 @@ pg.gametip = {
 		tip = {
 			{
 				info = [[
+통상 파괴 오픈 시간: 매일 개방, 매주 최대 2회 도전 가능.
+통상 파괴 모드에서 지휘관이 <color=#92fc63>잠수 편대</color>를 출전시키면 
+여러 <color=#92fc63>어뢰 무기</color>가 <color=#92fc63>장비 함선</color>에 각기 다른 수량의<color=#92fc63>탄약</color>을 
+제공한다.
+<color=#92fc63>어뢰 설비</color>는 <color=#92fc63>장비 함선</color>에 추가 <color=#92fc63>탄약</color>을 제공한다.
+통상 파괴 모드에서 <color=#92fc63>모든 잠수 스킬</color>은 효력이 없으며, 잠수함의 
+전탄 발 사, 전용 탄막은 <color=#92fc63>특수 공격 버튼</color>으로 발동된다
+(<color=#92fc63>쉬르쿠프 전용 탄막</color> 은<color=#92fc63>부상</color>시 발동되며, 매 전투마다 1회 만 
+발동한다)
+통상 파괴 모드에서 전탄 발사, 전용 탄막은 <color=#92fc63>데미지를 
+증가</color>시킨다.
+포인트 계산 방식:
+클리어 기본 포인트:<color=#92fc63>100</color>점
+수송선 파괴:<color=#92fc63>+10</color>점
+아군 함선 중상:<color=#92fc63>-15</color>점
+S평가:<color=#92fc63>120</color>점
+A평가:<color=#92fc63>100</color>점
+B평가:<color=#92fc63>70</color>점
 
+상선 호위 오픈 시간: 매 주 월, 목, 일요일
 
-상선호위 개방시간：월·목·일
+해역 소탕 오픈 시간: 매 주 화, 금, 일요일
 
+강습 작전 오픈 시간: 매 주 수, 토, 일요일
 
-해역소탕 개방시간：화·금·일
-
-
-강습작전 개방시간：수·토·일]]
+전술 연구 오픈 시간: 매일 개방
+<color=#92fc63>항공</color> 적군의 기함은 높은 내구도를 가지고 있으니 <color=#92fc63>대공 무기</color>를 
+사용하면 대량의 데미지를 입힐 수 있다.
+<color=#92fc63>포격</color> 적군의 기함은 높은 내구도를 가지고 있으니 <color=#92fc63>포격 병기</color>를 
+사용하면 대량의 데미지를 입힐 수 있다.
+<color=#92fc63>뇌장</color> 적군의 기함은 높은 내구도를 가지고 있으니 <color=#92fc63>어뢰 병기</color>를 
+사용하면 대량의 데미지를 입힐 수 있다.]]
 			}
 		}
 	},
@@ -7202,6 +7249,10 @@ pg.gametip = {
 		tip = "<size=23>훈련 중</size>",
 		key = "word_status_train"
 	},
+	word_status_challenge = {
+		tip = "한계챌린지 ",
+		key = "word_status_challenge"
+	},
 	challenge_rule = {
 		key = "challenge_rule",
 		tip = {
@@ -8555,7 +8606,7 @@ pg.gametip = {
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "쇼카쿠,유키카제,노와키,모가미 한정기간 출현 확률 UP！",
+		tip = "이168、U-101、이25、이56、U-522 출현 확률UP ",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -10629,9 +10680,17 @@ UID: 사령부에서 각 지휘관에게 전달한 고유의 신분 증명
 		tip = "부적합한 내용입니다. 다시 입력해 주세요. ",
 		key = "secondarypassword_illegal_tip"
 	},
+	pt_cosume = {
+		tip = "消耗$1",
+		key = "pt_cosume"
+	},
 	secondarypassword_confirm_tips = {
 		tip = "비밀번호 입력 알림을 다시 확인해 주세요.\n<color=#FFDE38>“%s”</color>",
 		key = "secondarypassword_confirm_tips"
+	},
+	word_rest_times = {
+		tip = "<color=#FFDE38FF>잔여 횟수: %s회</color> ",
+		key = "word_rest_times"
 	}
 }
 

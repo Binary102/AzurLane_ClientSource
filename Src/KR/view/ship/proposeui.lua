@@ -820,13 +820,14 @@ function slot2(slot0)
 							slot14 = slot14.GetInstance
 							slot14 = slot14()
 							slot15 = slot14
-							slot14 = slot14.STimeDescC
+							slot14 = slot14.STimeDescS
 							slot16 = slot0
 							slot16 = slot16.shipVO
 							slot16 = slot16.proposeTime
 							slot17 = "%Y년%m월%d일"
+							slot18 = true
 
-							slot10(slot11, slot12(slot13, slot14(slot15, slot16, slot17)))
+							slot10(slot11, slot12(slot13, slot14(slot15, slot16, slot17, slot18)))
 						end
 					end
 				end
@@ -1535,12 +1536,13 @@ function slot2(slot0)
 					slot6 = slot6.GetInstance
 					slot6 = slot6()
 					slot7 = slot6
-					slot6 = slot6.STimeDescC
+					slot6 = slot6.STimeDescS
 					slot8 = slot0.shipVO
 					slot8 = slot8.proposeTime
 					slot9 = "%Y년%m월%d일"
+					slot10 = true
 
-					slot2(slot3, slot4(slot5, slot6(slot7, slot8, slot9)))
+					slot2(slot3, slot4(slot5, slot6(slot7, slot8, slot9, slot10)))
 				end
 
 				slot2 = GetOrAddComponent

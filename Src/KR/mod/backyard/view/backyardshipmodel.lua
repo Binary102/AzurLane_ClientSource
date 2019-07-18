@@ -1293,10 +1293,6 @@ function slot5(slot0, slot1, slot2)
 	slot3 = slot3.furnitureVOs
 	slot4 = slot0.boatVO
 	slot5 = slot3[slot2]
-	slot6 = print
-	slot7 = "111111111111111111111111"
-
-	slot6(slot7)
 
 	if slot2 then
 		slot7 = slot5

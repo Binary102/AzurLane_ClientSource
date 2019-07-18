@@ -26,26 +26,27 @@ class("GetPowerRankCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				slot7 = PowerRank.New(slot6, slot0)
 
 				slot7:setRank(slot5)
+				slot7:setArenaRank(SeasonInfo.getEmblem(slot6.score, slot5))
 				table.insert(slot1, slot7)
 			end
 
 			slot2 = getProxy(PlayerProxy):getData()
 			slot3 = getProxy(BayProxy):getShipById(slot2.character)
-			slot5 = {
-				user_id = slot2.id,
-				point = getProxy(MilitaryExerciseProxy):getSeasonInfo().score,
+			slot4 = {
+				id = slot2.id,
+				level = slot2.level,
 				name = slot2.name,
-				lv = slot2.level,
+				score = slot2.score,
+				arena_rank = SeasonInfo.getEmblem(slot2.score, slot2.rank),
 				icon = slot3:getConfig("id"),
-				arena_rank = slot2.maxRank,
 				skin_id = slot3.skinId,
 				propose = (slot3.propose and 1) or 0,
 				remoulded = (slot3:isRemoulded() and 1) or 0
 			}
-			slot6 = PowerRank.New(slot5, slot0)
+			slot5 = PowerRank.New(slot4, slot0)
 
-			slot6:setRank(slot4.rank)
-			slot1(slot1, slot6)
+			slot5:setRank(slot2.rank)
+			slot1(slot1, slot5)
 		end)
 	else
 		slot7 = {}
@@ -99,8 +100,8 @@ class("GetPowerRankCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 					point = slot3,
 					name = slot1.name,
 					lv = slot1.level,
-					icon = slot2:getConfig("id"),
 					arena_rank = slot1.maxRank,
+					icon = slot2:getConfig("id"),
 					skin_id = slot2.skinId,
 					propose = (slot2.propose and 1) or 0,
 					remoulded = (slot2:isRemoulded() and 1) or 0

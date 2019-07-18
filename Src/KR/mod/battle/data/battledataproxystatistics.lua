@@ -411,4 +411,43 @@ function ys.Battle.BattleDataProxy.CalcSubRunDead(slot0)
 	slot0._statistics.subRunResult = slot0._subRunStatistics
 end
 
+function ys.Battle.BattleDataProxy.CalcKillingSupplyShip(slot0)
+	slot0._subRunStatistics.score = slot0._subRunStatistics.score + 1
+end
+
+function ys.Battle.BattleDataProxy.CalcSubRountineTimeUp(slot0)
+	slot0._statistics._badTime = true
+
+	slot0:CalcSubRoutineScore()
+
+	slot0._statistics._battleScore = slot0.BattleScore.C
+end
+
+function ys.Battle.BattleDataProxy.CalcSubRountineElimate(slot0)
+	slot0._statistics._elimated = true
+
+	slot0:CalcSubRoutineScore()
+
+	slot0._statistics._battleScore = slot0.BattleScore.D
+end
+
+function ys.Battle.BattleDataProxy.CalcSubRoutineScore(slot0)
+	if ((((slot0._statistics._badTime or slot0._statistics._elimated) and 0) or slot0.SR_CONFIG.BASE_POINT) + slot0._subRunStatistics.score * slot0.SR_CONFIG.POINT) - slot0._statistics._deadCount * slot0.SR_CONFIG.DEAD_POINT >= slot0.SR_CONFIG.BASE_POINT + slot0.SR_CONFIG.M * slot0.SR_CONFIG.POINT then
+		slot0._statistics._battleScore = slot1.BattleScore.S
+	elseif slot0.SR_CONFIG.BASE_POINT <= slot4 then
+		slot0._statistics._battleScore = slot1.BattleScore.A
+	elseif slot4 >= slot0.SR_CONFIG.BASE_POINT - 2 * slot0.SR_CONFIG.DEAD_POINT then
+		slot0._statistics._battleScore = slot1.BattleScore.B
+	else
+		slot0._statistics._battleScore = slot1.BattleScore.D
+	end
+
+	slot0._subRunStatistics.basePoint = slot3
+	slot0._subRunStatistics.deadCount = slot0._statistics._deadCount
+	slot0._subRunStatistics.losePoint = slot1
+	slot0._subRunStatistics.point = slot2
+	slot0._subRunStatistics.total = slot4
+	slot0._statistics.subRunResult = slot0._subRunStatistics
+end
+
 return

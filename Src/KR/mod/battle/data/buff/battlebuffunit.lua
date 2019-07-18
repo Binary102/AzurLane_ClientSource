@@ -128,6 +128,18 @@ function slot4.Trigger(slot0, slot1, slot2)
 	end
 end
 
+function slot4.IsSubmarineSpecial(slot0)
+	slot1 = slot0._triggerSearchTable[slot0.Battle.BattleConst.BuffEffectType.ON_SUBMARINE_FREE_SPECIAL] or {}
+
+	for slot5, slot6 in ipairs(slot1) do
+		if slot6:HaveQuota() then
+			return true
+		end
+	end
+
+	return false
+end
+
 function slot4.onTrigger(slot0, slot1, slot2, slot3)
 	if slot0._triggerSearchTable[slot1] == nil or #slot4 == 0 then
 		return

@@ -47,7 +47,7 @@ return {
 			},
 			ui = {
 				pathIndex = -1,
-				path = "/OverlayCamera/Overlay/UIMain/top/LevelStageView(Clone)/bottom_stage/retreat_button",
+				path = "/OverlayCamera/Overlay/UIMain/top/LevelStageView(Clone)/bottom_stage/normal/retreat_button",
 				triggerType = {
 					1
 				},

@@ -4329,7 +4329,7 @@ pg.ship_data_group = {
 	[105] = {
 		nationality = 2,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 202029,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 105,
@@ -4337,8 +4337,17 @@ pg.ship_data_group = {
 		index_id = 118,
 		group_type = 20202,
 		trans_type = 2,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		trans_skill = {
+			10710
+		},
 		description = {
 			{
 				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
@@ -5084,7 +5093,7 @@ pg.ship_data_group = {
 	[126] = {
 		nationality = 2,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 203089,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 126,
@@ -5092,8 +5101,17 @@ pg.ship_data_group = {
 		index_id = 140,
 		group_type = 20308,
 		trans_type = 3,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"A",
+			"B"
+		},
+		trans_skill = {
+			10710
+		},
 		description = {
 			{
 				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",
@@ -8375,6 +8393,29 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[396] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 396,
+		type = 8,
+		index_id = 255,
+		group_type = 30804,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 건조",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[339] = {
 		nationality = 3,
 		hide = 0,
@@ -8383,7 +8424,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 339,
 		type = 8,
-		index_id = 255,
+		index_id = 256,
 		group_type = 30802,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -8402,6 +8443,29 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[397] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 397,
+		type = 8,
+		index_id = 257,
+		group_type = 30805,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 건조",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[340] = {
 		nationality = 3,
 		hide = 0,
@@ -8410,7 +8474,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 340,
 		type = 8,
-		index_id = 256,
+		index_id = 258,
 		group_type = 30803,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -8429,6 +8493,29 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[398] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 398,
+		type = 8,
+		index_id = 259,
+		group_type = 30806,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 건조",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[232] = {
 		nationality = 3,
 		hide = 0,
@@ -8437,7 +8524,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 232,
 		type = 12,
-		index_id = 258,
+		index_id = 261,
 		group_type = 31201,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -8460,7 +8547,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 233,
 		type = 1,
-		index_id = 259,
+		index_id = 262,
 		group_type = 40101,
 		trans_type = 1,
 		trans_radar_chart = {
@@ -8516,7 +8603,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 379,
 		type = 1,
-		index_id = 260,
+		index_id = 263,
 		group_type = 40102,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -8539,7 +8626,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 346,
 		type = 1,
-		index_id = 261,
+		index_id = 264,
 		group_type = 40118,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -8562,7 +8649,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 264,
 		type = 1,
-		index_id = 262,
+		index_id = 265,
 		group_type = 40119,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -8585,7 +8672,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 265,
 		type = 1,
-		index_id = 263,
+		index_id = 266,
 		group_type = 40120,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -8608,7 +8695,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 266,
 		type = 1,
-		index_id = 264,
+		index_id = 267,
 		group_type = 40121,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -8631,7 +8718,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 236,
 		type = 1,
-		index_id = 265,
+		index_id = 268,
 		group_type = 40123,
 		trans_type = 1,
 		trans_radar_chart = {
@@ -8666,7 +8753,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 237,
 		type = 1,
-		index_id = 266,
+		index_id = 269,
 		group_type = 40125,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -8689,7 +8776,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 345,
 		type = 1,
-		index_id = 267,
+		index_id = 270,
 		group_type = 40135,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -8712,7 +8799,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 388,
 		type = 1,
-		index_id = 268,
+		index_id = 271,
 		group_type = 40136,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -8735,7 +8822,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 267,
 		type = 1,
-		index_id = 269,
+		index_id = 272,
 		group_type = 40146,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -8758,7 +8845,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 238,
 		type = 2,
-		index_id = 270,
+		index_id = 273,
 		group_type = 40201,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -8805,7 +8892,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 239,
 		type = 2,
-		index_id = 271,
+		index_id = 274,
 		group_type = 40202,
 		trans_type = 2,
 		trans_radar_chart = {
@@ -8861,7 +8948,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 240,
 		type = 2,
-		index_id = 272,
+		index_id = 275,
 		group_type = 40203,
 		trans_type = 2,
 		trans_radar_chart = {
@@ -8917,7 +9004,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 241,
 		type = 2,
-		index_id = 273,
+		index_id = 276,
 		group_type = 40204,
 		trans_type = 2,
 		trans_radar_chart = {
@@ -8952,7 +9039,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 245,
 		type = 3,
-		index_id = 274,
+		index_id = 277,
 		group_type = 40304,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -8986,7 +9073,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 246,
 		type = 3,
-		index_id = 275,
+		index_id = 278,
 		group_type = 40305,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9009,7 +9096,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 242,
 		type = 3,
-		index_id = 276,
+		index_id = 279,
 		group_type = 40301,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9032,7 +9119,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 244,
 		type = 3,
-		index_id = 277,
+		index_id = 280,
 		group_type = 40303,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9069,7 +9156,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 248,
 		type = 4,
-		index_id = 278,
+		index_id = 281,
 		group_type = 40401,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9092,7 +9179,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 249,
 		type = 4,
-		index_id = 279,
+		index_id = 282,
 		group_type = 40402,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9115,7 +9202,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 250,
 		type = 5,
-		index_id = 280,
+		index_id = 283,
 		group_type = 40501,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9138,7 +9225,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 251,
 		type = 5,
-		index_id = 281,
+		index_id = 284,
 		group_type = 40502,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9161,7 +9248,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 252,
 		type = 7,
-		index_id = 282,
+		index_id = 285,
 		group_type = 40701,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9184,7 +9271,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 385,
 		type = 7,
-		index_id = 283,
+		index_id = 286,
 		group_type = 40702,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9207,7 +9294,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 387,
 		type = 8,
-		index_id = 285,
+		index_id = 288,
 		group_type = 40805,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9230,7 +9317,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 341,
 		type = 8,
-		index_id = 286,
+		index_id = 289,
 		group_type = 40801,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9249,6 +9336,52 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[399] = {
+		nationality = 4,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 399,
+		type = 8,
+		index_id = 290,
+		group_type = 40806,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 건조",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[400] = {
+		nationality = 4,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 400,
+		type = 8,
+		index_id = 291,
+		group_type = 40807,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 건조",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[386] = {
 		nationality = 4,
 		hide = 0,
@@ -9257,7 +9390,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 386,
 		type = 8,
-		index_id = 287,
+		index_id = 292,
 		group_type = 40804,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9280,7 +9413,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 253,
 		type = 1,
-		index_id = 289,
+		index_id = 294,
 		group_type = 50101,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9303,7 +9436,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 254,
 		type = 1,
-		index_id = 290,
+		index_id = 295,
 		group_type = 50102,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9326,7 +9459,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 255,
 		type = 1,
-		index_id = 291,
+		index_id = 296,
 		group_type = 50103,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9349,7 +9482,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 256,
 		type = 1,
-		index_id = 292,
+		index_id = 297,
 		group_type = 50104,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9372,7 +9505,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 257,
 		type = 2,
-		index_id = 293,
+		index_id = 298,
 		group_type = 50201,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9399,7 +9532,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 258,
 		type = 2,
-		index_id = 294,
+		index_id = 299,
 		group_type = 50202,
 		trans_type = 2,
 		trans_radar_chart = {
@@ -9435,7 +9568,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 259,
 		type = 2,
-		index_id = 295,
+		index_id = 300,
 		group_type = 50203,
 		trans_type = 2,
 		trans_radar_chart = {
@@ -9471,7 +9604,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 262,
 		type = 2,
-		index_id = 296,
+		index_id = 301,
 		group_type = 70201,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9494,7 +9627,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 348,
 		type = 1,
-		index_id = 297,
+		index_id = 302,
 		group_type = 80102,
 		trans_type = 1,
 		trans_radar_chart = {
@@ -9526,7 +9659,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 359,
 		type = 1,
-		index_id = 298,
+		index_id = 303,
 		group_type = 80103,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9549,7 +9682,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 347,
 		type = 1,
-		index_id = 300,
+		index_id = 305,
 		group_type = 80101,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9572,7 +9705,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 349,
 		type = 2,
-		index_id = 301,
+		index_id = 306,
 		group_type = 80201,
 		trans_type = 2,
 		trans_radar_chart = {},
@@ -9595,7 +9728,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 350,
 		type = 8,
-		index_id = 302,
+		index_id = 307,
 		group_type = 80801,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9618,7 +9751,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 351,
 		type = 1,
-		index_id = 303,
+		index_id = 308,
 		group_type = 90101,
 		trans_type = 1,
 		trans_radar_chart = {
@@ -9650,7 +9783,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 352,
 		type = 4,
-		index_id = 305,
+		index_id = 310,
 		group_type = 90401,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9673,7 +9806,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 353,
 		type = 5,
-		index_id = 306,
+		index_id = 311,
 		group_type = 90501,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -10661,8 +10794,11 @@ pg.ship_data_group = {
 		229,
 		230,
 		338,
+		396,
 		339,
+		397,
 		340,
+		398,
 		232,
 		233,
 		379,
@@ -10691,6 +10827,8 @@ pg.ship_data_group = {
 		385,
 		387,
 		341,
+		399,
+		400,
 		386,
 		253,
 		254,

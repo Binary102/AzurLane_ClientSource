@@ -8910,6 +8910,50 @@ pg.memory_template = {
 		icon = "memory_biaoqiangmanhua",
 		is_open = 0
 	},
+	[840] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "宿命的对决",
+		condition = "解锁「角落的向日葵」DAY1",
+		story = "I56XIAOFU1",
+		id = 840,
+		icon = "memory_i56xiaofu",
+		is_open = 0
+	},
+	[841] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "误会与交友",
+		condition = "解锁「角落的向日葵」DAY3",
+		story = "I56XIAOFU2",
+		id = 841,
+		icon = "memory_i56xiaofu",
+		is_open = 0
+	},
+	[842] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "新的伙伴？",
+		condition = "解锁「角落的向日葵」DAY5",
+		story = "I56XIAOFU3",
+		id = 842,
+		icon = "memory_i56xiaofu",
+		is_open = 0
+	},
+	[843] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "lasst uns gehen！",
+		condition = "解锁「角落的向日葵」DAY7",
+		story = "I56XIAOFU4",
+		id = 843,
+		icon = "memory_i56xiaofu",
+		is_open = 0
+	},
 	[10011] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -10348,6 +10392,10 @@ pg.memory_template = {
 		827,
 		828,
 		829,
+		840,
+		841,
+		842,
+		843,
 		10011,
 		10012,
 		10013,

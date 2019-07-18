@@ -17,7 +17,7 @@ return {
 			},
 			arg_list = {
 				number = 0.05,
-				attr = "damageRatioByShipType_6"
+				attr = "DMG_TAG_EHC_T_6"
 			}
 		},
 		{
@@ -28,7 +28,7 @@ return {
 			},
 			arg_list = {
 				number = 0.05,
-				attr = "damageRatioByShipType_7"
+				attr = "DMG_TAG_EHC_T_7"
 			}
 		}
 	}

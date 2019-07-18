@@ -23686,6 +23686,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			1004,
+			12420,
 			21211
 		},
 		hide_buff_list = {
@@ -23729,6 +23730,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			1004,
+			12420,
 			21211
 		},
 		hide_buff_list = {
@@ -23772,6 +23774,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			1004,
+			12420,
 			21211
 		},
 		hide_buff_list = {
@@ -23815,6 +23818,52 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			1004,
+			12420,
+			21212
+		},
+		hide_buff_list = {
+			53
+		}
+	},
+	[203114] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 11,
+		type = 3,
+		energy = 150,
+		can_get_proficency = 1,
+		star = 5,
+		star_max = 5,
+		strengthen_id = 20301,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 20301,
+		id = 203114,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			1,
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			1004,
+			21212
+		},
+		buff_list_display = {
+			1004,
+			12420,
 			21212
 		},
 		hide_buff_list = {
@@ -63651,6 +63700,7 @@ pg.ship_data_template = {
 		203012,
 		203013,
 		203014,
+		203114,
 		203021,
 		203022,
 		203023,

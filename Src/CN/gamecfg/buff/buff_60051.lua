@@ -11,7 +11,7 @@ return {
 				arg_list = {
 					group = 60051,
 					number = 1,
-					attr = "damageRatioByNationality_1"
+					attr = "DMG_TAG_EHC_N_1"
 				}
 			}
 		}
@@ -35,7 +35,7 @@ return {
 			arg_list = {
 				group = 60051,
 				number = 1,
-				attr = "damageRatioByNationality_1"
+				attr = "DMG_TAG_EHC_N_1"
 			}
 		}
 	}

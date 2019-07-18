@@ -68963,6 +68963,136 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[203114] = {
+		name = "伦敦.改",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 203114,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS London",
+		skin_id = 203010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1495,
+			102,
+			102,
+			98,
+			0,
+			61,
+			0,
+			38,
+			9,
+			25.6,
+			62,
+			0
+		},
+		attrs_growth = {
+			14800,
+			408,
+			406,
+			776,
+			0,
+			302,
+			0,
+			564,
+			126,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			5180,
+			965,
+			967,
+			529,
+			0,
+			711,
+			0,
+			251,
+			1979,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			314
+		},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.6,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[203021] = {
 		name = "什罗普郡",
 		type = 3,
@@ -202424,7 +202554,7 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			1,
-			2,
+			3,
 			1
 		},
 		parallel_max = {
@@ -202553,7 +202683,7 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			1,
-			2,
+			3,
 			1
 		},
 		parallel_max = {
@@ -203463,7 +203593,7 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			1,
-			2,
+			3,
 			1
 		},
 		parallel_max = {
@@ -203591,7 +203721,7 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			1,
-			2,
+			3,
 			1
 		},
 		parallel_max = {
@@ -204495,7 +204625,7 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			1,
-			2,
+			3,
 			1
 		},
 		parallel_max = {
@@ -204623,7 +204753,7 @@ pg.ship_data_statistics = {
 		depth_charge_list = {},
 		base_list = {
 			1,
-			2,
+			3,
 			1
 		},
 		parallel_max = {
@@ -209304,6 +209434,7 @@ pg.ship_data_statistics = {
 		203012,
 		203013,
 		203014,
+		203114,
 		203021,
 		203022,
 		203023,

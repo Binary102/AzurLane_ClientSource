@@ -125412,7 +125412,7 @@ pg.equip_data_template = {
 		}
 	},
 	[89000] = {
-		important = 1,
+		important = 2,
 		destory_gold = 16,
 		type = 10,
 		group = 89000,
@@ -125826,7 +125826,7 @@ pg.equip_data_template = {
 		}
 	},
 	[89020] = {
-		important = 1,
+		important = 2,
 		destory_gold = 16,
 		type = 10,
 		group = 89020,
@@ -126240,7 +126240,7 @@ pg.equip_data_template = {
 		}
 	},
 	[89040] = {
-		important = 1,
+		important = 2,
 		destory_gold = 16,
 		type = 10,
 		group = 89040,

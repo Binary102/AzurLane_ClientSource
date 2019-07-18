@@ -84,6 +84,14 @@ slot1 = {
 	[ActivityConst.JAVELIN_COMIC_NINE_DAY_TASK] = {
 		className = "JavelinComicSkinPage",
 		uiName = "javelincomicskinpage"
+	},
+	[ActivityConst.CENTAUR_ACTIVITY_ID] = {
+		className = "CentaurAwardPage",
+		uiName = "centaurawardpage"
+	},
+	[ActivityConst.I56_SKIN_ACTIVITY_ID] = {
+		className = "I56SkinPage",
+		uiName = "i56skinPage"
 	}
 }
 slot2 = {}

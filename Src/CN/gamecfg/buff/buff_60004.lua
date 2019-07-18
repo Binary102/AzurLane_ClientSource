@@ -11,7 +11,7 @@ return {
 				arg_list = {
 					group = 60004,
 					number = 1,
-					attr = "damageRatioByShipType_1"
+					attr = "DMG_TAG_EHC_T_1"
 				}
 			}
 		}
@@ -35,7 +35,7 @@ return {
 			arg_list = {
 				group = 60004,
 				number = 1,
-				attr = "damageRatioByShipType_1"
+				attr = "DMG_TAG_EHC_T_1"
 			}
 		}
 	}

@@ -5399,13 +5399,13 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 			disableScroll = true,
 			helpbg = true,
 			windowSize = {
-				y = 660
+				y = 720
 			},
 			helpSize = {
 				y = 400
 			},
 			helpPos = {
-				y = 20
+				y = 50
 			}
 		}
 	},
@@ -6206,6 +6206,10 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 	ship_remould_warning_102174 = {
 		tip = "此次改造操作将消耗<color=#92fc63>闪耀的麦克风</color>\n是否确认继续操作？",
 		key = "ship_remould_warning_102174"
+	},
+	ship_remould_warning_203114 = {
+		tip = "此次改造操作将导致<color=#92fc63>【鱼雷】栏位</color>变更为<color=#92fc63>【副武器】栏位</color><color=#92fc63>\n<material=underline c=#92fc63 event=clickDetail>查看详情</material></color>\n是否确认继续操作？",
+		key = "ship_remould_warning_203114"
 	},
 	ship_remould_warning_205124 = {
 		tip = "此次改造操作将消耗<color=#92fc63>战士的心得</color>\n是否确认继续操作？",

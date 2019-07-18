@@ -409,15 +409,11 @@ function slot0.didEnter(slot0)
 	end
 
 	for slot15, slot16 in ipairs(getProxy(ContextProxy).getContextByMediator(slot10, LevelMediator2).children) do
+		slot0.levelCamIndices = slot0.levelCamIndices + 1
+
 		function slot16.onRemoved()
 			slot0:onSubLayerClose()
 		end
-	end
-
-	if #slot11.children > 0 then
-		slot0:onSubLayerOpen()
-	else
-		slot0:onSubLayerClose()
 	end
 
 	if not slot0.contextData.isSwitchToChapter then
@@ -3620,6 +3616,8 @@ function slot0.enableLevelCamera(slot0)
 
 	if slot0.levelCamIndices == 0 then
 		slot0.levelCam.enabled = true
+
+		pg.LayerWeightMgr.GetInstance():switchOriginParent()
 	end
 
 	return
@@ -3630,6 +3628,8 @@ function slot0.disableLevelCamera(slot0)
 
 	if slot0.levelCamIndices > 0 then
 		slot0.levelCam.enabled = false
+
+		pg.LayerWeightMgr.GetInstance():switchOriginParent()
 	end
 
 	return

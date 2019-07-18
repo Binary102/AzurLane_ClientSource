@@ -1084,6 +1084,18 @@ pg.memory_group = {
 			829
 		}
 	},
+	[161] = {
+		title = "角落的向日葵",
+		type = 2,
+		id = 161,
+		icon = "title_event",
+		memories = {
+			840,
+			841,
+			842,
+			843
+		}
+	},
 	[501] = {
 		title = "{namecode:98}的委托",
 		type = 3,
@@ -1794,6 +1806,7 @@ pg.memory_group = {
 		158,
 		159,
 		160,
+		161,
 		501,
 		502,
 		503,

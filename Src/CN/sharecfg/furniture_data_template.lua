@@ -3709,7 +3709,7 @@ pg.furniture_data_template = {
 		gain_by = "",
 		type = 7,
 		dir = 0,
-		belong = 1,
+		picture = "",
 		is_get_time_note = 0,
 		count = 1,
 		advice = 0,
@@ -3719,9 +3719,9 @@ pg.furniture_data_template = {
 		icon = "mofatongicon",
 		deblocking = 1,
 		level = 1,
-		tag = 6,
 		rarity = 4,
-		picture = "",
+		tag = 6,
+		belong = 1,
 		canputon = 0,
 		discount = 0,
 		id = 100007,
@@ -3743,6 +3743,46 @@ pg.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		spine = {
+			{
+				"7yuetongB",
+				"normal"
+			},
+			{
+				"7yuetongT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"yun"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"7yuetongBCharControl"
+			}
 		},
 		interAction_group = {}
 	},
@@ -87617,7 +87657,7 @@ pg.furniture_data_template = {
 		dir = 0,
 		picture = "",
 		is_get_time_note = 0,
-		count = 1,
+		count = 2,
 		advice = 0,
 		effect = "",
 		dorm_icon_price = 0,

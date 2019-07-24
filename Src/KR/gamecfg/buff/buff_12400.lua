@@ -32,12 +32,12 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffAddBuff",
+			type = "BattleBuffCastSkill",
 			trigger = {
 				"onSubmarineRaid"
 			},
 			arg_list = {
-				buff_id = 12404,
+				skill_id = 12401,
 				target = "TargetSelf"
 			}
 		}

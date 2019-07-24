@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 301050,
 			nameColor = "#a9f548",
-			say = "...... 시구레.",
+			say = "...... 유바리.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -99,7 +99,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "시구레... 는 이과 교실의 관리원.",
+			say = "유바리... 는 이과 교실의 관리원.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			actor = 408050,
 			nameColor = "#a9f548",
-			say = "고마워, 시구레!",
+			say = "고마워, 유바리!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "진정한 실험실'이 뭔지 배우라고!",
+			say = "진정한 실험실이 뭔지 배우라고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

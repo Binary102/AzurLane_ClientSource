@@ -13,7 +13,7 @@ pg.gametip = {
 		key = "ad_2"
 	},
 	ad_3 = {
-		tip = "<material=underline c=#92fc63 event=clickPlayer args=1><color=#92fc63>$1</color></material> 함선 획득 <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
+		tip = "<material=underline c=#92fc63 event=clickPlayer args=1><color=#92fc63>$1</color></material> 님이 <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material> 함선 획득",
 		key = "ad_3"
 	},
 	word_back = {
@@ -1330,7 +1330,7 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_noShip"
 	},
 	backyard_backyardGranaryLayer_foodTimeNotice_top = {
-		tip = "비축된 식량으로                       까진",
+		tip = "비축된 식량으로                 까진",
 		key = "backyard_backyardGranaryLayer_foodTimeNotice_top"
 	},
 	backyard_backyardGranaryLayer_foodTimeNotice_bottom = {
@@ -1622,7 +1622,7 @@ pg.gametip = {
 		key = "exercise_count_insufficient"
 	},
 	exercise_clear_fleet_tip = {
-		tip = "<color=#92fc63>연습전 방어 함대</color>를 초기화 합니다. 진행하시겠습니까? (※초기화 시 제 1 함대가 방어를 담당합니다.)",
+		tip = "해당 함선을 해제합니다. 진행하시겠습니까?",
 		key = "exercise_clear_fleet_tip"
 	},
 	exercise_fleet_exit_tip = {
@@ -6152,6 +6152,10 @@ B평가:<color=#92fc63>70</color>점
 		tip = "이번 개조 과정에는 <color=#92fc63>빛나는 마이크</color>\n가 소모됩니다. 계속 진행 하시겠습니까?",
 		key = "ship_remould_warning_102174"
 	},
+	ship_remould_warning_203114 = {
+		tip = "이번 개조 조작으로<color=#92fc63>[어뢰] 슬롯</color>이<color=#92fc63>[보조 무기]슬롯으로 변경됩니다.</color><color=#92fc63>\n<material=underline c=#92fc63 event=clickDetail>상세정보 보기</material></color>\n계속 하시겠습니까? ",
+		key = "ship_remould_warning_203114"
+	},
 	ship_remould_warning_205124 = {
 		tip = "근대화 개수는 <color=#92fc63>전사의 마음가짐</color>을 소비합니다.\n진행하시겠습니까?",
 		key = "ship_remould_warning_205124"
@@ -7631,15 +7635,14 @@ B평가:<color=#92fc63>70</color>점
 		tip = {
 			{
 				info = [[
-
 ※새로운 기능：연구 지향 변경 
  · 제2기 스페셜 프로젝트 함선 추가에 따라, 과학 연구 항목에 
-「제2기」가 새롭게 추가되었습니다. 기존 연구 항목 「제1기」와
-「제2기」의 구분은 과학 연구 항목 왼쪽 위의 「Ⅰ」,「Ⅱ」마크로
-확인할 수 있습니다. 
- · 또한, 연구 항목 일람 화면 오른쪽 아래의 「연구 지향」에서
-「제1기」「제2기」를 선택하면, 해당 연구 항목을 최소 2개씩 출현
-시킬 수 있습니다. 
+「제2기」가 새롭게 추가되었습니다. 기존 연구 항목 
+「제1기」와 「제2기」의 구분은 과학 연구 항목 왼쪽 위의 
+「Ⅰ」,「Ⅱ」마크로 확인할 수 있습니다. 
+ · 또한, 연구 항목 일람 화면 오른쪽 아래의 「연구 지향」
+에서 「제1기」「제2기」를 선택하면, 해당 연구 항목을 최소 
+2개씩 출현 시킬 수 있습니다. 
 
 1. 연구 개시
  · 연구 항목 일람에서 연구 항목의 「연구 개시」를 터치하면, 
@@ -7649,11 +7652,12 @@ B평가:<color=#92fc63>70</color>점
 
 2.연구 완료
  · 연구 항목의 연구는 시간이 필요합니다. 
- · 일부 연구 항목은 시간 이외에도 특정한 조건을 달성할 필요가 
-있습니다. 
+ · 일부 연구 항목은 시간 이외에도 특정한 조건을 달성할 
+필요가 있습니다. 
  ·「연구 완성 조건」은 연구 개시 이후에만 진척됩니다. 
- ·「연구 완성 조건」이 있는 연구 항목은, 연구 시간이 종료되더라도 
-「연구 완성 조건」을 진행 및 달성할 수 있습니다. 
+ ·「연구 완성 조건」이 있는 연구 항목은, 연구 시간이 
+종료되더라도 「연구 완성 조건」을 진행 및 달성할 수 
+있습니다. 
  · 연구가 완료되어 연구 보상을 받으면, 연구 항목 일람이 갱신
 됩니다. 
 
@@ -7662,8 +7666,8 @@ B평가:<color=#92fc63>70</color>점
 있습니다. 
  · 연구를 중단하더라도 연구 개시 때 소비된 자원은 반환되지
 않습니다. 
- · 연구를 중단하면, 「연구 완성 조건」의 진척도와 연구에 사용한 
-시간이 초기화됩니다. 
+ · 연구를 중단하면, 「연구 완성 조건」의 진척도와 연구에 
+사용한 시간이 초기화됩니다. 
 
 4.연구 항목 일람을 갱신
  · 0시 이후 「항목 갱신」을 터치하면, 연구 항목 일람을 갱신
@@ -9616,13 +9620,13 @@ B평가:<color=#92fc63>70</color>점
 				info = "-그 외"
 			},
 			{
-				info = "・함선의 육성(레벨/호감도) 관련 획득 조건은, 한\n 종류의 함선을 여러 척 소지하고 있어도 가장 높은 수치인 한 척만 계\n산됩니다."
+				info = "・함선의 육성(레벨/호감도) 관련 획득 조건은, 한\n 종류의 함선을 여러 척 소지하고 있어도 가장 높은 수치인 한\n 척만 계 산됩니다."
 			},
 			{
 				info = "・개조(근대화 개수)가 완료된 함선은 개조 전의 함선과 같은 \n함선으로 계산됩니다."
 			},
 			{
-				info = "・함선을 퇴역시켜도, 획득 조건의 진도에는 영향을 주지 않습니\n다."
+				info = "・함선을 퇴역시켜도, 획득 조건의 진도에는 영향을 주지 \n않습니 다."
 			}
 		}
 	},
@@ -9843,10 +9847,11 @@ P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
 				info = [[
 속성 설명
 
-회피상한 : 함재기가 적의 대공함에게 공격당했을 시 회피할 수 있는 상한
+회피상한 : 함재기가 적의 대공함에게 공격당했을 시 회피할 수 
+있는 상한
 
-함재기 회피율은 함재기, 함재기 장비의 항모 항공수치와 적 대공함의
-대공수치에 의해 결정된다]]
+함재기 회피율은 함재기, 함재기 장비의 항모 항공수치와 적 
+대공함의 대공수치에 의해 결정된다]]
 			}
 		}
 	},
@@ -10058,7 +10063,7 @@ P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
 		key = "intimacy_desc_propose_vertical"
 	},
 	without_selected_ship = {
-		tip = "항모의 조건에 적합하지 않습니다.",
+		tip = "조건에 맞는 함선이 없습니다. ",
 		key = "without_selected_ship"
 	},
 	index_all = {

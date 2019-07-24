@@ -38,19 +38,10 @@ end
 function slot0.updateChapterDefeatCount(slot0, slot1)
 	slot2 = slot0:getChapterDefeatCount(slot1) + 1
 
-	if _.any(slot0.chapterCountList, function (slot0)
+	if _.detect(slot0.chapterCountList, function (slot0)
 		return slot0.id == slot0
 	end) then
-		for slot6, slot7 in ipairs(slot0.chapterCountList) do
-			if slot7.id == slot1 then
-				slot0.chapterCountList[slot6] = {
-					id = slot1,
-					count = slot2
-				}
-
-				break
-			end
-		end
+		slot3.count = slot2
 	else
 		table.insert(slot0.chapterCountList, {
 			id = slot1,
@@ -60,8 +51,13 @@ function slot0.updateChapterDefeatCount(slot0, slot1)
 end
 
 function slot0.resetDailyCount(slot0)
-	for slot4, slot5 in pairs(slot0.data) do
-		slot0.data[slot4] = 0
+	slot1 = pg.expedition_daily_template
+	slot2 = pg.TimeMgr.GetInstance():GetServerWeek() == 1
+
+	for slot6, slot7 in pairs(slot0.data) do
+		if slot1[slot6].limit_type == 1 or (slot1[slot6].limit_type == 2 and slot2) then
+			slot0.data[slot6] = 0
+		end
 	end
 
 	slot0.eliteCount = 0

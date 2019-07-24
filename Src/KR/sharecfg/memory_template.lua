@@ -7436,6 +7436,50 @@ pg.memory_template = {
 		icon = "memory_biaoqiangmanhua",
 		is_open = 0
 	},
+	[840] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "숙명의 대결",
+		condition = "[외톨이 해바라기] DAY1 개방",
+		story = "I56XIAOFU1",
+		id = 840,
+		icon = "memory_i56xiaofu",
+		is_open = 0
+	},
+	[841] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "오해와 친구 사귀기",
+		condition = "[외톨이 해바라기] DAY3 개방",
+		story = "I56XIAOFU2",
+		id = 841,
+		icon = "memory_i56xiaofu",
+		is_open = 0
+	},
+	[842] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "새로운 동료?",
+		condition = "[외톨이 해바라기] DAY5 개방",
+		story = "I56XIAOFU3",
+		id = 842,
+		icon = "memory_i56xiaofu",
+		is_open = 0
+	},
+	[843] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "lasst uns gehen!",
+		condition = "[외톨이 해바라기] DAY7 개방",
+		story = "I56XIAOFU4",
+		id = 843,
+		icon = "memory_i56xiaofu",
+		is_open = 0
+	},
 	[10000] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -8850,6 +8894,10 @@ pg.memory_template = {
 		827,
 		828,
 		829,
+		840,
+		841,
+		842,
+		843,
 		10000,
 		10001,
 		10002,

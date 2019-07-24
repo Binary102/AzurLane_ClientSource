@@ -9,7 +9,7 @@ return {
 				arg_list = {
 					group = 4120,
 					number = -0.05,
-					attr = "cannonDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -20,7 +20,7 @@ return {
 				arg_list = {
 					group = 4121,
 					number = -0.05,
-					attr = "cannonDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			}
 		}
@@ -35,7 +35,7 @@ return {
 				arg_list = {
 					group = 4120,
 					number = -0.066,
-					attr = "cannonDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -46,7 +46,7 @@ return {
 				arg_list = {
 					group = 4121,
 					number = -0.066,
-					attr = "cannonDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			}
 		}
@@ -61,7 +61,7 @@ return {
 				arg_list = {
 					group = 4120,
 					number = 0.082,
-					attr = "cannonDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -72,7 +72,7 @@ return {
 				arg_list = {
 					group = 4121,
 					number = 0.082,
-					attr = "cannonDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			}
 		}
@@ -87,7 +87,7 @@ return {
 				arg_list = {
 					group = 4120,
 					number = 0.1,
-					attr = "cannonDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -98,7 +98,7 @@ return {
 				arg_list = {
 					group = 4121,
 					number = 0.1,
-					attr = "cannonDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			}
 		}
@@ -113,7 +113,7 @@ return {
 				arg_list = {
 					group = 4120,
 					number = -0.116,
-					attr = "cannonDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -124,7 +124,7 @@ return {
 				arg_list = {
 					group = 4121,
 					number = -0.116,
-					attr = "cannonDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			}
 		}
@@ -139,7 +139,7 @@ return {
 				arg_list = {
 					group = 4120,
 					number = -0.132,
-					attr = "cannonDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -150,7 +150,7 @@ return {
 				arg_list = {
 					group = 4121,
 					number = -0.132,
-					attr = "cannonDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			}
 		}
@@ -165,7 +165,7 @@ return {
 				arg_list = {
 					group = 4120,
 					number = -0.15,
-					attr = "cannonDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -176,7 +176,7 @@ return {
 				arg_list = {
 					group = 4121,
 					number = -0.15,
-					attr = "cannonDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			}
 		}
@@ -191,7 +191,7 @@ return {
 				arg_list = {
 					group = 4120,
 					number = -0.166,
-					attr = "cannonDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -202,7 +202,7 @@ return {
 				arg_list = {
 					group = 4121,
 					number = -0.166,
-					attr = "cannonDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			}
 		}
@@ -217,7 +217,7 @@ return {
 				arg_list = {
 					group = 4120,
 					number = -0.182,
-					attr = "cannonDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -228,7 +228,7 @@ return {
 				arg_list = {
 					group = 4121,
 					number = -0.182,
-					attr = "cannonDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			}
 		}
@@ -243,7 +243,7 @@ return {
 				arg_list = {
 					group = 4120,
 					number = -0.2,
-					attr = "cannonDamageRatioFromShipType_1"
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -254,7 +254,7 @@ return {
 				arg_list = {
 					group = 4121,
 					number = -0.2,
-					attr = "cannonDamageRatioFromShipType_2"
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			}
 		}
@@ -285,7 +285,7 @@ return {
 			arg_list = {
 				group = 4120,
 				number = -0.05,
-				attr = "cannonDamageRatioFromShipType_1"
+				attr = "DMG_FROM_TAG_1_T_1"
 			}
 		},
 		{
@@ -296,7 +296,7 @@ return {
 			arg_list = {
 				group = 4121,
 				number = -0.05,
-				attr = "cannonDamageRatioFromShipType_2"
+				attr = "DMG_FROM_TAG_1_T_2"
 			}
 		}
 	}

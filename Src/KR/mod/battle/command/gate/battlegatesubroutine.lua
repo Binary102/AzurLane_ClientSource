@@ -7,6 +7,10 @@ function slot0.Entrance(slot0, slot1)
 		return
 	end
 
+	if BeginStageCommand.DockOverload() then
+		return
+	end
+
 	slot2 = getProxy(PlayerProxy)
 	slot3 = getProxy(BayProxy)
 	slot4 = getProxy(FleetProxy)

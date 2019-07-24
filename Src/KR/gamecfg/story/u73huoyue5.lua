@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 201210,
 			nameColor = "#a9f548",
-			say = "와...... 여기가 바로 시구레와 아카시의 실험실인가요......",
+			say = "와...... 여기가 바로 유바리와 아카시의 실험실인가요......",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -73,7 +73,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "U-73, 시구래, 벌써 시작했어......",
+			say = "U-73, 유바리, 벌써 시작했어......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			actor = 408050,
 			nameColor = "#a9f548",
-			say = "이런 방법이 있었군......\\",
+			say = "이런 방법이 있었군......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			actor = 408050,
 			nameColor = "#a9f548",
-			say = "서, 선생님이라고 부르게 해줘! 시구레 선생님!",
+			say = "서, 선생님이라고 부르게 해줘! 유바리 선생님!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			actor = 408050,
 			nameColor = "#a9f548",
-			say = "아하하.... 난처하네, 정리하고 다시 오는 걸 깜빡햇네./..",
+			say = "아하하.... 난처하네, 정리하고 다시 오는 걸 깜빡햇네...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

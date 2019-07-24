@@ -24,7 +24,7 @@ return {
 			bgmDelay = 2,
 			bgm = "story-1",
 			nameColor = "#a9f548",
-			say = "연습용 탄약을 모두 맛있는 사탕으로 만드는 실험!' 어때, 멋있지?!",
+			say = "연습용 탄약을 모두 맛있는 사탕으로 만드는 실험! 어때, 멋있지?!",
 			effects = {
 				{
 					active = true,
@@ -101,7 +101,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "이것도... 백의라고 할 수 있나요?而且人类也…",
+			say = "이것도... 백의라고 할 수 있나요?게다가 인류 역시...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			actor = 401230,
 			nameColor = "#a9f548",
-			say = "저기, 왜 너희들도 짅지하게 생각하고 있는 건가요?!",
+			say = "저기, 왜 너희들도 진지하게 생각하고 있는 건가요?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "호호? 알고보니 넌네들도 꿈을 갖고 있었구나. 그럼 나와 같이 이과의 길에 접어들자!",
+			say = "호호? 알고보니 너네들도 꿈을 갖고 있었구나. 그럼 나와 같이 이과의 길에 접어들자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -2028,15 +2028,6 @@ function slot5(slot0, slot1, slot2)
 	slot6 = slot2
 	slot4, slot5, slot6, slot7, slot8, slot9 = slot4(slot5, slot6)
 
-	if slot9 then
-		slot11 = slot0
-		slot10 = slot0.showBodyMask
-		slot12 = slot9
-		slot13 = slot1.dir
-
-		slot10(slot11, slot12, slot13)
-	end
-
 	if slot8 then
 		slot10 = BackyardBoatVO
 		slot10 = slot10.INTERACTION_TYPE_AFTER
@@ -2099,6 +2090,14 @@ function slot5(slot0, slot1, slot2)
 				end
 			end
 		end
+	end
+
+	if slot9 then
+		slot13 = slot0
+		slot12 = slot0.showBodyMask
+		slot14 = slot9
+
+		slot12(slot13, slot14)
 	end
 
 	if slot7 then
@@ -3091,9 +3090,7 @@ function slot5(slot0, slot1)
 			slot1 = slot0[1]
 			slot2 = slot0
 
-			if slot1 == slot2 then
-				return slot1.id == slot0[3]
-			end
+			return slot1.id == slot0[3]
 		end
 
 		slot4 = slot4(slot5, slot6)
@@ -4568,23 +4565,30 @@ function slot5(slot0, slot1, slot2)
 	slot9 = slot9.Action_float
 
 	function slot10()
-		slot0 = slot0
-		slot0 = slot0()
-		slot1 = slot1
+		slot0 = IsNil
+		slot1 = slot0
+		slot1 = slot1.go
+		slot0 = slot0(slot1)
 
-		if slot1 ~= slot0 then
+		if not slot0 then
+			slot0 = slot1
+			slot0 = slot0()
 			slot1 = slot2
-			slot1 = slot1.expTF
-			slot2 = Vector3
-			slot3 = Mathf
-			slot3 = slot3.Sign
-			slot4 = slot0
-			slot3 = slot3(slot4)
-			slot3 = slot3 * 2
-			slot4 = 2
-			slot5 = 2
-			slot2 = slot2(slot3, slot4, slot5)
-			slot1.localScale = slot2
+
+			if slot1 ~= slot0 then
+				slot1 = slot0
+				slot1 = slot1.expTF
+				slot2 = Vector3
+				slot3 = Mathf
+				slot3 = slot3.Sign
+				slot4 = slot0
+				slot3 = slot3(slot4)
+				slot3 = slot3 * 2
+				slot4 = 2
+				slot5 = 2
+				slot2 = slot2(slot3, slot4, slot5)
+				slot1.localScale = slot2
+			end
 		end
 	end
 
@@ -5540,66 +5544,106 @@ end
 
 slot0.inTransport = slot5
 
-function slot5(slot0, slot1, slot2)
-	slot3 = slot1[1]
+function slot5(slot0, slot1)
+	slot2 = slot1[1]
+	slot3 = slot1[2]
+	slot3 = slot3[1]
 	slot4 = slot1[2]
-	slot4 = slot4[1]
-	slot5 = slot1[2]
-	slot5 = slot5[2]
-	slot6 = slot1[3]
+	slot4 = slot4[2]
+	slot5 = slot1[3]
 
-	if slot6 then
-		slot6 = slot0.bodyMask
-		slot7 = slot6
-		slot6 = slot6.GetComponent
-		slot8 = typeof
-		slot9 = Image
-		slot6 = slot6(slot7, slot8(slot9))
-		slot7 = LoadSprite
-		slot8 = "furniture/"
-		slot9 = slot1[3]
-		slot8 = slot8 .. slot9
-		slot7 = slot7(slot8)
-		slot6.sprite = slot7
+	if slot5 then
+		slot5 = slot0.bodyMask
+		slot6 = slot5
+		slot5 = slot5.GetComponent
+		slot7 = typeof
+		slot8 = Image
+		slot5 = slot5(slot6, slot7(slot8))
+		slot6 = LoadSprite
+		slot7 = "furniture/"
+		slot8 = slot1[3]
+		slot7 = slot7 .. slot8
+		slot6 = slot6(slot7)
+		slot5.sprite = slot6
 	else
-		slot6 = slot0.bodyMask
-		slot7 = slot6
-		slot6 = slot6.GetComponent
-		slot8 = typeof
-		slot9 = Image
-		slot6 = slot6(slot7, slot8(slot9))
-		slot7 = nil
-		slot6.sprite = slot7
+		slot5 = slot0.bodyMask
+		slot6 = slot5
+		slot5 = slot5.GetComponent
+		slot7 = typeof
+		slot8 = Image
+		slot5 = slot5(slot6, slot7(slot8))
+		slot6 = nil
+		slot5.sprite = slot6
 	end
 
-	slot6 = slot1[4]
-	slot6 = slot1[4] or slot3
-	slot0.isShowBodyMask = true
+	slot5 = true
+	slot0.isShowBodyMask = slot5
+	slot5 = setActive
+	slot6 = slot0.bodyMask
+	slot7 = true
 
-	setActive(slot0.bodyMask, true)
+	slot5(slot6, slot7)
 
-	tf(slot0.bodyMask).localPosition = Vector3((slot2 == 1 and slot3) or slot1[4] or slot3[1], (slot2 == 1 and slot3) or slot1[4] or slot3[2], 0)
-	tf(slot0.model).localPosition = Vector3(-1 * ((slot2 == 1 and slot2) or -1) * (slot2 == 1 and slot3) or slot1[4] or slot3[1], -1 * (slot2 == 1 and slot3) or slot1[4] or slot3[2], 0)
-	rtf(slot0.bodyMask).sizeDelta = Vector2(slot4, slot5)
+	slot5 = tf
+	slot6 = slot0.bodyMask
+	slot5 = slot5(slot6)
+	slot6 = Vector3
+	slot7 = slot2[1]
+	slot8 = slot2[2]
+	slot9 = 0
+	slot6 = slot6(slot7, slot8, slot9)
+	slot5.localPosition = slot6
+	slot5 = rtf
+	slot6 = slot0.bodyMask
+	slot5 = slot5(slot6)
+	slot6 = Vector2
+	slot7 = slot3
+	slot8 = slot4
+	slot6 = slot6(slot7, slot8)
+	slot5.sizeDelta = slot6
+	slot5 = SetParent
+	slot6 = slot0.model
+	slot7 = slot0.bodyMask
 
-	slot0:changeInnerDir((slot2 == 1 and slot2) or -1)
-	SetParent(slot0.model, slot0.bodyMask)
+	slot5(slot6, slot7)
 
-	return
-
-	slot6 = slot3
-
-	if not slot3 then
-		slot7 = slot6
-	end
-
-	if not slot2 then
-		slot10 = -1
-	end
-
-	if not slot2 then
-		slot10 = -1
-	end
+	slot5 = slot0.bodyMask
+	slot6 = slot5.parent
+	slot7 = slot6.parent
+	slot8 = slot6.localScale
+	slot8 = slot8.x
+	slot9 = slot7.localScale
+	slot9 = slot9.x
+	slot8 = slot8 * slot9
+	slot9 = slot6.localScale
+	slot9 = slot9.x
+	slot9 = slot8 * slot9
+	slot10 = slot7.localScale
+	slot10 = slot10.x
+	slot9 = slot9 * slot10
+	slot10 = Mathf
+	slot10 = slot10.Sign
+	slot11 = slot9
+	slot10 = slot10(slot11)
+	slot9 = slot10
+	slot10 = slot0.model
+	slot11 = Vector3
+	slot12 = slot9
+	slot13 = 1
+	slot14 = 1
+	slot11 = slot11(slot12, slot13, slot14)
+	slot10.localScale = slot11
+	slot10 = tf
+	slot11 = slot0.model
+	slot10 = slot10(slot11)
+	slot11 = Vector3
+	slot12 = slot2[1]
+	slot12 = -slot12
+	slot13 = slot2[2]
+	slot13 = -slot13
+	slot14 = 0
+	slot11 = slot11(slot12, slot13, slot14)
+	slot10.localPosition = slot11
 end
 
 slot0.showBodyMask = slot5
@@ -5675,8 +5719,6 @@ function slot5(slot0, slot1)
 
 	slot3 = nil
 	slot0.isShowBodyMask = slot3
-
-	return
 end
 
 slot0.closeBodyMask = slot5
@@ -5805,8 +5847,6 @@ function slot5(slot0)
 	slot2 = slot0.go
 
 	slot1(slot2)
-
-	return
 end
 
 slot0.dispose = slot5

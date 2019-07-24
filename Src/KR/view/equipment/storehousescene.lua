@@ -385,6 +385,10 @@ function slot0.didEnter(slot0)
 		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
 	})
 	setActive(slot0.equipmentBtn.parent, slot0.mode == StoreHouseConst.OVERVIEW and slot0.warp == StoreHouseConst.WARP_TO_WEAPON)
+	setImageSprite(slot0:findTF("Image", slot0.sortBtn), GetSpriteFromAtlas("ui/equipmentui_atlas", (sortData and sortData.spr) or "sort_rarity"), true)
+	setImageSprite(slot0:findTF("Image", slot0.indexBtn), GetSpriteFromAtlas("ui/equipmentui_atlas", (indexData and indexData.spr) or "index_all"), true)
+	setActive(slot0.sortImgAsc, slot0.asc)
+	setActive(slot0.sortImgDec, not slot0.asc)
 end
 
 function slot0.onBackPressed(slot0)

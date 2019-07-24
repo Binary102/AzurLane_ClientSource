@@ -213,6 +213,11 @@ function slot0.didEnter(slot0)
 
 		return
 	end))
+	LeanTween.delayedCall(go(slot0._tf), 0.2, System.Action(function ()
+		scrollToBottom(slot0.content.parent)
+
+		return
+	end))
 
 	rtf(slot0._tf).offsetMax = Vector2(0, 0)
 	rtf(slot0._tf).offsetMin = Vector2(0, 0)

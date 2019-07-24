@@ -18,7 +18,7 @@ return {
 			arg_list = {
 				ability = "tactic",
 				convertRate = 4e-05,
-				convertAttr = "damageRatioByShipType_4"
+				convertAttr = "DMG_TAG_EHC_T_4"
 			}
 		},
 		{
@@ -29,7 +29,7 @@ return {
 			arg_list = {
 				ability = "tactic",
 				convertRate = 4e-05,
-				convertAttr = "damageRatioByShipType_5"
+				convertAttr = "DMG_TAG_EHC_T_5"
 			}
 		},
 		{
@@ -40,7 +40,7 @@ return {
 			arg_list = {
 				ability = "tactic",
 				convertRate = 4e-05,
-				convertAttr = "damageRatioByShipType_10"
+				convertAttr = "DMG_TAG_EHC_T_10"
 			}
 		}
 	}

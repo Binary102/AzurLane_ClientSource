@@ -43,6 +43,8 @@ ys.Battle.BattleAttr = {
 			slot0.AttrListInheritance[#slot0.AttrListInheritance + 1] = slot5
 		end
 	end,
+	TAG_EHC_KEY = "DMG_TAG_EHC_",
+	FROM_TAG_EHC_KEY = "DMG_FROM_TAG_",
 	SetAttr = function (slot0, slot1)
 		slot0._attr = setmetatable({}, {
 			__index = slot1
@@ -135,6 +137,7 @@ ys.Battle.BattleAttr = {
 		slot0._attr or .sonarInterval = slot1.sonarInterval or 0
 		slot0._attr or .sonarDuration = slot1.sonarDuration or 0
 		slot0._attr or .comboTag = "combo_" .. slot0._attr or .battleUID
+		slot0._attr or .labelTag = {}
 
 		slot0:SetBaseAttr()
 	end,
@@ -174,6 +177,7 @@ ys.Battle.BattleAttr = {
 		slot0._attr or .id = "enemy_" .. tostring(slot0._tmpData.id)
 		slot0._attr or .repressReduce = 1
 		slot0._attr or .comboTag = "combo_" .. slot0._attr or .battleUID
+		slot0._attr or .labelTag = {}
 
 		slot0:SetBaseAttr()
 
@@ -204,6 +208,9 @@ ys.Battle.BattleAttr = {
 		slot2.torpedoPower = slot2.airPower
 		slot2.antiAirPower = slot2.airPower
 		slot2.armorType = 0
+		slot2.labelTag = setmetatable({}, {
+			__index = slot1._attr.labelTag
+		})
 		slot2.comboTag = "combo_" .. slot2.hostUID
 
 		return
@@ -249,6 +256,20 @@ ys.Battle.BattleAttr = {
 
 		slot3[slot1] = slot2 + slot4
 
+		if string.find(slot1, slot0.FROM_TAG_EHC_KEY) then
+			slot3 = 0
+
+			for slot7, slot8 in pairs(slot0._attr) do
+				if string.find(slot7, slot0.FROM_TAG_EHC_KEY) and slot8 ~= 0 then
+					slot3 = 1
+
+					break
+				end
+			end
+
+			slot0:SetCurrent(slot0.FROM_TAG_EHC_KEY, slot3)
+		end
+
 		return
 	end,
 	FlashVelocity = function (slot0, slot1)
@@ -284,6 +305,13 @@ ys.Battle.BattleAttr = {
 
 		return slot2
 	end,
+	GetCurrentTags = function (slot0)
+		if not slot0._attr.labelTag then
+			slot1 = {}
+		end
+
+		return slot1
+	end,
 	Increase = function (slot0, slot1, slot2)
 		if slot2 then
 			slot3 = slot0._attr
@@ -303,16 +331,40 @@ ys.Battle.BattleAttr = {
 		end
 
 		return
+	end,
+	GetTagAttr = function (slot0, slot1)
+		slot3 = {}
+
+		for slot7, slot8 in ipairs(slot2) do
+			slot3[slot0.TAG_EHC_KEY .. slot8] = true
+		end
+
+		slot4 = 1
+
+		for slot8, slot9 in pairs(slot3) do
+			if slot0:GetCurrent(slot8) ~= 0 then
+				slot4 = slot4 * (1 + slot10)
+			end
+		end
+
+		if slot0.GetCurrent(slot1, slot0.FROM_TAG_EHC_KEY) > 0 then
+			slot7 = slot0.FROM_TAG_EHC_KEY .. slot6 .. "_"
+
+			for slot12, slot13 in pairs(slot8) do
+				if slot13 > 0 and slot0.GetCurrent(slot1, slot7 .. slot12) ~= 0 then
+					slot4 = slot4 * (1 + slot15)
+				end
+			end
+		end
+
+		return slot4
 	end
 }
 slot1 = ys.Battle.BattleConst
 
-()["InsertInheritedAttr"](ys.Battle.BattleConfig.NATIONNALITY_DAMAGE_ENHANCE)
 ()["InsertInheritedAttr"](ys.Battle.BattleConfig.AMMO_DAMAGE_ENHANCE)
 ()["InsertInheritedAttr"](ys.Battle.BattleConfig.AMMO_DAMAGE_REDUCE)
-()["InsertInheritedAttr"](ys.Battle.BattleConfig.SHIP_TYPE_DAMAGE_ENHANCE)
 ()["InsertInheritedAttr"](ys.Battle.BattleConfig.SHIP_TYPE_ACCURACY_ENHANCE)
-()["InsertInheritedAttr"](ys.Battle.BattleConfig.ANTI_AIR_DAMAGE_ENHANCE_FROM_SHIP_TYPE)
 
 function ys.Battle.BattleAttr.SetAirFighterAttr(slot0, slot1)
 	if not slot0._attr then

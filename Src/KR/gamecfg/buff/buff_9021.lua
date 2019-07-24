@@ -17,7 +17,7 @@ return {
 			arg_list = {
 				group = 9021,
 				number = 0.25,
-				attr = "damageRatioByNationality_3"
+				attr = "DMG_TAG_EHC_N_3"
 			}
 		}
 	}

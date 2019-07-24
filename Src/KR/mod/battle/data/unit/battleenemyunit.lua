@@ -61,6 +61,8 @@ function slot8.SetTemplate(slot0, slot1, slot2)
 	for slot7, slot8 in pairs(slot2) do
 		slot3[slot7] = slot8
 	end
+
+	slot0:setStandardLabelTag()
 end
 
 function slot8.SetTeamVO(slot0, slot1)

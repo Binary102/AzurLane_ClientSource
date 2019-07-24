@@ -434,7 +434,7 @@ pg.activity_template = {
 		type = 44,
 		bg = "",
 		config_id = 4,
-		is_show = 1,
+		is_show = 0,
 		config_client = "",
 		id = 164,
 		config_data = {
@@ -650,7 +650,7 @@ pg.activity_template = {
 		type = 24,
 		bg = "",
 		config_id = 303,
-		is_show = 1,
+		is_show = 0,
 		config_client = "",
 		id = 302,
 		config_data = {
@@ -696,7 +696,7 @@ pg.activity_template = {
 		type = 37,
 		bg = "",
 		config_id = 1,
-		is_show = 1,
+		is_show = 0,
 		config_client = "",
 		id = 303,
 		config_data = {},
@@ -998,6 +998,7 @@ pg.activity_template = {
 	[333] = {
 		mark = 20190627,
 		title_res_tag = "javelin_comic",
+		time = "stop",
 		type = 18,
 		config_id = 3,
 		is_show = 2,
@@ -1040,33 +1041,6 @@ pg.activity_template = {
 				14774
 			}
 		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					6,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					7,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/activity_bg_javelin_comic"
 		},
@@ -1097,6 +1071,7 @@ pg.activity_template = {
 	[334] = {
 		mark = 20190627,
 		title_res_tag = "",
+		time = "stop",
 		type = 21,
 		bg = "",
 		config_id = 91334,
@@ -1113,33 +1088,6 @@ pg.activity_template = {
 			59837,
 			59838,
 			59839
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					6,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					7,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[335] = {
@@ -1157,20 +1105,54 @@ pg.activity_template = {
 	[336] = {
 		mark = 20190711,
 		title_res_tag = "",
+		time = "stop",
 		type = 1,
 		bg = "",
 		config_id = 4,
 		is_show = 0,
 		config_client = "",
 		id = 336,
-		config_data = {},
+		config_data = {}
+	},
+	[337] = {
+		mark = 20190724,
+		title_res_tag = "us_skirmish",
+		type = 18,
+		config_id = 3,
+		is_show = 1,
+		config_client = "",
+		id = 337,
+		config_data = {
+			{
+				14780
+			},
+			{
+				14781
+			},
+			{
+				14782
+			},
+			{
+				14783
+			},
+			{
+				14784
+			},
+			{
+				14785
+			},
+			{
+				14786,
+				14787
+			}
+		},
 		time = {
 			timer,
 			{
 				{
 					2019,
 					7,
-					11
+					24
 				},
 				{
 					0,
@@ -1181,8 +1163,8 @@ pg.activity_template = {
 			{
 				{
 					2019,
-					7,
-					24
+					8,
+					15
 				},
 				{
 					23,
@@ -1190,6 +1172,9 @@ pg.activity_template = {
 					59
 				}
 			}
+		},
+		bg = {
+			"clutter/activity_bg_us_skirmish"
 		}
 	},
 	[338] = {
@@ -1920,6 +1905,7 @@ pg.activity_template = {
 		334,
 		335,
 		336,
+		337,
 		338,
 		2001,
 		2002,

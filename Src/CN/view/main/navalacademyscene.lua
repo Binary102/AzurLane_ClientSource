@@ -712,7 +712,9 @@ function slot0.onTask(slot0, slot1, slot2)
 			slot7 = slot3:getAcademyTask(slot1.groupId)
 
 			if slot4:getActivityByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT) and _.detect(slot8:getConfig("config_data"), function (slot0)
-				return pg.chapter_template[slot0].npc_data[3] == slot0
+				return _.any(pg.chapter_template[slot0].npc_data, function (slot0)
+					return pg.npc_squad_template[slot0].task_id == slot0
+				end)
 			end) and getProxy(ChapterProxy).getChapterById(slot11, slot10).active then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("task_target_chapter_in_progress"))
 

@@ -111,38 +111,10 @@ function slot0.getMilitaryExerciseActivity(slot0)
 end
 
 function slot0.getPanelActivities(slot0)
-	slot1 = {
-		ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN,
-		ActivityConst.ACTIVITY_TYPE_LEVELAWARD,
-		ActivityConst.ACTIVITY_TYPE_LEVELPLAN,
-		ActivityConst.ACTIVITY_TYPE_MONTHSIGN,
-		ActivityConst.ACTIVITY_TYPE_CHARGEAWARD,
-		ActivityConst.ACTIVITY_TYPE_ZPROJECT,
-		ActivityConst.ACTIVITY_TYPE_SHOP,
-		ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN,
-		ActivityConst.ACTIVITY_TYPE_DAILY_TASK,
-		ActivityConst.ACTIVITY_TYPE_TASK_LIST,
-		ActivityConst.ACTIVITY_TYPE_PUZZLA,
-		ActivityConst.ACTIVITY_TYPE_BB,
-		ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN,
-		ActivityConst.ACTIVITY_TYPE_COLORING,
-		ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE,
-		ActivityConst.ACTIVITY_TYPE_CARD_PAIRS,
-		ActivityConst.ACTIVITY_TYPE_ANSWER,
-		ActivityConst.ACTIVITY_TYPE_TASKS,
-		ActivityConst.ACTIVITY_TYPE_TASK_RES,
-		ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA,
-		ActivityConst.ACTIVITY_TYPE_LINK_LINK,
-		ActivityConst.ACTIVITY_TYPE_LOTTERY_AWARD,
-		ActivityConst.ACTIVITY_TYPE_MONOPOLY,
-		ActivityConst.ACTIVITY_TYPE_BUILD,
-		ActivityConst.ACTIVITY_TYPE_DODGEM,
-		ActivityConst.ACTIVITY_TYPE_PT_ACCUM,
-		ActivityConst.ACTIVITY_TYPE_RETURN_AWARD
-	}
-
 	return _(_.values(slot0.data)):chain():filter(function (slot0)
-		if _.contains(slot0, slot0:getConfig("type")) and slot0:isShow() then
+		slot1 = slot0:getConfig("type")
+
+		if slot0:isShow() then
 			if slot1 == ActivityConst.ACTIVITY_TYPE_CHARGEAWARD then
 				slot2 = slot0.data2 == 0
 			elseif slot1 == ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN then

@@ -20,6 +20,9 @@ function slot0.Entrance(slot0, slot1)
 			slot0:sendNotification(GAME.STORY_UPDATE, {
 				storyId = pg.StoryMgr:GetInstance():GetStoryByName("index")[slot1]
 			})
+
+			slot0.sendNotification.token = slot0.key
+
 			slot0:sendNotification(GAME.BEGIN_STAGE_DONE, slot0.sendNotification)
 		end, function (slot0)
 			slot0:RequestFailStandardProcess(slot0)
@@ -33,7 +36,7 @@ function slot0.Exit(slot0, slot1)
 			system = SYSTEM_PERFORM
 		})
 	else
-		slot1:SendRequest(slot1:GeneralPackage(slot0, {}), function (slot0)
+		slot1:SendRequest(slot1.GeneralPackage(slot0, {}), function (slot0)
 			slot0:sendNotification(GAME.FINISH_STAGE_DONE, {
 				system = SYSTEM_PERFORM,
 				exitCallback = slot1.exitCallback

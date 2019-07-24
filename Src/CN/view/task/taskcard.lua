@@ -44,25 +44,27 @@ function slot0.update(slot0, slot1)
 
 	slot0:updateAwards(slot1)
 
+	slot3 = slot1:getProgress()
+
 	if slot1:isFinish() then
 		slot0.progressNum.text = "COMPLETE"
 	elseif slot1:getConfig("sub_type") == 1012 then
-		slot0.progressNum.text = math.floor(slot1.progress / 100) .. "/" .. math.floor(slot2 / 100)
+		slot0.progressNum.text = math.floor(slot3 / 100) .. "/" .. math.floor(slot2 / 100)
 	else
-		slot0.progressNum.text = slot1.progress .. "/" .. slot2
+		slot0.progressNum.text = slot3 .. "/" .. slot2
 	end
 
-	slot0.progressBar.value = slot1.progress / slot2
+	slot0.progressBar.value = slot3 / slot2
 
 	slot0:updateBtnState(slot1)
-	setActive(slot0.storyIconFrame, slot1:getConfig("story_id") and slot3 ~= "")
+	setActive(slot0.storyIconFrame, slot1:getConfig("story_id") and slot4 ~= "")
 
-	if slot3 and slot3 ~= "" then
-		if not slot1:getConfig("story_icon") or slot4 == "" then
-			slot4 = "task_icon_default"
+	if slot4 and slot4 ~= "" then
+		if not slot1:getConfig("story_icon") or slot5 == "" then
+			slot5 = "task_icon_default"
 		end
 
-		LoadSpriteAsync("shipmodels/" .. slot4, function (slot0)
+		LoadSpriteAsync("shipmodels/" .. slot5, function (slot0)
 			if slot0 then
 				setImageSprite(slot0.storyIcon, slot0, true)
 			end

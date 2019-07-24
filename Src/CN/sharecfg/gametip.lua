@@ -10078,7 +10078,7 @@ Z23(<color=#ff5c5c>铁血</color>) 科技点<color=#92fc63>+1</color></size>
 		key = "blueprint_simulation_confirm_99901"
 	},
 	electrotherapy_wanning = {
-		tip = "即将开始收圈",
+		tip = "镜面海域扩展中",
 		key = "electrotherapy_wanning"
 	},
 	memorybook_get_award_tip = {
@@ -10731,9 +10731,47 @@ UID：
 		tip = "请再次确认密码提示文本\n<color=#FFDE38>“%s”</color>",
 		key = "secondarypassword_confirm_tips"
 	},
+	help_tempesteve = {
+		key = "help_tempesteve",
+		tip = {
+			{
+				info = "活动说明："
+			},
+			{
+				info = "1.活动期间，将会开启特别作战「风暴前夕」"
+			},
+			{
+				info = "2.作战期间指挥官每日可获得1次可进行次数\n消耗次数可推进作战进度"
+			},
+			{
+				info = "3.作战全程将使用NPC编队进行，无石油消耗"
+			},
+			{
+				info = "4.每次通过作战可获得道具「作战报告」"
+			},
+			{
+				info = "5.收集7份「作战报告」后可获得\n活动限定装备「侦察报告·纽约近海」\n未消耗的「作战报告」将在活动结束后回收"
+			},
+			{
+				info = [[
+6.作战完成条件:
+P1完成指定作战
+P2通过指定关卡
+P3观看指定剧情
+P4通过指定关卡
+P5通过指定关卡
+P6观看指定剧情
+P7通过指定关卡]]
+			}
+		}
+	},
 	word_rest_times = {
 		tip = "<color=#FFDE38FF>剩余次数 ：%s次</color>",
 		key = "word_rest_times"
+	},
+	common_buy_gold_success = {
+		tip = "成功购买 <color=#92fc63>$1</color> 物资！",
+		key = "common_buy_gold_success"
 	}
 }
 

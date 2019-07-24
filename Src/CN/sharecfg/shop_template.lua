@@ -585,6 +585,30 @@ pg.shop_template = {
 		discount_time = {},
 		limit_args = {}
 	},
+	[24] = {
+		group_type = 0,
+		resource_num = 450,
+		desc = "花费450钻石购买15000物资",
+		type = 1,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 0,
+		time = "always",
+		group = 0,
+		num = 15000,
+		discount = 0,
+		resource_type = 14,
+		id = 24,
+		genre = "",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			1
+		}
+	},
 	[21001] = {
 		group_type = 0,
 		resource_num = 1500,
@@ -17032,6 +17056,7 @@ pg.shop_template = {
 		20,
 		21,
 		23,
+		24,
 		21001,
 		21002,
 		21003,

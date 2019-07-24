@@ -71276,6 +71276,301 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14780] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91340,
+		type = 26,
+		name = "新美系前哨战任务1",
+		count_inherit = 0,
+		desc = "通过作战「风暴前夕」P1",
+		target_id_2 = "",
+		sub_type = 29,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1242017,
+		id = 14780,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1242017",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14781] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91341,
+		type = 26,
+		name = "新美系前哨战任务2",
+		count_inherit = 0,
+		desc = "通过作战「风暴前夕」P2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1250031,
+		id = 14781,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1250031",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14782] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91342,
+		type = 26,
+		name = "新美系前哨战任务3",
+		count_inherit = 0,
+		desc = "通过作战「风暴前夕」P3",
+		target_id_2 = "",
+		sub_type = 1005,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 2103,
+		id = 14782,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			2103
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14783] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91343,
+		type = 26,
+		name = "新美系前哨战任务4",
+		count_inherit = 0,
+		desc = "通过作战「风暴前夕」P4",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1250032,
+		id = 14783,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1250032",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14784] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91344,
+		type = 26,
+		name = "新美系前哨战任务5",
+		count_inherit = 0,
+		desc = "通过作战「风暴前夕」P5",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1250033,
+		id = 14784,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1250033",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14785] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91345,
+		type = 26,
+		name = "新美系前哨战任务6",
+		count_inherit = 0,
+		desc = "通过作战「风暴前夕」P6",
+		target_id_2 = "",
+		sub_type = 1005,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 2107,
+		id = 14785,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			2107
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14786] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91346,
+		type = 26,
+		name = "新美系前哨战任务7",
+		count_inherit = 0,
+		desc = "通过作战「风暴前夕」P7",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1250034,
+		id = 14786,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1250034",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14787] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91347,
+		type = 26,
+		name = "新美系前哨战任务8",
+		count_inherit = 0,
+		desc = "获得7份「作战报告」",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1010,
+		id = 14787,
+		target_num = 7,
+		fix_task = 0,
+		target_id = "1010",
+		open_need = {},
+		award_display = {
+			{
+				3,
+				760,
+				1
+			}
+		}
+	},
 	[14790] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -80711,6 +81006,14 @@ pg.task_data_template = {
 		14772,
 		14773,
 		14774,
+		14780,
+		14781,
+		14782,
+		14783,
+		14784,
+		14785,
+		14786,
+		14787,
 		14790,
 		14791,
 		14792,

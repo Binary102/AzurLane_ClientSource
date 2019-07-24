@@ -1056,6 +1056,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[1010] = {
+		display = "记录有详细作战过程的正式文件，是司令部进行决策的重要参考（活动结束后将会回收） ",
+		rarity = 3,
+		type = 1,
+		name = "作战报告",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 1010,
+		icon = "Props/zuozhanbaogao",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[10000] = {
 		display = "舰艇维修设备T2设计图",
 		rarity = 3,
@@ -69675,6 +69691,7 @@ pg.item_data_statistics = {
 		1007,
 		1008,
 		1009,
+		1010,
 		10000,
 		10001,
 		10002,

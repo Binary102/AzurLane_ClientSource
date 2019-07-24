@@ -65,8 +65,7 @@ SCENE = {
 	DEPOTSCENE = "scene depot scene",
 	ITEM_ORIGIN_PAGE = "item special page",
 	BILLBOARD = "scene billboard",
-	MILITARYEXERCISE = " scene militaryexercise",
-	SEC_PWD = "secondary password"
+	MILITARYEXERCISE = " scene militaryexercise"
 }
 
 return

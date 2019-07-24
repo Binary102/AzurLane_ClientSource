@@ -112,18 +112,19 @@ function slot0.AddListener(slot0)
 		slot0:emit(LevelUIConst.SWITCH_TO_MAP)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.retreatBtn, function ()
-		slot1 = "levelScene_whether_to_retreat"
+		slot1 = slot0.contextData.map
+		slot2 = "levelScene_whether_to_retreat"
 
 		if slot0.contextData.chapterVO:existOni() then
-			slot1 = "levelScene_oni_retreat"
+			slot2 = "levelScene_oni_retreat"
 		elseif slot0:isPlayingWithBombEnemy() then
-			slot1 = "levelScene_bomb_retreat"
-		elseif slot0:getPlayType() == ChapterConst.TypeTransport then
-			slot1 = "levelScene_escort_retreat"
+			slot2 = "levelScene_bomb_retreat"
+		elseif slot0:getPlayType() == ChapterConst.TypeTransport and not slot1:isSkirmish() then
+			slot2 = "levelScene_escort_retreat"
 		end
 
 		slot0:HandleShowMsgBox({
-			content = i18n(slot1),
+			content = i18n(slot2),
 			onYes = function ()
 				slot0:emit(LevelMediator2.ON_OP, {
 					type = ChapterConst.OpRetreat
@@ -1538,35 +1539,22 @@ function slot0.tryAutoAction(slot0)
 
 		slot2 = slot0:isPlayingWithBombEnemy()
 
-		if (slot0:findChapterCell(ChapterConst.AttachBoss) and slot3.flag == 1) or slot0:existOni() then
-			if slot0:getDefeatStory(slot0.defeatCount) and type(slot5) == "number" and not pg.StoryMgr.GetInstance():IsPlayed(slot5) then
-				pg.m02:sendNotification(GAME.STORY_UPDATE, {
-					storyId = slot5
-				})
-				slot1:emit(LevelMediator2.ON_PERFORM_COMBAT, slot5)
-			end
-
-			if slot5 and type(slot5) == "string" then
-				pg.StoryMgr.GetInstance():Play(slot5)
-			end
-		end
-
 		if slot0 then
 			slot1:emit(LevelUIConst.FROZEN)
 
 			if slot1 or slot2 then
-				slot4 = nil
+				slot3 = nil
 
 				if slot1 then
-					slot4 = "SpUnit"
+					slot3 = "SpUnit"
 				end
 
 				if slot2 then
-					slot4 = "SpBomb"
+					slot3 = "SpBomb"
 				end
 
-				if slot4 then
-					slot1:doPlayAnim(slot4, function (slot0)
+				if slot3 then
+					slot1:doPlayAnim(slot3, function (slot0)
 						setActive(slot0, false)
 						slot0()
 
@@ -1575,8 +1563,8 @@ function slot0.tryAutoAction(slot0)
 					coroutine.yield()
 				end
 
-				if slot0:getSpAppearStory() and #slot5 > 0 then
-					pg.StoryMgr.GetInstance():Play(slot5, function ()
+				if slot0:getSpAppearStory() and #slot4 > 0 then
+					pg.StoryMgr.GetInstance():Play(slot4, function ()
 						if slot0:getSpAppearGuide() and #slot0 > 0 then
 							pg.GuideMgr:GetInstance():play(slot0, nil, onNextTick(pg.GuideMgr.GetInstance().play))
 						else
@@ -1598,8 +1586,8 @@ function slot0.tryAutoAction(slot0)
 
 			slot1:tryPlayChapterStory()
 
-			if slot0:findChapterCell(ChapterConst.AttachBoss) and slot4.trait == ChapterConst.TraitLurk then
-				slot1.grid:focusOnCell(slot4, slot2)
+			if slot0:findChapterCell(ChapterConst.AttachBoss) and slot3.trait == ChapterConst.TraitLurk then
+				slot1.grid:focusOnCell(slot3, slot2)
 				coroutine.yield()
 			end
 
@@ -1631,7 +1619,7 @@ function slot0.tryPlayChapterStory(slot0)
 			if slot4 == 1 and pg.map_event_list[slot1.id] and pg.map_event_list[slot1.id].help_open == 1 then
 				pg.StoryMgr.GetInstance():Play(slot3[slot4], function ()
 					if PlayerPrefs.GetInt("help_displayed_on_" .. slot0.id, 0) == 0 then
-						triggerButton(GameObject.Find("OverlayCamera/Overlay/UIMain/top/bottom_stage/help_button"))
+						triggerButton(slot1.helpBtn)
 						PlayerPrefs.SetInt("help_displayed_on_" .. slot0.id, 1)
 					end
 
@@ -1642,7 +1630,7 @@ function slot0.tryPlayChapterStory(slot0)
 			end
 		else
 			if slot4 == 1 and pg.map_event_list[slot1.id] and pg.map_event_list[slot1.id].help_open == 1 and PlayerPrefs.GetInt("help_displayed_on_" .. slot1.id, 0) == 0 then
-				triggerButton(GameObject.Find("OverlayCamera/Overlay/UIMain/top/bottom_stage/help_button"))
+				triggerButton(slot0.helpBtn)
 				PlayerPrefs.SetInt("help_displayed_on_" .. slot1.id, 1)
 			end
 		end

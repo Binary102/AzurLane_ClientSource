@@ -10,7 +10,7 @@ end
 
 function slot0.fetchShipVO(slot0, slot1)
 	slot2 = nil
-	slot2 = (not slot0.npcShip or slot0.npcShip.id ~= slot1 or Clone(slot0.npcShip)) and getProxy(BayProxy):getShipById(slot1)
+	slot2 = (not slot0.npcShipList[slot1] or Clone(slot0.npcShipList[slot1])) and getProxy(BayProxy):getShipById(slot1)
 
 	if slot0.staticsReady then
 		slot2.triggers.TeamNumbers = slot0.statics[slot2:getTeamType()].count
@@ -19,8 +19,12 @@ function slot0.fetchShipVO(slot0, slot1)
 	return slot2
 end
 
-function slot0.updateNpcShip(slot0, slot1)
-	slot0.npcShip = slot1
+function slot0.updateNpcShipList(slot0, slot1)
+	slot0.npcShipList = {}
+
+	for slot5, slot6 in ipairs(slot1) do
+		slot0.npcShipList[slot6.id] = slot6
+	end
 end
 
 function slot0.update(slot0, slot1)

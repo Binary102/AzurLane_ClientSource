@@ -22,43 +22,7 @@ function slot0.init(slot0)
 	slot1 = pg.shop_template
 
 	onButton(slot0, slot0.goldAddBtn, function ()
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
-			hideYes = true,
-			type = MSGBOX_TYPE_SINGLE_ITEM,
-			windowSize = {
-				y = 570
-			},
-			content = i18n("gold_buy_tip"),
-			drop = {
-				id = 1,
-				type = DROP_TYPE_RESOURCE,
-				count = slot0[slot1].num
-			},
-			weight = LayerWeightConst.TOP_LAYER,
-			custom = {
-				{
-					text = "text_shop",
-					sound = SFX_COMFIRM,
-					btnType = pg.MsgboxMgr:GetInstance().BUTTON_BLUE,
-					onCallback = function ()
-						pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
-							wrap = type or ChargeScene.TYPE_ITEM
-						})
-					end
-				},
-				{
-					text = "text_confirm",
-					sound = SFX_COMFIRM,
-					btnType = pg.MsgboxMgr:GetInstance().BUTTON_BLUE,
-					onCallback = function ()
-						pg.m02:sendNotification(GAME.SHOPPING, {
-							count = 1,
-							id = pg.m02.sendNotification
-						})
-					end
-				}
-			}
-		})
+		pg.goldExchangeMgr = GoldExchangeView.New()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.oilAddBtn, function ()
 		if not ShoppingStreet.getRiseShopId(ShopArgs.BuyOil, slot0.player.buyOilCount) then
@@ -145,6 +109,10 @@ function slot0.setResources(slot0, slot1)
 end
 
 function slot0.willExit(slot0)
+	if pg.goldExchangeMgr then
+		pg.goldExchangeMgr:willExit()
+	end
+
 	PoolMgr.GetInstance():ReturnUI("ResPanel", slot0._go)
 end
 

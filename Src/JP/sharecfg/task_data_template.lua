@@ -21650,32 +21650,7 @@ pg.task_data_template = {
 		id = 10060,
 		target_num = 3,
 		fix_task = 0,
-		target_id = {
-			10101,
-			10102,
-			10103,
-			10104,
-			10201,
-			10202,
-			10203,
-			10204,
-			10301,
-			10302,
-			10303,
-			10304,
-			10401,
-			10402,
-			10403,
-			10404,
-			10501,
-			10502,
-			10503,
-			10504,
-			10601,
-			10602,
-			10603,
-			10604
-		},
+		target_id = "0",
 		open_need = {},
 		award_display = {
 			{
@@ -22063,9 +22038,18 @@ pg.task_data_template = {
 		target_num = 1,
 		fix_task = 0,
 		target_id = {
-			1050001,
-			1050002,
-			1050003
+			1040001,
+			1040002,
+			1040003,
+			1040004,
+			1040005,
+			1040006,
+			1040011,
+			1040012,
+			1040013,
+			1040014,
+			1040015,
+			1040016
 		},
 		open_need = {},
 		award_display = {
@@ -26653,11 +26637,7 @@ pg.task_data_template = {
 			10701,
 			10702,
 			10703,
-			10704,
-			10801,
-			10802,
-			10803,
-			10804
+			10704
 		},
 		open_need = {},
 		award_display = {
@@ -44105,7 +44085,7 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			10117,
-			40123,
+			30105,
 			20121
 		},
 		open_need = {},
@@ -44141,7 +44121,7 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			10117,
-			40123,
+			30105,
 			20121
 		},
 		open_need = {},
@@ -44177,7 +44157,7 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			10117,
-			40123,
+			30105,
 			20121
 		},
 		open_need = {},
@@ -44213,7 +44193,7 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			10117,
-			40123,
+			30105,
 			20121
 		},
 		open_need = {},
@@ -44249,7 +44229,7 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			10117,
-			40123,
+			30105,
 			20121
 		},
 		open_need = {},
@@ -44285,7 +44265,7 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			10117,
-			40123,
+			30105,
 			20121
 		},
 		open_need = {},
@@ -44321,7 +44301,7 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			10117,
-			40123,
+			30105,
 			20121
 		},
 		open_need = {},
@@ -44561,7 +44541,7 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			10117,
-			40123,
+			30105,
 			20121
 		},
 		open_need = {},
@@ -44597,7 +44577,7 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			10117,
-			40123,
+			30105,
 			20121
 		},
 		open_need = {},
@@ -44633,7 +44613,7 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			10117,
-			40123,
+			30105,
 			20121
 		},
 		open_need = {},
@@ -44669,7 +44649,7 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			10117,
-			40123,
+			30105,
 			20121
 		},
 		open_need = {},
@@ -44841,7 +44821,7 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			10117,
-			40123,
+			30105,
 			20121
 		},
 		open_need = {},
@@ -45459,7 +45439,7 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			10117,
-			40123,
+			30105,
 			20121
 		},
 		open_need = {},
@@ -45495,7 +45475,7 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			10117,
-			40123,
+			30105,
 			20121
 		},
 		open_need = {},
@@ -45531,7 +45511,7 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			10117,
-			40123,
+			30105,
 			20121
 		},
 		open_need = {},
@@ -45567,7 +45547,7 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			10117,
-			40123,
+			30105,
 			20121
 		},
 		open_need = {},
@@ -45603,7 +45583,7 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			10117,
-			40123,
+			30105,
 			20121
 		},
 		open_need = {},
@@ -45639,7 +45619,7 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			10117,
-			40123,
+			30105,
 			20121
 		},
 		open_need = {},
@@ -45675,7 +45655,7 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			10117,
-			40123,
+			30105,
 			20121
 		},
 		open_need = {},
@@ -45711,7 +45691,7 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			10117,
-			40123,
+			30105,
 			20121
 		},
 		open_need = {},
@@ -45747,7 +45727,7 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			10117,
-			40123,
+			30105,
 			20121
 		},
 		open_need = {},
@@ -45783,7 +45763,7 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			10117,
-			40123,
+			30105,
 			20121
 		},
 		open_need = {},
@@ -45819,7 +45799,7 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			10117,
-			40123,
+			30105,
 			20121
 		},
 		open_need = {},
@@ -63324,47 +63304,7 @@ pg.task_data_template = {
 			14592,
 			14593,
 			14594,
-			14595,
-			14618,
-			14619,
-			14620,
-			14621,
-			14622,
-			14623,
-			14624,
-			14625,
-			14626,
-			14627,
-			14628,
-			14629,
-			14630,
-			14631,
-			14632,
-			14633,
-			14634,
-			14635,
-			14636,
-			14637,
-			14638,
-			14639,
-			14640,
-			14641,
-			14642,
-			14643,
-			14644,
-			14645,
-			14646,
-			14647,
-			14648,
-			14649,
-			14650,
-			14651,
-			14652,
-			14653,
-			14654,
-			14655,
-			14656,
-			14657
+			14595
 		},
 		open_need = {},
 		award_display = {
@@ -66065,6 +66005,301 @@ pg.task_data_template = {
 			{
 				8,
 				59839,
+				1
+			}
+		}
+	},
+	[14780] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91340,
+		type = 26,
+		name = "新美系前哨战任务1",
+		count_inherit = 0,
+		desc = "「迫り来る嵐」P1クリア ",
+		target_id_2 = "",
+		sub_type = 29,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1242017,
+		id = 14780,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1242017",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14781] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91341,
+		type = 26,
+		name = "新美系前哨战任务2",
+		count_inherit = 0,
+		desc = "「迫り来る嵐」P2クリア ",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1250031,
+		id = 14781,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1250031",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14782] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91342,
+		type = 26,
+		name = "新美系前哨战任务3",
+		count_inherit = 0,
+		desc = "「迫り来る嵐」P3クリア ",
+		target_id_2 = "",
+		sub_type = 1005,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 2103,
+		id = 14782,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			12303
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14783] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91343,
+		type = 26,
+		name = "新美系前哨战任务4",
+		count_inherit = 0,
+		desc = "「迫り来る嵐」P4クリア ",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1250032,
+		id = 14783,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1250032",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14784] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91344,
+		type = 26,
+		name = "新美系前哨战任务5",
+		count_inherit = 0,
+		desc = "「迫り来る嵐」P5クリア ",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1250033,
+		id = 14784,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1250033",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14785] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91345,
+		type = 26,
+		name = "新美系前哨战任务6",
+		count_inherit = 0,
+		desc = "「迫り来る嵐」P6クリア ",
+		target_id_2 = "",
+		sub_type = 1005,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 2107,
+		id = 14785,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			12307
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14786] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91346,
+		type = 26,
+		name = "新美系前哨战任务7",
+		count_inherit = 0,
+		desc = "「迫り来る嵐」P7クリア ",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1250034,
+		id = 14786,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1250034",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14787] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91347,
+		type = 26,
+		name = "新美系前哨战任务8",
+		count_inherit = 0,
+		desc = "「作戦レポート」7つ入手する ",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1010,
+		id = 14787,
+		target_num = 7,
+		fix_task = 0,
+		target_id = "1010",
+		open_need = {},
+		award_display = {
+			{
+				3,
+				760,
 				1
 			}
 		}
@@ -75495,6 +75730,14 @@ pg.task_data_template = {
 		14772,
 		14773,
 		14774,
+		14780,
+		14781,
+		14782,
+		14783,
+		14784,
+		14785,
+		14786,
+		14787,
 		14790,
 		14791,
 		14792,

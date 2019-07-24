@@ -1072,6 +1072,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[1010] = {
+		display = "作戦経過を記載する重要書類。上層部の状況判断・決裁における重要な参考資料（イベント終了後に削除されます）",
+		rarity = 3,
+		type = 1,
+		name = "作戦レポート",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 1010,
+		icon = "Props/zuozhanbaogao",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[10000] = {
 		display = "艦艇修理施設T2設計図",
 		rarity = 3,
@@ -67768,6 +67784,7 @@ pg.item_data_statistics = {
 		1007,
 		1008,
 		1009,
+		1010,
 		10000,
 		10001,
 		10002,

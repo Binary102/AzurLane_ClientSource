@@ -13,6 +13,8 @@ function pg.LayerWeightMgr.Init(slot0, slot1)
 
 	GetOrAddComponent(slot0.uiOrigin, typeof(CanvasGroup)).interactable = false
 	GetOrAddComponent(slot0.uiOrigin, typeof(CanvasGroup)).blocksRaycasts = false
+	GetOrAddComponent(slot0.uiOrigin, typeof(Canvas)).overrideSorting = true
+	GetOrAddComponent(slot0.uiOrigin, typeof(Canvas)).sortingOrder = 200
 	slot0.lvCameraTf = tf(GameObject.Find("LevelCamera"))
 	slot0.lvParent = tf(GameObject.Find("LevelCamera/Canvas"))
 	slot0.lvCamera = GetOrAddComponent(slot0.lvCameraTf, typeof(Camera))

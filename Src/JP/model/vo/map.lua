@@ -9,6 +9,18 @@ slot0.SHAM = 6
 slot0.GUILD_BOSS = 7
 slot0.ACT_EXTRA = 8
 slot0.ESCORT = 9
+slot0.SKIRMISH = 10
+slot0.NORMAL_MAP = {
+	slot0.INVALID,
+	slot0.SCENARIO,
+	slot0.ELITE,
+	slot0.EVENT,
+	slot0.ACTIVITY_EASY,
+	slot0.ACTIVITY_HARD,
+	slot0.SHAM,
+	slot0.GUILD_BOSS,
+	slot0.ACT_EXTRA
+}
 
 function slot0.Ctor(slot0, slot1)
 	slot0.configId = slot1.id
@@ -181,6 +193,24 @@ end
 
 function slot0.isEscort(slot0)
 	return slot0:getConfig("type") == Map.ESCORT
+end
+
+function slot0.isSkirmish(slot0)
+	return slot0:getConfig("type") == Map.SKIRMISH
+end
+
+function slot0.isNormalMap(slot0)
+	return table.contains(Map.NORMAL_MAP, slot0:getConfig("type"))
+end
+
+function slot0.IsType(slot0, slot1)
+	if Map.bindConfigTable()[slot0] then
+		return slot3.type == slot1
+	end
+end
+
+function slot0.NeedRecordMap(slot0)
+	return slot0:getConfig("type") == slot0.INVALID or slot1 == slot0.SCENARIO or slot1 == slot0.ELITE
 end
 
 function slot0.existHardMap(slot0)

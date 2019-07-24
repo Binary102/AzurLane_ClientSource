@@ -161,6 +161,8 @@ function slot1(slot0, slot1)
 		slot1.system = slot2
 		slot2 = slot0.key
 		slot1.token = slot2
+		slot2 = slot0.exitCallback
+		slot1.exitCallback = slot2
 		slot2 = slot10
 		slot3 = slot2
 		slot2 = slot2.sendNotification
@@ -412,6 +414,9 @@ function slot1(slot0, slot1)
 		slot6 = slot0.result
 		slot5.result = slot6
 		slot5.extraDrops = slot4
+		slot6 = slot3
+		slot6 = slot6.exitCallback
+		slot5.exitCallback = slot6
 		slot6 = slot2
 		slot7 = slot6
 		slot6 = slot6.sendNotification

@@ -364,6 +364,9 @@ function slot4(slot0)
 
 		slot2(slot3)
 	end
+
+	slot2 = 0
+	slot0.TeleportSubmarineMode = slot2
 end
 
 slot0.initAll = slot4
@@ -1218,49 +1221,53 @@ function slot4(slot0)
 	slot26 = slot2.seaBase
 
 	if slot26 then
-		slot27 = slot5
-		slot26 = slot5.Find
-		slot28 = "seaBase/sea"
-		slot26 = slot26(slot27, slot28)
-		slot27 = GetSpriteFromAtlas
-		slot28 = "chapter/pic/"
-		slot29 = slot2.seaBase
-		slot28 = slot28 .. slot29
-		slot29 = slot2.seaBase
-		slot27 = slot27(slot28, slot29)
+		slot26 = slot2.seaBase
 
-		if slot27 then
-			slot28 = setImageSprite
-			slot29 = slot26
-			slot30 = slot27
-			slot31 = false
+		if slot26 ~= "" then
+			slot27 = slot5
+			slot26 = slot5.Find
+			slot28 = "seaBase/sea"
+			slot26 = slot26(slot27, slot28)
+			slot27 = GetSpriteFromAtlas
+			slot28 = "chapter/pic/"
+			slot29 = slot2.seaBase
+			slot28 = slot28 .. slot29
+			slot29 = slot2.seaBase
+			slot27 = slot27(slot28, slot29)
 
-			slot28(slot29, slot30, slot31)
+			if slot27 then
+				slot28 = setImageSprite
+				slot29 = slot26
+				slot30 = slot27
+				slot31 = false
 
-			slot28 = setImageAlpha
-			slot29 = slot26
-			slot30 = 1
+				slot28(slot29, slot30, slot31)
 
-			slot28(slot29, slot30)
+				slot28 = setImageAlpha
+				slot29 = slot26
+				slot30 = 1
+
+				slot28(slot29, slot30)
+			end
+
+			slot29 = slot5
+			slot28 = slot5.Find
+			slot30 = "mask"
+			slot28 = slot28(slot29, slot30)
+			slot29 = GetOrAddComponent
+			slot30 = slot28
+			slot31 = "RawImage"
+			slot29 = slot29(slot30, slot31)
+			slot30 = UnityEngine
+			slot30 = slot30.Rect
+			slot30 = slot30.New
+			slot31 = 0.005
+			slot32 = 0.007
+			slot33 = 1
+			slot34 = -1
+			slot30 = slot30(slot31, slot32, slot33, slot34)
+			slot29.uvRect = slot30
 		end
-
-		slot29 = slot5
-		slot28 = slot5.Find
-		slot30 = "mask"
-		slot28 = slot28(slot29, slot30)
-		slot29 = GetOrAddComponent
-		slot30 = slot28
-		slot31 = "RawImage"
-		slot29 = slot29(slot30, slot31)
-		slot30 = UnityEngine
-		slot30 = slot30.Rect
-		slot30 = slot30.New
-		slot31 = 0.005
-		slot32 = 0.007
-		slot33 = 1
-		slot34 = -1
-		slot30 = slot30(slot31, slot32, slot33, slot34)
-		slot29.uvRect = slot30
 	end
 end
 
@@ -6485,6 +6492,16 @@ function slot4(slot0)
 						slot18 = slot18.CellEaseOutAlpha
 
 						slot16(slot17, slot18)
+
+						if slot15 then
+							slot16 = GetSpriteFromAtlas
+							slot17 = "chapter/pic/cellgrid"
+							slot18 = "cell_grid"
+							slot16 = slot16(slot17, slot18)
+							slot15.sprite = slot16
+							slot16 = nil
+							slot15.material = slot16
+						end
 					end
 
 					slot16 = defaultValue
@@ -6658,6 +6675,16 @@ function slot4(slot0)
 					slot22 = slot22.CellEaseOutAlpha
 
 					slot20(slot21, slot22)
+
+					if slot19 then
+						slot20 = GetSpriteFromAtlas
+						slot21 = "chapter/pic/cellgrid"
+						slot22 = "cell_grid"
+						slot20 = slot20(slot21, slot22)
+						slot19.sprite = slot20
+						slot20 = nil
+						slot19.material = slot20
+					end
 				end
 
 				slot20 = defaultValue

@@ -57,7 +57,8 @@ class("ChapterOpCommand", import(".ChapterOpRoutine")).execute = function (slot0
 						slot3:clearSubChapter()
 						slot2:updateChapter(slot3)
 						slot0:sendNotification(GAME.CHAPTER_OP_DONE, {
-							type = slot1.type
+							type = slot1.type,
+							win = slot1.win
 						})
 
 						return
@@ -84,6 +85,7 @@ class("ChapterOpCommand", import(".ChapterOpRoutine")).execute = function (slot0
 					slot0:doSupply()
 				elseif slot1.type == ChapterConst.OpEnemyRound then
 					slot0:doCollectAI()
+					slot0:doEnemyRound()
 				elseif slot1.type == ChapterConst.OpSubState then
 					slot0:doSubState()
 				elseif slot1.type == ChapterConst.OpBarrier then
@@ -109,7 +111,8 @@ class("ChapterOpCommand", import(".ChapterOpRoutine")).execute = function (slot0
 					aiActs = slot0.aiActs,
 					oldLine = slot1.ordLine,
 					extraFlagRemoveList = slot0.del_flag_list,
-					extraFlagAddList = slot0.add_flag_list
+					extraFlagAddList = slot0.add_flag_list,
+					win = slot1.win
 				})
 			end
 		else

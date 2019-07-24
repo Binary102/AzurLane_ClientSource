@@ -85,8 +85,14 @@ end
 function slot0.onAdded(slot0)
 	function slot1()
 		if slot0:getConfig("sub_type") == 29 then
+			if _.any(getProxy(SkirmishProxy):getRawData(), function (slot0)
+				return slot0:getConfig("task_id") == slot0.id
+			end) then
+				return
+			end
+
 			pg.m02:sendNotification(GAME.TASK_GO, {
-				taskVO = pg.m02.sendNotification
+				taskVO = slot0
 			})
 		elseif slot0:getConfig("added_tip") > 0 then
 			slot0 = nil

@@ -10128,7 +10128,7 @@ pg.gametip = {
 		key = "blueprint_simulation_confirm_99901"
 	},
 	electrotherapy_wanning = {
-		tip = "即将开始收圈",
+		tip = "鏡面海域化領域・接近中",
 		key = "electrotherapy_wanning"
 	},
 	memorybook_get_award_tip = {
@@ -10841,9 +10841,44 @@ Pt」が加算されます。
 		tip = "パスワードヒントは<color=#FFDE38>「%s」</color>でよろしいですか？",
 		key = "secondarypassword_confirm_tips"
 	},
+	help_tempesteve = {
+		key = "help_tempesteve",
+		tip = {
+			{
+				info = "遊び方："
+			},
+			{
+				info = "「迫り来る嵐」では、進行回数を消費することでイベン\nト戦闘（固定編成による戦闘）などの条件をクリアする\nことで、作戦進捗を進行させることができます。"
+			},
+			{
+				info = [[
+  作戦進捗を進めると、イベントアイテム「作戦レポー
+ト」を入手することができます。作戦進捗をMAXにす
+ると、設備「偵察報告書・NY周辺海域」を入手できま
+す。]]
+			},
+			{
+				info = "  作戦進捗7/30までは１日１回進行させることができ、\nまた7/25以降は前日分を進行させることができます。"
+			},
+			{
+				info = [[
+  P1　イベント戦闘をクリア
+  P2　イベントステージをクリア
+  P3　イベントストーリーを閲覧
+  P4　イベントステージをクリア
+  P5　イベントステージをクリア
+  P6　イベントストーリーを閲覧
+  P7　イベントステージをクリア]]
+			}
+		}
+	},
 	word_rest_times = {
 		tip = "<color=#FFDE38FF>残り回数 ：%s回</color> ",
 		key = "word_rest_times"
+	},
+	common_buy_gold_success = {
+		tip = "資金 <color=#92fc63>$1</color> を購入しました！",
+		key = "common_buy_gold_success"
 	}
 }
 

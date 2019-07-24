@@ -1040,6 +1040,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[1010] = {
+		display = "A crucial mission document necessary for the naval higher-ups to assess the situation and issue sanctions. (Will disappear after the event ends.) ",
+		rarity = 3,
+		type = 1,
+		name = "Mission Report ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 1010,
+		icon = "Props/zuozhanbaogao",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[1501] = {
 		display = "This badge is awarded to our Commanders who went above and beyond in helping Yostar Games. Thank you!",
 		rarity = 5,
@@ -56867,6 +56883,7 @@ Skins and their drop rates:
 		1005,
 		1006,
 		1007,
+		1010,
 		1501,
 		10000,
 		10001,

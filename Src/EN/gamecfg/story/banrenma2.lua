@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"半人马与港区的“前辈”们\n\n<size=45>二　过于认真的半人马</size>",
+					"Centaur and the Port \"Elders\"\n\n<size=45>Chapter 2 - Centaur Pushes It</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·广场",
+			say = "Port - Plaza",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "和担任秘书舰的半人马在港区巡逻中。",
+			say = "I was on patrol with my secretary, Centaur.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，和半人马在巡逻吗？",
+			say = "Out for a stroll with Centaur, are we, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "胡德前辈，您好！是的，我们正在巡逻途中。",
+			say = "Good morning, Elder Hood! Indeed, we're making our appointed rounds.",
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
@@ -98,7 +98,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是个懂礼貌的后辈啊，不过也不用太拘谨，在这里的都是同伴呢。",
+			say = "My, how lovely it is to see a polite young lady who understands proper manners. Of course, you need not stand on ceremony. We are all equals here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我知道的，但是，舰队的各位对我来说…果然都是值得尊敬的前辈呢。",
+			say = "I understand. However, as I see it, all the ladies of the fleet... you are all respected Elders worthy of esteem.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，既然你都这么说了，那就依你的吧。",
+			say = "Hehe, I hadn't thought of it that way. Very well, as you were.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明天的茶会，不要忘记参加哦？",
+			say = "I trust you'll be attending tomorrow's tea party?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "好的，胡德前辈！我一定准时参加！",
+			say = "Yes, Elder Hood! I wouldn't miss it for the world!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "半人马看起来和皇家的前辈们相处得不错。",
+			say = "It seemed Centaur had no problem dealing with her \"Elders\" of the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			actor = 301320,
 			nameColor = "#a9f548",
-			say = "指挥官，还有，那个，唔……给你们糖~",
+			say = "Comainder, and, um, you, Ms., um... have a candy~",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:33}，是刚加入舰队的半人马啦。",
+			say = "Mutsuki, that's Centaur. She's new to the fleet.",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -252,7 +252,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "是的，{namecode:33}前辈，{namecode:34}前辈，我是皇家的半人马。",
+			say = "Verily! Elder Mutsuki, Elder Kisaragi, I am Centaur of the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,14 +266,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "半人马非常标准地向两人鞠了个躬。",
+			say = "Centaur gave a deep bow to the two destroyers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "……？！",
+					content = "... What are you doing?",
 					flag = 1
 				}
 			}
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			actor = 301330,
 			nameColor = "#a9f548",
-			say = "欸欸欸，前、前辈吗……",
+			say = "Huuuuh?! Elder...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			}
 		},
 		{
-			say = "是的，对我来说，两位也是值得尊敬的前辈呢。",
+			say = "Indeed. As far as I'm concerned, you two are honoured Elders worthy of my respect.",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = -1,
@@ -330,7 +330,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇，还没有人叫过{namecode:33}前辈呢！",
+			say = "Wow! No one's ever called me \"Elder Mutsuki\" before!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:33}，这样不太好啦……被空母叫前辈，总觉得怪怪的……",
+			say = "Mutsuki, this isn't right... We can't have an aircraft carrier calling us \"Elder,\" it's weird...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯哼，这种时候就要抬头挺胸把称呼接下来啊{namecode:34}！",
+			say = "It's fine! We just gotta lift up our heads and puff out our chests and act like the proud Elders we are!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "是的，请不用太在意。",
+			say = "Yes, please don't mind me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			}
 		},
 		{
-			say = "呜，但还是觉得怪怪的啦……",
+			say = "Errmmm... But I still think it's kinda weird...",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -414,7 +414,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "……似乎半人马对谁都会敬称为“前辈”的样子。",
+			say = "... So Centaur would respectfully call everyone \"Elder.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

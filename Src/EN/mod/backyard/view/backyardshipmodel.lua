@@ -5633,6 +5633,17 @@ function slot5(slot0, slot1)
 	slot14 = 1
 	slot11 = slot11(slot12, slot13, slot14)
 	slot10.localScale = slot11
+	slot10 = tf
+	slot11 = slot0.model
+	slot10 = slot10(slot11)
+	slot11 = Vector3
+	slot12 = slot2[1]
+	slot12 = -slot12
+	slot13 = slot2[2]
+	slot13 = -slot13
+	slot14 = 0
+	slot11 = slot11(slot12, slot13, slot14)
+	slot10.localPosition = slot11
 end
 
 slot0.showBodyMask = slot5

@@ -1539,6 +1539,455 @@ pg.map_event_template = {
 			}
 		}
 	},
+	[156] = {
+		gametip = "",
+		memory = 0,
+		id = 156,
+		type = 5,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"map_flag",
+				2,
+				0,
+				4
+			}
+		}
+	},
+	[157] = {
+		gametip = "",
+		memory = 0,
+		id = 157,
+		type = 5,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"map_flag",
+				3,
+				0,
+				4
+			}
+		}
+	},
+	[158] = {
+		gametip = "",
+		memory = 0,
+		id = 158,
+		type = 5,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"map_flag",
+				4,
+				0,
+				4
+			}
+		}
+	},
+	[159] = {
+		gametip = "",
+		memory = 0,
+		id = 159,
+		type = 5,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"map_flag",
+				2,
+				2,
+				4
+			}
+		}
+	},
+	[160] = {
+		gametip = "",
+		memory = 0,
+		id = 160,
+		type = 5,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"map_flag",
+				1,
+				5,
+				4
+			}
+		}
+	},
+	[161] = {
+		gametip = "",
+		memory = 0,
+		id = 161,
+		type = 5,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"map_flag",
+				1,
+				7,
+				4
+			}
+		}
+	},
+	[162] = {
+		gametip = "",
+		memory = 0,
+		id = 162,
+		type = 5,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"map_flag",
+				2,
+				7,
+				4
+			}
+		}
+	},
+	[163] = {
+		gametip = "",
+		memory = 0,
+		id = 163,
+		type = 5,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"map_flag",
+				5,
+				8,
+				4
+			}
+		}
+	},
+	[164] = {
+		gametip = "",
+		memory = 0,
+		id = 164,
+		type = 5,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"map_flag",
+				5,
+				9,
+				4
+			}
+		}
+	},
+	[165] = {
+		gametip = "",
+		memory = 0,
+		id = 165,
+		type = 4,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			2,
+			"electrotherapy_wanning"
+		},
+		effect = {
+			{
+				"map_flag",
+				1,
+				0,
+				5,
+				0,
+				5
+			}
+		}
+	},
+	[166] = {
+		gametip = "",
+		memory = 0,
+		id = 166,
+		type = 4,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			4,
+			"electrotherapy_wanning"
+		},
+		effect = {
+			{
+				"map_flag",
+				1,
+				0,
+				5,
+				1,
+				5
+			}
+		}
+	},
+	[167] = {
+		gametip = "",
+		memory = 0,
+		id = 167,
+		type = 4,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			6,
+			"electrotherapy_wanning"
+		},
+		effect = {
+			{
+				"map_flag",
+				1,
+				0,
+				5,
+				2,
+				5
+			}
+		}
+	},
+	[168] = {
+		gametip = "",
+		memory = 0,
+		id = 168,
+		type = 4,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			8,
+			"electrotherapy_wanning"
+		},
+		effect = {
+			{
+				"map_flag",
+				1,
+				0,
+				5,
+				3,
+				5
+			}
+		}
+	},
+	[169] = {
+		gametip = "",
+		memory = 0,
+		id = 169,
+		type = 4,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			10,
+			"electrotherapy_wanning"
+		},
+		effect = {
+			{
+				"map_flag",
+				1,
+				0,
+				5,
+				4,
+				5
+			}
+		}
+	},
+	[170] = {
+		gametip = "",
+		memory = 0,
+		id = 170,
+		type = 4,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			12,
+			"electrotherapy_wanning"
+		},
+		effect = {
+			{
+				"map_flag",
+				1,
+				0,
+				5,
+				5,
+				5
+			}
+		}
+	},
+	[171] = {
+		gametip = "",
+		memory = 0,
+		id = 171,
+		type = 4,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			14,
+			"electrotherapy_wanning"
+		},
+		effect = {
+			{
+				"map_flag",
+				1,
+				0,
+				5,
+				6,
+				5
+			}
+		}
+	},
+	[172] = {
+		gametip = "",
+		memory = 0,
+		id = 172,
+		type = 4,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			16,
+			"electrotherapy_wanning"
+		},
+		effect = {
+			{
+				"map_flag",
+				1,
+				0,
+				5,
+				7,
+				5
+			}
+		}
+	},
+	[173] = {
+		gametip = "",
+		memory = 0,
+		id = 173,
+		type = 4,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			18,
+			"electrotherapy_wanning"
+		},
+		effect = {
+			{
+				"map_flag",
+				1,
+				0,
+				5,
+				8,
+				5
+			}
+		}
+	},
+	[174] = {
+		gametip = "",
+		memory = 0,
+		id = 174,
+		type = 4,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			20,
+			"electrotherapy_wanning"
+		},
+		effect = {
+			{
+				"map_flag",
+				1,
+				0,
+				5,
+				9,
+				5
+			}
+		}
+	},
 	all = {
 		75,
 		76,
@@ -1613,7 +2062,26 @@ pg.map_event_template = {
 		152,
 		153,
 		154,
-		155
+		155,
+		156,
+		157,
+		158,
+		159,
+		160,
+		161,
+		162,
+		163,
+		164,
+		165,
+		166,
+		167,
+		168,
+		169,
+		170,
+		171,
+		172,
+		173,
+		174
 	}
 }
 

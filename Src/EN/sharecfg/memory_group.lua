@@ -523,6 +523,20 @@ pg.memory_group = {
 			381
 		}
 	},
+	[135] = {
+		title = "Midsummer Sagittarius ",
+		type = 2,
+		id = 135,
+		icon = "title_event",
+		memories = {
+			401,
+			402,
+			403,
+			404,
+			405,
+			406
+		}
+	},
 	[141] = {
 		title = "Trick or Treat Halloween Night! ",
 		type = 2,
@@ -782,6 +796,24 @@ pg.memory_group = {
 			843
 		}
 	},
+	[162] = {
+		title = "Approaching Storm ",
+		type = 2,
+		id = 162,
+		icon = "title_event",
+		memories = {
+			830,
+			831,
+			832,
+			833,
+			834,
+			835,
+			836,
+			837,
+			838,
+			839
+		}
+	},
 	[501] = {
 		title = "{namecode:98}'s Commission",
 		type = 3,
@@ -1003,6 +1035,21 @@ pg.memory_group = {
 			368,
 			369,
 			370
+		}
+	},
+	[519] = {
+		title = "Centaur and the Port \"Elders\" ",
+		type = 3,
+		id = 519,
+		icon = "title_chara_banrenma",
+		memories = {
+			394,
+			395,
+			396,
+			397,
+			398,
+			399,
+			400
 		}
 	},
 	[525] = {
@@ -1248,6 +1295,7 @@ pg.memory_group = {
 		131,
 		132,
 		133,
+		135,
 		141,
 		145,
 		147,
@@ -1263,6 +1311,7 @@ pg.memory_group = {
 		159,
 		160,
 		161,
+		162,
 		501,
 		502,
 		503,
@@ -1277,6 +1326,7 @@ pg.memory_group = {
 		515,
 		516,
 		517,
+		519,
 		525,
 		527,
 		528,

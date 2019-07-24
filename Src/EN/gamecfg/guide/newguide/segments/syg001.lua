@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.258,
 			style = {
-				text = "让我们打开<color=#ff7d36>生活区</color>",
+				text = "Let's go to <color=#ff7d36>HQ</color>",
 				mode = 2,
 				dir = 1,
 				posY = 0,
@@ -25,7 +25,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "<color=#ff7d36>后宅</color>从这里进入哟",
+				text = "You can visit our <color=#ff7d36>Dorm</color> from here",
 				mode = 2,
 				dir = 1,
 				posY = 319,

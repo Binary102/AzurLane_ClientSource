@@ -150,6 +150,16 @@ pg.friendly_data_template = {
 		scale = 100,
 		ai_mov = 1
 	},
+	{
+		ai = 1,
+		name = "商船编队",
+		hp = 20,
+		atk = 0,
+		id = 16,
+		icon = "merchant",
+		scale = 100,
+		ai_mov = 1
+	},
 	all = {
 		1,
 		2,
@@ -165,7 +175,8 @@ pg.friendly_data_template = {
 		12,
 		13,
 		14,
-		15
+		15,
+		16
 	}
 }
 

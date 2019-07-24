@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"盛夏的半人马座\n\n<size=45>四　沙滩上的美味</size>",
+					"Midsummer Sagittarius\n\n<size=45>Chapter 4 - Beachside Sweets</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "啊，自由和维希的姐妹们来了呢。",
+			say = "Ah, the girls from Iris Libre and Vichya Dominion are over here!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			say = "还有罗德尼前辈。",
+			say = "Elder Rodney appears to be here as well.",
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
@@ -78,7 +78,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，真的耶。",
+			say = "Huh? Really?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "罗德尼姐姐，敦刻尔克小姐，埃米尔小姐，这边~~~",
+			say = "Rodney! Dunkerque! Émile! Over here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "你是……啊，新加入的半人马对吧？",
+			say = "You must be... Ah, the one who recently joined the fleet, Centaur.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			say = "是的，敦刻尔克前辈，埃米尔·贝尔汀前辈，还有罗德尼前辈，上午好。",
+			say = "Yes! Elder Dunkerque, Elder Émile Bertin, and finally, Elder Rodney, it is a pleasure to meet you all.",
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
@@ -157,7 +157,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "日安，叫我埃米尔就好啦~",
+			say = "Hello, Centaur. Just Émile is fine~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呵呵，日安。",
+			say = "Hehe, nice to meet you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "你好~我在路上遇到了她们两个，就顺便带过来了。",
+			say = "Good day. I met these two along the way, so I came with them here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "标枪，不好意思，巴尔她果然还是不愿意过来呢。不过你放心，今晚我一定会把她拉过来的。",
+			say = "I'm sorry, Javelin. I wasn't able to convince Jean Bart to come after all. But I'll make sure she'll be here tonight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，那就麻烦敦刻尔克姐姐了~",
+			say = "Thanks a ton, Dunkerque!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，晚上有什么事吗？",
+			say = "Excuse me... is something happening at night?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，等到晚上你就知道了，也和半人马你有关哦~",
+			say = "Hehe, that's when the real fun begins! It has something to do with you, so make sure to be there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			say = "这样啊，那好吧……",
+			say = "If that's the case, I'll be looking forward to it.",
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
@@ -290,7 +290,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "总之，我做了甜点来，要一起尝尝吗？",
+			say = "More importantly, I made sweets for all of you. Want to try?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "半人马我跟你说，敦刻尔克姐姐做的甜点超级好吃的哦。",
+			say = "Centaur, Dunkerque is famous around here for making super delicious sweets!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我也听姐姐说过呢，说维希教廷来了一位世界级的甜点大师什么的。",
+			say = "I've heard the same from my sister. Something about there being a world-class patissier from the Vichya Dominion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呵呵，你们都太过奖了……好了，请用吧。",
+			say = "Non, you're making me sound cooler than I am... Here, I just enjoy making sweets~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "……真美味啊。",
+			say = "It's... amazing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "对吧~不过我虽然很想吃……但总觉得吃下去的话，回去要没有勇气面对体重计了。",
+			say = "Right~? I'd love to dig in, but... I don't have the courage to look at the scales afterwards...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "确实很美味呢……不过真遗憾，等一下我还要去练习沙滩排球，不能吃太多呢。",
+			say = "Same... These are absolutely delicious, but I'll have to hold back since I need to head to beach volleyball practice soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呵呵，没事的，想要吃的话可以随时来找我。",
+			say = "Ah, don't worry! Just let me know and I'll be glad to make more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，为什么来海边会带蛋糕这些点心啦……",
+			say = "Dunkerque, why'd you decide to bring sweets to the beach though...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然敦刻尔克你做的是很好吃没错，你看标枪做的便当就很正常。",
+			say = "They're as delicious as ever, but, considering how hot it is, wouldn't it be better to pack a lunchbox like Javelin did?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……那下次我问指挥官申请一个便携冰箱，做点冰淇淋过来怎么样？",
+			say = "Then, should I rent a minifridge and make ice cream next time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你还真是完全没有抛弃甜点的念头呢……",
+			say = "I wonder if you'll ever decide to bring something other than sweets...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过冰淇淋是个好主意，我支持哦。",
+			say = "Ah, but ice cream is a great idea, so I'm all for it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "也很符合夏天的感觉呢。",
+			say = "It behooves a hot summer day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然热量也很高就是了……",
+			say = "Um, but the calories...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			}
 		},
 		{
-			say = "唔，不管了，我也要吃！",
+			say = "Ah, forget it... I want some ice cream too!",
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,

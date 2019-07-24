@@ -5972,6 +5972,17 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6440] = {
+		desc_get = "",
+		name = "Anti-Siren Tactics Ⅰ ",
+		desc = "The ship equipping this gear takes 6.0% less DMG from Sirens. Does not stack with skills that have similar effect; only the highest source of DMG reduction applies. ",
+		type = 0,
+		max_level = 0,
+		id = 6440,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "Rhine Drill",
@@ -6048,6 +6059,637 @@ pg.skill_data_template = {
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
+	},
+	[9050] = {
+		desc_get = "",
+		name = "Lucky E",
+		desc = "When this ship launches an Airstrike: $1 chance for the Airstrike to deal double DMG and for this ship to evade all enemy attacks for 8s.",
+		type = 1,
+		max_level = 9,
+		id = 9050,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70%"
+				}
+			}
+		}
+	},
+	[9061] = {
+		desc_get = "",
+		name = "Full Firepower",
+		desc = "Every 20s: $1 chance to increase this ship's FP by $2 for 10s.",
+		type = 1,
+		max_level = 8,
+		id = 9061,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"30.0%",
+				"60.0%"
+			},
+			{
+				"20.0%",
+				"40.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"30.0%",
+					"+3.3%"
+				},
+				{
+					"33.3%",
+					"+3.3%"
+				},
+				{
+					"36.6%",
+					"+3.3%"
+				},
+				{
+					"39.9%",
+					"+3.3%"
+				},
+				{
+					"43.2%",
+					"+3.3%"
+				},
+				{
+					"46.5%",
+					"+3.3%"
+				},
+				{
+					"49.8%",
+					"+3.3%"
+				},
+				{
+					"53.1%",
+					"+3.3%"
+				},
+				{
+					"56.4%",
+					"+3.6%"
+				},
+				{
+					"60.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			}
+		}
+	},
+	[9071] = {
+		desc_get = "",
+		name = "Anti-Air Mode",
+		desc = "When this ship fires its Anti-Air Guns: 25.0% chance to increase this ship's AA by $1 but decrease its FP by $2 for 3s.",
+		type = 2,
+		max_level = 8,
+		id = 9071,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"20.0%",
+				"40.0%"
+			},
+			{
+				"40.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"-2.2%"
+				},
+				{
+					"37.8%",
+					"-2.2%"
+				},
+				{
+					"35.6%",
+					"-2.2%"
+				},
+				{
+					"33.4%",
+					"-2.2%"
+				},
+				{
+					"31.2%",
+					"-2.2%"
+				},
+				{
+					"29.0%",
+					"-2.2%"
+				},
+				{
+					"26.8%",
+					"-2.2%"
+				},
+				{
+					"24.6%",
+					"-2.2%"
+				},
+				{
+					"22.4%",
+					"-2.4%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[9081] = {
+		desc_get = "",
+		name = "Flagship Cover",
+		desc = "While this ship is afloat: decreases the DMG your Flagship takes by $1.",
+		type = 3,
+		max_level = 8,
+		id = 9081,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"15%",
+				"25%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			}
+		}
+	},
+	[9090] = {
+		desc_get = "",
+		name = "Legend of the Solomons",
+		desc = "Every 20s: $1 chance to increase your Cruisers' FP and Accuracy by $2 and decrease the DMG they take by $3 for 8s.",
+		type = 3,
+		max_level = 8,
+		id = 9090,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"30.0%",
+				"60.0%"
+			},
+			{
+				"10.0%",
+				"25.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"30.0%",
+					"+3.3%"
+				},
+				{
+					"33.3%",
+					"+3.3%"
+				},
+				{
+					"36.6%",
+					"+3.3%"
+				},
+				{
+					"39.9%",
+					"+3.3%"
+				},
+				{
+					"43.2%",
+					"+3.3%"
+				},
+				{
+					"46.5%",
+					"+3.3%"
+				},
+				{
+					"49.8%",
+					"+3.3%"
+				},
+				{
+					"53.1%",
+					"+3.3%"
+				},
+				{
+					"56.4%",
+					"+3.6%"
+				},
+				{
+					"60.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.2%"
+				},
+				{
+					"11.2%",
+					"+1.2%"
+				},
+				{
+					"12.4%",
+					"+1.6%"
+				},
+				{
+					"14.0%",
+					"+1.5%"
+				},
+				{
+					"15.5%",
+					"+1.5%"
+				},
+				{
+					"17.0%",
+					"+2.0%"
+				},
+				{
+					"19.0%",
+					"+1.8%"
+				},
+				{
+					"20.8%",
+					"+1.8%"
+				},
+				{
+					"22.6%",
+					"+2.4%"
+				},
+				{
+					"25.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[9101] = {
+		desc_get = "",
+		name = "Assault Order",
+		desc = "Every 20s: 25.0% chance to increase the DMG of your entire fleet by $1 for 8s. Does not stack with the same skill.",
+		type = 3,
+		max_level = 9,
+		id = 9101,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"25.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+2.2%"
+				},
+				{
+					"7.2%",
+					"+2.2%"
+				},
+				{
+					"9.4%",
+					"+2.2%"
+				},
+				{
+					"11.6%",
+					"+2.2%"
+				},
+				{
+					"13.8%",
+					"+2.2%"
+				},
+				{
+					"16.0%",
+					"+2.2%"
+				},
+				{
+					"18.2%",
+					"+2.2%"
+				},
+				{
+					"20.4%",
+					"+2.2%"
+				},
+				{
+					"22.6%",
+					"+2.4%"
+				},
+				{
+					"25.0%"
+				}
+			}
+		}
+	},
+	[9110] = {
+		desc_get = "",
+		name = "Anti-Air Mode",
+		desc = "When this ship fires its Anti-Air Guns: 25.0% chance to increase this ship's AA by $1 but decrease its FP by $2 for 3s.",
+		type = 2,
+		max_level = 9,
+		id = 9110,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"20.0%",
+				"40.0%"
+			},
+			{
+				"40.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"-2.2%"
+				},
+				{
+					"37.8%",
+					"-2.2%"
+				},
+				{
+					"35.6%",
+					"-2.2%"
+				},
+				{
+					"33.4%",
+					"-2.2%"
+				},
+				{
+					"31.2%",
+					"-2.2%"
+				},
+				{
+					"29.0%",
+					"-2.2%"
+				},
+				{
+					"26.8%",
+					"-2.2%"
+				},
+				{
+					"24.6%",
+					"-2.2%"
+				},
+				{
+					"22.4%",
+					"-2.4%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
 	},
 	[10010] = {
 		desc_get = "",
@@ -17454,9 +18096,9 @@ pg.skill_data_template = {
 		}
 	},
 	[11580] = {
-		desc_get = "空中支援时，额外使用剑鱼编队进行一轮航空鱼雷攻击(威力随技能等级提升)，使被命中的敌方减速40%，持续6秒；自身对战列舰(不包括战巡、航战)伤害提高4%(满级10%)",
-		name = "剑鱼出击·改",
-		desc = "空中支援时，额外使用剑鱼编队进行一轮航空鱼雷攻击$2，使被命中的敌方减速40%，持续6秒；自身对战列舰(不包括战巡、航战)伤害提高$1",
+		desc_get = "When this ship launches an Airstrike: launches an additional special Swordfish airstrike (Power+) and decreases Speed by 40.0% for 6s for all enemies hit by it. Increases this ship's DMG to BBs (BCs and BBVs are unaffected) by 4.0% (10.0% when fully upgraded.)",
+		name = "Swordfishes, Attack!",
+		desc = "When this ship launches an Airstrike: launches an additional special Swordfish airstrike (DMG is based on the skill's level) and decreases Speed by 40.0% for 6s for all enemies hit by it. Increases this ship's DMG to BBs (BCs and BBVs are unaffected) by $1.",
 		type = 1,
 		max_level = 10,
 		id = 11580,
@@ -17549,8 +18191,8 @@ pg.skill_data_template = {
 	},
 	[11590] = {
 		desc_get = "",
-		name = "空域控制",
-		desc = "每次执行空袭后，己方后排航空属性提高$1、炮击属性提高$2，持续8秒",
+		name = "Airspace Dominance",
+		desc = "When this ship launches an Airstrike: increases your Main Fleet's AVI by $1 and FP by $2 for 8s.",
 		type = 3,
 		max_level = 10,
 		id = 11590,
@@ -27849,6 +28491,7 @@ pg.skill_data_template = {
 		6410,
 		6411,
 		6415,
+		6440,
 		7000,
 		9010,
 		9020,
@@ -27856,6 +28499,13 @@ pg.skill_data_template = {
 		9031,
 		9033,
 		9034,
+		9050,
+		9061,
+		9071,
+		9081,
+		9090,
+		9101,
+		9110,
 		10010,
 		10020,
 		10030,

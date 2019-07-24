@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"半人马与港区的“前辈”们\n\n<size=45>六　大家的后辈</size>",
+					"Centaur and the Port \"Elders\"\n\n<size=45>Chapter 6 - Childe of the Fleet</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·广场",
+			say = "Port - Plaza",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "和担任秘书舰的半人马在港区巡逻中。",
+			say = "I was on patrol with my secretary, Centaur.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "…实际上最近半人马一个人就能够完成这项工作了",
+			say = "Although, honestly, by this point, Centaur was capable of handling this particular duty on her own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "不过，被半人马说坐太久对身体不好，于是还是一起出来了",
+			say = "But she insisted it was bad for my health to sit too long, so she forced me to come out with her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，半人马，在和指挥官一起巡逻吗？",
+			say = "Out for a stroll with Centaur, are we, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "啊，是的。你好，胡德前辈。",
+			say = "Oh, yes, indeed! And good morning to you, Elder Hood!",
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，还是老样子，是个懂礼貌的好孩子呢。",
+			say = "Hehe, aren't you ever the polite child.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "嘻嘻，没有啦，您过奖了~",
+			say = "Oh my no, you flatter me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前送你的茶叶，试过了吗？",
+			say = "Did you get a chance to try that tea I gave you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "嗯！虽然我对茶懂得不多，不过很好喝呢。",
+			say = "Yes! I can't say I know much about tea, but it was delicious!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你喜欢就好，对茶叶还感兴趣的话，随时来找我哦？",
+			say = "I'm glad you liked it. If you'd ever like to know more about tea, my door is always open.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "嗯~",
+			say = "Thank you very much.~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			actor = 301320,
 			nameColor = "#a9f548",
-			say = "啊，是半人马！",
+			say = "Hey! It's Centaur!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			say = "半人马，在工作吗？",
+			say = "Are you working again, Centaur...?",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -270,7 +270,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "是的，两位前辈还是一样精神很好呢！",
+			say = "Yes, I am! And I see these two Elders are in fine spirits today!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "工作，加油哦…！",
+			say = "Make sure to work hard...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "谢谢~",
+			say = "I won't let you down!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "半人马，给你糖，记得来找我们玩哦！",
+			say = "Centaur, I'm giving you this candy so you'll remember to come play with us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "好的~我晚点再去找你们~",
+			say = "Of course. I'll play with you later today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			},
 			options = {
 				{
-					content = "向{namecode:33}要糖",
+					content = "Ask Mutsuki for some candy.",
 					flag = 1
 				}
 			}
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			actor = 301320,
 			nameColor = "#a9f548",
-			say = "不给指挥官~~",
+			say = "No candy for Comainder!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "有种微妙的挫败感…",
+			say = "I felt ever so slightly spurned...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			bgName = "star_level_bg_103",
 			side = 2,
 			dir = 1,
-			say = "虽然还在使用“前辈”的称呼，但是半人马和大家的交流已经自然了许多了",
+			say = "While she was still calling everyone \"Elder,\" Centaur's interactions with the rest of the fleet had become much less awkward.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -416,7 +416,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问为什么还要使用“前辈”的称呼",
+					content = "Ask her why she's still calling everyone \"Elder.\"",
 					flag = 1
 				}
 			}
@@ -429,7 +429,7 @@ return {
 			blackBg = true,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "啊，这个的话，因为“前辈”两个字对现在的我来说，有了新的含义呢~",
+			say = "Oh, that? I suppose it's because \"Elder\" has a new meaning for me~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

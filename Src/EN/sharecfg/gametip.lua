@@ -1655,7 +1655,18 @@ pg.gametip = {
 		key = "exercise_time_tip"
 	},
 	exercise_rule_tip = {
-		tip = "",
+		tip = [[
+1. Each Exercise season lasts <color=#92fc63>14</color> days. As you rise through the ranks each season, you will earn more and more Merits.
+2. Winning an Exercise Battle will earn you Merits based on your current Military Rank. If you lose, you will still earn <color=#92fc63>half</color> the rewards of a victory.
+3. Your Seasonal Score will increase when you win a battle, but <color=#92fc63>your score won't decrease if you lose.</color>
+4. Your Seasonal Score is unaffected by other players defeating or losing to your Defense Fleet.
+5. Your rank increases as you earn Seasonal Score up to the rank of Captain. After that point, your Military Rank is determined by your position on the Exercise Ladder (your Current Rank.)
+6. You can only receive your Promotion Merits <color=#92fc63>once per season and rank.</color>
+7. The Merits you earn can be exchanged for special rewards and items in the Merit Supply shop.
+8. You can refresh your opponent lineup <color=#92fc63>5</color> times a day.
+9. Your opponent lineup will also refresh automatically after you finish an Exercise Battle.
+10. Your Exercise Count will refresh at 00:00, 12:00, and 18:00 (server local time) every day.
+11. At the end of the season, all players will have their Military Rank and Current Rank reset. However, <color=#92fc63>all Merits earned will persist between seasons.</color> ]],
 		key = "exercise_rule_tip"
 	},
 	exercise_award_tip = {
@@ -2984,11 +2995,11 @@ February 8th.]]
 		key = "levelScene_sham_win"
 	},
 	levelScene_escort_win = {
-		tip = "运输船抵达终点，护航成功",
+		tip = "The transport ship has arrived at its goal. Escort mission complete!",
 		key = "levelScene_escort_win"
 	},
 	levelScene_escort_lose = {
-		tip = "运输船大破，护航失败",
+		tip = "The transport ship has taken critical damage. Escort mission failed.",
 		key = "levelScene_escort_lose"
 	},
 	levelScene_oni_retreat = {
@@ -8407,7 +8418,7 @@ with Anti-Sub gear.
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "Special: Heavy Cruisers, Light Carriers, Carriers, Repair Ships, Submarine and more!",
+		tip = "Centaur rate up during the event period.",
 		key = "buildship_special_tip"
 	},
 	world_log_1 = {
@@ -9725,9 +9736,41 @@ Returning Commanders:
 		tip = "Would you like to set <color=#FFDE38>\"%s\"</color> as your Secondary Password hint? ",
 		key = "secondarypassword_confirm_tips"
 	},
+	help_tempesteve = {
+		key = "help_tempesteve",
+		tip = {
+			{
+				info = "Event Info:"
+			},
+			{
+				info = "1. During \"Approaching Storm\", you will go on a mission and complete objectives to progress through the event."
+			},
+			{
+				info = "2. You will be given a pre-composed fleet to use for this event. You can't change this fleet, but it doesn't cost Oil to use."
+			},
+			{
+				info = "3. Each time you progress, you will earn a Mission Report event item. Once you complete the event, you'll then unlock a new piece of gear: the NY City Coast Recon Report."
+			},
+			{
+				info = [[
+4. Objectives:
+ P1 - Clear the event battle
+ P2 - Clear the event stage
+ P3 - Read the event story
+ P4 - Clear the event stage
+ P5 - Clear the event stage
+ P6 - Read the event story
+ P7 - Clear the event stage]]
+			}
+		}
+	},
 	word_rest_times = {
 		tip = "<color=#FFDE38FF>Uses Left: %s</color> ",
 		key = "word_rest_times"
+	},
+	common_buy_gold_success = {
+		tip = "Successfully purchased <color=#92fc63>$1</color> Coins! ",
+		key = "common_buy_gold_success"
 	}
 }
 

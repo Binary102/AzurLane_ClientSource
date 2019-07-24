@@ -3297,6 +3297,129 @@ pg.equip_data_statistics = {
 		weapon_id = {},
 		property_rate = {}
 	},
+	[760] = {
+		name = "NY City Coast Recon Report ",
+		type = 10,
+		id = 760,
+		tech = 0,
+		speciality = "N/A",
+		range = 0,
+		scatter = "N/A",
+		ambush_extra = 0,
+		value_2 = 50,
+		icon = "760",
+		value_1 = "5",
+		attribute_2 = "durability",
+		avoid_extra = 0,
+		rarity = 4,
+		angle = 0,
+		nationality = 0,
+		ammo = "N/A",
+		is_siren = 0,
+		descrip = "A recon report from NY City's coastline. The fleet had to abandon the mission halfway through due to enemy comms jamming, but they still managed to gather a lot of valuable data. ",
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6440
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[761] = {
+		is_siren = 0,
+		id = 761,
+		base = 760,
+		value_2 = 55,
+		value_1 = "6",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[762] = {
+		is_siren = 0,
+		id = 762,
+		base = 760,
+		value_2 = 60,
+		value_1 = "7",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[763] = {
+		is_siren = 0,
+		id = 763,
+		base = 760,
+		value_2 = 65,
+		value_1 = "8",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[764] = {
+		is_siren = 0,
+		id = 764,
+		base = 760,
+		value_2 = 70,
+		value_1 = "9",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[765] = {
+		is_siren = 0,
+		id = 765,
+		base = 760,
+		value_2 = 75,
+		value_1 = "10",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[766] = {
+		is_siren = 0,
+		id = 766,
+		base = 760,
+		value_2 = 80,
+		value_1 = "11",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[767] = {
+		is_siren = 0,
+		id = 767,
+		base = 760,
+		value_2 = 90,
+		value_1 = "12",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[768] = {
+		is_siren = 0,
+		id = 768,
+		base = 760,
+		value_2 = 100,
+		value_1 = "13",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[769] = {
+		is_siren = 0,
+		id = 769,
+		base = 760,
+		value_2 = 110,
+		value_1 = "14",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[770] = {
+		is_siren = 0,
+		id = 770,
+		base = 760,
+		value_2 = 120,
+		value_1 = "15",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[1000] = {
 		name = "Repair Toolkit",
 		type = 10,
@@ -31926,7 +32049,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27300] = {
-		name = "海怒",
+		name = "Sea Fury ",
 		type = 7,
 		id = 27300,
 		tech = 0,
@@ -64131,6 +64254,17 @@ pg.equip_data_statistics = {
 		748,
 		749,
 		750,
+		760,
+		761,
+		762,
+		763,
+		764,
+		765,
+		766,
+		767,
+		768,
+		769,
+		770,
 		1000,
 		1001,
 		1002,

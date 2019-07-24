@@ -9031,6 +9031,81 @@ pg.ship_skin_words = {
 		detail = "",
 		couple_encourage = {}
 	},
+	[206040] = {
+		touch = "You want to try pulling my bowstring? Hehe, it's harder than it looks, huh?",
+		feeling3 = "It, it isn't really that shocking that I use polite language with the destroyer Elders... is it? B- but to me, those girls are also my Elders, worthy of respect!",
+		ID = 206040,
+		expedition = "I can hear it. A whisper on the wind... Hehe, just kidding. Huh? The commission team has returned.",
+		win_mvp = "Commander, I think I'm catching up to the Elders, maybe, just a bit...?",
+		home = "I'm learning a lot from how you and the Elders fight, Commander.",
+		mission = "Commander, shouldn't you head out to complete this mission? I'll accompany you.",
+		touch2 = "Commander, you're embarrassing me...",
+		feeling1 = "How could my beloved fleet turn out like this...",
+		skill = "I've learnt from the Elders, I'll show you their courage!",
+		drop_descrip = "Centaur-class light aircraft carrier – Centaur.",
+		mail = "Commander, some new mail has come in. I'll go fetch it for you.",
+		lose = "Forgive me, Elders...",
+		propose = "Having been born into a world of peace, I certainly can't say I am glad to fight... But to meet you, Commander, and to be assigned to your fleet, these are the things that truly make me glad.",
+		hp_warning = "Just as the Elders do, I shall hold fast!",
+		upgrade = "Thank you, Commander. I continue to strive toward the examples of my Elders.",
+		voice_key = 20604,
+		feeling5 = "I understand now that the others are ordinary people, just like me. But it's still not wrong to treat them with respect. ...Not only as their Childe, but also as their sister-in-arms.",
+		main = "By the way, supposing I really was a \"Centaur,\" like a half-man, half-horse? Wouldn't that be funny...? What do you think, Commander?|Peaceful, carefree days certainly are lovely, and yet I can't help but wonder from time to time, why was I even born?|Serving as your secretary ship gives me so many chances to interact with the Elders. I can learn so much from them. Thank you, Commander!",
+		voice_key_2 = -1,
+		profile = "I am called Centaur, name ship of the Centaur-class aircraft carriers. As I was constructed only after the Second Great War, I lived a peaceful life, in spite of it all. And so to me, all the ships of the fleet, even the little destroyer girls, are my Elders. I am at your disposal.",
+		mission_complete = "Commander, how should we handle the mission rewards?",
+		headtouch = "",
+		feeling2 = "Commander, would you mind introducing me to some of the fleet Elders? I don't much like being alone...",
+		feeling4 = "Spending so much time with the Commander and my Elders has shown me a side of you I never expected to see. For example... Admirable person though you are, Commander, you do sneak away from your duties from time to time. Hehehe.",
+		unlock = "So this is the place where all my Elders who fought in the Second Great War gather... Greetings, Commander, I am Centaur, at your service.",
+		battle = "Elders, let us strive together for victory!",
+		login = "Commander, I swear to follow the examples of my Elders and strive for greatness once more today!",
+		vote = "",
+		detail = "My... appearance? Right, well, my name derives from a mythological creature, so that's why I look rather... fantastical?",
+		couple_encourage = {
+			{
+				{
+					20601
+				},
+				1,
+				"Elder One, it is an honour to fight by your side!",
+				0
+			}
+		}
+	},
+	[206041] = {
+		touch = "Commander, is this pose okay? How about my expression? Hehe, all right then, make sure you get my good side.",
+		feeling3 = "",
+		ID = 206041,
+		couple_encourage = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		skill = "",
+		drop_descrip = "Even though I see the ocean every day, changing into this swimsuit gives me a totally new outlook on it. How about you, Commander? Don't you feel at ease?",
+		mail = "",
+		lose = "",
+		propose = "",
+		hp_warning = "",
+		upgrade = "",
+		voice_key = 0,
+		feeling5 = "Commander, let's go to the beach together after sunset and watch the stars. I'll show you my constellation. And then we'll have... a chat.... sound good?",
+		main = "Taking in the ocean, feeling the sea breeze, letting the sounds of the waves lap against my ears... I feel completely at peace here.|Coming to the beach with my Elders, and of course with the Commander, to spend a day off is so delightful.|Commander, Elder Hermes has been talking about this \"Summer Duel Tournament\" that's about to begin. Why don't we go watch together?",
+		voice_key_2 = -1,
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		feeling4 = "",
+		unlock = "Even though I see the ocean every day, changing into this swimsuit gives me a totally new outlook on it. How about you, Commander? Don't you feel at ease?",
+		battle = "",
+		login = "Commander, what would you say to a stroll on the beach?",
+		vote = "",
+		detail = "The Elders haven't been shy about complimenting my figure, though I can't help but feel a little bit embarrassed..."
+	},
 	[206050] = {
 		touch = "Commander, my aircraft are in ace condition, ready to deploy at any time!",
 		feeling3 = "Every time I set sail, some seagulls will be flying overhead. Legend has it that this signifies a safe journey~ Every time I see these little guys, I always feel at ease.",
@@ -13197,7 +13272,7 @@ pg.ship_skin_words = {
 		hp_warning = "",
 		upgrade = "I won't let such a small improvement get to my head.",
 		voice_key = 30307,
-		feeling5 = "Commander, I've finished the paperwork.",
+		feeling5 = "Commander, I've finished processing those files. It's the end of the day, so why don't we grab dinner together? ... ... How's it taste?",
 		main = "If I get another chance... I'd like to pet Hatsukaze's head again.|I've put on weight?! Commander... there are some things that even you shouldn't say.|Bergall?! Phew... you were talking about someone else.",
 		voice_key_2 = -1,
 		profile = "I am {namecode:63}, of the Sakura Empire's {namecode:63}-class heavy cruisers. I participated in both the glorious victory of the Java Sea and the humiliating defeat at Leyte Gulf. Afterwards, I was struck by a torpedo and pursued by submarines. In the end, I could only watch from the South as my nation surrendered. It is hard to say whether that was fortune or misfortune. Anyways, Commander, you can always talk to me if something is on your mind.",
@@ -17687,7 +17762,32 @@ pg.ship_skin_words = {
 		login = "I look forward to working with you.",
 		vote = "",
 		detail = "Is there something on my face?",
-		couple_encourage = {}
+		couple_encourage = {
+			{
+				{
+					40502
+				},
+				1,
+				"Tirpitz... forgive me...",
+				0
+			},
+			{
+				{
+					40303
+				},
+				1,
+				"Eugen, don't go overboard with your games.",
+				0
+			},
+			{
+				{
+					4
+				},
+				5,
+				"No one can stop the march of the Iron Blood.",
+				3
+			}
+		}
 	},
 	[405011] = {
 		touch = "A dance...? Oh, no, I wouldn't turn one down, I just haven't been asked until now...",
@@ -19860,6 +19960,268 @@ pg.ship_skin_words = {
 		detail = "",
 		couple_encourage = {}
 	},
+	[900184] = {
+		touch = "What is it? Sortie time?",
+		feeling3 = "All the lights in the sky are stars, just as all the lights on the seas are enemies... Commander, will there be a day where there's no more fighting?",
+		ID = 900184,
+		expedition = "I've been on the battlefield for a long time, so I know about the importance of logistics. Commander, let's greet the girls who work hard behind the scenes.",
+		win_mvp = "Commander, tell me. How many more do I have to sink?",
+		home = "It's one battle after another, huh...",
+		mission = "Commander, your missions are not yet completed.  Hurry up and set off!",
+		touch2 = "What the...?!",
+		feeling1 = "...Commander, you don't seem to have enough courage",
+		skill = "It's over!",
+		drop_descrip = "Yorktown-class aircraft carrier ー Enterprise, Hull Number CV-6!",
+		mail = "Commander, it's a new mail.",
+		lose = "I've lost after giving my all. I'm not regretting this...",
+		propose = "I carry with me the hopes and wills of the countless battlefields and goodbyes that I have experienced. Commander, are you prepared to shoulder them all? …I see. Then let us walk together until the end of our lives.",
+		hp_warning = "Interesting...!",
+		upgrade = "I will show you... what lies at the end of power",
+		voice_key = 10706,
+		feeling5 = "What do you want to do after the war? --Me? I'll probably stick with you. I feel the safest out of battle when I'm with you. Will you... take me along with you?",
+		main = "Is it you, Commander? ...Recently, I'm thinking about whether or not I can engage in anti-submarine actions...|Luck is also a part of strength? Then if possible, I'd like to impart some of it to my older sister.|So long as we live, there are things that will never go our way. When we die, it must happen in a way that carries no regrets.",
+		voice_key_2 = -1,
+		profile = "I am the Yorktown class aircraft carrier, Enterprise. \"Grey Ghost\" is one of the many nicknames I have. My smoke-covered and bloodstained battle record is a reminder of my mission. I will continue to be victorious until the war ends.",
+		mission_complete = "Commander, the rewards are here.",
+		headtouch = "",
+		feeling2 = "It is my wish to live honestly and sincerely. That's why I'll speak my mind if I have something to say. You too should do the same without holding back.",
+		feeling4 = "There's no meaning in being peerless. As long as you are here, Commander, I can draw upon all of my strength. Let us end this war.",
+		unlock = "Second ship of the Yorktown class, Enterprise, reporting for duty. I will neither sympathize nor hold back with my enemies, and instead, I go all out. Such is my way.",
+		battle = "Venture forth!",
+		login = "You've come. If it's fighting, I'm ready for it any time.",
+		vote = "",
+		detail = "Want to look at my medal collection?",
+		couple_encourage = {
+			{
+				{
+					30701,
+					30702,
+					30704
+				},
+				1,
+				"Teaming up with old rivals doesn't feel so bad.",
+				0
+			},
+			{
+				{
+					10705,
+					10707
+				},
+				2,
+				"Time to show you the true meaning of invincibility!",
+				0
+			},
+			{
+				{
+					10703
+				},
+				1,
+				"Such a playful old partner!",
+				0
+			},
+			{
+				{
+					1
+				},
+				5,
+				"Brave Eagles, we fight until the end!",
+				3
+			},
+			{
+				{
+					3
+				},
+				5,
+				"Heh, want to square off against me?",
+				3
+			},
+			{
+				{
+					8
+				},
+				3,
+				"We all know each other. Come on, let's go!",
+				4
+			}
+		}
+	},
+	[900185] = {
+		touch = "How strange, Commander, you're also a fan of the \"bro fist?\" I thought we were the only ones who used that greeting.",
+		feeling3 = "I've relentlessly honed my skills in order to defeat all our enemies, but... is that really all there is to life?",
+		ID = 900185,
+		expedition = "Let's load up some extra supplies. In a battle of attrition, we can't let supplies run out before our spirits do.",
+		win_mvp = "Let's seize the day! And the next!",
+		home = "Welcome back! I prepared some refreshments, but... Sorry, this isn't exactly my forte.",
+		mission = "Rain or shine, hell or high water, I'm always ready to sortie!",
+		touch2 = "Commander, what are you trying to feel for?",
+		feeling1 = "Commander, where's your dignity!?",
+		skill = "Your weak point... is here!",
+		drop_descrip = "Cleveland-class light cruiser - Denver (CL-58)",
+		mail = "Commander, check your mail!",
+		lose = "I'm still not... mature enough?",
+		propose = "Commander, your ideals and morals are loftier and purer than anyone else's... From now on, can I have the privilege of being your sword so that I may cut aside everything barring you from your future?",
+		hp_warning = "Scars are the only battle honors I need!",
+		upgrade = "I'll make sure to put this power to good use!",
+		voice_key = 10215,
+		feeling5 = "Commander, you are the one who I admire and look up to the most... so if one day, you ever decide to turn your back on the person you are now, I will make sure... to drag you back!",
+		main = "I want to fight alongside my sisters again, just like at Augusta Bay. |I want to be able to dominate the battlefield with swagger, just like Cleveland. |Even though many of my younger sisters were converted into light aircraft carriers, I'm not jealous of them at all. After all, it's best to be yourself.",
+		voice_key_2 = -1,
+		profile = "I am Denver, fourth ship of the Cleveland-class light cruisers. I fought hard alongside my sisters in the Battle of Empress Augusta Bay. Though I still lack experience, I won't let you down, Commander!",
+		mission_complete = "We were able to complete our mission without a hitch because of everyone's superb teamwork!",
+		headtouch = "",
+		feeling2 = "Before I met you, Commander, I felt like I was always trapped within Cleveland's shadow.",
+		feeling4 = "Even though I don't think I can ever truly grasp the kind of future that you are envisioning, if it is something that you can stand by firmly, it must be very dazzling and beautiful.",
+		unlock = "Hello! I'm Denver, 4th Cleveland-class cruiser and Knight of the sea! Before I officially start working for you, I've got one question: what is the future you want to see?",
+		battle = "All the stars in the sky are our enemies! Everyone, fiiiiire!",
+		login = "Welcome back, Commander! Today's a fine day to sortie!",
+		vote = "",
+		detail = "Commander, what do you do for your own training? Why don't you come join us down here every now and then?",
+		couple_encourage = {
+			{
+				{
+					10209
+				},
+				1,
+				"Cleve, you're always kickin' ass!",
+				0
+			}
+		}
+	},
+	[900186] = {
+		touch = "Gee, thanks! You made my bubble pop!",
+		feeling3 = "Hm? You'd never have guessed that I'd be into ballet? ... What's that supposed to mean?! Laugh one more time and I'll punch you!",
+		ID = 900186,
+		expedition = "The commission team's back! Aren't you gonna go thank them?",
+		win_mvp = "That was nothing special~ I do it all the time~",
+		home = "You're back~! I've been chewing on this gum so long it's lost all its taste.",
+		mission = "I only just started chewing this gum, and we've already got a new mission...?",
+		touch2 = "Commander, is it this star on my shirt you like? Or is it... what's underneath it~?",
+		feeling1 = "*Sigh*... So that's all, huh. I was wrong to get my hopes up.",
+		skill = "Don't blame me if you get hit!",
+		drop_descrip = "Cleveland-class light cruiser – Columbia, hull number CL-56.",
+		mail = "Aren't you gonna check your mail? There might be something nice in there.",
+		lose = "Darn it... Reckless bunch of...",
+		propose = "Yeah... thanks. Even when we're not on the battlefield, we'll always be together... No, wait, cheesy lines like this are totally out of character for me! Anyhow, right now, I feel so happy!",
+		hp_warning = "It won't end like this!",
+		upgrade = "Uh-huh, feelin' pretty good!",
+		voice_key = 10210,
+		feeling5 = "When I can't see you on my days off, I feel kinda lonely... Geez, look at you, making a girl say stuff like this! A-aren't you ashamed of yourself?! Jerk!",
+		main = "What tunes do I listen to? Good question. See if you can guess! ... Rock 'n' roll? Bzzzt, wrong!|Bleh, my sis snatched my sunglasses again...|Once this war is over, maybe I should give Eagle Union football a try...",
+		voice_key_2 = -1,
+		profile = "Hiii! It's me, the girl who scooted through the Pacific and earned 10 battle stars: Columbia! Hey, now, no need to sing my praises, go see Cleveland and sing hers instead! Need anything else? Alright, then I'll get back to patrolling.",
+		mission_complete = "Today's missions were a breeze! Total walk in the park!",
+		headtouch = "",
+		feeling2 = "Commander, it's sunny outside, so why don't we go for a walk? It's unhealthy to stay indoors all the time!",
+		feeling4 = "Why do I wear only one sock? That's a secret! If you're so curious, try taking it off~ Hehehe♪",
+		unlock = "Cleveland-class light cruiser number 2, Columbia! That's me~! Not the Columbia in D.C., the one in South Carolina! Geez, listen to me! Not the Columbia with Bogotá as its capital!",
+		battle = "Dang, guess I've got no choice! I'll show you the might of us Southerners!",
+		login = "Another day of calm weather! Nice!",
+		vote = "",
+		detail = "You wanna get to know me? Sure thing. Inspect me to your heart's content.",
+		couple_encourage = {
+			{
+				{
+					10209
+				},
+				1,
+				"Hey, sis~ You really do need my support, don't you?",
+				0
+			}
+		}
+	},
+	[900187] = {
+		touch = "... Huh? If you've no need of me, don't call for me.",
+		feeling3 = "My big sis is... strong, cool, has a golden smile, and she could probably beat anyone in a fight... I want to be like her one day.",
+		ID = 900187,
+		expedition = "A commission's done. Aren't you gonna welcome the team back?",
+		win_mvp = "This is how victory feels... Not bad.",
+		home = "Well done. You should get some rest.",
+		mission = "Commander, we've got a mission. Time's money... get going already.",
+		touch2 = "G-gotta put up with it... This is obviously a test of the trust I have for my big sis...!",
+		feeling1 = "Guess my big sis can't tell good and bad people apart...",
+		skill = "You're an eyesore. Disappear!",
+		drop_descrip = "Cleveland-class light cruiser – Montpelier, hull number CL-57.",
+		mail = "I left your mail over here.",
+		lose = "Big sis... I'm sorry... I've stained the reputation of the Knights of the Sea...",
+		propose = "Big sis told me to follow my heart. Which is why I'm here: to follow my heart. Are you following yours, Commander?",
+		hp_warning = "Big sis told me... to never give up!",
+		upgrade = "I'm one step closer to my big sis...!",
+		voice_key = 10214,
+		feeling5 = "I don't just blindly listen to everything my big sis says. I listen because she's always right... And I finally get why she chose you. It's because you're outstanding.",
+		main = "How can I be more like Cleveland... \"Smile\"? ... That might not be possible...|I don't get along with anyone but my sisters. As for you, Commander... I'll try.|Commander, I'm curious: when my sister's doing secretary work, what's she like?",
+		voice_key_2 = -1,
+		profile = "Listen, the Cleveland-class were the most powerful cruisers the Eagle Union had in the war. You should show more respect for my big sis. ... Me? I was in the battles of Midway, Augusta Bay, and a few others. I guess I did okay.",
+		mission_complete = "Rewards, eh... Guess this is part of my job. I'll go get them.",
+		headtouch = "",
+		feeling2 = "I don't get why my big sis chose you. But I trust her intuition.",
+		feeling4 = "I used to think commanding was just about giving orders from a comfy room while sounding like a bigshot... But after seeing it for myself, now I understand. You have a tough job, Commander.",
+		unlock = "You're a commander? You don't... look reliable. But my big sis works for you... I've no choice, then. Montpelier, reporting for duty. I don't really care whether you give me orders or not.",
+		battle = "Knights of the Sea, onwards!",
+		login = "So, you're back. I'll take my leave, then. It's too crowded in here for me.",
+		vote = "",
+		detail = "Big sis! ... Oh, it's you. Need something?",
+		couple_encourage = {
+			{
+				{
+					10209
+				},
+				1,
+				"... I won't embarrass you, big sis!",
+				0
+			}
+		}
+	},
+	[900188] = {
+		touch = "Wanna exercise for a bit?",
+		feeling3 = "Mm... I'm not trying to make myself look stronger than I am or anything, but honestly, I think there aren't many people like you who I can speak to like an equal...",
+		ID = 900188,
+		expedition = "Hehe, it's about time we reap the rewards of that commission, Commander!",
+		win_mvp = "Hehe, now this is what I'd call the fruits of my hard labor!",
+		home = "Ah, Commander, let me give you a massage... Just bear with me!",
+		mission = "We've got a new mission! Let's finish it in one go!",
+		touch2 = "You can't do this sorta stuff in public, Commander...",
+		feeling1 = "Sorry, my sisters are waiting for me. I don't have time to deal with you.",
+		skill = "Onward!",
+		drop_descrip = "Cleveland-class Light Cruiser – Cleveland, Hull Number CL-55!",
+		mail = "Some new mail just arrived. You sure are popular, Commander!",
+		lose = "Ahaha... this isn't so good...",
+		propose = "Heh, I had a feeling this would happen! From now on, you can tell me anything. I'll take excellent care of you!",
+		hp_warning = "",
+		upgrade = "Hehe, that feels good!",
+		voice_key = 10209,
+		feeling5 = "I feel like I've told you everything about myself... Time sure flies, doesn't it... I doubt someone who understands me the way you do will ever show up again. That's why I've...",
+		main = "Never regret the choices you make!|Why do you call me \"Clevebro\"?! I'm a girl, just like the others!|You know, I like trees. Let's grow a bonsai, Commander!",
+		voice_key_2 = -1,
+		profile = "I'm the big sister of the Cleveland-class... but I guess that's obvious from my name alone. I fought through the Battle of Renelle Island, the Battle of Empress Augusta Bay, plus many others, and I earned around 13 battle stars, so I'm pretty strong!",
+		mission_complete = "Nice! We got some mission rewards!",
+		headtouch = "",
+		feeling2 = "What is, Commander? Something troubling you? I've got lots of little sisters, so I'm used to giving them my shoulder to lean on. So if anything's got you down, just tell me.",
+		feeling4 = "Before I realized it, I'm the one who's leaning on your shoulder instead... but hey, that's fine. We can always just rely on each other.",
+		unlock = "Pleasure meeting you, Commander! I'm Cleveland, a knight of the sea! Come on, time is money! We can't afford to take a break!",
+		battle = "I'm in a hurry... just come at me all at once, alright?",
+		login = "Hey, Commander! You seem to be in a good mood today!",
+		vote = "",
+		detail = "I'm confident in myself!",
+		couple_encourage = {
+			{
+				{
+					10109,
+					40101
+				},
+				1,
+				"Come on, fellow big sisters. Let's work hard together!",
+				0
+			},
+			{
+				{
+					8
+				},
+				3,
+				"\"Hao\" do you do, folks?",
+				4
+			}
+		}
+	},
 	[10100010] = {
 		touch = "Ahahah! That tickles! Stop it, will you!",
 		feeling3 = "I've got an idea! Commander, you should visit Planeptune sometime! I'm sure everyone would love to meet you!",
@@ -21176,6 +21538,8 @@ pg.ship_skin_words = {
 		206031,
 		206032,
 		206033,
+		206040,
+		206041,
 		206050,
 		206051,
 		207020,
@@ -21465,6 +21829,11 @@ pg.ship_skin_words = {
 		900181,
 		900182,
 		900183,
+		900184,
+		900185,
+		900186,
+		900187,
+		900188,
 		10100010,
 		10100020,
 		10100030,

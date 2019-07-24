@@ -563,6 +563,30 @@ pg.shop_template = {
 			}
 		}
 	},
+	[24] = {
+		group_type = 0,
+		resource_num = 450,
+		desc = "Spend 450 Gems to buy 15000 Coins",
+		type = 1,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 0,
+		time = "always",
+		group = 0,
+		num = 15000,
+		discount = 0,
+		resource_type = 14,
+		id = 24,
+		genre = "",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			1
+		}
+	},
 	[21001] = {
 		group_type = 0,
 		resource_num = 1500,
@@ -2624,7 +2648,7 @@ pg.shop_template = {
 		discount_time = {},
 		limit_args = {},
 		effect_args = {
-			30306
+			30302
 		}
 	},
 	[33011] = {
@@ -9817,6 +9841,55 @@ pg.shop_template = {
 			207021
 		}
 	},
+	[70093] = {
+		group_type = 0,
+		resource_num = 1180,
+		desc = "购买皮肤:半人马泳装",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 9831,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 10,
+		resource_type = 14,
+		id = 70093,
+		genre = "skin_shop",
+		discount_time = {
+			{
+				{
+					2019,
+					7,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		effect_args = {
+			206041
+		}
+	},
 	[70095] = {
 		group_type = 0,
 		resource_num = 780,
@@ -13930,6 +14003,7 @@ pg.shop_template = {
 		19,
 		20,
 		21,
+		24,
 		21001,
 		21002,
 		21003,
@@ -14180,6 +14254,7 @@ pg.shop_template = {
 		70087,
 		70088,
 		70089,
+		70093,
 		70095,
 		70109,
 		70110,

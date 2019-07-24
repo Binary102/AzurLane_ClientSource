@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"盛夏的半人马座\n\n<size=45>三　皇家方舟的夏日</size>",
+					"Midsummer Sagittarius\n\n<size=45>Chapter 3 - The Coast Watcher's Vacation</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "看来半人马你还不理解这一点呢，你这么漂亮没有穿泳装来太可惜了。",
+			say = "Too bad I couldn't teach this to you earlier, Centaur. You're really pretty, so it's a darn shame that you aren't also wearing a swimsuit...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			say = "嗯，毕竟我也才刚加入舰队，这方面的准备也还没有——",
+			say = "Indeed... Sincerest apologies, but because I just arrived here, I didn't have time to prepare a swimsuit...",
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
@@ -78,7 +78,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系，我们去那边坐下，我先来好好传授你一下，什么是名为夏天的战争！",
+			say = "Don't sweat it! For now, why don't we sit down over there? I'll teach you just how important these summer battles are!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "欸，不是向导吗？",
+			say = "Um... weren't you going to show me around...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			actor = 101251,
 			nameColor = "#a9f548",
-			say = "萨拉托加，站住啦！！！把我的饮料还给我！！",
+			say = "Saratogaaaaaaaaaa!!! Stop running and give my soda back!!",
 			flashout = {
 				dur = 0.7,
 				black = true,
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			actor = 107031,
 			nameColor = "#a9f548",
-			say = "嘻嘻嘻，你叫我站住我就会站住吗~~~",
+			say = "Ahahaha! You'll have to catch me if you want me to stop!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊…旁边就是白鹰的场地了呢，虽然白鹰的大家感觉对海边没什么兴趣……",
+			say = "This is where the Eagle Union sets up camp. Looks like they're not as interested in playing in the water...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈…不过有萨拉在，就一下子热闹了许多呢。",
+			say = "But there's one thing you can always bet on - if Saratoga's around, things are going to be real lively!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_106",
-			say = "不愧是萨拉托加前辈呢！",
+			say = "Impressive... Elder Saratoga's reputation precedes her...",
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
@@ -250,7 +250,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然称呼她一句萨拉老师都不为过，不过这么看来，就单纯只是个调皮捣蛋的孩子王呢…",
+			say = "Well, even I call her \"teacher\" sometimes, but she looks no different from a little kid like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			say = "嗯？那是……",
+			say = "Huh? Who's that over there...?",
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "啊，是皇家方舟前辈，好英气的泳装呢。",
+			say = "I believe that is Elder Ark Royal. What an elegant swimsuit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过她坐在那里干什么呢？",
+			say = "But what is she doing sitting over there...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			actor = 207021,
 			nameColor = "#a9f548",
-			say = "努噢噢噢噢！驱逐妹妹们在沙滩上的安全，就由本人皇家方舟来守护！！",
+			say = "Muahahaha! It is I, Ark Royal, who shall ensure that all the destroyers can frolic safely!",
 			effects = {
 				{
 					active = true,
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "喏，如你所见…虽然台词和动作都挺帅气的啦——",
+			say = "Well, as you can see... she only looks cool until she opens her mouth...",
 			effects = {
 				{
 					active = false,
@@ -358,7 +358,7 @@ return {
 			}
 		},
 		{
-			say = "哦哦！皇家方舟前辈好帅！",
+			say = "Th-this dedication... Elder Ark Royal is so cool...!",
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
@@ -393,7 +393,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈…要是没有时不时露出快融化了一样的表情就更好了呢",
+			say = "Ahaha... I suppose so, if you ignore the creepy laughs that sometimes leak out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,23 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "实大家都知道皇家方舟其实人很好的，某种意义上算是最关心驱逐姐妹们的人了呢。就是有时候太过“热情”，会让一些姐妹有点惊吓而已",
+			say = "In the end, everyone knows that she's a good person who cares the most about protecting our destroyers.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 201212,
+			side = 0,
+			bgName = "star_level_bg_106",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Unfortunately she often ends up scaring them away when she gets a bit too \"passionate.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +441,7 @@ return {
 			dir = 1,
 			actor = 207021,
 			nameColor = "#a9f548",
-			say = "沙滩！蓝天！碧海！还有嬉戏的驱逐妹妹们！夏天真是太棒了！",
+			say = "Nothing says summer like the sun, the beach, and destroyers! Summer is the best!",
 			effects = {
 				{
 					active = true,
@@ -447,7 +463,7 @@ return {
 			bgName = "star_level_bg_106",
 			actor = 206040,
 			dir = 1,
-			say = "皇家方舟前辈，你好！",
+			say = "Elder Ark Royal! Good day!",
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -474,7 +490,7 @@ return {
 			dir = 1,
 			actor = 207021,
 			nameColor = "#a9f548",
-			say = "嗯？咳、咳咳，是半人马吗，哦，和标枪？真是稀罕的组合啊？",
+			say = "*cough* Ahem! Centaur?! Javelin as well? I don't usually see the two of you together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +516,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我在给半人马做向导呢~",
+			say = "I'm currently showing Centaur around!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +532,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦…标枪今天的泳装也很棒哦！nice！",
+			say = "Ohh... Javelin, your swimsuit is... so very nice!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +548,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，谢谢",
+			say = "Ehehe, thank you~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +564,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？半人马怎么没有穿泳装过来呢，难得的夏天",
+			say = "How about you, Centaur? Not going to wear a swimsuit, even though you're at the beach?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +581,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "嗯…我才刚加入舰队，还没有来得及做这方面的准备——",
+			say = "Um, I just arrived recently, so I didn't have time to get one...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +607,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是吗，你这么漂亮，不穿泳装真是可惜了",
+			say = "I see... It would be a shame to not show off your beauty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +623,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是嘛，我刚才还在说呢~",
+			say = "Right? That's what I said too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +639,7 @@ return {
 			dir = 1,
 			actor = 207021,
 			nameColor = "#a9f548",
-			say = "哈啊！顾着聊天差点忘了正事，我还要欣赏、不对是守护沙滩上的驱逐妹妹们呢！",
+			say = "*gasp*! I'm getting carried away. I'd love to chat more, but I can't afford to take my eyes off the destroyers! Sorry!",
 			flashout = {
 				dur = 0.7,
 				black = true,
@@ -661,21 +677,15 @@ return {
 			}
 		},
 		{
-			say = "啊哈哈，那我们就先不打扰了",
+			say = "All righty, we'll be heading off then!",
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 201212,
 			dir = 1,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
-			},
-			effects = {
-				{
-					active = false,
-					name = "speed"
-				}
 			},
 			typewriter = {
 				speed = 0.05,
@@ -703,7 +713,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "皇家方舟前辈，要加油哦！",
+			say = "Keep up the good work, Elder Ark Royal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,7 +729,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "半人马，真是好孩子呢……",
+			say = "Centaur, you sure are innocent...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

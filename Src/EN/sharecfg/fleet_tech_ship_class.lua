@@ -745,6 +745,17 @@ pg.fleet_tech_ship_class = {
 			20605
 		}
 	},
+	[20604] = {
+		shiptype = 6,
+		name = "Centaur-Class",
+		t_level = 7,
+		id = 20604,
+		t_level_1 = 65,
+		nation = 2,
+		ships = {
+			20604
+		}
+	},
 	[20701] = {
 		shiptype = 7,
 		name = "Illustrious-Class",
@@ -1666,6 +1677,7 @@ pg.fleet_tech_ship_class = {
 		20601,
 		20602,
 		20603,
+		20604,
 		20701,
 		20702,
 		20703,

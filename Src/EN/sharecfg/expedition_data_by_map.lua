@@ -3143,6 +3143,26 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1250022] = {
+		map = 1250022,
+		name = "Approaching Storm ",
+		bgm = "level02",
+		type = 10,
+		on_activity = 30171,
+		title = "SP",
+		drop_by_map_display = "",
+		enter_story = "FENGBAOQIANXI0",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "",
+		bg = "Map_1230005",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {}
+	},
 	all = {
 		1,
 		2,
@@ -3217,7 +3237,8 @@ pg.expedition_data_by_map = {
 		1230011,
 		1230012,
 		1230020,
-		1230021
+		1230021,
+		1250022
 	}
 }
 

@@ -161,6 +161,10 @@ function OnApplicationExit()
 		return
 	end
 
+	if pg.goldExchangeMgr then
+		pg.goldExchangeMgr:willExit()
+	end
+
 	slot11:onBackPressed()
 end
 
@@ -274,6 +278,7 @@ function AiriCheckPretest()
 	return false
 end
 
+pg.goldExchangeMgr = nil
 slot2 = os.clock()
 
 seriesAsync({

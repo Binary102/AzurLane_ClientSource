@@ -5357,6 +5357,33 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[356] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 356,
+		type = 6,
+		index_id = 155,
+		group_type = 20604,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Special Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
 	[144] = {
 		nationality = 2,
 		hide = 0,
@@ -9733,6 +9760,7 @@ pg.ship_data_group = {
 		140,
 		142,
 		376,
+		356,
 		144,
 		145,
 		146,

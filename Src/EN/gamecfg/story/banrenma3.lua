@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"半人马与港区的“前辈”们\n\n<size=45>三　何为尊敬</size>",
+					"Centaur and the Port \"Elders\"\n\n<size=45>Chapter 3 - The Meaning of Respect</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "港区·指挥室",
+			say = "Port - Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "半人马对舰队中所有人都称呼前辈的事，逐渐成为了话题。",
+			say = "The business of Centaur calling everyone \"Elder\" had become the talk of the fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			bgm = "story-2",
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "嗯…？为什么对所有人都用“前辈”称呼吗？…指挥官，你知道我是战后出生的对吧。",
+			say = "Hmmm...? Why is it I call everyone \"Elder?\" ... Commander, you know I was born after the War, don't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			bgmDelay = 2,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "当时，因为战争结束的关系，我们这一级面临着被取消的风险。",
+			say = "Since the fighting was already over, there was a chance our entire class of ships would be cancelled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,67 +94,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "后来几经坎坷，我们才终于得以降生。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			actor = 206040,
-			nameColor = "#a9f548",
-			say = "不过因为战争已经结束，我们即使降生了，也没有体验过前辈们那种波澜壮阔的生活。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 206040,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "如果说不向往，那我一定是在否定自己的价值。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "半人马淡淡地诉说着。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			actor = 206040,
-			nameColor = "#a9f548",
-			say = "不过，不只是这样的。",
+			say = "But in the end, for whatever reason, we came to be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +111,50 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "指挥官，我的生涯是在和平之中度过的，我没有体会过战争的伤痛。",
+			say = "However, with the War behind us, we never had a chance at the glorious, tumultuous lives of our Elders.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 206040,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I would be lying if I said I didn't yearn for that excitement.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "Centaur spoke dispassionately.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 206040,
+			nameColor = "#a9f548",
+			say = "And yet, it's more than that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +171,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "但我在了解前辈们事迹的同时，也明白了战争是什么样的东西。",
+			say = "Commander, I lived my life in a world of peace. I have never known the horrors of war.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +188,24 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "那绝不是未曾体验过其残酷的我，能够轻率地挂在嘴边的东西。",
+			say = "But the more I learn of the deeds of my storied Elders, the more I have come to understand what war is.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 206040,
+			nameColor = "#a9f548",
+			say = "It is not something that I, who has never experienced that hell, can invoke so cavalierly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，我才更加憧憬和尊敬那些参与过那场战争，并且将其终结的前辈们",
+			say = "That is why I so deeply respect and admire those Elders who fought in the War, and even more so those who did not survive it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "说实在的，光是“前辈”两个字，完全无法表达我对各位的敬意呢。",
+			say = "In fact, the word \"Elder\" cannot adequately express the level of esteem to which I hold them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "半人马看来也是自己深思熟虑过的。",
+			say = "Centaur appeared lost in her thoughts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，确实，要是我的坚持给各位添麻烦了那就本末倒置了。",
+			say = "But if I'm causing trouble then perhaps I've miscalculated...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "我会和大家商量的，如果有前辈觉得困扰，那我就克服一下，从行动上体现我对大家的尊敬好了~",
+			say = "I'll talk it over with everyone. If some Elders are bothered by it, I'll do what I can to show my respect through my actions rather than words.~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "看起来，半人马在这方面完全不需要人去操心呢。",
+			say = "I realized I had no reason to worry about Centaur, at least with this \"Elder\" business.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

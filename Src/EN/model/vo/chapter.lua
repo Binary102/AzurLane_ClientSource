@@ -256,7 +256,7 @@ function slot0.update(slot0, slot1)
 	_.each(slot2, function (slot0)
 		slot0(slot0)
 	end)
-	_.each(slot0:getConfig("grids"), function (slot0)
+	_.each(slot5, function (slot0)
 		if slot0.cells[ChapterCell.Line2Name(slot0[1], slot0[2])] then
 			slot2.walkable = slot0[3]
 		elseif not slot0[3] then
@@ -268,6 +268,16 @@ function slot0.update(slot0, slot1)
 				item_type = ChapterConst.AttachNone
 			}).walkable = false
 		end
+	end)
+
+	slot0.indexMax = Vector2(-ChapterConst.MaxRow, -ChapterConst.MaxColumn)
+	slot0.indexMin = Vector2(ChapterConst.MaxRow, ChapterConst.MaxColumn)
+
+	_.each(slot0:getConfig("grids"), function (slot0)
+		slot0.indexMin.x = math.min(slot0.indexMin.x, slot0[1])
+		slot0.indexMin.y = math.min(slot0.indexMin.y, slot0[2])
+		slot0.indexMax.x = math.max(slot0.indexMax.x, slot0[1])
+		slot0.indexMax.y = math.max(slot0.indexMax.y, slot0[2])
 	end)
 	_.each(slot1.cell_flag_list or {}, function (slot0)
 		if slot0.cells[ChapterCell.Line2Name(slot0.pos.row, slot0.pos.column)] then
@@ -286,26 +296,17 @@ function slot0.update(slot0, slot1)
 	end
 
 	slot0.pathFinder = PathFinding.New({}, ChapterConst.MaxRow, ChapterConst.MaxColumn)
-	slot8 = nil
-
-	if slot0:getConfig("npc_data") and slot7[1] then
-		slot8 = NpcShip.New({
-			id = slot7[1],
-			configId = slot7[1],
-			level = slot7[2]
-		})
-	end
-
+	slot7 = slot0:getNpcShipByType()
 	slot0.fleets = {}
 
-	for slot12, slot13 in ipairs(slot1.group_list) do
-		slot14 = ChapterFleet.New()
+	for slot11, slot12 in ipairs(slot1.group_list) do
+		slot13 = ChapterFleet.New()
 
-		slot14:setup(slot0)
-		slot14:updateNpcShip(slot8)
-		slot14:update(slot13)
+		slot13:setup(slot0)
+		slot13:updateNpcShipList(slot7)
+		slot13:update(slot12)
 
-		slot0.fleets[slot12] = slot14
+		slot0.fleets[slot11] = slot13
 	end
 
 	slot0.fleets = _.sort(slot0.fleets, function (slot0, slot1)
@@ -313,8 +314,8 @@ function slot0.update(slot0, slot1)
 	end)
 
 	if slot1.escort_list then
-		for slot12, slot13 in ipairs(slot1.escort_list) do
-			slot0.fleets[#slot0.fleets + 1] = ChapterTransportFleet.New(slot13)
+		for slot11, slot12 in ipairs(slot1.escort_list) do
+			slot0.fleets[#slot0.fleets + 1] = ChapterTransportFleet.New(slot12)
 		end
 	end
 
@@ -323,9 +324,9 @@ function slot0.update(slot0, slot1)
 	slot0.champions = {}
 
 	if slot1.ai_list then
-		for slot12, slot13 in ipairs(slot1.ai_list) do
-			if slot13.item_flag == 0 then
-				table.insert(slot0.champions, ChapterChampion.New(slot13))
+		for slot11, slot12 in ipairs(slot1.ai_list) do
+			if slot12.item_flag == 0 then
+				table.insert(slot0.champions, ChapterChampion.New(slot12))
 			end
 		end
 	end
@@ -335,15 +336,15 @@ function slot0.update(slot0, slot1)
 	slot0.modelCount = slot1.model_act_count
 	slot0.operationBuffList = {}
 
-	for slot12, slot13 in ipairs(slot1.operation_buff) do
-		slot0.operationBuffList[#slot0.operationBuffList + 1] = slot13
+	for slot11, slot12 in ipairs(slot1.operation_buff) do
+		slot0.operationBuffList[#slot0.operationBuffList + 1] = slot12
 	end
 
 	slot0.airDominanceStatus = nil
 	slot0.extraFlagList = {}
 
-	for slot12, slot13 in ipairs(slot1.extra_flag_list) do
-		table.insert(slot0.extraFlagList, slot13)
+	for slot11, slot12 in ipairs(slot1.extra_flag_list) do
+		table.insert(slot0.extraFlagList, slot12)
 	end
 end
 
@@ -388,6 +389,10 @@ end
 
 function slot0.getRoundNum(slot0)
 	return math.floor(slot0.roundIndex / 2)
+end
+
+function slot0.IncreaseRound(slot0)
+	slot0.roundIndex = slot0.roundIndex + 1
 end
 
 function slot0.existMoveLimit(slot0)
@@ -1203,8 +1208,8 @@ function slot0.getPoisonArea(slot0, slot1)
 	for slot9, slot10 in pairs(slot0.cells) do
 		if slot10:checkHadFlag(ChapterConst.FlagPoison) then
 			slot2[slot9] = {
-				x = math.floor(slot4 * slot10.column),
-				y = math.floor(slot5 * slot10.row),
+				x = math.floor(slot4 * (slot10.column - slot0.indexMin.y)),
+				y = math.floor(slot5 * (slot10.row - slot0.indexMin.x)),
 				w = slot4,
 				h = slot5
 			}
@@ -2278,6 +2283,40 @@ function slot0.getCoastalGunArea(slot0)
 	end
 
 	return slot1
+end
+
+function slot0.getNpcShipByType(slot0, slot1)
+	slot2 = {}
+	slot3 = getProxy(TaskProxy)
+
+	function slot4(slot0)
+		if slot0 == 0 then
+			return true
+		end
+
+		return slot0:getTaskVO(slot0) and not slot1:isFinish()
+	end
+
+	for slot8, slot9 in ipairs(slot0:getConfig("npc_data")) do
+		slot10 = pg.npc_squad_template[slot9]
+
+		if not slot1 or (slot1 == slot10.type and slot4(slot10.task_id)) then
+			for slot14, slot15 in ipairs({
+				"vanguard_list",
+				"main_list"
+			}) do
+				for slot19, slot20 in ipairs(slot10[slot15]) do
+					table.insert(slot2, NpcShip.New({
+						id = slot20[1],
+						configId = slot20[1],
+						level = slot20[2]
+					}))
+				end
+			end
+		end
+	end
+
+	return slot2
 end
 
 function slot0.getTodayDefeatCount(slot0)

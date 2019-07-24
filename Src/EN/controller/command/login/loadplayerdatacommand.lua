@@ -35,6 +35,7 @@ class("LoadPlayerDataCommand", pm.SimpleCommand).execute = function (slot0, slot
 	slot0.facade:registerProxy(AttireProxy.New())
 	slot0.facade:registerProxy(ShipSkinProxy.New())
 	slot0.facade:registerProxy(SecondaryPWDProxy.New({}))
+	slot0.facade:registerProxy(SkirmishProxy.New())
 	slot0.facade:registerProxy(PrayProxy.New())
 	slot0.facade:registerProxy(EmojiProxy.New())
 	pg.ConnectionMgr.GetInstance():setPacketIdx(1)

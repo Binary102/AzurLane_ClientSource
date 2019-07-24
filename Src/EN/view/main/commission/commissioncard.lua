@@ -21,6 +21,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.leisureCounter = slot0._tf:Find("frame/counter/leisure/Text"):GetComponent(typeof(Text))
 	slot0.itemsPanel = CommossionItemsPanel.New(slot0._tf:Find("list"), slot0)
 	slot0.lockTF = slot0._tf:Find("lock")
+	slot0.commingTF = slot0._tf:Find("comming")
 
 	if slot0.lockTF then
 		setActive(slot0.lockTF, false)
@@ -129,6 +130,18 @@ end
 
 function slot0.updateForTechnology(slot0)
 	slot1 = nil
+
+	if IS_OPEN_TEC_SYSTEM == false then
+		setActive(slot0._tf:Find("frame"), false)
+		setActive(slot0.lockTF, false)
+		setActive(slot0.commingTF, true)
+
+		return
+	else
+		setActive(slot0._tf:Find("frame"), true)
+		setActive(slot0.lockTF, false)
+		setActive(slot0.commingTF, false)
+	end
 
 	setActive(slot0.lockTF, not (getProxy(PlayerProxy):getData().level >= 30))
 	setGray(slot0.toggle, not (getProxy(PlayerProxy).getData().level >= 30), true)

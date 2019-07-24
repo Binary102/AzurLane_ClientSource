@@ -41,6 +41,7 @@ slot0.GET_REMASTER_TICKETS_DONE = "LevelMediator2:GET_REMASTER_TICKETS_DONE"
 slot0.ON_FLEET_SHIPINFO = "LevelMediator2:ON_FLEET_SHIPINFO"
 slot0.ON_COMMANDER_OP = "LevelMediator2:ON_COMMANDER_OP"
 slot0.CLICK_CHALLENGE_BTN = "LevelMediator2:CLICK_CHALLENGE_BTN"
+slot0.ON_SUBMIT_TASK = "LevelMediator2:ON_SUBMIT_TASK"
 
 function slot0.register(slot0)
 	slot1 = getProxy(PlayerProxy)
@@ -497,6 +498,9 @@ function slot0.register(slot0)
 	slot0:bind(slot0.ON_CLICK_RECEIVE_REMASTER_TICKETS_BTN, function (slot0)
 		slot0:sendNotification(GAME.GET_REMASTER_TICKETS)
 	end)
+	slot0:bind(slot0.ON_SUBMIT_TASK, function (slot0, slot1)
+		slot0:sendNotification(GAME.SUBMIT_TASK, slot1)
+	end)
 
 	slot0.player = slot1:getData()
 
@@ -558,6 +562,14 @@ function slot0.register(slot0)
 		slot0.viewComponent:switchToChapter(slot16, function ()
 			slot0:OnSwitchChapterDone()
 		end)
+	elseif slot0.contextData.map:isSkirmish() then
+		slot0.viewComponent:ShowCurtains(true)
+		slot0.viewComponent:doPlayAnim("TV01", function (slot0)
+			go(slot0):SetActive(false)
+			slot0.viewComponent:ShowCurtains(false)
+		end, function (slot0)
+			setParent(slot0, slot0.viewComponent._tf)
+		end)
 	end
 end
 
@@ -591,6 +603,7 @@ function slot0.listNotificationInterests(slot0)
 		CommanderProxy.PREFAB_FLEET_UPDATE,
 		GAME.COOMMANDER_EQUIP_TO_FLEET_DONE,
 		GAME.COMMANDER_ELIT_FORMATION_OP_DONE,
+		GAME.SUBMIT_TASK_DONE,
 		GAME.GET_REMASTER_TICKETS_DONE
 	}
 end
@@ -627,25 +640,25 @@ function slot0.handleNotification(slot0, slot1)
 		if slot2 == GAME.CHAPTER_OP_DONE or slot2 == GAME.SHAM_OP_DONE or slot2 == GAME.GUILD_OP_DONE then
 			slot4 = nil
 			slot4 = coroutine.create(function ()
-				slot1 = slot1.contextData.chapterVO
+				slot2 = slot1.contextData.chapterVO
 
-				if slot0.type == ChapterConst.OpRetreat and slot1:existOni() and slot1:checkOniState() then
-					slot1.viewComponent:displaySpResult(slot2, slot2)
+				if slot0.type == ChapterConst.OpRetreat and slot2:existOni() and slot2:checkOniState() then
+					slot1.viewComponent:displaySpResult(slot3, slot2)
 					coroutine.yield()
 				end
 
-				if slot0 == ChapterConst.OpRetreat and slot1:isPlayingWithBombEnemy() then
-					slot1.viewComponent:displayBombResult(slot1.viewComponent.displayBombResult)
+				if slot0 == ChapterConst.OpRetreat and slot2:isPlayingWithBombEnemy() then
+					slot1.viewComponent:displayBombResult(slot2)
 					coroutine.yield()
 				end
 
-				if slot0.items and #slot2 > 0 then
+				if slot0.items and #slot3 > 0 then
 					if slot0 == ChapterConst.OpRetreat and slot1.contextData.map:isEscort() then
 						slot1.viewComponent:emit(BaseUI.ON_AWARD, {
-							items = slot2
+							items = slot3
 						}, AwardInfoLayer.TITLE.ESCORT, slot2)
 					else
-						slot1.viewComponent:emit(BaseUI.ON_ACHIEVE, slot2, function ()
+						slot1.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3, function ()
 							if _.any(_.any, function (slot0)
 								return slot0.type == DROP_TYPE_STRATEGY
 							end) then
@@ -659,12 +672,12 @@ function slot0.handleNotification(slot0, slot1)
 					coroutine.yield()
 				end
 
-				slot3 = slot1.contextData.chapterVO
+				slot4 = slot1.contextData.chapterVO
 
 				if slot0 == ChapterConst.OpRetreat and slot0.exittype and slot0.exittype == ChapterConst.ExitFromMap then
 					slot1.contextData.chapterVO = nil
 
-					slot1.viewComponent:updateChapterTF(slot3.id)
+					slot1.viewComponent:updateChapterTF(slot4.id)
 
 					return
 				end
@@ -672,24 +685,24 @@ function slot0.handleNotification(slot0, slot1)
 				if slot0 == ChapterConst.OpSkipBattle then
 					slot1.viewComponent.levelStageView:tryAutoTrigger()
 				elseif slot0 == ChapterConst.OpRetreat then
-					if slot3:getDataType() == ChapterConst.TypeGuild then
+					if slot4:getDataType() == ChapterConst.TypeGuild then
 						slot1.viewComponent:emit(BaseUI.ON_BACK)
 
 						return
 					end
 
 					if getProxy(ContextProxy):getContextByMediator(LevelMediator2) then
-						slot5 = {}
+						slot6 = {}
 
-						if slot4:getContextByMediator(ChapterPreCombatMediator) then
-							table.insert(slot5, slot6)
+						if slot5:getContextByMediator(ChapterPreCombatMediator) then
+							table.insert(slot6, slot7)
 						end
 
-						if slot4:getContextByMediator(RivalInfoMediator) then
-							table.insert(slot5, slot7)
+						if slot5:getContextByMediator(RivalInfoMediator) then
+							table.insert(slot6, slot8)
 						end
 
-						_.each(slot5, function (slot0)
+						_.each(slot6, function (slot0)
 							slot0:sendNotification(GAME.REMOVE_LAYERS, {
 								context = slot0
 							})
@@ -700,7 +713,7 @@ function slot0.handleNotification(slot0, slot1)
 						return
 					end
 
-					if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN) and not slot6.autoActionForbidden and not slot6.achieved and slot6.data1 == 7 and slot3.id == 204 and slot3:isClear() then
+					if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN) and not slot7.autoActionForbidden and not slot7.achieved and slot7.data1 == 7 and slot4.id == 204 and slot4:isClear() then
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
 							modal = true,
 							hideNo = true,
@@ -716,9 +729,13 @@ function slot0.handleNotification(slot0, slot1)
 						return
 					end
 
+					if slot1 then
+						slot1:OnExitChapter(slot4)
+					end
+
 					slot1.viewComponent:switchToMap()
 
-					if slot3 == GAME.SHAM_OP_DONE and not slot4:getContextByMediator(ShamPreCombatMediator) then
+					if slot3 == GAME.SHAM_OP_DONE and not slot5:getContextByMediator(ShamPreCombatMediator) then
 						slot1.viewComponent:emit(slot4.ON_OPEN_SHAM_PRE_COMABT)
 					end
 
@@ -753,24 +770,21 @@ function slot0.handleNotification(slot0, slot1)
 				elseif slot0 == ChapterConst.OpAmbush then
 					slot1.viewComponent.levelStageView:tryAutoTrigger()
 				elseif slot0 == ChapterConst.OpBox then
-					if pg.box_data_template[slot3:getChapterCell(slot3.fleet.line.row, slot3.fleet.line.column).attachmentId].type == ChapterConst.BoxAirStrike then
+					if pg.box_data_template[slot4:getChapterCell(slot4.fleet.line.row, slot4.fleet.line.column).attachmentId].type == ChapterConst.BoxAirStrike then
 						slot1.viewComponent:doPlayAirStrike(ChapterConst.SubjectChampion, false, slot2)
 						coroutine.yield()
 
 						if slot0.aiActs and #slot0.aiActs > 0 then
-							slot1.viewComponent:doPlayCommander(slot8, slot2)
+							slot1.viewComponent:doPlayCommander(slot9, slot2)
 							coroutine.yield()
-							slot1.viewComponent:easeAvoid(slot1.viewComponent.grid.cellFleets[slot3.fleets[slot3.findex].id].tf.position, slot2)
+							slot1.viewComponent:easeAvoid(slot1.viewComponent.grid.cellFleets[slot4.fleets[slot4.findex].id].tf.position, slot2)
 							coroutine.yield()
 						end
-					elseif slot6.type == ChapterConst.BoxBanaiDamage then
-						slot1.viewComponent:doPlayAnim("AirStrikeBanai", function (slot0)
-							setActive(slot0, false)
-							slot0()
-						end)
+					elseif slot7.type == ChapterConst.BoxBanaiDamage then
+						slot1.viewComponent:doPlayAirStrike(ChapterConst.SubjectChampion, false, slot2)
 						coroutine.yield()
-					elseif slot6.type == ChapterConst.BoxTorpedo then
-						if slot3.fleet:canClearTorpedo() then
+					elseif slot7.type == ChapterConst.BoxTorpedo then
+						if slot4.fleet:canClearTorpedo() then
 							pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_destroy_torpedo"))
 						else
 							slot1.viewComponent:doPlayTorpedo(slot2)
@@ -785,21 +799,18 @@ function slot0.handleNotification(slot0, slot1)
 					slot1.viewComponent.grid:adjustCameraFocus()
 				elseif slot0 == ChapterConst.OpEnemyRound then
 					slot1:playAIActions(slot0.aiActs, function ()
-						slot0.contextData.chapterVO.roundIndex = slot0.contextData.chapterVO.roundIndex + 1
-
-						getProxy(ChapterProxy).updateChapter(slot1, slot0)
 						slot0.viewComponent.levelStageView:updateBombPanel(true)
-						slot0.viewComponent.levelStageView:tryAutoTrigger()
-						slot0.viewComponent:updatePoisonAreaTip()
+						slot0.viewComponent.levelStageView.updateBombPanel.viewComponent.levelStageView:tryAutoTrigger()
+						slot0.viewComponent.levelStageView.updateBombPanel.viewComponent.levelStageView.tryAutoTrigger.viewComponent:updatePoisonAreaTip()
 					end)
 				elseif slot0 == ChapterConst.OpSubState then
-					slot1:saveSubState(slot3.subAutoAttack)
+					slot1:saveSubState(slot4.subAutoAttack)
 					slot1.viewComponent.grid:OnChangeSubAutoAttack()
 				elseif slot0 == ChapterConst.OpStrategy then
 					if slot0.arg1 == ChapterConst.StrategyExchange then
-						for slot9, slot10 in ipairs(slot5) do
-							if slot10:GetType() == FleetSkill.TypeStrategy and slot10:GetArgs()[1] == ChapterConst.StrategyExchange then
-								slot1.viewComponent:doPlayCommander(slot3.fleet:findCommanderBySkillId(slot10.id))
+						for slot10, slot11 in ipairs(slot6) do
+							if slot11:GetType() == FleetSkill.TypeStrategy and slot11:GetArgs()[1] == ChapterConst.StrategyExchange then
+								slot1.viewComponent:doPlayCommander(slot4.fleet:findCommanderBySkillId(slot11.id))
 
 								break
 							end
@@ -808,22 +819,22 @@ function slot0.handleNotification(slot0, slot1)
 				elseif slot0 == ChapterConst.OpBarrier then
 					slot1.viewComponent.levelStageView:tryAutoTrigger()
 				elseif slot0 == ChapterConst.OpSubTeleport then
-					slot4 = _.detect(slot3.fleets, function (slot0)
+					slot5 = _.detect(slot4.fleets, function (slot0)
 						return slot0.id == slot0.id
 					end)
-					slot7, slot8 = slot3:findPath(nil, slot5, slot6)
-					slot11 = getProxy(PlayerProxy)
-					slot12 = slot11:getData()
+					slot8, slot9 = slot4:findPath(nil, slot6, slot7)
+					slot12 = getProxy(PlayerProxy)
+					slot13 = slot12:getData()
 
-					slot12:consume({
-						oil = math.ceil(pg.strategy_data_template[ChapterConst.StrategySubTeleport].arg[2] * #slot4:getShips(false) * slot7 - 1e-05)
+					slot13:consume({
+						oil = math.ceil(pg.strategy_data_template[ChapterConst.StrategySubTeleport].arg[2] * #slot5:getShips(false) * slot8 - 1e-05)
 					})
-					slot1.viewComponent:updateRes(slot12)
-					slot11:updatePlayer(slot12)
+					slot1.viewComponent:updateRes(slot13)
+					slot12:updatePlayer(slot13)
 
 					slot1.viewComponent.grid.subTeleportMode = false
 
-					slot1.viewComponent.grid:moveSub(table.indexof(slot3.fleets, slot4), slot0.fullpath, nil, function ()
+					slot1.viewComponent.grid:moveSub(table.indexof(slot4.fleets, slot5), slot0.fullpath, nil, function ()
 						slot0.viewComponent.grid:TurnOffSubTeleport()
 						slot0.viewComponent.grid.TurnOffSubTeleport.viewComponent.levelStageView:SwitchBottomStage(false)
 						slot0.viewComponent.grid.TurnOffSubTeleport.viewComponent.levelStageView.SwitchBottomStage.viewComponent.grid:updateQuadCells(ChapterConst.QuadStateNormal)
@@ -851,7 +862,7 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot2 == GAME.MILITARY_STARTED then
 			slot0.viewComponent:emit(slot0.ON_OPEN_SHAM_PRE_COMABT)
 		elseif slot2 == ActivityProxy.ACTIVITY_OPERATION_DONE then
-			slot4 = getProxy(ActivityProxy):getActivityById(slot3)
+			slot0.viewComponent:updateMapItems()
 		elseif slot2 == ActivityProxy.ACTIVITY_UPDATED then
 			if slot3 and slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_RANK then
 				slot0.viewComponent:updatePtActivity(slot3)
@@ -911,8 +922,62 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot2 == GAME.COOMMANDER_EQUIP_TO_FLEET_DONE then
 			slot0.viewComponent:updateFleet(getProxy(FleetProxy).getData(slot4))
 			slot0.viewComponent:updateFleetSelect()
+		elseif slot2 == GAME.SUBMIT_TASK_DONE then
+			if slot0.contextData.map:isSkirmish() then
+				slot0.viewComponent:updateMapItems()
+			end
+
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3, function ()
+				if slot0.contextData.map:isSkirmish() and slot0.contextData.TaskToSubmit then
+					slot0.contextData.TaskToSubmit = nil
+
+					slot0:sendNotification(GAME.SUBMIT_TASK, slot0.contextData.TaskToSubmit)
+				end
+			end)
 		end
 	end
+end
+
+function slot0.OnExitChapter(slot0, slot1)
+	seriesAsync({
+		function (slot0)
+			if slot0:getDefeatStory(slot0.defeatCount) and type(slot2) == "number" and not pg.StoryMgr.GetInstance():IsPlayed(slot2) then
+				pg.m02:sendNotification(GAME.STORY_UPDATE, {
+					storyId = slot2
+				})
+				slot1:emit(LevelMediator2.ON_PERFORM_COMBAT, slot2, slot0)
+
+				return
+			elseif slot2 and type(slot2) == "string" then
+				pg.StoryMgr.GetInstance():Play(slot2, slot0)
+
+				return
+			end
+
+			slot0()
+		end,
+		function (slot0)
+			if Map.IsType(slot0:getConfig("map"), Map.SKIRMISH) then
+				slot1 = slot0.id
+
+				if not _.detect(getProxy(SkirmishProxy).getRawData(slot2), function (slot0)
+					return tonumber(slot0:getConfig("event")) == slot0
+				end) then
+					return
+				end
+
+				if getProxy(TaskProxy):getTaskVO(slot4:getConfig("task_id")) and slot7:getTaskStatus() == 1 then
+					slot1:sendNotification(GAME.SUBMIT_TASK, slot6)
+
+					if slot4 == slot3[#slot3] and slot5:getTaskVO(getProxy(ActivityProxy).getActivityById(slot8, ActivityConst.ACTIVITY_ID_US_SKIRMISH).getConfig(slot9, "config_data")[#getProxy(ActivityProxy).getActivityById(slot8, ActivityConst.ACTIVITY_ID_US_SKIRMISH).getConfig(slot9, "config_data")][2]) and slot12:getTaskStatus() < 2 then
+						slot1.contextData.TaskToSubmit = slot11
+					end
+				end
+			end
+
+			slot0()
+		end
+	})
 end
 
 function slot0.OnEventUpdate(slot0)

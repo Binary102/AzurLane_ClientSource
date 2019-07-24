@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"盛夏的半人马座\n\n<size=45>一　一如既往的夏天</size>",
+					"Midsummer Sagittarius\n\n<size=45>Chapter 1 - Regular Ol' Summer?</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·沙滩",
+			say = "Port - Beach",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "这里就是舰队专用的沙滩吗。",
+			say = "So this is the beach that is reserved for the fleet's use...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "一望无际的碧蓝大海，砂子也很舒服……真是个好地方呢。",
+			say = "The vast blue that stretches across the horizon, the comforting warmth of the sand between your toes... what a wonderful place!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么标枪前辈是在……",
+			say = "Elder Javelin is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "啊，半人马，你来啦，这边这边~~",
+			say = "Ah, Centaur! Over here~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			say = "标枪前辈上午好，今天就麻烦你了。",
+			say = "Good day, Elder Javelin. Thank you for taking time out of your day for me.",
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
@@ -148,7 +148,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "上午好~啊哈哈，没想到我也有被人称为前辈的一天啊…",
+			say = "(Haha! I never expected someone to call me \"Elder\"~) Good morning!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "嗯～没事没事，指挥官为了之后能够无忧无虑地放假正在拼命工作呢，最近战斗任务也不多，就由我来做你的向导啦。",
+			say = "Don't sweat the small stuff! Commander's been working extra hard to finish everything up before vacation, so I have plenty of time to spare!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "嗯",
+			say = "Yes'm!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那我一边走一边给你介绍吧。",
+			say = "Why don't I show you around?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			}
 		},
 		{
-			say = "聚在沙滩东边的是重樱的场地，去年她们的泳装无论数量还是质量都是数一数二的呢，不过今年可就不好说了~",
+			say = "The east side of the beach is where the Sakura girls like to gather. Last year, they blew everyone away with the quantity and quality of their swimsuits... but there might be some competition this year~",
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
@@ -238,7 +238,7 @@ return {
 			}
 		},
 		{
-			say = "你看，那边阳伞下的是{namecode:92}小姐，和她身边的……咦，{namecode:91}小姐人呢？",
+			say = "Look over there - it's Kaga and... huh? Where's Akagi?",
 			side = 0,
 			bgName = "star_level_bg_106",
 			actor = 201212,
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "那边的……是吗？",
+			say = "Um, is that her over there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,13 +294,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:91}",
 			side = 2,
-			dir = 1,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			actor = 307011,
 			nameColor = "#a9f548",
-			say = "今年也有不少害虫在打指挥官的主意呢，呵呵呵，我{namecode:91}是不会让你们得逞的！",
+			say = "There are a lot of pests trying to swarm around Commander this year... Ahaha, but I shall not permit that...!",
 			flashout = {
 				dur = 0.2,
 				black = true,
@@ -328,13 +327,12 @@ return {
 			}
 		},
 		{
-			say = "哎呀，指挥官只是自然而然地在我这里寻找姐姐的温暖而已，你在说什么我完全听不明白呢~",
+			say = "Oh my, Akagi. Just what could you be talking about? Commander just wanted to enjoy some relaxation with big sister... isn't that right?",
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
 			actor = 303121,
-			actorName = "{namecode:67}",
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -349,13 +347,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actor = 307011,
 			side = 0,
 			bgName = "star_level_bg_106",
+			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307011,
-			actorName = "{namecode:91}",
-			say = "呵、呵呵、呵呵呵呵看来必须再进行一次大扫除了呢——",
+			say = "Aha... ahaha... ahahahahaha! So much filth... I simply must \"clean\" this beach up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,13 +363,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actor = 303121,
 			side = 1,
 			bgName = "star_level_bg_106",
+			nameColor = "#a9f548",
 			dir = 1,
-			actor = 303121,
-			actorName = "{namecode:67}",
-			say = "哎呀呀，大扫除吗，我也来帮忙吧？",
+			say = "Hehe... Cleaning, huh? I'm not half bad at that myself, you know~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +384,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "嗯嗯！重樱的各位还是一样关系很好呢！",
+			say = "See? All the Sakura ships get along with each other so well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +408,7 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			say = "欸，真的没事吗？",
+			say = "Should we really be walking away...?",
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
@@ -435,7 +431,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "应该没事吧，大概？",
+			say = "It'll be fine! Probably...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +448,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "原来如此，前辈们真是充满活力呢！",
+			say = "I-I see, I am glad that my Elders are full of energy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +464,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "咦，那是…{namecode:66}前辈吧？",
+			say = "And over there... is that Elder Takao?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -502,7 +498,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "哦，{namecode:66}小姐在以她的方式进行着修行呢，“以蒙眼打西瓜来锻炼五感”什么的，不愧是{namecode:66}小姐~而且切好的西瓜也能供应给大家，一举两得呢~",
+			say = "That seems to be... Takao's idea of training. Blindfolded watermelon splitting, she calls it. If she succeeds, everyone gets to enjoy fresh watermelon - two birds with one stone!",
 			subActors = {
 				{
 					actor = 303112,
@@ -527,7 +523,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "原来如此……",
+			say = "Strangely ingenious...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +540,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "啊，顺利打破西瓜了呢。",
+			say = "Oh, she just landed a clean blow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +551,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:66}小姐果然厉害~",
+			say = "Way to go, Takao!",
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
@@ -580,7 +576,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "我们也过去拿两片西瓜吧。",
+			say = "Let's also go grab a couple of slices!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +602,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为舰队有军部的支持，西瓜想要多少就有多少，重樱的大家似乎都很开心呢~",
+			say = "Because we have the support of the military, they provide us with all the watermelons we could ever want! There's always plenty of fun to be had!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +620,7 @@ return {
 			blackBg = true,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "那真是太好了呢，标枪前辈~",
+			say = "That sounds like a fine arrangement, Elder Javelin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

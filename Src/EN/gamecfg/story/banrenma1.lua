@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"半人马与港区的“前辈”们\n\n<size=45>一　尊敬的前辈</size>",
+					"Centaur and the Port \"Elders\"\n\n<size=45>Chapter 1 - The Venerated Elder</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·港口",
+			say = "Port - Pier",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天就来对着海浪进行抽卡练习吧——",
+			say = "Today I practice drawing against the waves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 206010,
 			nameColor = "#a9f548",
-			say = "我的回合，抽卡！",
+			say = "It's my turn! Draw!",
 			effects = {
 				{
 					active = true,
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "竞技神今天也是状态绝佳的样子。",
+			say = "Hermes was in perfect form as usual.",
 			effects = {
 				{
 					active = false,
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 2,
 			dir = 1,
-			say = "……那边墙后面似乎有人在探头探脑的样子。",
+			say = "... Just then, I saw someone peeking her head out from behind the wall...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -128,7 +128,7 @@ return {
 			},
 			options = {
 				{
-					content = "过去看看",
+					content = "Go see who it is.",
 					flag = 1
 				}
 			}
@@ -140,7 +140,7 @@ return {
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "啊，指、指挥官，你好！",
+			say = "Ah! Commander! Good morning!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "那个，我没在做什么可疑的事哦！只是……",
+			say = "Oh, I'm here doing... perfectly normal... ordinary things! You know...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "半人马的视线飘向不远处的竞技神。",
+			say = "I followed Centaur's line of sight all the way over to Hermes, practicing her draws.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我有个妹妹也叫竞技神，就是继承自这位所有空母的大前辈，所以我一直很想见一见。",
+			say = "I have a little sister whose name is also Hermes. She's named after her, the Grand Matriarch of All Aircraft Carriers. I just wanted to bear witness to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不过实际见到本人就不知道该怎么上去搭话了，只好缩在这里观察。",
+			say = "But I haven't been able to work up the courage to go talk to her... so I'd just as soon watch from the sidelines here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "指挥官能帮我……",
+			say = "I don't suppose you could help me, Commander...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			},
 			options = {
 				{
-					content = "竞技神，过来这边一下！",
+					content = "Call Hermes over.",
 					flag = 1
 				}
 			}
@@ -258,7 +258,7 @@ return {
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "欸欸欸！！！",
+			say = "Waaaait?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么了指挥官，想要来一场激动人心的决斗吗？",
+			say = "What is it, Commander? Do you feel the urge to Duel burning within you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			say = "那个，竞技神大前辈……",
+			say = "Um, Elder Hermes...",
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你是……我记得是新加入的半人马吧，听说你有个妹妹也叫竞技神是吗？",
+			say = "You are... Oh! You're Centaur, our new recruit! I've heard you have a younger sister named Hermes, is that right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "是、是的！",
+			say = "Y-Yes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "半人马稍微松了一口气的样子。",
+			say = "Centaur let out a sigh of relief.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好吧，那就让我用决斗来试试你灵魂的热度！",
+			say = "Come then! Let's test your mettle in a duel!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，这孩子我借走了。",
+			say = "Commander, I'll be borrowing this one for a bit!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = -1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "欸，欸，欸？",
+			say = "Huh? Where? What?!",
 			subActors = {
 				{
 					actor = 206010,
@@ -446,7 +446,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "半人马被竞技神拖走了。",
+			say = "Hermes started dragging Centaur off somewhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "她会慢慢习惯这位大前辈的风格吧，大概。",
+			say = "She would grow accustomed to Hermes's eccentricities in time... probably.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

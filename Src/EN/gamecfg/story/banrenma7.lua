@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"半人马与港区的“前辈”们\n\n<size=45>七　真正的同伴</size>",
+					"Centaur and the Port \"Elders\"\n\n<size=45>Chapter 7 - True Equals</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
-			say = "半人马说起了有关“前辈”的新含义。",
+			say = "Centaur spoke of the \"new meaning\" of \"Elder.\"",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "自从加入舰队到现在，已经过了有一段时间呢。",
+			say = "It has been some time since I first joined the fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "在这段时间里，我近距离接触了许多前辈，知道了许多前辈们在战场之外的另一面。",
+			say = "In that time, I've grown closer to my Elders, and seen past the walls they put up on the battlefield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家都和我一样是普通的人，会高兴，会难过，会有喜欢的和讨厌的东西。",
+			say = "I know now they are people, just like me. They have sadness and they have joy, they have their likes and their dislikes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "就算是指挥官，也会有喊着不想工作和打瞌睡的时候。",
+			say = "Like you, Commander, you have those times when you just can't take work anymore and you doze off on your desk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示这很正常",
+					content = "Explain to her that's completely normal.",
 					flag = 1
 				}
 			}
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "是的，这样才正常，虽然大家有各自的想法，偶尔也会有些争执……",
+			say = "Yes, it's completely normal. Just as everyone has their own opinions, and from time to time that leads to conflict...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是为了实现共同的目标，大家一定会互相扶持，互相帮助，这样才是我所憧憬的舰队。",
+			say = "But in service of our collective goals, we work together, we help each other. That's the fleet I always dreamt of.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "而现在的我也是这支舰队的一员，所以我不再只是尊敬大家，更是喜欢上了大家。",
+			say = "And now I'm a part of that fleet too... so no longer do I merely respect everyone, now I truly love everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			},
 			options = {
 				{
-					content = "也包含指挥官吗？",
+					content = "Ask her if that includes her Commander...",
 					flag = 1
 				}
 			}
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "指挥官，不要突然问这种问题啦……我当然也喜欢指挥官啦~",
+			say = "C- Commander... of course, I love you too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "半人马的脸红了一下。",
+			say = "Centaur turned bright red.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "总之呢，一开始的我，是因为尊敬经历过大战的各位而称呼大家为前辈。",
+			say = "What I'm getting at is, in the beginning, I called everyone \"Elder\" because I respected their service in the Great War.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在的我，则是因为喜欢为了和平而战的同伴们，而称呼大家为前辈。",
+			say = "But now, because I so love and cherish fighting alongside them in the name of peace, that's why I call them Elder.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "啊哈哈，虽然说起来有点不好意思，其实主要原因还是我已经叫习惯了呢~",
+			say = "Ahahaha, and I'm a little embarrassed to say it, but the main reason is I just got used to calling everyone that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "还真是说复杂也复杂，说简单也简单啊…",
+			say = "It was so complicated, and yet so simple...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "说了这么多我的事，也该轮到指挥官了呢。",
+			say = "I'm doing all the talking here. Now it's your turn, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "虽然担任了这么久的秘书舰，我已经相当了解指挥官了。",
+			say = "I mean, I've been your secretary ship for this long. It's only natural I've gotten to know you very well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "不过果然还是想听指挥官亲口和我说说自己的事呢…一些小秘密，或者没有对人说过的想法什么的。",
+			say = "But I'd still like to hear some of it straight from the horse's mouth. Tell me a secret, Commander. Tell me something you've never told anyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			blackBg = true,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "嘻嘻，能告诉我更多…你的事情吗？指挥官…前辈？",
+			say = "Hehe, won't you tell me more... about you? Commander...? ... Oh Elder One...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

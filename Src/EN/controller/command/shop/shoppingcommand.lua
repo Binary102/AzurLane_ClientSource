@@ -144,7 +144,11 @@ class("ShoppingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 					table.insert(slot1, Item.New())
 				end
 
-				pg.TipsMgr:GetInstance():ShowTips(i18n("common_buy_success"))
+				if slot4 == GoldExchangeView.itemid1 or slot4 == GoldExchangeView.itemid2 then
+					pg.TipsMgr:GetInstance():ShowTips(i18n("common_buy_gold_success", pg.shop_template[slot4].num * pg.TipsMgr.GetInstance()))
+				else
+					pg.TipsMgr:GetInstance():ShowTips(i18n("common_buy_success"))
+				end
 			elseif slot0.type == 0 then
 				slot1:sendNotification(GAME.EXTEND, {
 					id = slot4,
@@ -234,6 +238,7 @@ class("ShoppingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 			slot4(slot1, GAME.SHOPPING_DONE, slot7)
 		else
+			print(slot0.result)
 			pg.TipsMgr:GetInstance():ShowTips(errorTip("", slot0.result))
 		end
 	end)

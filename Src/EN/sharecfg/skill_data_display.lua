@@ -1294,15 +1294,15 @@ pg.skill_data_display = {
 	},
 	[11580] = {
 		id = 11580,
-		name = "剑鱼出击·改"
+		name = "Swordfishes, Attack! "
 	},
 	[11581] = {
 		id = 11581,
-		name = "剑鱼出击·改"
+		name = "Swordfishes, Attack! "
 	},
 	[11590] = {
 		id = 11590,
-		name = "空域控制"
+		name = "Airspace Dominance "
 	},
 	[11600] = {
 		id = 11600,
@@ -1646,7 +1646,7 @@ pg.skill_data_display = {
 	},
 	[12401] = {
 		id = 12401,
-		name = "大鱼突击！"
+		name = "Great Shark's Bite "
 	},
 	[12410] = {
 		id = 12410,

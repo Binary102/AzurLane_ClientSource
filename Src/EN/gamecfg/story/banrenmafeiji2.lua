@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"盛夏的半人马座\n\n<size=45>二　盛夏的秘密武器？</size>",
+					"Midsummer Sagittarius\n\n<size=45>Chapter 2 - Summer's Secret Weapon?</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "嗨，平海，{namecode:17}~你也来拿西瓜吗？",
+			say = "Ping Hai! Shigure! Are you two also getting watermelon?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，西瓜好吃。",
+			say = "Mm... watermelon is delicious.",
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
@@ -82,13 +82,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = -1,
 			actor = 301151,
-			actorName = "{namecode:17}",
-			say = "是标枪啊，对呀。",
+			nameColor = "#a9f548",
+			say = "Javelin, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,29 +108,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 1,
-			bgName = "star_level_bg_106",
-			dir = -1,
-			actor = 301151,
-			actorName = "{namecode:17}",
-			say = "你在带新人观光吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
 			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，是呢。",
+			say = "Is that the newbie over there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +130,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "你们好，{namecode:17}前辈，平海前辈。",
+			say = "That's right, I'm showing her around!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,13 +141,12 @@ return {
 			}
 		},
 		{
-			say = "嗯！就冲这句前辈，以后你就由我罩着了！",
+			say = "Good day, Elder Shigure, Elder Ping Hai.",
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
 			actor = 301151,
-			actorName = "{namecode:17}",
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -195,7 +176,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "平海是前辈？半人马也会功夫吗？",
+			say = "Oh, I like this one already! If you ever need any advice, Shigure's got your back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +192,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，半人马说的前辈不是功夫上的前辈啦~",
+			say = "Um... I don't remember seeing you at the kung fu school...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +208,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:17}前辈的泳装，造型很独特呢？感觉和重樱的大家都不一样呢",
+			say = "Haha, don't worry about it~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,13 +219,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actor = 301151,
 			side = 0,
 			bgName = "star_level_bg_106",
+			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301151,
-			actorName = "{namecode:17}",
-			say = "你说这个？这个可是有正式的名字的，叫做“校园泳装”，简称“死库水”，是重樱的特色哦！",
+			say = "Elder Shigure's swimsuit... is very distinctive. It gives off a completely different vibe than swimsuits worn by the others...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,13 +235,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actor = 301151,
 			side = 0,
 			bgName = "star_level_bg_106",
+			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301151,
-			actorName = "{namecode:17}",
-			say = "顺便告诉你一个小秘密，指挥官说不定喜欢这种哦~",
+			say = "You're talking about this? It's a school swimsuit! These are considered legendary where we're from!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +256,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "真、真的吗？！",
+			say = "And, I'll let you into a little secret... Commander probably has a thing for these!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,13 +277,12 @@ return {
 			}
 		},
 		{
-			say = "哼哼，不过我要去找{namecode:79}玩了，感兴趣的话之后再来找我吧~",
+			say = "Ehh?! Really?",
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = -1,
 			actor = 301151,
-			actorName = "{namecode:17}",
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -324,7 +302,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那{namecode:17}说好了哦，我之后再去找你~",
+			say = "Who knows~? I promised Yamashiro that I'd go play with her, so I'm gonna head off. If you're interested in learning more, you know where to find me~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,13 +313,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actor = 301151,
 			side = 1,
 			bgName = "star_level_bg_106",
+			nameColor = "#a9f548",
 			dir = -1,
-			actor = 301151,
-			actorName = "{namecode:17}",
-			say = "好好好。",
+			say = "It's a promise, then! Tell me more about it later!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +335,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "原来世上还有死库水这样的泳装吗……",
+			say = "Sure, sure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +351,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "……没想到重樱…居然还藏着这样的秘密武器呢……",
+			say = "I had no idea the Sakura Empire had developed such a powerful secret weapon...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +378,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "标枪前辈……？",
+			say = "There sure seems to be a lot of mystique behind this \"school swimsuit...\" Um, Elder Javelin...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +394,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "咳、咳咳，没什么没什么，我继续给你介绍吧！",
+			say = "I-I'm totally fine! Just talking to myself! Anyway, let's continue the tour!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +415,23 @@ return {
 			}
 		},
 		{
-			say = "我们皇家在沙滩的中间，别的不说，我们可是有最强无敌的胡德姐姐！她的泳装超漂亮的！你看那边~",
+			actor = 201212,
+			side = 2,
+			bgName = "star_level_bg_106",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "This is where the Royal Navy gathers! When it comes to swimsuits, the Sakura girls might be impressive, but we have nothing to fear as long as we have the invincible Hood!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			say = "Look over there - her outfit is as gorgeous as ever!",
 			side = 0,
 			bgName = "star_level_bg_106",
 			hideOther = true,
@@ -473,7 +466,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "确实，胡德前辈不愧是优雅的代名词呢，只是坐在那里就像是一幅画一样美丽。",
+			say = "As expected of Elder Hood. Just by sitting there, she gives off the elegance of a Renaissance painting...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +477,7 @@ return {
 			}
 		},
 		{
-			say = "不过，据说新加入的自由和维希也准备了泳装，铁血今年似乎也摩拳擦掌的样子，嗯嗯，今年的沙滩，感觉会风起云涌呢。",
+			say = "This year, we have our new contestants from Iris Libre and the Vichya Dominion. And then, you can never count out the eccentric style of the Iron Blood... Mm, there's going to be some fierce battles this summer!",
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
@@ -520,7 +513,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "那个，为什么标枪前辈的介绍，听起来像是什么比赛一样呢？",
+			say = "Um, Elder Javelin, what kind of \"battles...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +529,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…半人马，既然你都叫我前辈了，那么作为前辈就把一些重要的事情教导给你！",
+			say = "...Centaur, listen closely. As your Elder, there's something important I need to teach you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +546,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "是、是！",
+			say = "Y-yes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +572,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听好了，那当然是因为，夏天、沙滩、泳装这些词语对女孩子来说，就是……",
+			say = "Don't forget this. For a young girl, the summer, the beach, and her swimsuit...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +588,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "战争啊！",
+			say = "... are a warzone!",
 			effects = {
 				{
 					active = true,
@@ -616,7 +609,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "是、是这样吗？",
+			say = "R-really?!",
 			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
@@ -654,7 +647,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然啦，身材如何，怎么防晒，怎么搭配服装，怎么才能将自己的魅力最大限度地引发出来，这些可是一门巨~~~大的学问呢。",
+			say = "Of course! Getting that perfect beach body, avoiding getting sunburned, coordinating your outfit, bringing out your charms to the fullest! It's a never-ending learning experience!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +663,23 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，姑且指挥官喜不喜欢也算是一条呢。",
+			say = "It's suuuuuper difficult to get everything right!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 201212,
+			side = 0,
+			bgName = "star_level_bg_106",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "And the prize on the line is super important too - Commander's attention!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,7 +697,7 @@ return {
 			blackBg = true,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "原、原来如此……",
+			say = "I... I see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

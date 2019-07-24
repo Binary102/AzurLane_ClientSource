@@ -8327,6 +8327,71 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[206041] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 20604,
+		breakout_id = 206042,
+		breakout_view = "All Torpedo Bombers +1/Torpedo Bomber efficiency +5%",
+		id = 206041,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			60311,
+			54014
+		}
+	},
+	[206042] = {
+		use_gold = 3000,
+		pre_id = 206041,
+		use_char_num = 1,
+		use_char = 20604,
+		breakout_id = 206043,
+		breakout_view = "Hangar capacity +1/All Torpedo Bombers +1/Fighter efficiency +10%",
+		id = 206042,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			60312,
+			54014,
+			60312,
+			54014
+		}
+	},
+	[206043] = {
+		use_gold = 10000,
+		pre_id = 206042,
+		use_char_num = 2,
+		use_char = 20604,
+		breakout_id = 206044,
+		breakout_view = "All Torpedo Bombers +2/Torpedo Bomber efficiency +15%",
+		id = 206043,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			60313,
+			54015,
+			60313,
+			54015
+		}
+	},
+	[206044] = {
+		use_gold = 0,
+		pre_id = 206043,
+		use_char_num = 0,
+		use_char = 20604,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 206044,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[206051] = {
 		use_gold = 500,
 		pre_id = 0,
@@ -19007,6 +19072,10 @@ pg.ship_data_breakout = {
 		206032,
 		206033,
 		206034,
+		206041,
+		206042,
+		206043,
+		206044,
 		206051,
 		206052,
 		206053,

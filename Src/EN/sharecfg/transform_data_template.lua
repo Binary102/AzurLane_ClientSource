@@ -19391,7 +19391,7 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 	},
 	[30907] = {
 		use_gold = 1800,
-		name = "Motor Enhancement",
+		name = "Hull Improvement Ⅱ",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -19434,7 +19434,7 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 	},
 	[30908] = {
 		use_gold = 2000,
-		name = "Evasion Enhancement Ⅱ",
+		name = "Anti-Air Enhancement Ⅰ",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -19467,7 +19467,7 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 	},
 	[30909] = {
 		use_gold = 2500,
-		name = "Hull Improvement Ⅱ",
+		name = "Torpedo Improvement Ⅱ",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -19510,7 +19510,7 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 	},
 	[30910] = {
 		use_gold = 3000,
-		name = "Firepower Enhancement Ⅱ",
+		name = "Torpedo Enhancement Ⅱ",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,

@@ -1359,10 +1359,21 @@ function slot0.unPartialBlur(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
 end
 
+function slot0.ClearShipsBlackBlock(slot0)
+	if not slot0.shipVOsById then
+		return
+	end
+
+	for slot4, slot5 in pairs(slot0.shipVOsById) do
+		slot5.blackBlock = false
+	end
+end
+
 function slot0.willExit(slot0)
 	slot0:closeDestroyMode()
 	slot0:closeDestroyPanel()
 	slot0:closeModAttr()
+	slot0:ClearShipsBlackBlock()
 
 	if slot0.mode == slot0.MODE_MOD then
 	elseif not slot0.contextData.sortData then

@@ -1230,7 +1230,7 @@ pg.gametip = {
 		key = "battle_autobot_unlock"
 	},
 	tips_confirm_teleport_sub = {
-		tip = "지시: <color=#92fc63FF>잠수 편대</color>를 <color=#92fc63FF>$1</color>구역에서 <color=#92fc63FF>$2</color>구역으로 조정하려면 <color=#92fc63FF>$3</color>칸을 이동해야 하며, 석유를 <color=#92fc63FF>$4</color>포인트 소모하게 됩니다. 계속 하시겠습니까? ",
+		tip = "지시: <color=#92fc63FF>잠수 함대</color>를 <color=#92fc63FF>$1</color>구역에서 <color=#92fc63FF>$2</color>구역으로 조정하려면 <color=#92fc63FF>$3</color>칸을 이동해야 하며, 연료를 <color=#92fc63FF>$4</color>포인트 소모하게 됩니다. 계속 하시겠습니까? ",
 		key = "tips_confirm_teleport_sub"
 	},
 	backyard_addExp_Info = {
@@ -1242,7 +1242,7 @@ pg.gametip = {
 		key = "backyard_extendCapacity_error"
 	},
 	backyard_extendCapacity_ok = {
-		tip = "식량 창고가 <color=#92fc63>$1</color>으로 확장되었습니다!",
+		tip = "식량 창고가 <color=#92fc63>$1</color> 확장되었습니다!",
 		key = "backyard_extendCapacity_ok"
 	},
 	backyard_addShip_error = {
@@ -1350,7 +1350,7 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_buy_max_count"
 	},
 	backyard_backyardScene_comforChatContent1 = {
-		tip = "<size=21>경험치<color=#A9EE48>+$1%</color></size><size=19>\n총합 쾌적도는 각 카테고리(카펫류 제외) 중 쾌적도가 높은 가구부터 순서대로, <color=#A9EE48>배치 가능한 가구들의</color> 총 합계치와 카펫류 가구 중 쾌적도가 높은 순서대로 <color=#92fc63>$2</color>번째 가구까지의 쾌적도를 더한 합계치가 적용됩니다.</size>",
+		tip = "<size=31>경험치<color=#A9EE48>+$1%</color></size><size=25>\n총합 쾌적도는 각 카테고리(카펫류 제외) 중 쾌적도가 높은 가구부터 순서대로, <color=#A9EE48>배치 가능한 가구들의</color> 총 합계치와 카펫류 가구 중 쾌적도가 높은 순서대로 <color=#92fc63>$2</color>번째 가구까지의 쾌적도를 더한 합계치가 적용됩니다.\n</size>",
 		key = "backyard_backyardScene_comforChatContent1"
 	},
 	backyard_buyExtendItem_question = {
@@ -1659,17 +1659,17 @@ pg.gametip = {
 	},
 	exercise_rule_tip = {
 		tip = [[
-1. 시즌 기간은 <color=#92fc63>14일</color>마다 1시즌이며, 기간 도중 승급 시 등급에 상응하는 보상을 얻을 수 있습니다
-2. 연습에서 승리하면, 등급에 따라 보상을 받을 수 있습니다. 패배하더라도 승리 시의 보상의 <color=#92fc63>절반</color>을 획득할 수 있습니다.
-3. 연습에서 승리하면 점수가 상승합니다. 패배하더라도 <color=#92fc63>점수는 내려가지 않습니다.</color>
-4. 다른 유저에게 공격당하더라도, 공격당한 측의 점수는 변하지 않습니다.
-5. 점수가 일정 수치에 도달하면, 등급이(대령까지) 상승합니다. <color=#92fc63>대령 이상</color>의 등급은 랭킹 순위로 결정됩니다.
-6. 등급 달성 시 보상은 한 번만 받을 수 있습니다.
-7. 공훈치를 모아 군수 상점에서 아이템과 교환할 수 있습니다.
-8. 연습 상대는 매일 <color=#92fc63>5회</color>까지 변경할 수 있습니다.
-9. 연습 후, 연습 상대 리스트가 리셋됩니다.
-10. 연습 가능 횟수는 00:00, 12:00, 18:00 시에 리셋됩니다.
-11. 시즌 종료 후, 모든 유저의 등급과 점수는 리셋됩니다.]],
+1. 매 <color=#92fc63>14</color>일을 한 시즌으로, 시즌 중 지정 계급 달성 시, 계급에 맞는 보상을 수령할 수 있습니다.
+ 2. 전투 승리 시 계급에 따라 공훈을 획득할 수 있으며, 패배하더라도 <color=#92fc63>절반</color>의 공훈을 획득합니다.
+ 3. 전투 승리 시 포인트를 획득할 수 있으며, 패배할 시 <color=#92fc63>포인트는 차감되지 않습니다.</color>
+ 4. 다른 유저의 도전을 받아 패배하여도 포인트는 차감되지 않습니다.
+ 5. 포인트가 일정 수치에 도달하면, 계급을 상승시킬 수 있으며, <color=#92fc63>장교 이상</color>계급은 일정 순위를 달성해야 합니다.
+ 6. 계급을 1번이라도 달성하기만 한다면, 즉시 계급 보상을 획득할 수 있습니다.
+ 7. 획득한 공훈은 공훈 상점에서 과학 기술 상자, 캐릭터 등으로 교환할 수 있습니다.
+ 8. 연습전 상대는 무료로 수동 갱신이 가능하며, 매일 <color=#92fc63>5</color>회 갱신할 수 있습니다.
+ 9. 도전 후, 승패와 관련 없이 자동으로 상대가 갱신됩니다.
+ 10. 연습전 횟수는 매일 00:00, 12:00, 18:00에 갱신되며, 갱신 시 연습전 횟수는 <color=#92fc63>5</color>회로 증가합니다. 연습전은 최대 <color=#92fc63>10</color>회 진행 가능합니다.
+ 11. 시즌 종료 후, 모든 유저의 계급과 포인트가 초기화됩니다. ]],
 		key = "exercise_rule_tip"
 	},
 	exercise_award_tip = {
@@ -2576,7 +2576,7 @@ pg.gametip = {
 		key = "ship_vo_inBackyardRest"
 	},
 	ship_vo_inClass = {
-		tip = "해당 함선은 전술학원에서 수업 중입니다.",
+		tip = "해당 함선은 대강당에서 수업 중입니다.",
 		key = "ship_vo_inClass"
 	},
 	ship_vo_moveout_backyard = {
@@ -3235,7 +3235,7 @@ pg.gametip = {
 				info = [[
 <color=#92fc63>작전 문서</color> 설명: 
 <color=#92fc63>작전 문서</color>란, 과거 개최된 이벤트 스테이지를 다시 공략
-할 수 있는<color=#92fc63>작전 내역</color>을 일정 시간 동안 개방할 수 있는 
+할 수 있는 <color=#92fc63>작전 내역</color>을 일정 시간 동안 개방할 수 있는 
 아이템입니다.
 <color=#92fc63>작전 내역</color>에 실장되기 전의 과거 플레이한 스테이지의 공략
  진척 상황은 이어지지 않습니다.]]
@@ -3244,7 +3244,7 @@ pg.gametip = {
 				info = " \n 1.<color=#92fc63>데이터 키</color>는 현재 상황에서는 매일 데일리 임무를 통해 \n2개를 입수할 수 있습니다."
 			},
 			{
-				info = " 2.<color=#92fc63>데이터 키</color>는 최대 30개까지 소지 가능합니다. 30개를 \n소지하고 있는상태에서 새로 입수한<color=#92fc63>데이터 키</color>는 자동으로 \n제거됩니다."
+				info = " 2.<color=#92fc63>데이터 키</color>는 최대 30개까지 소지 가능합니다. 30개를 \n소지하고 있는상태에서 새로 입수한 <color=#92fc63>데이터 키</color>는 자동으로 \n제거됩니다."
 			},
 			{
 				info = " 3.<color=#92fc63>데이터 키</color> 1개당, <color=#92fc63>작전 내역</color>의 상설 이벤트 하나를,\n15분간 개방할 수 있습니다."
@@ -3294,7 +3294,7 @@ pg.gametip = {
 		}
 	},
 	tack_tickets_max_warning = {
-		tip = "<color=#ffde38>데이터 키</color>의 소지 횟수에는 한계가 있습니다. 임무 보수인 데이터 키는 <color=#ff5c5c>$1</color> 만 입수 가능합니다. 임무 보수를 받으시겠습니까?",
+		tip = "<color=#ffde38>데이터 키</color>의 소지 횟수에는 한계가 있습니다. 임무 보수인 데이터 키는 <color=#ff5c5c>$1</color> 개 입수 가능합니다. 임무 보수를 받으시겠습니까?",
 		key = "tack_tickets_max_warning"
 	},
 	error_refresh_sub_chapter = {
@@ -4931,8 +4931,9 @@ pg.gametip = {
 		tip = {
 			{
 				info = [[
-・장비 스킨은 발사되는 탄환이나 함재기의 외관 등을 바꿔주지만,
-성능이나 판정에는 영향을 주지 않습니다.(탄도 및 탄속, 발사 속도, 명중 판정 등)
+・장비 스킨은 발사되는 탄환이나 함재기의 외관 등을 
+바꿔주지만,성능이나 판정에는 영향을 주지 않습니다.
+(탄도 및 탄속, 발사 속도, 명중 판정 등)
 
 ・장비 스킨은 상응하는 종류의 장비에만 적용할 수 있습니다. 
 장비 스킨은 하나당 한 함선 소녀에게만 착용이 가능합니다. 
@@ -5375,11 +5376,11 @@ B평가:<color=#92fc63>70</color>점
 		}
 	},
 	gold_buy_tip = {
-		tip = "<icon name=diamond w=0.7 h=0.7/><size=25><color=#92fc63>100</color></size>개를 사용하여 <size=25><color=#92fc63>3000</color></size><size=24>물자를 구입</size>",
+		tip = "<icon name=diamond w=0.7 h=0.7/><size=30><color=#92fc63>100</color></size>개를 사용하여 <size=30><color=#92fc63>3000</color></size><size=30>물자를 구입</size>",
 		key = "gold_buy_tip"
 	},
 	oil_buy_tip = {
-		tip = "<icon name=diamond w=0.7 h=0.7/><size=25><color=#92fc63>$1</color></size>개를 사용하여  <size=25><color=#92fc63>$2</color></size><size=24>연료를 구입</size><size=2>\n\n</size><size=22>( 오늘 구입  <size=25><color=#FF0000>$3</color></size> 회 )</size>",
+		tip = "<icon name=diamond w=0.7 h=0.7/><size=30><color=#92fc63>$1</color></size>개를 사용하여  <size=30><color=#92fc63>$2</color></size><size=30>연료를 구입</size><size=2>\n\n</size><size=22>( 오늘 구입  <size=25><color=#FF0000>$3</color></size> 회 )</size>",
 		key = "oil_buy_tip"
 	},
 	text_iknow = {
@@ -8550,7 +8551,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "commander_get_1"
 	},
 	commander_get = {
-		tip = "자금 $1을 소비하여 고양이 상자 $2개를 구입하시겠습니까?",
+		tip = "자금 $1을 소비하여 냥박스 $2개를 구입하시겠습니까?",
 		key = "commander_get"
 	},
 	commander_build_done = {
@@ -9620,7 +9621,7 @@ B평가:<color=#92fc63>70</color>점
 				info = "-그 외"
 			},
 			{
-				info = "・함선의 육성(레벨/호감도) 관련 획득 조건은, 한\n 종류의 함선을 여러 척 소지하고 있어도 가장 높은 수치인 한\n 척만 계 산됩니다."
+				info = "・함선의 육성(레벨/호감도) 관련 획득 조건은, 한\n 종류의 함선을 여러 척 소지하고 있어도 가장 높은 수치인 한\n 척만 계산됩니다."
 			},
 			{
 				info = "・개조(근대화 개수)가 완료된 함선은 개조 전의 함선과 같은 \n함선으로 계산됩니다."
@@ -10693,9 +10694,47 @@ UID: 사령부에서 각 지휘관에게 전달한 고유의 신분 증명
 		tip = "비밀번호 입력 알림을 다시 확인해 주세요.\n<color=#FFDE38>“%s”</color>",
 		key = "secondarypassword_confirm_tips"
 	},
+	help_tempesteve = {
+		key = "help_tempesteve",
+		tip = {
+			{
+				info = "이벤트 설명:"
+			},
+			{
+				info = "1. 이벤트 기간 동안, 특별 작전 [폭풍전야]가 오픈됩니다."
+			},
+			{
+				info = "2. 작전 기간 동안 지휘관은 매일 행동 횟수를 1회 획득하며, 횟수를\n소모하여 작전을 펼칠 수 있습니다."
+			},
+			{
+				info = "3. 작전의 모든 과정에서는 NPC가 편성한 편대로 진행하며, 석유를 소모하지 않습니다."
+			},
+			{
+				info = "4. 매번 작전을 통해 \"작전 보고서\" 아이템을 수집할 수 있습니다."
+			},
+			{
+				info = "5. \"작전 보고서\"를 7개 수집 시\n 이벤트 한정 장비 [정찰 보고·뉴욕 근해]를 획득할 수 있습니다.\n이벤트 종료 후, 사용하지 않은 \"작전 보고서\"는 회수될 것입니다."
+			},
+			{
+				info = [[
+6. 작전 완성 조건: 
+P1 지정 작전 완성
+P2 지정 스테이지 클리어
+P3 지정 스토리 보기
+P4 지정 스테이지 클리어 
+P5 지정 스테이지 클리어
+P6 지정 스토리 보기
+P7 지정 스테이지 클리어]]
+			}
+		}
+	},
 	word_rest_times = {
 		tip = "<color=#FFDE38FF>잔여 횟수: %s회</color> ",
 		key = "word_rest_times"
+	},
+	common_buy_gold_success = {
+		tip = "<color=#92fc63>$1</color> 물자 구매 성공! ",
+		key = "common_buy_gold_success"
 	}
 }
 

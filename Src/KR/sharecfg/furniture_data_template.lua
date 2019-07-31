@@ -2881,6 +2881,89 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100007] = {
+		can_rotate = 0,
+		name = "신비한 마술통",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "mofatongicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 6,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 100007,
+		comfortable = 0,
+		describe = "어둡고 깊은 곳, 말할 수 없는 비밀이 숨겨져 있다.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"7yuetongB",
+				"normal"
+			},
+			{
+				"7yuetongT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"yun"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"7yuetongBCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		can_rotate = 0,
 		name = "낡은 바닥",
@@ -76592,6 +76675,7 @@ pg.furniture_data_template = {
 		100004,
 		100005,
 		100006,
+		100007,
 		1001,
 		1002,
 		1101,

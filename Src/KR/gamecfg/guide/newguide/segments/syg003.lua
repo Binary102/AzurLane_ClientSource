@@ -79,7 +79,7 @@ return {
 		{
 			alpha = 0.419,
 			style = {
-				text = "<color=#ff7d36>제한시간이 존재하는 긴급 의뢰</color>는 여기에 표시돼.</color>",
+				text = "<color=#ff7d36>제한시간이 존재하는 긴급 의뢰</color>는 여기에 표시돼.",
 				mode = 2,
 				dir = -1,
 				posY = 175.56,

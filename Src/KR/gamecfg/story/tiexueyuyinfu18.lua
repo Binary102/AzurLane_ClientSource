@@ -725,7 +725,7 @@ return {
 			dir = 1,
 			bgm = "bsm-6",
 			nameColor = "#ffde38",
-			say = "(그런가……)………）",
+			say = "(그런가……)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,7 +742,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#ffde38",
-			say = "(아직은…… 무리인 모양이네……)）",
+			say = "(아직은…… 무리인 모양이네……)",
 			flashN = {
 				color = {
 					1,
@@ -1091,7 +1091,7 @@ return {
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "그렇네. 만약 방법이 있다고 하면, 그 큰 책임을 짊어진 당신은 어떻게 할 거야? 메탈 블러드 함대의 지도자 씨?呢",
+			say = "그렇네. 만약 방법이 있다고 하면, 그 큰 책임을 짊어진 당신은 어떻게 할 거야? 메탈 블러드 함대의 지도자 씨?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

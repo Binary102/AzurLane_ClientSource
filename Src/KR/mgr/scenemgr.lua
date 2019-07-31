@@ -15,6 +15,20 @@ function pg.SceneMgr.prepare(slot0, slot1, slot2, slot3)
 
 		slot0:setContextData(slot2.data)
 		slot3:registerMediator(slot0)
+
+		slot1 = getProxy(ContextProxy)
+
+		if not ContextProxy.isLayer then
+			if slot1.lastContext then
+				slot1:TriggerDelegate(slot1.lastContext, "_POP")
+				slot1:TriggerInterjectedDelegate(slot1.lastContext, slot1.TriggerInterjectedDelegate, "_TO_")
+			end
+
+			slot1.lastContext = slot2
+
+			slot1:TriggerDelegate(slot1.TriggerDelegate, "_PUSH")
+		end
+
 		slot4(slot0)
 	end
 

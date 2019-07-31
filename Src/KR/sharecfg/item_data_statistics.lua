@@ -1072,6 +1072,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[1010] = {
+		display = "상세 작전 과정이 기록된 정식 문서. 사령부가 작전을 결정할 때 참고하는 중요한 문서. (이벤트 종료 후 회수됨) ",
+		rarity = 3,
+		type = 1,
+		name = "작전 보고서 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 1010,
+		icon = "Props/zuozhanbaogao",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[10000] = {
 		display = "함정수리설비 T2 설계도",
 		rarity = 3,
@@ -4568,7 +4584,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30011] = {
-		display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능:\nNormal 등급 장비가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#3dc6ff>크록히드 장비상자 T2</color>로 합성 가능.",
+		display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능\nNormal 등급 장비가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#3dc6ff>크록히드 장비상자 T2</color>로 합성 가능.",
 		rarity = 1,
 		type = 5,
 		name = "크록히드 장비상자 T1",
@@ -4587,7 +4603,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30012] = {
-		display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#d797ff>크록히드 장비상자 T3</color>로 합성 가능.",
+		display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#d797ff>크록히드 장비상자 T3</color>로 합성 가능.",
 		rarity = 2,
 		type = 5,
 		name = "크록히드 장비상자 T2",
@@ -4606,7 +4622,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30013] = {
-		display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.",
+		display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.",
 		rarity = 3,
 		type = 5,
 		name = "크록히드 장비상자 T3",
@@ -4625,7 +4641,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30014] = {
-		display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#ffde38>SS Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.",
+		display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#ffde38>SS Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.",
 		rarity = 4,
 		type = 5,
 		name = "크록히드 장비상자 T4",
@@ -4644,7 +4660,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30015] = {
-		display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능:\n<color=#ffde38>SS Rare 등급 장비</color>가 출현한다.",
+		display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능\n<color=#ffde38>SS Rare 등급 장비</color>가 출현한다.",
 		rarity = 5,
 		type = 5,
 		name = "크록히드 장비상자 T5",
@@ -4663,7 +4679,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30021] = {
-		display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능:\nNormal 등급 장비가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#3dc6ff>비스커 장비상자 T2</color>로 합성 가능.",
+		display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능\nNormal 등급 장비가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#3dc6ff>비스커 장비상자 T2</color>로 합성 가능.",
 		rarity = 1,
 		type = 5,
 		name = "비스커 장비상자 T1",
@@ -4682,7 +4698,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30022] = {
-		display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#d797ff>비스커 장비상자 T3</color>로 합성 가능.",
+		display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#d797ff>비스커 장비상자 T3</color>로 합성 가능.",
 		rarity = 2,
 		type = 5,
 		name = "비스커 장비상자 T2",
@@ -4701,7 +4717,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30023] = {
-		display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.",
+		display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.",
 		rarity = 3,
 		type = 5,
 		name = "비스커 장비상자 T3",
@@ -4720,7 +4736,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30024] = {
-		display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#ffde38>SS Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.",
+		display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#ffde38>SS Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.",
 		rarity = 4,
 		type = 5,
 		name = "비스커 장비상자 T4",
@@ -4739,7 +4755,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30025] = {
-		display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능:\n<color=#ffde38>SS Rare 등급 장비</color>가 출현한다.",
+		display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능\n<color=#ffde38>SS Rare 등급 장비</color>가 출현한다.",
 		rarity = 5,
 		type = 5,
 		name = "비스커 장비상자 T5",
@@ -4758,7 +4774,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30031] = {
-		display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능:\nNormal 등급 장비가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#3dc6ff>자오중공 장비상자 T2</color>로 합성 가능.",
+		display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능\nNormal 등급 장비가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#3dc6ff>자오중공 장비상자 T2</color>로 합성 가능.",
 		rarity = 1,
 		type = 5,
 		name = "자오중공 장비상자 T1",
@@ -4777,7 +4793,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30032] = {
-		display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#d797ff>자오중공 장비상자 T3</color>로 합성 가능.",
+		display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#d797ff>자오중공 장비상자 T3</color>로 합성 가능.",
 		rarity = 2,
 		type = 5,
 		name = "자오중공 장비상자 T2",
@@ -4796,7 +4812,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30033] = {
-		display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.",
+		display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.",
 		rarity = 3,
 		type = 5,
 		name = "자오중공 장비상자 T3",
@@ -4815,7 +4831,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30034] = {
-		display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#ffde38>SS Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.",
+		display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#ffde38>SS Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.",
 		rarity = 4,
 		type = 5,
 		name = "자오중공 장비상자 T4",
@@ -4834,7 +4850,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30035] = {
-		display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능:\n<color=#ffde38>SS Rare 등급 장비</color>가 출현한다.",
+		display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능\n<color=#ffde38>SS Rare 등급 장비</color>가 출현한다.",
 		rarity = 5,
 		type = 5,
 		name = "자오중공 장비상자 T5",
@@ -4853,7 +4869,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30041] = {
-		display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능:\nNormal 등급 장비가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#3dc6ff>크라프 장비상자 T2</color>로 합성 가능.",
+		display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능\nNormal 등급 장비가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#3dc6ff>크라프 장비상자 T2</color>로 합성 가능.",
 		rarity = 1,
 		type = 5,
 		name = "크라프 장비상자 T1",
@@ -4872,7 +4888,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30042] = {
-		display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#d797ff>크라프 장비상자 T3</color>로 합성 가능.",
+		display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#d797ff>크라프 장비상자 T3</color>로 합성 가능.",
 		rarity = 2,
 		type = 5,
 		name = "크라프 장비상자 T2",
@@ -4891,7 +4907,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30043] = {
-		display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.",
+		display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.",
 		rarity = 3,
 		type = 5,
 		name = "크라프 장비상자 T3",
@@ -4910,7 +4926,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30044] = {
-		display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#ffde38>SS Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.",
+		display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#ffde38>SS Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.",
 		rarity = 4,
 		type = 5,
 		name = "크라프 장비상자 T4",
@@ -4929,7 +4945,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30045] = {
-		display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능:\n<color=#ffde38>SS Rare 등급 장비</color>가 출현한다.",
+		display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능\n<color=#ffde38>SS Rare 등급 장비</color>가 출현한다.",
 		rarity = 5,
 		type = 5,
 		name = "크라프 장비상자 T5",
@@ -61182,6 +61198,7 @@ pg.item_data_statistics = {
 		1007,
 		1008,
 		1009,
+		1010,
 		10000,
 		10001,
 		10002,

@@ -153,6 +153,10 @@ function OnApplicationExit()
 		return
 	end
 
+	if pg.goldExchangeMgr then
+		pg.goldExchangeMgr:willExit()
+	end
+
 	slot11:onBackPressed()
 end
 
@@ -286,6 +290,7 @@ function getDeviceId()
 	return pg.SDKMgr.GetInstance():getDeviceModel() or ""
 end
 
+pg.goldExchangeMgr = nil
 slot2 = os.clock()
 
 seriesAsync({

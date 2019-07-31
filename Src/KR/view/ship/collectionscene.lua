@@ -28,6 +28,10 @@ function slot0.getUIName(slot0)
 	return "collectionui"
 end
 
+function slot0.getBGM(slot0)
+	return "main"
+end
+
 function slot0.setShipGroups(slot0, slot1)
 	slot0.shipGroups = slot1
 end

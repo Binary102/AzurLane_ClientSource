@@ -1,5 +1,5 @@
 slot0 = class("ChapterConst")
-slot0.__DEBUG__ = true
+slot0.__DEBUG__ = false
 slot0.ExitFromChapter = 0
 slot0.ExitFromMap = 1
 slot0.TypeNone = 0

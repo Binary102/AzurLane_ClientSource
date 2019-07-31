@@ -332,13 +332,18 @@ end
 
 function slot0.equipmentEnhance(slot0, slot1)
 	slot2 = 1
+	slot3 = slot1.config.label
 
-	if slot0.type and not table.contains(slot0.type, slot1.config.type) then
-		slot2 = slot2 * 0
-	end
+	if slot0.label then
+		slot2 = 1
 
-	if slot0.nationality and not table.contains(slot0.nationality, slot1.config.nationality) then
-		slot2 = slot2 * 0
+		for slot7, slot8 in ipairs(slot0.label) do
+			if not table.contains(slot3, slot8) then
+				slot2 = 0
+
+				break
+			end
+		end
 	end
 
 	return slot2 == 1

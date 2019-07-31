@@ -416,6 +416,10 @@ pg.skill_data_display = {
 		id = 5080,
 		name = "Chevalier's Sabre "
 	},
+	[5111] = {
+		id = 5111,
+		name = "One For All "
+	},
 	[6000] = {
 		id = 6000,
 		name = "Beaver Squad"
@@ -1664,6 +1668,98 @@ pg.skill_data_display = {
 		id = 12421,
 		name = "Londinium"
 	},
+	[12430] = {
+		id = 12430,
+		name = "Lucky A"
+	},
+	[12431] = {
+		id = 12431,
+		name = "Lucky A"
+	},
+	[12432] = {
+		id = 12432,
+		name = "Lucky A"
+	},
+	[12435] = {
+		id = 12435,
+		name = "Lucky A"
+	},
+	[12440] = {
+		id = 12440,
+		name = "Just Gettin' Fired Up "
+	},
+	[12443] = {
+		id = 12443,
+		name = "Just Gettin' Fired Up "
+	},
+	[12444] = {
+		id = 12444,
+		name = "Just Gettin' Fired Up "
+	},
+	[12460] = {
+		id = 12460,
+		name = "Just Gettin' Fired Up "
+	},
+	[12461] = {
+		id = 12461,
+		name = "Just Gettin' Fired Up "
+	},
+	[12470] = {
+		id = 12470,
+		name = "Double The Gato "
+	},
+	[12471] = {
+		id = 12471,
+		name = "Double The Gato "
+	},
+	[12472] = {
+		id = 12472,
+		name = "Double The Gato "
+	},
+	[12480] = {
+		id = 12480,
+		name = "APsolute Ammunition "
+	},
+	[12490] = {
+		id = 12490,
+		name = "Adaptive Tactics "
+	},
+	[12491] = {
+		id = 12491,
+		name = "Adaptive Tactics "
+	},
+	[12500] = {
+		id = 12500,
+		name = "Hellcat's Roar "
+	},
+	[12501] = {
+		id = 12501,
+		name = "Hellcat's Roar "
+	},
+	[12520] = {
+		id = 12520,
+		name = "Tenacious Knight of the Sea "
+	},
+	[12521] = {
+		id = 12521,
+		name = "Tenacious Knight of the Sea "
+	},
+	[12530] = {
+		id = 12530,
+		name = "Resolute Knight of the Sea "
+	},
+	[12531] = {
+		id = 12531,
+		name = "Resolute Knight of the Sea "
+	},
+	[12540] = {
+		id = 12540,
+		name = "I'll Handle This! "
+	},
+	[12541] = {
+		id = 12541,
+		name = "I'll Handle This! "
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shell +"
@@ -2704,6 +2800,14 @@ pg.skill_data_display = {
 		id = 29432,
 		name = "All Out Assault Ⅱ"
 	},
+	[29441] = {
+		id = 29441,
+		name = "All Out Assault Ⅰ"
+	},
+	[29442] = {
+		id = 29442,
+		name = "All Out Assault Ⅱ"
+	},
 	[101010] = {
 		id = 101010,
 		name = "Protagonist Aura"
@@ -2941,6 +3045,7 @@ pg.skill_data_display = {
 		5070,
 		5081,
 		5080,
+		5111,
 		6000,
 		6010,
 		6020,
@@ -3253,6 +3358,29 @@ pg.skill_data_display = {
 		12411,
 		12420,
 		12421,
+		12430,
+		12431,
+		12432,
+		12435,
+		12440,
+		12443,
+		12444,
+		12460,
+		12461,
+		12470,
+		12471,
+		12472,
+		12480,
+		12490,
+		12491,
+		12500,
+		12501,
+		12520,
+		12521,
+		12530,
+		12531,
+		12540,
+		12541,
 		18010,
 		18040,
 		18041,
@@ -3513,6 +3641,8 @@ pg.skill_data_display = {
 		29422,
 		29431,
 		29432,
+		29441,
+		29442,
 		101010,
 		101020,
 		101030,

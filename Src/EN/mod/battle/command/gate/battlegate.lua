@@ -14,7 +14,8 @@ slot0.Gates = {
 	[SYSTEM_CHALLENGE] = ys.Battle.BattleGateChallenge,
 	[SYSTEM_WORLD] = ys.Battle.BattleGateWorld,
 	[SYSTEM_GUILD] = ys.Battle.BattleGateGuild,
-	[SYSTEM_DEBUG] = ys.Battle.BattleGateDebug
+	[SYSTEM_DEBUG] = ys.Battle.BattleGateDebug,
+	[SYSTEM_TEST] = ys.Battle.BattleGateTest
 }
 
 return slot0

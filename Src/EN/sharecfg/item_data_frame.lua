@@ -16,9 +16,18 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Red blood and cold iron temper our indomitable will.</color>\nAvailable from achievements in The \"Scherzo of Iron and Blood\" event!",
 		scene = {}
 	},
+	[303] = {
+		name = "Wings of Freedom",
+		time_second = 0,
+		id = 303,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>\"For our azure freedom! God bless the Eagle Union!\"</color>\nAvailable during the \"Ashen Simulacrum\" event.",
+		scene = {}
+	},
 	all = {
 		0,
-		302
+		302,
+		303
 	}
 }
 

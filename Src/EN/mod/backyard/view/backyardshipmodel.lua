@@ -2221,29 +2221,6 @@ function slot5(slot0, slot1)
 	slot2 = slot2.furnitureModals
 	slot3 = slot1.id
 	slot2 = slot2[slot3]
-	slot4 = slot1
-	slot3 = slot1.hasSpineShipBodyMask
-	slot3 = slot3(slot4)
-
-	if slot3 then
-		slot4 = slot1
-		slot3 = slot1.getSpineShipBodyMask
-		slot3 = slot3(slot4)
-		slot5 = slot0
-		slot4 = slot0.showBodyMask
-		slot6 = slot3
-		slot7 = slot1.dir
-
-		slot4(slot5, slot6, slot7)
-	end
-
-	slot4 = slot0
-	slot3 = slot0.changeInnerDir
-	slot5 = slot2.localScale
-	slot5 = slot5.x
-
-	slot3(slot4, slot5)
-
 	slot4 = slot0
 	slot3 = slot0.updateModelDir
 

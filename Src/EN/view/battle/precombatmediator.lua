@@ -67,6 +67,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.OPEN_SHIP_INFO, function (slot0, slot1, slot2)
 		slot0.contextData.form = PreCombatLayer.FORM_EDIT
+		slot0.contextData.fleetID = slot2.id
 		slot3 = {}
 
 		for slot7, slot8 in ipairs(slot2:getShipIds()) do

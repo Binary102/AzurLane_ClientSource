@@ -15,22 +15,62 @@ class("ChapterOpCommand", import(".ChapterOpRoutine")).execute = function (slot0
 		pg.TipsMgr:GetInstance():ShowTips(i18n("formation_switch_success", slot4.fleet.name))
 
 		return
-	elseif slot2.type == ChapterConst.OpRetreat and getProxy(ChapterProxy):getActiveChapter() and slot4:getFleetById(slot2.id) and slot5:getFleetType() == FleetType.Submarine then
-		_.each(slot4.fleets, function (slot0)
-			if slot0.id ~= slot0.id then
-				table.insert(table.insert, slot0)
+	elseif slot2.type == ChapterConst.OpRetreat then
+		if getProxy(ChapterProxy):getActiveChapter() and slot4:getFleetById(slot2.id) and slot5:getFleetType() == FleetType.Submarine then
+			_.each(slot4.fleets, function (slot0)
+				if slot0.id ~= slot0.id then
+					table.insert(table.insert, slot0)
+				end
+			end)
+
+			slot4.fleets = {}
+
+			slot3:updateChapter(slot4, bit.bor(ChapterConst.DirtyFleet, ChapterConst.DirtyAttachment, ChapterConst.DirtyChampion, ChapterConst.DirtyStrategy))
+			slot0:sendNotification(GAME.CHAPTER_OP_DONE, {
+				type = slot2.type,
+				id = slot5.id
+			})
+
+			return
+		end
+	elseif slot2.type == ChapterConst.OpSkipBattle then
+		slot4 = getProxy(ChapterProxy).getActiveChapter(slot3)
+		slot7 = nil
+
+		if slot4:existChampion(slot4.fleet.line.row, slot4.fleet.line.column) then
+			slot8 = slot4:getChampion(slot6.row, slot6.column)
+
+			slot8:Iter()
+
+			slot7 = slot8.attachment
+
+			if slot8.flag == 1 and slot5 then
+				slot5.defeatEnemies = slot5.defeatEnemies + 1
+				slot4.defeatEnemies = slot4.defeatEnemies + 1
+
+				slot4:RemoveChampion(slot8)
 			end
-		end)
+		else
+			slot8 = slot4:getChapterCell(slot6.row, slot6.column)
+			slot8.flag = 1
 
-		slot4.fleets = {}
+			slot4:updateChapterCell(slot8)
 
-		slot3:updateChapter(slot4, bit.bor(ChapterConst.DirtyFleet, ChapterConst.DirtyAttachment, ChapterConst.DirtyChampion, ChapterConst.DirtyStrategy))
-		slot0:sendNotification(GAME.CHAPTER_OP_DONE, {
-			type = slot2.type,
-			id = slot5.id
-		})
+			slot7 = slot8.attachment
 
-		return
+			if slot5 then
+				slot5.defeatEnemies = slot5.defeatEnemies + 1
+				slot4.defeatEnemies = slot4.defeatEnemies + 1
+			end
+		end
+
+		if slot7 ~= ChapterConst.AttachAmbush and _.detect(slot4.achieves, function (slot0)
+			return slot0.type == ChapterConst.AchieveType2
+		end) then
+			slot8.count = slot8.count + 1
+		end
+
+		slot3:updateChapter(slot4)
 	end
 
 	pg.ConnectionMgr.GetInstance():Send(13103, {
@@ -53,7 +93,7 @@ class("ChapterOpCommand", import(".ChapterOpRoutine")).execute = function (slot0
 
 				if slot1.type == ChapterConst.OpRetreat then
 					if slot3:getPlayType() == ChapterConst.TypeMainSub and (slot1.win or not slot3:isValid()) then
-						slot3:retreat()
+						slot3:retreat(slot1.win)
 						slot3:clearSubChapter()
 						slot2:updateChapter(slot3)
 						slot0:sendNotification(GAME.CHAPTER_OP_DONE, {
@@ -109,6 +149,7 @@ class("ChapterOpCommand", import(".ChapterOpRoutine")).execute = function (slot0
 					items = slot0.items,
 					exittype = slot1.exittype or 0,
 					aiActs = slot0.aiActs,
+					extraFlag = slot0.extraFlag or 0,
 					oldLine = slot1.ordLine,
 					extraFlagRemoveList = slot0.del_flag_list,
 					extraFlagAddList = slot0.add_flag_list,

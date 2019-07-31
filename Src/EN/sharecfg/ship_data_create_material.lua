@@ -71,11 +71,10 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Elite</color>：12%",
 			"<color=#3dc6ff>Rare</color>：51%",
 			"Common：30%",
-			"<color=#ffde38>U-101</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>I-168</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>I-56</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>I-25</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>U-522</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>Alabama</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Baltimore</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>Birmingham</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#3dc6ff>Aylwin</color>：5.0%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

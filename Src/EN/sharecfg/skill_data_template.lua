@@ -5565,6 +5565,109 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[5111] = {
+		desc_get = "",
+		name = "One For All ",
+		desc = "While this ship is in the first or last position in the Main Fleet: increases RLD by $1 for all CVs and CVLs in your fleet (excluding this ship) and increases AA by $2 for your Main Fleet. ",
+		type = 3,
+		max_level = 10,
+		id = 5111,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5%",
+				"15%"
+			},
+			{
+				"20",
+				"50"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"20.0",
+					"+3"
+				},
+				{
+					"23",
+					"+3"
+				},
+				{
+					"26",
+					"+4"
+				},
+				{
+					"30",
+					"+3"
+				},
+				{
+					"33",
+					"+3"
+				},
+				{
+					"36",
+					"+4"
+				},
+				{
+					"40",
+					"+3"
+				},
+				{
+					"43",
+					"+3"
+				},
+				{
+					"46",
+					"+4"
+				},
+				{
+					"50.0"
+				}
+			}
+		}
+	},
 	[6000] = {
 		desc_get = "",
 		name = "Beaver Squad",
@@ -22584,6 +22687,1132 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[12430] = {
+		desc_get = "",
+		name = "Lucky A",
+		desc = "While this ship is afloat: increases this ship's EVA by $1 and decreases DMG taken from enemy torpedoes by $2 for your Main Fleet. Every 20s: $3 chance to fire a special barrage. Barrage DMG is based on the skill's level.",
+		type = 1,
+		max_level = 10,
+		id = 12430,
+		system_transform = {
+			[3.0] = 12435
+		},
+		desc_get_add = {
+			{
+				"3",
+				"12"
+			},
+			{
+				"5.0%",
+				"20.0%"
+			},
+			{
+				"45.0%",
+				"75.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"3",
+					"+1"
+				},
+				{
+					"4",
+					"+1"
+				},
+				{
+					"5",
+					"+1%"
+				},
+				{
+					"6",
+					"+1"
+				},
+				{
+					"7",
+					"+1"
+				},
+				{
+					"8",
+					"+1"
+				},
+				{
+					"9",
+					"+1"
+				},
+				{
+					"10",
+					"+1"
+				},
+				{
+					"11",
+					"+1"
+				},
+				{
+					"12"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.2%"
+				},
+				{
+					"6.2%",
+					"+1.2%"
+				},
+				{
+					"7.4%",
+					"+1.6%"
+				},
+				{
+					"9.0%",
+					"+1.5%"
+				},
+				{
+					"10.5%",
+					"+1.5%"
+				},
+				{
+					"12.0%",
+					"+2.0%"
+				},
+				{
+					"14.0%",
+					"+1.8%"
+				},
+				{
+					"15.8%",
+					"+1.8%"
+				},
+				{
+					"17.6%",
+					"+2.4%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"45.0%",
+					"+3.3%"
+				},
+				{
+					"48.3%",
+					"+3.3%"
+				},
+				{
+					"51.6%",
+					"+3.3%"
+				},
+				{
+					"54.9%",
+					"+3.3%"
+				},
+				{
+					"58.2%",
+					"+3.3%"
+				},
+				{
+					"61.5%",
+					"+3.3%"
+				},
+				{
+					"64.8%",
+					"+3.3%"
+				},
+				{
+					"68.1%",
+					"+3.3%"
+				},
+				{
+					"71.4%",
+					"+3.6%"
+				},
+				{
+					"75.0%"
+				}
+			}
+		}
+	},
+	[12440] = {
+		desc_get = "",
+		name = "Just Gettin' Fired Up",
+		desc = "Every time the fleet this ship is in sinks an enemy fleet on the map: increases this ship's FP and AA by $1 (can be stacked up to 7 times.) When this buff has been fully stacked: decreases the DMG your Main Fleet takes by $2.",
+		type = 1,
+		max_level = 10,
+		id = 12440,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"1.0%",
+				"2.5%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.1%"
+				},
+				{
+					"1.1%",
+					"+0.1%"
+				},
+				{
+					"1.2%",
+					"+0.1%"
+				},
+				{
+					"1.3%",
+					"+0.15%"
+				},
+				{
+					"1.45%",
+					"+0.15%"
+				},
+				{
+					"1.6%",
+					"+0.15%"
+				},
+				{
+					"1.75%",
+					"+0.2%"
+				},
+				{
+					"1.95%",
+					"+0.25%"
+				},
+				{
+					"2.2%",
+					"+0.3%"
+				},
+				{
+					"2.5%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	},
+	[12460] = {
+		desc_get = "",
+		name = "Guardian Piscis",
+		desc = "Decreases the DMG your SSs and SSVs take by $1. When this boat retreats from battle: this boat heals itself for $2 of its max HP.",
+		type = 2,
+		max_level = 10,
+		id = 12460,
+		system_transform = {
+			[11.0] = 3500
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"15.0%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+0.4%"
+				},
+				{
+					"10.4%",
+					"+0.4%"
+				},
+				{
+					"10.8%",
+					"+0.7%"
+				},
+				{
+					"11.5%",
+					"+0.4%"
+				},
+				{
+					"11.9%",
+					"+0.4%"
+				},
+				{
+					"12.3%",
+					"+0.7%"
+				},
+				{
+					"13.0%",
+					"+0.6%"
+				},
+				{
+					"13.6%",
+					"+0.6%"
+				},
+				{
+					"14.2%",
+					"+0.8%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	},
+	[12470] = {
+		desc_get = "",
+		name = "Double The Gato",
+		desc = "Increases this boat's DMG to enemy CVs by $1. When this boat resurfaces and when it retreats: fires a special torpedo barrage $2 (DMG is based on the skill's level.) When sortied with Albacore: increases the DMG of this boat's skill-procced torpedoes by $3.",
+		type = 1,
+		max_level = 10,
+		id = 12470,
+		system_transform = {
+			[11.0] = 3500
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"20.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.2%"
+				},
+				{
+					"6.2%",
+					"+1.2%"
+				},
+				{
+					"7.4%",
+					"+1.6%"
+				},
+				{
+					"9.0%",
+					"+1.5%"
+				},
+				{
+					"10.5%",
+					"+1.5%"
+				},
+				{
+					"12.0%",
+					"+2.0%"
+				},
+				{
+					"14.0%",
+					"+1.8%"
+				},
+				{
+					"15.8%",
+					"+1.8%"
+				},
+				{
+					"17.6%",
+					"+2.4%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[12480] = {
+		desc_get = "",
+		name = "APsolute Ammunition",
+		desc = "Changes the ammo type of this ship's Main Guns to Special AP $1. The DMG bonus of this ammo is based on the skill's level.",
+		type = 1,
+		max_level = 10,
+		id = 12480,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[12490] = {
+		desc_get = "",
+		name = "Adaptive Tactics",
+		desc = "When sortied with Eagle Union CVs or CVLs: increases your fleet's AA by $1 and increases Eagle Union CVs and CVLs' AVI by $2. If sortied without Eagle Union CVs or CLs: increases this ship's FP by $3 and EVA by $2. ",
+		type = 3,
+		max_level = 10,
+		id = 12490,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"2.5%",
+				"7.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	},
+	[12500] = {
+		desc_get = "",
+		name = "Hellcat's Roar",
+		desc = "While this ship has an F6F Hellcat equipped: increases the gear efficiency of this ship's Fighters by $1 and, when this ship launches an Airstrike, this ship has a $2 chance to launch an additional F6F Hellcat airstrike.",
+		type = 1,
+		max_level = 10,
+		id = 12500,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"10.0%",
+				"30.0%"
+			},
+			{
+				"45.0%",
+				"75.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+2.2%"
+				},
+				{
+					"12.2%",
+					"+2.2%"
+				},
+				{
+					"14.4%",
+					"+2.2%"
+				},
+				{
+					"16.6%",
+					"+2.2%"
+				},
+				{
+					"18.8%",
+					"+2.2%"
+				},
+				{
+					"21.0%",
+					"+2.2%"
+				},
+				{
+					"23.2%",
+					"+2.2%"
+				},
+				{
+					"25.4%",
+					"+2.2%"
+				},
+				{
+					"27.6%",
+					"+2.4%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"45.0%",
+					"+3.3%"
+				},
+				{
+					"48.3%",
+					"+3.3%"
+				},
+				{
+					"51.6%",
+					"+3.3%"
+				},
+				{
+					"54.9%",
+					"+3.3%"
+				},
+				{
+					"58.2%",
+					"+3.3%"
+				},
+				{
+					"61.5%",
+					"+3.3%"
+				},
+				{
+					"64.8%",
+					"+3.3%"
+				},
+				{
+					"68.1%",
+					"+3.3%"
+				},
+				{
+					"71.4%",
+					"+3.6%"
+				},
+				{
+					"75.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[12520] = {
+		desc_get = "",
+		name = "Tenacious Knight of the Sea",
+		desc = "While this ship is afloat: decreases Burn Duration by 3s for this ship and your Flagship. When an enemy aircraft is shot down within your fleet's Anti-Air Gun range: increases this ship's FP and AA by $1 for 8s. Effect does not stack.",
+		type = 1,
+		max_level = 10,
+		id = 12520,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[12530] = {
+		desc_get = "",
+		name = "Resolute Knight of the Sea",
+		desc = "When this ship takes DMG: $1 chance to increase this ship's EVA by $2 for 5s. Has an 8s cooldown between activations. Once per battle, when this ship's HP has fallen below 30.0%: this ship evades all enemy attacks for 5s. ",
+		type = 2,
+		max_level = 10,
+		id = 12530,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"20.0%",
+				"40.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			}
+		}
+	},
+	[12540] = {
+		desc_get = "",
+		name = "I'll Handle This!",
+		desc = "When this ship fires its Anti-Air Guns: 25.0% to increase AA by $1 for 5s for all Eagle Union ships in your fleet. Every 13 times this ship's Main Guns hit an enemy: increases this ship's FP by $2. Can be stacked up to 3 times.",
+		type = 3,
+		max_level = 10,
+		id = 12540,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"15.0%",
+				"30.0%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shell +",
@@ -26411,6 +27640,28 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[29441] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Cavalla immediately after entering the battle.",
+		type = 1,
+		max_level = 1,
+		id = 29441,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29442] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Cavalla immediately after entering the battle.",
+		type = 1,
+		max_level = 1,
+		id = 29442,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[101010] = {
 		desc_get = "",
 		name = "Protagonist Aura",
@@ -28454,6 +29705,7 @@ pg.skill_data_template = {
 		5061,
 		5071,
 		5081,
+		5111,
 		6000,
 		6010,
 		6020,
@@ -28721,6 +29973,16 @@ pg.skill_data_template = {
 		12400,
 		12410,
 		12420,
+		12430,
+		12440,
+		12460,
+		12470,
+		12480,
+		12490,
+		12500,
+		12520,
+		12530,
+		12540,
 		18010,
 		18040,
 		18050,
@@ -28976,6 +30238,8 @@ pg.skill_data_template = {
 		29422,
 		29431,
 		29432,
+		29441,
+		29442,
 		101010,
 		101020,
 		101030,

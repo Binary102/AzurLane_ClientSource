@@ -252,6 +252,518 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[101021] = {
+		name = "Dewey",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 101021,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Dewey",
+		skin_id = 101020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			265,
+			14,
+			52,
+			34,
+			0,
+			69,
+			0,
+			63,
+			60,
+			44.4,
+			72,
+			45
+		},
+		attrs_growth = {
+			6475,
+			136,
+			512,
+			676,
+			0,
+			344,
+			0,
+			936,
+			888,
+			0,
+			0,
+			444
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.2,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[101022] = {
+		name = "Dewey",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 101022,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Dewey",
+		skin_id = 101020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			330,
+			17,
+			65,
+			42,
+			0,
+			69,
+			0,
+			63,
+			60,
+			44.4,
+			72,
+			56
+		},
+		attrs_growth = {
+			6475,
+			136,
+			512,
+			676,
+			0,
+			344,
+			0,
+			936,
+			888,
+			0,
+			0,
+			444
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.12,
+			1.22,
+			1.22
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[101023] = {
+		name = "Dewey",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 101023,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Dewey",
+		skin_id = 101020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			459,
+			24,
+			90,
+			59,
+			0,
+			69,
+			0,
+			63,
+			60,
+			44.4,
+			72,
+			78
+		},
+		attrs_growth = {
+			6475,
+			136,
+			512,
+			676,
+			0,
+			344,
+			0,
+			936,
+			888,
+			0,
+			0,
+			444
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.25,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[101024] = {
+		name = "Dewey",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 101024,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Dewey",
+		skin_id = 101020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			654,
+			34,
+			129,
+			85,
+			0,
+			69,
+			0,
+			63,
+			60,
+			44.4,
+			72,
+			112
+		},
+		attrs_growth = {
+			6475,
+			136,
+			512,
+			676,
+			0,
+			344,
+			0,
+			936,
+			888,
+			0,
+			0,
+			444
+		},
+		attrs_growth_extra = {
+			6475,
+			322,
+			1127,
+			457,
+			0,
+			819,
+			0,
+			-549,
+			-621,
+			0,
+			0,
+			447
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.3,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[101031] = {
 		name = "Cassin",
 		type = 1,
@@ -13148,6 +13660,518 @@ pg.ship_data_statistics = {
 			"Fletcher"
 		}
 	},
+	[101401] = {
+		name = "Aylwin",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 101401,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Aylwin",
+		skin_id = 101400,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			271,
+			15,
+			52,
+			34,
+			0,
+			73,
+			0,
+			63,
+			60,
+			44.4,
+			83,
+			48
+		},
+		attrs_growth = {
+			6605,
+			148,
+			510,
+			668,
+			0,
+			364,
+			0,
+			936,
+			888,
+			0,
+			0,
+			478
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.2,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[101402] = {
+		name = "Aylwin",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 101402,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Aylwin",
+		skin_id = 101400,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			337,
+			19,
+			65,
+			42,
+			0,
+			73,
+			0,
+			63,
+			60,
+			44.4,
+			83,
+			60
+		},
+		attrs_growth = {
+			6605,
+			148,
+			510,
+			668,
+			0,
+			364,
+			0,
+			936,
+			888,
+			0,
+			0,
+			478
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.12,
+			1.22,
+			1.22
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[101403] = {
+		name = "Aylwin",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 101403,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Aylwin",
+		skin_id = 101400,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			469,
+			26,
+			90,
+			59,
+			0,
+			73,
+			0,
+			63,
+			60,
+			44.4,
+			83,
+			84
+		},
+		attrs_growth = {
+			6605,
+			148,
+			510,
+			668,
+			0,
+			364,
+			0,
+			936,
+			888,
+			0,
+			0,
+			478
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.25,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[101404] = {
+		name = "Aylwin",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 101404,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Aylwin",
+		skin_id = 101400,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			667,
+			37,
+			129,
+			84,
+			0,
+			73,
+			0,
+			63,
+			60,
+			44.4,
+			83,
+			120
+		},
+		attrs_growth = {
+			6605,
+			148,
+			510,
+			668,
+			0,
+			364,
+			0,
+			936,
+			888,
+			0,
+			0,
+			478
+		},
+		attrs_growth_extra = {
+			6595,
+			347,
+			1129,
+			457,
+			0,
+			866,
+			0,
+			-549,
+			-621,
+			0,
+			0,
+			449
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.3,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[102011] = {
 		name = "Omaha",
 		type = 2,
@@ -23604,6 +24628,1054 @@ pg.ship_data_statistics = {
 			"Cleveland-Chan"
 		}
 	},
+	[102221] = {
+		name = "San Juan",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 102221,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS San Juan",
+		skin_id = 102220,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			605,
+			24,
+			29,
+			83,
+			0,
+			66,
+			0,
+			58,
+			28,
+			32.5,
+			77,
+			45
+		},
+		attrs_growth = {
+			14745,
+			236,
+			286,
+			1620,
+			0,
+			326,
+			0,
+			852,
+			414,
+			0,
+			0,
+			450
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"D",
+			"E",
+			"B",
+			"S",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			201
+		},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.3,
+			1.4,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[102222] = {
+		name = "San Juan",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 102222,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS San Juan",
+		skin_id = 102220,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			752,
+			30,
+			36,
+			103,
+			0,
+			66,
+			0,
+			58,
+			28,
+			32.5,
+			77,
+			56
+		},
+		attrs_growth = {
+			14745,
+			236,
+			286,
+			1620,
+			0,
+			326,
+			0,
+			852,
+			414,
+			0,
+			0,
+			450
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"D",
+			"E",
+			"B",
+			"S",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			202
+		},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.3,
+			1.45,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[102223] = {
+		name = "San Juan",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 102223,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS San Juan",
+		skin_id = 102220,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1047,
+			42,
+			50,
+			144,
+			0,
+			66,
+			0,
+			58,
+			28,
+			32.5,
+			77,
+			79
+		},
+		attrs_growth = {
+			14745,
+			236,
+			286,
+			1620,
+			0,
+			326,
+			0,
+			852,
+			414,
+			0,
+			0,
+			450
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"D",
+			"E",
+			"B",
+			"S",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			203
+		},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.3,
+			1.55,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[102224] = {
+		name = "San Juan",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 102224,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS San Juan",
+		skin_id = 102220,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1490,
+			59,
+			72,
+			205,
+			0,
+			66,
+			0,
+			58,
+			28,
+			32.5,
+			77,
+			113
+		},
+		attrs_growth = {
+			14745,
+			236,
+			286,
+			1620,
+			0,
+			326,
+			0,
+			852,
+			414,
+			0,
+			0,
+			450
+		},
+		attrs_growth_extra = {
+			3686,
+			559,
+			682,
+			365,
+			0,
+			777,
+			0,
+			0,
+			626,
+			0,
+			0,
+			448
+		},
+		grades = {
+			"D",
+			"D",
+			"E",
+			"B",
+			"S",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			204
+		},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.35,
+			1.6,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[102231] = {
+		name = "Birmingham",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 102231,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Birmingham",
+		skin_id = 102230,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			730,
+			31,
+			0,
+			62,
+			0,
+			68,
+			0,
+			58,
+			29,
+			32.5,
+			48,
+			24
+		},
+		attrs_growth = {
+			17805,
+			306,
+			0,
+			1216,
+			0,
+			338,
+			0,
+			858,
+			432,
+			0,
+			0,
+			234
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.65,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Cleveland-Class"
+		}
+	},
+	[102232] = {
+		name = "Birmingham",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 102232,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Birmingham",
+		skin_id = 102230,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			908,
+			39,
+			0,
+			77,
+			0,
+			68,
+			0,
+			58,
+			29,
+			32.5,
+			48,
+			30
+		},
+		attrs_growth = {
+			17805,
+			306,
+			0,
+			1216,
+			0,
+			338,
+			0,
+			858,
+			432,
+			0,
+			0,
+			234
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.65,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Cleveland-Class"
+		}
+	},
+	[102233] = {
+		name = "Birmingham",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 102233,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Birmingham",
+		skin_id = 102230,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1264,
+			54,
+			0,
+			108,
+			0,
+			68,
+			0,
+			58,
+			29,
+			32.5,
+			48,
+			42
+		},
+		attrs_growth = {
+			17805,
+			306,
+			0,
+			1216,
+			0,
+			338,
+			0,
+			858,
+			432,
+			0,
+			0,
+			234
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			0.65,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Cleveland-Class"
+		}
+	},
+	[102234] = {
+		name = "Birmingham",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 102234,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Birmingham",
+		skin_id = 102230,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1798,
+			77,
+			0,
+			153,
+			0,
+			68,
+			0,
+			58,
+			29,
+			32.5,
+			48,
+			59
+		},
+		attrs_growth = {
+			17805,
+			306,
+			0,
+			1216,
+			0,
+			338,
+			0,
+			858,
+			432,
+			0,
+			0,
+			234
+		},
+		attrs_growth_extra = {
+			1780,
+			729,
+			0,
+			582,
+			0,
+			802,
+			0,
+			-6,
+			423,
+			0,
+			0,
+			337
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			0.65,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Cleveland-Class"
+		}
+	},
 	[103011] = {
 		name = "Pensacola",
 		type = 3,
@@ -29779,6 +31851,518 @@ pg.ship_data_statistics = {
 		tag_list = {
 			"Astoria-Class"
 		}
+	},
+	[103161] = {
+		name = "Baltimore",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 103161,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Baltimore",
+		skin_id = 103160,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			793,
+			50,
+			0,
+			49,
+			0,
+			68,
+			0,
+			45,
+			9,
+			26.4,
+			56,
+			0
+		},
+		attrs_growth = {
+			19335,
+			496,
+			0,
+			952,
+			0,
+			336,
+			0,
+			660,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.7,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[103162] = {
+		name = "Baltimore",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 103162,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Baltimore",
+		skin_id = 103160,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			986,
+			62,
+			0,
+			61,
+			0,
+			68,
+			0,
+			45,
+			9,
+			26.4,
+			56,
+			0
+		},
+		attrs_growth = {
+			19335,
+			496,
+			0,
+			952,
+			0,
+			336,
+			0,
+			660,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			0.7,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[103163] = {
+		name = "Baltimore",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 103163,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Baltimore",
+		skin_id = 103160,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1373,
+			87,
+			0,
+			85,
+			0,
+			68,
+			0,
+			45,
+			9,
+			26.4,
+			56,
+			0
+		},
+		attrs_growth = {
+			19335,
+			496,
+			0,
+			952,
+			0,
+			336,
+			0,
+			660,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			0.7,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[103164] = {
+		name = "Baltimore",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 103164,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Baltimore",
+		skin_id = 103160,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1953,
+			124,
+			0,
+			120,
+			0,
+			68,
+			0,
+			45,
+			9,
+			26.4,
+			56,
+			0
+		},
+		attrs_growth = {
+			19335,
+			496,
+			0,
+			952,
+			0,
+			336,
+			0,
+			660,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			3867,
+			1112,
+			0,
+			616,
+			0,
+			797,
+			0,
+			240,
+			1422,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			0.75,
+			1.35
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
 	},
 	[105011] = {
 		name = "Nevada",
@@ -36436,6 +39020,518 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[105201] = {
+		name = "Alabama",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 105201,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Alabama",
+		skin_id = 105200,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1303,
+			81,
+			0,
+			80,
+			0,
+			57,
+			0,
+			20,
+			7,
+			27.5,
+			86,
+			0
+		},
+		attrs_growth = {
+			31790,
+			804,
+			0,
+			1576,
+			0,
+			282,
+			0,
+			300,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"B",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105202] = {
+		name = "Alabama",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 105202,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Alabama",
+		skin_id = 105200,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1621,
+			101,
+			0,
+			100,
+			0,
+			57,
+			0,
+			20,
+			7,
+			27.5,
+			86,
+			0
+		},
+		attrs_growth = {
+			31790,
+			804,
+			0,
+			1576,
+			0,
+			282,
+			0,
+			300,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"B",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105203] = {
+		name = "Alabama",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 105203,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Alabama",
+		skin_id = 105200,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			2257,
+			141,
+			0,
+			139,
+			0,
+			57,
+			0,
+			20,
+			7,
+			27.5,
+			86,
+			0
+		},
+		attrs_growth = {
+			31790,
+			804,
+			0,
+			1576,
+			0,
+			282,
+			0,
+			300,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"B",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105204] = {
+		name = "Alabama",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 105204,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Alabama",
+		skin_id = 105200,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			3210,
+			202,
+			0,
+			198,
+			0,
+			57,
+			0,
+			20,
+			7,
+			27.5,
+			86,
+			0
+		},
+		attrs_growth = {
+			31790,
+			804,
+			0,
+			1576,
+			0,
+			282,
+			0,
+			300,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			17479,
+			877,
+			0,
+			-27,
+			0,
+			663,
+			0,
+			245,
+			577,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"B",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[106011] = {
 		name = "Long Island",
 		type = 6,
@@ -41540,6 +44636,1538 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[107091] = {
+		name = "Essex",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 107091,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Essex",
+		skin_id = 107090,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1108,
+			0,
+			0,
+			63,
+			83,
+			48,
+			0,
+			30,
+			13,
+			33,
+			90,
+			0
+		},
+		attrs_growth = {
+			27030,
+			0,
+			0,
+			1232,
+			822,
+			238,
+			0,
+			450,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.15,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107092] = {
+		name = "Essex",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 107092,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Essex",
+		skin_id = 107090,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1378,
+			0,
+			0,
+			78,
+			104,
+			48,
+			0,
+			30,
+			13,
+			33,
+			90,
+			0
+		},
+		attrs_growth = {
+			27030,
+			0,
+			0,
+			1232,
+			822,
+			238,
+			0,
+			450,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.28,
+			1.18,
+			1.08
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107093] = {
+		name = "Essex",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 107093,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Essex",
+		skin_id = 107090,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1919,
+			0,
+			0,
+			109,
+			145,
+			48,
+			0,
+			30,
+			13,
+			33,
+			90,
+			0
+		},
+		attrs_growth = {
+			27030,
+			0,
+			0,
+			1232,
+			822,
+			238,
+			0,
+			450,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.33,
+			1.23,
+			1.13
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107094] = {
+		name = "Essex",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 107094,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Essex",
+		skin_id = 107090,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2730,
+			0,
+			0,
+			155,
+			206,
+			48,
+			0,
+			30,
+			13,
+			33,
+			90,
+			0
+		},
+		attrs_growth = {
+			27030,
+			0,
+			0,
+			1232,
+			822,
+			238,
+			0,
+			450,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			16212,
+			0,
+			0,
+			576,
+			1166,
+			565,
+			0,
+			0,
+			762,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.3,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107291] = {
+		name = "Bataan ",
+		type = 6,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 107291,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Bataan",
+		skin_id = 107290,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			835,
+			0,
+			0,
+			52,
+			65,
+			73,
+			0,
+			29,
+			21,
+			31,
+			65,
+			17
+		},
+		attrs_growth = {
+			20370,
+			0,
+			0,
+			1016,
+			646,
+			364,
+			0,
+			432,
+			306,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.4,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107292] = {
+		name = "Baatan",
+		type = 6,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 107292,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Bataan",
+		skin_id = 107290,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1039,
+			0,
+			0,
+			65,
+			81,
+			73,
+			0,
+			29,
+			21,
+			31,
+			65,
+			21
+		},
+		attrs_growth = {
+			20370,
+			0,
+			0,
+			1016,
+			646,
+			364,
+			0,
+			432,
+			306,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.4,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107293] = {
+		name = "Baatan",
+		type = 6,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 107293,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Bataan",
+		skin_id = 107290,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1446,
+			0,
+			0,
+			90,
+			113,
+			73,
+			0,
+			29,
+			21,
+			31,
+			65,
+			30
+		},
+		attrs_growth = {
+			20370,
+			0,
+			0,
+			1016,
+			646,
+			364,
+			0,
+			432,
+			306,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.4,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107294] = {
+		name = "Baatan",
+		type = 6,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 107294,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Bataan",
+		skin_id = 107290,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2057,
+			0,
+			0,
+			128,
+			162,
+			73,
+			0,
+			29,
+			21,
+			31,
+			65,
+			43
+		},
+		attrs_growth = {
+			20370,
+			0,
+			0,
+			1016,
+			646,
+			364,
+			0,
+			432,
+			306,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			12216,
+			0,
+			0,
+			614,
+			1203,
+			866,
+			0,
+			223,
+			1049,
+			0,
+			0,
+			264
+		},
+		grades = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.55,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107381] = {
+		name = "Shangri-La",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 107381,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Shangri-La",
+		skin_id = 107380,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1108,
+			0,
+			0,
+			63,
+			82,
+			48,
+			0,
+			31,
+			13,
+			33,
+			83,
+			0
+		},
+		attrs_growth = {
+			27030,
+			0,
+			0,
+			1232,
+			816,
+			238,
+			0,
+			462,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.15,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107382] = {
+		name = "Shangri-La",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 107382,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Shangri-La",
+		skin_id = 107380,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1378,
+			0,
+			0,
+			78,
+			102,
+			48,
+			0,
+			31,
+			13,
+			33,
+			83,
+			0
+		},
+		attrs_growth = {
+			27030,
+			0,
+			0,
+			1232,
+			816,
+			238,
+			0,
+			462,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.28,
+			1.18,
+			1.03
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107383] = {
+		name = "Shangri-La",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 107383,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Shangri-La",
+		skin_id = 107380,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1919,
+			0,
+			0,
+			109,
+			143,
+			48,
+			0,
+			31,
+			13,
+			33,
+			83,
+			0
+		},
+		attrs_growth = {
+			27030,
+			0,
+			0,
+			1232,
+			816,
+			238,
+			0,
+			462,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.33,
+			1.23,
+			1.08
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107384] = {
+		name = "Shangri-La",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 107384,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Shangri-La",
+		skin_id = 107380,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2730,
+			0,
+			0,
+			155,
+			204,
+			48,
+			0,
+			31,
+			13,
+			33,
+			83,
+			0
+		},
+		attrs_growth = {
+			27030,
+			0,
+			0,
+			1232,
+			816,
+			238,
+			0,
+			462,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			16212,
+			0,
+			0,
+			576,
+			1170,
+			565,
+			0,
+			-2,
+			762,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.3,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[108011] = {
 		name = "Dace",
 		type = 8,
@@ -42711,7 +47339,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"Albacore"
+		}
 	},
 	[108022] = {
 		name = "Albacore ",
@@ -42952,7 +47582,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"Albacore"
+		}
 	},
 	[108023] = {
 		name = "Albacore ",
@@ -43193,7 +47825,9 @@ pg.ship_data_statistics = {
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {
+			"Albacore"
+		}
 	},
 	[108024] = {
 		name = "Albacore ",
@@ -43421,6 +48055,972 @@ pg.ship_data_statistics = {
 				{
 					3,
 					0
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					1,
+					3
+				}
+			}
+		},
+		tag_list = {
+			"Albacore"
+		}
+	},
+	[108031] = {
+		name = "Cavalla",
+		type = 8,
+		personality = 2,
+		oxy_max = 243,
+		oxy_cost = 10,
+		huntingrange_level = 1,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 4,
+		rarity = 5,
+		ammo = 2,
+		id = 108031,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "USS Cavalla",
+		skin_id = 108030,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			306,
+			12,
+			101,
+			0,
+			0,
+			34,
+			0,
+			66,
+			9,
+			16.8,
+			78,
+			0
+		},
+		attrs_growth = {
+			7465,
+			122,
+			1002,
+			0,
+			0,
+			170,
+			0,
+			972,
+			126,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.1,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					2
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					0,
+					-3
+				},
+				{
+					2,
+					-1
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					1,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[108032] = {
+		name = "Cavalla",
+		type = 8,
+		personality = 2,
+		oxy_max = 243,
+		oxy_cost = 10,
+		huntingrange_level = 1,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 4,
+		rarity = 5,
+		ammo = 2,
+		id = 108032,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "USS Cavalla",
+		skin_id = 108030,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			381,
+			15,
+			126,
+			0,
+			0,
+			34,
+			0,
+			66,
+			9,
+			16.8,
+			78,
+			0
+		},
+		attrs_growth = {
+			7465,
+			122,
+			1002,
+			0,
+			0,
+			170,
+			0,
+			972,
+			126,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.15,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					2
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					0,
+					-3
+				},
+				{
+					2,
+					-1
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					1,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[108033] = {
+		name = "Cavalla",
+		type = 8,
+		personality = 2,
+		oxy_max = 243,
+		oxy_cost = 10,
+		huntingrange_level = 2,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 4,
+		rarity = 5,
+		ammo = 2,
+		id = 108033,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "USS Cavalla",
+		skin_id = 108030,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			530,
+			21,
+			176,
+			0,
+			0,
+			34,
+			0,
+			66,
+			9,
+			16.8,
+			78,
+			0
+		},
+		attrs_growth = {
+			7465,
+			122,
+			1002,
+			0,
+			0,
+			170,
+			0,
+			972,
+			126,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.15,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					2
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					0,
+					-3
+				},
+				{
+					2,
+					-1
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					1,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[108034] = {
+		name = "Cavalla",
+		type = 8,
+		personality = 2,
+		oxy_max = 243,
+		oxy_cost = 10,
+		huntingrange_level = 2,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 4,
+		rarity = 5,
+		ammo = 2,
+		id = 108034,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "USS Cavalla",
+		skin_id = 108030,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			754,
+			30,
+			251,
+			0,
+			0,
+			34,
+			0,
+			66,
+			9,
+			16.8,
+			78,
+			0
+		},
+		attrs_growth = {
+			7465,
+			122,
+			1002,
+			0,
+			0,
+			170,
+			0,
+			972,
+			126,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			7465,
+			283,
+			1248,
+			0,
+			0,
+			400,
+			0,
+			6,
+			779,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.25,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					2
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					0
+				},
+				{
+					0,
+					-3
+				},
+				{
+					2,
+					-1
 				}
 			},
 			{
@@ -185303,6 +190903,10 @@ pg.ship_data_statistics = {
 	all = {
 		100001,
 		100011,
+		101021,
+		101022,
+		101023,
+		101024,
 		101031,
 		101032,
 		101033,
@@ -185403,6 +191007,10 @@ pg.ship_data_statistics = {
 		101392,
 		101393,
 		101394,
+		101401,
+		101402,
+		101403,
+		101404,
 		102011,
 		102012,
 		102013,
@@ -185483,6 +191091,14 @@ pg.ship_data_statistics = {
 		102212,
 		102213,
 		102214,
+		102221,
+		102222,
+		102223,
+		102224,
+		102231,
+		102232,
+		102233,
+		102234,
 		103011,
 		103012,
 		103013,
@@ -185531,6 +191147,10 @@ pg.ship_data_statistics = {
 		103132,
 		103133,
 		103134,
+		103161,
+		103162,
+		103163,
+		103164,
 		105011,
 		105012,
 		105013,
@@ -185583,6 +191203,10 @@ pg.ship_data_statistics = {
 		105192,
 		105193,
 		105194,
+		105201,
+		105202,
+		105203,
+		105204,
 		106011,
 		106012,
 		106013,
@@ -185623,6 +191247,18 @@ pg.ship_data_statistics = {
 		107082,
 		107083,
 		107084,
+		107091,
+		107092,
+		107093,
+		107094,
+		107291,
+		107292,
+		107293,
+		107294,
+		107381,
+		107382,
+		107383,
+		107384,
 		108011,
 		108012,
 		108013,
@@ -185631,6 +191267,10 @@ pg.ship_data_statistics = {
 		108022,
 		108023,
 		108024,
+		108031,
+		108032,
+		108033,
+		108034,
 		112011,
 		112012,
 		112013,

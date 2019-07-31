@@ -13,7 +13,7 @@ class("UpdateGuideIndexCommand", pm.SimpleCommand).execute = function (slot0, sl
 	pg.SeriesGuideMgr:GetInstance():setPlayer(slot5)
 
 	if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and pg.SeriesGuideMgr:GetInstance():isEnd() then
-		SendAiriJPTracking(AIRIJP_TRACKING_TUTORIAL_COMPLETE_1)
+		SendAiriJPTracking(AIRIJP_TRACKING_TUTORIAL_COMPLETE_1, slot5.id)
 	end
 
 	if slot4 then

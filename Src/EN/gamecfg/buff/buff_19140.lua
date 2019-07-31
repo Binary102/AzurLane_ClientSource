@@ -10,8 +10,8 @@ return {
 					check_indexList = {
 						2
 					},
-					type = {
-						2
+					label = {
+						"MG"
 					}
 				},
 				{
@@ -22,8 +22,8 @@ return {
 					check_indexList = {
 						2
 					},
-					type = {
-						6
+					label = {
+						"AA"
 					}
 				}
 			}
@@ -40,8 +40,8 @@ return {
 					check_indexList = {
 						2
 					},
-					type = {
-						2
+					label = {
+						"MG"
 					}
 				},
 				{
@@ -52,8 +52,8 @@ return {
 					check_indexList = {
 						2
 					},
-					type = {
-						6
+					label = {
+						"AA"
 					}
 				}
 			}
@@ -70,8 +70,8 @@ return {
 					check_indexList = {
 						2
 					},
-					type = {
-						2
+					label = {
+						"MG"
 					}
 				},
 				{
@@ -82,8 +82,8 @@ return {
 					check_indexList = {
 						2
 					},
-					type = {
-						6
+					label = {
+						"AA"
 					}
 				}
 			}
@@ -100,8 +100,8 @@ return {
 					check_indexList = {
 						2
 					},
-					type = {
-						2
+					label = {
+						"MG"
 					}
 				},
 				{
@@ -112,8 +112,8 @@ return {
 					check_indexList = {
 						2
 					},
-					type = {
-						6
+					label = {
+						"AA"
 					}
 				}
 			}
@@ -130,8 +130,8 @@ return {
 					check_indexList = {
 						2
 					},
-					type = {
-						2
+					label = {
+						"MG"
 					}
 				},
 				{
@@ -142,8 +142,8 @@ return {
 					check_indexList = {
 						2
 					},
-					type = {
-						6
+					label = {
+						"AA"
 					}
 				}
 			}
@@ -160,8 +160,8 @@ return {
 					check_indexList = {
 						2
 					},
-					type = {
-						2
+					label = {
+						"MG"
 					}
 				},
 				{
@@ -172,8 +172,8 @@ return {
 					check_indexList = {
 						2
 					},
-					type = {
-						6
+					label = {
+						"AA"
 					}
 				}
 			}
@@ -190,8 +190,8 @@ return {
 					check_indexList = {
 						2
 					},
-					type = {
-						2
+					label = {
+						"MG"
 					}
 				},
 				{
@@ -202,8 +202,8 @@ return {
 					check_indexList = {
 						2
 					},
-					type = {
-						6
+					label = {
+						"AA"
 					}
 				}
 			}
@@ -220,8 +220,8 @@ return {
 					check_indexList = {
 						2
 					},
-					type = {
-						2
+					label = {
+						"MG"
 					}
 				},
 				{
@@ -232,8 +232,8 @@ return {
 					check_indexList = {
 						2
 					},
-					type = {
-						6
+					label = {
+						"AA"
 					}
 				}
 			}
@@ -250,8 +250,8 @@ return {
 					check_indexList = {
 						2
 					},
-					type = {
-						2
+					label = {
+						"MG"
 					}
 				},
 				{
@@ -262,8 +262,8 @@ return {
 					check_indexList = {
 						2
 					},
-					type = {
-						6
+					label = {
+						"AA"
 					}
 				}
 			}
@@ -280,8 +280,8 @@ return {
 					check_indexList = {
 						2
 					},
-					type = {
-						2
+					label = {
+						"MG"
 					}
 				},
 				{
@@ -292,8 +292,8 @@ return {
 					check_indexList = {
 						2
 					},
-					type = {
-						6
+					label = {
+						"AA"
 					}
 				}
 			}

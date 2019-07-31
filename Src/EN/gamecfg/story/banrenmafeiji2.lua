@@ -82,11 +82,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#a9f548",
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = -1,
 			actor = 301151,
-			nameColor = "#a9f548",
+			actorName = "{namecode:17}",
 			say = "Javelin, huh?",
 			typewriter = {
 				speed = 0.05,
@@ -108,12 +109,29 @@ return {
 			}
 		},
 		{
+			nameColor = "#a9f548",
+			side = 1,
+			bgName = "star_level_bg_106",
+			dir = -1,
+			actor = 301151,
+			actorName = "{namecode:17}",
+			say = "Is that the newbie over there?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
 			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Is that the newbie over there?",
+			say = "That's right, I'm showing her around!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +148,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "That's right, I'm showing her around!",
+			say = "Good day, Elder Shigure, Elder Ping Hai.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,12 +159,13 @@ return {
 			}
 		},
 		{
-			say = "Good day, Elder Shigure, Elder Ping Hai.",
+			say = "Oh, I like this one already! If you ever need any advice, Shigure's got your back!",
 			side = 0,
 			bgName = "star_level_bg_106",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 301151,
-			nameColor = "#a9f548",
+			actorName = "{namecode:17}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -176,7 +195,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Oh, I like this one already! If you ever need any advice, Shigure's got your back!",
+			say = "Um... I don't remember seeing you at the kung fu school...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +211,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Um... I don't remember seeing you at the kung fu school...",
+			say = "Haha, don't worry about it~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,22 +227,6 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Haha, don't worry about it~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301151,
-			side = 0,
-			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "Elder Shigure's swimsuit... is very distinctive. It gives off a completely different vibe than swimsuits worn by the others...",
 			typewriter = {
 				speed = 0.05,
@@ -235,12 +238,30 @@ return {
 			}
 		},
 		{
-			actor = 301151,
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301151,
+			actorName = "{namecode:17}",
 			say = "You're talking about this? It's a school swimsuit! These are considered legendary where we're from!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 0,
+			bgName = "star_level_bg_106",
+			dir = 1,
+			actor = 301151,
+			actorName = "{namecode:17}",
+			say = "And, I'll let you into a little secret... Commander probably has a thing for these!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +277,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "And, I'll let you into a little secret... Commander probably has a thing for these!",
+			say = "Ehh?! Really?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,12 +298,13 @@ return {
 			}
 		},
 		{
-			say = "Ehh?! Really?",
+			say = "Who knows~? I promised Yamashiro that I'd go play with her, so I'm gonna head off. If you're interested in learning more, you know where to find me~",
 			side = 1,
 			bgName = "star_level_bg_106",
+			nameColor = "#a9f548",
 			dir = -1,
 			actor = 301151,
-			nameColor = "#a9f548",
+			actorName = "{namecode:17}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -302,7 +324,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Who knows~? I promised Yamashiro that I'd go play with her, so I'm gonna head off. If you're interested in learning more, you know where to find me~",
+			say = "It's a promise, then! Tell me more about it later!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,12 +335,13 @@ return {
 			}
 		},
 		{
-			actor = 301151,
+			nameColor = "#a9f548",
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "It's a promise, then! Tell me more about it later!",
+			actor = 301151,
+			actorName = "{namecode:17}",
+			say = "Sure, sure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +358,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "Sure, sure.",
+			say = "I had no idea the Sakura Empire had developed such a powerful secret weapon...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +374,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "I had no idea the Sakura Empire had developed such a powerful secret weapon...!",
+			say = "There sure seems to be a lot of mystique behind this \"school swimsuit...\" Um, Elder Javelin...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +401,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "There sure seems to be a lot of mystique behind this \"school swimsuit...\" Um, Elder Javelin...?",
+			say = "I-I'm totally fine! Just talking to myself! Anyway, let's continue the tour!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +417,7 @@ return {
 			dir = 1,
 			actor = 201212,
 			nameColor = "#a9f548",
-			say = "I-I'm totally fine! Just talking to myself! Anyway, let's continue the tour!",
+			say = "This is where the Royal Navy gathers! When it comes to swimsuits, the Sakura girls might be impressive, but we have nothing to fear as long as we have the invincible Hood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,22 +435,6 @@ return {
 					x = 0,
 					number = 2
 				}
-			}
-		},
-		{
-			actor = 201212,
-			side = 2,
-			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "This is where the Royal Navy gathers! When it comes to swimsuits, the Sakura girls might be impressive, but we have nothing to fear as long as we have the invincible Hood!",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
 			}
 		},
 		{

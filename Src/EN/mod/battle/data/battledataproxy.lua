@@ -139,6 +139,8 @@ function slot8.InitData(slot0, slot1)
 		slot0._repressEnemyHpRant = slot2.repressEnemyHpRant
 	end
 
+	slot0._chapterWinningStreak = slot0._battleInitData.DefeatCount or 0
+
 	slot0:InitStageData()
 
 	slot0._cldSystem = slot3.Battle.BattleCldSystem.New(slot0)
@@ -355,6 +357,10 @@ end
 
 function slot8.GetStageInfo(slot0)
 	return slot0._currentStageData
+end
+
+function slot8.GetWinningStreak(slot0)
+	return slot0._chapterWinningStreak
 end
 
 function slot8.GetDungeonLevel(slot0)

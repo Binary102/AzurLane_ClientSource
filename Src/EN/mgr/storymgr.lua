@@ -2980,6 +2980,23 @@ function slot17(slot0, slot1)
 					slot4(slot5, slot6)
 				end
 
+				slot3 = slot1
+				slot3 = slot3.paingtingGray
+
+				if slot3 then
+					slot3 = setGray
+					slot4 = slot0
+					slot5 = true
+
+					slot3(slot4, slot5)
+				else
+					slot3 = setGray
+					slot4 = slot0
+					slot5 = false
+
+					slot3(slot4, slot5)
+				end
+
 				slot3 = findTF
 				slot4 = slot0
 				slot5 = "shadow"

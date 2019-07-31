@@ -1,5 +1,16 @@
 pg = pg or {}
 pg.fleet_tech_ship_class = {
+	[10101] = {
+		shiptype = 1,
+		name = "Farragut-Class",
+		t_level = 3,
+		id = 10101,
+		t_level_1 = 1,
+		nation = 1,
+		ships = {
+			10140
+		}
+	},
 	[10102] = {
 		shiptype = 1,
 		name = "Mahan-Class",
@@ -95,7 +106,8 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			10206,
 			10207,
-			10208
+			10208,
+			10222
 		}
 	},
 	[10202] = {
@@ -109,7 +121,8 @@ pg.fleet_tech_ship_class = {
 			10209,
 			10210,
 			10214,
-			10215
+			10215,
+			10223
 		}
 	},
 	[10203] = {
@@ -203,6 +216,17 @@ pg.fleet_tech_ship_class = {
 			10310
 		}
 	},
+	[10306] = {
+		shiptype = 3,
+		name = "Baltimore-Class ",
+		t_level = 8,
+		id = 10306,
+		t_level_1 = 20,
+		nation = 1,
+		ships = {
+			10316
+		}
+	},
 	[10501] = {
 		shiptype = 5,
 		name = "Nevada-Class",
@@ -273,7 +297,8 @@ pg.fleet_tech_ship_class = {
 		nation = 1,
 		ships = {
 			10514,
-			10519
+			10519,
+			10520
 		}
 	},
 	[10601] = {
@@ -320,6 +345,17 @@ pg.fleet_tech_ship_class = {
 			10704
 		}
 	},
+	[10606] = {
+		shiptype = 6,
+		name = "Independence-Class",
+		t_level = 4,
+		id = 10606,
+		t_level_1 = 30,
+		nation = 1,
+		ships = {
+			10729
+		}
+	},
 	[10701] = {
 		shiptype = 7,
 		name = "Lexington-Class",
@@ -364,7 +400,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 32,
 		nation = 1,
 		ships = {
-			10801
+			10801,
+			10803
 		}
 	},
 	[11201] = {
@@ -1616,6 +1653,7 @@ pg.fleet_tech_ship_class = {
 		}
 	},
 	all = {
+		10101,
 		10102,
 		10103,
 		10104,
@@ -1631,6 +1669,7 @@ pg.fleet_tech_ship_class = {
 		10303,
 		10304,
 		10305,
+		10306,
 		10501,
 		10502,
 		10503,
@@ -1641,6 +1680,7 @@ pg.fleet_tech_ship_class = {
 		10602,
 		10604,
 		10605,
+		10606,
 		10701,
 		10702,
 		10703,

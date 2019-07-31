@@ -11,6 +11,8 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnDestroy(slot0)
+	slot0:clear()
+
 	slot0.onConfirm = nil
 	slot0.onCancel = nil
 
@@ -23,6 +25,9 @@ function slot0.setCBFunc(slot0, slot1, slot2)
 end
 
 function slot0.InitUI(slot0)
+	slot0.titleBG = slot0:findTF("panel/title")
+	slot0.titleBGDecoration = slot0:findTF("panel/title/Image")
+	slot0.titleIcon = slot0:findTF("panel/title/icon")
 	slot0.txTitle = slot0:findTF("panel/title_form")
 	slot0.txTitleHead = slot0:findTF("panel/title_head")
 
@@ -30,6 +35,7 @@ function slot0.InitUI(slot0)
 
 	slot0.txIntro = slot0:findTF("panel/intro")
 	slot0.txCost = slot0:findTF("panel/cost/text")
+	slot0.progressBar = slot0:findTF("panel/progress")
 	slot0.txProgress = slot0:findTF("panel/progress/Text/value")
 	slot0.progress = slot0:findTF("panel/progress")
 	slot0.head = slot0:findTF("panel/head/Image")
@@ -40,6 +46,9 @@ function slot0.InitUI(slot0)
 
 	setActive(slot0.passState, true)
 
+	slot0.winCondDesc = slot0:findTF("panel/win_conditions/desc")
+	slot0.winCondAwardBtn = slot0:findTF("panel/win_conditions/icon")
+	slot0.loseCondDesc = slot0:findTF("panel/lose_conditions/desc")
 	slot0.achieveList = UIItemList.New(slot0.trAchieves, slot0.trAchieveTpl)
 
 	slot0.achieveList:make(function (slot0, slot1, slot2)
@@ -63,23 +72,44 @@ function slot0.InitUI(slot0)
 	slot0.loopHelp = slot0.loopBtn:Find("help")
 	slot0.btnConfirm = slot0:findTF("panel/start_button")
 	slot0.btnCancel = slot0:findTF("panel/btnBack")
+	slot0.quickPlayGroup = slot0:findTF("panel/quickPlay")
+	slot0.descQuickPlay = slot0:findTF("desc", slot0.quickPlayGroup)
+	slot0.toggleQuickPlay = slot0.quickPlayGroup:GetComponent(typeof(Toggle))
 	slot0.delayTween = {}
 end
+
+slot1 = 525
+slot2 = 373
 
 function slot0.set(slot0, slot1, slot2)
 	slot0:cancelTween()
 
 	slot0.chapter = slot1
 	slot0.posStart = slot2 or Vector3(0, 0, 0)
+	slot4 = string.split(slot0.chapter:getConfigTable().name, "|")
 
-	setText(slot0:findTF("title_index", slot0.txTitle), slot0.chapter:getConfigTable().chapter_name .. "  ")
-	setText(slot0:findTF("title", slot0.txTitle), string.split(slot0.chapter.getConfigTable().name, "|")[1])
-	setText(slot0:findTF("title_en", slot0.txTitle), string.split(slot0.chapter.getConfigTable().name, "|")[2] or "")
+	GetSpriteFromAtlasAsync("ui/levelstageinfoview_atlas", (slot1:getPlayType() == ChapterConst.TypeDefence and "title_print_defense") or "title_print", function (slot0)
+		slot0.titleBGDecoration:GetComponent(typeof(Image)).sprite = slot0
+	end)
+	GetSpriteFromAtlasAsync("ui/levelstageinfoview_atlas", (slot1.getPlayType() == ChapterConst.TypeDefence and "titlebar_bg_defense") or "titlebar_bg", function (slot0)
+		slot0.titleBG:GetComponent(typeof(Image)).sprite = slot0
+	end)
+	setActive(slot0.titleIcon, slot1.getPlayType() == ChapterConst.TypeDefence)
+
+	slot0.progressBar.sizeDelta.x = (slot1.getPlayType() == ChapterConst.TypeDefence and slot0) or slot1
+	slot0.progressBar.sizeDelta = slot0.progressBar.sizeDelta
+
+	setText(slot0:findTF("title_index", slot0.txTitle), slot2 or Vector3(0, 0, 0).chapter_name .. "  ")
+	setText(slot0:findTF("title", slot0.txTitle), slot4[1])
+	setText(slot0:findTF("title_en", slot0.txTitle), slot4[2] or "")
 	setActive(slot0.txTitleHead, slot4[3])
 
 	slot0.txTitle.localPosition = Vector3(slot0.txTitle.localPosition.x, (slot4[3] and 249) or 257, setText.z)
 
 	setText(slot0.txTitleHead, slot4[3] or "")
+	setText(slot0.winCondDesc, i18n("text_win_condition") .. "：" .. slot1:getConfig("win_condition_display")[1])
+	setText(slot0.loseCondDesc, i18n("text_lose_condition") .. "：" .. slot1:getConfig("lose_condition_display")[1])
+	setActive(slot0.winCondAwardBtn, slot1:getPlayType() == ChapterConst.TypeDefence)
 
 	if not slot1:existAchieve() then
 		setActive(slot0.passState, false)
@@ -127,8 +157,8 @@ function slot0.set(slot0, slot1, slot2)
 	setActive(slot0.loopBtn, slot1:existLoop())
 
 	if slot1.existLoop() then
-		setActive(slot0.loopOn, PlayerPrefs.GetInt("chapter_loop_flag_" .. slot1.id, -1) == 1 or (slot9 == -1 and slot1:canActivateLoop()))
-		setActive(slot0.loopOff, not (PlayerPrefs.GetInt("chapter_loop_flag_" .. slot1.id, -1) == 1 or (slot9 == -1 and slot1.canActivateLoop())))
+		setActive(slot0.loopOn, PlayerPrefs.GetInt("chapter_loop_flag_" .. slot1.id, -1) == 1 or (slot11 == -1 and slot1:canActivateLoop()))
+		setActive(slot0.loopOff, not (PlayerPrefs.GetInt("chapter_loop_flag_" .. slot1.id, -1) == 1 or (slot11 == -1 and slot1.canActivateLoop())))
 		onButton(slot0, slot0.loopToggle, function ()
 			if not slot0 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_activate_loop_mode_failed"))
@@ -165,7 +195,7 @@ function slot0.set(slot0, slot1, slot2)
 		end
 	end, SFX_CANCEL)
 
-	slot7 = slot1:getConfig("risk_levels") or {}
+	slot9 = slot1:getConfig("risk_levels") or {}
 
 	onButton(slot0, slot0.passState, function ()
 		if not slot0:hasMitigation() then
@@ -184,15 +214,28 @@ function slot0.set(slot0, slot1, slot2)
 	onButton(slot0, slot0.head, function ()
 		triggerButton(slot0.passState)
 	end, SFX_PANEL)
+	onButton(slot0, slot0.winCondAwardBtn, function ()
+		slot0:ShowChapterRewardPanel()
+	end)
+	setText(slot0.descQuickPlay, i18n("desc_quick_play"))
+	setActive(slot0.quickPlayGroup, slot1:CanQuickPlay())
 
-	slot8 = slot0:findTF("panel")
-	slot8.transform.localPosition = slot0.posStart
+	if slot1.CanQuickPlay() then
+		onToggle(slot0, slot0.toggleQuickPlay, function (slot0)
+			PlayerPrefs.SetInt(slot0, (slot0 and 1) or 0)
+			PlayerPrefs.Save()
+		end, SFX_PANEL)
+		triggerToggle(slot0.toggleQuickPlay, PlayerPrefs.GetInt(slot11, 0) == 1)
+	end
 
-	table.insert(slot0.delayTween, LeanTween.move(slot8, Vector3.zero, 0.2).uniqueId)
+	slot11 = slot0:findTF("panel")
+	slot11.transform.localPosition = slot0.posStart
 
-	slot8.localScale = Vector3.zero
+	table.insert(slot0.delayTween, LeanTween.move(slot11, Vector3.zero, 0.2).uniqueId)
 
-	table.insert(slot0.delayTween, LeanTween.scale(slot8, Vector3(1, 1, 1), 0.2).uniqueId)
+	slot11.localScale = Vector3.zero
+
+	table.insert(slot0.delayTween, LeanTween.scale(slot11, Vector3(1, 1, 1), 0.2).uniqueId)
 	table.insert(slot0.delayTween, LeanTween.moveX(slot0.passState, 0, 0.35):setEase(LeanTweenType.easeInOutSine):setDelay(0.3).uniqueId)
 end
 
@@ -336,12 +379,31 @@ function slot0.clearTestShowDrop(slot0)
 	end
 end
 
+function slot0.ShowChapterRewardPanel(slot0)
+	if slot0.rewardPanel == nil then
+		slot0.rewardPanel = ChapterRewardPanel.New(slot0._tf.parent, slot0.event, slot0.contextData)
+
+		slot0.rewardPanel:Load()
+	end
+
+	slot0.rewardPanel:ActionInvoke("Enter", slot0.chapter)
+end
+
+function slot0.ClearChapterRewardPanel(slot0)
+	if slot0.rewardPanel ~= nil then
+		slot0.rewardPanel:Destroy()
+
+		slot0.rewardPanel = nil
+	end
+end
+
 function slot0.clear(slot0)
 	slot0:cancelTween()
 	slot0.dropList:each(function (slot0, slot1)
 		clearDrop(slot1)
 	end)
 	slot0:clearTestShowDrop()
+	slot0:ClearChapterRewardPanel()
 end
 
 return slot0

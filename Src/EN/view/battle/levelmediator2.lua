@@ -751,7 +751,7 @@ function slot0.handleNotification(slot0, slot1)
 						end,
 						function (slot0)
 							if slot0.aiActs then
-								slot1:playAIActions(slot0.aiActs, slot0)
+								slot1:playAIActions(slot0.aiActs, slot0.extraFlag, slot0)
 							else
 								slot0()
 							end
@@ -798,7 +798,7 @@ function slot0.handleNotification(slot0, slot1)
 				elseif slot0 == ChapterConst.OpSwitch then
 					slot1.viewComponent.grid:adjustCameraFocus()
 				elseif slot0 == ChapterConst.OpEnemyRound then
-					slot1:playAIActions(slot0.aiActs, function ()
+					slot1:playAIActions(slot0.aiActs, slot0.extraFlag, function ()
 						slot0.viewComponent.levelStageView:updateBombPanel(true)
 						slot0.viewComponent.levelStageView.updateBombPanel.viewComponent.levelStageView:tryAutoTrigger()
 						slot0.viewComponent.levelStageView.updateBombPanel.viewComponent.levelStageView.tryAutoTrigger.viewComponent:updatePoisonAreaTip()
@@ -941,6 +941,26 @@ end
 function slot0.OnExitChapter(slot0, slot1)
 	seriesAsync({
 		function (slot0)
+			slot1 = pg.TimeMgr.GetInstance()
+
+			if slot0:getConfig("type") == Chapter.CustomFleet and not slot0:isActivity() and slot1:IsSameDay(slot0:getStartTime(), slot1:GetServerTime()) then
+				getProxy(DailyLevelProxy):EliteCountPlus()
+			end
+
+			slot2 = getProxy(PlayerProxy):getData()
+
+			if slot0.id == 103 and not slot2:GetCommonFlag(BATTLE_AUTO_ENABLED) then
+				slot1:HandleShowMsgBox({
+					modal = true,
+					hideNo = true,
+					content = i18n("battle_autobot_unlock")
+				})
+				slot1.viewComponent:emit(LevelMediator2.NOTICE_AUTOBOT_ENABLED, {})
+			end
+
+			slot0()
+		end,
+		function (slot0)
 			if slot0:getDefeatStory(slot0.defeatCount) and type(slot2) == "number" and not pg.StoryMgr.GetInstance():IsPlayed(slot2) then
 				pg.m02:sendNotification(GAME.STORY_UPDATE, {
 					storyId = slot2
@@ -1059,56 +1079,77 @@ function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.playAIActions(slot0, slot1, slot2)
+function slot0.playAIActions(slot0, slot1, slot2, slot3)
 	if not slot0.viewComponent.grid then
-		slot2()
+		slot3()
 
 		return
 	end
 
-	slot3 = getProxy(ChapterProxy)
-	slot4 = nil
-	slot4 = coroutine.create(function ()
-		slot0.viewComponent:frozen()
+	slot4 = getProxy(ChapterProxy)
+	slot5 = nil
+	slot5 = coroutine.create(function ()
+		({})["viewComponent"]:frozen()
 
-		slot0 = {}
+		slot1 = ()["viewComponent"] or 0
 
-		for slot4, slot5 in ipairs(ipairs) do
-			slot7, slot8 = slot5:applyTo(slot6, true)
+		for slot5, slot6 in ipairs(ipairs) do
+			slot8, slot9 = slot6:applyTo(slot7, true)
 
-			slot5:PlayAIAction(slot0.contextData.chapterVO, slot0, function ()
-				slot0, slot1 = slot0:applyTo(slot0, false)
+			slot6:PlayAIAction(slot0.contextData.chapterVO, slot0, function ()
+				slot0, slot1, slot2 = slot0:applyTo(slot0, false)
 
 				if slot0 then
 					slot2:updateChapter(slot1, slot1)
+
+					slot3 = slot3(bit.bor, slot2 or 0)
 				end
 
-				onNextTick(slot3)
+				onNextTick(slot4)
 			end)
 			coroutine.yield()
 
-			if isa(slot5, FleetAIAction) and slot5.actType == ChapterConst.ActType_Poison and slot6:existFleet(FleetType.Normal, slot5.line.row, slot5.line.column) then
-				table.insert(slot0, slot6:getFleetIndex(FleetType.Normal, slot5.line.row, slot5.line.column))
+			if isa(slot6, FleetAIAction) and slot6.actType == ChapterConst.ActType_Poison and slot7:existFleet(FleetType.Normal, slot6.line.row, slot6.line.column) then
+				table.insert(slot0, slot7:getFleetIndex(FleetType.Normal, slot6.line.row, slot6.line.column))
 			end
 		end
 
-		if #slot0 > 0 then
-			slot1 = 0
+		slot2 = bit.band(slot1, ChapterConst.DirtyAutoAction)
 
-			for slot5 = 1, #slot0, 1 do
-				slot0.viewComponent.grid:showFleetPoisonDamage(slot0[slot5], function ()
-					if slot0 + 1 >= #slot1 then
-						slot2()
-						slot3.viewComponent:unfrozen()
+		if bit.band(slot1, bit.bnot(ChapterConst.DirtyAutoAction)) ~= 0 then
+			slot3:updateChapter(slot0.contextData.chapterVO, slot1)
+		end
+
+		seriesAsync({
+			function (slot0)
+				if slot0 ~= 0 then
+					slot1.viewComponent.levelStageView:tryAutoAction(slot0)
+				else
+					slot0()
+				end
+			end,
+			function (slot0)
+				if #slot0 > 0 then
+					slot1 = 0
+
+					for slot5 = 1, #slot0, 1 do
+						slot1.viewComponent.grid:showFleetPoisonDamage(slot0[slot5], function ()
+							if slot0 + 1 >= #slot1 then
+								slot2()
+							end
+						end)
 					end
-				end)
+
+					return
+				end
+
+				slot0()
+			end,
+			function (slot0)
+				slot0()
+				slot0.viewComponent:unfrozen()
 			end
-
-			return
-		end
-
-		slot4()
-		slot0.viewComponent:unfrozen()
+		})
 	end)
 
 	function ()

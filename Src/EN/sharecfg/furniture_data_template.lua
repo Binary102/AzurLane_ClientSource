@@ -2057,6 +2057,55 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[148] = {
+		advice = 0,
+		name = "Ember ",
+		count = 1,
+		type = 7,
+		dir = 0,
+		gain_by = "Ashen Simulacrum",
+		is_get_time_note = 1,
+		belong = 1,
+		can_rotate = 0,
+		effect = "",
+		dorm_icon_price = 500,
+		not_for_sale = 1,
+		icon = "xiangtingliaofaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 5,
+		tag = 6,
+		picture = "chuanmo/xiangtingliaofa",
+		canputon = 0,
+		discount = 0,
+		id = 148,
+		comfortable = 0,
+		describe = "A peculiar substance recovered from the Bermuda Triangle. Great power hides within its alien composition. Given to commanders who participated in the \"Ashen Simulacrum\" event.",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"xiangtingliaofa",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100006] = {
 		can_rotate = 0,
 		name = "闪亮的舞台秀",
@@ -60863,6 +60912,7 @@ pg.furniture_data_template = {
 		143,
 		145,
 		147,
+		148,
 		100006,
 		1001,
 		1002,

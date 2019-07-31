@@ -1,12 +1,12 @@
 return {
 	uiEffect = "",
-	name = "萨奇剪",
+	name = "巴丹地狱猫",
 	cd = 0,
 	picture = "0",
-	desc = "萨奇剪",
-	painting = 0,
-	id = 6432,
-	castCV = "",
+	desc = "",
+	painting = 1,
+	id = 12500,
+	castCV = "skill",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -22,7 +22,7 @@ return {
 			type = "BattleSkillAddBuff",
 			target_choise = "TargetSelf",
 			arg_list = {
-				buff_id = 6433
+				buff_id = 12501
 			}
 		}
 	}

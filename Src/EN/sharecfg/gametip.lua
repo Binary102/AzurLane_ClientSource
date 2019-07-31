@@ -5283,6 +5283,56 @@ Attack/Support Range Level:
 			}
 		}
 	},
+	help_battle_defense = {
+		key = "help_battle_defense",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_defense_1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_defense_2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_defense_3"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_defense_4"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_defense_5"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
 	backyard_theme_set_tip = {
 		tip = "Select which action to perform on <color=#5FD500>$1</color>.",
 		key = "backyard_theme_set_tip"
@@ -8406,7 +8456,7 @@ with Anti-Sub gear.
 		key = "airi_error_code_ 100818"
 	},
 	buildship_new_tip = {
-		tip = "I-168, U-101, I-25, I-56, U-522 are increased during the event period.",
+		tip = "Birmingham, Alabama, Baltimore, Aylwin are increased during the event period.",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -9771,6 +9821,50 @@ Returning Commanders:
 	common_buy_gold_success = {
 		tip = "Successfully purchased <color=#92fc63>$1</color> Coins! ",
 		key = "common_buy_gold_success"
+	},
+	harbour_bomb_tip = {
+		tip = "The harbor has been destroyed!",
+		key = "harbour_bomb_tip"
+	},
+	submarine_approach = {
+		tip = "Submarines Detected",
+		key = "submarine_approach"
+	},
+	submarine_approach_desc = {
+		tip = "Enemy submarines have appeared on the map!",
+		key = "submarine_approach_desc"
+	},
+	desc_quick_play = {
+		tip = "Fast Forward",
+		key = "desc_quick_play"
+	},
+	text_win_condition = {
+		tip = "Win conditions:",
+		key = "text_win_condition"
+	},
+	text_lose_condition = {
+		tip = "Loss conditions:",
+		key = "text_lose_condition"
+	},
+	text_rest_HP = {
+		tip = "Harbor integrity:",
+		key = "text_rest_HP"
+	},
+	desc_defense_reward = {
+		tip = "The rewards you receive are based on how effective your defense was.",
+		key = "desc_defense_reward"
+	},
+	desc_base_hp = {
+		tip = "Harbor integrity: $1/$2",
+		key = "desc_base_hp"
+	},
+	map_event_open = {
+		tip = "A blocked tile was created.",
+		key = "map_event_open"
+	},
+	word_reward = {
+		tip = "Rewards",
+		key = "word_reward"
 	}
 }
 

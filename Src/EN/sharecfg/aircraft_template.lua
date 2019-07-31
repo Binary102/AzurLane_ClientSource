@@ -21796,6 +21796,190 @@ pg.aircraft_template = {
 		hp_growth = 3511,
 		weapon_ID = {}
 	},
+	[68621] = {
+		name = "巴丹技能F6FLV1",
+		max_hp = 51,
+		accuracy = 23,
+		model_ID = "f6f",
+		ACC_growth = 0,
+		crash_DMG = 156,
+		dodge = 0.315,
+		attack_power = 2,
+		dodge_limit = 11,
+		type = 1,
+		AP_growth = 2000,
+		icon = "f6f",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1947,
+		speed = 50,
+		id = 68621,
+		scale = 1,
+		weapon_ID = {
+			50341,
+			50541,
+			68631
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.28,
+					1.62,
+					0
+				},
+				{
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[68622] = {
+		id = 68622,
+		name = "巴丹技能F6FLV2",
+		base = 68621,
+		max_hp = 57,
+		hp_growth = 2201,
+		weapon_ID = {
+			50342,
+			50542,
+			68632
+		}
+	},
+	[68623] = {
+		id = 68623,
+		name = "巴丹技能F6FLV3",
+		base = 68621,
+		max_hp = 64,
+		hp_growth = 2455,
+		weapon_ID = {
+			50343,
+			50543,
+			68633
+		}
+	},
+	[68624] = {
+		id = 68624,
+		name = "巴丹技能F6FLV4",
+		base = 68621,
+		max_hp = 70,
+		hp_growth = 2710,
+		weapon_ID = {
+			50344,
+			50544,
+			68634
+		}
+	},
+	[68625] = {
+		id = 68625,
+		name = "巴丹技能F6FLV5",
+		base = 68621,
+		max_hp = 77,
+		hp_growth = 2964,
+		weapon_ID = {
+			50345,
+			50545,
+			68635
+		}
+	},
+	[68626] = {
+		id = 68626,
+		name = "巴丹技能F6FLV6",
+		base = 68621,
+		max_hp = 84,
+		hp_growth = 3218,
+		weapon_ID = {
+			50346,
+			50546,
+			68636
+		}
+	},
+	[68627] = {
+		id = 68627,
+		name = "巴丹技能F6FLV7",
+		base = 68621,
+		max_hp = 90,
+		hp_growth = 3472,
+		weapon_ID = {
+			50347,
+			50547,
+			68637
+		}
+	},
+	[68628] = {
+		id = 68628,
+		name = "巴丹技能F6FLV8",
+		base = 68621,
+		max_hp = 97,
+		hp_growth = 3726,
+		weapon_ID = {
+			50348,
+			50548,
+			68638
+		}
+	},
+	[68629] = {
+		id = 68629,
+		name = "巴丹技能F6FLV9",
+		base = 68621,
+		max_hp = 103,
+		hp_growth = 3980,
+		weapon_ID = {
+			50349,
+			50549,
+			68639
+		}
+	},
+	[68630] = {
+		id = 68630,
+		name = "巴丹技能F6FLV10",
+		base = 68621,
+		max_hp = 110,
+		hp_growth = 4234,
+		weapon_ID = {
+			50350,
+			50550,
+			68640
+		}
+	},
 	[81000] = {
 		name = "F2A水牛",
 		max_hp = 29,
@@ -84475,7 +84659,7 @@ pg.aircraft_template = {
 		}
 	},
 	[610065] = {
-		name = "【俾斯麦活动B2】BOSS-测试者β型-浮游炮",
+		name = "【俾斯麦活动B2】BOSS –测试者β型-浮游炮",
 		max_hp = 209,
 		accuracy = 23,
 		model_ID = "fuyoupao",
@@ -84553,7 +84737,7 @@ pg.aircraft_template = {
 		}
 	},
 	[610135] = {
-		name = "【俾斯麦活动D2】BOSS-测试者β型-浮游炮",
+		name = "【俾斯麦活动D2】BOSS –测试者β型-浮游炮",
 		max_hp = 298,
 		accuracy = 23,
 		model_ID = "fuyoupao",
@@ -84630,8 +84814,8 @@ pg.aircraft_template = {
 			}
 		}
 	},
-	[620046] = {
-		name = "【新美系活动A3】BOSS-测试者β型-浮游炮",
+	[611056] = {
+		name = "【新美系活动A3】BOSS –测试者β型-浮游炮",
 		max_hp = 209,
 		accuracy = 23,
 		model_ID = "fuyoupao",
@@ -84646,15 +84830,15 @@ pg.aircraft_template = {
 		nationality = 3,
 		hp_growth = 3680,
 		speed = 70,
-		id = 620046,
+		id = 611056,
 		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
 		},
 		weapon_ID = {
-			620047,
-			620048
+			611057,
+			611058
 		},
 		position_offset = {
 			0,
@@ -84708,236 +84892,13 @@ pg.aircraft_template = {
 			}
 		}
 	},
-	[620073] = {
-		name = "【新美系活动B2】BOSS –约克城 战斗机",
-		max_hp = 86,
-		accuracy = 23,
-		model_ID = "F4F",
-		ACC_growth = 0,
-		crash_DMG = 48,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "F4F",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1960,
-		speed = 33,
-		id = 620073,
-		scale = 0.75,
-		weapon_ID = {
-			620075,
-			620076
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.27,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[620074] = {
-		name = "【新美系活动B2】BOSS –约克城 鱼雷机",
-		max_hp = 96,
-		accuracy = 23,
-		model_ID = "tbd",
-		ACC_growth = 0,
-		crash_DMG = 69,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "tbd",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2380,
-		speed = 30,
-		id = 620074,
-		scale = 0.75,
-		weapon_ID = {
-			620077
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-0.91,
-					0
-				},
-				{
-					0.77,
-					1,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.51,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[620091] = {
-		name = "【新美系活动B2】BOSS –大黄蜂 地毯轰炸飞机",
-		max_hp = 1600,
-		accuracy = 50,
-		model_ID = "sbdwuwei",
-		ACC_growth = 0,
-		crash_DMG = 400,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "sbdwuwei",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 0,
-		speed = 30,
-		id = 620091,
-		scale = 0.75,
-		weapon_ID = {
-			620092
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-0.91,
-					0
-				},
-				{
-					0.77,
-					1,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.51,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[620096] = {
+	[611084] = {
 		name = "【新美系活动B2】BOSS –大黄蜂 战斗机",
-		max_hp = 86,
+		max_hp = 90,
 		accuracy = 23,
 		model_ID = "F4F",
 		ACC_growth = 0,
-		crash_DMG = 48,
+		crash_DMG = 50,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
@@ -84946,13 +84907,13 @@ pg.aircraft_template = {
 		icon = "F4F",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 1960,
+		hp_growth = 2000,
 		speed = 33,
-		id = 620096,
+		id = 611084,
 		scale = 0.75,
 		weapon_ID = {
-			620098,
-			620099
+			611086,
+			611087
 		},
 		position_offset = {
 			0,
@@ -85006,13 +84967,13 @@ pg.aircraft_template = {
 			}
 		}
 	},
-	[620097] = {
+	[611085] = {
 		name = "【新美系活动B2】BOSS –大黄蜂 鱼雷机",
-		max_hp = 96,
+		max_hp = 100,
 		accuracy = 23,
 		model_ID = "tbd",
 		ACC_growth = 0,
-		crash_DMG = 69,
+		crash_DMG = 70,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
@@ -85021,12 +84982,12 @@ pg.aircraft_template = {
 		icon = "tbd",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2380,
+		hp_growth = 2400,
 		speed = 30,
-		id = 620097,
+		id = 611085,
 		scale = 0.75,
 		weapon_ID = {
-			620100
+			611088
 		},
 		position_offset = {
 			0,
@@ -85080,236 +85041,13 @@ pg.aircraft_template = {
 			}
 		}
 	},
-	[620111] = {
-		name = "【新美系活动B3】BOSS –黑企业 特殊飞机",
-		max_hp = 1600,
-		accuracy = 50,
-		model_ID = "sbdwuwei",
-		ACC_growth = 0,
-		crash_DMG = 400,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "sbdwuwei",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 0,
-		speed = 30,
-		id = 620111,
-		scale = 0.75,
-		weapon_ID = {
-			620112
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-0.91,
-					0
-				},
-				{
-					0.77,
-					1,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.51,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[620116] = {
-		name = "【新美系活动B3】BOSS –黑企业 战斗机",
-		max_hp = 86,
-		accuracy = 23,
-		model_ID = "F4F",
-		ACC_growth = 0,
-		crash_DMG = 48,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "F4F",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1960,
-		speed = 33,
-		id = 620116,
-		scale = 0.75,
-		weapon_ID = {
-			620118,
-			620119
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.27,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[620117] = {
-		name = "【新美系活动B3】BOSS –黑企业 鱼雷机",
-		max_hp = 96,
-		accuracy = 23,
-		model_ID = "tbd",
-		ACC_growth = 0,
-		crash_DMG = 69,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "tbd",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2380,
-		speed = 30,
-		id = 620117,
-		scale = 0.75,
-		weapon_ID = {
-			620120
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-0.91,
-					0
-				},
-				{
-					0.77,
-					1,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.51,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[620176] = {
-		name = "【新美系活动C3】BOSS-测试者β型-浮游炮",
-		max_hp = 209,
+	[611166] = {
+		name = "【新美系活动C3】BOSS –测试者β型-浮游炮",
+		max_hp = 298,
 		accuracy = 23,
 		model_ID = "fuyoupao",
 		ACC_growth = 0,
-		crash_DMG = 183,
+		crash_DMG = 293,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
@@ -85317,17 +85055,17 @@ pg.aircraft_template = {
 		AP_growth = 2000,
 		icon = "fuyoupao",
 		nationality = 3,
-		hp_growth = 3680,
+		hp_growth = 4600,
 		speed = 70,
-		id = 620176,
+		id = 611166,
 		scale = 0.75,
 		funnel_behavior = {
 			stay = 2,
 			exist = 20
 		},
 		weapon_ID = {
-			620177,
-			620178
+			611167,
+			611168
 		},
 		position_offset = {
 			0,
@@ -85381,102 +85119,27 @@ pg.aircraft_template = {
 			}
 		}
 	},
-	[620203] = {
-		name = "【新美系活动D2】BOSS –约克城 战斗机",
-		max_hp = 86,
+	[611191] = {
+		name = "【新美系活动D2】BOSS –大黄蜂 单颗投弹轰炸机",
+		max_hp = 1600,
 		accuracy = 23,
-		model_ID = "F4F",
+		model_ID = "sb2c",
 		ACC_growth = 0,
-		crash_DMG = 48,
+		crash_DMG = 400,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
-		type = 1,
+		type = 3,
 		AP_growth = 2000,
-		icon = "F4F",
+		icon = "sb2c",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 1960,
-		speed = 33,
-		id = 620203,
-		scale = 0.75,
-		weapon_ID = {
-			620205,
-			620206
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.27,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[620204] = {
-		name = "【新美系活动D2】BOSS –约克城 鱼雷机",
-		max_hp = 96,
-		accuracy = 23,
-		model_ID = "tbd",
-		ACC_growth = 0,
-		crash_DMG = 69,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "tbd",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2380,
+		hp_growth = 0,
 		speed = 30,
-		id = 620204,
+		id = 611191,
 		scale = 0.75,
 		weapon_ID = {
-			620207
+			611192
 		},
 		position_offset = {
 			0,
@@ -85530,7 +85193,7 @@ pg.aircraft_template = {
 			}
 		}
 	},
-	[620211] = {
+	[611193] = {
 		name = "【新美系活动D2】BOSS –大黄蜂 地毯轰炸飞机",
 		max_hp = 1600,
 		accuracy = 50,
@@ -85547,10 +85210,10 @@ pg.aircraft_template = {
 		nationality = 3,
 		hp_growth = 0,
 		speed = 30,
-		id = 620211,
+		id = 611193,
 		scale = 0.75,
 		weapon_ID = {
-			620212
+			611194
 		},
 		position_offset = {
 			0,
@@ -85604,13 +85267,13 @@ pg.aircraft_template = {
 			}
 		}
 	},
-	[620216] = {
+	[611198] = {
 		name = "【新美系活动D2】BOSS –大黄蜂 战斗机",
-		max_hp = 86,
+		max_hp = 145,
 		accuracy = 23,
 		model_ID = "F4F",
 		ACC_growth = 0,
-		crash_DMG = 48,
+		crash_DMG = 85,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
@@ -85619,13 +85282,13 @@ pg.aircraft_template = {
 		icon = "F4F",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 1960,
+		hp_growth = 2550,
 		speed = 33,
-		id = 620216,
+		id = 611198,
 		scale = 0.75,
 		weapon_ID = {
-			620218,
-			620219
+			611200,
+			611201
 		},
 		position_offset = {
 			0,
@@ -85679,13 +85342,13 @@ pg.aircraft_template = {
 			}
 		}
 	},
-	[620217] = {
+	[611199] = {
 		name = "【新美系活动D2】BOSS –大黄蜂 鱼雷机",
-		max_hp = 96,
+		max_hp = 160,
 		accuracy = 23,
 		model_ID = "tbd",
 		ACC_growth = 0,
-		crash_DMG = 69,
+		crash_DMG = 120,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
@@ -85694,681 +85357,12 @@ pg.aircraft_template = {
 		icon = "tbd",
 		funnel_behavior = "",
 		nationality = 3,
-		hp_growth = 2380,
+		hp_growth = 2950,
 		speed = 30,
-		id = 620217,
+		id = 611199,
 		scale = 0.75,
 		weapon_ID = {
-			620220
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-0.91,
-					0
-				},
-				{
-					0.77,
-					1,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.51,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[620231] = {
-		name = "【新美系活动D3】BOSS –黑企业 特殊飞机",
-		max_hp = 1600,
-		accuracy = 50,
-		model_ID = "sbdwuwei",
-		ACC_growth = 0,
-		crash_DMG = 400,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "sbdwuwei",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 0,
-		speed = 30,
-		id = 620231,
-		scale = 0.75,
-		weapon_ID = {
-			620232
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-0.91,
-					0
-				},
-				{
-					0.77,
-					1,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.51,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[620235] = {
-		name = "【新美系活动D3】BOSS –黑企业 战斗机",
-		max_hp = 86,
-		accuracy = 23,
-		model_ID = "F4F",
-		ACC_growth = 0,
-		crash_DMG = 48,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "F4F",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1960,
-		speed = 33,
-		id = 620235,
-		scale = 0.75,
-		weapon_ID = {
-			620237,
-			620238
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.27,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[620236] = {
-		name = "【新美系活动D3】BOSS –黑企业 鱼雷机",
-		max_hp = 96,
-		accuracy = 23,
-		model_ID = "tbd",
-		ACC_growth = 0,
-		crash_DMG = 69,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "tbd",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2380,
-		speed = 30,
-		id = 620236,
-		scale = 0.75,
-		weapon_ID = {
-			620239
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-0.91,
-					0
-				},
-				{
-					0.77,
-					1,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.51,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[620251] = {
-		name = "【新美系活动D4】BOSS –黑企业 特殊飞机",
-		max_hp = 1600,
-		accuracy = 50,
-		model_ID = "sbdwuwei",
-		ACC_growth = 0,
-		crash_DMG = 400,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "sbdwuwei",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 0,
-		speed = 30,
-		id = 620251,
-		scale = 0.75,
-		weapon_ID = {
-			620252
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-0.91,
-					0
-				},
-				{
-					0.77,
-					1,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.51,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[620256] = {
-		name = "【新美系活动D4】BOSS –黑企业 战斗机",
-		max_hp = 86,
-		accuracy = 23,
-		model_ID = "F4F",
-		ACC_growth = 0,
-		crash_DMG = 48,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "F4F",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1960,
-		speed = 33,
-		id = 620256,
-		scale = 0.75,
-		weapon_ID = {
-			620258,
-			620259
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.27,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[620257] = {
-		name = "【新美系活动D4】BOSS –黑企业 鱼雷机",
-		max_hp = 96,
-		accuracy = 23,
-		model_ID = "tbd",
-		ACC_growth = 0,
-		crash_DMG = 69,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "tbd",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2380,
-		speed = 30,
-		id = 620257,
-		scale = 0.75,
-		weapon_ID = {
-			620260
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-0.91,
-					0
-				},
-				{
-					0.77,
-					1,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.51,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[620271] = {
-		name = "【新美系活动EX】BOSS –黑企业 特殊飞机",
-		max_hp = 1600,
-		accuracy = 50,
-		model_ID = "sbdwuwei",
-		ACC_growth = 0,
-		crash_DMG = 400,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "sbdwuwei",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 0,
-		speed = 30,
-		id = 620271,
-		scale = 0.75,
-		weapon_ID = {
-			620272
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-0.91,
-					0
-				},
-				{
-					0.77,
-					1,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.51,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[620276] = {
-		name = "【新美系活动EX】BOSS –黑企业 战斗机",
-		max_hp = 86,
-		accuracy = 23,
-		model_ID = "F4F",
-		ACC_growth = 0,
-		crash_DMG = 48,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "F4F",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 1960,
-		speed = 33,
-		id = 620276,
-		scale = 0.75,
-		weapon_ID = {
-			620278,
-			620279
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.27,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[620277] = {
-		name = "【新美系活动EX】BOSS –黑企业 鱼雷机",
-		max_hp = 96,
-		accuracy = 23,
-		model_ID = "tbd",
-		ACC_growth = 0,
-		crash_DMG = 69,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "tbd",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2380,
-		speed = 30,
-		id = 620277,
-		scale = 0.75,
-		weapon_ID = {
-			620280
+			611202
 		},
 		position_offset = {
 			0,
@@ -106912,6 +105906,16 @@ pg.aircraft_template = {
 		68548,
 		68549,
 		68550,
+		68621,
+		68622,
+		68623,
+		68624,
+		68625,
+		68626,
+		68627,
+		68628,
+		68629,
+		68630,
 		81000,
 		81001,
 		81002,
@@ -108019,30 +107023,14 @@ pg.aircraft_template = {
 		610107,
 		610065,
 		610135,
-		620046,
-		620073,
-		620074,
-		620091,
-		620096,
-		620097,
-		620111,
-		620116,
-		620117,
-		620176,
-		620203,
-		620204,
-		620211,
-		620216,
-		620217,
-		620231,
-		620235,
-		620236,
-		620251,
-		620256,
-		620257,
-		620271,
-		620276,
-		620277,
+		611056,
+		611084,
+		611085,
+		611166,
+		611191,
+		611193,
+		611198,
+		611199,
 		620310,
 		620315,
 		620316,

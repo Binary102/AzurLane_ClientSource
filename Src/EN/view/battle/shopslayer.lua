@@ -448,6 +448,12 @@ function slot1(slot0)
 				if slot0 then
 					slot1 = slot0
 					slot2 = slot1
+					slot1 = slot1.clearShipWord
+
+					slot1(slot2)
+
+					slot1 = slot0
+					slot2 = slot1
 					slot2 = slot2.TYPE_ACTIVITY
 					slot1.curPage = slot2
 					slot1 = slot0

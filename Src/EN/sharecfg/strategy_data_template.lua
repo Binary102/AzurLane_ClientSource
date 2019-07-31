@@ -73,6 +73,17 @@ pg.strategy_data_template = {
 			1.1
 		}
 	},
+	[12] = {
+		buff_id = 0,
+		name = "Sonar Scan",
+		type = 5,
+		id = 12,
+		icon = "12",
+		desc = "Requisition land-based anti-submarine support. Perform an anti-submarine scan of the entire map, marking any submerged submarines.",
+		arg = {
+			area_scout
+		}
+	},
 	[90] = {
 		buff_id = 90,
 		name = "RED ALERT!",
@@ -181,6 +192,7 @@ pg.strategy_data_template = {
 		9,
 		10,
 		11,
+		12,
 		90,
 		91,
 		9500,

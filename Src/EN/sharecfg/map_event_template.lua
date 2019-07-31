@@ -1988,6 +1988,46 @@ pg.map_event_template = {
 			}
 		}
 	},
+	[175] = {
+		gametip = "",
+		memory = 0,
+		id = 175,
+		type = 2,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "fangyuzhan",
+		address = {
+			4,
+			5
+		},
+		effect = {}
+	},
+	[176] = {
+		gametip = "map_event_open",
+		memory = 0,
+		id = 176,
+		type = 3,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "fangyuzhan",
+		address = {
+			5,
+			8
+		},
+		effect = {
+			{
+				"story",
+				175,
+				0
+			}
+		}
+	},
 	all = {
 		75,
 		76,
@@ -2081,7 +2121,9 @@ pg.map_event_template = {
 		171,
 		172,
 		173,
-		174
+		174,
+		175,
+		176
 	}
 }
 

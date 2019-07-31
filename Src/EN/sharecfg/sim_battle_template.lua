@@ -228,6 +228,7 @@ pg.sim_battle_template = {
 			31
 		},
 		goods = {
+			10017,
 			10018,
 			10016,
 			10023,

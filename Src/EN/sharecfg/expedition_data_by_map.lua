@@ -3143,6 +3143,252 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1250001] = {
+		map = 1250001,
+		name = "Ashen Simulacrum - Pt. 1|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 4,
+		on_activity = 30172,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "XIANGTINGLIAOFA1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1230001",
+		cloud_suffix = "",
+		bg = "Map_1230001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1250011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1250002] = {
+		map = 1250002,
+		name = "Ashen Simulacrum - Pt. 2|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 4,
+		on_activity = 30173,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "XIANGTINGLIAOFA16",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1230002",
+		cloud_suffix = "",
+		bg = "Map_1230002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1250012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1250011] = {
+		map = 1250011,
+		name = "Ashen Simulacrum - Pt. 1|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 5,
+		on_activity = 30172,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "XIANGTINGLIAOFA1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1230003",
+		cloud_suffix = "",
+		bg = "Map_1230003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1250001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1250012] = {
+		map = 1250012,
+		name = "Ashen Simulacrum - Pt. 2|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 5,
+		on_activity = 30173,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "XIANGTINGLIAOFA16",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1230004",
+		cloud_suffix = "",
+		bg = "Map_1230004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1250002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1250025] = {
+		map = 1250025,
+		name = "Ashen Simulacrum – SP|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 8,
+		on_activity = 30173,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1230004",
+		cloud_suffix = "",
+		bg = "Map_1230004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1250012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1250026] = {
+		map = 1250026,
+		name = "Ashen Simulacrum - EX|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 8,
+		on_activity = 30173,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1230004",
+		cloud_suffix = "",
+		bg = "Map_1230004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1250012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1250022] = {
 		map = 1250022,
 		name = "Approaching Storm ",
@@ -3238,6 +3484,12 @@ pg.expedition_data_by_map = {
 		1230012,
 		1230020,
 		1230021,
+		1250001,
+		1250002,
+		1250011,
+		1250012,
+		1250025,
+		1250026,
 		1250022
 	}
 }

@@ -8,12 +8,9 @@ return {
 				},
 				arg_list = {
 					number = 0.15,
-					type = {
-						10,
-						11
-					},
-					nationality = {
-						4
+					label = {
+						"KMS",
+						"CV"
 					}
 				}
 			}
@@ -28,12 +25,9 @@ return {
 				},
 				arg_list = {
 					number = 0.16,
-					type = {
-						10,
-						11
-					},
-					nationality = {
-						4
+					label = {
+						"KMS",
+						"CV"
 					}
 				}
 			}
@@ -48,12 +42,9 @@ return {
 				},
 				arg_list = {
 					number = 0.17,
-					type = {
-						10,
-						11
-					},
-					nationality = {
-						4
+					label = {
+						"KMS",
+						"CV"
 					}
 				}
 			}
@@ -68,12 +59,9 @@ return {
 				},
 				arg_list = {
 					number = 0.19,
-					type = {
-						10,
-						11
-					},
-					nationality = {
-						4
+					label = {
+						"KMS",
+						"CV"
 					}
 				}
 			}
@@ -88,12 +76,9 @@ return {
 				},
 				arg_list = {
 					number = 0.2,
-					type = {
-						10,
-						11
-					},
-					nationality = {
-						4
+					label = {
+						"KMS",
+						"CV"
 					}
 				}
 			}
@@ -108,12 +93,9 @@ return {
 				},
 				arg_list = {
 					number = 0.21,
-					type = {
-						10,
-						11
-					},
-					nationality = {
-						4
+					label = {
+						"KMS",
+						"CV"
 					}
 				}
 			}
@@ -128,12 +110,9 @@ return {
 				},
 				arg_list = {
 					number = 0.23,
-					type = {
-						10,
-						11
-					},
-					nationality = {
-						4
+					label = {
+						"KMS",
+						"CV"
 					}
 				}
 			}
@@ -148,12 +127,9 @@ return {
 				},
 				arg_list = {
 					number = 0.25,
-					type = {
-						10,
-						11
-					},
-					nationality = {
-						4
+					label = {
+						"KMS",
+						"CV"
 					}
 				}
 			}
@@ -168,12 +144,9 @@ return {
 				},
 				arg_list = {
 					number = 0.27,
-					type = {
-						10,
-						11
-					},
-					nationality = {
-						4
+					label = {
+						"KMS",
+						"CV"
 					}
 				}
 			}
@@ -188,12 +161,9 @@ return {
 				},
 				arg_list = {
 					number = 0.3,
-					type = {
-						10,
-						11
-					},
-					nationality = {
-						4
+					label = {
+						"KMS",
+						"CV"
 					}
 				}
 			}
@@ -217,12 +187,9 @@ return {
 			},
 			arg_list = {
 				number = 0.15,
-				type = {
-					10,
-					11
-				},
-				nationality = {
-					4
+				label = {
+					"KMS",
+					"CV"
 				}
 			}
 		}

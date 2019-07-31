@@ -16,8 +16,8 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		is_siren = 0,
 		scatter = "20",
-		descrip = "序章用",
 		ammo = "通常弾",
+		descrip = "序章用",
 		value_3 = 0,
 		id = 2,
 		torpedo_ammo = 0,
@@ -31,7 +31,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[3] = {
 		name = "0",
@@ -49,8 +50,8 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		is_siren = 0,
 		scatter = "20",
-		descrip = "序章用",
 		ammo = "通常弾",
+		descrip = "序章用",
 		value_3 = 0,
 		id = 3,
 		torpedo_ammo = 0,
@@ -66,7 +67,8 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[4] = {
 		name = "0",
@@ -84,8 +86,8 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		is_siren = 0,
 		scatter = "20",
-		descrip = "序章用",
 		ammo = "通常弾",
+		descrip = "序章用",
 		value_3 = 0,
 		id = 4,
 		torpedo_ammo = 0,
@@ -101,7 +103,8 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[5] = {
 		name = "0",
@@ -119,8 +122,8 @@ pg.equip_data_statistics = {
 		rarity = 3,
 		is_siren = 0,
 		scatter = "20",
-		descrip = "序章用",
 		ammo = "通常弾",
+		descrip = "序章用",
 		value_3 = 0,
 		id = 5,
 		torpedo_ammo = 0,
@@ -136,7 +139,8 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[6] = {
 		name = "0",
@@ -154,8 +158,8 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		is_siren = 0,
 		scatter = "20",
-		descrip = "序章用",
 		ammo = "通常弾",
+		descrip = "序章用",
 		value_3 = 0,
 		id = 6,
 		torpedo_ammo = 0,
@@ -169,7 +173,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[7] = {
 		name = "0",
@@ -187,8 +192,8 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		is_siren = 0,
 		scatter = "20",
-		descrip = "序章用",
 		ammo = "通常弾",
+		descrip = "序章用",
 		value_3 = 0,
 		id = 7,
 		torpedo_ammo = 0,
@@ -202,7 +207,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[8] = {
 		name = "0",
@@ -220,8 +226,8 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		is_siren = 0,
 		scatter = "20",
-		descrip = "序章用",
 		ammo = "通常弾",
+		descrip = "序章用",
 		value_3 = 0,
 		id = 8,
 		torpedo_ammo = 0,
@@ -235,7 +241,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[20] = {
 		name = "0",
@@ -253,8 +260,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "5",
-		descrip = "特殊装備",
 		ammo = "通常弾",
+		descrip = "特殊装備",
 		value_3 = 0,
 		id = 20,
 		torpedo_ammo = 0,
@@ -268,7 +275,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[100] = {
 		name = "0",
@@ -302,7 +310,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"UN",
+			"DD",
+			"MG"
+		}
 	},
 	[101] = {
 		name = "0",
@@ -336,7 +349,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"UN",
+			"CL",
+			"MG"
+		}
 	},
 	[102] = {
 		name = "0",
@@ -370,7 +388,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"UN",
+			"CA",
+			"MG"
+		}
 	},
 	[103] = {
 		name = "0",
@@ -404,7 +427,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"UN",
+			"BB",
+			"MG"
+		}
 	},
 	[104] = {
 		name = "0",
@@ -436,7 +464,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"AA"
+		}
 	},
 	[105] = {
 		name = "0",
@@ -468,7 +501,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		}
 	},
 	[106] = {
 		name = "0",
@@ -500,7 +538,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		}
 	},
 	[107] = {
 		name = "0",
@@ -532,7 +575,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		}
 	},
 	[108] = {
 		name = "0",
@@ -564,7 +612,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		}
 	},
 	[109] = {
 		name = "0",
@@ -597,7 +650,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
 	},
 	[110] = {
 		name = "0",
@@ -629,7 +687,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
 	},
 	[111] = {
 		name = "0",
@@ -661,7 +724,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
 	},
 	[113] = {
 		name = "0",
@@ -694,7 +762,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
 	},
 	[114] = {
 		name = "0",
@@ -726,7 +799,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		}
 	},
 	[115] = {
 		name = "0",
@@ -758,7 +836,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		}
 	},
 	[117] = {
 		name = "0",
@@ -791,7 +874,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		}
 	},
 	[118] = {
 		name = "0",
@@ -823,7 +911,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		}
 	},
 	[119] = {
 		name = "0",
@@ -855,7 +948,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		}
 	},
 	[121] = {
 		name = "0",
@@ -888,7 +986,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		}
 	},
 	[122] = {
 		name = "0",
@@ -920,7 +1023,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"TB"
+		}
 	},
 	[123] = {
 		name = "0",
@@ -952,7 +1060,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		}
 	},
 	[140] = {
 		name = "0",
@@ -984,7 +1097,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"UN",
+			"SS",
+			"TP"
+		}
 	},
 	[141] = {
 		name = "0",
@@ -1016,7 +1134,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"DC"
+		}
 	},
 	[144] = {
 		name = "0",
@@ -1049,7 +1172,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"SCOUT"
+		}
 	},
 	[201] = {
 		name = "0",
@@ -1083,15 +1209,25 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		}
 	},
 	[202] = {
-		value_1 = "4 x 2",
+		id = 202,
 		name = "0",
 		base = 201,
 		is_siren = 0,
-		id = 202,
+		value_1 = "4 x 2",
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			202
 		},
@@ -1104,6 +1240,11 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "4 x 2",
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			203
 		},
@@ -1119,6 +1260,11 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "5 x 2",
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			204
 		},
@@ -1159,39 +1305,59 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
 	},
 	[212] = {
-		value_1 = "4 x 2",
+		id = 212,
 		name = "0",
 		base = 211,
 		is_siren = 0,
-		id = 212,
+		value_1 = "4 x 2",
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			212
 		},
 		property_rate = {}
 	},
 	[213] = {
-		value_1 = "5 x 2",
+		id = 213,
 		name = "0",
 		base = 211,
 		is_siren = 0,
-		id = 213,
+		value_1 = "5 x 2",
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			213
 		},
 		property_rate = {}
 	},
 	[214] = {
-		value_1 = "6 x 2",
+		id = 214,
 		name = "0",
 		base = 211,
 		is_siren = 0,
-		id = 214,
+		value_1 = "6 x 2",
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			214
 		},
@@ -1229,15 +1395,25 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		}
 	},
 	[222] = {
-		value_1 = "3 x 2",
+		id = 222,
 		name = "0",
 		base = 221,
 		is_siren = 0,
-		id = 222,
+		value_1 = "3 x 2",
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			222
 		},
@@ -1250,6 +1426,11 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "3 x 2",
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			223
 		},
@@ -1265,6 +1446,11 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "4 x 2",
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			224
 		},
@@ -1305,39 +1491,59 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		}
 	},
 	[232] = {
-		value_1 = "3 x 2",
+		id = 232,
 		name = "0",
 		base = 231,
 		is_siren = 0,
-		id = 232,
+		value_1 = "3 x 2",
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			232
 		},
 		property_rate = {}
 	},
 	[233] = {
-		value_1 = "4 x 2",
+		id = 233,
 		name = "0",
 		base = 231,
 		is_siren = 0,
-		id = 233,
+		value_1 = "4 x 2",
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			233
 		},
 		property_rate = {}
 	},
 	[234] = {
-		value_1 = "5 x 2",
+		id = 234,
 		name = "0",
 		base = 231,
 		is_siren = 0,
-		id = 234,
+		value_1 = "5 x 2",
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			234
 		},
@@ -1375,15 +1581,25 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		}
 	},
 	[262] = {
-		value_1 = "4 x 2",
+		id = 262,
 		name = "0",
 		base = 261,
 		is_siren = 0,
-		id = 262,
+		value_1 = "4 x 2",
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			262
 		},
@@ -1396,6 +1612,11 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "4 x 2",
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			263
 		},
@@ -1411,6 +1632,11 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "5 x 2",
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			264
 		},
@@ -1451,15 +1677,25 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
 	},
 	[272] = {
-		value_1 = "3 x 3",
+		id = 272,
 		name = "0",
 		base = 271,
 		is_siren = 0,
-		id = 272,
+		value_1 = "3 x 3",
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			272
 		},
@@ -1472,6 +1708,11 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "4 x 3",
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			273
 		},
@@ -1487,6 +1728,11 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "5 x 3",
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			274
 		},
@@ -1527,15 +1773,25 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		}
 	},
 	[302] = {
-		value_1 = "4 x 3",
+		id = 302,
 		name = "0",
 		base = 301,
 		is_siren = 0,
-		id = 302,
+		value_1 = "4 x 3",
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			302
 		},
@@ -1548,6 +1804,11 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "4 x 3",
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			303
 		},
@@ -1563,6 +1824,11 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "5 x 3",
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			304
 		},
@@ -1603,39 +1869,59 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
 	},
 	[312] = {
-		value_1 = "4 x 3",
+		id = 312,
 		name = "0",
 		base = 311,
 		is_siren = 0,
-		id = 312,
+		value_1 = "4 x 3",
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			312
 		},
 		property_rate = {}
 	},
 	[313] = {
-		value_1 = "5 x 3",
+		id = 313,
 		name = "0",
 		base = 311,
 		is_siren = 0,
-		id = 313,
+		value_1 = "5 x 3",
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			313
 		},
 		property_rate = {}
 	},
 	[314] = {
-		value_1 = "6 x 3",
+		id = 314,
 		name = "0",
 		base = 311,
 		is_siren = 0,
-		id = 314,
+		value_1 = "6 x 3",
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			314
 		},
@@ -1673,15 +1959,25 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		}
 	},
 	[322] = {
-		value_1 = "3 x 3",
+		id = 322,
 		name = "0",
 		base = 321,
 		is_siren = 0,
-		id = 322,
+		value_1 = "3 x 3",
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			322
 		},
@@ -1694,6 +1990,11 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "3 x 3",
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			323
 		},
@@ -1709,6 +2010,11 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "4 x 3",
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			324
 		},
@@ -1749,39 +2055,59 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		}
 	},
 	[332] = {
-		value_1 = "3 x 3",
+		id = 332,
 		name = "0",
 		base = 331,
 		is_siren = 0,
-		id = 332,
+		value_1 = "3 x 3",
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			332
 		},
 		property_rate = {}
 	},
 	[333] = {
-		value_1 = "4 x 3",
+		id = 333,
 		name = "0",
 		base = 331,
 		is_siren = 0,
-		id = 333,
+		value_1 = "4 x 3",
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			333
 		},
 		property_rate = {}
 	},
 	[334] = {
-		value_1 = "5 x 3",
+		id = 334,
 		name = "0",
 		base = 331,
 		is_siren = 0,
-		id = 334,
+		value_1 = "5 x 3",
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			334
 		},
@@ -1819,39 +2145,59 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
 	},
 	[372] = {
-		value_1 = "3 x 3",
+		id = 372,
 		name = "0",
 		base = 371,
 		is_siren = 0,
-		id = 372,
+		value_1 = "3 x 3",
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			372
 		},
 		property_rate = {}
 	},
 	[373] = {
-		value_1 = "4 x 3",
+		id = 373,
 		name = "0",
 		base = 371,
 		is_siren = 0,
-		id = 373,
+		value_1 = "4 x 3",
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			373
 		},
 		property_rate = {}
 	},
 	[374] = {
-		value_1 = "5 x 3",
+		id = 374,
 		name = "0",
 		base = 371,
 		is_siren = 0,
-		id = 374,
+		value_1 = "5 x 3",
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			374
 		},
@@ -1888,96 +2234,129 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[501] = {
-		is_siren = 0,
+		value_2 = 30,
 		id = 501,
 		base = 500,
-		value_2 = 30,
+		is_siren = 0,
 		value_1 = "16",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[502] = {
-		is_siren = 0,
+		value_2 = 35,
 		id = 502,
 		base = 500,
-		value_2 = 35,
+		is_siren = 0,
 		value_1 = "18",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[503] = {
-		is_siren = 0,
+		value_2 = 40,
 		id = 503,
 		base = 500,
-		value_2 = 40,
+		is_siren = 0,
 		value_1 = "20",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[504] = {
-		is_siren = 0,
+		value_2 = 45,
 		id = 504,
 		base = 500,
-		value_2 = 45,
+		is_siren = 0,
 		value_1 = "22",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[505] = {
-		is_siren = 0,
+		value_2 = 50,
 		id = 505,
 		base = 500,
-		value_2 = 50,
+		is_siren = 0,
 		value_1 = "24",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[506] = {
-		is_siren = 0,
+		value_2 = 55,
 		id = 506,
 		base = 500,
-		value_2 = 55,
+		is_siren = 0,
 		value_1 = "26",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[507] = {
-		is_siren = 0,
+		value_2 = 60,
 		id = 507,
 		base = 500,
-		value_2 = 60,
+		is_siren = 0,
 		value_1 = "28",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[508] = {
-		is_siren = 0,
+		value_2 = 65,
 		id = 508,
 		base = 500,
-		value_2 = 65,
+		is_siren = 0,
 		value_1 = "30",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[509] = {
-		is_siren = 0,
+		value_2 = 70,
 		id = 509,
 		base = 500,
-		value_2 = 70,
+		is_siren = 0,
 		value_1 = "32",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[510] = {
-		is_siren = 0,
+		value_2 = 75,
 		id = 510,
 		base = 500,
-		value_2 = 75,
+		is_siren = 0,
 		value_1 = "35",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[520] = {
@@ -2010,7 +2389,10 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[521] = {
 		id = 521,
@@ -2018,6 +2400,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "230",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[522] = {
@@ -2026,6 +2411,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "260",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[523] = {
@@ -2034,6 +2422,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "290",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[524] = {
@@ -2042,6 +2433,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "320",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[525] = {
@@ -2050,6 +2444,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "350",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[526] = {
@@ -2058,6 +2455,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "380",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[527] = {
@@ -2066,6 +2466,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "410",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[528] = {
@@ -2074,6 +2477,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "440",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[529] = {
@@ -2082,6 +2488,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "470",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[530] = {
@@ -2090,6 +2499,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "500",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[540] = {
@@ -2122,7 +2534,10 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[541] = {
 		id = 541,
@@ -2130,6 +2545,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "138",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[542] = {
@@ -2138,6 +2556,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "156",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[543] = {
@@ -2146,6 +2567,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "174",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[544] = {
@@ -2154,6 +2578,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "192",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[545] = {
@@ -2162,6 +2589,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "210",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[546] = {
@@ -2170,6 +2600,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "228",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[547] = {
@@ -2178,6 +2611,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "246",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[548] = {
@@ -2186,6 +2622,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "264",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[549] = {
@@ -2194,6 +2633,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "282",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[550] = {
@@ -2202,6 +2644,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "300",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[580] = {
@@ -2235,96 +2680,129 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[581] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 581,
 		base = 580,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "16",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[582] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 582,
 		base = 580,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "18",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[583] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 583,
 		base = 580,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "20",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[584] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 584,
 		base = 580,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "22",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[585] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 585,
 		base = 580,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "24",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[586] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 586,
 		base = 580,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "26",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[587] = {
-		is_siren = 0,
+		value_2 = 8,
 		id = 587,
 		base = 580,
-		value_2 = 8,
+		is_siren = 0,
 		value_1 = "28",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[588] = {
-		is_siren = 0,
+		value_2 = 8,
 		id = 588,
 		base = 580,
-		value_2 = 8,
+		is_siren = 0,
 		value_1 = "30",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[589] = {
-		is_siren = 0,
+		value_2 = 9,
 		id = 589,
 		base = 580,
-		value_2 = 9,
+		is_siren = 0,
 		value_1 = "32",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[590] = {
-		is_siren = 0,
+		value_2 = 10,
 		id = 590,
 		base = 580,
-		value_2 = 10,
+		is_siren = 0,
 		value_1 = "35",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[600] = {
@@ -2358,7 +2836,10 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[601] = {
 		id = 601,
@@ -2366,87 +2847,117 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "25",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[602] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 602,
 		base = 600,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "28",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[603] = {
-		is_siren = 0,
+		value_2 = 8,
 		id = 603,
 		base = 600,
-		value_2 = 8,
+		is_siren = 0,
 		value_1 = "32",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[604] = {
-		is_siren = 0,
+		value_2 = 9,
 		id = 604,
 		base = 600,
-		value_2 = 9,
+		is_siren = 0,
 		value_1 = "35",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[605] = {
-		is_siren = 0,
+		value_2 = 10,
 		id = 605,
 		base = 600,
-		value_2 = 10,
+		is_siren = 0,
 		value_1 = "38",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[606] = {
-		is_siren = 0,
+		value_2 = 11,
 		id = 606,
 		base = 600,
-		value_2 = 11,
+		is_siren = 0,
 		value_1 = "42",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[607] = {
-		is_siren = 0,
+		value_2 = 12,
 		id = 607,
 		base = 600,
-		value_2 = 12,
+		is_siren = 0,
 		value_1 = "45",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[608] = {
-		is_siren = 0,
+		value_2 = 13,
 		id = 608,
 		base = 600,
-		value_2 = 13,
+		is_siren = 0,
 		value_1 = "48",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[609] = {
-		is_siren = 0,
+		value_2 = 14,
 		id = 609,
 		base = 600,
-		value_2 = 14,
+		is_siren = 0,
 		value_1 = "51",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[610] = {
-		is_siren = 0,
+		value_2 = 15,
 		id = 610,
 		base = 600,
-		value_2 = 15,
+		is_siren = 0,
 		value_1 = "55",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[620] = {
@@ -2479,7 +2990,10 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[621] = {
 		id = 621,
@@ -2487,6 +3001,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "32",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[622] = {
@@ -2495,6 +3012,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "36",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[623] = {
@@ -2503,6 +3023,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "40",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[624] = {
@@ -2511,6 +3034,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "44",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[625] = {
@@ -2519,6 +3045,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "49",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[626] = {
@@ -2527,6 +3056,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "53",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[627] = {
@@ -2535,6 +3067,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "57",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[628] = {
@@ -2543,6 +3078,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "61",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[629] = {
@@ -2551,6 +3089,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "65",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[630] = {
@@ -2559,6 +3100,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "70",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[640] = {
@@ -2581,8 +3125,8 @@ pg.equip_data_statistics = {
 		attribute_3 = "luck",
 		ammo = "なし",
 		is_siren = 0,
-		descrip = "無勢を挫く幸運、揺るがない意志、必勝を信じる正義――旗を高く掲げ、いざ戦場へ！",
 		value_3 = 5,
+		descrip = "無勢を挫く幸運、揺るがない意志、必勝を信じる正義――旗を高く掲げ、いざ戦場へ！",
 		attribute_1 = "dodge",
 		torpedo_ammo = 0,
 		property_rate = {},
@@ -2593,7 +3137,10 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[641] = {
 		id = 641,
@@ -2601,87 +3148,117 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "7",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[642] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 642,
 		base = 640,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "7",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[643] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 643,
 		base = 640,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "8",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[644] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 644,
 		base = 640,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "9",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[645] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 645,
 		base = 640,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "10",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[646] = {
-		is_siren = 0,
+		value_2 = 8,
 		id = 646,
 		base = 640,
-		value_2 = 8,
+		is_siren = 0,
 		value_1 = "11",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[647] = {
-		is_siren = 0,
+		value_2 = 8,
 		id = 647,
 		base = 640,
-		value_2 = 8,
+		is_siren = 0,
 		value_1 = "12",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[648] = {
-		is_siren = 0,
+		value_2 = 9,
 		id = 648,
 		base = 640,
-		value_2 = 9,
+		is_siren = 0,
 		value_1 = "13",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[649] = {
-		is_siren = 0,
+		value_2 = 10,
 		id = 649,
 		base = 640,
-		value_2 = 10,
+		is_siren = 0,
 		value_1 = "14",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[650] = {
-		is_siren = 0,
+		value_2 = 10,
 		id = 650,
 		base = 640,
-		value_2 = 10,
+		is_siren = 0,
 		value_1 = "15",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[660] = {
@@ -2714,7 +3291,10 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[661] = {
 		id = 661,
@@ -2722,6 +3302,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "32",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[662] = {
@@ -2730,6 +3313,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "36",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[663] = {
@@ -2738,6 +3324,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "40",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[664] = {
@@ -2746,6 +3335,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "44",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[665] = {
@@ -2754,6 +3346,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "49",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[666] = {
@@ -2762,6 +3357,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "53",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[667] = {
@@ -2770,6 +3368,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "57",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[668] = {
@@ -2778,6 +3379,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "61",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[669] = {
@@ -2786,6 +3390,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "65",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[670] = {
@@ -2794,6 +3401,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "70",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[680] = {
@@ -2826,7 +3436,10 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[681] = {
 		id = 681,
@@ -2834,6 +3447,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "22",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[682] = {
@@ -2842,6 +3458,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "26",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[683] = {
@@ -2850,6 +3469,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "30",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[684] = {
@@ -2858,6 +3480,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "34",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[685] = {
@@ -2866,6 +3491,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "39",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[686] = {
@@ -2874,6 +3502,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "43",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[687] = {
@@ -2882,6 +3513,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "47",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[688] = {
@@ -2890,6 +3524,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "51",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[689] = {
@@ -2898,6 +3535,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "55",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[690] = {
@@ -2906,6 +3546,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "60",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[700] = {
@@ -2938,7 +3581,10 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[701] = {
 		id = 701,
@@ -2946,6 +3592,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "14",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[702] = {
@@ -2954,6 +3603,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "16",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[703] = {
@@ -2962,6 +3614,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "18",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[704] = {
@@ -2970,6 +3625,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "20",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[705] = {
@@ -2978,6 +3636,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "22",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[706] = {
@@ -2986,6 +3647,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "24",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[707] = {
@@ -2994,6 +3658,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "26",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[708] = {
@@ -3002,6 +3669,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "30",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[709] = {
@@ -3010,6 +3680,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "30",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[710] = {
@@ -3018,6 +3691,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "32",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[720] = {
@@ -3051,96 +3727,129 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[721] = {
-		is_siren = 0,
+		value_2 = 85,
 		id = 721,
 		base = 720,
-		value_2 = 85,
+		is_siren = 0,
 		value_1 = "13",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[722] = {
-		is_siren = 0,
+		value_2 = 90,
 		id = 722,
 		base = 720,
-		value_2 = 90,
+		is_siren = 0,
 		value_1 = "13",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[723] = {
-		is_siren = 0,
+		value_2 = 95,
 		id = 723,
 		base = 720,
-		value_2 = 95,
+		is_siren = 0,
 		value_1 = "14",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[724] = {
-		is_siren = 0,
+		value_2 = 100,
 		id = 724,
 		base = 720,
-		value_2 = 100,
+		is_siren = 0,
 		value_1 = "14",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[725] = {
-		is_siren = 0,
+		value_2 = 105,
 		id = 725,
 		base = 720,
-		value_2 = 105,
+		is_siren = 0,
 		value_1 = "15",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[726] = {
-		is_siren = 0,
+		value_2 = 110,
 		id = 726,
 		base = 720,
-		value_2 = 110,
+		is_siren = 0,
 		value_1 = "16",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[727] = {
-		is_siren = 0,
+		value_2 = 120,
 		id = 727,
 		base = 720,
-		value_2 = 120,
+		is_siren = 0,
 		value_1 = "17",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[728] = {
-		is_siren = 0,
+		value_2 = 130,
 		id = 728,
 		base = 720,
-		value_2 = 130,
+		is_siren = 0,
 		value_1 = "18",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[729] = {
-		is_siren = 0,
+		value_2 = 140,
 		id = 729,
 		base = 720,
-		value_2 = 140,
+		is_siren = 0,
 		value_1 = "19",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[730] = {
-		is_siren = 0,
+		value_2 = 150,
 		id = 730,
 		base = 720,
-		value_2 = 150,
+		is_siren = 0,
 		value_1 = "20",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[740] = {
@@ -3171,7 +3880,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HELI"
+		}
 	},
 	[741] = {
 		value_1 = "10",
@@ -3179,6 +3891,9 @@ pg.equip_data_statistics = {
 		base = 740,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HELI"
+		},
 		weapon_id = {},
 		property_rate = {}
 	},
@@ -3188,6 +3903,9 @@ pg.equip_data_statistics = {
 		base = 740,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HELI"
+		},
 		weapon_id = {},
 		property_rate = {}
 	},
@@ -3197,6 +3915,9 @@ pg.equip_data_statistics = {
 		base = 740,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HELI"
+		},
 		weapon_id = {},
 		property_rate = {}
 	},
@@ -3206,6 +3927,9 @@ pg.equip_data_statistics = {
 		base = 740,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HELI"
+		},
 		weapon_id = {},
 		property_rate = {}
 	},
@@ -3215,6 +3939,9 @@ pg.equip_data_statistics = {
 		base = 740,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HELI"
+		},
 		weapon_id = {},
 		property_rate = {}
 	},
@@ -3224,6 +3951,9 @@ pg.equip_data_statistics = {
 		base = 740,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HELI"
+		},
 		weapon_id = {},
 		property_rate = {}
 	},
@@ -3233,6 +3963,9 @@ pg.equip_data_statistics = {
 		base = 740,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HELI"
+		},
 		weapon_id = {},
 		property_rate = {}
 	},
@@ -3242,6 +3975,9 @@ pg.equip_data_statistics = {
 		base = 740,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HELI"
+		},
 		weapon_id = {},
 		property_rate = {}
 	},
@@ -3251,6 +3987,9 @@ pg.equip_data_statistics = {
 		base = 740,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HELI"
+		},
 		weapon_id = {},
 		property_rate = {}
 	},
@@ -3260,6 +3999,9 @@ pg.equip_data_statistics = {
 		base = 740,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HELI"
+		},
 		weapon_id = {},
 		property_rate = {}
 	},
@@ -3294,96 +4036,129 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[761] = {
-		is_siren = 0,
+		value_2 = 55,
 		id = 761,
 		base = 760,
-		value_2 = 55,
+		is_siren = 0,
 		value_1 = "6",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[762] = {
-		is_siren = 0,
+		value_2 = 60,
 		id = 762,
 		base = 760,
-		value_2 = 60,
+		is_siren = 0,
 		value_1 = "7",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[763] = {
-		is_siren = 0,
+		value_2 = 65,
 		id = 763,
 		base = 760,
-		value_2 = 65,
+		is_siren = 0,
 		value_1 = "8",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[764] = {
-		is_siren = 0,
+		value_2 = 70,
 		id = 764,
 		base = 760,
-		value_2 = 70,
+		is_siren = 0,
 		value_1 = "9",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[765] = {
-		is_siren = 0,
+		value_2 = 75,
 		id = 765,
 		base = 760,
-		value_2 = 75,
+		is_siren = 0,
 		value_1 = "10",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[766] = {
-		is_siren = 0,
+		value_2 = 80,
 		id = 766,
 		base = 760,
-		value_2 = 80,
+		is_siren = 0,
 		value_1 = "11",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[767] = {
-		is_siren = 0,
+		value_2 = 90,
 		id = 767,
 		base = 760,
-		value_2 = 90,
+		is_siren = 0,
 		value_1 = "12",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[768] = {
-		is_siren = 0,
+		value_2 = 100,
 		id = 768,
 		base = 760,
-		value_2 = 100,
+		is_siren = 0,
 		value_1 = "13",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[769] = {
-		is_siren = 0,
+		value_2 = 110,
 		id = 769,
 		base = 760,
-		value_2 = 110,
+		is_siren = 0,
 		value_1 = "14",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[770] = {
-		is_siren = 0,
+		value_2 = 120,
 		id = 770,
 		base = 760,
-		value_2 = 120,
+		is_siren = 0,
 		value_1 = "15",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1000] = {
@@ -3418,7 +4193,10 @@ pg.equip_data_statistics = {
 			12
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1001] = {
 		id = 1001,
@@ -3426,6 +4204,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "103",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1002] = {
@@ -3434,6 +4215,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "117",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1003] = {
@@ -3442,6 +4226,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "130",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1004] = {
@@ -3450,6 +4237,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "144",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1005] = {
@@ -3458,6 +4248,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "157",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1006] = {
@@ -3466,6 +4259,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "171",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1020] = {
@@ -3500,7 +4296,10 @@ pg.equip_data_statistics = {
 			12
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1021] = {
 		id = 1021,
@@ -3508,6 +4307,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "161",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1022] = {
@@ -3516,6 +4318,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "182",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1023] = {
@@ -3524,6 +4329,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "203",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1024] = {
@@ -3532,6 +4340,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "224",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1025] = {
@@ -3540,6 +4351,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "245",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1026] = {
@@ -3548,6 +4362,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "266",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1027] = {
@@ -3556,6 +4373,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "287",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1028] = {
@@ -3564,6 +4384,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "308",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1029] = {
@@ -3572,6 +4395,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "329",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1030] = {
@@ -3580,6 +4406,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "350",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1040] = {
@@ -3614,7 +4443,10 @@ pg.equip_data_statistics = {
 			12
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1041] = {
 		id = 1041,
@@ -3622,6 +4454,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "230",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1042] = {
@@ -3630,6 +4465,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "260",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1043] = {
@@ -3638,6 +4476,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "290",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1044] = {
@@ -3646,6 +4487,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "320",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1045] = {
@@ -3654,6 +4498,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "350",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1046] = {
@@ -3662,6 +4509,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "380",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1047] = {
@@ -3670,6 +4520,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "410",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1048] = {
@@ -3678,6 +4531,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "440",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1049] = {
@@ -3686,6 +4542,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "470",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1050] = {
@@ -3694,6 +4553,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "500",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1100] = {
@@ -3724,7 +4586,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1101] = {
 		id = 1101,
@@ -3732,6 +4597,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "11",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1102] = {
@@ -3740,6 +4608,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "13",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1103] = {
@@ -3748,6 +4619,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "14",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1120] = {
@@ -3778,7 +4652,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1121] = {
 		id = 1121,
@@ -3786,6 +4663,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "20",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1122] = {
@@ -3794,6 +4674,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "23",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1123] = {
@@ -3802,6 +4685,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "26",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1124] = {
@@ -3810,6 +4696,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "28",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1125] = {
@@ -3818,6 +4707,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "31",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1126] = {
@@ -3826,6 +4718,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "34",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1140] = {
@@ -3856,7 +4751,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1141] = {
 		id = 1141,
@@ -3864,6 +4762,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "32",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1142] = {
@@ -3872,6 +4773,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "36",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1143] = {
@@ -3880,6 +4784,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "40",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1144] = {
@@ -3888,6 +4795,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "44",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1145] = {
@@ -3896,6 +4806,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "49",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1146] = {
@@ -3904,6 +4817,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "53",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1147] = {
@@ -3912,6 +4828,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "57",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1148] = {
@@ -3920,6 +4839,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "61",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1149] = {
@@ -3928,6 +4850,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "65",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1150] = {
@@ -3936,6 +4861,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "70",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1160] = {
@@ -3970,6 +4898,9 @@ pg.equip_data_statistics = {
 		part_sub = {},
 		equip_parameters = {
 			ambush_extra = 1200
+		},
+		label = {
+			"DEV"
 		}
 	},
 	[1161] = {
@@ -3978,6 +4909,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "46",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1162] = {
@@ -3986,6 +4920,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "52",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1163] = {
@@ -3994,6 +4931,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "58",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1164] = {
@@ -4002,6 +4942,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "64",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1165] = {
@@ -4010,6 +4953,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "70",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1166] = {
@@ -4018,6 +4964,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "76",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1167] = {
@@ -4026,6 +4975,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "82",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1168] = {
@@ -4034,6 +4986,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "88",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1169] = {
@@ -4042,6 +4997,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "94",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1170] = {
@@ -4050,6 +5008,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "100",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1200] = {
@@ -4081,7 +5042,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1201] = {
 		id = 1201,
@@ -4089,6 +5053,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "4",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1202] = {
@@ -4097,15 +5064,21 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "4",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1203] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 1203,
 		base = 1200,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "5",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1220] = {
@@ -4137,60 +5110,81 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1221] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 1221,
 		base = 1220,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "7",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1222] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 1222,
 		base = 1220,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "8",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1223] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 1223,
 		base = 1220,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "9",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1224] = {
-		is_siren = 0,
+		value_2 = 8,
 		id = 1224,
 		base = 1220,
-		value_2 = 8,
+		is_siren = 0,
 		value_1 = "10",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1225] = {
-		is_siren = 0,
+		value_2 = 9,
 		id = 1225,
 		base = 1220,
-		value_2 = 9,
+		is_siren = 0,
 		value_1 = "11",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1226] = {
-		is_siren = 0,
+		value_2 = 10,
 		id = 1226,
 		base = 1220,
-		value_2 = 10,
+		is_siren = 0,
 		value_1 = "11",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1240] = {
@@ -4222,96 +5216,129 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1241] = {
-		is_siren = 0,
+		value_2 = 9,
 		id = 1241,
 		base = 1240,
-		value_2 = 9,
+		is_siren = 0,
 		value_1 = "11",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1242] = {
-		is_siren = 0,
+		value_2 = 10,
 		id = 1242,
 		base = 1240,
-		value_2 = 10,
+		is_siren = 0,
 		value_1 = "12",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1243] = {
-		is_siren = 0,
+		value_2 = 12,
 		id = 1243,
 		base = 1240,
-		value_2 = 12,
+		is_siren = 0,
 		value_1 = "14",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1244] = {
-		is_siren = 0,
+		value_2 = 13,
 		id = 1244,
 		base = 1240,
-		value_2 = 13,
+		is_siren = 0,
 		value_1 = "15",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1245] = {
-		is_siren = 0,
+		value_2 = 14,
 		id = 1245,
 		base = 1240,
-		value_2 = 14,
+		is_siren = 0,
 		value_1 = "17",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1246] = {
-		is_siren = 0,
+		value_2 = 15,
 		id = 1246,
 		base = 1240,
-		value_2 = 15,
+		is_siren = 0,
 		value_1 = "18",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1247] = {
-		is_siren = 0,
+		value_2 = 17,
 		id = 1247,
 		base = 1240,
-		value_2 = 17,
+		is_siren = 0,
 		value_1 = "20",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1248] = {
-		is_siren = 0,
+		value_2 = 18,
 		id = 1248,
 		base = 1240,
-		value_2 = 18,
+		is_siren = 0,
 		value_1 = "21",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1249] = {
-		is_siren = 0,
+		value_2 = 19,
 		id = 1249,
 		base = 1240,
-		value_2 = 19,
+		is_siren = 0,
 		value_1 = "23",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1250] = {
-		is_siren = 0,
+		value_2 = 21,
 		id = 1250,
 		base = 1240,
-		value_2 = 21,
+		is_siren = 0,
 		value_1 = "24",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1260] = {
@@ -4345,96 +5372,129 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1261] = {
-		is_siren = 0,
+		value_2 = 13,
 		id = 1261,
 		base = 1260,
-		value_2 = 13,
+		is_siren = 0,
 		value_1 = "16",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1262] = {
-		is_siren = 0,
+		value_2 = 14,
 		id = 1262,
 		base = 1260,
-		value_2 = 14,
+		is_siren = 0,
 		value_1 = "18",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1263] = {
-		is_siren = 0,
+		value_2 = 16,
 		id = 1263,
 		base = 1260,
-		value_2 = 16,
+		is_siren = 0,
 		value_1 = "20",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1264] = {
-		is_siren = 0,
+		value_2 = 18,
 		id = 1264,
 		base = 1260,
-		value_2 = 18,
+		is_siren = 0,
 		value_1 = "22",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1265] = {
-		is_siren = 0,
+		value_2 = 20,
 		id = 1265,
 		base = 1260,
-		value_2 = 20,
+		is_siren = 0,
 		value_1 = "24",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1266] = {
-		is_siren = 0,
+		value_2 = 22,
 		id = 1266,
 		base = 1260,
-		value_2 = 22,
+		is_siren = 0,
 		value_1 = "26",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1267] = {
-		is_siren = 0,
+		value_2 = 24,
 		id = 1267,
 		base = 1260,
-		value_2 = 24,
+		is_siren = 0,
 		value_1 = "28",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1268] = {
-		is_siren = 0,
+		value_2 = 26,
 		id = 1268,
 		base = 1260,
-		value_2 = 26,
+		is_siren = 0,
 		value_1 = "30",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1269] = {
-		is_siren = 0,
+		value_2 = 28,
 		id = 1269,
 		base = 1260,
-		value_2 = 28,
+		is_siren = 0,
 		value_1 = "33",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1270] = {
-		is_siren = 0,
+		value_2 = 30,
 		id = 1270,
 		base = 1260,
-		value_2 = 30,
+		is_siren = 0,
 		value_1 = "36",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1300] = {
@@ -4467,7 +5527,10 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1301] = {
 		id = 1301,
@@ -4475,6 +5538,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "57",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1302] = {
@@ -4483,6 +5549,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "65",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1303] = {
@@ -4491,6 +5560,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "72",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1320] = {
@@ -4523,7 +5595,10 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1321] = {
 		id = 1321,
@@ -4531,6 +5606,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "103",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1322] = {
@@ -4539,6 +5617,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "117",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1323] = {
@@ -4547,6 +5628,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "130",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1324] = {
@@ -4555,6 +5639,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "144",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1325] = {
@@ -4563,6 +5650,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "157",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1326] = {
@@ -4571,6 +5661,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "171",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1340] = {
@@ -4603,7 +5696,10 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1341] = {
 		id = 1341,
@@ -4611,6 +5707,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "161",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1342] = {
@@ -4619,6 +5718,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "182",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1343] = {
@@ -4627,6 +5729,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "203",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1344] = {
@@ -4635,6 +5740,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "224",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1345] = {
@@ -4643,6 +5751,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "245",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1346] = {
@@ -4651,6 +5762,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "266",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1347] = {
@@ -4659,6 +5773,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "287",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1348] = {
@@ -4667,6 +5784,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "308",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1349] = {
@@ -4675,6 +5795,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "329",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1350] = {
@@ -4683,6 +5806,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "350",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1400] = {
@@ -4714,60 +5840,81 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1401] = {
-		is_siren = 0,
+		value_2 = 21,
 		id = 1401,
 		base = 1400,
-		value_2 = 21,
+		is_siren = 0,
 		value_1 = "20",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1402] = {
-		is_siren = 0,
+		value_2 = 24,
 		id = 1402,
 		base = 1400,
-		value_2 = 24,
+		is_siren = 0,
 		value_1 = "23",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1403] = {
-		is_siren = 0,
+		value_2 = 27,
 		id = 1403,
 		base = 1400,
-		value_2 = 27,
+		is_siren = 0,
 		value_1 = "26",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1404] = {
-		is_siren = 0,
+		value_2 = 30,
 		id = 1404,
 		base = 1400,
-		value_2 = 30,
+		is_siren = 0,
 		value_1 = "28",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1405] = {
-		is_siren = 0,
+		value_2 = 33,
 		id = 1405,
 		base = 1400,
-		value_2 = 33,
+		is_siren = 0,
 		value_1 = "31",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1406] = {
-		is_siren = 0,
+		value_2 = 36,
 		id = 1406,
 		base = 1400,
-		value_2 = 36,
+		is_siren = 0,
 		value_1 = "34",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1420] = {
@@ -4799,96 +5946,129 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1421] = {
-		is_siren = 0,
+		value_2 = 24,
 		id = 1421,
 		base = 1420,
-		value_2 = 24,
+		is_siren = 0,
 		value_1 = "32",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1422] = {
-		is_siren = 0,
+		value_2 = 28,
 		id = 1422,
 		base = 1420,
-		value_2 = 28,
+		is_siren = 0,
 		value_1 = "36",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1423] = {
-		is_siren = 0,
+		value_2 = 32,
 		id = 1423,
 		base = 1420,
-		value_2 = 32,
+		is_siren = 0,
 		value_1 = "40",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1424] = {
-		is_siren = 0,
+		value_2 = 36,
 		id = 1424,
 		base = 1420,
-		value_2 = 36,
+		is_siren = 0,
 		value_1 = "44",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1425] = {
-		is_siren = 0,
+		value_2 = 40,
 		id = 1425,
 		base = 1420,
-		value_2 = 40,
+		is_siren = 0,
 		value_1 = "49",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1426] = {
-		is_siren = 0,
+		value_2 = 44,
 		id = 1426,
 		base = 1420,
-		value_2 = 44,
+		is_siren = 0,
 		value_1 = "53",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1427] = {
-		is_siren = 0,
+		value_2 = 48,
 		id = 1427,
 		base = 1420,
-		value_2 = 48,
+		is_siren = 0,
 		value_1 = "57",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1428] = {
-		is_siren = 0,
+		value_2 = 52,
 		id = 1428,
 		base = 1420,
-		value_2 = 52,
+		is_siren = 0,
 		value_1 = "61",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1429] = {
-		is_siren = 0,
+		value_2 = 56,
 		id = 1429,
 		base = 1420,
-		value_2 = 56,
+		is_siren = 0,
 		value_1 = "65",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1430] = {
-		is_siren = 0,
+		value_2 = 60,
 		id = 1430,
 		base = 1420,
-		value_2 = 60,
+		is_siren = 0,
 		value_1 = "70",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1440] = {
@@ -4920,96 +6100,129 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1441] = {
-		is_siren = 0,
+		value_2 = 30,
 		id = 1441,
 		base = 1440,
-		value_2 = 30,
+		is_siren = 0,
 		value_1 = "46",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1442] = {
-		is_siren = 0,
+		value_2 = 35,
 		id = 1442,
 		base = 1440,
-		value_2 = 35,
+		is_siren = 0,
 		value_1 = "52",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1443] = {
-		is_siren = 0,
+		value_2 = 40,
 		id = 1443,
 		base = 1440,
-		value_2 = 40,
+		is_siren = 0,
 		value_1 = "58",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1444] = {
-		is_siren = 0,
+		value_2 = 45,
 		id = 1444,
 		base = 1440,
-		value_2 = 45,
+		is_siren = 0,
 		value_1 = "64",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1445] = {
-		is_siren = 0,
+		value_2 = 50,
 		id = 1445,
 		base = 1440,
-		value_2 = 50,
+		is_siren = 0,
 		value_1 = "70",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1446] = {
-		is_siren = 0,
+		value_2 = 55,
 		id = 1446,
 		base = 1440,
-		value_2 = 55,
+		is_siren = 0,
 		value_1 = "76",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1447] = {
-		is_siren = 0,
+		value_2 = 60,
 		id = 1447,
 		base = 1440,
-		value_2 = 60,
+		is_siren = 0,
 		value_1 = "82",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1448] = {
-		is_siren = 0,
+		value_2 = 65,
 		id = 1448,
 		base = 1440,
-		value_2 = 65,
+		is_siren = 0,
 		value_1 = "88",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1449] = {
-		is_siren = 0,
+		value_2 = 70,
 		id = 1449,
 		base = 1440,
-		value_2 = 70,
+		is_siren = 0,
 		value_1 = "94",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1450] = {
-		is_siren = 0,
+		value_2 = 75,
 		id = 1450,
 		base = 1440,
-		value_2 = 75,
+		is_siren = 0,
 		value_1 = "100",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1500] = {
@@ -5046,60 +6259,81 @@ pg.equip_data_statistics = {
 		equip_parameters = {
 			avoid_extra = 500,
 			ambush_extra = 500
+		},
+		label = {
+			"DEV"
 		}
 	},
 	[1501] = {
-		is_siren = 0,
+		value_2 = 3,
 		id = 1501,
 		base = 1500,
-		value_2 = 3,
+		is_siren = 0,
 		value_1 = "7",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1502] = {
-		is_siren = 0,
+		value_2 = 3,
 		id = 1502,
 		base = 1500,
-		value_2 = 3,
+		is_siren = 0,
 		value_1 = "8",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1503] = {
-		is_siren = 0,
+		value_2 = 3,
 		id = 1503,
 		base = 1500,
-		value_2 = 3,
+		is_siren = 0,
 		value_1 = "9",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1504] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 1504,
 		base = 1500,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "10",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1505] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 1505,
 		base = 1500,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "11",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1506] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 1506,
 		base = 1500,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "11",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1520] = {
@@ -5136,6 +6370,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {
 			avoid_extra = 800,
 			ambush_extra = 800
+		},
+		label = {
+			"DEV"
 		}
 	},
 	[1521] = {
@@ -5144,87 +6381,117 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "11",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1522] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 1522,
 		base = 1520,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "12",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1523] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 1523,
 		base = 1520,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "14",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1524] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 1524,
 		base = 1520,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "15",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1525] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 1525,
 		base = 1520,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "17",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1526] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 1526,
 		base = 1520,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "18",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1527] = {
-		is_siren = 0,
+		value_2 = 8,
 		id = 1527,
 		base = 1520,
-		value_2 = 8,
+		is_siren = 0,
 		value_1 = "20",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1528] = {
-		is_siren = 0,
+		value_2 = 9,
 		id = 1528,
 		base = 1520,
-		value_2 = 9,
+		is_siren = 0,
 		value_1 = "21",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1529] = {
-		is_siren = 0,
+		value_2 = 9,
 		id = 1529,
 		base = 1520,
-		value_2 = 9,
+		is_siren = 0,
 		value_1 = "23",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1530] = {
-		is_siren = 0,
+		value_2 = 10,
 		id = 1530,
 		base = 1520,
-		value_2 = 10,
+		is_siren = 0,
 		value_1 = "24",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1540] = {
@@ -5261,6 +6528,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {
 			avoid_extra = 1200,
 			ambush_extra = 1200
+		},
+		label = {
+			"DEV"
 		}
 	},
 	[1541] = {
@@ -5269,87 +6539,117 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "16",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1542] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 1542,
 		base = 1540,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "18",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1543] = {
-		is_siren = 0,
+		value_2 = 8,
 		id = 1543,
 		base = 1540,
-		value_2 = 8,
+		is_siren = 0,
 		value_1 = "20",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1544] = {
-		is_siren = 0,
+		value_2 = 9,
 		id = 1544,
 		base = 1540,
-		value_2 = 9,
+		is_siren = 0,
 		value_1 = "22",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1545] = {
-		is_siren = 0,
+		value_2 = 10,
 		id = 1545,
 		base = 1540,
-		value_2 = 10,
+		is_siren = 0,
 		value_1 = "24",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1546] = {
-		is_siren = 0,
+		value_2 = 11,
 		id = 1546,
 		base = 1540,
-		value_2 = 11,
+		is_siren = 0,
 		value_1 = "26",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1547] = {
-		is_siren = 0,
+		value_2 = 12,
 		id = 1547,
 		base = 1540,
-		value_2 = 12,
+		is_siren = 0,
 		value_1 = "28",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1548] = {
-		is_siren = 0,
+		value_2 = 13,
 		id = 1548,
 		base = 1540,
-		value_2 = 13,
+		is_siren = 0,
 		value_1 = "30",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1549] = {
-		is_siren = 0,
+		value_2 = 14,
 		id = 1549,
 		base = 1540,
-		value_2 = 14,
+		is_siren = 0,
 		value_1 = "32",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1550] = {
-		is_siren = 0,
+		value_2 = 15,
 		id = 1550,
 		base = 1540,
-		value_2 = 15,
+		is_siren = 0,
 		value_1 = "35",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1600] = {
@@ -5380,36 +6680,48 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1601] = {
-		is_siren = 0,
 		attribute_2 = "cannon",
-		base = 1600,
 		value_2 = 1,
+		base = 1600,
 		id = 1601,
+		is_siren = 0,
 		value_1 = "2",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1602] = {
-		is_siren = 0,
 		attribute_2 = "cannon",
-		base = 1600,
 		value_2 = 1,
+		base = 1600,
 		id = 1602,
+		is_siren = 0,
 		value_1 = "3",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1603] = {
-		is_siren = 0,
 		attribute_2 = "cannon",
-		base = 1600,
 		value_2 = 2,
+		base = 1600,
 		id = 1603,
+		is_siren = 0,
 		value_1 = "3",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1620] = {
@@ -5441,33 +6753,45 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1621] = {
-		is_siren = 0,
+		value_2 = 2,
 		id = 1621,
 		base = 1620,
-		value_2 = 2,
+		is_siren = 0,
 		value_1 = "5",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1622] = {
-		is_siren = 0,
+		value_2 = 2,
 		id = 1622,
 		base = 1620,
-		value_2 = 2,
+		is_siren = 0,
 		value_1 = "6",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1623] = {
-		is_siren = 0,
+		value_2 = 3,
 		id = 1623,
 		base = 1620,
-		value_2 = 3,
+		is_siren = 0,
 		value_1 = "7",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1640] = {
@@ -5499,7 +6823,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1641] = {
 		id = 1641,
@@ -5507,6 +6834,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "10",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1642] = {
@@ -5515,42 +6845,57 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "11",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1643] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 1643,
 		base = 1640,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "12",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1644] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 1644,
 		base = 1640,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "13",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1645] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 1645,
 		base = 1640,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "15",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1646] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 1646,
 		base = 1640,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "17",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1700] = {
@@ -5582,33 +6927,45 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1701] = {
-		is_siren = 0,
+		value_2 = 16,
 		id = 1701,
 		base = 1700,
-		value_2 = 16,
+		is_siren = 0,
 		value_1 = "2",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1702] = {
-		is_siren = 0,
+		value_2 = 18,
 		id = 1702,
 		base = 1700,
-		value_2 = 18,
+		is_siren = 0,
 		value_1 = "3",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1703] = {
-		is_siren = 0,
+		value_2 = 20,
 		id = 1703,
 		base = 1700,
-		value_2 = 20,
+		is_siren = 0,
 		value_1 = "3",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1720] = {
@@ -5640,33 +6997,45 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1721] = {
-		is_siren = 0,
+		value_2 = 19,
 		id = 1721,
 		base = 1720,
-		value_2 = 19,
+		is_siren = 0,
 		value_1 = "5",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1722] = {
-		is_siren = 0,
+		value_2 = 22,
 		id = 1722,
 		base = 1720,
-		value_2 = 22,
+		is_siren = 0,
 		value_1 = "6",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1723] = {
-		is_siren = 0,
+		value_2 = 25,
 		id = 1723,
 		base = 1720,
-		value_2 = 25,
+		is_siren = 0,
 		value_1 = "7",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1740] = {
@@ -5698,60 +7067,81 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1741] = {
-		is_siren = 0,
+		value_2 = 24,
 		id = 1741,
 		base = 1740,
-		value_2 = 24,
+		is_siren = 0,
 		value_1 = "10",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1742] = {
-		is_siren = 0,
+		value_2 = 28,
 		id = 1742,
 		base = 1740,
-		value_2 = 28,
+		is_siren = 0,
 		value_1 = "11",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1743] = {
-		is_siren = 0,
+		value_2 = 32,
 		id = 1743,
 		base = 1740,
-		value_2 = 32,
+		is_siren = 0,
 		value_1 = "12",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1744] = {
-		is_siren = 0,
+		value_2 = 36,
 		id = 1744,
 		base = 1740,
-		value_2 = 36,
+		is_siren = 0,
 		value_1 = "13",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1745] = {
-		is_siren = 0,
+		value_2 = 40,
 		id = 1745,
 		base = 1740,
-		value_2 = 40,
+		is_siren = 0,
 		value_1 = "15",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1746] = {
-		is_siren = 0,
+		value_2 = 44,
 		id = 1746,
 		base = 1740,
-		value_2 = 44,
+		is_siren = 0,
 		value_1 = "17",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1760] = {
@@ -5785,96 +7175,129 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1761] = {
-		is_siren = 0,
+		value_2 = 27,
 		id = 1761,
 		base = 1760,
-		value_2 = 27,
+		is_siren = 0,
 		value_1 = "18",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1762] = {
-		is_siren = 0,
+		value_2 = 30,
 		id = 1762,
 		base = 1760,
-		value_2 = 30,
+		is_siren = 0,
 		value_1 = "20",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1763] = {
-		is_siren = 0,
+		value_2 = 33,
 		id = 1763,
 		base = 1760,
-		value_2 = 33,
+		is_siren = 0,
 		value_1 = "22",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1764] = {
-		is_siren = 0,
+		value_2 = 36,
 		id = 1764,
 		base = 1760,
-		value_2 = 36,
+		is_siren = 0,
 		value_1 = "24",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1765] = {
-		is_siren = 0,
+		value_2 = 40,
 		id = 1765,
 		base = 1760,
-		value_2 = 40,
+		is_siren = 0,
 		value_1 = "26",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1766] = {
-		is_siren = 0,
+		value_2 = 44,
 		id = 1766,
 		base = 1760,
-		value_2 = 44,
+		is_siren = 0,
 		value_1 = "28",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1767] = {
-		is_siren = 0,
+		value_2 = 48,
 		id = 1767,
 		base = 1760,
-		value_2 = 48,
+		is_siren = 0,
 		value_1 = "31",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1768] = {
-		is_siren = 0,
+		value_2 = 52,
 		id = 1768,
 		base = 1760,
-		value_2 = 52,
+		is_siren = 0,
 		value_1 = "34",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1769] = {
-		is_siren = 0,
+		value_2 = 56,
 		id = 1769,
 		base = 1760,
-		value_2 = 56,
+		is_siren = 0,
 		value_1 = "37",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1770] = {
-		is_siren = 0,
+		value_2 = 60,
 		id = 1770,
 		base = 1760,
-		value_2 = 60,
+		is_siren = 0,
 		value_1 = "40",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1800] = {
@@ -5906,7 +7329,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1801] = {
 		id = 1801,
@@ -5914,6 +7340,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "40",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1802] = {
@@ -5922,6 +7351,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "45",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1803] = {
@@ -5930,6 +7362,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "50",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1820] = {
@@ -5961,7 +7396,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1821] = {
 		id = 1821,
@@ -5969,6 +7407,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "72",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1822] = {
@@ -5977,42 +7418,57 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "81",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1823] = {
-		is_siren = 0,
+		value_2 = 3,
 		id = 1823,
 		base = 1820,
-		value_2 = 3,
+		is_siren = 0,
 		value_1 = "91",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1824] = {
-		is_siren = 0,
+		value_2 = 3,
 		id = 1824,
 		base = 1820,
-		value_2 = 3,
+		is_siren = 0,
 		value_1 = "100",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1825] = {
-		is_siren = 0,
+		value_2 = 3,
 		id = 1825,
 		base = 1820,
-		value_2 = 3,
+		is_siren = 0,
 		value_1 = "110",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1826] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 1826,
 		base = 1820,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "119",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1840] = {
@@ -6044,7 +7500,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1841] = {
 		id = 1841,
@@ -6052,87 +7511,117 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "112",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1842] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 1842,
 		base = 1840,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "127",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1843] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 1843,
 		base = 1840,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "142",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1844] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 1844,
 		base = 1840,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "156",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1845] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 1845,
 		base = 1840,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "171",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1846] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 1846,
 		base = 1840,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "186",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1847] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 1847,
 		base = 1840,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "200",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1848] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 1848,
 		base = 1840,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "215",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1849] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 1849,
 		base = 1840,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "230",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1850] = {
-		is_siren = 0,
+		value_2 = 8,
 		id = 1850,
 		base = 1840,
-		value_2 = 8,
+		is_siren = 0,
 		value_1 = "245",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1900] = {
@@ -6164,33 +7653,45 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1901] = {
-		is_siren = 0,
+		value_2 = 16,
 		id = 1901,
 		base = 1900,
-		value_2 = 16,
+		is_siren = 0,
 		value_1 = "2",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1902] = {
-		is_siren = 0,
+		value_2 = 18,
 		id = 1902,
 		base = 1900,
-		value_2 = 18,
+		is_siren = 0,
 		value_1 = "3",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1903] = {
-		is_siren = 0,
+		value_2 = 20,
 		id = 1903,
 		base = 1900,
-		value_2 = 20,
+		is_siren = 0,
 		value_1 = "3",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1920] = {
@@ -6222,33 +7723,45 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1921] = {
-		is_siren = 0,
+		value_2 = 19,
 		id = 1921,
 		base = 1920,
-		value_2 = 19,
+		is_siren = 0,
 		value_1 = "5",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1922] = {
-		is_siren = 0,
+		value_2 = 22,
 		id = 1922,
 		base = 1920,
-		value_2 = 22,
+		is_siren = 0,
 		value_1 = "6",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1923] = {
-		is_siren = 0,
+		value_2 = 25,
 		id = 1923,
 		base = 1920,
-		value_2 = 25,
+		is_siren = 0,
 		value_1 = "7",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1940] = {
@@ -6280,60 +7793,81 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[1941] = {
-		is_siren = 0,
+		value_2 = 24,
 		id = 1941,
 		base = 1940,
-		value_2 = 24,
+		is_siren = 0,
 		value_1 = "10",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1942] = {
-		is_siren = 0,
+		value_2 = 28,
 		id = 1942,
 		base = 1940,
-		value_2 = 28,
+		is_siren = 0,
 		value_1 = "11",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1943] = {
-		is_siren = 0,
+		value_2 = 32,
 		id = 1943,
 		base = 1940,
-		value_2 = 32,
+		is_siren = 0,
 		value_1 = "13",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1944] = {
-		is_siren = 0,
+		value_2 = 36,
 		id = 1944,
 		base = 1940,
-		value_2 = 36,
+		is_siren = 0,
 		value_1 = "14",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1945] = {
-		is_siren = 0,
+		value_2 = 40,
 		id = 1945,
 		base = 1940,
-		value_2 = 40,
+		is_siren = 0,
 		value_1 = "15",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[1946] = {
-		is_siren = 0,
+		value_2 = 44,
 		id = 1946,
 		base = 1940,
-		value_2 = 44,
+		is_siren = 0,
 		value_1 = "17",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2000] = {
@@ -6365,7 +7899,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[2001] = {
 		id = 2001,
@@ -6373,6 +7910,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "57",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2002] = {
@@ -6381,6 +7921,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "65",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2003] = {
@@ -6389,6 +7932,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "72",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2020] = {
@@ -6420,7 +7966,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[2021] = {
 		id = 2021,
@@ -6428,6 +7977,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "103",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2022] = {
@@ -6436,6 +7988,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "117",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2023] = {
@@ -6444,33 +7999,45 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "130",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2024] = {
-		is_siren = 0,
+		value_2 = 3,
 		id = 2024,
 		base = 2020,
-		value_2 = 3,
+		is_siren = 0,
 		value_1 = "144",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2025] = {
-		is_siren = 0,
+		value_2 = 3,
 		id = 2025,
 		base = 2020,
-		value_2 = 3,
+		is_siren = 0,
 		value_1 = "157",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2026] = {
-		is_siren = 0,
+		value_2 = 3,
 		id = 2026,
 		base = 2020,
-		value_2 = 3,
+		is_siren = 0,
 		value_1 = "171",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2040] = {
@@ -6502,7 +8069,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[2041] = {
 		id = 2041,
@@ -6510,6 +8080,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "161",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2042] = {
@@ -6518,6 +8091,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "182",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2043] = {
@@ -6526,69 +8102,93 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "203",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2044] = {
-		is_siren = 0,
+		value_2 = 3,
 		id = 2044,
 		base = 2040,
-		value_2 = 3,
+		is_siren = 0,
 		value_1 = "224",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2045] = {
-		is_siren = 0,
+		value_2 = 3,
 		id = 2045,
 		base = 2040,
-		value_2 = 3,
+		is_siren = 0,
 		value_1 = "245",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2046] = {
-		is_siren = 0,
+		value_2 = 3,
 		id = 2046,
 		base = 2040,
-		value_2 = 3,
+		is_siren = 0,
 		value_1 = "266",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2047] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 2047,
 		base = 2040,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "287",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2048] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 2048,
 		base = 2040,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "308",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2049] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 2049,
 		base = 2040,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "329",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2050] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 2050,
 		base = 2040,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "350",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2100] = {
@@ -6622,33 +8222,45 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[2101] = {
-		is_siren = 0,
+		value_2 = 16,
 		id = 2101,
 		base = 2100,
-		value_2 = 16,
+		is_siren = 0,
 		value_1 = "11",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2102] = {
-		is_siren = 0,
+		value_2 = 18,
 		id = 2102,
 		base = 2100,
-		value_2 = 18,
+		is_siren = 0,
 		value_1 = "13",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2103] = {
-		is_siren = 0,
+		value_2 = 20,
 		id = 2103,
 		base = 2100,
-		value_2 = 20,
+		is_siren = 0,
 		value_1 = "14",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2120] = {
@@ -6682,60 +8294,81 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[2121] = {
-		is_siren = 0,
+		value_2 = 19,
 		id = 2121,
 		base = 2120,
-		value_2 = 19,
+		is_siren = 0,
 		value_1 = "20",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2122] = {
-		is_siren = 0,
+		value_2 = 22,
 		id = 2122,
 		base = 2120,
-		value_2 = 22,
+		is_siren = 0,
 		value_1 = "23",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2123] = {
-		is_siren = 0,
+		value_2 = 25,
 		id = 2123,
 		base = 2120,
-		value_2 = 25,
+		is_siren = 0,
 		value_1 = "26",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2124] = {
-		is_siren = 0,
+		value_2 = 28,
 		id = 2124,
 		base = 2120,
-		value_2 = 28,
+		is_siren = 0,
 		value_1 = "28",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2125] = {
-		is_siren = 0,
+		value_2 = 31,
 		id = 2125,
 		base = 2120,
-		value_2 = 31,
+		is_siren = 0,
 		value_1 = "31",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2126] = {
-		is_siren = 0,
+		value_2 = 34,
 		id = 2126,
 		base = 2120,
-		value_2 = 34,
+		is_siren = 0,
 		value_1 = "34",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2140] = {
@@ -6769,96 +8402,129 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[2141] = {
-		is_siren = 0,
+		value_2 = 24,
 		id = 2141,
 		base = 2140,
-		value_2 = 24,
+		is_siren = 0,
 		value_1 = "32",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2142] = {
-		is_siren = 0,
+		value_2 = 28,
 		id = 2142,
 		base = 2140,
-		value_2 = 28,
+		is_siren = 0,
 		value_1 = "36",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2143] = {
-		is_siren = 0,
+		value_2 = 32,
 		id = 2143,
 		base = 2140,
-		value_2 = 32,
+		is_siren = 0,
 		value_1 = "40",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2144] = {
-		is_siren = 0,
+		value_2 = 36,
 		id = 2144,
 		base = 2140,
-		value_2 = 36,
+		is_siren = 0,
 		value_1 = "44",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2145] = {
-		is_siren = 0,
+		value_2 = 40,
 		id = 2145,
 		base = 2140,
-		value_2 = 40,
+		is_siren = 0,
 		value_1 = "49",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2146] = {
-		is_siren = 0,
+		value_2 = 44,
 		id = 2146,
 		base = 2140,
-		value_2 = 44,
+		is_siren = 0,
 		value_1 = "53",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2147] = {
-		is_siren = 0,
+		value_2 = 48,
 		id = 2147,
 		base = 2140,
-		value_2 = 48,
+		is_siren = 0,
 		value_1 = "57",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2148] = {
-		is_siren = 0,
+		value_2 = 52,
 		id = 2148,
 		base = 2140,
-		value_2 = 52,
+		is_siren = 0,
 		value_1 = "61",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2149] = {
-		is_siren = 0,
+		value_2 = 56,
 		id = 2149,
 		base = 2140,
-		value_2 = 56,
+		is_siren = 0,
 		value_1 = "65",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2150] = {
-		is_siren = 0,
+		value_2 = 60,
 		id = 2150,
 		base = 2140,
-		value_2 = 60,
+		is_siren = 0,
 		value_1 = "70",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2200] = {
@@ -6890,7 +8556,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[2201] = {
 		id = 2201,
@@ -6898,6 +8567,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "5",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2202] = {
@@ -6906,15 +8578,21 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "6",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2203] = {
-		is_siren = 0,
+		value_2 = 2,
 		id = 2203,
 		base = 2200,
-		value_2 = 2,
+		is_siren = 0,
 		value_1 = "7",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2220] = {
@@ -6946,7 +8624,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[2221] = {
 		id = 2221,
@@ -6954,6 +8635,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "10",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2222] = {
@@ -6962,42 +8646,57 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "11",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2223] = {
-		is_siren = 0,
+		value_2 = 3,
 		id = 2223,
 		base = 2220,
-		value_2 = 3,
+		is_siren = 0,
 		value_1 = "13",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2224] = {
-		is_siren = 0,
+		value_2 = 3,
 		id = 2224,
 		base = 2220,
-		value_2 = 3,
+		is_siren = 0,
 		value_1 = "14",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2225] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 2225,
 		base = 2220,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "15",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2226] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 2226,
 		base = 2220,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "17",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2240] = {
@@ -7029,7 +8728,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[2241] = {
 		id = 2241,
@@ -7037,6 +8739,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "16",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2242] = {
@@ -7045,78 +8750,105 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "18",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2243] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 2243,
 		base = 2240,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "20",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2244] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 2244,
 		base = 2240,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "22",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2245] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 2245,
 		base = 2240,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "24",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2246] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 2246,
 		base = 2240,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "26",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2247] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 2247,
 		base = 2240,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "28",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2248] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 2248,
 		base = 2240,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "30",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2249] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 2249,
 		base = 2240,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "32",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2250] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 2250,
 		base = 2240,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "35",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2300] = {
@@ -7148,7 +8880,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[2301] = {
 		id = 2301,
@@ -7156,6 +8891,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "5",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2302] = {
@@ -7164,6 +8902,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "6",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2303] = {
@@ -7172,6 +8913,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "7",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2320] = {
@@ -7203,7 +8947,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[2321] = {
 		id = 2321,
@@ -7211,6 +8958,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "10",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2322] = {
@@ -7219,42 +8969,57 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "11",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2323] = {
-		is_siren = 0,
+		value_2 = 3,
 		id = 2323,
 		base = 2320,
-		value_2 = 3,
+		is_siren = 0,
 		value_1 = "13",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2324] = {
-		is_siren = 0,
+		value_2 = 3,
 		id = 2324,
 		base = 2320,
-		value_2 = 3,
+		is_siren = 0,
 		value_1 = "14",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2325] = {
-		is_siren = 0,
+		value_2 = 3,
 		id = 2325,
 		base = 2320,
-		value_2 = 3,
+		is_siren = 0,
 		value_1 = "15",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2326] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 2326,
 		base = 2320,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "17",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2340] = {
@@ -7286,7 +9051,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[2341] = {
 		id = 2341,
@@ -7294,87 +9062,117 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "16",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2342] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 2342,
 		base = 2340,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "18",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2343] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 2343,
 		base = 2340,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "20",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2344] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 2344,
 		base = 2340,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "22",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2345] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 2345,
 		base = 2340,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "24",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2346] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 2346,
 		base = 2340,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "26",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2347] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 2347,
 		base = 2340,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "28",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2348] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 2348,
 		base = 2340,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "30",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2349] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 2349,
 		base = 2340,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "32",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2350] = {
-		is_siren = 0,
+		value_2 = 8,
 		id = 2350,
 		base = 2340,
-		value_2 = 8,
+		is_siren = 0,
 		value_1 = "35",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2400] = {
@@ -7407,7 +9205,10 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[2401] = {
 		id = 2401,
@@ -7415,6 +9216,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "103",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2402] = {
@@ -7423,6 +9227,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "117",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2403] = {
@@ -7431,6 +9238,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "130",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2420] = {
@@ -7463,7 +9273,10 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[2421] = {
 		id = 2421,
@@ -7471,6 +9284,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "161",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2422] = {
@@ -7479,6 +9295,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "182",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2423] = {
@@ -7487,6 +9306,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "203",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2424] = {
@@ -7495,6 +9317,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "224",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2425] = {
@@ -7503,6 +9328,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "245",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2426] = {
@@ -7511,6 +9339,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "266",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2440] = {
@@ -7543,7 +9374,10 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[2441] = {
 		id = 2441,
@@ -7551,6 +9385,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "230",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2442] = {
@@ -7559,6 +9396,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "260",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2443] = {
@@ -7567,6 +9407,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "290",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2444] = {
@@ -7575,6 +9418,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "320",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2445] = {
@@ -7583,6 +9429,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "350",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2446] = {
@@ -7591,6 +9440,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "380",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2447] = {
@@ -7599,6 +9451,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "410",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2448] = {
@@ -7607,6 +9462,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "440",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2449] = {
@@ -7615,6 +9473,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "470",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2450] = {
@@ -7623,6 +9484,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "500",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2500] = {
@@ -7655,7 +9519,10 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[2501] = {
 		id = 2501,
@@ -7663,6 +9530,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "57",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2502] = {
@@ -7671,6 +9541,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "65",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2503] = {
@@ -7679,6 +9552,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "72",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2520] = {
@@ -7711,7 +9587,10 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[2521] = {
 		id = 2521,
@@ -7719,6 +9598,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "103",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2522] = {
@@ -7727,6 +9609,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "117",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2523] = {
@@ -7735,6 +9620,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "130",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2540] = {
@@ -7767,7 +9655,10 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[2541] = {
 		id = 2541,
@@ -7775,6 +9666,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "161",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2542] = {
@@ -7783,6 +9677,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "182",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2543] = {
@@ -7791,6 +9688,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "203",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2544] = {
@@ -7799,6 +9699,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "224",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2545] = {
@@ -7807,6 +9710,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "245",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2546] = {
@@ -7815,6 +9721,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "266",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2640] = {
@@ -7846,7 +9755,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[2641] = {
 		id = 2641,
@@ -7854,87 +9766,117 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "46",
 		torpedo_ammo = 1,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2642] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 2642,
 		base = 2640,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "52",
 		torpedo_ammo = 1,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2643] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 2643,
 		base = 2640,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "58",
 		torpedo_ammo = 1,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2644] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 2644,
 		base = 2640,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "64",
 		torpedo_ammo = 2,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2645] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 2645,
 		base = 2640,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "70",
 		torpedo_ammo = 2,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2646] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 2646,
 		base = 2640,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "76",
 		torpedo_ammo = 2,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2647] = {
-		is_siren = 0,
+		value_2 = 8,
 		id = 2647,
 		base = 2640,
-		value_2 = 8,
+		is_siren = 0,
 		value_1 = "82",
 		torpedo_ammo = 3,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2648] = {
-		is_siren = 0,
+		value_2 = 9,
 		id = 2648,
 		base = 2640,
-		value_2 = 9,
+		is_siren = 0,
 		value_1 = "88",
 		torpedo_ammo = 3,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2649] = {
-		is_siren = 0,
+		value_2 = 9,
 		id = 2649,
 		base = 2640,
-		value_2 = 9,
+		is_siren = 0,
 		value_1 = "94",
 		torpedo_ammo = 3,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2650] = {
-		is_siren = 0,
+		value_2 = 10,
 		id = 2650,
 		base = 2640,
-		value_2 = 10,
+		is_siren = 0,
 		value_1 = "100",
 		torpedo_ammo = 4,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2800] = {
@@ -7966,96 +9908,129 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[2801] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 2801,
 		base = 2800,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "25",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2802] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 2802,
 		base = 2800,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "28",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2803] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 2803,
 		base = 2800,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "32",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2804] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 2804,
 		base = 2800,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "35",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2805] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 2805,
 		base = 2800,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "38",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2806] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 2806,
 		base = 2800,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "42",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2807] = {
-		is_siren = 0,
+		value_2 = 8,
 		id = 2807,
 		base = 2800,
-		value_2 = 8,
+		is_siren = 0,
 		value_1 = "45",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2808] = {
-		is_siren = 0,
+		value_2 = 8,
 		id = 2808,
 		base = 2800,
-		value_2 = 8,
+		is_siren = 0,
 		value_1 = "48",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2809] = {
-		is_siren = 0,
+		value_2 = 9,
 		id = 2809,
 		base = 2800,
-		value_2 = 9,
+		is_siren = 0,
 		value_1 = "51",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2810] = {
-		is_siren = 0,
+		value_2 = 10,
 		id = 2810,
 		base = 2800,
-		value_2 = 10,
+		is_siren = 0,
 		value_1 = "55",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2900] = {
@@ -8091,33 +10066,45 @@ pg.equip_data_statistics = {
 			interval = 5,
 			range = 45,
 			duration = 7
+		},
+		label = {
+			"DEV"
 		}
 	},
 	[2901] = {
-		is_siren = 0,
+		value_2 = 2,
 		id = 2901,
 		base = 2900,
-		value_2 = 2,
+		is_siren = 0,
 		value_1 = "2",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2902] = {
-		is_siren = 0,
+		value_2 = 2,
 		id = 2902,
 		base = 2900,
-		value_2 = 2,
+		is_siren = 0,
 		value_1 = "3",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2903] = {
-		is_siren = 0,
+		value_2 = 3,
 		id = 2903,
 		base = 2900,
-		value_2 = 3,
+		is_siren = 0,
 		value_1 = "4",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2920] = {
@@ -8153,60 +10140,81 @@ pg.equip_data_statistics = {
 			interval = 4.8,
 			range = 45,
 			duration = 7
+		},
+		label = {
+			"DEV"
 		}
 	},
 	[2921] = {
-		is_siren = 0,
+		value_2 = 3,
 		id = 2921,
 		base = 2920,
-		value_2 = 3,
+		is_siren = 0,
 		value_1 = "4",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2922] = {
-		is_siren = 0,
+		value_2 = 3,
 		id = 2922,
 		base = 2920,
-		value_2 = 3,
+		is_siren = 0,
 		value_1 = "5",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2923] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 2923,
 		base = 2920,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "6",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2924] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 2924,
 		base = 2920,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "7",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2925] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 2925,
 		base = 2920,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "8",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2926] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 2926,
 		base = 2920,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "9",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2940] = {
@@ -8242,96 +10250,129 @@ pg.equip_data_statistics = {
 			interval = 4.5,
 			range = 45,
 			duration = 7
+		},
+		label = {
+			"DEV"
 		}
 	},
 	[2941] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 2941,
 		base = 2940,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "6",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2942] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 2942,
 		base = 2940,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "7",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2943] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 2943,
 		base = 2940,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "8",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2944] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 2944,
 		base = 2940,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "9",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2945] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 2945,
 		base = 2940,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "10",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2946] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 2946,
 		base = 2940,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "11",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2947] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 2947,
 		base = 2940,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "12",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2948] = {
-		is_siren = 0,
+		value_2 = 8,
 		id = 2948,
 		base = 2940,
-		value_2 = 8,
+		is_siren = 0,
 		value_1 = "14",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2949] = {
-		is_siren = 0,
+		value_2 = 8,
 		id = 2949,
 		base = 2940,
-		value_2 = 8,
+		is_siren = 0,
 		value_1 = "16",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[2950] = {
-		is_siren = 0,
+		value_2 = 9,
 		id = 2950,
 		base = 2940,
-		value_2 = 9,
+		is_siren = 0,
 		value_1 = "18",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3000] = {
@@ -8367,60 +10408,81 @@ pg.equip_data_statistics = {
 			interval = 4,
 			range = 48,
 			duration = 7
+		},
+		label = {
+			"DEV"
 		}
 	},
 	[3001] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 3001,
 		base = 3000,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "5",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3002] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 3002,
 		base = 3000,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "6",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3003] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 3003,
 		base = 3000,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "7",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3004] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 3004,
 		base = 3000,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "8",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3005] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 3005,
 		base = 3000,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "9",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3006] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 3006,
 		base = 3000,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "10",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3020] = {
@@ -8456,96 +10518,129 @@ pg.equip_data_statistics = {
 			interval = 3.8,
 			range = 48,
 			duration = 7
+		},
+		label = {
+			"DEV"
 		}
 	},
 	[3021] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 3021,
 		base = 3020,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "10",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3022] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 3022,
 		base = 3020,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "11",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3023] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 3023,
 		base = 3020,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "12",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3024] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 3024,
 		base = 3020,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "13",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3025] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 3025,
 		base = 3020,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "14",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3026] = {
-		is_siren = 0,
+		value_2 = 8,
 		id = 3026,
 		base = 3020,
-		value_2 = 8,
+		is_siren = 0,
 		value_1 = "16",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3027] = {
-		is_siren = 0,
+		value_2 = 8,
 		id = 3027,
 		base = 3020,
-		value_2 = 8,
+		is_siren = 0,
 		value_1 = "18",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3028] = {
-		is_siren = 0,
+		value_2 = 9,
 		id = 3028,
 		base = 3020,
-		value_2 = 9,
+		is_siren = 0,
 		value_1 = "20",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3029] = {
-		is_siren = 0,
+		value_2 = 9,
 		id = 3029,
 		base = 3020,
-		value_2 = 9,
+		is_siren = 0,
 		value_1 = "22",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3030] = {
-		is_siren = 0,
+		value_2 = 10,
 		id = 3030,
 		base = 3020,
-		value_2 = 10,
+		is_siren = 0,
 		value_1 = "24",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3040] = {
@@ -8581,96 +10676,129 @@ pg.equip_data_statistics = {
 			interval = 3.5,
 			range = 48,
 			duration = 7
+		},
+		label = {
+			"DEV"
 		}
 	},
 	[3041] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 3041,
 		base = 3040,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "16",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3042] = {
-		is_siren = 0,
+		value_2 = 8,
 		id = 3042,
 		base = 3040,
-		value_2 = 8,
+		is_siren = 0,
 		value_1 = "18",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3043] = {
-		is_siren = 0,
+		value_2 = 8,
 		id = 3043,
 		base = 3040,
-		value_2 = 8,
+		is_siren = 0,
 		value_1 = "20",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3044] = {
-		is_siren = 0,
+		value_2 = 9,
 		id = 3044,
 		base = 3040,
-		value_2 = 9,
+		is_siren = 0,
 		value_1 = "22",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3045] = {
-		is_siren = 0,
+		value_2 = 9,
 		id = 3045,
 		base = 3040,
-		value_2 = 9,
+		is_siren = 0,
 		value_1 = "24",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3046] = {
-		is_siren = 0,
+		value_2 = 10,
 		id = 3046,
 		base = 3040,
-		value_2 = 10,
+		is_siren = 0,
 		value_1 = "26",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3047] = {
-		is_siren = 0,
+		value_2 = 10,
 		id = 3047,
 		base = 3040,
-		value_2 = 10,
+		is_siren = 0,
 		value_1 = "28",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3048] = {
-		is_siren = 0,
+		value_2 = 11,
 		id = 3048,
 		base = 3040,
-		value_2 = 11,
+		is_siren = 0,
 		value_1 = "30",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3049] = {
-		is_siren = 0,
+		value_2 = 11,
 		id = 3049,
 		base = 3040,
-		value_2 = 11,
+		is_siren = 0,
 		value_1 = "32",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3050] = {
-		is_siren = 0,
+		value_2 = 12,
 		id = 3050,
 		base = 3040,
-		value_2 = 12,
+		is_siren = 0,
 		value_1 = "35",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3100] = {
@@ -8701,7 +10829,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[3101] = {
 		id = 3101,
@@ -8709,6 +10840,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "20",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3102] = {
@@ -8717,6 +10851,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "22",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3103] = {
@@ -8725,6 +10862,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "24",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3104] = {
@@ -8733,6 +10873,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "27",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3105] = {
@@ -8741,6 +10884,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "30",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3106] = {
@@ -8749,6 +10895,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "33",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3107] = {
@@ -8757,6 +10906,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "36",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3108] = {
@@ -8765,6 +10917,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "39",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3109] = {
@@ -8773,6 +10928,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "42",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3110] = {
@@ -8781,6 +10939,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "45",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3120] = {
@@ -8811,7 +10972,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[3121] = {
 		id = 3121,
@@ -8819,6 +10983,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "39",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3122] = {
@@ -8827,6 +10994,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "44",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3123] = {
@@ -8835,6 +11005,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "49",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3124] = {
@@ -8843,6 +11016,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "54",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3125] = {
@@ -8851,6 +11027,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "59",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3126] = {
@@ -8859,6 +11038,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "64",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3127] = {
@@ -8867,6 +11049,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "69",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3128] = {
@@ -8875,6 +11060,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "74",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3129] = {
@@ -8883,6 +11071,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "79",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3130] = {
@@ -8891,6 +11082,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "85",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3140] = {
@@ -8925,6 +11119,9 @@ pg.equip_data_statistics = {
 		part_sub = {},
 		equip_parameters = {
 			hunting_lv = 1
+		},
+		label = {
+			"DEV"
 		}
 	},
 	[3141] = {
@@ -8933,6 +11130,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "3",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3142] = {
@@ -8941,6 +11141,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "4",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3143] = {
@@ -8949,6 +11152,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "5",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3144] = {
@@ -8957,6 +11163,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "6",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3145] = {
@@ -8965,6 +11174,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "7",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3146] = {
@@ -8973,6 +11185,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "8",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3147] = {
@@ -8981,6 +11196,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "9",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3148] = {
@@ -8989,6 +11207,9 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "11",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3149] = {
@@ -8997,14 +11218,20 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "13",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[3150] = {
 		value_1 = "15",
 		base = 3140,
-		is_siren = 0,
 		id = 3150,
+		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		equip_parameters = {
 			hunting_lv = 2
 		},
@@ -9043,7 +11270,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DC"
+		}
 	},
 	[4001] = {
 		value_1 = "34 x 1",
@@ -9051,6 +11281,9 @@ pg.equip_data_statistics = {
 		base = 4000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4001
 		},
@@ -9062,6 +11295,9 @@ pg.equip_data_statistics = {
 		base = 4000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4002
 		},
@@ -9073,6 +11309,9 @@ pg.equip_data_statistics = {
 		base = 4000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4003
 		},
@@ -9109,7 +11348,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DC"
+		}
 	},
 	[4021] = {
 		value_1 = "41 x 1",
@@ -9117,6 +11359,9 @@ pg.equip_data_statistics = {
 		base = 4020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4021
 		},
@@ -9128,6 +11373,9 @@ pg.equip_data_statistics = {
 		base = 4020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4022
 		},
@@ -9139,6 +11387,9 @@ pg.equip_data_statistics = {
 		base = 4020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4023
 		},
@@ -9175,7 +11426,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DC"
+		}
 	},
 	[4041] = {
 		value_1 = "49 x 1",
@@ -9183,6 +11437,9 @@ pg.equip_data_statistics = {
 		base = 4040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4041
 		},
@@ -9194,6 +11451,9 @@ pg.equip_data_statistics = {
 		base = 4040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4042
 		},
@@ -9205,6 +11465,9 @@ pg.equip_data_statistics = {
 		base = 4040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4043
 		},
@@ -9216,6 +11479,9 @@ pg.equip_data_statistics = {
 		base = 4040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4044
 		},
@@ -9227,6 +11493,9 @@ pg.equip_data_statistics = {
 		base = 4040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4045
 		},
@@ -9238,6 +11507,9 @@ pg.equip_data_statistics = {
 		base = 4040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4046
 		},
@@ -9274,7 +11546,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DC"
+		}
 	},
 	[4101] = {
 		value_1 = "44 x 1",
@@ -9282,6 +11557,9 @@ pg.equip_data_statistics = {
 		base = 4100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4101
 		},
@@ -9293,6 +11571,9 @@ pg.equip_data_statistics = {
 		base = 4100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4102
 		},
@@ -9304,6 +11585,9 @@ pg.equip_data_statistics = {
 		base = 4100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4103
 		},
@@ -9340,7 +11624,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DC"
+		}
 	},
 	[4121] = {
 		value_1 = "53 x 1",
@@ -9348,6 +11635,9 @@ pg.equip_data_statistics = {
 		base = 4120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4121
 		},
@@ -9359,6 +11649,9 @@ pg.equip_data_statistics = {
 		base = 4120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4122
 		},
@@ -9370,6 +11663,9 @@ pg.equip_data_statistics = {
 		base = 4120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4123
 		},
@@ -9381,6 +11677,9 @@ pg.equip_data_statistics = {
 		base = 4120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4124
 		},
@@ -9392,6 +11691,9 @@ pg.equip_data_statistics = {
 		base = 4120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4125
 		},
@@ -9403,6 +11705,9 @@ pg.equip_data_statistics = {
 		base = 4120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4126
 		},
@@ -9439,7 +11744,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DC"
+		}
 	},
 	[4141] = {
 		value_1 = "61 x 1",
@@ -9447,6 +11755,9 @@ pg.equip_data_statistics = {
 		base = 4140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4141
 		},
@@ -9458,6 +11769,9 @@ pg.equip_data_statistics = {
 		base = 4140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4142
 		},
@@ -9469,6 +11783,9 @@ pg.equip_data_statistics = {
 		base = 4140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4143
 		},
@@ -9480,6 +11797,9 @@ pg.equip_data_statistics = {
 		base = 4140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4144
 		},
@@ -9491,6 +11811,9 @@ pg.equip_data_statistics = {
 		base = 4140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4145
 		},
@@ -9502,6 +11825,9 @@ pg.equip_data_statistics = {
 		base = 4140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4146
 		},
@@ -9513,6 +11839,9 @@ pg.equip_data_statistics = {
 		base = 4140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4147
 		},
@@ -9524,6 +11853,9 @@ pg.equip_data_statistics = {
 		base = 4140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4148
 		},
@@ -9535,6 +11867,9 @@ pg.equip_data_statistics = {
 		base = 4140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4149
 		},
@@ -9546,6 +11881,9 @@ pg.equip_data_statistics = {
 		base = 4140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DC"
+		},
 		weapon_id = {
 			4150
 		},
@@ -9582,7 +11920,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"ASA"
+		}
 	},
 	[4201] = {
 		value_1 = "30 x 1",
@@ -9590,6 +11931,9 @@ pg.equip_data_statistics = {
 		base = 4200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4201
 		},
@@ -9601,6 +11945,9 @@ pg.equip_data_statistics = {
 		base = 4200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4202
 		},
@@ -9612,6 +11959,9 @@ pg.equip_data_statistics = {
 		base = 4200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4203
 		},
@@ -9648,7 +11998,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"ASA"
+		}
 	},
 	[4221] = {
 		value_1 = "37 x 1",
@@ -9656,6 +12009,9 @@ pg.equip_data_statistics = {
 		base = 4220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4221
 		},
@@ -9667,6 +12023,9 @@ pg.equip_data_statistics = {
 		base = 4220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4222
 		},
@@ -9678,6 +12037,9 @@ pg.equip_data_statistics = {
 		base = 4220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4223
 		},
@@ -9689,6 +12051,9 @@ pg.equip_data_statistics = {
 		base = 4220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4224
 		},
@@ -9700,6 +12065,9 @@ pg.equip_data_statistics = {
 		base = 4220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4225
 		},
@@ -9711,6 +12079,9 @@ pg.equip_data_statistics = {
 		base = 4220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4226
 		},
@@ -9747,7 +12118,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"ASA"
+		}
 	},
 	[4241] = {
 		value_1 = "46 x 1",
@@ -9755,6 +12129,9 @@ pg.equip_data_statistics = {
 		base = 4240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4241
 		},
@@ -9766,6 +12143,9 @@ pg.equip_data_statistics = {
 		base = 4240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4242
 		},
@@ -9777,6 +12157,9 @@ pg.equip_data_statistics = {
 		base = 4240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4243
 		},
@@ -9788,6 +12171,9 @@ pg.equip_data_statistics = {
 		base = 4240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4244
 		},
@@ -9799,6 +12185,9 @@ pg.equip_data_statistics = {
 		base = 4240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4245
 		},
@@ -9810,6 +12199,9 @@ pg.equip_data_statistics = {
 		base = 4240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4246
 		},
@@ -9821,6 +12213,9 @@ pg.equip_data_statistics = {
 		base = 4240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4247
 		},
@@ -9832,6 +12227,9 @@ pg.equip_data_statistics = {
 		base = 4240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4248
 		},
@@ -9843,6 +12241,9 @@ pg.equip_data_statistics = {
 		base = 4240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4249
 		},
@@ -9854,6 +12255,9 @@ pg.equip_data_statistics = {
 		base = 4240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4250
 		},
@@ -9890,7 +12294,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"ASA"
+		}
 	},
 	[4301] = {
 		value_1 = "27 x 1",
@@ -9898,6 +12305,9 @@ pg.equip_data_statistics = {
 		base = 4300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4301
 		},
@@ -9909,6 +12319,9 @@ pg.equip_data_statistics = {
 		base = 4300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4302
 		},
@@ -9920,6 +12333,9 @@ pg.equip_data_statistics = {
 		base = 4300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4303
 		},
@@ -9956,7 +12372,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"ASA"
+		}
 	},
 	[4321] = {
 		value_1 = "33 x 1",
@@ -9964,6 +12383,9 @@ pg.equip_data_statistics = {
 		base = 4320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4321
 		},
@@ -9975,6 +12397,9 @@ pg.equip_data_statistics = {
 		base = 4320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4322
 		},
@@ -9986,6 +12411,9 @@ pg.equip_data_statistics = {
 		base = 4320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4323
 		},
@@ -9997,6 +12425,9 @@ pg.equip_data_statistics = {
 		base = 4320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4324
 		},
@@ -10008,6 +12439,9 @@ pg.equip_data_statistics = {
 		base = 4320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4325
 		},
@@ -10019,6 +12453,9 @@ pg.equip_data_statistics = {
 		base = 4320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4326
 		},
@@ -10055,7 +12492,10 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"ASA"
+		}
 	},
 	[4341] = {
 		value_1 = "39 x 1",
@@ -10063,6 +12503,9 @@ pg.equip_data_statistics = {
 		base = 4340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4341
 		},
@@ -10074,6 +12517,9 @@ pg.equip_data_statistics = {
 		base = 4340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4342
 		},
@@ -10085,6 +12531,9 @@ pg.equip_data_statistics = {
 		base = 4340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4343
 		},
@@ -10096,6 +12545,9 @@ pg.equip_data_statistics = {
 		base = 4340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4344
 		},
@@ -10107,6 +12559,9 @@ pg.equip_data_statistics = {
 		base = 4340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4345
 		},
@@ -10118,6 +12573,9 @@ pg.equip_data_statistics = {
 		base = 4340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4346
 		},
@@ -10129,6 +12587,9 @@ pg.equip_data_statistics = {
 		base = 4340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4347
 		},
@@ -10140,6 +12601,9 @@ pg.equip_data_statistics = {
 		base = 4340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4348
 		},
@@ -10151,6 +12615,9 @@ pg.equip_data_statistics = {
 		base = 4340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4349
 		},
@@ -10162,6 +12629,9 @@ pg.equip_data_statistics = {
 		base = 4340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"ASA"
+		},
 		weapon_id = {
 			4350
 		},
@@ -10197,7 +12667,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		}
 	},
 	[5001] = {
 		value_1 = "54 x 3",
@@ -10205,6 +12680,11 @@ pg.equip_data_statistics = {
 		base = 5000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5001
 		},
@@ -10216,6 +12696,11 @@ pg.equip_data_statistics = {
 		base = 5000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5002
 		},
@@ -10227,6 +12712,11 @@ pg.equip_data_statistics = {
 		base = 5000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5003
 		},
@@ -10263,7 +12753,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		}
 	},
 	[5021] = {
 		value_1 = "59 x 3",
@@ -10271,6 +12766,11 @@ pg.equip_data_statistics = {
 		base = 5020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5021
 		},
@@ -10282,6 +12782,11 @@ pg.equip_data_statistics = {
 		base = 5020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5022
 		},
@@ -10293,6 +12798,11 @@ pg.equip_data_statistics = {
 		base = 5020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5023
 		},
@@ -10329,7 +12839,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		}
 	},
 	[5041] = {
 		value_1 = "66 x 3",
@@ -10337,6 +12852,11 @@ pg.equip_data_statistics = {
 		base = 5040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5041
 		},
@@ -10348,6 +12868,11 @@ pg.equip_data_statistics = {
 		base = 5040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5042
 		},
@@ -10359,6 +12884,11 @@ pg.equip_data_statistics = {
 		base = 5040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5043
 		},
@@ -10370,6 +12900,11 @@ pg.equip_data_statistics = {
 		base = 5040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5044
 		},
@@ -10381,6 +12916,11 @@ pg.equip_data_statistics = {
 		base = 5040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5045
 		},
@@ -10392,6 +12932,11 @@ pg.equip_data_statistics = {
 		base = 5040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5046
 		},
@@ -10428,7 +12973,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		}
 	},
 	[5101] = {
 		value_1 = "54 x 4",
@@ -10436,6 +12986,11 @@ pg.equip_data_statistics = {
 		base = 5100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5101
 		},
@@ -10447,6 +13002,11 @@ pg.equip_data_statistics = {
 		base = 5100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5102
 		},
@@ -10458,6 +13018,11 @@ pg.equip_data_statistics = {
 		base = 5100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5103
 		},
@@ -10494,7 +13059,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		}
 	},
 	[5121] = {
 		value_1 = "59 x 4",
@@ -10502,6 +13072,11 @@ pg.equip_data_statistics = {
 		base = 5120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5121
 		},
@@ -10513,6 +13088,11 @@ pg.equip_data_statistics = {
 		base = 5120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5122
 		},
@@ -10524,6 +13104,11 @@ pg.equip_data_statistics = {
 		base = 5120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5123
 		},
@@ -10535,6 +13120,11 @@ pg.equip_data_statistics = {
 		base = 5120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5124
 		},
@@ -10546,6 +13136,11 @@ pg.equip_data_statistics = {
 		base = 5120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5125
 		},
@@ -10557,6 +13152,11 @@ pg.equip_data_statistics = {
 		base = 5120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5126
 		},
@@ -10593,7 +13193,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		}
 	},
 	[5141] = {
 		value_1 = "66 x 4",
@@ -10601,6 +13206,11 @@ pg.equip_data_statistics = {
 		base = 5140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5141
 		},
@@ -10612,6 +13222,11 @@ pg.equip_data_statistics = {
 		base = 5140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5142
 		},
@@ -10623,6 +13238,11 @@ pg.equip_data_statistics = {
 		base = 5140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5143
 		},
@@ -10634,6 +13254,11 @@ pg.equip_data_statistics = {
 		base = 5140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5144
 		},
@@ -10645,6 +13270,11 @@ pg.equip_data_statistics = {
 		base = 5140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5145
 		},
@@ -10656,6 +13286,11 @@ pg.equip_data_statistics = {
 		base = 5140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5146
 		},
@@ -10667,6 +13302,11 @@ pg.equip_data_statistics = {
 		base = 5140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5147
 		},
@@ -10678,6 +13318,11 @@ pg.equip_data_statistics = {
 		base = 5140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5148
 		},
@@ -10689,6 +13334,11 @@ pg.equip_data_statistics = {
 		base = 5140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5149
 		},
@@ -10700,6 +13350,11 @@ pg.equip_data_statistics = {
 		base = 5140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5150
 		},
@@ -10736,7 +13391,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		}
 	},
 	[5201] = {
 		value_1 = "54 x 5",
@@ -10744,6 +13404,11 @@ pg.equip_data_statistics = {
 		base = 5200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5201
 		},
@@ -10755,6 +13420,11 @@ pg.equip_data_statistics = {
 		base = 5200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5202
 		},
@@ -10766,6 +13436,11 @@ pg.equip_data_statistics = {
 		base = 5200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5203
 		},
@@ -10777,6 +13452,11 @@ pg.equip_data_statistics = {
 		base = 5200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5204
 		},
@@ -10788,6 +13468,11 @@ pg.equip_data_statistics = {
 		base = 5200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5205
 		},
@@ -10799,6 +13484,11 @@ pg.equip_data_statistics = {
 		base = 5200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5206
 		},
@@ -10835,7 +13525,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		}
 	},
 	[5221] = {
 		value_1 = "59 x 5",
@@ -10843,6 +13538,11 @@ pg.equip_data_statistics = {
 		base = 5220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5221
 		},
@@ -10854,6 +13554,11 @@ pg.equip_data_statistics = {
 		base = 5220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5222
 		},
@@ -10865,6 +13570,11 @@ pg.equip_data_statistics = {
 		base = 5220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5223
 		},
@@ -10876,6 +13586,11 @@ pg.equip_data_statistics = {
 		base = 5220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5224
 		},
@@ -10887,6 +13602,11 @@ pg.equip_data_statistics = {
 		base = 5220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5225
 		},
@@ -10898,6 +13618,11 @@ pg.equip_data_statistics = {
 		base = 5220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5226
 		},
@@ -10909,6 +13634,11 @@ pg.equip_data_statistics = {
 		base = 5220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5227
 		},
@@ -10920,6 +13650,11 @@ pg.equip_data_statistics = {
 		base = 5220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5228
 		},
@@ -10931,6 +13666,11 @@ pg.equip_data_statistics = {
 		base = 5220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5229
 		},
@@ -10942,6 +13682,11 @@ pg.equip_data_statistics = {
 		base = 5220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5230
 		},
@@ -10978,7 +13723,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		}
 	},
 	[5241] = {
 		value_1 = "66 x 5",
@@ -10986,6 +13736,11 @@ pg.equip_data_statistics = {
 		base = 5240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5241
 		},
@@ -10997,6 +13752,11 @@ pg.equip_data_statistics = {
 		base = 5240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5242
 		},
@@ -11008,6 +13768,11 @@ pg.equip_data_statistics = {
 		base = 5240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5243
 		},
@@ -11019,6 +13784,11 @@ pg.equip_data_statistics = {
 		base = 5240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5244
 		},
@@ -11030,6 +13800,11 @@ pg.equip_data_statistics = {
 		base = 5240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5245
 		},
@@ -11041,6 +13816,11 @@ pg.equip_data_statistics = {
 		base = 5240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5246
 		},
@@ -11052,6 +13832,11 @@ pg.equip_data_statistics = {
 		base = 5240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5247
 		},
@@ -11063,6 +13848,11 @@ pg.equip_data_statistics = {
 		base = 5240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5248
 		},
@@ -11074,6 +13864,11 @@ pg.equip_data_statistics = {
 		base = 5240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5249
 		},
@@ -11085,6 +13880,11 @@ pg.equip_data_statistics = {
 		base = 5240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5250
 		},
@@ -11120,7 +13920,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		}
 	},
 	[5301] = {
 		value_1 = "49 x 2",
@@ -11128,6 +13933,11 @@ pg.equip_data_statistics = {
 		base = 5300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5301
 		},
@@ -11139,6 +13949,11 @@ pg.equip_data_statistics = {
 		base = 5300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5302
 		},
@@ -11150,6 +13965,11 @@ pg.equip_data_statistics = {
 		base = 5300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5303
 		},
@@ -11186,7 +14006,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		}
 	},
 	[5321] = {
 		value_1 = "55 x 2",
@@ -11194,6 +14019,11 @@ pg.equip_data_statistics = {
 		base = 5320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5321
 		},
@@ -11205,6 +14035,11 @@ pg.equip_data_statistics = {
 		base = 5320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5322
 		},
@@ -11216,6 +14051,11 @@ pg.equip_data_statistics = {
 		base = 5320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5323
 		},
@@ -11252,7 +14092,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		}
 	},
 	[5341] = {
 		value_1 = "61 x 2",
@@ -11260,6 +14105,11 @@ pg.equip_data_statistics = {
 		base = 5340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5341
 		},
@@ -11271,6 +14121,11 @@ pg.equip_data_statistics = {
 		base = 5340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5342
 		},
@@ -11282,6 +14137,11 @@ pg.equip_data_statistics = {
 		base = 5340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5343
 		},
@@ -11293,6 +14153,11 @@ pg.equip_data_statistics = {
 		base = 5340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5344
 		},
@@ -11304,6 +14169,11 @@ pg.equip_data_statistics = {
 		base = 5340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5345
 		},
@@ -11315,6 +14185,11 @@ pg.equip_data_statistics = {
 		base = 5340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5346
 		},
@@ -11351,7 +14226,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		}
 	},
 	[5401] = {
 		value_1 = "55 x 3",
@@ -11359,6 +14239,11 @@ pg.equip_data_statistics = {
 		base = 5400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5401
 		},
@@ -11370,6 +14255,11 @@ pg.equip_data_statistics = {
 		base = 5400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5402
 		},
@@ -11381,6 +14271,11 @@ pg.equip_data_statistics = {
 		base = 5400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5403
 		},
@@ -11417,7 +14312,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		}
 	},
 	[5421] = {
 		value_1 = "61 x 3",
@@ -11425,6 +14325,11 @@ pg.equip_data_statistics = {
 		base = 5420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5421
 		},
@@ -11436,6 +14341,11 @@ pg.equip_data_statistics = {
 		base = 5420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5422
 		},
@@ -11447,6 +14357,11 @@ pg.equip_data_statistics = {
 		base = 5420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5423
 		},
@@ -11458,6 +14373,11 @@ pg.equip_data_statistics = {
 		base = 5420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5424
 		},
@@ -11469,6 +14389,11 @@ pg.equip_data_statistics = {
 		base = 5420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5425
 		},
@@ -11480,6 +14405,11 @@ pg.equip_data_statistics = {
 		base = 5420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5426
 		},
@@ -11516,7 +14446,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		}
 	},
 	[5441] = {
 		value_1 = "68 x 3",
@@ -11524,6 +14459,11 @@ pg.equip_data_statistics = {
 		base = 5440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5441
 		},
@@ -11535,6 +14475,11 @@ pg.equip_data_statistics = {
 		base = 5440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5442
 		},
@@ -11546,6 +14491,11 @@ pg.equip_data_statistics = {
 		base = 5440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5443
 		},
@@ -11557,6 +14507,11 @@ pg.equip_data_statistics = {
 		base = 5440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5444
 		},
@@ -11568,6 +14523,11 @@ pg.equip_data_statistics = {
 		base = 5440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5445
 		},
@@ -11579,6 +14539,11 @@ pg.equip_data_statistics = {
 		base = 5440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5446
 		},
@@ -11590,6 +14555,11 @@ pg.equip_data_statistics = {
 		base = 5440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5447
 		},
@@ -11601,6 +14571,11 @@ pg.equip_data_statistics = {
 		base = 5440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5448
 		},
@@ -11612,6 +14587,11 @@ pg.equip_data_statistics = {
 		base = 5440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5449
 		},
@@ -11623,6 +14603,11 @@ pg.equip_data_statistics = {
 		base = 5440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			5450
 		},
@@ -11659,7 +14644,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"SS",
+			"TP"
+		}
 	},
 	[5501] = {
 		value_1 = "50 x 2",
@@ -11667,6 +14657,11 @@ pg.equip_data_statistics = {
 		base = 5500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			5501
 		},
@@ -11678,6 +14673,11 @@ pg.equip_data_statistics = {
 		base = 5500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			5502
 		},
@@ -11689,6 +14689,11 @@ pg.equip_data_statistics = {
 		base = 5500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			5503
 		},
@@ -11725,7 +14730,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"SS",
+			"TP"
+		}
 	},
 	[5521] = {
 		value_1 = "56 x 2",
@@ -11733,6 +14743,11 @@ pg.equip_data_statistics = {
 		base = 5520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			5521
 		},
@@ -11744,6 +14759,11 @@ pg.equip_data_statistics = {
 		base = 5520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			5522
 		},
@@ -11755,6 +14775,11 @@ pg.equip_data_statistics = {
 		base = 5520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			5523
 		},
@@ -11766,6 +14791,11 @@ pg.equip_data_statistics = {
 		base = 5520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			5524
 		},
@@ -11777,6 +14807,11 @@ pg.equip_data_statistics = {
 		base = 5520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			5525
 		},
@@ -11788,6 +14823,11 @@ pg.equip_data_statistics = {
 		base = 5520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			5526
 		},
@@ -11824,7 +14864,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"SS",
+			"TP"
+		}
 	},
 	[5541] = {
 		value_1 = "62 x 2",
@@ -11832,6 +14877,11 @@ pg.equip_data_statistics = {
 		base = 5540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			5541
 		},
@@ -11843,6 +14893,11 @@ pg.equip_data_statistics = {
 		base = 5540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			5542
 		},
@@ -11854,6 +14909,11 @@ pg.equip_data_statistics = {
 		base = 5540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			5543
 		},
@@ -11865,6 +14925,11 @@ pg.equip_data_statistics = {
 		base = 5540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			5544
 		},
@@ -11876,6 +14941,11 @@ pg.equip_data_statistics = {
 		base = 5540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			5545
 		},
@@ -11887,6 +14957,11 @@ pg.equip_data_statistics = {
 		base = 5540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			5546
 		},
@@ -11898,6 +14973,11 @@ pg.equip_data_statistics = {
 		base = 5540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			5547
 		},
@@ -11909,6 +14989,11 @@ pg.equip_data_statistics = {
 		base = 5540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			5548
 		},
@@ -11920,6 +15005,11 @@ pg.equip_data_statistics = {
 		base = 5540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			5549
 		},
@@ -11931,6 +15021,11 @@ pg.equip_data_statistics = {
 		base = 5540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			5550
 		},
@@ -11966,7 +15061,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"AA"
+		}
 	},
 	[6001] = {
 		value_1 = "7/回",
@@ -11974,6 +15074,11 @@ pg.equip_data_statistics = {
 		base = 6000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			6001
 		},
@@ -11985,6 +15090,11 @@ pg.equip_data_statistics = {
 		base = 6000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			6002
 		},
@@ -11996,6 +15106,11 @@ pg.equip_data_statistics = {
 		base = 6000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			6003
 		},
@@ -12032,7 +15147,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"AA"
+		}
 	},
 	[6021] = {
 		value_1 = "9/回",
@@ -12040,6 +15160,11 @@ pg.equip_data_statistics = {
 		base = 6020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			6021
 		},
@@ -12051,6 +15176,11 @@ pg.equip_data_statistics = {
 		base = 6020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			6022
 		},
@@ -12062,6 +15192,11 @@ pg.equip_data_statistics = {
 		base = 6020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			6023
 		},
@@ -12098,7 +15233,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"UN",
+			"ST",
+			"AA"
+		}
 	},
 	[6041] = {
 		value_1 = "9/回",
@@ -12106,6 +15246,11 @@ pg.equip_data_statistics = {
 		base = 6040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			6041
 		},
@@ -12117,6 +15262,11 @@ pg.equip_data_statistics = {
 		base = 6040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			6042
 		},
@@ -12128,6 +15278,11 @@ pg.equip_data_statistics = {
 		base = 6040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			6043
 		},
@@ -12139,6 +15294,11 @@ pg.equip_data_statistics = {
 		base = 6040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			6044
 		},
@@ -12150,6 +15310,11 @@ pg.equip_data_statistics = {
 		base = 6040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			6045
 		},
@@ -12161,6 +15326,11 @@ pg.equip_data_statistics = {
 		base = 6040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"UN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			6046
 		},
@@ -12196,7 +15366,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"ST",
+			"AA"
+		}
 	},
 	[6101] = {
 		value_1 = "20/回",
@@ -12204,6 +15379,11 @@ pg.equip_data_statistics = {
 		base = 6100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			6101
 		},
@@ -12215,6 +15395,11 @@ pg.equip_data_statistics = {
 		base = 6100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			6102
 		},
@@ -12226,6 +15411,11 @@ pg.equip_data_statistics = {
 		base = 6100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			6103
 		},
@@ -12262,7 +15452,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"ST",
+			"AA"
+		}
 	},
 	[6121] = {
 		value_1 = "23/回",
@@ -12270,6 +15465,11 @@ pg.equip_data_statistics = {
 		base = 6120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			6121
 		},
@@ -12281,6 +15481,11 @@ pg.equip_data_statistics = {
 		base = 6120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			6122
 		},
@@ -12292,6 +15497,11 @@ pg.equip_data_statistics = {
 		base = 6120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			6123
 		},
@@ -12328,7 +15538,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"ST",
+			"AA"
+		}
 	},
 	[6141] = {
 		value_1 = "25/回",
@@ -12336,6 +15551,11 @@ pg.equip_data_statistics = {
 		base = 6140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			6141
 		},
@@ -12347,6 +15567,11 @@ pg.equip_data_statistics = {
 		base = 6140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			6142
 		},
@@ -12358,6 +15583,11 @@ pg.equip_data_statistics = {
 		base = 6140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			6143
 		},
@@ -12369,6 +15599,11 @@ pg.equip_data_statistics = {
 		base = 6140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			6144
 		},
@@ -12380,6 +15615,11 @@ pg.equip_data_statistics = {
 		base = 6140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			6145
 		},
@@ -12391,6 +15631,11 @@ pg.equip_data_statistics = {
 		base = 6140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			6146
 		},
@@ -12432,7 +15677,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		}
 	},
 	[7001] = {
 		value_1 = "18 x 3",
@@ -12440,6 +15690,11 @@ pg.equip_data_statistics = {
 		base = 7000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			7001
 		},
@@ -12451,6 +15706,11 @@ pg.equip_data_statistics = {
 		base = 7000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			7002
 		},
@@ -12462,6 +15722,11 @@ pg.equip_data_statistics = {
 		base = 7000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			7003
 		},
@@ -12504,7 +15769,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		}
 	},
 	[7021] = {
 		value_1 = "20 x 3",
@@ -12512,6 +15782,11 @@ pg.equip_data_statistics = {
 		base = 7020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			7021
 		},
@@ -12523,6 +15798,11 @@ pg.equip_data_statistics = {
 		base = 7020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			7022
 		},
@@ -12534,6 +15814,11 @@ pg.equip_data_statistics = {
 		base = 7020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			7023
 		},
@@ -12576,7 +15861,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		}
 	},
 	[7041] = {
 		value_1 = "22 x 3",
@@ -12584,6 +15874,11 @@ pg.equip_data_statistics = {
 		base = 7040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			7041
 		},
@@ -12595,6 +15890,11 @@ pg.equip_data_statistics = {
 		base = 7040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			7042
 		},
@@ -12606,6 +15906,11 @@ pg.equip_data_statistics = {
 		base = 7040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			7043
 		},
@@ -12617,6 +15922,11 @@ pg.equip_data_statistics = {
 		base = 7040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			7044
 		},
@@ -12628,6 +15938,11 @@ pg.equip_data_statistics = {
 		base = 7040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			7045
 		},
@@ -12639,6 +15954,11 @@ pg.equip_data_statistics = {
 		base = 7040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			7046
 		},
@@ -12680,7 +16000,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"PRAN",
+			"CL",
+			"MG"
+		}
 	},
 	[7101] = {
 		value_1 = "16 x 3",
@@ -12688,6 +16013,11 @@ pg.equip_data_statistics = {
 		base = 7100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"PRAN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			7101
 		},
@@ -12699,6 +16029,11 @@ pg.equip_data_statistics = {
 		base = 7100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"PRAN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			7102
 		},
@@ -12710,6 +16045,11 @@ pg.equip_data_statistics = {
 		base = 7100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"PRAN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			7103
 		},
@@ -12752,7 +16092,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"PRAN",
+			"CL",
+			"MG"
+		}
 	},
 	[7121] = {
 		value_1 = "18 x 3",
@@ -12760,6 +16105,11 @@ pg.equip_data_statistics = {
 		base = 7120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"PRAN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			7121
 		},
@@ -12771,6 +16121,11 @@ pg.equip_data_statistics = {
 		base = 7120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"PRAN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			7122
 		},
@@ -12782,6 +16137,11 @@ pg.equip_data_statistics = {
 		base = 7120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"PRAN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			7123
 		},
@@ -12824,7 +16184,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"PRAN",
+			"CL",
+			"MG"
+		}
 	},
 	[7141] = {
 		value_1 = "20 x 3",
@@ -12832,6 +16197,11 @@ pg.equip_data_statistics = {
 		base = 7140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"PRAN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			7141
 		},
@@ -12843,6 +16213,11 @@ pg.equip_data_statistics = {
 		base = 7140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"PRAN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			7142
 		},
@@ -12854,6 +16229,11 @@ pg.equip_data_statistics = {
 		base = 7140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"PRAN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			7143
 		},
@@ -12865,6 +16245,11 @@ pg.equip_data_statistics = {
 		base = 7140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"PRAN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			7144
 		},
@@ -12876,6 +16261,11 @@ pg.equip_data_statistics = {
 		base = 7140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"PRAN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			7145
 		},
@@ -12887,6 +16277,11 @@ pg.equip_data_statistics = {
 		base = 7140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"PRAN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			7146
 		},
@@ -12930,7 +16325,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		}
 	},
 	[7201] = {
 		value_1 = "5 x 3",
@@ -12938,6 +16338,11 @@ pg.equip_data_statistics = {
 		base = 7200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7201
 		},
@@ -12949,6 +16354,11 @@ pg.equip_data_statistics = {
 		base = 7200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7202
 		},
@@ -12960,6 +16370,11 @@ pg.equip_data_statistics = {
 		base = 7200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7203
 		},
@@ -13003,7 +16418,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		}
 	},
 	[7221] = {
 		value_1 = "6 x 3",
@@ -13011,6 +16431,11 @@ pg.equip_data_statistics = {
 		base = 7220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7221
 		},
@@ -13022,6 +16447,11 @@ pg.equip_data_statistics = {
 		base = 7220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7222
 		},
@@ -13033,6 +16463,11 @@ pg.equip_data_statistics = {
 		base = 7220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7223
 		},
@@ -13044,6 +16479,11 @@ pg.equip_data_statistics = {
 		base = 7220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7224
 		},
@@ -13055,6 +16495,11 @@ pg.equip_data_statistics = {
 		base = 7220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7225
 		},
@@ -13066,6 +16511,11 @@ pg.equip_data_statistics = {
 		base = 7220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7226
 		},
@@ -13109,7 +16559,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		}
 	},
 	[7241] = {
 		value_1 = "7 x 3",
@@ -13117,6 +16572,11 @@ pg.equip_data_statistics = {
 		base = 7240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7241
 		},
@@ -13128,6 +16588,11 @@ pg.equip_data_statistics = {
 		base = 7240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7242
 		},
@@ -13139,6 +16604,11 @@ pg.equip_data_statistics = {
 		base = 7240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7243
 		},
@@ -13150,6 +16620,11 @@ pg.equip_data_statistics = {
 		base = 7240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7244
 		},
@@ -13161,6 +16636,11 @@ pg.equip_data_statistics = {
 		base = 7240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7245
 		},
@@ -13172,6 +16652,11 @@ pg.equip_data_statistics = {
 		base = 7240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7246
 		},
@@ -13183,6 +16668,11 @@ pg.equip_data_statistics = {
 		base = 7240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7247
 		},
@@ -13194,6 +16684,11 @@ pg.equip_data_statistics = {
 		base = 7240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7248
 		},
@@ -13205,6 +16700,11 @@ pg.equip_data_statistics = {
 		base = 7240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7249
 		},
@@ -13216,6 +16716,11 @@ pg.equip_data_statistics = {
 		base = 7240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7250
 		},
@@ -13256,7 +16761,12 @@ pg.equip_data_statistics = {
 			3
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CA",
+			"MG"
+		}
 	},
 	[7301] = {
 		value_1 = "32 x 3",
@@ -13264,6 +16774,11 @@ pg.equip_data_statistics = {
 		base = 7300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			7301
 		},
@@ -13275,6 +16790,11 @@ pg.equip_data_statistics = {
 		base = 7300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			7302
 		},
@@ -13286,6 +16806,11 @@ pg.equip_data_statistics = {
 		base = 7300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			7303
 		},
@@ -13297,6 +16822,11 @@ pg.equip_data_statistics = {
 		base = 7300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			7304
 		},
@@ -13308,6 +16838,11 @@ pg.equip_data_statistics = {
 		base = 7300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			7305
 		},
@@ -13319,6 +16854,11 @@ pg.equip_data_statistics = {
 		base = 7300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			7306
 		},
@@ -13330,6 +16870,11 @@ pg.equip_data_statistics = {
 		base = 7300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			7307
 		},
@@ -13341,6 +16886,11 @@ pg.equip_data_statistics = {
 		base = 7300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			7308
 		},
@@ -13352,6 +16902,11 @@ pg.equip_data_statistics = {
 		base = 7300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			7309
 		},
@@ -13363,6 +16918,11 @@ pg.equip_data_statistics = {
 		base = 7300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			7310
 		},
@@ -13406,7 +16966,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
 	},
 	[7321] = {
 		value_1 = "5 x 4",
@@ -13414,6 +16979,11 @@ pg.equip_data_statistics = {
 		base = 7320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7321
 		},
@@ -13425,6 +16995,11 @@ pg.equip_data_statistics = {
 		base = 7320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7322
 		},
@@ -13436,6 +17011,11 @@ pg.equip_data_statistics = {
 		base = 7320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7323
 		},
@@ -13447,6 +17027,11 @@ pg.equip_data_statistics = {
 		base = 7320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7324
 		},
@@ -13458,6 +17043,11 @@ pg.equip_data_statistics = {
 		base = 7320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7325
 		},
@@ -13469,6 +17059,11 @@ pg.equip_data_statistics = {
 		base = 7320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			7326
 		},
@@ -13509,7 +17104,12 @@ pg.equip_data_statistics = {
 			8
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"SS",
+			"MG"
+		}
 	},
 	[7341] = {
 		value_1 = "24 x 4",
@@ -13517,6 +17117,11 @@ pg.equip_data_statistics = {
 		base = 7340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"MG"
+		},
 		weapon_id = {
 			7341
 		},
@@ -13528,6 +17133,11 @@ pg.equip_data_statistics = {
 		base = 7340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"MG"
+		},
 		weapon_id = {
 			7342
 		},
@@ -13539,6 +17149,11 @@ pg.equip_data_statistics = {
 		base = 7340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"MG"
+		},
 		weapon_id = {
 			7343
 		},
@@ -13550,6 +17165,11 @@ pg.equip_data_statistics = {
 		base = 7340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"MG"
+		},
 		weapon_id = {
 			7344
 		},
@@ -13561,6 +17181,11 @@ pg.equip_data_statistics = {
 		base = 7340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"MG"
+		},
 		weapon_id = {
 			7345
 		},
@@ -13572,6 +17197,11 @@ pg.equip_data_statistics = {
 		base = 7340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"SS",
+			"MG"
+		},
 		weapon_id = {
 			7346
 		},
@@ -13614,7 +17244,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		}
 	},
 	[11001] = {
 		value_1 = "3 x 1",
@@ -13622,6 +17257,11 @@ pg.equip_data_statistics = {
 		base = 11000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11001
 		},
@@ -13633,6 +17273,11 @@ pg.equip_data_statistics = {
 		base = 11000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11002
 		},
@@ -13644,6 +17289,11 @@ pg.equip_data_statistics = {
 		base = 11000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11003
 		},
@@ -13687,7 +17337,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		}
 	},
 	[11021] = {
 		value_1 = "3 x 1",
@@ -13695,6 +17350,11 @@ pg.equip_data_statistics = {
 		base = 11020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11021
 		},
@@ -13706,6 +17366,11 @@ pg.equip_data_statistics = {
 		base = 11020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11022
 		},
@@ -13717,6 +17382,11 @@ pg.equip_data_statistics = {
 		base = 11020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11023
 		},
@@ -13760,7 +17430,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		}
 	},
 	[11041] = {
 		value_1 = "3 x 1",
@@ -13768,6 +17443,11 @@ pg.equip_data_statistics = {
 		base = 11040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11041
 		},
@@ -13779,6 +17459,11 @@ pg.equip_data_statistics = {
 		base = 11040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11042
 		},
@@ -13790,6 +17475,11 @@ pg.equip_data_statistics = {
 		base = 11040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11043
 		},
@@ -13801,6 +17491,11 @@ pg.equip_data_statistics = {
 		base = 11040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11044
 		},
@@ -13812,6 +17507,11 @@ pg.equip_data_statistics = {
 		base = 11040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11045
 		},
@@ -13823,6 +17523,11 @@ pg.equip_data_statistics = {
 		base = 11040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11046
 		},
@@ -13866,7 +17571,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		}
 	},
 	[11101] = {
 		value_1 = "4 x 3",
@@ -13874,6 +17584,11 @@ pg.equip_data_statistics = {
 		base = 11100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11101
 		},
@@ -13885,6 +17600,11 @@ pg.equip_data_statistics = {
 		base = 11100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11102
 		},
@@ -13896,6 +17616,11 @@ pg.equip_data_statistics = {
 		base = 11100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11103
 		},
@@ -13939,7 +17664,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		}
 	},
 	[11121] = {
 		value_1 = "4 x 3",
@@ -13947,6 +17677,11 @@ pg.equip_data_statistics = {
 		base = 11120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11121
 		},
@@ -13958,6 +17693,11 @@ pg.equip_data_statistics = {
 		base = 11120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11122
 		},
@@ -13969,6 +17709,11 @@ pg.equip_data_statistics = {
 		base = 11120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11123
 		},
@@ -13980,6 +17725,11 @@ pg.equip_data_statistics = {
 		base = 11120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11124
 		},
@@ -13991,6 +17741,11 @@ pg.equip_data_statistics = {
 		base = 11120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11125
 		},
@@ -14002,6 +17757,11 @@ pg.equip_data_statistics = {
 		base = 11120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11126
 		},
@@ -14045,7 +17805,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		}
 	},
 	[11141] = {
 		value_1 = "4 x 3",
@@ -14053,6 +17818,11 @@ pg.equip_data_statistics = {
 		base = 11140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11141
 		},
@@ -14064,6 +17834,11 @@ pg.equip_data_statistics = {
 		base = 11140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11142
 		},
@@ -14075,6 +17850,11 @@ pg.equip_data_statistics = {
 		base = 11140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11143
 		},
@@ -14086,6 +17866,11 @@ pg.equip_data_statistics = {
 		base = 11140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11144
 		},
@@ -14097,6 +17882,11 @@ pg.equip_data_statistics = {
 		base = 11140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11145
 		},
@@ -14108,6 +17898,11 @@ pg.equip_data_statistics = {
 		base = 11140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11146
 		},
@@ -14119,6 +17914,11 @@ pg.equip_data_statistics = {
 		base = 11140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11147
 		},
@@ -14130,6 +17930,11 @@ pg.equip_data_statistics = {
 		base = 11140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11148
 		},
@@ -14141,6 +17946,11 @@ pg.equip_data_statistics = {
 		base = 11140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11149
 		},
@@ -14152,6 +17962,11 @@ pg.equip_data_statistics = {
 		base = 11140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11150
 		},
@@ -14177,8 +17992,8 @@ pg.equip_data_statistics = {
 		attribute_3 = "antiaircraft",
 		ammo = "通常弾",
 		is_siren = 0,
-		descrip = "0",
 		value_3 = 7,
+		descrip = "0",
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
 		property_rate = {},
@@ -14196,7 +18011,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		}
 	},
 	[11201] = {
 		value_1 = "4 x 4",
@@ -14204,6 +18024,11 @@ pg.equip_data_statistics = {
 		base = 11200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11201
 		},
@@ -14215,6 +18040,11 @@ pg.equip_data_statistics = {
 		base = 11200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11202
 		},
@@ -14226,6 +18056,11 @@ pg.equip_data_statistics = {
 		base = 11200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11203
 		},
@@ -14237,6 +18072,11 @@ pg.equip_data_statistics = {
 		base = 11200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11204
 		},
@@ -14248,6 +18088,11 @@ pg.equip_data_statistics = {
 		base = 11200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11205
 		},
@@ -14259,6 +18104,11 @@ pg.equip_data_statistics = {
 		base = 11200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11206
 		},
@@ -14284,8 +18134,8 @@ pg.equip_data_statistics = {
 		attribute_3 = "antiaircraft",
 		ammo = "榴弾",
 		is_siren = 0,
-		descrip = "0",
 		value_3 = 14,
+		descrip = "0",
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
 		property_rate = {},
@@ -14303,7 +18153,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		}
 	},
 	[11221] = {
 		value_1 = "4 x 4",
@@ -14311,6 +18166,11 @@ pg.equip_data_statistics = {
 		base = 11220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11221
 		},
@@ -14322,6 +18182,11 @@ pg.equip_data_statistics = {
 		base = 11220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11222
 		},
@@ -14333,6 +18198,11 @@ pg.equip_data_statistics = {
 		base = 11220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11223
 		},
@@ -14344,6 +18214,11 @@ pg.equip_data_statistics = {
 		base = 11220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11224
 		},
@@ -14355,6 +18230,11 @@ pg.equip_data_statistics = {
 		base = 11220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11225
 		},
@@ -14366,6 +18246,11 @@ pg.equip_data_statistics = {
 		base = 11220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11226
 		},
@@ -14377,6 +18262,11 @@ pg.equip_data_statistics = {
 		base = 11220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11227
 		},
@@ -14388,6 +18278,11 @@ pg.equip_data_statistics = {
 		base = 11220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11228
 		},
@@ -14399,6 +18294,11 @@ pg.equip_data_statistics = {
 		base = 11220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11229
 		},
@@ -14410,6 +18310,11 @@ pg.equip_data_statistics = {
 		base = 11220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11230
 		},
@@ -14435,8 +18340,8 @@ pg.equip_data_statistics = {
 		attribute_3 = "antiaircraft",
 		ammo = "榴弾",
 		is_siren = 0,
-		descrip = "0",
 		value_3 = 25,
+		descrip = "0",
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
 		property_rate = {},
@@ -14454,7 +18359,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		}
 	},
 	[11241] = {
 		value_1 = "4 x 4",
@@ -14462,6 +18372,11 @@ pg.equip_data_statistics = {
 		base = 11240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11241
 		},
@@ -14473,6 +18388,11 @@ pg.equip_data_statistics = {
 		base = 11240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11242
 		},
@@ -14484,6 +18404,11 @@ pg.equip_data_statistics = {
 		base = 11240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11243
 		},
@@ -14495,6 +18420,11 @@ pg.equip_data_statistics = {
 		base = 11240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11244
 		},
@@ -14506,6 +18436,11 @@ pg.equip_data_statistics = {
 		base = 11240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11245
 		},
@@ -14517,6 +18452,11 @@ pg.equip_data_statistics = {
 		base = 11240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11246
 		},
@@ -14528,6 +18468,11 @@ pg.equip_data_statistics = {
 		base = 11240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11247
 		},
@@ -14539,6 +18484,11 @@ pg.equip_data_statistics = {
 		base = 11240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11248
 		},
@@ -14550,6 +18500,11 @@ pg.equip_data_statistics = {
 		base = 11240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11249
 		},
@@ -14561,6 +18516,11 @@ pg.equip_data_statistics = {
 		base = 11240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			11250
 		},
@@ -14602,7 +18562,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		}
 	},
 	[12001] = {
 		value_1 = "8 x 4",
@@ -14610,6 +18575,11 @@ pg.equip_data_statistics = {
 		base = 12000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12001
 		},
@@ -14621,6 +18591,11 @@ pg.equip_data_statistics = {
 		base = 12000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12002
 		},
@@ -14632,6 +18607,11 @@ pg.equip_data_statistics = {
 		base = 12000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12003
 		},
@@ -14674,7 +18654,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		}
 	},
 	[12021] = {
 		value_1 = "9 x 4",
@@ -14682,6 +18667,11 @@ pg.equip_data_statistics = {
 		base = 12020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12021
 		},
@@ -14693,6 +18683,11 @@ pg.equip_data_statistics = {
 		base = 12020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12022
 		},
@@ -14704,6 +18699,11 @@ pg.equip_data_statistics = {
 		base = 12020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12023
 		},
@@ -14746,7 +18746,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		}
 	},
 	[12041] = {
 		value_1 = "10 x 4",
@@ -14754,6 +18759,11 @@ pg.equip_data_statistics = {
 		base = 12040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12041
 		},
@@ -14765,6 +18775,11 @@ pg.equip_data_statistics = {
 		base = 12040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12042
 		},
@@ -14776,6 +18791,11 @@ pg.equip_data_statistics = {
 		base = 12040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12043
 		},
@@ -14787,6 +18807,11 @@ pg.equip_data_statistics = {
 		base = 12040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12044
 		},
@@ -14798,6 +18823,11 @@ pg.equip_data_statistics = {
 		base = 12040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12045
 		},
@@ -14809,6 +18839,11 @@ pg.equip_data_statistics = {
 		base = 12040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12046
 		},
@@ -14851,7 +18886,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		}
 	},
 	[12101] = {
 		value_1 = "8 x 6",
@@ -14859,6 +18899,11 @@ pg.equip_data_statistics = {
 		base = 12100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12101
 		},
@@ -14870,6 +18915,11 @@ pg.equip_data_statistics = {
 		base = 12100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12102
 		},
@@ -14881,6 +18931,11 @@ pg.equip_data_statistics = {
 		base = 12100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12103
 		},
@@ -14923,7 +18978,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		}
 	},
 	[12121] = {
 		value_1 = "9 x 6",
@@ -14931,6 +18991,11 @@ pg.equip_data_statistics = {
 		base = 12120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12121
 		},
@@ -14942,6 +19007,11 @@ pg.equip_data_statistics = {
 		base = 12120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12122
 		},
@@ -14953,6 +19023,11 @@ pg.equip_data_statistics = {
 		base = 12120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12123
 		},
@@ -14964,6 +19039,11 @@ pg.equip_data_statistics = {
 		base = 12120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12124
 		},
@@ -14975,6 +19055,11 @@ pg.equip_data_statistics = {
 		base = 12120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12125
 		},
@@ -14986,6 +19071,11 @@ pg.equip_data_statistics = {
 		base = 12120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12126
 		},
@@ -15028,7 +19118,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		}
 	},
 	[12141] = {
 		value_1 = "10 x 6",
@@ -15036,6 +19131,11 @@ pg.equip_data_statistics = {
 		base = 12140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12141
 		},
@@ -15047,6 +19147,11 @@ pg.equip_data_statistics = {
 		base = 12140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12142
 		},
@@ -15058,6 +19163,11 @@ pg.equip_data_statistics = {
 		base = 12140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12143
 		},
@@ -15069,6 +19179,11 @@ pg.equip_data_statistics = {
 		base = 12140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12144
 		},
@@ -15080,6 +19195,11 @@ pg.equip_data_statistics = {
 		base = 12140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12145
 		},
@@ -15091,6 +19211,11 @@ pg.equip_data_statistics = {
 		base = 12140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12146
 		},
@@ -15102,6 +19227,11 @@ pg.equip_data_statistics = {
 		base = 12140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12147
 		},
@@ -15113,6 +19243,11 @@ pg.equip_data_statistics = {
 		base = 12140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12148
 		},
@@ -15124,6 +19259,11 @@ pg.equip_data_statistics = {
 		base = 12140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12149
 		},
@@ -15135,6 +19275,11 @@ pg.equip_data_statistics = {
 		base = 12140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12150
 		},
@@ -15160,8 +19305,8 @@ pg.equip_data_statistics = {
 		attribute_3 = "antiaircraft",
 		ammo = "榴弾",
 		is_siren = 0,
-		descrip = "0",
 		value_3 = 15,
+		descrip = "0",
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
 		property_rate = {},
@@ -15178,7 +19323,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		}
 	},
 	[12201] = {
 		value_1 = "6 x 6",
@@ -15186,6 +19336,11 @@ pg.equip_data_statistics = {
 		base = 12200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12201
 		},
@@ -15197,6 +19352,11 @@ pg.equip_data_statistics = {
 		base = 12200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12202
 		},
@@ -15208,6 +19368,11 @@ pg.equip_data_statistics = {
 		base = 12200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12203
 		},
@@ -15219,6 +19384,11 @@ pg.equip_data_statistics = {
 		base = 12200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12204
 		},
@@ -15230,6 +19400,11 @@ pg.equip_data_statistics = {
 		base = 12200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12205
 		},
@@ -15241,6 +19416,11 @@ pg.equip_data_statistics = {
 		base = 12200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12206
 		},
@@ -15252,6 +19432,11 @@ pg.equip_data_statistics = {
 		base = 12200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12207
 		},
@@ -15263,6 +19448,11 @@ pg.equip_data_statistics = {
 		base = 12200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12208
 		},
@@ -15274,6 +19464,11 @@ pg.equip_data_statistics = {
 		base = 12200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12209
 		},
@@ -15285,6 +19480,11 @@ pg.equip_data_statistics = {
 		base = 12200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			12210
 		},
@@ -15324,7 +19524,12 @@ pg.equip_data_statistics = {
 			3
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		}
 	},
 	[13001] = {
 		value_1 = "24 x 3",
@@ -15332,6 +19537,11 @@ pg.equip_data_statistics = {
 		base = 13000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13001
 		},
@@ -15343,6 +19553,11 @@ pg.equip_data_statistics = {
 		base = 13000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13002
 		},
@@ -15354,6 +19569,11 @@ pg.equip_data_statistics = {
 		base = 13000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13003
 		},
@@ -15394,7 +19614,12 @@ pg.equip_data_statistics = {
 			3
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		}
 	},
 	[13021] = {
 		value_1 = "26 x 3",
@@ -15402,6 +19627,11 @@ pg.equip_data_statistics = {
 		base = 13020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13021
 		},
@@ -15413,6 +19643,11 @@ pg.equip_data_statistics = {
 		base = 13020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13022
 		},
@@ -15424,6 +19659,11 @@ pg.equip_data_statistics = {
 		base = 13020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13023
 		},
@@ -15464,7 +19704,12 @@ pg.equip_data_statistics = {
 			3
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		}
 	},
 	[13041] = {
 		value_1 = "28 x 3",
@@ -15472,6 +19717,11 @@ pg.equip_data_statistics = {
 		base = 13040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13041
 		},
@@ -15483,6 +19733,11 @@ pg.equip_data_statistics = {
 		base = 13040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13042
 		},
@@ -15494,6 +19749,11 @@ pg.equip_data_statistics = {
 		base = 13040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13043
 		},
@@ -15505,6 +19765,11 @@ pg.equip_data_statistics = {
 		base = 13040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13044
 		},
@@ -15516,6 +19781,11 @@ pg.equip_data_statistics = {
 		base = 13040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13045
 		},
@@ -15527,6 +19797,11 @@ pg.equip_data_statistics = {
 		base = 13040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13046
 		},
@@ -15567,7 +19842,12 @@ pg.equip_data_statistics = {
 			3
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		}
 	},
 	[13101] = {
 		value_1 = "27 x 3",
@@ -15575,6 +19855,11 @@ pg.equip_data_statistics = {
 		base = 13100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13101
 		},
@@ -15586,6 +19871,11 @@ pg.equip_data_statistics = {
 		base = 13100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13102
 		},
@@ -15597,6 +19887,11 @@ pg.equip_data_statistics = {
 		base = 13100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13103
 		},
@@ -15637,7 +19932,12 @@ pg.equip_data_statistics = {
 			3
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		}
 	},
 	[13121] = {
 		value_1 = "29 x 3",
@@ -15645,6 +19945,11 @@ pg.equip_data_statistics = {
 		base = 13120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13121
 		},
@@ -15656,6 +19961,11 @@ pg.equip_data_statistics = {
 		base = 13120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13122
 		},
@@ -15667,6 +19977,11 @@ pg.equip_data_statistics = {
 		base = 13120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13123
 		},
@@ -15678,6 +19993,11 @@ pg.equip_data_statistics = {
 		base = 13120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13124
 		},
@@ -15689,6 +20009,11 @@ pg.equip_data_statistics = {
 		base = 13120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13125
 		},
@@ -15700,6 +20025,11 @@ pg.equip_data_statistics = {
 		base = 13120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13126
 		},
@@ -15740,7 +20070,12 @@ pg.equip_data_statistics = {
 			3
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		}
 	},
 	[13141] = {
 		value_1 = "31 x 3",
@@ -15748,6 +20083,11 @@ pg.equip_data_statistics = {
 		base = 13140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13141
 		},
@@ -15759,6 +20099,11 @@ pg.equip_data_statistics = {
 		base = 13140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13142
 		},
@@ -15770,6 +20115,11 @@ pg.equip_data_statistics = {
 		base = 13140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13143
 		},
@@ -15781,6 +20131,11 @@ pg.equip_data_statistics = {
 		base = 13140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13144
 		},
@@ -15792,6 +20147,11 @@ pg.equip_data_statistics = {
 		base = 13140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13145
 		},
@@ -15803,6 +20163,11 @@ pg.equip_data_statistics = {
 		base = 13140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13146
 		},
@@ -15814,6 +20179,11 @@ pg.equip_data_statistics = {
 		base = 13140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13147
 		},
@@ -15825,6 +20195,11 @@ pg.equip_data_statistics = {
 		base = 13140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13148
 		},
@@ -15836,6 +20211,11 @@ pg.equip_data_statistics = {
 		base = 13140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13149
 		},
@@ -15847,6 +20227,11 @@ pg.equip_data_statistics = {
 		base = 13140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			13150
 		},
@@ -15887,7 +20272,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		}
 	},
 	[14101] = {
 		value_1 = "46 x 3",
@@ -15895,6 +20285,11 @@ pg.equip_data_statistics = {
 		base = 14100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14101
 		},
@@ -15906,6 +20301,11 @@ pg.equip_data_statistics = {
 		base = 14100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14102
 		},
@@ -15917,6 +20317,11 @@ pg.equip_data_statistics = {
 		base = 14100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14103
 		},
@@ -15958,7 +20363,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		}
 	},
 	[14121] = {
 		value_1 = "50 x 3",
@@ -15966,6 +20376,11 @@ pg.equip_data_statistics = {
 		base = 14120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14121
 		},
@@ -15977,6 +20392,11 @@ pg.equip_data_statistics = {
 		base = 14120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14122
 		},
@@ -15988,6 +20408,11 @@ pg.equip_data_statistics = {
 		base = 14120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14123
 		},
@@ -16029,7 +20454,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		}
 	},
 	[14141] = {
 		value_1 = "55 x 3",
@@ -16037,6 +20467,11 @@ pg.equip_data_statistics = {
 		base = 14140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14141
 		},
@@ -16048,6 +20483,11 @@ pg.equip_data_statistics = {
 		base = 14140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14142
 		},
@@ -16059,6 +20499,11 @@ pg.equip_data_statistics = {
 		base = 14140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14143
 		},
@@ -16070,6 +20515,11 @@ pg.equip_data_statistics = {
 		base = 14140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14144
 		},
@@ -16081,6 +20531,11 @@ pg.equip_data_statistics = {
 		base = 14140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14145
 		},
@@ -16092,6 +20547,11 @@ pg.equip_data_statistics = {
 		base = 14140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14146
 		},
@@ -16133,7 +20593,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		}
 	},
 	[14201] = {
 		value_1 = "56 x 2",
@@ -16141,6 +20606,11 @@ pg.equip_data_statistics = {
 		base = 14200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14201
 		},
@@ -16152,6 +20622,11 @@ pg.equip_data_statistics = {
 		base = 14200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14202
 		},
@@ -16163,6 +20638,11 @@ pg.equip_data_statistics = {
 		base = 14200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14203
 		},
@@ -16204,7 +20684,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		}
 	},
 	[14221] = {
 		value_1 = "62 x 2",
@@ -16212,6 +20697,11 @@ pg.equip_data_statistics = {
 		base = 14220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14221
 		},
@@ -16223,6 +20713,11 @@ pg.equip_data_statistics = {
 		base = 14220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14222
 		},
@@ -16234,6 +20729,11 @@ pg.equip_data_statistics = {
 		base = 14220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14223
 		},
@@ -16245,6 +20745,11 @@ pg.equip_data_statistics = {
 		base = 14220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14224
 		},
@@ -16256,6 +20761,11 @@ pg.equip_data_statistics = {
 		base = 14220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14225
 		},
@@ -16267,6 +20777,11 @@ pg.equip_data_statistics = {
 		base = 14220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14226
 		},
@@ -16308,7 +20823,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		}
 	},
 	[14241] = {
 		value_1 = "68 x 2",
@@ -16316,6 +20836,11 @@ pg.equip_data_statistics = {
 		base = 14240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14241
 		},
@@ -16327,6 +20852,11 @@ pg.equip_data_statistics = {
 		base = 14240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14242
 		},
@@ -16338,6 +20868,11 @@ pg.equip_data_statistics = {
 		base = 14240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14243
 		},
@@ -16349,6 +20884,11 @@ pg.equip_data_statistics = {
 		base = 14240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14244
 		},
@@ -16360,6 +20900,11 @@ pg.equip_data_statistics = {
 		base = 14240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14245
 		},
@@ -16371,6 +20916,11 @@ pg.equip_data_statistics = {
 		base = 14240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14246
 		},
@@ -16382,6 +20932,11 @@ pg.equip_data_statistics = {
 		base = 14240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14247
 		},
@@ -16393,6 +20948,11 @@ pg.equip_data_statistics = {
 		base = 14240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14248
 		},
@@ -16404,6 +20964,11 @@ pg.equip_data_statistics = {
 		base = 14240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14249
 		},
@@ -16415,6 +20980,11 @@ pg.equip_data_statistics = {
 		base = 14240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14250
 		},
@@ -16456,7 +21026,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		}
 	},
 	[14301] = {
 		value_1 = "58 x 3",
@@ -16464,6 +21039,11 @@ pg.equip_data_statistics = {
 		base = 14300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14301
 		},
@@ -16475,6 +21055,11 @@ pg.equip_data_statistics = {
 		base = 14300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14302
 		},
@@ -16486,6 +21071,11 @@ pg.equip_data_statistics = {
 		base = 14300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14303
 		},
@@ -16527,7 +21117,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		}
 	},
 	[14321] = {
 		value_1 = "64 x 3",
@@ -16535,6 +21130,11 @@ pg.equip_data_statistics = {
 		base = 14320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14321
 		},
@@ -16546,6 +21146,11 @@ pg.equip_data_statistics = {
 		base = 14320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14322
 		},
@@ -16557,6 +21162,11 @@ pg.equip_data_statistics = {
 		base = 14320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14323
 		},
@@ -16568,6 +21178,11 @@ pg.equip_data_statistics = {
 		base = 14320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14324
 		},
@@ -16579,6 +21194,11 @@ pg.equip_data_statistics = {
 		base = 14320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14325
 		},
@@ -16590,6 +21210,11 @@ pg.equip_data_statistics = {
 		base = 14320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14326
 		},
@@ -16631,7 +21256,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		}
 	},
 	[14341] = {
 		value_1 = "70 x 3",
@@ -16639,6 +21269,11 @@ pg.equip_data_statistics = {
 		base = 14340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14341
 		},
@@ -16650,6 +21285,11 @@ pg.equip_data_statistics = {
 		base = 14340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14342
 		},
@@ -16661,6 +21301,11 @@ pg.equip_data_statistics = {
 		base = 14340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14343
 		},
@@ -16672,6 +21317,11 @@ pg.equip_data_statistics = {
 		base = 14340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14344
 		},
@@ -16683,6 +21333,11 @@ pg.equip_data_statistics = {
 		base = 14340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14345
 		},
@@ -16694,6 +21349,11 @@ pg.equip_data_statistics = {
 		base = 14340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14346
 		},
@@ -16705,6 +21365,11 @@ pg.equip_data_statistics = {
 		base = 14340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14347
 		},
@@ -16716,6 +21381,11 @@ pg.equip_data_statistics = {
 		base = 14340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14348
 		},
@@ -16727,6 +21397,11 @@ pg.equip_data_statistics = {
 		base = 14340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14349
 		},
@@ -16738,6 +21413,11 @@ pg.equip_data_statistics = {
 		base = 14340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14350
 		},
@@ -16779,7 +21459,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		}
 	},
 	[14501] = {
 		value_1 = "91 x 2",
@@ -16787,6 +21472,11 @@ pg.equip_data_statistics = {
 		base = 14500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14501
 		},
@@ -16798,6 +21488,11 @@ pg.equip_data_statistics = {
 		base = 14500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14502
 		},
@@ -16809,6 +21504,11 @@ pg.equip_data_statistics = {
 		base = 14500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14503
 		},
@@ -16820,6 +21520,11 @@ pg.equip_data_statistics = {
 		base = 14500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14504
 		},
@@ -16831,6 +21536,11 @@ pg.equip_data_statistics = {
 		base = 14500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14505
 		},
@@ -16842,6 +21552,11 @@ pg.equip_data_statistics = {
 		base = 14500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14506
 		},
@@ -16853,6 +21568,11 @@ pg.equip_data_statistics = {
 		base = 14500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14507
 		},
@@ -16864,6 +21584,11 @@ pg.equip_data_statistics = {
 		base = 14500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14508
 		},
@@ -16875,6 +21600,11 @@ pg.equip_data_statistics = {
 		base = 14500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14509
 		},
@@ -16886,6 +21616,11 @@ pg.equip_data_statistics = {
 		base = 14500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			14510
 		},
@@ -16922,7 +21657,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		}
 	},
 	[15001] = {
 		value_1 = "48 x 3",
@@ -16930,6 +21670,11 @@ pg.equip_data_statistics = {
 		base = 15000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15001
 		},
@@ -16941,6 +21686,11 @@ pg.equip_data_statistics = {
 		base = 15000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15002
 		},
@@ -16952,6 +21702,11 @@ pg.equip_data_statistics = {
 		base = 15000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15003
 		},
@@ -16988,7 +21743,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		}
 	},
 	[15021] = {
 		value_1 = "53 x 3",
@@ -16996,6 +21756,11 @@ pg.equip_data_statistics = {
 		base = 15020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15021
 		},
@@ -17007,6 +21772,11 @@ pg.equip_data_statistics = {
 		base = 15020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15022
 		},
@@ -17018,6 +21788,11 @@ pg.equip_data_statistics = {
 		base = 15020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15023
 		},
@@ -17029,6 +21804,11 @@ pg.equip_data_statistics = {
 		base = 15020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15024
 		},
@@ -17040,6 +21820,11 @@ pg.equip_data_statistics = {
 		base = 15020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15025
 		},
@@ -17051,6 +21836,11 @@ pg.equip_data_statistics = {
 		base = 15020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15026
 		},
@@ -17087,7 +21877,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		}
 	},
 	[15041] = {
 		value_1 = "59 x 3",
@@ -17095,6 +21890,11 @@ pg.equip_data_statistics = {
 		base = 15040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15041
 		},
@@ -17106,6 +21906,11 @@ pg.equip_data_statistics = {
 		base = 15040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15042
 		},
@@ -17117,6 +21922,11 @@ pg.equip_data_statistics = {
 		base = 15040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15043
 		},
@@ -17128,6 +21938,11 @@ pg.equip_data_statistics = {
 		base = 15040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15044
 		},
@@ -17139,6 +21954,11 @@ pg.equip_data_statistics = {
 		base = 15040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15045
 		},
@@ -17150,6 +21970,11 @@ pg.equip_data_statistics = {
 		base = 15040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15046
 		},
@@ -17161,6 +21986,11 @@ pg.equip_data_statistics = {
 		base = 15040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15047
 		},
@@ -17172,6 +22002,11 @@ pg.equip_data_statistics = {
 		base = 15040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15048
 		},
@@ -17183,6 +22018,11 @@ pg.equip_data_statistics = {
 		base = 15040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15049
 		},
@@ -17194,6 +22034,11 @@ pg.equip_data_statistics = {
 		base = 15040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15050
 		},
@@ -17230,7 +22075,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		}
 	},
 	[15101] = {
 		value_1 = "66 x 3",
@@ -17238,6 +22088,11 @@ pg.equip_data_statistics = {
 		base = 15100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15101
 		},
@@ -17249,6 +22104,11 @@ pg.equip_data_statistics = {
 		base = 15100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15102
 		},
@@ -17260,6 +22120,11 @@ pg.equip_data_statistics = {
 		base = 15100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15103
 		},
@@ -17271,6 +22136,11 @@ pg.equip_data_statistics = {
 		base = 15100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15104
 		},
@@ -17282,6 +22152,11 @@ pg.equip_data_statistics = {
 		base = 15100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15105
 		},
@@ -17293,6 +22168,11 @@ pg.equip_data_statistics = {
 		base = 15100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15106
 		},
@@ -17329,7 +22209,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		}
 	},
 	[15121] = {
 		value_1 = "74 x 3",
@@ -17337,6 +22222,11 @@ pg.equip_data_statistics = {
 		base = 15120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15121
 		},
@@ -17348,6 +22238,11 @@ pg.equip_data_statistics = {
 		base = 15120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15122
 		},
@@ -17359,6 +22254,11 @@ pg.equip_data_statistics = {
 		base = 15120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15123
 		},
@@ -17370,6 +22270,11 @@ pg.equip_data_statistics = {
 		base = 15120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15124
 		},
@@ -17381,6 +22286,11 @@ pg.equip_data_statistics = {
 		base = 15120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15125
 		},
@@ -17392,6 +22302,11 @@ pg.equip_data_statistics = {
 		base = 15120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15126
 		},
@@ -17403,6 +22318,11 @@ pg.equip_data_statistics = {
 		base = 15120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15127
 		},
@@ -17414,6 +22334,11 @@ pg.equip_data_statistics = {
 		base = 15120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15128
 		},
@@ -17425,6 +22350,11 @@ pg.equip_data_statistics = {
 		base = 15120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15129
 		},
@@ -17436,6 +22366,11 @@ pg.equip_data_statistics = {
 		base = 15120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15130
 		},
@@ -17472,7 +22407,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		}
 	},
 	[15141] = {
 		value_1 = "82 x 3",
@@ -17480,6 +22420,11 @@ pg.equip_data_statistics = {
 		base = 15140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15141
 		},
@@ -17491,6 +22436,11 @@ pg.equip_data_statistics = {
 		base = 15140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15142
 		},
@@ -17502,6 +22452,11 @@ pg.equip_data_statistics = {
 		base = 15140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15143
 		},
@@ -17513,6 +22468,11 @@ pg.equip_data_statistics = {
 		base = 15140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15144
 		},
@@ -17524,6 +22484,11 @@ pg.equip_data_statistics = {
 		base = 15140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15145
 		},
@@ -17535,6 +22500,11 @@ pg.equip_data_statistics = {
 		base = 15140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15146
 		},
@@ -17546,6 +22516,11 @@ pg.equip_data_statistics = {
 		base = 15140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15147
 		},
@@ -17557,6 +22532,11 @@ pg.equip_data_statistics = {
 		base = 15140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15148
 		},
@@ -17568,6 +22548,11 @@ pg.equip_data_statistics = {
 		base = 15140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15149
 		},
@@ -17579,6 +22564,11 @@ pg.equip_data_statistics = {
 		base = 15140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			15150
 		},
@@ -17614,7 +22604,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
 	},
 	[16001] = {
 		value_1 = "9/回",
@@ -17622,6 +22617,11 @@ pg.equip_data_statistics = {
 		base = 16000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16001
 		},
@@ -17633,6 +22633,11 @@ pg.equip_data_statistics = {
 		base = 16000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16002
 		},
@@ -17644,6 +22649,11 @@ pg.equip_data_statistics = {
 		base = 16000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16003
 		},
@@ -17680,7 +22690,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
 	},
 	[16021] = {
 		value_1 = "10/回",
@@ -17688,6 +22703,11 @@ pg.equip_data_statistics = {
 		base = 16020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16021
 		},
@@ -17699,6 +22719,11 @@ pg.equip_data_statistics = {
 		base = 16020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16022
 		},
@@ -17710,6 +22735,11 @@ pg.equip_data_statistics = {
 		base = 16020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16023
 		},
@@ -17746,7 +22776,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
 	},
 	[16041] = {
 		value_1 = "12/回",
@@ -17754,6 +22789,11 @@ pg.equip_data_statistics = {
 		base = 16040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16041
 		},
@@ -17765,6 +22805,11 @@ pg.equip_data_statistics = {
 		base = 16040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16042
 		},
@@ -17776,6 +22821,11 @@ pg.equip_data_statistics = {
 		base = 16040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16043
 		},
@@ -17787,6 +22837,11 @@ pg.equip_data_statistics = {
 		base = 16040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16044
 		},
@@ -17798,6 +22853,11 @@ pg.equip_data_statistics = {
 		base = 16040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16045
 		},
@@ -17809,6 +22869,11 @@ pg.equip_data_statistics = {
 		base = 16040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16046
 		},
@@ -17845,7 +22910,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
 	},
 	[16101] = {
 		value_1 = "16/回",
@@ -17853,6 +22923,11 @@ pg.equip_data_statistics = {
 		base = 16100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16101
 		},
@@ -17864,6 +22939,11 @@ pg.equip_data_statistics = {
 		base = 16100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16102
 		},
@@ -17875,6 +22955,11 @@ pg.equip_data_statistics = {
 		base = 16100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16103
 		},
@@ -17911,7 +22996,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
 	},
 	[16121] = {
 		value_1 = "17/回",
@@ -17919,6 +23009,11 @@ pg.equip_data_statistics = {
 		base = 16120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16121
 		},
@@ -17930,6 +23025,11 @@ pg.equip_data_statistics = {
 		base = 16120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16122
 		},
@@ -17941,6 +23041,11 @@ pg.equip_data_statistics = {
 		base = 16120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16123
 		},
@@ -17952,6 +23057,11 @@ pg.equip_data_statistics = {
 		base = 16120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16124
 		},
@@ -17963,6 +23073,11 @@ pg.equip_data_statistics = {
 		base = 16120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16125
 		},
@@ -17974,6 +23089,11 @@ pg.equip_data_statistics = {
 		base = 16120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16126
 		},
@@ -18010,7 +23130,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
 	},
 	[16141] = {
 		value_1 = "20/回",
@@ -18018,6 +23143,11 @@ pg.equip_data_statistics = {
 		base = 16140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16141
 		},
@@ -18029,6 +23159,11 @@ pg.equip_data_statistics = {
 		base = 16140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16142
 		},
@@ -18040,6 +23175,11 @@ pg.equip_data_statistics = {
 		base = 16140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16143
 		},
@@ -18051,6 +23191,11 @@ pg.equip_data_statistics = {
 		base = 16140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16144
 		},
@@ -18062,6 +23207,11 @@ pg.equip_data_statistics = {
 		base = 16140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16145
 		},
@@ -18073,6 +23223,11 @@ pg.equip_data_statistics = {
 		base = 16140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16146
 		},
@@ -18084,6 +23239,11 @@ pg.equip_data_statistics = {
 		base = 16140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16147
 		},
@@ -18095,6 +23255,11 @@ pg.equip_data_statistics = {
 		base = 16140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16148
 		},
@@ -18106,6 +23271,11 @@ pg.equip_data_statistics = {
 		base = 16140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16149
 		},
@@ -18117,6 +23287,11 @@ pg.equip_data_statistics = {
 		base = 16140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16150
 		},
@@ -18153,7 +23328,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
 	},
 	[16201] = {
 		value_1 = "26/回",
@@ -18161,6 +23341,11 @@ pg.equip_data_statistics = {
 		base = 16200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16201
 		},
@@ -18172,6 +23357,11 @@ pg.equip_data_statistics = {
 		base = 16200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16202
 		},
@@ -18183,6 +23373,11 @@ pg.equip_data_statistics = {
 		base = 16200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16203
 		},
@@ -18219,7 +23414,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
 	},
 	[16221] = {
 		value_1 = "29/回",
@@ -18227,6 +23427,11 @@ pg.equip_data_statistics = {
 		base = 16220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16221
 		},
@@ -18238,6 +23443,11 @@ pg.equip_data_statistics = {
 		base = 16220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16222
 		},
@@ -18249,6 +23459,11 @@ pg.equip_data_statistics = {
 		base = 16220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16223
 		},
@@ -18260,6 +23475,11 @@ pg.equip_data_statistics = {
 		base = 16220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16224
 		},
@@ -18271,6 +23491,11 @@ pg.equip_data_statistics = {
 		base = 16220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16225
 		},
@@ -18282,6 +23507,11 @@ pg.equip_data_statistics = {
 		base = 16220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16226
 		},
@@ -18318,7 +23548,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
 	},
 	[16241] = {
 		value_1 = "33/回",
@@ -18326,6 +23561,11 @@ pg.equip_data_statistics = {
 		base = 16240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16241
 		},
@@ -18337,6 +23577,11 @@ pg.equip_data_statistics = {
 		base = 16240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16242
 		},
@@ -18348,6 +23593,11 @@ pg.equip_data_statistics = {
 		base = 16240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16243
 		},
@@ -18359,6 +23609,11 @@ pg.equip_data_statistics = {
 		base = 16240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16244
 		},
@@ -18370,6 +23625,11 @@ pg.equip_data_statistics = {
 		base = 16240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16245
 		},
@@ -18381,6 +23641,11 @@ pg.equip_data_statistics = {
 		base = 16240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16246
 		},
@@ -18392,6 +23657,11 @@ pg.equip_data_statistics = {
 		base = 16240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16247
 		},
@@ -18403,6 +23673,11 @@ pg.equip_data_statistics = {
 		base = 16240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16248
 		},
@@ -18414,6 +23689,11 @@ pg.equip_data_statistics = {
 		base = 16240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16249
 		},
@@ -18425,6 +23705,11 @@ pg.equip_data_statistics = {
 		base = 16240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16250
 		},
@@ -18461,7 +23746,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
 	},
 	[16301] = {
 		value_1 = "22/回",
@@ -18469,6 +23759,11 @@ pg.equip_data_statistics = {
 		base = 16300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16301
 		},
@@ -18480,6 +23775,11 @@ pg.equip_data_statistics = {
 		base = 16300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16302
 		},
@@ -18491,6 +23791,11 @@ pg.equip_data_statistics = {
 		base = 16300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16303
 		},
@@ -18527,7 +23832,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
 	},
 	[16321] = {
 		value_1 = "26/回",
@@ -18535,6 +23845,11 @@ pg.equip_data_statistics = {
 		base = 16320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16321
 		},
@@ -18546,6 +23861,11 @@ pg.equip_data_statistics = {
 		base = 16320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16322
 		},
@@ -18557,6 +23877,11 @@ pg.equip_data_statistics = {
 		base = 16320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16323
 		},
@@ -18568,6 +23893,11 @@ pg.equip_data_statistics = {
 		base = 16320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16324
 		},
@@ -18579,6 +23909,11 @@ pg.equip_data_statistics = {
 		base = 16320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16325
 		},
@@ -18590,6 +23925,11 @@ pg.equip_data_statistics = {
 		base = 16320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16326
 		},
@@ -18626,7 +23966,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
 	},
 	[16341] = {
 		value_1 = "28/回",
@@ -18634,6 +23979,11 @@ pg.equip_data_statistics = {
 		base = 16340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16341
 		},
@@ -18645,6 +23995,11 @@ pg.equip_data_statistics = {
 		base = 16340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16342
 		},
@@ -18656,6 +24011,11 @@ pg.equip_data_statistics = {
 		base = 16340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16343
 		},
@@ -18667,6 +24027,11 @@ pg.equip_data_statistics = {
 		base = 16340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16344
 		},
@@ -18678,6 +24043,11 @@ pg.equip_data_statistics = {
 		base = 16340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16345
 		},
@@ -18689,6 +24059,11 @@ pg.equip_data_statistics = {
 		base = 16340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16346
 		},
@@ -18700,6 +24075,11 @@ pg.equip_data_statistics = {
 		base = 16340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16347
 		},
@@ -18711,6 +24091,11 @@ pg.equip_data_statistics = {
 		base = 16340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16348
 		},
@@ -18722,6 +24107,11 @@ pg.equip_data_statistics = {
 		base = 16340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16349
 		},
@@ -18733,6 +24123,11 @@ pg.equip_data_statistics = {
 		base = 16340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16350
 		},
@@ -18769,7 +24164,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
 	},
 	[16401] = {
 		value_1 = "44/回",
@@ -18777,6 +24177,11 @@ pg.equip_data_statistics = {
 		base = 16400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16401
 		},
@@ -18788,6 +24193,11 @@ pg.equip_data_statistics = {
 		base = 16400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16402
 		},
@@ -18799,6 +24209,11 @@ pg.equip_data_statistics = {
 		base = 16400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16403
 		},
@@ -18810,6 +24225,11 @@ pg.equip_data_statistics = {
 		base = 16400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16404
 		},
@@ -18821,6 +24241,11 @@ pg.equip_data_statistics = {
 		base = 16400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16405
 		},
@@ -18832,6 +24257,11 @@ pg.equip_data_statistics = {
 		base = 16400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16406
 		},
@@ -18868,7 +24298,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
 	},
 	[16421] = {
 		value_1 = "49/回",
@@ -18876,6 +24311,11 @@ pg.equip_data_statistics = {
 		base = 16420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16421
 		},
@@ -18887,6 +24327,11 @@ pg.equip_data_statistics = {
 		base = 16420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16422
 		},
@@ -18898,6 +24343,11 @@ pg.equip_data_statistics = {
 		base = 16420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16423
 		},
@@ -18909,6 +24359,11 @@ pg.equip_data_statistics = {
 		base = 16420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16424
 		},
@@ -18920,6 +24375,11 @@ pg.equip_data_statistics = {
 		base = 16420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16425
 		},
@@ -18931,6 +24391,11 @@ pg.equip_data_statistics = {
 		base = 16420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16426
 		},
@@ -18942,6 +24407,11 @@ pg.equip_data_statistics = {
 		base = 16420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16427
 		},
@@ -18953,6 +24423,11 @@ pg.equip_data_statistics = {
 		base = 16420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16428
 		},
@@ -18964,6 +24439,11 @@ pg.equip_data_statistics = {
 		base = 16420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16429
 		},
@@ -18975,6 +24455,11 @@ pg.equip_data_statistics = {
 		base = 16420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16430
 		},
@@ -19011,7 +24496,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		}
 	},
 	[16441] = {
 		value_1 = "55/回",
@@ -19019,6 +24509,11 @@ pg.equip_data_statistics = {
 		base = 16440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16441
 		},
@@ -19030,6 +24525,11 @@ pg.equip_data_statistics = {
 		base = 16440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16442
 		},
@@ -19041,6 +24541,11 @@ pg.equip_data_statistics = {
 		base = 16440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16443
 		},
@@ -19052,6 +24557,11 @@ pg.equip_data_statistics = {
 		base = 16440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16444
 		},
@@ -19063,6 +24573,11 @@ pg.equip_data_statistics = {
 		base = 16440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16445
 		},
@@ -19074,6 +24589,11 @@ pg.equip_data_statistics = {
 		base = 16440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16446
 		},
@@ -19085,6 +24605,11 @@ pg.equip_data_statistics = {
 		base = 16440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16447
 		},
@@ -19096,6 +24621,11 @@ pg.equip_data_statistics = {
 		base = 16440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16448
 		},
@@ -19107,6 +24637,11 @@ pg.equip_data_statistics = {
 		base = 16440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16449
 		},
@@ -19118,6 +24653,11 @@ pg.equip_data_statistics = {
 		base = 16440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			16450
 		},
@@ -19154,7 +24694,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
 	},
 	[17001] = {
 		value_1 = "20/回",
@@ -19162,6 +24707,11 @@ pg.equip_data_statistics = {
 		base = 17000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17001,
 			81001
@@ -19174,6 +24724,11 @@ pg.equip_data_statistics = {
 		base = 17000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17002,
 			81002
@@ -19186,6 +24741,11 @@ pg.equip_data_statistics = {
 		base = 17000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17003,
 			81003
@@ -19224,7 +24784,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
 	},
 	[17021] = {
 		value_1 = "22/回",
@@ -19232,6 +24797,11 @@ pg.equip_data_statistics = {
 		base = 17020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17021,
 			81021
@@ -19244,6 +24814,11 @@ pg.equip_data_statistics = {
 		base = 17020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17022,
 			81022
@@ -19256,6 +24831,11 @@ pg.equip_data_statistics = {
 		base = 17020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17023,
 			81023
@@ -19294,7 +24874,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
 	},
 	[17041] = {
 		value_1 = "24/回",
@@ -19302,6 +24887,11 @@ pg.equip_data_statistics = {
 		base = 17040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17041,
 			81041
@@ -19314,6 +24904,11 @@ pg.equip_data_statistics = {
 		base = 17040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17042,
 			81042
@@ -19326,6 +24921,11 @@ pg.equip_data_statistics = {
 		base = 17040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17043,
 			81043
@@ -19338,6 +24938,11 @@ pg.equip_data_statistics = {
 		base = 17040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17044,
 			81044
@@ -19350,6 +24955,11 @@ pg.equip_data_statistics = {
 		base = 17040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17045,
 			81045
@@ -19362,6 +24972,11 @@ pg.equip_data_statistics = {
 		base = 17040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17046,
 			81046
@@ -19402,7 +25017,12 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
 	},
 	[17061] = {
 		value_1 = "35/回",
@@ -19410,6 +25030,11 @@ pg.equip_data_statistics = {
 		base = 17060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17061,
 			81061
@@ -19422,6 +25047,11 @@ pg.equip_data_statistics = {
 		base = 17060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17062,
 			81062
@@ -19434,6 +25064,11 @@ pg.equip_data_statistics = {
 		base = 17060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17063,
 			81063
@@ -19446,6 +25081,11 @@ pg.equip_data_statistics = {
 		base = 17060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17064,
 			81064
@@ -19458,6 +25098,11 @@ pg.equip_data_statistics = {
 		base = 17060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17065,
 			81065
@@ -19470,6 +25115,11 @@ pg.equip_data_statistics = {
 		base = 17060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17066,
 			81066
@@ -19482,6 +25132,11 @@ pg.equip_data_statistics = {
 		base = 17060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17067,
 			81067
@@ -19494,6 +25149,11 @@ pg.equip_data_statistics = {
 		base = 17060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17068,
 			81068
@@ -19506,6 +25166,11 @@ pg.equip_data_statistics = {
 		base = 17060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17069,
 			81069
@@ -19518,6 +25183,11 @@ pg.equip_data_statistics = {
 		base = 17060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17070,
 			81070
@@ -19556,7 +25226,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
 	},
 	[17101] = {
 		value_1 = "26/回",
@@ -19564,6 +25239,11 @@ pg.equip_data_statistics = {
 		base = 17100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17101,
 			81101
@@ -19576,6 +25256,11 @@ pg.equip_data_statistics = {
 		base = 17100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17102,
 			81102
@@ -19588,6 +25273,11 @@ pg.equip_data_statistics = {
 		base = 17100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17103,
 			81103
@@ -19626,7 +25316,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
 	},
 	[17121] = {
 		value_1 = "29/回",
@@ -19634,6 +25329,11 @@ pg.equip_data_statistics = {
 		base = 17120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17121,
 			81121
@@ -19646,6 +25346,11 @@ pg.equip_data_statistics = {
 		base = 17120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17122,
 			81122
@@ -19658,6 +25363,11 @@ pg.equip_data_statistics = {
 		base = 17120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17123,
 			81123
@@ -19670,6 +25380,11 @@ pg.equip_data_statistics = {
 		base = 17120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17124,
 			81124
@@ -19682,6 +25397,11 @@ pg.equip_data_statistics = {
 		base = 17120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17125,
 			81125
@@ -19694,6 +25414,11 @@ pg.equip_data_statistics = {
 		base = 17120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17126,
 			81126
@@ -19732,7 +25457,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
 	},
 	[17141] = {
 		value_1 = "31/回",
@@ -19740,6 +25470,11 @@ pg.equip_data_statistics = {
 		base = 17140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17141,
 			81141
@@ -19752,6 +25487,11 @@ pg.equip_data_statistics = {
 		base = 17140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17142,
 			81142
@@ -19764,6 +25504,11 @@ pg.equip_data_statistics = {
 		base = 17140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17143,
 			81143
@@ -19776,6 +25521,11 @@ pg.equip_data_statistics = {
 		base = 17140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17144,
 			81144
@@ -19788,6 +25538,11 @@ pg.equip_data_statistics = {
 		base = 17140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17145,
 			81145
@@ -19800,6 +25555,11 @@ pg.equip_data_statistics = {
 		base = 17140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17146,
 			81146
@@ -19812,6 +25572,11 @@ pg.equip_data_statistics = {
 		base = 17140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17147,
 			81147
@@ -19824,6 +25589,11 @@ pg.equip_data_statistics = {
 		base = 17140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17148,
 			81148
@@ -19836,6 +25606,11 @@ pg.equip_data_statistics = {
 		base = 17140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17149,
 			81149
@@ -19848,6 +25623,11 @@ pg.equip_data_statistics = {
 		base = 17140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17150,
 			81150
@@ -19886,7 +25666,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
 	},
 	[17201] = {
 		value_1 = "26/回",
@@ -19894,6 +25679,11 @@ pg.equip_data_statistics = {
 		base = 17200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17201,
 			81201
@@ -19906,6 +25696,11 @@ pg.equip_data_statistics = {
 		base = 17200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17202,
 			81202
@@ -19918,6 +25713,11 @@ pg.equip_data_statistics = {
 		base = 17200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17203,
 			81203
@@ -19956,7 +25756,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
 	},
 	[17221] = {
 		value_1 = "29/回",
@@ -19964,6 +25769,11 @@ pg.equip_data_statistics = {
 		base = 17220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17221,
 			81221
@@ -19976,6 +25786,11 @@ pg.equip_data_statistics = {
 		base = 17220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17222,
 			81222
@@ -19988,6 +25803,11 @@ pg.equip_data_statistics = {
 		base = 17220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17223,
 			81223
@@ -20000,6 +25820,11 @@ pg.equip_data_statistics = {
 		base = 17220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17224,
 			81224
@@ -20012,6 +25837,11 @@ pg.equip_data_statistics = {
 		base = 17220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17225,
 			81225
@@ -20024,6 +25854,11 @@ pg.equip_data_statistics = {
 		base = 17220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17226,
 			81226
@@ -20062,7 +25897,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
 	},
 	[17241] = {
 		value_1 = "31/回",
@@ -20070,6 +25910,11 @@ pg.equip_data_statistics = {
 		base = 17240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17241,
 			81241
@@ -20082,6 +25927,11 @@ pg.equip_data_statistics = {
 		base = 17240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17242,
 			81242
@@ -20094,6 +25944,11 @@ pg.equip_data_statistics = {
 		base = 17240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17243,
 			81243
@@ -20106,6 +25961,11 @@ pg.equip_data_statistics = {
 		base = 17240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17244,
 			81244
@@ -20118,6 +25978,11 @@ pg.equip_data_statistics = {
 		base = 17240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17245,
 			81245
@@ -20130,6 +25995,11 @@ pg.equip_data_statistics = {
 		base = 17240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17246,
 			81246
@@ -20142,6 +26012,11 @@ pg.equip_data_statistics = {
 		base = 17240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17247,
 			81247
@@ -20154,6 +26029,11 @@ pg.equip_data_statistics = {
 		base = 17240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17248,
 			81248
@@ -20166,6 +26046,11 @@ pg.equip_data_statistics = {
 		base = 17240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17249,
 			81249
@@ -20178,6 +26063,11 @@ pg.equip_data_statistics = {
 		base = 17240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17250,
 			81250
@@ -20218,7 +26108,12 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
 	},
 	[17261] = {
 		value_1 = "35/回",
@@ -20226,6 +26121,11 @@ pg.equip_data_statistics = {
 		base = 17260,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17261,
 			81261
@@ -20238,6 +26138,11 @@ pg.equip_data_statistics = {
 		base = 17260,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17262,
 			81262
@@ -20250,6 +26155,11 @@ pg.equip_data_statistics = {
 		base = 17260,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17263,
 			81263
@@ -20262,6 +26172,11 @@ pg.equip_data_statistics = {
 		base = 17260,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17264,
 			81264
@@ -20274,6 +26189,11 @@ pg.equip_data_statistics = {
 		base = 17260,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17265,
 			81265
@@ -20286,6 +26206,11 @@ pg.equip_data_statistics = {
 		base = 17260,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17266,
 			81266
@@ -20298,6 +26223,11 @@ pg.equip_data_statistics = {
 		base = 17260,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17267,
 			81267
@@ -20310,6 +26240,11 @@ pg.equip_data_statistics = {
 		base = 17260,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17268,
 			81268
@@ -20322,6 +26257,11 @@ pg.equip_data_statistics = {
 		base = 17260,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17269,
 			81269
@@ -20334,6 +26274,11 @@ pg.equip_data_statistics = {
 		base = 17260,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17270,
 			81270
@@ -20372,7 +26317,13 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		}
 	},
 	[17301] = {
 		value_1 = "35/回",
@@ -20380,6 +26331,12 @@ pg.equip_data_statistics = {
 		base = 17300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17301,
 			81301
@@ -20392,6 +26349,12 @@ pg.equip_data_statistics = {
 		base = 17300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17302,
 			81302
@@ -20404,6 +26367,12 @@ pg.equip_data_statistics = {
 		base = 17300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17303,
 			81303
@@ -20416,6 +26385,12 @@ pg.equip_data_statistics = {
 		base = 17300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17304,
 			81304
@@ -20428,6 +26403,12 @@ pg.equip_data_statistics = {
 		base = 17300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17305,
 			81305
@@ -20440,6 +26421,12 @@ pg.equip_data_statistics = {
 		base = 17300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17306,
 			81306
@@ -20478,7 +26465,13 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		}
 	},
 	[17321] = {
 		value_1 = "39/回",
@@ -20486,6 +26479,12 @@ pg.equip_data_statistics = {
 		base = 17320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17321,
 			81321
@@ -20498,6 +26497,12 @@ pg.equip_data_statistics = {
 		base = 17320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17322,
 			81322
@@ -20510,6 +26515,12 @@ pg.equip_data_statistics = {
 		base = 17320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17323,
 			81323
@@ -20522,6 +26533,12 @@ pg.equip_data_statistics = {
 		base = 17320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17324,
 			81324
@@ -20534,6 +26551,12 @@ pg.equip_data_statistics = {
 		base = 17320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17325,
 			81325
@@ -20546,6 +26569,12 @@ pg.equip_data_statistics = {
 		base = 17320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17326,
 			81326
@@ -20558,6 +26587,12 @@ pg.equip_data_statistics = {
 		base = 17320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17327,
 			81327
@@ -20570,6 +26605,12 @@ pg.equip_data_statistics = {
 		base = 17320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17328,
 			81328
@@ -20582,6 +26623,12 @@ pg.equip_data_statistics = {
 		base = 17320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17329,
 			81329
@@ -20594,6 +26641,12 @@ pg.equip_data_statistics = {
 		base = 17320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17330,
 			81330
@@ -20632,7 +26685,13 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		}
 	},
 	[17341] = {
 		value_1 = "42/回",
@@ -20640,6 +26699,12 @@ pg.equip_data_statistics = {
 		base = 17340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17341,
 			81341
@@ -20652,6 +26717,12 @@ pg.equip_data_statistics = {
 		base = 17340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17342,
 			81342
@@ -20664,6 +26735,12 @@ pg.equip_data_statistics = {
 		base = 17340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17343,
 			81343
@@ -20676,6 +26753,12 @@ pg.equip_data_statistics = {
 		base = 17340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17344,
 			81344
@@ -20688,6 +26771,12 @@ pg.equip_data_statistics = {
 		base = 17340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17345,
 			81345
@@ -20700,6 +26789,12 @@ pg.equip_data_statistics = {
 		base = 17340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17346,
 			81346
@@ -20712,6 +26807,12 @@ pg.equip_data_statistics = {
 		base = 17340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17347,
 			81347
@@ -20724,6 +26825,12 @@ pg.equip_data_statistics = {
 		base = 17340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17348,
 			81348
@@ -20736,6 +26843,12 @@ pg.equip_data_statistics = {
 		base = 17340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17349,
 			81349
@@ -20748,6 +26861,12 @@ pg.equip_data_statistics = {
 		base = 17340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT",
+			"F6F"
+		},
 		weapon_id = {
 			17350,
 			81350
@@ -20786,7 +26905,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
 	},
 	[17401] = {
 		value_1 = "33/回",
@@ -20794,6 +26918,11 @@ pg.equip_data_statistics = {
 		base = 17400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17401,
 			81401
@@ -20806,6 +26935,11 @@ pg.equip_data_statistics = {
 		base = 17400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17402,
 			81402
@@ -20818,6 +26952,11 @@ pg.equip_data_statistics = {
 		base = 17400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17403,
 			81403
@@ -20830,6 +26969,11 @@ pg.equip_data_statistics = {
 		base = 17400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17404,
 			81404
@@ -20842,6 +26986,11 @@ pg.equip_data_statistics = {
 		base = 17400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17405,
 			81405
@@ -20854,6 +27003,11 @@ pg.equip_data_statistics = {
 		base = 17400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17406,
 			81406
@@ -20866,6 +27020,11 @@ pg.equip_data_statistics = {
 		base = 17400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17407,
 			81407
@@ -20878,6 +27037,11 @@ pg.equip_data_statistics = {
 		base = 17400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17408,
 			81408
@@ -20890,6 +27054,11 @@ pg.equip_data_statistics = {
 		base = 17400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17409,
 			81409
@@ -20902,6 +27071,11 @@ pg.equip_data_statistics = {
 		base = 17400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			17410,
 			81410
@@ -20938,7 +27112,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
 	},
 	[18001] = {
 		value_1 = "104 x 2",
@@ -20946,6 +27125,11 @@ pg.equip_data_statistics = {
 		base = 18000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18001
 		},
@@ -20957,6 +27141,11 @@ pg.equip_data_statistics = {
 		base = 18000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18002
 		},
@@ -20968,6 +27157,11 @@ pg.equip_data_statistics = {
 		base = 18000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18003
 		},
@@ -21004,7 +27198,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
 	},
 	[18021] = {
 		value_1 = "112 x 2",
@@ -21012,6 +27211,11 @@ pg.equip_data_statistics = {
 		base = 18020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18021
 		},
@@ -21023,6 +27227,11 @@ pg.equip_data_statistics = {
 		base = 18020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18022
 		},
@@ -21034,6 +27243,11 @@ pg.equip_data_statistics = {
 		base = 18020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18023
 		},
@@ -21070,7 +27284,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
 	},
 	[18041] = {
 		value_1 = "126 x 2",
@@ -21078,6 +27297,11 @@ pg.equip_data_statistics = {
 		base = 18040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18041
 		},
@@ -21089,6 +27313,11 @@ pg.equip_data_statistics = {
 		base = 18040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18042
 		},
@@ -21100,6 +27329,11 @@ pg.equip_data_statistics = {
 		base = 18040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18043
 		},
@@ -21111,6 +27345,11 @@ pg.equip_data_statistics = {
 		base = 18040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18044
 		},
@@ -21122,6 +27361,11 @@ pg.equip_data_statistics = {
 		base = 18040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18045
 		},
@@ -21133,6 +27377,11 @@ pg.equip_data_statistics = {
 		base = 18040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18046
 		},
@@ -21171,7 +27420,12 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
 	},
 	[18061] = {
 		id = 18061,
@@ -21186,7 +27440,12 @@ pg.equip_data_statistics = {
 		weapon_id = {
 			18061
 		},
-		property_rate = {}
+		property_rate = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
 	},
 	[18062] = {
 		id = 18062,
@@ -21201,7 +27460,12 @@ pg.equip_data_statistics = {
 		weapon_id = {
 			18062
 		},
-		property_rate = {}
+		property_rate = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
 	},
 	[18063] = {
 		id = 18063,
@@ -21216,7 +27480,12 @@ pg.equip_data_statistics = {
 		weapon_id = {
 			18063
 		},
-		property_rate = {}
+		property_rate = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
 	},
 	[18064] = {
 		id = 18064,
@@ -21231,7 +27500,12 @@ pg.equip_data_statistics = {
 		weapon_id = {
 			18064
 		},
-		property_rate = {}
+		property_rate = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
 	},
 	[18065] = {
 		id = 18065,
@@ -21246,7 +27520,12 @@ pg.equip_data_statistics = {
 		weapon_id = {
 			18065
 		},
-		property_rate = {}
+		property_rate = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
 	},
 	[18066] = {
 		id = 18066,
@@ -21261,7 +27540,12 @@ pg.equip_data_statistics = {
 		weapon_id = {
 			18066
 		},
-		property_rate = {}
+		property_rate = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
 	},
 	[18067] = {
 		id = 18067,
@@ -21276,7 +27560,12 @@ pg.equip_data_statistics = {
 		weapon_id = {
 			18067
 		},
-		property_rate = {}
+		property_rate = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
 	},
 	[18068] = {
 		id = 18068,
@@ -21291,7 +27580,12 @@ pg.equip_data_statistics = {
 		weapon_id = {
 			18068
 		},
-		property_rate = {}
+		property_rate = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
 	},
 	[18069] = {
 		id = 18069,
@@ -21306,7 +27600,12 @@ pg.equip_data_statistics = {
 		weapon_id = {
 			18069
 		},
-		property_rate = {}
+		property_rate = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
 	},
 	[18070] = {
 		id = 18070,
@@ -21321,7 +27620,12 @@ pg.equip_data_statistics = {
 		weapon_id = {
 			18070
 		},
-		property_rate = {}
+		property_rate = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
 	},
 	[18100] = {
 		name = "TBFアベンジャー",
@@ -21354,7 +27658,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
 	},
 	[18101] = {
 		value_1 = "104 x 3",
@@ -21362,6 +27671,11 @@ pg.equip_data_statistics = {
 		base = 18100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18101
 		},
@@ -21373,6 +27687,11 @@ pg.equip_data_statistics = {
 		base = 18100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18102
 		},
@@ -21384,6 +27703,11 @@ pg.equip_data_statistics = {
 		base = 18100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18103
 		},
@@ -21420,7 +27744,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
 	},
 	[18121] = {
 		value_1 = "112 x 3",
@@ -21428,6 +27757,11 @@ pg.equip_data_statistics = {
 		base = 18120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18121
 		},
@@ -21439,6 +27773,11 @@ pg.equip_data_statistics = {
 		base = 18120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18122
 		},
@@ -21450,6 +27789,11 @@ pg.equip_data_statistics = {
 		base = 18120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18123
 		},
@@ -21461,6 +27805,11 @@ pg.equip_data_statistics = {
 		base = 18120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18124
 		},
@@ -21472,6 +27821,11 @@ pg.equip_data_statistics = {
 		base = 18120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18125
 		},
@@ -21483,6 +27837,11 @@ pg.equip_data_statistics = {
 		base = 18120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18126
 		},
@@ -21519,7 +27878,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
 	},
 	[18141] = {
 		value_1 = "126 x 3",
@@ -21527,6 +27891,11 @@ pg.equip_data_statistics = {
 		base = 18140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18141
 		},
@@ -21538,6 +27907,11 @@ pg.equip_data_statistics = {
 		base = 18140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18142
 		},
@@ -21549,6 +27923,11 @@ pg.equip_data_statistics = {
 		base = 18140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18143
 		},
@@ -21560,6 +27939,11 @@ pg.equip_data_statistics = {
 		base = 18140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18144
 		},
@@ -21571,6 +27955,11 @@ pg.equip_data_statistics = {
 		base = 18140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18145
 		},
@@ -21582,6 +27971,11 @@ pg.equip_data_statistics = {
 		base = 18140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18146
 		},
@@ -21593,6 +27987,11 @@ pg.equip_data_statistics = {
 		base = 18140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18147
 		},
@@ -21604,6 +28003,11 @@ pg.equip_data_statistics = {
 		base = 18140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18148
 		},
@@ -21615,6 +28019,11 @@ pg.equip_data_statistics = {
 		base = 18140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18149
 		},
@@ -21626,6 +28035,11 @@ pg.equip_data_statistics = {
 		base = 18140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			18150
 		},
@@ -21661,7 +28075,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
 	},
 	[19001] = {
 		value_1 = "102 x 3",
@@ -21669,6 +28088,11 @@ pg.equip_data_statistics = {
 		base = 19000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19001
 		},
@@ -21680,6 +28104,11 @@ pg.equip_data_statistics = {
 		base = 19000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19002
 		},
@@ -21691,6 +28120,11 @@ pg.equip_data_statistics = {
 		base = 19000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19003
 		},
@@ -21727,7 +28161,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
 	},
 	[19021] = {
 		value_1 = "112 x 3",
@@ -21735,6 +28174,11 @@ pg.equip_data_statistics = {
 		base = 19020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19021
 		},
@@ -21746,6 +28190,11 @@ pg.equip_data_statistics = {
 		base = 19020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19022
 		},
@@ -21757,6 +28206,11 @@ pg.equip_data_statistics = {
 		base = 19020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19023
 		},
@@ -21793,7 +28247,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
 	},
 	[19041] = {
 		value_1 = "122 x 3",
@@ -21801,6 +28260,11 @@ pg.equip_data_statistics = {
 		base = 19040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19041
 		},
@@ -21812,6 +28276,11 @@ pg.equip_data_statistics = {
 		base = 19040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19042
 		},
@@ -21823,6 +28292,11 @@ pg.equip_data_statistics = {
 		base = 19040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19043
 		},
@@ -21834,6 +28308,11 @@ pg.equip_data_statistics = {
 		base = 19040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19044
 		},
@@ -21845,6 +28324,11 @@ pg.equip_data_statistics = {
 		base = 19040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19045
 		},
@@ -21856,6 +28340,11 @@ pg.equip_data_statistics = {
 		base = 19040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19046
 		},
@@ -21894,7 +28383,12 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
 	},
 	[19061] = {
 		value_1 = "130 x 3",
@@ -21902,6 +28396,11 @@ pg.equip_data_statistics = {
 		base = 19060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19061
 		},
@@ -21913,6 +28412,11 @@ pg.equip_data_statistics = {
 		base = 19060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19062
 		},
@@ -21924,6 +28428,11 @@ pg.equip_data_statistics = {
 		base = 19060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19063
 		},
@@ -21935,6 +28444,11 @@ pg.equip_data_statistics = {
 		base = 19060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19064
 		},
@@ -21946,6 +28460,11 @@ pg.equip_data_statistics = {
 		base = 19060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19065
 		},
@@ -21957,6 +28476,11 @@ pg.equip_data_statistics = {
 		base = 19060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19066
 		},
@@ -21968,6 +28492,11 @@ pg.equip_data_statistics = {
 		base = 19060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19067
 		},
@@ -21979,6 +28508,11 @@ pg.equip_data_statistics = {
 		base = 19060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19068
 		},
@@ -21990,6 +28524,11 @@ pg.equip_data_statistics = {
 		base = 19060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19069
 		},
@@ -22001,6 +28540,11 @@ pg.equip_data_statistics = {
 		base = 19060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19070
 		},
@@ -22037,7 +28581,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
 	},
 	[19101] = {
 		value_1 = "94 x 3",
@@ -22045,6 +28594,11 @@ pg.equip_data_statistics = {
 		base = 19100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19101
 		},
@@ -22056,6 +28610,11 @@ pg.equip_data_statistics = {
 		base = 19100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19102
 		},
@@ -22067,6 +28626,11 @@ pg.equip_data_statistics = {
 		base = 19100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19103
 		},
@@ -22103,7 +28667,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
 	},
 	[19121] = {
 		value_1 = "105 x 3",
@@ -22111,6 +28680,11 @@ pg.equip_data_statistics = {
 		base = 19120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19121
 		},
@@ -22122,6 +28696,11 @@ pg.equip_data_statistics = {
 		base = 19120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19122
 		},
@@ -22133,6 +28712,11 @@ pg.equip_data_statistics = {
 		base = 19120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19123
 		},
@@ -22144,6 +28728,11 @@ pg.equip_data_statistics = {
 		base = 19120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19124
 		},
@@ -22155,6 +28744,11 @@ pg.equip_data_statistics = {
 		base = 19120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19125
 		},
@@ -22166,6 +28760,11 @@ pg.equip_data_statistics = {
 		base = 19120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19126
 		},
@@ -22202,7 +28801,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
 	},
 	[19141] = {
 		value_1 = "114 x 3",
@@ -22210,6 +28814,11 @@ pg.equip_data_statistics = {
 		base = 19140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19141
 		},
@@ -22221,6 +28830,11 @@ pg.equip_data_statistics = {
 		base = 19140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19142
 		},
@@ -22232,6 +28846,11 @@ pg.equip_data_statistics = {
 		base = 19140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19143
 		},
@@ -22243,6 +28862,11 @@ pg.equip_data_statistics = {
 		base = 19140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19144
 		},
@@ -22254,6 +28878,11 @@ pg.equip_data_statistics = {
 		base = 19140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19145
 		},
@@ -22265,6 +28894,11 @@ pg.equip_data_statistics = {
 		base = 19140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19146
 		},
@@ -22276,6 +28910,11 @@ pg.equip_data_statistics = {
 		base = 19140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19147
 		},
@@ -22287,6 +28926,11 @@ pg.equip_data_statistics = {
 		base = 19140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19148
 		},
@@ -22298,6 +28942,11 @@ pg.equip_data_statistics = {
 		base = 19140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19149
 		},
@@ -22309,6 +28958,11 @@ pg.equip_data_statistics = {
 		base = 19140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19150
 		},
@@ -22345,7 +28999,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
 	},
 	[19201] = {
 		value_1 = "176 x 2",
@@ -22353,6 +29012,11 @@ pg.equip_data_statistics = {
 		base = 19200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19201
 		},
@@ -22364,6 +29028,11 @@ pg.equip_data_statistics = {
 		base = 19200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19202
 		},
@@ -22375,6 +29044,11 @@ pg.equip_data_statistics = {
 		base = 19200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19203
 		},
@@ -22386,6 +29060,11 @@ pg.equip_data_statistics = {
 		base = 19200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19204
 		},
@@ -22397,6 +29076,11 @@ pg.equip_data_statistics = {
 		base = 19200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19205
 		},
@@ -22408,6 +29092,11 @@ pg.equip_data_statistics = {
 		base = 19200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19206
 		},
@@ -22444,7 +29133,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
 	},
 	[19221] = {
 		value_1 = "191 x 2",
@@ -22452,6 +29146,11 @@ pg.equip_data_statistics = {
 		base = 19220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19221
 		},
@@ -22463,6 +29162,11 @@ pg.equip_data_statistics = {
 		base = 19220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19222
 		},
@@ -22474,6 +29178,11 @@ pg.equip_data_statistics = {
 		base = 19220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19223
 		},
@@ -22485,6 +29194,11 @@ pg.equip_data_statistics = {
 		base = 19220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19224
 		},
@@ -22496,6 +29210,11 @@ pg.equip_data_statistics = {
 		base = 19220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19225
 		},
@@ -22507,6 +29226,11 @@ pg.equip_data_statistics = {
 		base = 19220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19226
 		},
@@ -22518,6 +29242,11 @@ pg.equip_data_statistics = {
 		base = 19220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19227
 		},
@@ -22529,6 +29258,11 @@ pg.equip_data_statistics = {
 		base = 19220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19228
 		},
@@ -22540,6 +29274,11 @@ pg.equip_data_statistics = {
 		base = 19220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19229
 		},
@@ -22551,6 +29290,11 @@ pg.equip_data_statistics = {
 		base = 19220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19230
 		},
@@ -22587,7 +29331,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
 	},
 	[19241] = {
 		value_1 = "209 x 2",
@@ -22595,6 +29344,11 @@ pg.equip_data_statistics = {
 		base = 19240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19241
 		},
@@ -22606,6 +29360,11 @@ pg.equip_data_statistics = {
 		base = 19240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19242
 		},
@@ -22617,6 +29376,11 @@ pg.equip_data_statistics = {
 		base = 19240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19243
 		},
@@ -22628,6 +29392,11 @@ pg.equip_data_statistics = {
 		base = 19240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19244
 		},
@@ -22639,6 +29408,11 @@ pg.equip_data_statistics = {
 		base = 19240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19245
 		},
@@ -22650,6 +29424,11 @@ pg.equip_data_statistics = {
 		base = 19240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19246
 		},
@@ -22661,6 +29440,11 @@ pg.equip_data_statistics = {
 		base = 19240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19247
 		},
@@ -22672,6 +29456,11 @@ pg.equip_data_statistics = {
 		base = 19240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19248
 		},
@@ -22683,6 +29472,11 @@ pg.equip_data_statistics = {
 		base = 19240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19249
 		},
@@ -22694,6 +29488,11 @@ pg.equip_data_statistics = {
 		base = 19240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			19250
 		},
@@ -22736,7 +29535,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
 	},
 	[21001] = {
 		value_1 = "3 x 1",
@@ -22744,6 +29548,11 @@ pg.equip_data_statistics = {
 		base = 21000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21001
 		},
@@ -22755,6 +29564,11 @@ pg.equip_data_statistics = {
 		base = 21000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21002
 		},
@@ -22766,6 +29580,11 @@ pg.equip_data_statistics = {
 		base = 21000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21003
 		},
@@ -22809,7 +29628,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
 	},
 	[21021] = {
 		value_1 = "3 x 1",
@@ -22817,6 +29641,11 @@ pg.equip_data_statistics = {
 		base = 21020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21021
 		},
@@ -22828,6 +29657,11 @@ pg.equip_data_statistics = {
 		base = 21020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21022
 		},
@@ -22839,6 +29673,11 @@ pg.equip_data_statistics = {
 		base = 21020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21023
 		},
@@ -22882,7 +29721,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
 	},
 	[21041] = {
 		value_1 = "3 x 1",
@@ -22890,6 +29734,11 @@ pg.equip_data_statistics = {
 		base = 21040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21041
 		},
@@ -22901,6 +29750,11 @@ pg.equip_data_statistics = {
 		base = 21040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21042
 		},
@@ -22912,6 +29766,11 @@ pg.equip_data_statistics = {
 		base = 21040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21043
 		},
@@ -22923,6 +29782,11 @@ pg.equip_data_statistics = {
 		base = 21040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21044
 		},
@@ -22934,6 +29798,11 @@ pg.equip_data_statistics = {
 		base = 21040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21045
 		},
@@ -22945,6 +29814,11 @@ pg.equip_data_statistics = {
 		base = 21040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21046
 		},
@@ -22987,7 +29861,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
 	},
 	[21101] = {
 		value_1 = "3 x 2",
@@ -22995,6 +29874,11 @@ pg.equip_data_statistics = {
 		base = 21100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21101
 		},
@@ -23006,6 +29890,11 @@ pg.equip_data_statistics = {
 		base = 21100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21102
 		},
@@ -23017,6 +29906,11 @@ pg.equip_data_statistics = {
 		base = 21100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21103
 		},
@@ -23060,7 +29954,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
 	},
 	[21121] = {
 		value_1 = "3 x 2",
@@ -23068,6 +29967,11 @@ pg.equip_data_statistics = {
 		base = 21120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21121
 		},
@@ -23079,6 +29983,11 @@ pg.equip_data_statistics = {
 		base = 21120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21122
 		},
@@ -23090,6 +29999,11 @@ pg.equip_data_statistics = {
 		base = 21120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21123
 		},
@@ -23133,7 +30047,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
 	},
 	[21141] = {
 		value_1 = "3 x 2",
@@ -23141,6 +30060,11 @@ pg.equip_data_statistics = {
 		base = 21140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21141
 		},
@@ -23152,6 +30076,11 @@ pg.equip_data_statistics = {
 		base = 21140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21142
 		},
@@ -23163,6 +30092,11 @@ pg.equip_data_statistics = {
 		base = 21140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21143
 		},
@@ -23174,6 +30108,11 @@ pg.equip_data_statistics = {
 		base = 21140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21144
 		},
@@ -23185,6 +30124,11 @@ pg.equip_data_statistics = {
 		base = 21140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21145
 		},
@@ -23196,6 +30140,11 @@ pg.equip_data_statistics = {
 		base = 21140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21146
 		},
@@ -23239,7 +30188,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
 	},
 	[21201] = {
 		value_1 = "3 x 3",
@@ -23247,6 +30201,11 @@ pg.equip_data_statistics = {
 		base = 21200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21201
 		},
@@ -23258,6 +30217,11 @@ pg.equip_data_statistics = {
 		base = 21200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21202
 		},
@@ -23269,6 +30233,11 @@ pg.equip_data_statistics = {
 		base = 21200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21203
 		},
@@ -23312,7 +30281,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
 	},
 	[21221] = {
 		value_1 = "3 x 3",
@@ -23320,6 +30294,11 @@ pg.equip_data_statistics = {
 		base = 21220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21221
 		},
@@ -23331,6 +30310,11 @@ pg.equip_data_statistics = {
 		base = 21220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21222
 		},
@@ -23342,6 +30326,11 @@ pg.equip_data_statistics = {
 		base = 21220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21223
 		},
@@ -23353,6 +30342,11 @@ pg.equip_data_statistics = {
 		base = 21220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21224
 		},
@@ -23364,6 +30358,11 @@ pg.equip_data_statistics = {
 		base = 21220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21225
 		},
@@ -23375,6 +30374,11 @@ pg.equip_data_statistics = {
 		base = 21220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21226
 		},
@@ -23418,7 +30422,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
 	},
 	[21241] = {
 		value_1 = "3 x 3",
@@ -23426,6 +30435,11 @@ pg.equip_data_statistics = {
 		base = 21240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21241
 		},
@@ -23437,6 +30451,11 @@ pg.equip_data_statistics = {
 		base = 21240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21242
 		},
@@ -23448,6 +30467,11 @@ pg.equip_data_statistics = {
 		base = 21240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21243
 		},
@@ -23459,6 +30483,11 @@ pg.equip_data_statistics = {
 		base = 21240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21244
 		},
@@ -23470,6 +30499,11 @@ pg.equip_data_statistics = {
 		base = 21240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21245
 		},
@@ -23481,6 +30515,11 @@ pg.equip_data_statistics = {
 		base = 21240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21246
 		},
@@ -23492,6 +30531,11 @@ pg.equip_data_statistics = {
 		base = 21240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21247
 		},
@@ -23503,6 +30547,11 @@ pg.equip_data_statistics = {
 		base = 21240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21248
 		},
@@ -23514,6 +30563,11 @@ pg.equip_data_statistics = {
 		base = 21240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21249
 		},
@@ -23525,6 +30579,11 @@ pg.equip_data_statistics = {
 		base = 21240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21250
 		},
@@ -23567,7 +30626,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
 	},
 	[21301] = {
 		value_1 = "4 x 1",
@@ -23575,6 +30639,11 @@ pg.equip_data_statistics = {
 		base = 21300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21301
 		},
@@ -23586,6 +30655,11 @@ pg.equip_data_statistics = {
 		base = 21300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21302
 		},
@@ -23597,6 +30671,11 @@ pg.equip_data_statistics = {
 		base = 21300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21303
 		},
@@ -23640,7 +30719,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
 	},
 	[21321] = {
 		value_1 = "4 x 1",
@@ -23648,6 +30732,11 @@ pg.equip_data_statistics = {
 		base = 21320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21321
 		},
@@ -23659,6 +30748,11 @@ pg.equip_data_statistics = {
 		base = 21320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21322
 		},
@@ -23670,6 +30764,11 @@ pg.equip_data_statistics = {
 		base = 21320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21323
 		},
@@ -23713,7 +30812,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
 	},
 	[21341] = {
 		value_1 = "4 x 1",
@@ -23721,6 +30825,11 @@ pg.equip_data_statistics = {
 		base = 21340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21341
 		},
@@ -23732,6 +30841,11 @@ pg.equip_data_statistics = {
 		base = 21340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21342
 		},
@@ -23743,6 +30857,11 @@ pg.equip_data_statistics = {
 		base = 21340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21343
 		},
@@ -23754,6 +30873,11 @@ pg.equip_data_statistics = {
 		base = 21340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21344
 		},
@@ -23765,6 +30889,11 @@ pg.equip_data_statistics = {
 		base = 21340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21345
 		},
@@ -23776,6 +30905,11 @@ pg.equip_data_statistics = {
 		base = 21340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21346
 		},
@@ -23819,7 +30953,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
 	},
 	[21401] = {
 		value_1 = "4 x 4",
@@ -23827,6 +30966,11 @@ pg.equip_data_statistics = {
 		base = 21400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21401
 		},
@@ -23838,6 +30982,11 @@ pg.equip_data_statistics = {
 		base = 21400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21402
 		},
@@ -23849,6 +30998,11 @@ pg.equip_data_statistics = {
 		base = 21400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21403
 		},
@@ -23892,7 +31046,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
 	},
 	[21421] = {
 		value_1 = "4 x 4",
@@ -23900,6 +31059,11 @@ pg.equip_data_statistics = {
 		base = 21420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21421
 		},
@@ -23911,6 +31075,11 @@ pg.equip_data_statistics = {
 		base = 21420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21422
 		},
@@ -23922,6 +31091,11 @@ pg.equip_data_statistics = {
 		base = 21420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21423
 		},
@@ -23933,6 +31107,11 @@ pg.equip_data_statistics = {
 		base = 21420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21424
 		},
@@ -23944,6 +31123,11 @@ pg.equip_data_statistics = {
 		base = 21420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21425
 		},
@@ -23955,6 +31139,11 @@ pg.equip_data_statistics = {
 		base = 21420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21426
 		},
@@ -23998,7 +31187,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
 	},
 	[21441] = {
 		value_1 = "4 x 4",
@@ -24006,6 +31200,11 @@ pg.equip_data_statistics = {
 		base = 21440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21441
 		},
@@ -24017,6 +31216,11 @@ pg.equip_data_statistics = {
 		base = 21440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21442
 		},
@@ -24028,6 +31232,11 @@ pg.equip_data_statistics = {
 		base = 21440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21443
 		},
@@ -24039,6 +31248,11 @@ pg.equip_data_statistics = {
 		base = 21440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21444
 		},
@@ -24050,6 +31264,11 @@ pg.equip_data_statistics = {
 		base = 21440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21445
 		},
@@ -24061,6 +31280,11 @@ pg.equip_data_statistics = {
 		base = 21440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21446
 		},
@@ -24072,6 +31296,11 @@ pg.equip_data_statistics = {
 		base = 21440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21447
 		},
@@ -24083,6 +31312,11 @@ pg.equip_data_statistics = {
 		base = 21440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21448
 		},
@@ -24094,6 +31328,11 @@ pg.equip_data_statistics = {
 		base = 21440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21449
 		},
@@ -24105,6 +31344,11 @@ pg.equip_data_statistics = {
 		base = 21440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21450
 		},
@@ -24130,8 +31374,8 @@ pg.equip_data_statistics = {
 		attribute_3 = "antiaircraft",
 		ammo = "通常弾",
 		is_siren = 0,
-		descrip = "0",
 		value_3 = 3,
+		descrip = "0",
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
 		property_rate = {},
@@ -24149,7 +31393,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
 	},
 	[21501] = {
 		value_1 = "4 x 2",
@@ -24157,6 +31406,11 @@ pg.equip_data_statistics = {
 		base = 21500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21501
 		},
@@ -24168,6 +31422,11 @@ pg.equip_data_statistics = {
 		base = 21500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21502
 		},
@@ -24179,6 +31438,11 @@ pg.equip_data_statistics = {
 		base = 21500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21503
 		},
@@ -24204,8 +31468,8 @@ pg.equip_data_statistics = {
 		attribute_3 = "antiaircraft",
 		ammo = "徹甲弾",
 		is_siren = 0,
-		descrip = "0",
 		value_3 = 7,
+		descrip = "0",
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
 		property_rate = {},
@@ -24223,7 +31487,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
 	},
 	[21521] = {
 		value_1 = "4 x 2",
@@ -24231,6 +31500,11 @@ pg.equip_data_statistics = {
 		base = 21520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21521
 		},
@@ -24242,6 +31516,11 @@ pg.equip_data_statistics = {
 		base = 21520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21522
 		},
@@ -24253,6 +31532,11 @@ pg.equip_data_statistics = {
 		base = 21520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21523
 		},
@@ -24264,6 +31548,11 @@ pg.equip_data_statistics = {
 		base = 21520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21524
 		},
@@ -24275,6 +31564,11 @@ pg.equip_data_statistics = {
 		base = 21520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21525
 		},
@@ -24286,6 +31580,11 @@ pg.equip_data_statistics = {
 		base = 21520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21526
 		},
@@ -24311,8 +31610,8 @@ pg.equip_data_statistics = {
 		attribute_3 = "antiaircraft",
 		ammo = "徹甲弾",
 		is_siren = 0,
-		descrip = "0",
 		value_3 = 15,
+		descrip = "0",
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
 		property_rate = {},
@@ -24330,7 +31629,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		}
 	},
 	[21541] = {
 		value_1 = "4 x 2",
@@ -24338,6 +31642,11 @@ pg.equip_data_statistics = {
 		base = 21540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21541
 		},
@@ -24349,6 +31658,11 @@ pg.equip_data_statistics = {
 		base = 21540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21542
 		},
@@ -24360,6 +31674,11 @@ pg.equip_data_statistics = {
 		base = 21540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21543
 		},
@@ -24371,6 +31690,11 @@ pg.equip_data_statistics = {
 		base = 21540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21544
 		},
@@ -24382,6 +31706,11 @@ pg.equip_data_statistics = {
 		base = 21540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21545
 		},
@@ -24393,6 +31722,11 @@ pg.equip_data_statistics = {
 		base = 21540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21546
 		},
@@ -24404,6 +31738,11 @@ pg.equip_data_statistics = {
 		base = 21540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21547
 		},
@@ -24415,6 +31754,11 @@ pg.equip_data_statistics = {
 		base = 21540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21548
 		},
@@ -24426,6 +31770,11 @@ pg.equip_data_statistics = {
 		base = 21540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21549
 		},
@@ -24437,6 +31786,11 @@ pg.equip_data_statistics = {
 		base = 21540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			21550
 		},
@@ -24478,7 +31832,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		}
 	},
 	[22001] = {
 		value_1 = "9 x 3",
@@ -24486,6 +31845,11 @@ pg.equip_data_statistics = {
 		base = 22000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22001
 		},
@@ -24497,6 +31861,11 @@ pg.equip_data_statistics = {
 		base = 22000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22002
 		},
@@ -24508,6 +31877,11 @@ pg.equip_data_statistics = {
 		base = 22000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22003
 		},
@@ -24550,7 +31924,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		}
 	},
 	[22021] = {
 		value_1 = "10 x 3",
@@ -24558,6 +31937,11 @@ pg.equip_data_statistics = {
 		base = 22020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22021
 		},
@@ -24569,6 +31953,11 @@ pg.equip_data_statistics = {
 		base = 22020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22022
 		},
@@ -24580,6 +31969,11 @@ pg.equip_data_statistics = {
 		base = 22020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22023
 		},
@@ -24622,7 +32016,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		}
 	},
 	[22041] = {
 		value_1 = "11 x 3",
@@ -24630,6 +32029,11 @@ pg.equip_data_statistics = {
 		base = 22040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22041
 		},
@@ -24641,6 +32045,11 @@ pg.equip_data_statistics = {
 		base = 22040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22042
 		},
@@ -24652,6 +32061,11 @@ pg.equip_data_statistics = {
 		base = 22040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22043
 		},
@@ -24663,6 +32077,11 @@ pg.equip_data_statistics = {
 		base = 22040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22044
 		},
@@ -24674,6 +32093,11 @@ pg.equip_data_statistics = {
 		base = 22040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22045
 		},
@@ -24685,6 +32109,11 @@ pg.equip_data_statistics = {
 		base = 22040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22046
 		},
@@ -24727,7 +32156,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		}
 	},
 	[22101] = {
 		value_1 = "9 x 4",
@@ -24735,6 +32169,11 @@ pg.equip_data_statistics = {
 		base = 22100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22101
 		},
@@ -24746,6 +32185,11 @@ pg.equip_data_statistics = {
 		base = 22100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22102
 		},
@@ -24757,6 +32201,11 @@ pg.equip_data_statistics = {
 		base = 22100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22103
 		},
@@ -24799,7 +32248,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		}
 	},
 	[22121] = {
 		value_1 = "10 x 4",
@@ -24807,6 +32261,11 @@ pg.equip_data_statistics = {
 		base = 22120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22121
 		},
@@ -24818,6 +32277,11 @@ pg.equip_data_statistics = {
 		base = 22120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22122
 		},
@@ -24829,6 +32293,11 @@ pg.equip_data_statistics = {
 		base = 22120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22123
 		},
@@ -24840,6 +32309,11 @@ pg.equip_data_statistics = {
 		base = 22120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22124
 		},
@@ -24851,6 +32325,11 @@ pg.equip_data_statistics = {
 		base = 22120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22125
 		},
@@ -24862,6 +32341,11 @@ pg.equip_data_statistics = {
 		base = 22120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22126
 		},
@@ -24904,7 +32388,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		}
 	},
 	[22141] = {
 		value_1 = "11 x 4",
@@ -24912,6 +32401,11 @@ pg.equip_data_statistics = {
 		base = 22140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22141
 		},
@@ -24923,6 +32417,11 @@ pg.equip_data_statistics = {
 		base = 22140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22142
 		},
@@ -24934,6 +32433,11 @@ pg.equip_data_statistics = {
 		base = 22140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22143
 		},
@@ -24945,6 +32449,11 @@ pg.equip_data_statistics = {
 		base = 22140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22144
 		},
@@ -24956,6 +32465,11 @@ pg.equip_data_statistics = {
 		base = 22140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22145
 		},
@@ -24967,6 +32481,11 @@ pg.equip_data_statistics = {
 		base = 22140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22146
 		},
@@ -24978,6 +32497,11 @@ pg.equip_data_statistics = {
 		base = 22140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22147
 		},
@@ -24989,6 +32513,11 @@ pg.equip_data_statistics = {
 		base = 22140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22148
 		},
@@ -25000,6 +32529,11 @@ pg.equip_data_statistics = {
 		base = 22140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22149
 		},
@@ -25011,6 +32545,11 @@ pg.equip_data_statistics = {
 		base = 22140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22150
 		},
@@ -25053,7 +32592,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		}
 	},
 	[22201] = {
 		value_1 = "9 x 6",
@@ -25061,6 +32605,11 @@ pg.equip_data_statistics = {
 		base = 22200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22201
 		},
@@ -25072,6 +32621,11 @@ pg.equip_data_statistics = {
 		base = 22200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22202
 		},
@@ -25083,6 +32637,11 @@ pg.equip_data_statistics = {
 		base = 22200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22203
 		},
@@ -25125,7 +32684,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		}
 	},
 	[22221] = {
 		value_1 = "10 x 6",
@@ -25133,6 +32697,11 @@ pg.equip_data_statistics = {
 		base = 22220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22221
 		},
@@ -25144,6 +32713,11 @@ pg.equip_data_statistics = {
 		base = 22220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22222
 		},
@@ -25155,6 +32729,11 @@ pg.equip_data_statistics = {
 		base = 22220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22223
 		},
@@ -25166,6 +32745,11 @@ pg.equip_data_statistics = {
 		base = 22220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22224
 		},
@@ -25177,6 +32761,11 @@ pg.equip_data_statistics = {
 		base = 22220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22225
 		},
@@ -25188,6 +32777,11 @@ pg.equip_data_statistics = {
 		base = 22220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22226
 		},
@@ -25230,7 +32824,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		}
 	},
 	[22241] = {
 		value_1 = "11 x 6",
@@ -25238,6 +32837,11 @@ pg.equip_data_statistics = {
 		base = 22240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22241
 		},
@@ -25249,6 +32853,11 @@ pg.equip_data_statistics = {
 		base = 22240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22242
 		},
@@ -25260,6 +32869,11 @@ pg.equip_data_statistics = {
 		base = 22240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22243
 		},
@@ -25271,6 +32885,11 @@ pg.equip_data_statistics = {
 		base = 22240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22244
 		},
@@ -25282,6 +32901,11 @@ pg.equip_data_statistics = {
 		base = 22240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22245
 		},
@@ -25293,6 +32917,11 @@ pg.equip_data_statistics = {
 		base = 22240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22246
 		},
@@ -25304,6 +32933,11 @@ pg.equip_data_statistics = {
 		base = 22240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22247
 		},
@@ -25315,6 +32949,11 @@ pg.equip_data_statistics = {
 		base = 22240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22248
 		},
@@ -25326,6 +32965,11 @@ pg.equip_data_statistics = {
 		base = 22240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22249
 		},
@@ -25337,6 +32981,11 @@ pg.equip_data_statistics = {
 		base = 22240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22250
 		},
@@ -25379,7 +33028,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		}
 	},
 	[22261] = {
 		value_1 = "12 x 3",
@@ -25387,6 +33041,11 @@ pg.equip_data_statistics = {
 		base = 22260,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22261
 		},
@@ -25398,6 +33057,11 @@ pg.equip_data_statistics = {
 		base = 22260,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22262
 		},
@@ -25409,6 +33073,11 @@ pg.equip_data_statistics = {
 		base = 22260,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22263
 		},
@@ -25420,6 +33089,11 @@ pg.equip_data_statistics = {
 		base = 22260,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22264
 		},
@@ -25431,6 +33105,11 @@ pg.equip_data_statistics = {
 		base = 22260,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22265
 		},
@@ -25442,6 +33121,11 @@ pg.equip_data_statistics = {
 		base = 22260,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22266
 		},
@@ -25453,6 +33137,11 @@ pg.equip_data_statistics = {
 		base = 22260,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22267
 		},
@@ -25464,6 +33153,11 @@ pg.equip_data_statistics = {
 		base = 22260,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22268
 		},
@@ -25475,6 +33169,11 @@ pg.equip_data_statistics = {
 		base = 22260,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22269
 		},
@@ -25486,6 +33185,11 @@ pg.equip_data_statistics = {
 		base = 22260,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			22270
 		},
@@ -25526,7 +33230,12 @@ pg.equip_data_statistics = {
 			3
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CA",
+			"MG"
+		}
 	},
 	[23001] = {
 		value_1 = "26 x 4",
@@ -25534,6 +33243,11 @@ pg.equip_data_statistics = {
 		base = 23000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			23001
 		},
@@ -25545,6 +33259,11 @@ pg.equip_data_statistics = {
 		base = 23000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			23002
 		},
@@ -25556,6 +33275,11 @@ pg.equip_data_statistics = {
 		base = 23000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			23003
 		},
@@ -25596,7 +33320,12 @@ pg.equip_data_statistics = {
 			3
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CA",
+			"MG"
+		}
 	},
 	[23021] = {
 		value_1 = "28 x 4",
@@ -25604,6 +33333,11 @@ pg.equip_data_statistics = {
 		base = 23020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			23021
 		},
@@ -25615,6 +33349,11 @@ pg.equip_data_statistics = {
 		base = 23020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			23022
 		},
@@ -25626,6 +33365,11 @@ pg.equip_data_statistics = {
 		base = 23020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			23023
 		},
@@ -25637,6 +33381,11 @@ pg.equip_data_statistics = {
 		base = 23020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			23024
 		},
@@ -25648,6 +33397,11 @@ pg.equip_data_statistics = {
 		base = 23020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			23025
 		},
@@ -25659,6 +33413,11 @@ pg.equip_data_statistics = {
 		base = 23020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			23026
 		},
@@ -25699,7 +33458,12 @@ pg.equip_data_statistics = {
 			3
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CA",
+			"MG"
+		}
 	},
 	[23041] = {
 		value_1 = "30 x 4",
@@ -25707,6 +33471,11 @@ pg.equip_data_statistics = {
 		base = 23040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			23041
 		},
@@ -25718,6 +33487,11 @@ pg.equip_data_statistics = {
 		base = 23040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			23042
 		},
@@ -25729,6 +33503,11 @@ pg.equip_data_statistics = {
 		base = 23040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			23043
 		},
@@ -25740,6 +33519,11 @@ pg.equip_data_statistics = {
 		base = 23040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			23044
 		},
@@ -25751,6 +33535,11 @@ pg.equip_data_statistics = {
 		base = 23040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			23045
 		},
@@ -25762,6 +33551,11 @@ pg.equip_data_statistics = {
 		base = 23040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			23046
 		},
@@ -25773,6 +33567,11 @@ pg.equip_data_statistics = {
 		base = 23040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			23047
 		},
@@ -25784,6 +33583,11 @@ pg.equip_data_statistics = {
 		base = 23040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			23048
 		},
@@ -25795,6 +33599,11 @@ pg.equip_data_statistics = {
 		base = 23040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			23049
 		},
@@ -25806,6 +33615,11 @@ pg.equip_data_statistics = {
 		base = 23040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			23050
 		},
@@ -25847,7 +33661,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		}
 	},
 	[24001] = {
 		value_1 = "46 x 4",
@@ -25855,6 +33674,11 @@ pg.equip_data_statistics = {
 		base = 24000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24001
 		},
@@ -25866,6 +33690,11 @@ pg.equip_data_statistics = {
 		base = 24000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24002
 		},
@@ -25877,6 +33706,11 @@ pg.equip_data_statistics = {
 		base = 24000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24003
 		},
@@ -25888,6 +33722,11 @@ pg.equip_data_statistics = {
 		base = 24000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24004
 		},
@@ -25899,6 +33738,11 @@ pg.equip_data_statistics = {
 		base = 24000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24005
 		},
@@ -25910,6 +33754,11 @@ pg.equip_data_statistics = {
 		base = 24000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24006
 		},
@@ -25951,7 +33800,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		}
 	},
 	[24021] = {
 		value_1 = "50 x 4",
@@ -25959,6 +33813,11 @@ pg.equip_data_statistics = {
 		base = 24020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24021
 		},
@@ -25970,6 +33829,11 @@ pg.equip_data_statistics = {
 		base = 24020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24022
 		},
@@ -25981,6 +33845,11 @@ pg.equip_data_statistics = {
 		base = 24020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24023
 		},
@@ -25992,6 +33861,11 @@ pg.equip_data_statistics = {
 		base = 24020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24024
 		},
@@ -26003,6 +33877,11 @@ pg.equip_data_statistics = {
 		base = 24020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24025
 		},
@@ -26014,6 +33893,11 @@ pg.equip_data_statistics = {
 		base = 24020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24026
 		},
@@ -26025,6 +33909,11 @@ pg.equip_data_statistics = {
 		base = 24020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24027
 		},
@@ -26036,6 +33925,11 @@ pg.equip_data_statistics = {
 		base = 24020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24028
 		},
@@ -26047,6 +33941,11 @@ pg.equip_data_statistics = {
 		base = 24020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24029
 		},
@@ -26058,6 +33957,11 @@ pg.equip_data_statistics = {
 		base = 24020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24030
 		},
@@ -26099,7 +34003,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		}
 	},
 	[24041] = {
 		value_1 = "55 x 4",
@@ -26107,6 +34016,11 @@ pg.equip_data_statistics = {
 		base = 24040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24041
 		},
@@ -26118,6 +34032,11 @@ pg.equip_data_statistics = {
 		base = 24040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24042
 		},
@@ -26129,6 +34048,11 @@ pg.equip_data_statistics = {
 		base = 24040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24043
 		},
@@ -26140,6 +34064,11 @@ pg.equip_data_statistics = {
 		base = 24040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24044
 		},
@@ -26151,6 +34080,11 @@ pg.equip_data_statistics = {
 		base = 24040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24045
 		},
@@ -26162,6 +34096,11 @@ pg.equip_data_statistics = {
 		base = 24040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24046
 		},
@@ -26173,6 +34112,11 @@ pg.equip_data_statistics = {
 		base = 24040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24047
 		},
@@ -26184,6 +34128,11 @@ pg.equip_data_statistics = {
 		base = 24040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24048
 		},
@@ -26195,6 +34144,11 @@ pg.equip_data_statistics = {
 		base = 24040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24049
 		},
@@ -26206,6 +34160,11 @@ pg.equip_data_statistics = {
 		base = 24040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24050
 		},
@@ -26247,7 +34206,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		}
 	},
 	[24101] = {
 		value_1 = "52 x 2",
@@ -26255,6 +34219,11 @@ pg.equip_data_statistics = {
 		base = 24100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24101
 		},
@@ -26266,6 +34235,11 @@ pg.equip_data_statistics = {
 		base = 24100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24102
 		},
@@ -26277,6 +34251,11 @@ pg.equip_data_statistics = {
 		base = 24100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24103
 		},
@@ -26318,7 +34297,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		}
 	},
 	[24121] = {
 		value_1 = "57 x 2",
@@ -26326,6 +34310,11 @@ pg.equip_data_statistics = {
 		base = 24120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24121
 		},
@@ -26337,6 +34326,11 @@ pg.equip_data_statistics = {
 		base = 24120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24122
 		},
@@ -26348,6 +34342,11 @@ pg.equip_data_statistics = {
 		base = 24120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24123
 		},
@@ -26359,6 +34358,11 @@ pg.equip_data_statistics = {
 		base = 24120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24124
 		},
@@ -26370,6 +34374,11 @@ pg.equip_data_statistics = {
 		base = 24120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24125
 		},
@@ -26381,6 +34390,11 @@ pg.equip_data_statistics = {
 		base = 24120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24126
 		},
@@ -26422,7 +34436,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		}
 	},
 	[24141] = {
 		value_1 = "62 x 2",
@@ -26430,6 +34449,11 @@ pg.equip_data_statistics = {
 		base = 24140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24141
 		},
@@ -26441,6 +34465,11 @@ pg.equip_data_statistics = {
 		base = 24140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24142
 		},
@@ -26452,6 +34481,11 @@ pg.equip_data_statistics = {
 		base = 24140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24143
 		},
@@ -26463,6 +34497,11 @@ pg.equip_data_statistics = {
 		base = 24140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24144
 		},
@@ -26474,6 +34513,11 @@ pg.equip_data_statistics = {
 		base = 24140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24145
 		},
@@ -26485,6 +34529,11 @@ pg.equip_data_statistics = {
 		base = 24140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24146
 		},
@@ -26496,6 +34545,11 @@ pg.equip_data_statistics = {
 		base = 24140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24147
 		},
@@ -26507,6 +34561,11 @@ pg.equip_data_statistics = {
 		base = 24140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24148
 		},
@@ -26518,6 +34577,11 @@ pg.equip_data_statistics = {
 		base = 24140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24149
 		},
@@ -26529,6 +34593,11 @@ pg.equip_data_statistics = {
 		base = 24140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24150
 		},
@@ -26570,7 +34639,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		}
 	},
 	[24161] = {
 		value_1 = "64 x 3",
@@ -26578,6 +34652,11 @@ pg.equip_data_statistics = {
 		base = 24160,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24161
 		},
@@ -26589,6 +34668,11 @@ pg.equip_data_statistics = {
 		base = 24160,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24162
 		},
@@ -26600,6 +34684,11 @@ pg.equip_data_statistics = {
 		base = 24160,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24163
 		},
@@ -26611,6 +34700,11 @@ pg.equip_data_statistics = {
 		base = 24160,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24164
 		},
@@ -26622,6 +34716,11 @@ pg.equip_data_statistics = {
 		base = 24160,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24165
 		},
@@ -26633,6 +34732,11 @@ pg.equip_data_statistics = {
 		base = 24160,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24166
 		},
@@ -26644,6 +34748,11 @@ pg.equip_data_statistics = {
 		base = 24160,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24167
 		},
@@ -26655,6 +34764,11 @@ pg.equip_data_statistics = {
 		base = 24160,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24168
 		},
@@ -26666,6 +34780,11 @@ pg.equip_data_statistics = {
 		base = 24160,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24169
 		},
@@ -26677,6 +34796,11 @@ pg.equip_data_statistics = {
 		base = 24160,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24170
 		},
@@ -26718,7 +34842,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		}
 	},
 	[24201] = {
 		value_1 = "56 x 3",
@@ -26726,6 +34855,11 @@ pg.equip_data_statistics = {
 		base = 24200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24201
 		},
@@ -26737,6 +34871,11 @@ pg.equip_data_statistics = {
 		base = 24200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24202
 		},
@@ -26748,6 +34887,11 @@ pg.equip_data_statistics = {
 		base = 24200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24203
 		},
@@ -26759,6 +34903,11 @@ pg.equip_data_statistics = {
 		base = 24200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24204
 		},
@@ -26770,6 +34919,11 @@ pg.equip_data_statistics = {
 		base = 24200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24205
 		},
@@ -26781,6 +34935,11 @@ pg.equip_data_statistics = {
 		base = 24200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24206
 		},
@@ -26822,7 +34981,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		}
 	},
 	[24221] = {
 		value_1 = "62 x 3",
@@ -26830,6 +34994,11 @@ pg.equip_data_statistics = {
 		base = 24220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24221
 		},
@@ -26841,6 +35010,11 @@ pg.equip_data_statistics = {
 		base = 24220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24222
 		},
@@ -26852,6 +35026,11 @@ pg.equip_data_statistics = {
 		base = 24220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24223
 		},
@@ -26863,6 +35042,11 @@ pg.equip_data_statistics = {
 		base = 24220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24224
 		},
@@ -26874,6 +35058,11 @@ pg.equip_data_statistics = {
 		base = 24220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24225
 		},
@@ -26885,6 +35074,11 @@ pg.equip_data_statistics = {
 		base = 24220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24226
 		},
@@ -26896,6 +35090,11 @@ pg.equip_data_statistics = {
 		base = 24220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24227
 		},
@@ -26907,6 +35106,11 @@ pg.equip_data_statistics = {
 		base = 24220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24228
 		},
@@ -26918,6 +35122,11 @@ pg.equip_data_statistics = {
 		base = 24220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24229
 		},
@@ -26929,6 +35138,11 @@ pg.equip_data_statistics = {
 		base = 24220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24230
 		},
@@ -26970,7 +35184,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		}
 	},
 	[24241] = {
 		value_1 = "68 x 3",
@@ -26978,6 +35197,11 @@ pg.equip_data_statistics = {
 		base = 24240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24241
 		},
@@ -26989,6 +35213,11 @@ pg.equip_data_statistics = {
 		base = 24240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24242
 		},
@@ -27000,6 +35229,11 @@ pg.equip_data_statistics = {
 		base = 24240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24243
 		},
@@ -27011,6 +35245,11 @@ pg.equip_data_statistics = {
 		base = 24240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24244
 		},
@@ -27022,6 +35261,11 @@ pg.equip_data_statistics = {
 		base = 24240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24245
 		},
@@ -27033,6 +35277,11 @@ pg.equip_data_statistics = {
 		base = 24240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24246
 		},
@@ -27044,6 +35293,11 @@ pg.equip_data_statistics = {
 		base = 24240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24247
 		},
@@ -27055,6 +35309,11 @@ pg.equip_data_statistics = {
 		base = 24240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24248
 		},
@@ -27066,6 +35325,11 @@ pg.equip_data_statistics = {
 		base = 24240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24249
 		},
@@ -27077,6 +35341,11 @@ pg.equip_data_statistics = {
 		base = 24240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24250
 		},
@@ -27118,7 +35387,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		}
 	},
 	[24341] = {
 		value_1 = "63 x 2",
@@ -27126,6 +35400,11 @@ pg.equip_data_statistics = {
 		base = 24340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24341
 		},
@@ -27137,6 +35416,11 @@ pg.equip_data_statistics = {
 		base = 24340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24342
 		},
@@ -27148,6 +35432,11 @@ pg.equip_data_statistics = {
 		base = 24340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24343
 		},
@@ -27159,6 +35448,11 @@ pg.equip_data_statistics = {
 		base = 24340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24344
 		},
@@ -27170,6 +35464,11 @@ pg.equip_data_statistics = {
 		base = 24340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24345
 		},
@@ -27181,6 +35480,11 @@ pg.equip_data_statistics = {
 		base = 24340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24346
 		},
@@ -27192,6 +35496,11 @@ pg.equip_data_statistics = {
 		base = 24340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24347
 		},
@@ -27203,6 +35512,11 @@ pg.equip_data_statistics = {
 		base = 24340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24348
 		},
@@ -27214,6 +35528,11 @@ pg.equip_data_statistics = {
 		base = 24340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24349
 		},
@@ -27225,6 +35544,11 @@ pg.equip_data_statistics = {
 		base = 24340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			24350
 		},
@@ -27260,7 +35584,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
 	},
 	[26001] = {
 		value_1 = "16/回",
@@ -27268,6 +35597,11 @@ pg.equip_data_statistics = {
 		base = 26000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26001
 		},
@@ -27279,6 +35613,11 @@ pg.equip_data_statistics = {
 		base = 26000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26002
 		},
@@ -27290,6 +35629,11 @@ pg.equip_data_statistics = {
 		base = 26000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26003
 		},
@@ -27326,7 +35670,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
 	},
 	[26021] = {
 		value_1 = "22/回",
@@ -27334,6 +35683,11 @@ pg.equip_data_statistics = {
 		base = 26020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26021
 		},
@@ -27345,6 +35699,11 @@ pg.equip_data_statistics = {
 		base = 26020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26022
 		},
@@ -27356,6 +35715,11 @@ pg.equip_data_statistics = {
 		base = 26020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26023
 		},
@@ -27392,7 +35756,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
 	},
 	[26041] = {
 		value_1 = "26/回",
@@ -27400,6 +35769,11 @@ pg.equip_data_statistics = {
 		base = 26040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26041
 		},
@@ -27411,6 +35785,11 @@ pg.equip_data_statistics = {
 		base = 26040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26042
 		},
@@ -27422,6 +35801,11 @@ pg.equip_data_statistics = {
 		base = 26040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26043
 		},
@@ -27433,6 +35817,11 @@ pg.equip_data_statistics = {
 		base = 26040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26044
 		},
@@ -27444,6 +35833,11 @@ pg.equip_data_statistics = {
 		base = 26040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26045
 		},
@@ -27455,6 +35849,11 @@ pg.equip_data_statistics = {
 		base = 26040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26046
 		},
@@ -27491,7 +35890,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
 	},
 	[26101] = {
 		value_1 = "31/回",
@@ -27499,6 +35903,11 @@ pg.equip_data_statistics = {
 		base = 26100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26101
 		},
@@ -27510,6 +35919,11 @@ pg.equip_data_statistics = {
 		base = 26100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26102
 		},
@@ -27521,6 +35935,11 @@ pg.equip_data_statistics = {
 		base = 26100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26103
 		},
@@ -27557,7 +35976,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
 	},
 	[26121] = {
 		value_1 = "35/回",
@@ -27565,6 +35989,11 @@ pg.equip_data_statistics = {
 		base = 26120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26121
 		},
@@ -27576,6 +36005,11 @@ pg.equip_data_statistics = {
 		base = 26120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26122
 		},
@@ -27587,6 +36021,11 @@ pg.equip_data_statistics = {
 		base = 26120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26123
 		},
@@ -27598,6 +36037,11 @@ pg.equip_data_statistics = {
 		base = 26120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26124
 		},
@@ -27609,6 +36053,11 @@ pg.equip_data_statistics = {
 		base = 26120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26125
 		},
@@ -27620,6 +36069,11 @@ pg.equip_data_statistics = {
 		base = 26120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26126
 		},
@@ -27656,7 +36110,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
 	},
 	[26141] = {
 		value_1 = "39/回",
@@ -27664,6 +36123,11 @@ pg.equip_data_statistics = {
 		base = 26140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26141
 		},
@@ -27675,6 +36139,11 @@ pg.equip_data_statistics = {
 		base = 26140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26142
 		},
@@ -27686,6 +36155,11 @@ pg.equip_data_statistics = {
 		base = 26140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26143
 		},
@@ -27697,6 +36171,11 @@ pg.equip_data_statistics = {
 		base = 26140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26144
 		},
@@ -27708,6 +36187,11 @@ pg.equip_data_statistics = {
 		base = 26140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26145
 		},
@@ -27719,6 +36203,11 @@ pg.equip_data_statistics = {
 		base = 26140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26146
 		},
@@ -27730,6 +36219,11 @@ pg.equip_data_statistics = {
 		base = 26140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26147
 		},
@@ -27741,6 +36235,11 @@ pg.equip_data_statistics = {
 		base = 26140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26148
 		},
@@ -27752,6 +36251,11 @@ pg.equip_data_statistics = {
 		base = 26140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26149
 		},
@@ -27763,6 +36267,11 @@ pg.equip_data_statistics = {
 		base = 26140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26150
 		},
@@ -27799,7 +36308,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
 	},
 	[26201] = {
 		value_1 = "48/回",
@@ -27807,6 +36321,11 @@ pg.equip_data_statistics = {
 		base = 26200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26201
 		},
@@ -27818,6 +36337,11 @@ pg.equip_data_statistics = {
 		base = 26200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26202
 		},
@@ -27829,6 +36353,11 @@ pg.equip_data_statistics = {
 		base = 26200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26203
 		},
@@ -27840,6 +36369,11 @@ pg.equip_data_statistics = {
 		base = 26200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26204
 		},
@@ -27851,6 +36385,11 @@ pg.equip_data_statistics = {
 		base = 26200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26205
 		},
@@ -27862,6 +36401,11 @@ pg.equip_data_statistics = {
 		base = 26200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26206
 		},
@@ -27898,7 +36442,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
 	},
 	[26221] = {
 		value_1 = "53/回",
@@ -27906,6 +36455,11 @@ pg.equip_data_statistics = {
 		base = 26220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26221
 		},
@@ -27917,6 +36471,11 @@ pg.equip_data_statistics = {
 		base = 26220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26222
 		},
@@ -27928,6 +36487,11 @@ pg.equip_data_statistics = {
 		base = 26220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26223
 		},
@@ -27939,6 +36503,11 @@ pg.equip_data_statistics = {
 		base = 26220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26224
 		},
@@ -27950,6 +36519,11 @@ pg.equip_data_statistics = {
 		base = 26220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26225
 		},
@@ -27961,6 +36535,11 @@ pg.equip_data_statistics = {
 		base = 26220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26226
 		},
@@ -27972,6 +36551,11 @@ pg.equip_data_statistics = {
 		base = 26220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26227
 		},
@@ -27983,6 +36567,11 @@ pg.equip_data_statistics = {
 		base = 26220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26228
 		},
@@ -27994,6 +36583,11 @@ pg.equip_data_statistics = {
 		base = 26220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26229
 		},
@@ -28005,6 +36599,11 @@ pg.equip_data_statistics = {
 		base = 26220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26230
 		},
@@ -28041,7 +36640,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
 	},
 	[26241] = {
 		value_1 = "57/回",
@@ -28049,6 +36653,11 @@ pg.equip_data_statistics = {
 		base = 26240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26241
 		},
@@ -28060,6 +36669,11 @@ pg.equip_data_statistics = {
 		base = 26240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26242
 		},
@@ -28071,6 +36685,11 @@ pg.equip_data_statistics = {
 		base = 26240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26243
 		},
@@ -28082,6 +36701,11 @@ pg.equip_data_statistics = {
 		base = 26240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26244
 		},
@@ -28093,6 +36717,11 @@ pg.equip_data_statistics = {
 		base = 26240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26245
 		},
@@ -28104,6 +36733,11 @@ pg.equip_data_statistics = {
 		base = 26240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26246
 		},
@@ -28115,6 +36749,11 @@ pg.equip_data_statistics = {
 		base = 26240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26247
 		},
@@ -28126,6 +36765,11 @@ pg.equip_data_statistics = {
 		base = 26240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26248
 		},
@@ -28137,6 +36781,11 @@ pg.equip_data_statistics = {
 		base = 26240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26249
 		},
@@ -28148,6 +36797,11 @@ pg.equip_data_statistics = {
 		base = 26240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26250
 		},
@@ -28184,7 +36838,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
 	},
 	[26301] = {
 		value_1 = "18/回",
@@ -28192,6 +36851,11 @@ pg.equip_data_statistics = {
 		base = 26300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26301
 		},
@@ -28203,6 +36867,11 @@ pg.equip_data_statistics = {
 		base = 26300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26302
 		},
@@ -28214,6 +36883,11 @@ pg.equip_data_statistics = {
 		base = 26300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26303
 		},
@@ -28250,7 +36924,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
 	},
 	[26321] = {
 		value_1 = "21/回",
@@ -28258,6 +36937,11 @@ pg.equip_data_statistics = {
 		base = 26320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26321
 		},
@@ -28269,6 +36953,11 @@ pg.equip_data_statistics = {
 		base = 26320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26322
 		},
@@ -28280,6 +36969,11 @@ pg.equip_data_statistics = {
 		base = 26320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26323
 		},
@@ -28291,6 +36985,11 @@ pg.equip_data_statistics = {
 		base = 26320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26324
 		},
@@ -28302,6 +37001,11 @@ pg.equip_data_statistics = {
 		base = 26320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26325
 		},
@@ -28313,6 +37017,11 @@ pg.equip_data_statistics = {
 		base = 26320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26326
 		},
@@ -28349,7 +37058,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
 	},
 	[26341] = {
 		value_1 = "25/回",
@@ -28357,6 +37071,11 @@ pg.equip_data_statistics = {
 		base = 26340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26341
 		},
@@ -28368,6 +37087,11 @@ pg.equip_data_statistics = {
 		base = 26340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26342
 		},
@@ -28379,6 +37103,11 @@ pg.equip_data_statistics = {
 		base = 26340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26343
 		},
@@ -28390,6 +37119,11 @@ pg.equip_data_statistics = {
 		base = 26340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26344
 		},
@@ -28401,6 +37135,11 @@ pg.equip_data_statistics = {
 		base = 26340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26345
 		},
@@ -28412,6 +37151,11 @@ pg.equip_data_statistics = {
 		base = 26340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26346
 		},
@@ -28423,6 +37167,11 @@ pg.equip_data_statistics = {
 		base = 26340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26347
 		},
@@ -28434,6 +37183,11 @@ pg.equip_data_statistics = {
 		base = 26340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26348
 		},
@@ -28445,6 +37199,11 @@ pg.equip_data_statistics = {
 		base = 26340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26349
 		},
@@ -28456,6 +37215,11 @@ pg.equip_data_statistics = {
 		base = 26340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26350
 		},
@@ -28492,7 +37256,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
 	},
 	[26401] = {
 		value_1 = "22/回",
@@ -28500,6 +37269,11 @@ pg.equip_data_statistics = {
 		base = 26400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26401
 		},
@@ -28511,6 +37285,11 @@ pg.equip_data_statistics = {
 		base = 26400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26402
 		},
@@ -28522,6 +37301,11 @@ pg.equip_data_statistics = {
 		base = 26400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26403
 		},
@@ -28558,7 +37342,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
 	},
 	[26421] = {
 		value_1 = "24/回",
@@ -28566,6 +37355,11 @@ pg.equip_data_statistics = {
 		base = 26420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26421
 		},
@@ -28577,6 +37371,11 @@ pg.equip_data_statistics = {
 		base = 26420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26422
 		},
@@ -28588,6 +37387,11 @@ pg.equip_data_statistics = {
 		base = 26420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26423
 		},
@@ -28599,6 +37403,11 @@ pg.equip_data_statistics = {
 		base = 26420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26424
 		},
@@ -28610,6 +37419,11 @@ pg.equip_data_statistics = {
 		base = 26420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26425
 		},
@@ -28621,6 +37435,11 @@ pg.equip_data_statistics = {
 		base = 26420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26426
 		},
@@ -28657,7 +37476,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
 	},
 	[26441] = {
 		value_1 = "28/回",
@@ -28665,6 +37489,11 @@ pg.equip_data_statistics = {
 		base = 26440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26441
 		},
@@ -28676,6 +37505,11 @@ pg.equip_data_statistics = {
 		base = 26440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26442
 		},
@@ -28687,6 +37521,11 @@ pg.equip_data_statistics = {
 		base = 26440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26443
 		},
@@ -28698,6 +37537,11 @@ pg.equip_data_statistics = {
 		base = 26440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26444
 		},
@@ -28709,6 +37553,11 @@ pg.equip_data_statistics = {
 		base = 26440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26445
 		},
@@ -28720,6 +37569,11 @@ pg.equip_data_statistics = {
 		base = 26440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26446
 		},
@@ -28731,6 +37585,11 @@ pg.equip_data_statistics = {
 		base = 26440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26447
 		},
@@ -28742,6 +37601,11 @@ pg.equip_data_statistics = {
 		base = 26440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26448
 		},
@@ -28753,6 +37617,11 @@ pg.equip_data_statistics = {
 		base = 26440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26449
 		},
@@ -28764,6 +37633,11 @@ pg.equip_data_statistics = {
 		base = 26440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26450
 		},
@@ -28800,7 +37674,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
 	},
 	[26501] = {
 		value_1 = "44/回",
@@ -28808,6 +37687,11 @@ pg.equip_data_statistics = {
 		base = 26500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26501
 		},
@@ -28819,6 +37703,11 @@ pg.equip_data_statistics = {
 		base = 26500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26502
 		},
@@ -28830,6 +37719,11 @@ pg.equip_data_statistics = {
 		base = 26500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26503
 		},
@@ -28841,6 +37735,11 @@ pg.equip_data_statistics = {
 		base = 26500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26504
 		},
@@ -28852,6 +37751,11 @@ pg.equip_data_statistics = {
 		base = 26500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26505
 		},
@@ -28863,6 +37767,11 @@ pg.equip_data_statistics = {
 		base = 26500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26506
 		},
@@ -28899,7 +37808,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
 	},
 	[26521] = {
 		value_1 = "51/回",
@@ -28907,6 +37821,11 @@ pg.equip_data_statistics = {
 		base = 26520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26521
 		},
@@ -28918,6 +37837,11 @@ pg.equip_data_statistics = {
 		base = 26520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26522
 		},
@@ -28929,6 +37853,11 @@ pg.equip_data_statistics = {
 		base = 26520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26523
 		},
@@ -28940,6 +37869,11 @@ pg.equip_data_statistics = {
 		base = 26520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26524
 		},
@@ -28951,6 +37885,11 @@ pg.equip_data_statistics = {
 		base = 26520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26525
 		},
@@ -28962,6 +37901,11 @@ pg.equip_data_statistics = {
 		base = 26520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26526
 		},
@@ -28973,6 +37917,11 @@ pg.equip_data_statistics = {
 		base = 26520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26527
 		},
@@ -28984,6 +37933,11 @@ pg.equip_data_statistics = {
 		base = 26520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26528
 		},
@@ -28995,6 +37949,11 @@ pg.equip_data_statistics = {
 		base = 26520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26529
 		},
@@ -29006,6 +37965,11 @@ pg.equip_data_statistics = {
 		base = 26520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26530
 		},
@@ -29042,7 +38006,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
 	},
 	[26541] = {
 		value_1 = "59/回",
@@ -29050,6 +38019,11 @@ pg.equip_data_statistics = {
 		base = 26540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26541
 		},
@@ -29061,6 +38035,11 @@ pg.equip_data_statistics = {
 		base = 26540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26542
 		},
@@ -29072,6 +38051,11 @@ pg.equip_data_statistics = {
 		base = 26540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26543
 		},
@@ -29083,6 +38067,11 @@ pg.equip_data_statistics = {
 		base = 26540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26544
 		},
@@ -29094,6 +38083,11 @@ pg.equip_data_statistics = {
 		base = 26540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26545
 		},
@@ -29105,6 +38099,11 @@ pg.equip_data_statistics = {
 		base = 26540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26546
 		},
@@ -29116,6 +38115,11 @@ pg.equip_data_statistics = {
 		base = 26540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26547
 		},
@@ -29127,6 +38131,11 @@ pg.equip_data_statistics = {
 		base = 26540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26548
 		},
@@ -29138,6 +38147,11 @@ pg.equip_data_statistics = {
 		base = 26540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26549
 		},
@@ -29149,6 +38163,11 @@ pg.equip_data_statistics = {
 		base = 26540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26550
 		},
@@ -29174,8 +38193,8 @@ pg.equip_data_statistics = {
 		attribute_3 = "hit",
 		ammo = "通常弾",
 		is_siren = 0,
-		descrip = "0",
 		value_3 = 10,
+		descrip = "0",
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
 		property_rate = {},
@@ -29186,7 +38205,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
 	},
 	[26601] = {
 		value_1 = "43/回",
@@ -29194,6 +38218,11 @@ pg.equip_data_statistics = {
 		base = 26600,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26601
 		},
@@ -29205,6 +38234,11 @@ pg.equip_data_statistics = {
 		base = 26600,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26602
 		},
@@ -29216,6 +38250,11 @@ pg.equip_data_statistics = {
 		base = 26600,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26603
 		},
@@ -29227,6 +38266,11 @@ pg.equip_data_statistics = {
 		base = 26600,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26604
 		},
@@ -29238,6 +38282,11 @@ pg.equip_data_statistics = {
 		base = 26600,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26605
 		},
@@ -29249,6 +38298,11 @@ pg.equip_data_statistics = {
 		base = 26600,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26606
 		},
@@ -29260,6 +38314,11 @@ pg.equip_data_statistics = {
 		base = 26600,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26607
 		},
@@ -29271,6 +38330,11 @@ pg.equip_data_statistics = {
 		base = 26600,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26608
 		},
@@ -29282,6 +38346,11 @@ pg.equip_data_statistics = {
 		base = 26600,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26609
 		},
@@ -29293,6 +38362,11 @@ pg.equip_data_statistics = {
 		base = 26600,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26610
 		},
@@ -29318,8 +38392,8 @@ pg.equip_data_statistics = {
 		attribute_3 = "hit",
 		ammo = "通常弾",
 		is_siren = 0,
-		descrip = "0",
 		value_3 = 5,
+		descrip = "0",
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
 		property_rate = {},
@@ -29330,7 +38404,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
 	},
 	[26621] = {
 		value_1 = "43/回",
@@ -29338,6 +38417,11 @@ pg.equip_data_statistics = {
 		base = 26620,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26621
 		},
@@ -29349,6 +38433,11 @@ pg.equip_data_statistics = {
 		base = 26620,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26622
 		},
@@ -29360,6 +38449,11 @@ pg.equip_data_statistics = {
 		base = 26620,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26623
 		},
@@ -29371,6 +38465,11 @@ pg.equip_data_statistics = {
 		base = 26620,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26624
 		},
@@ -29382,6 +38481,11 @@ pg.equip_data_statistics = {
 		base = 26620,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26625
 		},
@@ -29393,6 +38497,11 @@ pg.equip_data_statistics = {
 		base = 26620,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26626
 		},
@@ -29404,6 +38513,11 @@ pg.equip_data_statistics = {
 		base = 26620,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26627
 		},
@@ -29415,6 +38529,11 @@ pg.equip_data_statistics = {
 		base = 26620,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26628
 		},
@@ -29426,6 +38545,11 @@ pg.equip_data_statistics = {
 		base = 26620,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26629
 		},
@@ -29437,6 +38561,11 @@ pg.equip_data_statistics = {
 		base = 26620,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			26630
 		},
@@ -29474,7 +38603,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
 	},
 	[27001] = {
 		value_1 = "29/回",
@@ -29482,6 +38616,11 @@ pg.equip_data_statistics = {
 		base = 27000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27001,
 			82001
@@ -29494,6 +38633,11 @@ pg.equip_data_statistics = {
 		base = 27000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27002,
 			82002
@@ -29506,6 +38650,11 @@ pg.equip_data_statistics = {
 		base = 27000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27003,
 			82003
@@ -29544,7 +38693,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
 	},
 	[27021] = {
 		value_1 = "33/回",
@@ -29552,6 +38706,11 @@ pg.equip_data_statistics = {
 		base = 27020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27021,
 			82021
@@ -29564,6 +38723,11 @@ pg.equip_data_statistics = {
 		base = 27020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27022,
 			82022
@@ -29576,6 +38740,11 @@ pg.equip_data_statistics = {
 		base = 27020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27023,
 			82023
@@ -29588,6 +38757,11 @@ pg.equip_data_statistics = {
 		base = 27020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27024,
 			82024
@@ -29600,6 +38774,11 @@ pg.equip_data_statistics = {
 		base = 27020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27025,
 			82025
@@ -29612,6 +38791,11 @@ pg.equip_data_statistics = {
 		base = 27020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27026,
 			82026
@@ -29650,7 +38834,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
 	},
 	[27041] = {
 		value_1 = "36/回",
@@ -29658,6 +38847,11 @@ pg.equip_data_statistics = {
 		base = 27040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27041,
 			82041
@@ -29670,6 +38864,11 @@ pg.equip_data_statistics = {
 		base = 27040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27042,
 			82042
@@ -29682,6 +38881,11 @@ pg.equip_data_statistics = {
 		base = 27040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27043,
 			82043
@@ -29694,6 +38898,11 @@ pg.equip_data_statistics = {
 		base = 27040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27044,
 			82044
@@ -29706,6 +38915,11 @@ pg.equip_data_statistics = {
 		base = 27040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27045,
 			82045
@@ -29718,6 +38932,11 @@ pg.equip_data_statistics = {
 		base = 27040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27046,
 			82046
@@ -29730,6 +38949,11 @@ pg.equip_data_statistics = {
 		base = 27040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27047,
 			82047
@@ -29742,6 +38966,11 @@ pg.equip_data_statistics = {
 		base = 27040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27048,
 			82048
@@ -29754,6 +38983,11 @@ pg.equip_data_statistics = {
 		base = 27040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27049,
 			82049
@@ -29766,6 +39000,11 @@ pg.equip_data_statistics = {
 		base = 27040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27050,
 			82050
@@ -29804,7 +39043,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
 	},
 	[27101] = {
 		value_1 = "31/回",
@@ -29812,6 +39056,11 @@ pg.equip_data_statistics = {
 		base = 27100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27101,
 			82101
@@ -29824,6 +39073,11 @@ pg.equip_data_statistics = {
 		base = 27100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27102,
 			82102
@@ -29836,6 +39090,11 @@ pg.equip_data_statistics = {
 		base = 27100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27103,
 			82103
@@ -29848,6 +39107,11 @@ pg.equip_data_statistics = {
 		base = 27100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27104,
 			82104
@@ -29860,6 +39124,11 @@ pg.equip_data_statistics = {
 		base = 27100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27105,
 			82105
@@ -29872,6 +39141,11 @@ pg.equip_data_statistics = {
 		base = 27100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27106,
 			82106
@@ -29910,7 +39184,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
 	},
 	[27121] = {
 		value_1 = "34/回",
@@ -29918,6 +39197,11 @@ pg.equip_data_statistics = {
 		base = 27120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27121,
 			82121
@@ -29930,6 +39214,11 @@ pg.equip_data_statistics = {
 		base = 27120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27122,
 			82122
@@ -29942,6 +39231,11 @@ pg.equip_data_statistics = {
 		base = 27120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27123,
 			82123
@@ -29954,6 +39248,11 @@ pg.equip_data_statistics = {
 		base = 27120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27124,
 			82124
@@ -29966,6 +39265,11 @@ pg.equip_data_statistics = {
 		base = 27120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27125,
 			82125
@@ -29978,6 +39282,11 @@ pg.equip_data_statistics = {
 		base = 27120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27126,
 			82126
@@ -29990,6 +39299,11 @@ pg.equip_data_statistics = {
 		base = 27120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27127,
 			82127
@@ -30002,6 +39316,11 @@ pg.equip_data_statistics = {
 		base = 27120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27128,
 			82128
@@ -30014,6 +39333,11 @@ pg.equip_data_statistics = {
 		base = 27120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27129,
 			82129
@@ -30026,6 +39350,11 @@ pg.equip_data_statistics = {
 		base = 27120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27130,
 			82130
@@ -30064,7 +39393,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
 	},
 	[27141] = {
 		value_1 = "37/回",
@@ -30072,6 +39406,11 @@ pg.equip_data_statistics = {
 		base = 27140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27141,
 			82141
@@ -30084,6 +39423,11 @@ pg.equip_data_statistics = {
 		base = 27140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27142,
 			82142
@@ -30096,6 +39440,11 @@ pg.equip_data_statistics = {
 		base = 27140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27143,
 			82143
@@ -30108,6 +39457,11 @@ pg.equip_data_statistics = {
 		base = 27140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27144,
 			82144
@@ -30120,6 +39474,11 @@ pg.equip_data_statistics = {
 		base = 27140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27145,
 			82145
@@ -30132,6 +39491,11 @@ pg.equip_data_statistics = {
 		base = 27140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27146,
 			82146
@@ -30144,6 +39508,11 @@ pg.equip_data_statistics = {
 		base = 27140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27147,
 			82147
@@ -30156,6 +39525,11 @@ pg.equip_data_statistics = {
 		base = 27140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27148,
 			82148
@@ -30168,6 +39542,11 @@ pg.equip_data_statistics = {
 		base = 27140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27149,
 			82149
@@ -30180,6 +39559,11 @@ pg.equip_data_statistics = {
 		base = 27140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27150,
 			82150
@@ -30217,7 +39601,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
 	},
 	[27201] = {
 		value_1 = "14/回",
@@ -30225,6 +39614,11 @@ pg.equip_data_statistics = {
 		base = 27200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27201,
 			82201
@@ -30237,6 +39631,11 @@ pg.equip_data_statistics = {
 		base = 27200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27202,
 			82202
@@ -30249,6 +39648,11 @@ pg.equip_data_statistics = {
 		base = 27200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27203,
 			82203
@@ -30287,7 +39691,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
 	},
 	[27221] = {
 		value_1 = "15/回",
@@ -30295,6 +39704,11 @@ pg.equip_data_statistics = {
 		base = 27220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27221,
 			82221
@@ -30307,6 +39721,11 @@ pg.equip_data_statistics = {
 		base = 27220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27222,
 			82222
@@ -30319,6 +39738,11 @@ pg.equip_data_statistics = {
 		base = 27220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27223,
 			82223
@@ -30357,7 +39781,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
 	},
 	[27241] = {
 		value_1 = "18/回",
@@ -30365,6 +39794,11 @@ pg.equip_data_statistics = {
 		base = 27240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27241,
 			82241
@@ -30377,6 +39811,11 @@ pg.equip_data_statistics = {
 		base = 27240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27242,
 			82242
@@ -30389,6 +39828,11 @@ pg.equip_data_statistics = {
 		base = 27240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27243,
 			82243
@@ -30401,6 +39845,11 @@ pg.equip_data_statistics = {
 		base = 27240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27244,
 			82244
@@ -30413,6 +39862,11 @@ pg.equip_data_statistics = {
 		base = 27240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27245,
 			82245
@@ -30425,6 +39879,11 @@ pg.equip_data_statistics = {
 		base = 27240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27246,
 			82246
@@ -30463,7 +39922,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
 	},
 	[27301] = {
 		value_1 = "41/回",
@@ -30471,6 +39935,11 @@ pg.equip_data_statistics = {
 		base = 27300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27301,
 			82301
@@ -30483,6 +39952,11 @@ pg.equip_data_statistics = {
 		base = 27300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27302,
 			82302
@@ -30495,6 +39969,11 @@ pg.equip_data_statistics = {
 		base = 27300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27303,
 			82303
@@ -30507,6 +39986,11 @@ pg.equip_data_statistics = {
 		base = 27300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27304,
 			82304
@@ -30519,6 +40003,11 @@ pg.equip_data_statistics = {
 		base = 27300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27305,
 			82305
@@ -30531,6 +40020,11 @@ pg.equip_data_statistics = {
 		base = 27300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27306,
 			82306
@@ -30543,6 +40037,11 @@ pg.equip_data_statistics = {
 		base = 27300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27307,
 			82307
@@ -30555,6 +40054,11 @@ pg.equip_data_statistics = {
 		base = 27300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27308,
 			82308
@@ -30567,6 +40071,11 @@ pg.equip_data_statistics = {
 		base = 27300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27309,
 			82309
@@ -30579,6 +40088,11 @@ pg.equip_data_statistics = {
 		base = 27300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			27310,
 			82310
@@ -30616,7 +40130,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		}
 	},
 	[28001] = {
 		value_1 = "104 x 2",
@@ -30624,6 +40143,11 @@ pg.equip_data_statistics = {
 		base = 28000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28001
 		},
@@ -30635,6 +40159,11 @@ pg.equip_data_statistics = {
 		base = 28000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28002
 		},
@@ -30646,6 +40175,11 @@ pg.equip_data_statistics = {
 		base = 28000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28003
 		},
@@ -30682,7 +40216,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		}
 	},
 	[28021] = {
 		value_1 = "112 x 2",
@@ -30690,6 +40229,11 @@ pg.equip_data_statistics = {
 		base = 28020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28021
 		},
@@ -30701,6 +40245,11 @@ pg.equip_data_statistics = {
 		base = 28020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28022
 		},
@@ -30712,6 +40261,11 @@ pg.equip_data_statistics = {
 		base = 28020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28023
 		},
@@ -30723,6 +40277,11 @@ pg.equip_data_statistics = {
 		base = 28020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28024
 		},
@@ -30734,6 +40293,11 @@ pg.equip_data_statistics = {
 		base = 28020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28025
 		},
@@ -30745,6 +40309,11 @@ pg.equip_data_statistics = {
 		base = 28020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28026
 		},
@@ -30781,7 +40350,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		}
 	},
 	[28041] = {
 		value_1 = "126 x 2",
@@ -30789,6 +40363,11 @@ pg.equip_data_statistics = {
 		base = 28040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28041
 		},
@@ -30800,6 +40379,11 @@ pg.equip_data_statistics = {
 		base = 28040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28042
 		},
@@ -30811,6 +40395,11 @@ pg.equip_data_statistics = {
 		base = 28040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28043
 		},
@@ -30822,6 +40411,11 @@ pg.equip_data_statistics = {
 		base = 28040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28044
 		},
@@ -30833,6 +40427,11 @@ pg.equip_data_statistics = {
 		base = 28040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28045
 		},
@@ -30844,6 +40443,11 @@ pg.equip_data_statistics = {
 		base = 28040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28046
 		},
@@ -30855,6 +40459,11 @@ pg.equip_data_statistics = {
 		base = 28040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28047
 		},
@@ -30866,6 +40475,11 @@ pg.equip_data_statistics = {
 		base = 28040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28048
 		},
@@ -30877,6 +40491,11 @@ pg.equip_data_statistics = {
 		base = 28040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28049
 		},
@@ -30888,6 +40507,11 @@ pg.equip_data_statistics = {
 		base = 28040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28050
 		},
@@ -30926,7 +40550,12 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		}
 	},
 	[28061] = {
 		value_1 = "115 x 3",
@@ -30934,6 +40563,11 @@ pg.equip_data_statistics = {
 		base = 28060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28061
 		},
@@ -30945,6 +40579,11 @@ pg.equip_data_statistics = {
 		base = 28060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28062
 		},
@@ -30956,6 +40595,11 @@ pg.equip_data_statistics = {
 		base = 28060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28063
 		},
@@ -30967,6 +40611,11 @@ pg.equip_data_statistics = {
 		base = 28060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28064
 		},
@@ -30978,6 +40627,11 @@ pg.equip_data_statistics = {
 		base = 28060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28065
 		},
@@ -30989,6 +40643,11 @@ pg.equip_data_statistics = {
 		base = 28060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28066
 		},
@@ -31000,6 +40659,11 @@ pg.equip_data_statistics = {
 		base = 28060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28067
 		},
@@ -31011,6 +40675,11 @@ pg.equip_data_statistics = {
 		base = 28060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28068
 		},
@@ -31022,6 +40691,11 @@ pg.equip_data_statistics = {
 		base = 28060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28069
 		},
@@ -31033,6 +40707,11 @@ pg.equip_data_statistics = {
 		base = 28060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28070
 		},
@@ -31069,7 +40748,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		}
 	},
 	[28101] = {
 		value_1 = "104 x 3",
@@ -31077,6 +40761,11 @@ pg.equip_data_statistics = {
 		base = 28100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28101
 		},
@@ -31088,6 +40777,11 @@ pg.equip_data_statistics = {
 		base = 28100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28102
 		},
@@ -31099,6 +40793,11 @@ pg.equip_data_statistics = {
 		base = 28100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28103
 		},
@@ -31110,6 +40809,11 @@ pg.equip_data_statistics = {
 		base = 28100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28104
 		},
@@ -31121,6 +40825,11 @@ pg.equip_data_statistics = {
 		base = 28100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28105
 		},
@@ -31132,6 +40841,11 @@ pg.equip_data_statistics = {
 		base = 28100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28106
 		},
@@ -31168,7 +40882,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		}
 	},
 	[28121] = {
 		value_1 = "112 x 3",
@@ -31176,6 +40895,11 @@ pg.equip_data_statistics = {
 		base = 28120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28121
 		},
@@ -31187,6 +40911,11 @@ pg.equip_data_statistics = {
 		base = 28120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28122
 		},
@@ -31198,6 +40927,11 @@ pg.equip_data_statistics = {
 		base = 28120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28123
 		},
@@ -31209,6 +40943,11 @@ pg.equip_data_statistics = {
 		base = 28120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28124
 		},
@@ -31220,6 +40959,11 @@ pg.equip_data_statistics = {
 		base = 28120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28125
 		},
@@ -31231,6 +40975,11 @@ pg.equip_data_statistics = {
 		base = 28120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28126
 		},
@@ -31242,6 +40991,11 @@ pg.equip_data_statistics = {
 		base = 28120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28127
 		},
@@ -31253,6 +41007,11 @@ pg.equip_data_statistics = {
 		base = 28120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28128
 		},
@@ -31264,6 +41023,11 @@ pg.equip_data_statistics = {
 		base = 28120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28129
 		},
@@ -31275,6 +41039,11 @@ pg.equip_data_statistics = {
 		base = 28120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28130
 		},
@@ -31311,7 +41080,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		}
 	},
 	[28141] = {
 		value_1 = "126 x 3",
@@ -31319,6 +41093,11 @@ pg.equip_data_statistics = {
 		base = 28140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28141
 		},
@@ -31330,6 +41109,11 @@ pg.equip_data_statistics = {
 		base = 28140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28142
 		},
@@ -31341,6 +41125,11 @@ pg.equip_data_statistics = {
 		base = 28140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28143
 		},
@@ -31352,6 +41141,11 @@ pg.equip_data_statistics = {
 		base = 28140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28144
 		},
@@ -31363,6 +41157,11 @@ pg.equip_data_statistics = {
 		base = 28140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28145
 		},
@@ -31374,6 +41173,11 @@ pg.equip_data_statistics = {
 		base = 28140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28146
 		},
@@ -31385,6 +41189,11 @@ pg.equip_data_statistics = {
 		base = 28140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28147
 		},
@@ -31396,6 +41205,11 @@ pg.equip_data_statistics = {
 		base = 28140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28148
 		},
@@ -31407,6 +41221,11 @@ pg.equip_data_statistics = {
 		base = 28140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28149
 		},
@@ -31418,6 +41237,11 @@ pg.equip_data_statistics = {
 		base = 28140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28150
 		},
@@ -31454,7 +41278,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		}
 	},
 	[28201] = {
 		value_1 = "126 x 3",
@@ -31462,6 +41291,11 @@ pg.equip_data_statistics = {
 		base = 28200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28201
 		},
@@ -31473,6 +41307,11 @@ pg.equip_data_statistics = {
 		base = 28200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28202
 		},
@@ -31484,6 +41323,11 @@ pg.equip_data_statistics = {
 		base = 28200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28203
 		},
@@ -31495,6 +41339,11 @@ pg.equip_data_statistics = {
 		base = 28200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28204
 		},
@@ -31506,6 +41355,11 @@ pg.equip_data_statistics = {
 		base = 28200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28205
 		},
@@ -31517,6 +41371,11 @@ pg.equip_data_statistics = {
 		base = 28200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28206
 		},
@@ -31528,6 +41387,11 @@ pg.equip_data_statistics = {
 		base = 28200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28207
 		},
@@ -31539,6 +41403,11 @@ pg.equip_data_statistics = {
 		base = 28200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28208
 		},
@@ -31550,6 +41419,11 @@ pg.equip_data_statistics = {
 		base = 28200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28209
 		},
@@ -31561,6 +41435,11 @@ pg.equip_data_statistics = {
 		base = 28200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			28210
 		},
@@ -31596,7 +41475,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		}
 	},
 	[29001] = {
 		value_1 = "138 x 1",
@@ -31604,6 +41488,11 @@ pg.equip_data_statistics = {
 		base = 29000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29001
 		},
@@ -31615,6 +41504,11 @@ pg.equip_data_statistics = {
 		base = 29000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29002
 		},
@@ -31626,6 +41520,11 @@ pg.equip_data_statistics = {
 		base = 29000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29003
 		},
@@ -31662,7 +41561,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		}
 	},
 	[29021] = {
 		value_1 = "152 x 1",
@@ -31670,6 +41574,11 @@ pg.equip_data_statistics = {
 		base = 29020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29021
 		},
@@ -31681,6 +41590,11 @@ pg.equip_data_statistics = {
 		base = 29020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29022
 		},
@@ -31692,6 +41606,11 @@ pg.equip_data_statistics = {
 		base = 29020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29023
 		},
@@ -31728,7 +41647,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		}
 	},
 	[29041] = {
 		value_1 = "165 x 1",
@@ -31736,6 +41660,11 @@ pg.equip_data_statistics = {
 		base = 29040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29041
 		},
@@ -31747,6 +41676,11 @@ pg.equip_data_statistics = {
 		base = 29040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29042
 		},
@@ -31758,6 +41692,11 @@ pg.equip_data_statistics = {
 		base = 29040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29043
 		},
@@ -31769,6 +41708,11 @@ pg.equip_data_statistics = {
 		base = 29040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29044
 		},
@@ -31780,6 +41724,11 @@ pg.equip_data_statistics = {
 		base = 29040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29045
 		},
@@ -31791,6 +41740,11 @@ pg.equip_data_statistics = {
 		base = 29040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29046
 		},
@@ -31827,7 +41781,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		}
 	},
 	[29101] = {
 		value_1 = "65 x 2",
@@ -31835,6 +41794,11 @@ pg.equip_data_statistics = {
 		base = 29100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29101
 		},
@@ -31846,6 +41810,11 @@ pg.equip_data_statistics = {
 		base = 29100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29102
 		},
@@ -31857,6 +41826,11 @@ pg.equip_data_statistics = {
 		base = 29100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29103
 		},
@@ -31893,7 +41867,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		}
 	},
 	[29121] = {
 		value_1 = "72 x 2",
@@ -31901,6 +41880,11 @@ pg.equip_data_statistics = {
 		base = 29120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29121
 		},
@@ -31912,6 +41896,11 @@ pg.equip_data_statistics = {
 		base = 29120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29122
 		},
@@ -31923,6 +41912,11 @@ pg.equip_data_statistics = {
 		base = 29120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29123
 		},
@@ -31934,6 +41928,11 @@ pg.equip_data_statistics = {
 		base = 29120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29124
 		},
@@ -31945,6 +41944,11 @@ pg.equip_data_statistics = {
 		base = 29120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29125
 		},
@@ -31956,6 +41960,11 @@ pg.equip_data_statistics = {
 		base = 29120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29126
 		},
@@ -31992,7 +42001,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		}
 	},
 	[29141] = {
 		value_1 = "78 x 2",
@@ -32000,6 +42014,11 @@ pg.equip_data_statistics = {
 		base = 29140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29141
 		},
@@ -32011,6 +42030,11 @@ pg.equip_data_statistics = {
 		base = 29140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29142
 		},
@@ -32022,6 +42046,11 @@ pg.equip_data_statistics = {
 		base = 29140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29143
 		},
@@ -32033,6 +42062,11 @@ pg.equip_data_statistics = {
 		base = 29140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29144
 		},
@@ -32044,6 +42078,11 @@ pg.equip_data_statistics = {
 		base = 29140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29145
 		},
@@ -32055,6 +42094,11 @@ pg.equip_data_statistics = {
 		base = 29140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29146
 		},
@@ -32066,6 +42110,11 @@ pg.equip_data_statistics = {
 		base = 29140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29147
 		},
@@ -32077,6 +42126,11 @@ pg.equip_data_statistics = {
 		base = 29140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29148
 		},
@@ -32088,6 +42142,11 @@ pg.equip_data_statistics = {
 		base = 29140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29149
 		},
@@ -32099,6 +42158,11 @@ pg.equip_data_statistics = {
 		base = 29140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29150
 		},
@@ -32135,7 +42199,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		}
 	},
 	[29201] = {
 		value_1 = "185 x 2",
@@ -32143,6 +42212,11 @@ pg.equip_data_statistics = {
 		base = 29200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29201
 		},
@@ -32154,6 +42228,11 @@ pg.equip_data_statistics = {
 		base = 29200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29202
 		},
@@ -32165,6 +42244,11 @@ pg.equip_data_statistics = {
 		base = 29200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29203
 		},
@@ -32176,6 +42260,11 @@ pg.equip_data_statistics = {
 		base = 29200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29204
 		},
@@ -32187,6 +42276,11 @@ pg.equip_data_statistics = {
 		base = 29200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29205
 		},
@@ -32198,6 +42292,11 @@ pg.equip_data_statistics = {
 		base = 29200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29206
 		},
@@ -32209,6 +42308,11 @@ pg.equip_data_statistics = {
 		base = 29200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29207
 		},
@@ -32220,6 +42324,11 @@ pg.equip_data_statistics = {
 		base = 29200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29208
 		},
@@ -32231,6 +42340,11 @@ pg.equip_data_statistics = {
 		base = 29200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29209
 		},
@@ -32242,6 +42356,11 @@ pg.equip_data_statistics = {
 		base = 29200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29210
 		},
@@ -32280,7 +42399,12 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		}
 	},
 	[29301] = {
 		value_1 = "196 x 1",
@@ -32288,6 +42412,11 @@ pg.equip_data_statistics = {
 		base = 29300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29301
 		},
@@ -32299,6 +42428,11 @@ pg.equip_data_statistics = {
 		base = 29300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29302
 		},
@@ -32310,6 +42444,11 @@ pg.equip_data_statistics = {
 		base = 29300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29303
 		},
@@ -32321,6 +42460,11 @@ pg.equip_data_statistics = {
 		base = 29300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29304
 		},
@@ -32332,6 +42476,11 @@ pg.equip_data_statistics = {
 		base = 29300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29305
 		},
@@ -32343,6 +42492,11 @@ pg.equip_data_statistics = {
 		base = 29300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29306
 		},
@@ -32354,6 +42508,11 @@ pg.equip_data_statistics = {
 		base = 29300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29307
 		},
@@ -32365,6 +42524,11 @@ pg.equip_data_statistics = {
 		base = 29300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29308
 		},
@@ -32376,6 +42540,11 @@ pg.equip_data_statistics = {
 		base = 29300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29309
 		},
@@ -32387,6 +42556,11 @@ pg.equip_data_statistics = {
 		base = 29300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"HMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			29310
 		},
@@ -32428,7 +42602,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		}
 	},
 	[30001] = {
 		value_1 = "45 x 2",
@@ -32436,6 +42615,11 @@ pg.equip_data_statistics = {
 		base = 30000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			30001
 		},
@@ -32447,6 +42631,11 @@ pg.equip_data_statistics = {
 		base = 30000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			30002
 		},
@@ -32458,6 +42647,11 @@ pg.equip_data_statistics = {
 		base = 30000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			30003
 		},
@@ -32469,6 +42663,11 @@ pg.equip_data_statistics = {
 		base = 30000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			30004
 		},
@@ -32480,6 +42679,11 @@ pg.equip_data_statistics = {
 		base = 30000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			30005
 		},
@@ -32491,6 +42695,11 @@ pg.equip_data_statistics = {
 		base = 30000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			30006
 		},
@@ -32516,8 +42725,8 @@ pg.equip_data_statistics = {
 		attribute_3 = "antiaircraft",
 		ammo = "通常弾",
 		is_siren = 0,
-		descrip = "0",
 		value_3 = 8,
+		descrip = "0",
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
 		property_rate = {},
@@ -32535,7 +42744,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		}
 	},
 	[31001] = {
 		value_1 = "4 x 4",
@@ -32543,6 +42757,11 @@ pg.equip_data_statistics = {
 		base = 31000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31001
 		},
@@ -32554,6 +42773,11 @@ pg.equip_data_statistics = {
 		base = 31000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31002
 		},
@@ -32565,6 +42789,11 @@ pg.equip_data_statistics = {
 		base = 31000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31003
 		},
@@ -32576,6 +42805,11 @@ pg.equip_data_statistics = {
 		base = 31000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31004
 		},
@@ -32587,6 +42821,11 @@ pg.equip_data_statistics = {
 		base = 31000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31005
 		},
@@ -32598,6 +42837,11 @@ pg.equip_data_statistics = {
 		base = 31000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31006
 		},
@@ -32623,8 +42867,8 @@ pg.equip_data_statistics = {
 		attribute_3 = "antiaircraft",
 		ammo = "通常弾",
 		is_siren = 0,
-		descrip = "0",
 		value_3 = 16,
+		descrip = "0",
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
 		property_rate = {},
@@ -32642,7 +42886,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		}
 	},
 	[31021] = {
 		value_1 = "4 x 4",
@@ -32650,6 +42899,11 @@ pg.equip_data_statistics = {
 		base = 31020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31021
 		},
@@ -32661,6 +42915,11 @@ pg.equip_data_statistics = {
 		base = 31020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31022
 		},
@@ -32672,6 +42931,11 @@ pg.equip_data_statistics = {
 		base = 31020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31023
 		},
@@ -32683,6 +42947,11 @@ pg.equip_data_statistics = {
 		base = 31020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31024
 		},
@@ -32694,6 +42963,11 @@ pg.equip_data_statistics = {
 		base = 31020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31025
 		},
@@ -32705,6 +42979,11 @@ pg.equip_data_statistics = {
 		base = 31020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31026
 		},
@@ -32716,6 +42995,11 @@ pg.equip_data_statistics = {
 		base = 31020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31027
 		},
@@ -32727,6 +43011,11 @@ pg.equip_data_statistics = {
 		base = 31020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31028
 		},
@@ -32738,6 +43027,11 @@ pg.equip_data_statistics = {
 		base = 31020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31029
 		},
@@ -32749,6 +43043,11 @@ pg.equip_data_statistics = {
 		base = 31020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31030
 		},
@@ -32774,8 +43073,8 @@ pg.equip_data_statistics = {
 		attribute_3 = "antiaircraft",
 		ammo = "通常弾",
 		is_siren = 0,
-		descrip = "0",
 		value_3 = 30,
+		descrip = "0",
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
 		property_rate = {},
@@ -32793,7 +43092,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		}
 	},
 	[31041] = {
 		value_1 = "4 x 4",
@@ -32801,6 +43105,11 @@ pg.equip_data_statistics = {
 		base = 31040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31041
 		},
@@ -32812,6 +43121,11 @@ pg.equip_data_statistics = {
 		base = 31040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31042
 		},
@@ -32823,6 +43137,11 @@ pg.equip_data_statistics = {
 		base = 31040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31043
 		},
@@ -32834,6 +43153,11 @@ pg.equip_data_statistics = {
 		base = 31040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31044
 		},
@@ -32845,6 +43169,11 @@ pg.equip_data_statistics = {
 		base = 31040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31045
 		},
@@ -32856,6 +43185,11 @@ pg.equip_data_statistics = {
 		base = 31040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31046
 		},
@@ -32867,6 +43201,11 @@ pg.equip_data_statistics = {
 		base = 31040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31047
 		},
@@ -32878,6 +43217,11 @@ pg.equip_data_statistics = {
 		base = 31040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31048
 		},
@@ -32889,6 +43233,11 @@ pg.equip_data_statistics = {
 		base = 31040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31049
 		},
@@ -32900,6 +43249,11 @@ pg.equip_data_statistics = {
 		base = 31040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31050
 		},
@@ -32942,7 +43296,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		}
 	},
 	[31101] = {
 		value_1 = "3 x 1",
@@ -32950,6 +43309,11 @@ pg.equip_data_statistics = {
 		base = 31100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31101
 		},
@@ -32961,6 +43325,11 @@ pg.equip_data_statistics = {
 		base = 31100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31102
 		},
@@ -32972,6 +43341,11 @@ pg.equip_data_statistics = {
 		base = 31100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31103
 		},
@@ -33015,7 +43389,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		}
 	},
 	[31121] = {
 		value_1 = "3 x 1",
@@ -33023,6 +43402,11 @@ pg.equip_data_statistics = {
 		base = 31120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31121
 		},
@@ -33034,6 +43418,11 @@ pg.equip_data_statistics = {
 		base = 31120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31122
 		},
@@ -33045,6 +43434,11 @@ pg.equip_data_statistics = {
 		base = 31120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31123
 		},
@@ -33088,7 +43482,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		}
 	},
 	[31141] = {
 		value_1 = "3 x 1",
@@ -33096,6 +43495,11 @@ pg.equip_data_statistics = {
 		base = 31140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31141
 		},
@@ -33107,6 +43511,11 @@ pg.equip_data_statistics = {
 		base = 31140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31142
 		},
@@ -33118,6 +43527,11 @@ pg.equip_data_statistics = {
 		base = 31140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31143
 		},
@@ -33129,6 +43543,11 @@ pg.equip_data_statistics = {
 		base = 31140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31144
 		},
@@ -33140,6 +43559,11 @@ pg.equip_data_statistics = {
 		base = 31140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31145
 		},
@@ -33151,6 +43575,11 @@ pg.equip_data_statistics = {
 		base = 31140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31146
 		},
@@ -33194,7 +43623,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		}
 	},
 	[31201] = {
 		value_1 = "4 x 2",
@@ -33202,6 +43636,11 @@ pg.equip_data_statistics = {
 		base = 31200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31201
 		},
@@ -33213,6 +43652,11 @@ pg.equip_data_statistics = {
 		base = 31200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31202
 		},
@@ -33224,6 +43668,11 @@ pg.equip_data_statistics = {
 		base = 31200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31203
 		},
@@ -33267,7 +43716,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		}
 	},
 	[31221] = {
 		value_1 = "4 x 2",
@@ -33275,6 +43729,11 @@ pg.equip_data_statistics = {
 		base = 31220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31221
 		},
@@ -33286,6 +43745,11 @@ pg.equip_data_statistics = {
 		base = 31220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31222
 		},
@@ -33297,6 +43761,11 @@ pg.equip_data_statistics = {
 		base = 31220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31223
 		},
@@ -33308,6 +43777,11 @@ pg.equip_data_statistics = {
 		base = 31220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31224
 		},
@@ -33319,6 +43793,11 @@ pg.equip_data_statistics = {
 		base = 31220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31225
 		},
@@ -33330,6 +43809,11 @@ pg.equip_data_statistics = {
 		base = 31220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31226
 		},
@@ -33373,7 +43857,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		}
 	},
 	[31241] = {
 		value_1 = "4 x 2",
@@ -33381,6 +43870,11 @@ pg.equip_data_statistics = {
 		base = 31240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31241
 		},
@@ -33392,6 +43886,11 @@ pg.equip_data_statistics = {
 		base = 31240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31242
 		},
@@ -33403,6 +43902,11 @@ pg.equip_data_statistics = {
 		base = 31240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31243
 		},
@@ -33414,6 +43918,11 @@ pg.equip_data_statistics = {
 		base = 31240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31244
 		},
@@ -33425,6 +43934,11 @@ pg.equip_data_statistics = {
 		base = 31240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31245
 		},
@@ -33436,6 +43950,11 @@ pg.equip_data_statistics = {
 		base = 31240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31246
 		},
@@ -33447,6 +43966,11 @@ pg.equip_data_statistics = {
 		base = 31240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31247
 		},
@@ -33458,6 +43982,11 @@ pg.equip_data_statistics = {
 		base = 31240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31248
 		},
@@ -33469,6 +43998,11 @@ pg.equip_data_statistics = {
 		base = 31240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31249
 		},
@@ -33480,6 +44014,11 @@ pg.equip_data_statistics = {
 		base = 31240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			31250
 		},
@@ -33521,7 +44060,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		}
 	},
 	[32001] = {
 		value_1 = "6 x 3",
@@ -33529,6 +44073,11 @@ pg.equip_data_statistics = {
 		base = 32000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32001
 		},
@@ -33540,6 +44089,11 @@ pg.equip_data_statistics = {
 		base = 32000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32002
 		},
@@ -33551,6 +44105,11 @@ pg.equip_data_statistics = {
 		base = 32000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32003
 		},
@@ -33593,7 +44152,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		}
 	},
 	[32021] = {
 		value_1 = "7 x 3",
@@ -33601,6 +44165,11 @@ pg.equip_data_statistics = {
 		base = 32020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32021
 		},
@@ -33612,6 +44181,11 @@ pg.equip_data_statistics = {
 		base = 32020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32022
 		},
@@ -33623,6 +44197,11 @@ pg.equip_data_statistics = {
 		base = 32020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32023
 		},
@@ -33665,7 +44244,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		}
 	},
 	[32041] = {
 		value_1 = "8 x 3",
@@ -33673,6 +44257,11 @@ pg.equip_data_statistics = {
 		base = 32040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32041
 		},
@@ -33684,6 +44273,11 @@ pg.equip_data_statistics = {
 		base = 32040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32042
 		},
@@ -33695,6 +44289,11 @@ pg.equip_data_statistics = {
 		base = 32040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32043
 		},
@@ -33706,6 +44305,11 @@ pg.equip_data_statistics = {
 		base = 32040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32044
 		},
@@ -33717,6 +44321,11 @@ pg.equip_data_statistics = {
 		base = 32040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32045
 		},
@@ -33728,6 +44337,11 @@ pg.equip_data_statistics = {
 		base = 32040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32046
 		},
@@ -33770,7 +44384,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		}
 	},
 	[32101] = {
 		value_1 = "6 x 4",
@@ -33778,6 +44397,11 @@ pg.equip_data_statistics = {
 		base = 32100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32101
 		},
@@ -33789,6 +44413,11 @@ pg.equip_data_statistics = {
 		base = 32100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32102
 		},
@@ -33800,6 +44429,11 @@ pg.equip_data_statistics = {
 		base = 32100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32103
 		},
@@ -33842,7 +44476,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		}
 	},
 	[32121] = {
 		value_1 = "7 x 4",
@@ -33850,6 +44489,11 @@ pg.equip_data_statistics = {
 		base = 32120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32121
 		},
@@ -33861,6 +44505,11 @@ pg.equip_data_statistics = {
 		base = 32120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32122
 		},
@@ -33872,6 +44521,11 @@ pg.equip_data_statistics = {
 		base = 32120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32123
 		},
@@ -33883,6 +44537,11 @@ pg.equip_data_statistics = {
 		base = 32120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32124
 		},
@@ -33894,6 +44553,11 @@ pg.equip_data_statistics = {
 		base = 32120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32125
 		},
@@ -33905,6 +44569,11 @@ pg.equip_data_statistics = {
 		base = 32120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32126
 		},
@@ -33947,7 +44616,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		}
 	},
 	[32141] = {
 		value_1 = "8 x 4",
@@ -33955,6 +44629,11 @@ pg.equip_data_statistics = {
 		base = 32140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32141
 		},
@@ -33966,6 +44645,11 @@ pg.equip_data_statistics = {
 		base = 32140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32142
 		},
@@ -33977,6 +44661,11 @@ pg.equip_data_statistics = {
 		base = 32140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32143
 		},
@@ -33988,6 +44677,11 @@ pg.equip_data_statistics = {
 		base = 32140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32144
 		},
@@ -33999,6 +44693,11 @@ pg.equip_data_statistics = {
 		base = 32140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32145
 		},
@@ -34010,6 +44709,11 @@ pg.equip_data_statistics = {
 		base = 32140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32146
 		},
@@ -34021,6 +44725,11 @@ pg.equip_data_statistics = {
 		base = 32140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32147
 		},
@@ -34032,6 +44741,11 @@ pg.equip_data_statistics = {
 		base = 32140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32148
 		},
@@ -34043,6 +44757,11 @@ pg.equip_data_statistics = {
 		base = 32140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32149
 		},
@@ -34054,6 +44773,11 @@ pg.equip_data_statistics = {
 		base = 32140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32150
 		},
@@ -34096,7 +44820,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		}
 	},
 	[32201] = {
 		value_1 = "7 x 6",
@@ -34104,6 +44833,11 @@ pg.equip_data_statistics = {
 		base = 32200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32201
 		},
@@ -34115,6 +44849,11 @@ pg.equip_data_statistics = {
 		base = 32200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32202
 		},
@@ -34126,6 +44865,11 @@ pg.equip_data_statistics = {
 		base = 32200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32203
 		},
@@ -34137,6 +44881,11 @@ pg.equip_data_statistics = {
 		base = 32200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32204
 		},
@@ -34148,6 +44897,11 @@ pg.equip_data_statistics = {
 		base = 32200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32205
 		},
@@ -34159,6 +44913,11 @@ pg.equip_data_statistics = {
 		base = 32200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32206
 		},
@@ -34201,7 +44960,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		}
 	},
 	[32221] = {
 		value_1 = "8 x 6",
@@ -34209,6 +44973,11 @@ pg.equip_data_statistics = {
 		base = 32220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32221
 		},
@@ -34220,6 +44989,11 @@ pg.equip_data_statistics = {
 		base = 32220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32222
 		},
@@ -34231,6 +45005,11 @@ pg.equip_data_statistics = {
 		base = 32220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32223
 		},
@@ -34242,6 +45021,11 @@ pg.equip_data_statistics = {
 		base = 32220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32224
 		},
@@ -34253,6 +45037,11 @@ pg.equip_data_statistics = {
 		base = 32220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32225
 		},
@@ -34264,6 +45053,11 @@ pg.equip_data_statistics = {
 		base = 32220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32226
 		},
@@ -34275,6 +45069,11 @@ pg.equip_data_statistics = {
 		base = 32220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32227
 		},
@@ -34286,6 +45085,11 @@ pg.equip_data_statistics = {
 		base = 32220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32228
 		},
@@ -34297,6 +45101,11 @@ pg.equip_data_statistics = {
 		base = 32220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32229
 		},
@@ -34308,6 +45117,11 @@ pg.equip_data_statistics = {
 		base = 32220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32230
 		},
@@ -34350,7 +45164,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		}
 	},
 	[32241] = {
 		value_1 = "9 x 6",
@@ -34358,6 +45177,11 @@ pg.equip_data_statistics = {
 		base = 32240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32241
 		},
@@ -34369,6 +45193,11 @@ pg.equip_data_statistics = {
 		base = 32240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32242
 		},
@@ -34380,6 +45209,11 @@ pg.equip_data_statistics = {
 		base = 32240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32243
 		},
@@ -34391,6 +45225,11 @@ pg.equip_data_statistics = {
 		base = 32240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32244
 		},
@@ -34402,6 +45241,11 @@ pg.equip_data_statistics = {
 		base = 32240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32245
 		},
@@ -34413,6 +45257,11 @@ pg.equip_data_statistics = {
 		base = 32240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32246
 		},
@@ -34424,6 +45273,11 @@ pg.equip_data_statistics = {
 		base = 32240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32247
 		},
@@ -34435,6 +45289,11 @@ pg.equip_data_statistics = {
 		base = 32240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32248
 		},
@@ -34446,6 +45305,11 @@ pg.equip_data_statistics = {
 		base = 32240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32249
 		},
@@ -34457,6 +45321,11 @@ pg.equip_data_statistics = {
 		base = 32240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32250
 		},
@@ -34499,7 +45368,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		}
 	},
 	[32301] = {
 		value_1 = "7 x 4",
@@ -34507,6 +45381,11 @@ pg.equip_data_statistics = {
 		base = 32300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32301
 		},
@@ -34518,6 +45397,11 @@ pg.equip_data_statistics = {
 		base = 32300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32302
 		},
@@ -34529,6 +45413,11 @@ pg.equip_data_statistics = {
 		base = 32300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32303
 		},
@@ -34571,7 +45460,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		}
 	},
 	[32321] = {
 		value_1 = "8 x 4",
@@ -34579,6 +45473,11 @@ pg.equip_data_statistics = {
 		base = 32320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32321
 		},
@@ -34590,6 +45489,11 @@ pg.equip_data_statistics = {
 		base = 32320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32322
 		},
@@ -34601,6 +45505,11 @@ pg.equip_data_statistics = {
 		base = 32320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32323
 		},
@@ -34612,6 +45521,11 @@ pg.equip_data_statistics = {
 		base = 32320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32324
 		},
@@ -34623,6 +45537,11 @@ pg.equip_data_statistics = {
 		base = 32320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32325
 		},
@@ -34634,6 +45553,11 @@ pg.equip_data_statistics = {
 		base = 32320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32326
 		},
@@ -34676,7 +45600,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		}
 	},
 	[32341] = {
 		value_1 = "9 x 4",
@@ -34684,6 +45613,11 @@ pg.equip_data_statistics = {
 		base = 32340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32341
 		},
@@ -34695,6 +45629,11 @@ pg.equip_data_statistics = {
 		base = 32340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32342
 		},
@@ -34706,6 +45645,11 @@ pg.equip_data_statistics = {
 		base = 32340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32343
 		},
@@ -34717,6 +45661,11 @@ pg.equip_data_statistics = {
 		base = 32340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32344
 		},
@@ -34728,6 +45677,11 @@ pg.equip_data_statistics = {
 		base = 32340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32345
 		},
@@ -34739,6 +45693,11 @@ pg.equip_data_statistics = {
 		base = 32340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32346
 		},
@@ -34750,6 +45709,11 @@ pg.equip_data_statistics = {
 		base = 32340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32347
 		},
@@ -34761,6 +45725,11 @@ pg.equip_data_statistics = {
 		base = 32340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32348
 		},
@@ -34772,6 +45741,11 @@ pg.equip_data_statistics = {
 		base = 32340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32349
 		},
@@ -34783,6 +45757,11 @@ pg.equip_data_statistics = {
 		base = 32340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			32350
 		},
@@ -34823,7 +45802,12 @@ pg.equip_data_statistics = {
 			3
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		}
 	},
 	[33001] = {
 		value_1 = "24 x 4",
@@ -34831,6 +45815,11 @@ pg.equip_data_statistics = {
 		base = 33000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33001
 		},
@@ -34842,6 +45831,11 @@ pg.equip_data_statistics = {
 		base = 33000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33002
 		},
@@ -34853,6 +45847,11 @@ pg.equip_data_statistics = {
 		base = 33000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33003
 		},
@@ -34893,7 +45892,12 @@ pg.equip_data_statistics = {
 			3
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		}
 	},
 	[33021] = {
 		value_1 = "26 x 4",
@@ -34901,6 +45905,11 @@ pg.equip_data_statistics = {
 		base = 33020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33021
 		},
@@ -34912,6 +45921,11 @@ pg.equip_data_statistics = {
 		base = 33020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33022
 		},
@@ -34923,6 +45937,11 @@ pg.equip_data_statistics = {
 		base = 33020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33023
 		},
@@ -34934,6 +45953,11 @@ pg.equip_data_statistics = {
 		base = 33020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33024
 		},
@@ -34945,6 +45969,11 @@ pg.equip_data_statistics = {
 		base = 33020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33025
 		},
@@ -34956,6 +45985,11 @@ pg.equip_data_statistics = {
 		base = 33020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33026
 		},
@@ -34996,7 +46030,12 @@ pg.equip_data_statistics = {
 			3
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		}
 	},
 	[33041] = {
 		value_1 = "28 x 4",
@@ -35004,6 +46043,11 @@ pg.equip_data_statistics = {
 		base = 33040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33041
 		},
@@ -35015,6 +46059,11 @@ pg.equip_data_statistics = {
 		base = 33040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33042
 		},
@@ -35026,6 +46075,11 @@ pg.equip_data_statistics = {
 		base = 33040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33043
 		},
@@ -35037,6 +46091,11 @@ pg.equip_data_statistics = {
 		base = 33040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33044
 		},
@@ -35048,6 +46107,11 @@ pg.equip_data_statistics = {
 		base = 33040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33045
 		},
@@ -35059,6 +46123,11 @@ pg.equip_data_statistics = {
 		base = 33040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33046
 		},
@@ -35070,6 +46139,11 @@ pg.equip_data_statistics = {
 		base = 33040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33047
 		},
@@ -35081,6 +46155,11 @@ pg.equip_data_statistics = {
 		base = 33040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33048
 		},
@@ -35092,6 +46171,11 @@ pg.equip_data_statistics = {
 		base = 33040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33049
 		},
@@ -35103,6 +46187,11 @@ pg.equip_data_statistics = {
 		base = 33040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33050
 		},
@@ -35143,7 +46232,12 @@ pg.equip_data_statistics = {
 			3
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		}
 	},
 	[33061] = {
 		value_1 = "30 x 4",
@@ -35151,6 +46245,11 @@ pg.equip_data_statistics = {
 		base = 33060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33061
 		},
@@ -35162,6 +46261,11 @@ pg.equip_data_statistics = {
 		base = 33060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33062
 		},
@@ -35173,6 +46277,11 @@ pg.equip_data_statistics = {
 		base = 33060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33063
 		},
@@ -35184,6 +46293,11 @@ pg.equip_data_statistics = {
 		base = 33060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33064
 		},
@@ -35195,6 +46309,11 @@ pg.equip_data_statistics = {
 		base = 33060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33065
 		},
@@ -35206,6 +46325,11 @@ pg.equip_data_statistics = {
 		base = 33060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33066
 		},
@@ -35217,6 +46341,11 @@ pg.equip_data_statistics = {
 		base = 33060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33067
 		},
@@ -35228,6 +46357,11 @@ pg.equip_data_statistics = {
 		base = 33060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33068
 		},
@@ -35239,6 +46373,11 @@ pg.equip_data_statistics = {
 		base = 33060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33069
 		},
@@ -35250,6 +46389,11 @@ pg.equip_data_statistics = {
 		base = 33060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			33070
 		},
@@ -35290,7 +46434,12 @@ pg.equip_data_statistics = {
 			18
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CB",
+			"MG"
+		}
 	},
 	[33101] = {
 		value_1 = "38 x 6",
@@ -35298,6 +46447,11 @@ pg.equip_data_statistics = {
 		base = 33100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			33101
 		},
@@ -35309,6 +46463,11 @@ pg.equip_data_statistics = {
 		base = 33100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			33102
 		},
@@ -35320,6 +46479,11 @@ pg.equip_data_statistics = {
 		base = 33100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			33103
 		},
@@ -35331,6 +46495,11 @@ pg.equip_data_statistics = {
 		base = 33100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			33104
 		},
@@ -35342,6 +46511,11 @@ pg.equip_data_statistics = {
 		base = 33100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			33105
 		},
@@ -35353,6 +46527,11 @@ pg.equip_data_statistics = {
 		base = 33100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			33106
 		},
@@ -35364,6 +46543,11 @@ pg.equip_data_statistics = {
 		base = 33100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			33107
 		},
@@ -35375,6 +46559,11 @@ pg.equip_data_statistics = {
 		base = 33100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			33108
 		},
@@ -35386,6 +46575,11 @@ pg.equip_data_statistics = {
 		base = 33100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			33109
 		},
@@ -35397,6 +46591,11 @@ pg.equip_data_statistics = {
 		base = 33100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			33110
 		},
@@ -35437,7 +46636,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		}
 	},
 	[34001] = {
 		value_1 = "44 x 2",
@@ -35445,6 +46649,11 @@ pg.equip_data_statistics = {
 		base = 34000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34001
 		},
@@ -35456,6 +46665,11 @@ pg.equip_data_statistics = {
 		base = 34000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34002
 		},
@@ -35467,6 +46681,11 @@ pg.equip_data_statistics = {
 		base = 34000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34003
 		},
@@ -35508,7 +46727,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		}
 	},
 	[34021] = {
 		value_1 = "48 x 2",
@@ -35516,6 +46740,11 @@ pg.equip_data_statistics = {
 		base = 34020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34021
 		},
@@ -35527,6 +46756,11 @@ pg.equip_data_statistics = {
 		base = 34020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34022
 		},
@@ -35538,6 +46772,11 @@ pg.equip_data_statistics = {
 		base = 34020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34023
 		},
@@ -35579,7 +46818,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		}
 	},
 	[34041] = {
 		value_1 = "52 x 2",
@@ -35587,6 +46831,11 @@ pg.equip_data_statistics = {
 		base = 34040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34041
 		},
@@ -35598,6 +46847,11 @@ pg.equip_data_statistics = {
 		base = 34040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34042
 		},
@@ -35609,6 +46863,11 @@ pg.equip_data_statistics = {
 		base = 34040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34043
 		},
@@ -35620,6 +46879,11 @@ pg.equip_data_statistics = {
 		base = 34040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34044
 		},
@@ -35631,6 +46895,11 @@ pg.equip_data_statistics = {
 		base = 34040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34045
 		},
@@ -35642,6 +46911,11 @@ pg.equip_data_statistics = {
 		base = 34040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34046
 		},
@@ -35683,7 +46957,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		}
 	},
 	[34101] = {
 		value_1 = "56 x 2",
@@ -35691,6 +46970,11 @@ pg.equip_data_statistics = {
 		base = 34100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34101
 		},
@@ -35702,6 +46986,11 @@ pg.equip_data_statistics = {
 		base = 34100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34102
 		},
@@ -35713,6 +47002,11 @@ pg.equip_data_statistics = {
 		base = 34100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34103
 		},
@@ -35754,7 +47048,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		}
 	},
 	[34121] = {
 		value_1 = "62 x 2",
@@ -35762,6 +47061,11 @@ pg.equip_data_statistics = {
 		base = 34120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34121
 		},
@@ -35773,6 +47077,11 @@ pg.equip_data_statistics = {
 		base = 34120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34122
 		},
@@ -35784,6 +47093,11 @@ pg.equip_data_statistics = {
 		base = 34120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34123
 		},
@@ -35795,6 +47109,11 @@ pg.equip_data_statistics = {
 		base = 34120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34124
 		},
@@ -35806,6 +47125,11 @@ pg.equip_data_statistics = {
 		base = 34120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34125
 		},
@@ -35817,6 +47141,11 @@ pg.equip_data_statistics = {
 		base = 34120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34126
 		},
@@ -35858,7 +47187,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		}
 	},
 	[34141] = {
 		value_1 = "68 x 2",
@@ -35866,6 +47200,11 @@ pg.equip_data_statistics = {
 		base = 34140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34141
 		},
@@ -35877,6 +47216,11 @@ pg.equip_data_statistics = {
 		base = 34140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34142
 		},
@@ -35888,6 +47232,11 @@ pg.equip_data_statistics = {
 		base = 34140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34143
 		},
@@ -35899,6 +47248,11 @@ pg.equip_data_statistics = {
 		base = 34140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34144
 		},
@@ -35910,6 +47264,11 @@ pg.equip_data_statistics = {
 		base = 34140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34145
 		},
@@ -35921,6 +47280,11 @@ pg.equip_data_statistics = {
 		base = 34140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34146
 		},
@@ -35932,6 +47296,11 @@ pg.equip_data_statistics = {
 		base = 34140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34147
 		},
@@ -35943,6 +47312,11 @@ pg.equip_data_statistics = {
 		base = 34140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34148
 		},
@@ -35954,6 +47328,11 @@ pg.equip_data_statistics = {
 		base = 34140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34149
 		},
@@ -35965,6 +47344,11 @@ pg.equip_data_statistics = {
 		base = 34140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34150
 		},
@@ -35990,8 +47374,8 @@ pg.equip_data_statistics = {
 		attribute_3 = "antiaircraft",
 		ammo = "三式弾",
 		is_siren = 0,
-		descrip = "三式弾を装備した410mm連装砲。対空攻撃のほか、断片で敵艦を炎上させることも可能",
 		value_3 = 25,
+		descrip = "三式弾を装備した410mm連装砲。対空攻撃のほか、断片で敵艦を炎上させることも可能",
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
 		property_rate = {},
@@ -36007,7 +47391,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		}
 	},
 	[34161] = {
 		value_1 = "13 x 10 x 2",
@@ -36015,6 +47404,11 @@ pg.equip_data_statistics = {
 		base = 34160,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34161
 		},
@@ -36026,6 +47420,11 @@ pg.equip_data_statistics = {
 		base = 34160,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34162
 		},
@@ -36037,6 +47436,11 @@ pg.equip_data_statistics = {
 		base = 34160,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34163
 		},
@@ -36048,6 +47452,11 @@ pg.equip_data_statistics = {
 		base = 34160,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34164
 		},
@@ -36059,6 +47468,11 @@ pg.equip_data_statistics = {
 		base = 34160,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34165
 		},
@@ -36070,6 +47484,11 @@ pg.equip_data_statistics = {
 		base = 34160,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34166
 		},
@@ -36081,6 +47500,11 @@ pg.equip_data_statistics = {
 		base = 34160,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34167
 		},
@@ -36092,6 +47516,11 @@ pg.equip_data_statistics = {
 		base = 34160,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34168
 		},
@@ -36103,6 +47532,11 @@ pg.equip_data_statistics = {
 		base = 34160,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34169
 		},
@@ -36114,6 +47548,11 @@ pg.equip_data_statistics = {
 		base = 34160,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34170
 		},
@@ -36155,7 +47594,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		}
 	},
 	[34181] = {
 		value_1 = "68 x 3",
@@ -36163,6 +47607,11 @@ pg.equip_data_statistics = {
 		base = 34180,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34181
 		},
@@ -36174,6 +47623,11 @@ pg.equip_data_statistics = {
 		base = 34180,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34182
 		},
@@ -36185,6 +47639,11 @@ pg.equip_data_statistics = {
 		base = 34180,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34183
 		},
@@ -36196,6 +47655,11 @@ pg.equip_data_statistics = {
 		base = 34180,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34184
 		},
@@ -36207,6 +47671,11 @@ pg.equip_data_statistics = {
 		base = 34180,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34185
 		},
@@ -36218,6 +47687,11 @@ pg.equip_data_statistics = {
 		base = 34180,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34186
 		},
@@ -36229,6 +47703,11 @@ pg.equip_data_statistics = {
 		base = 34180,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34187
 		},
@@ -36240,6 +47719,11 @@ pg.equip_data_statistics = {
 		base = 34180,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34188
 		},
@@ -36251,6 +47735,11 @@ pg.equip_data_statistics = {
 		base = 34180,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34189
 		},
@@ -36262,6 +47751,11 @@ pg.equip_data_statistics = {
 		base = 34180,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			34190
 		},
@@ -36297,7 +47791,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		}
 	},
 	[35001] = {
 		value_1 = "62 x 2",
@@ -36305,6 +47804,11 @@ pg.equip_data_statistics = {
 		base = 35000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35001
 		},
@@ -36316,6 +47820,11 @@ pg.equip_data_statistics = {
 		base = 35000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35002
 		},
@@ -36327,6 +47836,11 @@ pg.equip_data_statistics = {
 		base = 35000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35003
 		},
@@ -36363,7 +47877,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		}
 	},
 	[35021] = {
 		value_1 = "70 x 2",
@@ -36371,6 +47890,11 @@ pg.equip_data_statistics = {
 		base = 35020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35021
 		},
@@ -36382,6 +47906,11 @@ pg.equip_data_statistics = {
 		base = 35020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35022
 		},
@@ -36393,6 +47922,11 @@ pg.equip_data_statistics = {
 		base = 35020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35023
 		},
@@ -36429,7 +47963,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		}
 	},
 	[35041] = {
 		value_1 = "80 x 2",
@@ -36437,6 +47976,11 @@ pg.equip_data_statistics = {
 		base = 35040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35041
 		},
@@ -36448,6 +47992,11 @@ pg.equip_data_statistics = {
 		base = 35040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35042
 		},
@@ -36459,6 +48008,11 @@ pg.equip_data_statistics = {
 		base = 35040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35043
 		},
@@ -36470,6 +48024,11 @@ pg.equip_data_statistics = {
 		base = 35040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35044
 		},
@@ -36481,6 +48040,11 @@ pg.equip_data_statistics = {
 		base = 35040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35045
 		},
@@ -36492,6 +48056,11 @@ pg.equip_data_statistics = {
 		base = 35040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35046
 		},
@@ -36528,7 +48097,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		}
 	},
 	[35101] = {
 		value_1 = "62 x 3",
@@ -36536,6 +48110,11 @@ pg.equip_data_statistics = {
 		base = 35100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35101
 		},
@@ -36547,6 +48126,11 @@ pg.equip_data_statistics = {
 		base = 35100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35102
 		},
@@ -36558,6 +48142,11 @@ pg.equip_data_statistics = {
 		base = 35100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35103
 		},
@@ -36594,7 +48183,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		}
 	},
 	[35121] = {
 		value_1 = "70 x 3",
@@ -36602,6 +48196,11 @@ pg.equip_data_statistics = {
 		base = 35120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35121
 		},
@@ -36613,6 +48212,11 @@ pg.equip_data_statistics = {
 		base = 35120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35122
 		},
@@ -36624,6 +48228,11 @@ pg.equip_data_statistics = {
 		base = 35120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35123
 		},
@@ -36635,6 +48244,11 @@ pg.equip_data_statistics = {
 		base = 35120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35124
 		},
@@ -36646,6 +48260,11 @@ pg.equip_data_statistics = {
 		base = 35120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35125
 		},
@@ -36657,6 +48276,11 @@ pg.equip_data_statistics = {
 		base = 35120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35126
 		},
@@ -36693,7 +48317,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		}
 	},
 	[35141] = {
 		value_1 = "80 x 3",
@@ -36701,6 +48330,11 @@ pg.equip_data_statistics = {
 		base = 35140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35141
 		},
@@ -36712,6 +48346,11 @@ pg.equip_data_statistics = {
 		base = 35140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35142
 		},
@@ -36723,6 +48362,11 @@ pg.equip_data_statistics = {
 		base = 35140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35143
 		},
@@ -36734,6 +48378,11 @@ pg.equip_data_statistics = {
 		base = 35140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35144
 		},
@@ -36745,6 +48394,11 @@ pg.equip_data_statistics = {
 		base = 35140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35145
 		},
@@ -36756,6 +48410,11 @@ pg.equip_data_statistics = {
 		base = 35140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35146
 		},
@@ -36767,6 +48426,11 @@ pg.equip_data_statistics = {
 		base = 35140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35147
 		},
@@ -36778,6 +48442,11 @@ pg.equip_data_statistics = {
 		base = 35140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35148
 		},
@@ -36789,6 +48458,11 @@ pg.equip_data_statistics = {
 		base = 35140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35149
 		},
@@ -36800,6 +48474,11 @@ pg.equip_data_statistics = {
 		base = 35140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35150
 		},
@@ -36836,7 +48515,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		}
 	},
 	[35201] = {
 		value_1 = "62 x 4",
@@ -36844,6 +48528,11 @@ pg.equip_data_statistics = {
 		base = 35200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35201
 		},
@@ -36855,6 +48544,11 @@ pg.equip_data_statistics = {
 		base = 35200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35202
 		},
@@ -36866,6 +48560,11 @@ pg.equip_data_statistics = {
 		base = 35200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35203
 		},
@@ -36877,6 +48576,11 @@ pg.equip_data_statistics = {
 		base = 35200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35204
 		},
@@ -36888,6 +48592,11 @@ pg.equip_data_statistics = {
 		base = 35200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35205
 		},
@@ -36899,6 +48608,11 @@ pg.equip_data_statistics = {
 		base = 35200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35206
 		},
@@ -36935,7 +48649,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		}
 	},
 	[35221] = {
 		value_1 = "70 x 4",
@@ -36943,6 +48662,11 @@ pg.equip_data_statistics = {
 		base = 35220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35221
 		},
@@ -36954,6 +48678,11 @@ pg.equip_data_statistics = {
 		base = 35220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35222
 		},
@@ -36965,6 +48694,11 @@ pg.equip_data_statistics = {
 		base = 35220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35223
 		},
@@ -36976,6 +48710,11 @@ pg.equip_data_statistics = {
 		base = 35220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35224
 		},
@@ -36987,6 +48726,11 @@ pg.equip_data_statistics = {
 		base = 35220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35225
 		},
@@ -36998,6 +48742,11 @@ pg.equip_data_statistics = {
 		base = 35220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35226
 		},
@@ -37009,6 +48758,11 @@ pg.equip_data_statistics = {
 		base = 35220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35227
 		},
@@ -37020,6 +48774,11 @@ pg.equip_data_statistics = {
 		base = 35220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35228
 		},
@@ -37031,6 +48790,11 @@ pg.equip_data_statistics = {
 		base = 35220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35229
 		},
@@ -37042,6 +48806,11 @@ pg.equip_data_statistics = {
 		base = 35220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35230
 		},
@@ -37078,7 +48847,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		}
 	},
 	[35241] = {
 		value_1 = "80 x 4",
@@ -37086,6 +48860,11 @@ pg.equip_data_statistics = {
 		base = 35240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35241
 		},
@@ -37097,6 +48876,11 @@ pg.equip_data_statistics = {
 		base = 35240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35242
 		},
@@ -37108,6 +48892,11 @@ pg.equip_data_statistics = {
 		base = 35240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35243
 		},
@@ -37119,6 +48908,11 @@ pg.equip_data_statistics = {
 		base = 35240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35244
 		},
@@ -37130,6 +48924,11 @@ pg.equip_data_statistics = {
 		base = 35240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35245
 		},
@@ -37141,6 +48940,11 @@ pg.equip_data_statistics = {
 		base = 35240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35246
 		},
@@ -37152,6 +48956,11 @@ pg.equip_data_statistics = {
 		base = 35240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35247
 		},
@@ -37163,6 +48972,11 @@ pg.equip_data_statistics = {
 		base = 35240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35248
 		},
@@ -37174,6 +48988,11 @@ pg.equip_data_statistics = {
 		base = 35240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35249
 		},
@@ -37185,6 +49004,11 @@ pg.equip_data_statistics = {
 		base = 35240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			35250
 		},
@@ -37221,7 +49045,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		}
 	},
 	[35401] = {
 		value_1 = "55 x 2",
@@ -37229,6 +49058,11 @@ pg.equip_data_statistics = {
 		base = 35400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35401
 		},
@@ -37240,6 +49074,11 @@ pg.equip_data_statistics = {
 		base = 35400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35402
 		},
@@ -37251,6 +49090,11 @@ pg.equip_data_statistics = {
 		base = 35400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35403
 		},
@@ -37287,7 +49131,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		}
 	},
 	[35421] = {
 		value_1 = "62 x 2",
@@ -37295,6 +49144,11 @@ pg.equip_data_statistics = {
 		base = 35420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35421
 		},
@@ -37306,6 +49160,11 @@ pg.equip_data_statistics = {
 		base = 35420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35422
 		},
@@ -37317,6 +49176,11 @@ pg.equip_data_statistics = {
 		base = 35420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35423
 		},
@@ -37328,6 +49192,11 @@ pg.equip_data_statistics = {
 		base = 35420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35424
 		},
@@ -37339,6 +49208,11 @@ pg.equip_data_statistics = {
 		base = 35420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35425
 		},
@@ -37350,6 +49224,11 @@ pg.equip_data_statistics = {
 		base = 35420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35426
 		},
@@ -37386,7 +49265,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		}
 	},
 	[35441] = {
 		value_1 = "69 x 2",
@@ -37394,6 +49278,11 @@ pg.equip_data_statistics = {
 		base = 35440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35441
 		},
@@ -37405,6 +49294,11 @@ pg.equip_data_statistics = {
 		base = 35440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35442
 		},
@@ -37416,6 +49310,11 @@ pg.equip_data_statistics = {
 		base = 35440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35443
 		},
@@ -37427,6 +49326,11 @@ pg.equip_data_statistics = {
 		base = 35440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35444
 		},
@@ -37438,6 +49342,11 @@ pg.equip_data_statistics = {
 		base = 35440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35445
 		},
@@ -37449,6 +49358,11 @@ pg.equip_data_statistics = {
 		base = 35440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35446
 		},
@@ -37460,6 +49374,11 @@ pg.equip_data_statistics = {
 		base = 35440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35447
 		},
@@ -37471,6 +49390,11 @@ pg.equip_data_statistics = {
 		base = 35440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35448
 		},
@@ -37482,6 +49406,11 @@ pg.equip_data_statistics = {
 		base = 35440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35449
 		},
@@ -37493,6 +49422,11 @@ pg.equip_data_statistics = {
 		base = 35440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35450
 		},
@@ -37529,7 +49463,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		}
 	},
 	[35501] = {
 		value_1 = "64 x 2",
@@ -37537,6 +49476,11 @@ pg.equip_data_statistics = {
 		base = 35500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35501
 		},
@@ -37548,6 +49492,11 @@ pg.equip_data_statistics = {
 		base = 35500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35502
 		},
@@ -37559,6 +49508,11 @@ pg.equip_data_statistics = {
 		base = 35500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35503
 		},
@@ -37570,6 +49524,11 @@ pg.equip_data_statistics = {
 		base = 35500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35504
 		},
@@ -37581,6 +49540,11 @@ pg.equip_data_statistics = {
 		base = 35500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35505
 		},
@@ -37592,6 +49556,11 @@ pg.equip_data_statistics = {
 		base = 35500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35506
 		},
@@ -37628,7 +49597,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		}
 	},
 	[35521] = {
 		value_1 = "72 x 2",
@@ -37636,6 +49610,11 @@ pg.equip_data_statistics = {
 		base = 35520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35521
 		},
@@ -37647,6 +49626,11 @@ pg.equip_data_statistics = {
 		base = 35520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35522
 		},
@@ -37658,6 +49642,11 @@ pg.equip_data_statistics = {
 		base = 35520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35523
 		},
@@ -37669,6 +49658,11 @@ pg.equip_data_statistics = {
 		base = 35520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35524
 		},
@@ -37680,6 +49674,11 @@ pg.equip_data_statistics = {
 		base = 35520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35525
 		},
@@ -37691,6 +49690,11 @@ pg.equip_data_statistics = {
 		base = 35520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35526
 		},
@@ -37702,6 +49706,11 @@ pg.equip_data_statistics = {
 		base = 35520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35527
 		},
@@ -37713,6 +49722,11 @@ pg.equip_data_statistics = {
 		base = 35520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35528
 		},
@@ -37724,6 +49738,11 @@ pg.equip_data_statistics = {
 		base = 35520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35529
 		},
@@ -37735,6 +49754,11 @@ pg.equip_data_statistics = {
 		base = 35520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35530
 		},
@@ -37771,7 +49795,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		}
 	},
 	[35541] = {
 		value_1 = "80 x 2",
@@ -37779,6 +49808,11 @@ pg.equip_data_statistics = {
 		base = 35540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35541
 		},
@@ -37790,6 +49824,11 @@ pg.equip_data_statistics = {
 		base = 35540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35542
 		},
@@ -37801,6 +49840,11 @@ pg.equip_data_statistics = {
 		base = 35540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35543
 		},
@@ -37812,6 +49856,11 @@ pg.equip_data_statistics = {
 		base = 35540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35544
 		},
@@ -37823,6 +49872,11 @@ pg.equip_data_statistics = {
 		base = 35540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35545
 		},
@@ -37834,6 +49888,11 @@ pg.equip_data_statistics = {
 		base = 35540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35546
 		},
@@ -37845,6 +49904,11 @@ pg.equip_data_statistics = {
 		base = 35540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35547
 		},
@@ -37856,6 +49920,11 @@ pg.equip_data_statistics = {
 		base = 35540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35548
 		},
@@ -37867,6 +49936,11 @@ pg.equip_data_statistics = {
 		base = 35540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35549
 		},
@@ -37878,6 +49952,11 @@ pg.equip_data_statistics = {
 		base = 35540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			35550
 		},
@@ -37913,7 +49992,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
 	},
 	[36101] = {
 		value_1 = "9/回",
@@ -37921,6 +50005,11 @@ pg.equip_data_statistics = {
 		base = 36100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36101
 		},
@@ -37932,6 +50021,11 @@ pg.equip_data_statistics = {
 		base = 36100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36102
 		},
@@ -37943,6 +50037,11 @@ pg.equip_data_statistics = {
 		base = 36100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36103
 		},
@@ -37979,7 +50078,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
 	},
 	[36121] = {
 		value_1 = "10/回",
@@ -37987,6 +50091,11 @@ pg.equip_data_statistics = {
 		base = 36120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36121
 		},
@@ -37998,6 +50107,11 @@ pg.equip_data_statistics = {
 		base = 36120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36122
 		},
@@ -38009,6 +50123,11 @@ pg.equip_data_statistics = {
 		base = 36120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36123
 		},
@@ -38045,7 +50164,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
 	},
 	[36141] = {
 		value_1 = "12/回",
@@ -38053,6 +50177,11 @@ pg.equip_data_statistics = {
 		base = 36140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36141
 		},
@@ -38064,6 +50193,11 @@ pg.equip_data_statistics = {
 		base = 36140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36142
 		},
@@ -38075,6 +50209,11 @@ pg.equip_data_statistics = {
 		base = 36140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36143
 		},
@@ -38086,6 +50225,11 @@ pg.equip_data_statistics = {
 		base = 36140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36144
 		},
@@ -38097,6 +50241,11 @@ pg.equip_data_statistics = {
 		base = 36140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36145
 		},
@@ -38108,6 +50257,11 @@ pg.equip_data_statistics = {
 		base = 36140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36146
 		},
@@ -38144,7 +50298,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
 	},
 	[36201] = {
 		value_1 = "15/回",
@@ -38152,6 +50311,11 @@ pg.equip_data_statistics = {
 		base = 36200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36201
 		},
@@ -38163,6 +50327,11 @@ pg.equip_data_statistics = {
 		base = 36200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36202
 		},
@@ -38174,6 +50343,11 @@ pg.equip_data_statistics = {
 		base = 36200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36203
 		},
@@ -38210,7 +50384,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
 	},
 	[36221] = {
 		value_1 = "16/回",
@@ -38218,6 +50397,11 @@ pg.equip_data_statistics = {
 		base = 36220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36221
 		},
@@ -38229,6 +50413,11 @@ pg.equip_data_statistics = {
 		base = 36220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36222
 		},
@@ -38240,6 +50429,11 @@ pg.equip_data_statistics = {
 		base = 36220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36223
 		},
@@ -38251,6 +50445,11 @@ pg.equip_data_statistics = {
 		base = 36220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36224
 		},
@@ -38262,6 +50461,11 @@ pg.equip_data_statistics = {
 		base = 36220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36225
 		},
@@ -38273,6 +50477,11 @@ pg.equip_data_statistics = {
 		base = 36220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36226
 		},
@@ -38309,7 +50518,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
 	},
 	[36241] = {
 		value_1 = "18/回",
@@ -38317,6 +50531,11 @@ pg.equip_data_statistics = {
 		base = 36240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36241
 		},
@@ -38328,6 +50547,11 @@ pg.equip_data_statistics = {
 		base = 36240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36242
 		},
@@ -38339,6 +50563,11 @@ pg.equip_data_statistics = {
 		base = 36240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36243
 		},
@@ -38350,6 +50579,11 @@ pg.equip_data_statistics = {
 		base = 36240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36244
 		},
@@ -38361,6 +50595,11 @@ pg.equip_data_statistics = {
 		base = 36240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36245
 		},
@@ -38372,6 +50611,11 @@ pg.equip_data_statistics = {
 		base = 36240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36246
 		},
@@ -38383,6 +50627,11 @@ pg.equip_data_statistics = {
 		base = 36240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36247
 		},
@@ -38394,6 +50643,11 @@ pg.equip_data_statistics = {
 		base = 36240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36248
 		},
@@ -38405,6 +50659,11 @@ pg.equip_data_statistics = {
 		base = 36240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36249
 		},
@@ -38416,6 +50675,11 @@ pg.equip_data_statistics = {
 		base = 36240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36250
 		},
@@ -38452,7 +50716,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
 	},
 	[36301] = {
 		value_1 = "18/回",
@@ -38460,6 +50729,11 @@ pg.equip_data_statistics = {
 		base = 36300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36301
 		},
@@ -38471,6 +50745,11 @@ pg.equip_data_statistics = {
 		base = 36300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36302
 		},
@@ -38482,6 +50761,11 @@ pg.equip_data_statistics = {
 		base = 36300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36303
 		},
@@ -38518,7 +50802,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
 	},
 	[36321] = {
 		value_1 = "21/回",
@@ -38526,6 +50815,11 @@ pg.equip_data_statistics = {
 		base = 36320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36321
 		},
@@ -38537,6 +50831,11 @@ pg.equip_data_statistics = {
 		base = 36320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36322
 		},
@@ -38548,6 +50847,11 @@ pg.equip_data_statistics = {
 		base = 36320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36323
 		},
@@ -38559,6 +50863,11 @@ pg.equip_data_statistics = {
 		base = 36320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36324
 		},
@@ -38570,6 +50879,11 @@ pg.equip_data_statistics = {
 		base = 36320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36325
 		},
@@ -38581,6 +50895,11 @@ pg.equip_data_statistics = {
 		base = 36320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36326
 		},
@@ -38617,7 +50936,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
 	},
 	[36341] = {
 		value_1 = "25/回",
@@ -38625,6 +50949,11 @@ pg.equip_data_statistics = {
 		base = 36340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36341
 		},
@@ -38636,6 +50965,11 @@ pg.equip_data_statistics = {
 		base = 36340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36342
 		},
@@ -38647,6 +50981,11 @@ pg.equip_data_statistics = {
 		base = 36340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36343
 		},
@@ -38658,6 +50997,11 @@ pg.equip_data_statistics = {
 		base = 36340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36344
 		},
@@ -38669,6 +51013,11 @@ pg.equip_data_statistics = {
 		base = 36340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36345
 		},
@@ -38680,6 +51029,11 @@ pg.equip_data_statistics = {
 		base = 36340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36346
 		},
@@ -38691,6 +51045,11 @@ pg.equip_data_statistics = {
 		base = 36340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36347
 		},
@@ -38702,6 +51061,11 @@ pg.equip_data_statistics = {
 		base = 36340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36348
 		},
@@ -38713,6 +51077,11 @@ pg.equip_data_statistics = {
 		base = 36340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36349
 		},
@@ -38724,6 +51093,11 @@ pg.equip_data_statistics = {
 		base = 36340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36350
 		},
@@ -38760,7 +51134,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
 	},
 	[36401] = {
 		value_1 = "22/回",
@@ -38768,6 +51147,11 @@ pg.equip_data_statistics = {
 		base = 36400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36401
 		},
@@ -38779,6 +51163,11 @@ pg.equip_data_statistics = {
 		base = 36400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36402
 		},
@@ -38790,6 +51179,11 @@ pg.equip_data_statistics = {
 		base = 36400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36403
 		},
@@ -38826,7 +51220,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
 	},
 	[36421] = {
 		value_1 = "25/回",
@@ -38834,6 +51233,11 @@ pg.equip_data_statistics = {
 		base = 36420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36421
 		},
@@ -38845,6 +51249,11 @@ pg.equip_data_statistics = {
 		base = 36420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36422
 		},
@@ -38856,6 +51265,11 @@ pg.equip_data_statistics = {
 		base = 36420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36423
 		},
@@ -38867,6 +51281,11 @@ pg.equip_data_statistics = {
 		base = 36420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36424
 		},
@@ -38878,6 +51297,11 @@ pg.equip_data_statistics = {
 		base = 36420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36425
 		},
@@ -38889,6 +51313,11 @@ pg.equip_data_statistics = {
 		base = 36420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36426
 		},
@@ -38925,7 +51354,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
 	},
 	[36441] = {
 		value_1 = "29/回",
@@ -38933,6 +51367,11 @@ pg.equip_data_statistics = {
 		base = 36440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36441
 		},
@@ -38944,6 +51383,11 @@ pg.equip_data_statistics = {
 		base = 36440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36442
 		},
@@ -38955,6 +51399,11 @@ pg.equip_data_statistics = {
 		base = 36440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36443
 		},
@@ -38966,6 +51415,11 @@ pg.equip_data_statistics = {
 		base = 36440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36444
 		},
@@ -38977,6 +51431,11 @@ pg.equip_data_statistics = {
 		base = 36440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36445
 		},
@@ -38988,6 +51447,11 @@ pg.equip_data_statistics = {
 		base = 36440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36446
 		},
@@ -38999,6 +51463,11 @@ pg.equip_data_statistics = {
 		base = 36440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36447
 		},
@@ -39010,6 +51479,11 @@ pg.equip_data_statistics = {
 		base = 36440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36448
 		},
@@ -39021,6 +51495,11 @@ pg.equip_data_statistics = {
 		base = 36440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36449
 		},
@@ -39032,6 +51511,11 @@ pg.equip_data_statistics = {
 		base = 36440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36450
 		},
@@ -39068,7 +51552,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
 	},
 	[36501] = {
 		value_1 = "18/回",
@@ -39076,6 +51565,11 @@ pg.equip_data_statistics = {
 		base = 36500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36501
 		},
@@ -39087,6 +51581,11 @@ pg.equip_data_statistics = {
 		base = 36500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36502
 		},
@@ -39098,6 +51597,11 @@ pg.equip_data_statistics = {
 		base = 36500,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36503
 		},
@@ -39134,7 +51638,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
 	},
 	[36521] = {
 		value_1 = "21/回",
@@ -39142,6 +51651,11 @@ pg.equip_data_statistics = {
 		base = 36520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36521
 		},
@@ -39153,6 +51667,11 @@ pg.equip_data_statistics = {
 		base = 36520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36522
 		},
@@ -39164,6 +51683,11 @@ pg.equip_data_statistics = {
 		base = 36520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36523
 		},
@@ -39175,6 +51699,11 @@ pg.equip_data_statistics = {
 		base = 36520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36524
 		},
@@ -39186,6 +51715,11 @@ pg.equip_data_statistics = {
 		base = 36520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36525
 		},
@@ -39197,6 +51731,11 @@ pg.equip_data_statistics = {
 		base = 36520,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36526
 		},
@@ -39233,7 +51772,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
 	},
 	[36541] = {
 		value_1 = "25/回",
@@ -39241,6 +51785,11 @@ pg.equip_data_statistics = {
 		base = 36540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36541
 		},
@@ -39252,6 +51801,11 @@ pg.equip_data_statistics = {
 		base = 36540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36542
 		},
@@ -39263,6 +51817,11 @@ pg.equip_data_statistics = {
 		base = 36540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36543
 		},
@@ -39274,6 +51833,11 @@ pg.equip_data_statistics = {
 		base = 36540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36544
 		},
@@ -39285,6 +51849,11 @@ pg.equip_data_statistics = {
 		base = 36540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36545
 		},
@@ -39296,6 +51865,11 @@ pg.equip_data_statistics = {
 		base = 36540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36546
 		},
@@ -39307,6 +51881,11 @@ pg.equip_data_statistics = {
 		base = 36540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36547
 		},
@@ -39318,6 +51897,11 @@ pg.equip_data_statistics = {
 		base = 36540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36548
 		},
@@ -39329,6 +51913,11 @@ pg.equip_data_statistics = {
 		base = 36540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36549
 		},
@@ -39340,6 +51929,11 @@ pg.equip_data_statistics = {
 		base = 36540,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36550
 		},
@@ -39376,7 +51970,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
 	},
 	[36561] = {
 		value_1 = "57/回",
@@ -39384,6 +51983,11 @@ pg.equip_data_statistics = {
 		base = 36560,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36561
 		},
@@ -39395,6 +51999,11 @@ pg.equip_data_statistics = {
 		base = 36560,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36562
 		},
@@ -39406,6 +52015,11 @@ pg.equip_data_statistics = {
 		base = 36560,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36563
 		},
@@ -39417,6 +52031,11 @@ pg.equip_data_statistics = {
 		base = 36560,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36564
 		},
@@ -39428,6 +52047,11 @@ pg.equip_data_statistics = {
 		base = 36560,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36565
 		},
@@ -39439,6 +52063,11 @@ pg.equip_data_statistics = {
 		base = 36560,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36566
 		},
@@ -39450,6 +52079,11 @@ pg.equip_data_statistics = {
 		base = 36560,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36567
 		},
@@ -39461,6 +52095,11 @@ pg.equip_data_statistics = {
 		base = 36560,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36568
 		},
@@ -39472,6 +52111,11 @@ pg.equip_data_statistics = {
 		base = 36560,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36569
 		},
@@ -39483,6 +52127,11 @@ pg.equip_data_statistics = {
 		base = 36560,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36570
 		},
@@ -39519,7 +52168,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
 	},
 	[36601] = {
 		value_1 = "37/回",
@@ -39527,6 +52181,11 @@ pg.equip_data_statistics = {
 		base = 36600,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36601
 		},
@@ -39538,6 +52197,11 @@ pg.equip_data_statistics = {
 		base = 36600,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36602
 		},
@@ -39549,6 +52213,11 @@ pg.equip_data_statistics = {
 		base = 36600,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36603
 		},
@@ -39585,7 +52254,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
 	},
 	[36621] = {
 		value_1 = "45/回",
@@ -39593,6 +52267,11 @@ pg.equip_data_statistics = {
 		base = 36620,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36621
 		},
@@ -39604,6 +52283,11 @@ pg.equip_data_statistics = {
 		base = 36620,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36622
 		},
@@ -39615,6 +52299,11 @@ pg.equip_data_statistics = {
 		base = 36620,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36623
 		},
@@ -39626,6 +52315,11 @@ pg.equip_data_statistics = {
 		base = 36620,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36624
 		},
@@ -39637,6 +52331,11 @@ pg.equip_data_statistics = {
 		base = 36620,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36625
 		},
@@ -39648,6 +52347,11 @@ pg.equip_data_statistics = {
 		base = 36620,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36626
 		},
@@ -39684,7 +52388,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
 	},
 	[36641] = {
 		value_1 = "53/回",
@@ -39692,6 +52401,11 @@ pg.equip_data_statistics = {
 		base = 36640,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36641
 		},
@@ -39703,6 +52417,11 @@ pg.equip_data_statistics = {
 		base = 36640,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36642
 		},
@@ -39714,6 +52433,11 @@ pg.equip_data_statistics = {
 		base = 36640,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36643
 		},
@@ -39725,6 +52449,11 @@ pg.equip_data_statistics = {
 		base = 36640,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36644
 		},
@@ -39736,6 +52465,11 @@ pg.equip_data_statistics = {
 		base = 36640,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36645
 		},
@@ -39747,6 +52481,11 @@ pg.equip_data_statistics = {
 		base = 36640,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36646
 		},
@@ -39758,6 +52497,11 @@ pg.equip_data_statistics = {
 		base = 36640,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36647
 		},
@@ -39769,6 +52513,11 @@ pg.equip_data_statistics = {
 		base = 36640,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36648
 		},
@@ -39780,6 +52529,11 @@ pg.equip_data_statistics = {
 		base = 36640,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36649
 		},
@@ -39791,6 +52545,11 @@ pg.equip_data_statistics = {
 		base = 36640,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36650
 		},
@@ -39827,7 +52586,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		}
 	},
 	[36701] = {
 		value_1 = "51/回",
@@ -39835,6 +52599,11 @@ pg.equip_data_statistics = {
 		base = 36700,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36701
 		},
@@ -39846,6 +52615,11 @@ pg.equip_data_statistics = {
 		base = 36700,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36702
 		},
@@ -39857,6 +52631,11 @@ pg.equip_data_statistics = {
 		base = 36700,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36703
 		},
@@ -39868,6 +52647,11 @@ pg.equip_data_statistics = {
 		base = 36700,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36704
 		},
@@ -39879,6 +52663,11 @@ pg.equip_data_statistics = {
 		base = 36700,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36705
 		},
@@ -39890,6 +52679,11 @@ pg.equip_data_statistics = {
 		base = 36700,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36706
 		},
@@ -39901,6 +52695,11 @@ pg.equip_data_statistics = {
 		base = 36700,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36707
 		},
@@ -39912,6 +52711,11 @@ pg.equip_data_statistics = {
 		base = 36700,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36708
 		},
@@ -39923,6 +52727,11 @@ pg.equip_data_statistics = {
 		base = 36700,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36709
 		},
@@ -39934,6 +52743,11 @@ pg.equip_data_statistics = {
 		base = 36700,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			36710
 		},
@@ -39970,7 +52784,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		}
 	},
 	[37001] = {
 		value_1 = "9/回",
@@ -39978,6 +52797,11 @@ pg.equip_data_statistics = {
 		base = 37000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37001,
 			83001
@@ -39990,6 +52814,11 @@ pg.equip_data_statistics = {
 		base = 37000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37002,
 			83002
@@ -40002,6 +52831,11 @@ pg.equip_data_statistics = {
 		base = 37000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37003,
 			83003
@@ -40040,7 +52874,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		}
 	},
 	[37021] = {
 		value_1 = "10/回",
@@ -40048,6 +52887,11 @@ pg.equip_data_statistics = {
 		base = 37020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37021,
 			83021
@@ -40060,6 +52904,11 @@ pg.equip_data_statistics = {
 		base = 37020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37022,
 			83022
@@ -40072,6 +52921,11 @@ pg.equip_data_statistics = {
 		base = 37020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37023,
 			83023
@@ -40110,7 +52964,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		}
 	},
 	[37041] = {
 		value_1 = "11/回",
@@ -40118,6 +52977,11 @@ pg.equip_data_statistics = {
 		base = 37040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37041,
 			83041
@@ -40130,6 +52994,11 @@ pg.equip_data_statistics = {
 		base = 37040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37042,
 			83042
@@ -40142,6 +53011,11 @@ pg.equip_data_statistics = {
 		base = 37040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37043,
 			83043
@@ -40154,6 +53028,11 @@ pg.equip_data_statistics = {
 		base = 37040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37044,
 			83044
@@ -40166,6 +53045,11 @@ pg.equip_data_statistics = {
 		base = 37040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37045,
 			83045
@@ -40178,6 +53062,11 @@ pg.equip_data_statistics = {
 		base = 37040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37046,
 			83046
@@ -40216,7 +53105,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		}
 	},
 	[37101] = {
 		value_1 = "24/回",
@@ -40224,6 +53118,11 @@ pg.equip_data_statistics = {
 		base = 37100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37101,
 			83101
@@ -40236,6 +53135,11 @@ pg.equip_data_statistics = {
 		base = 37100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37102,
 			83102
@@ -40248,6 +53152,11 @@ pg.equip_data_statistics = {
 		base = 37100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37103,
 			83103
@@ -40286,7 +53195,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		}
 	},
 	[37121] = {
 		value_1 = "27/回",
@@ -40294,6 +53208,11 @@ pg.equip_data_statistics = {
 		base = 37120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37121,
 			83121
@@ -40306,6 +53225,11 @@ pg.equip_data_statistics = {
 		base = 37120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37122,
 			83122
@@ -40318,6 +53242,11 @@ pg.equip_data_statistics = {
 		base = 37120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37123,
 			83123
@@ -40330,6 +53259,11 @@ pg.equip_data_statistics = {
 		base = 37120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37124,
 			83124
@@ -40342,6 +53276,11 @@ pg.equip_data_statistics = {
 		base = 37120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37125,
 			83125
@@ -40354,6 +53293,11 @@ pg.equip_data_statistics = {
 		base = 37120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37126,
 			83126
@@ -40392,7 +53336,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		}
 	},
 	[37141] = {
 		value_1 = "29/回",
@@ -40400,6 +53349,11 @@ pg.equip_data_statistics = {
 		base = 37140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37141,
 			83141
@@ -40412,6 +53366,11 @@ pg.equip_data_statistics = {
 		base = 37140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37142,
 			83142
@@ -40424,6 +53383,11 @@ pg.equip_data_statistics = {
 		base = 37140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37143,
 			83143
@@ -40436,6 +53400,11 @@ pg.equip_data_statistics = {
 		base = 37140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37144,
 			83144
@@ -40448,6 +53417,11 @@ pg.equip_data_statistics = {
 		base = 37140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37145,
 			83145
@@ -40460,6 +53434,11 @@ pg.equip_data_statistics = {
 		base = 37140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37146,
 			83146
@@ -40472,6 +53451,11 @@ pg.equip_data_statistics = {
 		base = 37140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37147,
 			83147
@@ -40484,6 +53468,11 @@ pg.equip_data_statistics = {
 		base = 37140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37148,
 			83148
@@ -40496,6 +53485,11 @@ pg.equip_data_statistics = {
 		base = 37140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37149,
 			83149
@@ -40508,6 +53502,11 @@ pg.equip_data_statistics = {
 		base = 37140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37150,
 			83150
@@ -40546,7 +53545,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		}
 	},
 	[37201] = {
 		value_1 = "27/回",
@@ -40554,6 +53558,11 @@ pg.equip_data_statistics = {
 		base = 37200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37201,
 			83201
@@ -40566,6 +53575,11 @@ pg.equip_data_statistics = {
 		base = 37200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37202,
 			83202
@@ -40578,6 +53592,11 @@ pg.equip_data_statistics = {
 		base = 37200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37203,
 			83203
@@ -40590,6 +53609,11 @@ pg.equip_data_statistics = {
 		base = 37200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37204,
 			83204
@@ -40602,6 +53626,11 @@ pg.equip_data_statistics = {
 		base = 37200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37205,
 			83205
@@ -40614,6 +53643,11 @@ pg.equip_data_statistics = {
 		base = 37200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37206,
 			83206
@@ -40652,7 +53686,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		}
 	},
 	[37221] = {
 		value_1 = "30/回",
@@ -40660,6 +53699,11 @@ pg.equip_data_statistics = {
 		base = 37220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37221,
 			83221
@@ -40672,6 +53716,11 @@ pg.equip_data_statistics = {
 		base = 37220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37222,
 			83222
@@ -40684,6 +53733,11 @@ pg.equip_data_statistics = {
 		base = 37220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37223,
 			83223
@@ -40696,6 +53750,11 @@ pg.equip_data_statistics = {
 		base = 37220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37224,
 			83224
@@ -40708,6 +53767,11 @@ pg.equip_data_statistics = {
 		base = 37220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37225,
 			83225
@@ -40720,6 +53784,11 @@ pg.equip_data_statistics = {
 		base = 37220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37226,
 			83226
@@ -40732,6 +53801,11 @@ pg.equip_data_statistics = {
 		base = 37220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37227,
 			83227
@@ -40744,6 +53818,11 @@ pg.equip_data_statistics = {
 		base = 37220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37228,
 			83228
@@ -40756,6 +53835,11 @@ pg.equip_data_statistics = {
 		base = 37220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37229,
 			83229
@@ -40768,6 +53852,11 @@ pg.equip_data_statistics = {
 		base = 37220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37230,
 			83230
@@ -40806,7 +53895,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		}
 	},
 	[37241] = {
 		value_1 = "32/回",
@@ -40814,6 +53908,11 @@ pg.equip_data_statistics = {
 		base = 37240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37241,
 			83241
@@ -40826,6 +53925,11 @@ pg.equip_data_statistics = {
 		base = 37240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37242,
 			83242
@@ -40838,6 +53942,11 @@ pg.equip_data_statistics = {
 		base = 37240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37243,
 			83243
@@ -40850,6 +53959,11 @@ pg.equip_data_statistics = {
 		base = 37240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37244,
 			83244
@@ -40862,6 +53976,11 @@ pg.equip_data_statistics = {
 		base = 37240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37245,
 			83245
@@ -40874,6 +53993,11 @@ pg.equip_data_statistics = {
 		base = 37240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37246,
 			83246
@@ -40886,6 +54010,11 @@ pg.equip_data_statistics = {
 		base = 37240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37247,
 			83247
@@ -40898,6 +54027,11 @@ pg.equip_data_statistics = {
 		base = 37240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37248,
 			83248
@@ -40910,6 +54044,11 @@ pg.equip_data_statistics = {
 		base = 37240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37249,
 			83249
@@ -40922,6 +54061,11 @@ pg.equip_data_statistics = {
 		base = 37240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37250,
 			83250
@@ -40960,7 +54104,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		}
 	},
 	[37301] = {
 		value_1 = "33/回",
@@ -40968,6 +54117,11 @@ pg.equip_data_statistics = {
 		base = 37300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37301,
 			83301
@@ -40980,6 +54134,11 @@ pg.equip_data_statistics = {
 		base = 37300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37302,
 			83302
@@ -40992,6 +54151,11 @@ pg.equip_data_statistics = {
 		base = 37300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37303,
 			83303
@@ -41004,6 +54168,11 @@ pg.equip_data_statistics = {
 		base = 37300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37304,
 			83304
@@ -41016,6 +54185,11 @@ pg.equip_data_statistics = {
 		base = 37300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37305,
 			83305
@@ -41028,6 +54202,11 @@ pg.equip_data_statistics = {
 		base = 37300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37306,
 			83306
@@ -41066,7 +54245,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		}
 	},
 	[37321] = {
 		value_1 = "36/回",
@@ -41074,6 +54258,11 @@ pg.equip_data_statistics = {
 		base = 37320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37321,
 			83321
@@ -41086,6 +54275,11 @@ pg.equip_data_statistics = {
 		base = 37320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37322,
 			83322
@@ -41098,6 +54292,11 @@ pg.equip_data_statistics = {
 		base = 37320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37323,
 			83323
@@ -41110,6 +54309,11 @@ pg.equip_data_statistics = {
 		base = 37320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37324,
 			83324
@@ -41122,6 +54326,11 @@ pg.equip_data_statistics = {
 		base = 37320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37325,
 			83325
@@ -41134,6 +54343,11 @@ pg.equip_data_statistics = {
 		base = 37320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37326,
 			83326
@@ -41146,6 +54360,11 @@ pg.equip_data_statistics = {
 		base = 37320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37327,
 			83327
@@ -41158,6 +54377,11 @@ pg.equip_data_statistics = {
 		base = 37320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37328,
 			83328
@@ -41170,6 +54394,11 @@ pg.equip_data_statistics = {
 		base = 37320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37329,
 			83329
@@ -41182,6 +54411,11 @@ pg.equip_data_statistics = {
 		base = 37320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37330,
 			83330
@@ -41220,7 +54454,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		}
 	},
 	[37341] = {
 		value_1 = "40/回",
@@ -41228,6 +54467,11 @@ pg.equip_data_statistics = {
 		base = 37340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37341,
 			83341
@@ -41240,6 +54484,11 @@ pg.equip_data_statistics = {
 		base = 37340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37342,
 			83342
@@ -41252,6 +54501,11 @@ pg.equip_data_statistics = {
 		base = 37340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37343,
 			83343
@@ -41264,6 +54518,11 @@ pg.equip_data_statistics = {
 		base = 37340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37344,
 			83344
@@ -41276,6 +54535,11 @@ pg.equip_data_statistics = {
 		base = 37340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37345,
 			83345
@@ -41288,6 +54552,11 @@ pg.equip_data_statistics = {
 		base = 37340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37346,
 			83346
@@ -41300,6 +54569,11 @@ pg.equip_data_statistics = {
 		base = 37340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37347,
 			83347
@@ -41312,6 +54586,11 @@ pg.equip_data_statistics = {
 		base = 37340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37348,
 			83348
@@ -41324,6 +54603,11 @@ pg.equip_data_statistics = {
 		base = 37340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37349,
 			83349
@@ -41336,6 +54620,11 @@ pg.equip_data_statistics = {
 		base = 37340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			37350,
 			83350
@@ -41372,7 +54661,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		}
 	},
 	[38001] = {
 		value_1 = "56 x 2",
@@ -41380,6 +54674,11 @@ pg.equip_data_statistics = {
 		base = 38000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38001
 		},
@@ -41391,6 +54690,11 @@ pg.equip_data_statistics = {
 		base = 38000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38002
 		},
@@ -41402,6 +54706,11 @@ pg.equip_data_statistics = {
 		base = 38000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38003
 		},
@@ -41438,7 +54747,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		}
 	},
 	[38021] = {
 		value_1 = "62 x 2",
@@ -41446,6 +54760,11 @@ pg.equip_data_statistics = {
 		base = 38020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38021
 		},
@@ -41457,6 +54776,11 @@ pg.equip_data_statistics = {
 		base = 38020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38022
 		},
@@ -41468,6 +54792,11 @@ pg.equip_data_statistics = {
 		base = 38020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38023
 		},
@@ -41504,7 +54833,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		}
 	},
 	[38041] = {
 		value_1 = "68 x 2",
@@ -41512,6 +54846,11 @@ pg.equip_data_statistics = {
 		base = 38040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38041
 		},
@@ -41523,6 +54862,11 @@ pg.equip_data_statistics = {
 		base = 38040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38042
 		},
@@ -41534,6 +54878,11 @@ pg.equip_data_statistics = {
 		base = 38040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38043
 		},
@@ -41545,6 +54894,11 @@ pg.equip_data_statistics = {
 		base = 38040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38044
 		},
@@ -41556,6 +54910,11 @@ pg.equip_data_statistics = {
 		base = 38040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38045
 		},
@@ -41567,6 +54926,11 @@ pg.equip_data_statistics = {
 		base = 38040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38046
 		},
@@ -41603,7 +54967,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		}
 	},
 	[38101] = {
 		value_1 = "56 x 3",
@@ -41611,6 +54980,11 @@ pg.equip_data_statistics = {
 		base = 38100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38101
 		},
@@ -41622,6 +54996,11 @@ pg.equip_data_statistics = {
 		base = 38100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38102
 		},
@@ -41633,6 +55012,11 @@ pg.equip_data_statistics = {
 		base = 38100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38103
 		},
@@ -41669,7 +55053,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		}
 	},
 	[38121] = {
 		value_1 = "62 x 3",
@@ -41677,6 +55066,11 @@ pg.equip_data_statistics = {
 		base = 38120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38121
 		},
@@ -41688,6 +55082,11 @@ pg.equip_data_statistics = {
 		base = 38120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38122
 		},
@@ -41699,6 +55098,11 @@ pg.equip_data_statistics = {
 		base = 38120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38123
 		},
@@ -41710,6 +55114,11 @@ pg.equip_data_statistics = {
 		base = 38120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38124
 		},
@@ -41721,6 +55130,11 @@ pg.equip_data_statistics = {
 		base = 38120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38125
 		},
@@ -41732,6 +55146,11 @@ pg.equip_data_statistics = {
 		base = 38120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38126
 		},
@@ -41768,7 +55187,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		}
 	},
 	[38141] = {
 		value_1 = "68 x 3",
@@ -41776,6 +55200,11 @@ pg.equip_data_statistics = {
 		base = 38140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38141
 		},
@@ -41787,6 +55216,11 @@ pg.equip_data_statistics = {
 		base = 38140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38142
 		},
@@ -41798,6 +55232,11 @@ pg.equip_data_statistics = {
 		base = 38140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38143
 		},
@@ -41809,6 +55248,11 @@ pg.equip_data_statistics = {
 		base = 38140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38144
 		},
@@ -41820,6 +55264,11 @@ pg.equip_data_statistics = {
 		base = 38140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38145
 		},
@@ -41831,6 +55280,11 @@ pg.equip_data_statistics = {
 		base = 38140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38146
 		},
@@ -41842,6 +55296,11 @@ pg.equip_data_statistics = {
 		base = 38140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38147
 		},
@@ -41853,6 +55312,11 @@ pg.equip_data_statistics = {
 		base = 38140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38148
 		},
@@ -41864,6 +55328,11 @@ pg.equip_data_statistics = {
 		base = 38140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38149
 		},
@@ -41875,6 +55344,11 @@ pg.equip_data_statistics = {
 		base = 38140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38150
 		},
@@ -41911,7 +55385,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		}
 	},
 	[38201] = {
 		value_1 = "62 x 3",
@@ -41919,6 +55398,11 @@ pg.equip_data_statistics = {
 		base = 38200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38201
 		},
@@ -41930,6 +55414,11 @@ pg.equip_data_statistics = {
 		base = 38200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38202
 		},
@@ -41941,6 +55430,11 @@ pg.equip_data_statistics = {
 		base = 38200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38203
 		},
@@ -41952,6 +55446,11 @@ pg.equip_data_statistics = {
 		base = 38200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38204
 		},
@@ -41963,6 +55462,11 @@ pg.equip_data_statistics = {
 		base = 38200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38205
 		},
@@ -41974,6 +55478,11 @@ pg.equip_data_statistics = {
 		base = 38200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38206
 		},
@@ -42010,7 +55519,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		}
 	},
 	[38221] = {
 		value_1 = "68 x 3",
@@ -42018,6 +55532,11 @@ pg.equip_data_statistics = {
 		base = 38220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38221
 		},
@@ -42029,6 +55548,11 @@ pg.equip_data_statistics = {
 		base = 38220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38222
 		},
@@ -42040,6 +55564,11 @@ pg.equip_data_statistics = {
 		base = 38220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38223
 		},
@@ -42051,6 +55580,11 @@ pg.equip_data_statistics = {
 		base = 38220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38224
 		},
@@ -42062,6 +55596,11 @@ pg.equip_data_statistics = {
 		base = 38220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38225
 		},
@@ -42073,6 +55612,11 @@ pg.equip_data_statistics = {
 		base = 38220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38226
 		},
@@ -42084,6 +55628,11 @@ pg.equip_data_statistics = {
 		base = 38220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38227
 		},
@@ -42095,6 +55644,11 @@ pg.equip_data_statistics = {
 		base = 38220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38228
 		},
@@ -42106,6 +55660,11 @@ pg.equip_data_statistics = {
 		base = 38220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38229
 		},
@@ -42117,6 +55676,11 @@ pg.equip_data_statistics = {
 		base = 38220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38230
 		},
@@ -42153,7 +55717,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		}
 	},
 	[38241] = {
 		value_1 = "72 x 3",
@@ -42161,6 +55730,11 @@ pg.equip_data_statistics = {
 		base = 38240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38241
 		},
@@ -42172,6 +55746,11 @@ pg.equip_data_statistics = {
 		base = 38240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38242
 		},
@@ -42183,6 +55762,11 @@ pg.equip_data_statistics = {
 		base = 38240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38243
 		},
@@ -42194,6 +55778,11 @@ pg.equip_data_statistics = {
 		base = 38240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38244
 		},
@@ -42205,6 +55794,11 @@ pg.equip_data_statistics = {
 		base = 38240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38245
 		},
@@ -42216,6 +55810,11 @@ pg.equip_data_statistics = {
 		base = 38240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38246
 		},
@@ -42227,6 +55826,11 @@ pg.equip_data_statistics = {
 		base = 38240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38247
 		},
@@ -42238,6 +55842,11 @@ pg.equip_data_statistics = {
 		base = 38240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38248
 		},
@@ -42249,6 +55858,11 @@ pg.equip_data_statistics = {
 		base = 38240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38249
 		},
@@ -42260,6 +55874,11 @@ pg.equip_data_statistics = {
 		base = 38240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"TB"
+		},
 		weapon_id = {
 			38250
 		},
@@ -42296,7 +55915,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		}
 	},
 	[39001] = {
 		value_1 = "89 x 3",
@@ -42304,6 +55928,11 @@ pg.equip_data_statistics = {
 		base = 39000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39001
 		},
@@ -42315,6 +55944,11 @@ pg.equip_data_statistics = {
 		base = 39000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39002
 		},
@@ -42326,6 +55960,11 @@ pg.equip_data_statistics = {
 		base = 39000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39003
 		},
@@ -42362,7 +56001,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		}
 	},
 	[39021] = {
 		value_1 = "99 x 3",
@@ -42370,6 +56014,11 @@ pg.equip_data_statistics = {
 		base = 39020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39021
 		},
@@ -42381,6 +56030,11 @@ pg.equip_data_statistics = {
 		base = 39020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39022
 		},
@@ -42392,6 +56046,11 @@ pg.equip_data_statistics = {
 		base = 39020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39023
 		},
@@ -42403,6 +56062,11 @@ pg.equip_data_statistics = {
 		base = 39020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39024
 		},
@@ -42414,6 +56078,11 @@ pg.equip_data_statistics = {
 		base = 39020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39025
 		},
@@ -42425,6 +56094,11 @@ pg.equip_data_statistics = {
 		base = 39020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39026
 		},
@@ -42461,7 +56135,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		}
 	},
 	[39041] = {
 		value_1 = "107 x 3",
@@ -42469,6 +56148,11 @@ pg.equip_data_statistics = {
 		base = 39040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39041
 		},
@@ -42480,6 +56164,11 @@ pg.equip_data_statistics = {
 		base = 39040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39042
 		},
@@ -42491,6 +56180,11 @@ pg.equip_data_statistics = {
 		base = 39040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39043
 		},
@@ -42502,6 +56196,11 @@ pg.equip_data_statistics = {
 		base = 39040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39044
 		},
@@ -42513,6 +56212,11 @@ pg.equip_data_statistics = {
 		base = 39040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39045
 		},
@@ -42524,6 +56228,11 @@ pg.equip_data_statistics = {
 		base = 39040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39046
 		},
@@ -42535,6 +56244,11 @@ pg.equip_data_statistics = {
 		base = 39040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39047
 		},
@@ -42546,6 +56260,11 @@ pg.equip_data_statistics = {
 		base = 39040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39048
 		},
@@ -42557,6 +56276,11 @@ pg.equip_data_statistics = {
 		base = 39040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39049
 		},
@@ -42568,6 +56292,11 @@ pg.equip_data_statistics = {
 		base = 39040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39050
 		},
@@ -42604,7 +56333,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		}
 	},
 	[39101] = {
 		value_1 = "94 x 3",
@@ -42612,6 +56346,11 @@ pg.equip_data_statistics = {
 		base = 39100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39101
 		},
@@ -42623,6 +56362,11 @@ pg.equip_data_statistics = {
 		base = 39100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39102
 		},
@@ -42634,6 +56378,11 @@ pg.equip_data_statistics = {
 		base = 39100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39103
 		},
@@ -42645,6 +56394,11 @@ pg.equip_data_statistics = {
 		base = 39100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39104
 		},
@@ -42656,6 +56410,11 @@ pg.equip_data_statistics = {
 		base = 39100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39105
 		},
@@ -42667,6 +56426,11 @@ pg.equip_data_statistics = {
 		base = 39100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39106
 		},
@@ -42703,7 +56467,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		}
 	},
 	[39121] = {
 		value_1 = "105 x 3",
@@ -42711,6 +56480,11 @@ pg.equip_data_statistics = {
 		base = 39120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39121
 		},
@@ -42722,6 +56496,11 @@ pg.equip_data_statistics = {
 		base = 39120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39122
 		},
@@ -42733,6 +56512,11 @@ pg.equip_data_statistics = {
 		base = 39120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39123
 		},
@@ -42744,6 +56528,11 @@ pg.equip_data_statistics = {
 		base = 39120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39124
 		},
@@ -42755,6 +56544,11 @@ pg.equip_data_statistics = {
 		base = 39120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39125
 		},
@@ -42766,6 +56560,11 @@ pg.equip_data_statistics = {
 		base = 39120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39126
 		},
@@ -42777,6 +56576,11 @@ pg.equip_data_statistics = {
 		base = 39120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39127
 		},
@@ -42788,6 +56592,11 @@ pg.equip_data_statistics = {
 		base = 39120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39128
 		},
@@ -42799,6 +56608,11 @@ pg.equip_data_statistics = {
 		base = 39120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39129
 		},
@@ -42810,6 +56624,11 @@ pg.equip_data_statistics = {
 		base = 39120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39130
 		},
@@ -42846,7 +56665,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		}
 	},
 	[39141] = {
 		value_1 = "114 x 3",
@@ -42854,6 +56678,11 @@ pg.equip_data_statistics = {
 		base = 39140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39141
 		},
@@ -42865,6 +56694,11 @@ pg.equip_data_statistics = {
 		base = 39140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39142
 		},
@@ -42876,6 +56710,11 @@ pg.equip_data_statistics = {
 		base = 39140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39143
 		},
@@ -42887,6 +56726,11 @@ pg.equip_data_statistics = {
 		base = 39140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39144
 		},
@@ -42898,6 +56742,11 @@ pg.equip_data_statistics = {
 		base = 39140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39145
 		},
@@ -42909,6 +56758,11 @@ pg.equip_data_statistics = {
 		base = 39140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39146
 		},
@@ -42920,6 +56774,11 @@ pg.equip_data_statistics = {
 		base = 39140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39147
 		},
@@ -42931,6 +56790,11 @@ pg.equip_data_statistics = {
 		base = 39140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39148
 		},
@@ -42942,6 +56806,11 @@ pg.equip_data_statistics = {
 		base = 39140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39149
 		},
@@ -42953,6 +56822,11 @@ pg.equip_data_statistics = {
 		base = 39140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			39150
 		},
@@ -42989,7 +56863,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		}
 	},
 	[39201] = {
 		value_1 = "138 x 1",
@@ -42997,6 +56876,11 @@ pg.equip_data_statistics = {
 		base = 39200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39201
 		},
@@ -43008,6 +56892,11 @@ pg.equip_data_statistics = {
 		base = 39200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39202
 		},
@@ -43019,6 +56908,11 @@ pg.equip_data_statistics = {
 		base = 39200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39203
 		},
@@ -43055,7 +56949,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		}
 	},
 	[39221] = {
 		value_1 = "152 x 1",
@@ -43063,6 +56962,11 @@ pg.equip_data_statistics = {
 		base = 39220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39221
 		},
@@ -43074,6 +56978,11 @@ pg.equip_data_statistics = {
 		base = 39220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39222
 		},
@@ -43085,6 +56994,11 @@ pg.equip_data_statistics = {
 		base = 39220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39223
 		},
@@ -43096,6 +57010,11 @@ pg.equip_data_statistics = {
 		base = 39220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39224
 		},
@@ -43107,6 +57026,11 @@ pg.equip_data_statistics = {
 		base = 39220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39225
 		},
@@ -43118,6 +57042,11 @@ pg.equip_data_statistics = {
 		base = 39220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39226
 		},
@@ -43154,7 +57083,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		}
 	},
 	[39241] = {
 		value_1 = "165 x 1",
@@ -43162,6 +57096,11 @@ pg.equip_data_statistics = {
 		base = 39240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39241
 		},
@@ -43173,6 +57112,11 @@ pg.equip_data_statistics = {
 		base = 39240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39242
 		},
@@ -43184,6 +57128,11 @@ pg.equip_data_statistics = {
 		base = 39240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39243
 		},
@@ -43195,6 +57144,11 @@ pg.equip_data_statistics = {
 		base = 39240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39244
 		},
@@ -43206,6 +57160,11 @@ pg.equip_data_statistics = {
 		base = 39240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39245
 		},
@@ -43217,6 +57176,11 @@ pg.equip_data_statistics = {
 		base = 39240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39246
 		},
@@ -43228,6 +57192,11 @@ pg.equip_data_statistics = {
 		base = 39240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39247
 		},
@@ -43239,6 +57208,11 @@ pg.equip_data_statistics = {
 		base = 39240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39248
 		},
@@ -43250,6 +57224,11 @@ pg.equip_data_statistics = {
 		base = 39240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39249
 		},
@@ -43261,6 +57240,11 @@ pg.equip_data_statistics = {
 		base = 39240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39250
 		},
@@ -43299,7 +57283,12 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		}
 	},
 	[39301] = {
 		value_1 = "196 x 1",
@@ -43307,6 +57296,11 @@ pg.equip_data_statistics = {
 		base = 39300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39301
 		},
@@ -43318,6 +57312,11 @@ pg.equip_data_statistics = {
 		base = 39300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39302
 		},
@@ -43329,6 +57328,11 @@ pg.equip_data_statistics = {
 		base = 39300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39303
 		},
@@ -43340,6 +57344,11 @@ pg.equip_data_statistics = {
 		base = 39300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39304
 		},
@@ -43351,6 +57360,11 @@ pg.equip_data_statistics = {
 		base = 39300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39305
 		},
@@ -43362,6 +57376,11 @@ pg.equip_data_statistics = {
 		base = 39300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39306
 		},
@@ -43373,6 +57392,11 @@ pg.equip_data_statistics = {
 		base = 39300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39307
 		},
@@ -43384,6 +57408,11 @@ pg.equip_data_statistics = {
 		base = 39300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39308
 		},
@@ -43395,6 +57424,11 @@ pg.equip_data_statistics = {
 		base = 39300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39309
 		},
@@ -43406,6 +57440,11 @@ pg.equip_data_statistics = {
 		base = 39300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		},
 		weapon_id = {
 			39310
 		},
@@ -43448,7 +57487,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		}
 	},
 	[41001] = {
 		value_1 = "4 x 1",
@@ -43456,6 +57500,11 @@ pg.equip_data_statistics = {
 		base = 41000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41001
 		},
@@ -43467,6 +57516,11 @@ pg.equip_data_statistics = {
 		base = 41000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41002
 		},
@@ -43478,6 +57532,11 @@ pg.equip_data_statistics = {
 		base = 41000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41003
 		},
@@ -43521,7 +57580,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		}
 	},
 	[41021] = {
 		value_1 = "4 x 1",
@@ -43529,6 +57593,11 @@ pg.equip_data_statistics = {
 		base = 41020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41021
 		},
@@ -43540,6 +57609,11 @@ pg.equip_data_statistics = {
 		base = 41020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41022
 		},
@@ -43551,6 +57625,11 @@ pg.equip_data_statistics = {
 		base = 41020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41023
 		},
@@ -43594,7 +57673,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		}
 	},
 	[41041] = {
 		value_1 = "4 x 1",
@@ -43602,6 +57686,11 @@ pg.equip_data_statistics = {
 		base = 41040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41041
 		},
@@ -43613,6 +57702,11 @@ pg.equip_data_statistics = {
 		base = 41040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41042
 		},
@@ -43624,6 +57718,11 @@ pg.equip_data_statistics = {
 		base = 41040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41043
 		},
@@ -43635,6 +57734,11 @@ pg.equip_data_statistics = {
 		base = 41040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41044
 		},
@@ -43646,6 +57750,11 @@ pg.equip_data_statistics = {
 		base = 41040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41045
 		},
@@ -43657,6 +57766,11 @@ pg.equip_data_statistics = {
 		base = 41040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41046
 		},
@@ -43682,8 +57796,8 @@ pg.equip_data_statistics = {
 		attribute_3 = "antiaircraft",
 		ammo = "徹甲弾",
 		is_siren = 0,
-		descrip = "クラップが新たに開発した駆逐艦兵装・128mmSKC41両用砲。対空火力を強化できる",
 		value_3 = 2,
+		descrip = "クラップが新たに開発した駆逐艦兵装・128mmSKC41両用砲。対空火力を強化できる",
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
 		property_rate = {},
@@ -43701,7 +57815,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		}
 	},
 	[41101] = {
 		value_1 = "5 x 4",
@@ -43709,6 +57828,11 @@ pg.equip_data_statistics = {
 		base = 41100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41101
 		},
@@ -43720,6 +57844,11 @@ pg.equip_data_statistics = {
 		base = 41100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41102
 		},
@@ -43731,6 +57860,11 @@ pg.equip_data_statistics = {
 		base = 41100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41103
 		},
@@ -43756,8 +57890,8 @@ pg.equip_data_statistics = {
 		attribute_3 = "antiaircraft",
 		ammo = "徹甲弾",
 		is_siren = 0,
-		descrip = "クラップが新たに開発した駆逐艦兵装・128mmSKC41両用砲。対空火力を強化できる",
 		value_3 = 5,
+		descrip = "クラップが新たに開発した駆逐艦兵装・128mmSKC41両用砲。対空火力を強化できる",
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
 		property_rate = {},
@@ -43775,7 +57909,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		}
 	},
 	[41121] = {
 		value_1 = "5 x 4",
@@ -43783,6 +57922,11 @@ pg.equip_data_statistics = {
 		base = 41120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41121
 		},
@@ -43794,6 +57938,11 @@ pg.equip_data_statistics = {
 		base = 41120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41122
 		},
@@ -43805,6 +57954,11 @@ pg.equip_data_statistics = {
 		base = 41120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41123
 		},
@@ -43816,6 +57970,11 @@ pg.equip_data_statistics = {
 		base = 41120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41124
 		},
@@ -43827,6 +57986,11 @@ pg.equip_data_statistics = {
 		base = 41120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41125
 		},
@@ -43838,6 +58002,11 @@ pg.equip_data_statistics = {
 		base = 41120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41126
 		},
@@ -43863,8 +58032,8 @@ pg.equip_data_statistics = {
 		attribute_3 = "antiaircraft",
 		ammo = "徹甲弾",
 		is_siren = 0,
-		descrip = "クラップが新たに開発した駆逐艦兵装・128mmSKC41両用砲。対空火力を強化できる",
 		value_3 = 10,
+		descrip = "クラップが新たに開発した駆逐艦兵装・128mmSKC41両用砲。対空火力を強化できる",
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
 		property_rate = {},
@@ -43882,7 +58051,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		}
 	},
 	[41141] = {
 		value_1 = "6 x 4",
@@ -43890,6 +58064,11 @@ pg.equip_data_statistics = {
 		base = 41140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41141
 		},
@@ -43901,6 +58080,11 @@ pg.equip_data_statistics = {
 		base = 41140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41142
 		},
@@ -43912,6 +58096,11 @@ pg.equip_data_statistics = {
 		base = 41140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41143
 		},
@@ -43923,6 +58112,11 @@ pg.equip_data_statistics = {
 		base = 41140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41144
 		},
@@ -43934,6 +58128,11 @@ pg.equip_data_statistics = {
 		base = 41140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41145
 		},
@@ -43945,6 +58144,11 @@ pg.equip_data_statistics = {
 		base = 41140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41146
 		},
@@ -43956,6 +58160,11 @@ pg.equip_data_statistics = {
 		base = 41140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41147
 		},
@@ -43967,6 +58176,11 @@ pg.equip_data_statistics = {
 		base = 41140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41148
 		},
@@ -43978,6 +58192,11 @@ pg.equip_data_statistics = {
 		base = 41140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41149
 		},
@@ -43989,6 +58208,11 @@ pg.equip_data_statistics = {
 		base = 41140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			41150
 		},
@@ -44031,7 +58255,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		}
 	},
 	[42001] = {
 		value_1 = "8 x 1",
@@ -44039,6 +58268,11 @@ pg.equip_data_statistics = {
 		base = 42000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42001
 		},
@@ -44050,6 +58284,11 @@ pg.equip_data_statistics = {
 		base = 42000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42002
 		},
@@ -44061,6 +58300,11 @@ pg.equip_data_statistics = {
 		base = 42000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42003
 		},
@@ -44103,7 +58347,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		}
 	},
 	[42021] = {
 		value_1 = "9 x 1",
@@ -44111,6 +58360,11 @@ pg.equip_data_statistics = {
 		base = 42020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42021
 		},
@@ -44122,6 +58376,11 @@ pg.equip_data_statistics = {
 		base = 42020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42022
 		},
@@ -44133,6 +58392,11 @@ pg.equip_data_statistics = {
 		base = 42020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42023
 		},
@@ -44144,6 +58408,11 @@ pg.equip_data_statistics = {
 		base = 42020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42024
 		},
@@ -44155,6 +58424,11 @@ pg.equip_data_statistics = {
 		base = 42020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42025
 		},
@@ -44166,6 +58440,11 @@ pg.equip_data_statistics = {
 		base = 42020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42026
 		},
@@ -44208,7 +58487,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		}
 	},
 	[42041] = {
 		value_1 = "10 x 1",
@@ -44216,6 +58500,11 @@ pg.equip_data_statistics = {
 		base = 42040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42041
 		},
@@ -44227,6 +58516,11 @@ pg.equip_data_statistics = {
 		base = 42040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42042
 		},
@@ -44238,6 +58532,11 @@ pg.equip_data_statistics = {
 		base = 42040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42043
 		},
@@ -44249,6 +58548,11 @@ pg.equip_data_statistics = {
 		base = 42040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42044
 		},
@@ -44260,6 +58564,11 @@ pg.equip_data_statistics = {
 		base = 42040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42045
 		},
@@ -44271,6 +58580,11 @@ pg.equip_data_statistics = {
 		base = 42040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42046
 		},
@@ -44282,6 +58596,11 @@ pg.equip_data_statistics = {
 		base = 42040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42047
 		},
@@ -44293,6 +58612,11 @@ pg.equip_data_statistics = {
 		base = 42040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42048
 		},
@@ -44304,6 +58628,11 @@ pg.equip_data_statistics = {
 		base = 42040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42049
 		},
@@ -44315,6 +58644,11 @@ pg.equip_data_statistics = {
 		base = 42040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42050
 		},
@@ -44357,7 +58691,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		}
 	},
 	[42101] = {
 		value_1 = "8 x 3",
@@ -44365,6 +58704,11 @@ pg.equip_data_statistics = {
 		base = 42100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42101
 		},
@@ -44376,6 +58720,11 @@ pg.equip_data_statistics = {
 		base = 42100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42102
 		},
@@ -44387,6 +58736,11 @@ pg.equip_data_statistics = {
 		base = 42100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42103
 		},
@@ -44429,7 +58783,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		}
 	},
 	[42121] = {
 		value_1 = "9 x 3",
@@ -44437,6 +58796,11 @@ pg.equip_data_statistics = {
 		base = 42120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42121
 		},
@@ -44448,6 +58812,11 @@ pg.equip_data_statistics = {
 		base = 42120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42122
 		},
@@ -44459,6 +58828,11 @@ pg.equip_data_statistics = {
 		base = 42120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42123
 		},
@@ -44470,6 +58844,11 @@ pg.equip_data_statistics = {
 		base = 42120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42124
 		},
@@ -44481,6 +58860,11 @@ pg.equip_data_statistics = {
 		base = 42120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42125
 		},
@@ -44492,6 +58876,11 @@ pg.equip_data_statistics = {
 		base = 42120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42126
 		},
@@ -44534,7 +58923,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		}
 	},
 	[42141] = {
 		value_1 = "10 x 3",
@@ -44542,6 +58936,11 @@ pg.equip_data_statistics = {
 		base = 42140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42141
 		},
@@ -44553,6 +58952,11 @@ pg.equip_data_statistics = {
 		base = 42140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42142
 		},
@@ -44564,6 +58968,11 @@ pg.equip_data_statistics = {
 		base = 42140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42143
 		},
@@ -44575,6 +58984,11 @@ pg.equip_data_statistics = {
 		base = 42140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42144
 		},
@@ -44586,6 +59000,11 @@ pg.equip_data_statistics = {
 		base = 42140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42145
 		},
@@ -44597,6 +59016,11 @@ pg.equip_data_statistics = {
 		base = 42140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42146
 		},
@@ -44608,6 +59032,11 @@ pg.equip_data_statistics = {
 		base = 42140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42147
 		},
@@ -44619,6 +59048,11 @@ pg.equip_data_statistics = {
 		base = 42140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42148
 		},
@@ -44630,6 +59064,11 @@ pg.equip_data_statistics = {
 		base = 42140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42149
 		},
@@ -44641,6 +59080,11 @@ pg.equip_data_statistics = {
 		base = 42140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42150
 		},
@@ -44683,7 +59127,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		}
 	},
 	[42201] = {
 		value_1 = "8 x 4",
@@ -44691,6 +59140,11 @@ pg.equip_data_statistics = {
 		base = 42200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42201
 		},
@@ -44702,6 +59156,11 @@ pg.equip_data_statistics = {
 		base = 42200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42202
 		},
@@ -44713,6 +59172,11 @@ pg.equip_data_statistics = {
 		base = 42200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42203
 		},
@@ -44755,7 +59219,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		}
 	},
 	[42221] = {
 		value_1 = "9 x 4",
@@ -44763,6 +59232,11 @@ pg.equip_data_statistics = {
 		base = 42220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42221
 		},
@@ -44774,6 +59248,11 @@ pg.equip_data_statistics = {
 		base = 42220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42222
 		},
@@ -44785,6 +59264,11 @@ pg.equip_data_statistics = {
 		base = 42220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42223
 		},
@@ -44796,6 +59280,11 @@ pg.equip_data_statistics = {
 		base = 42220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42224
 		},
@@ -44807,6 +59296,11 @@ pg.equip_data_statistics = {
 		base = 42220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42225
 		},
@@ -44818,6 +59312,11 @@ pg.equip_data_statistics = {
 		base = 42220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42226
 		},
@@ -44860,7 +59359,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		}
 	},
 	[42241] = {
 		value_1 = "10 x 4",
@@ -44868,6 +59372,11 @@ pg.equip_data_statistics = {
 		base = 42240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42241
 		},
@@ -44879,6 +59388,11 @@ pg.equip_data_statistics = {
 		base = 42240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42242
 		},
@@ -44890,6 +59404,11 @@ pg.equip_data_statistics = {
 		base = 42240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42243
 		},
@@ -44901,6 +59420,11 @@ pg.equip_data_statistics = {
 		base = 42240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42244
 		},
@@ -44912,6 +59436,11 @@ pg.equip_data_statistics = {
 		base = 42240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42245
 		},
@@ -44923,6 +59452,11 @@ pg.equip_data_statistics = {
 		base = 42240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42246
 		},
@@ -44934,6 +59468,11 @@ pg.equip_data_statistics = {
 		base = 42240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42247
 		},
@@ -44945,6 +59484,11 @@ pg.equip_data_statistics = {
 		base = 42240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42248
 		},
@@ -44956,6 +59500,11 @@ pg.equip_data_statistics = {
 		base = 42240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42249
 		},
@@ -44967,6 +59516,11 @@ pg.equip_data_statistics = {
 		base = 42240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			42250
 		},
@@ -45007,7 +59561,12 @@ pg.equip_data_statistics = {
 			3
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		}
 	},
 	[43001] = {
 		value_1 = "27 x 6",
@@ -45015,6 +59574,11 @@ pg.equip_data_statistics = {
 		base = 43000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43001
 		},
@@ -45026,6 +59590,11 @@ pg.equip_data_statistics = {
 		base = 43000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43002
 		},
@@ -45037,6 +59606,11 @@ pg.equip_data_statistics = {
 		base = 43000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43003
 		},
@@ -45048,6 +59622,11 @@ pg.equip_data_statistics = {
 		base = 43000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43004
 		},
@@ -45059,6 +59638,11 @@ pg.equip_data_statistics = {
 		base = 43000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43005
 		},
@@ -45070,6 +59654,11 @@ pg.equip_data_statistics = {
 		base = 43000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43006
 		},
@@ -45110,7 +59699,12 @@ pg.equip_data_statistics = {
 			3
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		}
 	},
 	[43021] = {
 		value_1 = "29 x 6",
@@ -45118,6 +59712,11 @@ pg.equip_data_statistics = {
 		base = 43020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43021
 		},
@@ -45129,6 +59728,11 @@ pg.equip_data_statistics = {
 		base = 43020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43022
 		},
@@ -45140,6 +59744,11 @@ pg.equip_data_statistics = {
 		base = 43020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43023
 		},
@@ -45151,6 +59760,11 @@ pg.equip_data_statistics = {
 		base = 43020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43024
 		},
@@ -45162,6 +59776,11 @@ pg.equip_data_statistics = {
 		base = 43020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43025
 		},
@@ -45173,6 +59792,11 @@ pg.equip_data_statistics = {
 		base = 43020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43026
 		},
@@ -45184,6 +59808,11 @@ pg.equip_data_statistics = {
 		base = 43020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43027
 		},
@@ -45195,6 +59824,11 @@ pg.equip_data_statistics = {
 		base = 43020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43028
 		},
@@ -45206,6 +59840,11 @@ pg.equip_data_statistics = {
 		base = 43020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43029
 		},
@@ -45217,6 +59856,11 @@ pg.equip_data_statistics = {
 		base = 43020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43030
 		},
@@ -45257,7 +59901,12 @@ pg.equip_data_statistics = {
 			3
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		}
 	},
 	[43041] = {
 		value_1 = "32 x 6",
@@ -45265,6 +59914,11 @@ pg.equip_data_statistics = {
 		base = 43040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43041
 		},
@@ -45276,6 +59930,11 @@ pg.equip_data_statistics = {
 		base = 43040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43042
 		},
@@ -45287,6 +59946,11 @@ pg.equip_data_statistics = {
 		base = 43040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43043
 		},
@@ -45298,6 +59962,11 @@ pg.equip_data_statistics = {
 		base = 43040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43044
 		},
@@ -45309,6 +59978,11 @@ pg.equip_data_statistics = {
 		base = 43040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43045
 		},
@@ -45320,6 +59994,11 @@ pg.equip_data_statistics = {
 		base = 43040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43046
 		},
@@ -45331,6 +60010,11 @@ pg.equip_data_statistics = {
 		base = 43040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43047
 		},
@@ -45342,6 +60026,11 @@ pg.equip_data_statistics = {
 		base = 43040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43048
 		},
@@ -45353,6 +60042,11 @@ pg.equip_data_statistics = {
 		base = 43040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43049
 		},
@@ -45364,6 +60058,11 @@ pg.equip_data_statistics = {
 		base = 43040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43050
 		},
@@ -45404,7 +60103,12 @@ pg.equip_data_statistics = {
 			3
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		}
 	},
 	[43061] = {
 		value_1 = "32 x 6",
@@ -45412,6 +60116,11 @@ pg.equip_data_statistics = {
 		base = 43060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43061
 		},
@@ -45423,6 +60132,11 @@ pg.equip_data_statistics = {
 		base = 43060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43062
 		},
@@ -45434,6 +60148,11 @@ pg.equip_data_statistics = {
 		base = 43060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43063
 		},
@@ -45445,6 +60164,11 @@ pg.equip_data_statistics = {
 		base = 43060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43064
 		},
@@ -45456,6 +60180,11 @@ pg.equip_data_statistics = {
 		base = 43060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43065
 		},
@@ -45467,6 +60196,11 @@ pg.equip_data_statistics = {
 		base = 43060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43066
 		},
@@ -45478,6 +60212,11 @@ pg.equip_data_statistics = {
 		base = 43060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43067
 		},
@@ -45489,6 +60228,11 @@ pg.equip_data_statistics = {
 		base = 43060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43068
 		},
@@ -45500,6 +60244,11 @@ pg.equip_data_statistics = {
 		base = 43060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43069
 		},
@@ -45511,6 +60260,11 @@ pg.equip_data_statistics = {
 		base = 43060,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CA",
+			"MG"
+		},
 		weapon_id = {
 			43070
 		},
@@ -45551,7 +60305,12 @@ pg.equip_data_statistics = {
 			3
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CB",
+			"MG"
+		}
 	},
 	[43101] = {
 		value_1 = "32 x 6",
@@ -45559,6 +60318,11 @@ pg.equip_data_statistics = {
 		base = 43100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			43101
 		},
@@ -45570,6 +60334,11 @@ pg.equip_data_statistics = {
 		base = 43100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			43102
 		},
@@ -45581,6 +60350,11 @@ pg.equip_data_statistics = {
 		base = 43100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			43103
 		},
@@ -45621,7 +60395,12 @@ pg.equip_data_statistics = {
 			3
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CB",
+			"MG"
+		}
 	},
 	[43121] = {
 		value_1 = "34 x 6",
@@ -45629,6 +60408,11 @@ pg.equip_data_statistics = {
 		base = 43120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			43121
 		},
@@ -45640,6 +60424,11 @@ pg.equip_data_statistics = {
 		base = 43120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			43122
 		},
@@ -45651,6 +60440,11 @@ pg.equip_data_statistics = {
 		base = 43120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			43123
 		},
@@ -45662,6 +60456,11 @@ pg.equip_data_statistics = {
 		base = 43120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			43124
 		},
@@ -45673,6 +60472,11 @@ pg.equip_data_statistics = {
 		base = 43120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			43125
 		},
@@ -45684,6 +60488,11 @@ pg.equip_data_statistics = {
 		base = 43120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			43126
 		},
@@ -45724,7 +60533,12 @@ pg.equip_data_statistics = {
 			3
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CB",
+			"MG"
+		}
 	},
 	[43141] = {
 		value_1 = "37 x 6",
@@ -45732,6 +60546,11 @@ pg.equip_data_statistics = {
 		base = 43140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			43141
 		},
@@ -45743,6 +60562,11 @@ pg.equip_data_statistics = {
 		base = 43140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			43142
 		},
@@ -45754,6 +60578,11 @@ pg.equip_data_statistics = {
 		base = 43140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			43143
 		},
@@ -45765,6 +60594,11 @@ pg.equip_data_statistics = {
 		base = 43140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			43144
 		},
@@ -45776,6 +60610,11 @@ pg.equip_data_statistics = {
 		base = 43140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			43145
 		},
@@ -45787,6 +60626,11 @@ pg.equip_data_statistics = {
 		base = 43140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			43146
 		},
@@ -45798,6 +60642,11 @@ pg.equip_data_statistics = {
 		base = 43140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			43147
 		},
@@ -45809,6 +60658,11 @@ pg.equip_data_statistics = {
 		base = 43140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			43148
 		},
@@ -45820,6 +60674,11 @@ pg.equip_data_statistics = {
 		base = 43140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			43149
 		},
@@ -45831,6 +60690,11 @@ pg.equip_data_statistics = {
 		base = 43140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CB",
+			"MG"
+		},
 		weapon_id = {
 			43150
 		},
@@ -45872,7 +60736,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		}
 	},
 	[44001] = {
 		value_1 = "38 x 3",
@@ -45880,6 +60749,11 @@ pg.equip_data_statistics = {
 		base = 44000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44001
 		},
@@ -45891,6 +60765,11 @@ pg.equip_data_statistics = {
 		base = 44000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44002
 		},
@@ -45902,6 +60781,11 @@ pg.equip_data_statistics = {
 		base = 44000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44003
 		},
@@ -45943,7 +60827,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		}
 	},
 	[44021] = {
 		value_1 = "42 x 3",
@@ -45951,6 +60840,11 @@ pg.equip_data_statistics = {
 		base = 44020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44021
 		},
@@ -45962,6 +60856,11 @@ pg.equip_data_statistics = {
 		base = 44020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44022
 		},
@@ -45973,6 +60872,11 @@ pg.equip_data_statistics = {
 		base = 44020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44023
 		},
@@ -45984,6 +60888,11 @@ pg.equip_data_statistics = {
 		base = 44020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44024
 		},
@@ -45995,6 +60904,11 @@ pg.equip_data_statistics = {
 		base = 44020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44025
 		},
@@ -46006,6 +60920,11 @@ pg.equip_data_statistics = {
 		base = 44020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44026
 		},
@@ -46047,7 +60966,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		}
 	},
 	[44041] = {
 		value_1 = "46 x 3",
@@ -46055,6 +60979,11 @@ pg.equip_data_statistics = {
 		base = 44040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44041
 		},
@@ -46066,6 +60995,11 @@ pg.equip_data_statistics = {
 		base = 44040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44042
 		},
@@ -46077,6 +61011,11 @@ pg.equip_data_statistics = {
 		base = 44040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44043
 		},
@@ -46088,6 +61027,11 @@ pg.equip_data_statistics = {
 		base = 44040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44044
 		},
@@ -46099,6 +61043,11 @@ pg.equip_data_statistics = {
 		base = 44040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44045
 		},
@@ -46110,6 +61059,11 @@ pg.equip_data_statistics = {
 		base = 44040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44046
 		},
@@ -46121,6 +61075,11 @@ pg.equip_data_statistics = {
 		base = 44040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44047
 		},
@@ -46132,6 +61091,11 @@ pg.equip_data_statistics = {
 		base = 44040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44048
 		},
@@ -46143,6 +61107,11 @@ pg.equip_data_statistics = {
 		base = 44040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44049
 		},
@@ -46154,6 +61123,11 @@ pg.equip_data_statistics = {
 		base = 44040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44050
 		},
@@ -46195,7 +61169,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		}
 	},
 	[44101] = {
 		value_1 = "55 x 2",
@@ -46203,6 +61182,11 @@ pg.equip_data_statistics = {
 		base = 44100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44101
 		},
@@ -46214,6 +61198,11 @@ pg.equip_data_statistics = {
 		base = 44100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44102
 		},
@@ -46225,6 +61214,11 @@ pg.equip_data_statistics = {
 		base = 44100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44103
 		},
@@ -46236,6 +61230,11 @@ pg.equip_data_statistics = {
 		base = 44100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44104
 		},
@@ -46247,6 +61246,11 @@ pg.equip_data_statistics = {
 		base = 44100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44105
 		},
@@ -46258,6 +61262,11 @@ pg.equip_data_statistics = {
 		base = 44100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44106
 		},
@@ -46299,7 +61308,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		}
 	},
 	[44121] = {
 		value_1 = "61 x 2",
@@ -46307,6 +61321,11 @@ pg.equip_data_statistics = {
 		base = 44120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44121
 		},
@@ -46318,6 +61337,11 @@ pg.equip_data_statistics = {
 		base = 44120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44122
 		},
@@ -46329,6 +61353,11 @@ pg.equip_data_statistics = {
 		base = 44120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44123
 		},
@@ -46340,6 +61369,11 @@ pg.equip_data_statistics = {
 		base = 44120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44124
 		},
@@ -46351,6 +61385,11 @@ pg.equip_data_statistics = {
 		base = 44120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44125
 		},
@@ -46362,6 +61401,11 @@ pg.equip_data_statistics = {
 		base = 44120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44126
 		},
@@ -46373,6 +61417,11 @@ pg.equip_data_statistics = {
 		base = 44120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44127
 		},
@@ -46384,6 +61433,11 @@ pg.equip_data_statistics = {
 		base = 44120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44128
 		},
@@ -46395,6 +61449,11 @@ pg.equip_data_statistics = {
 		base = 44120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44129
 		},
@@ -46406,6 +61465,11 @@ pg.equip_data_statistics = {
 		base = 44120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44130
 		},
@@ -46447,7 +61511,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		}
 	},
 	[44141] = {
 		value_1 = "64 x 2",
@@ -46455,6 +61524,11 @@ pg.equip_data_statistics = {
 		base = 44140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44141
 		},
@@ -46466,6 +61540,11 @@ pg.equip_data_statistics = {
 		base = 44140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44142
 		},
@@ -46477,6 +61556,11 @@ pg.equip_data_statistics = {
 		base = 44140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44143
 		},
@@ -46488,6 +61572,11 @@ pg.equip_data_statistics = {
 		base = 44140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44144
 		},
@@ -46499,6 +61588,11 @@ pg.equip_data_statistics = {
 		base = 44140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44145
 		},
@@ -46510,6 +61604,11 @@ pg.equip_data_statistics = {
 		base = 44140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44146
 		},
@@ -46521,6 +61620,11 @@ pg.equip_data_statistics = {
 		base = 44140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44147
 		},
@@ -46532,6 +61636,11 @@ pg.equip_data_statistics = {
 		base = 44140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44148
 		},
@@ -46543,6 +61652,11 @@ pg.equip_data_statistics = {
 		base = 44140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44149
 		},
@@ -46554,6 +61668,11 @@ pg.equip_data_statistics = {
 		base = 44140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44150
 		},
@@ -46595,7 +61714,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		}
 	},
 	[44201] = {
 		value_1 = "68 x 2",
@@ -46603,6 +61727,11 @@ pg.equip_data_statistics = {
 		base = 44200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44201
 		},
@@ -46614,6 +61743,11 @@ pg.equip_data_statistics = {
 		base = 44200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44202
 		},
@@ -46625,6 +61759,11 @@ pg.equip_data_statistics = {
 		base = 44200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44203
 		},
@@ -46636,6 +61775,11 @@ pg.equip_data_statistics = {
 		base = 44200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44204
 		},
@@ -46647,6 +61791,11 @@ pg.equip_data_statistics = {
 		base = 44200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44205
 		},
@@ -46658,6 +61807,11 @@ pg.equip_data_statistics = {
 		base = 44200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44206
 		},
@@ -46669,6 +61823,11 @@ pg.equip_data_statistics = {
 		base = 44200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44207
 		},
@@ -46680,6 +61839,11 @@ pg.equip_data_statistics = {
 		base = 44200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44208
 		},
@@ -46691,6 +61855,11 @@ pg.equip_data_statistics = {
 		base = 44200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44209
 		},
@@ -46702,6 +61871,11 @@ pg.equip_data_statistics = {
 		base = 44200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			44210
 		},
@@ -46738,7 +61912,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		}
 	},
 	[45001] = {
 		value_1 = "69 x 3",
@@ -46746,6 +61925,11 @@ pg.equip_data_statistics = {
 		base = 45000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45001
 		},
@@ -46757,6 +61941,11 @@ pg.equip_data_statistics = {
 		base = 45000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45002
 		},
@@ -46768,6 +61957,11 @@ pg.equip_data_statistics = {
 		base = 45000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45003
 		},
@@ -46804,7 +61998,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		}
 	},
 	[45021] = {
 		value_1 = "72 x 3",
@@ -46812,6 +62011,11 @@ pg.equip_data_statistics = {
 		base = 45020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45021
 		},
@@ -46823,6 +62027,11 @@ pg.equip_data_statistics = {
 		base = 45020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45022
 		},
@@ -46834,6 +62043,11 @@ pg.equip_data_statistics = {
 		base = 45020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45023
 		},
@@ -46845,6 +62059,11 @@ pg.equip_data_statistics = {
 		base = 45020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45024
 		},
@@ -46856,6 +62075,11 @@ pg.equip_data_statistics = {
 		base = 45020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45025
 		},
@@ -46867,6 +62091,11 @@ pg.equip_data_statistics = {
 		base = 45020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45026
 		},
@@ -46903,7 +62132,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		}
 	},
 	[45041] = {
 		value_1 = "77 x 3",
@@ -46911,6 +62145,11 @@ pg.equip_data_statistics = {
 		base = 45040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45041
 		},
@@ -46922,6 +62161,11 @@ pg.equip_data_statistics = {
 		base = 45040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45042
 		},
@@ -46933,6 +62177,11 @@ pg.equip_data_statistics = {
 		base = 45040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45043
 		},
@@ -46944,6 +62193,11 @@ pg.equip_data_statistics = {
 		base = 45040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45044
 		},
@@ -46955,6 +62209,11 @@ pg.equip_data_statistics = {
 		base = 45040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45045
 		},
@@ -46966,6 +62225,11 @@ pg.equip_data_statistics = {
 		base = 45040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45046
 		},
@@ -46977,6 +62241,11 @@ pg.equip_data_statistics = {
 		base = 45040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45047
 		},
@@ -46988,6 +62257,11 @@ pg.equip_data_statistics = {
 		base = 45040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45048
 		},
@@ -46999,6 +62273,11 @@ pg.equip_data_statistics = {
 		base = 45040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45049
 		},
@@ -47010,6 +62289,11 @@ pg.equip_data_statistics = {
 		base = 45040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45050
 		},
@@ -47046,7 +62330,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		}
 	},
 	[45101] = {
 		value_1 = "69 x 4",
@@ -47054,6 +62343,11 @@ pg.equip_data_statistics = {
 		base = 45100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45101
 		},
@@ -47065,6 +62359,11 @@ pg.equip_data_statistics = {
 		base = 45100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45102
 		},
@@ -47076,6 +62375,11 @@ pg.equip_data_statistics = {
 		base = 45100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45103
 		},
@@ -47087,6 +62391,11 @@ pg.equip_data_statistics = {
 		base = 45100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45104
 		},
@@ -47098,6 +62407,11 @@ pg.equip_data_statistics = {
 		base = 45100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45105
 		},
@@ -47109,6 +62423,11 @@ pg.equip_data_statistics = {
 		base = 45100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45106
 		},
@@ -47145,7 +62464,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		}
 	},
 	[45121] = {
 		value_1 = "72 x 4",
@@ -47153,6 +62477,11 @@ pg.equip_data_statistics = {
 		base = 45120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45121
 		},
@@ -47164,6 +62493,11 @@ pg.equip_data_statistics = {
 		base = 45120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45122
 		},
@@ -47175,6 +62509,11 @@ pg.equip_data_statistics = {
 		base = 45120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45123
 		},
@@ -47186,6 +62525,11 @@ pg.equip_data_statistics = {
 		base = 45120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45124
 		},
@@ -47197,6 +62541,11 @@ pg.equip_data_statistics = {
 		base = 45120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45125
 		},
@@ -47208,6 +62557,11 @@ pg.equip_data_statistics = {
 		base = 45120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45126
 		},
@@ -47219,6 +62573,11 @@ pg.equip_data_statistics = {
 		base = 45120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45127
 		},
@@ -47230,6 +62589,11 @@ pg.equip_data_statistics = {
 		base = 45120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45128
 		},
@@ -47241,6 +62605,11 @@ pg.equip_data_statistics = {
 		base = 45120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45129
 		},
@@ -47252,6 +62621,11 @@ pg.equip_data_statistics = {
 		base = 45120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45130
 		},
@@ -47288,7 +62662,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		}
 	},
 	[45141] = {
 		value_1 = "77 x 4",
@@ -47296,6 +62675,11 @@ pg.equip_data_statistics = {
 		base = 45140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45141
 		},
@@ -47307,6 +62691,11 @@ pg.equip_data_statistics = {
 		base = 45140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45142
 		},
@@ -47318,6 +62707,11 @@ pg.equip_data_statistics = {
 		base = 45140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45143
 		},
@@ -47329,6 +62723,11 @@ pg.equip_data_statistics = {
 		base = 45140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45144
 		},
@@ -47340,6 +62739,11 @@ pg.equip_data_statistics = {
 		base = 45140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45145
 		},
@@ -47351,6 +62755,11 @@ pg.equip_data_statistics = {
 		base = 45140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45146
 		},
@@ -47362,6 +62771,11 @@ pg.equip_data_statistics = {
 		base = 45140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45147
 		},
@@ -47373,6 +62787,11 @@ pg.equip_data_statistics = {
 		base = 45140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45148
 		},
@@ -47384,6 +62803,11 @@ pg.equip_data_statistics = {
 		base = 45140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45149
 		},
@@ -47395,6 +62819,11 @@ pg.equip_data_statistics = {
 		base = 45140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45150
 		},
@@ -47431,7 +62860,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		}
 	},
 	[45201] = {
 		value_1 = "69 x 5",
@@ -47439,6 +62873,11 @@ pg.equip_data_statistics = {
 		base = 45200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45201
 		},
@@ -47450,6 +62889,11 @@ pg.equip_data_statistics = {
 		base = 45200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45202
 		},
@@ -47461,6 +62905,11 @@ pg.equip_data_statistics = {
 		base = 45200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45203
 		},
@@ -47472,6 +62921,11 @@ pg.equip_data_statistics = {
 		base = 45200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45204
 		},
@@ -47483,6 +62937,11 @@ pg.equip_data_statistics = {
 		base = 45200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45205
 		},
@@ -47494,6 +62953,11 @@ pg.equip_data_statistics = {
 		base = 45200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45206
 		},
@@ -47505,6 +62969,11 @@ pg.equip_data_statistics = {
 		base = 45200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45207
 		},
@@ -47516,6 +62985,11 @@ pg.equip_data_statistics = {
 		base = 45200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45208
 		},
@@ -47527,6 +63001,11 @@ pg.equip_data_statistics = {
 		base = 45200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45209
 		},
@@ -47538,6 +63017,11 @@ pg.equip_data_statistics = {
 		base = 45200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45210
 		},
@@ -47574,7 +63058,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		}
 	},
 	[45221] = {
 		value_1 = "72 x 5",
@@ -47582,6 +63071,11 @@ pg.equip_data_statistics = {
 		base = 45220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45221
 		},
@@ -47593,6 +63087,11 @@ pg.equip_data_statistics = {
 		base = 45220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45222
 		},
@@ -47604,6 +63103,11 @@ pg.equip_data_statistics = {
 		base = 45220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45223
 		},
@@ -47615,6 +63119,11 @@ pg.equip_data_statistics = {
 		base = 45220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45224
 		},
@@ -47626,6 +63135,11 @@ pg.equip_data_statistics = {
 		base = 45220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45225
 		},
@@ -47637,6 +63151,11 @@ pg.equip_data_statistics = {
 		base = 45220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45226
 		},
@@ -47648,6 +63167,11 @@ pg.equip_data_statistics = {
 		base = 45220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45227
 		},
@@ -47659,6 +63183,11 @@ pg.equip_data_statistics = {
 		base = 45220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45228
 		},
@@ -47670,6 +63199,11 @@ pg.equip_data_statistics = {
 		base = 45220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45229
 		},
@@ -47681,6 +63215,11 @@ pg.equip_data_statistics = {
 		base = 45220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45230
 		},
@@ -47717,7 +63256,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		}
 	},
 	[45241] = {
 		value_1 = "77 x 5",
@@ -47725,6 +63269,11 @@ pg.equip_data_statistics = {
 		base = 45240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45241
 		},
@@ -47736,6 +63285,11 @@ pg.equip_data_statistics = {
 		base = 45240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45242
 		},
@@ -47747,6 +63301,11 @@ pg.equip_data_statistics = {
 		base = 45240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45243
 		},
@@ -47758,6 +63317,11 @@ pg.equip_data_statistics = {
 		base = 45240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45244
 		},
@@ -47769,6 +63333,11 @@ pg.equip_data_statistics = {
 		base = 45240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45245
 		},
@@ -47780,6 +63349,11 @@ pg.equip_data_statistics = {
 		base = 45240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45246
 		},
@@ -47791,6 +63365,11 @@ pg.equip_data_statistics = {
 		base = 45240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45247
 		},
@@ -47802,6 +63381,11 @@ pg.equip_data_statistics = {
 		base = 45240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45248
 		},
@@ -47813,6 +63397,11 @@ pg.equip_data_statistics = {
 		base = 45240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45249
 		},
@@ -47824,6 +63413,11 @@ pg.equip_data_statistics = {
 		base = 45240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		},
 		weapon_id = {
 			45250
 		},
@@ -47860,7 +63454,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		}
 	},
 	[45301] = {
 		value_1 = "52 x 2",
@@ -47868,6 +63467,11 @@ pg.equip_data_statistics = {
 		base = 45300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45301
 		},
@@ -47879,6 +63483,11 @@ pg.equip_data_statistics = {
 		base = 45300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45302
 		},
@@ -47890,6 +63499,11 @@ pg.equip_data_statistics = {
 		base = 45300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45303
 		},
@@ -47926,7 +63540,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		}
 	},
 	[45321] = {
 		value_1 = "59 x 2",
@@ -47934,6 +63553,11 @@ pg.equip_data_statistics = {
 		base = 45320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45321
 		},
@@ -47945,6 +63569,11 @@ pg.equip_data_statistics = {
 		base = 45320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45322
 		},
@@ -47956,6 +63585,11 @@ pg.equip_data_statistics = {
 		base = 45320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45323
 		},
@@ -47967,6 +63601,11 @@ pg.equip_data_statistics = {
 		base = 45320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45324
 		},
@@ -47978,6 +63617,11 @@ pg.equip_data_statistics = {
 		base = 45320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45325
 		},
@@ -47989,6 +63633,11 @@ pg.equip_data_statistics = {
 		base = 45320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45326
 		},
@@ -48025,7 +63674,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		}
 	},
 	[45341] = {
 		value_1 = "66 x 2",
@@ -48033,6 +63687,11 @@ pg.equip_data_statistics = {
 		base = 45340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45341
 		},
@@ -48044,6 +63703,11 @@ pg.equip_data_statistics = {
 		base = 45340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45342
 		},
@@ -48055,6 +63719,11 @@ pg.equip_data_statistics = {
 		base = 45340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45343
 		},
@@ -48066,6 +63735,11 @@ pg.equip_data_statistics = {
 		base = 45340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45344
 		},
@@ -48077,6 +63751,11 @@ pg.equip_data_statistics = {
 		base = 45340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45345
 		},
@@ -48088,6 +63767,11 @@ pg.equip_data_statistics = {
 		base = 45340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45346
 		},
@@ -48099,6 +63783,11 @@ pg.equip_data_statistics = {
 		base = 45340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45347
 		},
@@ -48110,6 +63799,11 @@ pg.equip_data_statistics = {
 		base = 45340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45348
 		},
@@ -48121,6 +63815,11 @@ pg.equip_data_statistics = {
 		base = 45340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45349
 		},
@@ -48132,6 +63831,11 @@ pg.equip_data_statistics = {
 		base = 45340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45350
 		},
@@ -48168,7 +63872,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		}
 	},
 	[45401] = {
 		value_1 = "59 x 2",
@@ -48176,6 +63885,11 @@ pg.equip_data_statistics = {
 		base = 45400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45401
 		},
@@ -48187,6 +63901,11 @@ pg.equip_data_statistics = {
 		base = 45400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45402
 		},
@@ -48198,6 +63917,11 @@ pg.equip_data_statistics = {
 		base = 45400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45403
 		},
@@ -48209,6 +63933,11 @@ pg.equip_data_statistics = {
 		base = 45400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45404
 		},
@@ -48220,6 +63949,11 @@ pg.equip_data_statistics = {
 		base = 45400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45405
 		},
@@ -48231,6 +63965,11 @@ pg.equip_data_statistics = {
 		base = 45400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45406
 		},
@@ -48267,7 +64006,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		}
 	},
 	[45421] = {
 		value_1 = "66 x 2",
@@ -48275,6 +64019,11 @@ pg.equip_data_statistics = {
 		base = 45420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45421
 		},
@@ -48286,6 +64035,11 @@ pg.equip_data_statistics = {
 		base = 45420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45422
 		},
@@ -48297,6 +64051,11 @@ pg.equip_data_statistics = {
 		base = 45420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45423
 		},
@@ -48308,6 +64067,11 @@ pg.equip_data_statistics = {
 		base = 45420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45424
 		},
@@ -48319,6 +64083,11 @@ pg.equip_data_statistics = {
 		base = 45420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45425
 		},
@@ -48330,6 +64099,11 @@ pg.equip_data_statistics = {
 		base = 45420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45426
 		},
@@ -48341,6 +64115,11 @@ pg.equip_data_statistics = {
 		base = 45420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45427
 		},
@@ -48352,6 +64131,11 @@ pg.equip_data_statistics = {
 		base = 45420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45428
 		},
@@ -48363,6 +64147,11 @@ pg.equip_data_statistics = {
 		base = 45420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45429
 		},
@@ -48374,6 +64163,11 @@ pg.equip_data_statistics = {
 		base = 45420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45430
 		},
@@ -48410,7 +64204,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		}
 	},
 	[45441] = {
 		value_1 = "73 x 2",
@@ -48418,6 +64217,11 @@ pg.equip_data_statistics = {
 		base = 45440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45441
 		},
@@ -48429,6 +64233,11 @@ pg.equip_data_statistics = {
 		base = 45440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45442
 		},
@@ -48440,6 +64249,11 @@ pg.equip_data_statistics = {
 		base = 45440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45443
 		},
@@ -48451,6 +64265,11 @@ pg.equip_data_statistics = {
 		base = 45440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45444
 		},
@@ -48462,6 +64281,11 @@ pg.equip_data_statistics = {
 		base = 45440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45445
 		},
@@ -48473,6 +64297,11 @@ pg.equip_data_statistics = {
 		base = 45440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45446
 		},
@@ -48484,6 +64313,11 @@ pg.equip_data_statistics = {
 		base = 45440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45447
 		},
@@ -48495,6 +64329,11 @@ pg.equip_data_statistics = {
 		base = 45440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45448
 		},
@@ -48506,6 +64345,11 @@ pg.equip_data_statistics = {
 		base = 45440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45449
 		},
@@ -48517,6 +64361,11 @@ pg.equip_data_statistics = {
 		base = 45440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"SS",
+			"TP"
+		},
 		weapon_id = {
 			45450
 		},
@@ -48552,7 +64401,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
 	},
 	[46001] = {
 		value_1 = "20/回",
@@ -48560,6 +64414,11 @@ pg.equip_data_statistics = {
 		base = 46000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46001
 		},
@@ -48571,6 +64430,11 @@ pg.equip_data_statistics = {
 		base = 46000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46002
 		},
@@ -48582,6 +64446,11 @@ pg.equip_data_statistics = {
 		base = 46000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46003
 		},
@@ -48618,7 +64487,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
 	},
 	[46021] = {
 		value_1 = "23/回",
@@ -48626,6 +64500,11 @@ pg.equip_data_statistics = {
 		base = 46020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46021
 		},
@@ -48637,6 +64516,11 @@ pg.equip_data_statistics = {
 		base = 46020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46022
 		},
@@ -48648,6 +64532,11 @@ pg.equip_data_statistics = {
 		base = 46020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46023
 		},
@@ -48684,7 +64573,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
 	},
 	[46041] = {
 		value_1 = "26/回",
@@ -48692,6 +64586,11 @@ pg.equip_data_statistics = {
 		base = 46040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46041
 		},
@@ -48703,6 +64602,11 @@ pg.equip_data_statistics = {
 		base = 46040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46042
 		},
@@ -48714,6 +64618,11 @@ pg.equip_data_statistics = {
 		base = 46040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46043
 		},
@@ -48725,6 +64634,11 @@ pg.equip_data_statistics = {
 		base = 46040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46044
 		},
@@ -48736,6 +64650,11 @@ pg.equip_data_statistics = {
 		base = 46040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46045
 		},
@@ -48747,6 +64666,11 @@ pg.equip_data_statistics = {
 		base = 46040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46046
 		},
@@ -48782,7 +64706,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
 	},
 	[46101] = {
 		value_1 = "9/回",
@@ -48790,6 +64719,11 @@ pg.equip_data_statistics = {
 		base = 46100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46101
 		},
@@ -48801,6 +64735,11 @@ pg.equip_data_statistics = {
 		base = 46100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46102
 		},
@@ -48812,6 +64751,11 @@ pg.equip_data_statistics = {
 		base = 46100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46103
 		},
@@ -48848,7 +64792,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
 	},
 	[46121] = {
 		value_1 = "12/回",
@@ -48856,6 +64805,11 @@ pg.equip_data_statistics = {
 		base = 46120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46121
 		},
@@ -48867,6 +64821,11 @@ pg.equip_data_statistics = {
 		base = 46120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46122
 		},
@@ -48878,6 +64837,11 @@ pg.equip_data_statistics = {
 		base = 46120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46123
 		},
@@ -48914,7 +64878,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
 	},
 	[46141] = {
 		value_1 = "14/回",
@@ -48922,6 +64891,11 @@ pg.equip_data_statistics = {
 		base = 46140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46141
 		},
@@ -48933,6 +64907,11 @@ pg.equip_data_statistics = {
 		base = 46140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46142
 		},
@@ -48944,6 +64923,11 @@ pg.equip_data_statistics = {
 		base = 46140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46143
 		},
@@ -48955,6 +64939,11 @@ pg.equip_data_statistics = {
 		base = 46140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46144
 		},
@@ -48966,6 +64955,11 @@ pg.equip_data_statistics = {
 		base = 46140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46145
 		},
@@ -48977,6 +64971,11 @@ pg.equip_data_statistics = {
 		base = 46140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46146
 		},
@@ -49013,7 +65012,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
 	},
 	[46201] = {
 		value_1 = "17/回",
@@ -49021,6 +65025,11 @@ pg.equip_data_statistics = {
 		base = 46200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46201
 		},
@@ -49032,6 +65041,11 @@ pg.equip_data_statistics = {
 		base = 46200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46202
 		},
@@ -49043,6 +65057,11 @@ pg.equip_data_statistics = {
 		base = 46200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46203
 		},
@@ -49079,7 +65098,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
 	},
 	[46221] = {
 		value_1 = "19/回",
@@ -49087,6 +65111,11 @@ pg.equip_data_statistics = {
 		base = 46220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46221
 		},
@@ -49098,6 +65127,11 @@ pg.equip_data_statistics = {
 		base = 46220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46222
 		},
@@ -49109,6 +65143,11 @@ pg.equip_data_statistics = {
 		base = 46220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46223
 		},
@@ -49120,6 +65159,11 @@ pg.equip_data_statistics = {
 		base = 46220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46224
 		},
@@ -49131,6 +65175,11 @@ pg.equip_data_statistics = {
 		base = 46220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46225
 		},
@@ -49142,6 +65191,11 @@ pg.equip_data_statistics = {
 		base = 46220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46226
 		},
@@ -49178,7 +65232,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
 	},
 	[46241] = {
 		value_1 = "23/回",
@@ -49186,6 +65245,11 @@ pg.equip_data_statistics = {
 		base = 46240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46241
 		},
@@ -49197,6 +65261,11 @@ pg.equip_data_statistics = {
 		base = 46240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46242
 		},
@@ -49208,6 +65277,11 @@ pg.equip_data_statistics = {
 		base = 46240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46243
 		},
@@ -49219,6 +65293,11 @@ pg.equip_data_statistics = {
 		base = 46240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46244
 		},
@@ -49230,6 +65309,11 @@ pg.equip_data_statistics = {
 		base = 46240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46245
 		},
@@ -49241,6 +65325,11 @@ pg.equip_data_statistics = {
 		base = 46240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46246
 		},
@@ -49252,6 +65341,11 @@ pg.equip_data_statistics = {
 		base = 46240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46247
 		},
@@ -49263,6 +65357,11 @@ pg.equip_data_statistics = {
 		base = 46240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46248
 		},
@@ -49274,6 +65373,11 @@ pg.equip_data_statistics = {
 		base = 46240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46249
 		},
@@ -49285,6 +65389,11 @@ pg.equip_data_statistics = {
 		base = 46240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46250
 		},
@@ -49321,7 +65430,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
 	},
 	[46301] = {
 		value_1 = "39/回",
@@ -49329,6 +65443,11 @@ pg.equip_data_statistics = {
 		base = 46300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46301
 		},
@@ -49340,6 +65459,11 @@ pg.equip_data_statistics = {
 		base = 46300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46302
 		},
@@ -49351,6 +65475,11 @@ pg.equip_data_statistics = {
 		base = 46300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46303
 		},
@@ -49362,6 +65491,11 @@ pg.equip_data_statistics = {
 		base = 46300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46304
 		},
@@ -49373,6 +65507,11 @@ pg.equip_data_statistics = {
 		base = 46300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46305
 		},
@@ -49384,6 +65523,11 @@ pg.equip_data_statistics = {
 		base = 46300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46306
 		},
@@ -49420,7 +65564,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
 	},
 	[46321] = {
 		value_1 = "47/回",
@@ -49428,6 +65577,11 @@ pg.equip_data_statistics = {
 		base = 46320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46321
 		},
@@ -49439,6 +65593,11 @@ pg.equip_data_statistics = {
 		base = 46320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46322
 		},
@@ -49450,6 +65609,11 @@ pg.equip_data_statistics = {
 		base = 46320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46323
 		},
@@ -49461,6 +65625,11 @@ pg.equip_data_statistics = {
 		base = 46320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46324
 		},
@@ -49472,6 +65641,11 @@ pg.equip_data_statistics = {
 		base = 46320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46325
 		},
@@ -49483,6 +65657,11 @@ pg.equip_data_statistics = {
 		base = 46320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46326
 		},
@@ -49494,6 +65673,11 @@ pg.equip_data_statistics = {
 		base = 46320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46327
 		},
@@ -49505,6 +65689,11 @@ pg.equip_data_statistics = {
 		base = 46320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46328
 		},
@@ -49516,6 +65705,11 @@ pg.equip_data_statistics = {
 		base = 46320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46329
 		},
@@ -49527,6 +65721,11 @@ pg.equip_data_statistics = {
 		base = 46320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46330
 		},
@@ -49563,7 +65762,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		}
 	},
 	[46341] = {
 		value_1 = "56/回",
@@ -49571,6 +65775,11 @@ pg.equip_data_statistics = {
 		base = 46340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46341
 		},
@@ -49582,6 +65791,11 @@ pg.equip_data_statistics = {
 		base = 46340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46342
 		},
@@ -49593,6 +65807,11 @@ pg.equip_data_statistics = {
 		base = 46340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46343
 		},
@@ -49604,6 +65823,11 @@ pg.equip_data_statistics = {
 		base = 46340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46344
 		},
@@ -49615,6 +65839,11 @@ pg.equip_data_statistics = {
 		base = 46340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46345
 		},
@@ -49626,6 +65855,11 @@ pg.equip_data_statistics = {
 		base = 46340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46346
 		},
@@ -49637,6 +65871,11 @@ pg.equip_data_statistics = {
 		base = 46340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46347
 		},
@@ -49648,6 +65887,11 @@ pg.equip_data_statistics = {
 		base = 46340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46348
 		},
@@ -49659,6 +65903,11 @@ pg.equip_data_statistics = {
 		base = 46340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46349
 		},
@@ -49670,6 +65919,11 @@ pg.equip_data_statistics = {
 		base = 46340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"ST",
+			"AA"
+		},
 		weapon_id = {
 			46350
 		},
@@ -49707,7 +65961,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		}
 	},
 	[47001] = {
 		value_1 = "23/回",
@@ -49715,6 +65974,11 @@ pg.equip_data_statistics = {
 		base = 47000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47001,
 			84001
@@ -49727,6 +65991,11 @@ pg.equip_data_statistics = {
 		base = 47000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47002,
 			84002
@@ -49739,6 +66008,11 @@ pg.equip_data_statistics = {
 		base = 47000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47003,
 			84003
@@ -49777,7 +66051,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		}
 	},
 	[47021] = {
 		value_1 = "25/回",
@@ -49785,6 +66064,11 @@ pg.equip_data_statistics = {
 		base = 47020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47021,
 			84021
@@ -49797,6 +66081,11 @@ pg.equip_data_statistics = {
 		base = 47020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47022,
 			84022
@@ -49809,6 +66098,11 @@ pg.equip_data_statistics = {
 		base = 47020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47023,
 			84023
@@ -49821,6 +66115,11 @@ pg.equip_data_statistics = {
 		base = 47020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47024,
 			84024
@@ -49833,6 +66132,11 @@ pg.equip_data_statistics = {
 		base = 47020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47025,
 			84025
@@ -49845,6 +66149,11 @@ pg.equip_data_statistics = {
 		base = 47020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47026,
 			84026
@@ -49883,7 +66192,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		}
 	},
 	[47041] = {
 		value_1 = "29/回",
@@ -49891,6 +66205,11 @@ pg.equip_data_statistics = {
 		base = 47040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47041,
 			84041
@@ -49903,6 +66222,11 @@ pg.equip_data_statistics = {
 		base = 47040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47042,
 			84042
@@ -49915,6 +66239,11 @@ pg.equip_data_statistics = {
 		base = 47040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47043,
 			84043
@@ -49927,6 +66256,11 @@ pg.equip_data_statistics = {
 		base = 47040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47044,
 			84044
@@ -49939,6 +66273,11 @@ pg.equip_data_statistics = {
 		base = 47040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47045,
 			84045
@@ -49951,6 +66290,11 @@ pg.equip_data_statistics = {
 		base = 47040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47046,
 			84046
@@ -49963,6 +66307,11 @@ pg.equip_data_statistics = {
 		base = 47040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47047,
 			84047
@@ -49975,6 +66324,11 @@ pg.equip_data_statistics = {
 		base = 47040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47048,
 			84048
@@ -49987,6 +66341,11 @@ pg.equip_data_statistics = {
 		base = 47040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47049,
 			84049
@@ -49999,6 +66358,11 @@ pg.equip_data_statistics = {
 		base = 47040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47050,
 			84050
@@ -50037,7 +66401,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		}
 	},
 	[47101] = {
 		value_1 = "36/回",
@@ -50045,6 +66414,11 @@ pg.equip_data_statistics = {
 		base = 47100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47101,
 			84101
@@ -50057,6 +66431,11 @@ pg.equip_data_statistics = {
 		base = 47100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47102,
 			84102
@@ -50069,6 +66448,11 @@ pg.equip_data_statistics = {
 		base = 47100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47103,
 			84103
@@ -50081,6 +66465,11 @@ pg.equip_data_statistics = {
 		base = 47100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47104,
 			84104
@@ -50093,6 +66482,11 @@ pg.equip_data_statistics = {
 		base = 47100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47105,
 			84105
@@ -50105,6 +66499,11 @@ pg.equip_data_statistics = {
 		base = 47100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47106,
 			84106
@@ -50143,7 +66542,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		}
 	},
 	[47121] = {
 		value_1 = "41/回",
@@ -50151,6 +66555,11 @@ pg.equip_data_statistics = {
 		base = 47120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47121,
 			84121
@@ -50163,6 +66572,11 @@ pg.equip_data_statistics = {
 		base = 47120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47122,
 			84122
@@ -50175,6 +66589,11 @@ pg.equip_data_statistics = {
 		base = 47120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47123,
 			84123
@@ -50187,6 +66606,11 @@ pg.equip_data_statistics = {
 		base = 47120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47124,
 			84124
@@ -50199,6 +66623,11 @@ pg.equip_data_statistics = {
 		base = 47120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47125,
 			84125
@@ -50211,6 +66640,11 @@ pg.equip_data_statistics = {
 		base = 47120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47126,
 			84126
@@ -50223,6 +66657,11 @@ pg.equip_data_statistics = {
 		base = 47120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47127,
 			84127
@@ -50235,6 +66674,11 @@ pg.equip_data_statistics = {
 		base = 47120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47128,
 			84128
@@ -50247,6 +66691,11 @@ pg.equip_data_statistics = {
 		base = 47120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47129,
 			84129
@@ -50259,6 +66708,11 @@ pg.equip_data_statistics = {
 		base = 47120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47130,
 			84130
@@ -50297,7 +66751,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		}
 	},
 	[47141] = {
 		value_1 = "48/回",
@@ -50305,6 +66764,11 @@ pg.equip_data_statistics = {
 		base = 47140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47141,
 			84141
@@ -50317,6 +66781,11 @@ pg.equip_data_statistics = {
 		base = 47140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47142,
 			84142
@@ -50329,6 +66798,11 @@ pg.equip_data_statistics = {
 		base = 47140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47143,
 			84143
@@ -50341,6 +66815,11 @@ pg.equip_data_statistics = {
 		base = 47140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47144,
 			84144
@@ -50353,6 +66832,11 @@ pg.equip_data_statistics = {
 		base = 47140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47145,
 			84145
@@ -50365,6 +66849,11 @@ pg.equip_data_statistics = {
 		base = 47140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47146,
 			84146
@@ -50377,6 +66866,11 @@ pg.equip_data_statistics = {
 		base = 47140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47147,
 			84147
@@ -50389,6 +66883,11 @@ pg.equip_data_statistics = {
 		base = 47140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47148,
 			84148
@@ -50401,6 +66900,11 @@ pg.equip_data_statistics = {
 		base = 47140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47149,
 			84149
@@ -50413,6 +66917,11 @@ pg.equip_data_statistics = {
 		base = 47140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		},
 		weapon_id = {
 			47150,
 			84150
@@ -50450,7 +66959,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		}
 	},
 	[49001] = {
 		value_1 = "80 x 5",
@@ -50458,6 +66972,11 @@ pg.equip_data_statistics = {
 		base = 49000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			49001
 		},
@@ -50469,6 +66988,11 @@ pg.equip_data_statistics = {
 		base = 49000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			49002
 		},
@@ -50480,6 +67004,11 @@ pg.equip_data_statistics = {
 		base = 49000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			49003
 		},
@@ -50516,7 +67045,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		}
 	},
 	[49021] = {
 		value_1 = "88 x 5",
@@ -50524,6 +67058,11 @@ pg.equip_data_statistics = {
 		base = 49020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			49021
 		},
@@ -50535,6 +67074,11 @@ pg.equip_data_statistics = {
 		base = 49020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			49022
 		},
@@ -50546,6 +67090,11 @@ pg.equip_data_statistics = {
 		base = 49020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			49023
 		},
@@ -50557,6 +67106,11 @@ pg.equip_data_statistics = {
 		base = 49020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			49024
 		},
@@ -50568,6 +67122,11 @@ pg.equip_data_statistics = {
 		base = 49020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			49025
 		},
@@ -50579,6 +67138,11 @@ pg.equip_data_statistics = {
 		base = 49020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			49026
 		},
@@ -50615,7 +67179,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		}
 	},
 	[49041] = {
 		value_1 = "95 x 5",
@@ -50623,6 +67192,11 @@ pg.equip_data_statistics = {
 		base = 49040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			49041
 		},
@@ -50634,6 +67208,11 @@ pg.equip_data_statistics = {
 		base = 49040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			49042
 		},
@@ -50645,6 +67224,11 @@ pg.equip_data_statistics = {
 		base = 49040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			49043
 		},
@@ -50656,6 +67240,11 @@ pg.equip_data_statistics = {
 		base = 49040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			49044
 		},
@@ -50667,6 +67256,11 @@ pg.equip_data_statistics = {
 		base = 49040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			49045
 		},
@@ -50678,6 +67272,11 @@ pg.equip_data_statistics = {
 		base = 49040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			49046
 		},
@@ -50689,6 +67288,11 @@ pg.equip_data_statistics = {
 		base = 49040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			49047
 		},
@@ -50700,6 +67304,11 @@ pg.equip_data_statistics = {
 		base = 49040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			49048
 		},
@@ -50711,6 +67320,11 @@ pg.equip_data_statistics = {
 		base = 49040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			49049
 		},
@@ -50722,6 +67336,11 @@ pg.equip_data_statistics = {
 		base = 49040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		},
 		weapon_id = {
 			49050
 		},
@@ -50743,8 +67362,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 54010,
 		torpedo_ammo = 0,
@@ -50756,13 +67375,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[54011] = {
 		id = 54011,
 		base = 54010,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			54011
 		},
@@ -50773,6 +67394,7 @@ pg.equip_data_statistics = {
 		base = 54010,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			54012
 		},
@@ -50783,6 +67405,7 @@ pg.equip_data_statistics = {
 		base = 54010,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			54013
 		},
@@ -50793,6 +67416,7 @@ pg.equip_data_statistics = {
 		base = 54010,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			54014
 		},
@@ -50803,6 +67427,7 @@ pg.equip_data_statistics = {
 		base = 54010,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			54015
 		},
@@ -50824,8 +67449,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60001,
 		torpedo_ammo = 0,
@@ -50837,13 +67462,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60002] = {
 		id = 60002,
 		base = 60001,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60002
 		},
@@ -50854,6 +67481,7 @@ pg.equip_data_statistics = {
 		base = 60001,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60003
 		},
@@ -50875,8 +67503,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60011,
 		torpedo_ammo = 0,
@@ -50888,13 +67516,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60012] = {
 		id = 60012,
 		base = 60011,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60012
 		},
@@ -50905,6 +67535,7 @@ pg.equip_data_statistics = {
 		base = 60011,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60013
 		},
@@ -50926,8 +67557,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60021,
 		torpedo_ammo = 0,
@@ -50939,13 +67570,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60022] = {
 		id = 60022,
 		base = 60021,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60022
 		},
@@ -50956,6 +67589,7 @@ pg.equip_data_statistics = {
 		base = 60021,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60023
 		},
@@ -50977,8 +67611,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60031,
 		torpedo_ammo = 0,
@@ -50990,13 +67624,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60032] = {
 		id = 60032,
 		base = 60031,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60032
 		},
@@ -51007,6 +67643,7 @@ pg.equip_data_statistics = {
 		base = 60031,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60033
 		},
@@ -51028,8 +67665,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60041,
 		torpedo_ammo = 0,
@@ -51041,13 +67678,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60042] = {
 		id = 60042,
 		base = 60041,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60042
 		},
@@ -51058,6 +67697,7 @@ pg.equip_data_statistics = {
 		base = 60041,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60043
 		},
@@ -51079,8 +67719,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60051,
 		torpedo_ammo = 0,
@@ -51092,13 +67732,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60052] = {
 		id = 60052,
 		base = 60051,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60052
 		},
@@ -51109,6 +67751,7 @@ pg.equip_data_statistics = {
 		base = 60051,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60053
 		},
@@ -51130,8 +67773,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60061,
 		torpedo_ammo = 0,
@@ -51143,13 +67786,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60062] = {
 		id = 60062,
 		base = 60061,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60062
 		},
@@ -51160,6 +67805,7 @@ pg.equip_data_statistics = {
 		base = 60061,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60063
 		},
@@ -51181,8 +67827,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60071,
 		torpedo_ammo = 0,
@@ -51194,13 +67840,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60072] = {
 		id = 60072,
 		base = 60071,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60072
 		},
@@ -51211,6 +67859,7 @@ pg.equip_data_statistics = {
 		base = 60071,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60073
 		},
@@ -51232,8 +67881,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60081,
 		torpedo_ammo = 0,
@@ -51245,13 +67894,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60082] = {
 		id = 60082,
 		base = 60081,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60082
 		},
@@ -51262,6 +67913,7 @@ pg.equip_data_statistics = {
 		base = 60081,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60083
 		},
@@ -51283,8 +67935,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60091,
 		torpedo_ammo = 0,
@@ -51296,13 +67948,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60092] = {
 		id = 60092,
 		base = 60091,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60092
 		},
@@ -51324,8 +67978,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60101,
 		torpedo_ammo = 0,
@@ -51337,13 +67991,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60102] = {
 		id = 60102,
 		base = 60101,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60102
 		},
@@ -51354,6 +68010,7 @@ pg.equip_data_statistics = {
 		base = 60101,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60103
 		},
@@ -51375,8 +68032,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60111,
 		torpedo_ammo = 0,
@@ -51388,13 +68045,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60112] = {
 		id = 60112,
 		base = 60111,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60112
 		},
@@ -51405,6 +68064,7 @@ pg.equip_data_statistics = {
 		base = 60111,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60113
 		},
@@ -51426,8 +68086,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60121,
 		torpedo_ammo = 0,
@@ -51439,13 +68099,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60122] = {
 		id = 60122,
 		base = 60121,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60122
 		},
@@ -51456,6 +68118,7 @@ pg.equip_data_statistics = {
 		base = 60121,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60123
 		},
@@ -51477,8 +68140,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60131,
 		torpedo_ammo = 0,
@@ -51490,13 +68153,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60132] = {
 		id = 60132,
 		base = 60131,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60132
 		},
@@ -51507,6 +68172,7 @@ pg.equip_data_statistics = {
 		base = 60131,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60133
 		},
@@ -51528,8 +68194,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60141,
 		torpedo_ammo = 0,
@@ -51541,13 +68207,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60142] = {
 		id = 60142,
 		base = 60141,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60142
 		},
@@ -51558,6 +68226,7 @@ pg.equip_data_statistics = {
 		base = 60141,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60143
 		},
@@ -51579,8 +68248,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60151,
 		torpedo_ammo = 0,
@@ -51592,13 +68261,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60152] = {
 		id = 60152,
 		base = 60151,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60152
 		},
@@ -51609,6 +68280,7 @@ pg.equip_data_statistics = {
 		base = 60151,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60153
 		},
@@ -51630,8 +68302,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60161,
 		torpedo_ammo = 0,
@@ -51643,13 +68315,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60162] = {
 		id = 60162,
 		base = 60161,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60162
 		},
@@ -51660,6 +68334,7 @@ pg.equip_data_statistics = {
 		base = 60161,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60163
 		},
@@ -51681,8 +68356,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60171,
 		torpedo_ammo = 0,
@@ -51694,13 +68369,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60172] = {
 		id = 60172,
 		base = 60171,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60172
 		},
@@ -51711,6 +68388,7 @@ pg.equip_data_statistics = {
 		base = 60171,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60173
 		},
@@ -51732,8 +68410,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60181,
 		torpedo_ammo = 0,
@@ -51745,13 +68423,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60182] = {
 		id = 60182,
 		base = 60181,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60182
 		},
@@ -51762,6 +68442,7 @@ pg.equip_data_statistics = {
 		base = 60181,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60183
 		},
@@ -51783,8 +68464,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60191,
 		torpedo_ammo = 0,
@@ -51796,13 +68477,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60192] = {
 		id = 60192,
 		base = 60191,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60192
 		},
@@ -51813,6 +68496,7 @@ pg.equip_data_statistics = {
 		base = 60191,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60193
 		},
@@ -51834,8 +68518,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60201,
 		torpedo_ammo = 0,
@@ -51847,13 +68531,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60202] = {
 		id = 60202,
 		base = 60201,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60202
 		},
@@ -51864,6 +68550,7 @@ pg.equip_data_statistics = {
 		base = 60201,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60203
 		},
@@ -51885,8 +68572,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60211,
 		torpedo_ammo = 0,
@@ -51898,13 +68585,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60212] = {
 		id = 60212,
 		base = 60211,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60212
 		},
@@ -51915,6 +68604,7 @@ pg.equip_data_statistics = {
 		base = 60211,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60213
 		},
@@ -51936,8 +68626,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60221,
 		torpedo_ammo = 0,
@@ -51949,13 +68639,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60222] = {
 		id = 60222,
 		base = 60221,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60222
 		},
@@ -51966,6 +68658,7 @@ pg.equip_data_statistics = {
 		base = 60221,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60223
 		},
@@ -51987,8 +68680,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕サンプル用",
 		ammo = "なし",
+		descrip = "スキル弾幕サンプル用",
 		value_3 = 0,
 		id = 60231,
 		torpedo_ammo = 0,
@@ -52000,7 +68693,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60232] = {
 		name = "0",
@@ -52018,8 +68712,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕サンプル用",
 		ammo = "なし",
+		descrip = "スキル弾幕サンプル用",
 		value_3 = 0,
 		id = 60232,
 		torpedo_ammo = 0,
@@ -52031,7 +68725,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60233] = {
 		name = "0",
@@ -52049,8 +68744,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕サンプル用",
 		ammo = "なし",
+		descrip = "スキル弾幕サンプル用",
 		value_3 = 0,
 		id = 60233,
 		torpedo_ammo = 0,
@@ -52062,7 +68757,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60234] = {
 		name = "0",
@@ -52080,8 +68776,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕サンプル用",
 		ammo = "なし",
+		descrip = "スキル弾幕サンプル用",
 		value_3 = 0,
 		id = 60234,
 		torpedo_ammo = 0,
@@ -52093,13 +68789,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60235] = {
 		id = 60235,
 		base = 60234,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60235
 		},
@@ -52121,8 +68819,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕サンプル用",
 		ammo = "なし",
+		descrip = "スキル弾幕サンプル用",
 		value_3 = 0,
 		id = 60236,
 		torpedo_ammo = 0,
@@ -52134,13 +68832,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60237] = {
 		id = 60237,
 		base = 60236,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60237
 		},
@@ -52162,8 +68862,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕サンプル用",
 		ammo = "なし",
+		descrip = "スキル弾幕サンプル用",
 		value_3 = 0,
 		id = 60238,
 		torpedo_ammo = 0,
@@ -52175,13 +68875,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60239] = {
 		id = 60239,
 		base = 60238,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60239
 		},
@@ -52203,8 +68905,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60241,
 		torpedo_ammo = 0,
@@ -52216,13 +68918,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60242] = {
 		id = 60242,
 		base = 60241,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60242
 		},
@@ -52233,6 +68937,7 @@ pg.equip_data_statistics = {
 		base = 60241,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60243
 		},
@@ -52254,8 +68959,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60251,
 		torpedo_ammo = 0,
@@ -52267,13 +68972,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60252] = {
 		id = 60252,
 		base = 60251,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60252
 		},
@@ -52284,6 +68991,7 @@ pg.equip_data_statistics = {
 		base = 60251,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60253
 		},
@@ -52305,8 +69013,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60261,
 		torpedo_ammo = 0,
@@ -52318,13 +69026,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60262] = {
 		id = 60262,
 		base = 60261,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60262
 		},
@@ -52335,6 +69045,7 @@ pg.equip_data_statistics = {
 		base = 60261,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60263
 		},
@@ -52356,8 +69067,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60271,
 		torpedo_ammo = 0,
@@ -52369,13 +69080,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60272] = {
 		id = 60272,
 		base = 60271,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60272
 		},
@@ -52386,6 +69099,7 @@ pg.equip_data_statistics = {
 		base = 60271,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60273
 		},
@@ -52407,8 +69121,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60281,
 		torpedo_ammo = 0,
@@ -52420,13 +69134,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60282] = {
 		id = 60282,
 		base = 60281,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60282
 		},
@@ -52437,6 +69153,7 @@ pg.equip_data_statistics = {
 		base = 60281,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60283
 		},
@@ -52458,8 +69175,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60291,
 		torpedo_ammo = 0,
@@ -52471,13 +69188,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60292] = {
 		id = 60292,
 		base = 60291,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60292
 		},
@@ -52488,6 +69207,7 @@ pg.equip_data_statistics = {
 		base = 60291,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60293
 		},
@@ -52509,8 +69229,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 60301,
 		torpedo_ammo = 0,
@@ -52522,7 +69242,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60302] = {
 		id = 60302,
@@ -52530,6 +69251,7 @@ pg.equip_data_statistics = {
 		base = 60301,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60302
 		},
@@ -52551,8 +69273,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航空攻撃サンプル用",
 		ammo = "なし",
+		descrip = "航空攻撃サンプル用",
 		value_3 = 0,
 		id = 60311,
 		torpedo_ammo = 0,
@@ -52564,13 +69286,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60312] = {
 		id = 60312,
 		base = 60311,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60312
 		},
@@ -52581,6 +69305,7 @@ pg.equip_data_statistics = {
 		base = 60311,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60313
 		},
@@ -52602,8 +69327,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "外观空袭展示用",
 		ammo = "なし",
+		descrip = "外观空袭展示用",
 		value_3 = 0,
 		id = 60321,
 		torpedo_ammo = 0,
@@ -52615,31 +69340,34 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60322] = {
 		is_siren = 0,
 		name = "航空攻击展示-埃塞克斯II",
 		base = 60321,
-		id = 60322,
 		descrip = "外观空袭展示用",
+		id = 60322,
 		torpedo_ammo = 0,
 		weapon_id = {
 			60322
 		},
-		property_rate = {}
+		property_rate = {},
+		label = {}
 	},
 	[60323] = {
 		is_siren = 0,
 		name = "航空攻击展示-埃塞克斯II",
 		base = 60321,
-		id = 60323,
 		descrip = "外观空袭展示用",
+		id = 60323,
 		torpedo_ammo = 0,
 		weapon_id = {
 			60323
 		},
-		property_rate = {}
+		property_rate = {},
+		label = {}
 	},
 	[60331] = {
 		name = "航空攻击展示-大凤I",
@@ -52657,8 +69385,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "外观空袭展示用",
 		ammo = "なし",
+		descrip = "外观空袭展示用",
 		value_3 = 0,
 		id = 60331,
 		torpedo_ammo = 0,
@@ -52670,31 +69398,34 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60332] = {
 		is_siren = 0,
 		name = "航空攻击展示-大凤II",
 		base = 60331,
-		id = 60332,
 		descrip = "外观空袭展示用",
+		id = 60332,
 		torpedo_ammo = 0,
 		weapon_id = {
 			60332
 		},
-		property_rate = {}
+		property_rate = {},
+		label = {}
 	},
 	[60333] = {
 		is_siren = 0,
 		name = "航空攻击展示-大凤III",
 		base = 60331,
-		id = 60333,
 		descrip = "外观空袭展示用",
+		id = 60333,
 		torpedo_ammo = 0,
 		weapon_id = {
 			60333
 		},
-		property_rate = {}
+		property_rate = {},
+		label = {}
 	},
 	[60341] = {
 		name = "0",
@@ -52712,8 +69443,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "外观空袭展示用",
 		ammo = "なし",
+		descrip = "外观空袭展示用",
 		value_3 = 0,
 		id = 60341,
 		torpedo_ammo = 0,
@@ -52725,13 +69456,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60342] = {
 		id = 60342,
 		base = 60341,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60342
 		},
@@ -52742,6 +69475,7 @@ pg.equip_data_statistics = {
 		base = 60341,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60343
 		},
@@ -52763,8 +69497,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "外观空袭展示用",
 		ammo = "なし",
+		descrip = "外观空袭展示用",
 		value_3 = 0,
 		id = 60351,
 		torpedo_ammo = 0,
@@ -52776,13 +69510,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60352] = {
 		id = 60352,
 		base = 60351,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60352
 		},
@@ -52793,6 +69529,7 @@ pg.equip_data_statistics = {
 		base = 60351,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60353
 		},
@@ -52814,8 +69551,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "外观空袭展示用",
 		ammo = "なし",
+		descrip = "外观空袭展示用",
 		value_3 = 0,
 		id = 60361,
 		torpedo_ammo = 0,
@@ -52827,13 +69564,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60362] = {
 		id = 60362,
 		base = 60361,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60362
 		},
@@ -52844,6 +69583,7 @@ pg.equip_data_statistics = {
 		base = 60361,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60363
 		},
@@ -52865,8 +69605,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "外观空袭展示用",
 		ammo = "なし",
+		descrip = "外观空袭展示用",
 		value_3 = 0,
 		id = 60371,
 		torpedo_ammo = 0,
@@ -52878,13 +69618,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60372] = {
 		id = 60372,
 		base = 60371,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60372
 		},
@@ -52895,6 +69637,7 @@ pg.equip_data_statistics = {
 		base = 60371,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60373
 		},
@@ -52916,8 +69659,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "外观空袭展示用",
 		ammo = "なし",
+		descrip = "外观空袭展示用",
 		value_3 = 0,
 		id = 60381,
 		torpedo_ammo = 0,
@@ -52929,13 +69672,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60382] = {
 		id = 60382,
 		base = 60381,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60382
 		},
@@ -52946,6 +69691,7 @@ pg.equip_data_statistics = {
 		base = 60381,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60383
 		},
@@ -52967,8 +69713,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "外观空袭展示用",
 		ammo = "なし",
+		descrip = "外观空袭展示用",
 		value_3 = 0,
 		id = 60391,
 		torpedo_ammo = 0,
@@ -52980,13 +69726,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60392] = {
 		id = 60392,
 		base = 60391,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60392
 		},
@@ -52997,6 +69745,7 @@ pg.equip_data_statistics = {
 		base = 60391,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60393
 		},
@@ -53018,8 +69767,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航母空袭展示用",
 		ammo = "无",
+		descrip = "航母空袭展示用",
 		value_3 = 0,
 		id = 60401,
 		torpedo_ammo = 0,
@@ -53031,7 +69780,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60402] = {
 		id = 60402,
@@ -53039,6 +69789,7 @@ pg.equip_data_statistics = {
 		base = 60401,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60402
 		},
@@ -53050,6 +69801,7 @@ pg.equip_data_statistics = {
 		base = 60401,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60403
 		},
@@ -53071,8 +69823,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "航母空袭展示用",
 		ammo = "无",
+		descrip = "航母空袭展示用",
 		value_3 = 0,
 		id = 60411,
 		torpedo_ammo = 0,
@@ -53084,7 +69836,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[60412] = {
 		id = 60412,
@@ -53092,6 +69845,7 @@ pg.equip_data_statistics = {
 		base = 60411,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60412
 		},
@@ -53103,6 +69857,7 @@ pg.equip_data_statistics = {
 		base = 60411,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60413
 		},
@@ -53124,8 +69879,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 61007,
 		torpedo_ammo = 0,
@@ -53137,13 +69892,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[61008] = {
 		id = 61008,
 		base = 61007,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			61008
 		},
@@ -53154,6 +69911,7 @@ pg.equip_data_statistics = {
 		base = 61007,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			61009
 		},
@@ -53175,8 +69933,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 61010,
 		torpedo_ammo = 0,
@@ -53188,13 +69946,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[61011] = {
 		id = 61011,
 		base = 61010,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			61011
 		},
@@ -53205,6 +69965,7 @@ pg.equip_data_statistics = {
 		base = 61010,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			61012
 		},
@@ -53226,8 +69987,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 61031,
 		torpedo_ammo = 0,
@@ -53239,7 +70000,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[61041] = {
 		name = "夕星展示",
@@ -53257,8 +70019,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 61041,
 		torpedo_ammo = 0,
@@ -53270,7 +70032,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[61051] = {
 		name = "百合根1段展示",
@@ -53288,8 +70051,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 61051,
 		torpedo_ammo = 0,
@@ -53301,7 +70064,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[61052] = {
 		name = "百合根2段展示",
@@ -53319,8 +70083,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 61052,
 		torpedo_ammo = 0,
@@ -53332,7 +70096,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[61053] = {
 		name = "百合根3段展示",
@@ -53350,8 +70115,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 61053,
 		torpedo_ammo = 0,
@@ -53363,7 +70128,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[61054] = {
 		name = "百合根4段展示",
@@ -53381,8 +70147,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 61054,
 		torpedo_ammo = 0,
@@ -53394,7 +70160,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[61501] = {
 		name = "0",
@@ -53412,8 +70179,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "外观空袭展示用",
 		ammo = "なし",
+		descrip = "外观空袭展示用",
 		value_3 = 0,
 		id = 61501,
 		torpedo_ammo = 0,
@@ -53425,7 +70192,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[61503] = {
 		name = "0",
@@ -53443,8 +70211,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "外观空袭展示用",
 		ammo = "なし",
+		descrip = "外观空袭展示用",
 		value_3 = 0,
 		id = 61503,
 		torpedo_ammo = 0,
@@ -53456,7 +70224,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[61504] = {
 		name = "0",
@@ -53474,8 +70243,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "外观空袭展示用",
 		ammo = "なし",
+		descrip = "外观空袭展示用",
 		value_3 = 0,
 		id = 61504,
 		torpedo_ammo = 0,
@@ -53487,7 +70256,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[61505] = {
 		name = "0",
@@ -53505,8 +70275,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "外观空袭展示用",
 		ammo = "なし",
+		descrip = "外观空袭展示用",
 		value_3 = 0,
 		id = 61505,
 		torpedo_ammo = 0,
@@ -53518,7 +70288,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[66200] = {
 		name = "0",
@@ -53536,8 +70307,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 66200,
 		torpedo_ammo = 0,
@@ -53549,7 +70320,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[66220] = {
 		name = "0",
@@ -53567,8 +70339,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 66220,
 		torpedo_ammo = 0,
@@ -53580,7 +70352,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[70011] = {
 		name = "0",
@@ -53598,8 +70371,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 70011,
 		torpedo_ammo = 0,
@@ -53611,13 +70384,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[70012] = {
 		id = 70012,
 		base = 70011,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			70012
 		},
@@ -53639,8 +70414,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 70021,
 		torpedo_ammo = 0,
@@ -53652,13 +70427,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[70022] = {
 		id = 70022,
 		base = 70021,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			70022
 		},
@@ -53680,8 +70457,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 70031,
 		torpedo_ammo = 0,
@@ -53693,13 +70470,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[70032] = {
 		id = 70032,
 		base = 70031,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			70032
 		},
@@ -53721,8 +70500,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 70041,
 		torpedo_ammo = 0,
@@ -53734,13 +70513,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[70042] = {
 		id = 70042,
 		base = 70041,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			70042
 		},
@@ -53762,8 +70543,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 70051,
 		torpedo_ammo = 0,
@@ -53775,13 +70556,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[70052] = {
 		id = 70052,
 		base = 70051,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			70052
 		},
@@ -53803,8 +70586,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 70061,
 		torpedo_ammo = 0,
@@ -53816,13 +70599,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[70062] = {
 		id = 70062,
 		base = 70061,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			70062
 		},
@@ -53844,8 +70629,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 70071,
 		torpedo_ammo = 0,
@@ -53857,13 +70642,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[70072] = {
 		id = 70072,
 		base = 70071,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			70072
 		},
@@ -53885,8 +70672,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 70111,
 		torpedo_ammo = 0,
@@ -53898,13 +70685,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[70112] = {
 		id = 70112,
 		base = 70111,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			70112
 		},
@@ -53926,8 +70715,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 70121,
 		torpedo_ammo = 0,
@@ -53939,13 +70728,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[70122] = {
 		id = 70122,
 		base = 70121,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			70122
 		},
@@ -53967,8 +70758,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 70131,
 		torpedo_ammo = 0,
@@ -53980,13 +70771,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[70132] = {
 		id = 70132,
 		base = 70131,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			70132
 		},
@@ -54008,8 +70801,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 70141,
 		torpedo_ammo = 0,
@@ -54021,13 +70814,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[70142] = {
 		id = 70142,
 		base = 70141,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			70142
 		},
@@ -54049,8 +70844,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 70211,
 		torpedo_ammo = 0,
@@ -54062,13 +70857,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[70212] = {
 		id = 70212,
 		base = 70211,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			70212
 		},
@@ -54090,8 +70887,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 70221,
 		torpedo_ammo = 0,
@@ -54103,13 +70900,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[70222] = {
 		id = 70222,
 		base = 70221,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			70222
 		},
@@ -54131,8 +70930,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 70231,
 		torpedo_ammo = 0,
@@ -54144,13 +70943,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[70232] = {
 		id = 70232,
 		base = 70231,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			70232
 		},
@@ -54172,8 +70973,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 70241,
 		torpedo_ammo = 0,
@@ -54185,13 +70986,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[70242] = {
 		id = 70242,
 		base = 70241,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			70242
 		},
@@ -54213,8 +71016,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 70251,
 		torpedo_ammo = 0,
@@ -54226,13 +71029,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[70252] = {
 		id = 70252,
 		base = 70251,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			70252
 		},
@@ -54254,8 +71059,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 70261,
 		torpedo_ammo = 0,
@@ -54267,13 +71072,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[70262] = {
 		id = 70262,
 		base = 70261,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			70262
 		},
@@ -54295,8 +71102,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 70271,
 		torpedo_ammo = 0,
@@ -54308,13 +71115,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[70272] = {
 		id = 70272,
 		base = 70271,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			70272
 		},
@@ -54336,8 +71145,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 70311,
 		torpedo_ammo = 0,
@@ -54349,13 +71158,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[70312] = {
 		id = 70312,
 		base = 70311,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			70312
 		},
@@ -54377,8 +71188,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 71011,
 		torpedo_ammo = 0,
@@ -54390,13 +71201,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[71012] = {
 		id = 71012,
 		base = 71011,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			71012
 		},
@@ -54418,8 +71231,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 71021,
 		torpedo_ammo = 0,
@@ -54431,13 +71244,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[71022] = {
 		id = 71022,
 		base = 71021,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			71022
 		},
@@ -54459,8 +71274,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 71031,
 		torpedo_ammo = 0,
@@ -54472,13 +71287,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[71032] = {
 		id = 71032,
 		base = 71031,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			71032
 		},
@@ -54500,8 +71317,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 71041,
 		torpedo_ammo = 0,
@@ -54513,13 +71330,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[71042] = {
 		id = 71042,
 		base = 71041,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			71042
 		},
@@ -54541,8 +71360,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 71051,
 		torpedo_ammo = 0,
@@ -54554,13 +71373,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[71052] = {
 		id = 71052,
 		base = 71051,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			71052
 		},
@@ -54582,8 +71403,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 71061,
 		torpedo_ammo = 0,
@@ -54595,13 +71416,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[71062] = {
 		id = 71062,
 		base = 71061,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			71062
 		},
@@ -54623,8 +71446,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 71071,
 		torpedo_ammo = 0,
@@ -54636,13 +71459,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[71072] = {
 		id = 71072,
 		base = 71071,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			71072
 		},
@@ -54664,8 +71489,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 71081,
 		torpedo_ammo = 0,
@@ -54677,13 +71502,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[71082] = {
 		id = 71082,
 		base = 71081,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			71082
 		},
@@ -54705,8 +71532,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 71091,
 		torpedo_ammo = 0,
@@ -54718,13 +71545,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[71092] = {
 		id = 71092,
 		base = 71091,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			71092
 		},
@@ -54746,8 +71575,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 71111,
 		torpedo_ammo = 0,
@@ -54759,13 +71588,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[71112] = {
 		id = 71112,
 		base = 71111,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			71112
 		},
@@ -54787,8 +71618,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 71121,
 		torpedo_ammo = 0,
@@ -54800,13 +71631,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[71122] = {
 		id = 71122,
 		base = 71121,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			71122
 		},
@@ -54828,8 +71661,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 71131,
 		torpedo_ammo = 0,
@@ -54841,13 +71674,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[71132] = {
 		id = 71132,
 		base = 71131,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			71132
 		},
@@ -54869,8 +71704,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 71141,
 		torpedo_ammo = 0,
@@ -54882,13 +71717,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[71142] = {
 		id = 71142,
 		base = 71141,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			71142
 		},
@@ -54910,8 +71747,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 71151,
 		torpedo_ammo = 0,
@@ -54923,13 +71760,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[71152] = {
 		id = 71152,
 		base = 71151,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			71152
 		},
@@ -54951,8 +71790,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 71161,
 		torpedo_ammo = 0,
@@ -54964,13 +71803,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[71162] = {
 		id = 71162,
 		base = 71161,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			71162
 		},
@@ -54992,8 +71833,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 71171,
 		torpedo_ammo = 0,
@@ -55005,13 +71846,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[71172] = {
 		id = 71172,
 		base = 71171,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			71172
 		},
@@ -55033,8 +71876,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 71211,
 		torpedo_ammo = 0,
@@ -55046,13 +71889,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[71212] = {
 		id = 71212,
 		base = 71211,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			71212
 		},
@@ -55074,8 +71919,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 71221,
 		torpedo_ammo = 0,
@@ -55087,13 +71932,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[71222] = {
 		id = 71222,
 		base = 71221,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			71222
 		},
@@ -55115,8 +71962,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 71231,
 		torpedo_ammo = 0,
@@ -55128,13 +71975,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[71232] = {
 		id = 71232,
 		base = 71231,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			71232
 		},
@@ -55156,8 +72005,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 71241,
 		torpedo_ammo = 0,
@@ -55169,13 +72018,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[71242] = {
 		id = 71242,
 		base = 71241,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			71242
 		},
@@ -55197,8 +72048,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 72011,
 		torpedo_ammo = 0,
@@ -55210,13 +72061,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72012] = {
 		id = 72012,
 		base = 72011,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72012
 		},
@@ -55238,8 +72091,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 72021,
 		torpedo_ammo = 0,
@@ -55251,13 +72104,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72022] = {
 		id = 72022,
 		base = 72021,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72022
 		},
@@ -55279,8 +72134,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 72031,
 		torpedo_ammo = 0,
@@ -55292,13 +72147,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72032] = {
 		id = 72032,
 		base = 72031,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72032
 		},
@@ -55320,8 +72177,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 72041,
 		torpedo_ammo = 0,
@@ -55333,13 +72190,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72042] = {
 		id = 72042,
 		base = 72041,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72042
 		},
@@ -55361,8 +72220,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 72051,
 		torpedo_ammo = 0,
@@ -55374,13 +72233,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72052] = {
 		id = 72052,
 		base = 72051,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72052
 		},
@@ -55402,8 +72263,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 72056,
 		torpedo_ammo = 0,
@@ -55415,13 +72276,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72057] = {
 		id = 72057,
 		base = 72056,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72057
 		},
@@ -55443,8 +72306,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 72061,
 		torpedo_ammo = 0,
@@ -55456,13 +72319,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72062] = {
 		id = 72062,
 		base = 72061,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72062
 		},
@@ -55484,8 +72349,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 72071,
 		torpedo_ammo = 0,
@@ -55497,13 +72362,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72072] = {
 		id = 72072,
 		base = 72071,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72072
 		},
@@ -55525,8 +72392,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 72081,
 		torpedo_ammo = 0,
@@ -55538,13 +72405,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72082] = {
 		id = 72082,
 		base = 72081,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72082
 		},
@@ -55566,8 +72435,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 72091,
 		torpedo_ammo = 0,
@@ -55579,13 +72448,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72092] = {
 		id = 72092,
 		base = 72091,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72092
 		},
@@ -55607,8 +72478,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 72111,
 		torpedo_ammo = 0,
@@ -55620,13 +72491,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72112] = {
 		id = 72112,
 		base = 72111,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72112
 		},
@@ -55648,8 +72521,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 72121,
 		torpedo_ammo = 0,
@@ -55661,13 +72534,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72122] = {
 		id = 72122,
 		base = 72121,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72122
 		},
@@ -55689,8 +72564,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 72131,
 		torpedo_ammo = 0,
@@ -55702,13 +72577,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72132] = {
 		id = 72132,
 		base = 72131,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72132
 		},
@@ -55730,8 +72607,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 72141,
 		torpedo_ammo = 0,
@@ -55743,13 +72620,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72142] = {
 		id = 72142,
 		base = 72141,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72142
 		},
@@ -55771,8 +72650,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 72151,
 		torpedo_ammo = 0,
@@ -55784,13 +72663,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72152] = {
 		id = 72152,
 		base = 72151,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72152
 		},
@@ -55812,8 +72693,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 72161,
 		torpedo_ammo = 0,
@@ -55825,13 +72706,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72162] = {
 		id = 72162,
 		base = 72161,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72162
 		},
@@ -55853,8 +72736,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 72211,
 		torpedo_ammo = 0,
@@ -55866,13 +72749,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72212] = {
 		id = 72212,
 		base = 72211,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72212
 		},
@@ -55894,8 +72779,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 72221,
 		torpedo_ammo = 0,
@@ -55907,13 +72792,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72222] = {
 		id = 72222,
 		base = 72221,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72222
 		},
@@ -55935,8 +72822,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 72231,
 		torpedo_ammo = 0,
@@ -55948,13 +72835,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72232] = {
 		id = 72232,
 		base = 72231,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72232
 		},
@@ -55976,8 +72865,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 72241,
 		torpedo_ammo = 0,
@@ -55989,13 +72878,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72242] = {
 		id = 72242,
 		base = 72241,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72242
 		},
@@ -56017,8 +72908,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 72251,
 		torpedo_ammo = 0,
@@ -56030,13 +72921,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72252] = {
 		id = 72252,
 		base = 72251,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72252
 		},
@@ -56072,13 +72965,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72255] = {
 		id = 72255,
 		base = 72251,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72255
 		},
@@ -56114,13 +73009,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72257] = {
 		id = 72257,
 		base = 72251,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72257
 		},
@@ -56142,8 +73039,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 72261,
 		torpedo_ammo = 0,
@@ -56155,13 +73052,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72262] = {
 		id = 72262,
 		base = 72261,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72262
 		},
@@ -56183,8 +73082,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 72311,
 		torpedo_ammo = 0,
@@ -56196,13 +73095,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[72312] = {
 		id = 72312,
 		base = 72311,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			72312
 		},
@@ -56224,8 +73125,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 73011,
 		torpedo_ammo = 0,
@@ -56237,13 +73138,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[73012] = {
 		id = 73012,
 		base = 73011,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			73012
 		},
@@ -56265,8 +73168,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 73031,
 		torpedo_ammo = 0,
@@ -56278,13 +73181,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[73032] = {
 		id = 73032,
 		base = 73031,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			73032
 		},
@@ -56306,8 +73211,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 73041,
 		torpedo_ammo = 0,
@@ -56319,13 +73224,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[73042] = {
 		id = 73042,
 		base = 73041,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			73042
 		},
@@ -56347,8 +73254,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 73051,
 		torpedo_ammo = 0,
@@ -56360,13 +73267,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[73052] = {
 		id = 73052,
 		base = 73051,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			73052
 		},
@@ -56388,8 +73297,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 73111,
 		torpedo_ammo = 0,
@@ -56401,13 +73310,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[73112] = {
 		id = 73112,
 		base = 73111,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			73112
 		},
@@ -56429,8 +73340,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 73121,
 		torpedo_ammo = 0,
@@ -56442,13 +73353,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[73122] = {
 		id = 73122,
 		base = 73121,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			73112
 		},
@@ -56470,8 +73383,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 73211,
 		torpedo_ammo = 0,
@@ -56483,13 +73396,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[73212] = {
 		id = 73212,
 		base = 73211,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			73212
 		},
@@ -56511,8 +73426,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 73221,
 		torpedo_ammo = 0,
@@ -56524,13 +73439,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[73222] = {
 		id = 73222,
 		base = 73221,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			73222
 		},
@@ -56552,8 +73469,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 73311,
 		torpedo_ammo = 0,
@@ -56565,13 +73482,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[73312] = {
 		id = 73312,
 		base = 73311,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			73312
 		},
@@ -56593,8 +73512,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 73411,
 		torpedo_ammo = 0,
@@ -56606,13 +73525,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[73412] = {
 		id = 73412,
 		base = 73411,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			73412
 		},
@@ -56634,8 +73555,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 73511,
 		torpedo_ammo = 0,
@@ -56647,7 +73568,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[73512] = {
 		id = 73512,
@@ -56655,6 +73577,7 @@ pg.equip_data_statistics = {
 		base = 73511,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			73512
 		},
@@ -56676,8 +73599,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 74011,
 		torpedo_ammo = 0,
@@ -56689,13 +73612,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[74012] = {
 		id = 74012,
 		base = 74011,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			74012
 		},
@@ -56717,8 +73642,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 74111,
 		torpedo_ammo = 0,
@@ -56730,13 +73655,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[74112] = {
 		id = 74112,
 		base = 74111,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			74112
 		},
@@ -56758,8 +73685,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 74121,
 		torpedo_ammo = 0,
@@ -56771,13 +73698,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[74122] = {
 		id = 74122,
 		base = 74121,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			74122
 		},
@@ -56799,8 +73728,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 78011,
 		torpedo_ammo = 0,
@@ -56812,13 +73741,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[78012] = {
 		id = 78012,
 		base = 78011,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			78012
 		},
@@ -56840,8 +73771,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 78021,
 		torpedo_ammo = 0,
@@ -56853,13 +73784,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[78022] = {
 		id = 78022,
 		base = 78021,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			78022
 		},
@@ -56881,8 +73814,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 78111,
 		torpedo_ammo = 0,
@@ -56894,13 +73827,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[78112] = {
 		id = 78112,
 		base = 78111,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			78112
 		},
@@ -56922,8 +73857,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79011,
 		torpedo_ammo = 0,
@@ -56935,13 +73870,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79012] = {
 		id = 79012,
 		base = 79011,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79012
 		},
@@ -56963,8 +73900,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79021,
 		torpedo_ammo = 0,
@@ -56976,13 +73913,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79022] = {
 		id = 79022,
 		base = 79021,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79022
 		},
@@ -57004,8 +73943,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79031,
 		torpedo_ammo = 0,
@@ -57017,13 +73956,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79032] = {
 		id = 79032,
 		base = 79031,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79032
 		},
@@ -57045,8 +73986,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79041,
 		torpedo_ammo = 0,
@@ -57058,13 +73999,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79042] = {
 		id = 79042,
 		base = 79041,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79042
 		},
@@ -57086,8 +74029,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79051,
 		torpedo_ammo = 0,
@@ -57099,13 +74042,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79052] = {
 		id = 79052,
 		base = 79051,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79052
 		},
@@ -57127,8 +74072,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79061,
 		torpedo_ammo = 0,
@@ -57140,13 +74085,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79062] = {
 		id = 79062,
 		base = 79061,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79062
 		},
@@ -57168,8 +74115,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79071,
 		torpedo_ammo = 0,
@@ -57181,13 +74128,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79072] = {
 		id = 79072,
 		base = 79071,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79072
 		},
@@ -57209,8 +74158,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79081,
 		torpedo_ammo = 0,
@@ -57222,13 +74171,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79082] = {
 		id = 79082,
 		base = 79081,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79082
 		},
@@ -57250,8 +74201,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79091,
 		torpedo_ammo = 0,
@@ -57263,13 +74214,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79092] = {
 		id = 79092,
 		base = 79091,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79092
 		},
@@ -57291,8 +74244,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79101,
 		torpedo_ammo = 0,
@@ -57304,13 +74257,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79102] = {
 		id = 79102,
 		base = 79101,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79102
 		},
@@ -57332,8 +74287,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79111,
 		torpedo_ammo = 0,
@@ -57345,13 +74300,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79112] = {
 		id = 79112,
 		base = 79111,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79112
 		},
@@ -57373,8 +74330,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79121,
 		torpedo_ammo = 0,
@@ -57386,13 +74343,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79122] = {
 		id = 79122,
 		base = 79121,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79122
 		},
@@ -57414,8 +74373,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79131,
 		torpedo_ammo = 0,
@@ -57427,13 +74386,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79132] = {
 		id = 79132,
 		base = 79131,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79132
 		},
@@ -57455,8 +74416,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79141,
 		torpedo_ammo = 0,
@@ -57468,13 +74429,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79142] = {
 		id = 79142,
 		base = 79141,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79142
 		},
@@ -57496,8 +74459,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79151,
 		torpedo_ammo = 0,
@@ -57509,13 +74472,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79152] = {
 		id = 79152,
 		base = 79151,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79152
 		},
@@ -57537,8 +74502,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79161,
 		torpedo_ammo = 0,
@@ -57550,13 +74515,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79162] = {
 		id = 79162,
 		base = 79161,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79162
 		},
@@ -57578,8 +74545,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79171,
 		torpedo_ammo = 0,
@@ -57591,13 +74558,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79172] = {
 		id = 79172,
 		base = 79171,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79172
 		},
@@ -57619,8 +74588,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79181,
 		torpedo_ammo = 0,
@@ -57632,13 +74601,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79182] = {
 		id = 79182,
 		base = 79181,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79182
 		},
@@ -57660,8 +74631,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79191,
 		torpedo_ammo = 0,
@@ -57673,13 +74644,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79192] = {
 		id = 79192,
 		base = 79191,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79192
 		},
@@ -57701,8 +74674,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79201,
 		torpedo_ammo = 0,
@@ -57714,13 +74687,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79202] = {
 		id = 79202,
 		base = 79201,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79202
 		},
@@ -57742,8 +74717,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79211,
 		torpedo_ammo = 0,
@@ -57755,13 +74730,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79212] = {
 		id = 79212,
 		base = 79211,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79212
 		},
@@ -57783,8 +74760,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79221,
 		torpedo_ammo = 0,
@@ -57796,13 +74773,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79222] = {
 		id = 79222,
 		base = 79221,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79222
 		},
@@ -57824,8 +74803,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79231,
 		torpedo_ammo = 0,
@@ -57837,13 +74816,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79232] = {
 		id = 79232,
 		base = 79231,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79232
 		},
@@ -57865,8 +74846,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79241,
 		torpedo_ammo = 0,
@@ -57878,13 +74859,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79242] = {
 		id = 79242,
 		base = 79241,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79242
 		},
@@ -57906,8 +74889,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79251,
 		torpedo_ammo = 0,
@@ -57919,13 +74902,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79252] = {
 		id = 79252,
 		base = 79251,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79252
 		},
@@ -57947,8 +74932,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79261,
 		torpedo_ammo = 0,
@@ -57960,13 +74945,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79262] = {
 		id = 79262,
 		base = 79261,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79262
 		},
@@ -57988,8 +74975,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79271,
 		torpedo_ammo = 0,
@@ -58001,13 +74988,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79272] = {
 		id = 79272,
 		base = 79271,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79272
 		},
@@ -58029,8 +75018,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79311,
 		torpedo_ammo = 0,
@@ -58042,13 +75031,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79312] = {
 		id = 79312,
 		base = 79311,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79312
 		},
@@ -58070,8 +75061,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79321,
 		torpedo_ammo = 0,
@@ -58083,13 +75074,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79322] = {
 		id = 79322,
 		base = 79321,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79322
 		},
@@ -58111,8 +75104,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79331,
 		torpedo_ammo = 0,
@@ -58124,13 +75117,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79332] = {
 		id = 79332,
 		base = 79321,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			60304
 		},
@@ -58152,8 +75147,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79341,
 		torpedo_ammo = 0,
@@ -58165,13 +75160,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79342] = {
 		id = 79342,
 		base = 79341,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79342
 		},
@@ -58193,8 +75190,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79361,
 		torpedo_ammo = 0,
@@ -58206,7 +75203,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79362] = {
 		id = 79362,
@@ -58214,6 +75212,7 @@ pg.equip_data_statistics = {
 		base = 79361,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79362
 		},
@@ -58235,8 +75234,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79371,
 		torpedo_ammo = 0,
@@ -58248,13 +75247,15 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79372] = {
 		id = 79372,
 		base = 79371,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79372
 		},
@@ -58276,8 +75277,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79381,
 		torpedo_ammo = 0,
@@ -58289,7 +75290,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79382] = {
 		id = 79382,
@@ -58297,6 +75299,7 @@ pg.equip_data_statistics = {
 		base = 79381,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79382
 		},
@@ -58318,8 +75321,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79383,
 		torpedo_ammo = 0,
@@ -58331,7 +75334,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79384] = {
 		id = 79384,
@@ -58339,6 +75343,7 @@ pg.equip_data_statistics = {
 		base = 79383,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79384
 		},
@@ -58360,8 +75365,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79391,
 		torpedo_ammo = 0,
@@ -58373,7 +75378,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79392] = {
 		id = 79392,
@@ -58381,6 +75387,7 @@ pg.equip_data_statistics = {
 		base = 79391,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79392
 		},
@@ -58402,8 +75409,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79401,
 		torpedo_ammo = 0,
@@ -58415,7 +75422,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79402] = {
 		id = 79402,
@@ -58423,6 +75431,7 @@ pg.equip_data_statistics = {
 		base = 79401,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79402
 		},
@@ -58444,8 +75453,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79411,
 		torpedo_ammo = 0,
@@ -58457,7 +75466,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79412] = {
 		id = 79412,
@@ -58465,6 +75475,7 @@ pg.equip_data_statistics = {
 		base = 79411,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79412
 		},
@@ -58486,8 +75497,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79421,
 		torpedo_ammo = 0,
@@ -58499,7 +75510,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79422] = {
 		id = 79422,
@@ -58507,6 +75519,7 @@ pg.equip_data_statistics = {
 		base = 79421,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79422
 		},
@@ -58528,8 +75541,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "スキル弾幕",
 		ammo = "なし",
+		descrip = "スキル弾幕",
 		value_3 = 0,
 		id = 79431,
 		torpedo_ammo = 0,
@@ -58541,7 +75554,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[79432] = {
 		id = 79432,
@@ -58549,8 +75563,53 @@ pg.equip_data_statistics = {
 		base = 79431,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			79432
+		},
+		property_rate = {}
+	},
+	[79441] = {
+		name = "专属弹幕-棘鳍I",
+		type = 1,
+		nationality = 0,
+		speciality = "なし",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "なし",
+		descrip = "スキル弾幕",
+		value_3 = 0,
+		id = 79441,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			79441
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[79442] = {
+		id = 79442,
+		name = "专属弹幕-棘鳍II",
+		base = 79441,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		label = {},
+		weapon_id = {
+			79442
 		},
 		property_rate = {}
 	},
@@ -58585,94 +75644,127 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[89001] = {
 		id = 89001,
 		base = 89000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89002] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 89002,
 		base = 89000,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "17",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89003] = {
-		is_siren = 0,
+		value_2 = 8,
 		id = 89003,
 		base = 89000,
-		value_2 = 8,
+		is_siren = 0,
 		value_1 = "18",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89004] = {
-		is_siren = 0,
+		value_2 = 9,
 		id = 89004,
 		base = 89000,
-		value_2 = 9,
+		is_siren = 0,
 		value_1 = "19",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89005] = {
-		is_siren = 0,
+		value_2 = 10,
 		id = 89005,
 		base = 89000,
-		value_2 = 10,
+		is_siren = 0,
 		value_1 = "20",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89006] = {
-		is_siren = 0,
+		value_2 = 11,
 		id = 89006,
 		base = 89000,
-		value_2 = 11,
+		is_siren = 0,
 		value_1 = "21",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89007] = {
-		is_siren = 0,
+		value_2 = 12,
 		id = 89007,
 		base = 89000,
-		value_2 = 12,
+		is_siren = 0,
 		value_1 = "22",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89008] = {
-		is_siren = 0,
+		value_2 = 13,
 		id = 89008,
 		base = 89000,
-		value_2 = 13,
+		is_siren = 0,
 		value_1 = "23",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89009] = {
-		is_siren = 0,
+		value_2 = 14,
 		id = 89009,
 		base = 89000,
-		value_2 = 14,
+		is_siren = 0,
 		value_1 = "24",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89010] = {
-		is_siren = 0,
+		value_2 = 15,
 		id = 89010,
 		base = 89000,
-		value_2 = 15,
+		is_siren = 0,
 		value_1 = "25",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89020] = {
@@ -58706,96 +75798,129 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[89021] = {
-		is_siren = 0,
+		value_2 = 1,
 		id = 89021,
 		base = 89020,
-		value_2 = 1,
+		is_siren = 0,
 		value_1 = "230",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89022] = {
-		is_siren = 0,
+		value_2 = 1,
 		id = 89022,
 		base = 89020,
-		value_2 = 1,
+		is_siren = 0,
 		value_1 = "260",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89023] = {
-		is_siren = 0,
+		value_2 = 1,
 		id = 89023,
 		base = 89020,
-		value_2 = 1,
+		is_siren = 0,
 		value_1 = "290",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89024] = {
-		is_siren = 0,
+		value_2 = 1,
 		id = 89024,
 		base = 89020,
-		value_2 = 1,
+		is_siren = 0,
 		value_1 = "320",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89025] = {
-		is_siren = 0,
+		value_2 = 1,
 		id = 89025,
 		base = 89020,
-		value_2 = 1,
+		is_siren = 0,
 		value_1 = "350",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89026] = {
-		is_siren = 0,
+		value_2 = 1,
 		id = 89026,
 		base = 89020,
-		value_2 = 1,
+		is_siren = 0,
 		value_1 = "380",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89027] = {
-		is_siren = 0,
+		value_2 = 1,
 		id = 89027,
 		base = 89020,
-		value_2 = 1,
+		is_siren = 0,
 		value_1 = "410",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89028] = {
-		is_siren = 0,
+		value_2 = 1,
 		id = 89028,
 		base = 89020,
-		value_2 = 1,
+		is_siren = 0,
 		value_1 = "440",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89029] = {
-		is_siren = 0,
+		value_2 = 1,
 		id = 89029,
 		base = 89020,
-		value_2 = 1,
+		is_siren = 0,
 		value_1 = "470",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89030] = {
-		is_siren = 0,
+		value_2 = 2,
 		id = 89030,
 		base = 89020,
-		value_2 = 2,
+		is_siren = 0,
 		value_1 = "500",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89040] = {
@@ -58829,7 +75954,10 @@ pg.equip_data_statistics = {
 		},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
 	},
 	[89041] = {
 		id = 89041,
@@ -58837,87 +75965,117 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		value_1 = "112",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89042] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 89042,
 		base = 89040,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "127",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89043] = {
-		is_siren = 0,
+		value_2 = 4,
 		id = 89043,
 		base = 89040,
-		value_2 = 4,
+		is_siren = 0,
 		value_1 = "142",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89044] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 89044,
 		base = 89040,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "156",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89045] = {
-		is_siren = 0,
+		value_2 = 5,
 		id = 89045,
 		base = 89040,
-		value_2 = 5,
+		is_siren = 0,
 		value_1 = "171",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89046] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 89046,
 		base = 89040,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "186",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89047] = {
-		is_siren = 0,
+		value_2 = 6,
 		id = 89047,
 		base = 89040,
-		value_2 = 6,
+		is_siren = 0,
 		value_1 = "200",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89048] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 89048,
 		base = 89040,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "215",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89049] = {
-		is_siren = 0,
+		value_2 = 7,
 		id = 89049,
 		base = 89040,
-		value_2 = 7,
+		is_siren = 0,
 		value_1 = "230",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[89050] = {
-		is_siren = 0,
+		value_2 = 8,
 		id = 89050,
 		base = 89040,
-		value_2 = 8,
+		is_siren = 0,
 		value_1 = "245",
 		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
 		property_rate = {}
 	},
 	[90000] = {
@@ -58957,7 +76115,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
 	},
 	[90001] = {
 		value_1 = "3 x 5",
@@ -58965,6 +76128,11 @@ pg.equip_data_statistics = {
 		base = 90000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90001
 		},
@@ -58976,6 +76144,11 @@ pg.equip_data_statistics = {
 		base = 90000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90002
 		},
@@ -58987,6 +76160,11 @@ pg.equip_data_statistics = {
 		base = 90000,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90003
 		},
@@ -59030,7 +76208,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
 	},
 	[90021] = {
 		value_1 = "4 x 5",
@@ -59038,6 +76221,11 @@ pg.equip_data_statistics = {
 		base = 90020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90021
 		},
@@ -59049,6 +76237,11 @@ pg.equip_data_statistics = {
 		base = 90020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90022
 		},
@@ -59060,6 +76253,11 @@ pg.equip_data_statistics = {
 		base = 90020,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90023
 		},
@@ -59103,7 +76301,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
 	},
 	[90041] = {
 		value_1 = "5 x 5",
@@ -59111,6 +76314,11 @@ pg.equip_data_statistics = {
 		base = 90040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90041
 		},
@@ -59122,6 +76330,11 @@ pg.equip_data_statistics = {
 		base = 90040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90042
 		},
@@ -59133,6 +76346,11 @@ pg.equip_data_statistics = {
 		base = 90040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90043
 		},
@@ -59144,6 +76362,11 @@ pg.equip_data_statistics = {
 		base = 90040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90044
 		},
@@ -59155,6 +76378,11 @@ pg.equip_data_statistics = {
 		base = 90040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90045
 		},
@@ -59166,6 +76394,11 @@ pg.equip_data_statistics = {
 		base = 90040,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90046
 		},
@@ -59209,7 +76442,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
 	},
 	[90101] = {
 		value_1 = "4 x 5",
@@ -59217,6 +76455,11 @@ pg.equip_data_statistics = {
 		base = 90100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90101
 		},
@@ -59228,6 +76471,11 @@ pg.equip_data_statistics = {
 		base = 90100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90102
 		},
@@ -59239,6 +76487,11 @@ pg.equip_data_statistics = {
 		base = 90100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90103
 		},
@@ -59250,6 +76503,11 @@ pg.equip_data_statistics = {
 		base = 90100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90104
 		},
@@ -59261,6 +76519,11 @@ pg.equip_data_statistics = {
 		base = 90100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90105
 		},
@@ -59272,6 +76535,11 @@ pg.equip_data_statistics = {
 		base = 90100,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90106
 		},
@@ -59315,7 +76583,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
 	},
 	[90121] = {
 		value_1 = "5 x 5",
@@ -59323,6 +76596,11 @@ pg.equip_data_statistics = {
 		base = 90120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90121
 		},
@@ -59334,6 +76612,11 @@ pg.equip_data_statistics = {
 		base = 90120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90122
 		},
@@ -59345,6 +76628,11 @@ pg.equip_data_statistics = {
 		base = 90120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90123
 		},
@@ -59356,6 +76644,11 @@ pg.equip_data_statistics = {
 		base = 90120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90124
 		},
@@ -59367,6 +76660,11 @@ pg.equip_data_statistics = {
 		base = 90120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90125
 		},
@@ -59378,6 +76676,11 @@ pg.equip_data_statistics = {
 		base = 90120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90126
 		},
@@ -59389,6 +76692,11 @@ pg.equip_data_statistics = {
 		base = 90120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90127
 		},
@@ -59400,6 +76708,11 @@ pg.equip_data_statistics = {
 		base = 90120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90128
 		},
@@ -59411,6 +76724,11 @@ pg.equip_data_statistics = {
 		base = 90120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90129
 		},
@@ -59422,6 +76740,11 @@ pg.equip_data_statistics = {
 		base = 90120,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90130
 		},
@@ -59465,7 +76788,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
 	},
 	[90141] = {
 		value_1 = "6 x 5",
@@ -59473,6 +76801,11 @@ pg.equip_data_statistics = {
 		base = 90140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90141
 		},
@@ -59484,6 +76817,11 @@ pg.equip_data_statistics = {
 		base = 90140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90142
 		},
@@ -59495,6 +76833,11 @@ pg.equip_data_statistics = {
 		base = 90140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90143
 		},
@@ -59506,6 +76849,11 @@ pg.equip_data_statistics = {
 		base = 90140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90144
 		},
@@ -59517,6 +76865,11 @@ pg.equip_data_statistics = {
 		base = 90140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90145
 		},
@@ -59528,6 +76881,11 @@ pg.equip_data_statistics = {
 		base = 90140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90146
 		},
@@ -59539,6 +76897,11 @@ pg.equip_data_statistics = {
 		base = 90140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90147
 		},
@@ -59550,6 +76913,11 @@ pg.equip_data_statistics = {
 		base = 90140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90148
 		},
@@ -59561,6 +76929,11 @@ pg.equip_data_statistics = {
 		base = 90140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90149
 		},
@@ -59572,6 +76945,11 @@ pg.equip_data_statistics = {
 		base = 90140,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90150
 		},
@@ -59613,7 +76991,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CL",
+			"MG"
+		}
 	},
 	[90201] = {
 		value_1 = "8 x 6",
@@ -59621,6 +77004,11 @@ pg.equip_data_statistics = {
 		base = 90200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			90201
 		},
@@ -59632,6 +77020,11 @@ pg.equip_data_statistics = {
 		base = 90200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			90202
 		},
@@ -59643,6 +77036,11 @@ pg.equip_data_statistics = {
 		base = 90200,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			90203
 		},
@@ -59685,7 +77083,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CL",
+			"MG"
+		}
 	},
 	[90221] = {
 		value_1 = "9 x 6",
@@ -59693,6 +77096,11 @@ pg.equip_data_statistics = {
 		base = 90220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			90221
 		},
@@ -59704,6 +77112,11 @@ pg.equip_data_statistics = {
 		base = 90220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			90222
 		},
@@ -59715,6 +77128,11 @@ pg.equip_data_statistics = {
 		base = 90220,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			90223
 		},
@@ -59757,7 +77175,12 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"CL",
+			"MG"
+		}
 	},
 	[90241] = {
 		value_1 = "10 x 6",
@@ -59765,6 +77188,11 @@ pg.equip_data_statistics = {
 		base = 90240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			90241
 		},
@@ -59776,6 +77204,11 @@ pg.equip_data_statistics = {
 		base = 90240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			90242
 		},
@@ -59787,6 +77220,11 @@ pg.equip_data_statistics = {
 		base = 90240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			90243
 		},
@@ -59798,6 +77236,11 @@ pg.equip_data_statistics = {
 		base = 90240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			90244
 		},
@@ -59809,6 +77252,11 @@ pg.equip_data_statistics = {
 		base = 90240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			90245
 		},
@@ -59820,6 +77268,11 @@ pg.equip_data_statistics = {
 		base = 90240,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"CL",
+			"MG"
+		},
 		weapon_id = {
 			90246
 		},
@@ -59861,7 +77314,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		}
 	},
 	[90301] = {
 		value_1 = "39 x 4",
@@ -59869,6 +77327,11 @@ pg.equip_data_statistics = {
 		base = 90300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			90301
 		},
@@ -59880,6 +77343,11 @@ pg.equip_data_statistics = {
 		base = 90300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			90302
 		},
@@ -59891,6 +77359,11 @@ pg.equip_data_statistics = {
 		base = 90300,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			90303
 		},
@@ -59932,7 +77405,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		}
 	},
 	[90321] = {
 		value_1 = "42 x 4",
@@ -59940,6 +77418,11 @@ pg.equip_data_statistics = {
 		base = 90320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			90321
 		},
@@ -59951,6 +77434,11 @@ pg.equip_data_statistics = {
 		base = 90320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			90322
 		},
@@ -59962,6 +77450,11 @@ pg.equip_data_statistics = {
 		base = 90320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			90323
 		},
@@ -59973,6 +77466,11 @@ pg.equip_data_statistics = {
 		base = 90320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			90324
 		},
@@ -59984,6 +77482,11 @@ pg.equip_data_statistics = {
 		base = 90320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			90325
 		},
@@ -59995,6 +77498,11 @@ pg.equip_data_statistics = {
 		base = 90320,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			90326
 		},
@@ -60036,7 +77544,12 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		}
 	},
 	[90341] = {
 		value_1 = "47 x 4",
@@ -60044,6 +77557,11 @@ pg.equip_data_statistics = {
 		base = 90340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			90341
 		},
@@ -60055,6 +77573,11 @@ pg.equip_data_statistics = {
 		base = 90340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			90342
 		},
@@ -60066,6 +77589,11 @@ pg.equip_data_statistics = {
 		base = 90340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			90343
 		},
@@ -60077,6 +77605,11 @@ pg.equip_data_statistics = {
 		base = 90340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			90344
 		},
@@ -60088,6 +77621,11 @@ pg.equip_data_statistics = {
 		base = 90340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			90345
 		},
@@ -60099,6 +77637,11 @@ pg.equip_data_statistics = {
 		base = 90340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			90346
 		},
@@ -60110,6 +77653,11 @@ pg.equip_data_statistics = {
 		base = 90340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			90347
 		},
@@ -60121,6 +77669,11 @@ pg.equip_data_statistics = {
 		base = 90340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			90348
 		},
@@ -60132,6 +77685,11 @@ pg.equip_data_statistics = {
 		base = 90340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			90349
 		},
@@ -60143,6 +77701,11 @@ pg.equip_data_statistics = {
 		base = 90340,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG"
+		},
 		weapon_id = {
 			90350
 		},
@@ -60184,7 +77747,13 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		}
 	},
 	[90401] = {
 		value_1 = "46 x 4",
@@ -60192,6 +77761,12 @@ pg.equip_data_statistics = {
 		base = 90400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90401
 		},
@@ -60203,6 +77778,12 @@ pg.equip_data_statistics = {
 		base = 90400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90402
 		},
@@ -60214,6 +77795,12 @@ pg.equip_data_statistics = {
 		base = 90400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90403
 		},
@@ -60225,6 +77812,12 @@ pg.equip_data_statistics = {
 		base = 90400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90404
 		},
@@ -60236,6 +77829,12 @@ pg.equip_data_statistics = {
 		base = 90400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90405
 		},
@@ -60247,6 +77846,12 @@ pg.equip_data_statistics = {
 		base = 90400,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90406
 		},
@@ -60288,7 +77893,13 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		}
 	},
 	[90421] = {
 		value_1 = "50 x 4",
@@ -60296,6 +77907,12 @@ pg.equip_data_statistics = {
 		base = 90420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90421
 		},
@@ -60307,6 +77924,12 @@ pg.equip_data_statistics = {
 		base = 90420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90422
 		},
@@ -60318,6 +77941,12 @@ pg.equip_data_statistics = {
 		base = 90420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90423
 		},
@@ -60329,6 +77958,12 @@ pg.equip_data_statistics = {
 		base = 90420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90424
 		},
@@ -60340,6 +77975,12 @@ pg.equip_data_statistics = {
 		base = 90420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90425
 		},
@@ -60351,6 +77992,12 @@ pg.equip_data_statistics = {
 		base = 90420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90426
 		},
@@ -60362,6 +78009,12 @@ pg.equip_data_statistics = {
 		base = 90420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90427
 		},
@@ -60373,6 +78026,12 @@ pg.equip_data_statistics = {
 		base = 90420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90428
 		},
@@ -60384,6 +78043,12 @@ pg.equip_data_statistics = {
 		base = 90420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90429
 		},
@@ -60395,6 +78060,12 @@ pg.equip_data_statistics = {
 		base = 90420,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90430
 		},
@@ -60436,7 +78107,13 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		}
 	},
 	[90441] = {
 		value_1 = "55 x 4",
@@ -60444,6 +78121,12 @@ pg.equip_data_statistics = {
 		base = 90440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90441
 		},
@@ -60455,6 +78138,12 @@ pg.equip_data_statistics = {
 		base = 90440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90442
 		},
@@ -60466,6 +78155,12 @@ pg.equip_data_statistics = {
 		base = 90440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90443
 		},
@@ -60477,6 +78172,12 @@ pg.equip_data_statistics = {
 		base = 90440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90444
 		},
@@ -60488,6 +78189,12 @@ pg.equip_data_statistics = {
 		base = 90440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90445
 		},
@@ -60499,6 +78206,12 @@ pg.equip_data_statistics = {
 		base = 90440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90446
 		},
@@ -60510,6 +78223,12 @@ pg.equip_data_statistics = {
 		base = 90440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90447
 		},
@@ -60521,6 +78240,12 @@ pg.equip_data_statistics = {
 		base = 90440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90448
 		},
@@ -60532,6 +78257,12 @@ pg.equip_data_statistics = {
 		base = 90440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90449
 		},
@@ -60543,6 +78274,12 @@ pg.equip_data_statistics = {
 		base = 90440,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"BB",
+			"MG",
+			"Richelieu"
+		},
 		weapon_id = {
 			90450
 		},
@@ -60586,7 +78323,12 @@ pg.equip_data_statistics = {
 			4,
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
 	},
 	[90501] = {
 		base = 90500,
@@ -60594,30 +78336,45 @@ pg.equip_data_statistics = {
 		scatter = "12°",
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90501
 		},
 		property_rate = {}
 	},
 	[90502] = {
-		value_1 = "10 x 2",
 		base = 90500,
+		id = 90502,
 		scatter = "12°",
 		is_siren = 0,
-		id = 90502,
+		value_1 = "10 x 2",
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90502
 		},
 		property_rate = {}
 	},
 	[90503] = {
-		value_1 = "10 x 2",
 		base = 90500,
+		id = 90503,
 		scatter = "12°",
 		is_siren = 0,
-		id = 90503,
+		value_1 = "10 x 2",
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		},
 		weapon_id = {
 			90503
 		},
@@ -60654,7 +78411,12 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"AA"
+		}
 	},
 	[90601] = {
 		value_1 = "42/回",
@@ -60662,6 +78424,11 @@ pg.equip_data_statistics = {
 		base = 90600,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"AA"
+		},
 		weapon_id = {
 			90601
 		},
@@ -60673,6 +78440,11 @@ pg.equip_data_statistics = {
 		base = 90600,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"AA"
+		},
 		weapon_id = {
 			90602
 		},
@@ -60684,6 +78456,11 @@ pg.equip_data_statistics = {
 		base = 90600,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"AA"
+		},
 		weapon_id = {
 			90603
 		},
@@ -60695,6 +78472,11 @@ pg.equip_data_statistics = {
 		base = 90600,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"AA"
+		},
 		weapon_id = {
 			90604
 		},
@@ -60706,6 +78488,11 @@ pg.equip_data_statistics = {
 		base = 90600,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"AA"
+		},
 		weapon_id = {
 			90605
 		},
@@ -60717,6 +78504,11 @@ pg.equip_data_statistics = {
 		base = 90600,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"AA"
+		},
 		weapon_id = {
 			90606
 		},
@@ -60728,6 +78520,11 @@ pg.equip_data_statistics = {
 		base = 90600,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"AA"
+		},
 		weapon_id = {
 			90607
 		},
@@ -60739,6 +78536,11 @@ pg.equip_data_statistics = {
 		base = 90600,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"AA"
+		},
 		weapon_id = {
 			90608
 		},
@@ -60750,6 +78552,11 @@ pg.equip_data_statistics = {
 		base = 90600,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"AA"
+		},
 		weapon_id = {
 			90609
 		},
@@ -60761,6 +78568,11 @@ pg.equip_data_statistics = {
 		base = 90600,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {
+			"FFNF",
+			"DD",
+			"AA"
+		},
 		weapon_id = {
 			90610
 		},
@@ -60782,8 +78594,8 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "敵装備",
 		ammo = "なし",
+		descrip = "敵装備",
 		value_3 = 0,
 		id = 100000,
 		torpedo_ammo = 0,
@@ -60793,7 +78605,8 @@ pg.equip_data_statistics = {
 		skill_id = {},
 		part_main = {},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[594017] = {
 		name = "美系剧情海伦娜主炮",
@@ -60832,7 +78645,8 @@ pg.equip_data_statistics = {
 		part_sub = {
 			5
 		},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[594018] = {
 		name = "美系剧情北卡主炮",
@@ -60870,7 +78684,8 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[594019] = {
 		name = "美系剧情华盛顿主炮",
@@ -60908,7 +78723,8 @@ pg.equip_data_statistics = {
 			5
 		},
 		part_sub = {},
-		equip_parameters = {}
+		equip_parameters = {},
+		label = {}
 	},
 	[800000] = {
 		base = 100000,
@@ -60916,6 +78732,7 @@ pg.equip_data_statistics = {
 		type = 1,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			800000
 		},
@@ -60927,6 +78744,7 @@ pg.equip_data_statistics = {
 		type = 3,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			800001
 		},
@@ -60938,6 +78756,7 @@ pg.equip_data_statistics = {
 		type = 6,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			800002
 		},
@@ -60949,6 +78768,7 @@ pg.equip_data_statistics = {
 		type = 5,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			800003
 		},
@@ -60960,6 +78780,7 @@ pg.equip_data_statistics = {
 		type = 5,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			800004
 		},
@@ -60971,6 +78792,7 @@ pg.equip_data_statistics = {
 		type = 7,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			800005
 		},
@@ -60982,6 +78804,7 @@ pg.equip_data_statistics = {
 		type = 8,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			800006
 		},
@@ -60993,6 +78816,7 @@ pg.equip_data_statistics = {
 		type = 9,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			800007
 		},
@@ -61004,6 +78828,7 @@ pg.equip_data_statistics = {
 		type = 4,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			800008
 		},
@@ -61015,6 +78840,7 @@ pg.equip_data_statistics = {
 		type = 4,
 		is_siren = 0,
 		torpedo_ammo = 0,
+		label = {},
 		weapon_id = {
 			800009
 		},
@@ -65025,6 +82851,8 @@ pg.equip_data_statistics = {
 		79422,
 		79431,
 		79432,
+		79441,
+		79442,
 		89000,
 		89001,
 		89002,

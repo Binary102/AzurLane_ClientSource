@@ -9,8 +9,7 @@ end
 
 function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._group = slot0._tempData.arg_list.group or slot2:GetID()
-	slot0._nationalityList = slot0._tempData.arg_list.nationality
-	slot0._weaponTypeList = slot0._tempData.arg_list.type
+	slot0._weaponLabelList = slot0._tempData.arg_list.label
 	slot0._weaponIndexList = slot0._tempData.arg_list.index
 	slot0._number = slot0._tempData.arg_list.number
 end
@@ -32,13 +31,14 @@ function slot1.calcEnhancement(slot0, slot1, slot2)
 
 	for slot7, slot8 in ipairs(slot1) do
 		slot9 = 1
+		slot10 = slot8:GetEquipmentLabel()
 
-		if slot0._weaponTypeList and not table.contains(slot0._weaponTypeList, slot8:GetTemplateData().type) then
-			slot9 = slot9 * 0
-		end
+		for slot14, slot15 in ipairs(slot0._weaponLabelList) do
+			if not table.contains(slot10, slot15) then
+				slot9 = 0
 
-		if slot0._nationalityList and not table.contains(slot0._nationalityList, slot8:GetNationality()) then
-			slot9 = slot9 * 0
+				break
+			end
 		end
 
 		if slot0._weaponIndexList and not table.contains(slot0._weaponIndexList, slot8:GetEquipmentIndex()) then

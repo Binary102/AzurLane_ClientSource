@@ -218,25 +218,16 @@ function slot0.handleNotification(slot0, slot1)
 				slot0.viewComponent:flush_coloring()
 			end)
 		end)
-	else
-		if slot2 == GAME.SUBMIT_TASK_DONE then
-			getProxy(TaskProxy).setOnAchieved(slot4, true)
-			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3, function ()
-				slot0:setOnAchieved(false)
-				slot0.setOnAchieved:addTmpToTask()
-				slot1.viewComponent:updateTaskLayers()
-			end)
-
-			return
-		end
-
-		if slot2 == GAME.ACT_NEW_PT_DONE then
-			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
-		elseif slot2 == GAME.BEGIN_STAGE_DONE then
-			slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
-		elseif slot2 == GAME.RETURN_AWARD_OP_DONE then
-			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
-		end
+	elseif slot2 == GAME.SUBMIT_TASK_DONE then
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3, function ()
+			slot0.viewComponent:updateTaskLayers()
+		end)
+	elseif slot2 == GAME.ACT_NEW_PT_DONE then
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
+	elseif slot2 == GAME.BEGIN_STAGE_DONE then
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
+	elseif slot2 == GAME.RETURN_AWARD_OP_DONE then
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 	end
 end
 

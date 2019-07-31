@@ -8,8 +8,8 @@ return {
 				},
 				arg_list = {
 					number = 0.05,
-					type = {
-						2
+					label = {
+						"MG"
 					}
 				}
 			},
@@ -20,8 +20,8 @@ return {
 				},
 				arg_list = {
 					number = -0.3,
-					type = {
-						22
+					label = {
+						"AA"
 					}
 				}
 			}
@@ -36,8 +36,8 @@ return {
 				},
 				arg_list = {
 					number = 0.062,
-					type = {
-						2
+					label = {
+						"MG"
 					}
 				}
 			},
@@ -48,8 +48,8 @@ return {
 				},
 				arg_list = {
 					number = -0.3,
-					type = {
-						22
+					label = {
+						"AA"
 					}
 				}
 			}
@@ -64,8 +64,8 @@ return {
 				},
 				arg_list = {
 					number = 0.074,
-					type = {
-						2
+					label = {
+						"MG"
 					}
 				}
 			},
@@ -76,8 +76,8 @@ return {
 				},
 				arg_list = {
 					number = -0.3,
-					type = {
-						22
+					label = {
+						"AA"
 					}
 				}
 			}
@@ -92,8 +92,8 @@ return {
 				},
 				arg_list = {
 					number = 0.09,
-					type = {
-						2
+					label = {
+						"MG"
 					}
 				}
 			},
@@ -104,8 +104,8 @@ return {
 				},
 				arg_list = {
 					number = -0.3,
-					type = {
-						22
+					label = {
+						"AA"
 					}
 				}
 			}
@@ -120,8 +120,8 @@ return {
 				},
 				arg_list = {
 					number = 0.105,
-					type = {
-						2
+					label = {
+						"MG"
 					}
 				}
 			},
@@ -132,8 +132,8 @@ return {
 				},
 				arg_list = {
 					number = -0.3,
-					type = {
-						22
+					label = {
+						"AA"
 					}
 				}
 			}
@@ -148,8 +148,8 @@ return {
 				},
 				arg_list = {
 					number = 0.12,
-					type = {
-						2
+					label = {
+						"MG"
 					}
 				}
 			},
@@ -160,8 +160,8 @@ return {
 				},
 				arg_list = {
 					number = -0.3,
-					type = {
-						22
+					label = {
+						"AA"
 					}
 				}
 			}
@@ -176,8 +176,8 @@ return {
 				},
 				arg_list = {
 					number = 0.14,
-					type = {
-						2
+					label = {
+						"MG"
 					}
 				}
 			},
@@ -188,8 +188,8 @@ return {
 				},
 				arg_list = {
 					number = -0.3,
-					type = {
-						22
+					label = {
+						"AA"
 					}
 				}
 			}
@@ -204,8 +204,8 @@ return {
 				},
 				arg_list = {
 					number = 0.158,
-					type = {
-						2
+					label = {
+						"MG"
 					}
 				}
 			},
@@ -216,8 +216,8 @@ return {
 				},
 				arg_list = {
 					number = -0.3,
-					type = {
-						22
+					label = {
+						"AA"
 					}
 				}
 			}
@@ -232,8 +232,8 @@ return {
 				},
 				arg_list = {
 					number = 0.176,
-					type = {
-						2
+					label = {
+						"MG"
 					}
 				}
 			},
@@ -244,8 +244,8 @@ return {
 				},
 				arg_list = {
 					number = -0.3,
-					type = {
-						22
+					label = {
+						"AA"
 					}
 				}
 			}
@@ -260,8 +260,8 @@ return {
 				},
 				arg_list = {
 					number = 0.2,
-					type = {
-						2
+					label = {
+						"MG"
 					}
 				}
 			},
@@ -272,8 +272,8 @@ return {
 				},
 				arg_list = {
 					number = -0.3,
-					type = {
-						22
+					label = {
+						"AA"
 					}
 				}
 			}
@@ -304,8 +304,8 @@ return {
 			},
 			arg_list = {
 				number = 0.05,
-				type = {
-					2
+				label = {
+					"MG"
 				}
 			}
 		},
@@ -316,8 +316,8 @@ return {
 			},
 			arg_list = {
 				number = -0.3,
-				type = {
-					22
+				label = {
+					"AA"
 				}
 			}
 		}

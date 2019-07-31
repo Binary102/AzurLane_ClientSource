@@ -8,7 +8,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 1,
 		nation = 1,
 		ships = {
-			10102
+			10102,
+			10140
 		}
 	},
 	[10102] = {
@@ -108,7 +109,8 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			10206,
 			10207,
-			10208
+			10208,
+			10222
 		}
 	},
 	[10202] = {
@@ -122,7 +124,8 @@ pg.fleet_tech_ship_class = {
 			10209,
 			10210,
 			10214,
-			10215
+			10215,
+			10223
 		}
 	},
 	[10203] = {
@@ -157,7 +160,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10205] = {
 		shiptype = 2,
-		name = "シアトル ",
+		name = "シアトル",
 		t_level = 8,
 		id = 10205,
 		t_level_1 = 0,
@@ -226,6 +229,17 @@ pg.fleet_tech_ship_class = {
 			10313,
 			10309,
 			10310
+		}
+	},
+	[10306] = {
+		shiptype = 3,
+		name = "ボルチモア級",
+		t_level = 8,
+		id = 10306,
+		t_level_1 = 20,
+		nation = 1,
+		ships = {
+			10316
 		}
 	},
 	[10501] = {
@@ -298,12 +312,13 @@ pg.fleet_tech_ship_class = {
 		nation = 1,
 		ships = {
 			10514,
-			10519
+			10519,
+			10520
 		}
 	},
 	[10507] = {
 		shiptype = 5,
-		name = "ジョージア ",
+		name = "ジョージア",
 		t_level = 9,
 		id = 10507,
 		t_level_1 = 0,
@@ -364,7 +379,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 30,
 		nation = 1,
 		ships = {
-			10722
+			10722,
+			10729
 		}
 	},
 	[10701] = {
@@ -424,8 +440,9 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 32,
 		nation = 1,
 		ships = {
-			10801,
-			10802
+			10802,
+			10803,
+			10801
 		}
 	},
 	[11201] = {
@@ -1832,6 +1849,7 @@ pg.fleet_tech_ship_class = {
 		10303,
 		10304,
 		10305,
+		10306,
 		10501,
 		10502,
 		10503,

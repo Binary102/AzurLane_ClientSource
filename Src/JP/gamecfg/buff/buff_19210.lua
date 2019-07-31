@@ -4,11 +4,10 @@ return {
 			equip = {
 				{
 					number = 4.5,
-					type = {
-						11
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"CB",
+						"MG"
 					}
 				}
 			}
@@ -19,11 +18,10 @@ return {
 			equip = {
 				{
 					number = 5.2,
-					type = {
-						11
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"CB",
+						"MG"
 					}
 				}
 			}
@@ -34,11 +32,10 @@ return {
 			equip = {
 				{
 					number = 6,
-					type = {
-						11
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"CB",
+						"MG"
 					}
 				}
 			}
@@ -49,11 +46,10 @@ return {
 			equip = {
 				{
 					number = 7,
-					type = {
-						11
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"CB",
+						"MG"
 					}
 				}
 			}
@@ -64,11 +60,10 @@ return {
 			equip = {
 				{
 					number = 7.7,
-					type = {
-						11
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"CB",
+						"MG"
 					}
 				}
 			}
@@ -79,11 +74,10 @@ return {
 			equip = {
 				{
 					number = 8.5,
-					type = {
-						11
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"CB",
+						"MG"
 					}
 				}
 			}
@@ -94,11 +88,10 @@ return {
 			equip = {
 				{
 					number = 9.5,
-					type = {
-						11
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"CB",
+						"MG"
 					}
 				}
 			}
@@ -109,11 +102,10 @@ return {
 			equip = {
 				{
 					number = 10.2,
-					type = {
-						11
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"CB",
+						"MG"
 					}
 				}
 			}
@@ -124,11 +116,10 @@ return {
 			equip = {
 				{
 					number = 11,
-					type = {
-						11
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"CB",
+						"MG"
 					}
 				}
 			}
@@ -139,11 +130,10 @@ return {
 			equip = {
 				{
 					number = 12,
-					type = {
-						11
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"CB",
+						"MG"
 					}
 				}
 			}

@@ -259,8 +259,36 @@ function slot0.getFanceScaleByLevel(slot0)
 	return 0.52 + 0.16 * math.min(slot0.level, 3)
 end
 
-function slot0.canMoveFurniture(slot0, slot1, slot2)
-	return _.all(slot0.furnitures[slot1].getOccupyGrid(slot3, slot2), function (slot0)
+function slot0.getMoveableFurnitureNextDir(slot0, slot1, slot2, slot3)
+	if slot1:isSpineCar() then
+		if slot3.x < slot2.x then
+			return 2
+		elseif slot3.y < slot2.y then
+			return 1
+		else
+			return (((slot2.x < slot3.x and slot2.y == slot3.y) or (slot3.y < slot2.y and slot2.x == slot3.x)) and 2) or 1
+		end
+	else
+		return (((slot2.x < slot3.x and slot2.y == slot3.y) or (slot3.y < slot2.y and slot2.x == slot3.x)) and 2) or 1
+	end
+end
+
+function slot0.canMoveFurniture(slot0, slot1, slot2, slot3)
+	slot6 = slot0.furnitures[slot1]
+
+	if not slot0.furnitures[slot1]:isSameDir(slot0:getMoveableFurnitureNextDir(slot4, slot2, slot3)) then
+		if not slot0:canRotate(slot4) then
+			return false
+		end
+
+		slot7 = Clone(slot4)
+
+		slot7:setDir(slot5)
+
+		slot6 = slot7
+	end
+
+	return _.all(slot6:getOccupyGrid(slot2), function (slot0)
 		slot1 = slot0:getSpineId()
 
 		return slot1:checkShips(slot1, slot0) and slot1:checkFurnitruesWithOutChild(slot0, slot1:checkShips(slot0))
@@ -1112,6 +1140,33 @@ function slot0.getSaveData(slot0)
 	end
 
 	return slot1
+end
+
+function slot0.getGridForMoveableFurniture(slot0, slot1)
+	slot4 = slot1:getPosition().y
+	slot5 = {}
+
+	for slot9 = slot1.getPosition().x + 1, slot0.MAX_SIZE_X, 1 do
+		table.insert(slot5, Vector2(slot9, slot4))
+	end
+
+	for slot9 = 0, slot3 - 1, 1 do
+		table.insert(slot5, Vector2(slot9, slot4))
+	end
+
+	for slot9 = slot4 + 1, slot0.MAX_SIZE_Y, 1 do
+		table.insert(slot5, Vector2(slot3, slot9))
+	end
+
+	for slot9 = 0, slot4 - 1, 1 do
+		table.insert(slot5, Vector2(slot3, slot9))
+	end
+
+	table.sort(slot5, function (slot0, slot1)
+		return math.abs(slot0.x - slot0.x) + math.abs(slot0.y - slot0.y) < math.abs(slot1.x - slot0.x) + math.abs(slot1.y - slot0.y)
+	end)
+
+	return slot5
 end
 
 return slot0

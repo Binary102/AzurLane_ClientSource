@@ -729,7 +729,9 @@ function slot0.initOtherPanel(slot0)
 		setActive(slot0.accountJP, true)
 		slot0:initTransCodePanel(slot0.accountJP)
 
-		slot1 = false
+		if PLATFORM == PLATFORM_IPHONEPLAYER then
+			slot1 = false
+		end
 	elseif PLATFORM_CODE == PLATFORM_US then
 		slot0.accountUS = slot0:findTF("account_us", slot0.otherContent)
 

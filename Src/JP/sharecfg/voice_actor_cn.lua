@@ -751,6 +751,30 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "大和田仁美",
 		code = 188
+	},
+	{
+		actor_name = "鈴代紗弓",
+		code = 189
+	},
+	{
+		actor_name = "山村響",
+		code = 190
+	},
+	{
+		actor_name = "高橋未奈美",
+		code = 191
+	},
+	{
+		actor_name = "能登麻美子",
+		code = 192
+	},
+	[198] = {
+		actor_name = "大橋歩夕",
+		code = 198
+	},
+	[199] = {
+		actor_name = "久保ユリカ",
+		code = 199
 	}
 }
 

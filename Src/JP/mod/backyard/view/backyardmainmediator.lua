@@ -293,7 +293,8 @@ function slot0.listNotificationInterests(slot0)
 		BackYardHouseProxy.DISABLE_EFFECT,
 		BackYardHouseProxy.TRANSPORT_INTERAACTION_START,
 		BackYardHouseProxy.TRANSPORT_INTERAACTION_START_AGAIN,
-		BackYardHouseProxy.TRANSPORT_INTERAACTION_START_END
+		BackYardHouseProxy.TRANSPORT_INTERAACTION_START_END,
+		BackYardHouseProxy.ROTATE_FURNITURE
 	}
 end
 
@@ -423,6 +424,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:InterActionTransportAgain(slot3.shipId, slot3.furnitureId)
 	elseif slot2 == BackYardHouseProxy.TRANSPORT_INTERAACTION_START_END then
 		slot0.viewComponent:InterActionTransportEnd(slot3.shipId)
+	elseif slot2 == BackYardHouseProxy.ROTATE_FURNITURE then
+		slot0.viewComponent:UpdateFurnitrueDir(slot3.id)
 	end
 end
 

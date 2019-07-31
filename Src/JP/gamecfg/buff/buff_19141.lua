@@ -7,9 +7,9 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					number = 0.061,
-					type = {
-						2
+					number = 0.05,
+					label = {
+						"MG"
 					},
 					index = {
 						1
@@ -27,8 +27,8 @@ return {
 				},
 				arg_list = {
 					number = 0.061,
-					type = {
-						2
+					label = {
+						"MG"
 					},
 					index = {
 						1
@@ -46,8 +46,8 @@ return {
 				},
 				arg_list = {
 					number = 0.072,
-					type = {
-						2
+					label = {
+						"MG"
 					},
 					index = {
 						1
@@ -65,8 +65,8 @@ return {
 				},
 				arg_list = {
 					number = 0.083,
-					type = {
-						2
+					label = {
+						"MG"
 					},
 					index = {
 						1
@@ -84,8 +84,8 @@ return {
 				},
 				arg_list = {
 					number = 0.94,
-					type = {
-						2
+					label = {
+						"MG"
 					},
 					index = {
 						1
@@ -103,8 +103,8 @@ return {
 				},
 				arg_list = {
 					number = 0.105,
-					type = {
-						2
+					label = {
+						"MG"
 					},
 					index = {
 						1
@@ -122,8 +122,8 @@ return {
 				},
 				arg_list = {
 					number = 0.116,
-					type = {
-						2
+					label = {
+						"MG"
 					},
 					index = {
 						1
@@ -141,8 +141,8 @@ return {
 				},
 				arg_list = {
 					number = 0.127,
-					type = {
-						2
+					label = {
+						"MG"
 					},
 					index = {
 						1
@@ -160,8 +160,8 @@ return {
 				},
 				arg_list = {
 					number = 0.138,
-					type = {
-						2
+					label = {
+						"MG"
 					},
 					index = {
 						1
@@ -179,8 +179,8 @@ return {
 				},
 				arg_list = {
 					number = 0.15,
-					type = {
-						2
+					label = {
+						"MG"
 					},
 					index = {
 						1
@@ -207,8 +207,8 @@ return {
 			},
 			arg_list = {
 				number = 0.05,
-				type = {
-					2
+				label = {
+					"MG"
 				},
 				index = {
 					1

@@ -92,6 +92,18 @@ slot1 = {
 	[ActivityConst.ACTIVITY_ID_US_SKIRMISH] = {
 		className = "USSkirmishPage",
 		uiName = "usskirmishpage"
+	},
+	[ActivityConst.US_DEFENCE_COLLECTION_MAIN] = {
+		className = "USDefenceMainPage",
+		uiName = "usdefencemainpage"
+	},
+	[ActivityConst.US_DEFENCE_PT_ID] = {
+		className = "USDefencePTPage",
+		uiName = "usdefenceptpage"
+	},
+	[ActivityConst.US_DEFENCE_OIL_ID] = {
+		className = "USDefenceOilPage",
+		uiName = "usdefenceoilpage"
 	}
 }
 slot2 = {}
@@ -225,14 +237,21 @@ function slot0.updateEntrances(slot0)
 
 			removeOnButton(slot2)
 
+			slot5 = false
+
 			if slot0[slot1 + 1] and table.getCount(slot3) ~= 0 and slot3.isShow() then
 				onButton(slot1, slot2, function ()
 					slot0:emit(slot1.event, slot1.data[1], slot1.data[2])
 				end, SFX_PANEL)
 
 				slot4 = slot3.banner
+
+				if slot3.isTip then
+					slot5 = slot3.isTip()
+				end
 			end
 
+			setActive(slot2:Find("tip"), slot5)
 			LoadImageSpriteAsync("activitybanner/" .. slot4, slot2)
 		end
 	end)

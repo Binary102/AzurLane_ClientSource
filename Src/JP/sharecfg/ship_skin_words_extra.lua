@@ -113,9 +113,39 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[108030] = {
+		touch = "",
+		feeling3 = "",
+		login = "",
+		feeling1 = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		upgrade = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 108030,
+		detail = "",
+		feeling5 = {
+			{
+				1100,
+				"だ、抱っこしながら走り回るなんて、本当にやっちゃうとは思わなかった…びっくりした……もう！一緒にいてあげてもいいけど、もう子供扱いしちゃダメよ！"
+			}
+		}
+	},
 	all = {
 		999010,
-		801040
+		801040,
+		108030
 	}
 }
 

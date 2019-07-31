@@ -48,13 +48,22 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>赤き血潮、黒き鋼、不屈なる意志のために</color>\n「黒鉄の楽章、誓いの海」イベント特別実績で入手可能！",
 		scene = {}
 	},
+	[303] = {
+		name = "自由の翼",
+		time_second = 0,
+		id = 303,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>――青き自由のために！ユニオンに武運を！</color>\n「開かれし紺碧の砂箱」イベントで入手可能",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
 		201,
 		300,
 		301,
-		302
+		302,
+		303
 	}
 }
 

@@ -20,7 +20,7 @@ function ys.Battle.BattleBuffShiftWeapon.shiftWeapon(slot0, slot1)
 		return
 	end
 
-	slot3 = slot2:GetNationality()
+	slot3 = slot2:GetEquipmentLabel()
 	slot4 = slot2:GetSkinID()
 	slot5 = slot2:GetPotential()
 	slot6 = slot2:GetEquipmentIndex()

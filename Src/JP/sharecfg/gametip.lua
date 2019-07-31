@@ -5449,6 +5449,56 @@ pg.gametip = {
 			}
 		}
 	},
+	help_battle_defense = {
+		key = "help_battle_defense",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_defense_1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_defense_2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_defense_3"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_defense_4"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_defense_5"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
 	backyard_theme_set_tip = {
 		tip = "<color=#92fc63>$1</color>への操作を選択してください",
 		key = "backyard_theme_set_tip"
@@ -6632,11 +6682,11 @@ pg.gametip = {
 		key = "longxiang_total_count"
 	},
 	pt_count = {
-		tip = "目標$1",
+		tip = "目標$1：",
 		key = "pt_count"
 	},
 	pt_total_count = {
-		tip = "累計$1",
+		tip = "累計$1：",
 		key = "pt_total_count"
 	},
 	remould_ship_ok = {
@@ -8374,11 +8424,11 @@ pg.gametip = {
 		key = "resource_clear_all"
 	},
 	acl_oil_count = {
-		tip = "目標消費：",
+		tip = "目標消費",
 		key = "acl_oil_count"
 	},
 	acl_oil_total_count = {
-		tip = "累計燃料消費：",
+		tip = "累計燃料消費",
 		key = "acl_oil_total_count"
 	},
 	word_take_video_tip = {
@@ -8705,7 +8755,7 @@ pg.gametip = {
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "イベント期間、伊168、U-101、伊25、伊56、U-522の出現率UP！",
+		tip = "イベント期間、アラバマ、ボルチモア、バーミンガム、エールウィンの出現率UP！",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -10834,7 +10884,7 @@ Pt」が加算されます。
 		key = "secondarypassword_illegal_tip"
 	},
 	pt_cosume = {
-		tip = "消費$1：",
+		tip = "消費$1",
 		key = "pt_cosume"
 	},
 	secondarypassword_confirm_tips = {
@@ -10879,6 +10929,50 @@ Pt」が加算されます。
 	common_buy_gold_success = {
 		tip = "資金 <color=#92fc63>$1</color> を購入しました！",
 		key = "common_buy_gold_success"
+	},
+	harbour_bomb_tip = {
+		tip = "港が破壊されました！",
+		key = "harbour_bomb_tip"
+	},
+	submarine_approach = {
+		tip = "敵潜探知",
+		key = "submarine_approach"
+	},
+	submarine_approach_desc = {
+		tip = "敵潜水艦が海域に出現中！",
+		key = "submarine_approach_desc"
+	},
+	desc_quick_play = {
+		tip = "移動演出高速化",
+		key = "desc_quick_play"
+	},
+	text_win_condition = {
+		tip = "勝利条件",
+		key = "text_win_condition"
+	},
+	text_lose_condition = {
+		tip = "敗北条件",
+		key = "text_lose_condition"
+	},
+	text_rest_HP = {
+		tip = "港耐久度",
+		key = "text_rest_HP"
+	},
+	desc_defense_reward = {
+		tip = "クリア時、防御対象の耐久度に応じて報酬を獲得できます",
+		key = "desc_defense_reward"
+	},
+	desc_base_hp = {
+		tip = "港耐久度：$1/$2",
+		key = "desc_base_hp"
+	},
+	map_event_open = {
+		tip = "ブロックマスが生成されました",
+		key = "map_event_open"
+	},
+	word_reward = {
+		tip = "報酬",
+		key = "word_reward"
 	}
 }
 

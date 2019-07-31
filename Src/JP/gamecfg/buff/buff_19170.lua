@@ -4,11 +4,10 @@ return {
 			equip = {
 				{
 					number = 5,
-					type = {
-						1
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"DD",
+						"MG"
 					}
 				}
 			}
@@ -19,11 +18,10 @@ return {
 			equip = {
 				{
 					number = 6.1,
-					type = {
-						1
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"DD",
+						"MG"
 					}
 				}
 			}
@@ -34,11 +32,10 @@ return {
 			equip = {
 				{
 					number = 7.2,
-					type = {
-						1
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"DD",
+						"MG"
 					}
 				}
 			}
@@ -49,11 +46,10 @@ return {
 			equip = {
 				{
 					number = 8.3,
-					type = {
-						1
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"DD",
+						"MG"
 					}
 				}
 			}
@@ -64,11 +60,10 @@ return {
 			equip = {
 				{
 					number = 9.4,
-					type = {
-						1
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"DD",
+						"MG"
 					}
 				}
 			}
@@ -79,11 +74,10 @@ return {
 			equip = {
 				{
 					number = 10.5,
-					type = {
-						1
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"DD",
+						"MG"
 					}
 				}
 			}
@@ -94,11 +88,10 @@ return {
 			equip = {
 				{
 					number = 11.6,
-					type = {
-						1
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"DD",
+						"MG"
 					}
 				}
 			}
@@ -109,11 +102,10 @@ return {
 			equip = {
 				{
 					number = 12.7,
-					type = {
-						1
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"DD",
+						"MG"
 					}
 				}
 			}
@@ -124,11 +116,10 @@ return {
 			equip = {
 				{
 					number = 13.8,
-					type = {
-						1
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"DD",
+						"MG"
 					}
 				}
 			}
@@ -139,11 +130,10 @@ return {
 			equip = {
 				{
 					number = 15,
-					type = {
-						1
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"DD",
+						"MG"
 					}
 				}
 			}

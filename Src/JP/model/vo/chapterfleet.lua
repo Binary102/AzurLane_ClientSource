@@ -73,6 +73,7 @@ function slot0.update(slot0, slot1)
 	slot0.baseSpeed = slot0:calcBaseSpeed()
 	slot0.rotation = Quaternion.identity
 	slot0.slowSpeedFactor = slot1.move_step_down
+	slot0.defeatEnemies = slot1.kill_count or 0
 
 	slot0:updateCommanders(slot1.commander_list)
 
@@ -477,6 +478,10 @@ function slot0.calcBaseSpeed(slot0)
 	else
 		return 3
 	end
+end
+
+function slot0.getDefeatCount(slot0)
+	return slot0.defeatEnemies
 end
 
 function slot0.getStrategies(slot0)

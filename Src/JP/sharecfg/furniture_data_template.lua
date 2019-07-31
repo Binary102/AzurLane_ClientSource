@@ -2760,6 +2760,55 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[148] = {
+		advice = 0,
+		name = "箱庭の余燼",
+		count = 1,
+		type = 7,
+		dir = 0,
+		gain_by = "開かれし紺碧の砂箱",
+		is_get_time_note = 1,
+		belong = 1,
+		can_rotate = 0,
+		effect = "",
+		dorm_icon_price = 500,
+		not_for_sale = 1,
+		icon = "xiangtingliaofaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 5,
+		tag = 6,
+		picture = "chuanmo/xiangtingliaofa",
+		canputon = 0,
+		discount = 0,
+		id = 148,
+		comfortable = 0,
+		describe = "バミューダ海域から回収された特殊な物質。未解明の成分には大いなる力が秘められている。――イベント「開かれし紺碧の砂箱」に参加した指揮官へ贈る",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"xiangtingliaofa",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		can_rotate = 0,
 		name = "友情の空気ポンプ",
@@ -3233,6 +3282,98 @@ pg.furniture_data_template = {
 		animator = {
 			{
 				"xingguangwutaiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[100008] = {
+		can_rotate = 0,
+		name = "饅頭ミコシ",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "8yueqiandaoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 6,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 100008,
+		comfortable = 0,
+		describe = "よっこいしょどっこいしょ！夏はお祭りだぴょ！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 0,
+		time = "always",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"8yueqiandaoB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"8yueqiandaoT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"8yueqiandaoCharControl",
+				"8yueqiandaoCharControl2"
 			}
 		},
 		interAction_group = {}
@@ -79164,11 +79305,13 @@ pg.furniture_data_template = {
 		141,
 		143,
 		145,
+		148,
 		100002,
 		100003,
 		100004,
 		100005,
 		100006,
+		100008,
 		1001,
 		1002,
 		1101,

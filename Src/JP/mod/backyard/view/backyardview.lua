@@ -936,10 +936,14 @@ function slot0.registerFurnitureEvent(slot0, slot1)
 			return
 		end
 
-		slot0.rotateId = slot1.id
-
-		slot0:emit(BackyardMainMediator.FURNITURE_DIR_CHANGE, slot1.id)
+		slot0:UpdateFurnitrueDir(slot1.id)
 	end, SFX_PANEL)
+end
+
+function slot0.UpdateFurnitrueDir(slot0, slot1)
+	slot0.rotateId = slot1
+
+	slot0:emit(BackyardMainMediator.FURNITURE_DIR_CHANGE, slot1)
 end
 
 function slot0.playTouchSpineAnim(slot0, slot1, slot2)
@@ -1174,20 +1178,6 @@ function slot0.updateFurnitureWithAnim(slot0, slot1, slot2, slot3)
 			LeanTween.cancel(go(slot5))
 		end
 
-		slot8 = slot4(slot5.localPosition, slot7)
-
-		if slot1:isSpineCar() then
-			if slot3.x < slot6.x then
-				slot5.localScale = Vector3(-1, 1, 1)
-			elseif slot3.y < slot6.y then
-				slot5.localScale = Vector3(1, 1, 1)
-			else
-				slot5.localScale = (((slot6.x < slot3.x and slot6.y == slot3.y) or (slot3.y < slot6.y and slot6.x == slot3.x)) and Vector3(-1, 1, 1)) or Vector3(1, 1, 1)
-			end
-		else
-			slot5.localScale = (((slot6.x < slot3.x and slot6.y == slot3.y) or (slot3.y < slot6.y and slot6.x == slot3.x)) and Vector3(-1, 1, 1)) or Vector3(1, 1, 1)
-		end
-
 		LeanTween.moveLocal(go(slot5), slot8, slot2 / 2):setOnComplete(System.Action(function ()
 			slot0:removeItem(slot0)
 			slot0.removeItem:createItem(slot0.removeItem, slot2.x, slot2.y)
@@ -1406,18 +1396,16 @@ function slot0.rotateFurn(slot0, slot1)
 
 	slot2.localScale = Vector3(-slot2.localScale.x, 1, 1)
 
-	if slot1:getSpineId() then
-		slot0.shipModels[slot1:getSpineId()]:changeInnerDir(slot0.getSign(slot2.localScale.x * slot0.shipModels[slot1:getSpineId()].tf.localScale.x < 0))
-		slot4:updateModelDir()
-	end
-
 	if slot0.rotateId == slot1.id then
 		slot0:createItem(slot1, slot1:getPosition().x, slot1.getPosition().y)
-		slot0:setPreSelectedParent(slot2)
 
-		slot0.preFurnSelected.anchoredPosition3D = Vector3(0, 0, 0)
+		if slot0.preFurnSelected then
+			slot0:setPreSelectedParent(slot2)
 
-		slot0:setPreSelectedParent(slot0.furContain)
+			slot0.preFurnSelected.anchoredPosition3D = Vector3(0, 0, 0)
+
+			slot0:setPreSelectedParent(slot0.furContain)
+		end
 
 		slot0.rotateId = nil
 	end

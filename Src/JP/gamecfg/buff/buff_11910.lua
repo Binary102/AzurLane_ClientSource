@@ -4,13 +4,9 @@ return {
 			equip = {
 				{
 					number = 5,
-					type = {
-						7,
-						8,
-						9
-					},
-					nationality = {
-						1
+					label = {
+						"USS",
+						"CV"
 					}
 				}
 			}
@@ -21,13 +17,9 @@ return {
 			equip = {
 				{
 					number = 6.1,
-					type = {
-						7,
-						8,
-						9
-					},
-					nationality = {
-						1
+					label = {
+						"USS",
+						"CV"
 					}
 				}
 			}
@@ -38,13 +30,9 @@ return {
 			equip = {
 				{
 					number = 7.2,
-					type = {
-						7,
-						8,
-						9
-					},
-					nationality = {
-						1
+					label = {
+						"USS",
+						"CV"
 					}
 				}
 			}
@@ -55,13 +43,9 @@ return {
 			equip = {
 				{
 					number = 8.3,
-					type = {
-						7,
-						8,
-						9
-					},
-					nationality = {
-						1
+					label = {
+						"USS",
+						"CV"
 					}
 				}
 			}
@@ -72,13 +56,9 @@ return {
 			equip = {
 				{
 					number = 9.4,
-					type = {
-						7,
-						8,
-						9
-					},
-					nationality = {
-						1
+					label = {
+						"USS",
+						"CV"
 					}
 				}
 			}
@@ -89,13 +69,9 @@ return {
 			equip = {
 				{
 					number = 10.5,
-					type = {
-						7,
-						8,
-						9
-					},
-					nationality = {
-						1
+					label = {
+						"USS",
+						"CV"
 					}
 				}
 			}
@@ -106,13 +82,9 @@ return {
 			equip = {
 				{
 					number = 11.6,
-					type = {
-						7,
-						8,
-						9
-					},
-					nationality = {
-						1
+					label = {
+						"USS",
+						"CV"
 					}
 				}
 			}
@@ -123,13 +95,9 @@ return {
 			equip = {
 				{
 					number = 12.7,
-					type = {
-						7,
-						8,
-						9
-					},
-					nationality = {
-						1
+					label = {
+						"USS",
+						"CV"
 					}
 				}
 			}
@@ -140,13 +108,9 @@ return {
 			equip = {
 				{
 					number = 13.8,
-					type = {
-						7,
-						8,
-						9
-					},
-					nationality = {
-						1
+					label = {
+						"USS",
+						"CV"
 					}
 				}
 			}
@@ -157,13 +121,9 @@ return {
 			equip = {
 				{
 					number = 15,
-					type = {
-						7,
-						8,
-						9
-					},
-					nationality = {
-						1
+					label = {
+						"USS",
+						"CV"
 					}
 				}
 			}

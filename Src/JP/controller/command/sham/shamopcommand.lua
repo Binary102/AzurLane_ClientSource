@@ -45,7 +45,8 @@ function slot0.execute(slot0, slot1)
 					id = slot1.id,
 					path = slot0.move_path,
 					fullpath = slot0.fullpath,
-					items = slot0.items
+					items = slot0.items,
+					extraFlag = slot0.extraFlag or 0
 				})
 			end
 		else

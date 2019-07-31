@@ -147,7 +147,7 @@ function slot0.register(slot0)
 
 			if #slot0.ai_list > 0 then
 				_.each(slot0.ai_list, function (slot0)
-					slot0:mergeChampion(ChapterChampion.New(slot0))
+					slot0:mergeChampion(ChapterChampionPackage.New(slot0))
 				end)
 
 				slot2 = bit.bor(slot2, bit.bor(ChapterConst.DirtyChampion, ChapterConst.DirtyAutoAction))

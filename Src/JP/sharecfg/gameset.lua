@@ -383,9 +383,9 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "教国の紋章 ",
+		description = "バトルスター・黒",
 		key = "activity_res_id",
-		key_value = 130
+		key_value = 131
 	},
 	chapter_move_speed_1 = {
 		description = "",

@@ -57,7 +57,7 @@ function ys.Battle.BattleSubUnit.setWeapon(slot0, slot1)
 
 			if slot12.equipment then
 				for slot19, slot20 in ipairs(slot15) do
-					if slot20 and slot20 ~= -1 and slot14(slot20, slot12.equipment.nationality, slot12.skin) then
+					if slot20 and slot20 ~= -1 and slot14(slot20, slot12.equipment.label, slot12.skin) then
 						table.insert(slot7, {
 							id = slot20,
 							ammo = slot21,
@@ -79,7 +79,7 @@ function ys.Battle.BattleSubUnit.setWeapon(slot0, slot1)
 		slot3, slot4 = nil
 
 		if slot0[slot1].equipment then
-			slot3 = slot2.equipment.nationality
+			slot3 = slot2.equipment.label
 			slot4 = slot2.skin
 		end
 
@@ -114,7 +114,7 @@ function ys.Battle.BattleSubUnit.AddDisposableTorpedo(slot0, slot1, slot2, slot3
 	slot0._totalWeapon[#slot0._totalWeapon + 1] = slot0.Battle.BattleDataFunction.CreateWeaponUnit(slot1, slot0, slot4, slot5, slot1.EquipmentType.DISPOSABLE_TORPEDO)
 
 	if slot2 then
-		slot6:SetEquipmentInfo(slot2)
+		slot6:SetEquipmentLabel(slot2)
 	end
 
 	slot0._manualTorpedoList[#slot0._manualTorpedoList + 1] = slot6

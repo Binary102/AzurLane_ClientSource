@@ -1499,7 +1499,7 @@ pg.furniture_data_template = {
 		discount = 0,
 		id = 118,
 		comfortable = 0,
-		describe = "授予接受了《超次元的挑战》并且获取胜利的勇者的纪念奖章，似乎使用了来自异次元的素材，透着奇妙的光芒",
+		describe = "授予接受了「超次元的挑战」并且获取胜利的勇者的纪念奖章，似乎使用了来自异次元的素材，透着奇妙的光芒",
 		dorm_id = 0,
 		gem_price = 0,
 		themeId = 0,
@@ -1542,7 +1542,7 @@ pg.furniture_data_template = {
 		discount = 0,
 		id = 119,
 		comfortable = 0,
-		describe = "授予接受了《凛冬的挑战书》并且获取胜利的勇者的勋章，从中可以感受到皇家的荣耀与骄傲",
+		describe = "授予接受了「凛冬的挑战书」并且获取胜利的勇者的勋章，从中可以感受到皇家的荣耀与骄傲",
 		dorm_id = 0,
 		gem_price = 0,
 		themeId = 0,
@@ -1959,7 +1959,7 @@ pg.furniture_data_template = {
 		discount = 0,
 		id = 124,
 		comfortable = 0,
-		describe = "授予在《墨染的钢铁之花》的行动中获得杰出成就者的勋章，愿你的内心永远坚强",
+		describe = "授予在「墨染的钢铁之花」的行动中获得杰出成就者的勋章，愿你的内心永远坚强",
 		dorm_id = 0,
 		gem_price = 0,
 		themeId = 0,
@@ -3135,6 +3135,55 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[148] = {
+		advice = 0,
+		name = "余烬",
+		count = 1,
+		type = 7,
+		dir = 0,
+		gain_by = "箱庭疗法",
+		is_get_time_note = 1,
+		belong = 1,
+		can_rotate = 0,
+		effect = "",
+		dorm_icon_price = 500,
+		not_for_sale = 1,
+		icon = "xiangtingliaofaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 5,
+		tag = 6,
+		picture = "chuanmo/xiangtingliaofa",
+		canputon = 0,
+		discount = 0,
+		id = 148,
+		comfortable = 0,
+		describe = "于百慕大战场中回收的未知物质，暂无法分析其有效成分。从中似乎能感受到一丝神秘的力量——纪念参与「箱庭疗法」特殊作战获得的最高荣誉",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"xiangtingliaofa",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		can_rotate = 0,
 		name = "本ID禁用，后端固定会删除",
@@ -3782,6 +3831,98 @@ pg.furniture_data_template = {
 		animator = {
 			{
 				"7yuetongBCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[100008] = {
+		can_rotate = 0,
+		name = "啾啾神轿",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "8yueqiandaoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 6,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 100008,
+		comfortable = 0,
+		describe = "嘿咻！嘿咻！冲刺再冲刺！让祭典更加热闹起来啾！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 0,
+		time = "always",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"8yueqiandaoB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"8yueqiandaoT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"8yueqiandaoCharControl",
+				"8yueqiandaoCharControl2"
 			}
 		},
 		interAction_group = {}
@@ -88156,6 +88297,7 @@ pg.furniture_data_template = {
 		144,
 		145,
 		146,
+		148,
 		100001,
 		100002,
 		100003,
@@ -88163,6 +88305,7 @@ pg.furniture_data_template = {
 		100005,
 		100006,
 		100007,
+		100008,
 		1001,
 		1002,
 		1101,

@@ -56,6 +56,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>以赤红的血、和冷彻的铁，铸就坚定的意志</color>\n「铁血、音符与誓言」活动获取",
 		scene = {}
 	},
+	[303] = {
+		name = "自由之翼",
+		time_second = 0,
+		id = 303,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>「——为了碧蓝色的自由意志，天佑白鹰」</color>\n「箱庭疗法」活动获取",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -63,7 +71,8 @@ pg.item_data_frame = {
 		201,
 		300,
 		301,
-		302
+		302,
+		303
 	}
 }
 

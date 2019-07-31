@@ -113,9 +113,39 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[108030] = {
+		touch = "",
+		feeling3 = "",
+		login = "",
+		feeling1 = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		upgrade = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 108030,
+		detail = "",
+		feeling5 = {
+			{
+				1100,
+				"没、没想到指挥官还真做了这样的事情，吓了我一跳…真是的！虽说从今以后，我就一直陪在你身边了，但是先说好，不能再把我当作小孩子了啊！"
+			}
+		}
+	},
 	all = {
 		999010,
-		801040
+		801040,
+		108030
 	}
 }
 

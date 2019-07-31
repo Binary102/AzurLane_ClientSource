@@ -1180,6 +1180,7 @@ pg.activity_template = {
 	[338] = {
 		mark = 20190718,
 		title_res_tag = "i56",
+		time = "stop",
 		type = 18,
 		config_id = 3,
 		is_show = 4,
@@ -1214,33 +1215,6 @@ pg.activity_template = {
 				14803
 			}
 		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					7,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					7,
-					31
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/skin_i56"
 		},
@@ -1260,6 +1234,484 @@ pg.activity_template = {
 				{},
 				{
 					"I56XIAOFU4"
+				}
+			}
+		}
+	},
+	[340] = {
+		mark = 20190731,
+		title_res_tag = "",
+		type = 12,
+		bg = "",
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 340,
+		config_data = {
+			1250001,
+			1250002,
+			1250003,
+			1250011,
+			1250012,
+			1250013,
+			1250007,
+			1250008,
+			1250022,
+			1250023
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					7,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[341] = {
+		mark = 20190731,
+		title_res_tag = "",
+		type = 12,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 341,
+		config_data = {
+			1250004,
+			1250005,
+			1250006,
+			1250014,
+			1250015,
+			1250016,
+			1250017,
+			1250021,
+			1250009,
+			1250010,
+			1250024,
+			1250025
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					8,
+					1
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/sakura"
+		}
+	},
+	[342] = {
+		mark = 20190731,
+		title_res_tag = "",
+		type = 13,
+		bg = "",
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 342,
+		config_data = {
+			14810,
+			14811,
+			14812,
+			14813,
+			14814,
+			14815,
+			14816,
+			14817,
+			14818,
+			14819,
+			14820,
+			14821,
+			14822,
+			14823,
+			14824,
+			14825,
+			14826
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					7,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[343] = {
+		mark = 20190731,
+		title_res_tag = "",
+		type = 36,
+		bg = "",
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 343,
+		config_data = {
+			1241301,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					7,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[344] = {
+		mark = 20190731,
+		title_res_tag = "",
+		type = 16,
+		bg = "",
+		config_id = 131,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		id = 344,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					7,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[345] = {
+		mark = 20190731,
+		title_res_tag = "newmeixi_pt",
+		type = 54,
+		config_id = 345,
+		is_show = 3,
+		config_client = "",
+		id = 345,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					7,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_newmeixi_pt"
+		}
+	},
+	[346] = {
+		mark = 20190731,
+		title_res_tag = "",
+		type = 14,
+		bg = "",
+		config_id = 0,
+		is_show = 0,
+		id = 346,
+		config_data = {
+			900,
+			901,
+			902,
+			903,
+			904,
+			905,
+			906,
+			907,
+			908,
+			909,
+			910,
+			911,
+			912,
+			913,
+			914,
+			915,
+			916,
+			917,
+			918
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					7,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_newmeixi",
+			{
+				0.176,
+				0.164,
+				0.274,
+				1
+			},
+			pt_id = 131,
+			painting = "jiqi_pt"
+		}
+	},
+	[347] = {
+		mark = 20190731,
+		title_res_tag = "newmeixi",
+		type = 13,
+		config_id = 0,
+		is_show = 7,
+		id = 347,
+		config_data = {
+			14827,
+			14828,
+			14829,
+			14830,
+			14831,
+			14832,
+			14833,
+			14834
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					7,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/newmeixi_chapter"
+		},
+		config_client = {
+			14827
+		}
+	},
+	[348] = {
+		mark = 20190731,
+		title_res_tag = "newmeixi_oil",
+		type = 54,
+		config_id = 348,
+		is_show = 1,
+		config_client = "",
+		id = 348,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					7,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_newmeixi_oil"
+		}
+	},
+	[349] = {
+		mark = 20190731,
+		title_res_tag = "",
+		type = 1,
+		bg = "",
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		id = 349,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					7,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -1864,6 +2316,21 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[2043] = {
+		mark = 20190731,
+		title_res_tag = "",
+		time = "always",
+		type = 17,
+		bg = "",
+		config_id = 5471,
+		is_show = 0,
+		config_client = "",
+		id = 2043,
+		config_data = {
+			0,
+			{}
+		}
+	},
 	[100001] = {
 		mark = 20190530,
 		title_res_tag = "",
@@ -1907,6 +2374,16 @@ pg.activity_template = {
 		336,
 		337,
 		338,
+		340,
+		341,
+		342,
+		343,
+		344,
+		345,
+		346,
+		347,
+		348,
+		349,
 		2001,
 		2002,
 		2003,
@@ -1947,6 +2424,7 @@ pg.activity_template = {
 		2040,
 		2041,
 		2042,
+		2043,
 		100001
 	}
 }

@@ -20,11 +20,10 @@ return {
 				},
 				arg_list = {
 					number = 0.05,
-					type = {
-						2
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"DD",
+						"MG"
 					}
 				}
 			}
@@ -51,11 +50,10 @@ return {
 				},
 				arg_list = {
 					number = 0.061,
-					type = {
-						2
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"DD",
+						"MG"
 					}
 				}
 			}
@@ -82,11 +80,10 @@ return {
 				},
 				arg_list = {
 					number = 0.072,
-					type = {
-						2
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"DD",
+						"MG"
 					}
 				}
 			}
@@ -113,11 +110,10 @@ return {
 				},
 				arg_list = {
 					number = 0.083,
-					type = {
-						2
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"DD",
+						"MG"
 					}
 				}
 			}
@@ -144,11 +140,10 @@ return {
 				},
 				arg_list = {
 					number = 0.094,
-					type = {
-						2
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"DD",
+						"MG"
 					}
 				}
 			}
@@ -175,11 +170,10 @@ return {
 				},
 				arg_list = {
 					number = 0.105,
-					type = {
-						2
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"DD",
+						"MG"
 					}
 				}
 			}
@@ -206,11 +200,10 @@ return {
 				},
 				arg_list = {
 					number = 0.116,
-					type = {
-						2
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"DD",
+						"MG"
 					}
 				}
 			}
@@ -237,11 +230,10 @@ return {
 				},
 				arg_list = {
 					number = 0.127,
-					type = {
-						2
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"DD",
+						"MG"
 					}
 				}
 			}
@@ -268,11 +260,10 @@ return {
 				},
 				arg_list = {
 					number = 0.138,
-					type = {
-						2
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"DD",
+						"MG"
 					}
 				}
 			}
@@ -299,11 +290,10 @@ return {
 				},
 				arg_list = {
 					number = 0.15,
-					type = {
-						2
-					},
-					nationality = {
-						3
+					label = {
+						"IJN",
+						"DD",
+						"MG"
 					}
 				}
 			}
@@ -339,11 +329,10 @@ return {
 			},
 			arg_list = {
 				number = 0.05,
-				type = {
-					2
-				},
-				nationality = {
-					3
+				label = {
+					"IJN",
+					"DD",
+					"MG"
 				}
 			}
 		}

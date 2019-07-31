@@ -124,8 +124,16 @@ function slot0.selectFaction(slot0, slot1, slot2)
 		end
 
 		slot1:setFaction(Guild.FACTION_TYPE_BLHX)
-		slot2()
+
+		if Guild.FACTION_TYPE_BLHX then
+			slot2()
+		else
+			return
+		end
+
 		slot3(slot4, function ()
+			slot0 = nil
+
 			return
 		end)
 
@@ -137,8 +145,16 @@ function slot0.selectFaction(slot0, slot1, slot2)
 		end
 
 		slot1:setFaction(Guild.FACTION_TYPE_CSZZ)
-		slot2()
+
+		if Guild.FACTION_TYPE_CSZZ then
+			slot2()
+		else
+			return
+		end
+
 		slot3(slot4, function ()
+			slot0 = nil
+
 			return
 		end)
 

@@ -1271,30 +1271,28 @@ function slot6(slot0, slot1)
 	SetActive(slot5, true)
 	setFrame(slot4, slot1.frame or 1)
 	setText(slot2, slot1.name or "")
+
+	slot2.localPosition = Vector2(setText, slot2.localPosition.y)
+
 	setText(findTF(slot0._sigleItemPanel, "name_mode/intro_view/Viewport/Content/intro"), slot1.content or "")
+	SetActive(findTF(slot0._sigleItemPanel, "icon_bg/icon").parent, slot1.sprite)
 
-	slot8 = SetActive
-	slot9 = findTF(slot0._sigleItemPanel, "icon_bg/icon").parent
-	slot10 = slot1.sprite
+	slot9 = slot1.sprite
 
-	slot8(slot9, slot10)
+	if slot9 then
+		slot9 = setImageSprite
+		slot10 = slot3
+		slot11 = slot1.sprite
+		slot12 = false
 
-	slot8 = slot1.sprite
-
-	if slot8 then
-		slot8 = setImageSprite
-		slot9 = slot3
-		slot10 = slot1.sprite
-		slot11 = false
-
-		slot8(slot9, slot10, slot11)
+		slot9(slot10, slot11, slot12)
 	end
 
-	slot9 = slot0
-	slot8 = slot0.Loaded
-	slot10 = slot1
+	slot10 = slot0
+	slot9 = slot0.Loaded
+	slot11 = slot1
 
-	slot8(slot9, slot10)
+	slot9(slot10, slot11)
 end
 
 function slot7(slot0, slot1)

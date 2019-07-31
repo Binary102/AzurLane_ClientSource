@@ -204,28 +204,18 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:removeTask(slot3)
 	elseif slot2 == slot0.TASK_FILTER then
 		slot0.viewComponent:GoToFilter(slot3)
-	else
-		if slot2 == GAME.SUBMIT_TASK_DONE then
-			getProxy(TaskProxy).setOnAchieved(slot4, true)
+	elseif slot2 == GAME.SUBMIT_TASK_DONE then
+		slot4 = getProxy(TaskProxy)
+		slot0.viewComponent.onShowAwards = true
 
-			slot0.viewComponent.onShowAwards = true
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3, function ()
+			slot0.viewComponent.onShowAwards = nil
 
-			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3, function ()
-				slot0:setOnAchieved(false)
-				slot0.setOnAchieved:addTmpToTask()
-
-				slot1.viewComponent.onShowAwards = nil
-
-				nil:accepetActivityTask()
-				slot1.viewComponent:updateOneStepBtn()
-			end)
-
-			return
-		end
-
-		if slot2 == GAME.BEGIN_STAGE_DONE then
-			slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
-		end
+			slot0.viewComponent:accepetActivityTask()
+			slot0.viewComponent.accepetActivityTask.viewComponent:updateOneStepBtn()
+		end)
+	elseif slot2 == GAME.BEGIN_STAGE_DONE then
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
 	end
 end
 

@@ -3512,6 +3512,22 @@ function slot1(slot0, slot1)
 
 		slot2(slot3, slot4, slot5)
 	end
+
+	if slot1 then
+		slot2 = slot0.commanderFormationPanel
+		slot3 = slot2
+		slot2 = slot2.ActionInvoke
+		slot4 = "Hide"
+
+		slot2(slot3, slot4)
+	else
+		slot2 = slot0.commanderFormationPanel
+		slot3 = slot2
+		slot2 = slot2.ActionInvoke
+		slot4 = "Show"
+
+		slot2(slot3, slot4)
+	end
 end
 
 slot0.DisplayRenamePanel = slot1

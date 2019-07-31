@@ -12,6 +12,7 @@ slot0.TypeMainSub = 4
 slot0.TypeExtra = 5
 slot0.TypeSpHunt = 7
 slot0.TypeSpBomb = 8
+slot0.TypeDefence = 10
 slot0.SubjectPlayer = 1
 slot0.SubjectChampion = 2
 slot0.MaxRow = 10
@@ -38,7 +39,18 @@ slot0.AttachChampionSub = 19
 slot0.AttachOni = 20
 slot0.AttachOni_Target = 21
 slot0.AttachBomb_Enemy = 24
+slot0.AttachBarrier = 25
+slot0.AttachHugeSupply = 26
 slot0.AttachLandbase = 100
+slot0.AttachStaticEnemys = {
+	slot0.AttachEnemy,
+	slot0.AttachAmbush,
+	slot0.AttachElite,
+	slot0.AttachBoss,
+	slot0.AttachRival,
+	slot0.AttachAreaBoss,
+	slot0.AttachBomb_Enemy
+}
 slot0.Story = 1
 slot0.StoryObstacle = 2
 slot0.StoryTrigger = 3
@@ -46,6 +58,7 @@ slot0.EvtType_Poison = 1
 slot0.FlagBanaiAirStrike = 4
 slot0.FlagPoison = 5
 slot0.ActType_Poison = 1
+slot0.ActType_Healing = 2
 slot0.BoxBarrier = 0
 slot0.BoxDrop = 1
 slot0.BoxStrategy = 2
@@ -55,6 +68,10 @@ slot0.BoxEnemy = 5
 slot0.BoxSupply = 6
 slot0.BoxBanaiDamage = 8
 slot0.LBCoastalGun = 1
+slot0.LBHarbor = 2
+slot0.LBDock = 3
+slot0.LBIDHarbor = 10
+slot0.LBIDDock = 11
 slot0.RoundPlayer = 0
 slot0.RoundEnemy = 1
 slot0.AIEasy = 1
@@ -73,6 +90,7 @@ slot0.StrategySubAutoAttack = -2
 slot0.StrategyExchange = 9
 slot0.StrategyCallSubOutofRange = 10
 slot0.StrategySubTeleport = 11
+slot0.StrategySonarDetect = 12
 slot0.StrategyRepair = 4
 slot0.StrategyPresents = {
 	4
@@ -118,29 +136,27 @@ end
 function slot0.NeedEasePathCell(slot0)
 	if slot0.attachment == slot0.AttachNone then
 		return true
-	end
-
-	if slot0.attachment == slot0.AttachAmbush and slot0.flag ~= 0 then
+	elseif slot0.attachment == slot0.AttachAmbush then
+		if slot0.flag ~= 0 then
+			return true
+		end
+	elseif slot0.attachment == slot0.AttachRival or slot0.attachment == slot0.AttachEnemy or slot0.attachment == slot0.AttachElite then
+		if slot0.flag == 1 then
+			return true
+		end
+	elseif slot0.attachment == slot0.AttachSupply and slot0.attachmentId <= 0 then
 		return true
-	end
-
-	if (slot0.attachment == slot0.AttachRival or slot0.attachment == slot0.AttachEnemy or slot0.attachment == slot0.AttachElite) and slot0.flag == 1 then
-		return true
-	end
-
-	if slot0.attachment == slot0.AttachSupply and slot0.attachmentId <= 0 then
-		return true
-	end
-
-	if slot0.attachment == slot0.AttachBox then
+	elseif slot0.attachment == slot0.AttachBox then
 		if pg.box_data_template[slot0.attachmentId].type == slot0.BoxAirStrike or slot1.type == slot0.BoxTorpedo then
 			return true
 		elseif (slot1.type == slot0.BoxDrop or slot1.type == slot0.BoxStrategy or slot1.type == slot0.BoxEnemy or slot1.type == slot0.BoxSupply) and slot0.flag == 1 then
 			return true
 		end
-	end
-
-	if slot0.attachment == slot0.AttachStory and slot0.flag ~= 0 and (slot0.flag ~= 3 or slot0.data ~= slot0.StoryObstacle) then
+	elseif slot0.attachment == slot0.AttachStory then
+		if slot0.flag ~= 0 and (slot0.flag ~= 3 or slot0.data ~= slot0.StoryObstacle) then
+			return true
+		end
+	elseif slot0.attachment == slot0.AttachBarrier then
 		return true
 	end
 
@@ -217,6 +233,8 @@ slot0.DirtyStrategy = 8
 slot0.DirtyChampion = 16
 slot0.DirtyAutoAction = 32
 slot0.DirtyCellFlag = 64
+slot0.DirtyBase = 128
+slot0.DirtyChampionPosition = 256
 slot0.KizunaJammingEngage = 1
 slot0.KizunaJammingDodge = 2
 slot0.HpGreen = 3000
@@ -255,6 +273,7 @@ slot0.ShipMoveAction = "move"
 slot0.ShipIdleAction = "normal"
 slot0.ShipSwimAction = "swim"
 slot0.ShipStepDuration = 0.5
+slot0.ShipStepQuickPlayScale = 0.5
 slot0.ShipMoveTailLength = 2
 
 function slot0.GetRepairParams()

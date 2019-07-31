@@ -35,7 +35,7 @@ function slot0.applyToFleet(slot0, slot1, slot2, slot3)
 
 	if #slot0.movePath > 0 then
 		if _.any(slot0.movePath, function (slot0)
-			return not slot0:getChapterCell(slot0.row, slot0.column) or not slot1.walkable
+			return not slot0:getChapterCell(slot0.row, slot0.column) or not slot1:IsWalkable()
 		end) then
 			return false, "invalide move path"
 		end

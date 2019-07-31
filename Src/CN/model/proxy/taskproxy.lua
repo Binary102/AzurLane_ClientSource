@@ -12,6 +12,7 @@ function slot0.register(slot0)
 	slot0:on(20001, function (slot0)
 		slot0.data = {}
 		slot0.finishData = {}
+		slot0.tmpInfo = {}
 
 		for slot4, slot5 in ipairs(slot0.info) do
 			if Task.New(slot5):getConfigTable() ~= nil then
@@ -36,28 +37,12 @@ function slot0.register(slot0)
 				slot6.progress = slot5.progress
 
 				slot0:updateTask(slot6)
-
-				if slot6:getConfig("type") == 10 and slot6:isFinish() then
-					slot0:sendNotification(GAME.SUBMIT_TASK, slot6.id)
-				end
 			end
 		end
 	end)
 	slot0:on(20003, function (slot0)
-		if slot0.onAchieved then
-			slot0:addTmpTask(slot0)
-
-			return
-		end
-
 		for slot4, slot5 in ipairs(slot0.info) do
-			slot6 = Task.New(slot5)
-
-			slot0:addTask(slot6)
-
-			if slot6:getConfig("type") == 10 and slot6:isFinish() then
-				slot0:sendNotification(GAME.SUBMIT_TASK, slot6.id)
-			end
+			slot0:addTask(Task.New(slot5))
 		end
 	end)
 	slot0:on(20004, function (slot0)
@@ -85,35 +70,25 @@ function slot0.getTasksForBluePrint(slot0)
 	return slot1
 end
 
-function slot0.setOnAchieved(slot0, slot1)
-	slot0.onAchieved = slot1
-end
-
 function slot0.addTmpTask(slot0, slot1)
-	slot0.tmpInfo = slot1.info
-
-	for slot5, slot6 in ipairs(slot0.tmpInfo) do
-		if pg.task_data_template[slot6.id].story_id then
-			slot0.facade:sendNotification(GAME.STORY_UPDATE, {
-				storyId = slot8
-			})
-		end
-	end
+	slot0.tmpInfo[slot1.id] = slot1
 end
 
-function slot0.addTmpToTask(slot0)
-	if not slot0.tmpInfo then
-		return
-	end
+function slot0.checkTmpTask(slot0, slot1)
+	if slot0.tmpInfo[slot1] then
+		slot0:addTask(slot0.tmpInfo[slot1])
 
-	for slot4, slot5 in ipairs(slot0.tmpInfo) do
-		slot0:addTask(Task.New(slot5))
+		slot0.tmpInfo[slot1] = nil
 	end
-
-	slot0.tmpInfo = nil
 end
 
 function slot0.addTask(slot0, slot1)
+	if slot0.data[slot1.id] then
+		slot0:addTmpTask(slot1)
+
+		return
+	end
+
 	if slot1:getConfigTable() == nil then
 		pg.TipsMgr:GetInstance():ShowTips(i18n("task_notfound_error") .. tostring(slot1.id))
 		Debugger.LogWarning("Missing Task Config, id :" .. tostring(slot1.id))
@@ -126,6 +101,10 @@ function slot0.addTask(slot0, slot1)
 	slot0.data[slot1.id]:display("added")
 	slot0.data[slot1.id]:onAdded()
 	slot0.facade:sendNotification(slot0.TASK_ADDED, slot1:clone())
+
+	if slot1:getConfig("type") == 10 and slot1:isFinish() then
+		slot0:sendNotification(GAME.SUBMIT_TASK, slot1.id)
+	end
 end
 
 function slot0.updateTask(slot0, slot1)
@@ -134,6 +113,10 @@ function slot0.updateTask(slot0, slot1)
 
 	slot0.data[slot1.id]:display("updated")
 	slot0.facade:sendNotification(slot0.TASK_UPDATED, slot1:clone())
+
+	if slot1:getConfig("type") == 10 and slot1:isFinish() then
+		slot0:sendNotification(GAME.SUBMIT_TASK, slot1.id)
+	end
 end
 
 function slot0.getTasks(slot0)
@@ -201,6 +184,7 @@ function slot0.removeTaskById(slot0, slot1)
 	slot0.data[slot1] = nil
 
 	slot0.facade:sendNotification(slot0.TASK_REMOVED, slot2)
+	slot0:checkTmpTask(slot1)
 end
 
 function slot0.getmingshiTaskID(slot0, slot1)

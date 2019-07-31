@@ -8,13 +8,9 @@ return {
 			equip = {
 				{
 					number = 15,
-					type = {
-						7,
-						8,
-						9
-					},
-					nationality = {
-						4
+					label = {
+						"KMS",
+						"CV"
 					}
 				}
 			}
@@ -29,13 +25,9 @@ return {
 			equip = {
 				{
 					number = 16,
-					type = {
-						7,
-						8,
-						9
-					},
-					nationality = {
-						4
+					label = {
+						"KMS",
+						"CV"
 					}
 				}
 			}
@@ -50,13 +42,9 @@ return {
 			equip = {
 				{
 					number = 17,
-					type = {
-						7,
-						8,
-						9
-					},
-					nationality = {
-						4
+					label = {
+						"KMS",
+						"CV"
 					}
 				}
 			}
@@ -71,13 +59,9 @@ return {
 			equip = {
 				{
 					number = 19,
-					type = {
-						7,
-						8,
-						9
-					},
-					nationality = {
-						4
+					label = {
+						"KMS",
+						"CV"
 					}
 				}
 			}
@@ -92,13 +76,9 @@ return {
 			equip = {
 				{
 					number = 20,
-					type = {
-						7,
-						8,
-						9
-					},
-					nationality = {
-						4
+					label = {
+						"KMS",
+						"CV"
 					}
 				}
 			}
@@ -113,13 +93,9 @@ return {
 			equip = {
 				{
 					number = 21,
-					type = {
-						7,
-						8,
-						9
-					},
-					nationality = {
-						4
+					label = {
+						"KMS",
+						"CV"
 					}
 				}
 			}
@@ -134,13 +110,9 @@ return {
 			equip = {
 				{
 					number = 23,
-					type = {
-						7,
-						8,
-						9
-					},
-					nationality = {
-						4
+					label = {
+						"KMS",
+						"CV"
 					}
 				}
 			}
@@ -155,13 +127,9 @@ return {
 			equip = {
 				{
 					number = 25,
-					type = {
-						7,
-						8,
-						9
-					},
-					nationality = {
-						4
+					label = {
+						"KMS",
+						"CV"
 					}
 				}
 			}
@@ -176,13 +144,9 @@ return {
 			equip = {
 				{
 					number = 27,
-					type = {
-						7,
-						8,
-						9
-					},
-					nationality = {
-						4
+					label = {
+						"KMS",
+						"CV"
 					}
 				}
 			}
@@ -197,13 +161,9 @@ return {
 			equip = {
 				{
 					number = 30,
-					type = {
-						7,
-						8,
-						9
-					},
-					nationality = {
-						4
+					label = {
+						"KMS",
+						"CV"
 					}
 				}
 			}

@@ -751,6 +751,50 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "大和田仁美",
 		code = 188
+	},
+	{
+		actor_name = "铃代纱弓",
+		code = 189
+	},
+	{
+		actor_name = "山村响",
+		code = 190
+	},
+	{
+		actor_name = "高桥未奈美",
+		code = 191
+	},
+	{
+		actor_name = "能登麻美子",
+		code = 192
+	},
+	{
+		actor_name = "唐雅菁",
+		code = 193
+	},
+	{
+		actor_name = "小N",
+		code = 194
+	},
+	{
+		actor_name = "花玲",
+		code = 195
+	},
+	{
+		actor_name = "王晓彤",
+		code = 196
+	},
+	{
+		actor_name = "杜冥鸦",
+		code = 197
+	},
+	{
+		actor_name = "大桥歩夕",
+		code = 198
+	},
+	{
+		actor_name = "久保由利香",
+		code = 199
 	}
 }
 

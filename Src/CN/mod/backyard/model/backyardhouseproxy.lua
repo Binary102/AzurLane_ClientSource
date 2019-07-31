@@ -33,6 +33,7 @@ slot0.DISABLE_EFFECT = "BackYardHouseProxy_DISABLE_EFFECT"
 slot0.TRANSPORT_INTERAACTION_START = "BackYardHouseProxy_TRANSPORT_INTERAACTION_START"
 slot0.TRANSPORT_INTERAACTION_START_AGAIN = "BackYardHouseProxy_TRANSPORT_INTERAACTION_START_AGAIN"
 slot0.TRANSPORT_INTERAACTION_START_END = "BackYardHouseProxy_TRANSPORT_INTERAACTION_START_END"
+slot0.ROTATE_FURNITURE = "BackYardHouseProxy_ROTATE_FURNITURE"
 slot1 = require("Mod/BackYard/view/BackYardTool")
 slot2 = pg.furniture_compose_template
 
@@ -314,21 +315,37 @@ end
 function slot0.addMoveForFurniture(slot0, slot1, slot2)
 	slot0:removeFurntureMove(slot1)
 
-	slot0.furnitrueTimers[slot1] = Timer.New(function ()
-		shuffle(slot1)
+	function slot3(slot0, slot1)
+		for slot5 = 1, #slot0, 4 do
+			slot7 = {}
 
-		slot2 = nil
+			for slot11 = slot5, math.min(slot5 + 3, #slot0), 1 do
+				table.insert(slot7, slot0[slot11])
+			end
 
-		for slot6, slot7 in pairs(slot1) do
-			if slot0.data:canMoveFurniture(slot1, slot7) then
-				slot2 = slot7
+			shuffle(slot7)
 
-				break
+			for slot11, slot12 in pairs(slot7) do
+				if slot0.data:canMoveFurniture(slot1.id, slot12, slot1.position) then
+					return slot12
+				end
 			end
 		end
 
-		if slot2 then
-			slot0:changeFurniturePos(slot1, slot2, slot2)
+		return ret
+	end
+
+	slot0.furnitrueTimers[slot1] = Timer.New(function ()
+		slot0 = slot0:getFurnitureById(slot0)
+
+		if slot0.data(slot0.data:getGridForMoveableFurniture(slot0), slot0) then
+			if not slot0:isSameDir(slot0.data:getMoveableFurnitureNextDir(slot0, slot2, slot0.position)) then
+				slot0:sendNotification(slot3.ROTATE_FURNITURE, {
+					id = slot0.id
+				})
+			end
+
+			slot0:changeFurniturePos(slot1, slot2, slot0.changeFurniturePos)
 		end
 	end, slot0:getFurnitureById(slot1):getSpineSpeed() * slot2, -1)
 

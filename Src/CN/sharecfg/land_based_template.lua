@@ -40,11 +40,32 @@ pg.land_based_template = {
 			3
 		}
 	},
+	[10] = {
+		name = "港口",
+		prefab = "gangkou",
+		type = 2,
+		id = 10,
+		function_args = {
+			1
+		}
+	},
+	[11] = {
+		name = "船坞",
+		prefab = "chuanwu",
+		type = 3,
+		id = 11,
+		function_args = {
+			800,
+			3
+		}
+	},
 	all = {
 		1,
 		2,
 		3,
-		4
+		4,
+		10,
+		11
 	}
 }
 

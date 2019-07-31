@@ -73,6 +73,17 @@ pg.strategy_data_template = {
 			1.1
 		}
 	},
+	[12] = {
+		buff_id = 0,
+		name = "声呐探测",
+		type = 5,
+		id = 12,
+		icon = "12",
+		desc = "申请基地进行一次陆基反潜支援，对全地图进行一次反潜侦察，标记所有潜行中的潜艇",
+		arg = {
+			area_scout
+		}
+	},
 	[90] = {
 		buff_id = 90,
 		name = "危机出现!",
@@ -181,6 +192,7 @@ pg.strategy_data_template = {
 		9,
 		10,
 		11,
+		12,
 		90,
 		91,
 		9500,

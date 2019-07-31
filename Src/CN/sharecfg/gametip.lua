@@ -5354,6 +5354,56 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 			}
 		}
 	},
+	help_battle_defense = {
+		key = "help_battle_defense",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_defense_1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_defense_2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_defense_3"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_defense_4"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_defense_5"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
 	backyard_theme_set_tip = {
 		tip = "请选择将要对<color=#92fc63>$1</color>进行的操作",
 		key = "backyard_theme_set_tip"
@@ -8732,7 +8782,7 @@ $3]],
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "伊168、U-101、伊25、伊56、U-522出现概率UP",
+		tip = "阿拉巴马、巴尔的摩、伯明翰、艾尔温出现概率UP！",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -10772,6 +10822,50 @@ P7通过指定关卡]]
 	common_buy_gold_success = {
 		tip = "成功购买 <color=#92fc63>$1</color> 物资！",
 		key = "common_buy_gold_success"
+	},
+	harbour_bomb_tip = {
+		tip = "港口被摧毁，任务失败…",
+		key = "harbour_bomb_tip"
+	},
+	submarine_approach = {
+		tip = "潜艇接近",
+		key = "submarine_approach"
+	},
+	submarine_approach_desc = {
+		tip = "敌潜艇编队接近中，请注意提高警戒。",
+		key = "submarine_approach_desc"
+	},
+	desc_quick_play = {
+		tip = "加速移动播放",
+		key = "desc_quick_play"
+	},
+	text_win_condition = {
+		tip = "胜利条件",
+		key = "text_win_condition"
+	},
+	text_lose_condition = {
+		tip = "失败条件",
+		key = "text_lose_condition"
+	},
+	text_rest_HP = {
+		tip = "剩余血量",
+		key = "text_rest_HP"
+	},
+	desc_defense_reward = {
+		tip = "依据通关时港口剩余血量获得奖励",
+		key = "desc_defense_reward"
+	},
+	desc_base_hp = {
+		tip = "港区耐久：$1/$2",
+		key = "desc_base_hp"
+	},
+	map_event_open = {
+		tip = "拦截机关已启动",
+		key = "map_event_open"
+	},
+	word_reward = {
+		tip = "奖励",
+		key = "word_reward"
 	}
 }
 

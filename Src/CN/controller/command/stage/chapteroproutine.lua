@@ -23,10 +23,12 @@ function slot0.doDropUpdate(slot0)
 end
 
 function slot0.doMapUpdate(slot0)
+	slot1 = slot0.data
 	slot2 = slot0.flag
-	slot3 = slot0.chapter
+	slot3 = slot0.extraFlag or 0
+	slot4 = slot0.chapter
 
-	if #slot0.data.map_update > 0 then
+	if #slot1.map_update > 0 then
 		_.each(slot1.map_update, function (slot0)
 			if slot0.item_type == ChapterConst.AttachStory and slot0.item_data == ChapterConst.StoryTrigger then
 				slot1 = ChapterCell.New(slot0)
@@ -54,10 +56,12 @@ function slot0.doMapUpdate(slot0)
 			end
 		end)
 
-		slot2 = bit.bor(slot2, bit.bor(ChapterConst.DirtyAttachment, ChapterConst.DirtyAutoAction))
+		slot2 = bit.bor(slot2, ChapterConst.DirtyAttachment)
+		slot3 = bit.bor(slot3, ChapterConst.DirtyAutoAction)
 	end
 
 	slot0.flag = slot2
+	slot0.extraFlag = slot3
 end
 
 function slot0.doCellFlagUpdate(slot0)
@@ -82,16 +86,22 @@ function slot0.doCellFlagUpdate(slot0)
 end
 
 function slot0.doAIUpdate(slot0)
+	slot1 = slot0.data
 	slot2 = slot0.flag
-	slot3 = slot0.chapter
+	slot3 = slot0.extraFlag or 0
+	slot4 = slot0.chapter
 
-	if #slot0.data.ai_list > 0 then
+	if #slot1.ai_list > 0 then
 		_.each(slot1.ai_list, function (slot0)
-			slot0:mergeChampion(ChapterChampion.New(slot0))
+			slot0:mergeChampion(ChapterChampionPackage.New(slot0))
 		end)
 
-		slot2 = bit.bor(slot2, bit.bor(ChapterConst.DirtyChampion, ChapterConst.DirtyAutoAction))
+		slot2 = bit.bor(slot2, ChapterConst.DirtyChampion)
+		slot3 = bit.bor(slot3, ChapterConst.DirtyAutoAction)
 	end
+
+	slot0.flag = slot2
+	slot0.extraFlag = slot3
 end
 
 function slot0.doShipUpdate(slot0)
@@ -153,7 +163,7 @@ function slot0.doRetreat(slot0)
 			slot3 = bit.bor(slot3, ChapterConst.DirtyFleet, ChapterConst.DirtyAttachment, ChapterConst.DirtyChampion, ChapterConst.DirtyStrategy)
 		end
 	else
-		slot4:retreat()
+		slot4:retreat(slot1.win)
 
 		slot3 = 0
 	end
@@ -184,7 +194,9 @@ function slot0.doMove(slot0)
 	end
 
 	slot0.fullpath = slot5
-	slot3.roundIndex = slot3.roundIndex + 1
+
+	slot3:IncreaseRound()
+
 	slot0.flag = 0
 end
 
@@ -289,7 +301,9 @@ function slot0.doSupply(slot0)
 
 	slot0.chapter.updateChapterCell(slot2, slot7)
 
-	if slot7.attachmentId > 0 then
+	if slot7.attachmentId > 20 then
+		pg.TipsMgr:GetInstance():ShowTips(i18n("level_ammo_supply_p1", slot8))
+	elseif slot7.attachmentId > 0 then
 		pg.TipsMgr:GetInstance():ShowTips(i18n("level_ammo_supply", slot8, slot7.attachmentId))
 	else
 		pg.TipsMgr:GetInstance():ShowTips(i18n("level_ammo_empty", slot8))
@@ -326,14 +340,6 @@ function slot0.doCollectAI(slot0)
 	_.each(slot1.fleet_act_list, function (slot0)
 		table.insert(slot0.aiActs, FleetAIAction.New(slot0))
 	end)
-
-	if #slot0.aiActs > 0 then
-		if bit.band(slot0.flag, ChapterConst.DirtyCellFlag) > 0 then
-			slot0.flag = bit.bor(0, ChapterConst.DirtyCellFlag)
-		else
-			slot0.flag = 0
-		end
-	end
 end
 
 function slot0.doBarrier(slot0)
@@ -372,28 +378,7 @@ function slot0.doRequest(slot0)
 end
 
 function slot0.doSkipBattle(slot0)
-	slot1 = slot0.flag
-	slot5 = nil
-
-	if slot0.chapter:existChampion(slot0.chapter.fleet.line.row, slot0.chapter.fleet.line.column) then
-		slot2:getChampion(slot4.row, slot4.column).flag = 1
-		slot5 = slot2.getChampion(slot4.row, slot4.column).attachment
-	else
-		slot6 = slot2:getChapterCell(slot4.row, slot4.column)
-		slot6.flag = 1
-
-		slot2:updateChapterCell(slot6)
-
-		slot5 = slot6.attachment
-	end
-
-	if slot5 ~= ChapterConst.AttachAmbush and _.detect(slot2.achieves, function (slot0)
-		return slot0.type == ChapterConst.AchieveType2
-	end) then
-		slot6.count = slot6.count + 1
-	end
-
-	slot0.flag = bit.bor(slot1, ChapterConst.DirtyAttachment, ChapterConst.DirtyAchieve, ChapterConst.DirtyFleet, ChapterConst.DirtyChampion)
+	slot0.flag = bit.bor(slot0.flag, ChapterConst.DirtyAttachment, ChapterConst.DirtyAchieve, ChapterConst.DirtyFleet, ChapterConst.DirtyChampion)
 end
 
 function slot0.doTeleportSub(slot0)
@@ -415,7 +400,11 @@ function slot0.doTeleportSub(slot0)
 end
 
 function slot0.doEnemyRound(slot0)
-	slot0.chapter:IncreaseRound()
+	slot0.chapter.IncreaseRound(slot1)
+
+	if slot0.chapter.getPlayType(slot1) == ChapterConst.TypeDefence then
+		slot0.flag = bit.bor(slot0.flag, ChapterConst.DirtyAttachment)
+	end
 end
 
 return slot0

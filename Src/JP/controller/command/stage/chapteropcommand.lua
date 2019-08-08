@@ -157,6 +157,7 @@ class("ChapterOpCommand", import(".ChapterOpRoutine")).execute = function (slot0
 				})
 			end
 		else
+			warning(string.format("SLG操作%d 请求失效，重新拉取信息", slot1.type))
 			pg.TipsMgr:GetInstance():ShowTips(errorTip("levelScene_operation", slot0.result))
 
 			if pg.TipsMgr.GetInstance().ShowTips.type ~= ChapterConst.OpRequest and slot1.type ~= ChapterConst.OpRetreat and slot1.type ~= ChapterConst.OpSubTeleport then

@@ -944,7 +944,7 @@ function slot0.OnExitChapter(slot0, slot1)
 			slot2 = getProxy(PlayerProxy):getData()
 
 			if slot0.id == 103 and not slot2:GetCommonFlag(BATTLE_AUTO_ENABLED) then
-				slot1:HandleShowMsgBox({
+				slot1.viewComponent:HandleShowMsgBox({
 					modal = true,
 					hideNo = true,
 					content = i18n("battle_autobot_unlock")
@@ -959,7 +959,7 @@ function slot0.OnExitChapter(slot0, slot1)
 				pg.m02:sendNotification(GAME.STORY_UPDATE, {
 					storyId = slot2
 				})
-				slot1:emit(LevelMediator2.ON_PERFORM_COMBAT, slot2, slot0)
+				slot1.viewComponent:emit(LevelMediator2.ON_PERFORM_COMBAT, slot2, slot0)
 
 				return
 			elseif slot2 and type(slot2) == "string" then
@@ -1149,6 +1149,13 @@ function slot0.playAIActions(slot0, slot1, slot2, slot3)
 	function ()
 		if coroutine.status(coroutine.status) == "suspended" then
 			slot0, slot1 = coroutine.resume(coroutine.resume)
+
+			if not slot0 then
+				slot1.viewComponent:unfrozen(-1)
+				slot1:sendNotification(GAME.CHAPTER_OP, {
+					type = ChapterConst.OpRequest
+				})
+			end
 		end
 	end()
 end

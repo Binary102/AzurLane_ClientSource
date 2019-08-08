@@ -104,6 +104,14 @@ slot1 = {
 	[ActivityConst.US_DEFENCE_OIL_ID] = {
 		className = "USDefenceOilPage",
 		uiName = "usdefenceoilpage"
+	},
+	[ActivityConst.SARATOGA_WF_SKIN_ID] = {
+		className = "SaratogaWFSkinPage",
+		uiName = "saratogawfskinpage"
+	},
+	[ActivityConst.SKIN_XIXUEGUI] = {
+		className = "XixueguiSkinPage",
+		uiName = "xixueguiskinpage"
 	}
 }
 slot2 = {}

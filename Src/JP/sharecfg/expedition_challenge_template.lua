@@ -180,6 +180,96 @@ pg.expedition_challenge_template = {
 		},
 		bufficon = {}
 	},
+	[10011] = {
+		challenge = 10000,
+		index = 11,
+		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
+		type_name_p = "",
+		name_p = "10011",
+		id = 10011,
+		dungeon_id = 5019,
+		char_icon = {
+			"feinikesi"
+		},
+		chapter_name = {
+			"Challenge",
+			"  チャレンジ",
+			""
+		},
+		bufficon = {}
+	},
+	[10012] = {
+		challenge = 10000,
+		index = 12,
+		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
+		type_name_p = "",
+		name_p = "10012",
+		id = 10012,
+		dungeon_id = 5020,
+		char_icon = {
+			"chicheng"
+		},
+		chapter_name = {
+			"Challenge",
+			"  チャレンジ",
+			""
+		},
+		bufficon = {}
+	},
+	[10013] = {
+		challenge = 10000,
+		index = 13,
+		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
+		type_name_p = "",
+		name_p = "10013",
+		id = 10013,
+		dungeon_id = 5021,
+		char_icon = {
+			"hude"
+		},
+		chapter_name = {
+			"Challenge",
+			"  チャレンジ",
+			""
+		},
+		bufficon = {}
+	},
+	[10014] = {
+		challenge = 10000,
+		index = 14,
+		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
+		type_name_p = "",
+		name_p = "10014",
+		id = 10014,
+		dungeon_id = 5022,
+		char_icon = {
+			"ougen"
+		},
+		chapter_name = {
+			"Challenge",
+			"  チャレンジ",
+			""
+		},
+		bufficon = {}
+	},
+	[10015] = {
+		challenge = 10000,
+		index = 15,
+		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
+		type_name_p = "",
+		name_p = "10015",
+		id = 10015,
+		dungeon_id = 5023,
+		char_icon = {
+			"huangjiafangzhou"
+		},
+		chapter_name = {
+			"Challenge",
+			"  チャレンジ",
+			""
+		},
+		bufficon = {}
+	},
 	all = {
 		10001,
 		10002,
@@ -190,7 +280,12 @@ pg.expedition_challenge_template = {
 		10007,
 		10008,
 		10009,
-		10010
+		10010,
+		10011,
+		10012,
+		10013,
+		10014,
+		10015
 	}
 }
 

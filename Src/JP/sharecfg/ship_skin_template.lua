@@ -9924,7 +9924,9 @@ pg.ship_skin_template = {
 		lip_sync_gain = 0,
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
-		tag = {},
+		tag = {
+			2
+		},
 		live2d_offset = {
 			0,
 			0,
@@ -12240,7 +12242,9 @@ pg.ship_skin_template = {
 		lip_sync_gain = 0,
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
-		tag = {},
+		tag = {
+			2
+		},
 		live2d_offset = {
 			0,
 			0,
@@ -15473,6 +15477,104 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[107034] = {
+		name = "青き海のチャリティーライブ",
+		bullet_skin_main = "",
+		ship_group = 10703,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "salatuojia_5",
+		hand_id = 5,
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 0,
+		id = 107034,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "salatuojia_5",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "海と空の仲間、チャリティーアイドルのサラトガちゃん、ただいま新登場！えへへ～指揮官、サラトガちゃんと一緒にこの青い美しい海を守ってね♪",
+		voice_actor = 28,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.634,
+					1.181,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.403,
+					1.1,
+					0
+				}
+			},
+			plane = {
+				{
+					0.035,
+					-0.017,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.562,
+							2.241,
+							-0.6
+						}
+					}
+				}
+			}
+		}
+	},
 	[107039] = {
 		name = "サラトガ改",
 		bullet_skin_main = "",
@@ -17125,7 +17227,9 @@ pg.ship_skin_template = {
 		lip_sync_gain = 0,
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
-		tag = {},
+		tag = {
+			2
+		},
 		live2d_offset = {
 			0,
 			0,
@@ -17673,7 +17777,9 @@ pg.ship_skin_template = {
 		lip_sync_gain = 0,
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
-		tag = {},
+		tag = {
+			2
+		},
 		live2d_offset = {
 			0,
 			0,
@@ -54006,7 +54112,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "巡潜乙型伊号第二十五潜水艦",
-		voice_actor = -1,
+		voice_actor = 121,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -54097,7 +54203,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 70205,
 		desc = "指揮官さん、こんにちは。この格好…？学園で授業を受ける日なのでいつもとは違う格好にしてみましたよ？ところで指揮官さん、授業参観に来てくれませんか？",
-		voice_actor = -1,
+		voice_actor = 121,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -60006,7 +60112,8 @@ pg.ship_skin_template = {
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
-			propose = 2.5
+			propose = 2.5,
+			touch2 = 5.9
 		}
 	},
 	[407010] = {
@@ -77682,6 +77789,7 @@ pg.ship_skin_template = {
 		107030,
 		107031,
 		107033,
+		107034,
 		107039,
 		107040,
 		107049,

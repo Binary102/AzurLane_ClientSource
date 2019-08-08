@@ -97,7 +97,7 @@ return {
 							delay = 2,
 							moveCast = true,
 							corrdinate = {
-								15,
+								6,
 								0,
 								55
 							},

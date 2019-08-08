@@ -225,7 +225,7 @@ return {
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								15,
+								7,
 								0,
 								75
 							},
@@ -285,7 +285,7 @@ return {
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								15,
+								7,
 								0,
 								35
 							},
@@ -364,7 +364,7 @@ return {
 							corrdinate = {
 								20,
 								0,
-								75
+								65
 							},
 							buffList = {
 								8001,
@@ -409,7 +409,7 @@ return {
 							corrdinate = {
 								20,
 								0,
-								35
+								45
 							},
 							buffList = {
 								8001,

@@ -1306,40 +1306,11 @@ function slot5(slot0, slot1, slot2)
 			slot6 = slot6(slot7, slot8)
 
 			if slot6 then
-				slot7 = slot0
-				slot6 = slot0.clearStage
-
-				slot6(slot7)
-
-				slot6 = slot0.viewComponent
-				slot7 = slot6
-				slot6 = slot6.emit
-				slot8 = BackyardMainMediator
-				slot8 = slot8.INTERACTION_TRANSPORT
-				slot9 = slot0.boatVO
-				slot9 = slot9.id
-				slot10 = slot5.id
-
-				slot6(slot7, slot8, slot9, slot10)
-			end
-		end
-	elseif slot2 then
-		slot7 = slot5
-		slot6 = slot5.canInterActionShipGroup
-		slot8 = slot4.gruopId
-		slot6 = slot6(slot7, slot8)
-
-		if slot6 then
-			slot7 = slot5
-			slot6 = slot5.isInterActionSpine
-			slot6 = slot6(slot7)
-
-			if slot6 then
 				slot7 = slot5
-				slot6 = slot5.canInterActionSpine
+				slot6 = slot5.isLock
 				slot6 = slot6(slot7)
 
-				if slot6 then
+				if not slot6 then
 					slot7 = slot0
 					slot6 = slot0.clearStage
 
@@ -1349,7 +1320,7 @@ function slot5(slot0, slot1, slot2)
 					slot7 = slot6
 					slot6 = slot6.emit
 					slot8 = BackyardMainMediator
-					slot8 = slot8.INTERACTION_SPINE
+					slot8 = slot8.INTERACTION_TRANSPORT
 					slot9 = slot0.boatVO
 					slot9 = slot9.id
 					slot10 = slot5.id
@@ -1371,24 +1342,71 @@ function slot5(slot0, slot1, slot2)
 
 			if slot6 then
 				slot7 = slot5
+				slot6 = slot5.canInterActionSpine
+				slot6 = slot6(slot7)
+
+				if slot6 then
+					slot7 = slot5
+					slot6 = slot5.isTransPort
+					slot6 = slot6(slot7)
+
+					if not slot6 then
+						slot7 = slot0
+						slot6 = slot0.clearStage
+
+						slot6(slot7)
+
+						slot6 = slot0.viewComponent
+						slot7 = slot6
+						slot6 = slot6.emit
+						slot8 = BackyardMainMediator
+						slot8 = slot8.INTERACTION_SPINE
+						slot9 = slot0.boatVO
+						slot9 = slot9.id
+						slot10 = slot5.id
+
+						slot6(slot7, slot8, slot9, slot10)
+					end
+				end
+			end
+		end
+	elseif slot2 then
+		slot7 = slot5
+		slot6 = slot5.canInterActionShipGroup
+		slot8 = slot4.gruopId
+		slot6 = slot6(slot7, slot8)
+
+		if slot6 then
+			slot7 = slot5
+			slot6 = slot5.isInterActionSpine
+			slot6 = slot6(slot7)
+
+			if slot6 then
+				slot7 = slot5
 				slot6 = slot5.canInterActionSpineExtra
 				slot6 = slot6(slot7)
 
 				if slot6 then
-					slot7 = slot0
-					slot6 = slot0.clearStage
+					slot7 = slot5
+					slot6 = slot5.isTransPort
+					slot6 = slot6(slot7)
 
-					slot6(slot7)
+					if not slot6 then
+						slot7 = slot0
+						slot6 = slot0.clearStage
 
-					slot6 = slot0.viewComponent
-					slot7 = slot6
-					slot6 = slot6.emit
-					slot8 = BackyardMainMediator
-					slot8 = slot8.ON_SPINE_EXTRA
-					slot9 = slot4.id
-					slot10 = slot2
+						slot6(slot7)
 
-					slot6(slot7, slot8, slot9, slot10)
+						slot6 = slot0.viewComponent
+						slot7 = slot6
+						slot6 = slot6.emit
+						slot8 = BackyardMainMediator
+						slot8 = slot8.ON_SPINE_EXTRA
+						slot9 = slot4.id
+						slot10 = slot2
+
+						slot6(slot7, slot8, slot9, slot10)
+					end
 				end
 			end
 		end
@@ -2698,35 +2716,36 @@ end
 
 slot0.playAnimsFollowFurniture = slot5
 
-function slot5(slot0)
-	slot1 = pairs
-	slot2 = slot0.roles
-	slot1, slot2, slot3 = slot1(slot2)
+function slot5(slot0, slot1)
+	slot2 = pairs
+	slot3 = slot0.roles or {}
+	slot2, slot3, slot4 = slot2(slot3)
 
-	for slot4, slot5 in slot1, slot2, slot3 do
-		slot7 = slot0
-		slot6 = slot0.getSpineNormalAction
-		slot8 = slot5
-		slot6 = slot6(slot7, slot8)
-		slot8 = slot5
-		slot7 = slot5.SetActionCallBack
-		slot9 = nil
-
-		slot7(slot8, slot9)
-
-		slot8 = slot5
-		slot7 = slot5.SetAction
+	for slot5, slot6 in slot2, slot3, slot4 do
+		slot8 = slot0
+		slot7 = slot0.getSpineNormalAction
 		slot9 = slot6
-		slot10 = 0
+		slot7 = slot7(slot8, slot9)
+		slot9 = slot6
+		slot8 = slot6.SetActionCallBack
+		slot10 = nil
 
-		slot7(slot8, slot9, slot10)
+		slot8(slot9, slot10)
+
+		slot9 = slot6
+		slot8 = slot6.SetAction
+		slot10 = slot7
+		slot11 = 0
+
+		slot8(slot9, slot10, slot11)
 	end
 
-	slot2 = slot0
-	slot1 = slot0.endSpineAnimator
-	slot3 = slot0.spineFurniture
+	slot3 = slot0
+	slot2 = slot0.endSpineAnimator
+	slot4 = slot0.spineFurniture
+	slot5 = slot1
 
-	slot1(slot2, slot3)
+	slot2(slot3, slot4, slot5)
 end
 
 slot0.pauseAnim = slot5
@@ -3367,101 +3386,104 @@ end
 
 slot0.startSpineAnimator = slot5
 
-function slot5(slot0, slot1, slot2)
-	slot3 = slot0.animtorNameIndex
+function slot5(slot0, slot1, slot2, slot3)
+	slot4 = slot0.animtorNameIndex
 
-	if not slot3 then
+	if not slot4 then
 		return
 	end
 
 	slot2 = slot2 or 0
 
 	if slot1 then
-		slot4 = slot1
-		slot3 = slot1.hasAnimator
-		slot3 = slot3(slot4)
+		slot5 = slot1
+		slot4 = slot1.hasAnimator
+		slot4 = slot4(slot5)
 
-		if slot3 then
-			slot3 = slot0.viewComponent
-			slot3 = slot3.furnitureModals
-			slot4 = slot1.id
-			slot3 = slot3[slot4]
+		if slot4 then
+			slot4 = slot0.viewComponent
+			slot4 = slot4.furnitureModals
+			slot5 = slot1.id
+			slot4 = slot4[slot5]
 
-			if slot3 then
-				slot4 = nil
-				slot6 = slot1
-				slot5 = slot1.getAnimtorControlGoName
-				slot7 = slot2
-				slot8 = slot0.animtorNameIndex
-				slot5 = slot5(slot6, slot7, slot8)
+			if slot4 then
+				slot5 = nil
 				slot7 = slot1
-				slot6 = slot1.hasAnimatorMask
-				slot6 = slot6(slot7)
+				slot6 = slot1.getAnimtorControlGoName
+				slot8 = slot2
+				slot9 = slot0.animtorNameIndex
+				slot6 = slot6(slot7, slot8, slot9)
+				slot8 = slot1
+				slot7 = slot1.hasAnimatorMask
+				slot7 = slot7(slot8)
 
-				if slot6 then
-					slot7 = slot3
-					slot6 = slot3.Find
-					slot8 = "mask/"
-					slot9 = slot5
-					slot8 = slot8 .. slot9
-					slot6 = slot6(slot7, slot8)
-					slot4 = slot6
-					slot7 = slot3
-					slot6 = slot3.Find
-					slot8 = "mask"
-					slot6 = slot6(slot7, slot8)
-					slot7 = setActive
-					slot8 = slot6
-					slot9 = false
-
-					slot7(slot8, slot9)
-
-					slot7 = SetParent
+				if slot7 then
 					slot8 = slot4
-					slot9 = slot3
+					slot7 = slot4.Find
+					slot9 = "mask/"
+					slot10 = slot6
+					slot9 = slot9 .. slot10
+					slot7 = slot7(slot8, slot9)
+					slot5 = slot7
+					slot8 = slot4
+					slot7 = slot4.Find
+					slot9 = "mask"
+					slot7 = slot7(slot8, slot9)
 
-					slot7(slot8, slot9)
+					if not slot3 then
+						slot8 = setActive
+						slot9 = slot7
+						slot10 = false
+
+						slot8(slot9, slot10)
+					end
+
+					slot8 = SetParent
+					slot9 = slot5
+					slot10 = slot4
+
+					slot8(slot9, slot10)
 				else
-					slot7 = slot3
-					slot6 = slot3.Find
-					slot8 = slot5
-					slot6 = slot6(slot7, slot8)
-					slot4 = slot6
+					slot8 = slot4
+					slot7 = slot4.Find
+					slot9 = slot6
+					slot7 = slot7(slot8, slot9)
+					slot5 = slot7
 				end
 
-				slot7 = slot4
-				slot6 = slot4.GetComponent
-				slot8 = typeof
-				slot9 = DftAniEvent
-				slot6 = slot6(slot7, slot8(slot9))
+				slot8 = slot5
+				slot7 = slot5.GetComponent
+				slot9 = typeof
+				slot10 = DftAniEvent
+				slot7 = slot7(slot8, slot9(slot10))
 
-				if slot6 then
-					slot8 = slot6
-					slot7 = slot6.SetTriggerEvent
-					slot9 = nil
+				if slot7 then
+					slot9 = slot7
+					slot8 = slot7.SetTriggerEvent
+					slot10 = nil
 
-					slot7(slot8, slot9)
+					slot8(slot9, slot10)
 
-					slot8 = slot6
-					slot7 = slot6.SetTriggerEvent
-					slot9 = nil
+					slot9 = slot7
+					slot8 = slot7.SetTriggerEvent
+					slot10 = nil
 
-					slot7(slot8, slot9)
+					slot8(slot9, slot10)
 				end
 
-				slot7 = setActive
-				slot8 = slot4
-				slot9 = false
+				slot8 = setActive
+				slot9 = slot5
+				slot10 = false
 
-				slot7(slot8, slot9)
+				slot8(slot9, slot10)
 			end
 		end
 	end
 
-	slot3 = nil
-	slot0.animtorNameIndex = slot3
-	slot3 = nil
-	slot0.inAnimator = slot3
+	slot4 = nil
+	slot0.animtorNameIndex = slot4
+	slot4 = nil
+	slot0.inAnimator = slot4
 end
 
 slot0.endSpineAnimator = slot5
@@ -4997,6 +5019,8 @@ function slot5(slot0, slot1, slot2)
 			slot7(slot8, slot9)
 		end
 	end
+
+	slot0.spineFurniture = slot4
 end
 
 slot0.addSpineExtra = slot5
@@ -5020,8 +5044,9 @@ function slot5(slot0, slot1, slot2)
 	slot5 = slot0.endSpineAnimator
 	slot7 = slot4
 	slot8 = slot2
+	slot9 = true
 
-	slot5(slot6, slot7, slot8)
+	slot5(slot6, slot7, slot8, slot9)
 
 	slot6 = slot4
 	slot5 = slot4.getSpineExtraBodyMask
@@ -5047,6 +5072,8 @@ function slot5(slot0, slot1, slot2)
 	slot10 = 0
 	slot7 = slot7(slot8, slot9, slot10)
 	slot6.eulerAngles = slot7
+	slot6 = nil
+	slot0.spineFurniture = slot6
 end
 
 slot0.clearSpineExtra = slot5

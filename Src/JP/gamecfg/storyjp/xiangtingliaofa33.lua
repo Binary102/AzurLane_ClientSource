@@ -9,30 +9,13 @@ return {
 		{
 			actorName = "？？？",
 			side = 0,
+			stopbgm = true,
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			stopbgm = true,
 			actor = 900072,
-			nameColor = "#a9f548",
 			paingtingGray = true,
 			say = "――零、そこをどけ",
-			flashout = {
-				dur = 1,
-				black = true,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 1,
-				dur = 1,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			},
 			effects = {
 				{
 					active = true,

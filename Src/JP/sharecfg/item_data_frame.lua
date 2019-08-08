@@ -21,7 +21,15 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 201,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>チャレンジ精神に富む指揮官へ送るチャレンジフレーム</color>\nチャレンジモードで入手可能 ",
+		desc = "<color=#ffffff>チャレンジ精神に富む指揮官へ送るチャレンジフレーム</color>\nチャレンジモードで入手可能（19.06.06-19.07.28） ",
+		scene = {}
+	},
+	[202] = {
+		name = "チャレンジャーII",
+		time_second = 0,
+		id = 202,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>チャレンジ精神に富む指揮官へ送るチャレンジフレーム</color>\nチャレンジモード第二期で入手可能（19.08.07-19.09.29）",
 		scene = {}
 	},
 	[300] = {
@@ -60,6 +68,7 @@ pg.item_data_frame = {
 		0,
 		101,
 		201,
+		202,
 		300,
 		301,
 		302,

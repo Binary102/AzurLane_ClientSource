@@ -82,7 +82,7 @@ return {
 							delay = 2,
 							moveCast = true,
 							corrdinate = {
-								13,
+								6,
 								0,
 								75
 							},
@@ -112,7 +112,7 @@ return {
 							delay = 2,
 							moveCast = true,
 							corrdinate = {
-								13,
+								6,
 								0,
 								35
 							},

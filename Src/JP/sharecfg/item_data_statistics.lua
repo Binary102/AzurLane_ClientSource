@@ -67386,6 +67386,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59135] = {
+		display = "「伝説のアザラシちゃん」の出現情報。海の生態系のために早く見つけましょう！イベント終了後に削除される。",
+		rarity = 2,
+		type = 98,
+		name = "アザラシちゃん出現情報",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59135,
+		icon = "Props/qixihaibaopt",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "三笠大先輩の蒐集品の一つ。駆逐艦「江風」のモデル",
 		rarity = 2,
@@ -71810,6 +71826,7 @@ pg.item_data_statistics = {
 		59130,
 		59133,
 		59134,
+		59135,
 		59601,
 		59602,
 		59603,

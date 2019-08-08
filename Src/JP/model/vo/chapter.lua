@@ -673,7 +673,7 @@ function slot0.findPath(slot0, slot1, slot2, slot3)
 		for slot12 = 0, ChapterConst.MaxColumn - 1, 1 do
 			slot13 = PathFinding.PrioForbidden
 
-			if slot0.cells[ChapterCell.Line2Name(slot8, slot12)] and slot15:IsWalkable(slot1) then
+			if slot0.cells[ChapterCell.Line2Name(slot8, slot12)] and slot15:IsWalkable() then
 				slot13 = PathFinding.PrioNormal
 
 				if slot15.row == slot3.row and slot15.column == slot3.column then
@@ -2098,14 +2098,18 @@ function slot0.writeBack(slot0, slot1, slot2)
 		if slot5 == ChapterConst.AttachEnemy or slot5 == ChapterConst.AttachElite or slot5 == ChapterConst.AttachChampion then
 			if _.detect(slot0.achieves, function (slot0)
 				return slot0.type == ChapterConst.AchieveType2
-			end) then
+			end) and (not slot6 or slot6.flag == 1) then
 				slot7.count = slot7.count + 1
 			end
-		elseif slot5 == ChapterConst.AttachBoss then
+		elseif slot5 == ChapterConst.AttachBoss and _.detect(slot0.achieves, function (slot0)
+			return slot0.type == ChapterConst.AchieveType1
+		end) then
+			slot7.count = slot7.count + 1
+		end
+
+		if slot0:CheckWin() then
 			_.each(slot0.achieves, function (slot0)
-				if slot0.type == ChapterConst.AchieveType1 then
-					slot0.count = slot0.count + 1
-				elseif slot0.type == ChapterConst.AchieveType3 then
+				if slot0.type == ChapterConst.AchieveType3 then
 					if _.all(_.values(slot0.cells), function (slot0)
 						if slot0.attachment == ChapterConst.AttachEnemy or slot0.attachment == ChapterConst.AttachElite or slot0.attachment == ChapterConst.AttachBoss or (slot0.attachment == ChapterConst.AttachBox and pg.box_data_template[slot0.attachmentId].type == ChapterConst.BoxEnemy) then
 							return slot0.flag == 1
@@ -2147,6 +2151,47 @@ function slot0.writeBack(slot0, slot1, slot2)
 			getProxy(ChapterProxy).subProgress = math.max(getProxy(ChapterProxy).subProgress, table.indexof(slot8, slot0:getConfig("map")) + 1)
 		end
 	end
+end
+
+function slot0.CheckWin(slot0)
+	slot2 = false
+
+	for slot6, slot7 in pairs(slot1) do
+		if slot7.type == 1 then
+			_.each(slot0:findChapterCells(ChapterConst.AttachBoss), function (slot0)
+				if slot0 and slot0.flag == 1 then
+					slot0 = slot0 + 1
+				end
+			end)
+
+			slot2 = slot2 or slot7.param <= 0
+		elseif slot7.type == 2 then
+			slot2 = slot2 or slot7.param <= slot0:GetDefeatCount()
+		elseif slot7.type == 3 then
+			slot2 = slot2 or transportState == 1
+		elseif slot7.type == 4 then
+			slot2 = slot2 or slot7.param < slot0:getRoundNum()
+		elseif slot7.type == 5 then
+			slot8 = slot7.param
+			slot2 = slot2 or not (_.any(slot0.champions, function (slot0)
+				slot1 = slot0.attachmentId == slot0
+
+				for slot5, slot6 in pairs(slot0.idList) do
+					slot1 = slot1 or slot6 == slot0
+				end
+
+				return slot1 and slot0.flag ~= 1
+			end) or _.any(slot0.cells, function (slot0)
+				return slot0.attachmentId == slot0 and slot0.flag ~= 1
+			end))
+		end
+
+		if slot2 then
+			break
+		end
+	end
+
+	return slot2
 end
 
 function slot0.triggerSkill(slot0, slot1, slot2)

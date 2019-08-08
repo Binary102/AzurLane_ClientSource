@@ -1630,6 +1630,356 @@ pg.expedition_data_template = {
 		},
 		bufficon = {}
 	},
+	[5019] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "チャレンジ",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5019,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 110,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 5019,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
+	[5020] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "チャレンジ",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5020,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 110,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 5020,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
+	[5021] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "チャレンジ",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5021,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 110,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 5021,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
+	[5022] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "チャレンジ",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5022,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 110,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 5022,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
+	[5023] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "チャレンジ",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5023,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 110,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 5023,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
+	[5024] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "チャレンジ",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5024,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 110,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 5024,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
+	[5025] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "チャレンジ",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5025,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 110,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 5025,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
+	[5026] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "チャレンジ",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5026,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 110,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 5026,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
+	[5027] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "チャレンジ",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5027,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 110,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 5027,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
+	[5028] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "チャレンジ",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5028,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 110,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 5028,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
 	[6000] = {
 		sink_limit = 1,
 		ai = 0,
@@ -215444,7 +215794,7 @@ pg.expedition_data_template = {
 		award_display = {
 			{
 				2,
-				56500
+				56000
 			},
 			{
 				2,
@@ -226078,7 +226428,7 @@ pg.expedition_data_template = {
 		award_display = {
 			{
 				2,
-				56500
+				56000
 			},
 			{
 				2,
@@ -226834,7 +227184,7 @@ pg.expedition_data_template = {
 		award_display = {
 			{
 				2,
-				56500
+				56000
 			},
 			{
 				2,
@@ -255819,6 +256169,16 @@ pg.expedition_data_template = {
 		5016,
 		5017,
 		5018,
+		5019,
+		5020,
+		5021,
+		5022,
+		5023,
+		5024,
+		5025,
+		5026,
+		5027,
+		5028,
 		6000,
 		6001,
 		6002,

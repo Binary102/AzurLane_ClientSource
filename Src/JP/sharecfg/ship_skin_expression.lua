@@ -7253,6 +7253,37 @@ pg.ship_skin_expression = {
 		battle = "1",
 		login = "1",
 		detail = ""
+	},
+	salatuojia_5 = {
+		default = "",
+		feeling3 = "",
+		main_1 = "3",
+		touch = "7",
+		expedition = "",
+		win_mvp = "1",
+		home = "",
+		unlock = "",
+		touch2 = "4",
+		mail = "",
+		painting = "salatuojia_5",
+		mission = "4",
+		main_2 = "2",
+		lose = "",
+		main_3 = "",
+		feeling1 = "6",
+		profile = "",
+		feeling4 = "7",
+		feeling5 = "1",
+		propose = "1",
+		hp_warning = "5",
+		upgrade = "1",
+		mission_complete = "1",
+		headtouch = "",
+		feeling2 = "1",
+		skill = "",
+		battle = "4",
+		login = "",
+		detail = "2"
 	}
 }
 

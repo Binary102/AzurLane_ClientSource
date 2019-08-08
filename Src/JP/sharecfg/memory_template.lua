@@ -9042,6 +9042,61 @@ pg.memory_template = {
 		icon = "memory_xiangtingliaofa",
 		is_open = 0
 	},
+	[884] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "青き海のアイドル！",
+		condition = "「青い海のアイドル」開始",
+		story = "SALATUOJIAHAIBAO1",
+		id = 884,
+		icon = "memory_salatuojiahaibao",
+		is_open = 0
+	},
+	[885] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "チャリティーレース？！",
+		condition = "アザラシちゃん出現情報1000収集",
+		story = "SALATUOJIAHAIBAO2",
+		id = 885,
+		icon = "memory_salatuojiahaibao",
+		is_open = 0
+	},
+	[886] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "アザラシちゃんを守るもの",
+		condition = "アザラシちゃん出現情報2000収集",
+		story = "SALATUOJIAHAIBAO3",
+		id = 886,
+		icon = "memory_salatuojiahaibao",
+		is_open = 0
+	},
+	[887] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "アザラシちゃん発見！",
+		condition = "アザラシちゃん出現情報3000収集",
+		story = "SALATUOJIAHAIBAO4",
+		id = 887,
+		icon = "memory_salatuojiahaibao",
+		is_open = 0
+	},
+	[888] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "伝説のアザラシちゃん",
+		condition = "アザラシちゃん出現情報4000収集",
+		story = "SALATUOJIAHAIBAO5",
+		id = 888,
+		icon = "memory_salatuojiahaibao",
+		is_open = 0
+	},
 	[10000] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -10756,6 +10811,11 @@ pg.memory_template = {
 		881,
 		882,
 		883,
+		884,
+		885,
+		886,
+		887,
+		888,
 		10000,
 		10001,
 		10002,

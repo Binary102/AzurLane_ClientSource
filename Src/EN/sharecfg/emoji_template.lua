@@ -1235,6 +1235,19 @@ pg.emoji_template = {
 			2
 		}
 	},
+	[9900] = {
+		achieve = 0,
+		index = 200,
+		pic = "en1stanni",
+		desc = "<color=#92fc63>[EN1stAnni]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 9900,
+		icon = "",
+		type = {
+			2
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1330,7 +1343,8 @@ pg.emoji_template = {
 		321,
 		322,
 		323,
-		324
+		324,
+		9900
 	}
 }
 

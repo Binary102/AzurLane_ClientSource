@@ -91,7 +91,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "Tester",
-			say = "Eagle Union light cruiser, Baltimore. Standard displacement: 14,500 tons. Three triple 8-inch guns. Anti-air specialization.",
+			say = "Eagle Union heavy cruiser, Baltimore. Standard displacement: 14,500 tons. Three triple 8-inch guns. Anti-air specialization.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,11 +117,10 @@ return {
 			}
 		},
 		{
-			actor = 900011,
-			nameColor = "#ff5c5c",
-			side = 1,
+			actor = 103160,
+			side = 0,
+			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "Tester",
 			say = "You're the one who's commanding the Siren forces here, aren't you?",
 			typewriter = {
 				speed = 0.05,
@@ -133,10 +132,11 @@ return {
 			}
 		},
 		{
-			actor = 103160,
-			side = 0,
-			nameColor = "#a9f548",
+			actor = 900011,
+			nameColor = "#ff5c5c",
+			side = 1,
 			dir = 1,
+			actorName = "Tester",
 			say = "... Once we defeat you, we will guide NY City and Commander down the true path.",
 			typewriter = {
 				speed = 0.05,

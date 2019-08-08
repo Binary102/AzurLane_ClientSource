@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"白衣天使or恶魔？\n\n<size=45>一　补给中的“惊喜”</size>",
+					"Angel or Devil in White?\n\n<size=45>Chapter 1 - Resupply Surprise?!</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·广场",
+			say = "Port - Plaza",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯喵，这一批补给物资可以用好久了喵，军部在这方面倒是从来不小气喵~",
+			say = "Nya~ Today's supply shipment can probably last a long time~ It's good that the Navy isn't stingy with these things, nya~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "这不是理所当然的事情吗，我们这可是最前线，要是我们都得不到充足的补给可怎么办……",
+			say = "Isn't that obvious...? What kind of war effort would be too stingy to deliver supplies to its front lines...?",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "话是这么说，看到这么多的东西还是会高兴喵，被人支持的感觉很好喵~",
+			say = "That may be true, but just seeing so many supplies makes me happy, nya~ It feels nice knowing that others have our backs, nya~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……难得说了句好话呢。",
+			say = "... Even you can say something nice every now and then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = -1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "喵？！竟然被{namecode:20}夸奖了喵！不得了喵，等会儿说不定要来台风了喵！~",
+			say = "Nya?! A compliment, from Shiranui? Ahh, big trouble, nya! Is the world coming to an end, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你这家伙…我看看…弹药…食物…医疗用品…嗯？这是什么？",
+			say = "You little... Well, whatever, let's see... you have ammunition, food, medical supplies, and... what's this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "喵？让{namecode:98}看看？",
+			say = "Nya?! Lemme see, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这是什么喵，好像是衣服喵？",
+			say = "What is this, nya? Cosplay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…这个是…护士服？",
+			say = "It appears to be... some kind of nurse uniform...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "护士服？",
+			say = "Did someone say nurse uniform?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = -1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "呼喵！？…吸血鬼你从哪里窜出来的喵，吓喵一跳！",
+			say = "Uunya?! Where'd you come from, Vampire?! You surprised me, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "人家只是路过而已~",
+			say = "I was just passing through.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			}
 		},
 		{
-			say = "……能不能不要一边说一边就把衣服拿起来比自己的身材。",
+			say = "If that's the case, could you stop trying to compare that outfit to your own size...?",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -287,7 +287,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "有什么不好嘛，你看，虽然小了点，这不是和人家的身材正相称吗？",
+			say = "Eh? What's the harm? Look, it's a liiittle small, but isn't that perfect for me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……但是你并不是护士吧？要说的话旁边这只还能算。",
+			say = "... But you're not even a nurse. If anything, the dumb cat here would probably count.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			dir = -1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "喵？！{namecode:98}才不想穿这个喵！",
+			say = "Nya?! If I have to wear that, count me out, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……唔",
+			say = "... Hehh~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啧啧啧，这你就小看人家了，人家可是皇家驱逐的大前辈，护理这种小事当然是不在话下啦~",
+			say = "Now you've said it. Are you forgetting that I'm one of the most experienced destroyers in the Royal Navy? Nursing is as easy for me as afternoon tea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			dir = -1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "真的喵？！",
+			say = "Really, nya?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "总而言之，这件衣服就暂时由我来保管了哦~~",
+			say = "A~ny~ways~! I'll be taking this nurse uniform off your paws!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			dir = -1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "……就这么让她走掉了喵。",
+			say = "... And there she goes, nya...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -447,7 +447,7 @@ return {
 			}
 		},
 		{
-			say = "只是一件衣服的话，向指挥官报告一下从她的工资里扣就好了。总之，继续清点吧。",
+			say = "Well, since it's just an outfit, we can just ask Commander to deduct it from her paycheck. Let's continue checking the supplies and worry about that later.",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,

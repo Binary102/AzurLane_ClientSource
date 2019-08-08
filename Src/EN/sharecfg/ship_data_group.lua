@@ -4057,6 +4057,29 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[306] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 306,
+		type = 1,
+		index_id = 118,
+		group_type = 20124,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"1st anniversary login reward",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[325] = {
 		nationality = 2,
 		hide = 0,
@@ -6475,7 +6498,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"月度签到",
+				"Monthly Sign-in",
 				{
 					""
 				},
@@ -9920,6 +9943,7 @@ pg.ship_data_group = {
 		94,
 		101,
 		102,
+		306,
 		325,
 		326,
 		372,

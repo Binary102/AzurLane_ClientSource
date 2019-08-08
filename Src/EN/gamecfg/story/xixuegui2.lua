@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"白衣天使or恶魔？\n\n<size=45>二　吸血鬼的诱惑</size>",
+					"Angel or Devil in White?\n\n<size=45>Chapter 2 - Vampire's Allure</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·宿舍",
+			say = "Port - Dorms",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然话是这么说…不过人家还真不清楚护士具体应该是怎么做的呢…唔，没办法，稍微研究一下吧",
+			say = "... I said all that, but what is a nurse supposed to do anyway? ... Maybe I should ask around first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "一小时后。",
+			say = "One hour later...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -94,7 +94,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……原来如此，没想到护理是这么深奥的学问，做护士比想象的还要辛苦呢，下次稍微慰问一下女灶神好了……",
+			say = "... W-well, looks like it's a lot more complicated than I thought... Maybe I'll have to ask Vestal for some advice...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "几天后，港区·指挥室",
+			say = "Port - Office, a few days later...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "嗯！体温也正常，指挥官今天状态很好呢～",
+			say = "... And, thy temperature is fine, too~♪ Commander, thou art quite the healthy one~♪ ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "嘻嘻，今天的人家是不是和平常不一样呢？",
+			say = "Do you notice something different about me today~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，没错，今天的人家是护士哦~想看吗，你最喜欢的那个~",
+			say = "That's right. Today, I'm a nurse. The thing that thou loveth so... want to take a peek?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过遗憾~因为衣服有点小，所以……",
+			say = "But thou cannot~ since this outfit is a little small...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳，打扰了。",
+			say = "Ahem. Pardon the interruption.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "阁下，这一部分的资料请过目一下。",
+			say = "Your Excellency, please check this supply shipment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "唔，明明人家正在兴头上的……",
+			say = "Hmph... Just when I was getting to the fun part...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			}
 		},
 		{
-			say = "吸血鬼小姐，虽然我对这种事没有特别的意见，不过还是稍微注意一下场合比较好哦？",
+			say = "Miss Vampire... I won't judge your hobbies, but perhaps it would be wise to keep the time and place in mind?",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且，工作时穿上这样的服装也多少有些令人无法赞同呢。",
+			say = "Besides, wearing this kind of outfit to work is, how do I put this... a bit sleazy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，但是这可是护士服，人家可是想要照顾指挥官才穿上的，难道你不相信吗？",
+			say = "Ehhh?! This is a proper nurse outfit, all right? I changed into it to take care of Commander! What, dost thou not trust me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，与其说相不相信……",
+			say = "Um, I don't think my trust matters here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "指挥官呢？也不相信人家吗？",
+			say = "What dost thou think, Commander? Thou trusts me, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "哼，好吧，既然你们不相信人家，人家就证明给你们看，人家才不只是为了诱惑指挥官才穿上这件衣服的！",
+			say = "Hmph! Fine, since you both don't believe me, I'll prove that I wasn't just wearing this to try to seduce Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "吸血鬼怒气冲冲地走了。",
+			say = "Vampire stormed out of the office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有否定诱惑这一点呢……",
+			say = "I never accused her of trying to seduce anyone...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			blackBg = true,
 			actor = 203010,
 			nameColor = "#a9f548",
-			say = "不过确实有些说过火了，不好意思，阁下，我之后会亲自向吸血鬼小姐道歉的。",
+			say = "But maybe I did go a bit overboard... Sorry, Your Excellency. I'll make sure to apologize to Vampire later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"白衣天使or恶魔？\n\n<size=45>四　突发状况？</size>",
+					"Angel or Devil in White?\n\n<size=45>Chapter 4 - Emergency?</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "Port - Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "欸？给大家添麻烦了吗？",
+			say = "Huh...? I'm bothering others...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			say = "倒还算不上添麻烦…就是有些小伙伴来报告说“吸血鬼好像怪怪的”…",
+			say = "Well, I wouldn't say bothering, but there are some who are concerned about you...",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "…………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "这样啊…人家，做了不好的事呢。",
+			say = "I see... so I'm the bad guy here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不是的，吸血鬼小姐的想法是好的，是我和阁下轻率的怀疑才会让你急于想要证明自己，应该道歉的是我们才对。",
+			say = "Ah, no, not at all! Vampire, you tried to do a good thing by helping others, and we all respect that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "十分抱歉。",
+			say = "I am very sorry for what I said!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "不，做错了就是做错了，这点道理人家还是懂的。",
+			say = "No, even I know that I'm the one at fault here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "看起来人家确实不适合做护士呢，连最基本的体谅病人都没有做到…这件衣服人家会还给{namecode:98}的，然后去向大家好好道歉……",
+			say = "I can't even do the basics properly, and who needs a nurse like that... I suppose I'll return this outfit to Akashi and apologize to everyone...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "吸血鬼小姐，其实……",
+			say = "Vampire, actually...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = -1,
 			actor = 301350,
 			nameColor = "#a9f548",
-			say = "不好了，指挥官，指挥官！",
+			say = "Commander, there's trouble!!",
 			effects = {
 				{
 					active = true,
@@ -244,7 +244,7 @@ return {
 			dir = -1,
 			actor = 301350,
 			nameColor = "#a9f548",
-			say = "{namecode:33}生病啦，好像很严重的样子，呜呜，怎么办呀！",
+			say = "Mutsuki got sick all of a sudden! Wh-what should we do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 201232,
 			dir = 1,
-			say = "什么？",
+			say = "What?!",
 			nameColor = "#a9f548",
 			effects = {
 				{
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "……伦敦，这件衣服我可以等一下再换掉嘛？",
+			say = "... London, can I wait a little bit to return this outfit?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从一开始我就没有这个意思就是了……",
+			say = "Commander? Understood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "那就…伦敦去叫{namecode:98}或者女灶神来，指挥官跟我一起去看看小{namecode:33}，没问题吧？",
+			say = "All right...! London, please call Akashi and Vestal. Commander and I will go see Mutsuki. Is that fine?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我知道了。",
+			say = "Understood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			blackBg = true,
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "走吧，指挥官，可不能让病人久等了呢！",
+			say = "Let's go, Commander! We can't keep the patient waiting!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

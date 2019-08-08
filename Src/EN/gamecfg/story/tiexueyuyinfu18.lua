@@ -1295,7 +1295,7 @@ return {
 			bgName = "bg_bsm_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "轰——",
+			say = "KABOOM---!",
 			flashN = {
 				color = {
 					1,

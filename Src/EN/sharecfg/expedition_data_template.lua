@@ -1280,6 +1280,356 @@ pg.expedition_data_template = {
 		},
 		bufficon = {}
 	},
+	[5009] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Javelin Stage",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5009,
+		exp = 750,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 100,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 5009,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
+	[5010] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Challenge Mode",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5010,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 110,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 5010,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
+	[5011] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Challenge Mode",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5011,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 110,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 5011,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
+	[5012] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Challenge Mode",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5012,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 110,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 5012,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
+	[5013] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Challenge Mode",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5013,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 110,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 5013,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
+	[5014] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Challenge Mode",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5014,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 110,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 5014,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
+	[5015] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Challenge Mode",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5015,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 110,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 5015,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
+	[5016] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Challenge Mode",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5016,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 110,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 5016,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
+	[5017] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Challenge Mode",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5017,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 110,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 5017,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
+	[5018] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Challenge Mode",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5018,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 110,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 5018,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
 	[6000] = {
 		sink_limit = 1,
 		ai = 0,
@@ -202781,7 +203131,7 @@ pg.expedition_data_template = {
 		award_display = {
 			{
 				2,
-				56500
+				56000
 			},
 			{
 				2,
@@ -213415,7 +213765,7 @@ pg.expedition_data_template = {
 		award_display = {
 			{
 				2,
-				56500
+				56000
 			},
 			{
 				2,
@@ -214171,7 +214521,7 @@ pg.expedition_data_template = {
 		award_display = {
 			{
 				2,
-				56500
+				56000
 			},
 			{
 				2,
@@ -240782,6 +241132,16 @@ pg.expedition_data_template = {
 		4002,
 		4003,
 		4004,
+		5009,
+		5010,
+		5011,
+		5012,
+		5013,
+		5014,
+		5015,
+		5016,
+		5017,
+		5018,
 		6000,
 		6001,
 		6002,

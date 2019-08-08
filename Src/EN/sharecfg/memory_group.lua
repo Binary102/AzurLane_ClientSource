@@ -523,6 +523,19 @@ pg.memory_group = {
 			381
 		}
 	},
+	[134] = {
+		title = "Angel or Devil in White? ",
+		type = 2,
+		id = 134,
+		icon = "title_event",
+		memories = {
+			382,
+			383,
+			384,
+			385,
+			386
+		}
+	},
 	[135] = {
 		title = "Midsummer Sagittarius ",
 		type = 2,
@@ -853,6 +866,19 @@ pg.memory_group = {
 			881,
 			882,
 			883
+		}
+	},
+	[164] = {
+		title = "Superstar of the Blue Seas ",
+		type = 2,
+		id = 164,
+		icon = "title_event",
+		memories = {
+			884,
+			885,
+			886,
+			887,
+			888
 		}
 	},
 	[501] = {
@@ -1351,6 +1377,7 @@ pg.memory_group = {
 		131,
 		132,
 		133,
+		134,
 		135,
 		141,
 		145,
@@ -1369,6 +1396,7 @@ pg.memory_group = {
 		161,
 		162,
 		163,
+		164,
 		501,
 		502,
 		503,

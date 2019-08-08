@@ -1032,7 +1032,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "All that remained... was a sea of flames.…え... ... ....",
+			say = "All that remained... was a sea of flames.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

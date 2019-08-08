@@ -82,7 +82,7 @@ pg.activity_template = {
 		}
 	},
 	{
-		mark = 2016091542,
+		mark = 2016091500,
 		title_res_tag = "",
 		type = 7,
 		bg = "",
@@ -95,9 +95,9 @@ pg.activity_template = {
 			timer,
 			{
 				{
-					2019,
+					2017,
 					3,
-					4
+					20
 				},
 				{
 					0,
@@ -107,9 +107,9 @@ pg.activity_template = {
 			},
 			{
 				{
-					2019,
-					3,
-					17
+					2017,
+					4,
+					2
 				},
 				{
 					23,
@@ -118,8 +118,7 @@ pg.activity_template = {
 				}
 			},
 			1,
-			1,
-			1209599
+			1
 		}
 	},
 	[9] = {
@@ -5033,6 +5032,7 @@ pg.activity_template = {
 	[30169] = {
 		mark = 20190724,
 		title_res_tag = "Midsummer",
+		time = "stop",
 		type = 18,
 		config_id = 2,
 		is_show = 1,
@@ -5058,33 +5058,6 @@ pg.activity_template = {
 				13724
 			}
 		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					7,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/banrenmapage"
 		}
@@ -5092,39 +5065,13 @@ pg.activity_template = {
 	[30170] = {
 		mark = 20190724,
 		title_res_tag = "",
+		time = "stop",
 		type = 26,
 		bg = "",
 		config_id = 0,
 		is_show = 0,
 		config_data = "activity_drop_30170",
 		id = 30170,
-		time = {
-			timer,
-			{
-				{
-					2019,
-					7,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 1,
 			bg = "loadingbg/bg_build_1_act"
@@ -5573,7 +5520,7 @@ pg.activity_template = {
 				{
 					2019,
 					8,
-					21
+					28
 				},
 				{
 					23,
@@ -5658,6 +5605,316 @@ pg.activity_template = {
 					2019,
 					8,
 					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30182] = {
+		mark = 20190807,
+		title_res_tag = "",
+		type = 13,
+		bg = "",
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 30182,
+		config_data = {
+			14670
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					8,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30183] = {
+		mark = 20190807,
+		title_res_tag = "",
+		type = 24,
+		bg = "",
+		config_id = 30184,
+		is_show = 0,
+		config_client = "",
+		id = 30183,
+		config_data = {
+			7
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					8,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			},
+			1,
+			1,
+			{
+				times,
+				8
+			}
+		}
+	},
+	[30184] = {
+		mark = 20190807,
+		title_res_tag = "",
+		type = 37,
+		bg = "",
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		id = 30184,
+		config_data = {
+			30182
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					8,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30185] = {
+		mark = 20190807,
+		title_res_tag = "xixuegui",
+		type = 18,
+		config_id = 3,
+		is_show = 2,
+		id = 30185,
+		config_data = {
+			{
+				13712
+			},
+			{
+				13713
+			},
+			{
+				13714
+			},
+			{
+				13715
+			},
+			{
+				13716
+			},
+			{
+				13717
+			},
+			{
+				13718
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					8,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/skin_xixuegui"
+		},
+		config_client = {
+			story = {
+				{
+					"XIXUEGUI1"
+				},
+				{
+					"XIXUEGUI2"
+				},
+				{
+					"XIXUEGUI3"
+				},
+				{},
+				{
+					"XIXUEGUI4"
+				},
+				{},
+				{
+					"XIXUEGUI5"
+				}
+			}
+		}
+	},
+	[30186] = {
+		mark = 20190807,
+		title_res_tag = "qixihaibao_pt",
+		type = 54,
+		config_id = 30186,
+		is_show = 3,
+		id = 30186,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					8,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_qixihaibao_pt"
+		},
+		config_client = {
+			story = {
+				{
+					"SALATUOJIAHAIBAO1"
+				},
+				{},
+				{},
+				{},
+				{
+					"SALATUOJIAHAIBAO2"
+				},
+				{},
+				{
+					"SALATUOJIAHAIBAO3"
+				},
+				{},
+				{
+					"SALATUOJIAHAIBAO4"
+				},
+				{},
+				{
+					"SALATUOJIAHAIBAO5"
+				}
+			}
+		}
+	},
+	[30187] = {
+		mark = 20190807,
+		title_res_tag = "",
+		type = 13,
+		bg = "",
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 30187,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					8,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					22
 				},
 				{
 					23,
@@ -6276,6 +6533,12 @@ pg.activity_template = {
 		30179,
 		30180,
 		30181,
+		30182,
+		30183,
+		30184,
+		30185,
+		30186,
+		30187,
 		30500,
 		30501,
 		30502,

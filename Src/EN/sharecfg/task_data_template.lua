@@ -28940,6 +28940,230 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[13712] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8726,
+		type = 26,
+		name = "吸血鬼登录1",
+		count_inherit = 0,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "XIXUEGUI1",
+		target_id_for_client = 0,
+		id = 13712,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				300
+			}
+		}
+	},
+	[13713] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8727,
+		type = 26,
+		name = "吸血鬼登录2",
+		count_inherit = 0,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "XIXUEGUI2",
+		target_id_for_client = 0,
+		id = 13713,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17013,
+				3
+			}
+		}
+	},
+	[13714] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8728,
+		type = 26,
+		name = "吸血鬼登录3",
+		count_inherit = 0,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "XIXUEGUI3",
+		target_id_for_client = 0,
+		id = 13714,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17033,
+				3
+			}
+		}
+	},
+	[13715] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8729,
+		type = 26,
+		name = "吸血鬼登录4",
+		count_inherit = 0,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13715,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17023,
+				3
+			}
+		}
+	},
+	[13716] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8730,
+		type = 26,
+		name = "吸血鬼登录5",
+		count_inherit = 0,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "XIXUEGUI4",
+		target_id_for_client = 0,
+		id = 13716,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17043,
+				3
+			}
+		}
+	},
+	[13717] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8731,
+		type = 26,
+		name = "吸血鬼登录6",
+		count_inherit = 0,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 13717,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				3
+			}
+		}
+	},
+	[13718] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8732,
+		type = 26,
+		name = "吸血鬼登录7",
+		count_inherit = 0,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "XIXUEGUI5",
+		target_id_for_client = 0,
+		id = 13718,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				7,
+				201232,
+				1
+			}
+		}
+	},
 	[13719] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -43821,6 +44045,38 @@ pg.task_data_template = {
 		target_id = "0",
 		open_need = {}
 	},
+	[14670] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91190,
+		type = 6,
+		name = "『限界挑战』-积分任务",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 103,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14670,
+		target_num = 8800,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				14,
+				201,
+				1
+			}
+		}
+	},
 	[14757] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -44393,6 +44649,749 @@ pg.task_data_template = {
 			{
 				8,
 				59839,
+				1
+			}
+		}
+	},
+	[14780] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91340,
+		type = 26,
+		name = "新美系前哨战任务1",
+		count_inherit = 0,
+		desc = "Clear \"Approaching Storm\" P1.",
+		target_id_2 = "",
+		sub_type = 29,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1242017,
+		id = 14780,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1242017",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14781] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91341,
+		type = 26,
+		name = "新美系前哨战任务2",
+		count_inherit = 0,
+		desc = "Clear \"Approaching Storm\" P2.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1250031,
+		id = 14781,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1250031",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14782] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91342,
+		type = 26,
+		name = "新美系前哨战任务3",
+		count_inherit = 0,
+		desc = "Clear \"Approaching Storm\" P3.",
+		target_id_2 = "",
+		sub_type = 1005,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 2103,
+		id = 14782,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			12303
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14783] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91343,
+		type = 26,
+		name = "新美系前哨战任务4",
+		count_inherit = 0,
+		desc = "Clear \"Approaching Storm\" P4.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1250032,
+		id = 14783,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1250032",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14784] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91344,
+		type = 26,
+		name = "新美系前哨战任务5",
+		count_inherit = 0,
+		desc = "Clear \"Approaching Storm\" P5.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1250033,
+		id = 14784,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1250033",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14785] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91345,
+		type = 26,
+		name = "新美系前哨战任务6",
+		count_inherit = 0,
+		desc = "Clear \"Approaching Storm\" P6.",
+		target_id_2 = "",
+		sub_type = 1005,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 2107,
+		id = 14785,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			12307
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14786] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91346,
+		type = 26,
+		name = "新美系前哨战任务7",
+		count_inherit = 0,
+		desc = "Clear \"Approaching Storm\" P7.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1250034,
+		id = 14786,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1250034",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				1010,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1250022
+			}
+		}
+	},
+	[14787] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91347,
+		type = 26,
+		name = "新美系前哨战任务8",
+		count_inherit = 0,
+		desc = "Obtain all 7 Mission Reports.",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1010,
+		id = 14787,
+		target_num = 7,
+		fix_task = 0,
+		target_id = "1010",
+		open_need = {},
+		award_display = {
+			{
+				3,
+				760,
+				1
+			}
+		}
+	},
+	[14790] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91350,
+		type = 26,
+		name = "『伊56校服』-七日任务1",
+		count_inherit = 0,
+		desc = "Sortie and obtain 10 Perfect victories.",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14790,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14791] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91351,
+		type = 26,
+		name = "『伊56校服』-七日任务2",
+		count_inherit = 0,
+		desc = "Log in once.",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14791,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	},
+	[14792] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91352,
+		type = 26,
+		name = "『伊56校服』-七日任务3",
+		count_inherit = 0,
+		desc = "Conduct 2 exercises.",
+		target_id_2 = "",
+		sub_type = 27,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14792,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	},
+	[14793] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91353,
+		type = 26,
+		name = "『伊56校服』-七日任务4",
+		count_inherit = 0,
+		desc = "Complete 2 commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14793,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14794] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91354,
+		type = 26,
+		name = "『伊56校服』-七日任务5",
+		count_inherit = 0,
+		desc = "Retire 2 ships.",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14794,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	},
+	[14795] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91355,
+		type = 26,
+		name = "『伊56校服』-七日任务6",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges.",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14795,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14796] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91356,
+		type = 26,
+		name = "『伊56校服』-七日任务7",
+		count_inherit = 0,
+		desc = "Enhance ships 5 time.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14796,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				2
+			}
+		}
+	},
+	[14797] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91357,
+		type = 26,
+		name = "『伊56校服』-七日任务8",
+		count_inherit = 0,
+		desc = "Conduct tactical training 2 times.",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14797,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14798] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91358,
+		type = 26,
+		name = "『伊56校服』-七日任务9",
+		count_inherit = 0,
+		desc = "Defeat 20 enemies.",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14798,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14799] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91359,
+		type = 26,
+		name = "『伊56校服』-七日任务10",
+		count_inherit = 0,
+		desc = "Resupply the Dorm 5 times.",
+		target_id_2 = "",
+		sub_type = 61,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14799,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				10
+			}
+		}
+	},
+	[14800] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91360,
+		type = 26,
+		name = "『伊56校服』-七日任务11",
+		count_inherit = 0,
+		desc = "Build 2 ships.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14800,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	},
+	[14801] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91361,
+		type = 26,
+		name = "『伊56校服』-七日任务12",
+		count_inherit = 0,
+		desc = "Open a Tech Box.",
+		target_id_2 = "",
+		sub_type = 50,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14801,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14802] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91362,
+		type = 26,
+		name = "『伊56校服』-七日任务13",
+		count_inherit = 0,
+		desc = "Conduct tactical training 2 times.",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14802,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14803] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91363,
+		type = 26,
+		name = "『伊56校服』-七日任务14",
+		count_inherit = 0,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14803,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				7,
+				308051,
 				1
 			}
 		}
@@ -45328,749 +46327,6 @@ pg.task_data_template = {
 		target_id = "102224",
 		open_need = {},
 		award_display = {}
-	},
-	[14780] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 91340,
-		type = 26,
-		name = "新美系前哨战任务1",
-		count_inherit = 0,
-		desc = "Clear \"Approaching Storm\" P1.",
-		target_id_2 = "",
-		sub_type = 29,
-		added_tip = 0,
-		story_icon = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1242017,
-		id = 14780,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "1242017",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				1010,
-				1
-			}
-		},
-		scene = {
-			"LEVEL",
-			{
-				mapIdx = 1250022
-			}
-		}
-	},
-	[14781] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 91341,
-		type = 26,
-		name = "新美系前哨战任务2",
-		count_inherit = 0,
-		desc = "Clear \"Approaching Storm\" P2.",
-		target_id_2 = "",
-		sub_type = 1020,
-		added_tip = 0,
-		story_icon = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1250031,
-		id = 14781,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "1250031",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				1010,
-				1
-			}
-		},
-		scene = {
-			"LEVEL",
-			{
-				mapIdx = 1250022
-			}
-		}
-	},
-	[14782] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 91342,
-		type = 26,
-		name = "新美系前哨战任务3",
-		count_inherit = 0,
-		desc = "Clear \"Approaching Storm\" P3.",
-		target_id_2 = "",
-		sub_type = 1005,
-		added_tip = 0,
-		story_icon = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 2103,
-		id = 14782,
-		target_num = 1,
-		fix_task = 0,
-		target_id = {
-			12303
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				1010,
-				1
-			}
-		},
-		scene = {
-			"LEVEL",
-			{
-				mapIdx = 1250022
-			}
-		}
-	},
-	[14783] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 91343,
-		type = 26,
-		name = "新美系前哨战任务4",
-		count_inherit = 0,
-		desc = "Clear \"Approaching Storm\" P4.",
-		target_id_2 = "",
-		sub_type = 1020,
-		added_tip = 0,
-		story_icon = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1250032,
-		id = 14783,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "1250032",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				1010,
-				1
-			}
-		},
-		scene = {
-			"LEVEL",
-			{
-				mapIdx = 1250022
-			}
-		}
-	},
-	[14784] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 91344,
-		type = 26,
-		name = "新美系前哨战任务5",
-		count_inherit = 0,
-		desc = "Clear \"Approaching Storm\" P5.",
-		target_id_2 = "",
-		sub_type = 1020,
-		added_tip = 0,
-		story_icon = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1250033,
-		id = 14784,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "1250033",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				1010,
-				1
-			}
-		},
-		scene = {
-			"LEVEL",
-			{
-				mapIdx = 1250022
-			}
-		}
-	},
-	[14785] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 91345,
-		type = 26,
-		name = "新美系前哨战任务6",
-		count_inherit = 0,
-		desc = "Clear \"Approaching Storm\" P6.",
-		target_id_2 = "",
-		sub_type = 1005,
-		added_tip = 0,
-		story_icon = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 2107,
-		id = 14785,
-		target_num = 1,
-		fix_task = 0,
-		target_id = {
-			12307
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				1010,
-				1
-			}
-		},
-		scene = {
-			"LEVEL",
-			{
-				mapIdx = 1250022
-			}
-		}
-	},
-	[14786] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 91346,
-		type = 26,
-		name = "新美系前哨战任务7",
-		count_inherit = 0,
-		desc = "Clear \"Approaching Storm\" P7.",
-		target_id_2 = "",
-		sub_type = 1020,
-		added_tip = 0,
-		story_icon = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1250034,
-		id = 14786,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "1250034",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				1010,
-				1
-			}
-		},
-		scene = {
-			"LEVEL",
-			{
-				mapIdx = 1250022
-			}
-		}
-	},
-	[14787] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 91347,
-		type = 26,
-		name = "新美系前哨战任务8",
-		count_inherit = 0,
-		desc = "Obtain all 7 Mission Reports.",
-		target_id_2 = "",
-		sub_type = 1000,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1010,
-		id = 14787,
-		target_num = 7,
-		fix_task = 0,
-		target_id = "1010",
-		open_need = {},
-		award_display = {
-			{
-				3,
-				760,
-				1
-			}
-		}
-	},
-	[14790] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 91350,
-		type = 26,
-		name = "『伊56校服』-七日任务1",
-		count_inherit = 0,
-		desc = "Sortie and obtain 10 Perfect victories.",
-		target_id_2 = "",
-		sub_type = 24,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 0,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 14790,
-		target_num = 10,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				100
-			}
-		}
-	},
-	[14791] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 91351,
-		type = 26,
-		name = "『伊56校服』-七日任务2",
-		count_inherit = 0,
-		desc = "Log in once.",
-		target_id_2 = "",
-		sub_type = 1011,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 0,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 14791,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				54049,
-				2
-			}
-		}
-	},
-	[14792] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 91352,
-		type = 26,
-		name = "『伊56校服』-七日任务3",
-		count_inherit = 0,
-		desc = "Conduct 2 exercises.",
-		target_id_2 = "",
-		sub_type = 27,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 0,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 14792,
-		target_num = 2,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				54049,
-				2
-			}
-		}
-	},
-	[14793] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 91353,
-		type = 26,
-		name = "『伊56校服』-七日任务4",
-		count_inherit = 0,
-		desc = "Complete 2 commissions.",
-		target_id_2 = "",
-		sub_type = 80,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 0,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 14793,
-		target_num = 2,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				100
-			}
-		}
-	},
-	[14794] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 91354,
-		type = 26,
-		name = "『伊56校服』-七日任务5",
-		count_inherit = 0,
-		desc = "Retire 2 ships.",
-		target_id_2 = "",
-		sub_type = 31,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 0,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 14794,
-		target_num = 2,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				54015,
-				5
-			}
-		}
-	},
-	[14795] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 91355,
-		type = 26,
-		name = "『伊56校服』-七日任务6",
-		count_inherit = 0,
-		desc = "Complete 3 Daily Challenges.",
-		target_id_2 = "",
-		sub_type = 26,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 0,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 14795,
-		target_num = 3,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				100
-			}
-		}
-	},
-	[14796] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 91356,
-		type = 26,
-		name = "『伊56校服』-七日任务7",
-		count_inherit = 0,
-		desc = "Enhance ships 5 time.",
-		target_id_2 = "",
-		sub_type = 34,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 0,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 14796,
-		target_num = 5,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				54033,
-				2
-			}
-		}
-	},
-	[14797] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 91357,
-		type = 26,
-		name = "『伊56校服』-七日任务8",
-		count_inherit = 0,
-		desc = "Conduct tactical training 2 times.",
-		target_id_2 = "",
-		sub_type = 71,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 0,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 14797,
-		target_num = 2,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				100
-			}
-		}
-	},
-	[14798] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 91358,
-		type = 26,
-		name = "『伊56校服』-七日任务9",
-		count_inherit = 0,
-		desc = "Defeat 20 enemies.",
-		target_id_2 = "",
-		sub_type = 11,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 0,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 14798,
-		target_num = 20,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				100
-			}
-		}
-	},
-	[14799] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 91359,
-		type = 26,
-		name = "『伊56校服』-七日任务10",
-		count_inherit = 0,
-		desc = "Resupply the Dorm 5 times.",
-		target_id_2 = "",
-		sub_type = 61,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 0,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 14799,
-		target_num = 5,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				17003,
-				10
-			}
-		}
-	},
-	[14800] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 91360,
-		type = 26,
-		name = "『伊56校服』-七日任务11",
-		count_inherit = 0,
-		desc = "Build 2 ships.",
-		target_id_2 = "",
-		sub_type = 30,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 0,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 14800,
-		target_num = 2,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				2,
-				54006,
-				5
-			}
-		}
-	},
-	[14801] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 91361,
-		type = 26,
-		name = "『伊56校服』-七日任务12",
-		count_inherit = 0,
-		desc = "Open a Tech Box.",
-		target_id_2 = "",
-		sub_type = 50,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 0,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 14801,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				100
-			}
-		}
-	},
-	[14802] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 91362,
-		type = 26,
-		name = "『伊56校服』-七日任务13",
-		count_inherit = 0,
-		desc = "Conduct tactical training 2 times.",
-		target_id_2 = "",
-		sub_type = 71,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 0,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 14802,
-		target_num = 2,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				1,
-				100
-			}
-		}
-	},
-	[14803] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 91363,
-		type = 26,
-		name = "『伊56校服』-七日任务14",
-		count_inherit = 0,
-		desc = "Sortie and defeat 3 Boss Fleets.",
-		target_id_2 = "",
-		sub_type = 21,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 0,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 14803,
-		target_num = 3,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				7,
-				308051,
-				1
-			}
-		}
 	},
 	[40001] = {
 		is_head = 1,
@@ -51325,6 +51581,13 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		13709,
 		13710,
 		13711,
+		13712,
+		13713,
+		13714,
+		13715,
+		13716,
+		13717,
+		13718,
 		13719,
 		13720,
 		13721,
@@ -51748,6 +52011,7 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		14656,
 		14657,
 		14658,
+		14670,
 		14757,
 		14758,
 		14759,
@@ -51766,6 +52030,28 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		14772,
 		14773,
 		14774,
+		14780,
+		14781,
+		14782,
+		14783,
+		14784,
+		14785,
+		14786,
+		14787,
+		14790,
+		14791,
+		14792,
+		14793,
+		14794,
+		14795,
+		14796,
+		14797,
+		14798,
+		14799,
+		14800,
+		14801,
+		14802,
+		14803,
 		14810,
 		14811,
 		14812,
@@ -51791,28 +52077,6 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		14832,
 		14833,
 		14834,
-		14780,
-		14781,
-		14782,
-		14783,
-		14784,
-		14785,
-		14786,
-		14787,
-		14790,
-		14791,
-		14792,
-		14793,
-		14794,
-		14795,
-		14796,
-		14797,
-		14798,
-		14799,
-		14800,
-		14801,
-		14802,
-		14803,
 		40001,
 		40002,
 		50021,

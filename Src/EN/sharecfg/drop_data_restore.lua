@@ -252,6 +252,13 @@ pg.drop_data_restore = {
 		resource_num = 780,
 		target_id = 301152
 	},
+	[57] = {
+		target_type = 7,
+		resource_type = 1,
+		id = 57,
+		resource_num = 2000,
+		target_id = 201232
+	},
 	[1000] = {
 		target_type = 7,
 		resource_type = 14,
@@ -555,6 +562,7 @@ pg.drop_data_restore = {
 		53,
 		54,
 		55,
+		57,
 		1000,
 		1001,
 		1002,

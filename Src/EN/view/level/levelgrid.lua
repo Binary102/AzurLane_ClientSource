@@ -7654,63 +7654,69 @@ function slot4(slot0, slot1)
 	if slot3 then
 		slot5 = slot3
 		slot4 = slot3.IsWalkable
-		slot6 = ChapterConst
-		slot6 = slot6.SubjectPlayer
-		slot4 = slot4(slot5, slot6)
+		slot4 = slot4(slot5)
 
-		if slot4 and slot1 then
+		if slot4 then
 			slot5 = slot2
-			slot4 = slot2.GetSubmarineFleet
-			slot4, slot5 = slot4(slot5)
-			slot6 = slot4.startPos
-			slot6 = slot6.row
-			slot7 = slot1.row
+			slot4 = slot2.existBarrier
+			slot6 = slot1.row
+			slot7 = slot1.column
+			slot4 = slot4(slot5, slot6, slot7)
 
-			if slot6 == slot7 then
+			if not slot4 then
+				slot5 = slot2
+				slot4 = slot2.GetSubmarineFleet
+				slot4, slot5 = slot4(slot5)
 				slot6 = slot4.startPos
-				slot6 = slot6.column
-				slot7 = slot1.column
+				slot6 = slot6.row
+				slot7 = slot1.row
 
 				if slot6 == slot7 then
-					return
+					slot6 = slot4.startPos
+					slot6 = slot6.column
+					slot7 = slot1.column
+
+					if slot6 == slot7 then
+						return
+					end
 				end
-			end
 
-			slot7 = slot0
-			slot6 = slot0.ShowTargetHuntingRange
-			slot8 = slot1
+				slot7 = slot0
+				slot6 = slot0.ShowTargetHuntingRange
+				slot8 = slot1
 
-			slot6(slot7, slot8)
+				slot6(slot7, slot8)
 
-			slot7 = slot0
-			slot6 = slot0.UpdateDestinationMark
-			slot8 = slot1
+				slot7 = slot0
+				slot6 = slot0.UpdateDestinationMark
+				slot8 = slot1
 
-			slot6(slot7, slot8)
+				slot6(slot7, slot8)
 
-			slot7 = slot2
-			slot6 = slot2.findPath
-			slot8 = nil
-			slot9 = slot4.startPos
-			slot10 = slot1
-			slot6, slot7 = slot6(slot7, slot8, slot9, slot10)
-			slot9 = slot0
-			slot8 = slot0.hideQuadMark
-			slot10 = ChapterConst
-			slot10 = slot10.MarkMovePathArrow
-
-			slot8(slot9, slot10)
-
-			slot8 = 0
-
-			if slot6 > slot8 then
+				slot7 = slot2
+				slot6 = slot2.findPath
+				slot8 = nil
+				slot9 = slot4.startPos
+				slot10 = slot1
+				slot6, slot7 = slot6(slot7, slot8, slot9, slot10)
 				slot9 = slot0
-				slot8 = slot0.ShowPathInArrows
-				slot10 = slot7
+				slot8 = slot0.hideQuadMark
+				slot10 = ChapterConst
+				slot10 = slot10.MarkMovePathArrow
 
 				slot8(slot9, slot10)
 
-				slot0.subTeleportTargetLine = slot1
+				slot8 = 0
+
+				if slot6 > slot8 then
+					slot9 = slot0
+					slot8 = slot0.ShowPathInArrows
+					slot10 = slot7
+
+					slot8(slot9, slot10)
+
+					slot0.subTeleportTargetLine = slot1
+				end
 			end
 		end
 	end

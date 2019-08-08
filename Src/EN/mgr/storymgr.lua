@@ -5580,64 +5580,75 @@ function slot17(slot0, slot1)
 					slot2 = slot1
 					slot2 = slot2.name
 					slot1 = slot1[slot2]
+					slot2 = slot0
+					slot2 = slot2.isLoadingEffect
 
-					if not slot1 then
-						slot2 = LoadAndInstantiateAsync
-						slot3 = "ui"
-						slot4 = slot1
-						slot4 = slot4.name
-
-						function slot5(slot0)
-							slot1 = slot0
-							slot1 = slot1.name
-							slot0.name = slot1
-							slot1 = setParent
-							slot2 = slot0
-							slot3 = slot1
-							slot3 = slot3._effectPanel
-							slot3 = slot3.transform
-
-							slot1(slot2, slot3)
-
-							slot1 = setActive
-							slot2 = slot0
-							slot3 = slot0
-							slot3 = slot3.active
-
-							slot1(slot2, slot3)
-
-							slot1 = slot1
-							slot1 = slot1.effectObjs
-							slot2 = slot0
-							slot2 = slot2.name
-							slot3 = {}
-							slot1[slot2] = slot3
-							slot1 = slot1
-							slot1 = slot1.effectObjs
-							slot2 = slot0
-							slot2 = slot2.name
-							slot1 = slot1[slot2]
-							slot2 = slot0
-							slot2 = slot2.name
-							slot1[1] = slot2
-							slot1 = slot1
-							slot1 = slot1.effectObjs
-							slot2 = slot0
-							slot2 = slot2.name
-							slot1 = slot1[slot2]
-							slot1[2] = slot0
-
-							return
-						end
-
-						slot2(slot3, slot4, slot5)
+					if slot2 then
 					else
-						slot2 = setActive
-						slot3 = slot1[2]
-						slot4 = slot1
-						slot4 = slot4.active
+						if not slot1 then
+							slot2 = slot0
+							slot3 = true
+							slot2.isLoadingEffect = slot3
+							slot2 = LoadAndInstantiateAsync
+							slot3 = "ui"
+							slot4 = slot1
+							slot4 = slot4.name
 
-						slot2(slot3, slot4)
+							function slot5(slot0)
+								slot1 = slot0
+								slot2 = nil
+								slot1.isLoadingEffect = slot2
+								slot1 = slot1
+								slot1 = slot1.name
+								slot0.name = slot1
+								slot1 = setParent
+								slot2 = slot0
+								slot3 = slot0
+								slot3 = slot3._effectPanel
+								slot3 = slot3.transform
+
+								slot1(slot2, slot3)
+
+								slot1 = setActive
+								slot2 = slot0
+								slot3 = slot1
+								slot3 = slot3.active
+
+								slot1(slot2, slot3)
+
+								slot1 = slot0
+								slot1 = slot1.effectObjs
+								slot2 = slot1
+								slot2 = slot2.name
+								slot3 = {}
+								slot1[slot2] = slot3
+								slot1 = slot0
+								slot1 = slot1.effectObjs
+								slot2 = slot1
+								slot2 = slot2.name
+								slot1 = slot1[slot2]
+								slot2 = slot1
+								slot2 = slot2.name
+								slot1[1] = slot2
+								slot1 = slot0
+								slot1 = slot1.effectObjs
+								slot2 = slot1
+								slot2 = slot2.name
+								slot1 = slot1[slot2]
+								slot1[2] = slot0
+
+								return
+							end
+
+							slot2(slot3, slot4, slot5)
+						else
+							slot2 = setActive
+							slot3 = slot1[2]
+							slot4 = slot1
+							slot4 = slot4.active
+
+							slot2(slot3, slot4)
+						end
 					end
 				else
 					slot1 = SetActive

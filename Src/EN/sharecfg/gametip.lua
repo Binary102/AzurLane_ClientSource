@@ -1007,7 +1007,7 @@ pg.gametip = {
 		key = "battle_battleMediator_existFight"
 	},
 	battle_battleMediator_clear_warning = {
-		tip = "battle_battleMediator_clear_warning，自行配置",
+		tip = "Are you sure you wish to retreat? Your Challenge Mode progress will be reset, and your score will be finalized based upon the previous cleared stage. ",
 		key = "battle_battleMediator_clear_warning"
 	},
 	battle_battleMediator_quest_exist = {
@@ -5937,7 +5937,7 @@ Attack/Support Range Level:
 		key = "elite_condition_air"
 	},
 	elite_condition_antisub = {
-		tip = "Total SS",
+		tip = "Total ASW",
 		key = "elite_condition_antisub"
 	},
 	elite_condition_dodge = {
@@ -7382,9 +7382,45 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		tip = "<size=20>Training</size>",
 		key = "word_status_train"
 	},
+	word_status_challenge = {
+		tip = "In Challenge Mode ",
+		key = "word_status_challenge"
+	},
+	challenge_rule = {
+		tip = "gametips:challenge_rule",
+		key = "challenge_rule"
+	},
+	challenge_exit_warning = {
+		tip = "Retreating from this battle will end your Challenge Mode run and finalize the score you had before this current level. \nAre you sure you wish to retreat?",
+		key = "challenge_exit_warning"
+	},
+	challenge_fleet_type_fail = {
+		tip = "You've already selected two ships of the same type.",
+		key = "challenge_fleet_type_fail"
+	},
+	challenge_current_level = {
+		tip = "Current Level: Round $1",
+		key = "challenge_current_level"
+	},
+	challenge_current_score = {
+		tip = "Points Earned: $1",
+		key = "challenge_current_score"
+	},
+	challenge_total_score = {
+		tip = "High Score: $1",
+		key = "challenge_total_score"
+	},
+	challenge_current_progress = {
+		tip = "Challenge Mode Round $1",
+		key = "challenge_current_progress"
+	},
 	challenge_count_unlimit = {
-		tip = "<size=28>无限制</size>",
+		tip = "Endless Mode",
 		key = "challenge_count_unlimit"
+	},
+	challenge_no_fleet = {
+		tip = "No eligible fleet, unable to sortie.",
+		key = "challenge_no_fleet"
 	},
 	equipment_skin_unload = {
 		tip = "The weapon Skin has been unapplied and stored in your storage",
@@ -8468,7 +8504,7 @@ with Anti-Sub gear.
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "Centaur rate up during the event period.",
+		tip = "Special: Heavy Cruisers, Light Carriers, Carriers, Repair Ships, Submarine and more!",
 		key = "buildship_special_tip"
 	},
 	world_log_1 = {
@@ -9621,6 +9657,137 @@ Returning Commanders:
 	bismarck_chapter_desc = {
 		tip = "Participate in \"Scherzo of Iron and Blood\" and complete tasks to acquire rare items. ",
 		key = "bismarck_chapter_desc"
+	},
+	challenge_help = {
+		key = "challenge_help",
+		tip = {
+			{
+				info = "About Challenge Mode:"
+			},
+			{
+				info = [[
+- Challenge Mode is a new feature, available for a limited time only, for high-level commanders (Level 80+) to prove their mettle.
+- In this mode, you'll assemble the best fleet possible and clear as many Challenge Stages as you can, earning you a personal high score.
+- If you get a good high score during the period this feature is available, you'll be rewarded with a special Portrait to decorate your player profile with.
+- The Challenge Stage lineup will be restructured randomly every Monday at 00:00 throughout the period this feature is available.
+]]
+			},
+			{
+				info = "How To Play:"
+			},
+			{
+				info = "1. Put together a fleet from the Challenge Mode screen and start the Challenge run once you're ready. The fleet you create is specifically for this mode and unaffected by changes on the Formation screen, similar to Hard Mode fleets."
+			},
+			{
+				info = "2. The damage your fleet takes during one Challenge battle transfers into the next. You can cancel the Challenge run to reset your progress and fully repair your fleet."
+			},
+			{
+				info = "3. While it doesn't cost any Oil to do Challenge runs, you also will not earn any ship Affinity, victories, or ship/commander EXP."
+			},
+			{
+				info = "4. The score you earn from clearing a Challenge Stage is dependent on how much time the battle took and how much damage your fleet took. You will also earn a score bonus for consecutively clearing Stages."
+			},
+			{
+				info = "5. Once you obtain a good high score, you will be able to claim your reward from the bottom left corner of the Challenge Mode screen. Note that getting a new high score does not make you eligible for the same reward twice."
+			},
+			{
+				info = "6. The Challenge Stage lineup will be shuffled randomly every Monday at 00:00 throughout the period this feature is available, but this will not affect your high score."
+			},
+			{
+				info = "7. If you are able to clear all the Challenge Mode stages, you will unlock the even tougher Endless Mode. You can also try Endless Mode as many times as you like, but your high score is unaffected by runs in this mode."
+			},
+			{
+				info = "Additional Notes:"
+			},
+			{
+				info = "1. You can call in your Submarines once per battle during Challenge runs. Like the rest of your fleet, the damage they take transfers between battles."
+			},
+			{
+				info = "2. You cannot change your formation during a Challenge run, nor can you use an Elite Management Team to repair."
+			},
+			{
+				info = "3. You can end a Challenge run at any time. When ended, your Stage progress will be reset and your total score from the previous Stage will be used to calculate your final score. This will happen whether your Challenge run was ended on purpose or due to an accident or mishap (e.g. you lost connection to the game's servers.)"
+			},
+			{
+				info = "4. Please be aware that if you are in the midst of a Challenge run during a lineup reset (Monday at 00:00) then your run will automatically end, your Stage progress will reset even if you ended the run, and your high score will be unaffected."
+			}
+		}
+	},
+	challenge_casual_reset = {
+		tip = "Your Challenge run was ended early.\nTotal score: $1",
+		key = "challenge_casual_reset"
+	},
+	challenge_infinite_reset = {
+		tip = "Your Challenge run was ended early.\nChallenge Stages cleared: $1",
+		key = "challenge_infinite_reset"
+	},
+	challenge_normal_reset = {
+		tip = "Would you like to end this Challenge run now?",
+		key = "challenge_normal_reset"
+	},
+	challenge_casual_click_switch = {
+		tip = "You are currently playing on Normal Mode.\nTotal score: $1.\nWould you like to change modes?",
+		key = "challenge_casual_click_switch"
+	},
+	challenge_infinite_click_switch = {
+		tip = "You are currently playing on Endless Mode.\nCurrent Stage: $1.\nWould you like to change modes?",
+		key = "challenge_infinite_click_switch"
+	},
+	challenge_season_update = {
+		tip = "The Challenge Stage lineup has changed.",
+		key = "challenge_season_update"
+	},
+	challenge_season_update_casual_clear = {
+		tip = "Total score: $1\nSince the Challenge Stage lineup has changed, this won't affect your high score.\nWould you like to restart Challenge Mode?",
+		key = "challenge_season_update_casual_clear"
+	},
+	challenge_season_update_infinite_clear = {
+		tip = "Current Stage: $1.\nSince the Challenge Stage lineup has changed, this won't affect your high score.\nWould you like to restart Challenge Mode?",
+		key = "challenge_season_update_infinite_clear"
+	},
+	challenge_season_update_casual_switch = {
+		tip = [[
+You are currently playing on Normal Mode.
+Total score: $1.
+Since the Challenge Stage lineup has changed, this won't affect your high score.
+Would you like to change modes?]],
+		key = "challenge_season_update_casual_switch"
+	},
+	challenge_season_update_infinite_switch = {
+		tip = [[
+You are currently playing on Endless Mode.
+Current Stage: $1.
+Since the Challenge Stage lineup has changed, this won't affect your Stage Clear score.
+Would you like to change modes?]],
+		key = "challenge_season_update_infinite_switch"
+	},
+	challenge_combat_score = {
+		tip = "Stage Score: $1",
+		key = "challenge_combat_score"
+	},
+	challenge_share_progress = {
+		tip = "Challenges Cleared:",
+		key = "challenge_share_progress"
+	},
+	challenge_share = {
+		tip = "Stage ",
+		key = "challenge_share"
+	},
+	challenge_expire_warn = {
+		tip = "The date has changed. Your results from this battle will not affect your high score.",
+		key = "challenge_expire_warn"
+	},
+	challenge_normal_tip = {
+		tip = "Clear the Challenge Stages and aim for a personal high score!",
+		key = "challenge_normal_tip"
+	},
+	challenge_unlimited_tip = {
+		tip = "You can attempt the Challenge Stages as many times as you like!",
+		key = "challenge_unlimited_tip"
+	},
+	challenge_end_tip = {
+		tip = "This event has concluded. ",
+		key = "challenge_end_tip"
 	},
 	pass_times = {
 		tip = "Stage clears.",

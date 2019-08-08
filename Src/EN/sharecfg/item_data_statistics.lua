@@ -57828,6 +57828,22 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[59135] = {
+		display = "Find clues to help locate the Mythical Seals by gathering more information! Used in \"Superstar of the Blue Seas\" Event Exchange. Will disappear after the exchange period ends. ",
+		rarity = 2,
+		type = 98,
+		name = "Seal Observation Report ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59135,
+		icon = "Props/qixihaibaopt",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59615] = {
 		display = "用于『回流活动』累计点数获得奖励，活动结束后将会消失",
 		rarity = 2,
@@ -60645,6 +60661,7 @@ Skins and their drop rates:
 		59129,
 		59130,
 		59134,
+		59135,
 		59615,
 		59750,
 		59751,

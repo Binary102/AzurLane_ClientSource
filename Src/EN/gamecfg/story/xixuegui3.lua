@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"白衣天使or恶魔？\n\n<size=45>三　新进护士吸血鬼？</size>",
+					"Angel or Devil in White?\n\n<size=45>Chapter 3 - Vampire, New Nurse?</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·走廊",
+			say = "Port - Hallway",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "哼，什么嘛，人家明明是看他平时工作那么辛苦，才想要用护士装来好好让他放松一下的。",
+			say = "What's their deal anyway! I just figured Commander might want some eye candy after working so hard all day...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "指挥官这个大笨蛋，大傻瓜，大木头，人家再也不理你了！",
+			say = "Big dumb bully Commander! I don't care anymore!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "人家还特意去学习了护理的知识呢，哼，看人家把大家照顾得好好的，让那个大傻瓜说不出话！",
+			say = "I even went through all the trouble of learning how to be a nurse... Hmph! I'll just have to make that big dummy speechless with how good I am at taking care of people!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_school",
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "标枪，你有没有什么不舒服的地方？",
+			say = "Javelin, is there anything bothering you?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			say = "啊，吸血鬼姐姐~",
+			say = "Ah, Vampire!",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，并没有呢，标枪我很健康哦？",
+			say = "Oh um, not particularly...? I feel pretty perky right now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "…………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_story_school",
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "萤火虫，不要整天用你的头撞来撞去，过来躺下，让人家来照顾你。",
+			say = "Glowworm, surely your head hurts from headbutting things left and right! Here, come lie on this table and let Nurse Vampire take care of you!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -238,7 +238,7 @@ return {
 			}
 		},
 		{
-			say = "不要不要，我完全没问题的！",
+			say = "Hey, don't pull on me...! I'm perfectly fine!",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "…………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_story_school",
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "拉菲，在这种地方睡觉会感冒的，盖上这条被子吧。",
+			say = "Laffey, you'll catch a cold if you fall asleep here. Here, use this blanket.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -309,7 +309,7 @@ return {
 			}
 		},
 		{
-			say = "唔，好热，好重……",
+			say = "... Ugh... Hot... Heavy...",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "…………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个，吸血鬼小姐……",
+			say = "Um... Miss Vampire...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "嗯？怎么啦，伦敦，意识到自己的错误想要向人家道歉了吗~",
+			say = "Huh? London? Hmm, I bet you're here to apologize for earlier~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然我个人是想这么做，不过……指挥官在找你呢。",
+			say = "Um, I did plan on that, but... Commander's calling for you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			actor = 201232,
 			nameColor = "#a9f548",
-			say = "那个笨蛋终于也意识到自己对人家的冷落了吗~人家就勉为其难地原谅他好了~",
+			say = "Ah! So that big dummy is also having second thoughts about being so cold to poor little Vampire! Good thing I'm not the type to hold grudges~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			blackBg = true,
 			actor = 203010,
 			nameColor = "#a9f548",
-			say = "哈啊……",
+			say = "*sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

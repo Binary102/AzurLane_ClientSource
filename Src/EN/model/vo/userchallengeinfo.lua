@@ -16,20 +16,22 @@ function slot0.UpdateChallengeInfo(slot0, slot1)
 		table.insert(slot0._dungeonIDList, slot6)
 	end
 
+	slot0._activityIndex = getProxy(ActivityProxy).getActivityByType(slot2, ActivityConst.ACTIVITY_TYPE_CHALLENGE).getConfig(slot3, "config_id")
+
 	if slot0._mode == ChallengeProxy.MODE_INFINITE then
 		slot0:setInfiniteDungeonIDListByLevel()
 	end
 
 	slot0._fleetList = {}
 
-	for slot5, slot6 in ipairs(slot1.groupinc_list) do
-		slot0:updateChallengeFleet(slot6)
+	for slot7, slot8 in ipairs(slot1.groupinc_list) do
+		slot0:updateChallengeFleet(slot8)
 	end
 
 	slot0._buffList = {}
 
-	for slot5, slot6 in ipairs(slot1.buff_list) do
-		table.insert(slot0._buffList, slot6)
+	for slot7, slot8 in ipairs(slot1.buff_list) do
+		table.insert(slot0._buffList, slot8)
 	end
 
 	slot0._lastScore = 0
@@ -111,6 +113,10 @@ function slot0.getLastScore(slot0)
 	return slot0._lastScore
 end
 
+function slot0.getActivityIndex(slot0)
+	return slot0._activityIndex
+end
+
 function slot0.getNextExpedition(slot0)
 	if slot0._level % ChallengeConst.BOSS_NUM == 0 then
 		slot1 = ChallengeConst.BOSS_NUM
@@ -120,15 +126,15 @@ function slot0.getNextExpedition(slot0)
 end
 
 function slot0.setInfiniteDungeonIDListByLevel(slot0)
-	if (math.modf((slot0._level - 1) / ChallengeConst.BOSS_NUM) + 1) % #pg.activity_event_challenge[1].infinite_stage[slot0._seasonIndex] == 0 then
+	if (math.modf((slot0._level - 1) / ChallengeConst.BOSS_NUM) + 1) % #pg.activity_event_challenge[slot0._activityIndex].infinite_stage[slot0._seasonIndex] == 0 then
 		slot4 = slot3
 	end
 
-	slot0._dungeonIDList = pg.activity_event_challenge[1].infinite_stage[slot0._seasonIndex][slot4]
+	slot0._dungeonIDList = pg.activity_event_challenge[slot0._activityIndex].infinite_stage[slot0._seasonIndex][slot4]
 end
 
 function slot0.getNextInfiniteDungeonIDList(slot0)
-	return pg.activity_event_challenge[1].infinite_stage[slot0._seasonIndex][(math.modf((slot0._level - 1) / ChallengeConst.BOSS_NUM) + 1) % #pg.activity_event_challenge[1].infinite_stage[slot0._seasonIndex] + 1]
+	return pg.activity_event_challenge[slot0._activityIndex].infinite_stage[slot0._seasonIndex][(math.modf((slot0._level - 1) / ChallengeConst.BOSS_NUM) + 1) % #pg.activity_event_challenge[slot0._activityIndex].infinite_stage[slot0._seasonIndex] + 1]
 end
 
 function slot0.getNextStageID(slot0)

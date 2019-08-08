@@ -37,6 +37,12 @@ function slot0.OnDestroy(slot0)
 
 		slot0.resPanel1 = nil
 	end
+
+	if not IsNil(slot0.winCondPanel) then
+		slot0.winCondPanel:Destroy()
+
+		slot0.winCondPanel = nil
+	end
 end
 
 slot1 = -300
@@ -56,6 +62,7 @@ function slot0.InitUI(slot0)
 	slot0.switchBtn = slot0:findTF("switch_button", slot0.normalRole)
 	slot0.resetBtn = slot0:findTF("reset_button", slot0.normalRole)
 	slot0.helpBtn = slot0:findTF("help_button", slot0.normalRole)
+	slot0.shengfuBtn = slot0:findTF("shengfu/shengfu_button", slot0.normalRole)
 	slot0.teleportSubRole = findTF(slot0.bottomStage, "teleportSub")
 	slot0.deployBtn = slot0:findTF("confirm_button", slot0.teleportSubRole)
 	slot0.undeployBtn = slot0:findTF("cancel_button", slot0.teleportSubRole)
@@ -349,6 +356,11 @@ function slot0.AddListener(slot0)
 						type = MSGBOX_TYPE_HELP,
 						helps = i18n("levelScene_sphunt_help_tip")
 					})
+				elseif slot0:isTypeDefence() then
+					slot0:HandleShowMsgBox({
+						type = MSGBOX_TYPE_HELP,
+						helps = i18n("help_battle_defense")
+					})
 				elseif slot0:isPlayingWithBombEnemy() then
 					slot0:HandleShowMsgBox({
 						type = MSGBOX_TYPE_HELP,
@@ -428,6 +440,9 @@ function slot0.AddListener(slot0)
 		slot0.SwitchBottomStage.grid:TurnOffSubTeleport()
 		slot0.SwitchBottomStage.grid.TurnOffSubTeleport.grid:updateQuadCells(ChapterConst.QuadStateNormal)
 	end, SFX_UI_CLICK)
+	onButton(slot0, slot0.shengfuBtn, function ()
+		slot0:DisplayWinConditionPanel()
+	end)
 end
 
 function slot0.SetSeriesOperation(slot0, slot1)
@@ -512,7 +527,11 @@ function slot0.updateStageInfo(slot0)
 		setActive(slot4, false)
 
 		slot0.stageTimer = Timer.New(function ()
-			setWidgetText(setWidgetText, pg.TimeMgr:GetInstance():DescCDTime(slot0:getRemainTime()))
+			if IsNil(IsNil) then
+				return
+			end
+
+			setWidgetText(slot1:getRemainTime(), pg.TimeMgr:GetInstance():DescCDTime(slot1.getRemainTime()))
 		end, 1, -1)
 
 		slot0.stageTimer:Start()
@@ -680,10 +699,6 @@ function slot0.updateBombPanel(slot0, slot1)
 	return
 end
 
-function slot0.UpdateTeleportSubmarine(slot0)
-	return
-end
-
 function slot0.updateFleetBuff(slot0)
 	slot3 = slot0.contextData.chapterVO.getFleetStgIds(slot1, slot2)
 	slot4 = {}
@@ -707,11 +722,21 @@ function slot0.updateFleetBuff(slot0)
 		end)
 	end
 
-	setActive(slot8, false)
+	slot6 = nil
+	slot7 = 0
 
-	slot9 = UIItemList.New(slot7, slot8)
+	if slot1:ExistDivingChampion() then
+		slot6 = {
+			icon = "submarine_approach"
+		}
+		slot7 = 1
+	end
 
-	slot9:make(function (slot0, slot1, slot2)
+	setActive(slot10, false)
+
+	slot11 = UIItemList.New(slot9, slot10)
+
+	slot11:make(function (slot0, slot1, slot2)
 		setActive(findTF(slot2, "frame"), false)
 		setActive(findTF(slot2, "Text"), false)
 		setActive(findTF(slot2, "times"), false)
@@ -759,19 +784,38 @@ function slot0.updateFleetBuff(slot0)
 					return
 				end, SFX_PANEL)
 			else
-				GetImageSpriteFromAtlasAsync("commanderskillicon/" .. slot3[(slot1 + 1) - #slot0 - #slot2].getConfig(slot3, "icon"), "", slot2)
-				setText(findTF(slot2, "Text"), "Lv." .. slot3[(slot1 + 1) - #slot0 - #slot2].getConfig(slot3, "lv"))
-				setActive(findTF(slot2, "Text"), true)
-				setActive(findTF(slot2, "frame"), true)
-				onButton(slot1, slot2, function ()
-					slot0:emit(LevelMediator2.ON_COMMANDER_SKILL, slot0)
+				if slot1 + 1 <= #slot0 + #slot2 + slot1 + 1 then
+					GetImageSpriteFromAtlasAsync("strategyicon/" .. slot4.icon, "", slot2)
 
-					return
-				end, SFX_PANEL)
+					slot3 = slot2:GetComponent(typeof(Image))
+
+					onButton(slot1, slot2, function ()
+						slot0:HandleShowMsgBox({
+							yesText = "text_confirm",
+							hideNo = true,
+							type = MSGBOX_TYPE_DROP_ITEM,
+							name = i18n("submarine_approach"),
+							content = i18n("submarine_approach_desc"),
+							sprite = slot1.sprite
+						})
+
+						return
+					end, SFX_PANEL)
+				else
+					GetImageSpriteFromAtlasAsync("commanderskillicon/" .. slot5[(slot1 + 1) - #slot0 - #slot2 - slot5].getConfig(slot3, "icon"), "", slot2)
+					setText(findTF(slot2, "Text"), "Lv." .. slot5[(slot1 + 1) - #slot0 - #slot2 - slot5].getConfig(slot3, "lv"))
+					setActive(findTF(slot2, "Text"), true)
+					setActive(findTF(slot2, "frame"), true)
+					onButton(slot1, slot2, function ()
+						slot0:emit(LevelMediator2.ON_COMMANDER_SKILL, slot0)
+
+						return
+					end, SFX_PANEL)
+				end
 			end
 		end
 	end)
-	slot9:align(#slot3 + #slot4 + #_.map(_.values(slot2:getCommanders()), function (slot0)
+	slot11:align(#slot3 + #slot4 + slot7 + #_.map(_.values(slot2:getCommanders()), function (slot0)
 		return slot0:getSkills()[1]
 	end))
 
@@ -915,6 +959,37 @@ function slot0.updateShamProgress(slot0)
 	return
 end
 
+function slot0.UpdateDefenseStatus(slot0)
+	if slot0.contextData.chapterVO.getPlayType(slot1) ~= ChapterConst.TypeDefence then
+		slot2 = false
+	else
+		slot2 = true
+	end
+
+	setActive(findTF(slot0.bottomStage, "normal/shengfu"), slot2)
+
+	if not slot2 then
+		return
+	end
+
+	findTF(slot3, "hp"):GetComponent(typeof(Text)).text = i18n("desc_base_hp", "<color=#92FC63>" .. tostring(slot1.BaseHP) .. "</color>", pg.chapter_defense[slot1.id].port_hp)
+
+	return
+end
+
+function slot0.DisplayWinConditionPanel(slot0)
+	if IsNil(slot0.winCondPanel) then
+		slot0.winCondPanel = WinConditionDisplayPanel.New(slot0._tf.parent, slot0._event, slot0.contextData)
+		slot0.winCondPanel.ParentView = slot0
+
+		slot0.winCondPanel:Load()
+	end
+
+	slot0.winCondPanel:ActionInvoke("Enter", slot0.contextData.chapterVO)
+
+	return
+end
+
 function slot0.updateStageStrategy(slot0)
 	slot5 = findTF(slot4, "click")
 	slot8 = findTF(slot3, "collapse")
@@ -952,6 +1027,15 @@ function slot0.updateStageStrategy(slot0)
 		table.insert(slot11, 2, {
 			id = ChapterConst.StrategyHuntingRange
 		})
+	end
+
+	if #slot1.strategies > 0 then
+		for slot15, slot16 in pairs(slot1.strategies) do
+			table.insert(slot11, {
+				id = slot15,
+				count = slot16
+			})
+		end
 	end
 
 	table.insert(slot11, 1, {
@@ -1039,14 +1123,17 @@ function slot0.updateStageStrategy(slot0)
 							slot0.SwitchBottomStage.grid.ShowStaticHuntingRange.updateStageStrategy.grid:PrepareSubTeleport()
 							slot0.SwitchBottomStage.grid.ShowStaticHuntingRange.updateStageStrategy.grid.PrepareSubTeleport.grid:updateQuadCells(ChapterConst.QuadStateTeleportSub)
 						else
-							if slot8 == ChapterConst.StgTypeForm then
-								slot0:emit(LevelMediator2.ON_OP, {
-									type = ChapterConst.OpStrategy,
-									id = slot7:getNextStgUser(slot1.id),
-									arg1 = slot9[table.indexof(slot9, slot1.id) % #slot9 + 1]
-								})
+							if slot1.id == ChapterConst.StrategySonarDetect then
 							else
-								slot0:emit(LevelUIConst.DISPLAY_STRATEGY_INFO, slot0)
+								if slot8 == ChapterConst.StgTypeForm then
+									slot0:emit(LevelMediator2.ON_OP, {
+										type = ChapterConst.OpStrategy,
+										id = slot7:getNextStgUser(slot1.id),
+										arg1 = slot9[table.indexof(slot9, slot1.id) % #slot9 + 1]
+									})
+								else
+									slot0:emit(LevelUIConst.DISPLAY_STRATEGY_INFO, slot0)
+								end
 							end
 						end
 					end
@@ -1210,7 +1297,9 @@ function slot0.clickGridCell(slot0, slot1)
 			else
 				if slot1.row ~= slot4.line.row or slot1.column ~= slot4.line.column then
 					if slot2:getChapterCell(slot1.row, slot1.column).attachment == ChapterConst.AttachStory and slot8.data == ChapterConst.StoryObstacle and slot8.flag == 3 then
-						pg.TipsMgr:GetInstance():ShowTips(i18n("map_event_stop_tip"))
+						if slot2:getPlayType() ~= ChapterConst.TypeDefence then
+							pg.TipsMgr:GetInstance():ShowTips(i18n("map_event_stop_tip"))
+						end
 
 						return
 					else
@@ -1258,11 +1347,223 @@ function slot0.clickGridCell(slot0, slot1)
 	return
 end
 
-function slot0.doSafeCheck(slot0)
-	slot2 = slot0.contextData.chapterVO.getDataType(slot1)
-	slot4 = slot0.contextData.chapterVO.fleet.line
+function slot0.doSafeCheck(slot0, slot1)
+	slot3 = slot0.contextData.chapterVO.getDataType(slot2)
+	slot5 = slot0.contextData.chapterVO.fleet.line
+	slot6 = slot0:CheckTransportState(slot2)
 
-	_.each(slot0.contextData.chapterVO.fleets, function (slot0)
+	function slot7()
+		slot0:emit(LevelMediator2.ON_OP, {
+			type = ChapterConst.OpRetreat
+		})
+
+		return
+	end
+
+	slot9 = false
+
+	for slot13, slot14 in pairs(slot8) do
+		if slot14.type == 1 then
+			slot16 = 0
+
+			_.each(slot2:findChapterCells(ChapterConst.AttachBoss), function (slot0)
+				if slot0 and slot0.flag == 1 then
+					slot0 = slot0 + 1
+				end
+
+				return
+			end)
+
+			if not slot9 then
+				if slot14.param > slot16 then
+					slot9 = false
+				else
+					slot9 = true
+				end
+			end
+		else
+			if slot14.type == 2 then
+				if not slot9 then
+					if slot14.param > slot2:GetDefeatCount() then
+						slot9 = false
+					else
+						slot9 = true
+					end
+				end
+			else
+				if slot14.type == 3 then
+					if not slot9 then
+						if slot6 ~= 1 then
+							slot9 = false
+						else
+							slot9 = true
+						end
+					end
+				else
+					if slot14.type == 4 then
+						if not slot9 then
+							if slot14.param >= slot2:getRoundNum() then
+								slot9 = false
+							else
+								slot9 = true
+							end
+						end
+					else
+						if slot14.type == 5 then
+							slot15 = slot14.param
+
+							if not _.any(slot2.champions, function (slot0)
+								if slot0.attachmentId ~= slot0 then
+									slot1 = false
+								else
+									slot1 = true
+								end
+
+								for slot5, slot6 in pairs(slot0.idList) do
+									if not slot1 then
+										if slot6 ~= slot0 then
+											slot1 = false
+										else
+											slot1 = true
+										end
+									end
+								end
+
+								if slot1 then
+									if slot0.flag == 1 then
+										slot2 = false
+									else
+										slot2 = true
+									end
+								end
+
+								return slot2
+							end) then
+								slot16 = _.any(slot2.cells, function (slot0)
+									if slot0.attachmentId ~= slot0 then
+										slot1 = false
+									else
+										slot1 = true
+									end
+
+									if slot1 then
+										if slot0.flag == 1 then
+											slot2 = false
+										else
+											slot2 = true
+										end
+									end
+
+									return slot2
+								end)
+							end
+
+							if not slot9 then
+								slot9 = not slot16
+							end
+						end
+					end
+				end
+			end
+		end
+
+		if slot9 then
+			break
+		end
+	end
+
+	if slot9 then
+		if slot1 then
+			if slot2:getPlayType() == ChapterConst.TypeTransport then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_escort_win"))
+			else
+				pg.TipsMgr:GetInstance():ShowTips(i18n("levelScene_chapter_win"))
+			end
+
+			slot0:emit(LevelMediator2.ON_OP, {
+				win = true,
+				type = ChapterConst.OpRetreat
+			})
+		end
+
+		return true
+	end
+
+	slot11 = false
+	slot12 = nil
+
+	for slot16, slot17 in pairs(slot10) do
+		if slot17.type == 1 then
+			slot18 = _.any(slot2.fleets, function (slot0)
+				if slot0:getFleetType() == FleetType.Normal then
+					slot1 = slot0:isValid()
+				else
+					slot1 = false
+
+					if false then
+						slot1 = true
+					end
+				end
+
+				return slot1
+			end)
+
+			if not slot11 then
+				slot11 = not slot18
+			end
+
+			if slot11 then
+				slot12 = "formation_invalide"
+			end
+		else
+			if slot17.type == 2 then
+				if not slot11 then
+					if slot2.BaseHP > 0 then
+						slot11 = false
+					else
+						slot11 = true
+					end
+				end
+
+				if slot11 then
+					slot12 = "harbour_bomb_tip"
+				end
+			end
+		end
+
+		if slot11 then
+			break
+		end
+	end
+
+	if slot2:getPlayType() == ChapterConst.TypeTransport and not slot11 then
+		if slot6 ~= -1 then
+			slot11 = false
+		else
+			slot11 = true
+		end
+	end
+
+	if slot11 then
+		if slot1 then
+			if slot2:getPlayType() == ChapterConst.TypeTransport then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_escort_lose"))
+				slot7()
+			else
+				slot0:HandleShowMsgBox({
+					modal = true,
+					hideNo = true,
+					content = i18n(slot12),
+					onYes = slot7,
+					onClose = slot7
+				})
+			end
+		end
+
+		return true
+	end
+
+	_.each(slot2.fleets, function (slot0)
 		if slot0:getFleetType() == FleetType.Submarine and not slot0:isValid() then
 			slot0:emit(LevelMediator2.ON_OP, {
 				type = ChapterConst.OpRetreat,
@@ -1273,165 +1574,116 @@ function slot0.doSafeCheck(slot0)
 		return
 	end)
 
-	if slot0.contextData.chapterVO.getPlayType(slot1) == ChapterConst.TypeTransport then
-		slot6 = slot1:findChapterCell(ChapterConst.AttachTransport_Target)
-
-		if not _.detect(slot1.fleets, function (slot0)
-			if slot0:getFleetType() ~= FleetType.Transport then
-				slot1 = false
-			else
-				slot1 = true
-			end
-
-			return slot1
-		end):isValid() then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_escort_lose"))
-			slot0:emit(LevelMediator2.ON_OP, {
-				type = ChapterConst.OpRetreat
-			})
-
-			return true
-		else
-			if slot5.line.row == slot6.row and slot5.line.column == slot6.column and not slot1:existEnemy(ChapterConst.SubjectPlayer, slot6.row, slot6.column) then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_escort_win"))
+	if slot2:existOni() then
+		if slot2:checkOniState() == 1 then
+			if slot1 then
 				slot0:emit(LevelMediator2.ON_OP, {
 					win = true,
 					type = ChapterConst.OpRetreat
 				})
-
-				return true
 			end
-		end
-	end
-
-	if slot1:existOni() then
-		if slot1:checkOniState() == 1 then
-			slot0:emit(LevelMediator2.ON_OP, {
-				win = true,
-				type = ChapterConst.OpRetreat
-			})
 
 			return true
 		else
-			if slot5 == 2 then
-				slot0:emit(LevelMediator2.ON_OP, {
-					type = ChapterConst.OpRetreat
-				})
+			if slot13 == 2 then
+				if slot1 then
+					slot0:emit(LevelMediator2.ON_OP, {
+						type = ChapterConst.OpRetreat
+					})
+				end
 
 				return true
 			end
 		end
 	else
-		if slot1:isPlayingWithBombEnemy() then
-			if slot1:getBombChapterInfo().action_times * 2 <= slot1.roundIndex then
+		if slot2:isPlayingWithBombEnemy() and slot2:getBombChapterInfo().action_times * 2 <= slot2.roundIndex then
+			if slot1 then
 				slot0:emit(LevelMediator2.ON_OP, {
 					type = ChapterConst.OpRetreat
 				})
-
-				return true
 			end
-		else
-			if slot1:findChapterCell(ChapterConst.AttachBoss) and slot5.flag == 1 then
-				slot0:emit(LevelMediator2.ON_OP, {
-					win = true,
-					type = ChapterConst.OpRetreat
-				})
 
-				slot6 = pg.TimeMgr.GetInstance()
-
-				if slot1:getConfig("type") == Chapter.CustomFleet and not slot1:isActivity() and slot6:IsSameDay(slot1:getStartTime(), slot6:GetServerTime()) then
-					getProxy(DailyLevelProxy):EliteCountPlus()
-				end
-
-				pg.TipsMgr:GetInstance():ShowTips(i18n("levelScene_chapter_win"))
-
-				slot7 = getProxy(PlayerProxy):getData()
-
-				if slot1.id == 103 and not slot7:GetCommonFlag(BATTLE_AUTO_ENABLED) then
-					slot0:HandleShowMsgBox({
-						modal = true,
-						hideNo = true,
-						content = i18n("battle_autobot_unlock")
-					})
-					slot0:emit(LevelMediator2.NOTICE_AUTOBOT_ENABLED, {})
-				end
-
-				return true
-			end
+			return true
 		end
 	end
 
-	if slot2 == ChapterConst.TypeSham and ChapterConst.ShamEnemyLimit <= slot1.progress then
-		if slot1.shamResetCount < ChapterConst.ShamResetCountLimit then
-			slot0:HandleShowMsgBox({
-				modal = true,
-				content = i18n("sham_count_reset"),
-				onYes = function ()
-					slot0:emit(LevelMediator2.ON_OP, {
-						type = ChapterConst.OpRetreat
-					})
-
-					return
-				end,
-				onNo = function ()
-					slot0:switchToMap()
-
-					return
-				end
-			})
-		else
-			slot0:HandleShowMsgBox({
-				modal = true,
-				hideNo = true,
-				content = i18n("sham_count_limit"),
-				onYes = function ()
-					slot0:switchToMap()
-
-					return
-				end,
-				onNo = function ()
-					slot0:switchToMap()
-
-					return
-				end
-			})
-		end
-
-		return true
-	end
-
-	if not slot1:inWartime() then
-		slot0:emit(LevelMediator2.ON_TIME_UP)
-
-		return true
-	end
-
-	if not slot3:isValid() then
-		if slot2 == ChapterConst.TypeSham then
-			if getProxy(ContextProxy):getContextByMediator(LevelMediator2) then
-				slot7 = slot6:getContextByMediator(ShamPreCombatMediator)
-			end
-
-			if not slot7 then
+	if slot3 == ChapterConst.TypeSham and ChapterConst.ShamEnemyLimit <= slot2.progress then
+		if slot1 then
+			if slot2.shamResetCount < ChapterConst.ShamResetCountLimit then
 				slot0:HandleShowMsgBox({
 					modal = true,
-					content = i18n("formation_reform_tip"),
+					content = i18n("sham_count_reset"),
 					onYes = function ()
-						slot0:emit(LevelMediator2.ON_OPEN_SHAM_PRE_COMABT)
+						slot0:emit(LevelMediator2.ON_OP, {
+							type = ChapterConst.OpRetreat
+						})
+
+						return
+					end,
+					onNo = function ()
+						slot0:switchToMap()
+
+						return
+					end
+				})
+			else
+				slot0:HandleShowMsgBox({
+					modal = true,
+					hideNo = true,
+					content = i18n("sham_count_limit"),
+					onYes = function ()
+						slot0:switchToMap()
+
+						return
+					end,
+					onNo = function ()
+						slot0:switchToMap()
 
 						return
 					end
 				})
 			end
+		end
+
+		return true
+	end
+
+	if not slot2:inWartime() then
+		if slot1 then
+			slot0:emit(LevelMediator2.ON_TIME_UP)
+		end
+
+		return true
+	end
+
+	if not slot4:isValid() then
+		if slot3 == ChapterConst.TypeSham then
+			if slot1 then
+				if getProxy(ContextProxy):getContextByMediator(LevelMediator2) then
+					slot15 = slot14:getContextByMediator(ShamPreCombatMediator)
+				end
+
+				if not slot15 then
+					slot0:HandleShowMsgBox({
+						modal = true,
+						content = i18n("formation_reform_tip"),
+						onYes = function ()
+							slot0:emit(LevelMediator2.ON_OPEN_SHAM_PRE_COMABT)
+
+							return
+						end
+					})
+				end
+			end
 
 			return true
 		else
-			if slot2 == ChapterConst.TypeNone then
-				if slot1:getNextValidIndex() > 0 then
+			if slot3 == ChapterConst.TypeNone then
+				if slot1 and slot2:getNextValidIndex() > 0 then
 					slot0:HandleShowMsgBox({
 						modal = true,
 						hideNo = true,
-						content = i18n("formation_switch_tip", slot1.fleets[slot5].name),
+						content = i18n("formation_switch_tip", slot2.fleets[slot13].name),
 						onYes = function ()
 							slot0:emit(LevelMediator2.ON_OP, {
 								type = ChapterConst.OpSwitch,
@@ -1446,24 +1698,6 @@ function slot0.doSafeCheck(slot0)
 							return
 						end
 					})
-				else
-					slot0:HandleShowMsgBox({
-						modal = true,
-						hideNo = true,
-						content = i18n("formation_invalide"),
-						onYes = function ()
-							slot0:emit(LevelMediator2.ON_OP, {
-								type = ChapterConst.OpRetreat
-							})
-
-							return
-						end,
-						onNo = function ()
-							slot0.emit(LevelMediator2.ON_OP, )
-
-							return
-						end
-					})
 				end
 
 				return true
@@ -1471,18 +1705,22 @@ function slot0.doSafeCheck(slot0)
 		end
 	end
 
-	slot5 = slot1:getConfig("act_id")
+	slot13 = slot2:getConfig("act_id")
 
-	if not slot0.contextData.map:isRemaster() and slot5 ~= 0 and (not getProxy(ActivityProxy):getActivityById(slot5) or slot7:isEnd()) then
-		slot0:emit(LevelMediator2.ON_OP, {
-			type = ChapterConst.OpRetreat
-		})
+	if not slot0.contextData.map:isRemaster() and slot13 ~= 0 and (not getProxy(ActivityProxy):getActivityById(slot13) or slot15:isEnd()) then
+		if slot1 then
+			slot0:emit(LevelMediator2.ON_OP, {
+				type = ChapterConst.OpRetreat
+			})
+		end
 
 		return true
 	end
 
-	if slot1:getChapterCell(slot4.row, slot4.column).attachment == ChapterConst.AttachBox and slot6.flag ~= 1 then
-		triggerButton(slot0.funcBtn)
+	if slot2:getChapterCell(slot5.row, slot5.column).attachment == ChapterConst.AttachBox and slot14.flag ~= 1 then
+		if slot1 then
+			triggerButton(slot0.funcBtn)
+		end
 
 		return true
 	end
@@ -1490,8 +1728,36 @@ function slot0.doSafeCheck(slot0)
 	return false
 end
 
+function slot0.CheckTransportState(slot0, slot1)
+	if not _.detect(slot1.fleets, function (slot0)
+		if slot0:getFleetType() ~= FleetType.Transport then
+			slot1 = false
+		else
+			slot1 = true
+		end
+
+		return slot1
+	end) then
+		return 0
+	end
+
+	slot3 = slot1:findChapterCell(ChapterConst.AttachTransport_Target)
+
+	if not slot2:isValid() then
+		return -1
+	else
+		if slot2.line.row == slot3.row and slot2.line.column == slot3.column and not slot1:existEnemy(ChapterConst.SubjectPlayer, slot3.row, slot3.column) then
+			return 1
+		else
+			return 0
+		end
+	end
+
+	return
+end
+
 function slot0.tryAutoTrigger(slot0)
-	if not slot0:doSafeCheck() then
+	if not slot0:doSafeCheck(true) then
 		if slot0.contextData.chapterVO:checkAnyInteractive() then
 			triggerButton(slot0.funcBtn)
 		else
@@ -1500,7 +1766,7 @@ function slot0.tryAutoTrigger(slot0)
 					type = ChapterConst.OpEnemyRound
 				})
 			else
-				if slot2:existMoveLimit() and slot2:getRound() == ChapterConst.RoundPlayer then
+				if slot2:getRound() == ChapterConst.RoundPlayer then
 					slot0.grid:updateQuadCells(ChapterConst.QuadStateNormal)
 				end
 			end
@@ -1510,9 +1776,18 @@ function slot0.tryAutoTrigger(slot0)
 	return
 end
 
-function slot0.tryAutoAction(slot0)
-	slot1 = slot0.contextData.chapterVO
-	slot2 = nil
+function slot0.tryAutoAction(slot0, slot1)
+	slot2 = slot0.contextData.chapterVO
+
+	if slot0:doSafeCheck(false) then
+		if slot1 then
+			slot1()
+		end
+
+		return
+	end
+
+	slot4 = nil
 
 	coroutine.wrap(function ()
 		slot1 = false
@@ -1541,44 +1816,8 @@ function slot0.tryAutoAction(slot0)
 
 		if slot0 then
 			slot1:emit(LevelUIConst.FROZEN)
-
-			if slot1 or slot2 then
-				slot3 = nil
-
-				if slot1 then
-					slot3 = "SpUnit"
-				end
-
-				if slot2 then
-					slot3 = "SpBomb"
-				end
-
-				if slot3 then
-					slot1:doPlayAnim(slot3, function (slot0)
-						setActive(slot0, false)
-						slot0()
-
-						return
-					end)
-					coroutine.yield()
-				end
-
-				if slot0:getSpAppearStory() and #slot4 > 0 then
-					pg.StoryMgr.GetInstance():Play(slot4, function ()
-						if slot0:getSpAppearGuide() and #slot0 > 0 then
-							pg.GuideMgr:GetInstance():play(slot0, nil, onNextTick(pg.GuideMgr.GetInstance().play))
-						else
-							onNextTick(onNextTick)
-						end
-
-						return
-					end)
-					coroutine.yield()
-				end
-			else
-				slot1:emit(LevelUIConst.DO_TRACKING, slot2)
-				coroutine.yield()
-			end
+			slot1:emit(LevelUIConst.DO_TRACKING, slot2)
+			coroutine.yield()
 
 			if not slot1.contextData.chapterVO then
 				return
@@ -1601,8 +1840,8 @@ function slot0.tryAutoAction(slot0)
 			slot1:emit(LevelUIConst.UN_FROZEN)
 		end
 
-		if not slot1:doSafeCheck() then
-			slot1.grid:updateQuadCells(ChapterConst.QuadStateNormal)
+		if slot3 then
+			slot3()
 		end
 
 		return
@@ -1645,6 +1884,10 @@ function slot0.tryPlayChapterStory(slot0)
 	else
 		if slot1.id == 1160002 then
 			pg.StoryMgr:GetInstance():PlayGuide("NG0011")
+		else
+			if slot1:isTypeDefence() then
+				pg.StoryMgr:GetInstance():PlayGuide("NG0016")
+			end
 		end
 	end
 

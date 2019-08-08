@@ -1678,6 +1678,65 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[101401] = {
+		use_gold = 300,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 10140,
+		breakout_id = 101402,
+		breakout_view = "스킬 습득 - 전탄 발사 I / 모든 무기 효율 +2%",
+		id = 101401,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			70011
+		}
+	},
+	[101402] = {
+		use_gold = 800,
+		pre_id = 101401,
+		use_char_num = 1,
+		use_char = 10140,
+		breakout_id = 101403,
+		breakout_view = "어뢰 발사 수 +1 / 어뢰 탑재량 +1 / 모든 무기 효율 +3%",
+		id = 101402,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[101403] = {
+		use_gold = 1500,
+		pre_id = 101402,
+		use_char_num = 2,
+		use_char = 10140,
+		breakout_id = 101404,
+		breakout_view = "전탄 발사 스킬 강화 / 모든 무기 효율 +5%",
+		id = 101403,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			70012
+		}
+	},
+	[101404] = {
+		use_gold = 0,
+		pre_id = 101403,
+		use_char_num = 0,
+		use_char = 10140,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 101404,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[102011] = {
 		use_gold = 100,
 		pre_id = 0,
@@ -2917,6 +2976,124 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[102221] = {
+		use_gold = 300,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 10222,
+		breakout_id = 102222,
+		breakout_view = "스킬 습득 - 전탄 발사 I / 대공포 효율 +5%",
+		id = 102221,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			70131
+		}
+	},
+	[102222] = {
+		use_gold = 800,
+		pre_id = 102221,
+		use_char_num = 1,
+		use_char = 10222,
+		breakout_id = 102223,
+		breakout_view = "어뢰 발사 수 +1 / 어뢰 탑재량 +1 / 대공포 효율 +10%",
+		id = 102222,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[102223] = {
+		use_gold = 1500,
+		pre_id = 102222,
+		use_char_num = 2,
+		use_char = 10222,
+		breakout_id = 102224,
+		breakout_view = "전탄 발사 스킬 강화 / 모든 무기 효율 +5%",
+		id = 102223,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			70132
+		}
+	},
+	[102224] = {
+		use_gold = 0,
+		pre_id = 102223,
+		use_char_num = 0,
+		use_char = 10222,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 102224,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[102231] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 10223,
+		breakout_id = 102232,
+		breakout_view = "스킬 습득 - 전탄 발사 I / 주포 효율 +5%",
+		id = 102231,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			70141
+		}
+	},
+	[102232] = {
+		use_gold = 1500,
+		pre_id = 102231,
+		use_char_num = 1,
+		use_char = 10223,
+		breakout_id = 102233,
+		breakout_view = "주포 발사 수 +1 / 주포 효율 +10%",
+		id = 102232,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			12100,
+			12100
+		}
+	},
+	[102233] = {
+		use_gold = 2500,
+		pre_id = 102232,
+		use_char_num = 2,
+		use_char = 10223,
+		breakout_id = 102234,
+		breakout_view = "전탄 발사 스킬 강화 / 주포 효율 +15%",
+		id = 102233,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			70142
+		}
+	},
+	[102234] = {
+		use_gold = 0,
+		pre_id = 102233,
+		use_char_num = 0,
+		use_char = 10223,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 102234,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[103011] = {
 		use_gold = 100,
 		pre_id = 0,
@@ -3620,6 +3797,65 @@ pg.ship_data_breakout = {
 		breakout_id = 0,
 		breakout_view = "없음",
 		id = 103134,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[103161] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 10316,
+		breakout_id = 103162,
+		breakout_view = "스킬 습득 - 전탄 발사 I / 주포 효율 +5%",
+		id = 103161,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			70261
+		}
+	},
+	[103162] = {
+		use_gold = 3000,
+		pre_id = 103161,
+		use_char_num = 1,
+		use_char = 10316,
+		breakout_id = 103163,
+		breakout_view = "주포 발사 수 +1 / 주포 효율 +10%",
+		id = 103162,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			13000,
+			13000
+		}
+	},
+	[103163] = {
+		use_gold = 10000,
+		pre_id = 103162,
+		use_char_num = 2,
+		use_char = 10316,
+		breakout_id = 103164,
+		breakout_view = "전탄 발사 스킬 강화 / 모든 무기 효율 +5%",
+		id = 103163,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			70262
+		}
+	},
+	[103164] = {
+		use_gold = 0,
+		pre_id = 103163,
+		use_char_num = 0,
+		use_char = 10316,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 103164,
 		icon = "10001",
 		level = 0,
 		use_item = {},
@@ -4439,6 +4675,69 @@ pg.ship_data_breakout = {
 		breakout_id = 0,
 		breakout_view = "없음",
 		id = 105194,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[105201] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 10520,
+		breakout_id = 105202,
+		breakout_view = "주포 발사 수 +1 / 주포 효율 +5%",
+		id = 105201,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			14300,
+			14300
+		}
+	},
+	[105202] = {
+		use_gold = 3000,
+		pre_id = 105201,
+		use_char_num = 1,
+		use_char = 10520,
+		breakout_id = 105203,
+		breakout_view = "부포 발사 수 +2 / 주포 효율 +10%",
+		id = 105202,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			11200,
+			11200,
+			11200
+		}
+	},
+	[105203] = {
+		use_gold = 10000,
+		pre_id = 105202,
+		use_char_num = 2,
+		use_char = 10520,
+		breakout_id = 105204,
+		breakout_view = "주포 발사 수 +1 / 주포 효율 +15%",
+		id = 105203,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			14300,
+			14300,
+			14300
+		}
+	},
+	[105204] = {
+		use_gold = 0,
+		pre_id = 105203,
+		use_char_num = 0,
+		use_char = 10520,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 105204,
 		icon = "10001",
 		level = 0,
 		use_item = {},
@@ -5289,6 +5588,71 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[107291] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 10729,
+		breakout_id = 107292,
+		breakout_view = "전투기 탑재량 +1 / 전투기 효율 +5%",
+		id = 107291,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			60391,
+			54011
+		}
+	},
+	[107292] = {
+		use_gold = 1500,
+		pre_id = 107291,
+		use_char_num = 1,
+		use_char = 10729,
+		breakout_id = 107293,
+		breakout_view = "격납고 용량 +1 / 뇌격기 탑재량 +1 / 전투기 효율 +10%",
+		id = 107292,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			60392,
+			54011,
+			60392,
+			54011
+		}
+	},
+	[107293] = {
+		use_gold = 2500,
+		pre_id = 107292,
+		use_char_num = 2,
+		use_char = 10729,
+		breakout_id = 107294,
+		breakout_view = "함재기 탑재량 +1 / 뇌격기 효율 +15%",
+		id = 107293,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			60393,
+			54012,
+			60393,
+			54012
+		}
+	},
+	[107294] = {
+		use_gold = 0,
+		pre_id = 107293,
+		use_char_num = 0,
+		use_char = 10729,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 107294,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[107381] = {
 		use_gold = 1000,
 		pre_id = 0,
@@ -5471,6 +5835,67 @@ pg.ship_data_breakout = {
 		breakout_id = 0,
 		breakout_view = "없음",
 		id = 108024,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[108031] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 10803,
+		breakout_id = 108032,
+		breakout_view = "스킬 습득 - 특수 탄막 I / 어뢰 효율 +5%",
+		id = 108031,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			79441
+		}
+	},
+	[108032] = {
+		use_gold = 3000,
+		pre_id = 108031,
+		use_char_num = 1,
+		use_char = 10803,
+		breakout_id = 108033,
+		breakout_view = "어뢰 장전 수 +1 / 지원 범위 확대",
+		id = 108032,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			140,
+			140,
+			140,
+			140
+		}
+	},
+	[108033] = {
+		use_gold = 10000,
+		pre_id = 108032,
+		use_char_num = 2,
+		use_char = 10803,
+		breakout_id = 108034,
+		breakout_view = "특수 탄막 강화 / 어뢰 탑재량 +1 / 어뢰 효율 +10%",
+		id = 108033,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			79442
+		}
+	},
+	[108034] = {
+		use_gold = 0,
+		pre_id = 108033,
+		use_char_num = 0,
+		use_char = 10803,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 108034,
 		icon = "10001",
 		level = 0,
 		use_item = {},
@@ -20361,6 +20786,10 @@ pg.ship_data_breakout = {
 		101392,
 		101393,
 		101394,
+		101401,
+		101402,
+		101403,
+		101404,
 		102011,
 		102012,
 		102013,
@@ -20445,6 +20874,14 @@ pg.ship_data_breakout = {
 		102212,
 		102213,
 		102214,
+		102221,
+		102222,
+		102223,
+		102224,
+		102231,
+		102232,
+		102233,
+		102234,
 		103011,
 		103012,
 		103013,
@@ -20493,6 +20930,10 @@ pg.ship_data_breakout = {
 		103132,
 		103133,
 		103134,
+		103161,
+		103162,
+		103163,
+		103164,
 		105011,
 		105012,
 		105013,
@@ -20545,6 +20986,10 @@ pg.ship_data_breakout = {
 		105192,
 		105193,
 		105194,
+		105201,
+		105202,
+		105203,
+		105204,
 		106011,
 		106012,
 		106013,
@@ -20597,6 +21042,10 @@ pg.ship_data_breakout = {
 		107222,
 		107223,
 		107224,
+		107291,
+		107292,
+		107293,
+		107294,
 		107381,
 		107382,
 		107383,
@@ -20609,6 +21058,10 @@ pg.ship_data_breakout = {
 		108022,
 		108023,
 		108024,
+		108031,
+		108032,
+		108033,
+		108034,
 		112011,
 		112012,
 		112013,

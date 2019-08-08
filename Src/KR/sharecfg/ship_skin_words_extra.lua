@@ -84,8 +84,38 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[108030] = {
+		touch = "",
+		feeling3 = "",
+		login = "",
+		feeling1 = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		upgrade = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 108030,
+		detail = "",
+		feeling5 = {
+			{
+				1100,
+				"지휘관이 정말로 이런 일을 벌이다니, 진짜 깜짝 놀랬다고...하지만, 정말 기뻐! 헤헤~ 오늘부터, 항상 곁에 있을게! 대신, 먼저 말해두겠는데, 다시는 날 어린애 취급하면 안돼!"
+			}
+		}
+	},
 	all = {
-		999010
+		999010,
+		108030
 	}
 }
 

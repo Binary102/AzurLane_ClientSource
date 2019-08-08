@@ -982,7 +982,7 @@ pg.gametip = {
 		key = "dont_remind_today"
 	},
 	dont_remind_session = {
-		tip = "로그인이 더 이상 신청되지 않습니다.",
+		tip = "이번 로그인 기간 동안 다시 보지 않음",
 		key = "dont_remind_session"
 	},
 	battle_no_oil = {
@@ -5320,6 +5320,56 @@ B평가:<color=#92fc63>70</color>점
 			}
 		}
 	},
+	help_battle_defense = {
+		key = "help_battle_defense",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_defense_1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_defense_2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_defense_3"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_defense_4"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_defense_5"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
 	backyard_theme_set_tip = {
 		tip = "프리셋 <color=#92fc63>$1</color> 을(를) 적용하시겠습니까?",
 		key = "backyard_theme_set_tip"
@@ -8611,7 +8661,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "이168、U-101、이25、이56、U-522 출현 확률UP ",
+		tip = "앨라배마、볼티모어、버밍햄、아일윈 출현 확률UP ",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -10687,7 +10737,7 @@ UID: 사령부에서 각 지휘관에게 전달한 고유의 신분 증명
 		key = "secondarypassword_illegal_tip"
 	},
 	pt_cosume = {
-		tip = "消耗$1",
+		tip = "소모 $1",
 		key = "pt_cosume"
 	},
 	secondarypassword_confirm_tips = {
@@ -10735,6 +10785,50 @@ P7 지정 스테이지 클리어]]
 	common_buy_gold_success = {
 		tip = "<color=#92fc63>$1</color> 물자 구매 성공! ",
 		key = "common_buy_gold_success"
+	},
+	harbour_bomb_tip = {
+		tip = "항구가 파괴되었습니다, 임무 실패…",
+		key = "harbour_bomb_tip"
+	},
+	submarine_approach = {
+		tip = "잠수함 접근 중",
+		key = "submarine_approach"
+	},
+	submarine_approach_desc = {
+		tip = "적함 편대 접근 중, 경계에 유의하세요.",
+		key = "submarine_approach_desc"
+	},
+	desc_quick_play = {
+		tip = "이동 재생 가속화",
+		key = "desc_quick_play"
+	},
+	text_win_condition = {
+		tip = "승리 조건",
+		key = "text_win_condition"
+	},
+	text_lose_condition = {
+		tip = "실패 조건",
+		key = "text_lose_condition"
+	},
+	text_rest_HP = {
+		tip = "남은 HP",
+		key = "text_rest_HP"
+	},
+	desc_defense_reward = {
+		tip = "클리어 시 항구의 남은 HP에 따라 보상을 획득합니다",
+		key = "desc_defense_reward"
+	},
+	desc_base_hp = {
+		tip = "항구 내구도 : $1/$2",
+		key = "desc_base_hp"
+	},
+	map_event_open = {
+		tip = "저지 기관 가동됨",
+		key = "map_event_open"
+	},
+	word_reward = {
+		tip = "보상",
+		key = "word_reward"
 	}
 }
 

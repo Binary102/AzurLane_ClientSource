@@ -300,6 +300,7 @@ function slot0.GenBattleData(slot0)
 		slot0.viewComponent:setChapter(slot6)
 
 		slot1.KizunaJamming = slot6.extraFlagList
+		slot1.DefeatCount = slot6.fleet.getDefeatCount(slot7)
 		slot1.ChapterBuffIDs, slot1.CommanderList = slot6:getFleetBattleBuffs(slot7)
 		slot8 = _.values(slot6.fleet.getCommanders(slot7))
 		slot9 = {}

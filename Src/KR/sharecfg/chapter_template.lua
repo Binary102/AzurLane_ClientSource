@@ -1,22 +1,22 @@
 pg = pg or {}
 pg.chapter_template = {
 	[101] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 2,
 		progress_boss = 100,
-		pos_x = "0.10703125",
+		oil = 10,
 		group_num = 1,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.10703125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 2,
 		chapter_safe = 0,
 		air_dominance = 6,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 101,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.157291667",
@@ -25,6 +25,7 @@ pg.chapter_template = {
 		investigation_ratio = 6,
 		num_2 = 3,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 1,
 		uifx = "",
@@ -35,7 +36,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 1,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -111,6 +111,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"dahuangfeng"
@@ -236,22 +254,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[102] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 2,
 		progress_boss = 100,
-		pos_x = "0.34609375",
+		oil = 10,
 		group_num = 1,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.34609375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 2,
 		chapter_safe = 0,
 		air_dominance = 12,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 102,
+		icon_outline = 0,
 		pre_chapter = 101,
 		star_require_1 = 1,
 		pos_y = "0.347916667",
@@ -260,6 +278,7 @@ pg.chapter_template = {
 		investigation_ratio = 6,
 		num_2 = 5,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 2,
 		uifx = "",
@@ -270,7 +289,6 @@ pg.chapter_template = {
 		enter_story = "UI10201",
 		boss_refresh = 2,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -377,6 +395,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"ligen"
@@ -580,22 +616,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[103] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 2,
 		progress_boss = 100,
-		pos_x = "0.50546875",
+		oil = 10,
 		group_num = 1,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.50546875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 2,
 		chapter_safe = 0,
 		air_dominance = 18,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 103,
+		icon_outline = 0,
 		pre_chapter = 102,
 		star_require_1 = 1,
 		pos_y = "0.080208333",
@@ -604,6 +640,7 @@ pg.chapter_template = {
 		investigation_ratio = 7,
 		num_2 = 5,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 2,
 		uifx = "",
@@ -614,7 +651,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 2,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -739,6 +775,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"wudao"
@@ -958,22 +1012,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[104] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 2,
 		progress_boss = 80,
-		pos_x = "0.60546875",
+		oil = 10,
 		group_num = 1,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.60546875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 2,
 		chapter_safe = 0,
 		air_dominance = 24,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 104,
+		icon_outline = 0,
 		pre_chapter = 103,
 		star_require_1 = 1,
 		pos_y = "0.446875",
@@ -982,6 +1036,7 @@ pg.chapter_template = {
 		investigation_ratio = 8,
 		num_2 = 7,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -992,7 +1047,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -1185,6 +1239,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"chicheng",
@@ -1423,22 +1495,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[201] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 2,
 		progress_boss = 70,
-		pos_x = "0.6265625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6265625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 2,
 		chapter_safe = 0,
 		air_dominance = 45,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 201,
+		icon_outline = 0,
 		pre_chapter = 104,
 		star_require_1 = 1,
 		pos_y = "0.15625",
@@ -1447,6 +1519,7 @@ pg.chapter_template = {
 		investigation_ratio = 10,
 		num_2 = 10,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 2,
 		uifx = "",
@@ -1457,7 +1530,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 2,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -1708,6 +1780,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"qingye"
@@ -1983,22 +2073,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[202] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 2,
 		progress_boss = 60,
-		pos_x = "0.575",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.575",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 2,
 		chapter_safe = 0,
 		air_dominance = 55,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 202,
+		icon_outline = 0,
 		pre_chapter = 201,
 		star_require_1 = 1,
 		pos_y = "0.436458333",
@@ -2007,6 +2097,7 @@ pg.chapter_template = {
 		investigation_ratio = 10,
 		num_2 = 12,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 10,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -2017,7 +2108,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -2269,6 +2359,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"ruihe"
@@ -2596,22 +2704,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[203] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 2,
 		progress_boss = 50,
-		pos_x = "0.21484375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.21484375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 2,
 		chapter_safe = 0,
 		air_dominance = 65,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 203,
+		icon_outline = 0,
 		pre_chapter = 202,
 		star_require_1 = 1,
 		pos_y = "0.35",
@@ -2620,6 +2728,7 @@ pg.chapter_template = {
 		investigation_ratio = 11,
 		num_2 = 12,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 10,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -2630,7 +2739,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -2882,6 +2990,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xiangfeng"
@@ -3186,22 +3312,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[204] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 3,
 		progress_boss = 50,
-		pos_x = "0.28984375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.28984375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 3,
 		chapter_safe = 0,
 		air_dominance = 80,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 204,
+		icon_outline = 0,
 		pre_chapter = 203,
 		star_require_1 = 1,
 		pos_y = "0.0625",
@@ -3210,6 +3336,7 @@ pg.chapter_template = {
 		investigation_ratio = 12,
 		num_2 = 12,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 10,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -3220,7 +3347,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -3472,6 +3598,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xianghe"
@@ -3746,22 +3890,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[301] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 3,
 		progress_boss = 50,
-		pos_x = "0.3046875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.3046875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 3,
 		chapter_safe = 0,
 		air_dominance = 110,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 301,
+		icon_outline = 0,
 		pre_chapter = 204,
 		star_require_1 = 1,
 		pos_y = "0.403125",
@@ -3770,6 +3914,7 @@ pg.chapter_template = {
 		investigation_ratio = 14,
 		num_2 = 12,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 20,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -3780,7 +3925,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -4034,6 +4178,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"jiahe"
@@ -4327,22 +4489,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[302] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 3,
 		progress_boss = 50,
-		pos_x = "0.16953125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.16953125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 3,
 		chapter_safe = 0,
 		air_dominance = 125,
 		best_air_dominance = 165,
 		count = 0,
-		icon_outline = 0,
 		id = 302,
+		icon_outline = 0,
 		pre_chapter = 301,
 		star_require_1 = 1,
 		pos_y = "0.1125",
@@ -4351,6 +4513,7 @@ pg.chapter_template = {
 		investigation_ratio = 14,
 		num_2 = 12,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 20,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -4361,7 +4524,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -4615,6 +4777,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"chicheng"
@@ -4932,22 +5112,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[303] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 3,
 		progress_boss = 34,
-		pos_x = "0.60625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.60625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 3,
 		chapter_safe = 0,
 		air_dominance = 145,
 		best_air_dominance = 190,
 		count = 0,
-		icon_outline = 0,
 		id = 303,
+		icon_outline = 0,
 		pre_chapter = 302,
 		star_require_1 = 1,
 		pos_y = "0.491666667",
@@ -4956,6 +5136,7 @@ pg.chapter_template = {
 		investigation_ratio = 15,
 		num_2 = 12,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 20,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -4966,7 +5147,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -5220,6 +5400,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"canglong"
@@ -5532,22 +5730,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[304] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 34,
-		pos_x = "0.46953125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.46953125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 175,
 		best_air_dominance = 230,
 		count = 0,
-		icon_outline = 0,
 		id = 304,
+		icon_outline = 0,
 		pre_chapter = 303,
 		star_require_1 = 1,
 		pos_y = "0.254166667",
@@ -5556,6 +5754,7 @@ pg.chapter_template = {
 		investigation_ratio = 16,
 		num_2 = 12,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 20,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -5566,7 +5765,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -5820,6 +6018,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"feilong"
@@ -6118,22 +6334,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[305] = {
-		num_3 = 0,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 34,
-		pos_x = "0.5734375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.5734375",
 		activate_time = 43200,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 175,
 		best_air_dominance = 230,
 		count = 0,
-		icon_outline = 0,
 		id = 305,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 0,
 		pos_y = "0.091666667",
@@ -6142,6 +6358,7 @@ pg.chapter_template = {
 		investigation_ratio = 16,
 		num_2 = 0,
 		land_based = "",
+		num_3 = 0,
 		unlocklevel = 20,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -6152,7 +6369,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -6406,6 +6622,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"i19"
@@ -6769,22 +7003,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[401] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 34,
-		pos_x = "0.17578125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.17578125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 120,
 		best_air_dominance = 160,
 		count = 0,
-		icon_outline = 0,
 		id = 401,
+		icon_outline = 0,
 		pre_chapter = 304,
 		star_require_1 = 1,
 		pos_y = "0.313541667",
@@ -6793,6 +7027,7 @@ pg.chapter_template = {
 		investigation_ratio = 18,
 		num_2 = 15,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 25,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -6803,7 +7038,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -6933,6 +7167,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"qingye"
@@ -7267,22 +7519,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[402] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 34,
-		pos_x = "0.31953125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.31953125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 135,
 		best_air_dominance = 180,
 		count = 0,
-		icon_outline = 0,
 		id = 402,
+		icon_outline = 0,
 		pre_chapter = 401,
 		star_require_1 = 1,
 		pos_y = "0.140625",
@@ -7291,6 +7543,7 @@ pg.chapter_template = {
 		investigation_ratio = 18,
 		num_2 = 15,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 25,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -7301,7 +7554,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -7431,6 +7683,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"guying"
@@ -7758,22 +8028,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[403] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 34,
-		pos_x = "0.6328125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6328125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 155,
 		best_air_dominance = 205,
 		count = 0,
-		icon_outline = 0,
 		id = 403,
+		icon_outline = 0,
 		pre_chapter = 402,
 		star_require_1 = 1,
 		pos_y = "0.061458333",
@@ -7782,6 +8052,7 @@ pg.chapter_template = {
 		investigation_ratio = 19,
 		num_2 = 15,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 25,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -7792,7 +8063,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -7922,6 +8192,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"longxiang"
@@ -8194,22 +8482,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[404] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 34,
-		pos_x = "0.59921875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.59921875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 180,
 		best_air_dominance = 235,
 		count = 0,
-		icon_outline = 0,
 		id = 404,
+		icon_outline = 0,
 		pre_chapter = 403,
 		star_require_1 = 1,
 		pos_y = "0.328125",
@@ -8218,6 +8506,7 @@ pg.chapter_template = {
 		investigation_ratio = 20,
 		num_2 = 18,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 25,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -8228,7 +8517,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -8359,6 +8647,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xianghe"
@@ -8767,22 +9073,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[405] = {
-		num_3 = 0,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 34,
-		pos_x = "0.365625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.365625",
 		activate_time = 43200,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 180,
 		best_air_dominance = 235,
 		count = 0,
-		icon_outline = 0,
 		id = 405,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 0,
 		pos_y = "0.458333333",
@@ -8791,6 +9097,7 @@ pg.chapter_template = {
 		investigation_ratio = 20,
 		num_2 = 0,
 		land_based = "",
+		num_3 = 0,
 		unlocklevel = 25,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -8801,7 +9108,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -8932,6 +9238,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"i19"
@@ -9391,22 +9715,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[501] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 34,
-		pos_x = "0.17890625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.17890625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 215,
 		best_air_dominance = 280,
 		count = 0,
-		icon_outline = 0,
 		id = 501,
+		icon_outline = 0,
 		pre_chapter = 404,
 		star_require_1 = 1,
 		pos_y = "0.25",
@@ -9415,6 +9739,7 @@ pg.chapter_template = {
 		investigation_ratio = 22,
 		num_2 = 18,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 30,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -9425,7 +9750,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -9556,6 +9880,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"miaogao"
@@ -9969,22 +10311,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[502] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 34,
-		pos_x = "0.65859375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.65859375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 250,
 		best_air_dominance = 325,
 		count = 0,
-		icon_outline = 0,
 		id = 502,
+		icon_outline = 0,
 		pre_chapter = 501,
 		star_require_1 = 1,
 		pos_y = "0.071875",
@@ -9993,6 +10335,7 @@ pg.chapter_template = {
 		investigation_ratio = 22,
 		num_2 = 18,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 30,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -10003,7 +10346,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -10134,6 +10476,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"ligen"
@@ -10485,22 +10845,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[503] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.56640625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.56640625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 295,
 		best_air_dominance = 385,
 		count = 0,
-		icon_outline = 0,
 		id = 503,
+		icon_outline = 0,
 		pre_chapter = 502,
 		star_require_1 = 1,
 		pos_y = "0.25",
@@ -10509,6 +10869,7 @@ pg.chapter_template = {
 		investigation_ratio = 23,
 		num_2 = 18,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 30,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -10519,7 +10880,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -10650,6 +11010,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xianghe"
@@ -10971,22 +11349,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[504] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.45234375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.45234375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 345,
 		best_air_dominance = 450,
 		count = 0,
-		icon_outline = 0,
 		id = 504,
+		icon_outline = 0,
 		pre_chapter = 503,
 		star_require_1 = 1,
 		pos_y = "0.408333333",
@@ -10995,6 +11373,7 @@ pg.chapter_template = {
 		investigation_ratio = 24,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 30,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -11005,7 +11384,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -11136,6 +11514,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"ruihe"
@@ -11482,22 +11878,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[505] = {
-		num_3 = 0,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.309375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.309375",
 		activate_time = 43200,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 345,
 		best_air_dominance = 450,
 		count = 0,
-		icon_outline = 0,
 		id = 505,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 0,
 		pos_y = "0.071875",
@@ -11506,6 +11902,7 @@ pg.chapter_template = {
 		investigation_ratio = 24,
 		num_2 = 0,
 		land_based = "",
+		num_3 = 0,
 		unlocklevel = 30,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -11516,7 +11913,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -11647,6 +12043,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"i19"
@@ -12044,22 +12458,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[601] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.70390625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.70390625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 225,
 		best_air_dominance = 295,
 		count = 0,
-		icon_outline = 0,
 		id = 601,
+		icon_outline = 0,
 		pre_chapter = 504,
 		star_require_1 = 1,
 		pos_y = "0.113541667",
@@ -12068,6 +12482,7 @@ pg.chapter_template = {
 		investigation_ratio = 26,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 40,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -12078,7 +12493,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -12209,6 +12623,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"yili"
@@ -12593,22 +13025,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[602] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.5390625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.5390625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 255,
 		best_air_dominance = 335,
 		count = 0,
-		icon_outline = 0,
 		id = 602,
+		icon_outline = 0,
 		pre_chapter = 601,
 		star_require_1 = 1,
 		pos_y = "0.273958333",
@@ -12617,6 +13049,7 @@ pg.chapter_template = {
 		investigation_ratio = 26,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 40,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -12627,7 +13060,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -12758,6 +13190,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"birui"
@@ -13198,22 +13648,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[603] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.32265625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.32265625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 290,
 		best_air_dominance = 380,
 		count = 0,
-		icon_outline = 0,
 		id = 603,
+		icon_outline = 0,
 		pre_chapter = 602,
 		star_require_1 = 1,
 		pos_y = "0.40625",
@@ -13222,6 +13672,7 @@ pg.chapter_template = {
 		investigation_ratio = 27,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 40,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -13232,7 +13683,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -13363,6 +13813,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"wudao"
@@ -13727,22 +14195,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[604] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.221875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.221875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 325,
 		best_air_dominance = 425,
 		count = 0,
-		icon_outline = 0,
 		id = 604,
+		icon_outline = 0,
 		pre_chapter = 603,
 		star_require_1 = 1,
 		pos_y = "0.186458333",
@@ -13751,6 +14219,7 @@ pg.chapter_template = {
 		investigation_ratio = 28,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 40,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -13761,7 +14230,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -13892,6 +14360,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xili"
@@ -14300,22 +14786,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[605] = {
-		num_3 = 0,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.68828125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.68828125",
 		activate_time = 43200,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 325,
 		best_air_dominance = 425,
 		count = 0,
-		icon_outline = 0,
 		id = 605,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 0,
 		pos_y = "0.470833333",
@@ -14324,6 +14810,7 @@ pg.chapter_template = {
 		investigation_ratio = 28,
 		num_2 = 0,
 		land_based = "",
+		num_3 = 0,
 		unlocklevel = 40,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -14334,7 +14821,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -14465,6 +14951,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"i26"
@@ -14872,22 +15376,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[701] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.153125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.153125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 370,
 		best_air_dominance = 485,
 		count = 0,
-		icon_outline = 0,
 		id = 701,
+		icon_outline = 0,
 		pre_chapter = 604,
 		star_require_1 = 1,
 		pos_y = "0.130208333",
@@ -14896,6 +15400,7 @@ pg.chapter_template = {
 		investigation_ratio = 30,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 50,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -14906,7 +15411,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -15022,6 +15526,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"buzhihuo"
@@ -15268,22 +15790,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[702] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.35078125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.35078125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 425,
 		best_air_dominance = 555,
 		count = 0,
-		icon_outline = 0,
 		id = 702,
+		icon_outline = 0,
 		pre_chapter = 701,
 		star_require_1 = 1,
 		pos_y = "0.442708333",
@@ -15292,6 +15814,7 @@ pg.chapter_template = {
 		investigation_ratio = 30,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 50,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -15302,7 +15825,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -15418,6 +15940,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"yangyan"
@@ -15767,22 +16307,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[703] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.6328125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6328125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 480,
 		best_air_dominance = 625,
 		count = 0,
-		icon_outline = 0,
 		id = 703,
+		icon_outline = 0,
 		pre_chapter = 702,
 		star_require_1 = 1,
 		pos_y = "0.335416667",
@@ -15791,6 +16331,7 @@ pg.chapter_template = {
 		investigation_ratio = 31,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 50,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -15801,7 +16342,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -15917,6 +16457,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"bailu",
@@ -16337,22 +16895,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[704] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.728125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.728125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 535,
 		best_air_dominance = 700,
 		count = 0,
-		icon_outline = 0,
 		id = 704,
+		icon_outline = 0,
 		pre_chapter = 703,
 		star_require_1 = 1,
 		pos_y = "0.163541667",
@@ -16361,6 +16919,7 @@ pg.chapter_template = {
 		investigation_ratio = 32,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 50,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -16371,7 +16930,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -16487,6 +17045,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xuefeng"
@@ -16891,22 +17467,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[705] = {
-		num_3 = 0,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.225",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.225",
 		activate_time = 43200,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 535,
 		best_air_dominance = 700,
 		count = 0,
-		icon_outline = 0,
 		id = 705,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 0,
 		pos_y = "0.291666667",
@@ -16915,6 +17491,7 @@ pg.chapter_template = {
 		investigation_ratio = 32,
 		num_2 = 0,
 		land_based = "",
+		num_3 = 0,
 		unlocklevel = 50,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -16925,7 +17502,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -17041,6 +17617,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"i26"
@@ -17448,22 +18042,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[801] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.41953125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.41953125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 590,
 		best_air_dominance = 770,
 		count = 0,
-		icon_outline = 0,
 		id = 801,
+		icon_outline = 0,
 		pre_chapter = 704,
 		star_require_1 = 1,
 		pos_y = "0.436458333",
@@ -17472,6 +18066,7 @@ pg.chapter_template = {
 		investigation_ratio = 31,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 60,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -17482,7 +18077,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -17598,6 +18192,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"dian"
@@ -17866,22 +18478,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[802] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.2046875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.2046875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 650,
 		best_air_dominance = 845,
 		count = 0,
-		icon_outline = 0,
 		id = 802,
+		icon_outline = 0,
 		pre_chapter = 801,
 		star_require_1 = 1,
 		pos_y = "0.258333333",
@@ -17890,6 +18502,7 @@ pg.chapter_template = {
 		investigation_ratio = 31,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 60,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -17900,7 +18513,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -18016,6 +18628,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"lei"
@@ -18370,22 +19000,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[803] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.2546875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.2546875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 710,
 		best_air_dominance = 925,
 		count = 0,
-		icon_outline = 0,
 		id = 803,
+		icon_outline = 0,
 		pre_chapter = 802,
 		star_require_1 = 1,
 		pos_y = "0.041666667",
@@ -18394,6 +19024,7 @@ pg.chapter_template = {
 		investigation_ratio = 32,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 60,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -18404,7 +19035,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -18520,6 +19150,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"nazhi"
@@ -18937,22 +19585,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[804] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.6015625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6015625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 770,
 		best_air_dominance = 1005,
 		count = 0,
-		icon_outline = 0,
 		id = 804,
+		icon_outline = 0,
 		pre_chapter = 803,
 		star_require_1 = 1,
 		pos_y = "0.153125",
@@ -18961,6 +19609,7 @@ pg.chapter_template = {
 		investigation_ratio = 33,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 60,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -18971,7 +19620,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -19087,6 +19735,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"moye"
@@ -19567,22 +20233,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[805] = {
-		num_3 = 0,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.66796875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.66796875",
 		activate_time = 43200,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 770,
 		best_air_dominance = 1005,
 		count = 0,
-		icon_outline = 0,
 		id = 805,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 0,
 		pos_y = "0.338541667",
@@ -19591,6 +20257,7 @@ pg.chapter_template = {
 		investigation_ratio = 33,
 		num_2 = 0,
 		land_based = "",
+		num_3 = 0,
 		unlocklevel = 60,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -19601,7 +20268,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -19717,6 +20383,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"i26"
@@ -20186,22 +20870,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[901] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.17890625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.17890625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 840,
 		best_air_dominance = 1095,
 		count = 0,
-		icon_outline = 0,
 		id = 901,
+		icon_outline = 0,
 		pre_chapter = 804,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
@@ -20210,6 +20894,7 @@ pg.chapter_template = {
 		investigation_ratio = 32,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 65,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -20220,7 +20905,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -20338,6 +21022,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"gufeng"
@@ -20698,22 +21400,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[902] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.28671875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.28671875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 915,
 		best_air_dominance = 1190,
 		count = 0,
-		icon_outline = 0,
 		id = 902,
+		icon_outline = 0,
 		pre_chapter = 901,
 		star_require_1 = 1,
 		pos_y = "0.122916667",
@@ -20722,6 +21424,7 @@ pg.chapter_template = {
 		investigation_ratio = 32,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 65,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -20732,7 +21435,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -20850,6 +21552,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"bangfeng"
@@ -21248,22 +21968,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[903] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 20,
-		pos_x = "0.6046875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6046875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 990,
 		best_air_dominance = 1290,
 		count = 0,
-		icon_outline = 0,
 		id = 903,
+		icon_outline = 0,
 		pre_chapter = 902,
 		star_require_1 = 1,
 		pos_y = "0.35625",
@@ -21272,6 +21992,7 @@ pg.chapter_template = {
 		investigation_ratio = 33,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 65,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -21282,7 +22003,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -21400,6 +22120,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"qinchao"
@@ -21822,22 +22560,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[904] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 20,
-		pos_x = "0.70703125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.70703125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 1065,
 		best_air_dominance = 1385,
 		count = 0,
-		icon_outline = 0,
 		id = 904,
+		icon_outline = 0,
 		pre_chapter = 903,
 		star_require_1 = 1,
 		pos_y = "0.09375",
@@ -21846,6 +22584,7 @@ pg.chapter_template = {
 		investigation_ratio = 34,
 		num_2 = 40,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 65,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -21856,7 +22595,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -21974,6 +22712,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xinyue_jp"
@@ -22418,22 +23174,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[905] = {
-		num_3 = 0,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 20,
-		pos_x = "0.44921875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.44921875",
 		activate_time = 43200,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 1065,
 		best_air_dominance = 1385,
 		count = 0,
-		icon_outline = 0,
 		id = 905,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 0,
 		pos_y = "0.238541667",
@@ -22442,6 +23198,7 @@ pg.chapter_template = {
 		investigation_ratio = 34,
 		num_2 = 0,
 		land_based = "",
+		num_3 = 0,
 		unlocklevel = 65,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -22452,7 +23209,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -22570,6 +23326,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"i58"
@@ -23024,22 +23798,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1001] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.14609375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.14609375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 1155,
 		best_air_dominance = 1505,
 		count = 0,
-		icon_outline = 0,
 		id = 1001,
+		icon_outline = 0,
 		pre_chapter = 904,
 		star_require_1 = 1,
 		pos_y = "0.380208333",
@@ -23048,6 +23822,7 @@ pg.chapter_template = {
 		investigation_ratio = 33,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 70,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -23058,7 +23833,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -23175,6 +23949,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"ximu",
@@ -23555,22 +24347,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1002] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.35234375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.35234375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 1250,
 		best_air_dominance = 1625,
 		count = 0,
-		icon_outline = 0,
 		id = 1002,
+		icon_outline = 0,
 		pre_chapter = 1001,
 		star_require_1 = 1,
 		pos_y = "0.234375",
@@ -23579,6 +24371,7 @@ pg.chapter_template = {
 		investigation_ratio = 33,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 70,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -23589,7 +24382,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -23706,6 +24498,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"bangfeng"
@@ -24142,22 +24952,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1003] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 20,
-		pos_x = "0.49453125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.49453125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 1345,
 		best_air_dominance = 1750,
 		count = 0,
-		icon_outline = 0,
 		id = 1003,
+		icon_outline = 0,
 		pre_chapter = 1002,
 		star_require_1 = 1,
 		pos_y = "0.070833333",
@@ -24166,6 +24976,7 @@ pg.chapter_template = {
 		investigation_ratio = 34,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 70,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -24176,7 +24987,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -24294,6 +25104,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xuefeng"
@@ -24746,22 +25574,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1004] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 20,
-		pos_x = "0.571875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.571875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 1440,
 		best_air_dominance = 1875,
 		count = 0,
-		icon_outline = 0,
 		id = 1004,
+		icon_outline = 0,
 		pre_chapter = 1003,
 		star_require_1 = 1,
 		pos_y = "0.378125",
@@ -24770,6 +25598,7 @@ pg.chapter_template = {
 		investigation_ratio = 35,
 		num_2 = 40,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 70,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -24780,7 +25609,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -24899,6 +25727,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"shentong"
@@ -25364,22 +26210,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1005] = {
-		num_3 = 0,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 20,
-		pos_x = "0.6859375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6859375",
 		activate_time = 43200,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 1440,
 		best_air_dominance = 1875,
 		count = 0,
-		icon_outline = 0,
 		id = 1005,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 0,
 		pos_y = "0.196875",
@@ -25388,6 +26234,7 @@ pg.chapter_template = {
 		investigation_ratio = 35,
 		num_2 = 0,
 		land_based = "",
+		num_3 = 0,
 		unlocklevel = 70,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -25398,7 +26245,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -25517,6 +26363,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"i58"
@@ -25971,22 +26835,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1101] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.22734375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.22734375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 1520,
 		best_air_dominance = 1980,
 		count = 0,
-		icon_outline = 0,
 		id = 1101,
+		icon_outline = 0,
 		pre_chapter = 1004,
 		star_require_1 = 1,
 		pos_y = "0.388541667",
@@ -25995,6 +26859,7 @@ pg.chapter_template = {
 		investigation_ratio = 34,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 75,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -26005,7 +26870,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -26121,6 +26985,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"bailu",
@@ -26551,22 +27433,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1102] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.32578125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.32578125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 1610,
 		best_air_dominance = 2095,
 		count = 0,
-		icon_outline = 0,
 		id = 1102,
+		icon_outline = 0,
 		pre_chapter = 1101,
 		star_require_1 = 1,
 		pos_y = "0.091666667",
@@ -26575,6 +27457,7 @@ pg.chapter_template = {
 		investigation_ratio = 34,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 75,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -26585,7 +27468,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -26702,6 +27584,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"miaogao"
@@ -27246,22 +28146,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1103] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 20,
-		pos_x = "0.55234375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.55234375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 1700,
 		best_air_dominance = 2210,
 		count = 0,
-		icon_outline = 0,
 		id = 1103,
+		icon_outline = 0,
 		pre_chapter = 1102,
 		star_require_1 = 1,
 		pos_y = "0.453125",
@@ -27270,6 +28170,7 @@ pg.chapter_template = {
 		investigation_ratio = 35,
 		num_2 = 40,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 75,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -27280,7 +28181,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -27398,6 +28298,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"maoyue",
@@ -27911,22 +28829,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1104] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 20,
-		pos_x = "0.6828125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6828125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 1790,
 		best_air_dominance = 2330,
 		count = 0,
-		icon_outline = 0,
 		id = 1104,
+		icon_outline = 0,
 		pre_chapter = 1103,
 		star_require_1 = 1,
 		pos_y = "0.167708333",
@@ -27935,6 +28853,7 @@ pg.chapter_template = {
 		investigation_ratio = 36,
 		num_2 = 45,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 75,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -27945,7 +28864,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -28064,6 +28982,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"chuannei"
@@ -28685,22 +29621,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1105] = {
-		num_3 = 0,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 20,
-		pos_x = "0.03515625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.03515625",
 		activate_time = 43200,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 1790,
 		best_air_dominance = 2330,
 		count = 0,
-		icon_outline = 0,
 		id = 1105,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 0,
 		pos_y = "0.5861111",
@@ -28709,6 +29645,7 @@ pg.chapter_template = {
 		investigation_ratio = 36,
 		num_2 = 0,
 		land_based = "",
+		num_3 = 0,
 		unlocklevel = 75,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -28719,7 +29656,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -28838,6 +29774,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"chuannei"
@@ -29466,22 +30420,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1201] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.14609375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.14609375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 1890,
 		best_air_dominance = 2460,
 		count = 0,
-		icon_outline = 0,
 		id = 1201,
+		icon_outline = 0,
 		pre_chapter = 1104,
 		star_require_1 = 1,
 		pos_y = "0.380208333",
@@ -29490,6 +30444,7 @@ pg.chapter_template = {
 		investigation_ratio = 35,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 80,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -29500,7 +30455,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -29616,6 +30570,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"miaogao"
@@ -30024,22 +30996,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1202] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.28671875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.28671875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 1995,
 		best_air_dominance = 2595,
 		count = 0,
-		icon_outline = 0,
 		id = 1202,
+		icon_outline = 0,
 		pre_chapter = 1201,
 		star_require_1 = 1,
 		pos_y = "0.122916667",
@@ -30048,6 +31020,7 @@ pg.chapter_template = {
 		investigation_ratio = 35,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 80,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -30058,7 +31031,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -30175,6 +31147,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"gufeng",
@@ -30695,22 +31685,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1203] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 20,
-		pos_x = "0.6046875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6046875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 2100,
 		best_air_dominance = 2730,
 		count = 0,
-		icon_outline = 0,
 		id = 1203,
+		icon_outline = 0,
 		pre_chapter = 1202,
 		star_require_1 = 1,
 		pos_y = "0.35625",
@@ -30719,6 +31709,7 @@ pg.chapter_template = {
 		investigation_ratio = 36,
 		num_2 = 40,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 80,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -30729,7 +31720,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -30847,6 +31837,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"feiying",
@@ -31402,22 +32410,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1204] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 20,
-		pos_x = "0.70703125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.70703125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 2205,
 		best_air_dominance = 2870,
 		count = 0,
-		icon_outline = 0,
 		id = 1204,
+		icon_outline = 0,
 		pre_chapter = 1203,
 		star_require_1 = 1,
 		pos_y = "0.09375",
@@ -31426,6 +32434,7 @@ pg.chapter_template = {
 		investigation_ratio = 37,
 		num_2 = 45,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 80,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -31436,7 +32445,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -31555,6 +32563,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"niaohai",
@@ -32225,22 +33251,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1205] = {
-		num_3 = 0,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 20,
-		pos_x = "0.03515625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.03515625",
 		activate_time = 43200,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 2205,
 		best_air_dominance = 2870,
 		count = 0,
-		icon_outline = 0,
 		id = 1205,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 0,
 		pos_y = "0.5861111",
@@ -32249,6 +33275,7 @@ pg.chapter_template = {
 		investigation_ratio = 37,
 		num_2 = 0,
 		land_based = "",
+		num_3 = 0,
 		unlocklevel = 80,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -32259,7 +33286,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -32378,6 +33404,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"niaohai",
@@ -33055,22 +34099,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1301] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.14609375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.14609375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 2315,
 		best_air_dominance = 3010,
 		count = 0,
-		icon_outline = 0,
 		id = 1301,
+		icon_outline = 0,
 		pre_chapter = 1204,
 		star_require_1 = 1,
 		pos_y = "0.380208333",
@@ -33078,6 +34122,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 36,
 		num_2 = 30,
+		num_3 = 1,
 		unlocklevel = 85,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -33088,7 +34133,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -33219,6 +34263,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"zuishang_g"
@@ -33621,22 +34683,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1302] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 25,
-		pos_x = "0.28671875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.28671875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 2450,
 		best_air_dominance = 3185,
 		count = 0,
-		icon_outline = 0,
 		id = 1302,
+		icon_outline = 0,
 		pre_chapter = 1301,
 		star_require_1 = 1,
 		pos_y = "0.122916667",
@@ -33644,6 +34706,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 36,
 		num_2 = 35,
+		num_3 = 1,
 		unlocklevel = 85,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -33654,7 +34717,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -33786,6 +34848,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xianghe"
@@ -34292,22 +35372,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1303] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 20,
-		pos_x = "0.6046875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6046875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 2585,
 		best_air_dominance = 3365,
 		count = 0,
-		icon_outline = 0,
 		id = 1303,
+		icon_outline = 0,
 		pre_chapter = 1302,
 		star_require_1 = 1,
 		pos_y = "0.35625",
@@ -34315,6 +35395,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 37,
 		num_2 = 40,
+		num_3 = 1,
 		unlocklevel = 85,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -34325,7 +35406,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -34458,6 +35538,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xianghe",
@@ -35007,22 +36105,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1304] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 4,
 		progress_boss = 18,
-		pos_x = "0.70703125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.70703125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
 		chapter_safe = 0,
 		air_dominance = 2720,
 		best_air_dominance = 3540,
 		count = 0,
-		icon_outline = 0,
 		id = 1304,
+		icon_outline = 0,
 		pre_chapter = 1303,
 		star_require_1 = 1,
 		pos_y = "0.09375",
@@ -35030,6 +36128,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 38,
 		num_2 = 50,
+		num_3 = 1,
 		unlocklevel = 85,
 		boss_refresh_special = 7,
 		uifx = "",
@@ -35040,7 +36139,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 7,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -35175,6 +36273,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"dafeng"
@@ -35831,22 +36947,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10000] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.35625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.35625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 81,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 10000,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.43125",
@@ -35855,6 +36971,7 @@ pg.chapter_template = {
 		investigation_ratio = 16,
 		num_2 = 5,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 15,
 		boss_refresh_special = 2,
 		uifx = "",
@@ -35865,7 +36982,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 2,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -35955,6 +37071,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"jingang"
@@ -36207,22 +37341,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10001] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 42,
-		pos_x = "0.58203125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.58203125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 100,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 10001,
+		icon_outline = 0,
 		pre_chapter = 10000,
 		star_require_1 = 1,
 		pos_y = "0.294791667",
@@ -36231,6 +37365,7 @@ pg.chapter_template = {
 		investigation_ratio = 17,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 15,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -36241,7 +37376,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -36344,6 +37478,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"jingang"
@@ -36651,22 +37803,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10002] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 28,
-		pos_x = "0.44921875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.44921875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 120,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 10002,
+		icon_outline = 0,
 		pre_chapter = 10001,
 		star_require_1 = 1,
 		pos_y = "0.080208333",
@@ -36675,6 +37827,7 @@ pg.chapter_template = {
 		investigation_ratio = 18,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 15,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -36685,7 +37838,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -36788,6 +37940,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"aidang"
@@ -37125,22 +38295,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10101] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.10703125",
+		oil = 10,
 		group_num = 1,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.10703125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10101,
 		air_dominance = 45,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 10101,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.157291667",
@@ -37149,6 +38319,7 @@ pg.chapter_template = {
 		investigation_ratio = 6,
 		num_2 = 3,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 10,
 		boss_refresh_special = 1,
 		uifx = "UIhuohua2",
@@ -37159,7 +38330,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 1,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -37264,6 +38434,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"dahuangfeng"
@@ -37396,22 +38584,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10102] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.34609375",
+		oil = 10,
 		group_num = 1,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.34609375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10102,
 		air_dominance = 50,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 10102,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.347916667",
@@ -37420,6 +38608,7 @@ pg.chapter_template = {
 		investigation_ratio = 6,
 		num_2 = 5,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 10,
 		boss_refresh_special = 2,
 		uifx = "UIhuohua2",
@@ -37430,7 +38619,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 2,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -37566,6 +38754,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"ligen"
@@ -37774,22 +38980,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10103] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.50546875",
+		oil = 10,
 		group_num = 1,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.50546875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10103,
 		air_dominance = 60,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 10103,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.080208333",
@@ -37798,6 +39004,7 @@ pg.chapter_template = {
 		investigation_ratio = 7,
 		num_2 = 5,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 10,
 		boss_refresh_special = 2,
 		uifx = "UIhuohua2",
@@ -37808,7 +39015,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 2,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -37962,6 +39168,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"wudao"
@@ -38188,22 +39412,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10104] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 80,
-		pos_x = "0.60546875",
+		oil = 10,
 		group_num = 1,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.60546875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10104,
 		air_dominance = 80,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 10104,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.446875",
@@ -38212,6 +39436,7 @@ pg.chapter_template = {
 		investigation_ratio = 8,
 		num_2 = 7,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 10,
 		boss_refresh_special = 3,
 		uifx = "UIhuohua2",
@@ -38222,7 +39447,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -38444,6 +39668,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"chicheng",
@@ -38685,22 +39927,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10201] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 70,
-		pos_x = "0.6265625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6265625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10201,
 		air_dominance = 110,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 10201,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.15625",
@@ -38709,6 +39951,7 @@ pg.chapter_template = {
 		investigation_ratio = 10,
 		num_2 = 10,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 20,
 		boss_refresh_special = 2,
 		uifx = "UIhuohua2",
@@ -38719,7 +39962,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 2,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -39012,6 +40254,24 @@ pg.chapter_template = {
 		submarine_refresh = {
 			0
 		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
+		},
 		icon = {
 			"qingye"
 		},
@@ -39282,22 +40542,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10202] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 60,
-		pos_x = "0.575",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.575",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10202,
 		air_dominance = 135,
 		best_air_dominance = 180,
 		count = 0,
-		icon_outline = 0,
 		id = 10202,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.436458333",
@@ -39306,6 +40566,7 @@ pg.chapter_template = {
 		investigation_ratio = 10,
 		num_2 = 12,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 20,
 		boss_refresh_special = 3,
 		uifx = "UIhuohua2",
@@ -39316,7 +40577,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -39609,6 +40869,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"ruihe"
@@ -39932,22 +41210,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10203] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 50,
-		pos_x = "0.21484375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.21484375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10203,
 		air_dominance = 160,
 		best_air_dominance = 210,
 		count = 0,
-		icon_outline = 0,
 		id = 10203,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.35",
@@ -39956,6 +41234,7 @@ pg.chapter_template = {
 		investigation_ratio = 11,
 		num_2 = 12,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 20,
 		boss_refresh_special = 3,
 		uifx = "UIhuohua2",
@@ -39966,7 +41245,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -40259,6 +41537,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xiangfeng"
@@ -40559,22 +41855,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10204] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 50,
-		pos_x = "0.28984375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.28984375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10204,
 		air_dominance = 190,
 		best_air_dominance = 250,
 		count = 0,
-		icon_outline = 0,
 		id = 10204,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.0625",
@@ -40583,6 +41879,7 @@ pg.chapter_template = {
 		investigation_ratio = 12,
 		num_2 = 12,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 20,
 		boss_refresh_special = 3,
 		uifx = "UIhuohua2",
@@ -40593,7 +41890,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 3,
@@ -40887,6 +42183,24 @@ pg.chapter_template = {
 		submarine_refresh = {
 			0
 		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
+		},
 		icon = {
 			"xianghe"
 		},
@@ -41156,22 +42470,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10301] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 50,
-		pos_x = "0.3046875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.3046875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10301,
 		air_dominance = 245,
 		best_air_dominance = 320,
 		count = 0,
-		icon_outline = 0,
 		id = 10301,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.403125",
@@ -41180,6 +42494,7 @@ pg.chapter_template = {
 		investigation_ratio = 14,
 		num_2 = 12,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 25,
 		boss_refresh_special = 3,
 		uifx = "UIhuohua2",
@@ -41190,7 +42505,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -41486,6 +42800,24 @@ pg.chapter_template = {
 		submarine_refresh = {
 			0
 		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
+		},
 		icon = {
 			"jiahe"
 		},
@@ -41774,22 +43106,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10302] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 50,
-		pos_x = "0.16953125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.16953125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10302,
 		air_dominance = 285,
 		best_air_dominance = 375,
 		count = 0,
-		icon_outline = 0,
 		id = 10302,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.1125",
@@ -41798,6 +43130,7 @@ pg.chapter_template = {
 		investigation_ratio = 14,
 		num_2 = 12,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 25,
 		boss_refresh_special = 3,
 		uifx = "UIhuohua2",
@@ -41808,7 +43141,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -42103,6 +43435,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"chicheng"
@@ -42416,22 +43766,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10303] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.60625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.60625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10303,
 		air_dominance = 330,
 		best_air_dominance = 430,
 		count = 0,
-		icon_outline = 0,
 		id = 10303,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.491666667",
@@ -42440,6 +43790,7 @@ pg.chapter_template = {
 		investigation_ratio = 15,
 		num_2 = 12,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 25,
 		boss_refresh_special = 3,
 		uifx = "UIhuohua2",
@@ -42450,7 +43801,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -42745,6 +44095,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"canglong"
@@ -43053,22 +44421,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10304] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.46953125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.46953125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10304,
 		air_dominance = 380,
 		best_air_dominance = 495,
 		count = 0,
-		icon_outline = 0,
 		id = 10304,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.254166667",
@@ -43077,6 +44445,7 @@ pg.chapter_template = {
 		investigation_ratio = 16,
 		num_2 = 12,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 25,
 		boss_refresh_special = 3,
 		uifx = "UIhuohua2",
@@ -43087,7 +44456,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -43383,6 +44751,24 @@ pg.chapter_template = {
 		submarine_refresh = {
 			0
 		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
+		},
 		icon = {
 			"feilong"
 		},
@@ -43676,22 +45062,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10401] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.17578125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.17578125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10401,
 		air_dominance = 190,
 		best_air_dominance = 250,
 		count = 0,
-		icon_outline = 0,
 		id = 10401,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.313541667",
@@ -43700,6 +45086,7 @@ pg.chapter_template = {
 		investigation_ratio = 18,
 		num_2 = 15,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 30,
 		boss_refresh_special = 3,
 		uifx = "UIhuohua2",
@@ -43710,7 +45097,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -43879,6 +45265,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"qingye"
@@ -44216,22 +45620,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10402] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.31953125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.31953125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10402,
 		air_dominance = 220,
 		best_air_dominance = 290,
 		count = 0,
-		icon_outline = 0,
 		id = 10402,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.140625",
@@ -44240,6 +45644,7 @@ pg.chapter_template = {
 		investigation_ratio = 18,
 		num_2 = 15,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 30,
 		boss_refresh_special = 3,
 		uifx = "UIhuohua2",
@@ -44250,7 +45655,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -44419,6 +45823,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"guying"
@@ -44749,22 +46171,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10403] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.6328125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6328125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10403,
 		air_dominance = 250,
 		best_air_dominance = 325,
 		count = 0,
-		icon_outline = 0,
 		id = 10403,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.061458333",
@@ -44773,6 +46195,7 @@ pg.chapter_template = {
 		investigation_ratio = 19,
 		num_2 = 15,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 30,
 		boss_refresh_special = 3,
 		uifx = "UIhuohua2",
@@ -44783,7 +46206,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -44952,6 +46374,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"longxiang"
@@ -45227,22 +46667,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10404] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.59921875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.59921875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10404,
 		air_dominance = 285,
 		best_air_dominance = 375,
 		count = 0,
-		icon_outline = 0,
 		id = 10404,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.328125",
@@ -45251,6 +46691,7 @@ pg.chapter_template = {
 		investigation_ratio = 20,
 		num_2 = 18,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 30,
 		boss_refresh_special = 4,
 		uifx = "UIhuohua2",
@@ -45261,7 +46702,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -45431,6 +46871,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xianghe"
@@ -45842,22 +47300,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10501] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.17890625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.17890625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10501,
 		air_dominance = 340,
 		best_air_dominance = 445,
 		count = 0,
-		icon_outline = 0,
 		id = 10501,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.25",
@@ -45866,6 +47324,7 @@ pg.chapter_template = {
 		investigation_ratio = 22,
 		num_2 = 18,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 40,
 		boss_refresh_special = 4,
 		uifx = "UIhuohua2",
@@ -45876,7 +47335,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -46046,6 +47504,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"miaogao"
@@ -46462,22 +47938,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10502] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.65859375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.65859375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10502,
 		air_dominance = 380,
 		best_air_dominance = 495,
 		count = 0,
-		icon_outline = 0,
 		id = 10502,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.071875",
@@ -46486,6 +47962,7 @@ pg.chapter_template = {
 		investigation_ratio = 22,
 		num_2 = 18,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 40,
 		boss_refresh_special = 4,
 		uifx = "UIhuohua2",
@@ -46496,7 +47973,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -46666,6 +48142,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"ligen"
@@ -47020,22 +48514,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10503] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.56640625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.56640625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10503,
 		air_dominance = 425,
 		best_air_dominance = 555,
 		count = 0,
-		icon_outline = 0,
 		id = 10503,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.25",
@@ -47044,6 +48538,7 @@ pg.chapter_template = {
 		investigation_ratio = 23,
 		num_2 = 18,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 40,
 		boss_refresh_special = 4,
 		uifx = "UIhuohua2",
@@ -47054,7 +48549,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -47224,6 +48718,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xianghe"
@@ -47548,22 +49060,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10504] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.45234375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.45234375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10504,
 		air_dominance = 475,
 		best_air_dominance = 620,
 		count = 0,
-		icon_outline = 0,
 		id = 10504,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.408333333",
@@ -47572,6 +49084,7 @@ pg.chapter_template = {
 		investigation_ratio = 24,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 40,
 		boss_refresh_special = 4,
 		uifx = "UIhuohua2",
@@ -47582,7 +49095,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -47752,6 +49264,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"ruihe"
@@ -48101,22 +49631,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10601] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.70390625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.70390625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10601,
 		air_dominance = 445,
 		best_air_dominance = 580,
 		count = 0,
-		icon_outline = 0,
 		id = 10601,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.113541667",
@@ -48125,6 +49655,7 @@ pg.chapter_template = {
 		investigation_ratio = 26,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 50,
 		boss_refresh_special = 4,
 		uifx = "UIhuohua2",
@@ -48135,7 +49666,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -48305,6 +49835,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"yili"
@@ -48693,22 +50241,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10602] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.5390625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.5390625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10602,
 		air_dominance = 510,
 		best_air_dominance = 665,
 		count = 0,
-		icon_outline = 0,
 		id = 10602,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.273958333",
@@ -48717,6 +50265,7 @@ pg.chapter_template = {
 		investigation_ratio = 26,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 50,
 		boss_refresh_special = 4,
 		uifx = "UIhuohua2",
@@ -48727,7 +50276,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -48897,6 +50445,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"birui"
@@ -49341,22 +50907,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10603] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.32265625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.32265625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10603,
 		air_dominance = 575,
 		best_air_dominance = 750,
 		count = 0,
-		icon_outline = 0,
 		id = 10603,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.40625",
@@ -49365,6 +50931,7 @@ pg.chapter_template = {
 		investigation_ratio = 27,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 50,
 		boss_refresh_special = 4,
 		uifx = "UIhuohua2",
@@ -49375,7 +50942,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -49545,6 +51111,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"wudao"
@@ -49913,22 +51497,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10604] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.221875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.221875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10604,
 		air_dominance = 645,
 		best_air_dominance = 840,
 		count = 0,
-		icon_outline = 0,
 		id = 10604,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.186458333",
@@ -49937,6 +51521,7 @@ pg.chapter_template = {
 		investigation_ratio = 28,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 50,
 		boss_refresh_special = 5,
 		uifx = "UIhuohua2",
@@ -49947,7 +51532,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -50117,6 +51701,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xili"
@@ -50529,22 +52131,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10701] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.153125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.153125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10701,
 		air_dominance = 720,
 		best_air_dominance = 940,
 		count = 0,
-		icon_outline = 0,
 		id = 10701,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.130208333",
@@ -50553,6 +52155,7 @@ pg.chapter_template = {
 		investigation_ratio = 30,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 60,
 		boss_refresh_special = 5,
 		uifx = "UIhuohua2",
@@ -50563,7 +52166,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -50720,6 +52322,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"buzhihuo"
@@ -50970,22 +52590,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10702] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.35078125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.35078125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10702,
 		air_dominance = 800,
 		best_air_dominance = 1040,
 		count = 0,
-		icon_outline = 0,
 		id = 10702,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.442708333",
@@ -50994,6 +52614,7 @@ pg.chapter_template = {
 		investigation_ratio = 30,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 60,
 		boss_refresh_special = 5,
 		uifx = "UIhuohua2",
@@ -51004,7 +52625,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -51161,6 +52781,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"yangyan"
@@ -51514,22 +53152,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10703] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.6328125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6328125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10703,
 		air_dominance = 880,
 		best_air_dominance = 1145,
 		count = 0,
-		icon_outline = 0,
 		id = 10703,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.335416667",
@@ -51538,6 +53176,7 @@ pg.chapter_template = {
 		investigation_ratio = 31,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 60,
 		boss_refresh_special = 5,
 		uifx = "UIhuohua2",
@@ -51548,7 +53187,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -51705,6 +53343,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"bailu",
@@ -52129,22 +53785,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10704] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.728125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.728125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10704,
 		air_dominance = 965,
 		best_air_dominance = 1255,
 		count = 0,
-		icon_outline = 0,
 		id = 10704,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.163541667",
@@ -52153,6 +53809,7 @@ pg.chapter_template = {
 		investigation_ratio = 32,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 60,
 		boss_refresh_special = 5,
 		uifx = "UIhuohua2",
@@ -52163,7 +53820,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -52320,6 +53976,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xuefeng"
@@ -52728,22 +54402,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10801] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.41953125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.41953125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10801,
 		air_dominance = 1055,
 		best_air_dominance = 1375,
 		count = 0,
-		icon_outline = 0,
 		id = 10801,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.436458333",
@@ -52752,6 +54426,7 @@ pg.chapter_template = {
 		investigation_ratio = 31,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 70,
 		boss_refresh_special = 4,
 		uifx = "UIhuohua2",
@@ -52762,7 +54437,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -52919,6 +54593,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"dian"
@@ -53191,22 +54883,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10802] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.2046875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.2046875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10802,
 		air_dominance = 1150,
 		best_air_dominance = 1495,
 		count = 0,
-		icon_outline = 0,
 		id = 10802,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.258333333",
@@ -53215,6 +54907,7 @@ pg.chapter_template = {
 		investigation_ratio = 31,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 70,
 		boss_refresh_special = 4,
 		uifx = "UIhuohua2",
@@ -53225,7 +54918,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -53382,6 +55074,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"lei"
@@ -53740,22 +55450,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10803] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.2546875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.2546875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10803,
 		air_dominance = 1245,
 		best_air_dominance = 1620,
 		count = 0,
-		icon_outline = 0,
 		id = 10803,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.041666667",
@@ -53764,6 +55474,7 @@ pg.chapter_template = {
 		investigation_ratio = 32,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 70,
 		boss_refresh_special = 4,
 		uifx = "UIhuohua2",
@@ -53774,7 +55485,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -53931,6 +55641,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"nazhi"
@@ -54352,22 +56080,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10804] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.6015625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6015625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10804,
 		air_dominance = 1350,
 		best_air_dominance = 1755,
 		count = 0,
-		icon_outline = 0,
 		id = 10804,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.153125",
@@ -54376,6 +56104,7 @@ pg.chapter_template = {
 		investigation_ratio = 33,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 70,
 		boss_refresh_special = 4,
 		uifx = "UIhuohua2",
@@ -54386,7 +56115,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -54543,6 +56271,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"moye"
@@ -55027,22 +56773,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10901] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.17890625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.17890625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10901,
 		air_dominance = 1440,
 		best_air_dominance = 1875,
 		count = 0,
-		icon_outline = 0,
 		id = 10901,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
@@ -55051,6 +56797,7 @@ pg.chapter_template = {
 		investigation_ratio = 32,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 80,
 		boss_refresh_special = 5,
 		uifx = "UIhuohua2",
@@ -55061,7 +56808,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -55220,6 +56966,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"gufeng"
@@ -55584,22 +57348,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10902] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.28671875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.28671875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10902,
 		air_dominance = 1535,
 		best_air_dominance = 2000,
 		count = 0,
-		icon_outline = 0,
 		id = 10902,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.122916667",
@@ -55608,6 +57372,7 @@ pg.chapter_template = {
 		investigation_ratio = 32,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 80,
 		boss_refresh_special = 5,
 		uifx = "UIhuohua2",
@@ -55618,7 +57383,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -55777,6 +57541,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"bangfeng"
@@ -56179,22 +57961,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10903] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.6046875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6046875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10903,
 		air_dominance = 1635,
 		best_air_dominance = 2130,
 		count = 0,
-		icon_outline = 0,
 		id = 10903,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.35625",
@@ -56203,6 +57985,7 @@ pg.chapter_template = {
 		investigation_ratio = 33,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 80,
 		boss_refresh_special = 5,
 		uifx = "UIhuohua2",
@@ -56213,7 +57996,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -56372,6 +58154,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"qinchao"
@@ -56798,22 +58598,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[10904] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.70703125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.70703125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 10904,
 		air_dominance = 1735,
 		best_air_dominance = 2260,
 		count = 0,
-		icon_outline = 0,
 		id = 10904,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.09375",
@@ -56822,6 +58622,7 @@ pg.chapter_template = {
 		investigation_ratio = 34,
 		num_2 = 40,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 80,
 		boss_refresh_special = 5,
 		uifx = "UIhuohua2",
@@ -56832,7 +58633,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 10,
@@ -56991,6 +58791,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xinyue_jp"
@@ -57439,22 +59257,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[20001] = {
-		num_3 = 0,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.2046875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.2046875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 20001,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 0,
 		pos_y = "0.258333333",
@@ -57463,6 +59281,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 0,
 		land_based = "",
+		num_3 = 0,
 		unlocklevel = 0,
 		boss_refresh_special = 0,
 		uifx = "",
@@ -57473,7 +59292,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 1,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -57585,6 +59403,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				3,
+				0
+			}
+		},
+		win_condition_display = {
+			"상선이 지정 위치 도착"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"Z46"
@@ -57896,22 +59732,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[20002] = {
-		num_3 = 0,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.2546875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.2546875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 20002,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 0,
 		pos_y = "0.041666667",
@@ -57920,6 +59756,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 0,
 		land_based = "",
+		num_3 = 0,
 		unlocklevel = 0,
 		boss_refresh_special = 0,
 		uifx = "",
@@ -57930,7 +59767,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 2,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -58043,6 +59879,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				3,
+				0
+			}
+		},
+		win_condition_display = {
+			"상선이 지정 위치 도착"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"deyizhi"
@@ -58405,22 +60259,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[20003] = {
-		num_3 = 0,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.6015625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6015625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 20003,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 0,
 		pos_y = "0.153125",
@@ -58429,6 +60283,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 0,
 		land_based = "",
+		num_3 = 0,
 		unlocklevel = 0,
 		boss_refresh_special = 0,
 		uifx = "",
@@ -58439,7 +60294,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 3,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -58553,6 +60407,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				3,
+				0
+			}
+		},
+		win_condition_display = {
+			"상선이 지정 위치 도착"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"genaisennao"
@@ -59006,22 +60878,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[20004] = {
-		num_3 = 0,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.2046875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.2046875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 20004,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 0,
 		pos_y = "0.258333333",
@@ -59029,6 +60901,7 @@ pg.chapter_template = {
 		model = 3,
 		investigation_ratio = 0,
 		num_2 = 0,
+		num_3 = 0,
 		unlocklevel = 0,
 		boss_refresh_special = 0,
 		uifx = "",
@@ -59039,7 +60912,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 4,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -59151,6 +61023,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				3,
+				0
+			}
+		},
+		win_condition_display = {
+			"상선이 지정 위치 도착"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"Z46"
@@ -59457,22 +61347,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[20005] = {
-		num_3 = 0,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.2546875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.2546875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 20005,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 0,
 		pos_y = "0.041666667",
@@ -59480,6 +61370,7 @@ pg.chapter_template = {
 		model = 3,
 		investigation_ratio = 0,
 		num_2 = 0,
+		num_3 = 0,
 		unlocklevel = 0,
 		boss_refresh_special = 0,
 		uifx = "",
@@ -59490,7 +61381,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 5,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -59603,6 +61493,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				3,
+				0
+			}
+		},
+		win_condition_display = {
+			"상선이 지정 위치 도착"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"deyizhi"
@@ -59953,22 +61861,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[20006] = {
-		num_3 = 0,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.6015625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6015625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 20006,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 0,
 		pos_y = "0.153125",
@@ -59976,6 +61884,7 @@ pg.chapter_template = {
 		model = 3,
 		investigation_ratio = 0,
 		num_2 = 0,
+		num_3 = 0,
 		unlocklevel = 0,
 		boss_refresh_special = 0,
 		uifx = "",
@@ -59986,7 +61895,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 6,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -60100,6 +62008,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				3,
+				0
+			}
+		},
+		win_condition_display = {
+			"상선이 지정 위치 도착"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"genaisennao"
@@ -60541,22 +62467,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1040001] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 50,
-		pos_x = "0.33125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.33125",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING4",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 150,
 		best_air_dominance = 195,
 		count = 0,
-		icon_outline = 0,
 		id = 1040001,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.444791667",
@@ -60565,6 +62491,7 @@ pg.chapter_template = {
 		investigation_ratio = 14,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -60575,7 +62502,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING3",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -60699,6 +62625,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xiao"
@@ -61050,22 +62994,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1040002] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.56328125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.56328125",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING7",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 205,
 		best_air_dominance = 270,
 		count = 0,
-		icon_outline = 0,
 		id = 1040002,
+		icon_outline = 0,
 		pre_chapter = 1040001,
 		star_require_1 = 1,
 		pos_y = "0.088541667",
@@ -61074,6 +63018,7 @@ pg.chapter_template = {
 		investigation_ratio = 15,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -61084,7 +63029,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING6",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -61208,6 +63152,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"yishi",
@@ -61614,22 +63576,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1040003] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.690625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.690625",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING9",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 270,
 		best_air_dominance = 355,
 		count = 0,
-		icon_outline = 0,
 		id = 1040003,
+		icon_outline = 0,
 		pre_chapter = 1040002,
 		star_require_1 = 1,
 		pos_y = "0.367708333",
@@ -61638,6 +63600,7 @@ pg.chapter_template = {
 		investigation_ratio = 16,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -61648,7 +63611,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING8",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -61772,6 +63734,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"shancheng_g"
@@ -62247,22 +64227,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1040004] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.26875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.26875",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING12",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 330,
 		best_air_dominance = 430,
 		count = 0,
-		icon_outline = 0,
 		id = 1040004,
+		icon_outline = 0,
 		pre_chapter = 1040003,
 		star_require_1 = 1,
 		pos_y = "0.090625",
@@ -62271,6 +64251,7 @@ pg.chapter_template = {
 		investigation_ratio = 15,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -62281,7 +64262,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -62405,6 +64385,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"yefen"
@@ -62830,22 +64828,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1040005] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.6703125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6703125",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING15",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 430,
 		best_air_dominance = 560,
 		count = 0,
-		icon_outline = 0,
 		id = 1040005,
+		icon_outline = 0,
 		pre_chapter = 1040004,
 		star_require_1 = 1,
 		pos_y = "0.1125",
@@ -62854,6 +64852,7 @@ pg.chapter_template = {
 		investigation_ratio = 16,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -62864,7 +64863,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING14",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -62988,6 +64986,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xianghe"
@@ -63512,22 +65528,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1040006] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.5421875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.5421875",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING18",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 535,
 		best_air_dominance = 700,
 		count = 0,
-		icon_outline = 0,
 		id = 1040006,
+		icon_outline = 0,
 		pre_chapter = 1040005,
 		star_require_1 = 1,
 		pos_y = "0.4",
@@ -63536,6 +65552,7 @@ pg.chapter_template = {
 		investigation_ratio = 17,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 7,
 		uifx = "",
@@ -63546,7 +65563,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING17",
 		boss_refresh = 7,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -63671,6 +65687,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"chicheng",
@@ -64191,22 +66225,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1040011] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.33125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.33125",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING4",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 530,
 		best_air_dominance = 690,
 		count = 0,
-		icon_outline = 0,
 		id = 1040011,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.444791667",
@@ -64215,6 +66249,7 @@ pg.chapter_template = {
 		investigation_ratio = 17,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -64225,7 +66260,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING3",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -64390,6 +66424,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xiao"
@@ -64741,22 +66793,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1040012] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.56328125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.56328125",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING7",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 605,
 		best_air_dominance = 790,
 		count = 0,
-		icon_outline = 0,
 		id = 1040012,
+		icon_outline = 0,
 		pre_chapter = 1040011,
 		star_require_1 = 1,
 		pos_y = "0.088541667",
@@ -64765,6 +66817,7 @@ pg.chapter_template = {
 		investigation_ratio = 18,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -64775,7 +66828,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING6",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -64940,6 +66992,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"yishi",
@@ -65346,22 +67416,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1040013] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.690625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.690625",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING9",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 680,
 		best_air_dominance = 885,
 		count = 0,
-		icon_outline = 0,
 		id = 1040013,
+		icon_outline = 0,
 		pre_chapter = 1040012,
 		star_require_1 = 1,
 		pos_y = "0.367708333",
@@ -65370,6 +67440,7 @@ pg.chapter_template = {
 		investigation_ratio = 19,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -65380,7 +67451,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING8",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -65546,6 +67616,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"shancheng_g"
@@ -66021,22 +68109,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1040014] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.26875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.26875",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING12",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 810,
 		best_air_dominance = 1055,
 		count = 0,
-		icon_outline = 0,
 		id = 1040014,
+		icon_outline = 0,
 		pre_chapter = 1040013,
 		star_require_1 = 1,
 		pos_y = "0.090625",
@@ -66045,6 +68133,7 @@ pg.chapter_template = {
 		investigation_ratio = 19,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -66055,7 +68144,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -66221,6 +68309,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"yefen"
@@ -66646,22 +68752,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1040015] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.6703125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6703125",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING15",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 965,
 		best_air_dominance = 1255,
 		count = 0,
-		icon_outline = 0,
 		id = 1040015,
+		icon_outline = 0,
 		pre_chapter = 1040014,
 		star_require_1 = 1,
 		pos_y = "0.1125",
@@ -66670,6 +68776,7 @@ pg.chapter_template = {
 		investigation_ratio = 20,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 7,
 		uifx = "",
@@ -66680,7 +68787,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING14",
 		boss_refresh = 7,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -66846,6 +68952,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xianghe"
@@ -67370,22 +69494,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1040016] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.5421875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.5421875",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING18",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 1130,
 		best_air_dominance = 1470,
 		count = 0,
-		icon_outline = 0,
 		id = 1040016,
+		icon_outline = 0,
 		pre_chapter = 1040015,
 		star_require_1 = 1,
 		pos_y = "0.4",
@@ -67394,6 +69518,7 @@ pg.chapter_template = {
 		investigation_ratio = 21,
 		num_2 = 40,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 7,
 		uifx = "",
@@ -67404,7 +69529,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING17",
 		boss_refresh = 7,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -67570,6 +69694,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"chicheng",
@@ -68090,22 +70232,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1050001] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 35,
-		pos_x = "0.20234375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.20234375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1050001,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.34375",
@@ -68114,6 +70256,7 @@ pg.chapter_template = {
 		investigation_ratio = 18,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -68124,7 +70267,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -68243,6 +70385,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xipeierhaijunshangjiang"
@@ -68650,22 +70810,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1050002] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 28,
-		pos_x = "0.28671875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.28671875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1050002,
+		icon_outline = 0,
 		pre_chapter = 1050001,
 		star_require_1 = 1,
 		pos_y = "0.070833333",
@@ -68674,6 +70834,7 @@ pg.chapter_template = {
 		investigation_ratio = 20,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -68684,7 +70845,6 @@ pg.chapter_template = {
 		enter_story = "ZHUNUO5",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -68804,6 +70964,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"genaisennao"
@@ -69212,22 +71390,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1050003] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 22,
-		pos_x = "0.6375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1050003,
+		icon_outline = 0,
 		pre_chapter = 1050002,
 		star_require_1 = 1,
 		pos_y = "0.221875",
@@ -69236,6 +71414,7 @@ pg.chapter_template = {
 		investigation_ratio = 22,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -69246,7 +71425,6 @@ pg.chapter_template = {
 		enter_story = "ZHUNUO8",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -69366,6 +71544,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"shaenhuosite",
@@ -69897,22 +72093,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1050011] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 35,
-		pos_x = "0.20234375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.20234375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1050011,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.34375",
@@ -69921,6 +72117,7 @@ pg.chapter_template = {
 		investigation_ratio = 18,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -69931,7 +72128,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -70050,6 +72246,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xipeierhaijunshangjiang"
@@ -70457,22 +72671,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1050012] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 28,
-		pos_x = "0.28671875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.28671875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1050012,
+		icon_outline = 0,
 		pre_chapter = 1050011,
 		star_require_1 = 1,
 		pos_y = "0.070833333",
@@ -70481,6 +72695,7 @@ pg.chapter_template = {
 		investigation_ratio = 20,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -70491,7 +72706,6 @@ pg.chapter_template = {
 		enter_story = "ZHUNUO5",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -70611,6 +72825,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"genaisennao"
@@ -71019,22 +73251,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1050013] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 22,
-		pos_x = "0.6375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1050013,
+		icon_outline = 0,
 		pre_chapter = 1050012,
 		star_require_1 = 1,
 		pos_y = "0.221875",
@@ -71043,6 +73275,7 @@ pg.chapter_template = {
 		investigation_ratio = 22,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -71053,7 +73286,6 @@ pg.chapter_template = {
 		enter_story = "ZHUNUO8",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -71173,6 +73405,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"shaenhuosite",
@@ -71704,22 +73954,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1060001] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.2515625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.2515625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1060001,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
@@ -71728,6 +73978,7 @@ pg.chapter_template = {
 		investigation_ratio = 12,
 		num_2 = 15,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -71738,7 +73989,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -71862,6 +74112,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenquzhu"
@@ -72123,22 +74391,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1060002] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 50,
-		pos_x = "0.38203125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.38203125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1060002,
+		icon_outline = 0,
 		pre_chapter = 1060001,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
@@ -72147,6 +74415,7 @@ pg.chapter_template = {
 		investigation_ratio = 12,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -72157,7 +74426,6 @@ pg.chapter_template = {
 		enter_story = "DONGHUO04",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -72285,6 +74553,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenqingxun"
@@ -72632,22 +74918,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1060003] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.665625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.665625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1060003,
+		icon_outline = 0,
 		pre_chapter = 1060002,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
@@ -72656,6 +74942,7 @@ pg.chapter_template = {
 		investigation_ratio = 13,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -72666,7 +74953,6 @@ pg.chapter_template = {
 		enter_story = "DONGHUO06",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -72795,6 +75081,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenzhongxun",
@@ -73227,22 +75531,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1060004] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.23125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.23125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1060004,
+		icon_outline = 0,
 		pre_chapter = 1060003,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
@@ -73251,6 +75555,7 @@ pg.chapter_template = {
 		investigation_ratio = 14,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -73261,7 +75566,6 @@ pg.chapter_template = {
 		enter_story = "DONGHUO09",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -73389,6 +75693,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenzhanlie"
@@ -73796,22 +76118,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1060005] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.5390625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.5390625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1060005,
+		icon_outline = 0,
 		pre_chapter = 1060004,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
@@ -73820,6 +76142,7 @@ pg.chapter_template = {
 		investigation_ratio = 14,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -73830,7 +76153,6 @@ pg.chapter_template = {
 		enter_story = "DONGHUO10",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -73958,6 +76280,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenhangmu"
@@ -74464,22 +76804,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1060006] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.6140625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6140625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1060006,
+		icon_outline = 0,
 		pre_chapter = 1060005,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
@@ -74488,6 +76828,7 @@ pg.chapter_template = {
 		investigation_ratio = 15,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -74498,7 +76839,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -74628,6 +76968,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenzhanlie",
@@ -75294,22 +77652,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1060011] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.2515625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.2515625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1060011,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
@@ -75318,6 +77676,7 @@ pg.chapter_template = {
 		investigation_ratio = 14,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -75328,7 +77687,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -75493,6 +77851,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenquzhu"
@@ -75754,22 +78130,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1060012] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 50,
-		pos_x = "0.38203125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.38203125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1060012,
+		icon_outline = 0,
 		pre_chapter = 1060011,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
@@ -75778,6 +78154,7 @@ pg.chapter_template = {
 		investigation_ratio = 15,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -75788,7 +78165,6 @@ pg.chapter_template = {
 		enter_story = "DONGHUO04",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -75957,6 +78333,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenqingxun"
@@ -76304,22 +78698,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1060013] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.665625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.665625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1060013,
+		icon_outline = 0,
 		pre_chapter = 1060012,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
@@ -76328,6 +78722,7 @@ pg.chapter_template = {
 		investigation_ratio = 16,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -76338,7 +78733,6 @@ pg.chapter_template = {
 		enter_story = "DONGHUO06",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -76508,6 +78902,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenzhongxun",
@@ -76940,22 +79352,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1060014] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.23125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.23125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1060014,
+		icon_outline = 0,
 		pre_chapter = 1060013,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
@@ -76964,6 +79376,7 @@ pg.chapter_template = {
 		investigation_ratio = 17,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -76974,7 +79387,6 @@ pg.chapter_template = {
 		enter_story = "DONGHUO09",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -77143,6 +79555,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenzhanlie"
@@ -77550,22 +79980,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1060015] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.5390625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.5390625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1060015,
+		icon_outline = 0,
 		pre_chapter = 1060014,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
@@ -77574,6 +80004,7 @@ pg.chapter_template = {
 		investigation_ratio = 18,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -77584,7 +80015,6 @@ pg.chapter_template = {
 		enter_story = "DONGHUO10",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -77753,6 +80183,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenhangmu"
@@ -78259,22 +80707,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1060016] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.6140625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6140625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1060016,
+		icon_outline = 0,
 		pre_chapter = 1060015,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
@@ -78283,6 +80731,7 @@ pg.chapter_template = {
 		investigation_ratio = 19,
 		num_2 = 40,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -78293,7 +80742,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -78464,6 +80912,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenzhanlie",
@@ -79130,22 +81596,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1070201] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 35,
-		pos_x = "0.7046875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.7046875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1070201,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.313541667",
@@ -79154,6 +81620,7 @@ pg.chapter_template = {
 		investigation_ratio = 15,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -79164,7 +81631,6 @@ pg.chapter_template = {
 		enter_story = "WEIJIAO01",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -79283,6 +81749,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"Z1"
@@ -79690,22 +82174,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1070202] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 28,
-		pos_x = "0.44375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.44375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1070202,
+		icon_outline = 0,
 		pre_chapter = 1070201,
 		star_require_1 = 1,
 		pos_y = "0.079166667",
@@ -79714,6 +82198,7 @@ pg.chapter_template = {
 		investigation_ratio = 18,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -79724,7 +82209,6 @@ pg.chapter_template = {
 		enter_story = "WEIJIAO04",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -79843,6 +82327,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sipeibojue"
@@ -80349,22 +82851,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1070203] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 22,
-		pos_x = "0.2953125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.2953125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1070203,
+		icon_outline = 0,
 		pre_chapter = 1070202,
 		star_require_1 = 1,
 		pos_y = "0.373958333",
@@ -80373,6 +82875,7 @@ pg.chapter_template = {
 		investigation_ratio = 21,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -80383,7 +82886,6 @@ pg.chapter_template = {
 		enter_story = "WEIJIAO07",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -80503,6 +83005,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sipeibojue"
@@ -81066,22 +83586,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1080001] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 35,
-		pos_x = "0.18359375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.18359375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1080001,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.394725",
@@ -81090,6 +83610,7 @@ pg.chapter_template = {
 		investigation_ratio = 15,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -81100,7 +83621,6 @@ pg.chapter_template = {
 		enter_story = "NEPU_STAGE101",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -81219,6 +83739,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"HDN202_1"
@@ -81559,22 +84097,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1080002] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 28,
-		pos_x = "0.6203125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6203125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1080002,
+		icon_outline = 0,
 		pre_chapter = 1080001,
 		star_require_1 = 1,
 		pos_y = "0.43335",
@@ -81583,6 +84121,7 @@ pg.chapter_template = {
 		investigation_ratio = 17,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -81593,7 +84132,6 @@ pg.chapter_template = {
 		enter_story = "NEPU_STAGE201",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -81712,6 +84250,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"HDN402_1"
@@ -82157,22 +84713,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1080003] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 22,
-		pos_x = "0.1390625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.1390625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1080003,
+		icon_outline = 0,
 		pre_chapter = 1080002,
 		star_require_1 = 1,
 		pos_y = "0.03125",
@@ -82181,6 +84737,7 @@ pg.chapter_template = {
 		investigation_ratio = 19,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -82191,7 +84748,6 @@ pg.chapter_template = {
 		enter_story = "NEPU_STAGE301",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -82310,6 +84866,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"HDN302_1"
@@ -82748,22 +85322,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1080004] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 22,
-		pos_x = "0.54765625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.54765625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1080004,
+		icon_outline = 0,
 		pre_chapter = 1080003,
 		star_require_1 = 1,
 		pos_y = "0.11565",
@@ -82772,6 +85346,7 @@ pg.chapter_template = {
 		investigation_ratio = 21,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -82782,7 +85357,6 @@ pg.chapter_template = {
 		enter_story = "NEPU_STAGE401",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -82902,6 +85476,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"HDN102_1"
@@ -83452,22 +86044,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1080005] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.3953125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.3953125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1080005,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.1635417",
@@ -83476,6 +86068,7 @@ pg.chapter_template = {
 		investigation_ratio = 25,
 		num_2 = 8,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -83486,7 +86079,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -83645,6 +86237,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"HDN102_1",
@@ -84203,22 +86813,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1090001] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.15703125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.15703125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1090001,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.361458333",
@@ -84227,6 +86837,7 @@ pg.chapter_template = {
 		investigation_ratio = 11,
 		num_2 = 15,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -84237,7 +86848,6 @@ pg.chapter_template = {
 		enter_story = "LINGDONG02",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -84360,6 +86970,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenqingxun"
@@ -84677,22 +87305,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1090002] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 50,
-		pos_x = "0.50546875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.50546875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1090002,
+		icon_outline = 0,
 		pre_chapter = 1090001,
 		star_require_1 = 1,
 		pos_y = "0.111458333",
@@ -84701,6 +87329,7 @@ pg.chapter_template = {
 		investigation_ratio = 11,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -84711,7 +87340,6 @@ pg.chapter_template = {
 		enter_story = "LINGDONG04",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -84836,6 +87464,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenzhongxun"
@@ -85183,22 +87829,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1090003] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.635546875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.635546875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1090003,
+		icon_outline = 0,
 		pre_chapter = 1090002,
 		star_require_1 = 1,
 		pos_y = "0.3446875",
@@ -85207,6 +87853,7 @@ pg.chapter_template = {
 		investigation_ratio = 12,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -85217,7 +87864,6 @@ pg.chapter_template = {
 		enter_story = "LINGDONG07",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -85343,6 +87989,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"shaenhuosite"
@@ -85747,22 +88411,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1090004] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.121875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.121875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1090004,
+		icon_outline = 0,
 		pre_chapter = 1090003,
 		star_require_1 = 1,
 		pos_y = "0.15",
@@ -85771,6 +88435,7 @@ pg.chapter_template = {
 		investigation_ratio = 13,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -85781,7 +88446,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -85906,6 +88570,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenhangmu"
@@ -86322,22 +89004,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1090005] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.57734375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.57734375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1090005,
+		icon_outline = 0,
 		pre_chapter = 1090004,
 		star_require_1 = 1,
 		pos_y = "0.073958",
@@ -86346,6 +89028,7 @@ pg.chapter_template = {
 		investigation_ratio = 13,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -86356,7 +89039,6 @@ pg.chapter_template = {
 		enter_story = "LINGDONG13",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -86483,6 +89165,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"tierbici"
@@ -86975,22 +89675,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1090006] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.621875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.621875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1090006,
+		icon_outline = 0,
 		pre_chapter = 1090005,
 		star_require_1 = 1,
 		pos_y = "0.347395833",
@@ -86999,6 +89699,7 @@ pg.chapter_template = {
 		investigation_ratio = 14,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -87009,7 +89710,6 @@ pg.chapter_template = {
 		enter_story = "LINGDONG17",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -87138,6 +89838,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenboss"
@@ -87803,22 +90521,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1090011] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.15703125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.15703125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1090011,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.361458333",
@@ -87827,6 +90545,7 @@ pg.chapter_template = {
 		investigation_ratio = 13,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -87837,7 +90556,6 @@ pg.chapter_template = {
 		enter_story = "LINGDONG02",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -88001,6 +90719,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenqingxun"
@@ -88332,22 +91068,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1090012] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 50,
-		pos_x = "0.50546875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.50546875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1090012,
+		icon_outline = 0,
 		pre_chapter = 1090011,
 		star_require_1 = 1,
 		pos_y = "0.111458333",
@@ -88356,6 +91092,7 @@ pg.chapter_template = {
 		investigation_ratio = 14,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -88366,7 +91103,6 @@ pg.chapter_template = {
 		enter_story = "LINGDONG04",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -88532,6 +91268,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenzhongxun"
@@ -88893,22 +91647,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1090013] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.635546875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.635546875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1090013,
+		icon_outline = 0,
 		pre_chapter = 1090012,
 		star_require_1 = 1,
 		pos_y = "0.3446875",
@@ -88917,6 +91671,7 @@ pg.chapter_template = {
 		investigation_ratio = 15,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -88927,7 +91682,6 @@ pg.chapter_template = {
 		enter_story = "LINGDONG07",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -89094,6 +91848,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"shaenhuosite"
@@ -89512,22 +92284,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1090014] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.121875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.121875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1090014,
+		icon_outline = 0,
 		pre_chapter = 1090013,
 		star_require_1 = 1,
 		pos_y = "0.15",
@@ -89536,6 +92308,7 @@ pg.chapter_template = {
 		investigation_ratio = 16,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -89546,7 +92319,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -89712,6 +92484,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenhangmu"
@@ -90142,22 +92932,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1090015] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.57734375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.57734375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1090015,
+		icon_outline = 0,
 		pre_chapter = 1090014,
 		star_require_1 = 1,
 		pos_y = "0.073958",
@@ -90166,6 +92956,7 @@ pg.chapter_template = {
 		investigation_ratio = 17,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -90176,7 +92967,6 @@ pg.chapter_template = {
 		enter_story = "LINGDONG13",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -90344,6 +93134,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"tierbici"
@@ -90850,22 +93658,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1090016] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.621875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.621875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1090016,
+		icon_outline = 0,
 		pre_chapter = 1090015,
 		star_require_1 = 1,
 		pos_y = "0.347395833",
@@ -90874,6 +93682,7 @@ pg.chapter_template = {
 		investigation_ratio = 18,
 		num_2 = 40,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -90884,7 +93693,6 @@ pg.chapter_template = {
 		enter_story = "LINGDONG17",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -91054,6 +93862,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenboss"
@@ -91733,22 +94559,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1090017] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.36703125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.36703125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1090017,
+		icon_outline = 0,
 		pre_chapter = 1090016,
 		star_require_1 = 1,
 		pos_y = "0.196875",
@@ -91757,6 +94583,7 @@ pg.chapter_template = {
 		investigation_ratio = 20,
 		num_2 = 10,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -91767,7 +94594,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -91932,6 +94758,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenboss"
@@ -92572,22 +95416,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1100001] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 50,
-		pos_x = "0.33125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 2,
-		ammo_cost = 1,
+		pos_x = "0.33125",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING4",
+		ammo_submarine = 2,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1100001,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1100001,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.444791667",
@@ -92596,6 +95440,7 @@ pg.chapter_template = {
 		investigation_ratio = 14,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -92606,7 +95451,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING3",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -92728,6 +95572,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xiao"
@@ -93092,22 +95954,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1100002] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.56328125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 2,
-		ammo_cost = 1,
+		pos_x = "0.56328125",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING7",
+		ammo_submarine = 2,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1100002,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1100002,
+		icon_outline = 0,
 		pre_chapter = 1100001,
 		star_require_1 = 1,
 		pos_y = "0.088541667",
@@ -93116,6 +95978,7 @@ pg.chapter_template = {
 		investigation_ratio = 15,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -93126,7 +95989,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING6",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -93249,6 +96111,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"yishi",
@@ -93668,22 +96548,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1100003] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.690625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 2,
-		ammo_cost = 1,
+		pos_x = "0.690625",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING9",
+		ammo_submarine = 2,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1100003,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1100003,
+		icon_outline = 0,
 		pre_chapter = 1100002,
 		star_require_1 = 1,
 		pos_y = "0.367708333",
@@ -93692,6 +96572,7 @@ pg.chapter_template = {
 		investigation_ratio = 16,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -93702,7 +96583,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING8",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -93825,6 +96705,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"shancheng_g"
@@ -94313,22 +97211,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1100004] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.26875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 2,
-		ammo_cost = 1,
+		pos_x = "0.26875",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING12",
+		ammo_submarine = 2,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1100004,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1100004,
+		icon_outline = 0,
 		pre_chapter = 1100003,
 		star_require_1 = 1,
 		pos_y = "0.090625",
@@ -94337,6 +97235,7 @@ pg.chapter_template = {
 		investigation_ratio = 15,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -94347,7 +97246,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -94471,6 +97369,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"yefen"
@@ -94909,22 +97825,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1100005] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.6703125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 2,
-		ammo_cost = 1,
+		pos_x = "0.6703125",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING15",
+		ammo_submarine = 2,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1100005,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1100005,
+		icon_outline = 0,
 		pre_chapter = 1100004,
 		star_require_1 = 1,
 		pos_y = "0.1125",
@@ -94933,6 +97849,7 @@ pg.chapter_template = {
 		investigation_ratio = 16,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -94943,7 +97860,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING14",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -95067,6 +97983,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xianghe"
@@ -95604,22 +98538,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1100006] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.5421875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 2,
-		ammo_cost = 1,
+		pos_x = "0.5421875",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING18",
+		ammo_submarine = 2,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1100006,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1100006,
+		icon_outline = 0,
 		pre_chapter = 1100005,
 		star_require_1 = 1,
 		pos_y = "0.4",
@@ -95628,6 +98562,7 @@ pg.chapter_template = {
 		investigation_ratio = 17,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 7,
 		uifx = "",
@@ -95638,7 +98573,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING17",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -95763,6 +98697,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"chicheng",
@@ -96296,22 +99248,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1100011] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.33125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 2,
-		ammo_cost = 1,
+		pos_x = "0.33125",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING4",
+		ammo_submarine = 2,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1100011,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1100011,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.444791667",
@@ -96320,6 +99272,7 @@ pg.chapter_template = {
 		investigation_ratio = 17,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -96330,7 +99283,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING3",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -96495,6 +99447,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xiao"
@@ -96859,22 +99829,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1100012] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.56328125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 2,
-		ammo_cost = 1,
+		pos_x = "0.56328125",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING7",
+		ammo_submarine = 2,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1100012,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1100012,
+		icon_outline = 0,
 		pre_chapter = 1100011,
 		star_require_1 = 1,
 		pos_y = "0.088541667",
@@ -96883,6 +99853,7 @@ pg.chapter_template = {
 		investigation_ratio = 18,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -96893,7 +99864,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING6",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -97058,6 +100028,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"yishi",
@@ -97477,22 +100465,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1100013] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.690625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 2,
-		ammo_cost = 1,
+		pos_x = "0.690625",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING9",
+		ammo_submarine = 2,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1100013,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1100013,
+		icon_outline = 0,
 		pre_chapter = 1100012,
 		star_require_1 = 1,
 		pos_y = "0.367708333",
@@ -97501,6 +100489,7 @@ pg.chapter_template = {
 		investigation_ratio = 19,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -97511,7 +100500,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING8",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -97677,6 +100665,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"shancheng_g"
@@ -98165,22 +101171,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1100014] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.26875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 2,
-		ammo_cost = 1,
+		pos_x = "0.26875",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING12",
+		ammo_submarine = 2,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1100014,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1100014,
+		icon_outline = 0,
 		pre_chapter = 1100013,
 		star_require_1 = 1,
 		pos_y = "0.090625",
@@ -98189,6 +101195,7 @@ pg.chapter_template = {
 		investigation_ratio = 19,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -98199,7 +101206,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -98365,6 +101371,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"yefen"
@@ -98803,22 +101827,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1100015] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.6703125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 2,
-		ammo_cost = 1,
+		pos_x = "0.6703125",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING15",
+		ammo_submarine = 2,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1100015,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1100015,
+		icon_outline = 0,
 		pre_chapter = 1100014,
 		star_require_1 = 1,
 		pos_y = "0.1125",
@@ -98827,6 +101851,7 @@ pg.chapter_template = {
 		investigation_ratio = 20,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 7,
 		uifx = "",
@@ -98837,7 +101862,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING14",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -99003,6 +102027,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xianghe"
@@ -99540,22 +102582,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1100016] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.5421875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 2,
-		ammo_cost = 1,
+		pos_x = "0.5421875",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING18",
+		ammo_submarine = 2,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1100016,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1100016,
+		icon_outline = 0,
 		pre_chapter = 1100015,
 		star_require_1 = 1,
 		pos_y = "0.4",
@@ -99564,6 +102606,7 @@ pg.chapter_template = {
 		investigation_ratio = 21,
 		num_2 = 40,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 7,
 		uifx = "",
@@ -99574,7 +102617,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING17",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -99740,6 +102782,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"chicheng",
@@ -100273,22 +103333,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1100020] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.48984375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 2,
-		ammo_cost = 1,
+		pos_x = "0.48984375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 2,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1100020,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.277083333",
@@ -100297,6 +103357,7 @@ pg.chapter_template = {
 		investigation_ratio = 22,
 		num_2 = 10,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -100307,7 +103368,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -100454,6 +103514,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"chicheng",
@@ -100999,22 +104077,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1110001] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 50,
-		pos_x = "0.19375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.19375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 95,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 1110001,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.375",
@@ -101023,6 +104101,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 15,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -101033,7 +104112,6 @@ pg.chapter_template = {
 		enter_story = "YINGHUA2",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -101147,6 +104225,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"zhaochao"
@@ -101576,22 +104672,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1110002] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.2703125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.2703125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 130,
 		best_air_dominance = 170,
 		count = 0,
-		icon_outline = 0,
 		id = 1110002,
+		icon_outline = 0,
 		pre_chapter = 1110001,
 		star_require_1 = 1,
 		pos_y = "0.151041667",
@@ -101600,6 +104696,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -101610,7 +104707,6 @@ pg.chapter_template = {
 		enter_story = "YINGHUA4",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -101725,6 +104821,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"chunyue",
@@ -102076,22 +105190,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1110003] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.68984375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.68984375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 170,
 		best_air_dominance = 225,
 		count = 0,
-		icon_outline = 0,
 		id = 1110003,
+		icon_outline = 0,
 		pre_chapter = 1110002,
 		star_require_1 = 1,
 		pos_y = "0.09583",
@@ -102100,6 +105214,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -102110,7 +105225,6 @@ pg.chapter_template = {
 		enter_story = "YINGHUA5",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -102226,6 +105340,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"jingang",
@@ -102626,22 +105758,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1110004] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.6109375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6109375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 220,
 		best_air_dominance = 290,
 		count = 0,
-		icon_outline = 0,
 		id = 1110004,
+		icon_outline = 0,
 		pre_chapter = 1110003,
 		star_require_1 = 1,
 		pos_y = "0.334375",
@@ -102650,6 +105782,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -102660,7 +105793,6 @@ pg.chapter_template = {
 		enter_story = "YINGHUA6",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -102774,6 +105906,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"jiangfeng"
@@ -103264,22 +106414,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1110005] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.26015625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.26015625",
 		activate_time = 0,
 		story_refresh_boss = "YINGHUA11",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 285,
 		best_air_dominance = 375,
 		count = 0,
-		icon_outline = 0,
 		id = 1110005,
+		icon_outline = 0,
 		pre_chapter = 1110004,
 		star_require_1 = 1,
 		pos_y = "0.175",
@@ -103288,6 +106438,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -103298,7 +106449,6 @@ pg.chapter_template = {
 		enter_story = "YINGHUA10",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -103413,6 +106563,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"changmen",
@@ -103953,22 +107121,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1110006] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.6453125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6453125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 380,
 		best_air_dominance = 495,
 		count = 0,
-		icon_outline = 0,
 		id = 1110006,
+		icon_outline = 0,
 		pre_chapter = 1110005,
 		star_require_1 = 1,
 		pos_y = "0.255208333",
@@ -103977,6 +107145,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -103987,7 +107156,6 @@ pg.chapter_template = {
 		enter_story = "YINGHUA13",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -104103,6 +107271,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenboss"
@@ -104593,22 +107779,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1110011] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.19375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.19375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 375,
 		best_air_dominance = 490,
 		count = 0,
-		icon_outline = 0,
 		id = 1110011,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.375",
@@ -104617,6 +107803,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -104627,7 +107814,6 @@ pg.chapter_template = {
 		enter_story = "YINGHUA2",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -104783,6 +107969,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"zhaochao"
@@ -105212,22 +108416,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1110012] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.2703125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.2703125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 470,
 		best_air_dominance = 615,
 		count = 0,
-		icon_outline = 0,
 		id = 1110012,
+		icon_outline = 0,
 		pre_chapter = 1110011,
 		star_require_1 = 1,
 		pos_y = "0.151041667",
@@ -105236,6 +108440,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -105246,7 +108451,6 @@ pg.chapter_template = {
 		enter_story = "YINGHUA4",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -105403,6 +108607,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"chunyue",
@@ -105754,22 +108976,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1110013] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.68984375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.68984375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 570,
 		best_air_dominance = 745,
 		count = 0,
-		icon_outline = 0,
 		id = 1110013,
+		icon_outline = 0,
 		pre_chapter = 1110012,
 		star_require_1 = 1,
 		pos_y = "0.09583",
@@ -105778,6 +109000,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -105788,7 +109011,6 @@ pg.chapter_template = {
 		enter_story = "YINGHUA5",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -105946,6 +109168,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"jingang",
@@ -106388,22 +109628,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1110014] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.6109375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6109375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 730,
 		best_air_dominance = 950,
 		count = 0,
-		icon_outline = 0,
 		id = 1110014,
+		icon_outline = 0,
 		pre_chapter = 1110013,
 		star_require_1 = 1,
 		pos_y = "0.334375",
@@ -106412,6 +109652,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -106422,7 +109663,6 @@ pg.chapter_template = {
 		enter_story = "YINGHUA6",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -106578,6 +109818,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"jiangfeng"
@@ -107068,22 +110326,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1110015] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.26015625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.26015625",
 		activate_time = 0,
 		story_refresh_boss = "YINGHUA11",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 915,
 		best_air_dominance = 1190,
 		count = 0,
-		icon_outline = 0,
 		id = 1110015,
+		icon_outline = 0,
 		pre_chapter = 1110014,
 		star_require_1 = 1,
 		pos_y = "0.175",
@@ -107092,6 +110350,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 40,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -107102,7 +110361,6 @@ pg.chapter_template = {
 		enter_story = "YINGHUA10",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -107261,6 +110519,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"changmen",
@@ -107801,22 +111077,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1110016] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.6453125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6453125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 1125,
 		best_air_dominance = 1465,
 		count = 0,
-		icon_outline = 0,
 		id = 1110016,
+		icon_outline = 0,
 		pre_chapter = 1110015,
 		star_require_1 = 1,
 		pos_y = "0.255208333",
@@ -107825,6 +111101,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 40,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -107835,7 +111112,6 @@ pg.chapter_template = {
 		enter_story = "YINGHUA13",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -107995,6 +111271,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenboss"
@@ -108485,22 +111779,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1110021] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.48984375",
+		oil = 0,
 		group_num = 1,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.48984375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 1485,
 		best_air_dominance = 1935,
 		count = 0,
-		icon_outline = 0,
 		id = 1110021,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.277083333",
@@ -108509,6 +111803,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 4,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 0,
 		uifx = "",
@@ -108519,7 +111814,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
-		oil = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -108596,6 +111890,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"changmen",
@@ -108870,22 +112182,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1120001] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 50,
-		pos_x = "0.1625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.1625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1120001,
+		icon_outline = 0,
 		pre_chapter = 201,
 		star_require_1 = 1,
 		pos_y = "0.402083333",
@@ -108894,6 +112206,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -108904,7 +112217,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -109025,6 +112337,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"deyizhi"
@@ -109404,22 +112734,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1120002] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.2375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.2375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1120002,
+		icon_outline = 0,
 		pre_chapter = 1120001,
 		star_require_1 = 1,
 		pos_y = "0.123958333",
@@ -109428,6 +112758,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -109438,7 +112769,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -109559,6 +112889,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xipeierhaijunshangjiang"
@@ -110078,22 +113426,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1120003] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.62109375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.62109375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1120003,
+		icon_outline = 0,
 		pre_chapter = 1120002,
 		star_require_1 = 1,
 		pos_y = "0.379166667",
@@ -110102,6 +113450,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -110112,7 +113461,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -110235,6 +113583,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"genaisennao"
@@ -110719,22 +114085,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1120004] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.68515625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.68515625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1120004,
+		icon_outline = 0,
 		pre_chapter = 1120003,
 		star_require_1 = 1,
 		pos_y = "0.10625",
@@ -110743,6 +114109,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -110753,7 +114120,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -110876,6 +114242,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"shaenhuosite"
@@ -111478,22 +114862,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1120005] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.228125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.228125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1120005,
+		icon_outline = 0,
 		pre_chapter = 1120004,
 		star_require_1 = 1,
 		pos_y = "0.3875",
@@ -111502,6 +114886,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -111512,7 +114897,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -111635,6 +115019,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"Z46"
@@ -112032,22 +115434,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1120006] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.67578125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.67578125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1120006,
+		icon_outline = 0,
 		pre_chapter = 1120005,
 		star_require_1 = 1,
 		pos_y = "0.430208333",
@@ -112056,6 +115458,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -112066,7 +115469,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -112189,6 +115591,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"qibolin"
@@ -112594,22 +116014,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1120007] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.31640625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.31640625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1120007,
+		icon_outline = 0,
 		pre_chapter = 1120006,
 		star_require_1 = 1,
 		pos_y = "0.076041667",
@@ -112618,6 +116038,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -112628,7 +116049,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -112751,6 +116171,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"tierbici"
@@ -113211,22 +116649,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1120008] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.55625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.55625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1120008,
+		icon_outline = 0,
 		pre_chapter = 1120007,
 		star_require_1 = 1,
 		pos_y = "0.254166667",
@@ -113235,6 +116673,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -113245,7 +116684,6 @@ pg.chapter_template = {
 		enter_story = "TACT20015",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -113368,6 +116806,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"unknown1"
@@ -113984,22 +117440,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1120011] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.1625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.1625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1120011,
+		icon_outline = 0,
 		pre_chapter = 201,
 		star_require_1 = 1,
 		pos_y = "0.402083333",
@@ -114008,6 +117464,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -114018,7 +117475,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -114180,6 +117636,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"deyizhi"
@@ -114559,22 +118033,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1120012] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.2375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.2375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1120012,
+		icon_outline = 0,
 		pre_chapter = 1120011,
 		star_require_1 = 1,
 		pos_y = "0.123958333",
@@ -114583,6 +118057,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -114593,7 +118068,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -114757,6 +118231,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xipeierhaijunshangjiang"
@@ -115276,22 +118768,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1120013] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.62109375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.62109375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1120013,
+		icon_outline = 0,
 		pre_chapter = 1120012,
 		star_require_1 = 1,
 		pos_y = "0.379166667",
@@ -115300,6 +118792,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -115310,7 +118803,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -115474,6 +118966,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"genaisennao"
@@ -115958,22 +119468,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1120014] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.68515625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.68515625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1120014,
+		icon_outline = 0,
 		pre_chapter = 1120013,
 		star_require_1 = 1,
 		pos_y = "0.10625",
@@ -115982,6 +119492,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -115992,7 +119503,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -116156,6 +119666,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"shaenhuosite"
@@ -116758,22 +120286,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1120015] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.228125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.228125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1120015,
+		icon_outline = 0,
 		pre_chapter = 1120014,
 		star_require_1 = 1,
 		pos_y = "0.3875",
@@ -116782,6 +120310,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -116792,7 +120321,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -116956,6 +120484,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"Z46"
@@ -117353,22 +120899,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1120016] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.67578125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.67578125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1120016,
+		icon_outline = 0,
 		pre_chapter = 1120015,
 		star_require_1 = 1,
 		pos_y = "0.430208333",
@@ -117377,6 +120923,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -117387,7 +120934,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -117551,6 +121097,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"qibolin"
@@ -117956,22 +121520,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1120017] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.31640625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.31640625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1120017,
+		icon_outline = 0,
 		pre_chapter = 1120016,
 		star_require_1 = 1,
 		pos_y = "0.076041667",
@@ -117980,6 +121544,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -117990,7 +121555,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -118154,6 +121718,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"tierbici"
@@ -118614,22 +122196,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1120018] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 17,
-		pos_x = "0.55625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.55625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1120018,
+		icon_outline = 0,
 		pre_chapter = 1120017,
 		star_require_1 = 1,
 		pos_y = "0.254166667",
@@ -118638,6 +122220,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -118648,7 +122231,6 @@ pg.chapter_template = {
 		enter_story = "TACT20015",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -118812,6 +122394,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"unknown1"
@@ -119428,22 +123028,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1130001] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 35,
-		pos_x = "0.20234375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.20234375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1130001,
+		icon_outline = 0,
 		pre_chapter = 201,
 		star_require_1 = 1,
 		pos_y = "0.34375",
@@ -119452,6 +123052,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -119462,7 +123063,6 @@ pg.chapter_template = {
 		enter_story = "TACT50000",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -119562,6 +123162,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"jiagu",
@@ -119898,22 +123516,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1130002] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 28,
-		pos_x = "0.28671875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.28671875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1130002,
+		icon_outline = 0,
 		pre_chapter = 1130001,
 		star_require_1 = 1,
 		pos_y = "0.070833333",
@@ -119922,6 +123540,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -119932,7 +123551,6 @@ pg.chapter_template = {
 		enter_story = "TACT50003",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -120032,6 +123650,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"guying",
@@ -120429,22 +124065,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1130003] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 22,
-		pos_x = "0.6375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1130003,
+		icon_outline = 0,
 		pre_chapter = 1130002,
 		star_require_1 = 1,
 		pos_y = "0.221875",
@@ -120453,6 +124089,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -120463,7 +124100,6 @@ pg.chapter_template = {
 		enter_story = "TACT50006",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -120565,6 +124201,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"niaohai"
@@ -120998,22 +124652,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1140001] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 50,
-		pos_x = "0.1625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.1625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1140001,
+		icon_outline = 0,
 		pre_chapter = 201,
 		star_require_1 = 1,
 		pos_y = "0.402083333",
@@ -121022,6 +124676,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 15,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -121032,7 +124687,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -121145,6 +124799,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -121524,22 +125196,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1140003] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.62109375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.62109375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1140003,
+		icon_outline = 0,
 		pre_chapter = 1140001,
 		star_require_1 = 1,
 		pos_y = "0.379166667",
@@ -121548,6 +125220,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -121558,7 +125231,6 @@ pg.chapter_template = {
 		enter_story = "FAXI02",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -121672,6 +125344,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenzhongxun_i"
@@ -122156,22 +125846,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1140004] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.3813",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.3813",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1140004,
+		icon_outline = 0,
 		pre_chapter = 1140003,
 		star_require_1 = 1,
 		pos_y = "0.1739",
@@ -122180,6 +125870,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -122190,7 +125881,6 @@ pg.chapter_template = {
 		enter_story = "FAXI03",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -122305,6 +125995,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"dunkeerke"
@@ -122900,22 +126608,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1140005] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.228125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.228125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1140005,
+		icon_outline = 0,
 		pre_chapter = 1140004,
 		star_require_1 = 1,
 		pos_y = "0.3875",
@@ -122924,6 +126632,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -122934,7 +126643,6 @@ pg.chapter_template = {
 		enter_story = "FAXI06",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -123048,6 +126756,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"lemaer",
@@ -123439,22 +127165,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1140007] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.31640625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.31640625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1140007,
+		icon_outline = 0,
 		pre_chapter = 1140005,
 		star_require_1 = 1,
 		pos_y = "0.076041667",
@@ -123463,6 +127189,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -123473,7 +127200,6 @@ pg.chapter_template = {
 		enter_story = "FAXI07",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -123588,6 +127314,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -124083,22 +127827,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1140008] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.55625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.55625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1140008,
+		icon_outline = 0,
 		pre_chapter = 1140007,
 		star_require_1 = 1,
 		pos_y = "0.254166667",
@@ -124107,6 +127851,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -124117,7 +127862,6 @@ pg.chapter_template = {
 		enter_story = "FAXI08",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -124233,6 +127977,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"rangbaer"
@@ -124860,22 +128622,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1140011] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.1625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.1625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1140011,
+		icon_outline = 0,
 		pre_chapter = 201,
 		star_require_1 = 1,
 		pos_y = "0.402083333",
@@ -124884,6 +128646,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -124894,7 +128657,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -125048,6 +128810,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -125427,22 +129207,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1140013] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.62109375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.62109375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1140013,
+		icon_outline = 0,
 		pre_chapter = 1140011,
 		star_require_1 = 1,
 		pos_y = "0.379166667",
@@ -125451,6 +129231,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -125461,7 +129242,6 @@ pg.chapter_template = {
 		enter_story = "FAXI02",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -125616,6 +129396,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenzhongxun_i"
@@ -126100,22 +129898,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1140014] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.3813",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.3813",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1140014,
+		icon_outline = 0,
 		pre_chapter = 1140013,
 		star_require_1 = 1,
 		pos_y = "0.1739",
@@ -126124,6 +129922,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -126134,7 +129933,6 @@ pg.chapter_template = {
 		enter_story = "FAXI03",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -126290,6 +130088,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"dunkeerke"
@@ -126885,22 +130701,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1140015] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.228125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.228125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1140015,
+		icon_outline = 0,
 		pre_chapter = 1140014,
 		star_require_1 = 1,
 		pos_y = "0.3875",
@@ -126909,6 +130725,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -126919,7 +130736,6 @@ pg.chapter_template = {
 		enter_story = "FAXI06",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -127076,6 +130892,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"lemaer",
@@ -127467,22 +131301,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1140017] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.31640625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.31640625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1140017,
+		icon_outline = 0,
 		pre_chapter = 1140015,
 		star_require_1 = 1,
 		pos_y = "0.076041667",
@@ -127491,6 +131325,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -127501,7 +131336,6 @@ pg.chapter_template = {
 		enter_story = "FAXI07",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -127659,6 +131493,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -128154,22 +132006,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1140018] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 17,
-		pos_x = "0.55625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.55625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1140018,
+		icon_outline = 0,
 		pre_chapter = 1140017,
 		star_require_1 = 1,
 		pos_y = "0.254166667",
@@ -128178,6 +132030,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 40,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -128188,7 +132041,6 @@ pg.chapter_template = {
 		enter_story = "FAXI08",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -128347,6 +132199,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"rangbaer"
@@ -128967,22 +132837,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1140021] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.479",
+		oil = 0,
 		group_num = 1,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.479",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1140021,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.2979",
@@ -128991,6 +132861,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 4,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 0,
 		uifx = "",
@@ -129001,7 +132872,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
-		oil = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -129074,6 +132944,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"rangbaer",
@@ -129329,22 +133217,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1150001] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.2515625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.2515625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1150001,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
@@ -129353,6 +133241,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 15,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 3,
 		uifx = "",
@@ -129363,7 +133252,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 3,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -129487,6 +133375,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenquzhu"
@@ -129891,22 +133797,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1150002] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 50,
-		pos_x = "0.38203125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.38203125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1150002,
+		icon_outline = 0,
 		pre_chapter = 1150001,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
@@ -129915,6 +133821,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -129925,7 +133832,6 @@ pg.chapter_template = {
 		enter_story = "DONGHUO04",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -130053,6 +133959,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenqingxun"
@@ -130514,22 +134438,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1150003] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.665625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.665625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1150003,
+		icon_outline = 0,
 		pre_chapter = 1150002,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
@@ -130538,6 +134462,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -130548,7 +134473,6 @@ pg.chapter_template = {
 		enter_story = "DONGHUO06",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -130677,6 +134601,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenzhongxun",
@@ -131228,22 +135170,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1150004] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.23125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.23125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1150004,
+		icon_outline = 0,
 		pre_chapter = 1150003,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
@@ -131252,6 +135194,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -131262,7 +135205,6 @@ pg.chapter_template = {
 		enter_story = "DONGHUO09",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -131390,6 +135332,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenzhanlie"
@@ -131880,22 +135840,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1150005] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.5390625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.5390625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1150005,
+		icon_outline = 0,
 		pre_chapter = 1150004,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
@@ -131904,6 +135864,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -131914,7 +135875,6 @@ pg.chapter_template = {
 		enter_story = "DONGHUO10",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -132042,6 +136002,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenhangmu"
@@ -132673,22 +136651,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1150006] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.6140625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6140625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1150006,
+		icon_outline = 0,
 		pre_chapter = 1150005,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
@@ -132697,6 +136675,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -132707,7 +136686,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -132837,6 +136815,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenzhanlie",
@@ -133645,22 +137641,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1150011] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.2515625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.2515625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1150011,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
@@ -133669,6 +137665,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -133679,7 +137676,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -133844,6 +137840,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenquzhu"
@@ -134248,22 +138262,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1150012] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 50,
-		pos_x = "0.38203125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.38203125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1150012,
+		icon_outline = 0,
 		pre_chapter = 1150011,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
@@ -134272,6 +138286,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -134282,7 +138297,6 @@ pg.chapter_template = {
 		enter_story = "DONGHUO04",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -134451,6 +138465,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenqingxun"
@@ -134912,22 +138944,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1150013] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.665625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.665625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1150013,
+		icon_outline = 0,
 		pre_chapter = 1150012,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
@@ -134936,6 +138968,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -134946,7 +138979,6 @@ pg.chapter_template = {
 		enter_story = "DONGHUO06",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -135116,6 +139148,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenzhongxun",
@@ -135667,22 +139717,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1150014] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.23125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.23125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1150014,
+		icon_outline = 0,
 		pre_chapter = 1150013,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
@@ -135691,6 +139741,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -135701,7 +139752,6 @@ pg.chapter_template = {
 		enter_story = "DONGHUO09",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -135870,6 +139920,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenzhanlie"
@@ -136360,22 +140428,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1150015] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.5390625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.5390625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1150015,
+		icon_outline = 0,
 		pre_chapter = 1150014,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
@@ -136384,6 +140452,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -136394,7 +140463,6 @@ pg.chapter_template = {
 		enter_story = "DONGHUO10",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -136563,6 +140631,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenhangmu"
@@ -137194,22 +141280,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1150016] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.6140625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6140625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1150016,
+		icon_outline = 0,
 		pre_chapter = 1150015,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
@@ -137218,6 +141304,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 40,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -137228,7 +141315,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -137399,6 +141485,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenzhanlie",
@@ -138207,22 +142311,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1150021] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.479",
+		oil = 0,
 		group_num = 1,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.479",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1150021,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.2979",
@@ -138231,6 +142335,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 4,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 0,
 		uifx = "",
@@ -138241,7 +142346,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
-		oil = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -138316,6 +142420,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"unknown1"
@@ -138698,22 +142820,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1160001] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 50,
-		pos_x = "0.2584375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.2584375",
 		activate_time = 0,
 		story_refresh_boss = "LINKPREHEAT1-2",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1160001,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.404444444",
@@ -138722,6 +142844,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -138732,7 +142855,6 @@ pg.chapter_template = {
 		enter_story = "LINKPREHEAT1-1",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -138847,6 +142969,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"fumilulu"
@@ -139200,22 +143340,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1160002] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.73046875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.73046875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1160002,
+		icon_outline = 0,
 		pre_chapter = 1160001,
 		star_require_1 = 1,
 		pos_y = "0.393611111",
@@ -139224,6 +143364,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -139234,7 +143375,6 @@ pg.chapter_template = {
 		enter_story = "LINKPREHEAT3",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -139348,6 +143488,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"jiuyuan",
@@ -139819,22 +143977,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1160003] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.40078125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.40078125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1160003,
+		icon_outline = 0,
 		pre_chapter = 1160002,
 		star_require_1 = 1,
 		pos_y = "0.003666667",
@@ -139843,6 +144001,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 99,
 		uifx = "",
@@ -139853,7 +144012,6 @@ pg.chapter_template = {
 		enter_story = "LINKPREHEAT5-1",
 		boss_refresh = 99,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -139966,6 +144124,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"wululu",
@@ -140350,22 +144526,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1160004] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 22,
-		pos_x = "0.5",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.5",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1160004,
+		icon_outline = 0,
 		pre_chapter = 1160003,
 		star_require_1 = 1,
 		pos_y = "0.25",
@@ -140374,6 +144550,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 99,
 		uifx = "",
@@ -140384,7 +144561,6 @@ pg.chapter_template = {
 		enter_story = "LINKPREHEAT9-1",
 		boss_refresh = 99,
 		event_skip = 1,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -140501,6 +144677,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenboss"
@@ -141137,22 +145331,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1160005] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.3953125",
+		oil = 0,
 		group_num = 1,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.3953125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1160005,
+		icon_outline = 0,
 		pre_chapter = 1160004,
 		star_require_1 = 1,
 		pos_y = "0.1635417",
@@ -141161,6 +145355,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 4,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 0,
 		uifx = "",
@@ -141171,7 +145366,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
-		oil = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -141244,6 +145438,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"jiuyuan",
@@ -141675,22 +145887,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1170001] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 35,
-		pos_x = "0.20234375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.20234375",
 		activate_time = 0,
 		story_refresh_boss = "LONGXIANGHUODONG3",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1170001,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.34375",
@@ -141699,6 +145911,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -141709,7 +145922,6 @@ pg.chapter_template = {
 		enter_story = "LONGXIANGHUODONG1",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -141824,6 +146036,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"birui",
@@ -142187,22 +146417,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1170002] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 28,
-		pos_x = "0.28671875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.28671875",
 		activate_time = 0,
 		story_refresh_boss = "LONGXIANGHUODONG6",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1170002,
+		icon_outline = 0,
 		pre_chapter = 1170001,
 		star_require_1 = 1,
 		pos_y = "0.070833333",
@@ -142211,6 +146441,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -142221,7 +146452,6 @@ pg.chapter_template = {
 		enter_story = "LONGXIANGHUODONG5",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -142336,6 +146566,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"luao"
@@ -142757,22 +147005,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1170003] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 22,
-		pos_x = "0.6375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1170003,
+		icon_outline = 0,
 		pre_chapter = 1170002,
 		star_require_1 = 1,
 		pos_y = "0.221875",
@@ -142781,6 +147029,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -142791,7 +147040,6 @@ pg.chapter_template = {
 		enter_story = "LONGXIANGHUODONG8",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -142908,6 +147156,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"longxiang"
@@ -143366,22 +147632,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1180001] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 50,
-		pos_x = "0.2515625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.2515625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1180001,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
@@ -143390,6 +147656,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 15,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -143400,7 +147667,6 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG2",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -143514,6 +147780,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"qifeng"
@@ -143943,22 +148227,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1180002] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.38203125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.38203125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1180002,
+		icon_outline = 0,
 		pre_chapter = 1180001,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
@@ -143967,6 +148251,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -143977,7 +148262,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -144092,6 +148376,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"nake"
@@ -144491,22 +148793,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1180003] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.665625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.665625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1180003,
+		icon_outline = 0,
 		pre_chapter = 1180002,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
@@ -144515,6 +148817,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -144525,7 +148828,6 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG7",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -144641,6 +148943,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"jiahezhanlie"
@@ -145135,22 +149455,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1180004] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.23125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.23125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1180004,
+		icon_outline = 0,
 		pre_chapter = 1180003,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
@@ -145159,6 +149479,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -145169,7 +149490,6 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG11",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -145283,6 +149603,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -145780,22 +150118,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1180005] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.5390625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.5390625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1180005,
+		icon_outline = 0,
 		pre_chapter = 1180004,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
@@ -145804,6 +150142,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -145814,7 +150153,6 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG13",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -145929,6 +150267,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -146468,22 +150824,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1180006] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.6140625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6140625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1180006,
+		icon_outline = 0,
 		pre_chapter = 1180005,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
@@ -146492,6 +150848,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -146502,7 +150859,6 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG16",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -146618,6 +150974,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"tiancheng"
@@ -147130,22 +151504,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1180011] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.2515625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.2515625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1180011,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
@@ -147154,6 +151528,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -147164,7 +151539,6 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG2",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -147320,6 +151694,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"qifeng"
@@ -147749,22 +152141,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1180012] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.38203125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.38203125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1180012,
+		icon_outline = 0,
 		pre_chapter = 1180011,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
@@ -147773,6 +152165,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -147783,7 +152176,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -147940,6 +152332,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"nake"
@@ -148339,22 +152749,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1180013] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.665625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.665625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1180013,
+		icon_outline = 0,
 		pre_chapter = 1180012,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
@@ -148363,6 +152773,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -148373,7 +152784,6 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG7",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -148531,6 +152941,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"jiahezhanlie"
@@ -149025,22 +153453,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1180014] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.23125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.23125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1180014,
+		icon_outline = 0,
 		pre_chapter = 1180013,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
@@ -149049,6 +153477,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -149059,7 +153488,6 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG11",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -149215,6 +153643,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenquzhu_i"
@@ -149712,22 +154158,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1180015] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.5390625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.5390625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1180015,
+		icon_outline = 0,
 		pre_chapter = 1180014,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
@@ -149736,6 +154182,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 40,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -149746,7 +154193,6 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG13",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -149905,6 +154351,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"sairenhangmu_i"
@@ -150444,22 +154908,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1180016] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.6140625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6140625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1180016,
+		icon_outline = 0,
 		pre_chapter = 1180015,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
@@ -150468,6 +154932,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 40,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -150478,7 +154943,6 @@ pg.chapter_template = {
 		enter_story = "TIANCHENGHUODONG16",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -150638,6 +155102,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"tiancheng"
@@ -151150,22 +155632,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1180021] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.479",
+		oil = 0,
 		group_num = 1,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.479",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1180021,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.2979",
@@ -151174,6 +155656,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 4,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 0,
 		uifx = "",
@@ -151184,7 +155667,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
-		oil = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -151261,6 +155743,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"tiancheng",
@@ -151535,22 +156035,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1200001] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.1625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.1625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1200001,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.402083333",
@@ -151558,6 +156058,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 6,
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 0,
 		uifx = "",
@@ -151568,7 +156069,6 @@ pg.chapter_template = {
 		enter_story = "NAERWEIKE1",
 		boss_refresh = 0,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -151624,6 +156124,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"eidsvold"
@@ -152100,22 +156618,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1200002] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 35,
-		pos_x = "0.2375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.2375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1200002,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1200002,
+		icon_outline = 0,
 		pre_chapter = 1200001,
 		star_require_1 = 1,
 		pos_y = "0.123958333",
@@ -152123,6 +156641,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 25,
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -152133,7 +156652,6 @@ pg.chapter_template = {
 		enter_story = "NAERWEIKE3",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -152211,6 +156729,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"Z19"
@@ -152814,22 +157350,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1200003] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 28,
-		pos_x = "0.62109375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.62109375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1200003,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1200003,
+		icon_outline = 0,
 		pre_chapter = 1200002,
 		star_require_1 = 1,
 		pos_y = "0.379166667",
@@ -152837,6 +157373,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 30,
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -152847,7 +157384,6 @@ pg.chapter_template = {
 		enter_story = "NAERWEIKE6",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -152925,6 +157461,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"Z21"
@@ -153544,22 +158098,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1200004] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 22,
-		pos_x = "0.68515625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.68515625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1200004,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1200004,
+		icon_outline = 0,
 		pre_chapter = 1200003,
 		star_require_1 = 1,
 		pos_y = "0.10625",
@@ -153567,6 +158121,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 35,
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -153577,7 +158132,6 @@ pg.chapter_template = {
 		enter_story = "NAERWEIKE9",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -153656,6 +158210,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"z2"
@@ -154266,22 +158838,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1220001] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 50,
-		pos_x = "0.171",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.171",
 		activate_time = 0,
 		story_refresh_boss = "AIGUANQIA4",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1220001,
 		air_dominance = 50,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 1220001,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.3958",
@@ -154289,6 +158861,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 15,
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -154299,7 +158872,6 @@ pg.chapter_template = {
 		enter_story = "AIGUANQIA3",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -154414,6 +158986,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"aijiangCL"
@@ -154810,22 +159400,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1220002] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.2164",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.2164",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1220002,
 		air_dominance = 180,
 		best_air_dominance = 235,
 		count = 0,
-		icon_outline = 0,
 		id = 1220002,
+		icon_outline = 0,
 		pre_chapter = 1220001,
 		star_require_1 = 1,
 		pos_y = "0.10625",
@@ -154833,6 +159423,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 25,
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -154843,7 +159434,6 @@ pg.chapter_template = {
 		enter_story = "AIGUANQIA7",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -154956,6 +159546,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"aijiangCV"
@@ -155534,22 +160142,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1220003] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.47578",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.47578",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1220003,
 		air_dominance = 50,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 1220003,
+		icon_outline = 0,
 		pre_chapter = 1220002,
 		star_require_1 = 1,
 		pos_y = "0.2698",
@@ -155557,6 +160165,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 35,
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -155567,7 +160176,6 @@ pg.chapter_template = {
 		enter_story = "AIGUANQIA11",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -155682,6 +160290,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"aijiangBB"
@@ -156278,22 +160904,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1220004] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 22,
-		pos_x = "0.659375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.659375",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1220004,
 		air_dominance = 880,
 		best_air_dominance = 1145,
 		count = 0,
-		icon_outline = 0,
 		id = 1220004,
+		icon_outline = 0,
 		pre_chapter = 1220003,
 		star_require_1 = 1,
 		pos_y = "0.11875",
@@ -156301,6 +160927,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 45,
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -156311,7 +160938,6 @@ pg.chapter_template = {
 		enter_story = "AIGUANQIA16",
 		boss_refresh = 0,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -156430,6 +161056,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"aijiangDD"
@@ -157136,22 +161780,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1220005] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.69",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.69",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 50,
 		best_air_dominance = 150,
 		count = 1,
-		icon_outline = 0,
 		id = 1220005,
+		icon_outline = 0,
 		pre_chapter = 1220004,
 		star_require_1 = 1,
 		pos_y = "0.417",
@@ -157159,6 +161803,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 8,
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 7,
 		uifx = "",
@@ -157169,7 +161814,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 7,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -157291,6 +161935,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"aijiangCV"
@@ -157798,22 +162460,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1220021] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.47578",
+		oil = 0,
 		group_num = 1,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.47578",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 50,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 1220021,
+		icon_outline = 0,
 		pre_chapter = 1220004,
 		star_require_1 = 1,
 		pos_y = "0.2698",
@@ -157822,6 +162484,7 @@ pg.chapter_template = {
 		investigation_ratio = 0,
 		num_2 = 4,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 0,
 		uifx = "",
@@ -157832,7 +162495,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
-		oil = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -157906,6 +162568,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"aijiangDD"
@@ -158308,22 +162988,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1230001] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 50,
-		pos_x = "0.2515625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.2515625",
 		activate_time = 0,
 		story_refresh_boss = "TIEXUEYUYINFU3",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1230001,
 		air_dominance = 100,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 1230001,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
@@ -158331,6 +163011,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 15,
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -158341,7 +163022,6 @@ pg.chapter_template = {
 		enter_story = "TIEXUEYUYINFU2",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -158455,6 +163135,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"safuke",
@@ -158855,22 +163553,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1230002] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.38203125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.38203125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1230002,
 		air_dominance = 130,
 		best_air_dominance = 170,
 		count = 0,
-		icon_outline = 0,
 		id = 1230002,
+		icon_outline = 0,
 		pre_chapter = 1230001,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
@@ -158878,6 +163576,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 20,
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -158888,7 +163587,6 @@ pg.chapter_template = {
 		enter_story = "TIEXUEYUYINFU5",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -159003,6 +163701,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"shengli"
@@ -159404,22 +164120,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1230003] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.665625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.665625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1230003,
 		air_dominance = 165,
 		best_air_dominance = 215,
 		count = 0,
-		icon_outline = 0,
 		id = 1230003,
+		icon_outline = 0,
 		pre_chapter = 1230002,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
@@ -159427,6 +164143,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 20,
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -159437,7 +164154,6 @@ pg.chapter_template = {
 		enter_story = "TIEXUEYUYINFU8",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -159553,6 +164269,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"huangjiafangzhou"
@@ -160038,22 +164772,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1230004] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.23125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.23125",
 		activate_time = 0,
 		story_refresh_boss = "TIEXUEYUYINFU12",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1230004,
 		air_dominance = 210,
 		best_air_dominance = 275,
 		count = 0,
-		icon_outline = 0,
 		id = 1230004,
+		icon_outline = 0,
 		pre_chapter = 1230003,
 		star_require_1 = 1,
 		pos_y = "0.227083333",
@@ -160061,6 +164795,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 25,
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -160071,7 +164806,6 @@ pg.chapter_template = {
 		enter_story = "TIEXUEYUYINFU11",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -160185,6 +164919,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"bisimai"
@@ -160681,22 +165433,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1230005] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.5390625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.5390625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1230005,
 		air_dominance = 270,
 		best_air_dominance = 355,
 		count = 0,
-		icon_outline = 0,
 		id = 1230005,
+		icon_outline = 0,
 		pre_chapter = 1230004,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
@@ -160704,6 +165456,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 30,
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -160714,7 +165467,6 @@ pg.chapter_template = {
 		enter_story = "TIEXUEYUYINFU14",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -160829,6 +165581,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"unknown1"
@@ -161367,22 +166137,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1230006] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.6140625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6140625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1230006,
 		air_dominance = 330,
 		best_air_dominance = 430,
 		count = 0,
-		icon_outline = 0,
 		id = 1230006,
+		icon_outline = 0,
 		pre_chapter = 1230005,
 		star_require_1 = 1,
 		pos_y = "0.383333333",
@@ -161390,6 +166160,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 30,
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -161400,7 +166171,6 @@ pg.chapter_template = {
 		enter_story = "TIEXUEYUYINFU16",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -161516,6 +166286,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"bisimai"
@@ -162025,22 +166813,22 @@ pg.chapter_template = {
 		}
 	},
 	[1230011] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.2515625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.2515625",
 		activate_time = 0,
 		story_refresh_boss = "TIEXUEYUYINFU3",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1230011,
 		air_dominance = 555,
 		best_air_dominance = 725,
 		count = 0,
-		icon_outline = 0,
 		id = 1230011,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.392708333",
@@ -162048,6 +166836,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 25,
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -162058,7 +166847,6 @@ pg.chapter_template = {
 		enter_story = "TIEXUEYUYINFU2",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -162214,6 +167002,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"safuke",
@@ -162614,22 +167420,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1230012] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.38203125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.38203125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1230012,
 		air_dominance = 705,
 		best_air_dominance = 920,
 		count = 0,
-		icon_outline = 0,
 		id = 1230012,
+		icon_outline = 0,
 		pre_chapter = 1230011,
 		star_require_1 = 1,
 		pos_y = "0.052083333",
@@ -162637,6 +167443,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 25,
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -162647,7 +167454,6 @@ pg.chapter_template = {
 		enter_story = "TIEXUEYUYINFU5",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -162804,6 +167610,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"shengli"
@@ -163205,22 +168029,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1230013] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.665625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.665625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1230013,
 		air_dominance = 875,
 		best_air_dominance = 1140,
 		count = 0,
-		icon_outline = 0,
 		id = 1230013,
+		icon_outline = 0,
 		pre_chapter = 1230012,
 		star_require_1 = 1,
 		pos_y = "0.344791667",
@@ -163228,6 +168052,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 30,
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -163238,7 +168063,6 @@ pg.chapter_template = {
 		enter_story = "TIEXUEYUYINFU8",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -163396,6 +168220,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"huangjiafangzhou"
@@ -163881,22 +168723,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1230014] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.14609375",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.14609375",
 		activate_time = 0,
 		story_refresh_boss = "TIEXUEYUYINFU12",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1230014,
 		air_dominance = 950,
 		best_air_dominance = 1235,
 		count = 0,
-		icon_outline = 0,
 		id = 1230014,
+		icon_outline = 0,
 		pre_chapter = 1230013,
 		star_require_1 = 1,
 		pos_y = "0.380208333",
@@ -163904,6 +168746,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 35,
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -163914,7 +168757,6 @@ pg.chapter_template = {
 		enter_story = "TIEXUEYUYINFU11",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -164070,6 +168912,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"bisimai"
@@ -164566,22 +169426,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1230015] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.28671875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.28671875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1230015,
 		air_dominance = 1155,
 		best_air_dominance = 1505,
 		count = 0,
-		icon_outline = 0,
 		id = 1230015,
+		icon_outline = 0,
 		pre_chapter = 1230014,
 		star_require_1 = 1,
 		pos_y = "0.122916667",
@@ -164589,6 +169449,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 40,
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -164599,7 +169460,6 @@ pg.chapter_template = {
 		enter_story = "TIEXUEYUYINFU14",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -164758,6 +169618,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"unknown1"
@@ -165296,22 +170174,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1230016] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.6046875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6046875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 1230016,
 		air_dominance = 1345,
 		best_air_dominance = 1750,
 		count = 0,
-		icon_outline = 0,
 		id = 1230016,
+		icon_outline = 0,
 		pre_chapter = 1230015,
 		star_require_1 = 1,
 		pos_y = "0.35625",
@@ -165319,6 +170197,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 40,
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -165329,7 +170208,6 @@ pg.chapter_template = {
 		enter_story = "TIEXUEYUYINFU16",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -165489,6 +170367,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"bisimai"
@@ -165998,22 +170894,22 @@ pg.chapter_template = {
 		}
 	},
 	[1230017] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.479",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.479",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 1770,
 		best_air_dominance = 2305,
 		count = 1,
-		icon_outline = 0,
 		id = 1230017,
+		icon_outline = 0,
 		pre_chapter = 1230016,
 		star_require_1 = 1,
 		pos_y = "0.2979",
@@ -166021,6 +170917,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 8,
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 7,
 		uifx = "",
@@ -166031,7 +170928,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 7,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -166166,6 +171062,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"bisimai"
@@ -166648,22 +171562,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1230021] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.479",
+		oil = 0,
 		group_num = 1,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.479",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 620,
 		best_air_dominance = 810,
 		count = 0,
-		icon_outline = 0,
 		id = 1230021,
+		icon_outline = 0,
 		pre_chapter = 1230016,
 		star_require_1 = 1,
 		pos_y = "0.2979",
@@ -166671,6 +171585,7 @@ pg.chapter_template = {
 		model = 5,
 		investigation_ratio = 0,
 		num_2 = 4,
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 0,
 		uifx = "",
@@ -166681,7 +171596,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 0,
 		event_skip = 0,
-		oil = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -166755,6 +171669,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"bisimai"
@@ -167029,23 +171961,14037 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {}
 	},
-	[1250031] = {
-		num_3 = 0,
+	[1250001] = {
 		mine_id = 2001,
-		collection_team = 0,
-		progress_boss = 100,
-		pos_x = "0",
-		group_num = 1,
+		progress_boss = 50,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.2515625",
+		activate_time = 0,
+		story_refresh_boss = "XIANGTINGLIAOFA3",
 		ammo_submarine = 0,
 		ammo_cost = 1,
+		collection_team = 0,
+		chapter_safe = 1250001,
+		air_dominance = 100,
+		best_air_dominance = 150,
+		count = 0,
+		id = 1250001,
+		icon_outline = 0,
+		pre_chapter = 0,
+		star_require_1 = 1,
+		pos_y = "0.392708333",
+		num_1 = 1,
+		model = 10,
+		investigation_ratio = 0,
+		num_2 = 15,
+		num_3 = 10,
+		unlocklevel = 0,
+		boss_refresh_special = 3,
+		uifx = "",
+		name = "뜻밖의 손님",
+		chapter_name = "A1",
+		type = 1,
+		act_id = 20231,
+		enter_story = "XIANGTINGLIAOFA2",
+		boss_refresh = 3,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		map = 1250001,
+		enter_story_limit = "",
+		star_require_3 = 4,
+		profiles = "후드, 프린스 오브 웨일즈와 겨룬 후, 비스마르크와 프린츠 오이겐은 로열 네이비 함대의 포위를 벗어나려 한다. 그 앞에서 그녀들을 기다리는 것은?",
+		difficulty = 3,
+		avoid_ratio = 8,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1240001,
+				15,
+				0
+			},
+			{
+				1240002,
+				20,
+				0
+			},
+			{
+				1240003,
+				30,
+				1
+			},
+			{
+				1240004,
+				15,
+				0
+			},
+			{
+				1240005,
+				20,
+				0
+			},
+			{
+				1240006,
+				30,
+				1
+			},
+			{
+				1240007,
+				15,
+				0
+			},
+			{
+				1240008,
+				20,
+				0
+			},
+			{
+				1240009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1240010,
+			1240011,
+			1240012
+		},
+		elite_expedition_list = {
+			1240005,
+			1240008
+		},
+		ai_expedition_list = {
+			1240221
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1240013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸, 항구 HP가 0에 도달"
+		},
+		icon = {
+			"sairenzhongxun_i",
+			"sairenquzhu_i"
+		},
+		awards = {
+			{
+				2,
+				57642
+			},
+			{
+				2,
+				57630
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				8
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				8
+			},
+			{
+				8,
+				4,
+				true,
+				6
+			},
+			{
+				8,
+				3,
+				true,
+				12
+			},
+			{
+				8,
+				2,
+				false,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				6
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				12
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				6
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				16
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				4
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				1
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				1
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				100
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				2,
+				"1x1_2newmeixi",
+				0,
+				4
+			},
+			{
+				6,
+				3,
+				"1x3_1newmeixi",
+				-20,
+				5
+			},
+			{
+				5,
+				7,
+				"1x2_1newmeixi",
+				0,
+				44
+			},
+			{
+				4,
+				4,
+				"gangkou",
+				11,
+				43
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_newmeixi",
+			45,
+			20,
+			27,
+			103,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"XIANGTINGLIAOFA5"
+		},
+		defeat_story_count = {
+			2
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {
+			{
+				4,
+				4,
+				10
+			}
+		},
+		chapter_buff = {}
+	},
+	[1250002] = {
+		mine_id = 2001,
+		progress_boss = 34,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.38203125",
+		activate_time = 0,
+		story_refresh_boss = "XIANGTINGLIAOFA9",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		chapter_safe = 1250002,
+		air_dominance = 130,
+		best_air_dominance = 170,
+		count = 0,
+		id = 1250002,
+		icon_outline = 0,
+		pre_chapter = 1250007,
+		star_require_1 = 1,
+		pos_y = "0.052083333",
+		num_1 = 1,
+		model = 10,
+		investigation_ratio = 0,
+		num_2 = 20,
+		num_3 = 10,
+		unlocklevel = 0,
+		boss_refresh_special = 4,
+		uifx = "",
+		name = "롱 아일랜드 방어선 반격",
+		chapter_name = "A2",
+		type = 1,
+		act_id = 20231,
+		enter_story = "XIANGTINGLIAOFA8",
+		boss_refresh = 4,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		map = 1250001,
+		enter_story_limit = "",
+		star_require_3 = 4,
+		profiles = "남김없이 출동한 로열 네이비의 함대, 귓가에 작게 속삭이는 \"인어\"의 유혹, 옳은 선택이란 대체 어디에 있는가…?",
+		difficulty = 4,
+		avoid_ratio = 9,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1240101,
+				15,
+				0
+			},
+			{
+				1240102,
+				20,
+				0
+			},
+			{
+				1240103,
+				30,
+				1
+			},
+			{
+				1240104,
+				15,
+				0
+			},
+			{
+				1240105,
+				20,
+				0
+			},
+			{
+				1240106,
+				30,
+				1
+			},
+			{
+				1240107,
+				15,
+				0
+			},
+			{
+				1240108,
+				20,
+				0
+			},
+			{
+				1240109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1240110,
+			1240111,
+			1240112
+		},
+		elite_expedition_list = {
+			1240105,
+			1240108
+		},
+		ai_expedition_list = {
+			1240231,
+			1240232
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1240113
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸, 항구 HP가 0에 도달"
+		},
+		icon = {
+			"unknown3"
+		},
+		awards = {
+			{
+				2,
+				57643
+			},
+			{
+				2,
+				57631
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				12
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				6
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				8
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				6
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				1
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				1
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				8
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				100
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				16
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				12
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				7,
+				"1x2_2newmeixi",
+				0,
+				26
+			},
+			{
+				5,
+				4,
+				"2x3_1newmeixi",
+				-15,
+				-25
+			},
+			{
+				3,
+				8,
+				"gangkou",
+				20,
+				39
+			},
+			{
+				2,
+				4,
+				"1x1_2newmeixi",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_newmeixi",
+			45,
+			20,
+			3,
+			68,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"XIANGTINGLIAOFA11"
+		},
+		defeat_story_count = {
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {
+			{
+				3,
+				8,
+				10
+			}
+		},
+		chapter_buff = {}
+	},
+	[1250003] = {
+		mine_id = 2001,
+		progress_boss = 34,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.665625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		chapter_safe = 1250003,
+		air_dominance = 165,
+		best_air_dominance = 215,
+		count = 0,
+		id = 1250003,
+		icon_outline = 0,
+		pre_chapter = 1250008,
+		star_require_1 = 1,
+		pos_y = "0.344791667",
+		num_1 = 1,
+		model = 10,
+		investigation_ratio = 0,
+		num_2 = 20,
+		num_3 = 10,
+		unlocklevel = 0,
+		boss_refresh_special = 4,
+		uifx = "",
+		name = "혼란과 미제",
+		chapter_name = "A3",
+		type = 1,
+		act_id = 20231,
+		enter_story = "XIANGTINGLIAOFA14",
+		boss_refresh = 4,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		map = 1250001,
+		enter_story_limit = "",
+		star_require_3 = 4,
+		profiles = "로열 네이비 함대에서 대량의 함재기를 보내 저지하려 하고, 수배에 달하는 자신의 상대를 마주하며, 화포가 건재한 이상 우리는 계속하여 싸울 것이다──",
+		difficulty = 5,
+		avoid_ratio = 10,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1240201,
+				15,
+				0
+			},
+			{
+				1240202,
+				20,
+				0
+			},
+			{
+				1240203,
+				30,
+				1
+			},
+			{
+				1240204,
+				15,
+				0
+			},
+			{
+				1240205,
+				20,
+				0
+			},
+			{
+				1240206,
+				30,
+				1
+			},
+			{
+				1240207,
+				15,
+				0
+			},
+			{
+				1240208,
+				20,
+				0
+			},
+			{
+				1240209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1240210,
+			1240211,
+			1240212
+		},
+		elite_expedition_list = {
+			1240205,
+			1240208
+		},
+		ai_expedition_list = {
+			1240241,
+			1240242,
+			1240243
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1240213
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸, 항구 HP가 0에 도달"
+		},
+		icon = {
+			"unknown1"
+		},
+		awards = {
+			{
+				2,
+				57644
+			},
+			{
+				2,
+				57632
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				9,
+				true,
+				0
+			},
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				true,
+				6
+			},
+			{
+				9,
+				6,
+				true,
+				6
+			},
+			{
+				9,
+				5,
+				true,
+				6
+			},
+			{
+				9,
+				4,
+				true,
+				0
+			},
+			{
+				9,
+				3,
+				true,
+				0
+			},
+			{
+				9,
+				2,
+				true,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				4
+			},
+			{
+				8,
+				2,
+				true,
+				6
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				4
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				1
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				12
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				12
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				100
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				1
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				16
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				4
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				12
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				8
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				6,
+				"1x3_1newmeixi",
+				0,
+				7
+			},
+			{
+				5,
+				8,
+				"gangkou",
+				0,
+				35
+			},
+			{
+				4,
+				5,
+				"1x1_2newmeixi",
+				0,
+				0
+			},
+			{
+				3,
+				1,
+				"2x2_1newmeixi",
+				54,
+				31
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_newmeixi",
+			45,
+			20,
+			-9,
+			-88,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"XIANGTINGLIAOFA15"
+		},
+		defeat_story_count = {
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {
+			{
+				5,
+				8,
+				10
+			}
+		},
+		chapter_buff = {}
+	},
+	[1250004] = {
+		mine_id = 2001,
+		progress_boss = 25,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.23125",
+		activate_time = 0,
+		story_refresh_boss = "XIANGTINGLIAOFA18",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		chapter_safe = 1250004,
+		air_dominance = 210,
+		best_air_dominance = 275,
+		count = 0,
+		id = 1250004,
+		icon_outline = 0,
+		pre_chapter = 1250003,
+		star_require_1 = 1,
+		pos_y = "0.227083333",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 25,
+		num_3 = 1,
+		unlocklevel = 0,
+		boss_refresh_special = 4,
+		uifx = "",
+		name = "\"BM작전\"",
+		chapter_name = "B1",
+		type = 1,
+		act_id = 20232,
+		enter_story = "XIANGTINGLIAOFA17",
+		boss_refresh = 4,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		map = 1250002,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "비스마르크는 행동력을 상실하나 여전히 완강하게 저항하는 중이다. 승리가 드디어 우리의 것이 되고, 후드와 로열 네이비 함대의 영광을 위하여, 포격하라!",
+		difficulty = 5,
+		avoid_ratio = 10,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1240301,
+				10,
+				0
+			},
+			{
+				1240302,
+				20,
+				0
+			},
+			{
+				1240303,
+				30,
+				1
+			},
+			{
+				1240304,
+				10,
+				0
+			},
+			{
+				1240305,
+				20,
+				0
+			},
+			{
+				1240306,
+				30,
+				1
+			},
+			{
+				1240307,
+				10,
+				0
+			},
+			{
+				1240308,
+				20,
+				0
+			},
+			{
+				1240309,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1240310,
+			1240311,
+			1240312
+		},
+		elite_expedition_list = {
+			1240305,
+			1240308
+		},
+		ai_expedition_list = {
+			1240521,
+			1240523
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1240313
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
+		},
+		icon = {
+			"baerdimo"
+		},
+		awards = {
+			{
+				2,
+				57645
+			},
+			{
+				2,
+				57633
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				1
+			},
+			{
+				8,
+				4,
+				true,
+				1
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				6
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				4
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				16
+			},
+			{
+				6,
+				3,
+				true,
+				12
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				4
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				12
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				8
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				12
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				8,
+				"1x1_1baimuda",
+				0,
+				0
+			},
+			{
+				7,
+				2,
+				"1x3_1baimuda",
+				0,
+				24
+			},
+			{
+				3,
+				8,
+				"2x1_1baimuda",
+				0,
+				15
+			},
+			{
+				3,
+				5,
+				"2x2_1baimuda",
+				-32,
+				-28
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_baimuda",
+			45,
+			20,
+			8,
+			101,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"XIANGTINGLIAOFA19"
+		},
+		defeat_story_count = {
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[1250005] = {
+		mine_id = 2001,
+		progress_boss = 25,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.5390625",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		chapter_safe = 1250005,
+		air_dominance = 475,
+		best_air_dominance = 620,
+		count = 0,
+		id = 1250005,
+		icon_outline = 0,
+		pre_chapter = 1250009,
+		star_require_1 = 1,
+		pos_y = "0.052083333",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 30,
+		num_3 = 1,
+		unlocklevel = 0,
+		boss_refresh_special = 5,
+		uifx = "",
+		name = "속삭임",
+		chapter_name = "B2",
+		type = 1,
+		act_id = 20232,
+		enter_story = "XIANGTINGLIAOFA22",
+		boss_refresh = 5,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		map = 1250002,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "인류 진화 발전의 역사…이는 과학과 학습의 역사, 미지의 지식을 알기 위하여, 모든 희생은 가치를 가진다──",
+		difficulty = 6,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1240401,
+				10,
+				0
+			},
+			{
+				1240402,
+				20,
+				0
+			},
+			{
+				1240403,
+				30,
+				1
+			},
+			{
+				1240404,
+				10,
+				0
+			},
+			{
+				1240405,
+				20,
+				0
+			},
+			{
+				1240406,
+				30,
+				1
+			},
+			{
+				1240407,
+				10,
+				0
+			},
+			{
+				1240408,
+				20,
+				0
+			},
+			{
+				1240409,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1240410,
+			1240411,
+			1240412
+		},
+		elite_expedition_list = {
+			1240405,
+			1240408
+		},
+		ai_expedition_list = {
+			1240531,
+			1240532,
+			1240535
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1240413
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
+		},
+		icon = {
+			"dahuangfeng"
+		},
+		awards = {
+			{
+				2,
+				57646
+			},
+			{
+				2,
+				57634
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				4
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				8
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				8
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				4
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				6
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				4
+			},
+			{
+				6,
+				4,
+				true,
+				16
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				12
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				12
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				1
+			},
+			{
+				2,
+				5,
+				true,
+				1
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				1,
+				"1x1_1baimuda",
+				0,
+				17
+			},
+			{
+				7,
+				5,
+				"1x1_1baimuda",
+				0,
+				10
+			},
+			{
+				5,
+				8,
+				"1x3_1baimuda",
+				0,
+				17
+			},
+			{
+				3,
+				3,
+				"2x1_1baimuda",
+				-14,
+				22
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_baimuda",
+			45,
+			20,
+			-128,
+			129,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"XIANGTINGLIAOFA24"
+		},
+		defeat_story_count = {
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[1250006] = {
+		mine_id = 2001,
+		progress_boss = 25,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.67109375",
+		activate_time = 0,
+		story_refresh_boss = "XIANGTINGLIAOFA28",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		chapter_safe = 1250006,
+		air_dominance = 330,
+		best_air_dominance = 430,
+		count = 0,
+		id = 1250006,
+		icon_outline = 0,
+		pre_chapter = 1250010,
+		star_require_1 = 1,
+		pos_y = "0.383333333",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 30,
+		num_3 = 1,
+		unlocklevel = 0,
+		boss_refresh_special = 5,
+		uifx = "",
+		name = "폭풍의 눈",
+		chapter_name = "B3",
+		type = 1,
+		act_id = 20232,
+		enter_story = "XIANGTINGLIAOFA27",
+		boss_refresh = 5,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		map = 1250002,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "\"음악이란 언제나 내 마음속의 전혀 다른 두 갈망을 불러일으킨다 : 하나는 전쟁 ; 또 다른 하나는 전원시같은 고요함\"",
+		difficulty = 7,
+		avoid_ratio = 12,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1240501,
+				10,
+				0
+			},
+			{
+				1240502,
+				20,
+				0
+			},
+			{
+				1240503,
+				30,
+				1
+			},
+			{
+				1240504,
+				10,
+				0
+			},
+			{
+				1240505,
+				20,
+				0
+			},
+			{
+				1240506,
+				30,
+				1
+			},
+			{
+				1240507,
+				10,
+				0
+			},
+			{
+				1240508,
+				20,
+				0
+			},
+			{
+				1240509,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1240510,
+			1240511,
+			1240512
+		},
+		elite_expedition_list = {
+			1240505,
+			1240508
+		},
+		ai_expedition_list = {
+			1240541,
+			1240542,
+			1240543,
+			1240547
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1240513
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
+		},
+		icon = {
+			"gaoxiong_alter"
+		},
+		awards = {
+			{
+				2,
+				57647
+			},
+			{
+				2,
+				57635
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				12
+			},
+			{
+				8,
+				5,
+				true,
+				6
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				6
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				true,
+				4
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				4
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				1
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				4
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				16
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				8
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				1
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				12
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				4
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				12
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				7,
+				"1x1_1baimuda",
+				0,
+				0
+			},
+			{
+				6,
+				5,
+				"1x1_1baimuda",
+				0,
+				0
+			},
+			{
+				6,
+				2,
+				"1x3_1baimuda",
+				0,
+				8
+			},
+			{
+				4,
+				2,
+				"1x3_1baimuda",
+				0,
+				19
+			},
+			{
+				2,
+				5,
+				"2x2_2baimuda",
+				52,
+				-6
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_baimuda",
+			45,
+			20,
+			-128,
+			98,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"XIANGTINGLIAOFA30",
+			"XIANGTINGLIAOFA31",
+			"XIANGTINGLIAOFA32",
+			"XIANGTINGLIAOFA33"
+		},
+		defeat_story_count = {
+			4,
+			5,
+			7,
+			9
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[1250007] = {
+		mine_id = 2001,
+		progress_boss = 100,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.38203125",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		chapter_safe = 0,
+		air_dominance = 100,
+		best_air_dominance = 150,
+		count = 0,
+		id = 1250007,
+		icon_outline = 0,
+		pre_chapter = 1250001,
+		star_require_1 = 1,
+		pos_y = "0.052083333",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 15,
+		num_3 = 1,
+		unlocklevel = 0,
+		boss_refresh_special = 3,
+		uifx = "",
+		name = "롱 아일랜드 방어선의 위기",
+		chapter_name = "AS1",
+		type = 1,
+		act_id = 20231,
+		enter_story = "XIANGTINGLIAOFA6",
+		boss_refresh = 3,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		map = 1250001,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "후드, 프린스 오브 웨일즈와 겨룬 후, 비스마르크와 프린츠 오이겐은 로열 네이비 함대의 포위를 벗어나려 한다. 그 앞에서 그녀들을 기다리는 것은?",
+		difficulty = 3,
+		avoid_ratio = 8,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1240041,
+				15,
+				0
+			},
+			{
+				1240042,
+				20,
+				0
+			},
+			{
+				1240043,
+				30,
+				1
+			},
+			{
+				1240044,
+				15,
+				0
+			},
+			{
+				1240045,
+				20,
+				0
+			},
+			{
+				1240046,
+				30,
+				1
+			},
+			{
+				1240047,
+				15,
+				0
+			},
+			{
+				1240048,
+				20,
+				0
+			},
+			{
+				1240049,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1240050,
+			1240051,
+			1240052
+		},
+		elite_expedition_list = {
+			1240045,
+			1240048
+		},
+		ai_expedition_list = {
+			1240223
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1240014
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
+		},
+		icon = {
+			"sairenqingxun_i"
+		},
+		awards = {
+			{
+				2,
+				20001
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				8
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				8
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				12
+			},
+			{
+				8,
+				2,
+				false,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				6
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				16
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				6
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				4
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				1
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				1
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				12
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				2,
+				"1x1_2newmeixi",
+				0,
+				4
+			},
+			{
+				4,
+				7,
+				"2x3_1newmeixi",
+				-13,
+				-22
+			},
+			{
+				3,
+				2,
+				"1x2_2newmeixi",
+				-1,
+				-25
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_newmeixi",
+			45,
+			20,
+			27,
+			103,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"XIANGTINGLIAOFA7"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[1250008] = {
+		mine_id = 2001,
+		progress_boss = 100,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.665625",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		chapter_safe = 0,
+		air_dominance = 130,
+		best_air_dominance = 170,
+		count = 0,
+		id = 1250008,
+		icon_outline = 0,
+		pre_chapter = 1250002,
+		star_require_1 = 1,
+		pos_y = "0.344791667",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 20,
+		num_3 = 1,
+		unlocklevel = 0,
+		boss_refresh_special = 4,
+		uifx = "",
+		name = "창공의 매",
+		chapter_name = "AS2",
+		type = 1,
+		act_id = 20231,
+		enter_story = "XIANGTINGLIAOFA12",
+		boss_refresh = 4,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		map = 1250001,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "남김없이 출동한 로열 네이비의 함대, 귓가에 작게 속삭이는 \"인어\"의 유혹, 옳은 선택이란 대체 어디에 있는가…?",
+		difficulty = 4,
+		avoid_ratio = 9,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1240141,
+				15,
+				0
+			},
+			{
+				1240142,
+				20,
+				0
+			},
+			{
+				1240143,
+				30,
+				1
+			},
+			{
+				1240144,
+				15,
+				0
+			},
+			{
+				1240145,
+				20,
+				0
+			},
+			{
+				1240146,
+				30,
+				1
+			},
+			{
+				1240147,
+				15,
+				0
+			},
+			{
+				1240148,
+				20,
+				0
+			},
+			{
+				1240149,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1240150,
+			1240151,
+			1240152
+		},
+		elite_expedition_list = {
+			1240145,
+			1240148
+		},
+		ai_expedition_list = {
+			1240235,
+			1240236
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1240114
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
+		},
+		icon = {
+			"sairenzhanlie_i"
+		},
+		awards = {
+			{
+				2,
+				20001
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				12
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				6
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				8
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				6
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				1
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				1
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				16
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				8
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				12
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				7,
+				"1x2_2newmeixi",
+				0,
+				26
+			},
+			{
+				5,
+				3,
+				"2x2_1newmeixi",
+				47,
+				-19
+			},
+			{
+				3,
+				8,
+				"1x3_1newmeixi",
+				4,
+				13
+			},
+			{
+				2,
+				4,
+				"1x1_2newmeixi",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_newmeixi",
+			45,
+			20,
+			3,
+			68,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"XIANGTINGLIAOFA13"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[1250009] = {
+		mine_id = 2001,
+		progress_boss = 100,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.5390625",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		chapter_safe = 0,
+		air_dominance = 210,
+		best_air_dominance = 275,
+		count = 0,
+		id = 1250009,
+		icon_outline = 0,
+		pre_chapter = 1250004,
+		star_require_1 = 1,
+		pos_y = "0.052083333",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 25,
+		num_3 = 1,
+		unlocklevel = 0,
+		boss_refresh_special = 4,
+		uifx = "",
+		name = "악마의 해역?",
+		chapter_name = "BS1",
+		type = 1,
+		act_id = 20232,
+		enter_story = "XIANGTINGLIAOFA20",
+		boss_refresh = 4,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		map = 1250002,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "비스마르크는 행동력을 상실하나 여전히 완강하게 저항하는 중이다. 승리가 드디어 우리의 것이 되고, 후드와 로열 네이비 함대의 영광을 위하여, 포격하라!",
+		difficulty = 5,
+		avoid_ratio = 10,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1240321,
+				10,
+				0
+			},
+			{
+				1240322,
+				20,
+				0
+			},
+			{
+				1240323,
+				30,
+				1
+			},
+			{
+				1240324,
+				10,
+				0
+			},
+			{
+				1240325,
+				20,
+				0
+			},
+			{
+				1240326,
+				30,
+				1
+			},
+			{
+				1240327,
+				10,
+				0
+			},
+			{
+				1240328,
+				20,
+				0
+			},
+			{
+				1240329,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1240330,
+			1240331,
+			1240332
+		},
+		elite_expedition_list = {
+			1240325,
+			1240328
+		},
+		ai_expedition_list = {
+			1240525,
+			1240526
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1240333
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
+		},
+		icon = {
+			"fulaiche"
+		},
+		awards = {
+			{
+				2,
+				20001
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				1
+			},
+			{
+				8,
+				4,
+				true,
+				1
+			},
+			{
+				8,
+				3,
+				false,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				6
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				12
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				4
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				16
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				4
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				12
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				8
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				12
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				3,
+				"2x1_1baimuda",
+				-6,
+				73
+			},
+			{
+				3,
+				8,
+				"2x1_1baimuda",
+				0,
+				15
+			},
+			{
+				3,
+				5,
+				"2x2_2baimuda",
+				-54,
+				-5
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_baimuda",
+			45,
+			20,
+			8,
+			101,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"XIANGTINGLIAOFA21"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[1250010] = {
+		mine_id = 2001,
+		progress_boss = 100,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.67109375",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		chapter_safe = 0,
+		air_dominance = 475,
+		best_air_dominance = 620,
+		count = 0,
+		id = 1250010,
+		icon_outline = 0,
+		pre_chapter = 1250005,
+		star_require_1 = 1,
+		pos_y = "0.383333333",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 30,
+		num_3 = 1,
+		unlocklevel = 0,
+		boss_refresh_special = 5,
+		uifx = "",
+		name = "4번째 함대",
+		chapter_name = "BS2",
+		type = 1,
+		act_id = 20232,
+		enter_story = "XIANGTINGLIAOFA25",
+		boss_refresh = 5,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		map = 1250002,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "인류 진화 발전의 역사…이는 과학과 학습의 역사, 미지의 지식을 알기 위하여, 모든 희생은 가치를 가진다──",
+		difficulty = 6,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1240421,
+				10,
+				0
+			},
+			{
+				1240422,
+				20,
+				0
+			},
+			{
+				1240423,
+				30,
+				1
+			},
+			{
+				1240424,
+				10,
+				0
+			},
+			{
+				1240425,
+				20,
+				0
+			},
+			{
+				1240426,
+				30,
+				1
+			},
+			{
+				1240427,
+				10,
+				0
+			},
+			{
+				1240428,
+				20,
+				0
+			},
+			{
+				1240429,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1240430,
+			1240431,
+			1240432
+		},
+		elite_expedition_list = {
+			1240425,
+			1240428
+		},
+		ai_expedition_list = {
+			1240537,
+			1240538,
+			1240539
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1240433
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
+		},
+		icon = {
+			"bulukelin"
+		},
+		awards = {
+			{
+				2,
+				20001
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				4
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				8
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				4
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				4
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				8
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				16
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				1
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				12
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				1
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				12
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				1,
+				"2x1_2baimuda",
+				-1,
+				81
+			},
+			{
+				7,
+				5,
+				"1x1_1baimuda",
+				0,
+				10
+			},
+			{
+				5,
+				9,
+				"2x2_1baimuda",
+				-47,
+				-24
+			},
+			{
+				4,
+				3,
+				"2x1_1baimuda",
+				0,
+				50
+			},
+			{
+				2,
+				1,
+				"1x1_1baimuda",
+				2,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_baimuda",
+			45,
+			20,
+			-128,
+			129,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"XIANGTINGLIAOFA26"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[1250011] = {
+		mine_id = 2001,
+		progress_boss = 34,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.2515625",
+		activate_time = 0,
+		story_refresh_boss = "XIANGTINGLIAOFA3",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		chapter_safe = 1250011,
+		air_dominance = 555,
+		best_air_dominance = 725,
+		count = 0,
+		id = 1250011,
+		icon_outline = 0,
+		pre_chapter = 0,
+		star_require_1 = 1,
+		pos_y = "0.392708333",
+		num_1 = 1,
+		model = 10,
+		investigation_ratio = 0,
+		num_2 = 25,
+		num_3 = 9,
+		unlocklevel = 0,
+		boss_refresh_special = 4,
+		uifx = "",
+		name = "뜻밖의 손님",
+		chapter_name = "C1",
+		type = 2,
+		act_id = 20231,
+		enter_story = "XIANGTINGLIAOFA2",
+		boss_refresh = 4,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		map = 1250011,
+		enter_story_limit = "",
+		star_require_3 = 4,
+		profiles = "후드, 프린스 오브 웨일즈와 겨룬 후, 비스마르크와 프린츠 오이겐은 로열 네이비 함대의 포위를 벗어나려 한다. 그 앞에서 그녀들을 기다리는 것은?",
+		difficulty = 6,
+		avoid_ratio = 12,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					7,
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				75
+			},
+			{
+				"cannon",
+				1,
+				700
+			},
+			{
+				"air",
+				1,
+				700
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1240601,
+				5,
+				0
+			},
+			{
+				1240602,
+				25,
+				0
+			},
+			{
+				1240603,
+				35,
+				0
+			},
+			{
+				1240604,
+				5,
+				0
+			},
+			{
+				1240605,
+				25,
+				0
+			},
+			{
+				1240606,
+				35,
+				0
+			},
+			{
+				1240607,
+				5,
+				0
+			},
+			{
+				1240608,
+				25,
+				0
+			},
+			{
+				1240609,
+				35,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1240610,
+			1240611,
+			1240612
+		},
+		elite_expedition_list = {
+			1240606,
+			1240608
+		},
+		ai_expedition_list = {
+			1240821,
+			1240822
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1240613
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸, 항구 HP가 0에 도달"
+		},
+		icon = {
+			"sairenzhongxun_i",
+			"sairenquzhu_i"
+		},
+		awards = {
+			{
+				2,
+				57660
+			},
+			{
+				2,
+				57648
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				8
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				8
+			},
+			{
+				8,
+				4,
+				true,
+				6
+			},
+			{
+				8,
+				3,
+				true,
+				12
+			},
+			{
+				8,
+				2,
+				false,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				6
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				12
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				6
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				16
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				4
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				1
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				1
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				100
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				2,
+				"1x1_2newmeixi",
+				0,
+				4
+			},
+			{
+				6,
+				3,
+				"1x3_1newmeixi",
+				-20,
+				5
+			},
+			{
+				5,
+				7,
+				"1x2_1newmeixi",
+				0,
+				44
+			},
+			{
+				4,
+				4,
+				"gangkou",
+				21,
+				45
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_newmeixi",
+			45,
+			20,
+			27,
+			103,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"XIANGTINGLIAOFA5"
+		},
+		defeat_story_count = {
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {
+			{
+				4,
+				4,
+				10
+			}
+		},
+		chapter_buff = {}
+	},
+	[1250012] = {
+		mine_id = 2001,
+		progress_boss = 34,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.38203125",
+		activate_time = 0,
+		story_refresh_boss = "XIANGTINGLIAOFA9",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		chapter_safe = 1250012,
+		air_dominance = 705,
+		best_air_dominance = 920,
+		count = 0,
+		id = 1250012,
+		icon_outline = 0,
+		pre_chapter = 1250022,
+		star_require_1 = 1,
+		pos_y = "0.052083333",
+		num_1 = 1,
+		model = 10,
+		investigation_ratio = 0,
+		num_2 = 25,
+		num_3 = 9,
+		unlocklevel = 0,
+		boss_refresh_special = 4,
+		uifx = "",
+		name = "롱 아일랜드 방어선 반격",
+		chapter_name = "C2",
+		type = 2,
+		act_id = 20231,
+		enter_story = "XIANGTINGLIAOFA8",
+		boss_refresh = 4,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		map = 1250011,
+		enter_story_limit = "",
+		star_require_3 = 4,
+		profiles = "남김없이 출동한 로열 네이비의 함대, 귓가에 작게 속삭이는 \"인어\"의 유혹, 옳은 선택이란 대체 어디에 있는가…?",
+		difficulty = 7,
+		avoid_ratio = 13,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					7,
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				80
+			},
+			{
+				"cannon",
+				1,
+				800
+			},
+			{
+				"air",
+				1,
+				900
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1240701,
+				5,
+				0
+			},
+			{
+				1240702,
+				25,
+				0
+			},
+			{
+				1240703,
+				35,
+				0
+			},
+			{
+				1240704,
+				5,
+				0
+			},
+			{
+				1240705,
+				25,
+				0
+			},
+			{
+				1240706,
+				35,
+				0
+			},
+			{
+				1240707,
+				5,
+				0
+			},
+			{
+				1240708,
+				25,
+				0
+			},
+			{
+				1240709,
+				35,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1240710,
+			1240711,
+			1240712
+		},
+		elite_expedition_list = {
+			1240706,
+			1240708
+		},
+		ai_expedition_list = {
+			1240831,
+			1240832,
+			1240833
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1240713
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			2,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸, 항구 HP가 0에 도달"
+		},
+		icon = {
+			"unknown3"
+		},
+		awards = {
+			{
+				2,
+				57661
+			},
+			{
+				2,
+				57649
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				12
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				6
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				8
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				6
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				1
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				1
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				8
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				100
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				16
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				12
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				7,
+				"1x2_2newmeixi",
+				0,
+				26
+			},
+			{
+				5,
+				4,
+				"2x3_1newmeixi",
+				-15,
+				-25
+			},
+			{
+				3,
+				8,
+				"gangkou",
+				20,
+				39
+			},
+			{
+				2,
+				4,
+				"1x1_2newmeixi",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_newmeixi",
+			45,
+			20,
+			3,
+			68,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"XIANGTINGLIAOFA11"
+		},
+		defeat_story_count = {
+			3
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {
+			{
+				3,
+				8,
+				10
+			}
+		},
+		chapter_buff = {}
+	},
+	[1250013] = {
+		mine_id = 2001,
+		progress_boss = 25,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.665625",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		chapter_safe = 1250013,
+		air_dominance = 875,
+		best_air_dominance = 1140,
+		count = 0,
+		id = 1250013,
+		icon_outline = 0,
+		pre_chapter = 1250023,
+		star_require_1 = 1,
+		pos_y = "0.344791667",
+		num_1 = 1,
+		model = 10,
+		investigation_ratio = 0,
+		num_2 = 30,
+		num_3 = 9,
+		unlocklevel = 0,
+		boss_refresh_special = 5,
+		uifx = "",
+		name = "혼란과 미제",
+		chapter_name = "C3",
+		type = 2,
+		act_id = 20231,
+		enter_story = "XIANGTINGLIAOFA14",
+		boss_refresh = 5,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		map = 1250011,
+		enter_story_limit = "",
+		star_require_3 = 4,
+		profiles = "로열 네이비 함대에서 대량의 함재기를 보내 저지하려 하고, 수배에 달하는 자신의 상대를 마주하며, 화포가 건재한 이상 우리는 계속하여 싸울 것이다──",
+		difficulty = 8,
+		avoid_ratio = 14,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					7,
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				85
+			},
+			{
+				"air",
+				1,
+				1100
+			},
+			{
+				"antisub",
+				1,
+				550
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1240801,
+				5,
+				0
+			},
+			{
+				1240802,
+				25,
+				0
+			},
+			{
+				1240803,
+				35,
+				0
+			},
+			{
+				1240804,
+				5,
+				0
+			},
+			{
+				1240805,
+				25,
+				0
+			},
+			{
+				1240806,
+				35,
+				0
+			},
+			{
+				1240807,
+				5,
+				0
+			},
+			{
+				1240808,
+				25,
+				0
+			},
+			{
+				1240809,
+				35,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1240810,
+			1240811,
+			1240812
+		},
+		elite_expedition_list = {
+			1240849
+		},
+		ai_expedition_list = {
+			1240841,
+			1240842,
+			1240843,
+			1240844
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1240813
+		},
+		enemy_refresh = {
+			3,
+			1,
+			2,
+			1,
+			2,
+			1
+		},
+		elite_refresh = {
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸, 항구 HP가 0에 도달"
+		},
+		icon = {
+			"unknown1"
+		},
+		awards = {
+			{
+				2,
+				57662
+			},
+			{
+				2,
+				57650
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				9,
+				true,
+				0
+			},
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				true,
+				6
+			},
+			{
+				9,
+				6,
+				true,
+				6
+			},
+			{
+				9,
+				5,
+				true,
+				12
+			},
+			{
+				9,
+				4,
+				true,
+				0
+			},
+			{
+				9,
+				3,
+				true,
+				0
+			},
+			{
+				9,
+				2,
+				true,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				6
+			},
+			{
+				8,
+				2,
+				true,
+				4
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				4
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				12
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				1
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				100
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				1
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				16
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				8
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				12
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				4
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				8
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				6,
+				"1x3_1newmeixi",
+				0,
+				6
+			},
+			{
+				5,
+				8,
+				"gangkou",
+				16,
+				44
+			},
+			{
+				4,
+				5,
+				"1x1_2newmeixi",
+				0,
+				0
+			},
+			{
+				3,
+				1,
+				"2x2_1newmeixi",
+				54,
+				31
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_newmeixi",
+			45,
+			20,
+			-9,
+			-88,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"XIANGTINGLIAOFA15"
+		},
+		defeat_story_count = {
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {
+			{
+				5,
+				8,
+				10
+			}
+		},
+		chapter_buff = {}
+	},
+	[1250014] = {
+		mine_id = 2001,
+		progress_boss = 25,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.14609375",
+		activate_time = 0,
+		story_refresh_boss = "XIANGTINGLIAOFA18",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		chapter_safe = 1250014,
+		air_dominance = 950,
+		best_air_dominance = 1235,
+		count = 0,
+		id = 1250014,
+		icon_outline = 0,
+		pre_chapter = 1250013,
+		star_require_1 = 1,
+		pos_y = "0.380208333",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 35,
+		num_3 = 1,
+		unlocklevel = 0,
+		boss_refresh_special = 5,
+		uifx = "",
+		name = "\"BM작전\"",
+		chapter_name = "D1",
+		type = 2,
+		act_id = 20232,
+		enter_story = "XIANGTINGLIAOFA17",
+		boss_refresh = 5,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		map = 1250012,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "비스마르크는 행동력을 상실하나 여전히 완강하게 저항하는 중이다. 승리가 드디어 우리의 것이 되고, 후드와 로열 네이비 함대의 영광을 위하여, 포격하라!",
+		difficulty = 8,
+		avoid_ratio = 14,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					7,
+					7,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					7,
+					0,
+					0
+				},
+				{
+					2,
+					2,
+					1
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				90
+			},
+			{
+				"cannon",
+				1,
+				1300
+			},
+			{
+				"torpedo",
+				1,
+				1300
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1240901,
+				2,
+				0
+			},
+			{
+				1240902,
+				43,
+				0
+			},
+			{
+				1240903,
+				55,
+				0
+			},
+			{
+				1240904,
+				2,
+				0
+			},
+			{
+				1240905,
+				43,
+				0
+			},
+			{
+				1240906,
+				55,
+				0
+			},
+			{
+				1240907,
+				2,
+				0
+			},
+			{
+				1240908,
+				43,
+				0
+			},
+			{
+				1240909,
+				55,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1240910,
+			1240911,
+			1240912
+		},
+		elite_expedition_list = {
+			1240906,
+			1240909
+		},
+		ai_expedition_list = {
+			1241221,
+			1241222,
+			1241225
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1240913
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
+		},
+		icon = {
+			"baerdimo"
+		},
+		awards = {
+			{
+				2,
+				57663
+			},
+			{
+				2,
+				57651
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				1
+			},
+			{
+				8,
+				4,
+				true,
+				1
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				6
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				4
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				16
+			},
+			{
+				6,
+				3,
+				true,
+				12
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				4
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				12
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				8
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				12
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				8,
+				"1x1_1baimuda",
+				0,
+				0
+			},
+			{
+				7,
+				2,
+				"1x3_1baimuda",
+				0,
+				24
+			},
+			{
+				3,
+				8,
+				"2x1_1baimuda",
+				0,
+				15
+			},
+			{
+				3,
+				5,
+				"2x2_1baimuda",
+				-32,
+				-28
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_baimuda",
+			45,
+			20,
+			8,
+			101,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"XIANGTINGLIAOFA19"
+		},
+		defeat_story_count = {
+			4
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[1250015] = {
+		mine_id = 2001,
+		progress_boss = 20,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.28671875",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		chapter_safe = 1250015,
+		air_dominance = 1610,
+		best_air_dominance = 2095,
+		count = 0,
+		id = 1250015,
+		icon_outline = 0,
+		pre_chapter = 1250024,
+		star_require_1 = 1,
+		pos_y = "0.122916667",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 40,
+		num_3 = 1,
+		unlocklevel = 0,
+		boss_refresh_special = 6,
+		uifx = "",
+		name = "속삭임",
+		chapter_name = "D2",
+		type = 2,
+		act_id = 20232,
+		enter_story = "XIANGTINGLIAOFA22",
+		boss_refresh = 6,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		map = 1250012,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "인류 진화 발전의 역사…이는 과학과 학습의 역사, 미지의 지식을 알기 위하여, 모든 희생은 가치를 가진다──",
+		difficulty = 9,
+		avoid_ratio = 15,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					7,
+					7,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					7,
+					0,
+					0
+				},
+				{
+					2,
+					2,
+					1
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				95
+			},
+			{
+				"air",
+				1,
+				1450
+			},
+			{
+				"antiaircraft",
+				1,
+				2200
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1241001,
+				2,
+				0
+			},
+			{
+				1241002,
+				43,
+				0
+			},
+			{
+				1241003,
+				55,
+				0
+			},
+			{
+				1241004,
+				2,
+				0
+			},
+			{
+				1241005,
+				43,
+				0
+			},
+			{
+				1241006,
+				55,
+				0
+			},
+			{
+				1241007,
+				2,
+				0
+			},
+			{
+				1241008,
+				43,
+				0
+			},
+			{
+				1241009,
+				55,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1241010,
+			1241011,
+			1241012
+		},
+		elite_expedition_list = {
+			1241006,
+			1241009
+		},
+		ai_expedition_list = {
+			1241231,
+			1241232,
+			1241233,
+			1241237
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1241013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
+		},
+		icon = {
+			"dahuangfeng"
+		},
+		awards = {
+			{
+				2,
+				57664
+			},
+			{
+				2,
+				57652
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				4
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				8
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				8
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				4
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				6
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				4
+			},
+			{
+				6,
+				4,
+				true,
+				16
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				12
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				12
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				1
+			},
+			{
+				2,
+				5,
+				true,
+				1
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				1,
+				"1x1_1baimuda",
+				0,
+				17
+			},
+			{
+				7,
+				5,
+				"1x1_1baimuda",
+				0,
+				10
+			},
+			{
+				5,
+				8,
+				"1x3_1baimuda",
+				0,
+				17
+			},
+			{
+				3,
+				3,
+				"2x1_1baimuda",
+				-14,
+				22
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_baimuda",
+			45,
+			20,
+			-128,
+			129,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"XIANGTINGLIAOFA24"
+		},
+		defeat_story_count = {
+			5
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[1250016] = {
+		mine_id = 2001,
+		progress_boss = 20,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.67109375",
+		activate_time = 0,
+		story_refresh_boss = "XIANGTINGLIAOFA28",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		chapter_safe = 1250016,
+		air_dominance = 1345,
+		best_air_dominance = 1750,
+		count = 0,
+		id = 1250016,
+		icon_outline = 0,
+		pre_chapter = 1250025,
+		star_require_1 = 1,
+		pos_y = "0.35625",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 40,
+		num_3 = 1,
+		unlocklevel = 0,
+		boss_refresh_special = 6,
+		uifx = "",
+		name = "폭풍의 눈",
+		chapter_name = "D3",
+		type = 2,
+		act_id = 20232,
+		enter_story = "XIANGTINGLIAOFA27",
+		boss_refresh = 6,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		map = 1250012,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "\"음악이란 언제나 내 마음속의 전혀 다른 두 갈망을 불러일으킨다 : 하나는 전쟁 ; 또 다른 하나는 전원시같은 고요함\"",
+		difficulty = 10,
+		avoid_ratio = 16,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					7,
+					7,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					7,
+					0,
+					0
+				},
+				{
+					2,
+					2,
+					1
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				100
+			},
+			{
+				"cannon",
+				1,
+				1600
+			},
+			{
+				"dodge",
+				1,
+				850
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1241101,
+				2,
+				0
+			},
+			{
+				1241102,
+				43,
+				0
+			},
+			{
+				1241103,
+				55,
+				0
+			},
+			{
+				1241104,
+				2,
+				0
+			},
+			{
+				1241105,
+				43,
+				0
+			},
+			{
+				1241106,
+				55,
+				0
+			},
+			{
+				1241107,
+				2,
+				0
+			},
+			{
+				1241108,
+				43,
+				0
+			},
+			{
+				1241109,
+				55,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1241110,
+			1241111,
+			1241112
+		},
+		elite_expedition_list = {
+			1241106,
+			1241109
+		},
+		ai_expedition_list = {
+			1241241,
+			1241242,
+			1241243,
+			1241244,
+			1241249
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1241113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
+		},
+		icon = {
+			"gaoxiong_alter"
+		},
+		awards = {
+			{
+				2,
+				57665
+			},
+			{
+				2,
+				57653
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				12
+			},
+			{
+				8,
+				5,
+				true,
+				6
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				6
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				true,
+				4
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				4
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				1
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				4
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				16
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				8
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				1
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				12
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				4
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				12
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				7,
+				"1x1_1baimuda",
+				0,
+				0
+			},
+			{
+				6,
+				5,
+				"1x1_1baimuda",
+				0,
+				0
+			},
+			{
+				6,
+				2,
+				"1x3_1baimuda",
+				0,
+				8
+			},
+			{
+				4,
+				2,
+				"1x3_1baimuda",
+				0,
+				19
+			},
+			{
+				2,
+				5,
+				"2x2_2baimuda",
+				52,
+				-6
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_baimuda",
+			45,
+			20,
+			-128,
+			98,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"XIANGTINGLIAOFA30",
+			"XIANGTINGLIAOFA31",
+			"XIANGTINGLIAOFA32",
+			"XIANGTINGLIAOFA33"
+		},
+		defeat_story_count = {
+			5,
+			6,
+			8,
+			10
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[1250017] = {
+		mine_id = 2001,
+		progress_boss = 20,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.200625",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		chapter_safe = 0,
+		air_dominance = 1770,
+		best_air_dominance = 2305,
+		count = 1,
+		id = 1250017,
+		icon_outline = 0,
+		pre_chapter = 1250016,
+		star_require_1 = 2,
+		pos_y = "0.2979",
+		num_1 = 45,
+		model = 10,
+		investigation_ratio = 0,
+		num_2 = 8,
+		num_3 = 1,
+		unlocklevel = 0,
+		boss_refresh_special = 0,
+		uifx = "",
+		name = "불꽃의 항구",
+		chapter_name = "SP",
+		type = 2,
+		act_id = 20232,
+		enter_story = "",
+		boss_refresh = 0,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		map = 1250025,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "인생의 길의 여행자여, 잠시 바쁜 걸음을 멈추고 이 가벼운 곡을 따라 마음껏 춤추어 잠시 쉬는 것은 어떠한가?",
+		difficulty = 10,
+		avoid_ratio = 16,
+		star_require_2 = 4,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				110
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1241202,
+				15,
+				0
+			},
+			{
+				1241203,
+				35,
+				0
+			},
+			{
+				1241205,
+				15,
+				0
+			},
+			{
+				1241206,
+				35,
+				0
+			},
+			{
+				1241208,
+				15,
+				0
+			},
+			{
+				1241209,
+				35,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1241210,
+			1241211,
+			1241212
+		},
+		elite_expedition_list = {
+			1241206,
+			1241209
+		},
+		ai_expedition_list = {
+			1241214
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			0
+		},
+		enemy_refresh = {
+			1,
+			0,
+			0,
+			1,
+			0,
+			1
+		},
+		elite_refresh = {
+			2,
+			0,
+			0,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				5,
+				1241214
+			}
+		},
+		win_condition_display = {
+			"적의 모든 거점 파괴"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸, 항구 HP가 0에 도달"
+		},
+		icon = {
+			"sairenzhongxun_i"
+		},
+		awards = {
+			{
+				2,
+				57665
+			},
+			{
+				2,
+				57653
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				10,
+				true,
+				0
+			},
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				12
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				10,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				4
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				10,
+				true,
+				6
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				25
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				100
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				1
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				1
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				26
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				100
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				12
+			},
+			{
+				2,
+				10,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				25
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				16
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				4
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				8,
+				"1x3_1newmeixi",
+				0,
+				12
+			},
+			{
+				6,
+				5,
+				"1x2_2newmeixi",
+				0,
+				30
+			},
+			{
+				6,
+				2,
+				"2x3_1newmeixi",
+				-16,
+				-8
+			},
+			{
+				5,
+				9,
+				"chuanwu",
+				0,
+				4
+			},
+			{
+				4,
+				5,
+				"fangyuzhan_1",
+				0,
+				0
+			},
+			{
+				3,
+				8,
+				"gangkou",
+				9,
+				40
+			},
+			{
+				3,
+				5,
+				"1x2_1newmeixi",
+				0,
+				41
+			},
+			{
+				2,
+				10,
+				"1x1_1newmeixi",
+				0,
+				18
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_newmeixi",
+			45,
+			20,
+			-128,
+			98,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {
+			{
+				5,
+				9,
+				11
+			},
+			{
+				3,
+				8,
+				10
+			}
+		},
+		chapter_buff = {}
+	},
+	[1250021] = {
+		mine_id = 2001,
+		progress_boss = 20,
+		oil = 0,
+		group_num = 1,
+		pos_x = "0.200625",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		chapter_safe = 0,
+		air_dominance = 620,
+		best_air_dominance = 810,
+		count = 0,
+		id = 1250021,
+		icon_outline = 0,
+		pre_chapter = 1250016,
+		star_require_1 = 1,
+		pos_y = "0.2979",
+		num_1 = 1,
+		model = 5,
+		investigation_ratio = 0,
+		num_2 = 4,
+		num_3 = 1,
+		unlocklevel = 0,
+		boss_refresh_special = 0,
+		uifx = "",
+		name = "폭풍우",
+		chapter_name = "EXTRA",
+		type = 2,
+		act_id = 20232,
+		enter_story = "",
+		boss_refresh = 0,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		map = 1250026,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "숙원을 품고 힘을 갈망하는 자, 마침내 자신을 집어삼킨다. 그러나, 설령 그렇다 할지라도 우리는 힘을 쫓는 것을 멈출 수 없다. 도전자여, 흑백 밤을 방황하는 이를 위하여 종말의 녹턴을 연주하라──",
+		difficulty = 10,
+		avoid_ratio = 17,
+		star_require_2 = 4,
+		time = 43200,
+		limit_move = 0,
+		submarine_num = 0,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					7,
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {},
+		expedition_id_weight_list = {},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1241110,
+			1241111,
+			1241112
+		},
+		elite_expedition_list = {},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1241301
+		},
+		enemy_refresh = {
+			1,
+			1
+		},
+		elite_refresh = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
+		},
+		icon = {
+			"gaoxiong_alter"
+		},
+		awards = {},
+		grids = {
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				1
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				1
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				8
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				6,
+				"2x1_2baimuda",
+				9,
+				32
+			},
+			{
+				5,
+				4,
+				"2x1_1baimuda",
+				-6,
+				13
+			},
+			{
+				3,
+				5,
+				"1x3_1baimuda",
+				0,
+				18
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_baimuda",
+			45,
+			20,
+			-84,
+			114,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[1250022] = {
+		mine_id = 2001,
+		progress_boss = 100,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.38203125",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		chapter_safe = 0,
+		air_dominance = 555,
+		best_air_dominance = 725,
+		count = 0,
+		id = 1250022,
+		icon_outline = 0,
+		pre_chapter = 1250011,
+		star_require_1 = 1,
+		pos_y = "0.052083333",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 25,
+		num_3 = 1,
+		unlocklevel = 0,
+		boss_refresh_special = 4,
+		uifx = "",
+		name = "롱 아일랜드 방어선의 위기",
+		chapter_name = "CS1",
+		type = 2,
+		act_id = 20231,
+		enter_story = "XIANGTINGLIAOFA6",
+		boss_refresh = 4,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		map = 1250011,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "후드, 프린스 오브 웨일즈와 겨룬 후, 비스마르크와 프린츠 오이겐은 로열 네이비 함대의 포위를 벗어나려 한다. 그 앞에서 그녀들을 기다리는 것은?",
+		difficulty = 6,
+		avoid_ratio = 12,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					7,
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				75
+			},
+			{
+				"cannon",
+				1,
+				700
+			},
+			{
+				"air",
+				1,
+				700
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1240641,
+				5,
+				0
+			},
+			{
+				1240642,
+				25,
+				0
+			},
+			{
+				1240643,
+				35,
+				0
+			},
+			{
+				1240644,
+				5,
+				0
+			},
+			{
+				1240645,
+				25,
+				0
+			},
+			{
+				1240646,
+				35,
+				0
+			},
+			{
+				1240647,
+				5,
+				0
+			},
+			{
+				1240648,
+				25,
+				0
+			},
+			{
+				1240649,
+				35,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1240650,
+			1240651,
+			1240652
+		},
+		elite_expedition_list = {
+			1240646,
+			1240648
+		},
+		ai_expedition_list = {
+			1240825,
+			1240826
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1240614
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
+		},
+		icon = {
+			"sairenqingxun_i"
+		},
+		awards = {
+			{
+				2,
+				20001
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				8
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				8
+			},
+			{
+				8,
+				4,
+				true,
+				6
+			},
+			{
+				8,
+				3,
+				true,
+				12
+			},
+			{
+				8,
+				2,
+				false,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				6
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				12
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				16
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				6
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				4
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				1
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				1
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				2,
+				"1x1_2newmeixi",
+				0,
+				4
+			},
+			{
+				4,
+				7,
+				"2x3_1newmeixi",
+				-7,
+				-21
+			},
+			{
+				4,
+				2,
+				"1x2_2newmeixi",
+				0,
+				38
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_newmeixi",
+			45,
+			20,
+			27,
+			103,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"XIANGTINGLIAOFA7"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[1250023] = {
+		mine_id = 2001,
+		progress_boss = 100,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.665625",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		chapter_safe = 0,
+		air_dominance = 705,
+		best_air_dominance = 920,
+		count = 0,
+		id = 1250023,
+		icon_outline = 0,
+		pre_chapter = 1250012,
+		star_require_1 = 1,
+		pos_y = "0.344791667",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 25,
+		num_3 = 1,
+		unlocklevel = 0,
+		boss_refresh_special = 4,
+		uifx = "",
+		name = "창공의 매",
+		chapter_name = "CS2",
+		type = 2,
+		act_id = 20231,
+		enter_story = "XIANGTINGLIAOFA12",
+		boss_refresh = 4,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		map = 1250011,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "남김없이 출동한 로열 네이비의 함대, 귓가에 작게 속삭이는 \"인어\"의 유혹, 옳은 선택이란 대체 어디에 있는가…?",
+		difficulty = 7,
+		avoid_ratio = 13,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					7,
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				80
+			},
+			{
+				"cannon",
+				1,
+				800
+			},
+			{
+				"air",
+				1,
+				900
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1240741,
+				5,
+				0
+			},
+			{
+				1240742,
+				25,
+				0
+			},
+			{
+				1240743,
+				35,
+				0
+			},
+			{
+				1240744,
+				5,
+				0
+			},
+			{
+				1240745,
+				25,
+				0
+			},
+			{
+				1240746,
+				35,
+				0
+			},
+			{
+				1240747,
+				5,
+				0
+			},
+			{
+				1240748,
+				25,
+				0
+			},
+			{
+				1240749,
+				35,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1240750,
+			1240751,
+			1240752
+		},
+		elite_expedition_list = {
+			1240746,
+			1240748
+		},
+		ai_expedition_list = {
+			1240837,
+			1240838,
+			1240839
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1240714
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			2,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
+		},
+		icon = {
+			"sairenzhanlie_i"
+		},
+		awards = {
+			{
+				2,
+				20001
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				12
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				6
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				8
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				6
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				1
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				1
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				8
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				16
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				8
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				12
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				7,
+				"1x2_2newmeixi",
+				0,
+				26
+			},
+			{
+				5,
+				4,
+				"2x2_1newmeixi",
+				-44,
+				-21
+			},
+			{
+				3,
+				8,
+				"1x3_1newmeixi",
+				10,
+				9
+			},
+			{
+				2,
+				4,
+				"1x1_2newmeixi",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_newmeixi",
+			45,
+			20,
+			3,
+			68,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"XIANGTINGLIAOFA13"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[1250024] = {
+		mine_id = 2001,
+		progress_boss = 100,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.28671875",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		chapter_safe = 0,
+		air_dominance = 950,
+		best_air_dominance = 1235,
+		count = 0,
+		id = 1250024,
+		icon_outline = 0,
+		pre_chapter = 1250014,
+		star_require_1 = 1,
+		pos_y = "0.122916667",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 35,
+		num_3 = 1,
+		unlocklevel = 0,
+		boss_refresh_special = 5,
+		uifx = "",
+		name = "악마의 해역?",
+		chapter_name = "DS1",
+		type = 2,
+		act_id = 20232,
+		enter_story = "XIANGTINGLIAOFA20",
+		boss_refresh = 5,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		map = 1250012,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "비스마르크는 행동력을 상실하나 여전히 완강하게 저항하는 중이다. 승리가 드디어 우리의 것이 되고, 후드와 로열 네이비 함대의 영광을 위하여, 포격하라!",
+		difficulty = 8,
+		avoid_ratio = 14,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					7,
+					7,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					7,
+					0,
+					0
+				},
+				{
+					2,
+					2,
+					1
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				90
+			},
+			{
+				"cannon",
+				1,
+				1300
+			},
+			{
+				"torpedo",
+				1,
+				1300
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1240921,
+				2,
+				0
+			},
+			{
+				1240922,
+				43,
+				0
+			},
+			{
+				1240923,
+				55,
+				0
+			},
+			{
+				1240924,
+				2,
+				0
+			},
+			{
+				1240925,
+				43,
+				0
+			},
+			{
+				1240926,
+				55,
+				0
+			},
+			{
+				1240927,
+				2,
+				0
+			},
+			{
+				1240928,
+				43,
+				0
+			},
+			{
+				1240929,
+				55,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1240930,
+			1240931,
+			1240932
+		},
+		elite_expedition_list = {
+			1240926,
+			1240929
+		},
+		ai_expedition_list = {
+			1241227,
+			1241228,
+			1241229
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1240933
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
+		},
+		icon = {
+			"fulaiche"
+		},
+		awards = {
+			{
+				2,
+				20001
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				1
+			},
+			{
+				8,
+				4,
+				true,
+				1
+			},
+			{
+				8,
+				3,
+				false,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				6
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				12
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				4
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				16
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				4
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				12
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				8
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				12
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				3,
+				"2x1_1baimuda",
+				-6,
+				73
+			},
+			{
+				3,
+				8,
+				"2x1_1baimuda",
+				0,
+				15
+			},
+			{
+				3,
+				5,
+				"2x2_2baimuda",
+				-54,
+				-5
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_baimuda",
+			45,
+			20,
+			8,
+			101,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"XIANGTINGLIAOFA21"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[1250025] = {
+		mine_id = 2001,
+		progress_boss = 100,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.67109375",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		chapter_safe = 0,
+		air_dominance = 1610,
+		best_air_dominance = 2095,
+		count = 0,
+		id = 1250025,
+		icon_outline = 0,
+		pre_chapter = 1250015,
+		star_require_1 = 1,
+		pos_y = "0.35625",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 40,
+		num_3 = 1,
+		unlocklevel = 0,
+		boss_refresh_special = 6,
+		uifx = "",
+		name = "4번째 함대",
+		chapter_name = "DS2",
+		type = 2,
+		act_id = 20232,
+		enter_story = "XIANGTINGLIAOFA25",
+		boss_refresh = 6,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		map = 1250012,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "인류 진화 발전의 역사…이는 과학과 학습의 역사, 미지의 지식을 알기 위하여, 모든 희생은 가치를 가진다──",
+		difficulty = 9,
+		avoid_ratio = 15,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					7,
+					7,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					7,
+					0,
+					0
+				},
+				{
+					2,
+					2,
+					1
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				95
+			},
+			{
+				"air",
+				1,
+				1450
+			},
+			{
+				"antiaircraft",
+				1,
+				2200
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1241021,
+				2,
+				0
+			},
+			{
+				1241022,
+				43,
+				0
+			},
+			{
+				1241023,
+				55,
+				0
+			},
+			{
+				1241024,
+				2,
+				0
+			},
+			{
+				1241025,
+				43,
+				0
+			},
+			{
+				1241026,
+				55,
+				0
+			},
+			{
+				1241027,
+				2,
+				0
+			},
+			{
+				1241028,
+				43,
+				0
+			},
+			{
+				1241029,
+				55,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1241030,
+			1241031,
+			1241032
+		},
+		elite_expedition_list = {
+			1241026,
+			1241029
+		},
+		ai_expedition_list = {
+			1241256,
+			1241257,
+			1241258,
+			1241259
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1241033
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
+		},
+		icon = {
+			"bulukelin"
+		},
+		awards = {
+			{
+				2,
+				20001
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				4
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				8
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				4
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				4
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				8
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				16
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				1
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				12
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				1
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				12
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				1,
+				"2x1_2baimuda",
+				-1,
+				81
+			},
+			{
+				7,
+				5,
+				"1x1_1baimuda",
+				0,
+				10
+			},
+			{
+				5,
+				9,
+				"2x2_1baimuda",
+				-47,
+				-24
+			},
+			{
+				4,
+				3,
+				"2x1_1baimuda",
+				0,
+				50
+			},
+			{
+				2,
+				1,
+				"1x1_1baimuda",
+				2,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_baimuda",
+			45,
+			20,
+			-128,
+			129,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"XIANGTINGLIAOFA26"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[1250031] = {
+		mine_id = 2001,
+		progress_boss = 100,
+		oil = 0,
+		group_num = 1,
+		pos_x = "0",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1250031,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 0,
 		pos_y = "0",
@@ -167053,6 +185999,7 @@ pg.chapter_template = {
 		model = 3,
 		investigation_ratio = 0,
 		num_2 = 0,
+		num_3 = 0,
 		unlocklevel = 0,
 		boss_refresh_special = 0,
 		uifx = "",
@@ -167063,7 +186010,6 @@ pg.chapter_template = {
 		enter_story = "FENGBAOQIANXI2",
 		boss_refresh = 0,
 		event_skip = 0,
-		oil = 0,
 		friendly_id = 16,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -167175,6 +186121,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				3,
+				0
+			}
+		},
+		win_condition_display = {
+			"상선이 지정 위치 도착"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"genaisennao"
@@ -167576,22 +186540,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1250032] = {
-		num_3 = 0,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0",
+		oil = 0,
 		group_num = 1,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1250032,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 0,
 		pos_y = "0",
@@ -167599,6 +186563,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 0,
+		num_3 = 0,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -167609,7 +186574,6 @@ pg.chapter_template = {
 		enter_story = "FENGBAOQIANXI4",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -167721,6 +186685,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"genaisennao"
@@ -168091,22 +187073,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1250033] = {
-		num_3 = 0,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0",
+		oil = 0,
 		group_num = 1,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1250033,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 0,
 		pos_y = "0",
@@ -168114,6 +187096,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 0,
+		num_3 = 0,
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -168124,7 +187107,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -168236,6 +187218,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"genaisennao"
@@ -168613,22 +187613,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[1250034] = {
-		num_3 = 0,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0",
+		oil = 0,
 		group_num = 1,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
-		icon_outline = 0,
 		id = 1250034,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 0,
 		pos_y = "0",
@@ -168636,6 +187636,7 @@ pg.chapter_template = {
 		model = 2,
 		investigation_ratio = 0,
 		num_2 = 0,
+		num_3 = 0,
 		unlocklevel = 0,
 		boss_refresh_special = 0,
 		uifx = "",
@@ -168646,7 +187647,6 @@ pg.chapter_template = {
 		enter_story = "FENGBAOQIANXI8",
 		boss_refresh = 0,
 		event_skip = 0,
-		oil = 0,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -168756,6 +187756,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"genaisennao"
@@ -169223,22 +188241,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[2100001] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 50,
-		pos_x = "0.33125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.33125",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING4",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 2100001,
 		air_dominance = 150,
 		best_air_dominance = 195,
 		count = 0,
-		icon_outline = 0,
 		id = 2100001,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.444791667",
@@ -169247,6 +188265,7 @@ pg.chapter_template = {
 		investigation_ratio = 14,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -169257,7 +188276,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING3",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -169381,6 +188399,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xiao"
@@ -169741,22 +188777,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[2100002] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.56328125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.56328125",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING7",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 2100002,
 		air_dominance = 205,
 		best_air_dominance = 270,
 		count = 0,
-		icon_outline = 0,
 		id = 2100002,
+		icon_outline = 0,
 		pre_chapter = 2100001,
 		star_require_1 = 1,
 		pos_y = "0.088541667",
@@ -169765,6 +188801,7 @@ pg.chapter_template = {
 		investigation_ratio = 15,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -169775,7 +188812,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING6",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -169899,6 +188935,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"yishi",
@@ -170316,22 +189370,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[2100003] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.690625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.690625",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING9",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 2100003,
 		air_dominance = 270,
 		best_air_dominance = 355,
 		count = 0,
-		icon_outline = 0,
 		id = 2100003,
+		icon_outline = 0,
 		pre_chapter = 2100002,
 		star_require_1 = 1,
 		pos_y = "0.367708333",
@@ -170340,6 +189394,7 @@ pg.chapter_template = {
 		investigation_ratio = 16,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -170350,7 +189405,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING8",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -170474,6 +189528,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"shancheng_g"
@@ -170958,22 +190030,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[2100004] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.26875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.26875",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING12",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 2100004,
 		air_dominance = 330,
 		best_air_dominance = 430,
 		count = 0,
-		icon_outline = 0,
 		id = 2100004,
+		icon_outline = 0,
 		pre_chapter = 2100003,
 		star_require_1 = 1,
 		pos_y = "0.090625",
@@ -170982,6 +190054,7 @@ pg.chapter_template = {
 		investigation_ratio = 15,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -170992,7 +190065,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -171116,6 +190188,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"yefen"
@@ -171550,22 +190640,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[2100005] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.6703125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6703125",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING15",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 2100005,
 		air_dominance = 430,
 		best_air_dominance = 560,
 		count = 0,
-		icon_outline = 0,
 		id = 2100005,
+		icon_outline = 0,
 		pre_chapter = 2100004,
 		star_require_1 = 1,
 		pos_y = "0.1125",
@@ -171574,6 +190664,7 @@ pg.chapter_template = {
 		investigation_ratio = 16,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -171584,7 +190675,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING14",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -171708,6 +190798,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xianghe"
@@ -172244,22 +191352,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[2100006] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.5421875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.5421875",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING18",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 2100006,
 		air_dominance = 535,
 		best_air_dominance = 700,
 		count = 0,
-		icon_outline = 0,
 		id = 2100006,
+		icon_outline = 0,
 		pre_chapter = 2100005,
 		star_require_1 = 1,
 		pos_y = "0.4",
@@ -172268,6 +191376,7 @@ pg.chapter_template = {
 		investigation_ratio = 17,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 7,
 		uifx = "",
@@ -172278,7 +191387,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING17",
 		boss_refresh = 7,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 5,
@@ -172403,6 +191511,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"chicheng",
@@ -172933,22 +192059,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[2100011] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.33125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.33125",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING4",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 2100011,
 		air_dominance = 530,
 		best_air_dominance = 690,
 		count = 0,
-		icon_outline = 0,
 		id = 2100011,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.444791667",
@@ -172957,6 +192083,7 @@ pg.chapter_template = {
 		investigation_ratio = 17,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -172967,7 +192094,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING3",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -173132,6 +192258,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xiao"
@@ -173492,22 +192636,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[2100012] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 34,
-		pos_x = "0.56328125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.56328125",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING7",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 2100012,
 		air_dominance = 605,
 		best_air_dominance = 790,
 		count = 0,
-		icon_outline = 0,
 		id = 2100012,
+		icon_outline = 0,
 		pre_chapter = 2100011,
 		star_require_1 = 1,
 		pos_y = "0.088541667",
@@ -173516,6 +192660,7 @@ pg.chapter_template = {
 		investigation_ratio = 18,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -173526,7 +192671,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING6",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -173691,6 +192835,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"yishi",
@@ -174108,22 +193270,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[2100013] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.690625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.690625",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING9",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 2100013,
 		air_dominance = 680,
 		best_air_dominance = 885,
 		count = 0,
-		icon_outline = 0,
 		id = 2100013,
+		icon_outline = 0,
 		pre_chapter = 2100012,
 		star_require_1 = 1,
 		pos_y = "0.367708333",
@@ -174132,6 +193294,7 @@ pg.chapter_template = {
 		investigation_ratio = 19,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -174142,7 +193305,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING8",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -174308,6 +193470,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"shancheng_g"
@@ -174792,22 +193972,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[2100014] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 25,
-		pos_x = "0.26875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.26875",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING12",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 2100014,
 		air_dominance = 810,
 		best_air_dominance = 1055,
 		count = 0,
-		icon_outline = 0,
 		id = 2100014,
+		icon_outline = 0,
 		pre_chapter = 2100013,
 		star_require_1 = 1,
 		pos_y = "0.090625",
@@ -174816,6 +193996,7 @@ pg.chapter_template = {
 		investigation_ratio = 19,
 		num_2 = 30,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
@@ -174826,7 +194007,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 6,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -174992,6 +194172,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"yefen"
@@ -175426,22 +194624,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[2100015] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.6703125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.6703125",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING15",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 2100015,
 		air_dominance = 965,
 		best_air_dominance = 1255,
 		count = 0,
-		icon_outline = 0,
 		id = 2100015,
+		icon_outline = 0,
 		pre_chapter = 2100014,
 		star_require_1 = 1,
 		pos_y = "0.1125",
@@ -175450,6 +194648,7 @@ pg.chapter_template = {
 		investigation_ratio = 20,
 		num_2 = 35,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 7,
 		uifx = "",
@@ -175460,7 +194659,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING14",
 		boss_refresh = 7,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -175626,6 +194824,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"xianghe"
@@ -176162,22 +195378,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[2100016] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 20,
-		pos_x = "0.5421875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.5421875",
 		activate_time = 0,
 		story_refresh_boss = "GUOQING18",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 2100016,
 		air_dominance = 1130,
 		best_air_dominance = 1470,
 		count = 0,
-		icon_outline = 0,
 		id = 2100016,
+		icon_outline = 0,
 		pre_chapter = 2100015,
 		star_require_1 = 1,
 		pos_y = "0.4",
@@ -176186,6 +195402,7 @@ pg.chapter_template = {
 		investigation_ratio = 21,
 		num_2 = 40,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 0,
 		boss_refresh_special = 7,
 		uifx = "",
@@ -176196,7 +195413,6 @@ pg.chapter_template = {
 		enter_story = "GUOQING17",
 		boss_refresh = 7,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 2,
 		mitigation_level = 8,
@@ -176362,6 +195578,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"chicheng",
@@ -176892,22 +196126,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[2200001] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 100,
-		pos_x = "0.35625",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.35625",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 2200001,
 		air_dominance = 81,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 2200001,
+		icon_outline = 0,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.43125",
@@ -176915,6 +196149,7 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 16,
 		num_2 = 5,
+		num_3 = 1,
 		unlocklevel = 15,
 		boss_refresh_special = 2,
 		uifx = "",
@@ -176925,7 +196160,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 2,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -177015,6 +196249,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"jingang"
@@ -177261,22 +196513,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[2200002] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 42,
-		pos_x = "0.58203125",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.58203125",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 2200002,
 		air_dominance = 100,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 2200002,
+		icon_outline = 0,
 		pre_chapter = 2200001,
 		star_require_1 = 1,
 		pos_y = "0.294791667",
@@ -177285,6 +196537,7 @@ pg.chapter_template = {
 		investigation_ratio = 17,
 		num_2 = 20,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 15,
 		boss_refresh_special = 4,
 		uifx = "",
@@ -177295,7 +196548,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 4,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -177398,6 +196650,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"jingang"
@@ -177705,22 +196975,22 @@ pg.chapter_template = {
 		chapter_buff = {}
 	},
 	[2200003] = {
-		num_3 = 1,
 		mine_id = 2001,
-		collection_team = 0,
 		progress_boss = 28,
-		pos_x = "0.44921875",
+		oil = 10,
 		group_num = 2,
-		ammo_submarine = 0,
-		ammo_cost = 1,
+		pos_x = "0.44921875",
 		activate_time = 0,
 		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
 		chapter_safe = 2200003,
 		air_dominance = 120,
 		best_air_dominance = 150,
 		count = 0,
-		icon_outline = 0,
 		id = 2200003,
+		icon_outline = 0,
 		pre_chapter = 2200002,
 		star_require_1 = 1,
 		pos_y = "0.080208333",
@@ -177729,6 +196999,7 @@ pg.chapter_template = {
 		investigation_ratio = 18,
 		num_2 = 25,
 		land_based = "",
+		num_3 = 1,
 		unlocklevel = 15,
 		boss_refresh_special = 5,
 		uifx = "",
@@ -177739,7 +197010,6 @@ pg.chapter_template = {
 		enter_story = "",
 		boss_refresh = 5,
 		event_skip = 0,
-		oil = 10,
 		friendly_id = 0,
 		mitigation_rate = 0,
 		mitigation_level = 0,
@@ -177842,6 +197112,24 @@ pg.chapter_template = {
 		},
 		submarine_refresh = {
 			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"적군 기함 격파"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
 		},
 		icon = {
 			"aidang"
@@ -178453,6 +197741,28 @@ pg.chapter_template = {
 		1230016,
 		1230017,
 		1230021,
+		1250001,
+		1250002,
+		1250003,
+		1250004,
+		1250005,
+		1250006,
+		1250007,
+		1250008,
+		1250009,
+		1250010,
+		1250011,
+		1250012,
+		1250013,
+		1250014,
+		1250015,
+		1250016,
+		1250017,
+		1250021,
+		1250022,
+		1250023,
+		1250024,
+		1250025,
 		1250031,
 		1250032,
 		1250033,

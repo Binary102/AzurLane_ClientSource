@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "모두, 엘드릿지가 찌릿찌릿하는 걸 좋아해…... 엘드릿지, 즐거워…….",
+			say = "모두, 엘드릿지가 찌릿찌릿하는 걸 좋아해…엘드릿지, 즐거워……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

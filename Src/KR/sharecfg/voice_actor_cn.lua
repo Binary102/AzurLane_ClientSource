@@ -751,6 +751,50 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Hitomi Ohwada",
 		code = 188
+	},
+	{
+		actor_name = "Sayumi Suzushiro",
+		code = 189
+	},
+	{
+		actor_name = "Hibiku Yamamura",
+		code = 190
+	},
+	{
+		actor_name = "Minami Takahashi",
+		code = 191
+	},
+	{
+		actor_name = "Mamiko Noto",
+		code = 192
+	},
+	{
+		actor_name = "唐雅菁",
+		code = 193
+	},
+	{
+		actor_name = "小N",
+		code = 194
+	},
+	{
+		actor_name = "花玲",
+		code = 195
+	},
+	{
+		actor_name = "王晓彤",
+		code = 196
+	},
+	{
+		actor_name = "杜冥鸦",
+		code = 197
+	},
+	{
+		actor_name = "Ayuru Ohashi",
+		code = 198
+	},
+	{
+		actor_name = "Yurika Kubo",
+		code = 199
 	}
 }
 

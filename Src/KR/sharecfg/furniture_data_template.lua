@@ -949,7 +949,7 @@ pg.furniture_data_template = {
 	[108] = {
 		advice = 0,
 		name = "그네뛰기",
-		count = 1,
+		count = 2,
 		type = 7,
 		dir = 0,
 		effect = "",
@@ -1006,7 +1006,7 @@ pg.furniture_data_template = {
 	[109] = {
 		advice = 0,
 		name = "가을 밤의 오작교",
-		count = 1,
+		count = 2,
 		type = 7,
 		dir = 0,
 		effect = "",
@@ -2401,6 +2401,55 @@ pg.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			1
+		},
+		interAction_group = {}
+	},
+	[148] = {
+		advice = 0,
+		name = "잔해",
+		count = 1,
+		type = 7,
+		dir = 0,
+		gain_by = "샌드 플레이 ",
+		is_get_time_note = 1,
+		belong = 1,
+		can_rotate = 0,
+		effect = "",
+		dorm_icon_price = 500,
+		not_for_sale = 1,
+		icon = "xiangtingliaofaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 5,
+		tag = 6,
+		picture = "chuanmo/xiangtingliaofa",
+		canputon = 0,
+		discount = 0,
+		id = 148,
+		comfortable = 0,
+		describe = "버뮤다 전장에서 회수한 미지의 물질, 무언가 신비한 힘이 느껴지는 듯 하다──「샌드 플레이」특수 작전에 참여하여 기념 획득하는 최고의 영예",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"xiangtingliaofa",
+				"normal"
+			}
 		},
 		interAction_group = {}
 	},
@@ -76670,6 +76719,7 @@ pg.furniture_data_template = {
 		141,
 		143,
 		145,
+		148,
 		100002,
 		100003,
 		100004,

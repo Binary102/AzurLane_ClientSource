@@ -8,12 +8,9 @@ return {
 				},
 				arg_list = {
 					number = 0.05,
-					type = {
-						10,
-						11
-					},
-					nationality = {
-						1
+					label = {
+						"USS",
+						"CV"
 					}
 				}
 			}
@@ -28,12 +25,9 @@ return {
 				},
 				arg_list = {
 					number = 0.061,
-					type = {
-						10,
-						11
-					},
-					nationality = {
-						1
+					label = {
+						"USS",
+						"CV"
 					}
 				}
 			}
@@ -48,12 +42,9 @@ return {
 				},
 				arg_list = {
 					number = 0.072,
-					type = {
-						10,
-						11
-					},
-					nationality = {
-						1
+					label = {
+						"USS",
+						"CV"
 					}
 				}
 			}
@@ -68,12 +59,9 @@ return {
 				},
 				arg_list = {
 					number = 0.083,
-					type = {
-						10,
-						11
-					},
-					nationality = {
-						1
+					label = {
+						"USS",
+						"CV"
 					}
 				}
 			}
@@ -88,12 +76,9 @@ return {
 				},
 				arg_list = {
 					number = 0.094,
-					type = {
-						10,
-						11
-					},
-					nationality = {
-						1
+					label = {
+						"USS",
+						"CV"
 					}
 				}
 			}
@@ -108,12 +93,9 @@ return {
 				},
 				arg_list = {
 					number = 0.105,
-					type = {
-						10,
-						11
-					},
-					nationality = {
-						1
+					label = {
+						"USS",
+						"CV"
 					}
 				}
 			}
@@ -128,12 +110,9 @@ return {
 				},
 				arg_list = {
 					number = 0.116,
-					type = {
-						10,
-						11
-					},
-					nationality = {
-						1
+					label = {
+						"USS",
+						"CV"
 					}
 				}
 			}
@@ -148,12 +127,9 @@ return {
 				},
 				arg_list = {
 					number = 0.127,
-					type = {
-						10,
-						11
-					},
-					nationality = {
-						1
+					label = {
+						"USS",
+						"CV"
 					}
 				}
 			}
@@ -168,12 +144,9 @@ return {
 				},
 				arg_list = {
 					number = 0.138,
-					type = {
-						10,
-						11
-					},
-					nationality = {
-						1
+					label = {
+						"USS",
+						"CV"
 					}
 				}
 			}
@@ -188,12 +161,9 @@ return {
 				},
 				arg_list = {
 					number = 0.15,
-					type = {
-						10,
-						11
-					},
-					nationality = {
-						1
+					label = {
+						"USS",
+						"CV"
 					}
 				}
 			}
@@ -217,12 +187,9 @@ return {
 			},
 			arg_list = {
 				number = 0.05,
-				type = {
-					10,
-					11
-				},
-				nationality = {
-					1
+				label = {
+					"USS",
+					"CV"
 				}
 			}
 		}

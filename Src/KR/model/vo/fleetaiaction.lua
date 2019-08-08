@@ -24,7 +24,7 @@ function slot0.Ctor(slot0, slot1)
 
 	_.each(slot1.map_update, function (slot0)
 		if slot0.item_type ~= ChapterConst.AttachNone and slot0.item_type ~= ChapterConst.AttachBorn and slot0.item_type ~= ChapterConst.AttachBorn_Sub and (slot0.item_type ~= ChapterConst.AttachStory or slot0.item_data ~= ChapterConst.StoryTrigger) then
-			table.insert(slot0.cellUpdates, (slot0.item_type == ChapterConst.AttachChampion and ChapterChampion.New(slot0)) or ChapterCell.New(slot0))
+			table.insert(slot0.cellUpdates, (slot0.item_type == ChapterConst.AttachChampion and ChapterChampionPackage.New(slot0)) or ChapterCell.New(slot0))
 		end
 	end)
 
@@ -77,7 +77,7 @@ function slot0.applyToFleet(slot0, slot1, slot2, slot3)
 			end
 
 			if slot6 then
-				if isa(slot6, ChapterChampion) then
+				if isa(slot6, ChapterChampionPackage) then
 					slot1:mergeChampion(slot6)
 
 					slot5 = bit.bor(slot5, ChapterConst.DirtyChampion)

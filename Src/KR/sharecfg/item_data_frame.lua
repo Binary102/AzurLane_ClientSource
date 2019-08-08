@@ -48,13 +48,22 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>적색의 피, 단단한 철로 굳건하게 형성된 의지</color>\n[메탈 블러드, 음표 & 맹세] 이벤트에서 획득 가능",
 		scene = {}
 	},
+	[303] = {
+		name = "자유의 날개",
+		time_second = 0,
+		id = 303,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>「——푸른 자유 의지를 위하여, 신이여 유니온을 보호하소서」</color>\n「샌드 플레이」이벤트에서 획득합니다",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
 		201,
 		300,
 		301,
-		302
+		302,
+		303
 	}
 }
 

@@ -70,11 +70,10 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>S Rare</color>：12%",
 			"<color=#3dc6ff>Rare</color>：51%",
 			"Normal：30%",
-			"<color=#ffde38>이168</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>U-101</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>이25</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>이56</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>U-522</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>앨라배마</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>볼티모어</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>버밍햄</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#3dc6ff>아일윈</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

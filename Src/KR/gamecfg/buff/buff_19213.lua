@@ -8,8 +8,10 @@ return {
 				},
 				arg_list = {
 					number = 0.045,
-					index = {
-						1
+					label = {
+						"IJN",
+						"CB",
+						"MG"
 					}
 				}
 			}
@@ -24,8 +26,10 @@ return {
 				},
 				arg_list = {
 					number = 0.052,
-					index = {
-						1
+					label = {
+						"IJN",
+						"CB",
+						"MG"
 					}
 				}
 			}
@@ -40,8 +44,10 @@ return {
 				},
 				arg_list = {
 					number = 0.06,
-					index = {
-						1
+					label = {
+						"IJN",
+						"CB",
+						"MG"
 					}
 				}
 			}
@@ -56,8 +62,10 @@ return {
 				},
 				arg_list = {
 					number = 0.07,
-					index = {
-						1
+					label = {
+						"IJN",
+						"CB",
+						"MG"
 					}
 				}
 			}
@@ -72,8 +80,10 @@ return {
 				},
 				arg_list = {
 					number = 0.077,
-					index = {
-						1
+					label = {
+						"IJN",
+						"CB",
+						"MG"
 					}
 				}
 			}
@@ -88,8 +98,10 @@ return {
 				},
 				arg_list = {
 					number = 0.85,
-					index = {
-						1
+					label = {
+						"IJN",
+						"CB",
+						"MG"
 					}
 				}
 			}
@@ -104,8 +116,10 @@ return {
 				},
 				arg_list = {
 					number = 0.95,
-					index = {
-						1
+					label = {
+						"IJN",
+						"CB",
+						"MG"
 					}
 				}
 			}
@@ -120,8 +134,10 @@ return {
 				},
 				arg_list = {
 					number = 0.102,
-					index = {
-						1
+					label = {
+						"IJN",
+						"CB",
+						"MG"
 					}
 				}
 			}
@@ -136,8 +152,10 @@ return {
 				},
 				arg_list = {
 					number = 0.11,
-					index = {
-						1
+					label = {
+						"IJN",
+						"CB",
+						"MG"
 					}
 				}
 			}
@@ -152,8 +170,10 @@ return {
 				},
 				arg_list = {
 					number = 0.12,
-					index = {
-						1
+					label = {
+						"IJN",
+						"CB",
+						"MG"
 					}
 				}
 			}
@@ -177,8 +197,10 @@ return {
 			},
 			arg_list = {
 				number = 0.045,
-				index = {
-					1
+				label = {
+					"IJN",
+					"CB",
+					"MG"
 				}
 			}
 		}

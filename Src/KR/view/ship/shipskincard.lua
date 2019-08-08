@@ -30,7 +30,7 @@ function slot0.updateSkin(slot0, slot1, slot2)
 
 		setActive(slot0.nameBar, true)
 		setActive(slot0.effectBar, false)
-		setText(slot0.name, HXSet.hxLan(slot1.name))
+		setText(slot0.name, shortenString(HXSet.hxLan(slot1.name), 7))
 		setActive(slot0.bgMark, not slot2)
 
 		if not slot2 then
@@ -89,7 +89,7 @@ function slot0.updateData(slot0, slot1, slot2, slot3)
 
 		setActive(slot0.nameBar, true)
 		setActive(slot0.effectBar, false)
-		slot0.scrollName:setText(HXSet.hxLan(slot2.name))
+		setText(slot0.name, shortenString(HXSet.hxLan(slot2.name), 7))
 
 		slot4 = slot0.skin.id == slot0.ship:getConfig("skin_id")
 

@@ -150,7 +150,7 @@ function ys.Battle.BattlePlayerUnit.setWeapon(slot0, slot1)
 			if slot10.equipment then
 				for slot18, slot19 in ipairs(slot14) do
 					if slot19 and slot19 ~= -1 then
-						slot13(slot19, slot10.equipment.nationality, slot10.skin)
+						slot13(slot19, slot10.equipment.label, slot10.skin)
 					end
 				end
 			else
@@ -203,7 +203,7 @@ function ys.Battle.BattlePlayerUnit.AddWeapon(slot0, slot1, slot2, slot3, slot4,
 	slot0._totalWeapon[#slot0._totalWeapon + 1] = slot0.Battle.BattleDataFunction.CreateWeaponUnit(slot1, slot0, slot4, slot5)
 
 	if slot2 then
-		slot6:SetEquipmentInfo(slot2)
+		slot6:SetEquipmentLabel(slot2)
 	end
 
 	if slot6:GetTemplateData().type == slot1.POINT_HIT_AND_LOCK then

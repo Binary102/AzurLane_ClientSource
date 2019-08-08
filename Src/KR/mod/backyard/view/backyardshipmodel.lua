@@ -1306,40 +1306,11 @@ function slot5(slot0, slot1, slot2)
 			slot6 = slot6(slot7, slot8)
 
 			if slot6 then
-				slot7 = slot0
-				slot6 = slot0.clearStage
-
-				slot6(slot7)
-
-				slot6 = slot0.viewComponent
-				slot7 = slot6
-				slot6 = slot6.emit
-				slot8 = BackyardMainMediator
-				slot8 = slot8.INTERACTION_TRANSPORT
-				slot9 = slot0.boatVO
-				slot9 = slot9.id
-				slot10 = slot5.id
-
-				slot6(slot7, slot8, slot9, slot10)
-			end
-		end
-	elseif slot2 then
-		slot7 = slot5
-		slot6 = slot5.canInterActionShipGroup
-		slot8 = slot4.gruopId
-		slot6 = slot6(slot7, slot8)
-
-		if slot6 then
-			slot7 = slot5
-			slot6 = slot5.isInterActionSpine
-			slot6 = slot6(slot7)
-
-			if slot6 then
 				slot7 = slot5
-				slot6 = slot5.canInterActionSpine
+				slot6 = slot5.isLock
 				slot6 = slot6(slot7)
 
-				if slot6 then
+				if not slot6 then
 					slot7 = slot0
 					slot6 = slot0.clearStage
 
@@ -1349,7 +1320,7 @@ function slot5(slot0, slot1, slot2)
 					slot7 = slot6
 					slot6 = slot6.emit
 					slot8 = BackyardMainMediator
-					slot8 = slot8.INTERACTION_SPINE
+					slot8 = slot8.INTERACTION_TRANSPORT
 					slot9 = slot0.boatVO
 					slot9 = slot9.id
 					slot10 = slot5.id
@@ -1371,24 +1342,71 @@ function slot5(slot0, slot1, slot2)
 
 			if slot6 then
 				slot7 = slot5
+				slot6 = slot5.canInterActionSpine
+				slot6 = slot6(slot7)
+
+				if slot6 then
+					slot7 = slot5
+					slot6 = slot5.isTransPort
+					slot6 = slot6(slot7)
+
+					if not slot6 then
+						slot7 = slot0
+						slot6 = slot0.clearStage
+
+						slot6(slot7)
+
+						slot6 = slot0.viewComponent
+						slot7 = slot6
+						slot6 = slot6.emit
+						slot8 = BackyardMainMediator
+						slot8 = slot8.INTERACTION_SPINE
+						slot9 = slot0.boatVO
+						slot9 = slot9.id
+						slot10 = slot5.id
+
+						slot6(slot7, slot8, slot9, slot10)
+					end
+				end
+			end
+		end
+	elseif slot2 then
+		slot7 = slot5
+		slot6 = slot5.canInterActionShipGroup
+		slot8 = slot4.gruopId
+		slot6 = slot6(slot7, slot8)
+
+		if slot6 then
+			slot7 = slot5
+			slot6 = slot5.isInterActionSpine
+			slot6 = slot6(slot7)
+
+			if slot6 then
+				slot7 = slot5
 				slot6 = slot5.canInterActionSpineExtra
 				slot6 = slot6(slot7)
 
 				if slot6 then
-					slot7 = slot0
-					slot6 = slot0.clearStage
+					slot7 = slot5
+					slot6 = slot5.isTransPort
+					slot6 = slot6(slot7)
 
-					slot6(slot7)
+					if not slot6 then
+						slot7 = slot0
+						slot6 = slot0.clearStage
 
-					slot6 = slot0.viewComponent
-					slot7 = slot6
-					slot6 = slot6.emit
-					slot8 = BackyardMainMediator
-					slot8 = slot8.ON_SPINE_EXTRA
-					slot9 = slot4.id
-					slot10 = slot2
+						slot6(slot7)
 
-					slot6(slot7, slot8, slot9, slot10)
+						slot6 = slot0.viewComponent
+						slot7 = slot6
+						slot6 = slot6.emit
+						slot8 = BackyardMainMediator
+						slot8 = slot8.ON_SPINE_EXTRA
+						slot9 = slot4.id
+						slot10 = slot2
+
+						slot6(slot7, slot8, slot9, slot10)
+					end
 				end
 			end
 		end
@@ -2221,29 +2239,6 @@ function slot5(slot0, slot1)
 	slot2 = slot2.furnitureModals
 	slot3 = slot1.id
 	slot2 = slot2[slot3]
-	slot4 = slot1
-	slot3 = slot1.hasSpineShipBodyMask
-	slot3 = slot3(slot4)
-
-	if slot3 then
-		slot4 = slot1
-		slot3 = slot1.getSpineShipBodyMask
-		slot3 = slot3(slot4)
-		slot5 = slot0
-		slot4 = slot0.showBodyMask
-		slot6 = slot3
-		slot7 = slot1.dir
-
-		slot4(slot5, slot6, slot7)
-	end
-
-	slot4 = slot0
-	slot3 = slot0.changeInnerDir
-	slot5 = slot2.localScale
-	slot5 = slot5.x
-
-	slot3(slot4, slot5)
-
 	slot4 = slot0
 	slot3 = slot0.updateModelDir
 

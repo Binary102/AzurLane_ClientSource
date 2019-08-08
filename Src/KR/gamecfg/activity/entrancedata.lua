@@ -51,6 +51,9 @@ return {
 		},
 		isShow = function ()
 			return pg.TimeMgr:GetInstance():inTime(ActivityConst.LIMIT_SKIN_SHOP_TIME)
+		end,
+		isTip = function ()
+			return getProxy(PlayerProxy):getRawData().skinTicket and slot0.skinTicket > 0
 		end
 	},
 	{

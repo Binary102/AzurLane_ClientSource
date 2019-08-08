@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				number = 0.04,
-				index = {
-					1
+				label = {
+					"FT"
 				}
 			}
 		}

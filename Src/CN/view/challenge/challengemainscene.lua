@@ -1151,13 +1151,17 @@ function slot1(slot0)
 				slot2 = slot1
 				slot1 = slot1.getSeasonID
 				slot1 = slot1(slot2)
-				slot2 = pg
-				slot2 = slot2.activity_event_challenge
-				slot2 = slot2[1]
-				slot2 = slot2.infinite_stage
-				slot2 = slot2[slot1]
-				slot2 = slot2[1]
-				slot0.dungeonIDList = slot2
+				slot2 = slot0.challengeInfo
+				slot3 = slot2
+				slot2 = slot2.getActivityIndex
+				slot2 = slot2(slot3)
+				slot3 = pg
+				slot3 = slot3.activity_event_challenge
+				slot3 = slot3[slot2]
+				slot3 = slot3.infinite_stage
+				slot3 = slot3[slot1]
+				slot3 = slot3[1]
+				slot0.dungeonIDList = slot3
 			end
 		end
 	else
@@ -1220,27 +1224,31 @@ function slot1(slot0)
 			slot3 = slot2
 			slot2 = slot2.getSeasonID
 			slot2 = slot2(slot3)
-			slot3 = pg
-			slot3 = slot3.activity_event_challenge
-			slot3 = slot3[1]
-			slot3 = slot3.infinite_stage
-			slot3 = slot3[slot2]
-			slot3 = slot3[2]
+			slot3 = slot0.challengeInfo
+			slot4 = slot3
+			slot3 = slot3.getActivityIndex
+			slot3 = slot3(slot4)
+			slot4 = pg
+			slot4 = slot4.activity_event_challenge
+			slot4 = slot4[slot3]
+			slot4 = slot4.infinite_stage
+			slot4 = slot4[slot2]
+			slot4 = slot4[2]
 
-			if slot3 then
-				slot3 = pg
-				slot3 = slot3.activity_event_challenge
-				slot3 = slot3[1]
-				slot3 = slot3.infinite_stage
-				slot3 = slot3[slot2]
-				slot1 = slot3[2]
+			if slot4 then
+				slot4 = pg
+				slot4 = slot4.activity_event_challenge
+				slot4 = slot4[slot3]
+				slot4 = slot4.infinite_stage
+				slot4 = slot4[slot2]
+				slot1 = slot4[2]
 			else
-				slot3 = pg
-				slot3 = slot3.activity_event_challenge
-				slot3 = slot3[1]
-				slot3 = slot3.infinite_stage
-				slot3 = slot3[slot2]
-				slot1 = slot3[1]
+				slot4 = pg
+				slot4 = slot4.activity_event_challenge
+				slot4 = slot4[slot3]
+				slot4 = slot4.infinite_stage
+				slot4 = slot4[slot2]
+				slot1 = slot4[1]
 			end
 		end
 
@@ -2764,127 +2772,144 @@ slot0.updateFuncBtns = slot1
 
 function slot1(slot0)
 	slot1 = getProxy
-	slot2 = TaskProxy
+	slot2 = ActivityProxy
 	slot1 = slot1(slot2)
 	slot2 = slot1
-	slot1 = slot1.getTaskById
-	slot3 = ChallengeConst
-	slot3 = slot3.CHALLENGE_AWARD_TASK_ID
+	slot1 = slot1.getActivityByType
+	slot3 = ActivityConst
+	slot3 = slot3.ACTIVITY_TYPE_CHALLENGE
 	slot1 = slot1(slot2, slot3)
-
-	if not slot1 then
-		slot2 = getProxy
-		slot3 = TaskProxy
-		slot2 = slot2(slot3)
-		slot3 = slot2
-		slot2 = slot2.getFinishTaskById
-		slot4 = ChallengeConst
-		slot4 = slot4.CHALLENGE_AWARD_TASK_ID
-		slot2 = slot2(slot3, slot4)
-		slot1 = slot2
-	end
-
-	slot3 = slot1
-	slot2 = slot1.getConfig
-	slot4 = "target_num"
-	slot2 = slot2(slot3, slot4)
-	slot3 = slot0.challengeInfo
-	slot4 = slot3
-	slot3 = slot3.getGradeList
-	slot3 = slot3(slot4)
-	slot3 = slot3.activityMaxScore
-	slot4 = setText
-	slot5 = slot0.scoreText
-	slot6 = slot3
-	slot7 = " / "
-	slot8 = slot2
-	slot6 = slot6 .. slot7 .. slot8
-
-	slot4(slot5, slot6)
-
-	slot5 = slot1
-	slot4 = slot1.getTaskStatus
+	slot2 = pg
+	slot2 = slot2.activity_template
+	slot3 = slot1.id
+	slot2 = slot2[slot3]
+	slot2 = slot2.config_data
+	slot2 = slot2[1]
+	slot3 = pg
+	slot3 = slot3.activity_template
+	slot3 = slot3[slot2]
+	slot3 = slot3.config_data
+	slot3 = slot3[1]
+	slot4 = getProxy
+	slot5 = TaskProxy
 	slot4 = slot4(slot5)
+	slot5 = slot4
+	slot4 = slot4.getTaskById
+	slot6 = slot3
+	slot4 = slot4(slot5, slot6)
 
-	if slot4 == 0 then
-		slot5 = setActive
-		slot6 = slot0.getBtn
-		slot7 = false
-
-		slot5(slot6, slot7)
-
-		slot5 = setActive
-		slot6 = slot0.getBtnBanned
-		slot7 = true
-
-		slot5(slot6, slot7)
-
-		slot5 = setActive
-		slot6 = slot0.gotBtn
-		slot7 = false
-
-		slot5(slot6, slot7)
-	elseif slot4 == 1 then
-		slot5 = setActive
-		slot6 = slot0.getBtn
-		slot7 = true
-
-		slot5(slot6, slot7)
-
-		slot5 = setActive
-		slot6 = slot0.getBtnBanned
-		slot7 = false
-
-		slot5(slot6, slot7)
-
-		slot5 = setActive
-		slot6 = slot0.gotBtn
-		slot7 = false
-
-		slot5(slot6, slot7)
-	elseif slot4 == 2 then
-		slot5 = setActive
-		slot6 = slot0.getBtn
-		slot7 = false
-
-		slot5(slot6, slot7)
-
-		slot5 = setActive
-		slot6 = slot0.getBtnBanned
-		slot7 = false
-
-		slot5(slot6, slot7)
-
-		slot5 = setActive
-		slot6 = slot0.gotBtn
-		slot7 = true
-
-		slot5(slot6, slot7)
+	if not slot4 then
+		slot5 = getProxy
+		slot6 = TaskProxy
+		slot5 = slot5(slot6)
+		slot6 = slot5
+		slot5 = slot5.getFinishTaskById
+		slot7 = slot3
+		slot5 = slot5(slot6, slot7)
+		slot4 = slot5
 	end
 
-	slot6 = slot1
-	slot5 = slot1.getConfig
-	slot7 = "award_display"
+	slot6 = slot4
+	slot5 = slot4.getConfig
+	slot7 = "target_num"
 	slot5 = slot5(slot6, slot7)
-	slot5 = slot5[1]
-	slot6 = {}
-	slot7 = slot5[1]
-	slot6.type = slot7
-	slot7 = slot5[2]
-	slot6.id = slot7
-	slot7 = slot5[3]
-	slot6.count = slot7
-	slot7 = updateDrop
-	slot8 = slot0.itemTF
+	slot6 = slot0.challengeInfo
+	slot7 = slot6
+	slot6 = slot6.getGradeList
+	slot6 = slot6(slot7)
+	slot6 = slot6.activityMaxScore
+	slot7 = setText
+	slot8 = slot0.scoreText
 	slot9 = slot6
+	slot10 = " / "
+	slot11 = slot5
+	slot9 = slot9 .. slot10 .. slot11
 
 	slot7(slot8, slot9)
 
-	slot7 = onButton
-	slot8 = slot0
-	slot9 = slot0.itemTF
+	slot8 = slot4
+	slot7 = slot4.getTaskStatus
+	slot7 = slot7(slot8)
 
-	function slot10()
+	if slot7 == 0 then
+		slot8 = setActive
+		slot9 = slot0.getBtn
+		slot10 = false
+
+		slot8(slot9, slot10)
+
+		slot8 = setActive
+		slot9 = slot0.getBtnBanned
+		slot10 = true
+
+		slot8(slot9, slot10)
+
+		slot8 = setActive
+		slot9 = slot0.gotBtn
+		slot10 = false
+
+		slot8(slot9, slot10)
+	elseif slot7 == 1 then
+		slot8 = setActive
+		slot9 = slot0.getBtn
+		slot10 = true
+
+		slot8(slot9, slot10)
+
+		slot8 = setActive
+		slot9 = slot0.getBtnBanned
+		slot10 = false
+
+		slot8(slot9, slot10)
+
+		slot8 = setActive
+		slot9 = slot0.gotBtn
+		slot10 = false
+
+		slot8(slot9, slot10)
+	elseif slot7 == 2 then
+		slot8 = setActive
+		slot9 = slot0.getBtn
+		slot10 = false
+
+		slot8(slot9, slot10)
+
+		slot8 = setActive
+		slot9 = slot0.getBtnBanned
+		slot10 = false
+
+		slot8(slot9, slot10)
+
+		slot8 = setActive
+		slot9 = slot0.gotBtn
+		slot10 = true
+
+		slot8(slot9, slot10)
+	end
+
+	slot9 = slot4
+	slot8 = slot4.getConfig
+	slot10 = "award_display"
+	slot8 = slot8(slot9, slot10)
+	slot8 = slot8[1]
+	slot9 = {}
+	slot10 = slot8[1]
+	slot9.type = slot10
+	slot10 = slot8[2]
+	slot9.id = slot10
+	slot10 = slot8[3]
+	slot9.count = slot10
+	slot10 = updateDrop
+	slot11 = slot0.itemTF
+	slot12 = slot9
+
+	slot10(slot11, slot12)
+
+	slot10 = onButton
+	slot11 = slot0
+	slot12 = slot0.itemTF
+
+	function slot13()
 		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.emit
@@ -2895,15 +2920,15 @@ function slot1(slot0)
 		slot0(slot1, slot2, slot3)
 	end
 
-	slot11 = SFX_PANEL
+	slot14 = SFX_PANEL
 
-	slot7(slot8, slot9, slot10, slot11)
+	slot10(slot11, slot12, slot13, slot14)
 
-	slot7 = onButton
-	slot8 = slot0
-	slot9 = slot0.getBtn
+	slot10 = onButton
+	slot11 = slot0
+	slot12 = slot0.getBtn
 
-	function slot10()
+	function slot13()
 		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.emit
@@ -2915,11 +2940,11 @@ function slot1(slot0)
 		slot0(slot1, slot2, slot3)
 	end
 
-	slot11 = SFX_PANEL
+	slot14 = SFX_PANEL
 
-	slot7(slot8, slot9, slot10, slot11)
+	slot10(slot11, slot12, slot13, slot14)
 
-	slot7 = nil
+	slot10 = nil
 end
 
 slot0.updateAwardPanel = slot1

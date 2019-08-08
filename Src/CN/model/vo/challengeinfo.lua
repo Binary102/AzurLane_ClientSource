@@ -17,6 +17,7 @@ function slot0.UpdateChallengeInfo(slot0, slot1)
 	end
 
 	slot0._buffList = slot1.buff_list
+	slot0._activityIndex = getProxy(ActivityProxy).getActivityByType(slot2, ActivityConst.ACTIVITY_TYPE_CHALLENGE):getConfig("config_id")
 end
 
 function slot0.checkRecord(slot0, slot1)
@@ -46,6 +47,10 @@ end
 
 function slot0.getDungeonIDList(slot0)
 	return Clone(slot0._dungeonList)
+end
+
+function slot0.getActivityIndex(slot0)
+	return slot0._activityIndex
 end
 
 return slot0

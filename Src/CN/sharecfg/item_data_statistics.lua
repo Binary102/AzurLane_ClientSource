@@ -69248,6 +69248,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59135] = {
+		display = "关于「传说中的海豹」的线索，收集更多情报，寻找传说中的小海豹吧！用于『碧海的偶像』活动，活动结束后将会消失",
+		rarity = 2,
+		type = 98,
+		name = "线索",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59135,
+		icon = "Props/qixihaibaopt",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "三笠收藏的驱逐船模-茳",
 		rarity = 2,
@@ -73761,6 +73777,7 @@ pg.item_data_statistics = {
 		59132,
 		59133,
 		59134,
+		59135,
 		59601,
 		59602,
 		59603,

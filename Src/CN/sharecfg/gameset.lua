@@ -689,7 +689,7 @@ pg.gameset = {
 	language_default = {
 		description = "",
 		key = "language_default",
-		key_value = 2
+		key_value = 1
 	},
 	event_tips = {
 		description = "",

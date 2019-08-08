@@ -1446,16 +1446,6 @@ function slot0.doSafeCheck(slot0, slot1)
 										slot1 = true
 									end
 
-									for slot5, slot6 in pairs(slot0.idList) do
-										if not slot1 then
-											if slot6 ~= slot0 then
-												slot1 = false
-											else
-												slot1 = true
-											end
-										end
-									end
-
 									if slot1 then
 										if slot0.flag == 1 then
 											slot2 = false

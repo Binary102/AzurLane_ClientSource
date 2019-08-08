@@ -36547,6 +36547,156 @@ pg.enemy_data_statistics = {
 		},
 		equipment_list = {}
 	},
+	[371] = {
+		cannon = 0,
+		name = "菲尼克斯",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 1,
+		icon_type = 2,
+		type = 2,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "feinikesi",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		friendly_cld = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 371,
+		scale = 150,
+		drop_id = 0,
+		wave_fx = "movewave",
+		prefab = "feinikesi",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		bubble_fx = "",
+		dodge = 0,
+		bubble_initial = 0,
+		reload_growth = 0,
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.32,
+					0.833,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.32,
+					0.833,
+					0
+				},
+				{
+					0.068,
+					0.683,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.897,
+					0.902,
+					0
+				},
+				{
+					-0.546,
+					0.902,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.54,
+							0.43,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.06,
+							0.59,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {}
+	},
 	[400] = {
 		cannon = 6,
 		name = "无名老妖",
@@ -172464,6 +172614,224 @@ pg.enemy_data_statistics = {
 		specific_fx_scale = {},
 		equipment_list = {}
 	},
+	[900011] = {
+		cannon = 135,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit_growth = 0,
+		air = 0,
+		antiaircraft = 250,
+		battle_unit_type = 90,
+		id = 900011,
+		bubble_initial = 0,
+		dodge_growth = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 371,
+		durability = 150000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 35,
+		armor = 0,
+		antisub = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 9999,
+		torpedo = 0,
+		durability_growth = 0,
+		bubble_fx = "",
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {}
+	},
+	[900012] = {
+		cannon = 160,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit_growth = 0,
+		air = 300,
+		antiaircraft = 240,
+		battle_unit_type = 90,
+		id = 900012,
+		bubble_initial = 0,
+		dodge_growth = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 239,
+		durability = 170000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 35,
+		armor = 0,
+		antisub = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 9999,
+		torpedo = 0,
+		durability_growth = 0,
+		bubble_fx = "",
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {}
+	},
+	[900013] = {
+		cannon = 200,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit_growth = 0,
+		air = 0,
+		antiaircraft = 220,
+		battle_unit_type = 90,
+		id = 900013,
+		bubble_initial = 0,
+		dodge_growth = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 218,
+		durability = 180000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 35,
+		armor = 0,
+		antisub = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 9999,
+		torpedo = 100,
+		durability_growth = 0,
+		bubble_fx = "",
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {}
+	},
+	[900014] = {
+		cannon = 150,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit_growth = 0,
+		air = 0,
+		antiaircraft = 200,
+		battle_unit_type = 90,
+		id = 900014,
+		bubble_initial = 0,
+		dodge_growth = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 213,
+		durability = 160000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 35,
+		armor = 0,
+		antisub = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 9999,
+		torpedo = 100,
+		durability_growth = 0,
+		bubble_fx = "",
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {}
+	},
+	[900015] = {
+		cannon = 160,
+		antisub = 0,
+		antiaircraft = 240,
+		speed_growth = 0,
+		battle_unit_type = 90,
+		air = 300,
+		armor = 0,
+		hit_growth = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		dodge_growth = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 319,
+		durability = 170000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 35,
+		luck = 0,
+		id = 900015,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 9999,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		bound_bone = {
+			cannon = {
+				{
+					-0.37,
+					0.97,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.53,
+					0.39,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.37,
+					0.97,
+					0
+				}
+			}
+		},
+		equipment_list = {}
+	},
 	[909001] = {
 		cannon = 100,
 		hit_growth = 0,
@@ -175493,6 +175861,7 @@ pg.enemy_data_statistics = {
 		368,
 		369,
 		370,
+		371,
 		400,
 		401,
 		402,
@@ -178283,6 +178652,11 @@ pg.enemy_data_statistics = {
 		900008,
 		900009,
 		900010,
+		900011,
+		900012,
+		900013,
+		900014,
+		900015,
 		909001,
 		909002,
 		909003,

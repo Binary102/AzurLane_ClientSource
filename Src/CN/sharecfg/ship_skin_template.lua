@@ -10028,7 +10028,9 @@ pg.ship_skin_template = {
 		lip_sync_gain = 0,
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
-		tag = {},
+		tag = {
+			2
+		},
 		live2d_offset = {
 			0,
 			0,
@@ -12344,7 +12346,9 @@ pg.ship_skin_template = {
 		lip_sync_gain = 0,
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
-		tag = {},
+		tag = {
+			2
+		},
 		live2d_offset = {
 			0,
 			0,
@@ -15969,6 +15973,104 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[107034] = {
+		name = "碧海的偶像",
+		bullet_skin_main = "",
+		ship_group = 10703,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "salatuojia_5",
+		hand_id = 5,
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 0,
+		id = 107034,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "salatuojia_5",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "碧海与蓝天的伙伴，充满爱心的偶像·萨拉托加，全新登场！嘿嘿~指挥官，和萨拉酱一起来守护这片美好的碧蓝海洋吧~！",
+		voice_actor = 28,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.634,
+					1.181,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.403,
+					1.1,
+					0
+				}
+			},
+			plane = {
+				{
+					0.035,
+					-0.017,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.562,
+							2.241,
+							-0.6
+						}
+					}
+				}
+			}
+		}
+	},
 	[107039] = {
 		name = "萨拉托加.改",
 		bullet_skin_main = "",
@@ -17621,7 +17723,9 @@ pg.ship_skin_template = {
 		lip_sync_gain = 0,
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
-		tag = {},
+		tag = {
+			2
+		},
 		live2d_offset = {
 			0,
 			0,
@@ -18169,7 +18273,9 @@ pg.ship_skin_template = {
 		lip_sync_gain = 0,
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
-		tag = {},
+		tag = {
+			2
+		},
 		live2d_offset = {
 			0,
 			0,
@@ -54678,7 +54784,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "巡潜乙型潜水舰伊25",
-		voice_actor = -1,
+		voice_actor = 121,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -54769,7 +54875,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 70205,
 		desc = "指挥官大人您好。这身衣服…？今天要在学园上课才穿的哦？说起来，指挥官大人有没有兴趣参观大家上课呢？",
-		voice_actor = -1,
+		voice_actor = 121,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -60672,7 +60778,8 @@ pg.ship_skin_template = {
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
-			propose = 2.5
+			propose = 2.5,
+			touch2 = 5.9
 		}
 	},
 	[407010] = {
@@ -78426,6 +78533,7 @@ pg.ship_skin_template = {
 		107031,
 		107032,
 		107033,
+		107034,
 		107039,
 		107040,
 		107049,

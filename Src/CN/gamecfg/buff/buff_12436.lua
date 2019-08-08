@@ -2,13 +2,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBuff",
+				type = "BattleBuffCastSkill",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					buff_id = 12437,
 					rant = 4500,
+					skill_id = 12435,
 					target = "TargetSelf"
 				}
 			}
@@ -17,13 +17,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBuff",
+				type = "BattleBuffCastSkill",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					buff_id = 12437,
 					rant = 4830,
+					skill_id = 12435,
 					target = "TargetSelf"
 				}
 			}
@@ -32,13 +32,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBuff",
+				type = "BattleBuffCastSkill",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					buff_id = 12437,
 					rant = 5160,
+					skill_id = 12435,
 					target = "TargetSelf"
 				}
 			}
@@ -47,13 +47,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBuff",
+				type = "BattleBuffCastSkill",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					buff_id = 12437,
 					rant = 5490,
+					skill_id = 12435,
 					target = "TargetSelf"
 				}
 			}
@@ -62,13 +62,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBuff",
+				type = "BattleBuffCastSkill",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					buff_id = 12437,
 					rant = 5820,
+					skill_id = 12435,
 					target = "TargetSelf"
 				}
 			}
@@ -77,13 +77,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBuff",
+				type = "BattleBuffCastSkill",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					buff_id = 12437,
 					rant = 6150,
+					skill_id = 12435,
 					target = "TargetSelf"
 				}
 			}
@@ -92,13 +92,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBuff",
+				type = "BattleBuffCastSkill",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					buff_id = 12437,
 					rant = 6480,
+					skill_id = 12435,
 					target = "TargetSelf"
 				}
 			}
@@ -107,13 +107,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBuff",
+				type = "BattleBuffCastSkill",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					buff_id = 12437,
 					rant = 6810,
+					skill_id = 12435,
 					target = "TargetSelf"
 				}
 			}
@@ -122,13 +122,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBuff",
+				type = "BattleBuffCastSkill",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					buff_id = 12437,
 					rant = 7140,
+					skill_id = 12435,
 					target = "TargetSelf"
 				}
 			}
@@ -137,13 +137,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBuff",
+				type = "BattleBuffCastSkill",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					buff_id = 12437,
 					rant = 7500,
+					skill_id = 12435,
 					target = "TargetSelf"
 				}
 			}

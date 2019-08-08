@@ -1616,17 +1616,23 @@ function slot0.addSpineExtra(slot0, slot1, slot2, slot3)
 			slot0.shipModels[slot5:getSpineId()].pauseAnim(slot8)
 
 			for slot12, slot13 in ipairs(slot5:getShipExtra()) do
-				slot0.shipModels[slot13].addSpineExtra(slot14, slot1, slot12)
-				slot8:registerActionCB(slot13, function (slot0)
-					slot0:setAction(slot0, 0)
+				slot14 = slot0.shipModels[slot13]
 
-					return
-				end, function ()
-					slot0:endSpineAnimator(slot0, )
-					slot0.endSpineAnimator:startSpineAnimator(slot0.endSpineAnimator, )
+				if slot13 ~= slot2 then
+					slot14:pauseAnim(slot12)
+				else
+					slot14:addSpineExtra(slot1, slot12)
+					slot8:registerActionCB(slot13, function (slot0)
+						slot0:setAction(slot0, 0)
 
-					return
-				end)
+						return
+					end, function ()
+						slot0:endSpineAnimator(slot0, )
+						slot0.endSpineAnimator:startSpineAnimator(slot0.endSpineAnimator, )
+
+						return
+					end)
+				end
 			end
 
 			slot8:resumeAnim()

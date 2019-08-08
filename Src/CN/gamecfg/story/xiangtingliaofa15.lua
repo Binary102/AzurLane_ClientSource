@@ -461,7 +461,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "变革与净化？呵，话虽然说的冠冕堂皇，事却做的卑劣无耻至极。",
+			say = "变革与进化？呵，话虽然说的冠冕堂皇，事却做的卑劣无耻至极。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

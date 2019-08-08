@@ -3017,6 +3017,17 @@ function slot4(slot0)
 				slot16 = "type"
 
 				slot12(slot13, slot14(slot15, slot16))
+			elseif slot8 == "common" then
+				slot12 = slot7.flag
+
+				if slot12 == 5 then
+					slot13 = slot11
+					slot12 = slot11.setAction
+					slot14 = ChapterConst
+					slot14 = slot14.ShipSwimAction
+
+					slot12(slot13, slot14)
+				end
 			end
 
 			slot13 = slot11
@@ -3127,176 +3138,183 @@ function slot4(slot0, slot1)
 			end
 		end
 
-		if slot5 then
-			slot6 = slot4.attachment
-			slot7 = ChapterConst
-			slot7 = slot7.AttachOni
+		slot6 = slot4.attachment
+		slot7 = ChapterConst
+		slot7 = slot7.AttachOni
 
-			if slot6 == slot7 then
-				slot6 = 1
-				slot7 = _
-				slot7 = slot7.each
-				slot8 = slot2.fleets
+		if slot6 == slot7 then
+			slot6 = 1
+			slot7 = _
+			slot7 = slot7.each
+			slot8 = slot2.fleets
 
-				function slot9(slot0)
-					slot1 = slot0
-					slot2 = slot1
-					slot1 = slot1.inAlertRange
-					slot3 = slot0.line
-					slot3 = slot3.row
-					slot4 = slot0.line
-					slot4 = slot4.column
-					slot1 = slot1(slot2, slot3, slot4)
+			function slot9(slot0)
+				slot1 = slot0
+				slot2 = slot1
+				slot1 = slot1.inAlertRange
+				slot3 = slot0.line
+				slot3 = slot3.row
+				slot4 = slot0.line
+				slot4 = slot4.column
+				slot1 = slot1(slot2, slot3, slot4)
 
-					if slot1 then
-						slot1 = slot1
-						slot1 = slot1 + 1
-						slot1 = slot1
-					end
+				if slot1 then
+					slot1 = slot1
+					slot1 = slot1 + 1
+					slot1 = slot1
 				end
+			end
 
-				slot7(slot8, slot9)
+			slot7(slot8, slot9)
 
-				slot7 = GetImageSpriteFromAtlasAsync
-				slot8 = "enemies/sp_"
-				slot9 = slot6
-				slot8 = slot8 .. slot9
-				slot9 = ""
-				slot10 = slot3.tfIcon
-				slot11 = true
+			slot7 = GetImageSpriteFromAtlasAsync
+			slot8 = "enemies/sp_"
+			slot9 = slot6
+			slot8 = slot8 .. slot9
+			slot9 = ""
+			slot10 = slot3.tfIcon
+			slot11 = true
 
-				slot7(slot8, slot9, slot10, slot11)
-			else
-				setActive(slot3.tfFighting, slot6)
-				setActive(slot3.tfEffectFound, slot4.trait == ChapterConst.TraitVirgin)
-				setActive(slot3.tfDamageCount, slot4.data > 0)
+			slot7(slot8, slot9, slot10, slot11)
+		else
+			setActive(slot3.tfFighting, slot5 and slot2:existEnemy(ChapterConst.SubjectChampion, slot4.row, slot4.column))
+
+			slot7 = setActive
+			slot8 = slot3.tfEffectFound
+
+			if slot5 then
+				slot7(slot8, slot4.trait == ChapterConst.TraitVirgin)
+
+				slot7 = setActive
+				slot8 = slot3.tfDamageCount
+			end
+
+			if slot5 then
+				slot7(slot8, slot4.data > 0)
 
 				slot7 = setActive
 				slot9 = slot3.tf
 				slot8 = slot3.tf.Find
-				slot10 = "huoqiubaozha"
-				slot8 = slot8(slot9, slot10)
-				slot9 = false
+			end
 
-				slot7(slot8, slot9)
+			slot10 = "huoqiubaozha"
+			slot8 = slot8(slot9, slot10)
+			slot9 = false
 
-				slot7 = slot4.trait
-				slot8 = ChapterConst
-				slot8 = slot8.TraitVirgin
+			slot7(slot8, slot9)
 
-				if slot7 == slot8 then
-					slot7 = playSoundEffect
-					slot8 = SFX_UI_WEIGHANCHOR_ENEMY
+			slot7 = slot4.trait
+			slot8 = ChapterConst
+			slot8 = slot8.TraitVirgin
 
-					slot7(slot8)
-				end
+			if slot7 == slot8 then
+				slot7 = playSoundEffect
+				slot8 = SFX_UI_WEIGHANCHOR_ENEMY
 
-				slot8 = slot3
-				slot7 = slot3.getModel
-				slot7 = slot7(slot8)
+				slot7(slot8)
+			end
 
-				if slot7 then
-					slot8 = slot3.poolType
+			slot8 = slot3
+			slot7 = slot3.getModel
+			slot7 = slot7(slot8)
 
-					if slot8 == "common" then
-						slot9 = slot7
-						slot8 = slot7.GetComponent
-						slot10 = "SkeletonGraphic"
-						slot8 = slot8(slot9, slot10)
-						slot10 = slot0
-						slot9 = slot0.isHuntingRangeVisible
-						slot9 = slot9(slot10)
+			if slot7 then
+				slot8 = slot3.poolType
 
-						if slot9 then
-							slot9 = _
-							slot9 = slot9.any
-							slot10 = slot2.fleets
+				if slot8 == "common" then
+					slot9 = slot7
+					slot8 = slot7.GetComponent
+					slot10 = "SkeletonGraphic"
+					slot8 = slot8(slot9, slot10)
+					slot10 = slot0
+					slot9 = slot0.isHuntingRangeVisible
+					slot9 = slot9(slot10)
 
-							function slot11(slot0)
+					if slot9 then
+						slot9 = _
+						slot9 = slot9.any
+						slot10 = slot2.fleets
+
+						function slot11(slot0)
+							slot2 = slot0
+							slot1 = slot0.getFleetType
+							slot1 = slot1(slot2)
+							slot2 = FleetType
+							slot2 = slot2.Submarine
+
+							if slot1 == slot2 then
 								slot2 = slot0
-								slot1 = slot0.getFleetType
+								slot1 = slot0.isValid
 								slot1 = slot1(slot2)
-								slot2 = FleetType
-								slot2 = slot2.Submarine
 
-								if slot1 == slot2 then
+								if slot1 then
 									slot2 = slot0
-									slot1 = slot0.isValid
-									slot1 = slot1(slot2)
-
-									if slot1 then
-										slot2 = slot0
-										slot1 = slot0.inHuntingRange
-										slot3 = slot0
-										slot3 = slot3.row
-										slot4 = slot0
-										slot4 = slot4.column
-										slot1 = slot1(slot2, slot3, slot4)
-									end
-								else
-									slot1 = false
-
-									if false then
-										slot1 = true
-									end
+									slot1 = slot0.inHuntingRange
+									slot3 = slot0
+									slot3 = slot3.row
+									slot4 = slot0
+									slot4 = slot4.column
+									slot1 = slot1(slot2, slot3, slot4)
 								end
+							else
+								slot1 = false
 
-								return slot1
+								if false then
+									slot1 = true
+								end
 							end
 
-							slot9 = slot9(slot10, slot11)
+							return slot1
 						end
 
-						if slot9 then
-							slot10 = slot0.championTws
-							slot10 = slot10[slot1]
+						slot9 = slot9(slot10, slot11)
+					end
 
-							if not slot10 then
-								slot10 = _
-								slot10 = slot10.values
-								slot11 = slot0.championTws
-								slot10 = slot10(slot11)
-								slot10 = slot10[1]
+					if slot9 then
+						slot10 = slot0.championTws
+						slot10 = slot10[slot1]
 
-								if slot10 then
-									slot11 = slot10.tw.passed or 0
-
-									if slot10 then
-										slot12 = slot10.tw.direction or 1
-									end
-								end
-							end
-						else
-							slot10 = slot0.championTws
-							slot10 = slot10[slot1]
+						if not slot10 then
+							slot10 = _
+							slot10 = slot10.values
+							slot11 = slot0.championTws
+							slot10 = slot10(slot11)
+							slot10 = slot10[1]
 
 							if slot10 then
-								slot10 = LeanTween
-								slot10 = slot10.cancel
-								slot11 = slot0.championTws
-								slot11 = slot11[slot1]
-								slot11 = slot11.uniqueId
+								slot11 = slot10.tw.passed or 0
 
-								slot10(slot11)
-
-								slot10 = slot0.championTws
-								slot11 = nil
-								slot10[slot1] = slot11
-								slot10 = Color
-								slot10 = slot10.white
-								slot8.color = slot10
+								if slot10 then
+									slot12 = slot10.tw.direction or 1
+								end
 							end
+						end
+					else
+						slot10 = slot0.championTws
+						slot10 = slot10[slot1]
+
+						if slot10 then
+							slot10 = LeanTween
+							slot10 = slot10.cancel
+							slot11 = slot0.championTws
+							slot11 = slot11[slot1]
+							slot11 = slot11.uniqueId
+
+							slot10(slot11)
+
+							slot10 = slot0.championTws
+							slot11 = nil
+							slot10[slot1] = slot11
+							slot10 = Color
+							slot10 = slot10.white
+							slot8.color = slot10
 						end
 					end
 				end
 			end
 		end
 
-		slot6 = slot3.tf
-		slot7 = slot6
-		slot6 = slot6.Find
-		slot8 = "shadow"
-		slot6 = slot6(slot7, slot8)
+		slot6 = slot3.tfShadow
 
 		if slot6 then
 			slot7 = Vector3
@@ -7654,63 +7672,69 @@ function slot4(slot0, slot1)
 	if slot3 then
 		slot5 = slot3
 		slot4 = slot3.IsWalkable
-		slot6 = ChapterConst
-		slot6 = slot6.SubjectPlayer
-		slot4 = slot4(slot5, slot6)
+		slot4 = slot4(slot5)
 
-		if slot4 and slot1 then
+		if slot4 then
 			slot5 = slot2
-			slot4 = slot2.GetSubmarineFleet
-			slot4, slot5 = slot4(slot5)
-			slot6 = slot4.startPos
-			slot6 = slot6.row
-			slot7 = slot1.row
+			slot4 = slot2.existBarrier
+			slot6 = slot1.row
+			slot7 = slot1.column
+			slot4 = slot4(slot5, slot6, slot7)
 
-			if slot6 == slot7 then
+			if not slot4 then
+				slot5 = slot2
+				slot4 = slot2.GetSubmarineFleet
+				slot4, slot5 = slot4(slot5)
 				slot6 = slot4.startPos
-				slot6 = slot6.column
-				slot7 = slot1.column
+				slot6 = slot6.row
+				slot7 = slot1.row
 
 				if slot6 == slot7 then
-					return
+					slot6 = slot4.startPos
+					slot6 = slot6.column
+					slot7 = slot1.column
+
+					if slot6 == slot7 then
+						return
+					end
 				end
-			end
 
-			slot7 = slot0
-			slot6 = slot0.ShowTargetHuntingRange
-			slot8 = slot1
+				slot7 = slot0
+				slot6 = slot0.ShowTargetHuntingRange
+				slot8 = slot1
 
-			slot6(slot7, slot8)
+				slot6(slot7, slot8)
 
-			slot7 = slot0
-			slot6 = slot0.UpdateDestinationMark
-			slot8 = slot1
+				slot7 = slot0
+				slot6 = slot0.UpdateDestinationMark
+				slot8 = slot1
 
-			slot6(slot7, slot8)
+				slot6(slot7, slot8)
 
-			slot7 = slot2
-			slot6 = slot2.findPath
-			slot8 = nil
-			slot9 = slot4.startPos
-			slot10 = slot1
-			slot6, slot7 = slot6(slot7, slot8, slot9, slot10)
-			slot9 = slot0
-			slot8 = slot0.hideQuadMark
-			slot10 = ChapterConst
-			slot10 = slot10.MarkMovePathArrow
-
-			slot8(slot9, slot10)
-
-			slot8 = 0
-
-			if slot6 > slot8 then
+				slot7 = slot2
+				slot6 = slot2.findPath
+				slot8 = nil
+				slot9 = slot4.startPos
+				slot10 = slot1
+				slot6, slot7 = slot6(slot7, slot8, slot9, slot10)
 				slot9 = slot0
-				slot8 = slot0.ShowPathInArrows
-				slot10 = slot7
+				slot8 = slot0.hideQuadMark
+				slot10 = ChapterConst
+				slot10 = slot10.MarkMovePathArrow
 
 				slot8(slot9, slot10)
 
-				slot0.subTeleportTargetLine = slot1
+				slot8 = 0
+
+				if slot6 > slot8 then
+					slot9 = slot0
+					slot8 = slot0.ShowPathInArrows
+					slot10 = slot7
+
+					slot8(slot9, slot10)
+
+					slot0.subTeleportTargetLine = slot1
+				end
 			end
 		end
 	end
@@ -8388,9 +8412,25 @@ function slot4(slot0, slot1, slot2, slot3, slot4)
 
 		slot11(slot12, slot13, slot14, slot15, slot16, slot17, slot18)
 	else
-		slot11 = slot10
+		slot11 = #slot2
+		slot11 = slot2[slot11]
+		slot12 = slot5.theme
+		slot13 = slot12
+		slot12 = slot12.GetLinePosition
+		slot14 = slot11.row
+		slot15 = slot11.column
+		slot12 = slot12(slot13, slot14, slot15)
+		slot14 = slot7
+		slot13 = slot7.setLine
+		slot15 = slot11
 
-		slot11()
+		slot13(slot14, slot15)
+
+		slot13 = slot7.tf
+		slot13.localPosition = slot12
+		slot13 = slot10
+
+		slot13()
 	end
 end
 
@@ -8732,6 +8772,53 @@ end
 slot0.teleportSubView = slot4
 
 function slot4(slot0, slot1, slot2, slot3)
+	slot4 = slot0.contextData
+	slot4 = slot4.chapterVO
+	slot6 = slot4
+	slot5 = slot4.getChampionIndex
+	slot7 = slot1.row
+	slot8 = slot1.column
+	slot5 = slot5(slot6, slot7, slot8)
+
+	if slot5 then
+		slot6 = 0
+
+		if slot5 <= slot6 then
+			if slot3 then
+				slot6 = slot3
+
+				slot6()
+			end
+
+			return
+		end
+	end
+
+	slot6 = slot0.cellChampions
+	slot6 = slot6[slot5]
+
+	if not slot6 then
+		if slot3 then
+			slot7 = slot3
+
+			slot7()
+		end
+
+		return
+	end
+
+	slot8 = slot0
+	slot7 = slot0.PlaySubAnimation
+	slot9 = slot6
+	slot10 = slot2
+	slot11 = slot3
+
+	slot7(slot8, slot9, slot10, slot11)
+end
+
+slot0.PlayChampionSubmarineAnimation = slot4
+
+function slot4(slot0, slot1, slot2, slot3)
 	slot5 = slot1
 	slot4 = slot1.getModel
 	slot4 = slot4(slot5)
@@ -8780,7 +8867,10 @@ function slot4(slot0, slot1, slot2, slot3)
 
 	LeanTween.value(slot4, (slot2 and 1) or 0, slot9, slot7):setEase(LeanTweenType.easeInOutSine):setOnUpdate(System.Action_float(function (slot0)
 		slot0.color = Color.Lerp(Color.New(1, 1, 1, 0), Color.New(1, 1, 1, 1), slot0)
-		slot0.tfAmmo.anchoredPosition = Vector2.Lerp(Vector2.Lerp, , slot0)
+
+		if slot0.tfAmmo then
+			slot1.tfAmmo.anchoredPosition = Vector2.Lerp(Vector2.Lerp, , slot0)
+		end
 
 		return
 	end)):setOnComplete(System.Action(function ()
@@ -10315,11 +10405,17 @@ function slot5(slot0, slot1, slot2)
 
 	slot10(slot11, slot12(slot13))
 
-	slot10 = setActive
+	slot10 = IsNil
 	slot11 = slot5
-	slot12 = true
+	slot10 = slot10(slot11)
 
-	slot10(slot11, slot12)
+	if not slot10 then
+		slot10 = setActive
+		slot11 = slot5
+		slot12 = true
+
+		slot10(slot11, slot12)
+	end
 
 	return slot4
 end

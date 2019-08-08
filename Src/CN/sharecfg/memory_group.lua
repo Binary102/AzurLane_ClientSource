@@ -1155,6 +1155,19 @@ pg.memory_group = {
 			883
 		}
 	},
+	[164] = {
+		title = "碧海的偶像",
+		type = 2,
+		id = 164,
+		icon = "title_event",
+		memories = {
+			884,
+			885,
+			886,
+			887,
+			888
+		}
+	},
 	[501] = {
 		title = "{namecode:98}的委托",
 		type = 3,
@@ -1883,6 +1896,7 @@ pg.memory_group = {
 		161,
 		162,
 		163,
+		164,
 		501,
 		502,
 		503,

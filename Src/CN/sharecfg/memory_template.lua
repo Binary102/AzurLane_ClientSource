@@ -9504,6 +9504,61 @@ pg.memory_template = {
 		icon = "memory_xiangtingliaofa",
 		is_open = 0
 	},
+	[884] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "新的传说？",
+		condition = "开始活动「碧海的偶像」",
+		story = "SALATUOJIAHAIBAO1",
+		id = 884,
+		icon = "memory_salatuojiahaibao",
+		is_open = 0
+	},
+	[885] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "追寻之旅",
+		condition = "累积PT达到1000点",
+		story = "SALATUOJIAHAIBAO2",
+		id = 885,
+		icon = "memory_salatuojiahaibao",
+		is_open = 0
+	},
+	[886] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "小小的插曲",
+		condition = "累积PT达到2000点",
+		story = "SALATUOJIAHAIBAO3",
+		id = 886,
+		icon = "memory_salatuojiahaibao",
+		is_open = 0
+	},
+	[887] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "旅途的终点",
+		condition = "累积PT达到3000点",
+		story = "SALATUOJIAHAIBAO4",
+		id = 887,
+		icon = "memory_salatuojiahaibao",
+		is_open = 0
+	},
+	[888] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "欢聚一刻",
+		condition = "累积PT达到4000点",
+		story = "SALATUOJIAHAIBAO5",
+		id = 888,
+		icon = "memory_salatuojiahaibao",
+		is_open = 0
+	},
 	[10011] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -10996,6 +11051,11 @@ pg.memory_template = {
 		881,
 		882,
 		883,
+		884,
+		885,
+		886,
+		887,
+		888,
 		10011,
 		10012,
 		10013,

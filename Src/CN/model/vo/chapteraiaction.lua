@@ -76,24 +76,59 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 	end
 
 	slot5 = slot1:getChampion(slot0.line.row, slot0.line.column)
+	slot6 = slot1:getChampionIndex(slot0.line.row, slot0.line.column)
+	slot7 = slot0.movePath[#slot0.movePath] or slot0.line
 
-	if slot1:getChampionIndex(slot0.line.row, slot0.line.column) then
-		if #slot0.movePath > 0 then
-			slot2.viewComponent.grid:moveChampion(slot6, slot0.movePath, Clone(slot0.movePath), function ()
-				if #slot0.shipUpdate > 0 then
-					slot1.viewComponent:doPlayEnemyAnim(slot2, "SubSairenTorpedoUI", )
+	if slot6 then
+		seriesAsync({
+			function (slot0)
+				if #slot0.movePath > 0 then
+					slot1.viewComponent.grid:moveChampion(slot1.viewComponent.grid, slot0.movePath, Clone(slot0.movePath), slot0)
 				else
-					slot3()
+					slot0()
 				end
-			end)
-		elseif #slot0.shipUpdate > 0 then
-			slot2.viewComponent:doPlayEnemyAnim(slot5, "SubSairenTorpedoUI", slot3)
-		else
-			slot3()
-		end
+			end,
+			function (slot0)
+				if #slot0.shipUpdate > 0 then
+					slot1.viewComponent:doPlayEnemyAnim(slot1.viewComponent, "SubSairenTorpedoUI", slot0)
+				else
+					slot0()
+				end
+			end,
+			function (slot0)
+				slot1 = false
+
+				if slot0.actionType == 2 and #slot0.cellUpdates > 0 then
+					_.each(slot0.cellUpdates, function (slot0)
+						if slot0.row == slot0.row and slot0.column == slot0.column and isa(slot0, ChapterChampionPackage) then
+							slot1:TryPlayChampionSubAnim(slot1, slot0, slot3, )
+
+							slot5 = true
+						end
+					end)
+				end
+
+				if not slot1 then
+					slot0()
+				end
+			end,
+			function (slot0)
+				slot0()
+			end
+		})
 
 		return
 	end
+end
+
+function slot0.TryPlayChampionSubAnim(slot0, slot1, slot2, slot3, slot4)
+	if (slot2.flag == 5 or slot3.flag == 5) and (slot2.flag == 0 or slot3.flag == 0) then
+		slot1.viewComponent.grid:PlayChampionSubmarineAnimation(slot3, slot2.flag == 5, slot4)
+
+		return
+	end
+
+	slot4()
 end
 
 function slot0.applyTo(slot0, slot1, slot2)
@@ -180,9 +215,7 @@ function slot0.applyToChampion(slot0, slot1, slot2, slot3)
 		if #slot0.cellUpdates > 0 then
 			_.each(slot0.cellUpdates, function (slot0)
 				if isa(slot0, ChapterChampionPackage) then
-					slot0:mergeChampion(slot0)
-
-					slot1 = bit.bor(bit.bor, ChapterConst.DirtyChampion)
+					slot1 = bit.bor(slot1, (slot0:mergeChampion(slot0) and ChapterConst.DirtyChampionPosition) or ChapterConst.DirtyChampion)
 				else
 					slot0:mergeChapterCell(slot0)
 

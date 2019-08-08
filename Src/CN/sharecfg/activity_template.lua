@@ -1622,7 +1622,7 @@ pg.activity_template = {
 				{
 					2019,
 					8,
-					21
+					28
 				},
 				{
 					23,
@@ -1712,6 +1712,316 @@ pg.activity_template = {
 					23,
 					59,
 					59
+				}
+			}
+		}
+	},
+	[350] = {
+		mark = 20190807,
+		title_res_tag = "qixihaibao_pt",
+		type = 54,
+		config_id = 350,
+		is_show = 3,
+		id = 350,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					8,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_qixihaibao_pt"
+		},
+		config_client = {
+			story = {
+				{
+					"SALATUOJIAHAIBAO1"
+				},
+				{},
+				{},
+				{},
+				{
+					"SALATUOJIAHAIBAO2"
+				},
+				{},
+				{
+					"SALATUOJIAHAIBAO3"
+				},
+				{},
+				{
+					"SALATUOJIAHAIBAO4"
+				},
+				{},
+				{
+					"SALATUOJIAHAIBAO5"
+				}
+			}
+		}
+	},
+	[351] = {
+		mark = 20190807,
+		title_res_tag = "",
+		type = 13,
+		bg = "",
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 351,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					8,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[352] = {
+		mark = 20190807,
+		title_res_tag = "",
+		type = 13,
+		bg = "",
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 352,
+		config_data = {
+			14671
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					8,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[353] = {
+		mark = 20190807,
+		title_res_tag = "",
+		type = 24,
+		bg = "",
+		config_id = 354,
+		is_show = 0,
+		config_client = "",
+		id = 353,
+		config_data = {
+			7
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					8,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			},
+			1,
+			1,
+			{
+				times,
+				8
+			}
+		}
+	},
+	[354] = {
+		mark = 20190807,
+		title_res_tag = "",
+		type = 37,
+		bg = "",
+		config_id = 2,
+		is_show = 0,
+		config_client = "",
+		id = 354,
+		config_data = {
+			352
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					8,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[355] = {
+		mark = 20190807,
+		title_res_tag = "xixuegui",
+		type = 18,
+		config_id = 3,
+		is_show = 1,
+		id = 355,
+		config_data = {
+			{
+				14840
+			},
+			{
+				14841
+			},
+			{
+				14842
+			},
+			{
+				14843
+			},
+			{
+				14844
+			},
+			{
+				14845
+			},
+			{
+				14846
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					8,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/skin_xixuegui"
+		},
+		config_client = {
+			story = {
+				{
+					"XIXUEGUI1"
+				},
+				{
+					"XIXUEGUI2"
+				},
+				{
+					"XIXUEGUI3"
+				},
+				{},
+				{
+					"XIXUEGUI4"
+				},
+				{},
+				{
+					"XIXUEGUI5"
 				}
 			}
 		}
@@ -2384,6 +2694,12 @@ pg.activity_template = {
 		347,
 		348,
 		349,
+		350,
+		351,
+		352,
+		353,
+		354,
+		355,
 		2001,
 		2002,
 		2003,

@@ -29,7 +29,15 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 201,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>献给所有勇于挑战极限的指挥官们</color>\n通过参与「限界挑战」获取",
+		desc = "<color=#ffffff>献给所有勇于挑战极限的指挥官们</color>\n通过参与「限界挑战」获取 （19.06.06-19.07.28）",
+		scene = {}
+	},
+	[202] = {
+		name = "限界的挑战者II",
+		time_second = 0,
+		id = 202,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>献给所有勇于挑战极限的指挥官们</color>\n通过参与「限界挑战」获取 （19.08.07-19.09.29）",
 		scene = {}
 	},
 	[300] = {
@@ -69,6 +77,7 @@ pg.item_data_frame = {
 		101,
 		102,
 		201,
+		202,
 		300,
 		301,
 		302,

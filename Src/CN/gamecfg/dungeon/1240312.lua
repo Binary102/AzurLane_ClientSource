@@ -71,11 +71,39 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							monsterTemplateID = 12300201,
+							monsterTemplateID = 12300203,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
 								0,
+								0,
+								60
+							},
+							buffList = {
+								8001,
+								8007
+							}
+						},
+						{
+							monsterTemplateID = 12300203,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								0,
+								0,
+								50
+							},
+							buffList = {
+								8001,
+								8007
+							}
+						},
+						{
+							monsterTemplateID = 12300201,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								10,
 								0,
 								75
 							},
@@ -89,35 +117,7 @@ return {
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
-								0,
-								0,
-								35
-							},
-							buffList = {
-								8001,
-								8007
-							}
-						},
-						{
-							monsterTemplateID = 12300203,
-							delay = 0,
-							moveCast = true,
-							corrdinate = {
-								13,
-								0,
-								75
-							},
-							buffList = {
-								8001,
-								8007
-							}
-						},
-						{
-							monsterTemplateID = 12300203,
-							delay = 0,
-							moveCast = true,
-							corrdinate = {
-								13,
+								10,
 								0,
 								35
 							},

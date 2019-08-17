@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"前辈与心结\n\n<size=45>一　严格的秘书舰</size>",
+					"Enterprise Troubles\n\n<size=45>Chapter 1: The Strict Secretary</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "Port - Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "因为处理事务太晚睡，导致早上起得晚了些",
+			say = "I stayed up way too late last night finishing up the paperwork, and ended up oversleeping.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,14 +59,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "到达指挥室的时候，秘书舰已经在处理工作了",
+			say = "By the time I rushed over to the office, Essex had already begun working.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "打招呼",
+					content = "\"H-Hey, Essex...\"",
 					flag = 1
 				}
 			}
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "…啊，指挥官？早上好",
+			say = "Oh, Commander. Good morning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天你迟到了一会呢，发生什么事情了吗？",
+			say = "You're rather late today. Did something come up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			withoutActorName = true,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "……………………",
+			say = "Explain the situation to her",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "昨晚工作到太晚…了吗？",
+			say = "Hmm... so you were burning the candle at both ends...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，作为港区和舰队的领导者，调节好自己的工作计划，保证正常的作息也是很重要的",
+			say = "Commander, as the leader of the fleet and the port, it would be best if you took care of yourself, not just your work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "帮助指挥官安排工作时间也是秘书舰的重要职责…",
+			say = "In that regard, helping you manage your schedule is also one of my duties as secretary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请放心，今天开始埃塞克斯会每天监督您按时作息的！",
+			say = "You have nothing to worry about. From now on, I will monitor your daily routine from dawn 'till dusk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就尽快开始今天的工作吧！",
+			say = "With that said, you should immediately attend to today's work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些是需要指挥官确认的文件，我已经大致为你分类好了——",
+			say = "These are the documents that require your review. I've already sorted the majority of them for your convenience.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后这是今天的行程列表，演习指导、委托内容确认、日常巡逻、科研项目…",
+			say = "Next, please pay attention to today's itinerary: conduct training exercises, take inventory on commission rewards, plan out the daily patrols, apply for new research and development projects, and then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等着指挥官处理的事情还有很多，请打起精神来一项项完成吧！",
+			say = "There's a lot of stuff on the list, but just try to get through things one at a time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "有种往后的日子会不太好过的预感…",
+			say = "Looks like my daily routine from now on will be quite... strict.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

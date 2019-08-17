@@ -19,20 +19,8 @@ PLATFORM_CH = 1
 PLATFORM_JP = 2
 PLATFORM_KR = 3
 PLATFORM_US = 4
+PLATFORM_CHT = 5
 PLATFORM_CODE = PLATFORM_US
-
-if PLATFORM_CODE == PLATFORM_US then
-	require("Support/Helpers/AiriSdkSupport")
-	require("Support/Helpers/AiriTrackSupport")
-end
-
-function luaIdeDebugFunc()
-	breakInfoFun = require("LuaDebugjit")("localhost", 7003)
-	time = Timer.New(breakInfoFun, 0.5, -1, 1)
-
-	time:Start()
-end
-
 SDK_EXIT_CODE = 99
 
 function luaIdeDebugFunc()
@@ -43,37 +31,15 @@ function luaIdeDebugFunc()
 	print("luaIdeDebugFunc")
 end
 
-BilibiliSdkMgr.sandboxKey = "BLHXSESAUH180704"
-
-if PLATFORM == 8 then
-	BilibiliSdkMgr.inst:init()
-end
-
-function isPlatform()
-	return BilibiliSdkMgr.inst.isPlatform
-end
-
-function isTencent()
-	return BilibiliSdkMgr.inst.isTenc
-end
-
-function isAiriJP()
-	return BilibiliSdkMgr.inst.isAiriJP
-end
-
-function isAiriUS()
-	return BilibiliSdkMgr.inst.isAiriUS
-end
-
-function GetBiliServerId()
-	return BilibiliSdkMgr.serverId
+if (PLATFORM_CODE == PLATFORM_CH or PLATFORM_CODE == PLATFORM_CHT) and PLATFORM == 8 then
+	pg.SdkMgr.GetInstance():InitSDK()
 end
 
 pg.TimeMgr.GetInstance():Init()
 pg.PushNotificationMgr.GetInstance():Init()
 
 function OnApplicationPause(slot0)
-	print("OnApplicationPause: " .. tostring(slot0))
+	print("111OnApplicationPause: " .. tostring(slot0))
 
 	if not pg.m02 then
 		return
@@ -83,10 +49,10 @@ function OnApplicationPause(slot0)
 		pg.m02:sendNotification(GAME.PAUSE_BATTLE)
 		pg.PushNotificationMgr.GetInstance():PushAll()
 	else
-		BilibiliSdkMgr.inst:callSdkApi("bindCpu", nil)
+		pg.SdkMgr.GetInstance():BindCPU()
 	end
 
-	OnAppPauseForSDK(slot0)
+	pg.SdkMgr.GetInstance():OnAppPauseForSDK(slot0)
 end
 
 function OnApplicationExit()
@@ -94,7 +60,7 @@ function OnApplicationExit()
 		return
 	end
 
-	if ys.Battle.BattleState:GetInstance() and slot0:GetState() == slot0.BATTLE_STATE_FIGHT and not slot0:IsPause() then
+	if ys.Battle.BattleState.GetInstance() and slot0:GetState() == slot0.BATTLE_STATE_FIGHT and not slot0:IsPause() then
 		pg.m02:sendNotification(GAME.PAUSE_BATTLE)
 
 		return
@@ -161,10 +127,6 @@ function OnApplicationExit()
 		return
 	end
 
-	if pg.goldExchangeMgr then
-		pg.goldExchangeMgr:willExit()
-	end
-
 	slot11:onBackPressed()
 end
 
@@ -183,102 +145,6 @@ function PressBack()
 	end
 end
 
-function GoLogin(slot0)
-	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LOGIN, {
-		loginPlatform = slot0
-	})
-	gcAll()
-end
-
-function SDKLogin(slot0, slot1, slot2)
-	pg.m02:sendNotification(GAME.PLATFORM_LOGIN_DONE, {
-		user = User.New({
-			type = 1,
-			arg1 = PLATFORM_BILIBILI,
-			arg2 = slot0,
-			arg3 = slot1,
-			arg4 = slot2
-		})
-	})
-end
-
-function SDKLogout(slot0)
-	if pg.m02 then
-		pg.m02:sendNotification(GAME.LOGOUT, {
-			code = slot0
-		})
-	end
-end
-
-function PaySuccess(slot0, slot1)
-	getProxy(ShopsProxy):removeWaitTimer()
-	pg.m02:sendNotification(GAME.CHARGE_CONFIRM, {
-		payId = slot0,
-		bsId = slot1
-	})
-end
-
-function ShowMsgBox(slot0)
-	if pg.m02 then
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			hideNo = true,
-			content = slot0
-		})
-	end
-end
-
-function PayFailed(slot0, slot1)
-	getProxy(ShopsProxy):removeWaitTimer()
-
-	if not tonumber(slot1) then
-		return
-	end
-
-	pg.m02:sendNotification(GAME.CHARGE_FAILED, {
-		payId = slot0,
-		code = slot1
-	})
-
-	if slot1 == -5 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n1("订单签名异常" .. slot1))
-	elseif slot1 > 0 then
-		if slot1 > 1000 and slot1 < 2000 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n1("数据格式验证错误" .. slot1))
-		elseif slot1 >= 2000 and slot1 < 3000 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n1("服务器返回异常" .. slot1))
-		elseif slot1 >= 3000 and slot1 < 4000 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n1("未登录或者会话已超时" .. slot1))
-		elseif slot1 == 4000 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n1("系统错误" .. slot1))
-		elseif slot1 == 6001 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n1("用户中途取消" .. slot1))
-		elseif slot1 == 7005 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n1("支付失败" .. slot1))
-		elseif slot1 == 7004 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n1("支付失败" .. slot1))
-		end
-	elseif slot1 == -201 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n1("生成订单失败" .. slot1))
-	elseif slot1 == -202 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n1("支付取消" .. slot1))
-	elseif slot1 == -203 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n1("支付失败" .. slot1))
-	end
-end
-
-function AiriCheckAudit()
-	return NetConst.GATEWAY_PORT == 20001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
-end
-
-function AiriCheckPreAudit()
-	return NetConst.GATEWAY_PORT == 30001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
-end
-
-function AiriCheckPretest()
-	return false
-end
-
-pg.goldExchangeMgr = nil
 slot2 = os.clock()
 
 seriesAsync({
@@ -313,6 +179,9 @@ seriesAsync({
 				pg.SystemOpenMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
+				pg.SystemGuideMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
 				pg.GuideMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
@@ -327,6 +196,7 @@ seriesAsync({
 		}, slot0)
 	end
 }, function (slot0)
+	pg.SdkMgr.GetInstance():QueryWithProduct()
 	print("loading cost: " .. os.clock() - slot0)
 	CameraUtil.SetOnlyAdaptMainCam(true)
 	VersionMgr.Inst:DestroyUI()
@@ -347,13 +217,13 @@ seriesAsync({
 		return
 	end
 
-	BilibiliSdkMgr.inst:callSdkApi("bindCpu", nil)
+	pg.SdkMgr.GetInstance():BindCPU()
 
 	pg.m02 = pm.Facade.getInstance("m02")
 
 	pg.m02:registerCommand(GAME.STARTUP, StartupCommand)
 	pg.m02:sendNotification(GAME.STARTUP)
-	BilibiliSdkMgr.inst:localLogin()
+	pg.SdkMgr.GetInstance():GoSDkLoginScene()
 
 	if Application.isEditor then
 		pg.UIMgr.GetInstance():AddDebugButton("QATool", function ()

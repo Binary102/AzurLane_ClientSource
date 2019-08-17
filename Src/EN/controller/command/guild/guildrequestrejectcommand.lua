@@ -7,9 +7,9 @@ class("GuildRequestRejectCommand", pm.SimpleCommand).execute = function (slot0, 
 
 			slot1:deleteRequest(slot0)
 			slot1:sendNotification(GAME.GUIDL_REQUEST_REJECT_DONE)
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_rejecet_apply_sucess"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_rejecet_apply_sucess"))
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("guild_reject_erro", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("guild_reject_erro", slot0.result))
 		end
 	end)
 end

@@ -36,7 +36,7 @@ class("WorldItemUseCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				item = slot0
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n1("大世界物品使用失败：" .. slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(i18n1("大世界物品使用失败：" .. slot0.result))
 		end
 	end)
 end

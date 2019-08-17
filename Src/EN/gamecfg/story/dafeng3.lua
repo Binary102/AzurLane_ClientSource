@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"“献身”的{namecode:97}\n\n<size=45>三 天敌(?)登场</size>",
+					"Taihou, Body and Soul\n\n<size=45>Chapter 3: Taihou's Nemesis(?)</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "Port - Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天也是{namecode:97}担任秘书舰~指挥官只要专心做您的事情就——",
+			say = "I'm here to serve as your eternally devoted secretary once again, my Commander. You need only focus on–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			say = "呜哇哈！",
+			say = "Surpriiiiiiise!",
 			dir = 1,
 			bgName = "bg_story_task",
 			actor = 108020,
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "呀啊啊啊啊啊啊啊！大、大大大、大青花鱼！",
+			say = "Aaaaaieeeeeee! A-A-A-Albacore?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "哇哈哈哈哈，有没有吓一跳呀！",
+			say = "Ahahahahahaa! I got'cha good, didn't I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "比起大青花鱼，{namecode:97}被吓着的样子反倒让自己吓了一跳",
+			say = "I was a lot more afraid of Taihou's reaction than I was of Albacore's surprise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "又、又是你！！！",
+			say = "What are you doing here?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			}
 		},
 		{
-			say = "啊哈哈，呀吼，{namecode:97}也在呀。今天心情如何呀？",
+			say = "Ahaha! I just came by to see you, Taihou. How you doing?",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "多亏了你，{namecode:97}现在精神得很！",
+			say = "Thanks to you, I'm a little on edge right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "对了的了，我找到了新的游戏，你今天有没有时间呀，一起来试试新游戏嘛",
+			say = "Yeah, right, so anyway, I came across this new game. If you've got time today, how about we try it out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "{namecode:97}作为指挥官大人的秘书舰，有义务随时陪伴在指挥官大人身边。才没有时间陪你玩游戏呢——",
+			say = "I have very important secretary ship duties today, duties that involve staying forever by my Commander's side. I don't have time to play with you–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "欸~~那带上指挥官一起玩也好嘛~来嘛来嘛~",
+			say = "Uhh... Duh~ Just bring the Commander along with us! C'mon, c'mon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			blackBg = true,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "（这家伙莫非是装嫩来让指挥官心软来…！）",
+			say = "(This little urchin acts all sweet and innocent to manipulate my Commander...!) ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "……啊啊啊！知道了啦，{namecode:97}会考虑的",
+			say = "Fine! I'll think about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "嘿嘿，太好了。那我晚点再来找你们~指挥官、{namecode:97}，拜拜~",
+			say = "Hehee. Yay! Then I'll come back to get you later. Bye bye, Taihou, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…两人的关系意外的不错",
+			say = "... They were getting along better than I expected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "关系好？和那孩子？倒、倒也不算坏……？",
+			say = "Getting along? With that child? I hope not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "每次都是那孩子自顾自地跑来，把人家拉扯来拉扯去的……",
+			say = "Every time she comes around I get dragged off to something...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "而且还要把指挥官卷进来……搞不清楚那孩子到底在想些什么！",
+			say = "And this time she's roped you into it... I can't imagine what she's planning!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "难得看到{namecode:97}失措的样子，看来这就是所谓的——天敌？",
+			say = "It was unusual to see Taihou so ruffled. Could it be that Albacore was her \"nemesis?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

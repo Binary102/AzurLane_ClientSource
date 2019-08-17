@@ -11036,7 +11036,7 @@ pg.ship_data_template = {
 		star_max = 6,
 		strengthen_id = 10316,
 		equip_id_2 = 0,
-		equip_id_1 = 13000,
+		equip_id_1 = 13100,
 		group_type = 10316,
 		id = 103161,
 		equip_1 = {
@@ -15524,6 +15524,200 @@ pg.ship_data_template = {
 			57
 		}
 	},
+	[107091] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 18100,
+		oil_at_end = 7,
+		type = 7,
+		energy = 150,
+		name = "埃塞克斯",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 6,
+		strengthen_id = 10709,
+		equip_id_2 = 19100,
+		equip_id_1 = 17300,
+		group_type = 10709,
+		id = 107091,
+		equip_1 = {
+			7
+		},
+		equip_2 = {
+			9
+		},
+		equip_3 = {
+			8
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {
+			23
+		},
+		buff_list = {
+			11640,
+			11650,
+			11660
+		},
+		buff_list_display = {
+			11640,
+			11650,
+			11660
+		},
+		hide_buff_list = {
+			57
+		}
+	},
+	[107092] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 9,
+		type = 7,
+		energy = 150,
+		name = "埃塞克斯",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 6,
+		strengthen_id = 10709,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10709,
+		id = 107092,
+		equip_1 = {
+			7
+		},
+		equip_2 = {
+			9
+		},
+		equip_3 = {
+			8
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {
+			24
+		},
+		buff_list = {
+			11640,
+			11650,
+			11660
+		},
+		buff_list_display = {
+			11640,
+			11650,
+			11660
+		},
+		hide_buff_list = {
+			57
+		}
+	},
+	[107093] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 11,
+		type = 7,
+		energy = 150,
+		name = "埃塞克斯",
+		can_get_proficency = 0,
+		star = 5,
+		star_max = 6,
+		strengthen_id = 10709,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10709,
+		id = 107093,
+		equip_1 = {
+			7
+		},
+		equip_2 = {
+			9
+		},
+		equip_3 = {
+			8
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {
+			24,
+			24
+		},
+		buff_list = {
+			11640,
+			11650,
+			11660
+		},
+		buff_list_display = {
+			11640,
+			11650,
+			11660
+		},
+		hide_buff_list = {
+			57
+		}
+	},
+	[107094] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 13,
+		type = 7,
+		energy = 150,
+		name = "埃塞克斯",
+		can_get_proficency = 1,
+		star = 6,
+		star_max = 6,
+		strengthen_id = 10709,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10709,
+		id = 107094,
+		equip_1 = {
+			7
+		},
+		equip_2 = {
+			9
+		},
+		equip_3 = {
+			8
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {
+			25,
+			25
+		},
+		buff_list = {
+			11640,
+			11650,
+			11660
+		},
+		buff_list_display = {
+			11640,
+			11650,
+			11660
+		},
+		hide_buff_list = {
+			57
+		}
+	},
 	[107291] = {
 		oil_at_start = 1,
 		max_level = 70,
@@ -15890,6 +16084,181 @@ pg.ship_data_template = {
 			3581,
 			3511,
 			20312
+		},
+		hide_buff_list = {}
+	},
+	[108021] = {
+		oil_at_start = 0,
+		max_level = 70,
+		equip_id_3 = 0,
+		oil_at_end = 5,
+		type = 8,
+		energy = 150,
+		name = "大青花鱼",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 6,
+		strengthen_id = 10802,
+		equip_id_2 = 15000,
+		equip_id_1 = 15000,
+		group_type = 10802,
+		id = 108021,
+		equip_1 = {
+			13
+		},
+		equip_2 = {
+			13
+		},
+		equip_3 = {
+			1
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			11670,
+			11680
+		},
+		buff_list_display = {
+			11670,
+			11680,
+			29341
+		},
+		hide_buff_list = {}
+	},
+	[108022] = {
+		oil_at_start = 0,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 6,
+		type = 8,
+		energy = 150,
+		name = "大青花鱼",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 6,
+		strengthen_id = 10802,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10802,
+		id = 108022,
+		equip_1 = {
+			13
+		},
+		equip_2 = {
+			13
+		},
+		equip_3 = {
+			1
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			11670,
+			11680,
+			29341
+		},
+		buff_list_display = {
+			11670,
+			11680,
+			29341
+		},
+		hide_buff_list = {}
+	},
+	[108023] = {
+		oil_at_start = 0,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 7,
+		type = 8,
+		energy = 150,
+		name = "大青花鱼",
+		can_get_proficency = 0,
+		star = 5,
+		star_max = 6,
+		strengthen_id = 10802,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10802,
+		id = 108023,
+		equip_1 = {
+			13
+		},
+		equip_2 = {
+			13
+		},
+		equip_3 = {
+			1
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			11670,
+			11680,
+			29341
+		},
+		buff_list_display = {
+			11670,
+			11680,
+			29341
+		},
+		hide_buff_list = {}
+	},
+	[108024] = {
+		oil_at_start = 0,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 8,
+		type = 8,
+		energy = 150,
+		name = "大青花鱼",
+		can_get_proficency = 1,
+		star = 6,
+		star_max = 6,
+		strengthen_id = 10802,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10802,
+		id = 108024,
+		equip_1 = {
+			13
+		},
+		equip_2 = {
+			13
+		},
+		equip_3 = {
+			1
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			11670,
+			11680,
+			29342
+		},
+		buff_list_display = {
+			11670,
+			11680,
+			29342
 		},
 		hide_buff_list = {}
 	},
@@ -35033,6 +35402,197 @@ pg.ship_data_template = {
 			51
 		}
 	},
+	[302011] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 0,
+		oil_at_end = 2,
+		type = 2,
+		energy = 150,
+		name = "Yuubari",
+		can_get_proficency = 0,
+		star = 2,
+		star_max = 5,
+		strengthen_id = 30201,
+		equip_id_2 = 35000,
+		equip_id_1 = 32000,
+		group_type = 30201,
+		id = 302011,
+		equip_1 = {
+			2
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			10590,
+			2011
+		},
+		buff_list_display = {
+			10590,
+			2011,
+			22161
+		},
+		hide_buff_list = {
+			52
+		}
+	},
+	[302012] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 4,
+		type = 2,
+		energy = 150,
+		name = "Yuubari",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 5,
+		strengthen_id = 30201,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 30201,
+		id = 302012,
+		equip_1 = {
+			2
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			10590,
+			2011,
+			22161
+		},
+		buff_list_display = {
+			10590,
+			2011,
+			22161
+		},
+		hide_buff_list = {
+			52
+		}
+	},
+	[302013] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 6,
+		type = 2,
+		energy = 150,
+		name = "Yuubari",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 5,
+		strengthen_id = 30201,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 30201,
+		id = 302013,
+		equip_1 = {
+			2
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			10590,
+			2011,
+			22161
+		},
+		buff_list_display = {
+			10590,
+			2011,
+			22161
+		},
+		hide_buff_list = {
+			52
+		}
+	},
+	[302014] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 8,
+		type = 2,
+		energy = 150,
+		name = "Yuubari",
+		can_get_proficency = 1,
+		star = 5,
+		star_max = 5,
+		strengthen_id = 30201,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 30201,
+		id = 302014,
+		equip_1 = {
+			2
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			10590,
+			2011,
+			22162
+		},
+		buff_list_display = {
+			10590,
+			2011,
+			22162
+		},
+		hide_buff_list = {
+			52
+		}
+	},
 	[302041] = {
 		oil_at_start = 1,
 		max_level = 70,
@@ -42951,6 +43511,192 @@ pg.ship_data_template = {
 		buff_list_display = {
 			10800,
 			10820
+		},
+		hide_buff_list = {
+			57
+		}
+	},
+	[307071] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 38100,
+		oil_at_end = 7,
+		type = 7,
+		energy = 150,
+		name = "大凤",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 6,
+		strengthen_id = 30707,
+		equip_id_2 = 39100,
+		equip_id_1 = 37200,
+		group_type = 30707,
+		id = 307071,
+		equip_1 = {
+			7
+		},
+		equip_2 = {
+			9
+		},
+		equip_3 = {
+			8
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {
+			23
+		},
+		buff_list = {
+			11620,
+			11630
+		},
+		buff_list_display = {
+			11620,
+			11630
+		},
+		hide_buff_list = {
+			57
+		}
+	},
+	[307072] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 9,
+		type = 7,
+		energy = 150,
+		name = "大凤",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 6,
+		strengthen_id = 30707,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 30707,
+		id = 307072,
+		equip_1 = {
+			7
+		},
+		equip_2 = {
+			9
+		},
+		equip_3 = {
+			8
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {
+			24
+		},
+		buff_list = {
+			11620,
+			11630
+		},
+		buff_list_display = {
+			11620,
+			11630
+		},
+		hide_buff_list = {
+			57
+		}
+	},
+	[307073] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 11,
+		type = 7,
+		energy = 150,
+		name = "大凤",
+		can_get_proficency = 0,
+		star = 5,
+		star_max = 6,
+		strengthen_id = 30707,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 30707,
+		id = 307073,
+		equip_1 = {
+			7
+		},
+		equip_2 = {
+			9
+		},
+		equip_3 = {
+			8
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {
+			24,
+			24
+		},
+		buff_list = {
+			11620,
+			11630
+		},
+		buff_list_display = {
+			11620,
+			11630
+		},
+		hide_buff_list = {
+			57
+		}
+	},
+	[307074] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 13,
+		type = 7,
+		energy = 150,
+		name = "大凤",
+		can_get_proficency = 1,
+		star = 6,
+		star_max = 6,
+		strengthen_id = 30707,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 30707,
+		id = 307074,
+		equip_1 = {
+			7
+		},
+		equip_2 = {
+			9
+		},
+		equip_3 = {
+			8
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {
+			25,
+			25
+		},
+		buff_list = {
+			11620,
+			11630
+		},
+		buff_list_display = {
+			11620,
+			11630
 		},
 		hide_buff_list = {
 			57
@@ -51789,6 +52535,197 @@ pg.ship_data_template = {
 			51
 		}
 	},
+	[801031] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 0,
+		oil_at_end = 3,
+		type = 1,
+		energy = 150,
+		name = "鲁莽",
+		can_get_proficency = 0,
+		star = 2,
+		star_max = 5,
+		strengthen_id = 80103,
+		equip_id_2 = 5300,
+		equip_id_1 = 90500,
+		group_type = 80103,
+		id = 801031,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			11700,
+			4141
+		},
+		buff_list_display = {
+			11700,
+			4141,
+			28021
+		},
+		hide_buff_list = {
+			51
+		}
+	},
+	[801032] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 5,
+		type = 1,
+		energy = 150,
+		name = "鲁莽",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 5,
+		strengthen_id = 80103,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 80103,
+		id = 801032,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			11700,
+			4141,
+			28021
+		},
+		buff_list_display = {
+			11700,
+			4141,
+			28021
+		},
+		hide_buff_list = {
+			51
+		}
+	},
+	[801033] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 7,
+		type = 1,
+		energy = 150,
+		name = "鲁莽",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 5,
+		strengthen_id = 80103,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 80103,
+		id = 801033,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			11700,
+			4141,
+			28021
+		},
+		buff_list_display = {
+			11700,
+			4141,
+			28021
+		},
+		hide_buff_list = {
+			51
+		}
+	},
+	[801034] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 9,
+		type = 1,
+		energy = 150,
+		name = "鲁莽",
+		can_get_proficency = 1,
+		star = 5,
+		star_max = 5,
+		strengthen_id = 80103,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 80103,
+		id = 801034,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			11700,
+			4141,
+			28022
+		},
+		buff_list_display = {
+			11700,
+			4141,
+			28022
+		},
+		hide_buff_list = {
+			51
+		}
+	},
 	[802011] = {
 		oil_at_start = 1,
 		max_level = 70,
@@ -57340,6 +58277,10 @@ pg.ship_data_template = {
 		107082,
 		107083,
 		107084,
+		107091,
+		107092,
+		107093,
+		107094,
 		107291,
 		107292,
 		107293,
@@ -57348,6 +58289,10 @@ pg.ship_data_template = {
 		108012,
 		108013,
 		108014,
+		108021,
+		108022,
+		108023,
+		108024,
 		108031,
 		108032,
 		108033,
@@ -57765,6 +58710,10 @@ pg.ship_data_template = {
 		301802,
 		301803,
 		301804,
+		302011,
+		302012,
+		302013,
+		302014,
 		302041,
 		302042,
 		302043,
@@ -57938,6 +58887,10 @@ pg.ship_data_template = {
 		307062,
 		307063,
 		307064,
+		307071,
+		307072,
+		307073,
+		307074,
 		307091,
 		307092,
 		307093,
@@ -58131,6 +59084,10 @@ pg.ship_data_template = {
 		801022,
 		801023,
 		801024,
+		801031,
+		801032,
+		801033,
+		801034,
 		802011,
 		802012,
 		802013,

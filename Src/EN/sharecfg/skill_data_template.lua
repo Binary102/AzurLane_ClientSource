@@ -12643,7 +12643,7 @@ pg.skill_data_template = {
 	[10890] = {
 		desc_get = "Decreases the DMG this ship takes by 20.0%. While this ship is afloat: increases all your DDs' and CLs' Torpedo Crit Rate by 4.0% (10.0% when fully upgraded). Also increases their Torpedo Crit DMG by 30.0% when fully upgraded.",
 		name = "The Unyielding Jintsuu",
-		desc = "Decreases the DMG this ship takes by 20.0%. While this ship is afloat: increases all your DDs' and CLs' Torpedo Crit Rate by $1. $2",
+		desc = "Decreases the DMG this ship takes by 20.0%. While this ship is afloat: increases all your DDs' and CLs' Torpedo Crit Rate by $1 $2",
 		type = 3,
 		max_level = 10,
 		id = 10890,
@@ -12705,26 +12705,26 @@ pg.skill_data_template = {
 					""
 				},
 				{
-					"Also increases their Torpedo Crit DMG by 5.0%"
+					"Also increases their Torpedo Crit DMG by 5.0%."
 				},
 				{
 					"Also increases their Torpedo Crit DMG by 5.0%",
-					"+5.0%"
+					"+5.0%."
 				},
 				{
 					"Also increases their Torpedo Crit DMG by 10.0%",
-					"+5.0%"
+					"+5.0%."
 				},
 				{
 					"Also increases their Torpedo Crit DMG by 15.0%",
-					"+5.0%"
+					"+5.0%."
 				},
 				{
 					"Also increases their Torpedo Crit DMG by 20.0%",
-					"+10.0%"
+					"+10.0%."
 				},
 				{
-					"Also increases their Torpedo Crit DMG by 30.0%"
+					"Also increases their Torpedo Crit DMG by 30.0%."
 				}
 			}
 		}
@@ -18544,8 +18544,8 @@ pg.skill_data_template = {
 	},
 	[11620] = {
 		desc_get = "",
-		name = "命运之骰",
-		desc = "自身空袭整备完毕时，有$1概率触发额外的流星、彗星、彩云编队进行攻击，三种编队独立概率可同时触发（彩云编队不携带弹药，触发时提高己方主力舰队成员造成的伤害10%，持续8秒）",
+		name = "Predestined Launch",
+		desc = "When this ship's Airstrike has finished loading: $1 chance to launch an additional Ryuusei, Suisei, or Saiun airstrike. Each proc chance is independent of the others. (The Saiuns will not attack, but they will increase your Main Fleet's DMG by 10.0% for 8s when launched.)",
 		type = 1,
 		max_level = 10,
 		id = 11620,
@@ -18602,8 +18602,8 @@ pg.skill_data_template = {
 	},
 	[11630] = {
 		desc_get = "",
-		name = "重樱装母",
-		desc = "自身受到的高爆弹伤害降低$1，自身受到的航空伤害降低$1",
+		name = "Heavily Armored",
+		desc = "Decreases the DMG this ship takes from enemy Airstrikes and HE ammo by $1.",
 		type = 2,
 		max_level = 10,
 		id = 11630,
@@ -18660,8 +18660,8 @@ pg.skill_data_template = {
 	},
 	[11640] = {
 		desc_get = "",
-		name = "善战之舰",
-		desc = "自身发动空袭时，额外使用TBF复仇者编队进行一轮攻击$2，该编队的鱼雷将对命中的敌方造成进水持续伤害(伤害依据航空属性和技能等级)；自身对战列舰(不包括战巡、航战)伤害提高$1",
+		name = "Valorous Avengers",
+		desc = "When this ship launches an Airstrike: launches an additional $2 TBF Avenger airstrike that causes Flooding DoT to enemies hit by their torpedoes (Flooding DMG is based on this ship's AVI stat and the skill's level.) Also increases this ship's DMG to enemy BBs (but not BCs or BBVs) by $1.",
 		type = 1,
 		max_level = 10,
 		id = 11640,
@@ -18754,8 +18754,8 @@ pg.skill_data_template = {
 	},
 	[11650] = {
 		desc_get = "",
-		name = "航空阵列",
-		desc = "出击时，队伍中每有一个白鹰联邦航母或轻航角色，自身航空，防空提升$1；自身舰载机击落敌方飞机时，自身航空提高$2（该效果最高叠加5层）",
+		name = "Covering Formation",
+		desc = "For each Eagle Union CV or CVL in the same fleet as this ship: increases this ship's AVI and AA by $1. Each time this ship's planes shoot down an enemy plane: increases this ship's AVI by $2. Can be stacked up to 5 times.",
 		type = 3,
 		max_level = 10,
 		id = 11650,
@@ -18857,8 +18857,8 @@ pg.skill_data_template = {
 	},
 	[11660] = {
 		desc_get = "",
-		name = "绝对回避",
-		desc = "出击时，若队伍中至少有4名白鹰角色，则全队成员受到航空鱼雷或轰炸攻击时，有$1的概率将此次伤害降低至1",
+		name = "Absolute Evasion",
+		desc = "When there are 4 or more Eagle Union ships in the same fleet as this ship: $1 chance to reduce DMG taken to 1 when a ship in your fleet is attacked by enemy Torpedo Bombers or Dive Bombers.",
 		type = 2,
 		max_level = 10,
 		id = 11660,
@@ -18914,9 +18914,9 @@ pg.skill_data_template = {
 		}
 	},
 	[11670] = {
-		desc_get = "潜艇氧气不足上浮及从战场撤离时，各发射一组的技能鱼雷(威力随技能等级提升)，技能鱼雷有70%概率对命中的敌人造成点燃(点燃伤害依据雷击属性)",
-		name = "意外赠礼",
-		desc = "潜艇氧气不足上浮及从战场撤离时，各发射一组的技能鱼雷$1(威力随技能等级提升)，技能鱼雷有70%概率对命中的敌人造成点燃(点燃伤害依据雷击属性)",
+		desc_get = "When this boat resurfaces and when it retreats: fires a torpedo barrage (DMG is based on the skill's level) with a 70.0% chance to ignite enemies, causing Burn DMG. Burn DMG is based on this boat's TRP stat.",
+		name = "Surpriiiiiiiise!",
+		desc = "When this boat resurfaces and when it retreats: fires a $1 torpedo barrage (DMG is based on the skill's level) with a 70.0% chance to ignite enemies, causing Burn DMG. Burn DMG is based on this boat's TRP stat.",
 		type = 1,
 		max_level = 10,
 		id = 11670,
@@ -18961,8 +18961,8 @@ pg.skill_data_template = {
 	},
 	[11680] = {
 		desc_get = "",
-		name = "熟练的猎手",
-		desc = "对驱逐舰、轻巡洋舰、航空母舰的伤害提升$1",
+		name = "Experienced Hunter",
+		desc = "Increases this boat's DMG to enemy DDs, CLs, and CVs by $1.",
 		type = 1,
 		max_level = 10,
 		id = 11680,
@@ -19124,8 +19124,8 @@ pg.skill_data_template = {
 	},
 	[11700] = {
 		desc_get = "",
-		name = "猛进射击",
-		desc = "作为先锋领舰出击时，自身防空降低40%，命中降低$1，机动提高$2，炮击提升$3，航速提升3",
+		name = "Bold But Reckless",
+		desc = "While this ship is in the firstmost position in the Vanguard: increases this ship's Speed by 3, EVA by $2, and FP by $3, but decreases its AA by 40.0% and Accuracy by $1.",
 		type = 3,
 		max_level = 10,
 		id = 11700,
@@ -20501,6 +20501,64 @@ pg.skill_data_template = {
 				},
 				{
 					"10"
+				}
+			}
+		}
+	},
+	[12040] = {
+		desc_get = "",
+		name = "不安定的发明家",
+		desc = "战斗中，每12秒触发一种研发中的特殊装备$1，特殊装备的效果随技能等级提高",
+		type = 3,
+		max_level = 10,
+		id = 12040,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
 				}
 			}
 		}
@@ -27543,8 +27601,8 @@ pg.skill_data_template = {
 	},
 	[29341] = {
 		desc_get = "",
-		name = "专属弹幕-大青花鱼I",
-		desc = "进入战斗时，触发专属弹幕-大青花鱼I",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Albacore immediately after entering the battle.",
 		type = 1,
 		max_level = 1,
 		id = 29341,
@@ -27554,8 +27612,8 @@ pg.skill_data_template = {
 	},
 	[29342] = {
 		desc_get = "",
-		name = "专属弹幕-大青花鱼II",
-		desc = "进入战斗时，触发专属弹幕-大青花鱼II",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Albacore immediately after entering the battle.",
 		type = 1,
 		max_level = 1,
 		id = 29342,
@@ -29946,6 +30004,7 @@ pg.skill_data_template = {
 		11860,
 		11890,
 		11900,
+		12040,
 		12050,
 		12060,
 		12070,

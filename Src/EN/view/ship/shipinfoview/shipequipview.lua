@@ -80,7 +80,7 @@ function slot0.InitEvent(slot0)
 		slot0, slot1 = Ship.canModifyShip(slot0:GetShipVO())
 
 		if not slot0 then
-			pg.TipsMgr:GetInstance():ShowTips(slot1)
+			pg.TipsMgr.GetInstance():ShowTips(slot1)
 
 			return
 		end
@@ -90,7 +90,7 @@ function slot0.InitEvent(slot0)
 		if _.all(slot1.UNLOCK_EQUPMENT_SKIN_POS, function (slot0)
 			return not slot0[slot0]
 		end) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("equipment_skin_no_equipment_tip"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_no_equipment_tip"))
 
 			return
 		end
@@ -277,7 +277,7 @@ function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 				slot0, slot1 = Ship.canModifyShip(slot0:GetShipVO())
 
 				if not slot0 then
-					pg.TipsMgr:GetInstance():ShowTips(slot1)
+					pg.TipsMgr.GetInstance():ShowTips(slot1)
 
 					return
 				end

@@ -28,7 +28,7 @@ function slot1.Ctor(slot0, slot1)
 		slot12 = string.split(slot2[slot7 .. "_scale"], ";")
 
 		for slot16, slot17 in ipairs(slot10) do
-			slot18 = slot1.Battle.BattleResourceManager:GetInstance():InstMap(slot17)
+			slot18 = slot1.Battle.BattleResourceManager.GetInstance():InstMap(slot17)
 
 			setParent(slot18, slot8, false)
 

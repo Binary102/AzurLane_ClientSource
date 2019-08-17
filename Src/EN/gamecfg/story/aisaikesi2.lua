@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"前辈与心结\n\n<size=45>二　“后辈”们的偶遇</size>",
+					"Enterprise Troubles\n\n<size=45>Chapter 2: A Gathering of Juniors</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "按照定好的行程，和埃塞克斯开始了港区的日常巡逻",
+			say = "Essex and I went on the scheduled port patrol, in accordance with her itinerary.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个区域也…没有异常，好，下一个区域是——",
+			say = "There's nothing out of the ordinary here. Moving on...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，是指挥官还有…埃塞克斯前辈！你们好~",
+			say = "Ah, is that... Commander! Elder Essex! Good day!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "前、“前辈”！？你是皇家的…半人马么",
+			say = "E-Elder?! You're that... Royal carrier, Centaur, aren't you...?",
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "嗯！埃塞克斯前辈你们是在巡逻港区吗？真是辛苦了呢~",
+			say = "Yes ma'am! Elder Essex, are you in charge of patrols today? Thank you for your service!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "是、是啊。这不过是身为港区管理者和秘书舰应该做的事情，没什么辛苦的",
+			say = "I-I guess I am... Looking after the port is just part of my job. It's really no big deal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			actor = 206040,
 			nameColor = "#a9f548",
-			say = "嘻嘻，埃塞克斯前辈真是认真呢，那我就不打扰你们了~",
+			say = "Mm... I see that you're as dedicated as they say you are, Elder Essex. Sorry for interrupting you then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "半人马打完招呼就离开了",
+			say = "After greeting us, Centaur left almost as suddenly as she showed up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "那就是传说中把大家都喊作“前辈”的…",
+			say = "So that's the girl who calls everyone an Elder, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "不过，对我来说的“前辈”只有…（小声）",
+			say = "... as if I'd deserve a title like that anyway...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			bgName = "star_level_bg_103",
 			side = 2,
 			dir = 1,
-			say = "港区·重樱生活区",
+			say = "Port - Sakura Dorms",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "重樱吗…换句话说“那家伙”也在这里——",
+			say = "The Sakura Empire dorms, huh... this must be where that woman stays...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呀吼~指挥官，在巡逻吗？啊，埃塞克斯也在，秘书舰的工作辛苦啦~",
+			say = "Yooo! Commander, doing your rounds? Oh, Essex is with you too! Congratulations on becoming the new secretary!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "…果然出现了！",
+			say = "... Of course she's the first one out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "咳、咳咳，重樱的{namecode:96}吗，你好",
+			say = "A-ahem! Good day, Zuikaku of the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "（这就是被当作企业前辈“劲敌”的那个——“幸运之鹤”！）",
+			say = "(This is the woman that Enterprise has acknowledged as her rival!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			}
 		},
 		{
-			say = "嗯？欸？怎么一直盯着我？我的脸上沾了什么东西吗？！",
+			say = "Good day to you too! H-huh? Why are you glaring at me? Is my hair messed up?!",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = -1,
@@ -348,7 +348,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没什么…",
+			say = "Sorry, it's nothing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊对了，埃塞克斯是灰、咳咳，是企业的后辈呢！",
+			say = "Ah, that reminds me! Essex, you're Enterprise's junior, aren't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哼哼，正好！遇到企业的话，帮我告诉她，就说{namecode:96}明天下午在演习海域等着她",
+			say = "Heheh, perfect timing! When you have a chance, can you tell her that I'll be waiting for her in the exercise area over there tomorrow afternoon?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "“这次一定会战胜你的！”这么转告她就行了，嘿嘿！",
+			say = "Oh right, also gotta tell her, \"I'm not gonna lose to you again!\" Hehe!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			}
 		},
 		{
-			say = "嗯哼，那我就不打扰啦，拜拜~",
+			say = "Anyway, I have to get going. See you later!",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = -1,
@@ -442,7 +442,7 @@ return {
 			blackBg = true,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "…{namecode:96}，一直想要赢过前辈的那个人",
+			say = "... Zuikaku, before you start thinking about beating Enterprise...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "不过在那之前，要赢过前辈的人…是我才对——",
+			say = "... You should worry about getting through me first...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -36,9 +36,9 @@ function slot0.load(slot0, slot1, slot2, slot3, slot4)
 	slot0.shipVO = slot2
 
 	ys.Battle.BattleVariable.Init()
-	ys.Battle.BattleFXPool:GetInstance():Init()
+	ys.Battle.BattleFXPool.GetInstance():Init()
 
-	slot5 = ys.Battle.BattleResourceManager:GetInstance()
+	slot5 = ys.Battle.BattleResourceManager.GetInstance()
 
 	slot5:Init()
 	slot5:AddPreloadResource(slot5.GetMapResource(slot1))
@@ -93,7 +93,7 @@ function slot0.load(slot0, slot1, slot2, slot3, slot4)
 			end
 
 			slot0._FXOffset = slot5
-			slot6 = ys.Battle.BattleFXPool:GetInstance()
+			slot6 = ys.Battle.BattleFXPool.GetInstance()
 
 			pg.EffectMgr.GetInstance():PlayBattleEffect(slot6:GetCharacterFX("movewave", slot0), Vector3(0, 0, 0), true)
 
@@ -366,7 +366,7 @@ function slot0.createEmitterCannon(slot0, slot1, slot2, slot3)
 			end
 		end
 
-		ys.Battle.BattleResourceManager:GetInstance():InstBullet((slot8.GetType() ~= ys.Battle.BattleConst.BulletType.CANNON or ys.Battle.BattleCannonBullet.New()) and (slot9 ~= slot10.BOMB or ys.Battle.BattleBombBullet.New()) and (slot9 ~= slot10.TORPEDO or ys.Battle.BattleTorpedoBullet.New()) and ys.Battle.BattleBullet.New():GetModleID(), function (slot0)
+		ys.Battle.BattleResourceManager.GetInstance():InstBullet((slot8.GetType() ~= ys.Battle.BattleConst.BulletType.CANNON or ys.Battle.BattleCannonBullet.New()) and (slot9 ~= slot10.BOMB or ys.Battle.BattleBombBullet.New()) and (slot9 ~= slot10.TORPEDO or ys.Battle.BattleTorpedoBullet.New()) and ys.Battle.BattleBullet.New():GetModleID(), function (slot0)
 			slot0(slot0)
 		end)
 	end, function ()
@@ -408,7 +408,7 @@ function slot0.createEmitterAir(slot0, slot1, slot2, slot3)
 			slot10 = ys.Battle.BattleDataFunction.GetEquipSkin(slot2.equipSkinId)
 		end
 
-		ys.Battle.BattleResourceManager:GetInstance():InstAirCharacter(slot10, function (slot0)
+		ys.Battle.BattleResourceManager.GetInstance():InstAirCharacter(slot10, function (slot0)
 			slot0(slot0)
 		end)
 	end, function ()
@@ -553,7 +553,7 @@ function slot0.clear(slot0)
 		slot0.seaFXContainersPool = nil
 	end
 
-	ys.Battle.BattleResourceManager:GetInstance().Clear(slot1)
+	ys.Battle.BattleResourceManager.GetInstance().Clear(slot1)
 
 	slot0.seaCameraGO.tag = "Untagged"
 	slot0.seaCameraGO = nil

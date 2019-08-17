@@ -14,7 +14,13 @@ function slot0.InitFashion(slot0)
 	slot0.styleScroll = slot0:findTF("style_scroll", slot0.stylePanel)
 	slot0.styleContainer = slot0:findTF("view_port", slot0.styleScroll)
 	slot0.styleCard = slot0._tf:GetComponent(typeof(ItemList)).prefabItem[0]
+	slot0.hideObjToggleTF = findTF(slot0._tf, "hideObjToggle")
 
+	setActive(slot0.hideObjToggleTF, false)
+
+	slot0.hideObjToggle = GetComponent(slot0.hideObjToggleTF, typeof(Toggle))
+
+	setText(findTF(slot0.hideObjToggleTF, "Label"), i18n("paint_hide_other_obj_tip"))
 	setActive(slot0.stylePanel, true)
 	setActive(slot0.styleCard, false)
 
@@ -107,6 +113,20 @@ function slot0.UpdateFashion(slot0, slot1)
 				for slot3, slot4 in ipairs(slot0.fashionSkins) do
 					slot0.fashionCellMap[slot0.styleContainer:GetChild(slot3 - 1)]:updateSelected(slot4.id == slot0.fashionSkinId)
 					slot6:updateUsing(slot0:GetShipVO().skinId == slot4.id)
+				end
+
+				slot0 = PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot2.paintingName .. "_n"))
+
+				setActive(slot0.hideObjToggle, slot0)
+
+				if slot0 then
+					slot0.hideObjToggle.isOn = PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot2.paintingName, 0) ~= 0
+
+					onToggle(slot0, slot0.hideObjToggleTF, function (slot0)
+						PlayerPrefs.SetInt("paint_hide_other_obj_" .. slot0.paintingName, (slot0 and 1) or 0)
+						slot0:flushSkin()
+						slot0.flushSkin:emit(ShipViewConst.LOAD_PAINTING, slot0.paintingName, true)
+					end, SFX_PANEL)
 				end
 			end)
 			setActive(slot9, true)

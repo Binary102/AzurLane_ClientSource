@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"大青花鱼的“陷阱”\n\n<size=45>七　晚安，还有…早上好！</size>",
+					"Submarine Subterfuge!\n\n<size=45>Good Night! Good Morning!</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "港区·寝室",
+			say = "Port - Private Quarters",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -47,14 +47,14 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "今天的嬉闹让身体提前感到了疲倦，早早地便躺在了床上。",
+			say = "Tired after having spent half the day at the beach, I swiftly went to bed once I'd returned to the port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "（戳——戳——）",
+			say = "......",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -68,19 +68,19 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "总感觉，脸好像被谁正在戳着……",
+			say = "My rest was disturbed by somebody poking my face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "???",
+			actorName = "？？？",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "指挥官，睡了吗？",
+			say = "(Whispering) Commander, are you asleep?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,14 +90,14 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "这个声音……是大青花鱼吧。",
+			say = "That voice... It must be Albacore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "装作睡着。",
+					content = "Pretend to be asleep",
 					flag = 1
 				}
 			}
@@ -109,7 +109,7 @@ return {
 			blackBg = true,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "睡着了吗？该不会是在装睡吧？",
+			say = "Are you really? Or are you just faking your z's?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			blackBg = true,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "睡着的话就没办法了呢……",
+			say = "... Welp, guess you really are asleep. Makes sense, given today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgm = "story-2",
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			blackBg = true,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "呐，指挥官……我有很多东西想和指挥官说呢。",
+			say = "Listen... there's a lot I want to say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "今天谢谢你了呢。虽然是我用“条件”让你陪我的，但是，听到指挥官说和我一起很开心的时候，我真的非常高兴呢。",
+			say = "First of all: thank you. I know I basically forced you into doing those favors for me, but still. And hearing you say you had a lot of fun made me really, really happy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "还有舰队的大家。大家都非常的友好，我很快就和她们都成为朋友了呢。和她们在一起训练，在一起聊天，在一起玩，我真的觉得非常幸福。",
+			say = "I'm also grateful to be part of this fleet. Everyone's so nice and easy to make friends with. We practice together, chat, play games... Every day is just so much fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "也许，某个时候，我的潜泳不再是为了发射那将别人沉入深渊的鱼雷，而只是为了浮上来吓一吓我的同伴们，然后看着她们被吓到的样子笑起来。",
+			say = "One day, maybe... just maybe, I'll be diving and firing my torpedoes not to sink an enemy into the abyss, but to startle my friends for a laugh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "那样的未来，一定会出现的吧。",
+			say = "I believe that day will come. Maybe not today, maybe not tomorrow, but someday it will.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			blackBg = true,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "舰队的大家，我最喜欢了。",
+			say = "... What I'm trying to say is: I love my friends and all the memories I've made here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			blackBg = true,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "还有指挥官，虽然我好像一直在捉弄你，不过其实——",
+			say = "And, although I tease and mess with you all the time, the truth is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "脸颊上传来了温柔的触感",
+			say = "Albacore leaned in closer to whisper into my ear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "我也最喜欢了。",
+			say = "... I love you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			blackBg = true,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "对了，明天还有我给你准备的惊喜呢……装睡听别人真心话的指挥官要吃点苦头才行呢~",
+			say = "Also, I might have a surprise for you tomorrow♪ Here I am, going through the effort of telling you these nice things, and you just pretend to be asleep. So I'm gonna have a little payback, hehehe♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			bgmDelay = 1.4,
 			bgm = "story-1",
-			say = "第二天",
+			say = "The next day...",
 			flashout = {
 				dur = 0.7,
 				black = true,
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			actor = 201210,
 			nameColor = "#a9f548",
-			say = "真真真真的吗！指挥官，居然和大青花鱼一起睡了一晚！",
+			say = "I-is it true, Commander?! Did you really spend the night sleeping in the same room as Albacore?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "睡了一个晚上？发生了什么吗？",
+			say = "What does \"sleeping in the same room\" mean exactly, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我说啊指挥官，再怎么说一起睡觉这种事情也……",
+			say = "Commander, I can tolerate many things, but even I draw a line somewhere!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，莫非是萝莉控……",
+			say = "The Commander might be into little girls...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "被摆了一道啊。",
+			say = "Albacore sure knows how to twist a story...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "结果光是和大家解释清楚，就用掉了一整个上午的时间。",
+			say = "In the end, I had to spend half the day clearing up this misunderstanding.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "这样的日子，以后也会继续下去的吧——",
+			say = "It was stressful, but it was fun, too. I'm sure I have many days like this ahead of me with Albacore by my side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

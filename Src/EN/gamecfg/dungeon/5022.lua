@@ -1,5 +1,5 @@
 return {
-	id = 5013,
+	id = 5022,
 	bgm = "story-4",
 	stages = {
 		{
@@ -51,7 +51,7 @@ return {
 					},
 					spawn = {
 						{
-							monsterTemplateID = 900009,
+							monsterTemplateID = 900014,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
@@ -61,7 +61,7 @@ return {
 							},
 							bossData = {
 								hpBarNum = 45,
-								icon = "aidang"
+								icon = "ougen"
 							},
 							phase = {
 								{
@@ -70,8 +70,8 @@ return {
 									index = 0,
 									switchParam = 2,
 									addWeapon = {
-										950170,
-										950171
+										950230,
+										950234
 									}
 								},
 								{
@@ -80,8 +80,8 @@ return {
 									index = 1,
 									switchParam = 2,
 									addWeapon = {
-										950172,
-										950177
+										950231,
+										950232
 									}
 								},
 								{
@@ -90,7 +90,7 @@ return {
 									index = 2,
 									switchParam = 0.5,
 									removeWeapon = {
-										950171
+										950232
 									}
 								},
 								{
@@ -100,11 +100,14 @@ return {
 									switchType = 1,
 									setAI = 90004,
 									removeWeapon = {
-										950177
+										950231,
+										950234
 									},
 									addWeapon = {
-										950173,
-										950175
+										950235,
+										950236,
+										950237,
+										950238
 									}
 								},
 								{
@@ -113,12 +116,11 @@ return {
 									index = 4,
 									switchType = 1,
 									removeWeapon = {
-										950175,
-										950172
+										950235
 									},
 									addWeapon = {
-										950174,
-										950176
+										950232,
+										950233
 									}
 								},
 								{
@@ -128,7 +130,10 @@ return {
 									switchType = 1,
 									setAI = 10001,
 									removeWeapon = {
-										950173
+										950233,
+										950236,
+										950237,
+										950238
 									}
 								},
 								{
@@ -137,7 +142,7 @@ return {
 									index = 6,
 									switchParam = 3,
 									addWeapon = {
-										950175
+										950231
 									}
 								},
 								{
@@ -146,8 +151,8 @@ return {
 									index = 7,
 									switchParam = 3,
 									removeWeapon = {
-										950175,
-										950174
+										950231,
+										950232
 									}
 								}
 							}
@@ -168,7 +173,7 @@ return {
 					},
 					spawn = {
 						{
-							monsterTemplateID = 900009,
+							monsterTemplateID = 900014,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
@@ -181,7 +186,7 @@ return {
 							},
 							bossData = {
 								hpBarNum = 45,
-								icon = "aidang"
+								icon = "ougen"
 							},
 							phase = {
 								{
@@ -190,8 +195,8 @@ return {
 									index = 0,
 									switchParam = 2,
 									addWeapon = {
-										950170,
-										950171
+										950230,
+										950234
 									}
 								},
 								{
@@ -200,8 +205,8 @@ return {
 									index = 1,
 									switchParam = 2,
 									addWeapon = {
-										950172,
-										950177
+										950231,
+										950232
 									}
 								},
 								{
@@ -210,7 +215,7 @@ return {
 									index = 2,
 									switchParam = 0.5,
 									removeWeapon = {
-										950171
+										950232
 									}
 								},
 								{
@@ -220,11 +225,14 @@ return {
 									switchType = 1,
 									setAI = 90004,
 									removeWeapon = {
-										950177
+										950231,
+										950234
 									},
 									addWeapon = {
-										950173,
-										950175
+										950235,
+										950236,
+										950237,
+										950238
 									}
 								},
 								{
@@ -233,12 +241,11 @@ return {
 									index = 4,
 									switchType = 1,
 									removeWeapon = {
-										950175,
-										950172
+										950235
 									},
 									addWeapon = {
-										950174,
-										950176
+										950232,
+										950233
 									}
 								},
 								{
@@ -248,7 +255,10 @@ return {
 									switchType = 1,
 									setAI = 10001,
 									removeWeapon = {
-										950173
+										950233,
+										950236,
+										950237,
+										950238
 									}
 								},
 								{
@@ -257,7 +267,7 @@ return {
 									index = 6,
 									switchParam = 3,
 									addWeapon = {
-										950175
+										950231
 									}
 								},
 								{
@@ -266,8 +276,8 @@ return {
 									index = 7,
 									switchParam = 3,
 									removeWeapon = {
-										950175,
-										950174
+										950231,
+										950232
 									}
 								}
 							}

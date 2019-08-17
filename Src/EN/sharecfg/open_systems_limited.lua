@@ -110,6 +110,16 @@ pg.open_systems_limited = {
 		mediator = "TechnologyMediator",
 		level = 30
 	},
+	[15] = {
+		scene = "MAINUI",
+		name = "Challenge Mode ",
+		guid_end_id = 0,
+		guidId = 0,
+		id = 15,
+		story_id = "",
+		mediator = "ChallengeMainMediator",
+		level = 80
+	},
 	all = {
 		1,
 		2,
@@ -121,7 +131,8 @@ pg.open_systems_limited = {
 		8,
 		9,
 		10,
-		11
+		11,
+		15
 	}
 }
 

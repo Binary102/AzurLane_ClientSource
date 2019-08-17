@@ -8,7 +8,7 @@ slot0.Letters = {
 	"F",
 	"G"
 }
-slot0.PageNums = 4
+slot0.PageNums = 8
 
 function slot0.getUIName(slot0)
 	return "ColoringUI"

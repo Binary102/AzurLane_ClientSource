@@ -41,7 +41,7 @@ class("SubmitInvestigationCommand", pm.SimpleCommand).execute = function (slot0,
 				items = slot1
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("submit_investigation", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("submit_investigation", slot0.result))
 		end
 	end)
 end

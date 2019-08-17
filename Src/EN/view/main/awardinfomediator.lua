@@ -15,7 +15,7 @@ function slot0.register(slot0)
 				}
 			}))
 		else
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_SINGLE_ITEM,
 				drop = slot1,
 				onNo = slot2,

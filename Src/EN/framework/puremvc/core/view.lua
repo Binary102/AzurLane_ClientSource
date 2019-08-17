@@ -34,6 +34,10 @@ function slot1.registerObserver(slot0, slot1, slot2)
 	if slot0.observerMap[slot1] ~= nil then
 		table.insert(slot0.observerMap[slot1], slot2)
 	else
+		if slot1 == nil then
+			print(debug.traceback())
+		end
+
 		slot0.observerMap[slot1] = {
 			slot2
 		}

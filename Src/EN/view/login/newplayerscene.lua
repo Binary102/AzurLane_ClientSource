@@ -78,7 +78,7 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
-	BilibiliSdkMgr.inst:onBackPressed()
+	pg.SdkMgr.GetInstance():OnAndoridBackPress()
 end
 
 function slot0.switchPanel(slot0)
@@ -174,13 +174,13 @@ function slot0.didEnter(slot0)
 	end, SFX_MAIN)
 	onButton(slot0, findTF(slot0.info, "btn_container/enter_button"), function ()
 		if not slot0.contextData.configId then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("login_newPlayerScene_error_notChoiseShip"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("login_newPlayerScene_error_notChoiseShip"))
 
 			return
 		end
 
 		if getInputText(slot0.nickname) == "" then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("login_newPlayerScene_inputName"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("login_newPlayerScene_inputName"))
 
 			return
 		end
@@ -229,9 +229,9 @@ function slot0.selectCharacterByIdx(slot0, slot1, slot2)
 	end
 
 	slot0:recycleSpineChar()
-	pg.UIMgr:GetInstance():LoadingOn()
+	pg.UIMgr.GetInstance():LoadingOn()
 	PoolMgr.GetInstance():GetSpineChar(slot5, true, function (slot0)
-		pg.UIMgr:GetInstance():LoadingOff()
+		pg.UIMgr.GetInstance():LoadingOff()
 
 		slot0.shipPrefab = slot0
 		slot0.shipModel = slot0

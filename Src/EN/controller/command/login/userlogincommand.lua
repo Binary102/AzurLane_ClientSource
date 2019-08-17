@@ -3,19 +3,7 @@ class("UserLoginCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 	print("connect to gateway - " .. NetConst.GATEWAY_HOST .. ":" .. NetConst.GATEWAY_PORT)
 
-	slot3 = ""
-
-	if PLATFORM_CODE == 1 then
-		if GetBiliServerId() == SHAREJOY_SERVER_ID then
-			slot3 = "cps"
-		elseif slot4 == BILI_SERVER_ID then
-			slot3 = "0"
-		elseif slot4 == UNION_SERVER_ID then
-			slot3 = BilibiliSdkMgr.inst.channelUID
-		end
-	end
-
-	if slot3 == "" then
+	if pg.SdkMgr.GetInstance():GetChannelUID() == "" then
 		slot3 = PLATFORM_LOCAL
 	end
 
@@ -24,6 +12,7 @@ class("UserLoginCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end
 
 	print("login type -- : ", slot2.type, ", arg3 -- : ", (slot2.arg4 == "0" and slot2.arg3) or slot2.arg4, ", sessionid -- : " .. slot2.arg4)
+	pg.ConnectionMgr.GetInstance():SetProxyHost(NetConst.PROXY_GATEWAY_HOST, NetConst.PROXY_GATEWAY_PORT)
 	pg.ConnectionMgr.GetInstance():Connect(NetConst.GATEWAY_HOST, NetConst.GATEWAY_PORT, function ()
 		pg.ConnectionMgr.GetInstance():Send(10020, {
 			login_type = slot0.type,
@@ -38,7 +27,7 @@ class("UserLoginCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			pg.ConnectionMgr.GetInstance():Disconnect()
 
 			if slot0.device ~= 0 and slot0.device ~= PLATFORM then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("login_failed"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("login_failed"))
 
 				return
 			end
@@ -80,25 +69,19 @@ class("UserLoginCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				slot1.facade:sendNotification(GAME.USER_LOGIN_SUCCESS, slot0)
 				pg.PushNotificationMgr.GetInstance():cancelAll()
 				print("user logined............", #slot2)
-
-				if PLATFORM_CODE == PLATFORM_CH then
-					BilibiliSdkMgr.inst.isLoging = false
-				end
+				pg.SdkMgr.GetInstance():SdkGateWayLogined()
 			else
-				if PLATFORM_CODE == PLATFORM_CH then
-					BilibiliSdkMgr.inst.isLoging = false
-				end
-
+				pg.SdkMgr.GetInstance():SdkLoginGetaWayFailed()
 				print("user login failed ............")
 
 				if slot0.result == 13 then
-					pg.TipsMgr:GetInstance():ShowTips(i18n("login_gate_not_ready"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("login_gate_not_ready"))
 				elseif slot0.result == 15 then
-					pg.TipsMgr:GetInstance():ShowTips(i18n("login_game_rigister_full"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("login_game_rigister_full"))
 				elseif slot0.result == 18 then
-					pg.TipsMgr:GetInstance():ShowTips(i18n("system_database_busy"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("system_database_busy"))
 				elseif slot0.result == 6 then
-					pg.TipsMgr:GetInstance():ShowTips(i18n("login_game_login_full"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("login_game_login_full"))
 				else
 					slot1.facade:sendNotification(GAME.USER_LOGIN_FAILED, slot0.result)
 				end

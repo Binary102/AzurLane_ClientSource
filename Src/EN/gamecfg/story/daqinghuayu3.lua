@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"大青花鱼的“陷阱”\n\n<size=45>三　后宅的大青花鱼</size>",
+					"Submarine Subterfuge!\n\n<size=45>Chapter 3: Dorm Gaming Session</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·后宅",
+			say = "Port - Dormitory",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			dir = -1,
 			actor = 101170,
 			nameColor = "#a9f548",
-			say = "看招！",
+			say = "I'll wale on it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "拉菲，小心！",
+			say = "No, Laffey! It's enraged!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 101170,
 			nameColor = "#a9f548",
-			say = "欸？",
+			say = "... Huh?",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，又挂掉了……这下子又game over了呢。",
+			say = "Bah, carted again! I'm getting tired of this stupid monster!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "看起来几人是在后宅玩着游戏。",
+			say = "Albacore was in the Dormitory, sitting around a console with a few others. Apparently, they were playing a video game.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊，这个boss怎么这么难打……",
+			say = "You can't dodge those swipes! It's so unfair!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想到…竟然有我也觉得有难度的BOSS，共斗游戏…果然不可小觑！",
+			say = "I guess we've met our match if we can't beat it even with my next-level skills... gg, Monster Puncher!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,13 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "不，现在放弃还太早了。",
+			say = "It's not over yet.",
+			effects = {
+				{
+					active = true,
+					name = "speed"
+				}
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +246,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "通过这几次game over，我觉得我已经摸到boss的行动方式了。",
+			say = "I think I've figured out most of its moveset! If we stick together and work as a team, we can beat it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,29 +257,12 @@ return {
 			}
 		},
 		{
-			actor = 108020,
-			side = 2,
-			bgName = "bg_story_room",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "只要我们四个人配合好的话，一定可以击败boss的！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "这次就先听我的指挥试试吧！",
+			say = "Let's give it another try! I'll give orders, so everyone just do what I say!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,12 +283,18 @@ return {
 			}
 		},
 		{
-			actor = 106011,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦…大青花鱼一副好可靠的样子！难道这就是所谓的队长风范？！",
+			actor = 106011,
+			nameColor = "#a9f548",
+			say = "Hey, yeah! With Albacore giving orders, we might stand a chance! She's got that charismatic leader thing going on!",
+			effects = {
+				{
+					active = false,
+					name = "speed"
+				}
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +310,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "赞成……",
+			say = "Yeah...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +326,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大青花鱼，自信满满呢~",
+			say = "She SOUNDS confident, that's for sure...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +342,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "那就……mission restart！",
+			say = "All right, let's do this. Begin quest!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +366,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "（30分钟后）",
+			say = "30 minutes later...",
 			flashout = {
 				dur = 0.7,
 				black = true,
@@ -400,7 +395,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "这就是最后一击了！接招吧，四人合体技——“无限冲击”！",
+			say = "It's down and nearly dead! Everyone, wale on it with all you've got!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,8 +422,8 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 106011,
-			actorName = "长岛&拉菲&本森",
-			say = "噢噢噢噢！！！！！",
+			actorName = "Everyone",
+			say = "Okay! HYAAAAAH!!",
 			effects = {
 				{
 					active = true,
@@ -465,7 +460,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/cannon-356mm",
 			nameColor = "#a9f548",
-			say = "boss，倒下了……",
+			say = "We defeated it... finally...",
 			effects = {
 				{
 					active = false,
@@ -487,7 +482,7 @@ return {
 			dir = 1,
 			actor = 101160,
 			nameColor = "#a9f548",
-			say = "哦哦！我们赢了！",
+			say = "YEEEEEEESSSS!! WE FRICKING DID IT!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +508,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "通，通关了……居然没有查攻略就通关了……",
+			say = "We beat it... And we didn't even have to look up how to cheese it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +525,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "哼哼哼，轻轻松松！在我大青花鱼面前可没有打不过去的关卡！",
+			say = "Hahah, it was easy peasy! No boss stands a chance to Hardcore Albacore!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +549,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "大青花鱼似乎非常开心。",
+			say = "Albacore seemed to be having a lot of fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +560,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "看起来，和港区里的其他小伙伴也相处得很好的样子。——不对，这家伙一点也没有破绽…！",
+			say = "It was good to know that she's on friendly terms with everyone... but my search for a weakness to exploit was going nowhere!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

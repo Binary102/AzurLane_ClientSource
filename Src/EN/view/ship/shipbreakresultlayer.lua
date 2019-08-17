@@ -11,8 +11,8 @@ function slot0.init(slot0)
 	slot0.paintContain = slot0:findTF("paint")
 	slot0.qCharaContain = slot0:findTF("right_panel/top/q_chara")
 	slot0._chat = slot0:findTF("chat", slot0.paintContain)
-	slot0.OverlayUIMain = pg.UIMgr:GetInstance().OverlayMain
-	slot0.UIMain = pg.UIMgr:GetInstance().UIMain
+	slot0.OverlayUIMain = pg.UIMgr.GetInstance().OverlayMain
+	slot0.UIMain = pg.UIMgr.GetInstance().UIMain
 
 	setParent(slot0._tf, slot0.OverlayUIMain)
 
@@ -86,9 +86,9 @@ function slot0.updateStatistics(slot0)
 	setPaintingPrefabAsync(slot0._paintingShadowTF, slot1:getPainting(), "chuanwu", function ()
 		findTF(slot0._paintingShadowTF, "fitter"):GetChild(0):GetComponent("Image").color = Color.New(0, 0, 0)
 	end)
-	pg.UIMgr:GetInstance():LoadingOn()
+	pg.UIMgr.GetInstance():LoadingOn()
 	PoolMgr.GetInstance():GetSpineChar(slot15, true, function (slot0)
-		pg.UIMgr:GetInstance():LoadingOff()
+		pg.UIMgr.GetInstance():LoadingOff()
 
 		slot0.shipPrefab = slot0
 		slot0.shipModel = slot0

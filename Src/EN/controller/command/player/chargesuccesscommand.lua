@@ -60,7 +60,7 @@ class("ChargeSuccessCommand", pm.SimpleCommand).execute = function (slot0, slot1
 	slot10:setChargedList(slot11)
 
 	if _.is_empty(slot10:getFirstChargeList() or {}) then
-		SendAiriJPTracking(AIRIJP_TRACKING_PURCHASE_FIRST, slot9.id, slot4)
+		pg.TrackerMgr.GetInstance():Tracking(TRACKING_PURCHASE_FIRST, slot4)
 	end
 
 	if slot7:firstPayDouble() then
@@ -75,7 +75,7 @@ class("ChargeSuccessCommand", pm.SimpleCommand).execute = function (slot0, slot1
 		slot15.data1 = 1
 	end
 
-	pg.TipsMgr:GetInstance():ShowTips(i18n("charge_success"))
+	pg.TipsMgr.GetInstance():ShowTips(i18n("charge_success"))
 end
 
 return class("ChargeSuccessCommand", pm.SimpleCommand)

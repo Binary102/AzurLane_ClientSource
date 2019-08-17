@@ -12,7 +12,7 @@ class("ChapterOpCommand", import(".ChapterOpRoutine")).execute = function (slot0
 		slot0:sendNotification(GAME.CHAPTER_OP_DONE, {
 			type = slot2.type
 		})
-		pg.TipsMgr:GetInstance():ShowTips(i18n("formation_switch_success", slot4.fleet.name))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("formation_switch_success", slot4.fleet.name))
 
 		return
 	elseif slot2.type == ChapterConst.OpRetreat then
@@ -69,6 +69,8 @@ class("ChapterOpCommand", import(".ChapterOpRoutine")).execute = function (slot0
 		end) then
 			slot8.count = slot8.count + 1
 		end
+
+		slot5.restAmmo = math.max(slot5.restAmmo - 1, 0)
 
 		slot3:updateChapter(slot4)
 	end
@@ -138,6 +140,10 @@ class("ChapterOpCommand", import(".ChapterOpRoutine")).execute = function (slot0
 					slot0:doTeleportSub()
 				end
 
+				if slot1.type ~= ChapterConst.OpEnemyRound and slot1.type ~= ChapterConst.OpMove then
+					slot0.flag = bit.bor(slot0.flag, slot0.extraFlag)
+				end
+
 				slot2:updateChapter(slot0.chapter, slot0.flag)
 				slot0:sendNotification(GAME.CHAPTER_OP_DONE, {
 					type = slot1.type,
@@ -157,7 +163,8 @@ class("ChapterOpCommand", import(".ChapterOpRoutine")).execute = function (slot0
 				})
 			end
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("levelScene_operation", slot0.result))
+			warning(string.format("SLG操作%d 请求失效，重新拉取信息", slot1.type))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("levelScene_operation", slot0.result))
 
 			if pg.TipsMgr.GetInstance().ShowTips.type ~= ChapterConst.OpRequest and slot1.type ~= ChapterConst.OpRetreat and slot1.type ~= ChapterConst.OpSubTeleport then
 				slot0:sendNotification(GAME.CHAPTER_OP, {

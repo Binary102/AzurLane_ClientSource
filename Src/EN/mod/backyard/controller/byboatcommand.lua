@@ -68,7 +68,7 @@ function slot0.execute(slot0, slot1)
 			pg.m02:sendNotification(GAME.EXIT_SHIP, {
 				shipId = slot5,
 				callback = function ()
-					pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_notPosition_shipExit"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_notPosition_shipExit"))
 				end
 			})
 		else
@@ -125,7 +125,7 @@ function slot0.setPositionForShip(slot0, slot1)
 		pg.m02:sendNotification(GAME.EXIT_SHIP, {
 			shipId = slot1,
 			callback = function ()
-				pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_notPosition_shipExit"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_notPosition_shipExit"))
 				pg.TipsMgr.GetInstance().ShowTips.backYardHouseProxy:exitShipById(pg.TipsMgr.GetInstance().ShowTips.backYardHouseProxy)
 			end
 		})

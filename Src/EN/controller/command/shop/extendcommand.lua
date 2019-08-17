@@ -21,9 +21,9 @@ class("ExtendCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		slot9:extendFoodCapacity(slot7.num)
 		slot9:increaseFoodExtendCount()
 		slot8:updateDrom(slot9)
-		pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_extendCapacity_ok", slot7.num))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_extendCapacity_ok", slot7.num))
 	elseif slot7.effect_args == ShopArgs.EffectShopStreetFlash then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("refresh_shopStreet_ok"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("refresh_shopStreet_ok"))
 	elseif slot7.effect_args == ShopArgs.EffectTradingPortLevel or slot7.effect_args == ShopArgs.EffectOilFieldLevel or slot7.effect_args == ShopArgs.EffectClassLevel then
 		slot8 = nil
 		slot9 = getProxy(NavalAcademyProxy)
@@ -37,19 +37,19 @@ class("ExtendCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		end
 
 		slot9:StartUpGradeSuccess(slot8)
-		pg.TipsMgr:GetInstance():ShowTips(i18n("word_start") .. i18n("word_levelup"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("word_start") .. i18n("word_levelup"))
 	elseif slot7.effect_args == ShopArgs.EffectGuildFlash then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_shop_flash_success"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_shop_flash_success"))
 	elseif slot7.effect_args == ShopArgs.EffectDormFloor then
 		slot8 = getProxy(DormProxy)
 		slot9 = slot8:getData()
 
 		slot9:setFloorNum(slot9.floorNum + 1)
 		slot8:updateDrom(slot9)
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_buy_success"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
 	elseif slot7.effect_args == ShopArgs.EffectSkillPos then
 		getProxy(NavalAcademyProxy).inCreaseKillClassNum(slot8)
-		pg.TipsMgr:GetInstance():ShowTips(i18n("open_skill_class_success"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("open_skill_class_success"))
 	elseif slot7.effect_args == ShopArgs.EffectCommanderBagSize then
 		slot6:updateCommanderBagMax(slot7.num)
 	end

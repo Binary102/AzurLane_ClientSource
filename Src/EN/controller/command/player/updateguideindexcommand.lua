@@ -10,10 +10,10 @@ class("UpdateGuideIndexCommand", pm.SimpleCommand).execute = function (slot0, sl
 	slot5.guideIndex = slot1.getBody().index
 
 	getProxy(PlayerProxy):updatePlayer(slot5)
-	pg.SeriesGuideMgr:GetInstance():setPlayer(slot5)
+	pg.SeriesGuideMgr.GetInstance():setPlayer(slot5)
 
-	if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and pg.SeriesGuideMgr:GetInstance():isEnd() then
-		SendAiriJPTracking(AIRIJP_TRACKING_TUTORIAL_COMPLETE_1, slot5.id)
+	if pg.SeriesGuideMgr.GetInstance():isEnd() then
+		pg.TrackerMgr.GetInstance():Tracking(TRACKING_TUTORIAL_COMPLETE_1)
 	end
 
 	if slot4 then

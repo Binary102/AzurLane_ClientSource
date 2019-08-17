@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"“献身”的{namecode:97}\n\n<size=45>六 {namecode:97}的消失(?)·上</size>",
+					"Taihou, Body and Soul\n\n<size=45>Chapter 6: Taihou's Disappearance(?) - Part 1</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "Port - Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "最近，似乎已经开始渐渐习惯{namecode:97}了",
+			say = "Little by little, I'd been getting used to Taihou.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,40 +65,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官大人，今天需要处理的公文都在这里了~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			actor = 307070,
-			nameColor = "#a9f548",
-			say = "优先的放在上面，不大重要的放在下面，不需要指挥官大人关心的在垃圾桶里",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 307070,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "如果有别的指示请尽管跟{namecode:97}说～",
+			say = "I've prepared all your documents for the day right here, my Commander~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,11 +78,44 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 307070,
+			nameColor = "#a9f548",
+			say = "These are the urgent ones, the lower priority ones are down here, and the ones unworthy of my Commander's attention are in the trash.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307070,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Please let me know if there's anything else I can do for you.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "指挥官大人，一天工作辛苦了，请用茶~",
+			say = "My Commander's been working so hard. Please have some tea.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天的菜里加了昨天您和{namecode:22}提到的那个创作料理哦",
+			say = "I went ahead and added that spice you were talking about with Yukikaze to your dinner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "洗澡水也准备好了。要是肩膀酸了{namecode:97}这就来为您捶背♪",
+			say = "I also drew a bath for you. And if your shoulders are sore I hope you'll let me rub them for you♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "……怎么了指挥官？莫非您——",
+			say = "... What's wrong, my Commander? Could it be you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是吃{namecode:97}呢，和{namecode:97}一起洗澡呢，还是~要和{namecode:97}做没羞没躁的事呢~",
+			say = "... want to taste me? Want to bathe with me? Or maaaaybee~ You want to do some filthy, depraved things with me~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "就连这样的对话，也开始渐渐习以为常了",
+			say = "I'd even gotten used to her saying stuff like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽然不时会出现一些过激（？）的言行，但是整体来说{namecode:97}作为秘书舰还是相当尽责的。不过……",
+			say = "She would cross the line from time to time, but even so Taihou was an objectively dedicated secretary who took her job seriously. Still...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "偶尔…还是会希望她多注意下自己的身体呢",
+			say = "I worried she was neglecting her own health for my sake...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "这么想着，于是建议{namecode:97}去休息一天",
+			say = "I decided it would probably be a good idea for Taihou to take a day off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "…………………指挥官大人——",
+			say = "... My Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "{namecode:97}的表情中除了喜悦之外，少见的浮现出了一丝寂寞。",
+			say = "I saw a new emotion welling up inside Taihou, overpowering her. It was loneliness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			stopbgm = true,
 			dir = 1,
 			blackBg = true,
-			say = "第二天，{namecode:97}消失了。",
+			say = "The next day, Taihou disappeared.",
 			flashout = {
 				dur = 0.5,
 				black = true,

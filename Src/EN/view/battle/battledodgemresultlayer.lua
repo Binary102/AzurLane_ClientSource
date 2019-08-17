@@ -38,8 +38,8 @@ function slot0.init(slot0)
 
 	SetActive(slot0._dodgem, false)
 
-	slot0.UIMain = pg.UIMgr:GetInstance().UIMain
-	slot0.overlay = pg.UIMgr:GetInstance().OverlayMain
+	slot0.UIMain = pg.UIMgr.GetInstance().UIMain
+	slot0.overlay = pg.UIMgr.GetInstance().OverlayMain
 	slot1 = nil
 
 	LoadImageSpriteAsync("battlescore/" .. ((slot0.contextData.score < 4 and "grade_label_b") or "grade_label_s"), slot0._gradeLabel, true)

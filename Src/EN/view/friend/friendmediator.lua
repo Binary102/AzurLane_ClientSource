@@ -119,7 +119,7 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent:updatePage(FriendScene.SEARCH_PAGE)
 
 			if table.getCount(slot3.list) > 0 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("friend_search_succeed"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("friend_search_succeed"))
 			end
 		end
 	elseif slot2 == GAME.FRIEND_SEND_REQUEST_DONE then

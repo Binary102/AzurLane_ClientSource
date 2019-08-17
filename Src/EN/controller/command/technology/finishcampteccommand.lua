@@ -14,7 +14,7 @@ class("FinishCampTecCommand", pm.SimpleCommand).execute = function (slot0, slot1
 			slot1:refreshRedPoint()
 			slot1.refreshRedPoint:sendNotification(TechnologyConst.UPDATE_REDPOINT_ON_TOP)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("coloring_cell", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("coloring_cell", slot0.result))
 		end
 	end)
 end

@@ -18,9 +18,9 @@ class("UpdateShipPreferenceTagCommand", pm.SimpleCommand).execute = function (sl
 			slot3:SetPreferenceTag(slot0)
 			slot1:updateShip(slot3)
 			slot2:sendNotification(GAME.UPDATE_PREFERENCE_DONE, slot3)
-			pg.TipsMgr:GetInstance():ShowTips(i18n(slot2, slot3:getName()))
+			pg.TipsMgr.GetInstance():ShowTips(i18n(slot2, slot3:getName()))
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("ship_updateShipLock", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_updateShipLock", slot0.result))
 		end
 	end)
 end

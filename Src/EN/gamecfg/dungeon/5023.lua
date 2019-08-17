@@ -1,5 +1,5 @@
 return {
-	id = 1201201,
+	id = 5023,
 	bgm = "story-masazhusai",
 	stages = {
 		{
@@ -63,7 +63,7 @@ return {
 					},
 					spawn = {
 						{
-							monsterTemplateID = 900008,
+							monsterTemplateID = 900015,
 							score = 0,
 							delay = 1,
 							moveCast = true,
@@ -74,7 +74,7 @@ return {
 							},
 							bossData = {
 								hpBarNum = 50,
-								icon = "aisaikesi"
+								icon = "huangjiafangzhou"
 							},
 							phase = {
 								{
@@ -90,9 +90,9 @@ return {
 									index = 1,
 									switchParam = 3,
 									addWeapon = {
-										950152,
-										950153,
-										950154
+										950249,
+										950248,
+										950250
 									}
 								},
 								{
@@ -101,10 +101,8 @@ return {
 									index = 2,
 									switchType = 1,
 									setAI = 99990,
-									removeWeapon = {},
 									addWeapon = {
-										950157,
-										950159
+										950242
 									}
 								},
 								{
@@ -114,27 +112,23 @@ return {
 									switchTo = 4,
 									setAI = 10001,
 									removeWeapon = {
-										950159
+										950250
 									},
 									addWeapon = {
-										950158
+										950241,
+										950247
 									},
 									addBuff = {}
 								},
 								{
-									switchType = 1,
-									index = 4,
 									switchParam = 3,
 									switchTo = 5,
+									index = 4,
+									switchType = 1,
 									removeWeapon = {
-										950158
+										950241
 									},
-									addWeapon = {
-										950155,
-										950156
-									},
-									removeBuff = {},
-									addBuff = {}
+									addWeapon = {}
 								},
 								{
 									switchParam = 3,
@@ -143,48 +137,27 @@ return {
 									switchType = 1,
 									setAI = 99990,
 									addWeapon = {
-										950157,
-										950159
+										950241,
+										950250
 									}
 								},
 								{
 									switchParam = 1,
-									switchTo = 7,
+									switchTo = 8,
 									index = 6,
 									switchType = 1,
 									setAI = 10001,
 									removeWeapon = {
-										950157,
-										950159
-									}
-								},
-								{
-									switchType = 1,
-									switchTo = 8,
-									index = 7,
-									switchParam = 5,
-									addWeapon = {}
-								},
-								{
-									switchParam = 4,
-									switchTo = 9,
-									index = 8,
-									switchType = 1,
-									removeWeapon = {
-										950155,
-										950156
-									},
-									addWeapon = {
-										950151
+										950241
 									}
 								},
 								{
 									switchType = 1,
 									switchTo = 202,
-									index = 9,
-									switchParam = 3,
+									index = 8,
+									switchParam = 4,
 									addWeapon = {
-										950155
+										950247
 									}
 								},
 								{
@@ -193,7 +166,8 @@ return {
 									index = 202,
 									switchParam = 3,
 									removeWeapon = {
-										950151
+										950247,
+										950250
 									}
 								}
 							}
@@ -214,7 +188,7 @@ return {
 					},
 					spawn = {
 						{
-							monsterTemplateID = 900008,
+							monsterTemplateID = 900015,
 							reinforceDelay = 5,
 							delay = 1,
 							moveCast = true,
@@ -225,7 +199,7 @@ return {
 							},
 							bossData = {
 								hpBarNum = 50,
-								icon = "aisaikesi"
+								icon = "huangjiafangzhou"
 							},
 							phase = {
 								{
@@ -241,9 +215,9 @@ return {
 									index = 1,
 									switchParam = 3,
 									addWeapon = {
-										950152,
-										950153,
-										950154
+										950249,
+										950248,
+										950250
 									}
 								},
 								{
@@ -252,10 +226,8 @@ return {
 									index = 2,
 									switchType = 1,
 									setAI = 99990,
-									removeWeapon = {},
 									addWeapon = {
-										950157,
-										950159
+										950242
 									}
 								},
 								{
@@ -265,27 +237,23 @@ return {
 									switchTo = 4,
 									setAI = 10001,
 									removeWeapon = {
-										950159
+										950250
 									},
 									addWeapon = {
-										950158
+										950241,
+										950247
 									},
 									addBuff = {}
 								},
 								{
-									switchType = 1,
-									index = 4,
 									switchParam = 3,
 									switchTo = 5,
+									index = 4,
+									switchType = 1,
 									removeWeapon = {
-										950158
+										950241
 									},
-									addWeapon = {
-										950155,
-										950156
-									},
-									removeBuff = {},
-									addBuff = {}
+									addWeapon = {}
 								},
 								{
 									switchParam = 3,
@@ -294,48 +262,27 @@ return {
 									switchType = 1,
 									setAI = 99990,
 									addWeapon = {
-										950157,
-										950159
+										950241,
+										950250
 									}
 								},
 								{
 									switchParam = 1,
-									switchTo = 7,
+									switchTo = 8,
 									index = 6,
 									switchType = 1,
 									setAI = 10001,
 									removeWeapon = {
-										950157,
-										950159
-									}
-								},
-								{
-									switchType = 1,
-									switchTo = 8,
-									index = 7,
-									switchParam = 5,
-									addWeapon = {}
-								},
-								{
-									switchParam = 4,
-									switchTo = 9,
-									index = 8,
-									switchType = 1,
-									removeWeapon = {
-										950155,
-										950156
-									},
-									addWeapon = {
-										950151
+										950241
 									}
 								},
 								{
 									switchType = 1,
 									switchTo = 202,
-									index = 9,
-									switchParam = 3,
+									index = 8,
+									switchParam = 4,
 									addWeapon = {
-										950155
+										950247
 									}
 								},
 								{
@@ -344,7 +291,8 @@ return {
 									index = 202,
 									switchParam = 3,
 									removeWeapon = {
-										950151
+										950247,
+										950250
 									}
 								}
 							}

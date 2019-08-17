@@ -1117,6 +1117,47 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[70000] = {
+		map = 70000,
+		name = "Maritime Escort ",
+		bgm = "level",
+		type = 9,
+		on_activity = 0,
+		title = "CE",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 40,
+		uifx = "UIhuohua2",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "white",
+		bg = "Map_70000",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1040000] = {
 		map = 1040000,
 		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
@@ -3431,6 +3472,7 @@ pg.expedition_data_by_map = {
 		207,
 		208,
 		10000,
+		70000,
 		1040000,
 		1040001,
 		1040010,

@@ -55733,7 +55733,7 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201161] = {
-		name = "勇敢",
+		name = "Hardy",
 		type = 1,
 		personality = 2,
 		oxy_max = 0,
@@ -55861,7 +55861,7 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201162] = {
-		name = "勇敢",
+		name = "Hardy",
 		type = 1,
 		personality = 2,
 		oxy_max = 0,
@@ -55989,7 +55989,7 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201163] = {
-		name = "勇敢",
+		name = "Hardy",
 		type = 1,
 		personality = 2,
 		oxy_max = 0,
@@ -56117,7 +56117,7 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201164] = {
-		name = "勇敢",
+		name = "Hardy",
 		type = 1,
 		personality = 2,
 		oxy_max = 0,
@@ -56245,7 +56245,7 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201201] = {
-		name = "猎人",
+		name = "Hunter",
 		type = 1,
 		personality = 2,
 		oxy_max = 0,
@@ -56373,7 +56373,7 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201202] = {
-		name = "猎人",
+		name = "Hunter",
 		type = 1,
 		personality = 2,
 		oxy_max = 0,
@@ -56501,7 +56501,7 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201203] = {
-		name = "猎人",
+		name = "Hunter",
 		type = 1,
 		personality = 2,
 		oxy_max = 0,
@@ -56629,7 +56629,7 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[201204] = {
-		name = "猎人",
+		name = "Hunter",
 		type = 1,
 		personality = 2,
 		oxy_max = 0,
@@ -129289,6 +129289,518 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[307071] = {
+		name = "Taihou",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 307071,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Taihō",
+		skin_id = 307070,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1240,
+			0,
+			0,
+			60,
+			76,
+			44,
+			0,
+			28,
+			13,
+			33.3,
+			36,
+			0
+		},
+		attrs_growth = {
+			30250,
+			0,
+			0,
+			1180,
+			750,
+			220,
+			0,
+			420,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"S"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.25,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[307072] = {
+		name = "Taihou",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 307072,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Taihō",
+		skin_id = 307070,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1543,
+			0,
+			0,
+			75,
+			95,
+			44,
+			0,
+			28,
+			13,
+			33.3,
+			36,
+			0
+		},
+		attrs_growth = {
+			30250,
+			0,
+			0,
+			1180,
+			750,
+			220,
+			0,
+			420,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"S"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.3,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[307073] = {
+		name = "Taihou",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 307073,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Taihō",
+		skin_id = 307070,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			2148,
+			0,
+			0,
+			104,
+			132,
+			44,
+			0,
+			28,
+			13,
+			33.3,
+			36,
+			0
+		},
+		attrs_growth = {
+			30250,
+			0,
+			0,
+			1180,
+			750,
+			220,
+			0,
+			420,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"S"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.3,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[307074] = {
+		name = "Taihou",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 307074,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Taihō",
+		skin_id = 307070,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			3055,
+			0,
+			0,
+			149,
+			189,
+			44,
+			0,
+			28,
+			13,
+			33.3,
+			36,
+			0
+		},
+		attrs_growth = {
+			30250,
+			0,
+			0,
+			1180,
+			750,
+			220,
+			0,
+			420,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			12096,
+			0,
+			0,
+			592,
+			1202,
+			515,
+			0,
+			0,
+			762,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"S"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.3,
+			1.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[307091] = {
 		name = "Akagi-chan ",
 		type = 7,
@@ -160507,6 +161019,518 @@ pg.ship_data_statistics = {
 		equipment_proficiency = {
 			1.15,
 			1.4,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[801031] = {
+		name = "Le Téméraire",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 801031,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "FFNF Le Téméraire",
+		skin_id = 801030,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			253,
+			17,
+			75,
+			32,
+			0,
+			70,
+			0,
+			69,
+			70,
+			42,
+			41,
+			46
+		},
+		attrs_growth = {
+			6180,
+			172,
+			738,
+			632,
+			0,
+			350,
+			0,
+			1020,
+			1032,
+			0,
+			0,
+			456
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"B",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[801032] = {
+		name = "Le Téméraire",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 801032,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "FFNF Le Téméraire",
+		skin_id = 801030,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			315,
+			21,
+			93,
+			40,
+			0,
+			70,
+			0,
+			69,
+			70,
+			42,
+			41,
+			57
+		},
+		attrs_growth = {
+			6180,
+			172,
+			738,
+			632,
+			0,
+			350,
+			0,
+			1020,
+			1032,
+			0,
+			0,
+			456
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"B",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[801033] = {
+		name = "Le Téméraire",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 801033,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "FFNF Le Téméraire",
+		skin_id = 801030,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			438,
+			30,
+			130,
+			56,
+			0,
+			70,
+			0,
+			69,
+			70,
+			42,
+			41,
+			80
+		},
+		attrs_growth = {
+			6180,
+			172,
+			738,
+			632,
+			0,
+			350,
+			0,
+			1020,
+			1032,
+			0,
+			0,
+			456
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"B",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.1,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[801034] = {
+		name = "Le Téméraire",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 801034,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "FFNF Le Téméraire",
+		skin_id = 801030,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			624,
+			43,
+			186,
+			79,
+			0,
+			70,
+			0,
+			69,
+			70,
+			42,
+			41,
+			114
+		},
+		attrs_growth = {
+			6180,
+			172,
+			738,
+			632,
+			0,
+			350,
+			0,
+			1020,
+			1032,
+			0,
+			0,
+			456
+		},
+		attrs_growth_extra = {
+			6170,
+			406,
+			1206,
+			426,
+			0,
+			828,
+			0,
+			-598,
+			-702,
+			0,
+			0,
+			448
+		},
+		grades = {
+			"C",
+			"B",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.15,
 			0.75
 		},
 		strategy_list = {},
@@ -193437,6 +194461,10 @@ pg.ship_data_statistics = {
 		307062,
 		307063,
 		307064,
+		307071,
+		307072,
+		307073,
+		307074,
 		307091,
 		307092,
 		307093,
@@ -193634,6 +194662,10 @@ pg.ship_data_statistics = {
 		801022,
 		801023,
 		801024,
+		801031,
+		801032,
+		801033,
+		801034,
 		802011,
 		802012,
 		802013,

@@ -144,7 +144,7 @@ function slot8.InitData(slot0, slot1)
 	slot0:InitStageData()
 
 	slot0._cldSystem = slot3.Battle.BattleCldSystem.New(slot0)
-	slot0._cameraUtil = slot3.Battle.BattleCameraUtil:GetInstance()
+	slot0._cameraUtil = slot3.Battle.BattleCameraUtil.GetInstance()
 end
 
 function slot8.initCommanderBuff(slot0)

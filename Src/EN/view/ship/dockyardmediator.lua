@@ -118,7 +118,7 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:setShips(slot3.shipsById)
 	elseif slot2 == GAME.DESTROY_SHIP_DONE then
 		if not pg.m02:hasMediator(ShipMainMediator.__cname) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("ship_dockyardMediator_destroy"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_dockyardMediator_destroy"))
 		end
 
 		for slot7, slot8 in ipairs(slot3.destroiedShipIds) do

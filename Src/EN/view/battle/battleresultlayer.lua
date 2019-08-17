@@ -109,8 +109,8 @@ function slot0.init(slot0)
 	slot0._subExpContainer = slot0:findTF("expContainer", slot0._subExpResult)
 	slot0._subToggle = slot0:findTF("switchFleet", slot0._leftPanel)
 	slot0._skipBtn = slot0:findTF("skipLayer", slot0._tf)
-	slot0.UIMain = pg.UIMgr:GetInstance().UIMain
-	slot0.overlay = pg.UIMgr:GetInstance().OverlayMain
+	slot0.UIMain = pg.UIMgr.GetInstance().UIMain
+	slot0.overlay = pg.UIMgr.GetInstance().OverlayMain
 	slot0._conditions = slot0:findTF("main/conditions")
 	slot0._conditionContainer = slot0:findTF("bg16/list", slot0._conditions)
 	slot0._conditionTpl = slot0:findTF("bg16/conditionTpl", slot0._conditions)

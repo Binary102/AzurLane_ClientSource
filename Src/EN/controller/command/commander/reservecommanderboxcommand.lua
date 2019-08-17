@@ -2,7 +2,7 @@ class("ReserveCommanderBoxCommand", pm.SimpleCommand).execute = function (slot0,
 	slot3 = slot1:getBody().count
 
 	if getProxy(CommanderProxy).getBoxUseCnt(slot4) == CommanderConst.MAX_GETBOX_CNT then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("commander_reserve_count_is_max"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("commander_reserve_count_is_max"))
 
 		return
 	end
@@ -15,7 +15,7 @@ class("ReserveCommanderBoxCommand", pm.SimpleCommand).execute = function (slot0,
 	end
 
 	if slot7.gold < slot8 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_resource"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
 	end
@@ -45,7 +45,7 @@ class("ReserveCommanderBoxCommand", pm.SimpleCommand).execute = function (slot0,
 				awards = slot1
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_lock_erro", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_lock_erro", slot0.result))
 		end
 	end)
 end

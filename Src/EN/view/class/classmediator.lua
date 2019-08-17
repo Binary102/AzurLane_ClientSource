@@ -40,7 +40,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.CLASS_UPGRADE, function (slot0, slot1)
 		if slot0:getData().level < slot1:bindConfigTable()[slot1:GetLevel()].user_level then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_limit_level", slot4))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_limit_level", slot4))
 
 			return
 		end

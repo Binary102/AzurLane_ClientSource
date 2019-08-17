@@ -2254,43 +2254,28 @@ pg.gametip = {
 			},
 			{
 				info = [[
-1. Each cell of the Coloring Book is marked with a number 
-that corresponds to the paint color of the same number. 
-Select the paint color from the palette on the right and 
-click on the cell to color it. 
-2. The drawing area can be zoomed in and out by stretching 
-or pinching with two fingers. 
-3. All adjacent cells with the same number will be 
-automatically colored until the cells are filled in or there is 
-no paint of that color left. 
-4. Coloring each cell will consume paint. If no paint is left, 
-no more cells may be colored. 
-5. Paint can be obtained by completing event missions to 
-consume a total amount of oil. 
+1. Each cell of the Coloring Book is marked with a number that corresponds to the paint color of the same number. Select the paint color from the palette on the right and click on the cell to color it. 
+2. The drawing area can be zoomed in and out by stretching or pinching with two fingers. 
+3. All adjacent cells with the same number will be automatically colored until the cells are filled in or there is no paint of that color left. 
+4. Coloring each cell will consume paint. If no paint is left, no more cells may be colored. 
+5. Paint can be obtained by completing event missions to consume a total amount of oil. 
 6. Completing pages in the Coloring Book will grant rewards. 
 7. The rewards for completing each page are as follows: 
-	 Complete Page 1: Random skill book T3 x1, Dice x3. 
-	 Complete Page 2: Random skill book T3 x2, Dice x3. 
-	 Complete Page 3: Random skill book T3 x3, Dice x3. 
-	 Complete Page 4: Main gun blueprint T3 x2, Dice x2. 
-	 Complete Page 5: Main gun blueprint T3 x3, Dice x2. 
-	 Complete Page 6: General blueprint T3 x3, Dice x2. 
-	 Complete Page 7: General blueprint T3 x3 
-	 Complete Page 8: Anshan x1, Dice x1. 
-8. Unlock an extra blank drawing page after completing the 
-first 8 pages in the Coloring Book. 
-9. There are no restrictions on which colors can be used in 
-the blank coloring page, and no paint will be consumed. 
-10. The "Eraser" and "Clear All" functions can be used on 
-the extra blank page. 
+	 Complete Page 1: Podium. 
+	 Complete Page 2: Random skill book T3 x1. 
+	 Complete Page 3: Candy Trolley. 
+	 Complete Page 4: T3 General Part x2. 
+	 Complete Page 5: Floaty Balloons. 
+	 Complete Page 6: T3 General Part x3. 
+	 Complete Page 7: Albacore. 
+8. Unlock an extra blank drawing page after completing the first 8 pages in the Coloring Book. 
+9. There are no restrictions on which colors can be used in the blank coloring page, and no paint will be consumed. 
+10. The "Eraser" and "Clear All" functions can be used on the extra blank page. 
 11. The "Eraser" tool can erase a single cell. 
-12. The "Clear All" function will erase all colored cells on 
-the extra page. 
+12. The "Clear All" function will erase all colored cells on the extra page. 
 13. After the event ends, all unused paint will be removed. 
-14. Before February 7th, a new page will be unlocked every
- day. 
-15. The soonest the extra blank page can be unlocked is 
-February 8th.]]
+14. Before August 21th, a new page will be unlocked every day. 
+15. The soonest the extra blank page can be unlocked is August 22th.]]
 			}
 		}
 	},
@@ -3001,6 +2986,39 @@ February 8th.]]
 	levelScene_escort_lose = {
 		tip = "The transport ship has taken critical damage. Escort mission failed.",
 		key = "levelScene_escort_lose"
+	},
+	levelScene_escort_help_tip = {
+		key = "levelScene_escort_help_tip",
+		tip = {
+			{
+				info = "About Maritime Escort:"
+			},
+			{
+				info = "1. This game mode will be available from August 15th to September 4th"
+			},
+			{
+				info = "2. In this game mode, you'll play on a map where your goal is to neutralize the sea mines and enemy fleets in your way and escort the Transport Ship to its destination."
+			},
+			{
+				info = "3. You can run Maritime Escort once a day. Your daily attempt will be spent once you start the run. There are 3 difficulties available: Easy, Normal, and Hard."
+			},
+			{
+				info = "4. Each time your fleet moves on the map, the Transport Ship will move 1 tile towards its destination."
+			},
+			{
+				info = "5. If an enemy fleet engages the Transport Ship, it will take a hit and come to a stop. Until you intervene and defeat the enemy fleet, the Transport Ship will take a hit again after each turn your fleet makes."
+			},
+			{
+				info = "6. If the Transport Ship comes in contact with a sea mine, it will take 2 hits. If your fleet comes in contact with a sea mine, all ships in the fleet will lose a bit of HP. This can be avoided if your fleet has a destroyer, in which case it will neutralize the mine and the fleet won't take damage."
+			},
+			{
+				info = "7. What rewards you receive at the end of the run will depend on how many hits the Transport Ship took. The fewer hits it took, the better the rewards."
+			}
+		}
+	},
+	levelScene_escort_retreat = {
+		tip = "Would you like to retreat and end this Maritime Escort run?\nYour daily run will NOT be refunded.\nYou will still receive some rewards. ",
+		key = "levelScene_escort_retreat"
 	},
 	levelScene_oni_retreat = {
 		tip = "Commander, you will not be rewarded from Grand Capture if you retreat. \n (Still considered a victory for this stage) ",
@@ -7298,6 +7316,10 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		tip = "尚未完成",
 		key = "not yet completed"
 	},
+	escort_less_count_to_combat = {
+		tip = "You cannot run this any more today. ",
+		key = "escort_less_count_to_combat"
+	},
 	level_risk_level_desc = {
 		tip = " $1\n\n",
 		key = "level_risk_level_desc"
@@ -7956,6 +7978,62 @@ Fate Simulation:
 			}
 		}
 	},
+	anniversary_task_title_1 = {
+		tip = "Commander, I still clearly remember the way the birds chirped when our eyes first met.",
+		key = "anniversary_task_title_1"
+	},
+	anniversary_task_title_2 = {
+		tip = "Though things were a bit rough at first, you strove, strategized, and sometimes even wished your way towards success.",
+		key = "anniversary_task_title_2"
+	},
+	anniversary_task_title_3 = {
+		tip = "Before I met you, I felt alone in the world, almost crushed by the bleakness of reality.",
+		key = "anniversary_task_title_3"
+	},
+	anniversary_task_title_4 = {
+		tip = "But now, when I think about your smile in the first rays of the dawn, I am inspired to sing about the future yet to come.",
+		key = "anniversary_task_title_4"
+	},
+	anniversary_task_title_5 = {
+		tip = "Though the road ahead of me will be treacherous, there is only one direction that I can go now.",
+		key = "anniversary_task_title_5"
+	},
+	anniversary_task_title_6 = {
+		tip = "The possibilities of the world branch out before my eyes. As I walk, I find myself where I started again and again.",
+		key = "anniversary_task_title_6"
+	},
+	anniversary_task_title_7 = {
+		tip = "But I believe that the light of dawn will not abandon me. I know that I will be able to find my way to your side.",
+		key = "anniversary_task_title_7"
+	},
+	anniversary_task_title_8 = {
+		tip = "As I wandered, there were those that mocked me for being silly or directionless.",
+		key = "anniversary_task_title_8"
+	},
+	anniversary_task_title_9 = {
+		tip = "But someone grabbed onto my hand, perhaps feeling sorry for my helplessness. She became my first friend.",
+		key = "anniversary_task_title_9"
+	},
+	anniversary_task_title_10 = {
+		tip = "As I slowly opened up to her, she painstakingly etched my story into her picture book.",
+		key = "anniversary_task_title_10"
+	},
+	anniversary_task_title_11 = {
+		tip = "With her support, my heart began to thaw, and I started to grow again.",
+		key = "anniversary_task_title_11"
+	},
+	anniversary_task_title_12 = {
+		tip = "More and more people are cheering me on now. I don't want to show them my tears anymore.",
+		key = "anniversary_task_title_12"
+	},
+	anniversary_task_title_13 = {
+		tip = "I can already see your shadow ahead of me. With just a few more steps, I'll be able to reach you at last.",
+		key = "anniversary_task_title_13"
+	},
+	anniversary_task_title_14 = {
+		tip = "I can't wait until I can see you once more. When the birds resume their song once more...",
+		key = "anniversary_task_title_14"
+	},
 	help_sos = {
 		key = "help_sos",
 		tip = {
@@ -8355,6 +8433,10 @@ with Anti-Sub gear.
 		tip = "You can only equip 1 Unique gear piece. ",
 		key = "ship_equip_same_group_equipment"
 	},
+	summary_page_un_rearch = {
+		tip = "Unclaimed ",
+		key = "summary_page_un_rearch"
+	},
 	pay_cancel = {
 		tip = "Cancel Payment",
 		key = "pay_cancel"
@@ -8492,7 +8574,7 @@ with Anti-Sub gear.
 		key = "airi_error_code_ 100818"
 	},
 	buildship_new_tip = {
-		tip = "Birmingham, Alabama, Baltimore, Aylwin are increased during the event period.",
+		tip = "Rate Up characters: Essex, Taihou, and Le Téméraire",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -8650,6 +8732,10 @@ with Anti-Sub gear.
 	apply_permission_record_audio_tip3 = {
 		tip = "You refused to authorize Record permission, unable to use AR Recording game feature.",
 		key = "apply_permission_record_audio_tip3"
+	},
+	nine_choose_one = {
+		tip = "Your Invitation can only be used once.\nWould you like to invite <color=#92fc63>$1</color>?\nIf so, <color=#92fc63>$1</color> will join your fleet and you will receive a commemorative item. ",
+		key = "nine_choose_one"
 	},
 	story_skip_confirm = {
 		tip = "Are you sure you want to skip story cutscene? Skipped story scenes can be replayed in <color=#A1E400FF>Collection>Memories</COLOR>.",
@@ -9511,15 +9597,15 @@ From now till forever, our fates are bound together.
 		key = "change_display_medal_success"
 	},
 	limit_skin_time_day = {
-		tip = "Time remaining: $1 day(s)",
+		tip = "Time left: $1 day(s)",
 		key = "limit_skin_time_day"
 	},
 	limit_skin_time_day_min = {
-		tip = "Time remaining: $1 hour(s) and $2 minute(s)",
+		tip = "Time left: $1 hour(s)",
 		key = "limit_skin_time_day_min"
 	},
 	limit_skin_time_min = {
-		tip = "Time remaining: $1 minute(s)",
+		tip = "Time left: $1 minute(s)",
 		key = "limit_skin_time_min"
 	},
 	limit_skin_time_overtime = {
@@ -10032,6 +10118,10 @@ Would you like to change modes?]],
 	word_reward = {
 		tip = "Rewards",
 		key = "word_reward"
+	},
+	paint_hide_other_obj_tip = {
+		tip = "Hide background objects ",
+		key = "paint_hide_other_obj_tip"
 	}
 }
 

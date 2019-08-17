@@ -310,8 +310,8 @@ function slot0.initEvents(slot0)
 	slot0:bind(ShipViewConst.SWITCH_TO_PAGE, function (slot0, slot1)
 		slot0:gotoPage(slot1)
 	end)
-	slot0:bind(ShipViewConst.LOAD_PAINTING, function (slot0, slot1)
-		slot0:loadPainting(slot1)
+	slot0:bind(ShipViewConst.LOAD_PAINTING, function (slot0, slot1, slot2)
+		slot0:loadPainting(slot1, slot2)
 	end)
 	slot0:bind(ShipViewConst.LOAD_PAINTING_BG, function (slot0, slot1, slot2)
 		slot0:loadSkinBg(slot1, slot2, slot0.isSpBg)
@@ -977,34 +977,34 @@ function slot0.setPreOrNext(slot0, slot1)
 	return
 end
 
-function slot0.loadPainting(slot0, slot1)
+function slot0.loadPainting(slot0, slot1, slot2)
 	if slot0.isLoading == true then
 		return
 	end
 
-	for slot5, slot6 in pairs(slot0.tablePainting) do
-		slot6.localScale = Vector3(1, 1, 1)
+	for slot6, slot7 in pairs(slot0.tablePainting) do
+		slot7.localScale = Vector3(1, 1, 1)
 	end
 
-	if slot0.LoadShipVOId and slot0.LoadShipVOId == slot0.shipVO.id and slot0.LoadPaintingCode == slot1 then
+	if slot0.LoadShipVOId and not slot2 and slot0.LoadShipVOId == slot0.shipVO.id and slot0.LoadPaintingCode == slot1 then
 		return
 	end
 
-	slot2 = 0
+	slot3 = 0
 
 	if slot0.isRight then
-		slot2 = 1800
+		slot3 = 1800
 	else
-		slot2 = -1800
+		slot3 = -1800
 	end
 
 	slot0.isLoading = true
-	slot4 = slot0.paintingCode
+	slot5 = slot0.paintingCode
 
 	if slot0:getPaintingFromTable(false) then
-		LeanTween.cancel(go(slot6))
-		LeanTween.alphaCanvas(slot6, 0, 0.3):setFrom(1):setUseEstimatedTime(true)
-		LeanTween.moveX(slot5, -slot2, 0.3):setFrom(0):setOnComplete(System.Action(function ()
+		LeanTween.cancel(go(slot7))
+		LeanTween.alphaCanvas(slot7, 0, 0.3):setFrom(1):setUseEstimatedTime(true)
+		LeanTween.moveX(slot6, -slot3, 0.3):setFrom(0):setOnComplete(System.Action(function ()
 			retPaintingPrefab(retPaintingPrefab, )
 
 			retPaintingPrefab.isLoading = false
@@ -1013,32 +1013,32 @@ function slot0.loadPainting(slot0, slot1)
 		end))
 	end
 
-	slot5 = slot0:getPaintingFromTable(true)
+	slot6 = slot0:getPaintingFromTable(true)
 	slot0.paintingCode = slot1
 
-	if slot0.paintingCode and slot5 then
-		slot6 = slot5:GetComponent(typeof(RectTransform))
-		slot0.nowPainting = slot5
-		slot7 = setPaintingPrefabAsync
-		slot8 = slot5
-		slot9 = slot0.paintingCode
+	if slot0.paintingCode and slot6 then
+		slot7 = slot6:GetComponent(typeof(RectTransform))
+		slot0.nowPainting = slot6
+		slot8 = setPaintingPrefabAsync
+		slot9 = slot6
+		slot10 = slot0.paintingCode
 
 		if not slot0.paintingFrameName then
-			slot10 = "chuanwu"
+			slot11 = "chuanwu"
 		end
 
-		slot7(slot8, slot9, slot10, function ()
+		slot8(slot9, slot10, slot11, function ()
 			Ship.SetExpression(findTF(slot0, "fitter"):GetChild(0), slot1.paintingCode)
 
 			return
 		end)
-		LeanTween.cancel(go(slot6))
-		LeanTween.moveX(slot6, 0, 0.3):setFrom(slot2):setOnComplete(System.Action(function ()
+		LeanTween.cancel(go(slot7))
+		LeanTween.moveX(slot7, 0, 0.3):setFrom(slot3):setOnComplete(System.Action(function ()
 			slot0.isLoading = false
 
 			return
 		end))
-		LeanTween.alphaCanvas(slot7, 1, 0.3):setFrom(0):setUseEstimatedTime(true)
+		LeanTween.alphaCanvas(slot8, 1, 0.3):setFrom(0):setUseEstimatedTime(true)
 	end
 
 	slot0.LoadShipVOId = slot0.shipVO.id
@@ -1202,7 +1202,7 @@ function slot0.paintView(slot0)
 		slot3 = slot3 + 1
 	end
 
-	for slot8 = 1, tf(pg.UIMgr:GetInstance().OverlayMain).childCount, 1 do
+	for slot8 = 1, tf(pg.UIMgr.GetInstance().OverlayMain).childCount, 1 do
 		if slot4:GetChild(slot8 - 1).gameObject.activeSelf then
 			slot1[#slot1 + 1] = slot9
 

@@ -1326,51 +1326,51 @@ pg.skill_data_display = {
 	},
 	[11620] = {
 		id = 11620,
-		name = "命运之骰"
+		name = "Predestined Launch "
 	},
 	[11621] = {
 		id = 11621,
-		name = "群星之怒"
+		name = "Ryuusei's Descent"
 	},
 	[11622] = {
 		id = 11622,
-		name = "多彩祥云"
+		name = "Saiun's Foresight"
 	},
 	[11623] = {
 		id = 11623,
-		name = "复仇怨火"
+		name = "Suisei's Coruscation"
 	},
 	[11630] = {
 		id = 11630,
-		name = "重樱装母"
+		name = "Heavily Armored "
 	},
 	[11640] = {
 		id = 11640,
-		name = "善战之舰"
+		name = "Valorous Avengers "
 	},
 	[11641] = {
 		id = 11641,
-		name = "善战之舰"
+		name = "Valorous Avengers "
 	},
 	[11650] = {
 		id = 11650,
-		name = "航空阵列"
+		name = "Covering Formation "
 	},
 	[11651] = {
 		id = 11651,
-		name = "航空阵列"
+		name = "Covering Formation "
 	},
 	[11660] = {
 		id = 11660,
-		name = "绝对回避"
+		name = "Absolute Evasion "
 	},
 	[11670] = {
 		id = 11670,
-		name = "意外赠礼"
+		name = "Surpriiiiiiiise! "
 	},
 	[11680] = {
 		id = 11680,
-		name = "熟练的猎手"
+		name = "Experienced Hunter "
 	},
 	[11690] = {
 		id = 11690,
@@ -1382,7 +1382,7 @@ pg.skill_data_display = {
 	},
 	[11700] = {
 		id = 11700,
-		name = "猛进射击"
+		name = "Bold But Reckless "
 	},
 	[11710] = {
 		id = 11710,
@@ -1463,6 +1463,10 @@ pg.skill_data_display = {
 	[11900] = {
 		id = 11900,
 		name = "Protector of The North Passage"
+	},
+	[12040] = {
+		id = 12040,
+		name = "不安定的发明家"
 	},
 	[12050] = {
 		id = 12050,
@@ -3307,6 +3311,7 @@ pg.skill_data_display = {
 		11860,
 		11890,
 		11900,
+		12040,
 		12050,
 		12060,
 		12070,

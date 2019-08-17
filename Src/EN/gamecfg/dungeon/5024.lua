@@ -1,5 +1,5 @@
 return {
-	id = 5014,
+	id = 5024,
 	bgm = "battle-boss-tiancheng",
 	stages = {
 		{
@@ -51,7 +51,7 @@ return {
 					},
 					spawn = {
 						{
-							monsterTemplateID = 900006,
+							monsterTemplateID = 900016,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
@@ -61,7 +61,7 @@ return {
 							},
 							bossData = {
 								hpBarNum = 50,
-								icon = "tiancheng"
+								icon = "changmen"
 							},
 							phase = {
 								{
@@ -71,7 +71,8 @@ return {
 									switchType = 1,
 									setAI = 10001,
 									addWeapon = {
-										950112
+										950269,
+										950260
 									}
 								},
 								{
@@ -80,7 +81,7 @@ return {
 									index = 1,
 									switchParam = 2,
 									addWeapon = {
-										950113
+										950261
 									}
 								},
 								{
@@ -89,7 +90,8 @@ return {
 									index = 2,
 									switchParam = 0.5,
 									removeWeapon = {
-										950113
+										950261,
+										950260
 									}
 								},
 								{
@@ -98,9 +100,9 @@ return {
 									index = 3,
 									switchParam = 1,
 									addWeapon = {
-										950114,
-										950115,
-										950116
+										950262,
+										950263,
+										950264
 									}
 								},
 								{
@@ -109,21 +111,24 @@ return {
 									index = 4,
 									switchType = 1,
 									setAI = 90029,
-									addWeapon = {
-										950121
-									},
 									removeWeapon = {
-										950114
+										950262,
+										950263,
+										950264
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 2,
 									switchTo = 7,
 									index = 6,
-									switchParam = 2,
+									switchType = 1,
 									addWeapon = {
 										950113,
 										950119
+									},
+									removeWeapon = {
+										950263,
+										950264
 									}
 								},
 								{
@@ -143,7 +148,7 @@ return {
 									index = 8,
 									switchParam = 4,
 									addWeapon = {
-										950120
+										950265
 									}
 								},
 								{
@@ -152,7 +157,7 @@ return {
 									index = 9,
 									switchParam = 1,
 									removeWeapon = {
-										950116
+										950265
 									}
 								},
 								{
@@ -162,22 +167,25 @@ return {
 									switchType = 1,
 									setAI = 90029,
 									addWeapon = {
-										950121
-									},
-									removeWeapon = {
-										950115,
-										950120
+										950266,
+										950267,
+										950268
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 7,
 									switchTo = 114,
 									index = 11,
-									switchParam = 7,
+									switchType = 1,
+									removeWeapon = {
+										950266,
+										950267,
+										950268
+									},
 									addWeapon = {
-										950117,
-										950118,
-										950119
+										950262,
+										950263,
+										950264
 									}
 								},
 								{
@@ -187,14 +195,9 @@ return {
 									switchType = 1,
 									setAI = 10001,
 									removeWeapon = {
-										950117,
-										950118,
-										950115,
-										950119,
-										950121
-									},
-									addWeapon = {
-										950115
+										950262,
+										950263,
+										950264
 									}
 								}
 							}
@@ -215,7 +218,7 @@ return {
 					},
 					spawn = {
 						{
-							monsterTemplateID = 900006,
+							monsterTemplateID = 900016,
 							reinforceDelay = 6,
 							delay = 0,
 							moveCast = true,
@@ -226,7 +229,7 @@ return {
 							},
 							bossData = {
 								hpBarNum = 50,
-								icon = "tiancheng"
+								icon = "changmen"
 							},
 							phase = {
 								{
@@ -236,7 +239,8 @@ return {
 									switchType = 1,
 									setAI = 10001,
 									addWeapon = {
-										950112
+										950269,
+										950260
 									}
 								},
 								{
@@ -245,7 +249,7 @@ return {
 									index = 1,
 									switchParam = 2,
 									addWeapon = {
-										950113
+										950261
 									}
 								},
 								{
@@ -254,7 +258,8 @@ return {
 									index = 2,
 									switchParam = 0.5,
 									removeWeapon = {
-										950113
+										950261,
+										950260
 									}
 								},
 								{
@@ -263,9 +268,9 @@ return {
 									index = 3,
 									switchParam = 1,
 									addWeapon = {
-										950114,
-										950115,
-										950116
+										950262,
+										950263,
+										950264
 									}
 								},
 								{
@@ -274,21 +279,24 @@ return {
 									index = 4,
 									switchType = 1,
 									setAI = 90029,
-									addWeapon = {
-										950121
-									},
 									removeWeapon = {
-										950114
+										950262,
+										950263,
+										950264
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 2,
 									switchTo = 7,
 									index = 6,
-									switchParam = 2,
+									switchType = 1,
 									addWeapon = {
 										950113,
 										950119
+									},
+									removeWeapon = {
+										950263,
+										950264
 									}
 								},
 								{
@@ -308,7 +316,7 @@ return {
 									index = 8,
 									switchParam = 4,
 									addWeapon = {
-										950120
+										950265
 									}
 								},
 								{
@@ -317,7 +325,7 @@ return {
 									index = 9,
 									switchParam = 1,
 									removeWeapon = {
-										950116
+										950265
 									}
 								},
 								{
@@ -327,22 +335,25 @@ return {
 									switchType = 1,
 									setAI = 90029,
 									addWeapon = {
-										950121
-									},
-									removeWeapon = {
-										950115,
-										950120
+										950266,
+										950267,
+										950268
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 7,
 									switchTo = 114,
 									index = 11,
-									switchParam = 7,
+									switchType = 1,
+									removeWeapon = {
+										950266,
+										950267,
+										950268
+									},
 									addWeapon = {
-										950117,
-										950118,
-										950119
+										950262,
+										950263,
+										950264
 									}
 								},
 								{
@@ -352,14 +363,9 @@ return {
 									switchType = 1,
 									setAI = 10001,
 									removeWeapon = {
-										950117,
-										950118,
-										950115,
-										950119,
-										950121
-									},
-									addWeapon = {
-										950115
+										950262,
+										950263,
+										950264
 									}
 								}
 							}

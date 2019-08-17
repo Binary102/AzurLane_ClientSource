@@ -407,7 +407,7 @@ function slot0.updateAward(slot0, slot1)
 	if not slot2 then
 		onButton(slot0, slot0.awardIcon, function ()
 			if not slot0 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("memorybook_get_award_tip"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("memorybook_get_award_tip"))
 			else
 				slot1:emit(MemoryBookMediator.EVENT_OPERATION, {
 					cmd = 1,

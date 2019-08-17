@@ -13,7 +13,7 @@ function ys.Battle.BattleBuffShieldWall.SetArgs(slot0, slot1, slot2)
 	slot0._bulletType = slot0._tempData.arg_list.bulletType or slot0.Battle.BattleConst.BulletType.CANNON
 	slot0._doWhenHit = slot3.do_when_hit
 	slot0._unit = slot1
-	slot0._dataProxy = slot0.Battle.BattleDataProxy:GetInstance()
+	slot0._dataProxy = slot0.Battle.BattleDataProxy.GetInstance()
 	slot0._centerPos = slot1:GetPosition()
 	slot0._startTime = pg.TimeMgr.GetInstance():GetCombatTime()
 
@@ -113,7 +113,7 @@ end
 function ys.Battle.BattleBuffShieldWall.DoWhenHit(slot0, slot1)
 	if slot0._doWhenHit == "intercept" then
 		slot1:Intercepted()
-		slot0.Battle.BattleDataProxy:GetInstance():RemoveBulletUnit(slot1:GetUniqueID())
+		slot0.Battle.BattleDataProxy.GetInstance():RemoveBulletUnit(slot1:GetUniqueID())
 
 		slot0._count = slot0._count - 1
 	elseif slot0._doWhenHit == "reflect" and slot0:GetIFF() ~= slot1:GetIFF() then

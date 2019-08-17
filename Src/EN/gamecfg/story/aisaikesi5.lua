@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"前辈与心结\n\n<size=45>五　心结·上</size>",
+					"Enterprise Troubles\n\n<size=45>Chapter 5: Knots of the Heart, Pt. 1</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "Port - Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "从上次演习以来，埃塞克斯的样子都有些怪怪的",
+			say = "Ever since the training exercise, Essex hadn't quite been herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "是时候约她出来聊聊了……",
+			say = "Perhaps it was time to do something about this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "欸？作为平时的感谢，假日一起去哪里逛逛？",
+			say = "Huh? You'd like to take me somewhere to thank me for my service?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "只是秘书舰分内的事情，没有什么值得道谢的地方…",
+			say = "I'm just doing my job as secretary... there's no need to go out of the way to thank me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			},
 			options = {
 				{
-					content = "强烈请求",
+					content = "Ask her earnestly",
 					flag = 1
 				}
 			}
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "既、既然指挥官都说到这份上了…",
+			say = "F-fine, since you're being so insistent...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			stopbgm = true,
 			dir = 1,
 			bgName = "star_level_bg_105",
-			say = "假日，和埃塞克斯来到港区周边闲逛",
+			say = "On our next day off, I took Essex into town not far from the port.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -173,7 +173,7 @@ return {
 			bgm = "story-1",
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "感觉除了地点不一样以外，和平时的巡逻差不多呢…",
+			say = "This doesn't feel much different from our usual patrols, just in a different location.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "嗯？指挥官有话要说吗？",
+			say = "Ah, surely you have some specific instructions in mind?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问对企业的看法。",
+					content = "\"How do you feel about Enterprise?\"",
 					flag = 1
 				}
 			}
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "企业前辈吗……",
+			say = "How I feel about Enterprise...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前辈是白鹰的传奇和英雄，一直是大家尊敬和憧憬的对象。也是我努力的目标",
+			say = "Well, she's the legendary hero of the Eagle Union, after all. Everyone admires and respects her, and she's my role model.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然我们这一级自诞生起就备受期待，但…果然还是比不上经历过无数战役的前辈",
+			say = "Even though everyone has always had high expectations for the Essex-class, our specifications are just numbers compared to Enterprise's countless battles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以我一直想要胜过前辈，想要得到前辈的认可",
+			say = "That's why I've always wanted to beat her - to prove my own worth and finally gain recognition.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "上次的演习，虽然结果是平局，但是…我怎么想都觉得很奇怪",
+			say = "Though I managed to fight her to a draw during the mock battle, I still feel unsatisfied...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前辈一定是还是把我当成了需要呵护的后辈，所以才没有使出全力吧",
+			say = "Surely she was holding back because she still saw me as her junior and didn't want to hurt my pride.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我还是不够强大，不足以得到前辈的认可……",
+			say = "I'm not strong enough to earn the recognition of the others, after all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！决定了呢！接下来也要加紧训练！",
+			say = "Mhm, that settles it! I'll just have to train harder when we get back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总有一天，我会超过前辈，得到前辈…不，得到所有人的认可的——",
+			say = "Then, one day, I'll pass up Enterprise and earn her - no, everyone's recognition...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			stopbgm = true,
-			say = "不是那样的",
+			say = "You're wrong about that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			blackBg = true,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "欸？前、前辈？",
+			say = "E-Enterprise?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

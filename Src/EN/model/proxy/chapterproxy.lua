@@ -123,7 +123,7 @@ function slot0.register(slot0)
 							return slot0.row == slot0.row and slot0.column == slot0.column
 						end) then
 							if slot2.flag == 3 and slot1.flag == 4 and pg.map_event_template[slot2.attachmentId].gametip ~= "" then
-								pg.TipsMgr:GetInstance():ShowTips(i18n(slot3))
+								pg.TipsMgr.GetInstance():ShowTips(i18n(slot3))
 							end
 
 							slot2.attachment = slot1.attachment

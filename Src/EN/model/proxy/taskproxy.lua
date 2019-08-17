@@ -24,7 +24,7 @@ function slot0.register(slot0)
 					slot0.finishData[slot6.id] = slot6
 				end
 			else
-				pg.TipsMgr:GetInstance():ShowTips(i18n("task_notfound_error") .. tostring(slot5.id))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("task_notfound_error") .. tostring(slot5.id))
 				Debugger.LogWarning("Missing Task Config, id :" .. tostring(slot5.id))
 			end
 		end
@@ -90,7 +90,7 @@ function slot0.addTask(slot0, slot1)
 	end
 
 	if slot1:getConfigTable() == nil then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("task_notfound_error") .. tostring(slot1.id))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("task_notfound_error") .. tostring(slot1.id))
 		Debugger.LogWarning("Missing Task Config, id :" .. tostring(slot1.id))
 
 		return

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"“献身”的{namecode:97}\n\n<size=45>五 劲敌(?)相遇</size>",
+					"Taihou, Body and Soul\n\n<size=45>Chapter 5: A Mighty(?) Clash</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "和秘书舰{namecode:97}正在日常的巡逻工作中",
+			say = "I was out patrolling the base with my secretary ship Taihou.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "啊，{namecode:91}前辈、{namecode:92}前辈，你们好",
+			say = "Oh, hello, Akagi, Kaga.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，是{namecode:97}啊。和指挥官在进行日常巡逻吗，辛苦了",
+			say = "Hm. Taihou. Making the rounds with the Commander? How diligent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "指挥官大人~还有{namecode:97}吗，啧——了",
+			say = "Commaaaanderrr~ And Taihou? Tch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = -1,
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "呵、呵呵、呵呵呵……一段时间没注意，指挥官大人身边又多了不少“害虫”呢",
+			say = "Aha! Ahahaha! Ahahahahahaaa! I look away for how long, and the Commander's already covered in pesky little vermin?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "看来有必要再安排一次“扫除”了——",
+			say = "Looks like it's time for yet another round of \"pest control.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "仿佛看到{namecode:91}身上冒出了红黑色的火焰…然而",
+			say = "Crimson flames started to lick upward from Akagi's body... Until,",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			stopbgm = true,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "（噗哟)——手臂感受到柔软的触感，大、{namecode:97}？",
+			say = "(Smush)... I felt an incredible softness enveloping my arm. It was Taihou?",
 			dir = 1,
 			soundeffect = "event:/ui/boat_drag",
 			typewriter = {
@@ -169,7 +169,7 @@ return {
 			bgm = "story-1",
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "真是遗憾，现在在指挥官身边的，是{namecode:97}呢~{namecode:91}前·辈",
+			say = "Isn't it a shame, Akagi, that it's me, Taihou, at my Commander's side? Hmm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "放心吧，{namecode:97}会代替{namecode:91}前辈，把指挥官大人身边的“害虫”全~~部驱除干净的！",
+			say = "Oh but don't you worry. I'm doing a fine job in your place, Akagi. I've checked every inch of my Commander's body for \"vermin.\" I've licked clean every~ nook~ and~ cranny~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			}
 		},
 		{
-			say = "你这小丫头……私下配指挥官房间的钥匙然后每天晚上图谋夜袭的就是你吧……",
+			say = "Why you little... You're the one who copied the Commander's key! It's you who's been sneaking into that room every night to do heaven knows what...",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "呵呵呵，{namecode:91}前辈你不也是威胁{namecode:98}把指挥官出差时的便当材料全都换成了自己的？",
+			say = "Hehehe. Wasn't it you who threatened Akashi into letting you replace all my Commander's lunches with your own \"special ingredients\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "仿佛看到两人的视线碰撞出了火花…同时，手臂感受到的力道越来越重，大、{namecode:97}？！",
+			say = "The tension between the two of them was palpable, and Taihou's grip on my arm was getting tighter and tighter. I had completely lost my forearm to the softness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官也…辛苦了呢",
+			say = "Ummm, Commander...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "感受到了一旁{namecode:92}投来的同情目光——",
+			say = "At least Kaga was looking out for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "呵呵呵，能像这样和指挥官比肩同行……",
+			say = "Ahahahaa! To get to walk like this arm in arm with my Commander...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:97}是世界上最幸福的人呢~",
+			say = "I am truly the happiest girl alive!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "{namecode:97}今天心情很好的样子",
+			say = "She certainly seemed jovial.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "{namecode:97}作为秘书舰照顾指挥官，指挥官随心所欲的做好自己的事",
+			say = "To serve as your secretary, to give you the freedom to do whatever you want,",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总有一天{namecode:97}也好、指挥官也好，都能有所收获的吧~",
+			say = "I'm sure this is the way to earn our just rewards, for you and I both, my Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "再也不会重蹈那时候的——",
+			say = "And that's how we ensure something like what happened back then, that will never happen again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "对{namecode:97}来说作为秘书舰照顾自己似乎有着特别的意义",
+			say = "It turned out this secretary ship job had a very special meaning for Taihou.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -170,7 +170,7 @@ function slot0.flushCollection(slot0, slot1)
 			if slot2.star < slot1:getStar() and slot1:getStar() == pg.fleet_tech_ship_template[slot1.groupId].max_star then
 				slot3 = true
 
-				pg.ToastMgr:GetInstance():ShowToast(pg.ToastMgr.TYPE_TECPOINT, {
+				pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_TECPOINT, {
 					point = pg.fleet_tech_ship_template[slot1.groupId].pt_upgrage
 				})
 			end
@@ -178,7 +178,7 @@ function slot0.flushCollection(slot0, slot1)
 			if slot2.maxLV < slot1.level and slot1.level == TechnologyConst.MAX_LV then
 				slot3 = true
 
-				pg.ToastMgr:GetInstance():ShowToast(pg.ToastMgr.TYPE_TECPOINT, {
+				pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_TECPOINT, {
 					point = pg.fleet_tech_ship_template[slot1.groupId].pt_level,
 					typeList = pg.fleet_tech_ship_template[slot1.groupId].add_level_shiptype,
 					attr = pg.fleet_tech_ship_template[slot1.groupId].add_level_attr,
@@ -255,7 +255,7 @@ function slot0.updateTrophy(slot0)
 end
 
 function slot0.dispatchClaimRemind(slot0, slot1)
-	pg.ToastMgr:GetInstance():ShowToast(pg.ToastMgr.TYPE_TROPHY, {
+	pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_TROPHY, {
 		id = slot1
 	})
 end

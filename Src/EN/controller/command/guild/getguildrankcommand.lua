@@ -2,7 +2,7 @@ class("GetGuildRankCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot2 = slot1:getBody()
 
 	if not getProxy(GuildProxy):getGuildEvent() or slot4:isEnd() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 		return
 	end

@@ -44,7 +44,7 @@ class("BYFurnitureCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				slot4:changeFurniturePos(slot13, (slot6.dir ~= 2 or Vector2(slot9.x + slot14.y, slot9.y + slot14.x)) and Vector2(slot9.x + slot14.x, slot9.y + slot14.y))
 			end
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_backyardScene_error_canNotRotate"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardScene_error_canNotRotate"))
 		end
 	else
 		if slot3 == BACKYARD.FURNITURE_POS_CHANGE then

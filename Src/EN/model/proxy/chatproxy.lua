@@ -35,7 +35,7 @@ end
 function slot0.register(slot0)
 	slot0:on(50101, function (slot0)
 		if slot0.type == ChatConst.CODE_BANED then
-			pg.TipsMgr:GetInstance():ShowTips(slot0.content)
+			pg.TipsMgr.GetInstance():ShowTips(slot0.content)
 		elseif slot0.type == ChatConst.CODE_GUILDBOSS_OPEN then
 			slot0:sendNotification(GAME.BOSS_EVENT_START)
 		elseif slot0.type == ChatConst.CODE_ACTOBSS_MSG_WORD then
@@ -97,7 +97,7 @@ function slot0.addNewMsg(slot0, slot1)
 
 		_.each(slot1.args, function (slot0)
 			if slot0.string then
-				pg.TipsMgr:GetInstance():ShowTips(slot0.string)
+				pg.TipsMgr.GetInstance():ShowTips(slot0.string)
 			end
 		end)
 	else

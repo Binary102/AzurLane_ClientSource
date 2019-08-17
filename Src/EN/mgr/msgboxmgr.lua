@@ -78,9 +78,8 @@ function slot2(slot0, slot1)
 		slot1._tf = slot2
 		slot1 = slot1
 		slot1 = slot1.UIMgr
-		slot2 = slot1
 		slot1 = slot1.GetInstance
-		slot1 = slot1(slot2)
+		slot1 = slot1()
 		slot1 = slot1.OverlayMain
 		slot2 = slot0
 		slot2 = slot2._go
@@ -1651,7 +1650,7 @@ function slot7(slot0, slot1)
 		slot13 = DROP_TYPE_RESOURCE
 
 		if slot12 == slot13 then
-			slot12 = setText
+			slot12 = setTextEN
 			slot13 = slot3
 			slot14 = slot1.drop
 			slot14 = slot14.cfg
@@ -1664,7 +1663,7 @@ function slot7(slot0, slot1)
 			slot13 = DROP_TYPE_ITEM
 
 			if slot12 == slot13 then
-				slot12 = setText
+				slot12 = setTextEN
 				slot13 = slot3
 				slot14 = HXSet
 				slot14 = slot14.hxLan
@@ -1679,7 +1678,7 @@ function slot7(slot0, slot1)
 				slot13 = DROP_TYPE_FURNITURE
 
 				if slot12 == slot13 then
-					slot12 = setText
+					slot12 = setTextEN
 					slot13 = slot3
 					slot14 = slot1.drop
 					slot14 = slot14.cfg
@@ -1703,7 +1702,7 @@ function slot7(slot0, slot1)
 						slot14 = slot12
 						slot15 = "drop_descrip"
 						slot13 = slot13(slot14, slot15)
-						slot14 = setText
+						slot14 = setTextEN
 						slot15 = slot3
 
 						if not slot13 then
@@ -1785,7 +1784,7 @@ function slot7(slot0, slot1)
 							slot13 = DROP_TYPE_STRATEGY
 
 							if slot12 == slot13 then
-								slot12 = setText
+								slot12 = setTextEN
 								slot13 = slot3
 								slot14 = slot1.drop
 								slot14 = slot14.cfg
@@ -1797,7 +1796,7 @@ function slot7(slot0, slot1)
 
 								if slot12 then
 									slot4 = slot4 + 1
-									slot12 = setText
+									slot12 = setTextEN
 									slot14 = slot0
 									slot13 = slot0.GetSingleItemIntro
 									slot15 = slot4
@@ -1812,7 +1811,7 @@ function slot7(slot0, slot1)
 								slot13 = DROP_TYPE_SKIN
 
 								if slot12 == slot13 then
-									slot12 = setText
+									slot12 = setTextEN
 									slot13 = slot3
 									slot14 = slot1.drop
 									slot14 = slot14.cfg
@@ -1843,7 +1842,7 @@ function slot7(slot0, slot1)
 										end
 
 										slot13 = slot13(slot14, slot15)
-										slot14 = setText
+										slot14 = setTextEN
 										slot15 = slot3
 										slot16 = slot12
 										slot17 = "\n\n"
@@ -1865,7 +1864,7 @@ function slot7(slot0, slot1)
 										slot13 = DROP_TYPE_VITEM
 
 										if slot12 == slot13 then
-											slot12 = setText
+											slot12 = setTextEN
 											slot13 = slot3
 											slot14 = HXSet
 											slot14 = slot14.hxLan
@@ -1880,7 +1879,7 @@ function slot7(slot0, slot1)
 											slot13 = DROP_TYPE_WORLD_ITEM
 
 											if slot12 == slot13 then
-												slot12 = setText
+												slot12 = setTextEN
 												slot13 = slot3
 												slot14 = HXSet
 												slot14 = slot14.hxLan
@@ -1895,7 +1894,7 @@ function slot7(slot0, slot1)
 												slot13 = DROP_TYPE_ICON_FRAME
 
 												if slot12 == slot13 then
-													slot12 = setText
+													slot12 = setTextEN
 													slot13 = slot3
 													slot14 = slot1.drop
 													slot14 = slot14.cfg
@@ -1908,7 +1907,7 @@ function slot7(slot0, slot1)
 													slot13 = DROP_TYPE_CHAT_FRAME
 
 													if slot12 == slot13 then
-														slot12 = setText
+														slot12 = setTextEN
 														slot13 = slot3
 														slot14 = slot1.drop
 														slot14 = slot14.cfg
@@ -1921,7 +1920,7 @@ function slot7(slot0, slot1)
 														slot13 = DROP_TYPE_EMOJI
 
 														if slot12 == slot13 then
-															slot12 = setText
+															slot12 = setTextEN
 															slot13 = slot3
 															slot14 = slot1.drop
 															slot14 = slot14.cfg
@@ -1946,7 +1945,7 @@ function slot7(slot0, slot1)
 	slot12 = slot1.intro
 
 	if slot12 then
-		slot12 = setText
+		slot12 = setTextEN
 		slot13 = slot3
 		slot14 = slot1.intro
 
@@ -2454,9 +2453,8 @@ function slot9(slot0, slot1)
 		function slot9()
 			slot0 = slot0
 			slot0 = slot0.TimeMgr
-			slot1 = slot0
 			slot0 = slot0.GetInstance
-			slot0 = slot0(slot1)
+			slot0 = slot0()
 			slot1 = slot0
 			slot0 = slot0.GetServerTime
 			slot0 = slot0(slot1)
@@ -2662,9 +2660,8 @@ function slot9(slot0, slot1)
 			if slot1 > slot3 or slot2 ~= slot0 then
 				slot3 = slot1
 				slot3 = slot3.TipsMgr
-				slot4 = slot3
 				slot3 = slot3.GetInstance
-				slot3 = slot3(slot4)
+				slot3 = slot3()
 				slot4 = slot3
 				slot3 = slot3.ShowTips
 				slot5 = i18n

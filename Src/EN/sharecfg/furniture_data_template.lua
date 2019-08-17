@@ -1645,6 +1645,224 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[130] = {
+		advice = 0,
+		name = "Podium",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 1,
+		picture = "chuanmo/fayantai",
+		can_rotate = 0,
+		dorm_icon_price = 500,
+		not_for_sale = 1,
+		icon = "fayantaiicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		tag = 6,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 130,
+		comfortable = 2,
+		describe = "\"We pray that we may be worthy of the unlimited...\" A-ahem, just practicing!",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-31,
+					10
+				},
+				{
+					1,
+					1
+				},
+				"chuanmo/fayantai"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[131] = {
+		can_rotate = 0,
+		name = "Candy Trolley",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		picture = "chuanmo/faxixunzhang",
+		is_get_time_note = 1,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 500,
+		not_for_sale = 1,
+		icon = "cheznicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 6,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 131,
+		comfortable = 3,
+		describe = "Hey! It's for riding, not eating!",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"guoqingdangaocheB",
+				"normal"
+			},
+			{
+				"guoqingdangaocheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				20,
+				120
+			},
+			{
+				-1,
+				1
+			},
+			0.7
+		},
+		animator = {
+			{
+				"guoqingdangaocheCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[132] = {
+		can_rotate = 0,
+		name = "Floaty Balloons",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		picture = "chuanmo/faxixunzhang",
+		is_get_time_note = 1,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 500,
+		not_for_sale = 1,
+		icon = "qiqiuznicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 6,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 132,
+		comfortable = 3,
+		describe = "Wahoo! You're never too old to enjoy these!",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"guoqingqiqiu",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				-30,
+				-70
+			},
+			{
+				-1,
+				1
+			}
+		},
+		animator = {
+			{
+				"guoqingqiqiuCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[137] = {
 		can_rotate = 1,
 		name = "Forever 18 Cake",
@@ -1934,7 +2152,7 @@ pg.furniture_data_template = {
 	},
 	[145] = {
 		can_rotate = 0,
-		name = "Iron Blood Medal",
+		name = "Iron Blood Relic ",
 		gain_by = "Scherzo of Iron and Blood",
 		type = 7,
 		dir = 0,
@@ -12613,7 +12831,7 @@ pg.furniture_data_template = {
 		describe = "A big fountain bath complete with a dragon waterfall!",
 		dorm_id = 0,
 		gem_price = 0,
-		themeId = 10,
+		themeId = 0,
 		spine_extra = "",
 		time = "always",
 		spine_action_replace = "",
@@ -12682,7 +12900,7 @@ pg.furniture_data_template = {
 		describe = "An elegant table used to display valuable objects.",
 		dorm_id = 0,
 		gem_price = 0,
-		themeId = 10,
+		themeId = 0,
 		spine_extra = "",
 		time = "always",
 		spine_action_replace = "",
@@ -12785,7 +13003,7 @@ pg.furniture_data_template = {
 		describe = "A large maple bed crafted in an Eastern style.",
 		dorm_id = 0,
 		gem_price = 0,
-		themeId = 10,
+		themeId = 0,
 		spine_extra = "",
 		time = "always",
 		spine_action_replace = "",
@@ -60872,6 +61090,2677 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[47001] = {
+		can_rotate = 0,
+		name = "Big League Floorboards",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		belong = 0,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "diabnusicon",
+		deblocking = 1,
+		level = 1,
+		tag = 4,
+		rarity = 4,
+		picture = "Uszhounian/diabnus",
+		canputon = 0,
+		discount = 0,
+		id = 47001,
+		comfortable = 4,
+		describe = "Let your sweat fall upon the field of youth and glory!",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47002] = {
+		can_rotate = 0,
+		name = "Blue Textured Wall",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		belong = 0,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "qiangbiusicon",
+		deblocking = 1,
+		level = 5,
+		tag = 3,
+		rarity = 4,
+		picture = "Uszhounian/qiangbius",
+		canputon = 0,
+		discount = 0,
+		id = 47002,
+		comfortable = 4,
+		describe = "Turn your room into your own hall of fame!",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47101] = {
+		advice = 0,
+		name = "Snack Booth",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "Uszhounian/cantaius",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "cantaiusicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 47101,
+		comfortable = 3,
+		describe = "The perfect place to stock up for the long game ahead!",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-58,
+					60
+				},
+				{
+					-1,
+					1
+				},
+				"USzhounian/cantaius"
+			},
+			{
+				"sit",
+				{
+					91,
+					6
+				},
+				{
+					1,
+					1
+				},
+				"USzhounian/cantaius"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47102] = {
+		advice = 0,
+		name = "Star-Spangled Bed",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "Uszhounian/chuang2us",
+		can_rotate = 1,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chuang2usicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 47102,
+		comfortable = 3,
+		describe = "HOOOOME RUUUN!! Oh... It was just a dream...",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					6,
+					28
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47103] = {
+		advice = 0,
+		name = "Burger Beanie Bed",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "Uszhounian/chuangus",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "chuangusicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 47103,
+		comfortable = 2,
+		describe = "Unexpectedly comfortable... if it doesn't make you hungry.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					20,
+					23
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47104] = {
+		advice = 0,
+		name = "Baseball Stool",
+		count = 3,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "Uszhounian/dengzius",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dengziusicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 47104,
+		comfortable = 2,
+		describe = "A small stool with a baseball design.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-3,
+					64
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47105] = {
+		can_rotate = 0,
+		name = "Baseball Carpet",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "ditan2usicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "Uszhounian/ditan2us",
+		canputon = 0,
+		discount = 0,
+		id = 47105,
+		comfortable = 2,
+		describe = "Much softer than the real thing.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			10,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47106] = {
+		can_rotate = 0,
+		name = "Home Plate Carpet",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "ditanusicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "Uszhounian/ditanus",
+		canputon = 0,
+		discount = 0,
+		id = 47106,
+		comfortable = 2,
+		describe = "\"Home base is wherever you are.\"",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47107] = {
+		can_rotate = 0,
+		name = "Commemorative Display Shelves",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "guizi2usicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "Uszhounian/guizi2us",
+		canputon = 0,
+		discount = 0,
+		id = 47107,
+		comfortable = 3,
+		describe = "Ahh, reminds me of that one game, bases loaded, bottom of the 9th.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47108] = {
+		can_rotate = 0,
+		name = "Bedside Drawers",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "guiziusicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "Uszhounian/guizius",
+		canputon = 0,
+		discount = 0,
+		id = 47108,
+		comfortable = 2,
+		describe = "A rustic wooden drawer that reminds you of old times.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47109] = {
+		can_rotate = 0,
+		name = "Baseball Bat Stand",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jiaziusicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "Uszhounian/jiazius",
+		canputon = 0,
+		discount = 0,
+		id = 47109,
+		comfortable = 2,
+		describe = "Contains rare, storied items collected over many years.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47110] = {
+		can_rotate = 0,
+		name = "Manjuu Pitcher",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jiu1usicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "Uszhounian/jiu1us",
+		canputon = 0,
+		discount = 0,
+		id = 47110,
+		comfortable = 2,
+		describe = "The next one... is going to be a curveball!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47111] = {
+		can_rotate = 0,
+		name = "Manjuu Batter",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "jiu2usicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "Uszhounian/jiu2us",
+		canputon = 0,
+		discount = 0,
+		id = 47111,
+		comfortable = 3,
+		describe = "Watch this... I'm going to hit this out of the ball park!",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47112] = {
+		can_rotate = 0,
+		name = "Manjuu Catcher",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "jiu3usicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "Uszhounian/jiu3us",
+		canputon = 0,
+		discount = 0,
+		id = 47112,
+		comfortable = 3,
+		describe = "There's nothing I can't catch... Peep!",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47113] = {
+		can_rotate = 0,
+		name = "Potted Plant",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "pengzaiusicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "Uszhounian/pengzaius",
+		canputon = 0,
+		discount = 0,
+		id = 47113,
+		comfortable = 2,
+		describe = "Just a friendly reminder that we're still at home. Don't play baseball inside!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47114] = {
+		advice = 0,
+		name = "Baseball Sofa",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "Uszhounian/shafaus",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "shafausicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 47114,
+		comfortable = 2,
+		describe = "This sofa was designed to house your rear during game day.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					77,
+					21
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					5,
+					-15
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47115] = {
+		can_rotate = 0,
+		name = "Legendary Statue",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "shixiangusicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "Uszhounian/shixiangus",
+		canputon = 0,
+		discount = 0,
+		id = 47115,
+		comfortable = 2,
+		describe = "The history behind this sport is lengthy and glorious!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47116] = {
+		can_rotate = 0,
+		name = "Computer Desk",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "shuzhuousicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "Uszhounian/shuzhuous",
+		canputon = 0,
+		discount = 0,
+		id = 47116,
+		comfortable = 3,
+		describe = "Don't be fooled - we're studying our opponent's strategy!",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47117] = {
+		advice = 0,
+		name = "Cola Tub",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "Uszhounian/zaopengus",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "zaopengusicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 47117,
+		comfortable = 3,
+		describe = "Even more refreshing than drinking than real thing!",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-60,
+					-27
+				},
+				{
+					1,
+					1
+				},
+				"USzhounian/zaopengus_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47118] = {
+		can_rotate = 0,
+		name = "Cardboard Boxes",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "zhixiangusicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "Uszhounian/zhixiangus",
+		canputon = 0,
+		discount = 0,
+		id = 47118,
+		comfortable = 2,
+		describe = "These are different from the cardboard boxes you were first given. These were used to store baseball equipment!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47119] = {
+		can_rotate = 0,
+		name = "Round Wooden Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "zhuoziusicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "Uszhounian/zhuozius",
+		canputon = 1,
+		discount = 0,
+		id = 47119,
+		comfortable = 3,
+		describe = "A rough-looking table. Wait, isn't this basically a tree stump?",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			5
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				2,
+				3
+			},
+			{
+				2,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				4
+			},
+			{
+				3,
+				5
+			},
+			{
+				4,
+				2
+			},
+			{
+				4,
+				3
+			},
+			{
+				4,
+				4
+			},
+			{
+				4,
+				5
+			},
+			{
+				5,
+				3
+			},
+			{
+				5,
+				4
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47120] = {
+		advice = 0,
+		name = "Batting Cage",
+		count = 1,
+		type = 2,
+		dir = 0,
+		gain_by = "",
+		is_get_time_note = 0,
+		belong = 1,
+		can_rotate = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "bangqiujiUSicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		tag = 1,
+		picture = "",
+		canputon = 0,
+		discount = 0,
+		id = 47120,
+		comfortable = 2,
+		describe = "Let's dial this up to 120 mph! Wait, on second thought...",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			11
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bangqiu",
+				"normal"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47201] = {
+		can_rotate = 0,
+		name = "Popcorn",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "baomihuausicon",
+		deblocking = 1,
+		level = 2,
+		tag = 2,
+		rarity = 2,
+		picture = "Uszhounian/baomihuaus",
+		canputon = 0,
+		discount = 0,
+		id = 47201,
+		comfortable = 2,
+		describe = "One of the superfan's best friends. Hot Dog couldn't make it though.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47202] = {
+		can_rotate = 0,
+		name = "Baseball Desk Lamp",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dengusicon",
+		deblocking = 1,
+		level = 2,
+		tag = 2,
+		rarity = 2,
+		picture = "Uszhounian/dengus",
+		canputon = 0,
+		discount = 0,
+		id = 47202,
+		comfortable = 2,
+		describe = "A baseball-like stitching can be seen around the lamp shade.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47203] = {
+		can_rotate = 0,
+		name = "Green Apple Slushie",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "shui1usicon",
+		deblocking = 1,
+		level = 2,
+		tag = 2,
+		rarity = 1,
+		picture = "Uszhounian/shui1us",
+		canputon = 0,
+		discount = 0,
+		id = 47203,
+		comfortable = 1,
+		describe = "Sweet and refreshing with a touch of tartness.",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47204] = {
+		can_rotate = 0,
+		name = "Watermelon Slushie",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "shui2usicon",
+		deblocking = 1,
+		level = 2,
+		tag = 2,
+		rarity = 1,
+		picture = "Uszhounian/shui2us",
+		canputon = 0,
+		discount = 0,
+		id = 47204,
+		comfortable = 1,
+		describe = "Perfect for a hot summer day.",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47205] = {
+		can_rotate = 0,
+		name = "Orange Slushie",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "shui3usicon",
+		deblocking = 1,
+		level = 2,
+		tag = 2,
+		rarity = 1,
+		picture = "Uszhounian/shui3us",
+		canputon = 0,
+		discount = 0,
+		id = 47205,
+		comfortable = 1,
+		describe = "A classic favorite, now on ice.",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47206] = {
+		can_rotate = 0,
+		name = "Soda Slushie",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "shui4usicon",
+		deblocking = 1,
+		level = 2,
+		tag = 2,
+		rarity = 1,
+		picture = "Uszhounian/shui4us",
+		canputon = 0,
+		discount = 0,
+		id = 47206,
+		comfortable = 1,
+		describe = "It's so cold and fizzy!",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47207] = {
+		can_rotate = 0,
+		name = "Snack Sampler",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "xiaoshiusicon",
+		deblocking = 1,
+		level = 2,
+		tag = 2,
+		rarity = 1,
+		picture = "Uszhounian/xiaoshius",
+		canputon = 0,
+		discount = 0,
+		id = 47207,
+		comfortable = 1,
+		describe = "Don't fight, there's plenty to go around for everyone!",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47301] = {
+		can_rotate = 0,
+		name = "Scoreboard",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 3,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "bangusicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 3,
+		picture = "Uszhounian/bangus",
+		canputon = 0,
+		discount = 0,
+		id = 47301,
+		comfortable = 3,
+		describe = "It's been repurposed to keep track of days of the week instead of innings.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47302] = {
+		can_rotate = 0,
+		name = "Baseball Window",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "chuanghuusicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 2,
+		picture = "Uszhounian/chuanghuus",
+		canputon = 0,
+		discount = 0,
+		id = 47302,
+		comfortable = 2,
+		describe = "The ball game is going on just outside!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47303] = {
+		can_rotate = 0,
+		name = "Baseball Television",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dianshiusicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 2,
+		picture = "Uszhounian/dianshius",
+		canputon = 0,
+		discount = 0,
+		id = 47303,
+		comfortable = 2,
+		describe = "It has more than one channel! I just don't feel like watching anything else...",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47304] = {
+		can_rotate = 0,
+		name = "Commemorative Frame",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "kuangusicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 2,
+		picture = "Uszhounian/kuangus",
+		canputon = 0,
+		discount = 0,
+		id = 47304,
+		comfortable = 2,
+		describe = "Safeguards a legendary pitcher's jersey. This number has since been retired.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47305] = {
+		can_rotate = 0,
+		name = "Break Room Door",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "menusicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 3,
+		picture = "Uszhounian/menus",
+		canputon = 0,
+		discount = 0,
+		id = 47305,
+		comfortable = 3,
+		describe = "Is this where the athletes go to rest up?",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47306] = {
+		can_rotate = 0,
+		name = "Back Entrance",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "qucanusicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 3,
+		picture = "Uszhounian/qucanus",
+		canputon = 0,
+		discount = 0,
+		id = 47306,
+		comfortable = 3,
+		describe = "Authorized personnel only!",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47307] = {
+		can_rotate = 0,
+		name = "Baseball Picture Frames",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "xiangkuangusicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 3,
+		picture = "Uszhounian/xiangkuangus",
+		canputon = 0,
+		discount = 0,
+		id = 47307,
+		comfortable = 3,
+		describe = "Each picture contains vivid memories of a sweat-filled youth!",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[47308] = {
+		can_rotate = 0,
+		name = "Baseball Clock",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "zhongusicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 3,
+		picture = "Uszhounian/zhongus",
+		canputon = 0,
+		discount = 0,
+		id = 47308,
+		comfortable = 3,
+		describe = "It's always baseball time.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 47,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -60906,6 +63795,9 @@ pg.furniture_data_template = {
 		123,
 		124,
 		129,
+		130,
+		131,
+		132,
 		137,
 		140,
 		141,
@@ -61773,7 +64665,44 @@ pg.furniture_data_template = {
 		46302,
 		46303,
 		46304,
-		46305
+		46305,
+		47001,
+		47002,
+		47101,
+		47102,
+		47103,
+		47104,
+		47105,
+		47106,
+		47107,
+		47108,
+		47109,
+		47110,
+		47111,
+		47112,
+		47113,
+		47114,
+		47115,
+		47116,
+		47117,
+		47118,
+		47119,
+		47120,
+		47201,
+		47202,
+		47203,
+		47204,
+		47205,
+		47206,
+		47207,
+		47301,
+		47302,
+		47303,
+		47304,
+		47305,
+		47306,
+		47307,
+		47308
 	}
 }
 

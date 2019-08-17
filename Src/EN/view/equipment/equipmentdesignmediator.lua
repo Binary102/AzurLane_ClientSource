@@ -38,7 +38,7 @@ function slot0.handleNotification(slot0, slot1)
 		slot4 = slot3.equipment
 
 		slot0.viewComponent:filter(slot0.contextData.index or 1)
-		pg.TipsMgr:GetInstance():ShowTips(i18n("equipment_newEquipLayer_getNewEquip", slot0.viewComponent.filter .. " X" .. slot3.count))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_newEquipLayer_getNewEquip", slot0.viewComponent.filter .. " X" .. slot3.count))
 	elseif slot2 == BagProxy.ITEM_UPDATED then
 		slot0.viewComponent:setItems(slot0.bagProxy:getData())
 	elseif slot2 == PlayerProxy.UPDATED then

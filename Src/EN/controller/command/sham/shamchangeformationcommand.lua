@@ -11,7 +11,7 @@ class("ShamChangeFormationCommand", pm.SimpleCommand).execute = function (slot0,
 			slot2:updateFleetShips(slot0)
 			slot1:updateShamChapter(slot2, bit.bor(ChapterConst.DirtyFleet, ChapterConst.DirtyStrategy))
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("sham_change_formation_error", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("sham_change_formation_error", slot0.result))
 		end
 
 		if slot1 then

@@ -10,31 +10,31 @@ pg.skin_page_template = {
 		id = 2,
 		name = "新年和服",
 		res = "xinnianhefu",
-		english_name = "NEW YEAR"
+		english_name = "NEW YEAR KIMONO"
 	},
 	{
 		id = 3,
 		name = "春之旗袍",
 		res = "chunzhiqipao",
-		english_name = "SPRING "
+		english_name = "QI PAO"
 	},
 	{
 		id = 4,
 		name = "校园生活",
 		res = "xiaoyuan",
-		english_name = "SCHOOL"
+		english_name = "SCHOOL GIRL"
 	},
 	[6] = {
 		id = 6,
 		name = "夏日泳装",
 		res = "yongzhuang",
-		english_name = "SUMMER "
+		english_name = "SWIMSUITS"
 	},
 	[7] = {
 		id = 7,
 		name = "宴会礼服",
 		res = "yanhui",
-		english_name = "PARTY"
+		english_name = "PARTY DRESS"
 	},
 	[8] = {
 		id = 8,
@@ -46,7 +46,7 @@ pg.skin_page_template = {
 		id = 9,
 		name = "私服",
 		res = "sifu",
-		english_name = "Casual wear"
+		english_name = "CASUAL"
 	},
 	[9999] = {
 		id = 9999,

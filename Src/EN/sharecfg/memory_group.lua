@@ -550,6 +550,19 @@ pg.memory_group = {
 			406
 		}
 	},
+	[137] = {
+		title = "Ceremonial Gala ",
+		type = 2,
+		id = 137,
+		icon = "title_event",
+		memories = {
+			432,
+			433,
+			434,
+			435,
+			436
+		}
+	},
 	[141] = {
 		title = "Trick or Treat Halloween Night! ",
 		type = 2,
@@ -1119,6 +1132,51 @@ pg.memory_group = {
 			400
 		}
 	},
+	[522] = {
+		title = "Submarine Subterfuge!",
+		type = 3,
+		id = 522,
+		icon = "title_chara_daqinghuayu",
+		memories = {
+			425,
+			426,
+			427,
+			428,
+			429,
+			430,
+			431
+		}
+	},
+	[523] = {
+		title = "Taihou, Body and Soul",
+		type = 3,
+		id = 523,
+		icon = "title_chara_dafeng",
+		memories = {
+			443,
+			444,
+			445,
+			446,
+			447,
+			448,
+			449
+		}
+	},
+	[524] = {
+		title = "Enterprise Troubles",
+		type = 3,
+		id = 524,
+		icon = "title_chara_aisaikesi",
+		memories = {
+			450,
+			451,
+			452,
+			453,
+			454,
+			455,
+			456
+		}
+	},
 	[525] = {
 		title = "Enter: Akatsuki, The Ninja! ",
 		type = 3,
@@ -1379,6 +1437,7 @@ pg.memory_group = {
 		133,
 		134,
 		135,
+		137,
 		141,
 		145,
 		147,
@@ -1412,6 +1471,9 @@ pg.memory_group = {
 		516,
 		517,
 		519,
+		522,
+		523,
+		524,
 		525,
 		527,
 		528,

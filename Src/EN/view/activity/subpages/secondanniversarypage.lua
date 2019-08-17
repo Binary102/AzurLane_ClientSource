@@ -85,7 +85,7 @@ function slot0.initBtn(slot0, slot1)
 		slot0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.SKIN_U73)
 	end, SFX_PANEL)
 	onButton(slot0, slot1[9], function ()
-		pg.TipsMgr:GetInstance():ShowTips("即将开放，敬请期待！")
+		pg.TipsMgr.GetInstance():ShowTips("即将开放，敬请期待！")
 	end, SFX_PANEL)
 end
 

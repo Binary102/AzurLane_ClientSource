@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"前辈与心结\n\n<size=45>四　Essex vs Enterprise</size>",
+					"Enterprise Troubles\n\n<size=45>Chapter 4: Essex Versus Enterprise</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-1",
-			say = "演习海域",
+			say = "Training Area",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,7 +52,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "这就是最后的胜负了，能一路赢过来，不愧是我引以为傲的后辈！",
+			say = "This is the last round! Congratulations for making it through all the competition. I'd expect nothing less from you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			say = "前辈才是，总是游刃有余的样子…",
+			say = "I would congratulate you too, but you don't seem to have broken a sweat.",
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次不会再那么轻松了！埃塞克斯现在的实力，前辈就好好看看吧！",
+			say = "I'm not like the others though. I'm about to show you what I'm made of, so don't take me lightly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无论何时我都会全力以赴的，来吧！",
+			say = "Don't worry, I always give it my all. Come!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,8 +122,8 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			hideOther = true,
-			actorName = "埃塞克斯&企业",
-			say = "<size=45>哈啊啊啊啊啊！！！</size>",
+			actorName = "Essex&Enterprise",
+			say = "<size=45>Haaaaaah!!</size>",
 			effects = {
 				{
 					active = true,
@@ -132,7 +132,7 @@ return {
 			},
 			subActors = {
 				{
-					dir = 107060,
+					dir = 1,
 					actor = 107060,
 					pos = {
 						x = 1030.5
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "哦哦…燃起来了~",
+			say = "Woah... things are getting intense~",
 			effects = {
 				{
 					active = false,
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "偶尔这样也不错呢，呵呵",
+			say = "It's nice to see them go all out every now and then, hehe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "看招！",
+			say = "How's this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 107060,
-			say = "不错！但还是太嫩了！",
+			say = "Not bad! But you've still got a long way to go!",
 			flashN = {
 				color = {
 					1,
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 107090,
-			say = "前辈的攻击我已经预料到了！接下来是我的反击时间！",
+			say = "I've already seen through your attacks! Now it's my turn!",
 			flashN = {
 				color = {
 					1,
@@ -333,7 +333,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "胜负已分！",
+			say = "That's enough!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，这是…双方同时被“击沉”了",
+			say = "Woah, is this a double K.O.?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "平局…吗，这样的结果究竟算是好还是不好呢…",
+			say = "So it's a draw, huh... I'm not sure how I feel about this result...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，你的实力我确实看到了。呵呵，埃塞克斯，确实变强了呢",
+			say = "But, your strength is undeniable, heh. Essex, you've really grown a lot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃塞克斯？",
+			say = "Essex? What's the matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样的结果，不是我想要的…（小声）",
+			say = "(mutters) This... isn't the result I wanted...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对不起，我有点累了，先回去休息了",
+			say = "Sorry, I'm a bit worn out... I'm going to head back to rest first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			say = "埃塞克斯的样子似乎有点奇怪…",
+			say = "Essex seemed to be acting strangely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

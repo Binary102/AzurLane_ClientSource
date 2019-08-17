@@ -81,13 +81,13 @@ function slot0.attach(slot0, slot1)
 				return slot0.id == slot0.id
 			end)
 		end) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_reset_talent_is_not_need"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_reset_talent_is_not_need"))
 
 			return
 		end
 
 		if slot0:inChapter(slot0.commanderVO) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_is_in_battle"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_is_in_battle"))
 
 			return
 		end
@@ -95,7 +95,7 @@ function slot0.attach(slot0, slot1)
 		if slot0.resetPoint and slot0.commanderVO then
 			slot0:openResetPanel()
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_reset_talent_time_no_rearch"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_reset_talent_time_no_rearch"))
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.resetPanel, function ()
@@ -132,7 +132,7 @@ function slot0.attach(slot0, slot1)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.useBtn, function ()
 		if slot0:inChapter(slot0.commanderVO) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_is_in_battle"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_is_in_battle"))
 
 			return
 		end
@@ -140,7 +140,7 @@ function slot0.attach(slot0, slot1)
 		if slot0.commanderVO:getTalentPoint() > 0 then
 			slot0:openUseagePanel()
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_skill_point_noengough"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_skill_point_noengough"))
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.usagePanel, function ()
@@ -173,7 +173,7 @@ function slot0.update(slot0, slot1)
 			slot0 = pg.TimeMgr.GetInstance():GetServerTime()
 
 			if pg.TimeMgr.GetInstance() -  > 0 then
-				slot2.resetTimeTxt.text = pg.TimeMgr:GetInstance():DescCDTime(slot0)
+				slot2.resetTimeTxt.text = pg.TimeMgr.GetInstance():DescCDTime(slot0)
 			else
 				slot2.resetTimeTxt.text = i18n("commander_reset_talent")
 

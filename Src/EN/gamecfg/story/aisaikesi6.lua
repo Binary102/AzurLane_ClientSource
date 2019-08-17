@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"前辈与心结\n\n<size=45>六　心结·下</size>",
+					"Enterprise Troubles\n\n<size=45>Chapter 6: Knots of the Heart, Pt. 2</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "当你抱着这种想法的时候，就已经偏离自己的道路了啊。",
+			say = "When you have these kinds of thoughts, you've already let your doubts get the better of you.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "为、为什么企业前辈会在这里啊！",
+			say = "W-why are you here, Enterprise?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "难道是…指挥官？！",
+			say = "Commander... is this your doing?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，指挥官告诉我埃塞克斯的情况不大对劲，于是我也一起来了",
+			say = "Indeed. Commander was concerned about the way you were behaving, so we came together.",
 			side = 1,
 			bgName = "star_level_bg_105",
 			dir = 1,
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "呜……",
+			say = "Ugh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无论是演习还是实战，我都会竭尽全力，那样才是对对手的尊重",
+			say = "Whether in practice or in live combat, I always give it my all. That is a basic courtesy owed to all opponents.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前辈……",
+			say = "Enterprise...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你的进步大家有目共睹，这次的平局也算是预料之中",
+			say = "Your growth has been evident to all of us. You could say that the result of the mock battle was within expectations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "可、可是…",
+			say = "B-but...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道你要用“前辈没有尽全力”来否定掉自己一直以来努力训练的成果吗？",
+			say = "Let me pose you a question. Are you planning to renounce all the hard work you put in by telling yourself that I didn't try my hardest?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你那股一心求胜的执着，也要随着这个平局一并消逝了吗？",
+			say = "Will your burning desire to beat me be quelled with this single draw?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "才、才没有！",
+			say = "Of course not!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯。而且，真正的强大，不是为了谁的认同，也不是为了超过谁，而是为了自己。",
+			say = "I already know. Remember, true strength does not come from the recognition of others, nor is it a marker on the side of the road for you to pass. True strength is in its pursuit, for your own sake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "为了自己？",
+			say = "For my own sake...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃塞克斯，你是我引以为傲的后辈，也是我认可的对手之一",
+			say = "Essex, I consider you one of my esteemed mentees, as well as one of my few rivals.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你的顶点不会是我，也不会是别人，而是你自己。",
+			say = "But the person you must overcome is not me, or anyone else. Rather, it is yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对自己更有信心一点，你的实力远不止于此",
+			say = "Have more confidence in yourself. You still have a lot of untapped potential within you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "指挥官，你觉得呢？",
+			say = "Wouldn't you agree, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			},
 			options = {
 				{
-					content = "肯定埃塞克斯的表现",
+					content = "Acknowledge Essex's potential",
 					flag = 1
 				}
 			}
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "指挥官…",
+			say = "Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,24 +381,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白了。谢谢你，企业前辈，如果没有前辈的一番话，我现在恐怕还会处在迷茫之中吧",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_105",
-			dir = 1,
-			actor = 107090,
-			nameColor = "#a9f548",
-			say = "也、也谢谢你，指挥官",
+			say = "I understand now. Thank you again, Enterprise. Without your guidance, I surely would have continued to lose myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +398,24 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "不、不过，和前辈的胜负，我是不会轻易放弃的！",
+			say = "Commander, thank you as well.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_105",
+			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
+			say = "However, I still haven't given up on my goal of beating you, Enterprise!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "下次一定会战胜前辈的，比那个“幸运之鹤”更早！",
+			say = "\"I'm not gonna lose to you again!\" ... and I'll prove it before that lucky crane does!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈，我很期待哦",
+			say = "Heh. I'll be looking forward to that day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			blackBg = true,
-			say = "埃塞克斯露出了比以往更加柔和的笑容，看来心结已经解开了——",
+			say = "Essex's smile seemed gentler than usual. The knot in her heart seemed to finally be dissolving.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

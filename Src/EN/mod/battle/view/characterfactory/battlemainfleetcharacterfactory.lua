@@ -18,7 +18,7 @@ function ys.Battle.BattleMainFleetCharacterFactory.MakeModel(slot0, slot1, slot2
 
 		slot1 = slot0.AddModel:GetSceneMediator()
 
-		slot0:CameraOrthogonal(slot2.Battle.BattleCameraUtil:GetInstance():GetCamera())
+		slot0:CameraOrthogonal(slot2.Battle.BattleCameraUtil.GetInstance():GetCamera())
 		slot1:AddPlayerCharacter(slot0)
 		slot1:MakeUIComponentContainer(slot0)
 		slot1:MakeFXContainer(slot0)

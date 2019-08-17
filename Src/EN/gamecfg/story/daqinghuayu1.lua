@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"大青花鱼的“陷阱”\n\n<size=45>一　指挥室的陷阱</size>",
+					"Submarine Subterfuge!\n\n<size=45>Chapter 1: Morning Surprise</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "Port - Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,14 +49,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "和往常一样，在睡醒洗漱完之后便来到了指挥室。",
+			say = "I had gone through my morning routine and was right outside the door to my office. It seemed like it was going to be a normal morning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "打开门",
+					content = "Open the door",
 					flag = 1
 				}
 			}
@@ -65,22 +65,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "砰——嘎啦嘎啦嘎啦嘎啦…哐！咯吱咯吱咯吱咯吱……",
-			flashout = {
-				dur = 0.3,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 0.3,
-				dur = 0.3,
-				alpha = {
-					1,
-					0
-				}
-			},
+			say = "Opening the door and stepping into the office, I heard all manner of different clinks, clanks, and ticks radiating from somewhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,14 +75,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "听到了什么东西碰撞的声音……",
+			say = "Listening closely, I assessed that they were coming from the back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "查看门的周围",
+					content = "Look around",
 					flag = 1
 				}
 			}
@@ -106,7 +91,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "什么都没有发现。",
+			say = "I scanned the place to get an idea of what might be making the noises, but I couldn't spot anything unusual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +101,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "回想起了昨天的一些事。",
+			say = "Okay, let's stop and think for a moment. Remember yesterday...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,10 +111,10 @@ return {
 			stopbgm = true,
 			side = 2,
 			dir = 1,
-			bgName = "bg_story_task",
+			blackBg = true,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "对了对了，我在指挥室给指挥官准备了一份惊喜呢！",
+			say = "Hey, by the way, I've left a little surprise somewhere in your office~!",
 			flashout = {
 				dur = 0.2,
 				black = true,
@@ -145,12 +130,6 @@ return {
 				alpha = {
 					1,
 					0
-				}
-			},
-			effects = {
-				{
-					active = true,
-					name = "memoryFog"
 				}
 			},
 			typewriter = {
@@ -165,11 +144,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
+			blackBg = true,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "嘿嘿，指挥官你就好好期待一下吧！",
+			say = "Hehehe! Believe me when I say it'll be a bucket of laughs when you find it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,11 +159,11 @@ return {
 			}
 		},
 		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
 			bgm = "story-1",
-			say = "到底会是什么惊喜呢……",
+			side = 2,
+			dir = 1,
+			bgName = "bg_story_task",
+			say = "A surprise? What kind of \"surprise\"?",
 			flashout = {
 				dur = 0.2,
 				black = true,
@@ -202,19 +181,13 @@ return {
 					0
 				}
 			},
-			effects = {
-				{
-					active = false,
-					name = "memoryFog"
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "啪——",
+			say = "All of a sudden, something on one of the shelves made a clicking sound.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -228,14 +201,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "原本摆在书柜上的一个玩偶（？）落在了地上。",
+			say = "It came from a stuffed animal that had fallen on its back. That wasn't there yesterday.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "弯下腰去捡起来",
+					content = "Pick it up",
 					flag = 1
 				}
 			}
@@ -244,7 +217,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "但是，为什么这个玩偶（？）会突然掉——",
+			say = "Squatting to pick up and inspect the toy, I quickly realized its purpose...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,38 +227,18 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……等下！这个莫非是……连环机关——",
+			say = "This was no ordinary stuffed animal... it was the trigger for a trap!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			say = "Whiiish! Plonk! Splasssh!",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "哗啦！！",
 			dir = 1,
 			soundeffect = "event:/battle/hit",
-			flashN = {
-				color = {
-					1,
-					1,
-					1
-				},
-				alpha = {
-					{
-						0,
-						1,
-						0.2
-					},
-					{
-						1,
-						0,
-						0.2,
-						0.2
-					}
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +248,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "毫无征兆地，整个头被水浇了个遍，头发瞬间湿透了。",
+			say = "A bucket of water that had been left on the topmost shelf was knocked forwards, splashing its contents over my head and shoulders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +260,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "指挥官，早上好！",
+			say = "Good morning, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +284,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "大青花鱼拿着干毛巾和拖把出现在了门口。",
+			say = "Albacore appeared out of the blue with a towel in one hand and a mop in the other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +296,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我发明的“指挥官快速清醒装置”怎么样？是不是很有效呢？嘿嘿~",
+			say = "I've named this device the \"Morning Dew Wake-Up Call\"! Based on your reaction, it did its job! Hehehe~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +313,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "机关的时机，位置，角度都精准地把控好了，不会弄湿指挥官的衣服和指挥室的其它东西呢！",
+			say = "A lot of thought went into the delivery method and the trigger mechanism to make sure only your head gets drenched! Everything went according to my plan!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +337,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "果然是这家伙干的……",
+			say = "That little brat! I should've known!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +348,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "可恶…看来这边也得去找出这家伙的弱点才行……！",
+			say = "I swear I'll find one of her weaknesses and get my payback, one way or another!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

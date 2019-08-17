@@ -57,7 +57,7 @@ function slot0.isEnd(slot0)
 end
 
 function slot0.getOpenTime(slot0)
-	return string.format("%d.%d.%d~%d.%d.%d", pg.activity_template[slot0.activityId].time[2][1][1], pg.activity_template[slot0.activityId].time[2][1][2], pg.activity_template[slot0.activityId].time[2][1][3], pg.activity_template[slot0.activityId].time[3][1][1], pg.activity_template[slot0.activityId].time[3][1][2], pg.activity_template[slot0.activityId].time[3][1][3])
+	return string.format("%d/%d/%d - %d/%d/%d", pg.activity_template[slot0.activityId].time[2][1][2], pg.activity_template[slot0.activityId].time[2][1][3], pg.activity_template[slot0.activityId].time[2][1][1], pg.activity_template[slot0.activityId].time[3][1][2], pg.activity_template[slot0.activityId].time[3][1][3], pg.activity_template[slot0.activityId].time[3][1][1])
 end
 
 function slot0.getStartTime(slot0)

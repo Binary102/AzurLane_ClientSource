@@ -106,7 +106,7 @@ function slot0.didEnter(slot0)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.deleteAllButton, function ()
 		if slot0.totalCount == 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("main_mailLayer_mailBoxClear"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("main_mailLayer_mailBoxClear"))
 
 			return
 		end
@@ -120,7 +120,7 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.takeAllButton, function ()
 		if slot0.totalCount == 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("main_mailLayer_mailBoxClear"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("main_mailLayer_mailBoxClear"))
 
 			return
 		end
@@ -157,7 +157,7 @@ function slot0.didEnter(slot0)
 		if #slot0.mailVOs < slot0.totalCount and slot0.unreadCount > 0 then
 			slot0:emit(MailMediator.ON_MORE_NEWER)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("main_mailLayer_noNewMail"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("main_mailLayer_noNewMail"))
 		end
 	end)
 

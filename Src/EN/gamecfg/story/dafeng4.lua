@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"“献身”的{namecode:97}\n\n<size=45>四 同盟(?)结成</size>",
+					"Taihou, Body and Soul\n\n<size=45>Chapter 4: A New Alliance(?)</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "休息日出门散步，偶然发现了正在和人聊天的{namecode:97}——",
+			say = "While out for a stroll on my day off, I came across Taihou having a chat.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_103",
 			side = 1,
 			dir = 1,
-			say = "呼呼，要约到你一次还真是困难呢，{namecode:97}",
+			say = "Hehe, you're a difficult lady to find, Taihou.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比起出门，{namecode:97}更喜欢自己待在房间里呢，除非是和指挥官大人在一起~",
+			say = "I rather like staying alone in my room, except of course when I can be with my Commander~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:97}还真是一如既往呢",
+			say = "Somehow I knew you'd say that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "对面的人，原来是{namecode:95}",
+			say = "It was Shoukaku she was with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，这么坐在一起聊天的时候，还是感觉{namecode:97}挺容易亲近的呢~",
+			say = "But you know, sitting here with you, I actually find you pretty easy to talk to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "比起那位无时不刻都在散发着生人勿近气场的前·辈要好多了，呵呵呵",
+			say = "Unlike certain aircraft carriers giving off that \"get the hell away from me\" vibe. Hehehe♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_103",
-			say = "是…{namecode:91}前辈吗——嗯？这个气味是…指挥官？",
+			say = "You're... You're talking about Akagi, aren't– Huh? This scent... my Commander?",
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
@@ -172,7 +172,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "气味…？啊，指挥官！",
+			say = "Scent...? Oh, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "果然是指挥官大人！呵呵呵，指挥官大人是特意来找{namecode:97}的吗？{namecode:97}好感动~",
+			say = "Oooh, my Commander! Hehehe... did you come here just to see me? I'm. Touched~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "变成了三人一起喝茶的状态——",
+			say = "Before long, the three of us were having tea together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "竟然凭气味就能认出指挥官，该说真不愧是{namecode:97}吗……",
+			say = "So you can recognize the Commander by scent alone? You're really something, Taihou...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			say = "呵呵呵，{namecode:97}对指挥官的爱可不会输给任何人哦，就算是那位一航战的{namecode:91}前辈也一样",
+			say = "Ahaha! There's no one alive who can match Taihou's love of my Commander. Not even Akagi.",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "战力暂且不论，{namecode:91}前辈的战斗经验确实比{namecode:97}更多。唔……",
+			say = "Now fighting strength is a different story. Akagi has a lot more battlefield experience than I do. Hrrm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，要不要…和我联手呢？",
+			say = "Hehe. Now what do you say to... an alliance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "联手？",
+			say = "Alliance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "结合我们的力量，一起来找出超过{namecode:91}前·辈的办法吧~",
+			say = "If we joined forces, we'd definitely be more than a match for Akagi, don't you think?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			}
 		},
 		{
-			say = "指挥官觉得呢？",
+			say = "Am I right, Commander?",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -344,7 +344,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "虽然感觉{namecode:95}别有用心，不过还是先当成是她们自己的问题让她们自己解决了",
+			say = "While I was a little worried about Shoukaku's ulterior motives, I figured it was best to let them handle this for themselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然指挥官大人都同意了，那就——",
+			say = "Well, if even my Commander agrees, then I guess–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太好了~《对{namecode:91}前·辈同盟》正式成立，这下我们就是盟友了~",
+			say = "Excellent. This marks the birth of the \"Anti-Akagi Alliance\". And that makes us official allies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			blackBg = true,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "(小声)呵呵呵，这样就算{namecode:91}前辈想要跟我抢指挥官大人，也——",
+			say = "(Whispering) Hehehe, let's see Akagi try to steal my Commander now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "那是与身为秘书舰时殷勤现身不同的，另一副喜悦的表情",
+			say = "I saw a side of Taihou I hadn't seen in my secretary ship. It was sneakier, craftier, maybe happier?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "不知为何感觉{namecode:97}的心情似乎很不错",
+			say = "I couldn't for the life of me tell why she was in such a good mood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

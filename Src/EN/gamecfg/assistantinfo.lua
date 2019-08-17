@@ -147,7 +147,7 @@ pg.AssistantInfo = {
 		2 = "TouchBody"
 	},
 	enable = function ()
-		return slot0 and not isAiriJP()
+		return slot0
 	end,
 	getAssistantTouchEvents = function (slot0)
 		if slot0.enable() and slot0.assistantTouchParts[slot0] == "TouchSpecial" then

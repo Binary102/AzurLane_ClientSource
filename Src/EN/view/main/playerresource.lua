@@ -5,7 +5,7 @@ slot0.GO_MALL = "PlayerResource:GO_MALL"
 function slot0.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 	PoolMgr.GetInstance():GetUI("ResPanel", false, function (slot0)
-		slot0.transform:SetParent(pg.UIMgr:GetInstance().UIMain.transform, false)
+		slot0.transform:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
 		slot0:onUILoaded(slot0)
 	end)
 end
@@ -26,7 +26,7 @@ function slot0.init(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.oilAddBtn, function ()
 		if not ShoppingStreet.getRiseShopId(ShopArgs.BuyOil, slot0.player.buyOilCount) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_today_buy_limit"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_today_buy_limit"))
 
 			return
 		end
@@ -38,7 +38,7 @@ function slot0.init(slot0)
 		end
 
 		if slot0.player.buyOilCount < pg.gameset.buy_oil_limit.key_value then
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_SINGLE_ITEM,
 				windowSize = {
 					y = 570
@@ -81,7 +81,7 @@ function slot0.init(slot0)
 			end
 		end
 
-		if isAiriJP() then
+		if PLATFORM_CODE == PLATFORM_JP then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				fontSize = 23,
 				yesText = "text_buy",

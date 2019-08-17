@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"特别庆典·开幕！\n\n<size=45>二　大青花鱼的闲逛</size>",
+					"Ceremonial Gala\n\n<size=45>Chapter 2: Albacore's Stroll</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·广场·Live舞台区域",
+			say = "Port - Plaza (now a Stage)",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "啦~啦啦~庆典~热闹~嗯？那是~？",
+			say = "La~ Lala~ Gala tiime~ Lala- Huh? What's that~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我说，姐姐，我们来比一比怎么样？",
+			say = "Come on, Ise, let's make this interesting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			say = "啊？比什么？",
+			say = "Interesting? What do you mean?",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -113,7 +113,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看谁先把自己负责的区域搭建完成吧，输的人付今晚的酒钱!",
+			say = "Let's see who can set up their stuff the quickest. Loser buys the drinks!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			actor = 305030,
 			nameColor = "#a9f548",
-			say = "哈哈哈，我会输给你？先做好请客的准备吧",
+			say = "Hah hah ha! Like I'm gonna lose to you? Hope you brought plenty of cash.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "不过大姐们好厉害啊，这是在搭建演出用的舞台吧？才一天的功夫就把舞台搭出个大概了耶",
+			say = "Wowee! Are you two gonna get that whole stage set up in just one day? That's wild!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，那是当然！!",
+			say = "Hah! You bet your scantily clad ass we are!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "不过~大姐们不会觉得无聊嘛，明明是庆典却还要做苦力~",
+			say = "I don't get it... There's a celebration on and you're here working all day?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不瞒你说，这回的舞台其实是有个目的的。",
+			say = "Not that you'd know, but there's a reason we're putting up the stage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错，偶像是我们重樱的文化。这回也要用舞台区证明这一点",
+			say = "Yea, idols are our Sakura culture. We gotta get this stage going so we can show the world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			actor = 305030,
 			nameColor = "#a9f548",
-			say = "“本家偶像在此！庆典专用花道舞台！”这样。哈哈哈！",
+			say = "\"We got the idols! Right here on our purpose-built stage!\" Get it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "欸～～",
+			say = "Ohhh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈，好了，我们还有活要干，就不跟你多聊了，你要玩的话还是别在这玩，等Live开始了再过来吧。",
+			say = "Hah! Now, we got a lotta work to do, so you run along. This isn't a place for kids to play. Come back when the concert's on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好～",
+			say = "Okaaaay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "star_level_bg_103",
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "不过…接下来去哪儿好呢，指挥官又在忙，就没有什么好捉弄的对象嘛——",
+			say = "But like... Where do I go? Commander's busy with whatever. Who am I supposed to play with?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "而且今天是庆典大家都有心理准备，就算搞恶作剧也没什么效果嘛……",
+			say = "Not to mention everybody's all caught up on the gala tonight. There's nobody to prank...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，小卖部那边怎么有个箱子？旁边还立着个牌子，我看看……",
+			say = "Hey, what's that box over by Akashi's shop? There's something written on it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "“{namecode:98}倾情表演  每次请往红色地毯上丢50钻喵！”",
+			say = "\"Akashi's Fabulous Variety Show. Leave 50 Gems on the carpet, nya!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "嘿嘿嘿～",
+			say = "Hehehe.",
 			action = {
 				{
 					y = 0,
@@ -443,7 +443,7 @@ return {
 			}
 		},
 		{
-			say = "准备好了～我丢～",
+			say = "All set. Here we go.",
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_103",
@@ -496,7 +496,7 @@ return {
 			}
 		},
 		{
-			say = "呼喵！",
+			say = "Nya?! A Gem!",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = -1,
@@ -532,7 +532,7 @@ return {
 			}
 		},
 		{
-			say = "（砰！——）",
+			say = "Boom！",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -573,7 +573,7 @@ return {
 			dir = -1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "咳咳咳，是谁喵！居然给{namecode:98}丢做成钻石形状的烟雾弹喵！",
+			say = "*Cough*! *Cough*! Who's there, nya?! Was that a Gem-shaped smoke bomb, nya?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			dir = -1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "出来喵！看{namecode:98}不给你来个物价翻倍套餐喵！",
+			say = "Show yourself, coward! I'll double my prices, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "噗……哈哈哈哈，果然上当了~",
+			say = "*Snort* ... Ahahahaha! Got 'em!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "不过那个钻出来再拿回去的速度真的好快欸，我都没有看清……",
+			say = "Boy, did Akashi grab that Gem crazy quick. I barely saw her move...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯，恶作剧一下神清气爽！那么，然后去干什么好呢，要不要干脆去大讲堂那边看看……",
+			say = "Ah, nothing beats a good prank! Now, what to do next... I guess I could go check out the Lecture Hall...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +686,7 @@ return {
 			blackBg = true,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "啊，对了，去找{namecode:97}好了！",
+			say = "Oh, I know! I'll see what Taihou's up to!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

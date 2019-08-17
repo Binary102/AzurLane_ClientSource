@@ -3732,7 +3732,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[720] = {
-		name = "Certificate of Sponsorship ",
+		name = "Certificate of Sponsorship",
 		type = 10,
 		id = 720,
 		tech = 0,
@@ -3888,7 +3888,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[740] = {
-		name = "Fl 282 Helicopter ",
+		name = "Fl 282 Helicopter",
 		type = 17,
 		id = 740,
 		tech = 0,
@@ -4041,7 +4041,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[760] = {
-		name = "NY City Coast Recon Report ",
+		name = "NY City Coast Recon Report",
 		type = 10,
 		id = 760,
 		tech = 0,
@@ -81907,7 +81907,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90500] = {
-		name = "双联装130mm主炮Mle1935",
+		name = "Twin 130mm Main Gun Mle1935",
 		type = 1,
 		id = 90500,
 		tech = 1,
@@ -81999,7 +81999,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90520] = {
-		name = "双联装130mm主炮Mle1935",
+		name = "Twin 130mm Main Gun Mle1935",
 		type = 1,
 		id = 90520,
 		tech = 2,
@@ -82139,7 +82139,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90540] = {
-		name = "双联装130mm主炮Mle1935",
+		name = "Twin 130mm Main Gun Mle1935",
 		type = 1,
 		id = 90540,
 		tech = 3,

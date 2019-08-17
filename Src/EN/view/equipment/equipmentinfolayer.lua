@@ -68,7 +68,7 @@ function slot0.checkOverGold(slot0, slot1)
 	if slot0.player:GoldMax(_.detect(slot1, function (slot0)
 		return slot0.type == DROP_TYPE_RESOURCE and slot0.id == 1
 	end).count or 0) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_destroy"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_destroy"))
 
 		return false
 	end
@@ -127,7 +127,7 @@ function slot0.initAndSetBtn(slot0, slot1)
 			slot0, slot1 = Ship.canModifyShip(slot0.shipVO)
 
 			if not slot0 then
-				pg.TipsMgr:GetInstance():ShowTips(slot1)
+				pg.TipsMgr.GetInstance():ShowTips(slot1)
 
 				return
 			end
@@ -139,7 +139,7 @@ function slot0.initAndSetBtn(slot0, slot1)
 				slot0, slot1 = Ship.canModifyShip(slot0.shipVO)
 
 				if not slot0 then
-					pg.TipsMgr:GetInstance():ShowTips(slot1)
+					pg.TipsMgr.GetInstance():ShowTips(slot1)
 
 					return
 				end
@@ -151,7 +151,7 @@ function slot0.initAndSetBtn(slot0, slot1)
 			slot0, slot1 = Ship.canModifyShip(slot0.shipVO)
 
 			if not slot0 then
-				pg.TipsMgr:GetInstance():ShowTips(slot1)
+				pg.TipsMgr.GetInstance():ShowTips(slot1)
 
 				return
 			end
@@ -199,7 +199,7 @@ function slot0.initAndSetBtn(slot0, slot1)
 			slot0, slot1 = slot0.shipVO:canEquipAtPos(slot0.equipmentVO, slot0.contextData.pos)
 
 			if not slot0 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("equipment_equipmentInfoLayer_error_canNotEquip", slot1))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_equipmentInfoLayer_error_canNotEquip", slot1))
 
 				return
 			end

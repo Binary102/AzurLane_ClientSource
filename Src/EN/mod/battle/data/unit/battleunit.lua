@@ -24,7 +24,7 @@ function slot9.Ctor(slot0, slot1, slot2)
 	slot0:SetIFF(slot2)
 
 	slot0._distanceBackup = {}
-	slot0._battleProxy = slot0.Battle.BattleDataProxy:GetInstance()
+	slot0._battleProxy = slot0.Battle.BattleDataProxy.GetInstance()
 	slot0._frame = 0
 end
 

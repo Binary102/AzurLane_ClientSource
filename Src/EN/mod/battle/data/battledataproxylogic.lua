@@ -51,7 +51,7 @@ function ys.Battle.BattleDataProxy.HandleBulletHit(slot0, slot1, slot2)
 	})
 
 	if slot2:GetUnitType() == slot1.UnitType.PLAYER_UNIT and slot2:GetIFF() == slot2.FRIENDLY_CODE then
-		ys.Battle.BattleCameraUtil:GetInstance():StartShake(pg.shake_template[slot1.ShakeType.HIT])
+		ys.Battle.BattleCameraUtil.GetInstance():StartShake(pg.shake_template[slot1.ShakeType.HIT])
 	end
 
 	return true

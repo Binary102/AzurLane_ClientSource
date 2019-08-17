@@ -5,7 +5,7 @@ class("ShoppingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot8 = getProxy(NavalAcademyProxy)
 
 	if not slot1.getBody().id then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_shopId_noFound"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_shopId_noFound"))
 
 		return
 	end
@@ -14,13 +14,13 @@ class("ShoppingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		for slot15, slot16 in pairs(slot11) do
 			if slot16[1] == 1 then
 				if slot16[2] == 1 and slot7:GoldMax(slot16[3]) then
-					pg.TipsMgr:GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_shop"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_shop"))
 
 					return
 				end
 
 				if slot16[2] == 2 and slot7:OilMax(slot16[3]) then
-					pg.TipsMgr:GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_shop"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_shop"))
 
 					return
 				end
@@ -30,7 +30,7 @@ class("ShoppingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 	if slot5.type == 1 then
 		if slot5.effect_args[1] == 1 and slot7:GoldMax(slot5.num) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_shop"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_shop"))
 
 			return
 		end
@@ -41,7 +41,7 @@ class("ShoppingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			end
 
 			if slot7:OilMax(slot9) then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_shop"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_shop"))
 
 				return
 			end
@@ -81,14 +81,14 @@ class("ShoppingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	if slot5.limit_args then
 		for slot16, slot17 in ipairs(slot5.limit_args) do
 			if type(slot17) == "table" and slot17[1] == "level" and slot7.level < slot17[2] then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("common_limit_level", slot17[2]))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_limit_level", slot17[2]))
 
 				return
 			end
 		end
 	end
 
-	if slot5.discount ~= 0 and (table.getCount(slot5.discount_time) == 0 or pg.TimeMgr:GetInstance():inTime(slot5.discount_time)) then
+	if slot5.discount ~= 0 and (table.getCount(slot5.discount_time) == 0 or pg.TimeMgr.GetInstance():inTime(slot5.discount_time)) then
 		slot12 = slot12 * (100 - slot5.discount) / 100
 	end
 
@@ -106,7 +106,7 @@ class("ShoppingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		elseif slot5.resource_type == 4 or slot5.resource_type == 14 then
 			GoShoppingMsgBox(i18n("switch_to_shop_tip_3", i18n("word_gem")), ChargeScene.TYPE_DIAMOND)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("buyProp_noResource_error", slot13))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("buyProp_noResource_error", slot13))
 		end
 
 		return
@@ -145,9 +145,9 @@ class("ShoppingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				end
 
 				if slot4 == GoldExchangeView.itemid1 or slot4 == GoldExchangeView.itemid2 then
-					pg.TipsMgr:GetInstance():ShowTips(i18n("common_buy_gold_success", pg.shop_template[slot4].num * pg.TipsMgr.GetInstance()))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_gold_success", pg.shop_template[slot4].num * pg.TipsMgr.GetInstance()))
 				else
-					pg.TipsMgr:GetInstance():ShowTips(i18n("common_buy_success"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
 				end
 			elseif slot0.type == 0 then
 				slot1:sendNotification(GAME.EXTEND, {
@@ -223,15 +223,15 @@ class("ShoppingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			end
 
 			if slot0.effect_args == ShopArgs.EffecetShipBagSize then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("shop_extendship_success"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("shop_extendship_success"))
 			end
 
 			if slot0.effect_args == ShopArgs.EffecetEquipBagSize then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("shop_extendequip_success"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("shop_extendequip_success"))
 			end
 
 			if slot0.effect_args == ShopArgs.EffectCommanderBagSize then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("shop_extendcommander_success"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("shop_extendcommander_success"))
 			end
 
 			slot7.awards = (slot0.is_auto_use == 1 and slot1) or {}
@@ -239,7 +239,7 @@ class("ShoppingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot4(slot1, GAME.SHOPPING_DONE, slot7)
 		else
 			print(slot0.result)
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 		end
 	end)
 end

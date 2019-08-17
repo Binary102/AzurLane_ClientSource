@@ -45,9 +45,9 @@ function slot0.register(slot0)
 					content = i18n("chat_msg_ban", os.date("%Y/%m/%d %H:%M:%S", slot5.chatMsgBanTime))
 				})
 			elseif slot5.level < 10 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("chat_level_not_enough", 10))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("chat_level_not_enough", 10))
 			elseif slot9 - slot8 < 10 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("dont_send_message_frequently", 10 - (slot9 - slot8)))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("dont_send_message_frequently", 10 - (slot9 - slot8)))
 			else
 				slot10, slot11 = wordVer(slot2, {
 					isReplace = true
@@ -138,7 +138,7 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.CHANGE_CHAT_ROOM_DONE then
 		slot0:onChangeChatRoomDone(slot3)
 	elseif slot2 == GAME.CHAT_ROOM_MAX_NUMBER then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("main_notificationMediator_room_max_number"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("main_notificationMediator_room_max_number"))
 	elseif slot2 == GAME.FRIEND_SEARCH_DONE then
 		if slot3.list[1] then
 			slot0:addSubLayers(Context.New({

@@ -51,7 +51,7 @@ function slot0.Update(slot0, slot1)
 		setFillAmount(slot0.slider, 1)
 		onButton(slot0._parent, slot0._tf, function ()
 			if getProxy(PlayerProxy):getData().commanderBagMax <= getProxy(CommanderProxy):getCommanderCnt() then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("commander_capcity_is_max"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("commander_capcity_is_max"))
 
 				return
 			end

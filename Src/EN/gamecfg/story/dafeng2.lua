@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"“献身”的{namecode:97}\n\n<size=45>二 秘书舰的工作(?)·下</size>",
+					"Taihou, Body and Soul\n\n<size=45>Chapter 2: A Secretary Ship's Duty (?) - Part 2</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "…朦胧间闻到了一股香味",
+			say = "... A thick, pungent, and powerfully sweet smell hung heavy in the air.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "呼呼…真是可爱的睡脸——",
+			say = "Hehehe... You're so cute when you sleep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 307070,
-			say = "……",
+			say = "... Delightful...",
 			flashN = {
 				color = {
 					1,
@@ -112,7 +112,7 @@ return {
 			bgm = "story-1",
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "指挥官大人终于醒了~{namecode:97}刚刚还在烦恼要怎么叫醒熟睡的您呢",
+			say = "Good morning, my Commander~ I was just panicking about how to properly wake you.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -146,7 +146,7 @@ return {
 			withoutActorName = true,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "环视四下，看来是自己的房间。",
+			say = "Quickly taking in my surroundings, I was sure I was in my own quarters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，{namecode:97}已经帮您准备好美味的早饭了，请先去洗漱一下吧~",
+			say = "Hehe, I've already prepared a delicious breakfast for you. Now let's get you cleaned up first~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "虽然不知道{namecode:97}是怎么进来的……但是还是先洗漱吧",
+			say = "I wasn't sure how Taihou had gotten into my room, but I decided to deal with it after brushing my teeth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_story_room",
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "今天的早餐是和食，希望能合指挥官大人的胃口呢~",
+			say = "You're having a Sakura-style breakfast this morning, my Commander. I hope you enjoy it~",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -223,7 +223,7 @@ return {
 			withoutActorName = true,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "感受到{namecode:97}期待的目光",
+			say = "Taihou looked at me with anticipation. She really wanted me to taste her cooking.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			},
 			options = {
 				{
-					content = "“我开动了”",
+					content = "Thank the Ten Million Gods.",
 					flag = 1
 				}
 			}
@@ -245,7 +245,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官很懂重樱的礼仪呢，{namecode:97}好高兴~",
+			say = "My Commander is so worldly! You know our Sakura Empire customs so well~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "对了，在指挥官大人安睡的时候，{namecode:97}顺便帮指挥官大人打扫了房间",
+			say = "By the way, I went ahead and cleaned up for you while you were sleeping, my Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			blackBg = true,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "(小声)可惜并没有更多的发现呢……",
+			say = "(Whispering) Too bad I didn't find anything good...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			withoutActorName = true,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "……？",
+			say = "I thought I heard Taihou say something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问{namecode:97}是怎么进来的",
+					content = "Ask Taihou how she got in.",
 					flag = 1
 				}
 			}
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "这个不是很简单吗？指挥官把门锁上了，所以我就配了把钥匙呢",
+			say = "It's obvious, isn't it? You always lock your door, so I copied the key.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正如{namecode:97}之前说过的，指挥官只需要做想做的事情就好。其他细枝末节全~部都交给{namecode:97}就可以了~",
+			say = "It's like I said, you're free to do anything you want. Just leave the busywork to Taihou~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官从早到晚24小时，不管是醒的时候还是睡着的时候，所有的工作作息{namecode:97}都会好好安排哦~",
+			say = "Anytime, anyplace, all day, every day, rain or shine, I will do anything and everything for you, my Commander~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "这也身为秘书舰应该做的事情嘛",
+			say = "That is what a secretary ship's should do, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "看来要适应下这种生活了。",
+			say = "I got the feeling I was going to have to get used to this lifestyle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

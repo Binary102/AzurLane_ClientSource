@@ -21,16 +21,16 @@ class("ClassOverCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot5 = slot2:getConfig("name")
 
 			if #slot4 == 2 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("main_navalAcademyScene_quest_Classover_long", slot5, slot4[1][1], slot4[1][2], slot4[2][1], slot4[2][2]))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("main_navalAcademyScene_quest_Classover_long", slot5, slot4[1][1], slot4[1][2], slot4[2][1], slot4[2][2]))
 			else
 				for slot9, slot10 in ipairs(slot4) do
-					pg.TipsMgr:GetInstance():ShowTips(i18n("main_navalAcademyScene_quest_Classover_short", slot5, slot10[1], slot10[2]))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("main_navalAcademyScene_quest_Classover_short", slot5, slot10[1], slot10[2]))
 				end
 			end
 
 			getProxy(NavalAcademyProxy):GetReward(slot1, slot2.id)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("lesson_classOver", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("lesson_classOver", slot0.result))
 		end
 	end)
 end

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"“献身”的{namecode:97}\n\n<size=45>七 {namecode:97}的消失(?)·下</size>",
+					"Taihou, Body and Soul\n\n<size=45>Chapter 7: Taihou's Disappearance(?) - Part 2</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "这天起床后，没有看到早餐",
+			say = "There was no breakfast waiting for me when I woke up the next morning.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "……{namecode:97}？",
+			say = "... Taihou?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "指挥官？怎么了？脸色这么差？",
+			say = "Commander, you don't look so good. What happened?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:97}？…没看到呢，她平时不都是和指挥官在一起的吗——",
+			say = "Taihou? ... I haven't seen her. Isn't she always with you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "来到指挥室，也没有看到那熟悉的身影……",
+			say = "I went to the office, but there was still no sign of her...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -136,7 +136,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			say = "指挥官！太好了，你在这里，快跟我来！{namecode:97}她、{namecode:97}她——",
+			say = "Commander! Thank goodness you're here! You gotta come quick! It's Taihou! She–",
 			dir = 1,
 			bgName = "bg_story_task",
 			actor = 108020,
@@ -170,7 +170,7 @@ return {
 			bgName = "star_level_bg_103",
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "对不起，指挥官…昨天原本只是开玩笑对{namecode:97}说，太过献身会导致别人的反感什么的，还给她找了一些杂志的报导",
+			say = "I'm sorry. It's all my fault. I was just joking around with her. I said she was being too clingy and she was just gonna end up pushing you away.",
 			flashout = {
 				dur = 0.2,
 				black = true,
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "当时也没觉得有什么，没想到那之后她就把自己关在房间里不出来了……",
+			say = "I really didn't think anything of it. I never thought she'd lock herself away in her room like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "指挥官，大概只有你的话她听得进去了…拜托了，指挥官，请把{namecode:97}从房间里带出来吧！",
+			say = "You're the only one she'll listen to, Commander... So, it's gotta be you. Please get Taihou to come out of her room!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			bgm = "story-2",
-			say = "{namecode:97}的房门紧闭着",
+			say = "Taihou's door was closed tight.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -271,108 +271,108 @@ return {
 			},
 			options = {
 				{
-					content = "敲门并表明身份",
+					content = "Knock on the door and announce yourself.",
 					flag = 1
 				}
 			}
 		},
 		{
-			actorName = "{namecode:97}",
+			actorName = "Taihou",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "指挥官大人…",
+			say = "Is that my Commander...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:97}",
+			actorName = "Taihou",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:97}的声音听起来十分软弱",
+			say = "Taihou sounded weaker than I'd ever heard her before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:97}",
+			actorName = "Taihou",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "一直以来，{namecode:97}都是想当然的以为自己所做的一切都是为了指挥官大人，却从未考虑过指挥官大人的感受。",
+			say = "I always thought everything I was doing was for your sake, my Commander. But I never for a second thought about how you felt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:97}",
+			actorName = "Taihou",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "昨天被大青花鱼说过之后，{namecode:97}才突然发现自己是那么的缠人和讨人厌。",
+			say = "When Albacore said that to me yesterday, I suddenly realized how clingy I'd been. How awful I'd been.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:97}",
+			actorName = "Taihou",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "但是{namecode:97}喜欢上了指挥官大人，只想着指挥官大人，脑海里根本容不下别的东西……",
+			say = "But I'm in love with my Commander. All I ever think about is my Commander. When I close my eyes, all I see is my Commander. You're my whole world...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "表示这样就好",
+					content = "Tell her it's okay.",
 					flag = 1
 				}
 			}
 		},
 		{
-			actorName = "{namecode:97}",
+			actorName = "Taihou",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "…指挥官大人真的不会觉得{namecode:97}太过进入自己的生活吗？",
+			say = "... You don't think I interfere with your life too much?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:97}",
+			actorName = "Taihou",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "不会觉得{namecode:97}想要知道指挥官大人的一切太过贪心？不会厌烦{namecode:97}？",
+			say = "You don't think I'm greedy for wanting to know everything about you at all times? You won't feel annoyed?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:97}",
+			actorName = "Taihou",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "不是表面上迎合{namecode:97}，其实背地里早就已经受不了了？？",
+			say = "You won't pretend to like me to my face, only to turn around and hate me behind my back?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,49 +382,49 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:97}的话里带上了一丝哭腔。",
+			say = "Taihou sobbed out her questions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "没有{namecode:97}不行",
+					content = "Tell her you need her.",
 					flag = 1
 				}
 			}
 		},
 		{
-			actorName = "{namecode:97}",
+			actorName = "Taihou",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "…………",
+			say = "...... is that......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:97}",
+			actorName = "Taihou",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "真的？",
+			say = "... true?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:97}",
+			actorName = "Taihou",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "真的不觉得{namecode:97}讨厌，真的不是在敷衍{namecode:97}，真的喜欢{namecode:97}？",
+			say = "You really don't hate me? You're really not just tolerating me? You really love me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "还没来得及回答，房门就打开了",
+			say = "I didn't even have time to answer before she threw open the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "<size=45>指挥官大人！！！</size>",
+			say = "<size=45>My Commanderrrrrrr!!!</size>",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -491,17 +491,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "{namecode:97}扑进了怀里……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "看来不论是{namecode:97}还是自己都知道——",
+			say = "Taihou pulled me close and buried me in her chest. It seems she already knew.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +502,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "答案自然只有——“喜欢”——这么一个而已",
+			say = "She knew the only answer I could give her... was \"yes.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -30,12 +30,20 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.ON_GET_TRANSCODE then
 		slot0.viewComponent:showTranscode(slot3.transcode)
 	elseif slot2 == GAME.ON_SOCIAL_LINKED then
-		slot0.viewComponent:checkAccountTwitterView()
-		slot0.viewComponent:checkAccountFacebookView()
-		slot0.viewComponent:checkAccountYostarView()
+		if PLATFORM_CODE == PLATFORM_JP then
+			slot0.viewComponent:checkAccountTwitterView()
+		elseif PLATFORM_CODE == PLATFORM_US then
+			slot0.viewComponent:checkAccountTwitterView_US()
+			slot0.viewComponent:checkAccountFacebookView_US()
+			slot0.viewComponent:checkAccountYostarView_US()
+		end
 	elseif slot2 == GAME.ON_SOCIAL_UNLINKED then
-		slot0.viewComponent:checkAccountTwitterView()
-		slot0.viewComponent:checkAccountFacebookView()
+		if PLATFORM_CODE == PLATFORM_JP then
+			slot0.viewComponent:checkAccountTwitterView()
+		elseif PLATFORM_CODE == PLATFORM_US then
+			slot0.viewComponent:checkAccountTwitterView_US()
+			slot0.viewComponent:checkAccountFacebookView_US()
+		end
 	end
 end
 

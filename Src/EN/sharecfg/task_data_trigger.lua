@@ -187,6 +187,39 @@ pg.task_data_trigger = {
 			}
 		}
 	},
+	[23] = {
+		group_id = 10802,
+		id = 23,
+		activity_id = 30528,
+		args = {
+			{
+				1,
+				5241
+			}
+		}
+	},
+	[24] = {
+		group_id = 30707,
+		id = 24,
+		activity_id = 30529,
+		args = {
+			{
+				1,
+				5251
+			}
+		}
+	},
+	[25] = {
+		group_id = 10709,
+		id = 25,
+		activity_id = 30530,
+		args = {
+			{
+				1,
+				5261
+			}
+		}
+	},
 	[26] = {
 		group_id = 30109,
 		id = 26,
@@ -370,6 +403,9 @@ pg.task_data_trigger = {
 		17,
 		18,
 		20,
+		23,
+		24,
+		25,
 		26,
 		28,
 		29,

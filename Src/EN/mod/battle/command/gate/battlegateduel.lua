@@ -10,7 +10,7 @@ function slot0.Entrance(slot0, slot1)
 	end
 
 	if not getProxy(MilitaryExerciseProxy).getSeasonInfo(slot3):canExercise() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("exercise_count_insufficient"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("exercise_count_insufficient"))
 
 		return
 	end
@@ -33,7 +33,7 @@ function slot0.Entrance(slot0, slot1)
 	slot20 = slot5:getData()
 
 	if slot12 and slot20.oil < slot17 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
 
 		return
 	end

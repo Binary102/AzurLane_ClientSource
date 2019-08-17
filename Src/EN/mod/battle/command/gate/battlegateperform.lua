@@ -18,7 +18,7 @@ function slot0.Entrance(slot0, slot1)
 			slot2
 		}, function (slot0)
 			slot0:sendNotification(GAME.STORY_UPDATE, {
-				storyId = pg.StoryMgr:GetInstance():GetStoryByName("index")[slot1]
+				storyId = pg.StoryMgr.GetInstance():GetStoryByName("index")[slot1]
 			})
 
 			slot0.sendNotification.token = slot0.key

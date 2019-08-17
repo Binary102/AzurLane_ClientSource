@@ -35,7 +35,7 @@ class("SubmitGuildTaskCommand", pm.SimpleCommand).execute = function (slot0, slo
 
 			slot3:sendNotification(GAME.SUBMIT_GUILD_TASK, slot1)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("task_submitTask", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("task_submitTask", slot0.result))
 		end
 	end)
 end

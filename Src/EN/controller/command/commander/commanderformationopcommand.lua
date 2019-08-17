@@ -54,16 +54,31 @@ class("CommanderFormationOPCommand", pm.SimpleCommand).execute = function (slot0
 	if slot4 == LevelUIConst.FLEET_TYPE_EDIT then
 		slot9 = slot3.index
 		slot10 = slot3.chapterId
+		slot12 = slot5:getPrefabFleetById(slot11)
 
 		if slot8.type == LevelUIConst.COMMANDER_OP_USE_PREFAB then
-			slot13 = slot6:getChapterById(slot10)
-			slot14 = slot6:getSameMapChapters(slot13)
+			slot13 = {}
 
-			if slot5:getPrefabFleetById(slot11):isSameId(slot13:getEliteFleetCommanders()[slot9]) then
+			for slot17 = 1, 2, 1 do
+				if slot12:getCommanderByPos(slot17) then
+					slot19, slot20 = Commander.canEquipToEliteChapter(slot10, slot9, slot17, slot18.id)
+
+					if not slot19 then
+						pg.TipsMgr.GetInstance():ShowTips(slot20)
+
+						return
+					end
+				end
+			end
+
+			slot14 = slot6:getChapterById(slot10)
+			slot15 = slot6:getSameMapChapters(slot14)
+
+			if slot12:isSameId(slot14:getEliteFleetCommanders()[slot9]) then
 				return
 			end
 
-			function slot17(slot0)
+			function slot18(slot0)
 				for slot4 = 1, 2, 1 do
 					if slot0:getCommanderByPos(slot4) then
 						slot0:updateCommander(slot1, slot4, slot5.id)
@@ -75,50 +90,50 @@ class("CommanderFormationOPCommand", pm.SimpleCommand).execute = function (slot0
 				slot2:updateChapter(slot0)
 			end
 
-			for slot21, slot22 in pairs(slot14) do
-				slot17(slot22)
+			for slot22, slot23 in pairs(slot15) do
+				slot18(slot23)
 			end
 
-			slot17(slot13)
+			slot18(slot14)
 			slot0:sendNotification(GAME.COMMANDER_ELIT_FORMATION_OP_DONE, {
-				chapterId = slot13.id,
+				chapterId = slot14.id,
 				index = slot9
 			})
 		elseif slot8.type == LevelUIConst.COMMANDER_OP_RECORD_PREFAB then
-			slot11 = slot8.id
+			slot13 = slot8.id
 
-			if table.getCount(slot6:getChapterById(slot10).getEliteFleetCommanders(slot12)[slot9]) == 0 then
+			if table.getCount(slot6:getChapterById(slot10).getEliteFleetCommanders(slot14)[slot9]) == 0 then
 				return
 			end
 
-			slot15 = slot5:getPrefabFleetById(slot11)
+			slot17 = slot5:getPrefabFleetById(slot13)
 
-			for slot19 = 1, 2, 1 do
-				if slot5:getCommanderById(slot14[slot19]) then
-					slot15:updateCommander(slot19, slot21)
+			for slot21 = 1, 2, 1 do
+				if slot5:getCommanderById(slot16[slot21]) then
+					slot17:updateCommander(slot21, slot23)
 				end
 			end
 
-			slot5:updatePrefabFleet(slot15)
-			slot6:updateChapter(slot12)
+			slot5:updatePrefabFleet(slot17)
+			slot6:updateChapter(slot14)
 			slot0:sendNotification(GAME.COMMANDER_ELIT_FORMATION_OP_DONE, {
-				chapterId = slot12.id,
+				chapterId = slot14.id,
 				index = slot9
 			})
 		elseif slot8.type == LevelUIConst.COMMANDER_OP_REST_ALL then
-			function slot13(slot0)
+			function slot15(slot0)
 				slot0:updateCommander(slot0, 1, nil)
 				slot0:updateCommander(slot0, 2, nil)
 				slot0.updateCommander:updateChapter(slot0)
 			end
 
-			for slot17, slot18 in pairs(slot12) do
-				slot13(slot18)
+			for slot19, slot20 in pairs(slot14) do
+				slot15(slot20)
 			end
 
-			slot13(slot11)
+			slot15(slot13)
 			slot0:sendNotification(GAME.COMMANDER_ELIT_FORMATION_OP_DONE, {
-				chapterId = slot11.id,
+				chapterId = slot13.id,
 				index = slot9
 			})
 		end

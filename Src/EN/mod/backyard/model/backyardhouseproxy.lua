@@ -834,9 +834,9 @@ function slot0.restoreFurnitures(slot0)
 	end
 
 	if #slot2 > 0 then
-		pg.UIMgr:GetInstance():LoadingOn()
+		pg.UIMgr.GetInstance():LoadingOn()
 		seriesAsync(slot2, function ()
-			pg.UIMgr:GetInstance():LoadingOff()
+			pg.UIMgr.GetInstance():LoadingOff()
 			pg.UIMgr.GetInstance().LoadingOff:sendNotification(slot1.BACKYARD_RESTORED)
 		end)
 	else
@@ -1084,7 +1084,7 @@ function slot0.onRemove(slot0)
 	end
 
 	if slot0._escapeAITimer then
-		pg.TimeMgr:GetInstance():RemoveTimer(slot0._escapeAITimer)
+		pg.TimeMgr.GetInstance():RemoveTimer(slot0._escapeAITimer)
 	end
 
 	for slot4, slot5 in pairs(slot0.furnitrueTimers) do

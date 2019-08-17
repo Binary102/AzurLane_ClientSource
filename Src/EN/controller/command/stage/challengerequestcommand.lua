@@ -12,7 +12,7 @@ class("ChallengeRequestCommand", pm.SimpleCommand).execute = function (slot0, sl
 	end
 
 	if #slot4 == 0 or #slot5 == 0 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("challenge_no_fleet"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("challenge_no_fleet"))
 
 		return
 	end
@@ -28,7 +28,7 @@ class("ChallengeRequestCommand", pm.SimpleCommand).execute = function (slot0, sl
 	}
 
 	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE) or slot9:isEnd() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 		return
 	end

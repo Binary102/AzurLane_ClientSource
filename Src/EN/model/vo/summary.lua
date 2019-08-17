@@ -2,10 +2,17 @@ slot0 = class("Summary", import(".BaseVO"))
 
 function slot0.Ctor(slot0, slot1)
 	slot0.name = getProxy(PlayerProxy):getData().name
-	slot0.registerTime = pg.TimeMgr:GetInstance().STimeDescC(slot2, slot1.register_date, "%Y/%m/%d")
+	slot0.registerTime = pg.TimeMgr.GetInstance().STimeDescC(slot2, slot1.register_date, "%Y/%m/%d")
 	slot0.days = math.ceil((getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY).getStartTime(slot3) - slot1.register_date) / 86400) + 1
 	slot0.serverName = (getProxy(ServerProxy):getRawData()[(getProxy(UserProxy):getRawData() and slot5.server) or 0] and getProxy(ServerProxy).getRawData().name) or ""
-	slot0.chapterName = pg.chapter_template[math.max(slot1.chapter_id, 101)].chapter_name .. " " .. pg.chapter_template[math.max(slot1.chapter_id, 101)].name
+	slot8 = pg.chapter_template[math.max(slot1.chapter_id, 101)]
+
+	if PLATFORM_CODE == PLATFORM_US and slot8.model == ChapterConst.TypeMainSub then
+		slot0.chapterName = pg.chapter_template[slot7 - 1].chapter_name .. " " .. slot8.name
+	else
+		slot0.chapterName = slot8.chapter_name .. " " .. slot8.name
+	end
+
 	slot0.guildName = slot1.guild_name
 	slot0.proposeCount = slot1.marry_number
 	slot0.medalCount = slot1.medal_number

@@ -19,7 +19,7 @@ class("GuildFacilityUpgradeCommand", pm.SimpleCommand).execute = function (slot0
 		if slot0.result == 0 then
 			slot0:sendNotification(GAME.GUILD_FACILITY_UPGRADE_DONE)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("guild_fire_erro", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("guild_fire_erro", slot0.result))
 		end
 	end)
 end

@@ -374,9 +374,8 @@ function slot2(slot0)
 	slot2 = slot0
 	slot2 = slot2.Battle
 	slot2 = slot2.BattleFXPool
-	slot3 = slot2
 	slot2 = slot2.GetInstance
-	slot2 = slot2(slot3)
+	slot2 = slot2()
 	slot3 = slot2
 	slot2 = slot2.GetFX
 	slot5 = slot0

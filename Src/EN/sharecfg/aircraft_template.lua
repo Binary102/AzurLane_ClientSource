@@ -85416,7 +85416,7 @@ pg.aircraft_template = {
 			}
 		}
 	},
-	[620310] = {
+	[611311] = {
 		name = "【美系前哨站】鱼雷封锁",
 		max_hp = 600,
 		accuracy = 50,
@@ -85433,10 +85433,10 @@ pg.aircraft_template = {
 		nationality = 3,
 		hp_growth = 0,
 		speed = 30,
-		id = 620310,
+		id = 611311,
 		scale = 0.75,
 		weapon_ID = {
-			620320
+			611321
 		},
 		position_offset = {
 			0,
@@ -85490,7 +85490,7 @@ pg.aircraft_template = {
 			}
 		}
 	},
-	[620315] = {
+	[611316] = {
 		name = "【美系前哨站】战斗机",
 		max_hp = 141,
 		accuracy = 23,
@@ -85507,11 +85507,11 @@ pg.aircraft_template = {
 		nationality = 3,
 		hp_growth = 2520,
 		speed = 33,
-		id = 620315,
+		id = 611316,
 		scale = 0.75,
 		weapon_ID = {
-			620317,
-			620318
+			611318,
+			611319
 		},
 		position_offset = {
 			0,
@@ -85565,7 +85565,7 @@ pg.aircraft_template = {
 			}
 		}
 	},
-	[620316] = {
+	[611317] = {
 		name = "【美系前哨站】鱼雷机",
 		max_hp = 154,
 		accuracy = 23,
@@ -85582,159 +85582,10 @@ pg.aircraft_template = {
 		nationality = 3,
 		hp_growth = 2880,
 		speed = 30,
-		id = 620316,
+		id = 611317,
 		scale = 0.75,
 		weapon_ID = {
-			620319
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.71,
-					-0.91,
-					0
-				},
-				{
-					0.77,
-					1,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.51,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[620332] = {
-		name = "【美系前哨站】战斗机",
-		max_hp = 141,
-		accuracy = 23,
-		model_ID = "haipenhuo",
-		ACC_growth = 0,
-		crash_DMG = 79,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "haipenhuo",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2520,
-		speed = 33,
-		id = 620332,
-		scale = 0.75,
-		weapon_ID = {
-			620334,
-			620335
-		},
-		position_offset = {
-			0,
-			5,
-			0
-		},
-		cld_box = {
-			1,
-			1,
-			1
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			weapon = {
-				{
-					0.68,
-					-0.667,
-					0
-				},
-				{
-					0.97,
-					0.584,
-					0
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0.27,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[620333] = {
-		name = "【美系前哨站】鱼雷机",
-		max_hp = 154,
-		accuracy = 23,
-		model_ID = "jianyu",
-		ACC_growth = 0,
-		crash_DMG = 114,
-		dodge = 1,
-		attack_power = 2,
-		dodge_limit = 0,
-		type = 1,
-		AP_growth = 2000,
-		icon = "jianyu",
-		funnel_behavior = "",
-		nationality = 3,
-		hp_growth = 2880,
-		speed = 30,
-		id = 620333,
-		scale = 0.75,
-		weapon_ID = {
-			620336
+			611320
 		},
 		position_offset = {
 			0,
@@ -107402,11 +107253,9 @@ pg.aircraft_template = {
 		611193,
 		611198,
 		611199,
-		620310,
-		620315,
-		620316,
-		620332,
-		620333,
+		611311,
+		611316,
+		611317,
 		700034,
 		700035,
 		700036,

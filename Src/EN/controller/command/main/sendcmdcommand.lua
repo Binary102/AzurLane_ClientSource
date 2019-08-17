@@ -40,7 +40,7 @@ class("SendCmdCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				PlayerPrefs.Save()
 			end
 
-			pg.TipsMgr:GetInstance():ShowTips((slot3 == 1 and "已开启战斗跳略") or "已关闭战斗跳略")
+			pg.TipsMgr.GetInstance():ShowTips((slot3 == 1 and "已开启战斗跳略") or "已关闭战斗跳略")
 		end
 
 		return

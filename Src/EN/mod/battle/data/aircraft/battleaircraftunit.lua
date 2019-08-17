@@ -20,7 +20,7 @@ function slot6.Ctor(slot0, slot1)
 	slot0._type = slot1.UnitType.AIRCRAFT_UNIT
 	slot0._currentState = slot0.STATE_CREATE
 	slot0._distanceBackup = {}
-	slot0._battleProxy = slot0.Battle.BattleDataProxy:GetInstance()
+	slot0._battleProxy = slot0.Battle.BattleDataProxy.GetInstance()
 	slot0._frame = 0
 	slot0._weaponPotential = 1
 

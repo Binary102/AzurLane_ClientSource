@@ -12,7 +12,9 @@ function slot0.execute(slot0, slot1)
 		end
 	elseif not slot3 then
 		if slot4 then
-			GetComponent(slot4, typeof(Toggle)).isOn = false
+			onDelayTick(function ()
+				GetComponent(GetComponent, typeof(Toggle)).isOn = false
+			end, 0.1)
 		end
 
 		pg.TipsMgr.GetInstance():ShowTips(i18n("auto_battle_limit_tip"))

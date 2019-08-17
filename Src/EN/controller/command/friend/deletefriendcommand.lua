@@ -5,7 +5,7 @@ class("DeleteFriendCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		if slot0.result == 0 then
 			slot0:sendNotification(GAME.FRIEND_DELETE_DONE, slot0.sendNotification)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("friend_deleteFriend", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("friend_deleteFriend", slot0.result))
 		end
 	end)
 end

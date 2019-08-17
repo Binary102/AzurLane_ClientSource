@@ -124,9 +124,9 @@ function slot1.RemoveUnit(slot0, slot1)
 	end
 
 	if slot1 then
-		slot0._deathTimer = pg.TimeMgr:GetInstance():AddBattleTimer("death", 0, 1, function ()
+		slot0._deathTimer = pg.TimeMgr.GetInstance():AddBattleTimer("death", 0, 1, function ()
 			slot0()
-			pg.TimeMgr:GetInstance():RemoveBattleTimer(slot1._deathTimer)
+			pg.TimeMgr.GetInstance():RemoveBattleTimer(slot1._deathTimer)
 		end)
 	else
 		slot2()
@@ -135,7 +135,7 @@ end
 
 function slot1.Dispose(slot0)
 	slot0:Show(false)
-	pg.TimeMgr:GetInstance():RemoveBattleTimer(slot0._deathTimer)
+	pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._deathTimer)
 	LeanTween.cancel(slot0._hpBar)
 
 	slot0._hpBarProgress = nil

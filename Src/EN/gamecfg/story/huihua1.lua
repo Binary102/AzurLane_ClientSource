@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"特别庆典·开幕！\n\n<size=45>一　埃塞克斯的烦恼</size>",
+					"Ceremonial Gala\n\n<size=45>Chapter 1: Essex's Troubles</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·大讲堂",
+			say = "Port - Lecture Hall",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨福克，克利夫兰捐赠的盆栽请放在那边，是的，放在门口",
+			say = "Suffolk, would you kindly put Cleveland's bonsais over there for me? Yes, right by the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "肯特，陛下的餐具暂定六份吧。谢菲，吊灯就交给你了",
+			say = "Kent, let's start with six sets of Her Majesty's china. And Sheffy, you'll be hanging chandeliers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这一箱放这里应该就可以了吧？",
+			say = "Can I put this box here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			say = "埃塞克斯小姐？嗯，放这里就可以了",
+			say = "Madam Essex? Oh yes, right here would be lovely.",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "呼…看着大讲堂一步一步从原本的样子被改造成现在这样还真是令人忍不住有些感慨……",
+			say = "Phew... Little by little, the auditorium here is turning into something really overwhelming.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "毕竟这次由我们负责了主要的宴会准备工作，不让大家体会到最好的皇家格调，陛下可是会生气的。",
+			say = "It's all part of our responsibilities in preparing the party. We have to give everyone the true Royal Navy experience if we don't want to rouse Her Majesty's ire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			actor = 202120,
 			nameColor = "#a9f548",
-			say = "埃塞克斯小姐这几天也帮了很多忙，再次向您表示感谢",
+			say = "Madam Essex, you've been so very helpful these past few days. Allow me to once again express my gratitude.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没事，我也是自愿的。",
+			say = "Oh, it was nothing. I'm happy to help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过真的没关系吗？这几天你都在这里帮忙…",
+			say = "Was it really nothing, though? You've spent all of the last couple days with us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过站在一名这支舰队的前辈立场上，我更希望能看到你在庆典中找到属于自己的乐趣呢。",
+			say = "But in any case, since you're new here, I would hope you can find some joy in the event itself, Madam Essex.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢你的关心，贝尔法斯特小姐，不过对我来说这样就好。",
+			say = "I appreciate the thought, Miss Belfast, but I'm really a-okay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舰队的各位都是经历过了各种作战的洗礼，才能在这个节日里挺起胸膛犒劳自己，就这点来说，我恐怕还不太够资格",
+			say = "The fleet's been through so much. They fought for the right to kick back here with some good food and fun. But me? What did I do to deserve a party?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算没有在这边帮忙，我大概也会一直在训练海域进行自主练习吧…",
+			say = "If I wasn't here helping, I'd probably just be out training somewhere anyway...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此……是很出色的想法呢。",
+			say = "You have some marvelous ideas, Madam Essex.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过这边的事情其实也处理得差不多了呢…埃塞克斯小姐即使在我们这边，也要变得没事可做了哦？",
+			say = "But I'm afraid there's not much more to do here... I think we're about to put you out of a job.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "嗯……就算你这么说，我也没有什么别的地方好去的——",
+			say = "Really? Well, it's not like I have anywhere else to go. I guess I'll just head back to–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "关于这个就不用担心了。",
+			say = "I wouldn't worry about that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "这、这声音是？！",
+			say = "That voice! It must be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，欢迎，企业小姐。",
+			say = "Ah, welcome, Madam Enterprise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里就是宴会场地吗……已经布置得很好了啊。",
+			say = "So this is where we're hosting the party? ... You've already got it looking great.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，能得到企业小姐的赞美，是我们的荣幸。",
+			say = "Hehe, it's an honor to earn such praise from you, Madam Enterprise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且，埃塞克斯也承蒙你的照顾了，感激不尽。接下来，就把她交给我吧。",
+			say = "And you've taken such good care of Essex. I owe you one. Next time, just pawn her off on me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "企、企业前辈，你刚才说什么……",
+			say = "E-Enterprise, what did you mean by...",
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
@@ -447,7 +447,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚才的话我都听到了，很正确的想法，但是既然你叫我一声前辈，那我当然不能看着可爱的后辈孤零零地一个人，你说对吧？",
+			say = "I heard what you were just saying. It's obvious you look up to me, so how could I leave a cute little girl like you all alone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总之，如果不喜欢软绵绵的东西的话，来参加这个比赛如何？",
+			say = "Now if hoity-toity stuff like this isn't your speed, what would you say to a little rumble with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "比赛？",
+			say = "A rumble? What's this flyer?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……“港区第一武道会火热开赛中，想要验证自己的实力吗？想要和其他阵营的高手比试吗？那就来参加吧！”",
+			say = "... \"The First Annual Port Martial Arts Tournament. Want to test your strength? Want to face down the greatest the other camps have to offer? Join us!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看这里。",
+			say = "You'll wanna read this part.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "“航母组，特约嘉宾：企业。决胜者将获得和企业比试的权利。”",
+			say = "\"Aircraft Carrier Group Guest of Honor: Enterprise. The winner earns the right to challenge Enterprise herself.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………………",
+			say = "... Wow...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			blackBg = true,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "怎么样，有兴趣了吗？",
+			say = "Well? What do you think? You in?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

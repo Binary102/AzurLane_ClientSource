@@ -556,9 +556,8 @@ function slot5(slot0, slot1)
 			slot9 = slot0
 			slot9 = slot9.Battle
 			slot9 = slot9.BattleFXPool
-			slot10 = slot9
 			slot9 = slot9.GetInstance
-			slot9 = slot9(slot10)
+			slot9 = slot9()
 			slot10 = slot9
 			slot9 = slot9.GetFX
 			slot12 = slot1

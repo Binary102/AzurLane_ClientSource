@@ -57,20 +57,22 @@ function pg.ConnectionMgr.Reconnect(slot0, slot1)
 
 	slot0:stopHBTimer()
 	slot4:stopTimer()
+	print("reconnect --> " .. slot0:GetLastHost() .. ":" .. slot0:GetLastPort())
 	slot0:Connect(slot0:GetLastHost(), slot0:GetLastPort(), function ()
-		slot1 = getProxy(UserProxy).getData(slot0)
+		slot0 = getProxy(UserProxy)
+		slot1 = slot0:getData()
 
-		if BilibiliSdkMgr.inst.channelUID == "" then
+		if slot0.SdkMgr.GetInstance():GetChannelUID() == "" then
 			slot2 = PLATFORM_LOCAL
 		end
 
 		if not slot1 or not slot1:isLogin() then
-			if slot0.currentCS == 10020 and slot1 ~= DISCONNECT_TIME_OUT then
-				slot2.needStartSend = false
+			if slot1.currentCS == 10020 and slot2 ~= DISCONNECT_TIME_OUT then
+				slot3.needStartSend = false
 
-				slot0:StartSend()
+				slot1:StartSend()
 			else
-				slot3.m02:sendNotification(GAME.LOGOUT, {
+				slot0.m02:sendNotification(GAME.LOGOUT, {
 					code = 3
 				})
 			end
@@ -78,13 +80,13 @@ function pg.ConnectionMgr.Reconnect(slot0, slot1)
 			return
 		end
 
-		slot0:Send(10022, {
+		slot1:Send(10022, {
 			platform = slot2,
 			account_id = slot1.uid,
 			server_ticket = slot1.token,
 			serverid = slot1.server,
 			check_key = HashUtil.CalcMD5(slot1.token .. AABBUDUD),
-			device_id = getDeviceId()
+			device_id = slot0.SdkMgr.GetInstance():GetDeviceId()
 		}, 10023, function (slot0)
 			if slot0.result == 0 then
 				print("reconnect success: " .. slot0.user_id, " - ", slot0.server_ticket)
@@ -111,7 +113,10 @@ function pg.ConnectionMgr.Reconnect(slot0, slot1)
 
 				slot3 = nil
 
-				slot6.SecondaryPWDMgr:GetInstance():FetchData()
+				if getProxy(PlayerProxy) and slot1:getInited() then
+					slot6.SecondaryPWDMgr:GetInstance():FetchData()
+				end
+
 				slot6.GuideMgr:GetInstance():onReconneceted()
 			else
 				print("reconnect failed: " .. slot0.result)
@@ -204,7 +209,7 @@ function pg.ConnectionMgr.onError(slot0)
 				onNo = slot1,
 				weight = LayerWeightConst.TOP_LAYER
 			})
-			slot0.GuideMgr:GetInstance():onDisconnected()
+			slot0.GuideMgr.GetInstance():onDisconnected()
 		end
 	else
 		slot1()
@@ -305,8 +310,7 @@ slot14 = 2
 slot15, slot16 = nil
 
 function pg.ConnectionMgr.SetProxyHost(slot0, slot1, slot2)
-	slot0 = slot1
-	slot1 = slot2
+	print("Proxy host --> " .. slot1 .. ":" .. slot2)
 end
 
 function pg.ConnectionMgr.GetLastHost(slot0)

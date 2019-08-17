@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"大青花鱼的“陷阱”\n\n<size=45>五　两人的海滩·上</size>",
+					"Submarine Subterfuge!\n\n<size=45>Chapter 5: Sea for Two Pt. 1</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "港区·海滩",
+			say = "Port - Beach",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -48,10 +48,10 @@ return {
 			stopbgm = true,
 			side = 2,
 			dir = 1,
-			bgName = "bg_story_task",
+			blackBg = true,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "我想到第二个条件是什么了！",
+			say = "Hey, I've got an idea for the second favor!",
 			flashout = {
 				dur = 0.2,
 				black = true,
@@ -67,12 +67,6 @@ return {
 				alpha = {
 					1,
 					0
-				}
-			},
-			effects = {
-				{
-					active = true,
-					name = "memoryFog"
 				}
 			},
 			typewriter = {
@@ -97,10 +91,10 @@ return {
 		{
 			actor = 108020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我突然想在明天去海边呢……要是指挥官能陪我，让我开心的话就更好了呢！",
+			blackBg = true,
+			say = "I'm gonna go to the beach tomorrow, and I thought it'd be nice if you'd play with me then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,18 +105,12 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_106",
 			side = 2,
+			bgName = "star_level_bg_106",
 			dir = 1,
 			bgmDelay = 0.6,
 			bgm = "story-1",
-			say = "于是今天下午和大青花鱼来到了海边。",
-			effects = {
-				{
-					active = false,
-					name = "memoryFog"
-				}
-			},
+			say = "Although I had little say in the matter, Albacore and I went to the beach in the afternoon.",
 			flashout = {
 				dur = 0.2,
 				black = true,
@@ -151,7 +139,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "今天的海滩被我们两个人包场了呢！嘿嘿，要做些什么事情好呢，指~挥~官~？",
+			say = "Guess we have the beach all to ourselves! Hehehe~ So, what \"stimulating\" activity should we do first, Com-man-der♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +150,7 @@ return {
 			},
 			options = {
 				{
-					content = "游泳比赛",
+					content = "Suggest going for a swim",
 					flag = 1
 				}
 			}
@@ -174,7 +162,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "欸？只是游泳比赛吗？也不是不可以啦。",
+			say = "Really? Just a dip in the ocean? Not what I had in mind, but okay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +173,7 @@ return {
 			},
 			options = {
 				{
-					content = "比谁先游到远处的无人岛",
+					content = "Suggest making it a race to that uninhabited island",
 					flag = 1
 				}
 			}
@@ -196,7 +184,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啊！",
+			say = "That's better!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +201,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "我将赌上潜水舰全部的尊严！指挥官，来和我一决胜负吧！",
+			say = "I'm putting my spotless record on the line for this! You're on, Commander!",
 			effects = {
 				{
 					active = true,
@@ -235,7 +223,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "这样的开场白会不会比较有气势呢？但是——",
+			say = "\"Say a snazzy line before a race\" – scratch that one from the bucket list!",
 			effects = {
 				{
 					active = false,
@@ -255,7 +243,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "扑通！",
+			say = "Splasssh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +256,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "我先走一步啦！拜拜~",
+			say = "\"Secure a flashy head start\" – scratch that one as well! See ya at the finish line!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,14 +279,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "大青花鱼先一步跳进了海中，游了起来。",
+			say = "Without waiting for my response, Albacore jumped straight into the ocean and swam off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "跳入海中",
+					content = "Chase after her",
 					flag = 1
 				}
 			}
@@ -307,7 +295,7 @@ return {
 			bgName = "star_level_bg_106",
 			side = 2,
 			dir = 1,
-			say = "到达了无人岛，并没有发现大青花鱼的踪迹。",
+			say = "Believe it or not, but I managed to swim all the way to the island. However, I couldn't find any traces of Albacore.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -334,7 +322,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "……",
+			say = "Which means I win. Haha! Who's the sucker now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +331,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			say = "surprise！！！",
+			say = "Surpriiiiiiiise!",
 			dir = 1,
 			bgName = "star_level_bg_106",
 			actor = 108020,
@@ -376,7 +364,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "怎么样，指挥官，被吓了一跳吧！",
+			say = "Ahahahah! Scared you, didn't I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +390,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我早就到了啦！这场胜负，是我拿下了呢！",
+			say = "Well, you tried, but I got here way ahead of you. I win!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +407,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			nameColor = "#a9f548",
-			say = "那么，round 2，start！",
+			say = "... The first lap, anyway. It's time for the second! Go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +430,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "大青花鱼又一头扎进了水中。",
+			say = "Albacore dove into the water and swam off again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +441,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			blackBg = true,
-			say = "这次要追上她才行。",
+			say = "I can't let her beat me twice! This time, I need to win...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -14,7 +14,7 @@ slot0.gemNum = {
 function slot0.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 	PoolMgr.GetInstance():GetUI("GoldExchangeWindow", false, function (slot0)
-		slot0.transform:SetParent(pg.UIMgr:GetInstance().UIMain.transform, false)
+		slot0.transform:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
 		slot0:onUILoaded(slot0)
 	end)
 end

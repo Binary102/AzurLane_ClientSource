@@ -1234,6 +1234,99 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[111] = {
+		limit_arg = 1,
+		descrip_extra = "*After your purchase, the Lucky Box will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's on sale value in Gems. ",
+		name = "1st Anniversary Lucky Bag ",
+		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
+		subject = "1st Anniversary Lucky Bag ",
+		extra_service = 3,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai56",
+		id_str = "com.yostaren.azurlane.diamond121",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 111,
+		airijp_id = "com.yostaren.azurlane.diamond121",
+		extra_service_item = {
+			{
+				2,
+				59956,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59905,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1253,7 +1346,8 @@ pg.pay_data_display = {
 		107,
 		108,
 		109,
-		110
+		110,
+		111
 	}
 }
 

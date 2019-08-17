@@ -673,7 +673,7 @@ function slot0.initProfile(slot0)
 			else
 				slot12:setText(HXSet.hxLan(slot10.name))
 				onButton(slot0, slot11, function ()
-					pg.TipsMgr:GetInstance():ShowTips(i18n("ship_profile_skin_locked"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("ship_profile_skin_locked"))
 				end)
 				setActive(slot11:Find("lock"), true)
 			end
@@ -755,7 +755,7 @@ function slot0.initProfile(slot0)
 
 	onButton(slot0, slot0.languageBtnCH, function ()
 		if slot0 < 0 then
-			pg.TipsMgr:GetInstance():ShowTips("敬请期待！")
+			pg.TipsMgr.GetInstance():ShowTips("敬请期待！")
 
 			return
 		end
@@ -771,7 +771,7 @@ function slot0.initProfile(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.languageBtnJP, function ()
 		if slot0 < 0 then
-			pg.TipsMgr:GetInstance():ShowTips("敬请期待！")
+			pg.TipsMgr.GetInstance():ShowTips("敬请期待！")
 
 			return
 		end
@@ -799,7 +799,10 @@ function slot0.shiftSkin(slot0, slot1)
 	slot0:switchVoiceList(false)
 	slot0:loadModel()
 	slot0:shiftPainting()
-	slot0:loadSkinBg((slot0.currentSkin.bg and #slot0.currentSkin.bg > 0 and slot0.currentSkin.bg) or shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), slot0.currentSkin.id, slot0.shipGroup:isBluePrintGroup()))
+
+	slot3 = nil
+
+	slot0:loadSkinBg((not slot0.currentSkin.bg_sp or slot0.currentSkin.bg_sp == "" or PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot0.currentSkin.painting, 0) ~= 0 or slot0.currentSkin.bg_sp) and ((slot0.currentSkin.bg and #slot0.currentSkin.bg > 0 and slot0.currentSkin.bg) or shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), slot0.currentSkin.id, slot0.shipGroup:isBluePrintGroup())))
 	slot0:switchLive2d(false)
 end
 
@@ -1043,7 +1046,7 @@ function slot0.appendVoiceButton(slot0, slot1, slot2)
 				slot1.l2dChar:TriggerAction(slot5.l2d_action)
 			end
 		else
-			pg.TipsMgr:GetInstance():ShowTips(slot6)
+			pg.TipsMgr.GetInstance():ShowTips(slot6)
 		end
 	end)
 	slot0:appendVoiceExButton(slot1, slot6)

@@ -1,5 +1,5 @@
 return {
-	id = 5013,
+	id = 5019,
 	bgm = "battle-boss-6",
 	stages = {
 		{
@@ -51,7 +51,7 @@ return {
 					},
 					spawn = {
 						{
-							monsterTemplateID = 900010,
+							monsterTemplateID = 900011,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
@@ -61,17 +61,18 @@ return {
 							},
 							bossData = {
 								hpBarNum = 35,
-								icon = "kelifulan"
+								icon = "feinikesi"
 							},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 2,
 									switchTo = 1,
 									index = 0,
-									switchParam = 2,
+									switchType = 1,
+									setAI = 10001,
 									addWeapon = {
-										950180,
-										950181
+										950190,
+										950191
 									}
 								},
 								{
@@ -80,7 +81,7 @@ return {
 									index = 1,
 									switchParam = 2,
 									addWeapon = {
-										950184
+										950192
 									}
 								},
 								{
@@ -89,10 +90,10 @@ return {
 									index = 2,
 									switchType = 1,
 									addWeapon = {
-										950183
+										950194
 									},
 									removeWeapon = {
-										950184
+										950192
 									}
 								},
 								{
@@ -101,10 +102,10 @@ return {
 									index = 3,
 									switchType = 1,
 									removeWeapon = {
-										950183
+										950194
 									},
 									addWeapon = {
-										950182
+										950193
 									}
 								},
 								{
@@ -113,20 +114,24 @@ return {
 									index = 4,
 									switchType = 1,
 									removeWeapon = {
-										950182
+										950193
 									},
 									addWeapon = {
-										950183,
-										950184
+										950195,
+										950196
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 1,
 									switchTo = 6,
 									index = 5,
-									switchParam = 1,
+									switchType = 1,
 									removeWeapon = {
-										950183
+										950195,
+										950196
+									},
+									addWeapon = {
+										950197
 									}
 								},
 								{
@@ -135,11 +140,10 @@ return {
 									index = 6,
 									switchType = 1,
 									addWeapon = {
-										950182,
-										950183
+										950192
 									},
 									removeWeapon = {
-										950184
+										950197
 									}
 								},
 								{
@@ -148,8 +152,7 @@ return {
 									index = 7,
 									switchParam = 3,
 									removeWeapon = {
-										950182,
-										950183
+										950192
 									}
 								}
 							}
@@ -170,7 +173,7 @@ return {
 					},
 					spawn = {
 						{
-							monsterTemplateID = 900010,
+							monsterTemplateID = 900011,
 							reinforceDelay = 6,
 							delay = 1,
 							moveCast = true,
@@ -181,17 +184,18 @@ return {
 							},
 							bossData = {
 								hpBarNum = 35,
-								icon = "kelifulan"
+								icon = "feinikesi"
 							},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 2,
 									switchTo = 1,
 									index = 0,
-									switchParam = 2,
+									switchType = 1,
+									setAI = 10001,
 									addWeapon = {
-										950180,
-										950181
+										950190,
+										950191
 									}
 								},
 								{
@@ -200,7 +204,7 @@ return {
 									index = 1,
 									switchParam = 2,
 									addWeapon = {
-										950184
+										950192
 									}
 								},
 								{
@@ -209,10 +213,10 @@ return {
 									index = 2,
 									switchType = 1,
 									addWeapon = {
-										950183
+										950194
 									},
 									removeWeapon = {
-										950184
+										950192
 									}
 								},
 								{
@@ -221,10 +225,10 @@ return {
 									index = 3,
 									switchType = 1,
 									removeWeapon = {
-										950183
+										950194
 									},
 									addWeapon = {
-										950182
+										950193
 									}
 								},
 								{
@@ -233,20 +237,24 @@ return {
 									index = 4,
 									switchType = 1,
 									removeWeapon = {
-										950182
+										950193
 									},
 									addWeapon = {
-										950183,
-										950184
+										950195,
+										950196
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 1,
 									switchTo = 6,
 									index = 5,
-									switchParam = 1,
+									switchType = 1,
 									removeWeapon = {
-										950183
+										950195,
+										950196
+									},
+									addWeapon = {
+										950197
 									}
 								},
 								{
@@ -255,11 +263,10 @@ return {
 									index = 6,
 									switchType = 1,
 									addWeapon = {
-										950182,
-										950183
+										950192
 									},
 									removeWeapon = {
-										950184
+										950197
 									}
 								},
 								{
@@ -268,8 +275,7 @@ return {
 									index = 7,
 									switchParam = 3,
 									removeWeapon = {
-										950182,
-										950183
+										950192
 									}
 								}
 							}

@@ -91,7 +91,7 @@ function slot4.AddArrowBar(slot0, slot1)
 
 	slot0._vectorProgress = slot0._arrowBarTf:Find("HPBar/HPProgress"):GetComponent(typeof(Image))
 
-	setImageSprite(findTF(slot0._arrowBar, "icon"), slot1.Battle.BattleResourceManager:GetInstance().GetCharacterQIcon(slot2, slot0._unitData:GetTemplate().painting))
+	setImageSprite(findTF(slot0._arrowBar, "icon"), slot1.Battle.BattleResourceManager.GetInstance().GetCharacterQIcon(slot2, slot0._unitData:GetTemplate().painting))
 
 	if slot0._unitData:IsMainFleetUnit() and slot0._unitData:GetFleetVO().GetMainList(slot4)[3] == slot0._unitData then
 		slot1.transform:SetSiblingIndex(slot1.transform.parent.childCount - 3)

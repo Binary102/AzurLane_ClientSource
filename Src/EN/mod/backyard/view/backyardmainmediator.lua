@@ -319,7 +319,7 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:setHouse(slot3)
 		pg.m02:sendNotification(slot0.HOUSE_UPDATE, slot3)
 	elseif slot2 == BackYardHouseProxy.BACKYARD_CANT_PUT then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_backyardScene_error_noPosPutFurniture"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardScene_error_noPosPutFurniture"))
 	elseif slot2 == BackYardHouseProxy.BACKYARD_ADD_FURNITURE then
 		slot0.viewComponent:loadFurnitureModel(slot3.furniture, slot3.callback)
 

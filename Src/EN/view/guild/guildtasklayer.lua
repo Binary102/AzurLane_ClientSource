@@ -81,7 +81,7 @@ function slot0.updateTask(slot0, slot1)
 		slot4 = 1
 
 		onButton(slot0, slot15, function ()
-			pg.TipsMgr:GetInstance():ShowTips(i18n("get_award_erro"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("get_award_erro"))
 		end, SFX_PANEL)
 	end
 

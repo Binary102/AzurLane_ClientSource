@@ -15,9 +15,9 @@ function slot0.onRegister(slot0)
 	end)
 	slot0:bind(BaseUI.ON_BACK, function (slot0, slot1, slot2)
 		if slot2 and slot2 > 0 then
-			pg.UIMgr:GetInstance():LoadingOn(false)
+			pg.UIMgr.GetInstance():LoadingOn(false)
 			LeanTween.delayedCall(slot2, System.Action(function ()
-				pg.UIMgr:GetInstance():LoadingOff()
+				pg.UIMgr.GetInstance():LoadingOff()
 				pg.UIMgr.GetInstance().LoadingOff:sendNotification(GAME.GO_BACK, nil, pg.UIMgr.GetInstance().LoadingOff)
 			end))
 		else
@@ -52,7 +52,7 @@ function slot0.onRegister(slot0)
 				}
 			}))
 		else
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_SINGLE_ITEM,
 				drop = slot1,
 				onNo = slot2,

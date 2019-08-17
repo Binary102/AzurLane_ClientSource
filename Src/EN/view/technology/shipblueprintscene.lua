@@ -5629,9 +5629,8 @@ function slot10(slot0)
 		if slot0 == 0 then
 			slot0 = pg
 			slot0 = slot0.TipsMgr
-			slot1 = slot0
 			slot0 = slot0.GetInstance
-			slot0 = slot0(slot1)
+			slot0 = slot0()
 			slot1 = slot0
 			slot0 = slot0.ShowTips
 			slot2 = i18n
@@ -5647,9 +5646,8 @@ function slot10(slot0)
 			slot0 = slot0(slot1)
 			slot1 = pg
 			slot1 = slot1.MsgboxMgr
-			slot2 = slot1
 			slot1 = slot1.GetInstance
-			slot1 = slot1(slot2)
+			slot1 = slot1()
 			slot2 = slot1
 			slot1 = slot1.ShowMsgBox
 			slot3 = {}
@@ -6248,9 +6246,8 @@ function slot10(slot0, slot1)
 					slot8 = slot8.timerTFTxt
 					slot9 = pg
 					slot9 = slot9.TimeMgr
-					slot10 = slot9
 					slot9 = slot9.GetInstance
-					slot9 = slot9(slot10)
+					slot9 = slot9()
 					slot10 = slot9
 					slot9 = slot9.DescCDTime
 					slot11 = slot1.leftTime
@@ -6856,9 +6853,8 @@ function slot10(slot0)
 
 		slot2 = pg
 		slot2 = slot2.UIMgr
-		slot3 = slot2
 		slot2 = slot2.GetInstance
-		slot2 = slot2(slot3)
+		slot2 = slot2()
 		slot3 = slot2
 		slot2 = slot2.BlurPanel
 		slot4 = slot0.preViewer
@@ -7092,9 +7088,8 @@ function slot10(slot0, slot1)
 		slot3 = slot0.blurPanel
 		slot4 = pg
 		slot4 = slot4.UIMgr
-		slot5 = slot4
 		slot4 = slot4.GetInstance
-		slot4 = slot4(slot5)
+		slot4 = slot4()
 		slot4 = slot4.OverlayMain
 
 		slot2(slot3, slot4)
@@ -7102,9 +7097,8 @@ function slot10(slot0, slot1)
 
 	slot2 = pg
 	slot2 = slot2.UIMgr
-	slot3 = slot2
 	slot2 = slot2.GetInstance
-	slot2 = slot2(slot3)
+	slot2 = slot2()
 	slot3 = slot2
 	slot2 = slot2.UnblurPanel
 	slot4 = slot0.preViewer

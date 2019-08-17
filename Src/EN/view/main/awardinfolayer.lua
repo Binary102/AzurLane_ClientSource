@@ -4,7 +4,10 @@ slot0.TITLE = {
 	ESCORT = "escort",
 	ITEM = "item"
 }
-slot1 = 0.15
+slot1 = 4
+slot2 = 4
+slot3 = 100
+slot4 = 0.15
 
 function slot0.getUIName(slot0)
 	return "AwardInfoUI"
@@ -25,6 +28,7 @@ function slot0.init(slot0)
 	slot0.onYes = slot0.contextData.awards.onYes
 	slot0.title = slot0.contextData.title or slot0.TITLE.ITEM
 	slot0._itemsWindow = slot0._tf:Find("items")
+	slot0.spriteMask = slot0._tf:Find("SpriteMask")
 
 	if slot0.title ~= slot0.TITLE.SHIP and #slot0.awards <= 10 then
 		slot0.container = slot0._itemsWindow:Find("items")
@@ -72,6 +76,11 @@ function slot0.doAnim(slot0, slot1)
 		if slot0 then
 			slot0()
 		end
+
+		w = slot1._itemsWindow.rect.width
+		h = slot1._itemsWindow.rect.height
+
+		setLocalScale(slot1.spriteMask, Vector3(w / slot2 * , h /  * slot3, 1))
 	end))
 end
 
@@ -135,7 +144,7 @@ function slot0.onBackPressed(slot0)
 	triggerButton(slot0._tf)
 end
 
-function slot2(slot0, slot1)
+function slot5(slot0, slot1)
 	slot2 = pg.ship_data_statistics[slot1.id]
 	slot3 = Ship.New({
 		configId = slot1.id

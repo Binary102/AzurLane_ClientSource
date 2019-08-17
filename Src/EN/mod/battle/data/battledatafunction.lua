@@ -232,7 +232,37 @@ ys or .Battle.BattleDataFunction.GetBulletResFromSkill = function (slot0, slot1,
 
 	slot3 = {}
 
-	slot5(slot0:GetSkillTemplate(slot1).effect_list)
+	function slot5(slot0)
+		for slot4, slot5 in ipairs(slot0) do
+			if slot5.arg_list.weapon_id ~= nil then
+				for slot11, slot12 in ipairs(slot7) do
+					slot1[#slot1 + 1] = slot12
+				end
+			end
+
+			if slot5.arg_list.buff_id then
+				for slot12, slot13 in ipairs(slot8) do
+					slot1[#slot1 + 1] = slot13
+				end
+			end
+
+			if slot5.arg_list.effect then
+				slot1[#slot1 + 1] = slot0.Battle.BattleResourceManager.GetFXPath(slot8)
+			end
+		end
+
+		return
+	end
+
+	if type(slot0:GetSkillTemplate(slot1).painting) == "string" then
+		slot3[#slot3 + 1] = slot1.Battle.BattleResourceManager.GetHrzIcon(slot4.painting)
+	end
+
+	if type(slot4.castCV) == "table" then
+		slot1.Battle.BattleResourceManager.GetInstance():AddPreloadCV(slot4.castCV.skinID)
+	end
+
+	slot5(slot4.effect_list)
 
 	for slot9, slot10 in ipairs(slot4) do
 		slot5(slot10.effect_list)

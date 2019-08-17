@@ -6,7 +6,7 @@ class("CancelLearnTacticsCommand", pm.SimpleCommand).execute = function (slot0, 
 	slot8 = slot2.onConfirm
 
 	if not getProxy(BayProxy).getShipById(slot9, slot6.shipId).skills[slot6:getSkillId(getProxy(BayProxy).getShipById(slot9, slot6.shipId))] then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("tactics_noskill_erro"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("tactics_noskill_erro"))
 
 		return
 	end
@@ -31,7 +31,7 @@ class("CancelLearnTacticsCommand", pm.SimpleCommand).execute = function (slot0, 
 				newShipVO = slot0
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("lesson_endToLearn", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("lesson_endToLearn", slot0.result))
 		end
 
 		if slot8 ~= nil then

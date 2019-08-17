@@ -72,7 +72,7 @@ function slot0.init(slot0)
 	slot0.applyTip = slot0:findTF("apply/tip", slot0.togglesRoot)
 	slot0.back = slot0:findTF("blur_panel/adapt/top/back")
 	slot0.blurPanel = slot0:findTF("blur_panel")
-	slot0.overLay = pg.UIMgr:GetInstance().OverlayMain
+	slot0.overLay = pg.UIMgr.GetInstance().OverlayMain
 
 	setActive(slot1, false)
 
@@ -140,7 +140,7 @@ function slot0.initTheme(slot0)
 	slot1 = slot0.guildVO:getFaction()
 	slot2 = slot0.guildVO:getMainUIName()
 
-	pg.UIMgr:GetInstance():LoadingOn()
+	pg.UIMgr.GetInstance():LoadingOn()
 
 	if not slot0.bgSprite then
 		GuildMainMediator.BG = slot0.guildVO:getBgName()
@@ -160,7 +160,7 @@ function slot0.initTheme(slot0)
 		slot0.themePanel = nil
 
 		PoolMgr.GetInstance():GetUI(slot2, true, function (slot0)
-			pg.UIMgr:GetInstance():LoadingOff()
+			pg.UIMgr.GetInstance():LoadingOff()
 
 			if slot0.exited then
 				PoolMgr.GetInstance():ReturnUI(PoolMgr.GetInstance().ReturnUI, slot0)
@@ -181,7 +181,7 @@ function slot0.initTheme(slot0)
 		end)
 	else
 		slot0:updateGuildInfo(slot0.guildVO)
-		pg.UIMgr:GetInstance():LoadingOff()
+		pg.UIMgr.GetInstance():LoadingOff()
 		slot0:updateAdmin()
 	end
 
@@ -293,7 +293,7 @@ function slot0.updateTheme(slot0)
 	setActive(slot0.dialogPanel, true)
 	onInputEndEdit(slot0, slot0.announce.gameObject, function (slot0)
 		if wordVer(slot0) > 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("playerinfo_mask_word"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("playerinfo_mask_word"))
 			setInputText(slot0.announce, slot0.guildVO.announce)
 
 			return
@@ -314,19 +314,19 @@ function slot0.updateTheme(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.sendBtn, function ()
 		if wordVer(slot0) > 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("playerinfo_mask_word"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("playerinfo_mask_word"))
 
 			return
 		end
 
 		if slot0 == "" then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_msg_is_null"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_msg_is_null"))
 
 			return
 		end
 
 		if slot0.chatTimer and pg.TimeMgr.GetInstance():GetServerTime() - slot0.chatTimer < 5 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("dont_send_message_frequently"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("dont_send_message_frequently"))
 
 			return
 		end
@@ -448,7 +448,7 @@ function slot0.updateModifyPanel(slot0)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.dissolveBtn, function ()
 		if slot0.guildVO then
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("guild_tip_dissolve"),
 				onYes = function ()
 					slot0:emit(GuildMainMediator.DISSOLVE, slot0.guildVO.id)
@@ -457,7 +457,7 @@ function slot0.updateModifyPanel(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.quitBtn, function ()
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("guild_tip_quit"),
 			onYes = function ()
 				slot0:emit(GuildMainMediator.QUIT, slot0.guildVO.id)
@@ -471,7 +471,7 @@ function slot0.updateModifyPanel(slot0)
 		slot2 = slot0.manifestoInput.text
 
 		if not slot0.nameInput.text or slot1 == "" then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_create_error_noname"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_create_error_noname"))
 
 			return
 		end
@@ -486,13 +486,13 @@ function slot0.updateModifyPanel(slot0)
 		end
 
 		if slot1 ~= slot0.guildVO:getName() and getProxy(PlayerProxy):getData():getTotalGem() < pg.gameset.modify_guild_cost.key_value then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_rmb"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_rmb"))
 
 			return
 		end
 
 		if not slot2 or slot2 == "" then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_create_error_nomanifesto"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_create_error_nomanifesto"))
 
 			return
 		end

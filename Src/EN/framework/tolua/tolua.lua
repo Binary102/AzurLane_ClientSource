@@ -114,6 +114,7 @@ Profiler = UnityEngine.Profiler
 HScrollSnap = UnityEngine.UI.Extensions.HScrollSnap
 CanvasScaler = UnityEngine.UI.CanvasScaler
 SleepTimeout = UnityEngine.SleepTimeout
+GraphicRaycaster = UnityEngine.UI.GraphicRaycaster
 SocketError = System.Net.Sockets.SocketError
 GCHandle = System.Runtime.InteropServices.GCHandle
 GCHandleType = System.Runtime.InteropServices.GCHandleType

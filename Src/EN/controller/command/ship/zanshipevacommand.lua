@@ -29,7 +29,7 @@ class("ZanShipEvaCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				slot3:sendNotification(CollectionProxy.GROUP_EVALUATION_UPDATE, slot0)
 			end
 
-			pg.TipsMgr:GetInstance():ShowTips(i18n("zan_ship_eva_success"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("zan_ship_eva_success"))
 		elseif slot0.result == 7 then
 			if slot3 then
 				slot3.izan = true
@@ -38,9 +38,9 @@ class("ZanShipEvaCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				slot3:sendNotification(CollectionProxy.GROUP_EVALUATION_UPDATE, slot0)
 			end
 
-			pg.TipsMgr:GetInstance():ShowTips(i18n("zan_ship_eva_error_7"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("zan_ship_eva_error_7"))
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("zan_ship_eva", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("zan_ship_eva", slot0.result))
 		end
 	end)
 end

@@ -3,9 +3,10 @@ PERMISSION_NEVER_REMIND = "permission_never_remind"
 PERMISSION_REJECT = "permission_reject"
 ANDROID_CAMERA_PERMISSION = "android.permission.CAMERA"
 ANDROID_RECORD_AUDIO_PERMISSION = "android.permission.RECORD_AUDIO"
+ANDROID_WRITE_EXTERNAL_PERMISSION = "android.permission.WRITE_EXTERNAL_STORAGE"
 
 function CheckPermissionGranted(slot0)
-	if CSharpVersion >= 23 then
+	if CSharpVersion >= 21 then
 		return PermissionMgr.Inst:CheckPermissionGranted(slot0)
 	else
 		return true
@@ -13,11 +14,15 @@ function CheckPermissionGranted(slot0)
 end
 
 function ApplyPermission(slot0)
-	PermissionMgr.Inst:ApplyPermission(slot0)
+	if CSharpVersion >= 21 then
+		PermissionMgr.Inst:ApplyPermission(slot0)
+	end
 end
 
 function OpenDetailSetting()
-	PermissionMgr.Inst:OpenDetailSetting()
+	if CSharpVersion >= 21 then
+		PermissionMgr.Inst:OpenDetailSetting()
+	end
 end
 
 function OnPermissionRequestResult(slot0)

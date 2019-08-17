@@ -9,9 +9,9 @@ class("RelieveBlackListCommand", pm.SimpleCommand).execute = function (slot0, sl
 		if slot0.result == 0 then
 			slot0:relieveBlackListById(slot0.relieveBlackListById)
 			slot0:sendNotification(GAME.FRIEND_RELIEVE_BLACKLIST_DONE)
-			pg.TipsMgr:GetInstance():ShowTips(i18n("friend_relieveblacklist_success"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("friend_relieveblacklist_success"))
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("friend_relieveblacklist", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("friend_relieveblacklist", slot0.result))
 		end
 	end)
 end

@@ -13,7 +13,7 @@ class("BuyFurnitureCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		if not Furniture.New({
 			id = slot13
 		}):inTime() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("buy_furniture_overtime"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("buy_furniture_overtime"))
 
 			return
 		elseif slot4 == 4 then
@@ -24,7 +24,7 @@ class("BuyFurnitureCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end
 
 	if slot7:getResById(slot4) < slot8 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_resource"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
 	end
@@ -48,9 +48,9 @@ class("BuyFurnitureCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				end
 
 				slot6:sendNotification(GAME.BUY_FURNITURE_DONE, slot5:getData())
-				pg.TipsMgr:GetInstance():ShowTips(i18n("common_buy_success"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
 			else
-				pg.TipsMgr:GetInstance():ShowTips(errorTip("backyard_buyFurniture_error", slot0.result))
+				pg.TipsMgr.GetInstance():ShowTips(errorTip("backyard_buyFurniture_error", slot0.result))
 			end
 		end)
 	end
@@ -64,7 +64,7 @@ class("BuyFurnitureCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			}):getConfig("name")
 		end
 
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("charge_scene_buy_confirm", slot8, slot10),
 			onYes = function ()
 				slot0()

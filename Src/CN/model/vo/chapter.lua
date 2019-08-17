@@ -337,7 +337,7 @@ function slot0.update(slot0, slot1)
 
 	if slot1.escort_list then
 		for slot11, slot12 in ipairs(slot1.escort_list) do
-			slot0.fleets[#slot0.fleets + 1] = ChapterTransportFleet.New(slot12)
+			slot0.fleets[#slot0.fleets + 1] = ChapterTransportFleet.New(slot12, #slot0.fleets + 1)
 		end
 	end
 

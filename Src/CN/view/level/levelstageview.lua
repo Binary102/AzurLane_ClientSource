@@ -76,6 +76,7 @@ function slot0.InitUI(slot0)
 		x = 0,
 		y = slot0
 	})
+	setActive(slot0.teleportSubRole, false)
 
 	slot0.leftStage = slot0:findTF("left_stage", slot0._tf)
 
@@ -1220,6 +1221,9 @@ function slot0.ShiftStagePanelOut(slot0)
 end
 
 function slot0.SwitchBottomStage(slot0, slot1)
+	setActive(slot0.teleportSubRole, true)
+	setActive(slot0.normalRole, true)
+
 	slot2 = shiftPanel
 	slot3 = slot0.teleportSubRole
 	slot4 = 0
@@ -1230,7 +1234,11 @@ function slot0.SwitchBottomStage(slot0, slot1)
 		slot5 = slot0
 	end
 
-	slot2(slot3, slot4, slot5, 0.3, 0, true, true)
+	slot2(slot3, slot4, slot5, 0.3, 0, true, true, nil, function ()
+		setActive(slot0.teleportSubRole, )
+
+		return
+	end)
 
 	slot2 = shiftPanel
 	slot3 = slot0.normalRole
@@ -1240,7 +1248,11 @@ function slot0.SwitchBottomStage(slot0, slot1)
 		slot5 = 0
 	end
 
-	slot2(slot3, slot4, slot5, 0.3, 0, true, true)
+	slot2(slot3, slot4, slot5, 0.3, 0, true, true, nil, function ()
+		setActive(slot0.normalRole, not slot1)
+
+		return
+	end)
 
 	slot2 = shiftPanel
 	slot3 = slot0.leftStage

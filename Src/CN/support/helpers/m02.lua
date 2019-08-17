@@ -225,11 +225,16 @@ function setPaintingImg(slot0, slot1)
 	resetAspectRatio(slot0)
 end
 
-function setPaintingPrefab(slot0, slot1, slot2)
-	removeAllChildren(slot3)
+function setPaintingPrefab(slot0, slot1, slot2, slot3)
+	removeAllChildren(slot4)
 
 	GetOrAddComponent(findTF(slot0, "fitter"), "PaintingScaler").FrameName = slot2 or ""
 	GetOrAddComponent(findTF(slot0, "fitter"), "PaintingScaler").Tween = 1
+	slot6 = slot1
+
+	if not slot3 and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot1 .. "_n")) and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot1, 0) ~= 0 then
+		slot1 = slot1 .. "_n"
+	end
 
 	PoolMgr.GetInstance():GetPainting(slot1, false, function (slot0)
 		setParent(slot0, slot0, false)
@@ -244,11 +249,17 @@ end
 
 slot2 = {}
 
-function setPaintingPrefabAsync(slot0, slot1, slot2, slot3)
-	removeAllChildren(slot4)
+function setPaintingPrefabAsync(slot0, slot1, slot2, slot3, slot4)
+	removeAllChildren(slot5)
 
 	GetOrAddComponent(findTF(slot0, "fitter"), "PaintingScaler").FrameName = slot2 or ""
 	GetOrAddComponent(findTF(slot0, "fitter"), "PaintingScaler").Tween = 1
+	slot7 = slot1
+
+	if not slot4 and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot1 .. "_n")) and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot1, 0) ~= 0 then
+		slot1 = slot1 .. "_n"
+	end
+
 	slot0[slot0] = slot1
 
 	PoolMgr.GetInstance():GetPainting(slot1, true, function (slot0)
@@ -259,15 +270,15 @@ function setPaintingPrefabAsync(slot0, slot1, slot2, slot3)
 
 			setParent[slot0] = nil
 
-			Ship.SetExpression(slot0, )
+			Ship.SetExpression(slot0, false)
 		end
 
 		if not IsNil(findTF(slot0, "Touch")) then
 			setActive(slot1, false)
 		end
 
-		if slot4 then
-			slot4()
+		if slot5 then
+			slot5()
 		end
 	end)
 end
@@ -283,7 +294,7 @@ function retPaintingPrefab(slot0, slot1)
 				end)
 			end
 
-			PoolMgr.GetInstance():ReturnPainting(slot1, slot3.gameObject)
+			PoolMgr.GetInstance():ReturnPainting(string.gsub(slot3.name, "%(Clone%)", ""), slot3.gameObject)
 		end
 
 		slot0[slot0] = nil

@@ -9,7 +9,8 @@ end
 
 function slot0.preload(slot0, slot1)
 	slot6 = pg.ship_data_statistics[pg.ship_skin_template[slot0.contextData.skinId].ship_group * 10 + 1]
-	slot7 = (pg.ship_skin_template[slot0.contextData.skinId].bg and #slot3.bg > 0 and slot3.bg) or (slot3.rarity_bg and #slot3.rarity_bg > 0 and slot3.rarity_bg)
+	slot7 = nil
+	slot7 = (not pg.ship_skin_template[slot0.contextData.skinId].bg_sp or slot3.bg_sp == "" or slot3.bg_sp) and ((slot3.bg and #slot3.bg > 0 and slot3.bg) or (slot3.rarity_bg and #slot3.rarity_bg > 0 and slot3.rarity_bg))
 
 	if not slot7 or not ("bg/star_level_bg_" .. slot7) then
 		slot7 = "newshipbg/bg_" .. ((ShipGroup.IsBluePrintGroup(slot4) and "0") or "") .. ShipRarity.Rarity2Print(slot6.rarity)
@@ -97,7 +98,8 @@ function slot0.setSkin(slot0, slot1)
 	slot0._wordsConfig = Ship.getShipWords(slot1)
 	slot2 = pg.ship_skin_template[slot1].ship_group
 	slot3 = pg.ship_data_statistics[slot0._skinConfig.ship_group * 10 + 1]
-	slot4 = (slot0._skinConfig.bg and #slot0._skinConfig.bg > 0 and slot0._skinConfig.bg) or (slot0._skinConfig.rarity_bg and #slot0._skinConfig.rarity_bg > 0 and slot0._skinConfig.rarity_bg)
+	slot4 = nil
+	slot4 = (not slot0._skinConfig.bg_sp or slot0._skinConfig.bg_sp == "" or slot0._skinConfig.bg_sp) and ((slot0._skinConfig.bg and #slot0._skinConfig.bg > 0 and slot0._skinConfig.bg) or (slot0._skinConfig.rarity_bg and #slot0._skinConfig.rarity_bg > 0 and slot0._skinConfig.rarity_bg))
 
 	if not slot4 or not ("bg/star_level_bg_" .. slot4) then
 		slot4 = "newshipbg/bg_" .. ((ShipGroup.IsBluePrintGroup(slot2) and "0") or "") .. ShipRarity.Rarity2Print(slot3.rarity)

@@ -80,6 +80,22 @@ function slot0.openSelectSkinPanel(slot0)
 		slot15 = slot6.id == slot0.shipVO.skinId
 		slot16 = slot6.id == slot0.shipVO:getConfig("skin_id") or (((slot0.shipVO:proposeSkinOwned(slot6) or table.contains(slot0.skinList, slot6.id) or (slot0.shipVO:getRemouldSkinId() == slot6.id and slot0.shipVO:isRemoulded())) and 1) or 0) >= 1 or slot6.skin_type == 3
 
+		onToggle(slot0, slot8.hideObjToggleTF, function (slot0)
+			slot1 = PlayerPrefs.SetInt
+			slot2 = "paint_hide_other_obj_" .. slot0.paintingName
+
+			if slot0 then
+				slot3 = 1
+			else
+				slot3 = 0
+			end
+
+			slot1(slot2, slot3)
+			slot0:flushSkin()
+			slot0.flushSkin:emit(SwichSkinMediator.UPDATE_SKINCONFIG, slot1.shipVO.skinId)
+
+			return
+		end, SFX_PANEL)
 		onButton(slot0, slot7, function ()
 			if slot0 then
 				slot1:back()

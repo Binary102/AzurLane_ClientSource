@@ -138,6 +138,10 @@ class("ChapterOpCommand", import(".ChapterOpRoutine")).execute = function (slot0
 					slot0:doTeleportSub()
 				end
 
+				if slot1.type ~= ChapterConst.OpEnemyRound and slot1.type ~= ChapterConst.OpMove then
+					slot0.flag = bit.bor(slot0.flag, slot0.extraFlag)
+				end
+
 				slot2:updateChapter(slot0.chapter, slot0.flag)
 				slot0:sendNotification(GAME.CHAPTER_OP_DONE, {
 					type = slot1.type,

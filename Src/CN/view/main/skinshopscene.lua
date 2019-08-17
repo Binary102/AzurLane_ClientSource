@@ -205,6 +205,11 @@ function slot0.init(slot0)
 
 	Input.multiTouchEnabled = false
 	slot0.viewMode = slot0.contextData.type or slot0.SHOP_TYPE_COMMON
+	slot0.hideObjToggleTF = slot0:findTF("hideObjToggle", slot0.rightPanel)
+
+	setActive(slot0.hideObjToggleTF, false)
+
+	slot0.hideObjToggle = GetComponent(slot0.hideObjToggleTF, typeof(Toggle))
 end
 
 function slot0.didEnter(slot0)
@@ -366,7 +371,10 @@ function slot0.updateMainView(slot0, slot1)
 		slot0.painting = slot5
 	end
 
-	slot6 = false
+	setActive(slot0.hideObjToggle, slot6)
+
+	slot0.hideObjToggle.isOn = true
+	slot7 = false
 
 	eachChild(slot0.tags, function (slot0)
 		if table.contains(slot0.tag, tonumber(go(slot0).name)) then
@@ -376,13 +384,13 @@ function slot0.updateMainView(slot0, slot1)
 		setActive(slot0, slot2)
 	end)
 
-	slot7 = Ship.New({
+	slot8 = Ship.New({
 		configId = slot3.id,
 		skin_id = slot2.id
 	})
 
-	if slot7:getShipBgPrint() ~= slot7:rarity2bgPrintForGet() then
-		GetSpriteFromAtlasAsync("bg/star_level_bg_" .. slot8, "", function (slot0)
+	if slot8:getShipBgPrint() ~= slot8:rarity2bgPrintForGet() then
+		GetSpriteFromAtlasAsync("bg/star_level_bg_" .. slot9, "", function (slot0)
 			if not slot0.exited then
 				setImageSprite(slot0:GetCurBgTransform(), slot0)
 				slot0:AnimBg()
@@ -393,10 +401,34 @@ function slot0.updateMainView(slot0, slot1)
 		slot0:AnimBg()
 	end
 
+	slot0:setBg(slot3, slot2, slot6)
 	slot0:updatePrice(slot1.goodsVO)
 	slot0:removeShopTimer()
 	slot0:addShopTimer(slot1)
 	slot0:updateBuyBtn(slot1.goodsVO)
+end
+
+function slot0.setBg(slot0, slot1, slot2, slot3)
+	slot5 = Ship.New({
+		configId = slot1.id,
+		skin_id = slot2.id
+	}):getShipBgPrint(true)
+
+	if slot3 and slot2.bg_sp ~= "" then
+		slot5 = slot2.bg_sp
+	end
+
+	if slot5 ~= slot4:rarity2bgPrintForGet() then
+		GetSpriteFromAtlasAsync("bg/star_level_bg_" .. slot5, "", function (slot0)
+			if not slot0.exited then
+				setImageSprite(slot0:GetCurBgTransform(), slot0)
+				slot0:AnimBg()
+			end
+		end)
+	else
+		setImageSprite(slot0:GetCurBgTransform(), slot0.defaultBg)
+		slot0:AnimBg()
+	end
 end
 
 function slot0.GetCurBgTransform(slot0)
@@ -445,8 +477,6 @@ function slot0.updateBuyBtn(slot0, slot1)
 			slot1:showTimeLimitSkinWindow(slot0)
 		end, SFX_PANEL)
 	else
-		slot4 = slot0[slot1:getSkinId()]
-
 		setActive(slot0.buyBtn, not (slot1.type == Goods.TYPE_ACTIVITY or slot5 == Goods.TYPE_ACTIVITY_EXTRA) and slot1.buyCount == 0)
 		setActive(slot0.gotBtn, not (slot1.type == Goods.TYPE_ACTIVITY or slot5 == Goods.TYPE_ACTIVITY_EXTRA) and not (slot1.buyCount == 0))
 		setActive(slot0.activityBtn, slot1.type == Goods.TYPE_ACTIVITY or slot5 == Goods.TYPE_ACTIVITY_EXTRA)
@@ -492,6 +522,13 @@ function slot0.updateBuyBtn(slot0, slot1)
 			else
 				pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_not_start"))
 			end
+		end, SFX_PANEL)
+
+		slot8 = ShipGroup.getDefaultShipConfig(slot0[slot1:getSkinId()].ship_group)
+
+		onToggle(slot0, slot0.hideObjToggleTF, function (slot0)
+			slot0:loadPainting(slot0.painting .. ((slot0 and "") or "_n"))
+			slot0:setBg(slot0.setBg, slot0, slot0)
 		end, SFX_PANEL)
 	end
 end
@@ -613,7 +650,7 @@ end
 
 function slot0.loadPainting(slot0, slot1)
 	slot0:recyclePainting()
-	setPaintingPrefab(slot0.paintingTF, slot1, "chuanwu")
+	setPaintingPrefab(slot0.paintingTF, slot1, "chuanwu", true)
 end
 
 function slot0.recyclePainting(slot0)

@@ -6897,6 +6897,202 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		tip = "未获得$1",
 		key = "err_cloth_change_noship"
 	},
+	["new_airi_error_code_-1"] = {
+		tip = "Unknown Error",
+		key = "new_airi_error_code_-1"
+	},
+	new_airi_error_code_0 = {
+		tip = "Success",
+		key = "new_airi_error_code_0"
+	},
+	new_airi_error_code_100100 = {
+		tip = "This Device ID is banned",
+		key = "new_airi_error_code_100100"
+	},
+	new_airi_error_code_100110 = {
+		tip = "Verification failed, UID does not match with Token",
+		key = "new_airi_error_code_100110"
+	},
+	new_airi_error_code_100111 = {
+		tip = "Account creation failed",
+		key = "new_airi_error_code_100111"
+	},
+	new_airi_error_code_100112 = {
+		tip = "Account creation failed",
+		key = "new_airi_error_code_100112"
+	},
+	new_airi_error_code_100113 = {
+		tip = "Account binding success; Verification failed, this UID does not match with Token, failed to acquire Access Token",
+		key = "new_airi_error_code_100113"
+	},
+	new_airi_error_code_100114 = {
+		tip = "Account binding success; IP restricted, failed to acquire Access Token",
+		key = "new_airi_error_code_100114"
+	},
+	new_airi_error_code_100115 = {
+		tip = "Account binding success; Device ID is banned, failed to acquire Access Token",
+		key = "new_airi_error_code_100115"
+	},
+	new_airi_error_code_100116 = {
+		tip = "Account binding success; UID is banned, failed to acquire Access Token",
+		key = "new_airi_error_code_100116"
+	},
+	new_airi_error_code_100117 = {
+		tip = "Illegal parameters",
+		key = "new_airi_error_code_100117"
+	},
+	new_airi_error_code_100120 = {
+		tip = "IP restricted",
+		key = "new_airi_error_code_100120"
+	},
+	new_airi_error_code_100130 = {
+		tip = "This UID is banned",
+		key = "new_airi_error_code_100130"
+	},
+	new_airi_error_code_100140 = {
+		tip = "Access Token verification failed",
+		key = "new_airi_error_code_100140"
+	},
+	new_airi_error_code_100150 = {
+		tip = "This UID does not match with Transcode",
+		key = "new_airi_error_code_100150"
+	},
+	new_airi_error_code_100160 = {
+		tip = "User birthday has already been added",
+		key = "new_airi_error_code_100160"
+	},
+	new_airi_error_code_100170 = {
+		tip = "Invalid birthday format",
+		key = "new_airi_error_code_100170"
+	},
+	new_airi_error_code_100180 = {
+		tip = "This Twitter/Facebook account is not bound with the game account",
+		key = "new_airi_error_code_100180"
+	},
+	new_airi_error_code_100190 = {
+		tip = "Failed to verify the Token and Secret of this Twitter/Facebook account",
+		key = "new_airi_error_code_100190"
+	},
+	new_airi_error_code_100200 = {
+		tip = "This Twitter/Facebook account is already bound with another Airi UID",
+		key = "new_airi_error_code_100200"
+	},
+	new_airi_error_code_100210 = {
+		tip = "This UID does not match with the UID bound to the Twitter/Facebook account",
+		key = "new_airi_error_code_100210"
+	},
+	new_airi_error_code_100211 = {
+		tip = "Platform binding error",
+		key = "new_airi_error_code_100211"
+	},
+	new_airi_error_code_100212 = {
+		tip = "Platform unbinding error",
+		key = "new_airi_error_code_100212"
+	},
+	new_airi_error_code_100213 = {
+		tip = "Account binding with FB/TW failed",
+		key = "new_airi_error_code_100213"
+	},
+	new_airi_error_code_100220 = {
+		tip = "Facebook login cancelled",
+		key = "new_airi_error_code_100220"
+	},
+	new_airi_error_code_100230 = {
+		tip = "Initialization failed",
+		key = "new_airi_error_code_100230"
+	},
+	new_airi_error_code_100300 = {
+		tip = "Invalid email address format",
+		key = "new_airi_error_code_100300"
+	},
+	new_airi_error_code_100301 = {
+		tip = "Email addresses do not match",
+		key = "new_airi_error_code_100301"
+	},
+	new_airi_error_code_100302 = {
+		tip = "Verification code request is too frequent",
+		key = "new_airi_error_code_100302"
+	},
+	new_airi_error_code_100303 = {
+		tip = "Verification failed, this verification code does not match or has become expired(30 minutes)",
+		key = "new_airi_error_code_100303"
+	},
+	new_airi_error_code_100304 = {
+		tip = "Verification failed too many times, this verification code has become expired upon the 10th failed attempt, please acquire a new verification code",
+		key = "new_airi_error_code_100304"
+	},
+	new_airi_error_code_100305 = {
+		tip = "This account is banned",
+		key = "new_airi_error_code_100305"
+	},
+	new_airi_error_code_100306 = {
+		tip = "Verification code cannot be empty",
+		key = "new_airi_error_code_100306"
+	},
+	new_airi_error_code_100404 = {
+		tip = "Network error",
+		key = "new_airi_error_code_100404"
+	},
+	new_airi_error_code_200100 = {
+		tip = "Purchase order creation failed - User birthday is required",
+		key = "new_airi_error_code_200100"
+	},
+	new_airi_error_code_200110 = {
+		tip = "Purchase order creation failed - Monthly purchase limit exceeded",
+		key = "new_airi_error_code_200110"
+	},
+	new_airi_error_code_200120 = {
+		tip = "Purchase order creation failed - Invalid order information / Item does not exist",
+		key = "new_airi_error_code_200120"
+	},
+	new_airi_error_code_200130 = {
+		tip = "Purchase order creation failed - Invalid order information / Payment method does not exist",
+		key = "new_airi_error_code_200130"
+	},
+	new_airi_error_code_200140 = {
+		tip = "Purchase order creation failed - serverTag does not exist",
+		key = "new_airi_error_code_200140"
+	},
+	new_airi_error_code_200150 = {
+		tip = "Payment receipt verification failed",
+		key = "new_airi_error_code_200150"
+	},
+	new_airi_error_code_200160 = {
+		tip = "Invalid purchase request (invalid user Token, invalid order, or item does not exist)",
+		key = "new_airi_error_code_200160"
+	},
+	new_airi_error_code_200170 = {
+		tip = "Purchase request failed on game server (Determined as an invalid purchase by game logic server)",
+		key = "new_airi_error_code_200170"
+	},
+	new_airi_error_code_200180 = {
+		tip = "The request is proceeding for a long time, notify the client to start a polling",
+		key = "new_airi_error_code_200180"
+	},
+	new_airi_error_code_200190 = {
+		tip = "Order ID does not exist",
+		key = "new_airi_error_code_200190"
+	},
+	new_airi_error_code_200200 = {
+		tip = "Order status tracking timed out",
+		key = "new_airi_error_code_200200"
+	},
+	new_airi_error_code_200210 = {
+		tip = "productid does not exist on GooglePay / AppStorePay / Molpay",
+		key = "new_airi_error_code_200210"
+	},
+	new_airi_error_code_200220 = {
+		tip = "GooglePay / AppStorePay / Molpay failed",
+		key = "new_airi_error_code_200220"
+	},
+	new_airi_error_code_200230 = {
+		tip = "GooglePay / AppStorePay / Molpay cancelled",
+		key = "new_airi_error_code_200230"
+	},
+	new_airi_error_code_300100 = {
+		tip = "Sharing failed",
+		key = "new_airi_error_code_300100"
+	},
 	new_skin_no_choose = {
 		tip = "没有选择需要换装的角色，是否要退出换装",
 		key = "new_skin_no_choose"
@@ -8786,15 +8982,15 @@ $3]],
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
-		tip = "约克公爵 建造追加",
+		tip = "提尔比茨、希佩尔 建造追加",
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "确捷、天狼星、追赶者、谢菲尔德、无敌、库拉索、杓鹬、牙买加 建造追加",
+		tip = "Z46、Z25、Z35、Z18、Z19 建造追加",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "胜利、追赶者 建造追加",
+		tip = "齐柏林、U47、U557 建造追加",
 		key = "buildship_special_tip"
 	},
 	open_skill_pos = {
@@ -10866,6 +11062,10 @@ P7通过指定关卡]]
 	word_reward = {
 		tip = "奖励",
 		key = "word_reward"
+	},
+	paint_hide_other_obj_tip = {
+		tip = "隐藏背景物件",
+		key = "paint_hide_other_obj_tip"
 	}
 }
 

@@ -20,7 +20,7 @@ function slot0.execute(slot0, slot1)
 	end
 
 	if slot6:isMaxLevel() and slot6:isMaxFateLevel() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("blueprint_max_level_tip"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("blueprint_max_level_tip"))
 
 		return
 	end
@@ -30,7 +30,7 @@ function slot0.execute(slot0, slot1)
 	slot11:addExp(slot10)
 
 	if getProxy(BayProxy).getShipById(slot13, slot6.shipId).level < slot11:getStrengthenConfig(math.max(slot11.level, 1)).need_lv then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("buleprint_need_level_tip", slot12.need_lv))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("buleprint_need_level_tip", slot12.need_lv))
 
 		return
 	end
@@ -61,7 +61,7 @@ function slot0.execute(slot0, slot1)
 										id = slot22
 									}
 
-									pg.TipsMgr:GetInstance():ShowTips(slot13[3])
+									pg.TipsMgr.GetInstance():ShowTips(slot13[3])
 								end
 
 								slot16:updateShip(slot17)
@@ -72,7 +72,7 @@ function slot0.execute(slot0, slot1)
 
 								slot16 = pg.ship_skin_template[slot13[2]].name
 
-								pg.TipsMgr:GetInstance():ShowTips(slot13[3])
+								pg.TipsMgr.GetInstance():ShowTips(slot13[3])
 							elseif slot14 == ShipBluePrint.STRENGTHEN_TYPE_BREAKOUT then
 								slot0:upgradeStar(getProxy(BayProxy).getShipById(slot15, slot3.shipId))
 							end
@@ -90,7 +90,7 @@ function slot0.execute(slot0, slot1)
 								slot16.skills[slot13[2][1]] = nil
 								slot16.skills[slot13[2][2]] = Clone(slot16.skills[slot13[2][1]])
 
-								pg.TipsMgr:GetInstance():ShowTips(slot13[3])
+								pg.TipsMgr.GetInstance():ShowTips(slot13[3])
 								slot15:updateShip(slot16)
 
 								if getProxy(NavalAcademyProxy):getStudentByShipId(slot16.id) and slot21.skillId == slot17 then
@@ -118,9 +118,9 @@ function slot0.execute(slot0, slot1)
 				oldBluePrint = slot1,
 				newBluePrint = slot3
 			})
-			pg.TipsMgr:GetInstance():ShowTips(i18n("blueprint_mod_success"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("blueprint_mod_success"))
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("blueprint_mod_erro") .. slot0.result)
+			pg.TipsMgr.GetInstance():ShowTips(i18n("blueprint_mod_erro") .. slot0.result)
 		end
 	end)
 end

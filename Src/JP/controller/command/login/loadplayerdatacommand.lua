@@ -48,25 +48,20 @@ class("LoadPlayerDataCommand", pm.SimpleCommand).execute = function (slot0, slot
 		slot2 = getProxy(PlayerProxy).getData(slot1)
 
 		if slot0 then
-			pg.StoryMgr:GetInstance():Reset()
-			pg.PushNotificationMgr:GetInstance():Reset()
-
-			if not isAiriJP() then
-				BilibiliSdkMgr.inst:createRole(slot2.id, slot2.name, slot2.level, 1000 * slot2.registerTime, "vip0", slot2:getTotalGem())
-			end
+			pg.StoryMgr.GetInstance():Reset()
+			pg.PushNotificationMgr.GetInstance():Reset()
+			pg.SdkMgr.GetInstance():CreateRole(slot2.id, slot2.name, slot2.level, slot2.registerTime, slot2:getTotalGem())
 		end
 
-		pg.SeriesGuideMgr:GetInstance():setPlayer(slot2)
+		pg.SeriesGuideMgr.GetInstance():setPlayer(slot2)
 
-		slot6 = getProxy(ServerProxy).getLastServer(slot5, getProxy(UserProxy).getData(slot3).uid)
+		slot5 = getProxy(ServerProxy)
+		slot6 = slot5:getLastServer(getProxy(UserProxy).getData(slot3).uid)
 
-		if not isAiriJP() then
-			BilibiliSdkMgr.inst:enterServer(tostring(slot6.id), slot6.name, slot2.id, slot2.name, slot2.registerTime * 1000, slot2.level, "vip0", slot2:getTotalGem())
-		end
-
-		slot5:recordLoginedServer(slot4.uid, slot6.id)
+		pg.SdkMgr.GetInstance():EnterServer(tostring(slot6.id), slot6.name, slot2.id, slot2.name, slot2.registerTime, slot2.level, slot2:getTotalGem())
+		slot5:recordLoginedServer(getProxy(UserProxy).getData(slot3).uid, slot6.id)
 		slot1:sendNotification(GAME.LOAD_PLAYER_DATA_DONE)
-		BilibiliSdkMgr.inst:callSdkApi("bindCpu", nil)
+		pg.SdkMgr.GetInstance():BindCPU()
 		getProxy(PlayerProxy).setInited(slot7, true)
 		pg.SecondaryPWDMgr.GetInstance():FetchData()
 	end)

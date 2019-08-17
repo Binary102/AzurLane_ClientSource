@@ -82,7 +82,7 @@ function slot0.didEnter(slot0)
 				content = i18n("battle_preCombatLayer_save_confirm"),
 				onYes = function ()
 					slot0:emit(PreCombatMediator.ON_COMMIT_EDIT, function ()
-						pg.TipsMgr:GetInstance():ShowTips(i18n("battle_preCombatLayer_save_success"))
+						pg.TipsMgr.GetInstance():ShowTips(i18n("battle_preCombatLayer_save_success"))
 
 						GetOrAddComponent(slot0._tf, typeof(CanvasGroup)).interactable = false
 
@@ -120,7 +120,7 @@ function slot0.didEnter(slot0)
 				content = i18n("battle_preCombatLayer_save_march"),
 				onYes = function ()
 					slot0:emit(PreCombatMediator.ON_COMMIT_EDIT, function ()
-						pg.TipsMgr:GetInstance():ShowTips(i18n("battle_preCombatLayer_save_success"))
+						pg.TipsMgr.GetInstance():ShowTips(i18n("battle_preCombatLayer_save_success"))
 						pg.TipsMgr.GetInstance().ShowTips:emit(PreCombatMediator.ON_START, slot0._currentFleetVO.id)
 					end)
 				end
@@ -239,7 +239,7 @@ function slot0.switchToEditMode(slot0)
 	onButton(slot0, slot0._checkBtn, function ()
 		slot0:emit(PreCombatMediator.ON_COMMIT_EDIT, function ()
 			if slot0._editedFlag then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("battle_preCombatLayer_save_success"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("battle_preCombatLayer_save_success"))
 			end
 
 			slot0:swtichToPreviewMode()
@@ -378,9 +378,9 @@ function slot0.loadAllCharacter(slot0)
 	end
 
 	slot3(slot0._currentFleetVO.subShips, Fleet.SUBMARINE)
-	pg.UIMgr:GetInstance():LoadingOn()
+	pg.UIMgr.GetInstance():LoadingOn()
 	parallelAsync({}, function (slot0)
-		pg.UIMgr:GetInstance():LoadingOff()
+		pg.UIMgr.GetInstance():LoadingOff()
 	end)
 end
 
@@ -554,7 +554,7 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 					if not slot1._currentFleetVO:canRemove(slot2) then
 						slot3, slot4 = slot1._currentFleetVO:getShipPos(slot2)
 
-						pg.TipsMgr:GetInstance():ShowTips(i18n("ship_formationUI_removeError_onlyShip", slot2:getConfigTable().name, slot1._currentFleetVO.name, Fleet.C_TEAM_NAME[slot4]))
+						pg.TipsMgr.GetInstance():ShowTips(i18n("ship_formationUI_removeError_onlyShip", slot2:getConfigTable().name, slot1._currentFleetVO.name, Fleet.C_TEAM_NAME[slot4]))
 						slot2()
 					else
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({

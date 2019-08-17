@@ -9,7 +9,7 @@ class("ColoringClearCommand", pm.SimpleCommand).execute = function (slot0, slot1
 			slot1:getColorGroup(slot0).clearFill(slot2)
 			slot1:sendNotification(GAME.COLORING_CLEAR_DONE)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("coloring_clear", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("coloring_clear", slot0.result))
 		end
 	end)
 end

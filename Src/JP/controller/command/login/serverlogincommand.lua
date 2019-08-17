@@ -8,19 +8,8 @@ function slot0.execute(slot0, slot1)
 	print("connect to game server - " .. slot3 .. ":" .. slot2:getPort())
 
 	slot6 = getProxy(UserProxy).getData(slot5)
-	slot7 = ""
 
-	if PLATFORM_CODE == 1 then
-		if GetBiliServerId() == SHAREJOY_SERVER_ID then
-			slot7 = "cps"
-		elseif slot8 == BILI_SERVER_ID then
-			slot7 = "0"
-		elseif slot8 == UNION_SERVER_ID then
-			slot7 = BilibiliSdkMgr.inst.channelUID
-		end
-	end
-
-	if slot7 == "" then
+	if pg.SdkMgr.GetInstance():GetChannelUID() == "" then
 		slot7 = PLATFORM_LOCAL
 	end
 
@@ -31,13 +20,13 @@ function slot0.execute(slot0, slot1)
 			server_ticket = slot0 or slot1.token,
 			serverid = pg.ConnectionMgr.GetInstance().id,
 			check_key = HashUtil.CalcMD5(slot1.token .. AABBUDUD),
-			device_id = getDeviceId()
+			device_id = pg.SdkMgr.GetInstance():GetDeviceId()
 		}, 10023, function (slot0)
 			if slot0.result == 0 then
 				print("connect success: " .. slot0.user_id)
 
 				if slot0.status == Server.STATUS.REGISTER_FULL and slot0.user_id == 0 then
-					pg.TipsMgr:GetInstance():ShowTips(i18n("login_register_full"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("login_register_full"))
 					pg.ConnectionMgr.GetInstance():onDisconnected(true)
 				else
 					slot1.token = slot0.server_ticket
@@ -51,21 +40,20 @@ function slot0.execute(slot0, slot1)
 					slot1:sendNotification(GAME.SERVER_LOGIN_SUCCESS, {
 						uid = slot0.user_id
 					})
+					pg.TrackerMgr.GetInstance():Tracking(TRACKING_ROLE_LOGIN)
 
-					if isAiriJP() then
-						SendAiriJPTracking(AIRIJP_TRACKING_ROLE_LOGIN, slot0.user_id)
-					elseif slot0.user_id == 0 then
-						BilibiliSdkMgr.inst:chooseServer(tostring(slot0.id), slot0.name)
+					if slot0.user_id == 0 then
+						pg.SdkMgr.GetInstance():ChooseServer(tostring(slot0.id), slot0.name)
 					end
 				end
 			elseif slot0.result == 13 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("login_game_not_ready"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("login_game_not_ready"))
 			elseif slot0.result == 15 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("login_game_rigister_full"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("login_game_rigister_full"))
 			elseif slot0.result == 17 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("login_game_banned"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("login_game_banned"))
 			elseif slot0.result == 6 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("login_game_login_full"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("login_game_login_full"))
 			elseif slot0.result == 18 then
 				slot3:sendNotification(GAME.SERVER_LOGIN_WAIT, math.floor(slot0.db_load / 100 + slot0.server_load / 1000 + 1))
 			else
@@ -90,7 +78,7 @@ function slot0.execute(slot0, slot1)
 			end, 6)
 		end
 	else
-		pg.TipsMgr:GetInstance():ShowTips(i18n("login_game_frequence"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("login_game_frequence"))
 	end
 end
 

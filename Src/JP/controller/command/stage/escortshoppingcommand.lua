@@ -4,20 +4,20 @@ class("EscortShoppingCommand", pm.SimpleCommand).execute = function (slot0, slot
 	slot10, slot11 = getPlayerOwn(slot9.resource_category, slot9.resource_type)
 
 	if slot11 < slot9.resource_num * slot1:getBody().count then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_x", slot10))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_x", slot10))
 
 		return
 	end
 
 	if slot9.commodity_type == 1 then
 		if slot9.commodity_id == 1 and slot6:GoldMax(slot9.num * slot4) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_shop"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_shop"))
 
 			return
 		end
 
 		if slot9.commodity_id == 2 and slot6:OilMax(slot9.num * slot4) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_shop"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_shop"))
 
 			return
 		end

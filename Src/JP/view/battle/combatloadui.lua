@@ -8,7 +8,7 @@ end
 
 function slot0.init(slot0)
 	slot1 = slot0:findTF("loading")
-	slot0._loadingProgress = slot1:Find("loading_bar/progress"):GetComponent(typeof(Slider))
+	slot0._loadingProgress = slot1:Find("loading_bar"):GetComponent(typeof(Slider))
 	slot0._loadingProgress.value = 0
 	slot0._loadingText = slot1:Find("loading_label/percent"):GetComponent(typeof(Text))
 	slot0._loadingAnima = slot1:Find("loading_anima")
@@ -41,8 +41,8 @@ function slot0.Preload(slot0)
 	slot0._loadObs = {}
 	slot0._toLoad = {}
 
-	ys.Battle.BattleFXPool:GetInstance():Init()
-	ys.Battle.BattleResourceManager:GetInstance().Init(slot1)
+	ys.Battle.BattleFXPool.GetInstance():Init()
+	ys.Battle.BattleResourceManager.GetInstance().Init(slot1)
 
 	slot2 = getProxy(BayProxy)
 
@@ -293,7 +293,7 @@ function slot0.Preload(slot0)
 end
 
 function slot0.addCommanderBuffRes(slot0)
-	slot1 = ys.Battle.BattleResourceManager:GetInstance()
+	slot1 = ys.Battle.BattleResourceManager.GetInstance()
 
 	for slot5, slot6 in ipairs(slot0) do
 		for slot11, slot12 in ipairs(slot7) do
@@ -303,7 +303,7 @@ function slot0.addCommanderBuffRes(slot0)
 end
 
 function slot0.addChapterBuffRes(slot0)
-	slot1 = ys.Battle.BattleResourceManager:GetInstance()
+	slot1 = ys.Battle.BattleResourceManager.GetInstance()
 
 	for slot5, slot6 in ipairs(slot0) do
 		for slot11, slot12 in ipairs(slot7) do

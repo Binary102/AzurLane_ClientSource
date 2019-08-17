@@ -18,7 +18,7 @@ class("FetchEvaluationCommand", pm.SimpleCommand).execute = function (slot0, slo
 					slot1:sendNotification(GAME.FETCH_EVALUATION_DONE, slot0)
 				end
 			else
-				pg.TipsMgr:GetInstance():ShowTips(errorTip("fetch_ship_eva", slot0.result))
+				pg.TipsMgr.GetInstance():ShowTips(errorTip("fetch_ship_eva", slot0.result))
 			end
 		end)
 	elseif slot5.evaluation then

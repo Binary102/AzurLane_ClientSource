@@ -14,7 +14,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:setItems(slot0.bagProxy:getData())
 	slot0:bind(slot0.REMOULD_SHIP, function (slot0, slot1, slot2, slot3)
 		if slot0.contextData.materialShipIds and table.getCount(slot0.contextData.materialShipIds) > 1 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("remould_ship_count_more"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("remould_ship_count_more"))
 
 			return
 		end
@@ -97,7 +97,7 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.contextData.materialShipIds = nil
 
 		slot0.viewComponent:updateInfo(slot3.id)
-		pg.TipsMgr:GetInstance():ShowTips(i18n("remould_ship_ok"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("remould_ship_ok"))
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:setPlayer(slot3)
 	elseif slot2 == BagProxy.ITEM_UPDATED then

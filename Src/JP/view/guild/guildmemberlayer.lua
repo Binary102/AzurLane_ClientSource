@@ -123,7 +123,7 @@ slot1 = {
 }
 
 function slot0.initMembers(slot0)
-	pg.UIMgr:GetInstance():LoadingOn()
+	pg.UIMgr.GetInstance():LoadingOn()
 
 	slot0.rectRect = slot0.rectView:GetComponent("LScrollRect")
 
@@ -136,7 +136,7 @@ function slot0.initMembers(slot0)
 	end
 
 	function slot0.rectRect.onStart()
-		pg.UIMgr:GetInstance():LoadingOff()
+		pg.UIMgr.GetInstance():LoadingOff()
 		pg.UIMgr.GetInstance().LoadingOff:reloadPainting()
 	end
 
@@ -301,12 +301,12 @@ function slot0.loadPainting(slot0, slot1)
 		setText(slot0:findTF("Text", slot0.chatPanel), slot1.manifesto)
 	end
 
-	pg.UIMgr:GetInstance():LoadingOn()
+	pg.UIMgr.GetInstance():LoadingOn()
 	setPaintingPrefabAsync(slot0.paintingTF, Ship.New({
 		configId = slot1.icon,
 		skin_id = slot1.skinId
 	}).getPainting(slot4), "chuanwu", function ()
-		pg.UIMgr:GetInstance():LoadingOff()
+		pg.UIMgr.GetInstance():LoadingOff()
 	end)
 	onToggle(slot0, slot0.infoBtn, function (slot0)
 		if slot0 then
@@ -478,7 +478,7 @@ function slot0.showFirePanel(slot0, slot1)
 			return
 		end
 
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("guild_fire_tip"),
 			onYes = function ()
 				slot0:emit(GuildMemberMediator.FIRE, slot1.id)
@@ -547,7 +547,7 @@ function slot0.showImpeachPanel(slot0, slot1)
 			return
 		end
 
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("guild_impeach_tip"),
 			onYes = function ()
 				slot0:emit(GuildMemberMediator.IMPEACH, slot1.id)

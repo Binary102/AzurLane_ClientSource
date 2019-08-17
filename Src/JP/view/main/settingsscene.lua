@@ -18,6 +18,10 @@ function slot0.init(slot0)
 	slot0.otherToggle = slot0:findTF("other", slot0.leftPanel)
 	slot0.interfaceToggle = slot0:findTF("battle_ui", slot0.leftPanel)
 	slot0.resToggle = slot0:findTF("resources", slot0.leftPanel)
+	slot0.helpUS = slot0:findTF("help_us", slot0.leftPanel)
+
+	setActive(slot0.helpUS, PLATFORM_CODE == PLATFORM_US)
+
 	slot0.repairMask = slot0:findTF("mask_repair")
 
 	slot0:initSoundPanel(slot0:findTF("main/resources"))
@@ -96,7 +100,7 @@ function slot0.initResDownloadPanel(slot0, slot1)
 
 	setActive(slot0.repairBtn, PLATFORM_CODE ~= PLATFORM_JP and PathMgr.FileExists(slot0.repairHashPath))
 	onButton(slot0, slot0.repairBtn, function ()
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("resource_verify_warn"),
 			onYes = function ()
 				slot0:resourceVerify()
@@ -130,7 +134,7 @@ function slot0.initSoundPanel(slot0, slot1)
 		pg.CriMgr.GetInstance():setCVVolume(slot0)
 	end)
 	onButton(slot0, slot0.revertBtn, function ()
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("sure_resume_volume"),
 			onYes = function ()
 				pg.CriMgr.GetInstance():setBGMVolume(DEFAULT_BGMVOLUME)
@@ -159,53 +163,6 @@ function slot0.initSoundSlider(slot0, slot1, slot2)
 	onButton(slot0, slot1:Find("down"), function ()
 		slot0.value = math.clamp(slot0.value - slot1, slot0.minValue, slot0.maxValue)
 	end, SFX_PANEL)
-end
-
-function slot0.initTransCodePanel(slot0, slot1)
-	slot0.userProxy = getProxy(UserProxy)
-	slot0.accountTwitterUI = slot0:findTF("page1", slot1)
-	slot0.goTranscodeUIBtn = slot0:findTF("bind_account", slot0.accountTwitterUI)
-	slot0.twitterBtn = slot0:findTF("bind_twitter", slot0.accountTwitterUI)
-	slot0.twitterUnlinkBtn = slot0:findTF("unlink_twitter", slot0.accountTwitterUI)
-	slot0.twitterLinkSign = slot0:findTF("twitter_status", slot0.accountTwitterUI)
-	slot0.transcodeUI = slot0:findTF("page2", slot1)
-	slot0.uidTxt = slot0:findTF("account_name/Text", slot0.transcodeUI)
-	slot0.transcodeTxt = slot0:findTF("password/Text", slot0.transcodeUI)
-	slot0.getCodeBtn = slot0:findTF("publish_transcode", slot0.transcodeUI)
-	slot0.codeDesc = slot0:findTF("title_desc", slot0.transcodeUI)
-
-	slot0:checkTranscodeView()
-	slot0:checkAccountTwitterView()
-end
-
-function slot0.showTranscode(slot0, slot1)
-	pg.UIMgr.GetInstance():LoadingOff()
-	slot0.userProxy:saveTranscode(slot1)
-	slot0:checkTranscodeView()
-end
-
-function slot0.checkTranscodeView(slot0)
-	slot0.transcode = slot0.userProxy:getTranscode()
-
-	setActive(slot0.codeDesc, slot0.transcode ~= "")
-	setActive(slot0.getCodeBtn, slot0.transcode == "")
-
-	if slot0.transcode ~= "" then
-		setText(slot0.uidTxt, AiriSdkMgr.AiriSDKInst.Uid)
-		setText(slot0.transcodeTxt, slot0.transcode)
-	end
-end
-
-function slot0.checkAccountTwitterView(slot0)
-	slot1 = IsSocialLink(AIRI_PLATFORM_TWITTER)
-
-	setActive(slot0.twitterUnlinkBtn, slot1)
-	setActive(slot0.twitterLinkSign, slot1)
-	setActive(slot0.twitterBtn, not slot1)
-
-	if slot1 then
-		setText(slot0.twitterLinkSign, i18n("twitter_link_title", GetSocialName(AIRI_PLATFORM_TWITTER)))
-	end
 end
 
 slot1 = {}
@@ -349,7 +306,7 @@ function slot0.initInterfacePreference(slot0, slot1)
 
 		slot0:editModeEnabled(false)
 		slot0.editModeEnabled:saveInterfaceSetting()
-		pg.TipsMgr:GetInstance():ShowTips(i18n("setting_interface_save_success"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("setting_interface_save_success"))
 	end, SFX_PANEL)
 
 	slot0.interface = slot0:findTF("main/battle_ui/editor/editing_region")
@@ -719,7 +676,11 @@ function slot0.initOtherPanel(slot0)
 
 	setActive(slot0:findTF("account", slot0.otherContent), false)
 
-	if PLATFORM_CODE == PLATFORM_CH then
+	if PLATFORM_CODE == PLATFORM_CH or PLATFORM_CODE == PLATFORM_KR then
+		if PLATFORM_CODE == PLATFORM_KR then
+			slot0:initKrHelp()
+		end
+
 		if PLATFORM == PLATFORM_IPHONEPLAYER then
 			slot1 = false
 		end
@@ -727,7 +688,7 @@ function slot0.initOtherPanel(slot0)
 		slot0.accountJP = slot0:findTF("account", slot0.otherContent)
 
 		setActive(slot0.accountJP, true)
-		slot0:initTransCodePanel(slot0.accountJP)
+		slot0:initJPAccountPanel(slot0.accountJP)
 
 		if PLATFORM == PLATFORM_IPHONEPLAYER then
 			slot1 = false
@@ -901,6 +862,9 @@ function slot0.didEnter(slot0)
 			end
 		})
 	end, SFX_PANEL)
+	onButton(slot0, slot0.helpUS, function ()
+		pg.SdkMgr.GetInstance():OpenYostarHelp()
+	end)
 	slot0:onAddToggleEvent(slot0, slot0.otherToggle, function (slot0)
 		if slot0 and PlayerPrefs.GetFloat("firstIntoOtherPanel") == 0 then
 			setActive(slot1, false)
@@ -919,29 +883,6 @@ function slot0.didEnter(slot0)
 
 	slot0._cvTest = slot0:findTF("cvTest")
 	slot0._hpBtn = slot0:findTF("dungeon_hp")
-
-	if PLATFORM_CODE == PLATFORM_JP then
-		onButton(slot0, slot0.getCodeBtn, function ()
-			if slot0.transcode == "" then
-				pg.SecondaryPWDMgr:LimitedOperation(pg.SecondaryPWDMgr.CREATE_INHERIT, nil, function ()
-					AiriSdkMgr.inst:TranscodeRequest()
-					pg.UIMgr.GetInstance():LoadingOn()
-				end)
-			end
-		end)
-		onButton(slot0, slot0.twitterBtn, function ()
-			pg.UIMgr.GetInstance():LoadingOn()
-			LinkSocial(AIRI_PLATFORM_TWITTER)
-		end)
-		onButton(slot0, slot0.twitterUnlinkBtn, function ()
-			pg.UIMgr.GetInstance():LoadingOn()
-			UnlinkSocial(AIRI_PLATFORM_TWITTER)
-		end)
-		onButton(slot0, slot0.goTranscodeUIBtn, function ()
-			setActive(slot0.accountTwitterUI, false)
-			setActive(slot0.transcodeUI, true)
-		end)
-	end
 
 	if SFX_TEST then
 		setActive(slot0._cvTest, true)
@@ -1256,7 +1197,7 @@ function slot0.resourceVerify(slot0)
 		print(slot0.repairMask)
 
 		if slot0.repairMask then
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("resource_verify_fail", pg.MsgboxMgr.GetInstance()),
 				onYes = function ()
 					VersionMgr.Inst:DeleteCacheFiles()
@@ -1267,7 +1208,7 @@ function slot0.resourceVerify(slot0)
 				end
 			})
 		else
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("resource_verify_success")
 			})
 		end
@@ -1298,6 +1239,216 @@ function slot0.resourceVerify(slot0)
 
 		slot0()
 	end(PathMgr.ReadAllLines(slot0.repairHashPath).Length - 1)
+end
+
+function slot0.initJPAccountPanel(slot0, slot1)
+	slot0.userProxy = getProxy(UserProxy)
+	slot0.accountTwitterUI = slot0:findTF("page1", slot1)
+	slot0.goTranscodeUIBtn = slot0:findTF("bind_account", slot0.accountTwitterUI)
+	slot0.twitterBtn = slot0:findTF("bind_twitter", slot0.accountTwitterUI)
+	slot0.twitterUnlinkBtn = slot0:findTF("unlink_twitter", slot0.accountTwitterUI)
+	slot0.twitterLinkSign = slot0:findTF("twitter_status", slot0.accountTwitterUI)
+	slot0.transcodeUI = slot0:findTF("page2", slot1)
+	slot0.uidTxt = slot0:findTF("account_name/Text", slot0.transcodeUI)
+	slot0.transcodeTxt = slot0:findTF("password/Text", slot0.transcodeUI)
+	slot0.getCodeBtn = slot0:findTF("publish_transcode", slot0.transcodeUI)
+	slot0.codeDesc = slot0:findTF("title_desc", slot0.transcodeUI)
+
+	onButton(slot0, slot0.getCodeBtn, function ()
+		if slot0.transcode == "" then
+			pg.SecondaryPWDMgr:LimitedOperation(pg.SecondaryPWDMgr.CREATE_INHERIT, nil, function ()
+				pg.SdkMgr.GetInstance():TranscodeRequest()
+			end)
+		end
+	end)
+	onButton(slot0, slot0.twitterBtn, function ()
+		pg.UIMgr.GetInstance():LoadingOn()
+		pg.SdkMgr.GetInstance():LinkSocial(AIRI_PLATFORM_TWITTER)
+	end)
+	onButton(slot0, slot0.twitterUnlinkBtn, function ()
+		pg.UIMgr.GetInstance():LoadingOn()
+		pg.SdkMgr.GetInstance():UnlinkSocial(AIRI_PLATFORM_TWITTER)
+	end)
+	onButton(slot0, slot0.goTranscodeUIBtn, function ()
+		setActive(slot0.accountTwitterUI, false)
+		setActive(slot0.transcodeUI, true)
+	end)
+	slot0:checkTranscodeView()
+	slot0:checkAccountTwitterView()
+end
+
+function slot0.showTranscode(slot0, slot1)
+	slot0.userProxy:saveTranscode(slot1)
+	slot0:checkTranscodeView()
+end
+
+function slot0.checkTranscodeView(slot0)
+	slot0.transcode = slot0.userProxy:getTranscode()
+
+	setActive(slot0.codeDesc, slot0.transcode ~= "")
+	setActive(slot0.getCodeBtn, slot0.transcode == "")
+
+	if slot0.transcode ~= "" then
+		setText(slot0.uidTxt, pg.SdkMgr.GetInstance():GetYostarUid())
+		setText(slot0.transcodeTxt, slot0.transcode)
+	end
+end
+
+function slot0.checkAccountTwitterView(slot0)
+	slot1 = pg.SdkMgr.GetInstance():IsSocialLink(AIRI_PLATFORM_TWITTER)
+
+	setActive(slot0.twitterUnlinkBtn, slot1)
+	setActive(slot0.twitterLinkSign, slot1)
+	setActive(slot0.twitterBtn, not slot1)
+
+	if slot1 then
+		setText(slot0.twitterLinkSign, i18n("twitter_link_title", pg.SdkMgr.GetInstance():GetSocialName(AIRI_PLATFORM_TWITTER)))
+	end
+end
+
+function slot0.initUSAccountPanel(slot0, slot1)
+	slot2 = slot0:findTF("page1", slot1)
+	slot0.btnBindTwitter = slot0:findTF("bind_twitter", slot2)
+	slot0.btnUnlinkTwitter = slot0:findTF("unlink_twitter", slot2)
+	slot0.twitterStatus = slot0:findTF("twitter_status", slot2)
+	slot0.btnBindFacebook = slot0:findTF("bind_facebook", slot2)
+	slot0.btnUnlinkFacebook = slot0:findTF("unlink_facebook", slot2)
+	slot0.facebookStatus = slot0:findTF("facebook_status", slot2)
+	slot0.btnBindYostar = slot0:findTF("bind_yostar", slot2)
+	slot0.btnUnlinkYostar = slot0:findTF("unlink_yostar", slot2)
+	slot0.yostarStatus = slot0:findTF("yostar_status", slot2)
+	slot0.yostarAlert = slot0:findTF("page2", slot1)
+	slot0.yostarEmailTxt = slot0:findTF("email_input_txt", slot0.yostarAlert)
+	slot0.yostarCodeTxt = slot0:findTF("code_input_txt", slot0.yostarAlert)
+	slot0.yostarGenCodeBtn = slot0:findTF("gen_code_btn", slot0.yostarAlert)
+	slot0.yostarGenTxt = slot0:findTF("Text", slot0.yostarGenCodeBtn)
+	slot0.yostarSureBtn = slot0:findTF("login_btn", slot0.yostarAlert)
+
+	onButton(slot0, slot0.btnBindTwitter, function ()
+		pg.UIMgr.GetInstance():LoadingOn()
+		pg.SdkMgr.GetInstance():LinkSocial(AIRI_PLATFORM_TWITTER)
+	end)
+	onButton(slot0, slot0.btnUnlinkTwitter, function ()
+		pg.UIMgr.GetInstance():LoadingOn()
+		pg.SdkMgr.GetInstance():UnlinkSocial(AIRI_PLATFORM_TWITTER)
+	end)
+	onButton(slot0, slot0.btnBindFacebook, function ()
+		pg.UIMgr.GetInstance():LoadingOn()
+		pg.SdkMgr.GetInstance():LinkSocial(AIRI_PLATFORM_FACEBOOK)
+	end)
+	onButton(slot0, slot0.btnUnlinkFacebook, function ()
+		pg.UIMgr.GetInstance():LoadingOn()
+		pg.SdkMgr.GetInstance():UnlinkSocial(AIRI_PLATFORM_FACEBOOK)
+	end)
+	onButton(slot0, slot0.btnBindYostar, function ()
+		pg.UIMgr.GetInstance():BlurPanel(slot0.yostarAlert, false)
+		setActive(slot0.yostarAlert, true)
+	end)
+	onButton(slot0, slot0.yostarAlert, function ()
+		pg.UIMgr.GetInstance():UnblurPanel(slot0.yostarAlert, slot0.accountUS)
+		setActive(slot0.yostarAlert, false)
+	end)
+	onButton(slot0, slot0.yostarGenCodeBtn, function ()
+		if getInputText(slot0.yostarEmailTxt) ~= "" then
+			pg.SdkMgr.GetInstance():VerificationCodeReq(slot0)
+			slot0:checkAiriGenCodeCounter_US()
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("verification_code_req_tip1"))
+		end
+	end)
+	onButton(slot0, slot0.yostarSureBtn, function ()
+		slot1 = getInputText(slot0.yostarCodeTxt)
+
+		if getInputText(slot0.yostarEmailTxt) ~= "" and slot1 ~= "" then
+			pg.UIMgr.GetInstance():LoadingOn()
+			pg.SdkMgr.GetInstance():LinkSocial(AIRI_PLATFORM_YOSTAR, slot0, slot1)
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("verification_code_req_tip3"))
+		end
+
+		triggerButton(slot0.yostarAlert)
+	end)
+	slot0:checkAccountTwitterView_US()
+	slot0:checkAccountFacebookView_US()
+	slot0:checkAccountYostarView_US()
+
+	if CSharpVersion > 24 then
+		slot0:checkAiriGenCodeCounter_US()
+	end
+end
+
+function slot0.checkAccountTwitterView_US(slot0)
+	slot1 = pg.SdkMgr.GetInstance():IsSocialLink(AIRI_PLATFORM_TWITTER)
+
+	setActive(slot0.btnUnlinkTwitter, slot1)
+	setActive(slot0.twitterStatus, slot1)
+	setActive(slot0.btnBindTwitter, not slot1)
+
+	if slot1 then
+		setText(slot0.twitterStatus, i18n("twitter_link_title", pg.SdkMgr.GetInstance():GetSocialName(AIRI_PLATFORM_TWITTER)))
+	end
+end
+
+function slot0.checkAccountFacebookView_US(slot0)
+	slot1 = pg.SdkMgr.GetInstance():IsSocialLink(AIRI_PLATFORM_FACEBOOK)
+
+	setActive(slot0.btnUnlinkFacebook, slot1)
+	setActive(slot0.facebookStatus, slot1)
+	setActive(slot0.btnBindFacebook, not slot1)
+
+	if slot1 then
+		setText(slot0.facebookStatus, i18n("facebook_link_title", pg.SdkMgr.GetInstance():GetSocialName(AIRI_PLATFORM_FACEBOOK)))
+	end
+end
+
+function slot0.checkAccountYostarView_US(slot0)
+	slot1 = pg.SdkMgr.GetInstance():IsSocialLink(AIRI_PLATFORM_YOSTAR)
+
+	setActive(slot0.btnUnlinkYostar, slot1)
+	setActive(slot0.yostarStatus, slot1)
+	setActive(slot0.btnBindYostar, not slot1)
+
+	if slot1 then
+		setText(slot0.yostarStatus, i18n("yostar_link_title", pg.SdkMgr.GetInstance():GetSocialName(AIRI_PLATFORM_YOSTAR)))
+	end
+end
+
+function slot0.checkAiriGenCodeCounter_US(slot0)
+	if GetAiriGenCodeTimeRemain() > 0 then
+		setButtonEnabled(slot0.yostarGenCodeBtn, false)
+
+		slot0.genCodeTimer = Timer.New(function ()
+			if GetAiriGenCodeTimeRemain() > 0 then
+				setText(slot0.yostarGenTxt, "(" .. slot0 .. ")")
+			else
+				setText(slot0.yostarGenTxt, "Generate")
+				slot0:clearAiriGenCodeTimer_US()
+			end
+		end, 1, -1):Start()
+	end
+end
+
+function slot0.clearAiriGenCodeTimer_US(slot0)
+	setButtonEnabled(slot0.yostarGenCodeBtn, true)
+
+	if slot0.genCodeTimer then
+		slot0.genCodeTimer:Stop()
+
+		slot0.genCodeTimer = nil
+	end
+
+	return
+end
+
+function slot0.initKrHelp(slot0)
+	onButton(slot0, slot0:findTF("blur_panel/adapt/left_length/helpBtn"), function ()
+		print("help:")
+		pg.SdkMgr.GetInstance():BugReport()
+
+		return
+	end, SFX_CANCEL)
+
+	return
 end
 
 return slot0

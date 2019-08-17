@@ -14,11 +14,11 @@ end
 function slot0.OnInit(slot0)
 	onButton(slot0, findTF(slot0.searchPanel, "copy_btn"), function ()
 		UniPasteBoard.SetClipBoardString(slot0.playerVO.id)
-		pg.TipsMgr:GetInstance():ShowTips(i18n("friend_id_copy_ok"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("friend_id_copy_ok"))
 	end)
 	onButton(slot0, findTF(slot0.searchPanel, "search_btn"), function ()
 		if slot0.waitTimer and slot0.waitTimer - slot0 > 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("friend_searchFriend_wait_time", slot0.waitTimer - slot0))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("friend_searchFriend_wait_time", slot0.waitTimer - slot0))
 
 			return
 		end
@@ -26,7 +26,7 @@ function slot0.OnInit(slot0)
 		slot0.waitTimer = slot0 + slot1
 
 		if not getInputText(slot0.searchBar) or slot1 == "" then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("friend_inpout_key_tip"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("friend_inpout_key_tip"))
 
 			return
 		end
@@ -37,7 +37,7 @@ function slot0.OnInit(slot0)
 	end)
 	onButton(slot0, findTF(slot0.searchPanel, "refresh_btn"), function ()
 		if slot0.waitTimer1 and slot0.waitTimer1 - slot0 > 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("friend_searchFriend_wait_time", slot0.waitTimer1 - slot0))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("friend_searchFriend_wait_time", slot0.waitTimer1 - slot0))
 
 			return
 		end

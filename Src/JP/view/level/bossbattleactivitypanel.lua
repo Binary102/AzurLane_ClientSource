@@ -1,4 +1,4 @@
-slot0 = class("LevelFleetPanel")
+slot0 = class("BossBattleActivityPanel")
 slot1 = pg.extraenemy_template
 
 function slot0.Ctor(slot0, slot1)
@@ -7,38 +7,49 @@ function slot0.Ctor(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 	slot0.hideBtn = findTF(slot0._tf, "hide_btn")
+	slot0.hideBtnImg = slot0.hideBtn:GetComponent(typeof(Image))
+	slot0.hideBtnTxt = findTF(slot0.hideBtn, "Text"):GetComponent(typeof(Text))
 	slot0.bgImg = findTF(slot0._tf, "panel/bg"):GetComponent(typeof(Image))
-	slot0.itemTF = findTF(slot0._tf, "panel/item_tpl/bg")
-	slot0.itemMaskTF = findTF(slot0._tf, "panel/item_tpl/mask")
+	slot0.itemContainer = findTF(slot0._tf, "panel/items")
+	slot0.itemTF = findTF(slot0.itemContainer, "item_tpl")
 	slot0.msgTF = findTF(slot0._tf, "panel/msg")
 	slot0.msgTxt = findTF(slot0._tf, "panel/msg"):GetComponent(typeof(Text))
 	slot0.processTxt = findTF(slot0._tf, "panel/process/Text"):GetComponent(typeof(Text))
 	slot0.hpSlider = findTF(slot0._tf, "panel/slider"):GetComponent(typeof(Slider))
+	slot0.hpSliderTxt = findTF(tf(slot0.hpSlider), "hp"):GetComponent(typeof(Text))
 	slot0.nameTxt = findTF(slot0._tf, "panel/slider/Text"):GetComponent(typeof(Text))
 	slot0.maskTF = findTF(slot0._tf, "panel/mask")
 	slot0.timerTxt = findTF(slot0.maskTF, "Text"):GetComponent(typeof(Text))
 	slot0.msgPosition = slot0.msgTF.anchoredPosition
 	slot0.msgCG = slot0.msgTF:GetComponent(typeof(CanvasGroup))
 	slot0.panel = findTF(slot0._tf, "panel")
+	slot0.cachePosition = slot0.panel.anchoredPosition
 	slot0.panelPosX = slot0.panel.anchoredPosition.x
 	slot0.panelWidth = slot0.panel.rect.width
+	slot0.msgTxt.text = ""
 	slot0.flag = true
 	slot0.msgs = {}
 
 	onButton(slot0, slot0.hideBtn, function ()
-		slot0:tweenPanel()
+		slot0:tweenPanel(0.2)
 	end, SFX_PANEL)
+
+	if BossBattleActivityPanel.flag == false then
+		slot0:tweenPanel(0)
+	end
+
+	slot0.ulist = UIItemList.New(slot0.itemContainer, slot0.itemTF)
 end
 
-function slot0.tweenPanel(slot0)
+function slot0.tweenPanel(slot0, slot1)
 	if LeanTween.isTweening(go(slot0.panel)) then
 		return
 	end
 
 	if slot0.flag then
-		LeanTween.moveX(slot0.panel, slot0.panelWidth, 0.2)
+		LeanTween.moveX(slot0.panel, slot0.panelWidth, slot1)
 	else
-		LeanTween.moveX(slot0.panel, slot0.panelPosX, 0.2)
+		LeanTween.moveX(slot0.panel, slot0.panelPosX, slot1)
 	end
 
 	slot0.flag = not slot0.flag
@@ -80,24 +91,16 @@ end
 
 function slot0.update(slot0, slot1)
 	slot0.activityVO = slot1
-	slot2 = slot0.activityVO:getConfig("config_data")[1] or {}
-	slot3 = slot0.activityVO:getData1()
-	slot4 = -1
+	slot4 = table.indexof(slot0.activityVO:getConfig("config_data")[1] or {}, slot3)
 	slot5 = 0
 
-	for slot9, slot10 in ipairs(slot2) do
-		if slot10[1] == slot3 then
-			slot4 = slot9
-			slot5 = {
-				slot10[2],
-				slot10[3]
-			}
-
-			break
+	if slot0[slot0.activityVO:getData1()].refresh_type == 1 then
+		slot5 = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0[slot3].refresh_config)
+	else
+		if slot0[slot3].refresh_type == 2 then
+			slot5 = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0[slot0.all[1]].refresh_config) + slot0[slot3].refresh_config[1] * 86400
 		end
 	end
-
-	slot6 = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot5)
 
 	if slot0.openTimer then
 		slot0.openTimer:Stop()
@@ -105,9 +108,9 @@ function slot0.update(slot0, slot1)
 		slot0.openTimer = nil
 	end
 
-	setActive(slot0.maskTF, pg.TimeMgr.GetInstance():GetServerTime() < slot6)
+	setActive(slot0.maskTF, pg.TimeMgr.GetInstance():GetServerTime() < slot5)
 
-	if slot7 < slot6 then
+	if slot6 < slot5 then
 		slot0.openTimer = Timer.New(function ()
 			slot0.timerTxt.text = pg.TimeMgr.GetInstance():DescCDTime(slot1 - pg.TimeMgr.GetInstance():GetServerTime())
 
@@ -116,27 +119,45 @@ function slot0.update(slot0, slot1)
 
 		slot0.openTimer:Start()
 		slot0.openTimer.func()
-	else
-		slot0.hpSlider.value = slot0.activityVO.data2 / slot0[slot3].HP
-		slot11 = slot8.background
 
-		if slot0.activityVO.data2 == 0 then
-			GetSpriteFromAtlasAsync("bg/" .. (slot11 .. "_d" or slot11), "", function (slot0)
-				slot0.bgImg.sprite = slot0
-
-				return
-			end)
-			updateDrop(slot0.itemTF, slot13)
-
-			slot0.processTxt.text = slot4 .. "/" .. #slot2
-			slot0.nameTxt.text = slot8.name
-
-			setActive(slot0.itemMaskTF, slot10)
-			setGray(slot0.itemTF, slot10, true)
+		if slot2[slot4 - 1] then
+			slot0:updateBossInfo(slot7, slot0[slot7].hp)
 		end
+	else
+		slot0:updateBossInfo(slot3, slot0.activityVO.data2)
 	end
 
 	return
+end
+
+function slot0.updateBossInfo(slot0, slot1, slot2)
+	slot0.hpSlider.value = (slot0[slot1].hp - math.min(slot2, slot0[slot1].hp)) / slot0[slot1].hp
+	slot7 = slot3.background
+
+	if slot0[slot1].hp - math.min(slot2, slot0[slot1].hp) == 0 then
+		GetSpriteFromAtlasAsync("bg/" .. (slot7 .. "_d" or slot7), "", function (slot0)
+			slot0.bgImg.sprite = slot0
+
+			return
+		end)
+		slot0.ulist:make(function (slot0, slot1, slot2)
+			if slot0 == UIItemList.EventUpdate then
+				updateDrop(slot2:Find("bg"), slot4)
+				setActive(slot2:Find("mask"), slot1)
+				setGray(slot2, slot1, true)
+			end
+
+			return
+		end)
+		slot0.ulist:align(#slot3.reward_display)
+
+		slot0.processTxt.text = slot0.activityVO:getData3()
+		slot0.nameTxt.text = slot3.name
+		slot0.hideBtnTxt.text = math.ceil(slot4 / slot3.hp * 100) .. "%"
+		slot0.hpSliderTxt.text = slot5 .. "/" .. slot3.hp
+
+		return
+	end
 end
 
 function slot0.clear(slot0)
@@ -147,6 +168,9 @@ function slot0.clear(slot0)
 
 		slot0.openTimer = nil
 	end
+
+	slot0.panel.anchoredPosition = slot0.cachePosition
+	BossBattleActivityPanel.flag = slot0.flag
 
 	return
 end

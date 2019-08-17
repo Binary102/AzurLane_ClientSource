@@ -72,7 +72,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.UPGRADE_FIELD, function (slot0, slot1)
 		if slot0:getData().level < slot1:bindConfigTable()[slot1:GetLevel()].user_level then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_limit_level", slot4))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_limit_level", slot4))
 
 			return
 		end
@@ -168,7 +168,7 @@ function slot0.handleNotification(slot0, slot1)
 
 	if slot1:getName() == GAME.HARVEST_RES_DONE then
 		slot0.viewComponent:GetResourceDone(slot3.type, slot3.outPut)
-		pg.TipsMgr:GetInstance():ShowTips(i18n("battle_levelMediator_ok_takeResource"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelMediator_ok_takeResource"))
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot4 = getProxy(NavalAcademyProxy)
 

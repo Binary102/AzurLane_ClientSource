@@ -7,7 +7,7 @@ class("SetCommanderPrefabFleetNameCommand", pm.SimpleCommand).execute = function
 			slot5()
 		end
 
-		pg.TipsMgr:GetInstance():ShowTips(i18n("login_newPlayerScene_name_tooShort"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("login_newPlayerScene_name_tooShort"))
 
 		return
 	end
@@ -15,7 +15,7 @@ class("SetCommanderPrefabFleetNameCommand", pm.SimpleCommand).execute = function
 	slot7, slot8 = slot6:canRename()
 
 	if not slot7 then
-		pg.TipsMgr:GetInstance():ShowTips(slot8)
+		pg.TipsMgr.GetInstance():ShowTips(slot8)
 
 		if slot5 then
 			slot5()
@@ -44,13 +44,13 @@ class("SetCommanderPrefabFleetNameCommand", pm.SimpleCommand).execute = function
 		if slot0.result == 0 then
 			getProxy(CommanderProxy):updatePrefabFleetName(slot0, getProxy(CommanderProxy).updatePrefabFleetName)
 			getProxy(CommanderProxy):sendNotification(GAME.SET_COMMANDER_PREFAB_NAME_DONE)
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_prefab_rename_success"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_prefab_rename_success"))
 		else
 			if slot3 then
 				slot3()
 			end
 
-			pg.TipsMgr:GetInstance():ShowTips(ERROR_MESSAGE[slot0.result])
+			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result])
 		end
 	end)
 end

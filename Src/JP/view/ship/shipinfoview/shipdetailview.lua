@@ -104,7 +104,7 @@ function slot0.InitEvent(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.intimacyTF, function ()
 		if slot0:GetShipVO():isActivityNpc() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("npc_propse_tip"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("npc_propse_tip"))
 
 			return
 		end
@@ -132,7 +132,7 @@ function slot0.InitEvent(slot0)
 		slot0, slot1 = Ship.canModifyShip(slot0:GetShipVO())
 
 		if not slot0 then
-			pg.TipsMgr:GetInstance():ShowTips(slot1)
+			pg.TipsMgr.GetInstance():ShowTips(slot1)
 		else
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("ship_unequip_all_tip"),
@@ -337,7 +337,7 @@ function slot0.UpdateRecordEquipments(slot0, slot1)
 
 			if not ((slot0.GetShipVO().equipments[slot8] and slot15.id == slot9) or false) and (not slot14 or slot14.count <= 0) then
 				onButton(slot0, slot13, function ()
-					pg.TipsMgr:GetInstance():ShowTips(i18n("ship_quick_change_nofreeequip"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("ship_quick_change_nofreeequip"))
 
 					return
 				end, SFX_PANEL)

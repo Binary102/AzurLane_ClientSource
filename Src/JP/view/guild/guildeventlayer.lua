@@ -52,7 +52,7 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.combatBtn, function ()
 		if slot0.guildEvent.count <= 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("less_count_to_combat"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("less_count_to_combat"))
 
 			return
 		end

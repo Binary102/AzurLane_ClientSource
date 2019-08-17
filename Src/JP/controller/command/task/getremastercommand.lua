@@ -25,7 +25,7 @@ class("GetRemasterCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				}
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips("领取失败")
+			pg.TipsMgr.GetInstance():ShowTips("领取失败")
 		end
 	end)
 end

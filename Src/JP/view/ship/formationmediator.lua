@@ -280,7 +280,7 @@ function slot0.handleNotification(slot0, slot1)
 	if slot1:getName() == FleetProxy.FLEET_UPDATED then
 		slot0.viewComponent:SetFleets(getProxy(FleetProxy).getData(slot4))
 	elseif slot2 == FleetProxy.FLEET_RENAMED then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("ship_formationMediator_changeNameSuccess"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_formationMediator_changeNameSuccess"))
 		slot0.viewComponent:SetFleets(slot5)
 		slot0.viewComponent:UpdateFleetView(true)
 		slot0.viewComponent:DisplayRenamePanel(false)
@@ -334,7 +334,7 @@ function slot0.removeShipFromFleet(slot0, slot1)
 	if not slot0:canRemove(slot1) then
 		slot2, slot3 = slot0:getShipPos(slot1)
 
-		pg.TipsMgr:GetInstance():ShowTips(i18n("ship_formationUI_removeError_onlyShip", slot1:getConfigTable().name, slot0.name, Fleet.C_TEAM_NAME[slot3]))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_formationUI_removeError_onlyShip", slot1:getConfigTable().name, slot0.name, Fleet.C_TEAM_NAME[slot3]))
 
 		return false
 	end
@@ -467,7 +467,7 @@ function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3)
 		if not slot2:canRemove(slot1) and slot1 == nil then
 			slot5, slot6 = slot2:getShipPos(slot1)
 
-			pg.TipsMgr:GetInstance():ShowTips(i18n("ship_formationMediator_replaceError_onlyShip", slot2.defaultName, Fleet.C_TEAM_NAME[slot6]))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_formationMediator_replaceError_onlyShip", slot2.defaultName, Fleet.C_TEAM_NAME[slot6]))
 		else
 			slot2:removeShip(slot1)
 

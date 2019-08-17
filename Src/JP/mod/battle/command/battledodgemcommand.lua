@@ -15,7 +15,7 @@ function slot3.Initialize(slot0)
 end
 
 function slot3.DoPrologue(slot0)
-	pg.UIMgr:GetInstance():Marching()
+	pg.UIMgr.GetInstance():Marching()
 	slot0._uiMediator:SeaSurfaceShift(45, 0, nil, function ()
 		slot0._uiMediator:OpeningEffect(function ()
 			slot0._dataProxy:SetupDamageKamikazeShip(slot1.Battle.BattleFormulas.CalcDamageLockS2M)

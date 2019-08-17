@@ -16,7 +16,7 @@ function slot3.Ctor(slot0, slot1, slot2)
 end
 
 function slot3.DoDataEffect(slot0, slot1)
-	slot3 = slot0.Battle.BattleDataProxy:GetInstance().SpawnShelter(slot2, slot0._box, slot0._duration)
+	slot3 = slot0.Battle.BattleDataProxy.GetInstance().SpawnShelter(slot2, slot0._box, slot0._duration)
 
 	if slot1:GetIFF() == slot1.FOE_CODE then
 		slot0._offset[1] = slot0._offset[1] * -1

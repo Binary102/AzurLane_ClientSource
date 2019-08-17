@@ -71,7 +71,7 @@ class("RecordShipEquipmentCommand", pm.SimpleCommand).execute = function (slot0,
 			for slot5, slot6 in ipairs(slot0) do
 				if not slot0[slot5] or slot0[slot5].id ~= slot6 then
 					if slot6 == 0 then
-						pg.TipsMgr:GetInstance():ShowTips(i18n("ship_quick_change_noequip"))
+						pg.TipsMgr.GetInstance():ShowTips(i18n("ship_quick_change_noequip"))
 					elseif slot6 == -1 and slot0[slot5] then
 						table.insert(slot1, function (slot0)
 							slot0:sendNotification(GAME.UNEQUIP_FROM_SHIP, {
@@ -99,7 +99,7 @@ class("RecordShipEquipmentCommand", pm.SimpleCommand).execute = function (slot0,
 		if #slot13 > 0 then
 			slot15 = ""
 
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("no_found_record_equipment", (#slot13 > 2 and table.concat(_.slice(slot13, 1, 2), "、") .. i18n("word_wait")) or table.concat(slot13, "、")),
 				onYes = function ()
 					slot0(slot1)

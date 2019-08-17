@@ -158,11 +158,11 @@ slot2 = 10
 
 function slot0.chargeFailed(slot0, slot1, slot2)
 	if not slot0.timers[slot1] then
-		pg.UIMgr:GetInstance():LoadingOn()
+		pg.UIMgr.GetInstance():LoadingOn()
 
 		slot0.timers[slot1] = Timer.New(function ()
 			if slot0.timers[slot1].loop == 1 then
-				pg.UIMgr:GetInstance():LoadingOff()
+				pg.UIMgr.GetInstance():LoadingOff()
 			end
 
 			PaySuccess(slot1, slot2)
@@ -174,7 +174,7 @@ end
 
 function slot0.removeChargeTimer(slot0, slot1)
 	if slot0.timers[slot1] then
-		pg.UIMgr:GetInstance():LoadingOff()
+		pg.UIMgr.GetInstance():LoadingOff()
 		slot0.timers[slot1]:Stop()
 
 		slot0.timers[slot1] = nil
@@ -182,7 +182,7 @@ function slot0.removeChargeTimer(slot0, slot1)
 end
 
 function slot0.addWaitTimer(slot0)
-	pg.UIMgr:GetInstance():LoadingOn()
+	pg.UIMgr.GetInstance():LoadingOn()
 
 	slot0.waitBiliTimer = Timer.New(function ()
 		slot0:removeWaitTimer()
@@ -197,7 +197,7 @@ end
 
 function slot0.removeWaitTimer(slot0)
 	if slot0.waitBiliTimer then
-		pg.UIMgr:GetInstance():LoadingOff()
+		pg.UIMgr.GetInstance():LoadingOff()
 		slot0.waitBiliTimer:Stop()
 
 		slot0.waitBiliTimer = nil

@@ -140,8 +140,12 @@ function LoadSpriteAsync(slot0, slot1)
 	end), true, false)
 end
 
-function LoadWithoutBuffer(slot0, slot1, slot2)
+function LoadAny(slot0, slot1, slot2)
 	return ResourceMgr.Inst:getAssetSync(slot0, slot1, slot2, true, false)
+end
+
+function LoadAnyAsync(slot0, slot1, slot2, slot3)
+	return ResourceMgr.Inst:getAssetAsync(slot0, slot1, slot2, slot3, true, false)
 end
 
 function LoadImageSpriteAsync(slot0, slot1, slot2)
@@ -225,11 +229,16 @@ function setPaintingImg(slot0, slot1)
 	resetAspectRatio(slot0)
 end
 
-function setPaintingPrefab(slot0, slot1, slot2)
-	removeAllChildren(slot3)
+function setPaintingPrefab(slot0, slot1, slot2, slot3)
+	removeAllChildren(slot4)
 
 	GetOrAddComponent(findTF(slot0, "fitter"), "PaintingScaler").FrameName = slot2 or ""
 	GetOrAddComponent(findTF(slot0, "fitter"), "PaintingScaler").Tween = 1
+	slot6 = slot1
+
+	if not slot3 and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot1 .. "_n")) and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot1, 0) ~= 0 then
+		slot1 = slot1 .. "_n"
+	end
 
 	PoolMgr.GetInstance():GetPainting(slot1, false, function (slot0)
 		setParent(slot0, slot0, false)
@@ -244,11 +253,23 @@ end
 
 slot2 = {}
 
-function setPaintingPrefabAsync(slot0, slot1, slot2, slot3)
-	removeAllChildren(slot4)
+function setPaintingPrefabAsync(slot0, slot1, slot2, slot3, slot4)
+	removeAllChildren(slot5)
 
 	GetOrAddComponent(findTF(slot0, "fitter"), "PaintingScaler").FrameName = slot2 or ""
 	GetOrAddComponent(findTF(slot0, "fitter"), "PaintingScaler").Tween = 1
+	slot7 = slot1
+
+	if PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot1 .. "_n")) and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot1, 0) ~= 0 then
+		slot1 = slot1 .. "_n"
+	end
+
+	slot8 = slot1
+
+	if not slot4 and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot1 .. "_n")) and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot1, 0) ~= 0 then
+		slot1 = slot1 .. "_n"
+	end
+
 	slot0[slot0] = slot1
 
 	PoolMgr.GetInstance():GetPainting(slot1, true, function (slot0)
@@ -259,15 +280,15 @@ function setPaintingPrefabAsync(slot0, slot1, slot2, slot3)
 
 			setParent[slot0] = nil
 
-			Ship.SetExpression(slot0, )
+			Ship.SetExpression(slot0, false)
 		end
 
 		if not IsNil(findTF(slot0, "Touch")) then
 			setActive(slot1, false)
 		end
 
-		if slot4 then
-			slot4()
+		if slot5 then
+			slot5()
 		end
 	end)
 end
@@ -283,7 +304,7 @@ function retPaintingPrefab(slot0, slot1)
 				end)
 			end
 
-			PoolMgr.GetInstance():ReturnPainting(slot1, slot3.gameObject)
+			PoolMgr.GetInstance():ReturnPainting(string.gsub(slot3.name, "%(Clone%)", ""), slot3.gameObject)
 		end
 
 		slot0[slot0] = nil
@@ -1028,7 +1049,7 @@ function NoPosMsgBox(slot0, slot1, slot2, slot3)
 		})
 	end
 
-	pg.MsgboxMgr:GetInstance():ShowMsgBox({
+	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		hideYes = true,
 		hideNo = true,
 		content = slot0,
@@ -1108,7 +1129,7 @@ function GoShoppingMsgBox(slot0, slot1, slot2)
 		end
 	end
 
-	pg.MsgboxMgr:GetInstance():ShowMsgBox({
+	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		content = slot0,
 		weight = LayerWeightConst.SECOND_LAYER,
 		onYes = function ()
@@ -1163,9 +1184,9 @@ function shoppingBatch(slot0, slot1, slot2, slot3, slot4)
 						count = GAME.SHOPPING
 					})
 				elseif slot3 then
-					pg.TipsMgr:GetInstance():ShowTips(i18n(slot3))
+					pg.TipsMgr.GetInstance():ShowTips(i18n(slot3))
 				else
-					pg.TipsMgr:GetInstance():ShowTips(i18n("main_playerInfoLayer_error_changeNameNoGem"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("main_playerInfoLayer_error_changeNameNoGem"))
 				end
 			end
 		})
@@ -1321,19 +1342,19 @@ function nameValidityCheck(slot0, slot1, slot2, slot3)
 	slot8 = wordVer(slot0)
 
 	if not checkSpaceValid(slot0) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n(slot3[1]))
+		pg.TipsMgr.GetInstance():ShowTips(i18n(slot3[1]))
 
 		slot4 = false
 	elseif slot8 > 0 or slot7 ~= slot0 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n(slot3[4]))
+		pg.TipsMgr.GetInstance():ShowTips(i18n(slot3[4]))
 
 		slot4 = false
 	elseif slot6 < slot1 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n(slot3[2]))
+		pg.TipsMgr.GetInstance():ShowTips(i18n(slot3[2]))
 
 		slot4 = false
 	elseif slot2 < slot6 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n(slot3[3]))
+		pg.TipsMgr.GetInstance():ShowTips(i18n(slot3[3]))
 
 		slot4 = false
 	end
@@ -1953,9 +1974,9 @@ end
 
 function playMovie(slot0, slot1, slot2)
 	if not IsNil(GameObject.Find("OverlayCamera/Overlay/UITop/MoviePanel")) then
-		pg.UIMgr:GetInstance():LoadingOn()
+		pg.UIMgr.GetInstance():LoadingOn()
 		WWWLoader.Inst:LoadStreamingAsset(slot0, function (slot0)
-			pg.UIMgr:GetInstance():LoadingOff()
+			pg.UIMgr.GetInstance():LoadingOff()
 
 			slot1 = GCHandle.Alloc(slot0, GCHandleType.Pinned)
 

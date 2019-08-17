@@ -259,9 +259,9 @@ end
 function ys.Battle.BattleDebugConsole.activeReference(slot0)
 	slot0._state:ActiveReference()
 	slot0._state:AddMediator(slot0.Battle.BattleReferenceBoxMediator.New())
-	pg.TipsMgr:GetInstance():ShowTips("┏━━━━━━━━━━━━━━━━━━━┓")
-	pg.TipsMgr:GetInstance():ShowTips("┃ヽ(•̀ω•́ )ゝ战斗调试模块初始化成功！(ง •̀_•́)ง┃")
-	pg.TipsMgr:GetInstance():ShowTips("┗━━━━━━━━━━━━━━━━━━━┛")
+	pg.TipsMgr.GetInstance():ShowTips("┏━━━━━━━━━━━━━━━━━━━┓")
+	pg.TipsMgr.GetInstance():ShowTips("┃ヽ(•̀ω•́ )ゝ战斗调试模块初始化成功！(ง •̀_•́)ง┃")
+	pg.TipsMgr.GetInstance():ShowTips("┗━━━━━━━━━━━━━━━━━━━┛")
 
 	slot0._activeReference.transform:GetComponent("Button").enabled = false
 	slot0._activeReference:Find("text"):GetComponent(typeof(Text)).text = "(ﾉ･ω･)ﾉﾞ"
@@ -314,9 +314,9 @@ end
 
 function ys.Battle.BattleDebugConsole.forceTrigger(slot0, slot1)
 	if slot0._state:GetCommandByName("BattleSingleDungeonCommand")._waveUpdater._waveInfoList[slot1] == nil then
-		pg.TipsMgr:GetInstance():ShowTips("查无次波")
+		pg.TipsMgr.GetInstance():ShowTips("查无次波")
 	elseif slot3:GetState() ~= slot3.STATE_DEACTIVE then
-		pg.TipsMgr:GetInstance():ShowTips("该触发器已经触发")
+		pg.TipsMgr.GetInstance():ShowTips("该触发器已经触发")
 	else
 		slot3:DoWave()
 	end

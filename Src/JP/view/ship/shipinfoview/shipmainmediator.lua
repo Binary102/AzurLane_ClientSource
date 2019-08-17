@@ -93,7 +93,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.OPEN_EVALUATION, function (slot0, slot1, slot2)
 		if slot2 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("npc_evaluation_tip"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("npc_evaluation_tip"))
 
 			return
 		end
@@ -478,7 +478,7 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent:setShip(slot3)
 		end
 	elseif slot2 == GAME.DESTROY_SHIP_DONE then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("ship_shipInfoMediator_destory"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_shipInfoMediator_destory"))
 		slot0.viewComponent.event:emit(BaseUI.ON_CLOSE)
 	elseif slot2 == GAME.UPDATE_LOCK_DONE then
 		if slot3.id == slot0.contextData.shipId then

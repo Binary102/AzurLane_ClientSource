@@ -5,7 +5,7 @@ class("EventFinishCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 	if pg.collection_template[slot2.id] then
 		if getProxy(PlayerProxy):getData():OilMax(slot6.drop_oil_max or 0) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_event"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_event"))
 
 			if slot4 then
 				slot4()
@@ -15,7 +15,7 @@ class("EventFinishCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		end
 
 		if slot7:GoldMax(slot6.drop_gold_max or 0) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_event"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_event"))
 
 			if slot4 then
 				slot4()
@@ -29,7 +29,7 @@ class("EventFinishCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		id = slot3
 	}, 13006, function (slot0)
 		if slot0.result == 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("event_finish_success"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("event_finish_success"))
 
 			slot1 = getProxy(EventProxy)
 			slot2 = {}
@@ -96,7 +96,7 @@ class("EventFinishCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			return
 		end
 
-		pg.TipsMgr:GetInstance():ShowTips(errorTip("event_finish_fail", slot0.result))
+		pg.TipsMgr.GetInstance():ShowTips(errorTip("event_finish_fail", slot0.result))
 
 		if pg.TipsMgr.GetInstance() then
 			slot2()

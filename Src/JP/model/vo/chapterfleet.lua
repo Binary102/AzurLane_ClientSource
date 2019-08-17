@@ -558,13 +558,13 @@ end
 function slot0.canUseStrategy(slot0, slot1)
 	if pg.strategy_data_template[slot1.id].type == ChapterConst.StgTypeForm then
 		if slot0:getFormationStg() == slot2.id then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("level_scene_formation_active_already"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("level_scene_formation_active_already"))
 
 			return false
 		end
 	elseif slot2.type == ChapterConst.StgTypeConsume then
 		if slot1.count <= 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("level_scene_not_enough"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("level_scene_not_enough"))
 
 			return false
 		end
@@ -572,7 +572,7 @@ function slot0.canUseStrategy(slot0, slot1)
 		if slot2.id == ChapterConst.StrategyRepair and _.all(slot0:getShips(true), function (slot0)
 			return slot0.hpRant == 0 or slot0.hpRant == 10000
 		end) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("level_scene_full_hp"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("level_scene_full_hp"))
 
 			return false
 		end

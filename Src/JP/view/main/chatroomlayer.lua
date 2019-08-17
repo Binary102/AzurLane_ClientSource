@@ -37,7 +37,7 @@ function slot0.init(slot0)
 		groupName = LayerWeightConst.GROUP_CHATROOM
 	})
 
-	slot0.mainPanel = pg.UIMgr:GetInstance().UIMain
+	slot0.mainPanel = pg.UIMgr.GetInstance().UIMain
 end
 
 function slot0.didEnter(slot0)
@@ -217,7 +217,7 @@ end
 
 function slot0.sendMessage(slot0, slot1)
 	if slot1 == "" then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("friend_send_msg_null_tip"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("friend_send_msg_null_tip"))
 
 		return
 	end

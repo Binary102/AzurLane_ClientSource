@@ -39,7 +39,7 @@ function slot0.register(slot0)
 			id = slot1
 		}):getConfig("map")] and slot5:getChapter(slot1) and slot5:getChapter(slot1):isUnlock() then
 			if slot2:getActiveChapter() and slot6.id ~= slot1 then
-				pg.MsgboxMgr:GetInstance():ShowMsgBox({
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("collect_chapter_is_activation"),
 					onYes = function ()
 						slot0.chapterId = slot1
@@ -53,7 +53,7 @@ function slot0.register(slot0)
 				slot0:GoLevelScene(slot1)
 			end
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("acquisitionmode_is_not_open"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("acquisitionmode_is_not_open"))
 		end
 	end)
 	slot0:bind(CollectionScene.GO_SCENE, function (slot0, slot1, slot2)

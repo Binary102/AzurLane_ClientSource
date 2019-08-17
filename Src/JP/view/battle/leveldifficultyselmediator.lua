@@ -9,7 +9,7 @@ function slot0.register(slot0)
 
 	slot0:bind(slot0.GO_LEVEL_SENCE, function (slot0, slot1)
 		if not slot0.activityProxy:getActivityById(slot0.contextData.activityId) or slot2:isEnd() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("该活动已结束"))
 
 			return
 		end

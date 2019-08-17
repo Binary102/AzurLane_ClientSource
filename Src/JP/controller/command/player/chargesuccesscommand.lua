@@ -59,23 +59,23 @@ class("ChargeSuccessCommand", pm.SimpleCommand).execute = function (slot0, slot1
 
 	slot10:setChargedList(slot11)
 
-	slot13 = slot10:getFirstChargeList() or {}
-
-	if isAiriJP() and _.is_empty(slot13) then
-		SendAiriJPTracking(AIRIJP_TRACKING_PURCHASE_FIRST, slot9.id, slot4)
+	if _.is_empty(slot10:getFirstChargeList() or {}) then
+		pg.TrackerMgr.GetInstance():Tracking(TRACKING_PURCHASE_FIRST, slot4)
 	end
 
-	if not table.contains(slot13, slot3) then
-		table.insert(slot13, slot3)
-	end
+	if slot7:firstPayDouble() then
+		if not table.contains(slot10:getFirstChargeList() or {}, slot3) then
+			table.insert(slot14, slot3)
+		end
 
-	slot10:setFirstChargeList(slot13)
+		slot10:setFirstChargeList(slot14)
+	end
 
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHARGEAWARD) and slot15.data1 == 0 then
 		slot15.data1 = 1
 	end
 
-	pg.TipsMgr:GetInstance():ShowTips(i18n("charge_success"))
+	pg.TipsMgr.GetInstance():ShowTips(i18n("charge_success"))
 end
 
 return class("ChargeSuccessCommand", pm.SimpleCommand)

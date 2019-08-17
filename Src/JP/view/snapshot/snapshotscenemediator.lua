@@ -1,7 +1,6 @@
 slot0 = class("SnapshotSceneMediator", import("..base.ContextMediator"))
 
 function slot0.register(slot0)
-	getProxy(SettingsProxy):initEveryPlay()
 	slot0:bind(SnapshotScene.SELECT_CHAR_PANEL, function (slot0)
 		slot0:addSubLayers(Context.New({
 			mediator = SnapshotSelectCharMediator,
@@ -40,7 +39,7 @@ function slot0.handleNotification(slot0, slot1)
 		end
 	elseif PERMISSION_REJECT == slot2 then
 		if slot3 == ANDROID_RECORD_AUDIO_PERMISSION then
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("apply_permission_record_audio_tip3"),
 				onYes = function ()
 					ApplyPermission({
@@ -50,7 +49,7 @@ function slot0.handleNotification(slot0, slot1)
 			})
 		end
 	elseif PERMISSION_NEVER_REMIND and slot3 == ANDROID_RECORD_AUDIO_PERMISSION then
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("apply_permission_record_audio_tip2"),
 			onYes = function ()
 				OpenDetailSetting()

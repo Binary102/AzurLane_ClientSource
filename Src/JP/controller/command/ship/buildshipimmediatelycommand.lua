@@ -25,7 +25,7 @@ class("BuildShipImmediatelyCommand", pm.SimpleCommand).execute = function (slot0
 				})
 			end
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("ship_buildShipImmediately", slot0.result) .. "pos" .. errorTip("ship_buildShipImmediately", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_buildShipImmediately", slot0.result) .. "pos" .. errorTip("ship_buildShipImmediately", slot0.result))
 		end
 	end)
 end

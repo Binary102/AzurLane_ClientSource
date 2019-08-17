@@ -4,7 +4,7 @@ class("ResetCommanderTalentsCommand", pm.SimpleCommand).execute = function (slot
 	end
 
 	if pg.TimeMgr.GetInstance():GetServerTime() < slot5.abilityTime then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("commander_reset_talent_time_no_rearch"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("commander_reset_talent_time_no_rearch"))
 
 		return
 	end
@@ -14,13 +14,13 @@ class("ResetCommanderTalentsCommand", pm.SimpleCommand).execute = function (slot
 			return slot0.id == slot0.id
 		end)
 	end) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("commander_reset_talent_is_not_need"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("commander_reset_talent_is_not_need"))
 
 		return
 	end
 
 	if getProxy(PlayerProxy).getData(slot8).gold < slot5:getResetTalentConsume() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_resource"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
 	end
@@ -39,9 +39,9 @@ class("ResetCommanderTalentsCommand", pm.SimpleCommand).execute = function (slot
 			slot4:updateCommander()
 			slot3:updateAbilityTime(pg.TimeMgr.GetInstance():GetServerTime())
 			slot5:sendNotification(GAME.COMMANDER_RESET_TALENTS_DONE)
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_reset_talent_success"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_reset_talent_success"))
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_reset_talent_erro", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_reset_talent_erro", slot0.result))
 		end
 	end)
 end

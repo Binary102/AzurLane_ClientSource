@@ -69,7 +69,7 @@ function slot0.continueClass(slot0, slot1, slot2, slot3)
 	slot10 = getProxy(BagProxy).getItemsByType(slot7, 10) or {}
 
 	if slot9(slot10) <= 0 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("tactics_no_lesson"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("tactics_no_lesson"))
 
 		return
 	end
@@ -109,7 +109,7 @@ function slot0.handleNotification(slot0, slot1)
 			slot4 = i18n("word_gold")
 		end
 
-		pg.TipsMgr:GetInstance():ShowTips(i18n("commission_get_award", slot4, slot3.outPut))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("commission_get_award", slot4, slot3.outPut))
 	elseif slot2 == GAME.EVENT_LIST_UPDATE then
 		slot4 = getProxy(EventProxy)
 

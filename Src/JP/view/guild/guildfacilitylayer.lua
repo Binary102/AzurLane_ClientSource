@@ -52,7 +52,7 @@ function slot0.init(slot0)
 
 	tf(slot0.resPanel._go):SetParent(tf(slot0._playerResOb), false)
 
-	slot0.overlayer = pg.UIMgr:GetInstance().OverlayMain
+	slot0.overlayer = pg.UIMgr.GetInstance().OverlayMain
 
 	SetParent(slot0._tf, slot0.overlayer)
 
@@ -80,7 +80,7 @@ function slot0.didEnter(slot0)
 	slot0:initFacilitys()
 	onButton(slot0, slot0.contributeBtn, function ()
 		if slot0.guildVO:inJoinColdTime() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_facility_new_member_limit"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_facility_new_member_limit"))
 
 			return
 		end
@@ -148,7 +148,7 @@ function slot0.updateFacility(slot0, slot1, slot2)
 			slot0, slot1 = slot0:canUpgrade(slot1.guildVO.resource, slot1.guildVO.level)
 
 			if not slot0 then
-				pg.TipsMgr:GetInstance():ShowTips(slot1)
+				pg.TipsMgr.GetInstance():ShowTips(slot1)
 
 				return
 			end
@@ -198,7 +198,7 @@ function slot0.initContributeProject(slot0)
 
 	onButton(slot0, slot0.contributeConfirmBtn, function ()
 		if not slot0.selectedProjectId then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_facility_selecte_res_project_tip"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_facility_selecte_res_project_tip"))
 
 			return
 		end
@@ -291,7 +291,7 @@ function slot0.updateContributeProject(slot0, slot1, slot2)
 				slot0.selectedProjectId = slot3
 				slot0.selectedProjectTF = slot4
 			else
-				pg.TipsMgr:GetInstance():ShowTips(i18n("guild_facility_selected_project_failed"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("guild_facility_selected_project_failed"))
 			end
 		else
 			slot0.selectedProjectId = nil

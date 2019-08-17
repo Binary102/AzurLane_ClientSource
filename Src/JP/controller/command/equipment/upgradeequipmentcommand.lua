@@ -4,7 +4,7 @@ class("UpGradeEquipmentCommand", pm.SimpleCommand).execute = function (slot0, sl
 	slot6 = (not slot2.shipId or getProxy(BayProxy).getShipById(slot7, slot3):getEquip(slot2.pos)) and getProxy(EquipmentProxy):getEquipmentById(slot2.equipmentId)
 
 	if not Equipment.canUpgrade(slot6.configId) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("equipment_max_level"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_max_level"))
 
 		return
 	end
@@ -51,7 +51,7 @@ class("UpGradeEquipmentCommand", pm.SimpleCommand).execute = function (slot0, sl
 				newEquip = slot10
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("equipment_upgrade_erro", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("equipment_upgrade_erro", slot0.result))
 		end
 	end)
 end

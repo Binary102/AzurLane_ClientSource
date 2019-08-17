@@ -178,9 +178,8 @@ function slot2(slot0, slot1)
 
 	slot2 = pg
 	slot2 = slot2.SystemOpenMgr
-	slot3 = slot2
 	slot2 = slot2.GetInstance
-	slot2 = slot2(slot3)
+	slot2 = slot2()
 	slot3 = slot2
 	slot2 = slot2.isOpenSystem
 	slot4 = slot0.player
@@ -307,9 +306,8 @@ function slot2(slot0, slot1)
 			if slot4 <= slot3 then
 				slot3 = pg
 				slot3 = slot3.TipsMgr
-				slot4 = slot3
 				slot3 = slot3.GetInstance
-				slot3 = slot3(slot4)
+				slot3 = slot3()
 				slot4 = slot3
 				slot3 = slot3.ShowTips
 				slot5 = i18n

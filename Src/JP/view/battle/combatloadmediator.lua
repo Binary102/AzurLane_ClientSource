@@ -27,7 +27,7 @@ function slot0.handleNotification(slot0, slot1)
 	if slot1:getName() == GAME.PAUSE_BATTLE then
 		slot0._prePauseBattle = true
 	elseif slot2 == GAME.STOP_BATTLE_LOADING then
-		ys.Battle.BattleResourceManager:GetInstance():Clear()
+		ys.Battle.BattleResourceManager.GetInstance():Clear()
 	end
 end
 

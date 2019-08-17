@@ -2,7 +2,7 @@ class("RenameShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot4 = slot1:getBody().name
 
 	if not getProxy(BayProxy):getShipById(slot1.getBody().shipId) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("ship_error_noShip", slot3))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_error_noShip", slot3))
 
 		return
 	end
@@ -18,7 +18,7 @@ class("RenameShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end
 
 	if slot4 == "" then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("login_createNewPlayer_error_nameNull"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("login_createNewPlayer_error_nameNull"))
 
 		return
 	end
@@ -47,7 +47,7 @@ class("RenameShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 					ship = slot0
 				})
 			else
-				pg.TipsMgr:GetInstance():ShowTips(errorTip("ship_renameShip", slot0.result))
+				pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_renameShip", slot0.result))
 			end
 		end)
 	end

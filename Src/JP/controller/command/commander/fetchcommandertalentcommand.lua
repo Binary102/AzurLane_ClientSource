@@ -23,7 +23,7 @@ class("FetchCommanderTalentCommand", pm.SimpleCommand).execute = function (slot0
 				list = slot1
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_get_skills_done", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_get_skills_done", slot0.result))
 		end
 	end)
 end

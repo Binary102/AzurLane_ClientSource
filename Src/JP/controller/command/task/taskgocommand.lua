@@ -11,7 +11,7 @@ class("TaskGoCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot10 = slot8 and getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot8].on_activity)
 
 			if not slot10 or slot10:isEnd() then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 				return
 			end
@@ -68,7 +68,7 @@ class("TaskGoCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 					mapIdx = slot19 and slot19:getConfig("map")
 				})
 			else
-				pg.TipsMgr:GetInstance():ShowTips(i18n("battle_levelScene_lock"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_lock"))
 			end
 		elseif slot14 == 6 then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.DAILYLEVEL)
@@ -241,7 +241,7 @@ class("TaskGoCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 					mapIdx = slot19 and slot19:getConfig("map")
 				})
 			else
-				pg.TipsMgr:GetInstance():ShowTips(i18n("battle_levelScene_lock"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_lock"))
 			end
 		else
 			if type(slot15) == "table" then

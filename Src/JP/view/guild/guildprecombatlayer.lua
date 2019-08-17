@@ -106,7 +106,7 @@ function slot0.displayFleetPanel(slot0)
 
 	function slot0.fleetPanel.onConfirm()
 		if not slot0.chapter:isValid() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("sham_team_limit"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("sham_team_limit"))
 		else
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				modal = true,
@@ -156,7 +156,7 @@ end
 function slot0.updateView(slot0, slot1, slot2)
 	slot3 = nil
 	slot3 = coroutine.create(function ()
-		pg.UIMgr:GetInstance():LoadingOn()
+		pg.UIMgr.GetInstance():LoadingOn()
 		pg.UIMgr.GetInstance().LoadingOn:resetGrid(TeamType.Vanguard)
 		pg.UIMgr.GetInstance().LoadingOn.resetGrid:resetGrid(TeamType.Main)
 		pg.UIMgr.GetInstance().LoadingOn.resetGrid.resetGrid:resetFlag()
@@ -181,7 +181,7 @@ function slot0.updateView(slot0, slot1, slot2)
 		onNextTick(slot2)
 		coroutine.yield()
 		coroutine.yield:displayFleetInfo()
-		pg.UIMgr:GetInstance():LoadingOff()
+		pg.UIMgr.GetInstance():LoadingOff()
 
 		if slot3 then
 			slot3()
@@ -219,7 +219,7 @@ function slot0.updateDockView(slot0)
 					if slot1 and slot1.hpRant < ChapterConst.HpGreen then
 						slot0:displayRepairWindow(slot0)
 					else
-						pg.TipsMgr:GetInstance():ShowTips(i18n("sham_can_not_change_ship"))
+						pg.TipsMgr.GetInstance():ShowTips(i18n("sham_can_not_change_ship"))
 					end
 				end
 			end)
@@ -234,7 +234,7 @@ function slot0.updateFriendAssist(slot0)
 			if slot1 and slot1.hpRant < ChapterConst.HpGreen then
 				slot0:displayRepairWindow(slot0)
 			else
-				pg.TipsMgr:GetInstance():ShowTips(i18n("sham_can_not_change_ship"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("sham_can_not_change_ship"))
 			end
 		else
 			slot0:emit(GuildPreCombatMediator.CHANGE_FLEET_SHIP, {
@@ -615,7 +615,7 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 
 				if slot1.position.x > UnityEngine.Screen.width * 0.65 or slot1.position.y < UnityEngine.Screen.height * 0.25 then
 					if slot1.chapter.active and #slot1.chapter.fleet[slot2] == 1 then
-						pg.TipsMgr:GetInstance():ShowTips(i18n("ship_formationUI_removeError_onlyShip", slot3:getName(), "", Fleet.C_TEAM_NAME[slot2]))
+						pg.TipsMgr.GetInstance():ShowTips(i18n("ship_formationUI_removeError_onlyShip", slot3:getName(), "", Fleet.C_TEAM_NAME[slot2]))
 						slot2()
 					else
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -732,7 +732,7 @@ function slot0.displayRepairWindow(slot0, slot1)
 
 	function slot0.repairPanel.onConfirm()
 		if slot0 - math.min(math.min, slot0) == 0 and slot2.player:getTotalGem() < slot3 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_rmb"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_rmb"))
 
 			return
 		end

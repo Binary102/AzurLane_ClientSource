@@ -46,7 +46,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(EventConst.EVENT_FLUSH, function (slot0)
 		if EventConst.MaxFlushTimes <= getProxy(EventProxy).flushTimes then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("event_flush_not_enough"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("event_flush_not_enough"))
 		else
 			slot2 = false
 
@@ -74,13 +74,13 @@ function slot0.register(slot0)
 		slot2 = getProxy(EventProxy)
 
 		if not slot1:reachNum() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("event_minimus_ship_numbers", slot1.template.ship_num))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("event_minimus_ship_numbers", slot1.template.ship_num))
 		elseif slot2.maxFleetNums <= slot2.busyFleetNums then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("event_fleet_busy"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("event_fleet_busy"))
 		elseif not slot1:reachLevel() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("event_level_unreached"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("event_level_unreached"))
 		elseif not slot1:reachTypes() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("event_type_unreached"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("event_type_unreached"))
 		else
 			function slot3()
 				slot0:sendNotification(GAME.EVENT_START, {
@@ -125,7 +125,7 @@ function slot0.register(slot0)
 		getProxy(EventProxy).selectedEvent = nil
 
 		if not slot1:reachNum() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("event_recommend_fail"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("event_recommend_fail"))
 		end
 	end)
 	slot0:updateEventList(false)

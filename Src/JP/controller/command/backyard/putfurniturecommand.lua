@@ -14,7 +14,7 @@ class("PutFurnitureCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot9, slot10 = Dorm.checkData(slot3, slot5:getData().level)
 
 	if not slot9 then
-		pg.TipsMgr:GetInstance():ShowTips(slot10)
+		pg.TipsMgr.GetInstance():ShowTips(slot10)
 
 		return
 	end
@@ -67,7 +67,7 @@ class("PutFurnitureCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	})
 
 	if slot4 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_putFurniture_ok"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_putFurniture_ok"))
 	end
 
 	slot0:sendNotification(GAME.PUT_FURNITURE_DONE)

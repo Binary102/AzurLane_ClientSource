@@ -23,7 +23,7 @@ class("ShamEnterCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot0:sendNotification(GAME.SHAM_ENTER_DONE, slot2)
 		else
 			if slot0.result == 3 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("sham_enter_error_friend_ship_expired"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("sham_enter_error_friend_ship_expired"))
 
 				if getProxy(ChapterProxy).getShamChapter(slot1):getFriendShip() then
 					for slot9, slot10 in pairs(slot5) do
@@ -38,7 +38,7 @@ class("ShamEnterCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 					slot1:updateShamChapter(slot2)
 				end
 			else
-				pg.TipsMgr:GetInstance():ShowTips(errorTip("sham_enter_error", slot0.result))
+				pg.TipsMgr.GetInstance():ShowTips(errorTip("sham_enter_error", slot0.result))
 			end
 
 			slot0:sendNotification(GAME.SHAM_ENTER_ERROR, slot0.result)

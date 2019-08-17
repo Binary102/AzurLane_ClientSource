@@ -7,7 +7,7 @@ class("ChangeRefreshTechnologysTendencyCommand", pm.SimpleCommand).execute = fun
 			getProxy(TechnologyProxy):setTendency(slot0, getProxy(TechnologyProxy).setTendency)
 			getProxy(TechnologyProxy):sendNotification(GAME.CHANGE_REFRESH_TECHNOLOGYS_TENDENCY_DONE)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("change_technology_refresh_erro") .. slot0.result)
+			pg.TipsMgr.GetInstance():ShowTips(i18n("change_technology_refresh_erro") .. slot0.result)
 		end
 	end)
 end

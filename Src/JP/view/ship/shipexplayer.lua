@@ -138,7 +138,7 @@ function slot0.display(slot0)
 						slot0 = slot0 + 1
 					end
 
-					slot5.timerId[slot0.id] = pg.TimeMgr:GetInstance():AddTimer("delayTimer", slot1, 0, function ()
+					slot5.timerId[slot0.id] = pg.TimeMgr.GetInstance():AddTimer("delayTimer", slot1, 0, function ()
 						if slot0.level == pg.ship_level[#pg.ship_level].level then
 							slot1:GetComponent(typeof(Image)).fillAmount = 1
 							slot2._skipExp[Image] = false
@@ -270,7 +270,7 @@ function slot0.willExit(slot0)
 	slot0.tweenTFs = nil
 
 	for slot4, slot5 in pairs(slot0.timerId) do
-		pg.TimeMgr:GetInstance():RemoveTimer(slot5)
+		pg.TimeMgr.GetInstance():RemoveTimer(slot5)
 	end
 
 	slot0.timerId = nil

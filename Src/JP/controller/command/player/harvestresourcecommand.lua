@@ -1,6 +1,6 @@
 class("HarvestResourceCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	if pg.user_level[getProxy(PlayerProxy).getData(slot4).level]["max_" .. id2res(slot2)] <= getProxy(PlayerProxy).getData(slot4)[id2res(slot2)] then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("player_harvestResource_error_fullBag"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("player_harvestResource_error_fullBag"))
 
 		return
 	end
@@ -31,7 +31,7 @@ class("HarvestResourceCommand", pm.SimpleCommand).execute = function (slot0, slo
 			})
 			playSoundEffect(SFX_UI_ACADEMY_GETMATERIAL)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("player_harvestResource", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("player_harvestResource", slot0.result))
 		end
 	end)
 end

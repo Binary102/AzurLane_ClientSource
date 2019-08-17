@@ -17,7 +17,7 @@ class("ChallengeStrategyCommand", pm.SimpleCommand).execute = function (slot0, s
 			slot1 = getProxy(ChallengeProxy)
 
 			if slot0 == Challenge.CHALLENGE_OP_STRATEGY then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("chapter_tip_use", pg.strategy_data_template[slot1].name))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("chapter_tip_use", pg.strategy_data_template[slot1].name))
 			end
 
 			slot1:updateChallenge(Challenge.New(slot0.challenge_update))

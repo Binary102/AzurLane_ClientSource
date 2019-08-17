@@ -44,7 +44,7 @@ function slot0.register(slot0)
 
 		slot0:setStudents(slot4)
 
-		slot0._mainUITimer = pg.TimeMgr:GetInstance():AddTimer("NavalAcademyProxy", 0, 10, function ()
+		slot0._mainUITimer = pg.TimeMgr.GetInstance():AddTimer("NavalAcademyProxy", 0, 10, function ()
 			slot0:notification()
 		end)
 	end)
@@ -94,7 +94,7 @@ end
 
 function slot0.onRemove(slot0)
 	if slot0._mainUITimer then
-		pg.TimeMgr:GetInstance():RemoveTimer(slot0._mainUITimer)
+		pg.TimeMgr.GetInstance():RemoveTimer(slot0._mainUITimer)
 	end
 
 	slot0.super.onRemove(slot0)
@@ -185,19 +185,19 @@ function slot0.UpgradeFinish(slot0)
 	if slot0._goldVO:GetDuration() and slot0._goldVO:GetDuration() <= 0 then
 		slot0._goldVO:SetLevel(slot0._goldVO:GetLevel() + 1)
 		slot0._goldVO:SetUpgradeTimeStamp(0)
-		pg.TipsMgr:GetInstance():ShowTips(i18n("main_navalAcademyScene_upgrade_complete", pg.navalacademy_data_template[3].name, slot0._goldVO:bindConfigTable()[slot0._goldVO:GetLevel()].store - slot0._goldVO:bindConfigTable()[slot0._goldVO:GetLevel()].store))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("main_navalAcademyScene_upgrade_complete", pg.navalacademy_data_template[3].name, slot0._goldVO:bindConfigTable()[slot0._goldVO:GetLevel()].store - slot0._goldVO:bindConfigTable()[slot0._goldVO:GetLevel()].store))
 	end
 
 	if slot0._oilVO:GetDuration() and slot0._oilVO:GetDuration() <= 0 then
 		slot0._oilVO:SetLevel(slot0._oilVO:GetLevel() + 1)
 		slot0._oilVO:SetUpgradeTimeStamp(0)
-		pg.TipsMgr:GetInstance():ShowTips(i18n("main_navalAcademyScene_upgrade_complete", pg.navalacademy_data_template[4].name, slot0._oilVO:bindConfigTable()[slot0._oilVO:GetLevel()].store - slot0._oilVO:bindConfigTable()[slot0._oilVO:GetLevel()].store))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("main_navalAcademyScene_upgrade_complete", pg.navalacademy_data_template[4].name, slot0._oilVO:bindConfigTable()[slot0._oilVO:GetLevel()].store - slot0._oilVO:bindConfigTable()[slot0._oilVO:GetLevel()].store))
 	end
 
 	if slot0._classVO:GetDuration() and slot0._classVO:GetDuration() <= 0 then
 		slot0._classVO:SetLevel(slot0._classVO:GetLevel() + 1)
 		slot0._classVO:SetUpgradeTimeStamp(0)
-		pg.TipsMgr:GetInstance():ShowTips(i18n("main_navalAcademyScene_class_upgrade_complete", pg.navalacademy_data_template[1].name, slot0._classVO:bindConfigTable()[slot0._classVO:GetLevel()].store - slot0._classVO:bindConfigTable()[slot0._classVO:GetLevel()].store, slot0._classVO:bindConfigTable()[slot0._classVO:GetLevel()].proficency_get_percent - slot0._classVO:bindConfigTable()[slot0._classVO:GetLevel()].proficency_get_percent, (slot0._classVO:bindConfigTable()[slot0._classVO:GetLevel()].proficency_cost_per_min - slot0._classVO:bindConfigTable()[slot0._classVO:GetLevel()].proficency_cost_per_min) * 60))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("main_navalAcademyScene_class_upgrade_complete", pg.navalacademy_data_template[1].name, slot0._classVO:bindConfigTable()[slot0._classVO:GetLevel()].store - slot0._classVO:bindConfigTable()[slot0._classVO:GetLevel()].store, slot0._classVO:bindConfigTable()[slot0._classVO:GetLevel()].proficency_get_percent - slot0._classVO:bindConfigTable()[slot0._classVO:GetLevel()].proficency_get_percent, (slot0._classVO:bindConfigTable()[slot0._classVO:GetLevel()].proficency_cost_per_min - slot0._classVO:bindConfigTable()[slot0._classVO:GetLevel()].proficency_cost_per_min) * 60))
 	end
 end
 

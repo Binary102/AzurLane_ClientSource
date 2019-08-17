@@ -21,12 +21,10 @@ function slot0.register(slot0)
 		slot0:updatePlayer(slot1)
 		print("days from regist time to new :" .. slot0.data:GetDaysFromRegister())
 
-		if isAiriJP() then
-			if slot0.data:GetDaysFromRegister() == 1 then
-				SendAiriJPTracking(AIRIJP_TRACKING_2D_RETENTION, slot1.id)
-			elseif slot0.data:GetDaysFromRegister() == 6 then
-				SendAiriJPTracking(AIRIJP_TRACKING_7D_RETENTION, slot1.id)
-			end
+		if slot0.data:GetDaysFromRegister() == 1 then
+			pg.TrackerMgr.GetInstance():Tracking(TRACKING_2D_RETENTION)
+		elseif slot0.data:GetDaysFromRegister() == 6 then
+			pg.TrackerMgr.GetInstance():Tracking(TRACKING_7D_RETENTION)
 		end
 
 		slot0:flushTimesListener()

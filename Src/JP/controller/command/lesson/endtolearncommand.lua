@@ -39,7 +39,7 @@ class("EndToLearnCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			return
 		end
 
-		pg.TipsMgr:GetInstance():ShowTips(errorTip("lesson_endToLearn", slot0.result))
+		pg.TipsMgr.GetInstance():ShowTips(errorTip("lesson_endToLearn", slot0.result))
 	end)
 end
 

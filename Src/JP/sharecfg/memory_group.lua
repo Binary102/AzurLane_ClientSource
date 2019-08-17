@@ -1111,7 +1111,7 @@ pg.memory_group = {
 		}
 	},
 	[164] = {
-		title = "青き海のアイドル",
+		title = "青い海のアイドル",
 		type = 2,
 		id = 164,
 		icon = "title_event",

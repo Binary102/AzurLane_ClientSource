@@ -41,7 +41,7 @@ class("UpdateExerciseFleetCommand", pm.SimpleCommand).execute = function (slot0,
 				newFleet = slot2
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 		end
 
 		if slot5 then

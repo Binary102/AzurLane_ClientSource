@@ -6,13 +6,13 @@ class("GuildContributeCommand", pm.SimpleCommand).execute = function (slot0, slo
 	end
 
 	if slot5:isContributed() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_facility_contribute_count_limit"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_facility_contribute_count_limit"))
 
 		return
 	end
 
 	if slot5:inJoinColdTime() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_facility_new_member_limit"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_facility_new_member_limit"))
 
 		return
 	end
@@ -46,7 +46,7 @@ class("GuildContributeCommand", pm.SimpleCommand).execute = function (slot0, slo
 			slot6:updatePlayer(slot6)
 			slot0:sendNotification(GAME.GUILD_CONTRIBUTE_RES_DONE, slot2:getData())
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("sham_change_formation_error", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("sham_change_formation_error", slot0.result))
 		end
 	end)
 end

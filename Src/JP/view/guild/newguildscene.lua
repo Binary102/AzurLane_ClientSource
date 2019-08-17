@@ -181,7 +181,7 @@ function slot0.selectFaction(slot0, slot1, slot2)
 end
 
 function slot0.setDescInfo(slot0, slot1, slot2)
-	pg.UIMgr:GetInstance():LoadingOn()
+	pg.UIMgr.GetInstance():LoadingOn()
 	PoolMgr.GetInstance():GetUI(slot1, true, function (slot0)
 		setActive(slot0._playerResOb, true)
 
@@ -268,7 +268,7 @@ function slot0.setDescInfo(slot0, slot1, slot2)
 			slot0 = slot0()
 
 			if not slot1:getName() or slot1 == "" then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("guild_create_error_noname"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("guild_create_error_noname"))
 
 				return
 			end
@@ -283,24 +283,24 @@ function slot0.setDescInfo(slot0, slot1, slot2)
 			end
 
 			if not slot1:getFaction() then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("guild_create_error_nofaction"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("guild_create_error_nofaction"))
 
 				return
 			end
 
 			if not slot1:getPolicy() then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("guild_create_error_nopolicy"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("guild_create_error_nopolicy"))
 
 				return
 			end
 
 			if not slot1:getManifesto() or slot2 == "" then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("guild_create_error_nomanifesto"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("guild_create_error_nomanifesto"))
 
 				return
 			end
 
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("guild_create_confirm", slot2),
 				onYes = function ()
 					if slot0.playerVO:getTotalGem() < slot0.playerVO then
@@ -315,7 +315,7 @@ function slot0.setDescInfo(slot0, slot1, slot2)
 
 			return
 		end, SFX_CONFIRM)
-		pg.UIMgr:GetInstance():LoadingOff()
+		pg.UIMgr.GetInstance():LoadingOff()
 
 		GetOrAddComponent(slot1, "CanvasGroup").alpha = 0
 		slot0.isPlaying = true

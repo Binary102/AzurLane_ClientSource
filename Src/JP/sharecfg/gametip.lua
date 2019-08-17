@@ -787,11 +787,12 @@ pg.gametip = {
 	word_diamond_tip = {
 		tip = [[
 
-                        無償<icon name=diamond w=0.7 h=0.7/>: $1
-                        有償<icon name=diamond w=0.7 h=0.7/>: $2
-                        合計<icon name=diamond w=0.7 h=0.7/>: $3<color=#92fc63><size=30>
-              ※購入時は無償ダイヤから消費されます
-   ダイヤ購入時に入手したおまけは、無償入手分とみなします</size></color>]],
+                        無償 <icon name=diamond w=0.8 h=0.8/> : $1
+                        有償 <icon name=diamond w=0.8 h=0.8/> : $2
+                        合計 <icon name=diamond w=0.8 h=0.8/> : $3<color=#92fc63><size=32>
+
+             ※購入時は無償ダイヤから消費されます
+ ダイヤ購入時に入手したおまけは、無償入手分とみなします</size></color>]],
 		key = "word_diamond_tip"
 	},
 	word_contribution = {
@@ -7139,6 +7140,202 @@ pg.gametip = {
 		tip = "不明エラーが発生しました",
 		key = "airi_error_code_other"
 	},
+	new_airi_error_code_100100 = {
+		tip = "ゲーム利用は制限されています（デバイス）",
+		key = "new_airi_error_code_100100"
+	},
+	new_airi_error_code_100110 = {
+		tip = "ログイン中にエラーが発生しました（UIDとtoken照合失敗）",
+		key = "new_airi_error_code_100110"
+	},
+	new_airi_error_code_100111 = {
+		tip = "アカウント作成に失敗しました",
+		key = "new_airi_error_code_100111"
+	},
+	new_airi_error_code_100112 = {
+		tip = "アカウント連携に失敗しました",
+		key = "new_airi_error_code_100112"
+	},
+	new_airi_error_code_100113 = {
+		tip = "アカウント連携に成功し、ログインに失敗しました（ユーザー認証に失敗しました）",
+		key = "new_airi_error_code_100113"
+	},
+	new_airi_error_code_100114 = {
+		tip = "アカウント連携に成功し、ログインに失敗しました（IPアドレスでのアクセスは制限されています）",
+		key = "new_airi_error_code_100114"
+	},
+	new_airi_error_code_100115 = {
+		tip = "アカウント連携に成功し、ログインに失敗しました（デバイスのゲーム利用は制限されています）",
+		key = "new_airi_error_code_100115"
+	},
+	new_airi_error_code_100116 = {
+		tip = "アカウント連携に成功し、ログインに失敗しました（UIDのゲーム利用は制限されています）",
+		key = "new_airi_error_code_100116"
+	},
+	new_airi_error_code_100117 = {
+		tip = "認証データにエラーが発生しました",
+		key = "new_airi_error_code_100117"
+	},
+	new_airi_error_code_100120 = {
+		tip = "IPアドレスのアクセス制限中です",
+		key = "new_airi_error_code_100120"
+	},
+	new_airi_error_code_100130 = {
+		tip = "UIDのゲーム利用が制限中です",
+		key = "new_airi_error_code_100130"
+	},
+	new_airi_error_code_100140 = {
+		tip = "accessToken照合に失敗しました",
+		key = "new_airi_error_code_100140"
+	},
+	new_airi_error_code_100150 = {
+		tip = "引継コードとUIDが一致しません",
+		key = "new_airi_error_code_100150"
+	},
+	new_airi_error_code_100160 = {
+		tip = "誕生日が入力済です",
+		key = "new_airi_error_code_100160"
+	},
+	new_airi_error_code_100170 = {
+		tip = "誕生日は【YYYY/MM/DD】の形式で入力してください",
+		key = "new_airi_error_code_100170"
+	},
+	new_airi_error_code_100180 = {
+		tip = "ゲームアカウントと連携していないツイッターアカウントです",
+		key = "new_airi_error_code_100180"
+	},
+	new_airi_error_code_100190 = {
+		tip = "ツイッターアカウント連携状況の照合に失敗しました",
+		key = "new_airi_error_code_100190"
+	},
+	new_airi_error_code_100200 = {
+		tip = "すでに他のアカウントと連携済のツイッターアカウントです",
+		key = "new_airi_error_code_100200"
+	},
+	new_airi_error_code_100210 = {
+		tip = "ゲームアカウントとは連携していないツイッターアカウントです",
+		key = "new_airi_error_code_100210"
+	},
+	new_airi_error_code_100211 = {
+		tip = "外部サービスとの通信時にエラーが発生しました",
+		key = "new_airi_error_code_100211"
+	},
+	new_airi_error_code_100212 = {
+		tip = "外部サービスとの通信時にエラーが発生しました",
+		key = "new_airi_error_code_100212"
+	},
+	new_airi_error_code_100213 = {
+		tip = "連携解除に失敗しました",
+		key = "new_airi_error_code_100213"
+	},
+	new_airi_error_code_100220 = {
+		tip = "フェイスブック連携をキャンセルしました",
+		key = "new_airi_error_code_100220"
+	},
+	new_airi_error_code_100221 = {
+		tip = "フェイスブック連携承認に失敗しました",
+		key = "new_airi_error_code_100221"
+	},
+	new_airi_error_code_100222 = {
+		tip = "ツイッター連携承認に失敗しました",
+		key = "new_airi_error_code_100222"
+	},
+	new_airi_error_code_100230 = {
+		tip = "SDK初期化に失敗しました",
+		key = "new_airi_error_code_100230"
+	},
+	new_airi_error_code_100300 = {
+		tip = "メールアドレスが有効ではありません",
+		key = "new_airi_error_code_100300"
+	},
+	new_airi_error_code_100301 = {
+		tip = "確認入力したメールアドレスが一致しません",
+		key = "new_airi_error_code_100301"
+	},
+	new_airi_error_code_100302 = {
+		tip = "メール認証メッセージをこれ以上送信できません（送信数が上限になっています）。しばらく経ってからお試しください",
+		key = "new_airi_error_code_100302"
+	},
+	new_airi_error_code_100303 = {
+		tip = "認証コード入力に失敗しました",
+		key = "new_airi_error_code_100303"
+	},
+	new_airi_error_code_100304 = {
+		tip = "認証コード入力に失敗しました。認証コードを再度発行してください",
+		key = "new_airi_error_code_100304"
+	},
+	new_airi_error_code_100305 = {
+		tip = "YostarIDの利用は制限されています",
+		key = "new_airi_error_code_100305"
+	},
+	new_airi_error_code_100306 = {
+		tip = "認証コードを入力してください",
+		key = "new_airi_error_code_100306"
+	},
+	new_airi_error_code_100404 = {
+		tip = "通信エラーが発生しました",
+		key = "new_airi_error_code_100404"
+	},
+	new_airi_error_code_200100 = {
+		tip = "購入に失敗しました-誕生日が設定されていません",
+		key = "new_airi_error_code_200100"
+	},
+	new_airi_error_code_200110 = {
+		tip = "購入に失敗しました-今月購入金額が上限になっています",
+		key = "new_airi_error_code_200110"
+	},
+	new_airi_error_code_200120 = {
+		tip = "購入に失敗しました-アイテムが存在しません",
+		key = "new_airi_error_code_200120"
+	},
+	new_airi_error_code_200130 = {
+		tip = "購入に失敗しました-決済システムにエラーが発生しました",
+		key = "new_airi_error_code_200130"
+	},
+	new_airi_error_code_200140 = {
+		tip = "購入に失敗しました-serverTagが存在しません",
+		key = "new_airi_error_code_200140"
+	},
+	new_airi_error_code_200150 = {
+		tip = "支払いレシートの照合に失敗しました",
+		key = "new_airi_error_code_200150"
+	},
+	new_airi_error_code_200160 = {
+		tip = "不正な購入リクエストです",
+		key = "new_airi_error_code_200160"
+	},
+	new_airi_error_code_200170 = {
+		tip = "不正な購入リクエストです",
+		key = "new_airi_error_code_200170"
+	},
+	new_airi_error_code_200180 = {
+		tip = "サーバーと通信中です。しばらくお待ち下さい",
+		key = "new_airi_error_code_200180"
+	},
+	new_airi_error_code_200190 = {
+		tip = "購入リクエストが存在しません",
+		key = "new_airi_error_code_200190"
+	},
+	new_airi_error_code_200200 = {
+		tip = "購入時に通信エラーが発生しました",
+		key = "new_airi_error_code_200200"
+	},
+	new_airi_error_code_200210 = {
+		tip = "決済システムにエラーが発生しました",
+		key = "new_airi_error_code_200210"
+	},
+	new_airi_error_code_200220 = {
+		tip = "決済システムへの通信時にエラーが発生しました",
+		key = "new_airi_error_code_200220"
+	},
+	new_airi_error_code_200230 = {
+		tip = "決済システムへの通信がキャンセルされました",
+		key = "new_airi_error_code_200230"
+	},
+	new_airi_error_code_300100 = {
+		tip = "シェアに失敗しました",
+		key = "new_airi_error_code_300100"
+	},
 	need_break_tip = {
 		tip = "要限界突破",
 		key = "need_break_tip"
@@ -8759,15 +8956,15 @@ pg.gametip = {
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
-		tip = "「デューク・オブ・ヨーク」常設追加！",
+		tip = "「ティルピッツ」、「アドミラル・ヒッパー」常設追加！",
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "「スウィフトシュア」、「シリアス」、「チェイサー」など常設追加！",
+		tip = "「Z46」、「Z25」、「Z35」、「Z18」、「Z19」など常設追加！",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "「ヴィクトリアス」、「チェイサー」常設追加！",
+		tip = "「グラーフ・ツェッペリン」、「U47」、「U557」常設追加！",
 		key = "buildship_special_tip"
 	},
 	open_skill_pos = {
@@ -10973,6 +11170,10 @@ Pt」が加算されます。
 	word_reward = {
 		tip = "報酬",
 		key = "word_reward"
+	},
+	paint_hide_other_obj_tip = {
+		tip = "    背景非表示",
+		key = "paint_hide_other_obj_tip"
 	}
 }
 

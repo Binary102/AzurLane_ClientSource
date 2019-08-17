@@ -425,17 +425,6 @@ pg.ship_data_group = {
 					}
 				},
 				0
-			},
-			{
-				"小型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
 			}
 		}
 	},
@@ -4298,17 +4287,6 @@ pg.ship_data_group = {
 					"LEVEL",
 					{
 						chapterid = 201
-					}
-				},
-				0
-			},
-			{
-				"小型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
 					}
 				},
 				0
@@ -9210,6 +9188,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -9231,6 +9220,17 @@ pg.ship_data_group = {
 				"イベント：鏡写されし異色",
 				{
 					""
+				},
+				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -9337,6 +9337,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -9359,7 +9370,18 @@ pg.ship_data_group = {
 				{
 					""
 				},
-				0
+				0,
+				{
+					"小型艦建造",
+					{
+						"GETBOAT",
+						{
+							projectName = "light",
+							page = 1
+						}
+					},
+					0
+				}
 			}
 		}
 	},
@@ -9404,6 +9426,17 @@ pg.ship_data_group = {
 				"イベント：鏡写されし異色",
 				{
 					""
+				},
+				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -9691,6 +9724,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -9749,6 +9793,16 @@ pg.ship_data_group = {
 				"イベント：鏡写されし異色",
 				{
 					""
+				},
+				0
+			},
+			{
+				"コアショップ",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
 				},
 				0
 			}
@@ -9820,6 +9874,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -9841,6 +9906,17 @@ pg.ship_data_group = {
 				"イベント：鏡写されし異色",
 				{
 					""
+				},
+				0
+			},
+			{
+				"特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -9887,6 +9963,17 @@ pg.ship_data_group = {
 				"イベント：鏡写されし異色",
 				{
 					""
+				},
+				0
+			},
+			{
+				"特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -10029,6 +10116,17 @@ pg.ship_data_group = {
 				"イベント：鏡写されし異色",
 				{
 					""
+				},
+				0
+			},
+			{
+				"特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}

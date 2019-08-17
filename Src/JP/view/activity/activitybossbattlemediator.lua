@@ -25,7 +25,7 @@ function slot0.register(slot0)
 		end
 
 		if slot2 then
-			slot4 = pg.StoryMgr:GetInstance()
+			slot4 = pg.StoryMgr.GetInstance()
 
 			if slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE) and not slot5:isEnd() then
 				slot4:Play(slot5:getConfig("config_client").story_init, slot3)
@@ -86,7 +86,7 @@ function slot0.playStroys(slot0, slot1, slot2)
 	slot4 = pg.expedition_data_template
 
 	if table.contains(slot1.data1_list, table.remove(slot6, 1).config.id) then
-		slot9 = pg.StoryMgr:GetInstance()
+		slot9 = pg.StoryMgr.GetInstance()
 		slot10 = slot1:getConfig("config_client").story
 		slot12 = pg.extraenemy_template[slot1.data1]
 

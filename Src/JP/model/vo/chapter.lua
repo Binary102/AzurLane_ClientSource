@@ -337,7 +337,7 @@ function slot0.update(slot0, slot1)
 
 	if slot1.escort_list then
 		for slot11, slot12 in ipairs(slot1.escort_list) do
-			slot0.fleets[#slot0.fleets + 1] = ChapterTransportFleet.New(slot12)
+			slot0.fleets[#slot0.fleets + 1] = ChapterTransportFleet.New(slot12, #slot0.fleets + 1)
 		end
 	end
 
@@ -1850,6 +1850,8 @@ function slot0.checkAnyInteractive(slot0)
 			if slot5 < slot4 then
 				slot3 = true
 			end
+		elseif slot2.attachment == ChapterConst.AttachBox and slot2.flag ~= 1 then
+			slot3 = true
 		end
 	end
 
@@ -2138,6 +2140,14 @@ function slot0.writeBack(slot0, slot1, slot2)
 
 			slot0.progress = math.min(slot0.progress + slot0:getConfig("progress_boss"), 100)
 			slot0.defeatCount = slot0.defeatCount + 1
+
+			if not slot0:isActivity() then
+				if slot0:getMapType() == Map.ELITE then
+					pg.TrackerMgr.GetInstance():Tracking(TRACKING_HARD_CHAPTER, slot0.id)
+				elseif slot7 == Map.SCENARIO and slot0.progress == 100 and slot0.passCount == 0 then
+					pg.TrackerMgr.GetInstance():Tracking(TRACKING_HIGHEST_CHAPTER, slot0.id)
+				end
+			end
 		end
 
 		if not slot6 or slot6.flag == 1 then
@@ -2404,6 +2414,24 @@ function slot0.getSpAppearGuide(slot0)
 				return slot6.appear_guide
 			end
 		end
+	end
+end
+
+function slot0.CheckTransportState(slot0)
+	if not _.detect(slot0.fleets, function (slot0)
+		return slot0:getFleetType() == FleetType.Transport
+	end) then
+		return -1
+	end
+
+	slot2 = slot0:findChapterCell(ChapterConst.AttachTransport_Target)
+
+	if not slot1:isValid() then
+		return -1
+	elseif slot1.line.row == slot2.row and slot1.line.column == slot2.column and not slot0:existEnemy(ChapterConst.SubjectPlayer, slot2.row, slot2.column) then
+		return 1
+	else
+		return 0
 	end
 end
 

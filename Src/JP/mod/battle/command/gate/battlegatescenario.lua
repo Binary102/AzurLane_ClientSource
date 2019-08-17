@@ -55,9 +55,8 @@ function slot1(slot0, slot1)
 		if slot18 < slot10 then
 			slot18 = pg
 			slot18 = slot18.TipsMgr
-			slot19 = slot18
 			slot18 = slot18.GetInstance
-			slot18 = slot18(slot19)
+			slot18 = slot18()
 			slot19 = slot18
 			slot18 = slot18.ShowTips
 			slot20 = i18n

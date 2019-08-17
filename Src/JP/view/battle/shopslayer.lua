@@ -371,7 +371,7 @@ function slot1(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0:findTF("refresh_btn", slot0.militaryShopTF), function ()
 		if slot0.militaryShop.refreshCount - 1 >= #slot0.millitaryShopCfg.refresh_price then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("shopStreet_refresh_max_count"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("shopStreet_refresh_max_count"))
 
 			return
 		end
@@ -380,7 +380,7 @@ function slot1(slot0)
 			content = i18n("refresh_shopStreet_question", i18n("word_gem_icon"), slot0.millitaryShopCfg.refresh_price[slot0.militaryShop.refreshCount] or slot0.millitaryShopCfg.refresh_price[#slot0.millitaryShopCfg.refresh_price], slot0.millitaryShopCfg.refresh_price[slot0.militaryShop.refreshCount] or slot0.millitaryShopCfg.refresh_price[#slot0.millitaryShopCfg.refresh_price].militaryShop.refreshCount - 1),
 			onYes = function ()
 				if slot0.player:getTotalGem() < slot0.player then
-					pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_resource"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 					return
 				else
@@ -607,9 +607,8 @@ function slot1(slot0)
 
 			slot1 = pg
 			slot1 = slot1.SystemOpenMgr
-			slot2 = slot1
 			slot1 = slot1.GetInstance
-			slot1 = slot1(slot2)
+			slot1 = slot1()
 			slot2 = slot1
 			slot1 = slot1.isOpenSystem
 			slot3 = slot0
@@ -621,9 +620,8 @@ function slot1(slot0)
 			if not slot1 then
 				slot3 = pg
 				slot3 = slot3.TipsMgr
-				slot4 = slot3
 				slot3 = slot3.GetInstance
-				slot3 = slot3(slot4)
+				slot3 = slot3()
 				slot4 = slot3
 				slot3 = slot3.ShowTips
 				slot5 = i18n
@@ -786,9 +784,8 @@ function slot1(slot0)
 		if slot0 then
 			slot1 = pg
 			slot1 = slot1.SystemOpenMgr
-			slot2 = slot1
 			slot1 = slot1.GetInstance
-			slot1 = slot1(slot2)
+			slot1 = slot1()
 			slot2 = slot1
 			slot1 = slot1.isOpenSystem
 			slot3 = slot0
@@ -800,9 +797,8 @@ function slot1(slot0)
 			if not slot1 then
 				slot3 = pg
 				slot3 = slot3.TipsMgr
-				slot4 = slot3
 				slot3 = slot3.GetInstance
-				slot3 = slot3(slot4)
+				slot3 = slot3()
 				slot4 = slot3
 				slot3 = slot3.ShowTips
 				slot5 = slot2
@@ -900,9 +896,8 @@ function slot1(slot0)
 	if slot5 == slot6 then
 		slot5 = pg
 		slot5 = slot5.SystemOpenMgr
-		slot6 = slot5
 		slot5 = slot5.GetInstance
-		slot5 = slot5(slot6)
+		slot5 = slot5()
 		slot6 = slot5
 		slot5 = slot5.isOpenSystem
 		slot7 = slot0.player
@@ -915,9 +910,8 @@ function slot1(slot0)
 			slot0.warp = slot7
 			slot7 = pg
 			slot7 = slot7.TipsMgr
-			slot8 = slot7
 			slot7 = slot7.GetInstance
-			slot7 = slot7(slot8)
+			slot7 = slot7()
 			slot8 = slot7
 			slot7 = slot7.ShowTips
 			slot9 = slot6
@@ -930,9 +924,8 @@ function slot1(slot0)
 			slot0.warp = slot7
 			slot7 = pg
 			slot7 = slot7.TipsMgr
-			slot8 = slot7
 			slot7 = slot7.GetInstance
-			slot7 = slot7(slot8)
+			slot7 = slot7()
 			slot8 = slot7
 			slot7 = slot7.ShowTips
 			slot9 = i18n
@@ -1031,9 +1024,8 @@ function slot1(slot0)
 		if not slot0 then
 			slot1 = pg
 			slot1 = slot1.TipsMgr
-			slot2 = slot1
 			slot1 = slot1.GetInstance
-			slot1 = slot1(slot2)
+			slot1 = slot1()
 			slot2 = slot1
 			slot1 = slot1.ShowTips
 			slot3 = i18n
@@ -1647,9 +1639,8 @@ function slot1(slot0)
 				if not slot0 then
 					slot0 = pg
 					slot0 = slot0.TipsMgr
-					slot1 = slot0
 					slot0 = slot0.GetInstance
-					slot0 = slot0(slot1)
+					slot0 = slot0()
 					slot1 = slot0
 					slot0 = slot0.ShowTips
 					slot2 = i18n
@@ -1834,9 +1825,8 @@ function slot1(slot0, slot1)
 	slot6 = slot3
 	slot7 = pg
 	slot7 = slot7.TimeMgr
-	slot8 = slot7
 	slot7 = slot7.GetInstance
-	slot7 = slot7(slot8)
+	slot7 = slot7()
 	slot8 = slot7
 	slot7 = slot7.DescCDTime
 	slot9 = slot1.nextFlashTime
@@ -1931,9 +1921,8 @@ function slot1(slot0, slot1)
 			slot3 = slot2
 			slot4 = pg
 			slot4 = slot4.TimeMgr
-			slot5 = slot4
 			slot4 = slot4.GetInstance
-			slot4 = slot4(slot5)
+			slot4 = slot4()
 			slot5 = slot4
 			slot4 = slot4.DescCDTime
 			slot6 = slot1
@@ -2097,9 +2086,8 @@ function slot3(slot0, slot1)
 					if not slot0 then
 						slot0 = pg
 						slot0 = slot0.TipsMgr
-						slot1 = slot0
 						slot0 = slot0.GetInstance
-						slot0 = slot0(slot1)
+						slot0 = slot0()
 						slot1 = slot0
 						slot0 = slot0.ShowTips
 						slot2 = i18n
@@ -2813,9 +2801,8 @@ function slot3(slot0, slot1, slot2)
 	if not slot3 then
 		slot3 = pg
 		slot3 = slot3.TipsMgr
-		slot4 = slot3
 		slot3 = slot3.GetInstance
-		slot3 = slot3(slot4)
+		slot3 = slot3()
 		slot4 = slot3
 		slot3 = slot3.ShowTips
 		slot5 = i18n
@@ -2844,9 +2831,8 @@ function slot3(slot0, slot1, slot2)
 	if slot4 < slot5 then
 		slot5 = pg
 		slot5 = slot5.TipsMgr
-		slot6 = slot5
 		slot5 = slot5.GetInstance
-		slot5 = slot5(slot6)
+		slot5 = slot5()
 		slot6 = slot5
 		slot5 = slot5.ShowTips
 		slot7 = i18n
@@ -3575,9 +3561,8 @@ slot0.addGuidTimer = slot3
 function slot3(slot0)
 	slot1 = pg
 	slot1 = slot1.MsgboxMgr
-	slot2 = slot1
 	slot1 = slot1.GetInstance
-	slot1 = slot1(slot2)
+	slot1 = slot1()
 	slot2 = slot1._go
 	slot2 = slot2.activeSelf
 
@@ -3690,9 +3675,8 @@ function slot3(slot0)
 					if not slot0 then
 						slot0 = pg
 						slot0 = slot0.TipsMgr
-						slot1 = slot0
 						slot0 = slot0.GetInstance
-						slot0 = slot0(slot1)
+						slot0 = slot0()
 						slot1 = slot0
 						slot0 = slot0.ShowTips
 						slot2 = i18n

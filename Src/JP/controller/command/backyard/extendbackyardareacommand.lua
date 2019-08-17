@@ -9,7 +9,7 @@ class("ExtendBackYardAreaCommand", pm.SimpleCommand).execute = function (slot0, 
 		name = BACKYARD.LEVEL_UP,
 		level = slot3.level
 	})
-	pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_extendArea_ok"))
+	pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_extendArea_ok"))
 end
 
 return class("ExtendBackYardAreaCommand", pm.SimpleCommand)

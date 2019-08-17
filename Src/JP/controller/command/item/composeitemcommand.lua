@@ -8,7 +8,7 @@ class("ComposeItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot8 = slot7.target_id
 
 	if slot4 > slot6.count / slot7.compose_number then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_item_1"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
 
 		return
 	end
@@ -23,7 +23,7 @@ class("ComposeItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot5:sendNotification(GAME.ADD_ITEM, slot2)
 			slot5:sendNotification(GAME.USE_ITEM_DONE, {})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 		end
 	end)
 end

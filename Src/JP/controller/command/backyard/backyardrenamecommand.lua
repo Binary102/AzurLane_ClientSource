@@ -9,9 +9,9 @@ class("BackYardRenameCommand", pm.SimpleCommand).execute = function (slot0, slot
 			slot2:setName(slot0)
 			slot1:updateDrom(slot2)
 			slot1:sendNotification(GAME.BACKYARD_RENAME_DONE)
-			pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_rename_success"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_rename_success"))
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 		end
 	end)
 end

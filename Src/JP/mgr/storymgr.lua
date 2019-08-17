@@ -53,7 +53,8 @@ end
 slot10 = {
 	"",
 	"JP",
-	"KR"
+	"KR",
+	"US"
 }
 
 function slot11(slot0, slot1)
@@ -470,102 +471,6 @@ function slot16(slot0, slot1, slot2, slot3, slot4, slot5)
 end
 
 slot0.PlayOnTaskAdded = slot16
-
-function slot16(slot0, slot1, slot2, slot3)
-	slot4 = slot3 or function ()
-		return
-	end
-	slot5 = slot0:IsPlayed(slot1)
-
-	if slot5 then
-		slot5 = slot4
-
-		slot5()
-
-		return
-	end
-
-	slot5 = pg
-	slot5 = slot5.GuideMgr
-	slot6 = slot5
-	slot5 = slot5.GetInstance
-	slot5 = slot5(slot6)
-	slot6 = slot5
-	slot5 = slot5.canPlay
-	slot5 = slot5(slot6)
-
-	if not slot5 then
-		slot5 = slot4
-
-		slot5()
-
-		return
-	end
-
-	slot5 = PLATFORM_CODE
-	slot6 = PLATFORM_JP
-
-	if slot5 ~= slot6 then
-		slot5 = PLATFORM_CODE
-		slot6 = PLATFORM_US
-
-		if slot5 == slot6 then
-			slot5 = getProxy
-			slot6 = PlayerProxy
-			slot5 = slot5(slot6)
-			slot6 = slot5
-			slot5 = slot5.getData
-			slot5 = slot5(slot6)
-
-			if slot1 == "SYG001" then
-				slot6 = SendAiriJPTracking
-				slot7 = AIRIJP_TRACKING_TUTORIAL_COMPLETE_2
-				slot8 = slot5.id
-
-				slot6(slot7, slot8)
-			elseif slot1 == "SYG003" then
-				slot6 = SendAiriJPTracking
-				slot7 = AIRIJP_TRACKING_TUTORIAL_COMPLETE_3
-				slot8 = slot5.id
-
-				slot6(slot7, slot8)
-			elseif slot1 == "SYG006" then
-				slot6 = SendAiriJPTracking
-				slot7 = AIRIJP_TRACKING_TUTORIAL_COMPLETE_4
-				slot8 = slot5.id
-
-				slot6(slot7, slot8)
-			end
-		end
-	end
-
-	slot5 = pg
-	slot5 = slot5.m02
-	slot6 = slot5
-	slot5 = slot5.sendNotification
-	slot7 = GAME
-	slot7 = slot7.STORY_UPDATE
-	slot8 = {
-		storyId = slot1
-	}
-
-	slot5(slot6, slot7, slot8)
-
-	slot5 = pg
-	slot5 = slot5.GuideMgr
-	slot6 = slot5
-	slot5 = slot5.GetInstance
-	slot5 = slot5(slot6)
-	slot6 = slot5
-	slot5 = slot5.play
-	slot7 = slot1
-	slot8 = slot2
-	slot9 = slot3
-
-	slot5(slot6, slot7, slot8, slot9)
-end
-
-slot0.PlayGuide = slot16
 
 function slot16()
 	slot0 = getProxy
@@ -1959,9 +1864,8 @@ function slot17(slot0, slot1, slot2, slot3, slot4)
 		else
 			slot1 = pg
 			slot1 = slot1.MsgboxMgr
-			slot2 = slot1
 			slot1 = slot1.GetInstance
-			slot1 = slot1(slot2)
+			slot1 = slot1()
 			slot2 = slot1
 			slot1 = slot1.ShowMsgBox
 			slot3 = {}

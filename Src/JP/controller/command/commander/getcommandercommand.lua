@@ -6,7 +6,7 @@ class("GetCommanderCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot7 = slot6:getBoxById(slot3)
 
 	if getProxy(PlayerProxy):getData().commanderBagMax <= slot6:getCommanderCnt() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("commander_capcity_is_max"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("commander_capcity_is_max"))
 
 		if slot4 then
 			slot4()
@@ -36,7 +36,7 @@ class("GetCommanderCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				slot5(slot1)
 			end
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_acquire_erro", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_acquire_erro", slot0.result))
 
 			if slot0.result then
 				slot5()

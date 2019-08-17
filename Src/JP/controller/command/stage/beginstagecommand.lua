@@ -7,9 +7,9 @@ end
 
 function slot0.RequestFailStandardProcess(slot0, slot1)
 	if slot1.result == 10 then
-		pg.TipsMgr:GetInstance():ShowTips(ERROR_MESSAGE[10])
+		pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[10])
 	else
-		pg.TipsMgr:GetInstance():ShowTips(errorTip("stage_beginStage", slot1.result))
+		pg.TipsMgr.GetInstance():ShowTips(errorTip("stage_beginStage", slot1.result))
 		slot0:sendNotification(GAME.BEGIN_STAGE_ERRO, slot1.result)
 	end
 end
@@ -41,7 +41,7 @@ end
 
 function slot0.LegalFleet(slot0)
 	if getProxy(FleetProxy):getFleetById(slot0) == nil or slot2:isEmpty() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("stage_beginStage_error_fleetEmpty"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_fleetEmpty"))
 
 		return false
 	end
@@ -49,7 +49,7 @@ function slot0.LegalFleet(slot0)
 	slot3, slot4 = slot2:isLegalToFight()
 
 	if slot3 ~= true then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("stage_beginStage_error_teamEmpty", Fleet.C_TEAM_NAME[slot3], slot4))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_teamEmpty", Fleet.C_TEAM_NAME[slot3], slot4))
 
 		return false
 	end

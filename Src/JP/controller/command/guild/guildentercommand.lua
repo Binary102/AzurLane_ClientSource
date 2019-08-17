@@ -4,7 +4,7 @@ class("GuildEnterCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot5 = slot3:getGuildEvent()
 
 	if not slot3:getData() or not slot5 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 		return
 	end
@@ -34,7 +34,7 @@ class("GuildEnterCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot2:sendNotification(GAME.GUILD_ENTER_DONE, slot2)
 		else
 			if slot0.result == 3 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("sham_enter_error_friend_ship_expired"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("sham_enter_error_friend_ship_expired"))
 
 				if getProxy(ChapterProxy).getGuildChapter(slot1):getFriendShip() then
 					for slot9, slot10 in pairs(slot5) do
@@ -49,7 +49,7 @@ class("GuildEnterCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 					slot1:updateGuildChapter(slot2)
 				end
 			else
-				pg.TipsMgr:GetInstance():ShowTips(errorTip("sham_enter_error", slot0.result))
+				pg.TipsMgr.GetInstance():ShowTips(errorTip("sham_enter_error", slot0.result))
 			end
 
 			slot2:sendNotification(GAME.GUIlD_ENTER_ERROR, slot0.result)

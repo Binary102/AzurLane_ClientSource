@@ -49,7 +49,7 @@ end
 
 function ys.Battle.BattleJoyStickAutoBot.init(slot0)
 	slot0._active = false
-	slot0._uiMgr = pg.UIMgr:GetInstance()
+	slot0._uiMgr = pg.UIMgr.GetInstance()
 
 	slot0:SwitchStrategy()
 end

@@ -19,13 +19,13 @@ function ys.Battle.BattleControllerCommand.CheckDebugCombinedKey(slot0)
 		if Input.GetKeyUp(KeyCode.Keypad0) then
 			if slot0._state:GetMediatorByName(slot0.Battle.BattleReferenceBoxMediator.__name) == nil then
 				slot0._state:AddMediator(slot0.Battle.BattleReferenceBoxMediator.New())
-				pg.TipsMgr:GetInstance():ShowTips("┏━━━━━━━━━━━━━━━━━━━┓")
-				pg.TipsMgr:GetInstance():ShowTips("┃ヽ(•̀ω•́ )ゝ战斗调试模块初始化成功！(ง •̀_•́)ง┃")
-				pg.TipsMgr:GetInstance():ShowTips("┗━━━━━━━━━━━━━━━━━━━┛")
+				pg.TipsMgr.GetInstance():ShowTips("┏━━━━━━━━━━━━━━━━━━━┓")
+				pg.TipsMgr.GetInstance():ShowTips("┃ヽ(•̀ω•́ )ゝ战斗调试模块初始化成功！(ง •̀_•́)ง┃")
+				pg.TipsMgr.GetInstance():ShowTips("┗━━━━━━━━━━━━━━━━━━━┛")
 			else
-				pg.TipsMgr:GetInstance():ShowTips("┏━━━━━━━━━━━━━━━━━━━┓")
-				pg.TipsMgr:GetInstance():ShowTips("┃ヽ(･ω･｡)ﾉ 战斗调试模块已经存在！(ﾉ･ω･)ﾉﾞ┃")
-				pg.TipsMgr:GetInstance():ShowTips("┗━━━━━━━━━━━━━━━━━━━┛")
+				pg.TipsMgr.GetInstance():ShowTips("┏━━━━━━━━━━━━━━━━━━━┓")
+				pg.TipsMgr.GetInstance():ShowTips("┃ヽ(･ω･｡)ﾉ 战斗调试模块已经存在！(ﾉ･ω･)ﾉﾞ┃")
+				pg.TipsMgr.GetInstance():ShowTips("┗━━━━━━━━━━━━━━━━━━━┛")
 			end
 		elseif Input.GetKeyUp(KeyCode.Keypad1) then
 			slot0._state:GetMediatorByName(slot0.Battle.BattleReferenceBoxMediator.__name):ActiveUnitBoxes(true)
@@ -78,9 +78,9 @@ function ys.Battle.BattleControllerCommand.removeSpeed(slot0)
 end
 
 function ys.Battle.BattleControllerCommand.scaleTime(slot0)
-	pg.TipsMgr:GetInstance():ShowTips("┏━━━━━━━━━━━━┓")
-	pg.TipsMgr:GetInstance():ShowTips("┃ヽ(•̀ω•́ )ゝ嗑药 X" .. slot0.Battle.BattleConfig.BASIC_TIME_SCALE .. " ！(ง •̀_•́)ง┃")
-	pg.TipsMgr:GetInstance():ShowTips("┗━━━━━━━━━━━━┛")
+	pg.TipsMgr.GetInstance():ShowTips("┏━━━━━━━━━━━━┓")
+	pg.TipsMgr.GetInstance():ShowTips("┃ヽ(•̀ω•́ )ゝ嗑药 X" .. slot0.Battle.BattleConfig.BASIC_TIME_SCALE .. " ！(ง •̀_•́)ง┃")
+	pg.TipsMgr.GetInstance():ShowTips("┗━━━━━━━━━━━━┛")
 	slot0._state:ScaleTimer()
 end
 

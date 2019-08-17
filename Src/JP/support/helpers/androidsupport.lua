@@ -3,6 +3,7 @@ PERMISSION_NEVER_REMIND = "permission_never_remind"
 PERMISSION_REJECT = "permission_reject"
 ANDROID_CAMERA_PERMISSION = "android.permission.CAMERA"
 ANDROID_RECORD_AUDIO_PERMISSION = "android.permission.RECORD_AUDIO"
+ANDROID_WRITE_EXTERNAL_PERMISSION = "android.permission.WRITE_EXTERNAL_STORAGE"
 
 function CheckPermissionGranted(slot0)
 	if CSharpVersion >= 21 then

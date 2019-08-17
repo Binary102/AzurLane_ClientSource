@@ -30,7 +30,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.ON_PRECOMBAT, function (slot0, slot1)
 		if slot0:checkActivityFleet(slot1.id) ~= true then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("elite_disable_no_fleet"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("elite_disable_no_fleet"))
 
 			return
 		end
@@ -68,7 +68,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.ON_STAGE, function (slot0, slot1, slot2)
 		if slot0:checkActivityFleet(slot1.id) ~= true then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("elite_disable_no_fleet"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("elite_disable_no_fleet"))
 
 			return
 		end
@@ -179,7 +179,7 @@ function slot0.register(slot0)
 					if slot8 == slot1 then
 						for slot13, slot14 in pairs(slot2) do
 							if slot14.groupId == slot4.groupId and slot13 ~= slot3 then
-								pg.TipsMgr:GetInstance():ShowTips(i18n("commander_can_not_select_same_group"))
+								pg.TipsMgr.GetInstance():ShowTips(i18n("commander_can_not_select_same_group"))
 
 								return
 							end
@@ -187,7 +187,7 @@ function slot0.register(slot0)
 					else
 						for slot14, slot15 in pairs(slot10) do
 							if slot2 == slot15.id then
-								pg.TipsMgr:GetInstance():ShowTips(i18n("commander_is_in_fleet_already"))
+								pg.TipsMgr.GetInstance():ShowTips(i18n("commander_is_in_fleet_already"))
 
 								return
 							end
@@ -278,13 +278,13 @@ end
 
 function slot0.tryBattle(slot0)
 	if getProxy(FleetProxy):checkActivityFleet(slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2).id) ~= true then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("elite_disable_no_fleet"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("elite_disable_no_fleet"))
 
 		return
 	end
 
 	if slot1:isEnd() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 	else
 		slot0.viewComponent.enterStage = true
 

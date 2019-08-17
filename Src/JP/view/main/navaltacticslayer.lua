@@ -134,7 +134,7 @@ function slot0.updateLockStudentPos(slot0, slot1, slot2)
 			slot4 = slot2.resource_num
 			slot5, slot6 = nil
 
-			if slot2.discount ~= 0 and (table.getCount(slot2.discount_time) == 0 or pg.TimeMgr:GetInstance():inTime(slot2.discount_time)) then
+			if slot2.discount ~= 0 and (table.getCount(slot2.discount_time) == 0 or pg.TimeMgr.GetInstance():inTime(slot2.discount_time)) then
 				slot5 = {
 					discount = slot2.discount
 				}
@@ -142,7 +142,7 @@ function slot0.updateLockStudentPos(slot0, slot1, slot2)
 				slot11, slot12, slot13 = unpack(slot9)
 				slot20.year, slot20.month, slot20.day = unpack(slot10)
 
-				if pg.TimeMgr:GetInstance():Table2ServerTime({
+				if pg.TimeMgr.GetInstance():Table2ServerTime({
 					year = slot14,
 					month = slot15,
 					day = slot16,
@@ -161,11 +161,11 @@ function slot0.updateLockStudentPos(slot0, slot1, slot2)
 				slot4 = slot4 * (100 - slot2.discount) / 100
 			end
 
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = slot6 or i18n("open_skill_pos", slot4),
 				onYes = function ()
 					if slot0.playerVO[id2res(slot1.resource_type)] < slot1.resource_type then
-						pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_resource"))
+						pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 						return
 					end
@@ -222,7 +222,7 @@ function slot0.startLesson(slot0, slot1, slot2)
 			content = i18n("tactics_lesson_start_tip", pg.MsgboxMgr.GetInstance().ShowMsgBox, pg.MsgboxMgr.GetInstance(), ),
 			onYes = function ()
 				if slot0.level == slot1 then
-					pg.TipsMgr:GetInstance():ShowTips(i18n("tactics_max_level"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("tactics_max_level"))
 
 					return
 				end
@@ -458,7 +458,7 @@ end
 
 function slot0.goDockYard(slot0, slot1, slot2)
 	if table.getCount(slot0.itemVOs or {}) <= 0 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("tactics_no_lesson"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("tactics_no_lesson"))
 
 		return
 	end
@@ -501,7 +501,7 @@ function slot0.addLeasonOverTimer(slot0, slot1)
 		if pg.TimeMgr.GetInstance():GetServerTime() <=  then
 			slot1()
 		else
-			setText(slot2:Find("infoPanel/timer/Text"), pg.TimeMgr:GetInstance():DescCDTime(slot0 - slot0))
+			setText(slot2:Find("infoPanel/timer/Text"), pg.TimeMgr.GetInstance():DescCDTime(slot0 - slot0))
 		end
 
 		return
@@ -577,7 +577,7 @@ function slot0.updateSkillInfo(slot0, slot1, slot2)
 		return
 	end, SFX_PANEL)
 	setSlider(slot10, 0, 1, slot0.shipVOs[slot2.shipId].skills[slot4].exp / getConfigFromLevel1(pg.skill_need_exp, slot0.shipVOs[slot2.shipId].skills[slot4].level).exp)
-	setText(findTF(slot1, "timer/Text"), pg.TimeMgr:GetInstance():DescCDTime(slot2:getTime()))
+	setText(findTF(slot1, "timer/Text"), pg.TimeMgr.GetInstance():DescCDTime(slot2:getTime()))
 
 	return
 end
@@ -586,7 +586,7 @@ function slot0.updateShipInfo(slot0, slot1, slot2)
 	slot3 = slot0:findTF("ship_tpl", slot1)
 
 	if not slot0.shipCards[slot0.shipVOs[slot2.shipId].id] then
-		slot0.shipCards[slot4.id] = DockyardShipItem.New(slot3)
+		slot0.shipCards[slot4.id] = TacticsShipItem.New(slot3)
 	end
 
 	slot0.shipCards[slot4.id]:update(slot4)
@@ -644,13 +644,13 @@ function slot0.showSkillSel(slot0, slot1, slot2)
 		end
 
 		if not slot2.skills[slot1[slot0.selectedSkillIndex]] then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("tactics_should_exist_skill"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("tactics_should_exist_skill"))
 
 			return
 		end
 
 		if slot1.level == pg.skill_data_template[slot0].max_level then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("tactics_max_level"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("tactics_max_level"))
 
 			return
 		end
@@ -816,7 +816,7 @@ function slot0.showLessonSel(slot0, slot1, slot2, slot3)
 
 	onButton(slot0, slot0.lessonSelBtn, function ()
 		if not slot0.itemVOs or table.getCount(slot0.itemVOs) == 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_item_1"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
 
 			return
 		end
@@ -854,7 +854,7 @@ function slot0.updateLessonInfo(slot0, slot1, slot2)
 	setText(findTF(slot0.lessonPanel, "skillInfo/contain/name"), pg.item_data_statistics[slot2].name)
 	setText(findTF(slot0.lessonPanel, "skillInfo/contain/desc"), pg.item_data_statistics[slot2].display)
 	setText(findTF(slot0.lessonPanel, "skillInfo/contain/timer_contain/exp_timer/Text"), slot5)
-	setText(findTF(slot0.lessonPanel, "skillInfo/contain/timer_contain/timer/Text"), pg.TimeMgr:GetInstance():DescCDTime(pg.item_data_template[slot2].usage_arg[1]))
+	setText(findTF(slot0.lessonPanel, "skillInfo/contain/timer_contain/timer/Text"), pg.TimeMgr.GetInstance():DescCDTime(pg.item_data_template[slot2].usage_arg[1]))
 
 	slot0.lessonTime = pg.item_data_template[slot2].usage_arg[1]
 

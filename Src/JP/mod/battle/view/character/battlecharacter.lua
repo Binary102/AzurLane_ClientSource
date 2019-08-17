@@ -144,7 +144,7 @@ function slot5.RemoveFX(slot0, slot1)
 	if slot0._allFX and slot0._allFX[slot1] then
 		slot0._allFX[slot1] = nil
 
-		slot0:GetInstance():DestroyOb(slot1)
+		slot0.GetInstance():DestroyOb(slot1)
 	end
 end
 
@@ -152,7 +152,7 @@ function slot5.RemoveCacheFX(slot0, slot1)
 	if slot0._cacheFXList[slot1] ~= nil then
 		slot0._allFX[slot2] = nil
 
-		slot0:GetInstance():DestroyOb(slot2)
+		slot0.GetInstance():DestroyOb(slot2)
 
 		slot0._cacheFXList[slot1] = nil
 	end
@@ -413,10 +413,10 @@ function slot5.UpdateDiveInvisible(slot0)
 		slot3 = slot0:GetFactory():GetDivingFilterColor()
 
 		if slot2 then
-			slot0:SwitchShader(slot1:GetInstance():GetShader("GRID_TRANSPARENT"), slot3)
+			slot0:SwitchShader(slot1.GetInstance():GetShader("GRID_TRANSPARENT"), slot3)
 			slot0:updateComponentDiveInvisible()
 		else
-			slot0:SwitchShader(slot1:GetInstance():GetShader("SEMI_TRANSPARENT"), slot3)
+			slot0:SwitchShader(slot1.GetInstance():GetShader("SEMI_TRANSPARENT"), slot3)
 		end
 
 		slot0._animator:ChangeRenderQueue(2999)
@@ -602,7 +602,7 @@ end
 function slot5.SetArrowPoint(slot0)
 	slot0._arrowVector:Set()
 
-	slot0._cameraUtil = slot0.Battle.BattleCameraUtil:GetInstance()
+	slot0._cameraUtil = slot0.Battle.BattleCameraUtil.GetInstance()
 	slot0._arrowCenterPos = slot0._cameraUtil:GetArrowCenterPos()
 
 	return
@@ -678,7 +678,7 @@ function slot5.Dispose(slot0)
 	slot0._popNumPool = nil
 
 	for slot4, slot5 in pairs(slot0._allFX) do
-		slot0:GetInstance():DestroyOb(slot4)
+		slot0.GetInstance():DestroyOb(slot4)
 	end
 
 	pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._voiceTimer)

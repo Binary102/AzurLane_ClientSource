@@ -602,6 +602,7 @@ pg.activity_template = {
 	[337] = {
 		mark = 20190724,
 		title_res_tag = "us_skirmish",
+		time = "stop",
 		type = 18,
 		config_id = 3,
 		is_show = 1,
@@ -629,33 +630,6 @@ pg.activity_template = {
 			{
 				14786,
 				14787
-			}
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					7,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		bg = {
@@ -726,6 +700,7 @@ pg.activity_template = {
 	[340] = {
 		mark = 20190731,
 		title_res_tag = "",
+		time = "stop",
 		type = 12,
 		bg = "",
 		config_id = 0,
@@ -743,38 +718,12 @@ pg.activity_template = {
 			1250008,
 			1250022,
 			1250023
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					7,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[341] = {
 		mark = 20190731,
 		title_res_tag = "",
+		time = "stop",
 		type = 12,
 		config_id = 0,
 		is_show = 0,
@@ -794,33 +743,6 @@ pg.activity_template = {
 			1250024,
 			1250025
 		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					8,
-					1
-				},
-				{
-					12,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/sakura"
 		}
@@ -828,6 +750,7 @@ pg.activity_template = {
 	[342] = {
 		mark = 20190731,
 		title_res_tag = "",
+		time = "stop",
 		type = 13,
 		bg = "",
 		config_id = 0,
@@ -852,33 +775,6 @@ pg.activity_template = {
 			14824,
 			14825,
 			14826
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					7,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[343] = {
@@ -1126,39 +1022,13 @@ pg.activity_template = {
 	[348] = {
 		mark = 20190731,
 		title_res_tag = "newmeixi_oil",
+		time = "stop",
 		type = 54,
 		config_id = 348,
 		is_show = 1,
 		config_client = "",
 		id = 348,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					7,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/activity_bg_newmeixi_oil"
 		}
@@ -1166,40 +1036,14 @@ pg.activity_template = {
 	[349] = {
 		mark = 20190731,
 		title_res_tag = "",
+		time = "stop",
 		type = 1,
 		bg = "",
 		config_id = 4,
 		is_show = 0,
 		config_client = "",
 		id = 349,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					7,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[350] = {
 		mark = 20190807,

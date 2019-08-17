@@ -22,7 +22,7 @@ function slot0.register(slot0)
 		slot2, slot3 = getProxy(BayProxy):getShipById(slot0.contextData.oldShipInfo.id):canModifyShip()
 
 		if not slot2 then
-			pg.TipsMgr:GetInstance():ShowTips(slot3)
+			pg.TipsMgr.GetInstance():ShowTips(slot3)
 
 			return
 		end

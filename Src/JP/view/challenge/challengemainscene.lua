@@ -659,13 +659,12 @@ slot0.findUI = slot1
 
 function slot1(slot0)
 	slot1 = pg
-	slot1 = slot1.StoryMgr
-	slot2 = slot1
+	slot1 = slot1.SystemGuideMgr
 	slot1 = slot1.GetInstance
-	slot1 = slot1(slot2)
+	slot1 = slot1()
 	slot2 = slot1
-	slot1 = slot1.PlayGuide
-	slot3 = "NG0014"
+	slot1 = slot1.Play
+	slot3 = slot0
 
 	slot1(slot2, slot3)
 end
@@ -2221,9 +2220,8 @@ function slot1(slot0)
 	slot3 = slot2.stopTime
 	slot4 = pg
 	slot4 = slot4.TimeMgr
-	slot5 = slot4
 	slot4 = slot4.GetInstance
-	slot4 = slot4(slot5)
+	slot4 = slot4()
 	slot5 = slot4
 	slot4 = slot4.STimeDescS
 	slot6 = slot3
@@ -2237,9 +2235,8 @@ function slot1(slot0)
 
 	slot5 = pg
 	slot5 = slot5.TimeMgr
-	slot6 = slot5
 	slot5 = slot5.GetInstance
-	slot5 = slot5(slot6)
+	slot5 = slot5()
 	slot7 = slot5
 	slot6 = slot5.GetNextWeekTime
 	slot8 = 1
@@ -2291,9 +2288,8 @@ function slot1(slot0)
 		slot0 = slot0
 		slot0 = pg
 		slot0 = slot0.TimeMgr
-		slot1 = slot0
 		slot0 = slot0.GetInstance
-		slot0 = slot0(slot1)
+		slot0 = slot0()
 		slot1 = slot0
 		slot0 = slot0.parseTimeFrom
 		slot2 = slot0

@@ -701,7 +701,7 @@ function slot0.initWorldPanel(slot0)
 		if #slot0 == 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("world_ship_repair_no_need"))
 		else
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("world_ship_repair_all", slot1),
 				onYes = function ()
 					slot0:emit(DockyardMediator.ON_SHIP_REPAIR, slot0, )
@@ -729,7 +729,7 @@ function slot0.repairWorldShip(slot0, slot1)
 	slot3 = slot0.world:CalcRepairCost(slot2)
 
 	if slot1.bindingData:IsBroken() then
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("world_ship_repair_2", slot1:getName(), slot3),
 			onYes = function ()
 				slot0:emit(DockyardMediator.ON_SHIP_REPAIR, {
@@ -738,7 +738,7 @@ function slot0.repairWorldShip(slot0, slot1)
 			end
 		})
 	elseif not slot2:IsHpFull() then
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("world_ship_repair_1", slot1:getName(), slot3),
 			onYes = function ()
 				slot0:emit(DockyardMediator.ON_SHIP_REPAIR, {
@@ -810,7 +810,7 @@ function slot0.filter(slot0)
 
 	if slot2 then
 		table.sort(slot0.shipVOs, function (slot0, slot1)
-			if pg.GuideMgr:GetInstance():isRuning() then
+			if pg.GuideMgr.GetInstance():isRuning() then
 				return IndexConst.sortForGuider(slot0, slot1)
 			elseif slot0.isFormTactics then
 				return IndexConst.sortByPriorityFullSkill(slot0, slot1, slot1)
@@ -915,9 +915,9 @@ function slot0.didEnter(slot0)
 
 		if #slot0.selectedIds < slot0.selectedMin then
 			if slot0.leastLimitMsg then
-				pg.TipsMgr:GetInstance():ShowTips(slot0.leastLimitMsg)
+				pg.TipsMgr.GetInstance():ShowTips(slot0.leastLimitMsg)
 			else
-				pg.TipsMgr:GetInstance():ShowTips(i18n("ship_dockyardScene_error_choiseRoleMore", slot0.selectedMin))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("ship_dockyardScene_error_choiseRoleMore", slot0.selectedMin))
 			end
 
 			return
@@ -957,7 +957,7 @@ function slot0.didEnter(slot0)
 	if not slot0.contextData.selectFriend then
 		if slot0.contextData.prevFlag then
 			if not slot0.lastActiveShip then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("ship_dockyardScene_noRole"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("ship_dockyardScene_noRole"))
 
 				return
 			end
@@ -1070,7 +1070,7 @@ function slot0.checkDestroyGold(slot0, slot1)
 	slot4 = slot0.player:OilMax(slot3)
 
 	if slot0.player:GoldMax(slot2) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_retire"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_retire"))
 
 		return false, not slot4
 	end
@@ -1106,7 +1106,7 @@ function slot0.selectShip(slot0, slot1)
 
 			if not slot2 then
 				if slot3 then
-					pg.TipsMgr:GetInstance():ShowTips(slot3)
+					pg.TipsMgr.GetInstance():ShowTips(slot3)
 				end
 
 				return
@@ -1120,7 +1120,7 @@ function slot0.selectShip(slot0, slot1)
 
 				slot1.selectedIds[1] = slot2.id
 			else
-				pg.TipsMgr:GetInstance():ShowTips(i18n("ship_dockyardScene_error_choiseRoleLess", slot1.selectedMax))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("ship_dockyardScene_error_choiseRoleLess", slot1.selectedMax))
 
 				return
 			end
@@ -1133,7 +1133,7 @@ function slot0.selectShip(slot0, slot1)
 
 			if not slot2 then
 				if slot3 then
-					pg.TipsMgr:GetInstance():ShowTips(slot3)
+					pg.TipsMgr.GetInstance():ShowTips(slot3)
 				end
 
 				return
@@ -1160,7 +1160,7 @@ function slot0.selectShip(slot0, slot1)
 		end
 
 		if not slot5 and not slot2() then
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("oil_max_tip_title") .. i18n("resource_max_tip_retire_1"),
 				onYes = function ()
 					slot0()

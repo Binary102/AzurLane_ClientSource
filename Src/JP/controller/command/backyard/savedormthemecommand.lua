@@ -2,7 +2,7 @@ class("SaveDormThemeCommand", pm.SimpleCommand).execute = function (slot0, slot1
 	slot4, slot5 = Dorm.checkData(slot1:getBody().furnitureputList, getProxy(DormProxy):getData().level)
 
 	if not slot4 then
-		pg.TipsMgr:GetInstance():ShowTips(slot5)
+		pg.TipsMgr.GetInstance():ShowTips(slot5)
 
 		return
 	end
@@ -41,9 +41,9 @@ class("SaveDormThemeCommand", pm.SimpleCommand).execute = function (slot0, slot1
 
 			slot1:AddTheme(slot0)
 			slot1:sendNotification(GAME.SAVE_DORMTHEME_DONE)
-			pg.TipsMgr:GetInstance():ShowTips("保存成功")
+			pg.TipsMgr.GetInstance():ShowTips("保存成功")
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 		end
 	end)
 end

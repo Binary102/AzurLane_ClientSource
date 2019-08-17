@@ -109,9 +109,9 @@ function slot0.init(slot0)
 	slot0.treePage = CommanderTreePage.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event)
 	slot0.renamePanel = CommanderRenamePage.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event)
 	slot0.msgboxPage = CommanderMsgBoxPage.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event)
-	slot0.reservePanel = CommanderReservePage.New(pg.UIMgr:GetInstance().OverlayMain, slot0.event)
+	slot0.reservePanel = CommanderReservePage.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event)
 	slot0.detailPage = CommanderDetailPage.New(slot0.mainTF, slot0.event, slot0.contextData)
-	slot0.boxesPanel = CommanderBoxesPage.New(pg.UIMgr:GetInstance().OverlayMain, slot0.event)
+	slot0.boxesPanel = CommanderBoxesPage.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event)
 
 	slot0:enterAnim(function ()
 		if slot0.isMultSelectMode then
@@ -131,61 +131,7 @@ function slot0.finishStroy(slot0, slot1)
 end
 
 function slot0.tryPlayStroy(slot0)
-	seriesAsync({
-		function (slot0)
-			if pg.StoryMgr:GetInstance():IsPlayed("ZHIHUIMIAO2") then
-				slot0()
-			else
-				pg.StoryMgr:GetInstance():Play("ZHIHUIMIAO2", slot0, true, true)
-			end
-		end,
-		function (slot0)
-			if not pg.GuideMgr:GetInstance():isPlayed("NG006") and table.getCount(getProxy(CommanderProxy):getData()) >= 1 then
-				slot0:finishStroy("NG006")
-				slot0()
-			else
-				pg.StoryMgr:GetInstance():PlayGuide("NG006", {}, slot0)
-			end
-		end,
-		function (slot0)
-			if not pg.GuideMgr:GetInstance():isPlayed("NG007") and getProxy(BagProxy):getItemCountById(20012) ~= 1 then
-				slot0:finishStroy("NG007")
-				slot0()
-			else
-				pg.StoryMgr:GetInstance():PlayGuide("NG007", {}, slot0)
-			end
-		end,
-		function (slot0)
-			if pg.StoryMgr:GetInstance():IsPlayed("ZHIHUIMIAO3") then
-				slot0()
-			else
-				pg.StoryMgr:GetInstance():Play("ZHIHUIMIAO3", slot0, true, true)
-			end
-		end,
-		function (slot0)
-			if not pg.GuideMgr:GetInstance():isPlayed("NG008") and slot0.boxes[1]:getState() ~= CommanderBox.STATE_FINISHED then
-				slot0:finishStroy("NG008")
-				slot0()
-			else
-				pg.StoryMgr:GetInstance():PlayGuide("NG008", {}, slot0)
-			end
-		end,
-		function (slot0)
-			if pg.StoryMgr:GetInstance():IsPlayed("ZHIHUIMIAO4") then
-				slot0()
-			else
-				pg.StoryMgr:GetInstance():Play("ZHIHUIMIAO4", slot0, true, true)
-			end
-		end,
-		function (slot0)
-			if not pg.GuideMgr:GetInstance():isPlayed("NG009") and table.getCount(getProxy(CommanderProxy):getData()) ~= 1 then
-				slot0:finishStroy("NG009")
-				slot0()
-			else
-				pg.StoryMgr:GetInstance():PlayGuide("NG009", {}, slot0)
-			end
-		end
-	})
+	pg.SystemGuideMgr.GetInstance():PlayCommander()
 end
 
 function slot0.updateRes(slot0)
@@ -361,7 +307,7 @@ function slot0.didEnter(slot0)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.selectedBtn, function ()
 		if (slot0.contextData.minCount or 1) > #slot0.contextData.minCount or 1.selecteds then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_select_min_cnt", slot0))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_select_min_cnt", slot0))
 
 			return
 		end
@@ -489,7 +435,7 @@ end
 
 function slot0.SwitchPage(slot0, slot1)
 	if slot0.commanderVOs[slot0.conmmanderId].inBattle and slot1 == CommanderInfoScene.PAGE_PLAY then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("commander_is_in_battle"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("commander_is_in_battle"))
 
 		return
 	end
@@ -696,7 +642,7 @@ function slot0.checkCommander(slot0, slot1)
 	end, slot0)
 
 	if not slot4 then
-		pg.TipsMgr:GetInstance():ShowTips(slot5)
+		pg.TipsMgr.GetInstance():ShowTips(slot5)
 
 		return
 	end
@@ -713,7 +659,7 @@ function slot0.checkCommander(slot0, slot1)
 		end
 	else
 		if slot3 <= #slot0.selecteds then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_select_max"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_select_max"))
 
 			return
 		end

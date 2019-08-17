@@ -2,13 +2,13 @@ slot0 = class("WorldPortShoppingCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	if slot1:getBody().goods.count <= 0 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("buy_countLimit"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
 
 		return
 	end
 
 	if slot3.moneyItem.type == DROP_TYPE_RESOURCE and getProxy(PlayerProxy):getRawData()[id2res(slot4.id)] < slot4.count then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("buyProp_noResource_error", pg.item_data_statistics[id2ItemId(slot4.id)].name))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("buyProp_noResource_error", pg.item_data_statistics[id2ItemId(slot4.id)].name))
 	end
 
 	if getProxy(WorldProxy).GetWorld(slot5).getInventoryProxy(slot6).GetItemCount(slot7, WorldItem.MoneyId) < slot4.count then
@@ -42,7 +42,7 @@ function slot0.execute(slot0, slot1)
 				drops = slot1
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("world_port_shopping_error_", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("world_port_shopping_error_", slot0.result))
 		end
 	end)
 end

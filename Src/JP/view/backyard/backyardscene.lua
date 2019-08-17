@@ -64,7 +64,7 @@ function slot0.init(slot0)
 	slot0.buffContain = slot0:findTF("buffListPanel/buffs", slot0.rightPanel)
 	slot0.buffTpl = slot0:getTpl("bufftpl", slot0.buffContain)
 	slot0.buffTip = slot0:findTF("main/rightPanel/buffListPanel/tip")
-	slot0.UIMain = pg.UIMgr:GetInstance().OverlayMain
+	slot0.UIMain = pg.UIMgr.GetInstance().OverlayMain
 	slot0.shopBtn = slot0:findTF("shop_btn", slot0.bottomPanel)
 	slot0.shareBtn = slot0:findTF("share_btn", slot0.bottomPanel)
 	slot0.renameBox = slot0:findTF("rename_box")
@@ -223,7 +223,7 @@ function slot0.setMode(slot0)
 		slot0:updateFloorBtn()
 		onButton(slot0, slot0.floorBtn, function ()
 			if slot0.dormVO.level ~= Dorm.MAX_LEVEL then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("sec_floor_limit_tip"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("sec_floor_limit_tip"))
 			else
 				slot0:showFloorSel()
 			end
@@ -337,7 +337,7 @@ function slot0.showFloorSel(slot0)
 			return
 		end, SFX_PANEL)
 		onButton(slot0, slot5:Find("mask"), function ()
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("backyard_open_2floor", pg.shop_template[ShopArgs.DORM_FLOOR_ID].resource_num),
 				onYes = function ()
 					slot0:emit(BackYardMediator.ON_SHOPPING, slot0, 1)
@@ -423,7 +423,7 @@ function slot0.registerRenameEvent(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.renameBtn, function ()
 		if not getInputText(slot0.nameInput) or slot0 == "" then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("word_should_input"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("word_should_input"))
 
 			return
 		end
@@ -534,10 +534,10 @@ function slot0.createBuff(slot0, slot1)
 			return pg.benefit_buff_template[slot0.id][slot1]
 		end,
 		isExpired = function (slot0)
-			return slot0.timestamp < pg.TimeMgr:GetInstance():GetServerTime()
+			return slot0.timestamp < pg.TimeMgr.GetInstance():GetServerTime()
 		end,
 		getLeftTime = function (slot0)
-			return slot0.timestamp - pg.TimeMgr:GetInstance():GetServerTime()
+			return slot0.timestamp - pg.TimeMgr.GetInstance():GetServerTime()
 		end,
 		isRedTime = function (slot0)
 			if slot0:getLeftTime() <= 600 then
@@ -565,7 +565,7 @@ function slot0.updateBuff(slot0, slot1)
 		slot4 = slot0:findTF("Text", slot2)
 		slot2:GetComponent(typeof(Image)).sprite = LoadSprite(slot1:getConfig("icon"))
 		slot0.buffTimer[slot1.id] = Timer.New(function ()
-			slot1 = pg.TimeMgr:GetInstance():DescCDTime(slot0)
+			slot1 = pg.TimeMgr.GetInstance():DescCDTime(slot0)
 			slot2 = nil
 
 			if slot0:getLeftTime() > 0 then
@@ -653,7 +653,7 @@ end
 
 function slot0.calFoodLeftTime(slot0)
 	if slot0.calFoodTimer then
-		pg.TimeMgr:GetInstance():RemoveTimer(slot0.calFoodTimer)
+		pg.TimeMgr.GetInstance():RemoveTimer(slot0.calFoodTimer)
 
 		slot0.calFoodTimer = nil
 	end
@@ -669,7 +669,7 @@ function slot0.calFoodLeftTime(slot0)
 	slot1 = slot0.dormVO:getFoodLeftTime()
 
 	function slot2()
-		pg.TimeMgr:GetInstance():RemoveTimer(slot0.calFoodTimer)
+		pg.TimeMgr.GetInstance():RemoveTimer(slot0.calFoodTimer)
 
 		pg.TimeMgr.GetInstance().RemoveTimer.calFoodTimer = nil
 
@@ -680,8 +680,8 @@ function slot0.calFoodLeftTime(slot0)
 
 	setActive(slot0.leftTimeTF, true)
 
-	slot0.calFoodTimer = pg.TimeMgr:GetInstance():AddTimer("calFoodTimer", 0, 1, function ()
-		setText(slot1.leftTimeTF, i18n("backyard_backyardScene_timeRest", " " .. pg.TimeMgr:GetInstance():DescCDTime(math.floor(math.floor) - pg.TimeMgr:GetInstance():GetServerTime())))
+	slot0.calFoodTimer = pg.TimeMgr.GetInstance():AddTimer("calFoodTimer", 0, 1, function ()
+		setText(slot1.leftTimeTF, i18n("backyard_backyardScene_timeRest", " " .. pg.TimeMgr.GetInstance():DescCDTime(math.floor(math.floor) - pg.TimeMgr.GetInstance():GetServerTime())))
 
 		if math.floor(math.floor) - pg.TimeMgr.GetInstance().GetServerTime() <= 0 then
 			slot2()
@@ -780,7 +780,7 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.willExit(slot0)
-	pg.TimeMgr:GetInstance():RemoveTimer(slot0.calFoodTimer)
+	pg.TimeMgr.GetInstance():RemoveTimer(slot0.calFoodTimer)
 
 	for slot4, slot5 in pairs(slot0.buffTimer) do
 		slot5:Stop()

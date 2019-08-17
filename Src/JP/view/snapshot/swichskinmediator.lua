@@ -1,6 +1,7 @@
 slot0 = class("SwichSkinMediator", import("..base.ContextMediator"))
 slot0.CHANGE_SKIN = "SwichSkinMediator:CHANGE_SKIN"
 slot0.BUY_ITEM = "SwichSkinMediator:BUY_ITEM"
+slot0.UPDATE_SKINCONFIG = "SwichSkinMediator:UPDATE_SKINCONFIG"
 
 function slot0.register(slot0)
 	slot0.shipVO = slot0.contextData.shipVO
@@ -20,6 +21,11 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.SHOPPING, {
 			id = slot1,
 			count = slot2
+		})
+	end)
+	slot0:bind(slot0.UPDATE_SKINCONFIG, function (slot0, slot1)
+		slot0:sendNotification(GAME.UPDATE_SKINCONFIG, {
+			skinId = slot1
 		})
 	end)
 end

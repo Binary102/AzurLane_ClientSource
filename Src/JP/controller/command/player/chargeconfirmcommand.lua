@@ -28,7 +28,7 @@ class("ChargeConfirmCommand", pm.SimpleCommand).execute = function (slot0, slot1
 			slot0:removeChargeTimer(slot0.removeChargeTimer)
 
 			if slot0.result ~= 1 then
-				pg.TipsMgr:GetInstance():ShowTips(errorTip("charge_erro", slot0.result))
+				pg.TipsMgr.GetInstance():ShowTips(errorTip("charge_erro", slot0.result))
 			end
 		end
 	end)

@@ -38,7 +38,7 @@ function slot0.register(slot0)
 			slot3, slot4 = Ship.canModifyShip(slot2)
 
 			if not slot3 then
-				pg.TipsMgr:GetInstance():ShowTips(slot4)
+				pg.TipsMgr.GetInstance():ShowTips(slot4)
 			else
 				if slot0.viewComponent.fromEquipmentView then
 					slot0:sendNotification(EquipmentMediator.NO_UPDATE)

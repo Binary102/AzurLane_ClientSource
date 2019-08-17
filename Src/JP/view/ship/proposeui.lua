@@ -317,9 +317,8 @@ function slot2(slot0)
 		function slot7(slot0)
 			slot1 = pg
 			slot1 = slot1.UIMgr
-			slot2 = slot1
 			slot1 = slot1.GetInstance
-			slot1 = slot1(slot2)
+			slot1 = slot1()
 			slot2 = slot1
 			slot1 = slot1.LoadingOff
 
@@ -931,9 +930,8 @@ function slot2(slot0)
 					if slot0 < slot1 then
 						slot0 = pg
 						slot0 = slot0.TipsMgr
-						slot1 = slot0
 						slot0 = slot0.GetInstance
-						slot0 = slot0(slot1)
+						slot0 = slot0()
 						slot1 = slot0
 						slot0 = slot0.ShowTips
 						slot2 = i18n
@@ -953,9 +951,8 @@ function slot2(slot0)
 					if not slot0 then
 						slot2 = pg
 						slot2 = slot2.TipsMgr
-						slot3 = slot2
 						slot2 = slot2.GetInstance
-						slot2 = slot2(slot3)
+						slot2 = slot2()
 						slot3 = slot2
 						slot2 = slot2.ShowTips
 						slot4 = slot1
@@ -2067,9 +2064,8 @@ function slot2(slot0)
 		function slot7(slot0)
 			slot1 = pg
 			slot1 = slot1.UIMgr
-			slot2 = slot1
 			slot1 = slot1.GetInstance
-			slot1 = slot1(slot2)
+			slot1 = slot1()
 			slot2 = slot1
 			slot1 = slot1.LoadingOff
 
@@ -3133,9 +3129,8 @@ function slot2(slot0, slot1)
 		function slot8(slot0)
 			slot1 = pg
 			slot1 = slot1.UIMgr
-			slot2 = slot1
 			slot1 = slot1.GetInstance
-			slot1 = slot1(slot2)
+			slot1 = slot1()
 			slot2 = slot1
 			slot1 = slot1.LoadingOff
 

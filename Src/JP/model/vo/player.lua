@@ -44,11 +44,11 @@ function slot0.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 
 	if not slot1 then
-		slot1 = pg.StoryMgr:GetInstance():GetStoryByName("index")
+		slot1 = pg.StoryMgr.GetInstance():GetStoryByName("index")
 	end
 
 	if not storyIndexAgain then
-		storyIndexAgain = pg.StoryMgr:GetInstance():GetStoryByName("index_again")
+		storyIndexAgain = pg.StoryMgr.GetInstance():GetStoryByName("index_again")
 	end
 
 	slot0.id = slot1.id
@@ -459,10 +459,10 @@ function slot0.addExp(slot0, slot1)
 		slot0.exp = slot0.exp - slot0:getLevelExpConfig().exp_interval
 		slot0.level = slot0.level + 1
 
-		if isAiriJP() then
-			SendAiriJPTracking(AIRIJP_TRACKING_USER_LEVELUP, slot0.id, slot0.level)
-		else
-			BilibiliSdkMgr.inst:levelUp()
+		pg.TrackerMgr.GetInstance():Tracking(TRACKING_USER_LEVELUP, slot0.level)
+
+		if slot0.level == 30 then
+			pg.TrackerMgr.GetInstance():Tracking(TRACKING_USER_LEVEL_THIRTY)
 		end
 	end
 end
@@ -528,7 +528,7 @@ function slot0.updateCommanderBagMax(slot0, slot1)
 end
 
 function slot0.GetDaysFromRegister(slot0)
-	slot1 = pg.TimeMgr:GetInstance():GetServerTime()
+	slot1 = pg.TimeMgr.GetInstance():GetServerTime()
 
 	return math.floor((os.time({
 		hour = 0,

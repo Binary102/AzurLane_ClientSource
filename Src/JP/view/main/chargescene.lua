@@ -209,7 +209,7 @@ function slot0.goPage(slot0, slot1)
 		return
 	end
 
-	if isAiriJP() then
+	if PLATFORM_CODE == PLATFORM_JP then
 		setActive(slot0.userAgreeBtn3, slot1 == slot0.TYPE_DIAMOND)
 		setActive(slot0.userAgreeBtn4, slot1 == slot0.TYPE_DIAMOND)
 	end
@@ -291,9 +291,12 @@ function slot0.initDamondsData(slot0)
 	slot0.damondItemVOs = {}
 
 	for slot5, slot6 in pairs(pg.pay_data_display.all) do
-		table.insert(slot0.damondItemVOs, Goods.New({
-			shop_id = slot6
-		}, Goods.TYPE_CHARGE))
+		if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and pg.SdkMgr.GetInstance():CheckAudit() and slot6 == 1 then
+		else
+			table.insert(slot0.damondItemVOs, Goods.New({
+				shop_id = slot6
+			}, Goods.TYPE_CHARGE))
+		end
 	end
 
 	for slot6, slot7 in pairs(pg.shop_template.all) do
@@ -447,7 +450,7 @@ function slot0.confirm(slot0, slot1)
 			price = slot1.goods:getConfig("resource_num"),
 			tagType = slot1.goods:getConfig("tag"),
 			onYes = function ()
-				pg.MsgboxMgr:GetInstance():ShowMsgBox({
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("charge_scene_buy_confirm", slot0.goods:getConfig("resource_num"), slot1.name),
 					onYes = function ()
 						slot0:revertDetailBlur()
@@ -583,7 +586,7 @@ function slot0.initItems(slot0)
 		table.insert(slot0.cards, slot1)
 		onButton(slot0, slot1.tr, function ()
 			if slot0.goodsVO:isLevelLimit(slot1.player.level) then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("charge_level_limit"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("charge_level_limit"))
 
 				return
 			end
@@ -593,7 +596,7 @@ function slot0.initItems(slot0)
 
 			if slot0.goodsVO:getConfig("effect_args") == "ship_bag_size" then
 				if Player.MAX_SHIP_BAG <= slot1.player.ship_bag_max then
-					pg.TipsMgr:GetInstance():ShowTips(i18n("charge_ship_bag_max"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("charge_ship_bag_max"))
 
 					return
 				end
@@ -606,7 +609,7 @@ function slot0.initItems(slot0)
 			else
 				if slot0 == "equip_bag_size" then
 					if Player.MAX_EQUIP_BAG <= slot1.player.equip_bag_max then
-						pg.TipsMgr:GetInstance():ShowTips(i18n("charge_equip_bag_max"))
+						pg.TipsMgr.GetInstance():ShowTips(i18n("charge_equip_bag_max"))
 
 						return
 					end
@@ -619,7 +622,7 @@ function slot0.initItems(slot0)
 				else
 					if slot0 == "commander_bag_size" then
 						if Player.MAX_COMMANDER_BAG <= slot1.player.commanderBagMax then
-							pg.TipsMgr:GetInstance():ShowTips(i18n("charge_commander_bag_max"))
+							pg.TipsMgr.GetInstance():ShowTips(i18n("charge_commander_bag_max"))
 
 							return
 						end
@@ -1040,7 +1043,7 @@ function slot0.addRefreshTimer(slot0, slot1)
 end
 
 function slot0.addUpdateTimer(slot0, slot1)
-	slot3 = pg.TimeMgr:GetInstance().Table2ServerTime(slot2, slot1)
+	slot3 = pg.TimeMgr.GetInstance().Table2ServerTime(slot2, slot1)
 
 	if slot0.refreshTime and slot2:Table2ServerTime(slot0.refreshTime) < slot3 then
 		return
@@ -1184,19 +1187,15 @@ function slot0.stopCV(slot0)
 end
 
 function slot0.onBackPressed(slot0)
-	if isActive(slot0.birthWin) then
-		setActive(slot0.birthWin, false)
+	if slot0.detail and isActive(slot0.detail) then
+		setActive(slot0.detail, false)
+		slot0:revertDetailBlur()
 	else
-		if slot0.detail and isActive(slot0.detail) then
-			setActive(slot0.detail, false)
-			slot0:revertDetailBlur()
+		if slot0.prePage ~= slot0.TYPE_MENU then
+			slot0:switchToMenu()
 		else
-			if slot0.prePage ~= slot0.TYPE_MENU then
-				slot0:switchToMenu()
-			else
-				playSoundEffect(SFX_CANCEL)
-				slot0:emit(slot0.ON_BACK)
-			end
+			playSoundEffect(SFX_CANCEL)
+			slot0:emit(slot0.ON_BACK)
 		end
 	end
 
@@ -1285,7 +1284,7 @@ function slot0.willExit(slot0)
 end
 
 function slot0.checkSetBirth(slot0)
-	if isAiriJP() and not AiriSdkMgr.AiriSDKInst.IsBirthSet then
+	if PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetIsPlatform() and not pg.SdkMgr.GetInstance():GetIsBirthSet() then
 		setActive(slot0.birthWin, true)
 
 		slot0.birthTxt.text = ""
@@ -1297,6 +1296,10 @@ function slot0.checkSetBirth(slot0)
 end
 
 function slot0.jpUIInit(slot0)
+	if PLATFORM_CODE ~= PLATFORM_JP then
+		return
+	end
+
 	slot0.birthWin = slot0:findTF("blur_panel/birthday_win")
 	slot0.birthTxt = slot0:findTF("window/birthday_input_panel/InputField", slot0.birthWin):GetComponent(typeof(InputField))
 	slot0.birthCancelBtn = slot0:findTF("window/birthday_input_panel/btns/cancel_btn", slot0.birthWin)
@@ -1313,6 +1316,10 @@ function slot0.jpUIInit(slot0)
 end
 
 function slot0.jpUIEnter(slot0)
+	if PLATFORM_CODE ~= PLATFORM_JP then
+		return
+	end
+
 	onButton(slot0, slot0.birthWin, function ()
 		setActive(slot0.birthWin, false)
 
@@ -1337,10 +1344,9 @@ function slot0.jpUIEnter(slot0)
 				title = i18n("set_birth_title"),
 				content = i18n("set_birth_confirm_tip", slot0.birthTxt.text),
 				onYes = function ()
-					pg.UIMgr.GetInstance():LoadingOn()
 					pg.UIMgr.GetInstance():UnblurPanel(slot0.top, slot0.frame)
 					setActive(slot0.birthWin, false)
-					AiriSdkMgr.inst:SetBirth(slot0.birthTxt.text)
+					pg.SdkMgr.GetInstance():SetBirth(slot0.birthTxt.text)
 
 					return
 				end
@@ -1349,29 +1355,26 @@ function slot0.jpUIEnter(slot0)
 
 		return
 	end)
+	onButton(slot0, slot0.userAgreeBtn3, function ()
+		slot0:activeUserAgree(require("ShareCfg.UserAgreement3").content, true)
 
-	if isAiriJP() then
-		onButton(slot0, slot0.userAgreeBtn3, function ()
-			slot0:activeUserAgree(require("ShareCfg.UserAgreement3").content, true)
+		return
+	end, SFX_PANEL)
+	onButton(slot0, slot0.userAgreeBtn4, function ()
+		slot0:activeUserAgree(require("ShareCfg.UserAgreement4").content, true)
 
-			return
-		end, SFX_PANEL)
-		onButton(slot0, slot0.userAgreeBtn4, function ()
-			slot0:activeUserAgree(require("ShareCfg.UserAgreement4").content, true)
+		return
+	end, SFX_PANEL)
+	onButton(slot0, slot0:findTF("frame/agreement"), function ()
+		slot0:activeUserAgree("", false)
 
-			return
-		end, SFX_PANEL)
-		onButton(slot0, slot0:findTF("frame/agreement"), function ()
-			slot0:activeUserAgree("", false)
+		return
+	end, SFX_CANCEL)
+	onButton(slot0, slot0:findTF("frame/agreement/window/top/btnBack"), function ()
+		slot0:activeUserAgree("", false)
 
-			return
-		end, SFX_CANCEL)
-		onButton(slot0, slot0:findTF("frame/agreement/window/top/btnBack"), function ()
-			slot0:activeUserAgree("", false)
-
-			return
-		end, SFX_CANCEL)
-	end
+		return
+	end, SFX_CANCEL)
 
 	return
 end

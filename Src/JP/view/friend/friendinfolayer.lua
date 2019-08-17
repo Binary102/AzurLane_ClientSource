@@ -71,7 +71,7 @@ function slot0.didEnter(slot0)
 				if not table.contains(getProxy(ChatProxy).informs, slot1.friend.id .. slot1.contextData.msg) then
 					slot1:openInfromPanel()
 				else
-					pg.TipsMgr:GetInstance():ShowTips(i18n("chat_msg_inform"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("chat_msg_inform"))
 				end
 			else
 				slot1:emit(FriendInfoMediator[slot1.emit])
@@ -123,13 +123,13 @@ function slot0.initInform(slot0)
 
 	onButton(slot0, slot0.confirmBtn, function ()
 		if not slot0.informInfo then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("inform_select_type"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("inform_select_type"))
 
 			return
 		end
 
 		if not slot0.contextData.msg then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("inform_chat_msg"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("inform_chat_msg"))
 
 			return
 		end

@@ -63,7 +63,7 @@ function slot0.register(slot0)
 		end
 
 		slot0.boxUsageCount = slot0.usage_count or 0
-		slot0._mainUITimer = pg.TimeMgr:GetInstance():AddTimer("CommanderProxy", 0, 10, function ()
+		slot0._mainUITimer = pg.TimeMgr.GetInstance():AddTimer("CommanderProxy", 0, 10, function ()
 			slot0:notification()
 		end)
 	end)
@@ -192,7 +192,7 @@ end
 
 function slot0.onRemove(slot0)
 	if slot0._mainUITimer then
-		pg.TimeMgr:GetInstance():RemoveTimer(slot0._mainUITimer)
+		pg.TimeMgr.GetInstance():RemoveTimer(slot0._mainUITimer)
 	end
 
 	slot0.super.onRemove(slot0)

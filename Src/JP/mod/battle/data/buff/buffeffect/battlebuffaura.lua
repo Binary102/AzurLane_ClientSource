@@ -24,7 +24,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 		slot4 = false
 	end
 
-	slot0._aura = slot0.Battle.BattleDataProxy:GetInstance():SpawnLastingCubeArea(slot1.AOEField.SURFACE, slot1:GetIFF(), Vector3(-55, 0, 55), 180, 70, 0, function (slot0)
+	slot0._aura = slot0.Battle.BattleDataProxy.GetInstance():SpawnLastingCubeArea(slot1.AOEField.SURFACE, slot1:GetIFF(), Vector3(-55, 0, 55), 180, 70, 0, function (slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			if slot5.Active then
 				for slot10, slot11 in ipairs(slot6) do

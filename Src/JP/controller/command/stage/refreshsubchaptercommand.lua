@@ -11,7 +11,7 @@ class("RefreshSubChapterCommand", pm.SimpleCommand).execute = function (slot0, s
 				index = slot0.chapter_id.index
 			}))
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("error_refresh_sub_chapter"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("error_refresh_sub_chapter"))
 		end
 	end)
 end

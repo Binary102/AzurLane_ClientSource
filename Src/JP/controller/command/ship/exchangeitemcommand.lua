@@ -3,7 +3,7 @@ class("ExchangeItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot11 = getProxy(PlayerProxy):getData()
 
 	if getProxy(BagProxy).getItemById(slot8, ITEM_ID_SILVER_HOOK) == nil or slot9.count < slot7 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("word_materal_no_enough"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("word_materal_no_enough"))
 
 		return
 	end
@@ -22,10 +22,10 @@ class("ExchangeItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				count = slot3.itemquantity
 			}))
 			slot4:updateExchangeItem(slot5)
-			pg.TipsMgr:GetInstance():ShowTips(i18n("exchange_item_success"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("exchange_item_success"))
 			pg.TipsMgr.GetInstance():sendNotification(GAME.EXCHANGE_ITEM_DONE)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("ship_exchange_erro", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_exchange_erro", slot0.result))
 		end
 	end)
 end

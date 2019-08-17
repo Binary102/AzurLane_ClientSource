@@ -9,7 +9,7 @@ class("ActivityBossPageUpdateCommond", pm.SimpleCommand).execute = function (slo
 
 			getProxy(ActivityProxy):updateActivity(slot0)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 		end
 	end)
 end

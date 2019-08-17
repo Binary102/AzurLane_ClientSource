@@ -3322,7 +3322,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10015,
 		resource_num = 800,
-		order = 4
+		order = 2
 	},
 	[10016] = {
 		commodity_id = 600,
@@ -3334,7 +3334,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10016,
 		resource_num = 800,
-		order = 3
+		order = 2
 	},
 	[10017] = {
 		commodity_id = 620,
@@ -3346,7 +3346,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10017,
 		resource_num = 800,
-		order = 3
+		order = 2
 	},
 	[10018] = {
 		commodity_id = 28060,
@@ -3466,7 +3466,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10028,
 		resource_num = 500,
-		order = 1
+		order = 3
 	},
 	[10029] = {
 		commodity_id = 680,
@@ -3478,7 +3478,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10029,
 		resource_num = 500,
-		order = 1
+		order = 3
 	},
 	[10030] = {
 		commodity_id = 700,
@@ -3490,7 +3490,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10030,
 		resource_num = 500,
-		order = 1
+		order = 3
 	},
 	[10031] = {
 		commodity_id = 39300,
@@ -3502,7 +3502,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10031,
 		resource_num = 500,
-		order = 1
+		order = 3
 	},
 	[10032] = {
 		commodity_id = 201271,
@@ -3526,7 +3526,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10033,
 		resource_num = 1000,
-		order = 0
+		order = 1
 	},
 	[10034] = {
 		commodity_id = 17060,
@@ -3538,7 +3538,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10034,
 		resource_num = 800,
-		order = 0
+		order = 2
 	},
 	[10035] = {
 		commodity_id = 29300,
@@ -3550,6 +3550,18 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10035,
 		resource_num = 800,
+		order = 2
+	},
+	[10036] = {
+		commodity_id = 404011,
+		resource_category = 2,
+		activity = 0,
+		num = 1,
+		num_limit = 1,
+		commodity_type = 4,
+		resource_type = 59900,
+		id = 10036,
+		resource_num = 1200,
 		order = 0
 	},
 	all = {
@@ -3848,7 +3860,8 @@ pg.activity_shop_template = {
 		10032,
 		10033,
 		10034,
-		10035
+		10035,
+		10036
 	}
 }
 

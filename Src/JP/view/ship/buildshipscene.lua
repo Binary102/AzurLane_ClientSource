@@ -224,7 +224,7 @@ function slot0.init(slot0)
 end
 
 function slot0.didEnter(slot0)
-	pg.UIMgr:GetInstance():OverlayPanel(slot0.blurPanel, {
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
 		groupName = LayerWeightConst.GROUP_BUILDSHIPSCENE
 	})
 	onButton(slot0, slot0.quickCount, function ()

@@ -6,13 +6,13 @@ class("EquipCommanderToFleetCommande", pm.SimpleCommand).execute = function (slo
 	slot7 = nil
 
 	if slot2.commanderId ~= 0 and not getProxy(CommanderProxy):getCommanderById(slot3) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("commander_not_exist"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("commander_not_exist"))
 
 		return
 	end
 
 	if not getProxy(FleetProxy):getFleetById(slot5) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("commander_fleet_not_exist"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("commander_fleet_not_exist"))
 
 		return
 	end
@@ -40,7 +40,7 @@ class("EquipCommanderToFleetCommande", pm.SimpleCommand).execute = function (slo
 
 			slot5:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET_DONE)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_equip_to_fleet_erro", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_equip_to_fleet_erro", slot0.result))
 		end
 	end)
 end

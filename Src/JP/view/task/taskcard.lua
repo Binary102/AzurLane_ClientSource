@@ -113,7 +113,7 @@ function slot0.updateBtnState(slot0, slot1)
 			function slot3()
 				function slot0.choice.onYes()
 					if not slot0.index then
-						pg.TipsMgr:GetInstance():ShowTips("未选择奖励,放弃领取")
+						pg.TipsMgr.GetInstance():ShowTips("未选择奖励,放弃领取")
 
 						return
 					end
@@ -127,7 +127,7 @@ function slot0.updateBtnState(slot0, slot1)
 					return
 				end
 
-				pg.MsgboxMgr:GetInstance():ShowMsgBox(slot0.choice)
+				pg.MsgboxMgr.GetInstance():ShowMsgBox(slot0.choice)
 
 				return
 			end
@@ -147,7 +147,7 @@ function slot0.updateBtnState(slot0, slot1)
 					return
 				end
 
-				pg.MsgboxMgr:GetInstance():ShowMsgBox(slot0.sub)
+				pg.MsgboxMgr.GetInstance():ShowMsgBox(slot0.sub)
 
 				return
 			end
@@ -159,7 +159,7 @@ function slot0.updateBtnState(slot0, slot1)
 					return
 				end
 
-				pg.MsgboxMgr:GetInstance():ShowMsgBox(slot0.overFlow)
+				pg.MsgboxMgr.GetInstance():ShowMsgBox(slot0.overFlow)
 
 				return
 			end:getConfirmSetting().sub then

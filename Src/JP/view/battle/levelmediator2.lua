@@ -187,7 +187,7 @@ function slot0.register(slot0)
 		if getProxy(ActivityProxy):getMilitaryExerciseActivity() then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.MILITARYEXERCISE)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_notStartOrEnd"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_notStartOrEnd"))
 		end
 	end)
 	slot0:bind(slot0.CLICK_CHALLENGE_BTN, function (slot0)
@@ -328,7 +328,7 @@ function slot0.register(slot0)
 		slot3 = slot1 and getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot1].on_activity)
 
 		if not slot3 or slot3:isEnd() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
 		end
@@ -447,7 +447,7 @@ function slot0.register(slot0)
 		PlayerPrefs.Save()
 	end)
 	slot0:bind(slot0.ON_STRATEGYING_CHAPTER, function (slot0)
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			yesText = "text_forward",
 			content = i18n("levelScene_chapter_is_activation", string.split(getProxy(ChapterProxy):getActiveChapter().getConfig(slot1, "chapter_name"), "|")[1]),
 			onYes = function ()
@@ -955,22 +955,6 @@ function slot0.OnExitChapter(slot0, slot1)
 			slot0()
 		end,
 		function (slot0)
-			if slot0:getDefeatStory(slot0.defeatCount) and type(slot2) == "number" and not pg.StoryMgr.GetInstance():IsPlayed(slot2) then
-				pg.m02:sendNotification(GAME.STORY_UPDATE, {
-					storyId = slot2
-				})
-				slot1.viewComponent:emit(LevelMediator2.ON_PERFORM_COMBAT, slot2, slot0)
-
-				return
-			elseif slot2 and type(slot2) == "string" then
-				pg.StoryMgr.GetInstance():Play(slot2, slot0)
-
-				return
-			end
-
-			slot0()
-		end,
-		function (slot0)
 			if Map.IsType(slot0:getConfig("map"), Map.SKIRMISH) then
 				slot1 = slot0.id
 
@@ -997,7 +981,7 @@ end
 function slot0.OnEventUpdate(slot0)
 	slot0.viewComponent:updateEvent(slot1)
 
-	slot2, slot3 = pg.SystemOpenMgr:GetInstance():isOpenSystem(slot0.player.level, "EventMediator")
+	slot2, slot3 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "EventMediator")
 
 	if slot2 and slot1.eventForMsg then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -1029,7 +1013,7 @@ function slot0.onTimeUp(slot0)
 			})
 		else
 			slot3()
-			pg.TipsMgr:GetInstance():ShowTips(i18n("levelScene_chapter_timeout"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_chapter_timeout"))
 		end
 	end
 end

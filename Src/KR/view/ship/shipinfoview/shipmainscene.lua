@@ -1188,7 +1188,7 @@ function slot0.paintView(slot0)
 		slot3 = slot3 + 1
 	end
 
-	for slot8 = 1, tf(pg.UIMgr:GetInstance().OverlayMain).childCount, 1 do
+	for slot8 = 1, tf(pg.UIMgr.GetInstance().OverlayMain).childCount, 1 do
 		if slot4:GetChild(slot8 - 1).gameObject.activeSelf then
 			slot1[#slot1 + 1] = slot9
 

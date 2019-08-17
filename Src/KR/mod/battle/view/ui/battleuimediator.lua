@@ -20,7 +20,7 @@ function slot6.Initialize(slot0)
 	slot0.super.Initialize(slot0)
 
 	slot0._dataProxy = slot0._state:GetProxyByName(slot1.Battle.BattleDataProxy.__name)
-	slot0._uiMGR = pg.UIMgr:GetInstance()
+	slot0._uiMGR = pg.UIMgr.GetInstance()
 
 	slot0:SetBattleUI()
 	slot0:AddUIEvent()
@@ -188,7 +188,7 @@ end
 function slot6.InitCameraGestureSlider(slot0)
 	slot0._gesture = slot0.Battle.BattleCameraSlider.New(slot0._ui:findTF("CameraController"))
 
-	slot0.Battle.BattleCameraUtil:GetInstance():SetCameraSilder(slot0._gesture)
+	slot0.Battle.BattleCameraUtil.GetInstance():SetCameraSilder(slot0._gesture)
 	slot0._cameraUtil:SwitchCameraPos("FOLLOW_GESTURE")
 end
 
@@ -199,7 +199,7 @@ end
 function slot6.InitCamera(slot0)
 	slot0._camera = GameObject.Find("MainCamera"):GetComponent(typeof(Camera))
 	slot0._uiCamera = GameObject.Find("UICamera"):GetComponent(typeof(Camera))
-	slot0._cameraUtil = slot0.Battle.BattleCameraUtil:GetInstance()
+	slot0._cameraUtil = slot0.Battle.BattleCameraUtil.GetInstance()
 
 	slot0._cameraUtil:RegisterEventListener(slot0, slot1.CAMERA_FOCUS, slot0.onCameraFocus)
 	slot0._cameraUtil:RegisterEventListener(slot0, slot1.SHOW_PAINTING, slot0.onShowPainting)

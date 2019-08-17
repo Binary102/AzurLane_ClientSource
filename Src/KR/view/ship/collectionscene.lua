@@ -307,6 +307,10 @@ function slot0.initIndexPanel(slot0)
 end
 
 function slot0.onInitCard(slot0, slot1)
+	if slot0.exited then
+		return
+	end
+
 	onButton(slot0, CollectionShipCard.New(slot1).go, function ()
 		if slot0.state == ShipGroup.STATE_UNLOCK then
 			LeanTween.delayedCall(0.2, System.Action(function ()
@@ -355,7 +359,7 @@ function slot0.showSkipableMsgBox(slot0, slot1, slot2)
 			if slot5[1] ~= "" then
 				onButton(slot1, slot2:Find("skip_btn"), function ()
 					if slot0 and slot0 ~= 0 and (not getProxy(ActivityProxy):getActivityById(getProxy(ActivityProxy).getActivityById) or slot0:isEnd()) then
-						pg.TipsMgr:GetInstance():ShowTips(i18n("collection_way_is_unopen"))
+						pg.TipsMgr.GetInstance():ShowTips(i18n("collection_way_is_unopen"))
 
 						return
 					end
@@ -384,8 +388,8 @@ function slot0.showSkipableMsgBox(slot0, slot1, slot2)
 
 						triggerToggle(slot2.toggles[2], true)
 						triggerToggle:closeSkipableMsgBox()
-					elseif slot1[1] == "SHOP" and slot1[2].warp == "supplies" and not pg.SystemOpenMgr:GetInstance():isOpenSystem(slot2.player.level, "MilitaryExerciseMediator") then
-						pg.TipsMgr:GetInstance():ShowTips(i18n("military_shop_no_open_tip"))
+					elseif slot1[1] == "SHOP" and slot1[2].warp == "supplies" and not pg.SystemOpenMgr.GetInstance():isOpenSystem(slot2.player.level, "MilitaryExerciseMediator") then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("military_shop_no_open_tip"))
 					else
 						slot2.contextData.cardScrollValue = slot2.cardList.value
 
@@ -409,6 +413,10 @@ function slot0.closeSkipableMsgBox(slot0)
 end
 
 function slot0.onUpdateCard(slot0, slot1, slot2)
+	if slot0.exited then
+		return
+	end
+
 	if not slot0.cardItems[slot2] then
 		slot0:onInitCard(slot2)
 
@@ -587,17 +595,21 @@ function slot0.initDisplayPanel(slot0)
 end
 
 function slot0.initFavoriteCard(slot0, slot1)
+	if slot0.exited then
+		return
+	end
+
 	slot2 = FavoriteCard.New(slot1, slot0.charTpl)
 
 	onButton(slot0, slot2.awardTF, function ()
 		if slot0.state == Favorite.STATE_AWARD then
 			slot1:emit(slot2.GET_AWARD, slot0.favoriteVO.id, slot0.favoriteVO:getNextAwardIndex(slot0.awards))
 		elseif slot0.state == Favorite.STATE_LOCK then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("collection_lock"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("collection_lock"))
 		elseif slot0.state == Favorite.STATE_FETCHED then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("collection_fetched"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("collection_fetched"))
 		elseif slot0.state == Favorite.STATE_STATE_WAIT then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("collection_nostar"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("collection_nostar"))
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot2.box, function ()
@@ -608,6 +620,10 @@ function slot0.initFavoriteCard(slot0, slot1)
 end
 
 function slot0.updateFavoriteCard(slot0, slot1, slot2)
+	if slot0.exited then
+		return
+	end
+
 	if not slot0.favoriteCards[slot2] then
 		slot0:initFavoriteCard(slot2)
 
@@ -657,7 +673,7 @@ function slot0.openBonus(slot0, slot1)
 						count = slot0[3]
 					})
 				elseif slot0[1] == DROP_TYPE_SHIP then
-					pg.MsgboxMgr:GetInstance():ShowMsgBox({
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						hideNo = true,
 						type = MSGBOX_TYPE_SINGLE_ITEM,
 						drop = {
@@ -734,6 +750,10 @@ function slot0.initMemoryPanel(slot0)
 end
 
 function slot0.onInitMemory(slot0, slot1)
+	if slot0.exited then
+		return
+	end
+
 	onButton(slot0, MemoryCard.New(slot1).go, function ()
 		if slot0.info then
 			if slot0.isGroup then
@@ -748,6 +768,10 @@ function slot0.onInitMemory(slot0, slot1)
 end
 
 function slot0.onUpdateMemory(slot0, slot1, slot2)
+	if slot0.exited then
+		return
+	end
+
 	if not slot0.memoryItems[slot2] then
 		slot0:onInitMemory(slot2)
 

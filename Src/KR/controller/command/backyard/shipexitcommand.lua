@@ -3,7 +3,7 @@ class("ShipExitCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot7 = slot1:getBody().callback
 
 	if not getProxy(DormProxy):getShipById(slot1.getBody().shipId) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_no_ship_tip"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_no_ship_tip"))
 
 		return
 	end
@@ -28,7 +28,7 @@ class("ShipExitCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 			slot0.updateState:sendNotification(GAME.EXIT_SHIP_DONE, slot0)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("backyard_shipExit", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("backyard_shipExit", slot0.result))
 		end
 
 		if slot5 ~= nil then

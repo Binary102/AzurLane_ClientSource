@@ -73,7 +73,7 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:setProjectList(getProxy(BuildShipProxy):getData())
 		slot0.viewComponent:initProjectList()
 	elseif slot2 == GAME.BUILD_SHIP_IMMEDIATELY_DONE then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("word_speedUp") .. i18n("word_succeed"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("word_speedUp") .. i18n("word_succeed"))
 	elseif slot2 == BuildShipProxy.UPDATED then
 		slot0.viewComponent:updateProject(slot3.index, slot3.buildShip)
 	elseif slot2 == PlayerProxy.UPDATED then

@@ -27,7 +27,7 @@ class("SetComanderPrefabFleetCommand", pm.SimpleCommand).execute = function (slo
 			slot0:updatePrefabFleet(slot1)
 			slot0:sendNotification(GAME.SET_COMMANDER_PREFAB_DONE)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(ERROR_MESSAGE[slot0.result])
+			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result])
 		end
 	end)
 end

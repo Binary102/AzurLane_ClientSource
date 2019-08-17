@@ -281,7 +281,7 @@ function slot0.updateMaxLevel(slot0, slot1)
 
 		onButton(slot0, slot0.levelBg, function ()
 			if slot0:isActivityNpc() then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("npc_upgrade_max_level"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("npc_upgrade_max_level"))
 
 				return
 			end
@@ -297,7 +297,7 @@ function slot0.updateMaxLevel(slot0, slot1)
 						slot1:emit(ShipViewConst.HIDE_CUSTOM_MSG)
 						slot1:emit(ShipMainMediator.ON_UPGRADE_MAX_LEVEL, slot0.id)
 					else
-						pg.TipsMgr:GetInstance():ShowTips(slot1)
+						pg.TipsMgr.GetInstance():ShowTips(slot1)
 					end
 				end
 			})

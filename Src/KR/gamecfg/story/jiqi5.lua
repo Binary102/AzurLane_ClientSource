@@ -570,7 +570,7 @@ return {
 			},
 			options = {
 				{
-					content = "摸摸头",
+					content = "머리를 쓰다듬는다",
 					flag = 1
 				}
 			}

@@ -13,7 +13,7 @@ function slot0.preload(slot0, slot1)
 	PoolMgr.GetInstance():GetUI("BackYardUI", true, function (slot0)
 		slot0.backyardui = slot0.transform
 
-		slot0.backyardui:SetParent(pg.UIMgr:GetInstance().UIMain.transform, false)
+		slot0.backyardui:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
 		setActive(slot0.backyardui, false)
 
 		slot0.loading = slot0.backyardui:Find("loading")

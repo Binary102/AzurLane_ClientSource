@@ -18,6 +18,7 @@ slot0.MEMORYBOOK = "memory book"
 slot0.RETURN_AWARD_OP = "event return award op"
 slot0.SHOW_AWARD_WINDOW = "event show award window"
 slot0.GO_DODGEM = "event go dodgem"
+slot0.SPECIAL_BATTLE_OPERA = "special battle opera"
 slot0.GO_PRAY_POOL = "go pray pool"
 slot0.SELECT_ACTIVITY = "event select activity"
 slot0.SHOW_NEXT_ACTIVITY = "show next activity"
@@ -64,7 +65,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.BLACKWHITEGRID, function ()
 		if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BLACKWHITE) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
 		end
@@ -76,7 +77,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.MEMORYBOOK, function ()
 		if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
 		end
@@ -100,7 +101,25 @@ function slot0.register(slot0)
 		slot2 = slot0 and getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot0].on_activity)
 
 		if not slot2 or slot2:isEnd() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+			return
+		end
+
+		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
+			chapterId = slot1,
+			mapIdx = slot0
+		})
+	end)
+	slot0:bind(slot0.SPECIAL_BATTLE_OPERA, function ()
+		slot0, slot1 = getProxy(ChapterProxy):getLastMapForActivity()
+		slot2 = slot0 and getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot0].on_activity)
+
+		if not slot2 or slot2:isEnd() then
+			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
+				chapterId = getProxy(ChapterProxy).getActiveChapter(slot3) and slot4.id,
+				mapIdx = slot4 and slot4:getConfig("map")
+			})
 
 			return
 		end

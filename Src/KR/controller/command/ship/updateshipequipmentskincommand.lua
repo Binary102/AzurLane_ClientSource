@@ -5,13 +5,13 @@ class("UpdateShipEquipmentSkinCommand", pm.SimpleCommand).execute = function (sl
 	slot6 = getProxy(EquipmentProxy)
 
 	if slot2.equipmentSkinId ~= 0 and (not slot6:getEquipmnentSkinById(slot5) or slot7.count == 0) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("equipment_skin_count_noenough"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_count_noenough"))
 
 		return
 	end
 
 	if not getProxy(BayProxy):getShipById(slot3) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("equipment_skin_no_new_ship"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_no_new_ship"))
 
 		return
 	end
@@ -31,17 +31,17 @@ class("UpdateShipEquipmentSkinCommand", pm.SimpleCommand).execute = function (sl
 				end
 
 				slot4:useageEquipmnentSkin(slot4.useageEquipmnentSkin)
-				pg.TipsMgr:GetInstance():ShowTips(i18n("equipment_skin_replace_done"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_replace_done"))
 			else
 				slot4:addEquipmentSkin(slot1, 1)
-				pg.TipsMgr:GetInstance():ShowTips(i18n("equipment_skin_unload"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_unload"))
 			end
 
 			slot5:sendNotification(GAME.EQUIP_EQUIPMENTSKIN_TO_SHIP_DONE, {
 				ship = slot0
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 		end
 	end)
 end

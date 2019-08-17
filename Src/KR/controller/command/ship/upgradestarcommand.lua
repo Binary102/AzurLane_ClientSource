@@ -28,7 +28,7 @@ class("UpgradeStarCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 	for slot15, slot16 in ipairs(slot4) do
 		if not slot5:getShipById(slot16) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("ship_error_noShip", slot16))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_error_noShip", slot16))
 
 			return
 		end
@@ -53,7 +53,7 @@ class("UpgradeStarCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 							slot11.skinId = 0
 
-							pg.TipsMgr:GetInstance():ShowTips(i18n("equipment_skin_unload"))
+							pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_unload"))
 						end
 
 						slot1:addEquipment(slot11)
@@ -105,7 +105,7 @@ class("UpgradeStarCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				oldShip = slot3
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("ship_upgradeStar_error", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_upgradeStar_error", slot0.result))
 		end
 	end)
 end

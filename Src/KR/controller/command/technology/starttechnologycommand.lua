@@ -12,7 +12,7 @@ class("StartTechnologyCommand", pm.SimpleCommand).execute = function (slot0, slo
 	slot7, slot8 = slot6:hasResToStart()
 
 	if not slot7 then
-		pg.TipsMgr:GetInstance():ShowTips(slot8)
+		pg.TipsMgr.GetInstance():ShowTips(slot8)
 
 		return
 	end
@@ -35,9 +35,9 @@ class("StartTechnologyCommand", pm.SimpleCommand).execute = function (slot0, slo
 			slot1:sendNotification(GAME.START_TECHNOLOGY_DONE, {
 				technologyId = slot0.id
 			})
-			pg.TipsMgr:GetInstance():ShowTips(i18n("technology_start_up"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("technology_start_up"))
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("technology_start_erro") .. slot0.result)
+			pg.TipsMgr.GetInstance():ShowTips(i18n("technology_start_erro") .. slot0.result)
 		end
 	end)
 end

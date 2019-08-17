@@ -131,7 +131,7 @@ function slot0.setShip(slot0, slot1)
 		LoadImageSpriteAsync("clutter/new", slot0.newTF)
 
 		if OPEN_TEC_TREE_SYSTEM and table.indexof(pg.fleet_tech_ship_template.all, slot0._shipVO.groupId, 1) then
-			pg.ToastMgr:GetInstance():ShowToast(pg.ToastMgr.TYPE_TECPOINT, {
+			pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_TECPOINT, {
 				point = pg.fleet_tech_ship_template[slot0._shipVO.groupId].pt_get,
 				typeList = pg.fleet_tech_ship_template[slot0._shipVO.groupId].add_get_shiptype,
 				attr = pg.fleet_tech_ship_template[slot0._shipVO.groupId].add_get_attr,
@@ -624,7 +624,7 @@ function slot0.willExit(slot0)
 	end
 
 	if not slot0.isRemoulded then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("ship_newShipLayer_get", pg.ship_data_by_type[slot0._shipVO:getShipType()].type_name, slot0._shipVO:getName()), COLOR_GREEN)
+		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_newShipLayer_get", pg.ship_data_by_type[slot0._shipVO:getShipType()].type_name, slot0._shipVO:getName()), COLOR_GREEN)
 	end
 
 	slot0:recyclePainting()

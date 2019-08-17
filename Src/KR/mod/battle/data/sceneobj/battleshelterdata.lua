@@ -18,7 +18,7 @@ function ys.Battle.BattleShelterData.SetArgs(slot0, slot1, slot2, slot3, slot4, 
 	slot0._count = slot1
 	slot0._effect = slot5
 	slot0._doWhenHit = "intercept"
-	slot0._wall = slot0.Battle.BattleDataProxy:GetInstance():SpawnWall(slot0, function (slot0)
+	slot0._wall = slot0.Battle.BattleDataProxy.GetInstance():SpawnWall(slot0, function (slot0)
 		if slot0:GetType() == slot0._bulletType and slot0:IsWallActive() then
 			slot0:DoWhenHit(slot0)
 		end
@@ -45,7 +45,7 @@ end
 function ys.Battle.BattleShelterData.DoWhenHit(slot0, slot1)
 	if slot0._doWhenHit == "intercept" then
 		slot1:Intercepted()
-		slot0.Battle.BattleDataProxy:GetInstance():RemoveBulletUnit(slot1:GetUniqueID())
+		slot0.Battle.BattleDataProxy.GetInstance():RemoveBulletUnit(slot1:GetUniqueID())
 
 		slot0._count = slot0._count - 1
 	elseif slot0._doWhenHit == "reflect" and slot0:GetIFF() ~= slot1:GetIFF() then
@@ -72,7 +72,7 @@ function ys.Battle.BattleShelterData.GetPosition(slot0)
 end
 
 function ys.Battle.BattleShelterData.Deactive(slot0)
-	slot0.Battle.BattleDataProxy:GetInstance():RemoveWall(slot0._wall:GetUniqueID())
+	slot0.Battle.BattleDataProxy.GetInstance():RemoveWall(slot0._wall:GetUniqueID())
 end
 
 function ys.Battle.BattleShelterData.IsWallActive(slot0)

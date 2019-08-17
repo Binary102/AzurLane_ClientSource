@@ -110,7 +110,7 @@ end
 function slot7.SetMotionSource(slot0, slot1)
 	if slot1 == nil then
 		function slot0._motionSourceFunc()
-			return pg.UIMgr:GetInstance().hrz, pg.UIMgr.GetInstance().vtc
+			return pg.UIMgr.GetInstance().hrz, pg.UIMgr.GetInstance().vtc
 		end
 	else
 		slot0._motionSourceFunc = slot1

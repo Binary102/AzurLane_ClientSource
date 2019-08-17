@@ -154,7 +154,7 @@ end
 function slot0.willExit(slot0)
 	if slot0.contextData.parent then
 	else
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr:GetInstance().UIMain)
+		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
 	end
 
 	if slot0.circle.childCount > 0 then

@@ -61,7 +61,7 @@ function pg.ConnectionMgr.Reconnect(slot0, slot1)
 		slot0 = getProxy(UserProxy)
 		slot1 = slot0:getData()
 
-		if slot0.SDKMgr:GetInstance():GetChannelUID() == "" then
+		if slot0.SdkMgr.GetInstance():GetChannelUID() == "" then
 			slot2 = PLATFORM_LOCAL
 		end
 
@@ -85,7 +85,7 @@ function pg.ConnectionMgr.Reconnect(slot0, slot1)
 			server_ticket = slot1.token,
 			serverid = slot1.server,
 			check_key = HashUtil.CalcMD5(slot1.token .. AABBUDUD),
-			device_id = getDeviceId()
+			device_id = slot0.SdkMgr.GetInstance():GetDeviceId()
 		}, 10023, function (slot0)
 			if slot0.result == 0 then
 				print("reconnect success: " .. slot0.user_id, " - ", slot0.server_ticket)
@@ -112,8 +112,8 @@ function pg.ConnectionMgr.Reconnect(slot0, slot1)
 
 				slot3 = nil
 
-				slot6.SecondaryPWDMgr:GetInstance():FetchData()
-				slot6.GuideMgr:GetInstance():onReconneceted()
+				slot6.SecondaryPWDMgr.GetInstance():FetchData()
+				slot6.GuideMgr.GetInstance():onReconneceted()
 			else
 				print("reconnect failed: " .. slot0.result)
 				slot6.m02:sendNotification(GAME.LOGOUT, {
@@ -205,7 +205,7 @@ function pg.ConnectionMgr.onError(slot0)
 				onNo = slot1,
 				weight = LayerWeightConst.TOP_LAYER
 			})
-			slot0.GuideMgr:GetInstance():onDisconnected()
+			slot0.GuideMgr.GetInstance():onDisconnected()
 		end
 	else
 		slot1()

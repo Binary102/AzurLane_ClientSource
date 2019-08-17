@@ -23,7 +23,7 @@ class("RevertEquipmentCommand", pm.SimpleCommand).execute = function (slot0, slo
 				awards = slot6
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("equipment_destroyEquipments", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("equipment_destroyEquipments", slot0.result))
 		end
 	end)
 end

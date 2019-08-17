@@ -10,7 +10,7 @@ class("UseItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end
 
 	if slot7.count < slot4 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_item_1"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
 
 		return
 	end
@@ -93,7 +93,7 @@ class("UseItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				slot5({})
 			end
 
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 		end
 	end)
 end

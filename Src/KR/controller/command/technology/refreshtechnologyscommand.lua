@@ -23,9 +23,9 @@ class("RefreshTechnologysCommand", pm.SimpleCommand).execute = function (slot0, 
 			_.each:updateTechnologys(slot0)
 			_.each.updateTechnologys:updateRefreshFlag(1)
 			_.each.updateTechnologys:sendNotification(GAME.REFRESH_TECHNOLOGYS_DONE)
-			pg.TipsMgr:GetInstance():ShowTips(i18n("technology_refresh_sucess"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("technology_refresh_sucess"))
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("technology_refresh_erro") .. slot0.result)
+			pg.TipsMgr.GetInstance():ShowTips(i18n("technology_refresh_erro") .. slot0.result)
 		end
 	end)
 end

@@ -30,8 +30,8 @@ function slot0.init(slot0)
 	slot0._rightBottomPanel = slot0:findTF("dodgem_confirm", slot0._main)
 	slot0._exitBtn = slot0:findTF("confirm_btn", slot0._rightBottomPanel)
 	slot0._skipBtn = slot0:findTF("skipLayer", slot0._tf)
-	slot0.UIMain = pg.UIMgr:GetInstance().UIMain
-	slot0.overlay = pg.UIMgr:GetInstance().OverlayMain
+	slot0.UIMain = pg.UIMgr.GetInstance().UIMain
+	slot0.overlay = pg.UIMgr.GetInstance().OverlayMain
 	slot1 = {
 		"d",
 		"c",

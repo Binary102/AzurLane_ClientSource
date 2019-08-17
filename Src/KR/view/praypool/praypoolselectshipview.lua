@@ -76,7 +76,7 @@ function slot0.initUI(slot0)
 		slot0.prayProxy.updatePageState:emit(PrayPoolConst.SWITCH_TO_SELECT_POOL_PAGE, PrayProxy.STATE_SELECT_POOL)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.nextBtn, function ()
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("warning_pray_build_pool"),
 			onYes = function ()
 				slot0:emit(PrayPoolConst.CLICK_BUILD_BTN, {
@@ -235,7 +235,7 @@ function slot0.updateShipList(slot0, slot1)
 					SetActive(slot0.selectedCount - 1, false)
 					SetActive:updateSelectedShipList()
 				else
-					pg.TipsMgr:GetInstance():ShowTips(i18n("error_pray_select_ship_max"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("error_pray_select_ship_max"))
 				end
 			end
 		end, SFX_PANEL)

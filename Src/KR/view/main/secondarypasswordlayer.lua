@@ -401,7 +401,7 @@ function slot0.SetInputXian(slot0, slot1)
 end
 
 function slot0.willExit(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr:GetInstance().UIMain)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
 	slot0:ClearAllTimers()
 end
 

@@ -16,7 +16,7 @@ function slot0.OnInit(slot0)
 
 			PlayerPrefs.SetInt("chapter_skip_battle", chapter_skip_battle)
 			PlayerPrefs.Save()
-			pg.TipsMgr:GetInstance():ShowTips((chapter_skip_battle == 1 and "已开启战斗跳略") or "已关闭战斗跳略")
+			pg.TipsMgr.GetInstance():ShowTips((chapter_skip_battle == 1 and "已开启战斗跳略") or "已关闭战斗跳略")
 		end
 	end
 
@@ -149,7 +149,7 @@ function slot0.AddListener(slot0)
 					id = slot0.fleets[slot2].id
 				})
 			else
-				pg.TipsMgr:GetInstance():ShowTips(i18n("formation_switch_failed"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("formation_switch_failed"))
 			end
 		elseif slot1 == ChapterConst.TypeGuild then
 			slot0:emit(LevelMediator2.ON_OPEN_GUILD_PRE_COMABT)
@@ -203,7 +203,7 @@ function slot0.AddListener(slot0)
 		slot1 = slot0.contextData.chapterVO.getDataType(slot0)
 
 		if not slot0.contextData.chapterVO:inWartime() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("levelScene_time_out"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_time_out"))
 
 			return
 		end
@@ -267,11 +267,11 @@ function slot0.AddListener(slot0)
 					id = slot2.id
 				})
 			else
-				pg.TipsMgr:GetInstance():ShowTips(i18n("level_ammo_enough"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("level_ammo_enough"))
 			end
 		elseif slot4.attachment == ChapterConst.AttachStory then
 			slot5 = true
-			slot6 = pg.StoryMgr:GetInstance():GetStoryByName("index")
+			slot6 = pg.StoryMgr.GetInstance():GetStoryByName("index")
 			slot8 = pg.map_event_template[slot4.attachmentId].gametip
 
 			if pg.map_event_template[slot4.attachmentId].memory == 0 then
@@ -283,8 +283,8 @@ function slot0.AddListener(slot0)
 			}, 11018, function (slot0)
 				return
 			end)
-			pg.StoryMgr:GetInstance():Play(slot6[slot7], function ()
-				slot1 = (pg.StoryMgr:GetInstance():getSelectedOptions() and (slot0[1] or 1)) or 1
+			pg.StoryMgr.GetInstance():Play(slot6[slot7], function ()
+				slot1 = (pg.StoryMgr.GetInstance():getSelectedOptions() and (slot0[1] or 1)) or 1
 
 				if slot0.flag == 0 then
 					slot1:emit(LevelMediator2.ON_OP, {
@@ -303,7 +303,7 @@ function slot0.AddListener(slot0)
 						end
 					end
 
-					pg.TipsMgr:GetInstance():ShowTips(i18n(pg.TipsMgr.GetInstance().ShowTips, slot2))
+					pg.TipsMgr.GetInstance():ShowTips(i18n(pg.TipsMgr.GetInstance().ShowTips, slot2))
 				end
 			end)
 		elseif slot4.attachment == ChapterConst.AttachRival then
@@ -334,7 +334,7 @@ function slot0.AddListener(slot0)
 					type = ChapterConst.OpEnemyRound
 				})
 			else
-				pg.TipsMgr:GetInstance():ShowTips(i18n("level_click_to_move"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("level_click_to_move"))
 			end
 		end
 	end, SFX_PANEL)
@@ -531,7 +531,7 @@ function slot0.updateStageInfo(slot0)
 				return
 			end
 
-			setWidgetText(slot1:getRemainTime(), pg.TimeMgr:GetInstance():DescCDTime(slot1.getRemainTime()))
+			setWidgetText(slot1:getRemainTime(), pg.TimeMgr.GetInstance():DescCDTime(slot1.getRemainTime()))
 		end, 1, -1)
 
 		slot0.stageTimer:Start()
@@ -1334,9 +1334,9 @@ function slot0.clickGridCell(slot0, slot1)
 						})
 					else
 						if slot9 < PathFinding.PrioForbidden then
-							pg.TipsMgr:GetInstance():ShowTips(i18n("destination_can_not_reach"))
+							pg.TipsMgr.GetInstance():ShowTips(i18n("destination_can_not_reach"))
 						else
-							pg.TipsMgr:GetInstance():ShowTips(i18n("destination_can_not_reach"))
+							pg.TipsMgr.GetInstance():ShowTips(i18n("destination_can_not_reach"))
 						end
 					end
 				end
@@ -1880,10 +1880,10 @@ function slot0.tryPlayChapterStory(slot0)
 	end
 
 	if slot1:getPlayType() == ChapterConst.TypeMainSub then
-		pg.StoryMgr:GetInstance():PlayGuide("NG003")
+		pg.StoryMgr.GetInstance():PlayGuide("NG003")
 	else
 		if slot1.id == 1160002 then
-			pg.StoryMgr:GetInstance():PlayGuide("NG0011")
+			pg.StoryMgr.GetInstance():PlayGuide("NG0011")
 		else
 			if slot1:isTypeDefence() then
 				pg.StoryMgr:GetInstance():PlayGuide("NG0016")

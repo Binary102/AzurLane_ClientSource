@@ -36,7 +36,7 @@ class("RenameCommanderCommand", pm.SimpleCommand).execute = function (slot0, slo
 			slot2:updateCommander(slot0)
 			slot2.updateCommander:sendNotification(GAME.COMMANDER_RENAME_DONE)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("rename_commander_erro", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("rename_commander_erro", slot0.result))
 		end
 	end)
 end

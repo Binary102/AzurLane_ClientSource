@@ -72,14 +72,14 @@ function slot0.didEnter(slot0)
 		if _.any(slot0.technologyVOs, function (slot0)
 			return slot0.state ~= Technology.STATE_IDLE
 		end) then
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("technology_canot_refresh")
 			})
 
 			return
 		end
 
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("technology_refresh_tip"),
 			onYes = function ()
 				slot0:emit(TechnologyMediator.ON_REFRESH)
@@ -376,7 +376,7 @@ function slot0.updateTimer(slot0, slot1)
 		setActive(slot4, false)
 
 		slot0.cardtimer[slot1.id] = Timer.New(function ()
-			if slot0.time - pg.TimeMgr:GetInstance():GetServerTime() <= 0 then
+			if slot0.time - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
 				if slot1.cardtimer[slot0.id] then
 					slot1.cardtimer[slot0.id]:Stop()
 
@@ -390,7 +390,7 @@ function slot0.updateTimer(slot0, slot1)
 					slot1:emit(TechnologyMediator.ON_TIME_OVER, slot0.id)
 				end
 			else
-				setText(slot2:Find("text"), pg.TimeMgr:GetInstance():DescCDTime(slot0 - slot1))
+				setText(slot2:Find("text"), pg.TimeMgr.GetInstance():DescCDTime(slot0 - slot1))
 			end
 
 			return
@@ -425,13 +425,13 @@ function slot0.updateTechnologyTF(slot0, slot1, slot2, slot3)
 			if _.any(slot0.technologyVOs, function (slot0)
 				return slot0.state ~= Technology.STATE_IDLE
 			end) then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("technology_is_actived"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("technology_is_actived"))
 
 				return
 			end
 
 			if #slot1:getConfig("consume") > 0 then
-				pg.MsgboxMgr:GetInstance():ShowMsgBox({
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("technology_task_build_tip", getDropInfo(slot0)),
 					onYes = function ()
 						slot0:emit(TechnologyMediator.ON_START, {
@@ -455,7 +455,7 @@ function slot0.updateTechnologyTF(slot0, slot1, slot2, slot3)
 	else
 		if slot4 == Technology.STATE_STARTING then
 			onButton(slot0, slot7, function ()
-				pg.MsgboxMgr:GetInstance():ShowMsgBox({
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("technology_stop_tip"),
 					onYes = function ()
 						slot0:emit(TechnologyMediator.ON_STOP, {

@@ -8,13 +8,13 @@ class("DestroyEquipmentsCommand", pm.SimpleCommand).execute = function (slot0, s
 		slot13 = slot11[2]
 
 		if not slot5:getEquipmentById(slot11[1]) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("equipment_destroyEquipments_error_noEquip"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_destroyEquipments_error_noEquip"))
 
 			return
 		end
 
 		if slot14.count < slot13 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("equipment_destroyEquipments_error_notEnoughEquip"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_destroyEquipments_error_notEnoughEquip"))
 
 			return
 		end
@@ -110,7 +110,7 @@ class("DestroyEquipmentsCommand", pm.SimpleCommand).execute = function (slot0, s
 				return
 			end
 
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("equipment_destroyEquipments", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("equipment_destroyEquipments", slot0.result))
 		end)
 	end
 

@@ -1,6 +1,8 @@
 class("LogoutCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot2 = slot1:getBody()
 
+	pg.TrackerMgr.GetInstance():Tracking(TRACKING_ROLE_LOGOUT)
+
 	if ys.Battle.BattleState.GetInstance().GetState(slot3) ~= ys.Battle.BattleState.BATTLE_STATE_IDLE then
 		warning("stop and clean battle.")
 		slot3:Stop("kick")
@@ -8,15 +10,13 @@ class("LogoutCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 	slot0:sendNotification(GAME.STOP_BATTLE_LOADING, {})
 
-	if pg.StoryMgr:GetInstance()._go.activeSelf then
-		pg.StoryMgr:GetInstance():EndStory()
+	if pg.StoryMgr.GetInstance()._go.activeSelf then
+		pg.StoryMgr.GetInstance():EndStory()
 	end
 
-	if pg.MsgboxMgr:GetInstance()._go.activeSelf then
-		pg.MsgboxMgr:GetInstance():hide()
+	if pg.MsgboxMgr.GetInstance()._go.activeSelf then
+		pg.MsgboxMgr.GetInstance():hide()
 	end
-
-	pg.PushNotificationMgr.GetInstance():PushAll()
 
 	slot5 = getProxy(SettingsProxy)
 
@@ -27,6 +27,7 @@ class("LogoutCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 	BillboardMediator.time = nil
 	Map.lastMap = nil
+	Map.lastMapForActivity = nil
 	BuildShipScene.Page = nil
 	BuildShipScene.projectName = nil
 	DockyardScene.selectedSort = nil
@@ -90,6 +91,10 @@ class("LogoutCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot0.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade:removeProxy(PrayProxy.__cname)
 		end
 	})
+
+	if slot2.code ~= SDK_EXIT_CODE then
+		pg.SdkMgr.GetInstance():LogoutSDK()
+	end
 end
 
 return class("LogoutCommand", pm.SimpleCommand)

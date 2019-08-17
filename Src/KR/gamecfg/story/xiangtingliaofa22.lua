@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "대서양·버뮤다 삼각지대 중심부海域",
+			say = "대서양·버뮤다 삼각지대 중심부",
 			side = 2,
 			dir = 1,
 			bgm = "story-6",

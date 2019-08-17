@@ -141,7 +141,7 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 
 				if slot0.inBackyard then
 					function onCalcBackYardExp(slot0)
-						pg.MsgboxMgr:GetInstance():ShowMsgBox({
+						pg.MsgboxMgr.GetInstance():ShowMsgBox({
 							hideNo = true,
 							content = i18n("exit_backyard_exp_display", slot0:getName(), slot0)
 						})
@@ -268,7 +268,7 @@ function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.EXTEND_BACKYARD_DONE then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_backyardShipInfoMediator_ok_unlock"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardShipInfoMediator_ok_unlock"))
 		slot0.viewComponent:updateSlots()
 	elseif slot2 == DormProxy.DORM_UPDATEED then
 		slot0.viewComponent:setDormVO(slot0.dormProxy:getData())

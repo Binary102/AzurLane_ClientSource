@@ -11,7 +11,7 @@ class("CommanderLearnTalentCommand", pm.SimpleCommand).execute = function (slot0
 	if not _.any(slot7:getNotLearnedList(), function (slot0)
 		return slot0.id == slot0
 	end) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("commander_talent_not_exist"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("commander_talent_not_exist"))
 
 		return
 	end
@@ -21,7 +21,7 @@ class("CommanderLearnTalentCommand", pm.SimpleCommand).execute = function (slot0
 	if slot5 ~= 0 and not _.any(slot9, function (slot0)
 		return slot0.id == slot0
 	end) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("commander_replace_talent_not_exist"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("commander_replace_talent_not_exist"))
 
 		return
 	end
@@ -29,7 +29,7 @@ class("CommanderLearnTalentCommand", pm.SimpleCommand).execute = function (slot0
 	if getProxy(PlayerProxy).getData(slot12).gold < CommanderTalent.New({
 		id = slot4
 	}).getConfig(slot10, "cost") then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_resource"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
 	end
@@ -60,9 +60,9 @@ class("CommanderLearnTalentCommand", pm.SimpleCommand).execute = function (slot0
 			slot7:sendNotification(GAME.COMMANDER_LEARN_TALENTS_DONE, {
 				commander = slot7
 			})
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_talent_learned", slot4:getConfig("name")))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_talent_learned", slot4:getConfig("name")))
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_talent_learn_erro", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_talent_learn_erro", slot0.result))
 		end
 	end)
 end

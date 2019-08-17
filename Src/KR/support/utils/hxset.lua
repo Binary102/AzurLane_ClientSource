@@ -68,13 +68,15 @@ HXSet = {
 		end)
 	end,
 	isHx = function ()
+		slot0 = LuaHelper.GetAgeRating()
+
 		if PLATFORM == PLATFORM_IPHONEPLAYER then
 			return true
 		elseif PLATFORM == PLATFORM_ANDROID then
-			return AgeRatingConst.AgeRating ~= 12
+			return slot0 ~= 12
 		end
 
-		return AgeRatingConst.AgeRating == 12
+		return slot0 == 12
 	end
 }
 

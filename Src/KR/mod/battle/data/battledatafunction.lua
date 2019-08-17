@@ -259,7 +259,7 @@ ys or .Battle.BattleDataFunction.GetBulletResFromSkill = function (slot0, slot1,
 	end
 
 	if type(slot4.castCV) == "table" then
-		slot1.Battle.BattleResourceManager:GetInstance():AddPreloadCV(slot4.castCV.skinID)
+		slot1.Battle.BattleResourceManager.GetInstance():AddPreloadCV(slot4.castCV.skinID)
 	end
 
 	slot5(slot4.effect_list)

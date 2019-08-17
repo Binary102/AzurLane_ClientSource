@@ -11,9 +11,9 @@ class("GuildQuitCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 			slot3:setGuildWaitTime(pg.TimeMgr.GetInstance():GetServerTime() + 86400)
 			slot2:updatePlayer(slot3)
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_quit_sucess"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_quit_sucess"))
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("guild_quit_erro", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("guild_quit_erro", slot0.result))
 		end
 	end)
 end

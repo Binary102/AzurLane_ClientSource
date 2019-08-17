@@ -10,7 +10,7 @@ class("SelectFleetCommanderCommand", pm.SimpleCommand).execute = function (slot0
 
 		for slot14, slot15 in pairs(slot9) do
 			if slot15.groupId == slot10.groupId and slot14 ~= slot4 and slot5 ~= slot15.id then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("commander_can_not_select_same_group"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("commander_can_not_select_same_group"))
 
 				return
 			end
@@ -31,7 +31,7 @@ class("SelectFleetCommanderCommand", pm.SimpleCommand).execute = function (slot0
 
 	if slot14 then
 		table.insert(slot12, function (slot0)
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("comander_repalce_tip", Fleet.DEFAULT_NAME[slot0.fleetId], (slot0.pos == 1 and i18n("commander_main_pos")) or i18n("commander_assistant_pos")),
 				onYes = function ()
 					pg.m02:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET, {

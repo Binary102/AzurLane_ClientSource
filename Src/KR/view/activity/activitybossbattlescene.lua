@@ -32,7 +32,7 @@ function slot0.setActivity(slot0, slot1)
 		}
 	end)
 	slot0.fStage = table.remove(slot0.stages, 1)
-	slot0.inTime = pg.TimeMgr:GetInstance():inTime(slot1:getConfig("config_data")[6])
+	slot0.inTime = pg.TimeMgr.GetInstance():inTime(slot1:getConfig("config_data")[6])
 	slot0.bossId = slot0.activity.data1
 	slot0.damage = slot0.activity.data2
 	slot0.maxHp = slot0.activity.data4
@@ -81,7 +81,7 @@ function slot0.didEnter(slot0)
 	end, SOUND_BACK)
 	onButton(slot0, slot0.forwordBattleBtn, function ()
 		if not slot0.inTime then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 		else
 			slot0:emit(ActivityBossBattleMediator.ON_STAGE, slot0.fStage.config.id, true)
 		end
@@ -120,13 +120,13 @@ function slot0.updateMain(slot0)
 
 			onButton(slot0, slot2, function ()
 				if not slot0 and slot1.useageCount == slot1.count then
-					pg.TipsMgr:GetInstance():ShowTips(i18n("common_count_noenough"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("common_count_noenough"))
 
 					return
 				end
 
 				if not slot2.inTime then
-					pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 				else
 					slot2:emit(ActivityBossBattleMediator.ON_STAGE, slot1.config.id)
 				end

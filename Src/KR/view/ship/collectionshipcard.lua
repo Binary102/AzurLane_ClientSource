@@ -78,7 +78,7 @@ function slot0.loadImage(slot0, slot1)
 	slot0.iconShip.sprite = GetSpriteFromAtlas("shipYardIcon/unknown", "")
 
 	LoadSpriteAsync("shipYardIcon/" .. slot4, function (slot0)
-		if slot0.go then
+		if not IsNil(slot0.go) then
 			slot0.iconShip.sprite = slot0
 		end
 	end)

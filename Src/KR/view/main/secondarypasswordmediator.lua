@@ -39,7 +39,7 @@ function slot0.handleNotification(slot0, slot1)
 
 	if slot1:getName() == GAME.FETCH_PASSWORD_STATE_DONE then
 		if not slot4:GetPermissionState() then
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				title = "warning",
 				mode = "showresttime",
 				hideNo = true,
@@ -57,12 +57,12 @@ function slot0.handleNotification(slot0, slot1)
 				if slot5.fail_count >= 5 then
 					slot0:sendNotification(GAME.FETCH_PASSWORD_STATE)
 				else
-					pg.TipsMgr:GetInstance():ShowTips(string.format(i18n("secondarypassword_incorrectpwd_error"), 5 - slot5.fail_count))
+					pg.TipsMgr.GetInstance():ShowTips(string.format(i18n("secondarypassword_incorrectpwd_error"), 5 - slot5.fail_count))
 				end
 			elseif slot6 == 40 or slot6 == 1 then
 				slot0:sendNotification(GAME.FETCH_PASSWORD_STATE)
 			else
-				pg.TipsMgr:GetInstance():ShowTips(errorTip("", slot6))
+				pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot6))
 			end
 
 			slot0.viewComponent:UpdateView()
@@ -72,7 +72,7 @@ function slot0.handleNotification(slot0, slot1)
 		end
 	elseif slot2 == GAME.SET_PASSWORD_DONE then
 		if slot3.result > 0 then
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("", slot6))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot6))
 			slot0:sendNotification(GAME.FETCH_PASSWORD_STATE)
 		else
 			slot0:CloseAndCallback()

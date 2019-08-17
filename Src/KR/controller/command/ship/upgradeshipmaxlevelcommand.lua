@@ -10,7 +10,7 @@ class("", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot6, slot7 = slot5:canUpgradeMaxLevel()
 
 	if not slot6 then
-		pg.TipsMgr:GetInstance():ShowTips(slot7)
+		pg.TipsMgr.GetInstance():ShowTips(slot7)
 
 		return
 	end
@@ -32,7 +32,7 @@ class("", pm.SimpleCommand).execute = function (slot0, slot1)
 				end
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("ship_buildShip_error", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_buildShip_error", slot0.result))
 		end
 	end)
 end

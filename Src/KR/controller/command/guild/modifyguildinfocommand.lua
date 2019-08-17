@@ -4,7 +4,7 @@ class("ModifyGuildInfoCommand", pm.SimpleCommand).execute = function (slot0, slo
 	slot5 = pg.gameset.modify_guild_cost.key_value
 
 	if type == 1 and slot4:getTotalGem() < slot5 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_rmb"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_rmb"))
 
 		return
 	end
@@ -24,15 +24,15 @@ class("ModifyGuildInfoCommand", pm.SimpleCommand).execute = function (slot0, slo
 				end
 
 				slot4:sendNotification(GAME.MODIFY_GUILD_INFO_DONE)
-				pg.TipsMgr:GetInstance():ShowTips(i18n("guild_info_update"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("guild_info_update"))
 			else
-				pg.TipsMgr:GetInstance():ShowTips(errorTip("guild_modify_erro", slot0.result))
+				pg.TipsMgr.GetInstance():ShowTips(errorTip("guild_modify_erro", slot0.result))
 			end
 		end)
 	end
 
 	if slot2.type == 1 then
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("guild_modify_info_tip", slot5),
 			onYes = function ()
 				slot0()

@@ -498,7 +498,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "…(두 눈을 감는다",
+			say = "…(두 눈을 감는다)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

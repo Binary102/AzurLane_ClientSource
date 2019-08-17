@@ -61,13 +61,13 @@ function slot0.register(slot0)
 				slot0()
 			end
 
-			pg.MsgboxMgr:GetInstance():ShowMsgBox(slot1.overFlow)
+			pg.MsgboxMgr.GetInstance():ShowMsgBox(slot1.overFlow)
 		end
 
 		function slot6(slot0, slot1, slot2)
 			function slot1.choice.onYes()
 				if not taskVO.index then
-					pg.TipsMgr:GetInstance():ShowTips(i18n("no_item_selected_tip"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("no_item_selected_tip"))
 					pg.TipsMgr.GetInstance().ShowTips()
 
 					return
@@ -84,7 +84,7 @@ function slot0.register(slot0)
 				slot0()
 			end
 
-			pg.MsgboxMgr:GetInstance():ShowMsgBox(slot1.choice)
+			pg.MsgboxMgr.GetInstance():ShowMsgBox(slot1.choice)
 		end
 
 		function slot7(slot0, slot1, slot2)
@@ -102,7 +102,7 @@ function slot0.register(slot0)
 				slot0()
 			end
 
-			pg.MsgboxMgr:GetInstance():ShowMsgBox(slot1.sub)
+			pg.MsgboxMgr.GetInstance():ShowMsgBox(slot1.sub)
 		end
 
 		slot8 = {}

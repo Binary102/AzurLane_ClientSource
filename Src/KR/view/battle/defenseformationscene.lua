@@ -279,7 +279,7 @@ function slot0.loadAllCharacter(slot0)
 
 			if slot1.position.x < UnityEngine.Screen.width * 0.15 or slot1.position.x > UnityEngine.Screen.width * 0.87 or slot1.position.y < UnityEngine.Screen.height * 0.18 or slot1.position.y > UnityEngine.Screen.height * 0.7 then
 				if not slot0._currentFleetVO:canRemove(slot5) then
-					pg.TipsMgr:GetInstance():ShowTips(i18n("ship_formationUI_removeError_onlyShip", slot5:getName(), "", Fleet.C_TEAM_NAME[slot5]))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("ship_formationUI_removeError_onlyShip", slot5:getName(), "", Fleet.C_TEAM_NAME[slot5]))
 					slot2()
 				elseif (table.getCount(slot0._currentFleetVO.mainShips) == 1 and slot5 == Fleet.MAIN) or (table.getCount(slot0._currentFleetVO.vanguardShips) == 1 and slot5 == Fleet.VANGUARD) then
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -305,9 +305,9 @@ function slot0.loadAllCharacter(slot0)
 
 	slot3(slot0._currentFleetVO.vanguardShips, Fleet.VANGUARD)
 	slot3(slot0._currentFleetVO.mainShips, Fleet.MAIN)
-	pg.UIMgr:GetInstance():LoadingOn()
+	pg.UIMgr.GetInstance():LoadingOn()
 	parallelAsync({}, function (slot0)
-		pg.UIMgr:GetInstance():LoadingOff()
+		pg.UIMgr.GetInstance():LoadingOff()
 
 		if slot0.exited then
 			return
@@ -814,11 +814,11 @@ function slot0.willExit(slot0)
 		pg.UIMgr.GetInstance():UnblurPanel(slot0._blurLayer, slot0._tf)
 	end
 
-	pg.TimeMgr:GetInstance():RemoveTimer(slot0.ActiveToggletimer1)
+	pg.TimeMgr.GetInstance():RemoveTimer(slot0.ActiveToggletimer1)
 
 	slot0.ActiveToggletimer1 = nil
 
-	pg.TimeMgr:GetInstance():RemoveTimer(slot0.ActiveToggletimer)
+	pg.TimeMgr.GetInstance():RemoveTimer(slot0.ActiveToggletimer)
 
 	slot0.ActiveToggletimer = nil
 

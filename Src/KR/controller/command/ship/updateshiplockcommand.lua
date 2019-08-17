@@ -22,10 +22,10 @@ class("UpdateShipLockCommand", pm.SimpleCommand).execute = function (slot0, slot
 					slot8:SetLockState(slot0)
 					slot1:updateShip(slot8)
 					slot2:sendNotification(GAME.UPDATE_LOCK_DONE, slot8)
-					pg.TipsMgr:GetInstance():ShowTips(i18n(slot2, slot8:getName()))
+					pg.TipsMgr.GetInstance():ShowTips(i18n(slot2, slot8:getName()))
 				end
 			else
-				pg.TipsMgr:GetInstance():ShowTips(errorTip("ship_updateShipLock", slot0.result))
+				pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_updateShipLock", slot0.result))
 			end
 		end)
 	end

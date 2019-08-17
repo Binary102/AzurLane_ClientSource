@@ -8,7 +8,7 @@ class("GetShipEvaluationCommand", pm.SimpleCommand).execute = function (slot0, s
 
 			slot1:sendNotification(GAME.GET_SHIP_EVALUATION_DONE, slot1.getShipById(slot0))
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("get_ship_evaluation", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("get_ship_evaluation", slot0.result))
 		end
 	end)
 end

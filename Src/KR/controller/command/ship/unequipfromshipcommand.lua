@@ -15,7 +15,7 @@ class("UnequipFromShipCommand", pm.SimpleCommand).execute = function (slot0, slo
 	end
 
 	if slot7 == nil then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("ship_error_noShip", slot3))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_error_noShip", slot3))
 
 		if slot5 then
 			slot5()
@@ -25,7 +25,7 @@ class("UnequipFromShipCommand", pm.SimpleCommand).execute = function (slot0, slo
 	end
 
 	if not slot7:getEquip(slot4) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("ship_unequipFromShip_error_noEquip"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_unequipFromShip_error_noEquip"))
 
 		if slot5 then
 			slot5()
@@ -49,16 +49,16 @@ class("UnequipFromShipCommand", pm.SimpleCommand).execute = function (slot0, slo
 
 				slot0.skinId = 0
 
-				pg.TipsMgr:GetInstance():ShowTips(i18n("equipment_skin_unload"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_unload"))
 			end
 
 			slot1:updateEquip(slot1.updateEquip, nil)
 			slot1:updateShip(slot1)
 			slot1:addEquipment(slot0)
 			slot4:sendNotification(GAME.UNEQUIP_FROM_SHIP_DONE, slot1)
-			pg.TipsMgr:GetInstance():ShowTips(i18n("ship_unequipFromShip_ok", slot0.config.name), "red")
+			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_unequipFromShip_ok", slot0.config.name), "red")
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("ship_unequipFromShip", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_unequipFromShip", slot0.result))
 		end
 
 		if slot5 then

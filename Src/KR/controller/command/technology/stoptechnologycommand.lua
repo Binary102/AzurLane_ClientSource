@@ -25,7 +25,7 @@ class("StopTechnologyCommand", pm.SimpleCommand).execute = function (slot0, slot
 			slot1:updateTechnology(slot0)
 			slot1:sendNotification(GAME.STOP_TECHNOLOGY_DONE)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("blueprint_stop_erro") .. slot0.result)
+			pg.TipsMgr.GetInstance():ShowTips(i18n("blueprint_stop_erro") .. slot0.result)
 		end
 	end)
 end

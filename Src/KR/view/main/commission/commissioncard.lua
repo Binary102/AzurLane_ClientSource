@@ -182,7 +182,7 @@ function slot0.updateForTechnology(slot0)
 		setActive(slot0.finishedCounterContainer, slot5 > 0)
 		setActive(slot0.ongoingCounterContainer, 0 > 0)
 		setActive(slot0.leisureCounterContainer, (((slot5 > 0 or 0 > 0) and 0) or 1) > 0)
-		slot0.itemsPanel:updateTechItems(slot2, (pg.SystemOpenMgr:GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "TechnologyMediator") and 1) or 0)
+		slot0.itemsPanel:updateTechItems(slot2, (pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "TechnologyMediator") and 1) or 0)
 		onButton(slot0, slot0.finishedBtn, function ()
 			_.each(_.select(slot0, function (slot0)
 				return slot0.state == Technology.STATE_FINISHED

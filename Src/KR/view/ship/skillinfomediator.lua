@@ -20,14 +20,14 @@ function slot0.register(slot0)
 		end
 
 		if slot1:getSkillClassNum() <= slot3 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("tactics_lesson_full"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("tactics_lesson_full"))
 			slot0.viewComponent:close()
 
 			return
 		end
 
 		if table.getCount(getProxy(BagProxy).getItemsByType(slot7, slot1) or {}) <= 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("tactics_no_lesson"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("tactics_no_lesson"))
 			slot0.viewComponent:close()
 
 			return
@@ -35,7 +35,7 @@ function slot0.register(slot0)
 
 		for slot12, slot13 in pairs(slot2) do
 			if slot13.shipId == slot0.contextData.shipId then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("tactics_lesson_repeated"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("tactics_lesson_repeated"))
 				slot0.viewComponent:close()
 
 				return

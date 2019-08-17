@@ -2794,7 +2794,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[580] = {
-		name = "91식 철갑탄 ",
+		name = "91식 철갑탄",
 		type = 10,
 		id = 580,
 		tech = 0,
@@ -2950,7 +2950,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[600] = {
-		name = "1식 철갑탄 ",
+		name = "1식 철갑탄",
 		type = 10,
 		id = 600,
 		tech = 0,
@@ -3406,7 +3406,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[720] = {
-		name = "약속의 증명 ",
+		name = "약속의 증명",
 		type = 10,
 		id = 720,
 		tech = 0,
@@ -3562,7 +3562,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[740] = {
-		name = "FI-282 헬리콥터 ",
+		name = "FI-282 헬리콥터",
 		type = 17,
 		id = 740,
 		tech = 0,
@@ -3715,7 +3715,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[760] = {
-		name = "정찰 보고·뉴욕 근해 ",
+		name = "정찰 보고·뉴욕 근해",
 		type = 10,
 		id = 760,
 		tech = 0,
@@ -10453,7 +10453,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2800] = {
-		name = "94식 고사 장치 ",
+		name = "94식 고사 장치",
 		type = 10,
 		id = 2800,
 		tech = 0,
@@ -11375,7 +11375,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3120] = {
-		name = "잠수함 스노클 ",
+		name = "잠수함 스노클",
 		type = 10,
 		id = 3120,
 		tech = 0,
@@ -11392,7 +11392,7 @@ pg.equip_data_statistics = {
 		scatter = "없음",
 		is_siren = 0,
 		ammo = "없음",
-		descrip = "압축 산소를 보존하는 봄베. 잠항력을 상승에 도움이 된다.",
+		descrip = "해상의 공기를 흡입하고 배기가스를 배출해 준다. ",
 		value_3 = 0,
 		attribute_1 = "oxy_max",
 		torpedo_ammo = 0,
@@ -11518,7 +11518,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3140] = {
-		name = "개량형 축전지 ",
+		name = "개량형 축전지",
 		type = 10,
 		id = 3140,
 		tech = 0,
@@ -12330,7 +12330,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 5,
 		icon = "4200",
-		value_1 = "41 x 1",
+		value_1 = "28 x 1",
 		attribute_2 = "antisub",
 		avoid_extra = 0,
 		rarity = 2,
@@ -12356,7 +12356,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4201] = {
-		value_1 = "44 x 1",
+		value_1 = "30 x 1",
 		id = 4201,
 		base = 4200,
 		is_siren = 0,
@@ -12370,7 +12370,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4202] = {
-		value_1 = "48 x 1",
+		value_1 = "32 x 1",
 		id = 4202,
 		base = 4200,
 		is_siren = 0,
@@ -12384,7 +12384,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4203] = {
-		value_1 = "52 x 1",
+		value_1 = "35 x 1",
 		id = 4203,
 		base = 4200,
 		is_siren = 0,
@@ -12408,7 +12408,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 12,
 		icon = "4200",
-		value_1 = "48 x 1",
+		value_1 = "34 x 1",
 		attribute_2 = "antisub",
 		avoid_extra = 0,
 		rarity = 3,
@@ -12434,7 +12434,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4221] = {
-		value_1 = "53 x 1",
+		value_1 = "37 x 1",
 		id = 4221,
 		base = 4220,
 		is_siren = 0,
@@ -12448,7 +12448,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4222] = {
-		value_1 = "58 x 1",
+		value_1 = "40 x 1",
 		id = 4222,
 		base = 4220,
 		is_siren = 0,
@@ -12462,7 +12462,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4223] = {
-		value_1 = "63 x 1",
+		value_1 = "43 x 1",
 		id = 4223,
 		base = 4220,
 		is_siren = 0,
@@ -12476,7 +12476,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4224] = {
-		value_1 = "68 x 1",
+		value_1 = "46 x 1",
 		id = 4224,
 		base = 4220,
 		is_siren = 0,
@@ -12490,7 +12490,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4225] = {
-		value_1 = "73 x 1",
+		value_1 = "49 x 1",
 		id = 4225,
 		base = 4220,
 		is_siren = 0,
@@ -12504,7 +12504,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4226] = {
-		value_1 = "78 x 1",
+		value_1 = "52 x 1",
 		id = 4226,
 		base = 4220,
 		is_siren = 0,
@@ -12528,7 +12528,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 25,
 		icon = "4200",
-		value_1 = "55 x 1",
+		value_1 = "42 x 1",
 		attribute_2 = "antisub",
 		avoid_extra = 0,
 		rarity = 4,
@@ -12554,7 +12554,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4241] = {
-		value_1 = "61 x 1",
+		value_1 = "46 x 1",
 		id = 4241,
 		base = 4240,
 		is_siren = 0,
@@ -12568,7 +12568,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4242] = {
-		value_1 = "67 x 1",
+		value_1 = "50 x 1",
 		id = 4242,
 		base = 4240,
 		is_siren = 0,
@@ -12582,7 +12582,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4243] = {
-		value_1 = "73 x 1",
+		value_1 = "54 x 1",
 		id = 4243,
 		base = 4240,
 		is_siren = 0,
@@ -12596,7 +12596,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4244] = {
-		value_1 = "79 x 1",
+		value_1 = "58 x 1",
 		id = 4244,
 		base = 4240,
 		is_siren = 0,
@@ -12610,7 +12610,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4245] = {
-		value_1 = "85 x 1",
+		value_1 = "62 x 1",
 		id = 4245,
 		base = 4240,
 		is_siren = 0,
@@ -12624,7 +12624,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4246] = {
-		value_1 = "92 x 1",
+		value_1 = "66 x 1",
 		id = 4246,
 		base = 4240,
 		is_siren = 0,
@@ -12638,7 +12638,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4247] = {
-		value_1 = "99 x 1",
+		value_1 = "70 x 1",
 		id = 4247,
 		base = 4240,
 		is_siren = 0,
@@ -12652,7 +12652,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4248] = {
-		value_1 = "106 x 1",
+		value_1 = "74 x 1",
 		id = 4248,
 		base = 4240,
 		is_siren = 0,
@@ -12666,7 +12666,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4249] = {
-		value_1 = "113 x 1",
+		value_1 = "79 x 1",
 		id = 4249,
 		base = 4240,
 		is_siren = 0,
@@ -12680,7 +12680,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4250] = {
-		value_1 = "120 x 1",
+		value_1 = "84 x 1",
 		id = 4250,
 		base = 4240,
 		is_siren = 0,
@@ -12704,7 +12704,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 5,
 		icon = "4300",
-		value_1 = "41 x 1",
+		value_1 = "25 x 1",
 		attribute_2 = "antisub",
 		avoid_extra = 0,
 		rarity = 2,
@@ -12730,7 +12730,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4301] = {
-		value_1 = "44 x 1",
+		value_1 = "27 x 1",
 		id = 4301,
 		base = 4300,
 		is_siren = 0,
@@ -12744,7 +12744,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4302] = {
-		value_1 = "48 x 1",
+		value_1 = "29 x 1",
 		id = 4302,
 		base = 4300,
 		is_siren = 0,
@@ -12758,7 +12758,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4303] = {
-		value_1 = "52 x 1",
+		value_1 = "31 x 1",
 		id = 4303,
 		base = 4300,
 		is_siren = 0,
@@ -12782,7 +12782,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 12,
 		icon = "4300",
-		value_1 = "48 x 1",
+		value_1 = "30 x 1",
 		attribute_2 = "antisub",
 		avoid_extra = 0,
 		rarity = 3,
@@ -12808,7 +12808,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4321] = {
-		value_1 = "53 x 1",
+		value_1 = "33 x 1",
 		id = 4321,
 		base = 4320,
 		is_siren = 0,
@@ -12822,7 +12822,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4322] = {
-		value_1 = "58 x 1",
+		value_1 = "36 x 1",
 		id = 4322,
 		base = 4320,
 		is_siren = 0,
@@ -12836,7 +12836,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4323] = {
-		value_1 = "63 x 1",
+		value_1 = "39 x 1",
 		id = 4323,
 		base = 4320,
 		is_siren = 0,
@@ -12850,7 +12850,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4324] = {
-		value_1 = "68 x 1",
+		value_1 = "42 x 1",
 		id = 4324,
 		base = 4320,
 		is_siren = 0,
@@ -12864,7 +12864,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4325] = {
-		value_1 = "73 x 1",
+		value_1 = "45 x 1",
 		id = 4325,
 		base = 4320,
 		is_siren = 0,
@@ -12878,7 +12878,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4326] = {
-		value_1 = "78 x 1",
+		value_1 = "48 x 1",
 		id = 4326,
 		base = 4320,
 		is_siren = 0,
@@ -12902,7 +12902,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 25,
 		icon = "4300",
-		value_1 = "55 x 1",
+		value_1 = "36 x 1",
 		attribute_2 = "antisub",
 		avoid_extra = 0,
 		rarity = 4,
@@ -12928,7 +12928,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[4341] = {
-		value_1 = "61 x 1",
+		value_1 = "39 x 1",
 		id = 4341,
 		base = 4340,
 		is_siren = 0,
@@ -12942,7 +12942,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4342] = {
-		value_1 = "67 x 1",
+		value_1 = "42 x 1",
 		id = 4342,
 		base = 4340,
 		is_siren = 0,
@@ -12956,7 +12956,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4343] = {
-		value_1 = "73 x 1",
+		value_1 = "45 x 1",
 		id = 4343,
 		base = 4340,
 		is_siren = 0,
@@ -12970,7 +12970,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4344] = {
-		value_1 = "79 x 1",
+		value_1 = "48 x 1",
 		id = 4344,
 		base = 4340,
 		is_siren = 0,
@@ -12984,7 +12984,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4345] = {
-		value_1 = "85 x 1",
+		value_1 = "52 x 1",
 		id = 4345,
 		base = 4340,
 		is_siren = 0,
@@ -12998,7 +12998,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4346] = {
-		value_1 = "92 x 1",
+		value_1 = "56 x 1",
 		id = 4346,
 		base = 4340,
 		is_siren = 0,
@@ -13012,7 +13012,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4347] = {
-		value_1 = "99 x 1",
+		value_1 = "60 x 1",
 		id = 4347,
 		base = 4340,
 		is_siren = 0,
@@ -13026,7 +13026,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4348] = {
-		value_1 = "106 x 1",
+		value_1 = "64 x 1",
 		id = 4348,
 		base = 4340,
 		is_siren = 0,
@@ -13040,7 +13040,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4349] = {
-		value_1 = "113 x 1",
+		value_1 = "68 x 1",
 		id = 4349,
 		base = 4340,
 		is_siren = 0,
@@ -13054,7 +13054,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4350] = {
-		value_1 = "120 x 1",
+		value_1 = "72 x 1",
 		id = 4350,
 		base = 4340,
 		is_siren = 0,
@@ -14626,7 +14626,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5400] = {
-		name = "550mm 3연장 어뢰 발사관 ",
+		name = "550mm 3연장 어뢰 발사관",
 		type = 5,
 		id = 5400,
 		tech = 1,
@@ -14712,7 +14712,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5420] = {
-		name = "550mm 3연장 어뢰 발사관 ",
+		name = "550mm 3연장 어뢰 발사관",
 		type = 5,
 		id = 5420,
 		tech = 2,
@@ -14846,7 +14846,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5440] = {
-		name = "550mm 3연장 어뢰 발사관 ",
+		name = "550mm 3연장 어뢰 발사관",
 		type = 5,
 		id = 5440,
 		tech = 3,
@@ -15044,7 +15044,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5500] = {
-		name = "잠수함용 550mm 24V 어뢰 ",
+		name = "잠수함용 550mm 24V 어뢰",
 		type = 13,
 		id = 5500,
 		tech = 1,
@@ -15130,7 +15130,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5520] = {
-		name = "잠수함용 550mm 24V 어뢰 ",
+		name = "잠수함용 550mm 24V 어뢰",
 		type = 13,
 		id = 5520,
 		tech = 2,
@@ -15264,7 +15264,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5540] = {
-		name = "잠수함용 550mm 24V 어뢰 ",
+		name = "잠수함용 550mm 24V 어뢰",
 		type = 13,
 		id = 5540,
 		tech = 3,
@@ -15767,7 +15767,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[6100] = {
-		name = "100mm 연장 고사포 ",
+		name = "100mm 연장 고사포",
 		type = 6,
 		id = 6100,
 		tech = 1,
@@ -15852,7 +15852,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[6120] = {
-		name = "100mm 연장 고사포 ",
+		name = "100mm 연장 고사포",
 		type = 6,
 		id = 6120,
 		tech = 2,
@@ -15938,7 +15938,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[6140] = {
-		name = "100mm 연장 고사포 ",
+		name = "100mm 연장 고사포",
 		type = 6,
 		id = 6140,
 		tech = 3,
@@ -17359,7 +17359,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7320] = {
-		name = "130mm 부포 Mle 1932 ",
+		name = "130mm 부포 Mle 1932",
 		type = 1,
 		id = 7320,
 		tech = 0,
@@ -17638,7 +17638,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11000] = {
-		name = "76mm 단장포 ",
+		name = "76mm 단장포",
 		type = 1,
 		id = 11000,
 		tech = 1,
@@ -17729,7 +17729,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11020] = {
-		name = "76mm 단장포 ",
+		name = "76mm 단장포",
 		type = 1,
 		id = 11020,
 		tech = 2,
@@ -17821,7 +17821,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11040] = {
-		name = "76mm 단장포 ",
+		name = "76mm 단장포",
 		type = 1,
 		id = 11040,
 		tech = 3,
@@ -19707,7 +19707,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12200] = {
-		name = "시제형 3연장 152mm 양용포 Mk17 ",
+		name = "시제형 3연장 152mm 양용포 Mk17",
 		speciality = "추적",
 		tech = 0,
 		type = 2,
@@ -22935,7 +22935,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14500] = {
-		name = "시제형 457mm 연장포 MKA ",
+		name = "시제형 457mm 연장포 MKA",
 		type = 4,
 		id = 14500,
 		tech = 0,
@@ -24086,7 +24086,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16000] = {
-		name = "20mm 엘리콘 기관포 ",
+		name = "20mm 엘리콘 기관포",
 		type = 6,
 		id = 16000,
 		tech = 1,
@@ -24171,7 +24171,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16020] = {
-		name = "20mm 엘리콘 기관포 ",
+		name = "20mm 엘리콘 기관포",
 		type = 6,
 		id = 16020,
 		tech = 2,
@@ -24257,7 +24257,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16040] = {
-		name = "20mm 엘리콘 기관포 ",
+		name = "20mm 엘리콘 기관포",
 		type = 6,
 		id = 16040,
 		tech = 3,
@@ -24391,7 +24391,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16100] = {
-		name = "20mm 연장 엘리콘 기관포 ",
+		name = "20mm 연장 엘리콘 기관포",
 		type = 6,
 		id = 16100,
 		tech = 1,
@@ -24477,7 +24477,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16120] = {
-		name = "20mm 연장 엘리콘 기관포 ",
+		name = "20mm 연장 엘리콘 기관포",
 		type = 6,
 		id = 16120,
 		tech = 2,
@@ -24611,7 +24611,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16140] = {
-		name = "20mm 연장 엘리콘 기관포 ",
+		name = "20mm 연장 엘리콘 기관포",
 		type = 6,
 		id = 16140,
 		tech = 3,
@@ -28899,7 +28899,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18060] = {
-		name = "TBD데버스테이터(VT-8중대) ",
+		name = "TBD데버스테이터(VT-8중대)",
 		type = 8,
 		id = 18060,
 		tech = 0,
@@ -41396,7 +41396,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27200] = {
-		name = "씨 글래디에이터 ",
+		name = "씨 글래디에이터",
 		type = 7,
 		id = 27200,
 		tech = 1,
@@ -41485,7 +41485,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27220] = {
-		name = "씨 글래디에이터 ",
+		name = "씨 글래디에이터",
 		type = 7,
 		id = 27220,
 		tech = 2,
@@ -41575,7 +41575,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27240] = {
-		name = "씨 글래디에이터 ",
+		name = "씨 글래디에이터",
 		type = 7,
 		id = 27240,
 		tech = 3,
@@ -42343,7 +42343,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28060] = {
-		name = "소드피쉬 (818중대) ",
+		name = "소드피쉬 (818중대)",
 		type = 8,
 		id = 28060,
 		tech = 0,
@@ -47148,7 +47148,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32300] = {
-		name = "152mm 연장포 ",
+		name = "152mm 연장포",
 		type = 2,
 		id = 32300,
 		tech = 1,
@@ -47240,7 +47240,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32320] = {
-		name = "152mm 연장포 ",
+		name = "152mm 연장포",
 		type = 2,
 		id = 32320,
 		tech = 2,
@@ -47380,7 +47380,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32340] = {
-		name = "152mm 연장포 ",
+		name = "152mm 연장포",
 		type = 2,
 		id = 32340,
 		tech = 3,
@@ -48216,7 +48216,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33100] = {
-		name = "시제형 3연장 310mm 포 ",
+		name = "시제형 3연장 310mm 포",
 		type = 11,
 		id = 33100,
 		tech = 0,
@@ -55575,7 +55575,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36700] = {
-		name = "시제형 5식 40mm 고사기관포 ",
+		name = "시제형 5식 40mm 고사기관포",
 		type = 6,
 		id = 36700,
 		tech = 0,
@@ -60593,7 +60593,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41100] = {
-		name = "128mm SKC/41 연장 양용포 ",
+		name = "128mm SKC/41 연장 양용포",
 		speciality = "추적",
 		tech = 1,
 		type = 1,
@@ -60687,7 +60687,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41120] = {
-		name = "128mm SKC/41 연장 양용포 ",
+		name = "128mm SKC/41 연장 양용포",
 		speciality = "추적",
 		tech = 2,
 		type = 1,
@@ -60829,7 +60829,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41140] = {
-		name = "128mm SKC/41 연장 양용포 ",
+		name = "128mm SKC/41 연장 양용포",
 		speciality = "추적",
 		tech = 3,
 		type = 1,
@@ -61471,7 +61471,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42100] = {
-		name = "150mm SKC/28 3연장포 ",
+		name = "150mm SKC/28 3연장포",
 		type = 2,
 		id = 42100,
 		tech = 1,
@@ -61563,7 +61563,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42120] = {
-		name = "150mm SKC/28 3연장포 ",
+		name = "150mm SKC/28 3연장포",
 		type = 2,
 		id = 42120,
 		tech = 2,
@@ -61703,7 +61703,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42140] = {
-		name = "150mm SKC/28 3연장포 ",
+		name = "150mm SKC/28 3연장포",
 		type = 2,
 		id = 42140,
 		tech = 3,
@@ -63087,7 +63087,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43100] = {
-		name = "283mm SKC/28 3연장포 ",
+		name = "283mm SKC/28 3연장포",
 		type = 11,
 		id = 43100,
 		tech = 1,
@@ -63177,7 +63177,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43120] = {
-		name = "283mm SKC/28 3연장포 ",
+		name = "283mm SKC/28 3연장포",
 		type = 11,
 		id = 43120,
 		tech = 2,
@@ -63315,7 +63315,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43140] = {
-		name = "283mm SKC/28 3연장포 ",
+		name = "283mm SKC/28 3연장포",
 		type = 11,
 		id = 43140,
 		tech = 3,
@@ -64495,7 +64495,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44200] = {
-		name = "시제형 406mm SKC 연장포 ",
+		name = "시제형 406mm SKC 연장포",
 		type = 4,
 		id = 44200,
 		tech = 0,
@@ -64698,7 +64698,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45000] = {
-		name = "533mm 3연장 자기 어뢰 ",
+		name = "533mm 3연장 자기 어뢰",
 		type = 5,
 		id = 45000,
 		tech = 1,
@@ -64784,7 +64784,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45020] = {
-		name = "533mm 3연장 자기 어뢰 ",
+		name = "533mm 3연장 자기 어뢰",
 		type = 5,
 		id = 45020,
 		tech = 2,
@@ -64918,7 +64918,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45040] = {
-		name = "533mm 3연장 자기 어뢰 ",
+		name = "533mm 3연장 자기 어뢰",
 		type = 5,
 		id = 45040,
 		tech = 3,

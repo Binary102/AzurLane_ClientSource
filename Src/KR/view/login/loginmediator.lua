@@ -13,27 +13,33 @@ function slot0.register(slot0)
 	slot0:bind(slot0.ON_SERVER, function (slot0, slot1)
 		slot0:sendNotification(GAME.SERVER_LOGIN, slot1)
 	end)
+	slot0:loginProcessHandler()
+end
 
+function slot0.loginProcessHandler(slot0)
 	slot1 = getProxy(SettingsProxy)
+	slot2 = pg.SdkMgr.GetInstance():GetLoginType()
 	slot0.process = coroutine.wrap(function ()
-		if not slot0:getUserAgreement() then
-			slot0:setUserAgreement()
+		if not slot0:getUserAgreement() and PLATFORM_KR ~= PLATFORM_CODE then
+			slot1.viewComponent:showUserAgreement(slot1.process)
+			coroutine.yield()
+			coroutine.yield:setUserAgreement()
 		end
 
 		slot0 = nil
 
-		if isPlatform() then
-			if isTencent() then
-				slot1.viewComponent:switchToTencentLogin()
-			else
-				slot1.viewComponent:switchToServer()
-			end
-		else
+		if slot2 == LoginType.PLATFORM then
+			slot1.viewComponent:switchToServer()
+		elseif slot2 == LoginType.PLATFORM_TENCENT then
+			slot1.viewComponent:switchToTencentLogin()
+		elseif slot2 == LoginType.PLATFORM_INNER then
 			slot1.viewComponent:switchToLogin()
 
 			slot1 = getProxy(UserProxy)
 
 			slot1.viewComponent:setLastLogin(slot1:getLastLoginUser())
+		elseif slot2 == LoginType.PLATFORM_AIRIJP or slot2 == LoginType.PLATFORM_AIRIUS then
+			slot1.viewComponent:switchToAiriLogin()
 		end
 
 		slot1:CheckMaintain()
@@ -53,8 +59,12 @@ function slot0.register(slot0)
 						i18n("login_loginMediator_serverLoginErro"),
 						i18n("login_loginMediator_vertifyFail"),
 						[99] = i18n("login_loginMediator_dataExpired")
-					})[slot1.contextData.code] or i18n("login_loginMediator_kickUndefined", slot1.contextData.code)
+					})[slot1.contextData.code] or i18n("login_loginMediator_kickUndefined", slot1.contextData.code),
+					onYes = function ()
+						slot0.process()
+					end
 				})
+				coroutine.yield()
 			end
 
 			if slot0 then
@@ -70,15 +80,17 @@ function slot0.register(slot0)
 			slot1.viewComponent:setAutoLogin()
 		end
 
-		if slot1.contextData.loginPlatform then
-			pg.SDKMgr:GetInstance():login(0)
-		elseif isTencent() then
-			pg.SDKMgr:GetInstance():tryTencLogin()
+		if slot2 == LoginType.PLATFORM then
+			pg.SdkMgr.GetInstance():LoginSdk()
+		elseif slot2 == LoginType.PLATFORM_TENCENT then
+			pg.SdkMgr.GetInstance():TryLoginSdk()
+		elseif slot2 == LoginType.PLATFORM_INNER then
 		end
 
 		slot1.viewComponent:autoLogin()
 	end)
 
+	slot0.viewComponent:switchToAiriLogin()
 	slot0.process()
 end
 
@@ -90,7 +102,7 @@ function slot0.CheckMaintain(slot0)
 
 	VersionMgr.Inst:GetServerState(function (slot0)
 		if slot0 == slot0 then
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("login_loginMediator_kickServerClose"),
 				onNo = function ()
 					slot0.process()
@@ -134,7 +146,7 @@ function slot0.handleNotification(slot0, slot1)
 	if slot1:getName() == ServerProxy.SERVERS_UPDATED then
 		slot0.viewComponent:updateServerList(slot3)
 	elseif slot2 == GAME.USER_LOGIN_SUCCESS then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("login_loginMediator_loginSuccess"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("login_loginMediator_loginSuccess"))
 		slot0.viewComponent:setLastLoginServer(slot5)
 		slot0.viewComponent:switchToServer()
 
@@ -181,7 +193,7 @@ function slot0.handleNotification(slot0, slot1)
 					slot1.viewComponent:switchToServer()
 				elseif slot0 == 1 or slot0 == 9 or slot0 == 11 or slot0 == 12 then
 					slot1.viewComponent:switchToLogin()
-				elseif isPlatform() then
+				elseif pg.SdkMgr.GetInstance():GetLoginType() == LoginType.PLATFORM or slot0 == LoginType.PLATFORM_TENCENT then
 					slot1.viewComponent:switchToServer()
 				else
 					slot1.viewComponent:switchToLogin()
@@ -194,7 +206,7 @@ function slot0.handleNotification(slot0, slot1)
 			hideNo = true,
 			content = errorTip("login_loginMediator_serverLoginFail", slot3),
 			onYes = function ()
-				if isPlatform() then
+				if pg.SdkMgr.GetInstance():GetLoginType() == LoginType.PLATFORM or LoginType.PLATFORM_TENCENT then
 					slot0.viewComponent:switchToServer()
 				else
 					slot0.viewComponent:switchToLogin()

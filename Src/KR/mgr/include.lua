@@ -19,11 +19,12 @@ require("Mgr/Live2DMgr")
 require("Mgr/TecToastMgr")
 require("Mgr/SeriesGuideMgr")
 require("Mgr/GuideMgr")
-require("Mgr/SDKMgr")
 require("Mgr/TrophyReminderMgr")
 require("Mgr/LayerWeightMgr")
 require("Mgr/const/LayerWeightConst")
 require("Mgr/ToastMgr")
 require("Mgr/SecondaryPWDMgr")
+require("Mgr/Sdk/SdkMgr")
+require("Mgr/Tracker/TrackerMgr")
 
 return

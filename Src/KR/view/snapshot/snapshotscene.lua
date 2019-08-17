@@ -11,26 +11,12 @@ function slot0.getUIName(slot0)
 	return "snapshot"
 end
 
-function slot0.callfuncRecodingStarted(slot0)
-	print("=====>>>>> Everyplay RecordingStarted")
-end
-
-function slot0.callfuncRecordingStopped(slot0)
-	print("=====>>>>> Everyplay RecordingStopped")
-end
-
 function slot0.init(slot0)
 	setActive(pg.UIMgr.GetInstance().OverlayEffect, false)
 
 	slot0.dummy = slot0:findTF("SnapshotInvisible")
 
 	slot0:SetDummyForIOS(true)
-
-	Everyplay.RecordingStarted = Everyplay.RecordingStarted + slot0:callfuncRecodingStarted()
-	Everyplay.RecordingStopped = Everyplay.RecordingStopped + slot0:callfuncRecordingStopped()
-
-	Everyplay.SetTargetFPS(60)
-	Everyplay.SetAudioResamplerQuality(1)
 
 	slot0.ui = slot0:findTF("ui")
 	slot0.backBtn = slot0:findTF("ui/back")
@@ -140,26 +126,10 @@ function slot0.back(slot0)
 end
 
 function slot0.saveVideo(slot0)
-	pg.UIMgr.GetInstance():LoadingOff()
-	print("=====>>>>> save video")
-
-	Everyplay.FileReady = Everyplay.FileReady - slot0.saveVideo
-	slot1 = pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t")
-	slot2 = "azur" .. slot1.year .. slot1.month .. slot1.day .. slot1.hour .. slot1.min .. slot1.sec .. ".mp4"
-
-	pg.MsgboxMgr:GetInstance():ShowMsgBox({
+	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		content = i18n("word_save_video"),
 		onYes = function ()
-			slot0 = slot0:find("file:///private") and slot0:sub(16)
-
-			NativeGallery.SaveVideoToGalleryByPath(NativeGallery.SaveVideoToGalleryByPath, "Camera", , NativeGallery.MediaSaveCallback(function (slot0)
-				if slot0 then
-					print(slot0)
-				else
-					pg.TipsMgr:GetInstance():ShowTips(i18n("word_save_ok"))
-					print("save success")
-				end
-			end))
+			YARecorder.Inst:DiscardVideo()
 		end
 	})
 end
@@ -180,13 +150,21 @@ function slot0.didEnter(slot0)
 			setActive.webcam:Take(function (slot0)
 				slot1 = UnityEngine.Texture2D.New(Screen.width, Screen.height)
 
-				slot1:LoadImage(slot0)
+				Tex2DExtension.LoadImage(slot1, slot0)
 				slot0:emit(slot1.SHARE_PANEL, slot1, slot0)
+
+				if PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetChannelUID() == "2" then
+					print("start photo : play sound")
+					NotificationMgr.Inst:PlayShutterSound()
+				end
 			end)
 		elseif slot0.state == slot1.STATE_TAKE_VIDEO then
+			slot0 = pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t")
+			slot1 = "azur" .. slot0.year .. slot0.month .. slot0.day .. slot0.hour .. slot0.min .. slot0.sec
+
 			setActive(slot0.ui, false)
 
-			if not PlayerPrefs.GetInt("hadShowForVideoTip") or slot0 <= 0 then
+			if not PlayerPrefs.GetInt("hadShowForVideoTip") or slot2 <= 0 then
 				PlayerPrefs.SetInt("hadShowForVideoTip", 1)
 
 				slot0:findTF("Text", slot0.videoTipPanel):GetComponent("Text").text = i18n("word_take_video_tip")
@@ -196,15 +174,22 @@ function slot0.didEnter(slot0)
 					setActive(slot0.stopRecBtn, true)
 					LeanTween.moveX(slot0.stopRecBtn, 0, 0.15):setOnComplete(System.Action(function ()
 						slot0:SetMute(true)
-						Everyplay.StartRecording()
+						YARecorder.Inst:SetVideoFilename(YARecorder.Inst)
+						YARecorder.Inst:StartRecording()
 					end))
+
+					if PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetChannelUID() == "2" then
+						print("start recording : play sound")
+						NotificationMgr.Inst:PlayStartRecordSound()
+					end
 				end)
 				setActive(slot0.videoTipPanel, true)
 			else
 				setActive(slot0.stopRecBtn, true)
 				LeanTween.moveX(slot0.stopRecBtn, 0, 0.15):setOnComplete(System.Action(function ()
 					slot0:SetMute(true)
-					Everyplay.StartRecording()
+					YARecorder.Inst:SetVideoFilename(YARecorder.Inst)
+					YARecorder.Inst:StartRecording()
 				end))
 			end
 		end
@@ -241,20 +226,39 @@ function slot0.didEnter(slot0)
 		end
 	end)
 	onButton(slot0, slot0.takePhotoBtn, slot1)
-	onButton(slot0, slot0.takeVideoBtn, slot2)
+	onButton(slot0, slot0.takeVideoBtn, function ()
+		if CheckPermissionGranted(ANDROID_RECORD_AUDIO_PERMISSION) and CheckPermissionGranted(ANDROID_WRITE_EXTERNAL_PERMISSION) then
+			slot0:changeToTakeVideo()
+		else
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("apply_permission_record_audio_tip1"),
+				onYes = function ()
+					ApplyPermission({
+						ANDROID_RECORD_AUDIO_PERMISSION,
+						ANDROID_WRITE_EXTERNAL_PERMISSION
+					})
+				end
+			})
+		end
+	end)
 	slot1()
 	onButton(slot0, slot0.stopRecBtn, function ()
 		if not LeanTween.isTweening(go(slot0.stopRecBtn)) then
 			LeanTween.moveX(slot0.stopRecBtn, slot0.stopRecBtn.rect.width, 0.15):setOnComplete(System.Action(function ()
-				pg.UIMgr.GetInstance():LoadingOn()
 				setActive(slot0.ui, true)
 				setActive(slot0.stopRecBtn, false)
-				Everyplay.StopRecording()
-				Everyplay.StopRecording:SetMute(false)
+				YARecorder.Inst:StopRecording()
 
-				Everyplay.FileReady = Everyplay.FileReady + slot1.saveVideo
+				if PLATFORM == PLATFORM_ANDROID then
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = i18n("word_save_video"),
+						onNo = function ()
+							YARecorder.Inst:DiscardVideo()
+						end
+					})
+				end
 
-				Everyplay.GetFilepath()
+				slot0:SetMute(false)
 			end))
 		end
 	end)
@@ -294,13 +298,21 @@ function slot0.didEnter(slot0)
 	slot0:updateShowType()
 end
 
+function slot0.changeToTakeVideo(slot0)
+	if slot0.state == slot0.STATE_TAKE_VIDEO then
+		return
+	end
+
+	slot0.state = slot0.STATE_TAKE_VIDEO
+
+	LeanTween.moveY(rtf(slot0.modePnlTF), -56, 0.1)
+	SetActive(slot0.videoTakeImg, true)
+end
+
 function slot0.willExit(slot0)
 	slot0:SetDummyForIOS(false)
 	cameraPaintViewAdjust(false)
 	slot0:clearSkin()
-
-	Everyplay.RecordingStarted = Everyplay.RecordingStarted - slot0:callfuncRecodingStarted()
-	Everyplay.RecordingStopped = Everyplay.RecordingStopped - slot0:callfuncRecordingStopped()
 
 	if slot0.live2dCom then
 		Destroy(slot0.live2dCom.gameObject)

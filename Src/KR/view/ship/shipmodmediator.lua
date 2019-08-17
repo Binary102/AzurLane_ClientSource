@@ -41,7 +41,7 @@ function slot0.register(slot0)
 			slot0.viewComponent:initSelectedShips()
 			slot0.viewComponent:initAttrs()
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("without_selected_ship"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("without_selected_ship"))
 		end
 	end)
 	slot0:bind(slot0.MOD_SHIP, function (slot0, slot1)
@@ -145,7 +145,7 @@ function slot0.handleNotification(slot0, slot1)
 
 		slot0.viewComponent:setShip(slot3.newShip)
 		slot0.viewComponent:modAttrAnim(slot3.newShip, slot3.oldShip)
-		pg.TipsMgr:GetInstance():ShowTips(i18n("ship_shipModLayer_modSuccess"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_shipModLayer_modSuccess"))
 
 		if table.getCount(slot3.equipments) > 0 then
 			slot4 = {}

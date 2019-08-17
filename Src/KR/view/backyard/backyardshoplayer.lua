@@ -91,7 +91,7 @@ function slot0.init(slot0)
 
 	slot0.resGem = slot0:findTF("shopPanel/res_gem/Text")
 	slot0.resDormMoney = slot0:findTF("shopPanel/res_dorm/Text")
-	slot0._overlayUIMain = pg.UIMgr:GetInstance().OverlayMain
+	slot0._overlayUIMain = pg.UIMgr.GetInstance().OverlayMain
 	slot0.msgBoxPanel = slot0:findTF("msgBox")
 	slot0.orderFlag = nil
 	slot0.searchInput = slot0:findTF("bg/filter_panel/InputField", slot0.shopPanel)
@@ -324,7 +324,7 @@ function slot0.openItemDesc(slot0, slot1)
 	slot0.isOpenItemDesc = true
 
 	SetActive(slot0.descPanel, true)
-	setParent(slot0.descPanel, pg.UIMgr:GetInstance().OverlayMain)
+	setParent(slot0.descPanel, pg.UIMgr.GetInstance().OverlayMain)
 	slot0:updateThemeDesc(slot1)
 	slot0:updateSubThemeList(slot1:getConfig("ids"))
 end
@@ -411,7 +411,7 @@ function slot0.onInitThemeDesc(slot0, slot1)
 			end
 
 			if not slot0.furnitureVO:inTime() then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("buy_furniture_overtime"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("buy_furniture_overtime"))
 
 				return
 			end
@@ -568,7 +568,7 @@ function slot0.onInitFurnitrue(slot0, slot1)
 				slot1 = pg.backyard_theme_template[slot0.furnitureVO:getConfig("themeId")]
 
 				if slot0.furnitureVO:inTheme() and slot1.playerVO.level < slot1.deblocking then
-					pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_theme_lock_tip"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_theme_lock_tip"))
 
 					return
 				end

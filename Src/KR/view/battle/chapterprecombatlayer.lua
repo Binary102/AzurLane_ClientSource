@@ -168,7 +168,7 @@ function slot0.updateView(slot0, slot1)
 	slot2 = nil
 
 	coroutine.wrap(function ()
-		pg.UIMgr:GetInstance():LoadingOn()
+		pg.UIMgr.GetInstance():LoadingOn()
 		pg.UIMgr.GetInstance().LoadingOn:resetGrid(TeamType.Vanguard)
 		pg.UIMgr.GetInstance().LoadingOn.resetGrid:resetGrid(TeamType.Main)
 		SetActive(slot0._gridTFs[TeamType.Main][1]:Find("flag"), true)
@@ -190,7 +190,7 @@ function slot0.updateView(slot0, slot1)
 		coroutine.yield()
 		coroutine.yield:updateStrategyIcon()
 		coroutine.yield.updateStrategyIcon:displayFleetInfo()
-		pg.UIMgr:GetInstance():LoadingOff()
+		pg.UIMgr.GetInstance():LoadingOff()
 	end)()
 end
 

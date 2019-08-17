@@ -64,9 +64,8 @@ function slot2(slot0)
 	slot1 = slot0
 	slot1 = slot1.Battle
 	slot1 = slot1.BattleState
-	slot2 = slot1
 	slot1 = slot1.GetInstance
-	slot1 = slot1(slot2)
+	slot1 = slot1()
 	slot2 = slot1
 	slot1 = slot1.GetMediatorByName
 	slot3 = slot0
@@ -83,10 +82,9 @@ function slot2(slot0)
 	slot1 = slot0
 	slot1 = slot1.Battle
 	slot1 = slot1.BattleFXPool
-	slot2 = slot1
 	slot1 = slot1.GetInstance
 
-	return slot1(slot2)
+	return slot1()
 end
 
 slot1.GetFXPool = slot2
@@ -95,10 +93,9 @@ function slot2(slot0)
 	slot1 = slot0
 	slot1 = slot1.Battle
 	slot1 = slot1.BattleResourceManager
-	slot2 = slot1
 	slot1 = slot1.GetInstance
 
-	return slot1(slot2)
+	return slot1()
 end
 
 slot1.GetCharacterPool = slot2
@@ -107,10 +104,9 @@ function slot2(slot0)
 	slot1 = slot0
 	slot1 = slot1.Battle
 	slot1 = slot1.BattleHPBarManager
-	slot2 = slot1
 	slot1 = slot1.GetInstance
 
-	return slot1(slot2)
+	return slot1()
 end
 
 slot1.GetHPBarPool = slot2
@@ -119,9 +115,8 @@ function slot2(slot0)
 	slot1 = slot0
 	slot1 = slot1.Battle
 	slot1 = slot1.BattleDataProxy
-	slot2 = slot1
 	slot1 = slot1.GetInstance
-	slot1 = slot1(slot2)
+	slot1 = slot1()
 	slot1 = slot1._mapId
 	slot2 = slot0
 	slot2 = slot2.Battle
@@ -146,10 +141,9 @@ function slot2(slot0)
 	slot1 = slot0
 	slot1 = slot1.Battle
 	slot1 = slot1.BattleCharacterFXContainersPool
-	slot2 = slot1
 	slot1 = slot1.GetInstance
 
-	return slot1(slot2)
+	return slot1()
 end
 
 slot1.GetFXContainerPool = slot2

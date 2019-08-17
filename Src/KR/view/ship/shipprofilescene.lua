@@ -38,7 +38,7 @@ function slot0.preload(slot0, slot1)
 end
 
 function slot0.reloadCVKey(slot0)
-	slot0.currentSkin = slot0.groupSkinList[1]
+	slot0.currentSkin = slot0.currentSkin or slot0.groupSkinList[1]
 	slot0.currentSkinWord = pg.ship_skin_words[slot0.currentSkin.id]
 	slot0.currentSkinWordEx = pg.ship_skin_words_extra[slot0.currentSkin.id]
 
@@ -667,7 +667,7 @@ function slot0.initProfile(slot0)
 			else
 				slot12:setText(HXSet.hxLan(slot10.name))
 				onButton(slot0, slot11, function ()
-					pg.TipsMgr:GetInstance():ShowTips(i18n("ship_profile_skin_locked"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("ship_profile_skin_locked"))
 				end)
 				setActive(slot11:Find("lock"), true)
 			end
@@ -1034,7 +1034,7 @@ function slot0.appendVoiceButton(slot0, slot1, slot2)
 				slot1.l2dChar:TriggerAction(slot5.l2d_action)
 			end
 		else
-			pg.TipsMgr:GetInstance():ShowTips(slot6)
+			pg.TipsMgr.GetInstance():ShowTips(slot6)
 		end
 	end)
 	slot0:appendVoiceExButton(slot1, slot6)

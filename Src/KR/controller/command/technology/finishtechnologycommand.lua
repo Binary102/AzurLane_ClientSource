@@ -42,7 +42,7 @@ class("FinishTechnologyCommand", pm.SimpleCommand).execute = function (slot0, sl
 				commons = slot2
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("technology_finish_erro") .. slot0.result)
+			pg.TipsMgr.GetInstance():ShowTips(i18n("technology_finish_erro") .. slot0.result)
 		end
 	end)
 end

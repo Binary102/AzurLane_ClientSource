@@ -13,7 +13,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 101,
 		time_limit_type = 0,
-		desc = "항구에서 1년 동안 계속해서 분투를 하신 지휘관 님들께 바칩니다.\n<color=#A7A7AAFF> [재탄생의 새벽]을 개시하면 기념 코인을 획득할 수 있습니다.</color>",
+		desc = "항구에서 1년 동안 계속해서 분투를 하신 지휘관 님들께 바칩니다.\n<color=#A7A7AAFF> [재탄생의 새벽]을 개시하면 기념 코인을 획득.</color>",
 		scene = {}
 	},
 	[201] = {
@@ -21,7 +21,15 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 201,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>모든 용기를 내어 극한에 도전하는 지휘관 여러분께 바칩니다.</color>\n「한계 챌린지」 참여를 통해 획득할 수 있습니다. ",
+		desc = "<color=#ffffff>모든 용기를 내어 극한에 도전하는 지휘관 여러분께 바칩니다.</color>\n「한계 챌린지」 참여를 통해 획득할 수 있습니다. （19.06.06-19.07.28）",
+		scene = {}
+	},
+	[202] = {
+		name = "한계 챌린저 II",
+		time_second = 0,
+		id = 202,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>모든 용기를 내어 극한에 도전하는 지휘관 여러분께 바칩니다.</color>\n「한계 챌린지」 참여를 통해 획득할 수 있습니다. （19.08.15-19.10.6）",
 		scene = {}
 	},
 	[300] = {
@@ -60,6 +68,7 @@ pg.item_data_frame = {
 		0,
 		101,
 		201,
+		202,
 		300,
 		301,
 		302,

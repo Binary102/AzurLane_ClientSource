@@ -40,7 +40,7 @@ function slot0.register(slot0)
 		if Task.New({
 			id = slot1
 		}).getConfig(slot2, "sub_type") == TASK_SUB_TYPE_GIVE_ITEM then
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("blueprint_commit_tip", getDropInfo({
 					{
 						DROP_TYPE_ITEM,
@@ -53,7 +53,7 @@ function slot0.register(slot0)
 				end
 			})
 		elseif slot2:getConfig("sub_type") == TASK_SUB_TYPE_PLAYER_RES then
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("blueprint_commit_tip", getDropInfo({
 					{
 						DROP_TYPE_RESOURCE,
@@ -168,7 +168,7 @@ function slot0.handleNotification(slot0, slot1)
 				canSkipBatch = slot3.canSkipBatch
 			},
 			onRemoved = function ()
-				pg.StoryMgr:GetInstance():Play("FANGAN2")
+				pg.StoryMgr.GetInstance():Play("FANGAN2")
 			end
 		}))
 	elseif GAME.STOP_BLUEPRINT_DONE == slot2 then

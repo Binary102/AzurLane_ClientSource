@@ -12,7 +12,7 @@ class("ChapterOpCommand", import(".ChapterOpRoutine")).execute = function (slot0
 		slot0:sendNotification(GAME.CHAPTER_OP_DONE, {
 			type = slot2.type
 		})
-		pg.TipsMgr:GetInstance():ShowTips(i18n("formation_switch_success", slot4.fleet.name))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("formation_switch_success", slot4.fleet.name))
 
 		return
 	elseif slot2.type == ChapterConst.OpRetreat then

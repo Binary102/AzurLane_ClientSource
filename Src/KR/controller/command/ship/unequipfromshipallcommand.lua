@@ -2,7 +2,7 @@ slot0 = class("UnEquipFromShipAllCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
 	if getProxy(BayProxy):getShipById(slot1:getBody().shipId) == nil then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("ship_error_noShip", slot3))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_error_noShip", slot3))
 
 		return
 	end
@@ -27,7 +27,7 @@ end
 
 function slot0.fun(slot0, slot1, slot2, slot3)
 	if slot3 < slot2 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("ship_unequip_all_success"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_unequip_all_success"))
 
 		return
 	end
@@ -55,7 +55,7 @@ function slot0.fun(slot0, slot1, slot2, slot3)
 
 				slot0.skinId = 0
 
-				pg.TipsMgr:GetInstance():ShowTips(i18n("equipment_skin_unload"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_unload"))
 			end
 
 			slot1:updateEquip(slot1.updateEquip, nil)
@@ -63,7 +63,7 @@ function slot0.fun(slot0, slot1, slot2, slot3)
 			slot1:addEquipment(slot0)
 			slot4:fun(slot1, slot2 + 1, )
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("ship_unequipFromShip", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_unequipFromShip", slot0.result))
 		end
 	end)
 end

@@ -3,7 +3,7 @@ class("UserLoginCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 	print("connect to gateway - " .. NetConst.GATEWAY_HOST .. ":" .. NetConst.GATEWAY_PORT)
 
-	if pg.SDKMgr:GetInstance():GetChannelUID() == "" then
+	if pg.SdkMgr.GetInstance():GetChannelUID() == "" then
 		slot3 = PLATFORM_LOCAL
 	end
 
@@ -27,7 +27,7 @@ class("UserLoginCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			pg.ConnectionMgr.GetInstance():Disconnect()
 
 			if slot0.device ~= 0 and slot0.device ~= PLATFORM then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("login_failed"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("login_failed"))
 
 				return
 			end
@@ -69,16 +69,22 @@ class("UserLoginCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				slot1.facade:sendNotification(GAME.USER_LOGIN_SUCCESS, slot0)
 				pg.PushNotificationMgr.GetInstance():cancelAll()
 				print("user logined............", #slot2)
-			elseif slot0.result == 13 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("login_gate_not_ready"))
-			elseif slot0.result == 15 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("login_game_rigister_full"))
-			elseif slot0.result == 18 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("system_database_busy"))
-			elseif slot0.result == 6 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("login_game_login_full"))
+				pg.SdkMgr.GetInstance():SdkGateWayLogined()
 			else
-				slot1.facade:sendNotification(GAME.USER_LOGIN_FAILED, slot0.result)
+				pg.SdkMgr.GetInstance():SdkLoginGetaWayFailed()
+				print("user login failed ............")
+
+				if slot0.result == 13 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("login_gate_not_ready"))
+				elseif slot0.result == 15 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("login_game_rigister_full"))
+				elseif slot0.result == 18 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("system_database_busy"))
+				elseif slot0.result == 6 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("login_game_login_full"))
+				else
+					slot1.facade:sendNotification(GAME.USER_LOGIN_FAILED, slot0.result)
+				end
 			end
 		end, false)
 	end)

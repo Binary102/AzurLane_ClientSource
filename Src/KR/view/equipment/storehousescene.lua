@@ -841,7 +841,7 @@ function slot0.selectEquip(slot0, slot1, slot2)
 
 			if not slot6 then
 				if slot7 then
-					pg.TipsMgr:GetInstance():ShowTips(slot7)
+					pg.TipsMgr.GetInstance():ShowTips(slot7)
 				end
 
 				return
@@ -862,7 +862,7 @@ function slot0.selectEquip(slot0, slot1, slot2)
 					slot2
 				}
 			else
-				pg.TipsMgr:GetInstance():ShowTips(i18n("equipment_equipmentScene_selectError_more", slot0.selectedMax))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_equipmentScene_selectError_more", slot0.selectedMax))
 
 				return
 			end
@@ -903,7 +903,7 @@ function slot0.checkDestroyGold(slot0, slot1, slot2)
 	end
 
 	if slot0.player:GoldMax(slot3) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_destroy"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_destroy"))
 
 		return false
 	end

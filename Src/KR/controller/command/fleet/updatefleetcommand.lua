@@ -30,7 +30,7 @@ class("UpdateFleetCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 			slot4:sendNotification(GAME.UPDATE_FLEET_DONE, slot0.id)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("fleet_updateFleet", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("fleet_updateFleet", slot0.result))
 		end
 
 		if slot5 ~= nil then

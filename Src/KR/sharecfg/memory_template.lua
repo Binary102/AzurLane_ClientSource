@@ -8030,6 +8030,61 @@ pg.memory_template = {
 		icon = "memory_xiangtingliaofa",
 		is_open = 0
 	},
+	[884] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "새로운 전설?",
+		condition = "[바다의 아이돌] 이벤트 시작",
+		story = "SALATUOJIAHAIBAO1",
+		id = 884,
+		icon = "memory_salatuojiahaibao",
+		is_open = 0
+	},
+	[885] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "추적",
+		condition = "누적 PT 1000 달성",
+		story = "SALATUOJIAHAIBAO2",
+		id = 885,
+		icon = "memory_salatuojiahaibao",
+		is_open = 0
+	},
+	[886] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "작은 에피소드",
+		condition = "누적 PT 2000 달성",
+		story = "SALATUOJIAHAIBAO3",
+		id = 886,
+		icon = "memory_salatuojiahaibao",
+		is_open = 0
+	},
+	[887] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "여정의 끝",
+		condition = "누적 PT 3000 달성",
+		story = "SALATUOJIAHAIBAO4",
+		id = 887,
+		icon = "memory_salatuojiahaibao",
+		is_open = 0
+	},
+	[888] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "즐거운 한 때",
+		condition = "누적 PT 4000 달성",
+		story = "SALATUOJIAHAIBAO5",
+		id = 888,
+		icon = "memory_salatuojiahaibao",
+		is_open = 0
+	},
 	[10000] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -9498,6 +9553,11 @@ pg.memory_template = {
 		881,
 		882,
 		883,
+		884,
+		885,
+		886,
+		887,
+		888,
 		10000,
 		10001,
 		10002,

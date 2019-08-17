@@ -216,10 +216,10 @@ function slot0.updateCountdown(slot0, slot1)
 	slot3 = pg.TimeMgr:GetInstance()
 
 	if slot1 then
-		setActive(slot0.countDown, slot3:DiffDay(slot3:GetServerTime(), pg.TimeMgr:GetInstance():Table2ServerTime(slot1)) < 365)
-		slot4()
+		setActive(slot0.countDown, slot3:DiffDay(slot3:GetServerTime(), pg.TimeMgr.GetInstance():Table2ServerTime(slot1)) < 365)
+		slot5()
 
-		slot5 = slot3:Table2ServerTime(slot1)
+		slot6 = pg.TimeMgr.GetInstance().Table2ServerTime(slot4, slot1)
 		slot0.updateTimer = Timer.New(function ()
 			if slot0 < slot0:GetServerTime() then
 				slot2()

@@ -100,7 +100,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "啊……",
+			say = "아…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

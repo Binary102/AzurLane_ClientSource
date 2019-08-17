@@ -62,8 +62,8 @@ function pg.ShareMgr.Init(slot0)
 end
 
 function pg.ShareMgr.Share(slot0, slot1, slot2)
-	if not WBManager.IsSupportShare() then
-		slot0.TipsMgr.GetInstance():ShowTips(i18n("non_support_share"))
+	if PLATFORM_CODE ~= PLATFORM_JP and PLATFORM_CODE ~= PLATFORM_US and PLATFORM_CODE ~= PLATFORM_KR and not WBManager.IsSupportShare() then
+		slot0.TipsMgr.GetInstance():ShowTips("指挥官，当前平台暂不支持分享功能哦")
 
 		return
 	end
@@ -159,6 +159,8 @@ function pg.ShareMgr.Share(slot0, slot1, slot2)
 	SetParent(slot0.deckTF, slot12, false)
 	slot0.deckTF:SetAsLastSibling()
 
+	slot13 = ScreenShooter.New(Screen.width, Screen.height, TextureFormat.ARGB32)
+
 	if not slot5.server then
 		slot7 = 0
 	end
@@ -173,11 +175,24 @@ function pg.ShareMgr.Share(slot0, slot1, slot2)
 
 	slot10 = 
 
-	if ScreenShooter.New(Screen.width, Screen.height, TextureFormat.ARGB32):Take(GameObject.Find(slot3.camera):GetComponent(typeof(Camera)), slot0.screenshot) then
-		print("截图位置: " .. slot0.screenshot)
-		slot0:Show(slot3)
+	if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and slot0.SdkMgr.GetInstance():GetIsPlatform() then
+		slot0.SdkMgr.GetInstance():GameShare(slot3.description, slot14)
+		slot0.UIMgr.GetInstance():LoadingOn()
+
+		time = Timer.New(function ()
+			slot0.UIMgr.GetInstance():LoadingOff()
+
+			return
+		end, 2, 0, 1)
+
+		time:Start()
 	else
-		slot0.TipsMgr:GetInstance():ShowTips(i18n("shoot_screen_fail"))
+		if slot13:Take(slot11, slot0.screenshot) then
+			print("截图位置: " .. slot0.screenshot)
+			slot0:Show(slot3)
+		else
+			slot0.TipsMgr.GetInstance():ShowTips("截图失败")
+		end
 	end
 
 	SetParent(slot9, slot0.tr, false)
@@ -220,21 +235,22 @@ function pg.ShareMgr.Show(slot0, slot1)
 	onButton(slot0, slot0.panel:Find("main/buttons/weibo"), function ()
 		WBManager.Inst:Share(slot0.description, slot1.screenshot, function (slot0, slot1)
 			if slot0 and slot1 == 0 then
-				slot0.TipsMgr:GetInstance():ShowTips(i18n("share_success"))
+				slot0.TipsMgr.GetInstance():ShowTips("分享成功")
 			end
 
 			return
 		end)
+		slot1.screenshot()
 
 		return
 	end)
 	onButton(slot0, slot0.panel:Find("main/buttons/weixin"), function ()
 		WXManager.Inst:Share(slot0.description, slot1.screenshot, function (slot0, slot1)
 			if slot0 and slot1 == 0 then
-				slot0.TipsMgr:GetInstance():ShowTips(i18n("share_success"))
+				slot0.TipsMgr.GetInstance():ShowTips("分享成功")
 			else
 				if slot1 == 99 then
-					slot0.TipsMgr:GetInstance():ShowTips(i18n("not_install_app"))
+					slot0.TipsMgr.GetInstance():ShowTips("指挥官，你没有安装微信客户端哦")
 				end
 			end
 
@@ -244,18 +260,21 @@ function pg.ShareMgr.Show(slot0, slot1)
 
 		return
 	end)
-	onButton(nil, slot0.panel:Find("main/buttons/facebook"), function ()
-		slot0.SDKMgr:GetInstance():shareImg(slot1.screenshot, function (slot0, slot1)
-			if slot0 and slot1 == 0 then
-				slot0.TipsMgr:GetInstance():ShowTips(i18n("share_success"))
-			end
+
+	if PLATFORM_CODE == PLATFORM_KR then
+		onButton(slot0, slot0.panel:Find("main/buttons/facebook"), function ()
+			slot0.SdkMgr.GetInstance():ShareImg(slot1.screenshot, function (slot0, slot1)
+				if slot0 and slot1 == 0 then
+					slot0.TipsMgr.GetInstance():ShowTips(i18n("share_success"))
+				end
+
+				return
+			end)
+			slot1.screenshot()
 
 			return
 		end)
-		slot1.screenshot()
-
-		return
-	end)
+	end
 
 	return
 end

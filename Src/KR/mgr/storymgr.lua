@@ -53,7 +53,8 @@ end
 slot10 = {
 	"",
 	"JP",
-	"KR"
+	"KR",
+	"US"
 }
 
 function slot11(slot0, slot1)
@@ -486,9 +487,8 @@ function slot16(slot0, slot1, slot2, slot3)
 
 	slot5 = pg
 	slot5 = slot5.GuideMgr
-	slot6 = slot5
 	slot5 = slot5.GetInstance
-	slot5 = slot5(slot6)
+	slot5 = slot5()
 	slot6 = slot5
 	slot5 = slot5.canPlay
 	slot5 = slot5(slot6)
@@ -501,41 +501,36 @@ function slot16(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	slot5 = PLATFORM_CODE
-	slot6 = PLATFORM_JP
+	if slot1 == "SYG001" then
+		slot5 = pg
+		slot5 = slot5.TrackerMgr
+		slot5 = slot5.GetInstance
+		slot5 = slot5()
+		slot6 = slot5
+		slot5 = slot5.Tracking
+		slot7 = TRACKING_TUTORIAL_COMPLETE_2
 
-	if slot5 ~= slot6 then
-		slot5 = PLATFORM_CODE
-		slot6 = PLATFORM_US
+		slot5(slot6, slot7)
+	elseif slot1 == "SYG003" then
+		slot5 = pg
+		slot5 = slot5.TrackerMgr
+		slot5 = slot5.GetInstance
+		slot5 = slot5()
+		slot6 = slot5
+		slot5 = slot5.Tracking
+		slot7 = TRACKING_TUTORIAL_COMPLETE_3
 
-		if slot5 == slot6 then
-			slot5 = getProxy
-			slot6 = PlayerProxy
-			slot5 = slot5(slot6)
-			slot6 = slot5
-			slot5 = slot5.getData
-			slot5 = slot5(slot6)
+		slot5(slot6, slot7)
+	elseif slot1 == "SYG006" then
+		slot5 = pg
+		slot5 = slot5.TrackerMgr
+		slot5 = slot5.GetInstance
+		slot5 = slot5()
+		slot6 = slot5
+		slot5 = slot5.Tracking
+		slot7 = TRACKING_TUTORIAL_COMPLETE_4
 
-			if slot1 == "SYG001" then
-				slot6 = SendAiriJPTracking
-				slot7 = AIRIJP_TRACKING_TUTORIAL_COMPLETE_2
-				slot8 = slot5.id
-
-				slot6(slot7, slot8)
-			elseif slot1 == "SYG003" then
-				slot6 = SendAiriJPTracking
-				slot7 = AIRIJP_TRACKING_TUTORIAL_COMPLETE_3
-				slot8 = slot5.id
-
-				slot6(slot7, slot8)
-			elseif slot1 == "SYG006" then
-				slot6 = SendAiriJPTracking
-				slot7 = AIRIJP_TRACKING_TUTORIAL_COMPLETE_4
-				slot8 = slot5.id
-
-				slot6(slot7, slot8)
-			end
-		end
+		slot5(slot6, slot7)
 	end
 
 	slot5 = pg
@@ -552,9 +547,8 @@ function slot16(slot0, slot1, slot2, slot3)
 
 	slot5 = pg
 	slot5 = slot5.GuideMgr
-	slot6 = slot5
 	slot5 = slot5.GetInstance
-	slot5 = slot5(slot6)
+	slot5 = slot5()
 	slot6 = slot5
 	slot5 = slot5.play
 	slot7 = slot1
@@ -1958,9 +1952,8 @@ function slot17(slot0, slot1, slot2, slot3, slot4)
 		else
 			slot1 = pg
 			slot1 = slot1.MsgboxMgr
-			slot2 = slot1
 			slot1 = slot1.GetInstance
-			slot1 = slot1(slot2)
+			slot1 = slot1()
 			slot2 = slot1
 			slot1 = slot1.ShowMsgBox
 			slot3 = {}
@@ -5579,64 +5572,75 @@ function slot17(slot0, slot1)
 					slot2 = slot1
 					slot2 = slot2.name
 					slot1 = slot1[slot2]
+					slot2 = slot0
+					slot2 = slot2.isLoadingEffect
 
-					if not slot1 then
-						slot2 = LoadAndInstantiateAsync
-						slot3 = "ui"
-						slot4 = slot1
-						slot4 = slot4.name
-
-						function slot5(slot0)
-							slot1 = slot0
-							slot1 = slot1.name
-							slot0.name = slot1
-							slot1 = setParent
-							slot2 = slot0
-							slot3 = slot1
-							slot3 = slot3._effectPanel
-							slot3 = slot3.transform
-
-							slot1(slot2, slot3)
-
-							slot1 = setActive
-							slot2 = slot0
-							slot3 = slot0
-							slot3 = slot3.active
-
-							slot1(slot2, slot3)
-
-							slot1 = slot1
-							slot1 = slot1.effectObjs
-							slot2 = slot0
-							slot2 = slot2.name
-							slot3 = {}
-							slot1[slot2] = slot3
-							slot1 = slot1
-							slot1 = slot1.effectObjs
-							slot2 = slot0
-							slot2 = slot2.name
-							slot1 = slot1[slot2]
-							slot2 = slot0
-							slot2 = slot2.name
-							slot1[1] = slot2
-							slot1 = slot1
-							slot1 = slot1.effectObjs
-							slot2 = slot0
-							slot2 = slot2.name
-							slot1 = slot1[slot2]
-							slot1[2] = slot0
-
-							return
-						end
-
-						slot2(slot3, slot4, slot5)
+					if slot2 then
 					else
-						slot2 = setActive
-						slot3 = slot1[2]
-						slot4 = slot1
-						slot4 = slot4.active
+						if not slot1 then
+							slot2 = slot0
+							slot3 = true
+							slot2.isLoadingEffect = slot3
+							slot2 = LoadAndInstantiateAsync
+							slot3 = "ui"
+							slot4 = slot1
+							slot4 = slot4.name
 
-						slot2(slot3, slot4)
+							function slot5(slot0)
+								slot1 = slot0
+								slot2 = nil
+								slot1.isLoadingEffect = slot2
+								slot1 = slot1
+								slot1 = slot1.name
+								slot0.name = slot1
+								slot1 = setParent
+								slot2 = slot0
+								slot3 = slot0
+								slot3 = slot3._effectPanel
+								slot3 = slot3.transform
+
+								slot1(slot2, slot3)
+
+								slot1 = setActive
+								slot2 = slot0
+								slot3 = slot1
+								slot3 = slot3.active
+
+								slot1(slot2, slot3)
+
+								slot1 = slot0
+								slot1 = slot1.effectObjs
+								slot2 = slot1
+								slot2 = slot2.name
+								slot3 = {}
+								slot1[slot2] = slot3
+								slot1 = slot0
+								slot1 = slot1.effectObjs
+								slot2 = slot1
+								slot2 = slot2.name
+								slot1 = slot1[slot2]
+								slot2 = slot1
+								slot2 = slot2.name
+								slot1[1] = slot2
+								slot1 = slot0
+								slot1 = slot1.effectObjs
+								slot2 = slot1
+								slot2 = slot2.name
+								slot1 = slot1[slot2]
+								slot1[2] = slot0
+
+								return
+							end
+
+							slot2(slot3, slot4, slot5)
+						else
+							slot2 = setActive
+							slot3 = slot1[2]
+							slot4 = slot1
+							slot4 = slot4.active
+
+							slot2(slot3, slot4)
+						end
 					end
 				else
 					slot1 = SetActive

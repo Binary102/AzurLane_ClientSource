@@ -36,7 +36,7 @@ function slot0.register(slot0)
 end
 
 function slot0.remove(slot0)
-	pg.TimeMgr:GetInstance():RemoveTimer(slot0.timerId)
+	pg.TimeMgr.GetInstance():RemoveTimer(slot0.timerId)
 
 	slot0.timerId = nil
 end
@@ -96,7 +96,7 @@ function slot0.addRandomStage(slot0, slot1)
 end
 
 function slot0.listenerRandomStage(slot0)
-	slot0.timerId = pg.TimeMgr:GetInstance():AddTimer("listenerRandomStage", 0, 1, function ()
+	slot0.timerId = pg.TimeMgr.GetInstance():AddTimer("listenerRandomStage", 0, 1, function ()
 		if slot0.data.randomexpeditions and table.getCount(slot0.data.randomexpeditions) > 0 then
 			for slot4, slot5 in pairs(slot0.data.randomexpeditions) do
 				if slot5.out_time == slot0 then

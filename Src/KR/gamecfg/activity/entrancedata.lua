@@ -50,7 +50,7 @@ return {
 			}
 		},
 		isShow = function ()
-			return pg.TimeMgr:GetInstance():inTime(ActivityConst.LIMIT_SKIN_SHOP_TIME)
+			return pg.TimeMgr.GetInstance():inTime(ActivityConst.LIMIT_SKIN_SHOP_TIME)
 		end,
 		isTip = function ()
 			return getProxy(PlayerProxy):getRawData().skinTicket and slot0.skinTicket > 0
@@ -116,7 +116,7 @@ return {
 			SCENE.SKINSHOP
 		},
 		isShow = function ()
-			return pg.TimeMgr:GetInstance():inTime({
+			return pg.TimeMgr.GetInstance():inTime({
 				{
 					{
 						2019,

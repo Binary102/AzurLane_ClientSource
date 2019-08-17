@@ -1032,7 +1032,7 @@ function NoPosMsgBox(slot0, slot1, slot2, slot3)
 		})
 	end
 
-	pg.MsgboxMgr:GetInstance():ShowMsgBox({
+	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		hideYes = true,
 		hideNo = true,
 		content = slot0,
@@ -1112,7 +1112,7 @@ function GoShoppingMsgBox(slot0, slot1, slot2)
 		end
 	end
 
-	pg.MsgboxMgr:GetInstance():ShowMsgBox({
+	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		content = slot0,
 		weight = LayerWeightConst.SECOND_LAYER,
 		onYes = function ()
@@ -1167,9 +1167,9 @@ function shoppingBatch(slot0, slot1, slot2, slot3, slot4)
 						count = GAME.SHOPPING
 					})
 				elseif slot3 then
-					pg.TipsMgr:GetInstance():ShowTips(i18n(slot3))
+					pg.TipsMgr.GetInstance():ShowTips(i18n(slot3))
 				else
-					pg.TipsMgr:GetInstance():ShowTips(i18n("main_playerInfoLayer_error_changeNameNoGem"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("main_playerInfoLayer_error_changeNameNoGem"))
 				end
 			end
 		})
@@ -1325,19 +1325,19 @@ function nameValidityCheck(slot0, slot1, slot2, slot3)
 	slot8 = wordVer(slot0)
 
 	if not checkSpaceValid(slot0) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n(slot3[1]))
+		pg.TipsMgr.GetInstance():ShowTips(i18n(slot3[1]))
 
 		slot4 = false
 	elseif slot8 > 0 or slot7 ~= slot0 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n(slot3[4]))
+		pg.TipsMgr.GetInstance():ShowTips(i18n(slot3[4]))
 
 		slot4 = false
 	elseif slot6 < slot1 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n(slot3[2]))
+		pg.TipsMgr.GetInstance():ShowTips(i18n(slot3[2]))
 
 		slot4 = false
 	elseif slot2 < slot6 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n(slot3[3]))
+		pg.TipsMgr.GetInstance():ShowTips(i18n(slot3[3]))
 
 		slot4 = false
 	end
@@ -1957,9 +1957,9 @@ end
 
 function playMovie(slot0, slot1, slot2)
 	if not IsNil(GameObject.Find("OverlayCamera/Overlay/UITop/MoviePanel")) then
-		pg.UIMgr:GetInstance():LoadingOn()
+		pg.UIMgr.GetInstance():LoadingOn()
 		WWWLoader.Inst:LoadStreamingAsset(slot0, function (slot0)
-			pg.UIMgr:GetInstance():LoadingOff()
+			pg.UIMgr.GetInstance():LoadingOff()
 
 			slot1 = GCHandle.Alloc(slot0, GCHandleType.Pinned)
 

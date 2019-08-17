@@ -227,7 +227,7 @@ function slot3.onUpdateCountDown(slot0, slot1)
 
 	if slot0._buffStartTime then
 		if slot0.Battle.BattleConfig.SIMULATION_RIVAL_RAGE_TOTAL_COUNT - (slot0._buffStartTime - slot2) <= 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("simulation_enhancing"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("simulation_enhancing"))
 
 			slot0._buffStartTime = nil
 

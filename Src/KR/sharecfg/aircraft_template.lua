@@ -1184,6 +1184,154 @@ pg.aircraft_template = {
 			}
 		}
 	},
+	[142] = {
+		name = "默认反潜机",
+		max_hp = 25,
+		accuracy = 23,
+		model_ID = "jianyu",
+		ACC_growth = 0,
+		crash_DMG = 9,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "jianyu",
+		funnel_behavior = "",
+		nationality = 0,
+		hp_growth = 973,
+		speed = 48,
+		id = 142,
+		scale = 1,
+		weapon_ID = {
+			143
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.52,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[144] = {
+		name = "默认潜母水侦",
+		max_hp = 27,
+		accuracy = 23,
+		model_ID = "ruiyun",
+		ACC_growth = 0,
+		crash_DMG = 9,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "ruiyun",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1023,
+		speed = 46,
+		id = 144,
+		scale = 1,
+		weapon_ID = {
+			145
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
 	[145] = {
 		name = "塞壬飞机",
 		max_hp = 27,
@@ -16957,6 +17105,78 @@ pg.aircraft_template = {
 			}
 		}
 	},
+	[61023] = {
+		name = "伊13技能彩云",
+		max_hp = 42,
+		accuracy = 23,
+		model_ID = "caiyun",
+		ACC_growth = 0,
+		crash_DMG = 208,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "caiyun",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 1605,
+		speed = 66,
+		id = 61023,
+		scale = 1,
+		weapon_ID = {},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.64,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
 	[66240] = {
 		name = "山城改技能Lv0",
 		max_hp = 27,
@@ -21823,6 +22043,190 @@ pg.aircraft_template = {
 		max_hp = 98,
 		hp_growth = 3511,
 		weapon_ID = {}
+	},
+	[68621] = {
+		name = "巴丹技能F6FLV1",
+		max_hp = 51,
+		accuracy = 23,
+		model_ID = "f6f",
+		ACC_growth = 0,
+		crash_DMG = 156,
+		dodge = 0.315,
+		attack_power = 2,
+		dodge_limit = 11,
+		type = 1,
+		AP_growth = 2000,
+		icon = "f6f",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 1947,
+		speed = 50,
+		id = 68621,
+		scale = 1,
+		weapon_ID = {
+			50341,
+			50541,
+			68631
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.28,
+					1.62,
+					0
+				},
+				{
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[68622] = {
+		id = 68622,
+		name = "巴丹技能F6FLV2",
+		base = 68621,
+		max_hp = 57,
+		hp_growth = 2201,
+		weapon_ID = {
+			50342,
+			50542,
+			68632
+		}
+	},
+	[68623] = {
+		id = 68623,
+		name = "巴丹技能F6FLV3",
+		base = 68621,
+		max_hp = 64,
+		hp_growth = 2455,
+		weapon_ID = {
+			50343,
+			50543,
+			68633
+		}
+	},
+	[68624] = {
+		id = 68624,
+		name = "巴丹技能F6FLV4",
+		base = 68621,
+		max_hp = 70,
+		hp_growth = 2710,
+		weapon_ID = {
+			50344,
+			50544,
+			68634
+		}
+	},
+	[68625] = {
+		id = 68625,
+		name = "巴丹技能F6FLV5",
+		base = 68621,
+		max_hp = 77,
+		hp_growth = 2964,
+		weapon_ID = {
+			50345,
+			50545,
+			68635
+		}
+	},
+	[68626] = {
+		id = 68626,
+		name = "巴丹技能F6FLV6",
+		base = 68621,
+		max_hp = 84,
+		hp_growth = 3218,
+		weapon_ID = {
+			50346,
+			50546,
+			68636
+		}
+	},
+	[68627] = {
+		id = 68627,
+		name = "巴丹技能F6FLV7",
+		base = 68621,
+		max_hp = 90,
+		hp_growth = 3472,
+		weapon_ID = {
+			50347,
+			50547,
+			68637
+		}
+	},
+	[68628] = {
+		id = 68628,
+		name = "巴丹技能F6FLV8",
+		base = 68621,
+		max_hp = 97,
+		hp_growth = 3726,
+		weapon_ID = {
+			50348,
+			50548,
+			68638
+		}
+	},
+	[68629] = {
+		id = 68629,
+		name = "巴丹技能F6FLV9",
+		base = 68621,
+		max_hp = 103,
+		hp_growth = 3980,
+		weapon_ID = {
+			50349,
+			50549,
+			68639
+		}
+	},
+	[68630] = {
+		id = 68630,
+		name = "巴丹技能F6FLV10",
+		base = 68621,
+		max_hp = 110,
+		hp_growth = 4234,
+		weapon_ID = {
+			50350,
+			50550,
+			68640
+		}
 	},
 	[81000] = {
 		name = "F2A水牛",
@@ -88770,6 +89174,377 @@ pg.aircraft_template = {
 			}
 		}
 	},
+	[950201] = {
+		name = "【挑战关卡12】赤城_轰炸机",
+		max_hp = 3500,
+		accuracy = 50,
+		model_ID = "99shijianbao1",
+		ACC_growth = 0,
+		crash_DMG = 240,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "99shijianbao1",
+		funnel_behavior = "",
+		nationality = 1,
+		hp_growth = 0,
+		speed = 30,
+		id = 950201,
+		scale = 0.75,
+		weapon_ID = {
+			950207
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.64,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[950202] = {
+		name = "【挑战关卡12】赤城_鱼雷机",
+		max_hp = 141,
+		accuracy = 23,
+		model_ID = "97jiangong",
+		ACC_growth = 0,
+		crash_DMG = 79,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "97jiangong",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2520,
+		speed = 33,
+		id = 950202,
+		scale = 0.75,
+		weapon_ID = {
+			950208
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[950250] = {
+		name = "【俾斯麦活动C3】鱼雷封锁",
+		max_hp = 3500,
+		accuracy = 50,
+		model_ID = "jianyu810",
+		ACC_growth = 0,
+		crash_DMG = 240,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "jianyu810",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 950250,
+		scale = 0.75,
+		weapon_ID = {
+			610111
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.64,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[950241] = {
+		name = "【挑战关卡15】皇家方舟_战斗机",
+		max_hp = 141,
+		accuracy = 23,
+		model_ID = "haipenhuo",
+		ACC_growth = 0,
+		crash_DMG = 79,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 1,
+		AP_growth = 2000,
+		icon = "haipenhuo",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 2520,
+		speed = 33,
+		id = 950241,
+		scale = 0.75,
+		weapon_ID = {
+			950244,
+			950245
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.27,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[950242] = {
+		name = "【挑战关卡15】皇家方舟_轰炸机",
+		max_hp = 1800,
+		accuracy = 50,
+		model_ID = "haiyan",
+		ACC_growth = 0,
+		crash_DMG = 240,
+		dodge = 1,
+		attack_power = 2,
+		dodge_limit = 0,
+		type = 3,
+		AP_growth = 2000,
+		icon = "haiyan",
+		funnel_behavior = "",
+		nationality = 3,
+		hp_growth = 0,
+		speed = 30,
+		id = 950242,
+		scale = 0.75,
+		weapon_ID = {
+			950243
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.64,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
 	[30001] = {
 		name = "F4F野猫",
 		max_hp = 52,
@@ -104625,6 +105400,8 @@ pg.aircraft_template = {
 		122,
 		123,
 		124,
+		142,
+		144,
 		145,
 		4200,
 		4201,
@@ -105462,6 +106239,7 @@ pg.aircraft_template = {
 		61019,
 		61020,
 		61022,
+		61023,
 		66240,
 		66241,
 		66242,
@@ -105759,6 +106537,16 @@ pg.aircraft_template = {
 		68548,
 		68549,
 		68550,
+		68621,
+		68622,
+		68623,
+		68624,
+		68625,
+		68626,
+		68627,
+		68628,
+		68629,
+		68630,
 		81000,
 		81001,
 		81002,
@@ -106921,6 +107709,11 @@ pg.aircraft_template = {
 		950157,
 		950158,
 		950159,
+		950201,
+		950202,
+		950250,
+		950241,
+		950242,
 		30001,
 		30002,
 		30003,

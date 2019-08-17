@@ -31,7 +31,7 @@ function slot0.OnInit(slot0)
 		end
 
 		if slot0 == 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_build_solt_deficiency"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_build_solt_deficiency"))
 
 			return
 		end

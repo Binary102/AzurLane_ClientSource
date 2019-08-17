@@ -1883,10 +1883,8 @@ function slot0.getQuadCellPic(slot0, slot1)
 	slot2 = nil
 
 	if slot1.trait == ChapterConst.TraitLurk then
-	elseif slot1.attachment == ChapterConst.AttachRival then
-		slot2 = "cell_enemy"
 	elseif (slot1.attachment == ChapterConst.AttachEnemy or slot1.attachment == ChapterConst.AttachElite or slot1.attachment == ChapterConst.AttachAmbush or slot1.attachment == ChapterConst.AttachBoss or slot1.attachment == ChapterConst.AttachRival or slot1.attachment == ChapterConst.AttachAreaBoss or slot1.attachment == ChapterConst.AttachBomb_Enemy) and slot1.flag == 0 then
-		slot2 = (pg.expedition_data_template[slot1.attachmentId].icon_type == 2 and "cell_escort") or "cell_enemy"
+		slot2 = "cell_enemy"
 	elseif slot1.attachment == ChapterConst.AttachBox and slot1.flag == 0 then
 		if pg.box_data_template[slot1.attachmentId].type == ChapterConst.BoxDrop or slot3.type == ChapterConst.BoxStrategy or slot3.type == ChapterConst.BoxSupply or slot3.type == ChapterConst.BoxEnemy then
 			slot2 = "cell_box"

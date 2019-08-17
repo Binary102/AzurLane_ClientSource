@@ -186,7 +186,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107090,
-			say = "咕음…！",
+			say = "크윽…..!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

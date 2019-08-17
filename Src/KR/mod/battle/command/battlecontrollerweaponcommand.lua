@@ -79,7 +79,7 @@ function ys.Battle.BattleControllerWeaponCommand.onUnitInitFinish(slot0, slot1)
 	slot0._manualWeaponAutoBot = slot0.Battle.BattleManualWeaponAutoBot.New(slot2)
 	slot0._joyStickAutoBot = slot0.Battle.BattleJoyStickAutoBot.New(slot0._dataProxy, slot2)
 
-	slot0.Battle.BattleCameraUtil:GetInstance():RegisterEventListener(slot0, slot1.CAMERA_FOCUS, slot0.onCameraFocus)
+	slot0.Battle.BattleCameraUtil.GetInstance():RegisterEventListener(slot0, slot1.CAMERA_FOCUS, slot0.onCameraFocus)
 end
 
 function ys.Battle.BattleControllerWeaponCommand.onFleetFormationUpdate(slot0, slot1)
@@ -108,7 +108,7 @@ function ys.Battle.BattleControllerWeaponCommand.Dispose(slot0)
 	slot0._dataProxy:UnregisterEventListener(slot0, slot1.COMMON_DATA_INIT_FINISH)
 	slot0._dataProxy:UnregisterEventListener(slot0, slot1.KIZUNA_JAMMING)
 	slot0._dataProxy:UnregisterEventListener(slot0, slot1.KIZUNA_JAMMING_ELIMINATE)
-	slot0.Battle.BattleCameraUtil:GetInstance():UnregisterEventListener(slot0, slot1.CAMERA_FOCUS)
+	slot0.Battle.BattleCameraUtil.GetInstance():UnregisterEventListener(slot0, slot1.CAMERA_FOCUS)
 	slot0._joyStickAutoBot:Dispose()
 
 	slot0._joyStickAutoBot = nil

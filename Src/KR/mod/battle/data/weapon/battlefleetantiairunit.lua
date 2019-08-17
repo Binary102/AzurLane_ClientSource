@@ -24,7 +24,7 @@ function slot8.init(slot0)
 	slot0._crewUnitList = {}
 	slot0._hitFXResIDList = {}
 	slot0._currentState = slot0.STATE_DISABLE
-	slot0._dataProxy = slot0.STATE_DISABLE.Battle.BattleDataProxy:GetInstance()
+	slot0._dataProxy = slot0.STATE_DISABLE.Battle.BattleDataProxy.GetInstance()
 	slot0._range = 0
 end
 
@@ -177,7 +177,7 @@ function slot8.Fire(slot0)
 	end
 
 	for slot5, slot6 in pairs(slot0._hitFXResIDList) do
-		pg.EffectMgr.GetInstance():PlayBattleEffect(slot2.Battle.BattleFXPool:GetInstance():GetFX(slot6), slot0._host:GetPosition() + Vector3(slot7, 10, slot8), true)
+		pg.EffectMgr.GetInstance():PlayBattleEffect(slot2.Battle.BattleFXPool.GetInstance():GetFX(slot6), slot0._host:GetPosition() + Vector3(slot7, 10, slot8), true)
 	end
 
 	slot2.Battle.PlayBattleSFX(slot0._SFXID)

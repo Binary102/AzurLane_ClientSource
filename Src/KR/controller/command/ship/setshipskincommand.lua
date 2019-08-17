@@ -27,10 +27,10 @@ class("SetShipSkinCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			end
 
 			if not slot2 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("ship_set_skin_success"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("ship_set_skin_success"))
 			end
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("ship_set_skin_error", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_set_skin_error", slot0.result))
 		end
 	end)
 end

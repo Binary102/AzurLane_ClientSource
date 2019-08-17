@@ -3441,10 +3441,10 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[13002] = {
-		display = "410mm 연장포 (3식탄) T0 설계도",
+		display = "410mm 연장포 (삼식탄) T0 설계도",
 		rarity = 4,
 		type = 9,
-		name = "410mm 연장포 (3식탄) T0 설계도",
+		name = "410mm 연장포 (삼식탄) T0 설계도",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -11815,7 +11815,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42011] = {
-		display = "유니온 순양함 '시애틀'의 강화 유닛.\n<color=#92fc63> 」개발 완료 후, 「개발 도크」에서 「시애틀」의 성능을 강화할 수 있다.</color>",
+		display = "유니온 순양함 「시애틀」의 강화 유닛.\n<color=#92fc63> 「시애틀」개발 완료 후, 「개발 도크」에서 「시애틀」의 성능을 강화할 수 있다.</color>",
 		rarity = 4,
 		type = 12,
 		name = "지향형 강화 유닛 「시애틀」",
@@ -60978,6 +60978,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59135] = {
+		display = "「전설 속의 하프물범」에 관한 단서. 더 많은 정보를 수집하고, 하프물범을 찾아라! 『바다의 아이돌』 이벤트에 사용되며, 이벤트 종료 후 사라짐. ",
+		rarity = 2,
+		type = 98,
+		name = "하프물범 목격 정보 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59135,
+		icon = "Props/qixihaibaopt",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 		rarity = 2,
@@ -65032,6 +65048,7 @@ pg.item_data_statistics = {
 		59129,
 		59130,
 		59134,
+		59135,
 		59601,
 		59602,
 		59603,

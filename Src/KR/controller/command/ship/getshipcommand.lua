@@ -7,7 +7,7 @@ class("GetShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot9 = slot2.anim
 
 	if not getProxy(BuildShipProxy):getBuildShip(slot2.pos) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("ship_getShip_error_noShip"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_getShip_error_noShip"))
 
 		if slot5 then
 			slot5()
@@ -17,7 +17,7 @@ class("GetShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end
 
 	if not slot11:isFinish() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("ship_getShip_error_notFinish"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_getShip_error_notFinish"))
 
 		if slot5 then
 			slot5()
@@ -54,8 +54,8 @@ class("GetShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				slot2 = getProxy(PlayerProxy).getData(slot1)
 
 				if slot0:getRarity() >= 4 and not slot2:GetCommonFlag(GAME_RESTOREVIEW_ALREADY) then
-					pg.SDKMgr:GetInstance():storeReview()
-					pg.SDKMgr.GetInstance():sendNotification(GAME.COMMON_FLAG, {
+					pg.SdkMgr.GetInstance():StoreReview()
+					pg.SdkMgr.GetInstance():sendNotification(GAME.COMMON_FLAG, {
 						flagID = GAME_RESTOREVIEW_ALREADY
 					})
 				end
@@ -79,7 +79,7 @@ class("GetShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				slot1()
 			end
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("ship_getShip", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_getShip", slot0.result))
 		end
 	end)
 end

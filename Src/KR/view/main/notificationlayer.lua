@@ -125,7 +125,7 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.send, function ()
 		if slot0.input.text == "" then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("main_notificationLayer_sendButton"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("main_notificationLayer_sendButton"))
 
 			return
 		end

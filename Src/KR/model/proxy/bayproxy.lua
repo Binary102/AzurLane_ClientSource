@@ -12,6 +12,8 @@ function slot0.register(slot0)
 
 			slot6:display("loaded")
 
+			slot0.shipHighestLevel = math.max(slot0.shipHighestLevel, slot6.level)
+
 			if slot6:getConfigTable() then
 				slot0.data[slot6.id] = slot6
 
@@ -63,6 +65,8 @@ function slot0.register(slot0)
 	slot0.handbookTypeAssign = {}
 
 	slot0:buildHandbookTypeAssign()
+
+	slot0.shipHighestLevel = 0
 end
 
 function slot0.buildHandbookTypeAssign(slot0)
@@ -157,6 +161,8 @@ function slot0.addShip(slot0, slot1, slot2)
 	if defaultValue(slot2, true) then
 		slot0:countShip()
 	end
+
+	slot0.shipHighestLevel = math.max(slot0.shipHighestLevel, slot1.level)
 
 	if getProxy(CollectionProxy) and not slot1:isActivityNpc() then
 		slot3:flushCollection(slot1)
@@ -287,6 +293,12 @@ end
 function slot0.updateShip(slot0, slot1)
 	if slot1.isNpc then
 		return
+	end
+
+	if slot0.shipHighestLevel < slot1.level then
+		slot0.shipHighestLevel = slot1.level
+
+		pg.TrackerMgr.GetInstance():Tracking(TRACKING_SHIP_HIGHEST_LEVEL, slot0.shipHighestLevel)
 	end
 
 	slot0.data[slot1.id] = slot1:clone()

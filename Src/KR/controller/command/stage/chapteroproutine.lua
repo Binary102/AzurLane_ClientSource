@@ -37,7 +37,7 @@ function slot0.doMapUpdate(slot0)
 					return slot0.row == slot0.row and slot0.column == slot0.column
 				end) then
 					if slot2.flag == 3 and slot1.flag == 4 and pg.map_event_template[slot2.attachmentId].gametip ~= "" then
-						pg.TipsMgr:GetInstance():ShowTips(i18n(slot3))
+						pg.TipsMgr.GetInstance():ShowTips(i18n(slot3))
 					end
 
 					slot2.attachment = slot1.attachment
@@ -223,7 +223,7 @@ function slot0.doOpenBox(slot0)
 		slot4.restAmmo = slot4.restAmmo + math.min(slot8 - slot9, slot7.effect_id)
 		slot2 = bit.bor(slot2, ChapterConst.DirtyFleet)
 
-		pg.TipsMgr:GetInstance():ShowTips(i18n("level_ammo_supply_p1", slot7.effect_id))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("level_ammo_supply_p1", slot7.effect_id))
 	end
 
 	slot0.flag = slot2
@@ -245,7 +245,7 @@ function slot0.doAmbush(slot0)
 			slot2:clearChapterCell(slot4.row, slot4.column)
 		end
 
-		pg.TipsMgr:GetInstance():ShowTips((slot5.flag == 0 and i18n("chapter_tip_aovid_failed")) or i18n("chapter_tip_aovid_succeed"))
+		pg.TipsMgr.GetInstance():ShowTips((slot5.flag == 0 and i18n("chapter_tip_aovid_failed")) or i18n("chapter_tip_aovid_succeed"))
 	end
 end
 
@@ -261,10 +261,10 @@ function slot0.doStrategy(slot0)
 		end
 
 		PlayerPrefs.SetInt("team_formation_" .. slot4.id, slot5.id)
-		pg.TipsMgr:GetInstance():ShowTips(i18n("chapter_tip_change", slot5.name))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("chapter_tip_change", slot5.name))
 	elseif slot5.type == ChapterConst.StgTypeConsume then
 		slot4:consumeOneStrategy(slot5.id)
-		pg.TipsMgr:GetInstance():ShowTips(i18n("chapter_tip_use", slot5.name))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("chapter_tip_use", slot5.name))
 	end
 
 	if slot5.id == ChapterConst.StrategyExchange then
@@ -304,9 +304,9 @@ function slot0.doSupply(slot0)
 	if slot7.attachmentId > 20 then
 		pg.TipsMgr:GetInstance():ShowTips(i18n("level_ammo_supply_p1", slot8))
 	elseif slot7.attachmentId > 0 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("level_ammo_supply", slot8, slot7.attachmentId))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("level_ammo_supply", slot8, slot7.attachmentId))
 	else
-		pg.TipsMgr:GetInstance():ShowTips(i18n("level_ammo_empty", slot8))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("level_ammo_empty", slot8))
 	end
 
 	slot0.flag = bit.bor(slot1, ChapterConst.DirtyAttachment, ChapterConst.DirtyFleet)

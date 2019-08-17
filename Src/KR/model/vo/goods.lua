@@ -99,7 +99,7 @@ function slot0.isDisCount(slot0)
 		slot2 = true
 
 		if table.getCount(slot0:getConfig("discount_time")) ~= 0 then
-			slot2 = pg.TimeMgr:GetInstance():inTime(slot1)
+			slot2 = pg.TimeMgr.GetInstance():inTime(slot1)
 		end
 
 		return slot0:getConfig("discount") ~= 0 and slot2

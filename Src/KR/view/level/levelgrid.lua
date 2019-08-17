@@ -2244,9 +2244,8 @@ function slot4(slot0, slot1)
 						if slot0 then
 							slot0 = pg
 							slot0 = slot0.TipsMgr
-							slot1 = slot0
 							slot0 = slot0.GetInstance
-							slot0 = slot0(slot1)
+							slot0 = slot0()
 							slot1 = slot0
 							slot0 = slot0.ShowTips
 							slot2 = i18n

@@ -74,7 +74,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "又대양에서는 세이렌과 함께 치명적인 특이점을 만들어냈고…",
+			say = "대양에서는 세이렌과 함께 치명적인 특이점을 만들어냈고…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

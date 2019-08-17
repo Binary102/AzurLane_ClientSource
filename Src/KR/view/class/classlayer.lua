@@ -430,7 +430,7 @@ function slot0.updateResourcePanel(slot0)
 			setActive(slot7, true)
 			setButtonEnabled(slot6, false)
 
-			slot0.resTickTimer = pg.TimeMgr:GetInstance():AddTimer("tick_timer", 0, 1, function ()
+			slot0.resTickTimer = pg.TimeMgr.GetInstance():AddTimer("tick_timer", 0, 1, function ()
 				if slot0:GetDuration() and slot0 > 0 then
 					setText(setText, pg.TimeMgr.GetInstance():DescCDTime(slot0))
 				end
@@ -481,7 +481,7 @@ function slot0.onCloseRsourcePanel(slot0)
 	LeanTween.cancel(go(slot0.resourcePanel:Find("frame/content/info/exp/prev")))
 
 	if slot0.resTickTimer then
-		pg.TimeMgr:GetInstance():RemoveTimer(slot0.resTickTimer)
+		pg.TimeMgr.GetInstance():RemoveTimer(slot0.resTickTimer)
 
 		slot0.resTickTimer = nil
 	end
@@ -491,13 +491,13 @@ end
 
 function slot0.updateResourceTimer(slot0)
 	if slot0.resTimer then
-		pg.TimeMgr:GetInstance():RemoveTimer(slot0.resTimer)
+		pg.TimeMgr.GetInstance():RemoveTimer(slot0.resTimer)
 
 		slot0.resTimer = nil
 	end
 
 	if slot0.resClass:GetUpgradeTimeStamp() > 0 then
-		slot0.resTimer = pg.TimeMgr:GetInstance():AddTimer("timer", 0, 1, function ()
+		slot0.resTimer = pg.TimeMgr.GetInstance():AddTimer("timer", 0, 1, function ()
 			if not slot0.resClass:GetDuration() or slot0 <= 0 then
 				slot0:emit(ClassMediator.CLASS_UPGRADE_TIMES_UP)
 			end
@@ -531,7 +531,7 @@ function slot0.willExit(slot0)
 	end)
 
 	if slot0.resTimer then
-		pg.TimeMgr:GetInstance():RemoveTimer(slot0.resTimer)
+		pg.TimeMgr.GetInstance():RemoveTimer(slot0.resTimer)
 
 		slot0.resTimer = nil
 	end

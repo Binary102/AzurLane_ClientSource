@@ -11,13 +11,13 @@ class("SubmitTaskOneStepCommand", pm.SimpleCommand).execute = function (slot0, s
 		end
 
 		if not slot4:getTaskById(slot10) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("task_is_not_existence", slot10))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("task_is_not_existence", slot10))
 
 			return
 		end
 
 		if not slot12:isFinish() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("task_submitTask_error_notFinish"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("task_submitTask_error_notFinish"))
 
 			return
 		end
@@ -75,7 +75,7 @@ class("SubmitTaskOneStepCommand", pm.SimpleCommand).execute = function (slot0, s
 					slot2:sendNotification(GAME.SUBMIT_TASK_DONE, slot1)
 				end
 			else
-				pg.TipsMgr:GetInstance():ShowTips(errorTip("task_submitTask", slot0.result))
+				pg.TipsMgr.GetInstance():ShowTips(errorTip("task_submitTask", slot0.result))
 
 				return
 			end

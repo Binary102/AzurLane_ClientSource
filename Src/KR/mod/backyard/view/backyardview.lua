@@ -90,7 +90,7 @@ function slot0.getProgress(slot0)
 end
 
 function slot0.stopAllBoatMove(slot0, slot1)
-	pg.UIMgr:GetInstance():LoadingOn()
+	pg.UIMgr.GetInstance():LoadingOn()
 
 	slot2 = {}
 
@@ -119,7 +119,7 @@ function slot0.stopAllBoatMove(slot0, slot1)
 	end
 
 	seriesAsync(slot2, function ()
-		pg.UIMgr:GetInstance():LoadingOff()
+		pg.UIMgr.GetInstance():LoadingOff()
 
 		if pg.UIMgr.GetInstance().LoadingOff then
 			slot0()
@@ -191,7 +191,7 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.decorationBtn, function ()
 		if slot0.inInitFurnitrues then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_is_loading"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_is_loading"))
 
 			return
 		end
@@ -1109,7 +1109,7 @@ function slot0.playFurnitureVoice(slot0, slot1)
 	if slot0.loadedBank then
 		slot3()
 	else
-		pg.CriMgr:GetInstance():LoadCV("furniture", function ()
+		pg.CriMgr.GetInstance():LoadCV("furniture", function ()
 			slot0 = pg.CriMgr.GetCVBankName(pg.CriMgr.GetCVBankName)
 
 			if pg.CriMgr.GetCVBankName.exited then
@@ -1616,17 +1616,23 @@ function slot0.addSpineExtra(slot0, slot1, slot2, slot3)
 			slot0.shipModels[slot5:getSpineId()].pauseAnim(slot8)
 
 			for slot12, slot13 in ipairs(slot5:getShipExtra()) do
-				slot0.shipModels[slot13].addSpineExtra(slot14, slot1, slot12)
-				slot8:registerActionCB(slot13, function (slot0)
-					slot0:setAction(slot0, 0)
+				slot14 = slot0.shipModels[slot13]
 
-					return
-				end, function ()
-					slot0:endSpineAnimator(slot0, )
-					slot0.endSpineAnimator:startSpineAnimator(slot0.endSpineAnimator, )
+				if slot13 ~= slot2 then
+					slot14:pauseAnim(slot12)
+				else
+					slot14:addSpineExtra(slot1, slot12)
+					slot8:registerActionCB(slot13, function (slot0)
+						slot0:setAction(slot0, 0)
 
-					return
-				end)
+						return
+					end, function ()
+						slot0:endSpineAnimator(slot0, )
+						slot0.endSpineAnimator:startSpineAnimator(slot0.endSpineAnimator, )
+
+						return
+					end)
+				end
 			end
 
 			slot8:resumeAnim()

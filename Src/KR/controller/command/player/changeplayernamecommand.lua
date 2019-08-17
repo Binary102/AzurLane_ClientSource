@@ -4,7 +4,7 @@ class("ChangePlayerNameCommand", pm.SimpleCommand).execute = function (slot0, sl
 	end
 
 	if slot3 == getProxy(PlayerProxy).getData(slot4).name then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("same_player_name_tip"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("same_player_name_tip"))
 
 		return
 	end
@@ -25,7 +25,7 @@ class("ChangePlayerNameCommand", pm.SimpleCommand).execute = function (slot0, sl
 	slot6, slot7 = slot5:canModifyName()
 
 	if not slot6 then
-		pg.TipsMgr:GetInstance():ShowTips(slot7)
+		pg.TipsMgr.GetInstance():ShowTips(slot7)
 
 		return
 	end
@@ -35,7 +35,7 @@ class("ChangePlayerNameCommand", pm.SimpleCommand).execute = function (slot0, sl
 
 	if slot5:getModifyNameComsume()[1] == DROP_TYPE_RESOURCE then
 		if slot5:getResById(slot8[2]) < slot8[3] then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_resource"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 			return
 		end
@@ -47,7 +47,7 @@ class("ChangePlayerNameCommand", pm.SimpleCommand).execute = function (slot0, sl
 		})
 	elseif slot8[1] == DROP_TYPE_ITEM then
 		if not slot9:getItemById(slot8[2]) or slot11.count < slot8[3] then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_item_1"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
 
 			return
 		end
@@ -78,16 +78,16 @@ class("ChangePlayerNameCommand", pm.SimpleCommand).execute = function (slot0, sl
 					count = slot5[3]
 				}))
 				slot4:sendNotification(GAME.CHANGE_PLAYER_NAME_DONE)
-				pg.TipsMgr:GetInstance():ShowTips(i18n("player_changePlayerName_ok"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("player_changePlayerName_ok"))
 			else
-				pg.TipsMgr:GetInstance():ShowTips(errorTip("player_changePlayerName", slot0.result))
+				pg.TipsMgr.GetInstance():ShowTips(errorTip("player_changePlayerName", slot0.result))
 
 				return
 			end
 		end)
 	end
 
-	pg.MsgboxMgr:GetInstance():ShowMsgBox({
+	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		content = i18n("player_name_change_warning", slot10.count, slot10:getConfig("name"), slot3),
 		onYes = function ()
 			slot0()

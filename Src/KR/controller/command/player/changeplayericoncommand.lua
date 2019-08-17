@@ -5,7 +5,7 @@ class("ChangePlayerIcon", pm.SimpleCommand).execute = function (slot0, slot1)
 		character = slot1:getBody().characterId
 	}, 11012, function (slot0)
 		if slot0.result == 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("player_changePlayerIcon_ok"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("player_changePlayerIcon_ok"))
 
 			slot1 = getProxy(BayProxy)
 			slot2 = slot1:getShipById(slot0)
@@ -18,7 +18,7 @@ class("ChangePlayerIcon", pm.SimpleCommand).execute = function (slot0, slot1)
 				ship = slot2
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("player_changePlayerIcon", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("player_changePlayerIcon", slot0.result))
 		end
 	end)
 end

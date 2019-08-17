@@ -2,7 +2,7 @@ class("CreateGuildCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot3 = slot1:getBody().getName(slot2)
 
 	if getProxy(PlayerProxy).getData(slot5):getTotalGem() < pg.gameset.create_guild_cost.key_value then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_create_error_nomoney"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_create_error_nomoney"))
 
 		return
 	end
@@ -46,11 +46,11 @@ class("CreateGuildCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			})
 			slot3:updatePlayer(slot1)
 			slot3.updatePlayer:sendNotification(GAME.CREATE_GUILD_DONE)
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_create_sucess"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_create_sucess"))
 		elseif slot0.result == 2015 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_name_invaild"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_name_invaild"))
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("guild_create_error", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("guild_create_error", slot0.result))
 		end
 	end)
 end

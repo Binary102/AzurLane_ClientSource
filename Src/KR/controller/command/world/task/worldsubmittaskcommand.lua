@@ -11,7 +11,7 @@ class("WorldSubmitTaskCommand", pm.SimpleCommand).execute = function (slot0, slo
 	slot10, slot11 = slot9:canSubmit(slot3)
 
 	if not slot10 then
-		pg.TipsMgr:GetInstance():ShowTips(slot11)
+		pg.TipsMgr.GetInstance():ShowTips(slot11)
 
 		return
 	end
@@ -76,7 +76,7 @@ class("WorldSubmitTaskCommand", pm.SimpleCommand).execute = function (slot0, slo
 			return
 		end
 
-		pg.TipsMgr:GetInstance():ShowTips(errorTip("task_submitTask", slot0.result))
+		pg.TipsMgr.GetInstance():ShowTips(errorTip("task_submitTask", slot0.result))
 	end)
 end
 

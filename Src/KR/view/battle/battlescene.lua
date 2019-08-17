@@ -65,7 +65,7 @@ function slot0.init(slot0)
 end
 
 function slot0.initPainting(slot0)
-	slot2 = ys.Battle.BattleResourceManager:GetInstance().InstSkillPaintingUI(slot1)
+	slot2 = ys.Battle.BattleResourceManager.GetInstance().InstSkillPaintingUI(slot1)
 
 	setParent(slot2, slot0.uiCanvas, false)
 
@@ -128,7 +128,7 @@ function slot0.appendSkill(slot0, slot1, slot2, slot3, slot4)
 		return
 	end
 
-	slot5 = ys.Battle.BattleResourceManager:GetInstance()
+	slot5 = ys.Battle.BattleResourceManager.GetInstance()
 	slot6, slot7 = nil
 
 	if slot3 then
@@ -163,7 +163,7 @@ function slot0.appendSkill(slot0, slot1, slot2, slot3, slot4)
 		slot16 = table.contains(TeamType.SubShipType, slot2:GetTemplate().type)
 		slot17 = slot2:GetMainUnitIndex()
 
-		if ys.Battle.BattleCameraUtil:GetInstance():GetCharacterArrowBarPosition(slot14) == nil or (slot15 == nil and slot16 and not slot2:IsMainFleetUnit()) then
+		if ys.Battle.BattleCameraUtil.GetInstance():GetCharacterArrowBarPosition(slot14) == nil or (slot15 == nil and slot16 and not slot2:IsMainFleetUnit()) then
 			slot9.position = Vector3((slot12 ~= ys.Battle.BattleConfig.FRIENDLY_CODE or slot1.CameraPosToUICamera(slot2:GetPosition():Clone():Add(slot0.IN_VIEW_FRIEND_SKILL_OFFSET))) and slot1.CameraPosToUICamera(slot2:GetPosition():Clone():Add(slot0.IN_VIEW_FOE_SKILL_OFFSET)).x, (slot12 ~= ys.Battle.BattleConfig.FRIENDLY_CODE or slot1.CameraPosToUICamera(slot2.GetPosition().Clone().Add(slot0.IN_VIEW_FRIEND_SKILL_OFFSET))) and slot1.CameraPosToUICamera(slot2.GetPosition().Clone().Add(slot0.IN_VIEW_FOE_SKILL_OFFSET)).y, -2)
 
 			if slot0._preSkillTF then
@@ -297,6 +297,7 @@ end
 function slot0.didEnter(slot0)
 	setActive(slot0._tf, false)
 
+	GetComponent(slot0._tf, typeof(AspectRatioFitter)).enabled = true
 	slot1 = ys.Battle.BattleState.GetInstance()
 
 	slot1:SetBattleUI(slot0)

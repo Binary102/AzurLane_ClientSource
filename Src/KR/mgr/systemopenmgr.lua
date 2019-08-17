@@ -15,10 +15,10 @@ function pm.Facade.sendNotification(slot0, slot1, slot2, slot3)
 		slot6 = slot2.context.mediator.__cname
 
 		if slot4:getData() then
-			slot7, slot8 = pg.SystemOpenMgr:GetInstance():isOpenSystem(slot5.level, slot6)
+			slot7, slot8 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot5.level, slot6)
 
 			if not slot7 then
-				pg.TipsMgr:GetInstance():ShowTips(slot8)
+				pg.TipsMgr.GetInstance():ShowTips(slot8)
 
 				return
 			end
@@ -51,7 +51,7 @@ function pg.SystemOpenMgr.notification(slot0, slot1)
 		return
 	end
 
-	if slot1(slot1, getProxy(PlayerProxy).getData(slot2)) and not pg.MsgboxMgr.GetInstance()._go.activeSelf and slot4.story_id and slot4.story_id ~= "" and not slot0.active and not pg.StoryMgr:GetInstance():IsPlayed(slot4.story_id) and not pg.SeriesGuideMgr:GetInstance():isNotFinish() then
+	if slot1(slot1, getProxy(PlayerProxy).getData(slot2)) and not pg.MsgboxMgr.GetInstance()._go.activeSelf and slot4.story_id and slot4.story_id ~= "" and not slot0.active and not pg.StoryMgr.GetInstance():IsPlayed(slot4.story_id) and not pg.SeriesGuideMgr.GetInstance():isNotFinish() then
 		slot0.active = true
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -79,7 +79,7 @@ function pg.SystemOpenMgr.doSystemGuide(slot0, slot1)
 			})
 		end
 
-		pg.StoryMgr:GetInstance():PlayGuide(slot3, {}, function ()
+		pg.StoryMgr.GetInstance():PlayGuide(slot3, {}, function ()
 			pg.m02:sendNotification(GAME.STORY_UPDATE, {
 				storyId = pg.m02.sendNotification
 			})

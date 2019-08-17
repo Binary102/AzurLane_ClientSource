@@ -5,7 +5,7 @@ class("WorldMapReqCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		if slot0.result == 0 then
 			getProxy(WorldProxy):NetUpdateMap(slot0.map)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("world_map_req_error_", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("world_map_req_error_", slot0.result))
 		end
 
 		if slot0.callback then

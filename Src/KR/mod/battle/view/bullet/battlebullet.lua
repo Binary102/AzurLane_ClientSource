@@ -38,9 +38,8 @@ function slot5(slot0)
 	slot1 = slot1
 	slot1 = slot1.Battle
 	slot1 = slot1.BattleResourceManager
-	slot2 = slot1
 	slot1 = slot1.GetInstance
-	slot1 = slot1(slot2)
+	slot1 = slot1()
 	slot0.resMgr = slot1
 	slot1 = Vector3
 	slot1 = slot1.zero
@@ -245,9 +244,8 @@ function slot5(slot0)
 	slot1 = slot0
 	slot1 = slot1.Battle
 	slot1 = slot1.BattleFXPool
-	slot2 = slot1
 	slot1 = slot1.GetInstance
-	slot1 = slot1(slot2)
+	slot1 = slot1()
 	slot2 = slot1
 	slot1 = slot1.GetFX
 	slot4 = slot0
@@ -335,9 +333,8 @@ function slot5(slot0)
 		slot1 = slot0
 		slot1 = slot1.Battle
 		slot1 = slot1.BattleResourceManager
-		slot2 = slot1
 		slot1 = slot1.GetInstance
-		slot1 = slot1(slot2)
+		slot1 = slot1()
 		slot2 = slot1
 		slot1 = slot1.DestroyOb
 		slot3 = slot0._go
@@ -349,9 +346,8 @@ function slot5(slot0)
 
 	if slot1 then
 		slot1 = resMgr
-		slot2 = slot1
 		slot1 = slot1.GetInstance
-		slot1 = slot1(slot2)
+		slot1 = slot1()
 		slot2 = slot1
 		slot1 = slot1.DestroyOb
 		slot3 = slot0._trackFX
@@ -422,9 +418,8 @@ function slot5(slot0, slot1)
 			slot2 = slot0
 			slot2 = slot2.Battle
 			slot2 = slot2.BattleResourceManager
-			slot3 = slot2
 			slot2 = slot2.GetInstance
-			slot2 = slot2(slot3)
+			slot2 = slot2()
 			slot3 = slot2
 			slot2 = slot2.DestroyOb
 			slot4 = slot1

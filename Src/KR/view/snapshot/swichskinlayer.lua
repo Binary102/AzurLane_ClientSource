@@ -228,7 +228,7 @@ function slot0.getGroupSkinList(slot0, slot1)
 	end
 
 	for slot6 = #slot2, 1, -1 do
-		if slot2[slot6].show_time and ((type(slot7.show_time) == "string" and slot7.show_time == "stop") or (type(slot7.show_time) == "table" and not pg.TimeMgr:GetInstance():inTime(slot7.show_time))) then
+		if slot2[slot6].show_time and ((type(slot7.show_time) == "string" and slot7.show_time == "stop") or (type(slot7.show_time) == "table" and not pg.TimeMgr.GetInstance():inTime(slot7.show_time))) then
 			table.remove(slot2, slot6)
 		end
 	end

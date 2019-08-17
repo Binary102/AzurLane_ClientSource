@@ -2,7 +2,7 @@ class("RejectFriendRequestCommand", pm.SimpleCommand).execute = function (slot0,
 	slot2 = slot1:getBody()
 
 	if getProxy(NotificationProxy):getRequestCount() == 0 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("friend_no_request"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("friend_no_request"))
 
 		return
 	end
@@ -13,15 +13,15 @@ class("RejectFriendRequestCommand", pm.SimpleCommand).execute = function (slot0,
 		if slot0.result == 0 then
 			if slot0 == 0 then
 				slot1:removeAllRequest()
-				pg.TipsMgr:GetInstance():ShowTips(i18n("reject_all_friend_ok"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("reject_all_friend_ok"))
 			else
 				slot1:removeRequest(slot0)
-				pg.TipsMgr:GetInstance():ShowTips(i18n("reject_friend_ok"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("reject_friend_ok"))
 			end
 
 			slot2:sendNotification(GAME.FRIEND_REJECT_REQUEST_DONE, slot0)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("friend_rejectFriendRequest", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("friend_rejectFriendRequest", slot0.result))
 		end
 	end)
 end

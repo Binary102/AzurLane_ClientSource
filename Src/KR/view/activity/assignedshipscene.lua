@@ -55,7 +55,7 @@ function slot0.didEnter(slot0)
 	end
 
 	onButton(slot0, slot0.confirmBtn, function ()
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("nine_choose_one", pg.ship_data_statistics[slot0.selectedShipNumber].name),
 			onYes = function ()
 				slot0:emit(AssignedShipMediator.ON_USE_ITEM, slot0.itemVO.id, slot0.count, slot0.selectedVO)

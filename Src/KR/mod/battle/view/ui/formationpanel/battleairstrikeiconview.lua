@@ -19,7 +19,7 @@ end
 function slot2.AppendIcon(slot0, slot1, slot2)
 	cloneTplTo(slot0._iconTpl, slot0._iconContainer).gameObject.SetActive(slot3, true)
 	slot0:setIconNumber(cloneTplTo(slot0._iconTpl, slot0._iconContainer).gameObject.transform:Find("FighterIcon"), slot2.totalNumber)
-	setImageSprite(slot4, slot2.Battle.BattleResourceManager:GetInstance().GetAircraftIcon(slot6, slot0.GetAircraftTmpDataFromID(slot2.templateID).icon or slot1.DEFAULT_ICON_NAME))
+	setImageSprite(slot4, slot2.Battle.BattleResourceManager.GetInstance().GetAircraftIcon(slot6, slot0.GetAircraftTmpDataFromID(slot2.templateID).icon or slot1.DEFAULT_ICON_NAME))
 
 	slot0._iconList[slot1] = slot3
 end

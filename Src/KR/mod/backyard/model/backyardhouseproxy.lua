@@ -375,28 +375,28 @@ function slot0.clearSpineInterAction(slot0, slot1)
 	end
 
 	if slot3 then
-		slot0.data.furnitures[slot3].setSpineId(slot4, nil)
-		slot2:clearSpineId()
-		slot2:clearLockPathList()
+		function slot5()
+			slot0:setSpineId(nil)
+			slot0:clearSpineId()
+			slot0:clearLockPathList()
 
-		slot5 = false
+			if slot0:isMoveable() then
+				slot2:removeFurntureMove(slot0.id)
 
-		if slot0.data.furnitures[slot3]:isMoveable() then
-			slot0:removeFurntureMove(slot4.id)
+				slot0 = true
+			end
 
-			slot5 = true
+			slot2:sendNotification(slot3.CLEAE_SPINE_INTERACTION, {
+				furnitureId = slot0.id,
+				shipId = ,
+				save = slot0
+			})
+			slot2:sendNotification(slot3.CLEAE_SPINE_INTERACTION.CLEAR_BGM, {
+				furnitureId = 
+			})
 		end
 
-		slot0:sendNotification(slot0.CLEAE_SPINE_INTERACTION, {
-			furnitureId = slot4.id,
-			shipId = slot1,
-			save = slot5
-		})
-		slot0:sendNotification(slot0.CLEAR_BGM, {
-			furnitureId = slot3
-		})
-
-		if slot4:hasSpineExtra() then
+		if slot0.data.furnitures[slot3]:hasSpineExtra() then
 			slot6 = {}
 
 			for slot10, slot11 in pairs(slot4:getShipExtra()) do
@@ -404,12 +404,15 @@ function slot0.clearSpineInterAction(slot0, slot1)
 				slot0:clearSpineExtraInterAction(slot11, slot4.id)
 			end
 
+			slot5()
 			slot0:changeShipPos(slot6[1], slot4:getSpineAinTriggerPos())
 			slot0:addSpineInterAction(slot6[1], slot4.id)
 
 			for slot10 = 2, #slot6, 1 do
 				slot0:addSpineExtraInterAction(slot6[slot10], slot4.id)
 			end
+		else
+			slot5()
 		end
 	end
 end
@@ -831,9 +834,9 @@ function slot0.restoreFurnitures(slot0)
 	end
 
 	if #slot2 > 0 then
-		pg.UIMgr:GetInstance():LoadingOn()
+		pg.UIMgr.GetInstance():LoadingOn()
 		seriesAsync(slot2, function ()
-			pg.UIMgr:GetInstance():LoadingOff()
+			pg.UIMgr.GetInstance():LoadingOff()
 			pg.UIMgr.GetInstance().LoadingOff:sendNotification(slot1.BACKYARD_RESTORED)
 		end)
 	else
@@ -1081,7 +1084,7 @@ function slot0.onRemove(slot0)
 	end
 
 	if slot0._escapeAITimer then
-		pg.TimeMgr:GetInstance():RemoveTimer(slot0._escapeAITimer)
+		pg.TimeMgr.GetInstance():RemoveTimer(slot0._escapeAITimer)
 	end
 
 	for slot4, slot5 in pairs(slot0.furnitrueTimers) do

@@ -468,11 +468,7 @@ function slot1(slot0)
 	slot0._vanGSTxt.text = slot0.prevVanGS or 0
 	slot0._mainGSTxt.text = slot0.prevMainGS or 0
 	slot0._subGSTxt.text = slot0.prevSubGS or 0
-	slot1 = pg.UIMgr
-	slot2 = slot1
-	slot1 = slot1.GetInstance
-	slot1 = slot1(slot2)
-	slot1 = slot1.OverlayMain
+	slot1 = pg.UIMgr.GetInstance().OverlayMain
 	slot2 = CommanderFormationPage
 	slot2 = slot2.New
 	slot3 = slot1
@@ -820,9 +816,8 @@ slot0.quckExitFunc = slot1
 function slot1(slot0)
 	slot1 = pg
 	slot1 = slot1.SystemOpenMgr
-	slot2 = slot1
 	slot1 = slot1.GetInstance
-	slot1 = slot1(slot2)
+	slot1 = slot1()
 	slot2 = slot1
 	slot1 = slot1.isOpenSystem
 	slot3 = slot0.player
@@ -2240,9 +2235,8 @@ function slot1(slot0)
 								slot4, slot5 = slot4(slot5, slot6)
 								slot6 = pg
 								slot6 = slot6.TipsMgr
-								slot7 = slot6
 								slot6 = slot6.GetInstance
-								slot6 = slot6(slot7)
+								slot6 = slot6()
 								slot7 = slot6
 								slot6 = slot6.ShowTips
 								slot8 = i18n
@@ -2471,9 +2465,8 @@ function slot1(slot0)
 	if slot5 > slot6 then
 		slot5 = pg
 		slot5 = slot5.UIMgr
-		slot6 = slot5
 		slot5 = slot5.GetInstance
-		slot5 = slot5(slot6)
+		slot5 = slot5()
 		slot6 = slot5
 		slot5 = slot5.LoadingOn
 
@@ -2486,9 +2479,8 @@ function slot1(slot0)
 	function slot7(slot0)
 		slot1 = pg
 		slot1 = slot1.UIMgr
-		slot2 = slot1
 		slot1 = slot1.GetInstance
-		slot1 = slot1(slot2)
+		slot1 = slot1()
 		slot2 = slot1
 		slot1 = slot1.LoadingOff
 

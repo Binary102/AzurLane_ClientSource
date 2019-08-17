@@ -16,7 +16,7 @@ class("GuildsRefreshCommand", pm.SimpleCommand).execute = function (slot0, slot1
 		end
 
 		slot0:sendNotification(GAME.GUILD_LIST_REFRESH_DONE, slot1)
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_list_refresh_sucess"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_list_refresh_sucess"))
 	end)
 end
 

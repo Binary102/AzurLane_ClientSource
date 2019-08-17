@@ -441,7 +441,7 @@ function slot0.updateBuyBtn(slot0, slot1)
 	if slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
 		onButton(slot0, slot0.timelimitBtn, function ()
 			if getProxy(ShipSkinProxy):getSkinById(slot0:getSkinId()) and not slot1:isExpireType() then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("already_have_the_skin"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("already_have_the_skin"))
 
 				return
 			end
@@ -466,14 +466,14 @@ function slot0.updateBuyBtn(slot0, slot1)
 						slot2 = slot1 * slot2
 					end
 
-					pg.MsgboxMgr:GetInstance():ShowMsgBox({
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						content = i18n("charge_scene_buy_confirm", slot2, HXSet.hxLan(slot2.name)),
 						onYes = function ()
 							slot0:emit(SkinShopMediator.ON_SHOPPING, slot1.id, 1)
 						end
 					})
 				else
-					pg.TipsMgr:GetInstance():ShowTips(ERROR_MESSAGE[9999])
+					pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[9999])
 
 					return
 				end
@@ -494,7 +494,7 @@ function slot0.updateBuyBtn(slot0, slot1)
 					end
 				end
 			else
-				pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_not_start"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_not_start"))
 			end
 		end, SFX_PANEL)
 	end
@@ -503,11 +503,11 @@ end
 function slot0.showTimeLimitSkinWindow(slot0, slot1)
 	slot17, slot18, slot8, slot9 = pg.TimeMgr.GetInstance():parseTimeFrom(slot3)
 
-	pg.MsgboxMgr:GetInstance():ShowMsgBox({
+	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		content = i18n("exchange_limit_skin_tip", slot1:getConfig("resource_num"), pg.ship_skin_template[slot1:getSkinId()].name, slot6, slot7),
 		onYes = function ()
 			if slot0.skinTicket < slot1 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_item_1"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
 
 				return
 			end
@@ -551,7 +551,7 @@ function slot0.addShopTimer(slot0, slot1)
 		return
 	end
 
-	slot7 = pg.TimeMgr:GetInstance().Table2ServerTime(slot6, slot5)
+	slot7 = pg.TimeMgr.GetInstance().Table2ServerTime(slot6, slot5)
 	slot0.shopTimer = Timer.New(function ()
 		if slot0 < slot0:GetServerTime() then
 			slot2:removeShopTimer()
@@ -628,9 +628,9 @@ end
 
 function slot0.loadChar(slot0, slot1)
 	slot0:recycleChar()
-	pg.UIMgr:GetInstance():LoadingOn()
+	pg.UIMgr.GetInstance():LoadingOn()
 	PoolMgr.GetInstance():GetSpineChar(slot1, true, function (slot0)
-		pg.UIMgr:GetInstance():LoadingOff()
+		pg.UIMgr.GetInstance():LoadingOff()
 
 		slot0.modelTf = tf(slot0)
 		slot0.modelTf.localScale = Vector3(0.9, 0.9, 1)

@@ -1,6 +1,6 @@
 class("GuildSearchCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	if not slot1:getBody() or slot2 == "" then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_should_input_keyword"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_should_input_keyword"))
 
 		return
 	end
@@ -19,9 +19,9 @@ class("GuildSearchCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot2:addMember(slot3)
 			table.insert(slot1, slot2)
 			slot0:sendNotification(GAME.GUILD_SEARCH_DONE, slot1)
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_search_sucess"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_search_sucess"))
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_no_exist"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_no_exist"))
 		end
 	end)
 end

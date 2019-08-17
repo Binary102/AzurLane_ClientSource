@@ -33,7 +33,7 @@ function slot0.execute(slot0, slot1)
 			if slot0.result == 0 then
 				table.insert(slot1, Friend.New(slot0.player))
 			else
-				pg.TipsMgr:GetInstance():ShowTips(i18n("friend_searchFriend_noPlayer"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("friend_searchFriend_noPlayer"))
 			end
 
 			slot0:sendNotification(GAME.FRIEND_SEARCH_DONE, {

@@ -22,7 +22,7 @@ function slot6.Ctor(slot0)
 
 	slot0._currentState = slot0.STATE_READY
 	slot0._equipmentIndex = -1
-	slot0._dataProxy = slot0.Battle.BattleDataProxy:GetInstance()
+	slot0._dataProxy = slot0.Battle.BattleDataProxy.GetInstance()
 	slot0._tempEmittersList = {}
 	slot0._reloadFacotrList = {}
 	slot0._diveEnabled = true
@@ -1017,7 +1017,7 @@ end
 
 function slot6.CheckAndShake(slot0)
 	if slot0._tmpData.shakescreen == 1 then
-		slot0.Battle.BattleCameraUtil:GetInstance():StartShake(pg.shake_template[slot1.ShakeType.FIRE])
+		slot0.Battle.BattleCameraUtil.GetInstance():StartShake(pg.shake_template[slot1.ShakeType.FIRE])
 	end
 
 	return

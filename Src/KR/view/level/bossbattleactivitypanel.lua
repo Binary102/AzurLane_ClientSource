@@ -95,10 +95,10 @@ function slot0.update(slot0, slot1)
 	slot5 = 0
 
 	if slot0[slot0.activityVO:getData1()].refresh_type == 1 then
-		slot5 = pg.TimeMgr:GetInstance():parseTimeFromConfig(slot0[slot3].refresh_config)
+		slot5 = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0[slot3].refresh_config)
 	else
 		if slot0[slot3].refresh_type == 2 then
-			slot5 = pg.TimeMgr:GetInstance():parseTimeFromConfig(slot0[slot0.all[1]].refresh_config) + slot0[slot3].refresh_config[1] * 86400
+			slot5 = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0[slot0.all[1]].refresh_config) + slot0[slot3].refresh_config[1] * 86400
 		end
 	end
 

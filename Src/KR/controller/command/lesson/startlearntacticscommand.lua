@@ -5,7 +5,7 @@ class("StartLearnTacticsCommand", pm.SimpleCommand).execute = function (slot0, s
 	slot6 = slot2.roomId
 
 	if not getProxy(BagProxy):getItemById(slot2.lessonId) or slot8.count == 0 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("buyProp_noResource_error", slot8:getConfig("name")))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("buyProp_noResource_error", slot8:getConfig("name")))
 
 		return
 	end
@@ -26,7 +26,7 @@ class("StartLearnTacticsCommand", pm.SimpleCommand).execute = function (slot0, s
 			slot1:removeItemById(slot2.id, 1)
 			slot3:sendNotification(GAME.START_TO_LEARN_TACTICS_DONE)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("lesson_endToLearn", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("lesson_endToLearn", slot0.result))
 		end
 	end)
 end

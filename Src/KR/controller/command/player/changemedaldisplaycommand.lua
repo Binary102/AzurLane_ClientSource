@@ -27,7 +27,7 @@ class("ChangeMedalDisplayCommand", pm.SimpleCommand).execute = function (slot0, 
 	}, 17402, function (slot0)
 		if slot0.result == 0 then
 			slot0:updatePlayerMedalDisplay(slot0.updatePlayerMedalDisplay)
-			pg.TipsMgr:GetInstance():ShowTips(i18n("change_display_medal_success"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("change_display_medal_success"))
 			pg.TipsMgr.GetInstance():sendNotification(GAME.CHANGE_PLAYER_MEDAL_DISPLAY_DONE)
 		end
 	end)

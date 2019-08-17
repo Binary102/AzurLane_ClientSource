@@ -26,7 +26,7 @@ function pg.ToastMgr.Init(slot0, slot1)
 		slot0._tf = slot0._go.transform
 		slot0.container = slot0._tf:Find("container")
 
-		slot0._go.transform:SetParent(pg.UIMgr:GetInstance().OverlayMain.transform, false)
+		slot0._go.transform:SetParent(pg.UIMgr.GetInstance().OverlayMain.transform, false)
 
 		slot0.pools = {}
 		slot2 = {}

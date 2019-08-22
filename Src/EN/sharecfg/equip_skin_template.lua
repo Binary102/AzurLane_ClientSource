@@ -1416,6 +1416,471 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[101] = {
+		bullet_name = "yulei_bingbang",
+		name = "Popsicle Torpedo",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "We all scream for ice cream. Some scream when being torpedoed, too!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91121",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 101,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[102] = {
+		bullet_name = "yulei_qishui",
+		name = "Fizzy Drink Torpedo",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "Also known in certain parts of the Royal Navy as a rinky dinky marble drinky.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91122",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 102,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[103] = {
+		bullet_name = "yulei_fengling",
+		name = "Wind Chime Torpedo",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "To \"chime in\" is thought to be derived from this thing making noise all the time.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91123",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 103,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[104] = {
+		bullet_name = "zidan_xigua",
+		name = "Watermelon Shell",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "Fun fact of the day: watermelons are indeed 50% water, 50% melon.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91111",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 104,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[105] = {
+		bullet_name = "zidan_fengche",
+		name = "Windmill Shell",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "The blades on the mill go round and round, round and round, round and round only when there's enough wind.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91112",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 105,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[106] = {
+		bullet_name = "zidan_bingbang",
+		name = "Fortune Ticket Shell",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "You don't need to be a fortune teller to predict bad luck for anyone who's hit by this.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91113",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 106,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[107] = {
+		bullet_name = "paodan_xuezi",
+		name = "Boot Shell",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "U-96 is strangely fond of this one. Says she could make a movie about it.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91114",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 107,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[108] = {
+		bullet_name = "paodan_xigua",
+		name = "Watermelon Shell",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "Harmless when cut up but the target of much breast envy in its natural form.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91115",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 108,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[109] = {
+		bullet_name = "paodan_yun",
+		name = "Cloud Shell",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "\"Not interested.\"",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91116",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 109,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[110] = {
+		bullet_name = "feiji_zhuzhuwenxiang",
+		name = "Bug-Repelling Pig (Torpedo)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "Much to Akagi's dismay, its warranty explicitly excludes \"pests.\"",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91131",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 110,
+		derivate_torpedo = "yulei_qishui",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[111] = {
+		bullet_name = "feiji_zhuzhuwenxiang",
+		name = "Bug-Repelling Pig (Fighter)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "Much to Akagi's dismay, its warranty explicitly excludes \"pests.\"",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_xigua",
+		icon = "91131",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 111,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[112] = {
+		bullet_name = "feiji_zhuzhuwenxiang",
+		name = "Bug-Repelling Pig (Bomber)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "Much to Akagi's dismay, its warranty explicitly excludes \"pests.\"",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_xigua",
+		icon = "91131",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 112,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[113] = {
+		bullet_name = "feiji_pugongying",
+		name = "Seedhead (Torpedo)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "\"Frickin' hay fever...\"",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91132",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 113,
+		derivate_torpedo = "yulei_fengling",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[114] = {
+		bullet_name = "feiji_pugongying",
+		name = "Seedhead (Fighter)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "\"Frickin' hay fever...\"",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_yun",
+		icon = "91132",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 114,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[115] = {
+		bullet_name = "feiji_pugongying",
+		name = "Seedhead (Bomber)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "\"Frickin' hay fever...\"",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_yun",
+		icon = "91132",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 115,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[116] = {
+		bullet_name = "feiji_saoqingniang",
+		name = "Weather Charm (Torpedo)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "When it does its job, it really lightens up your day.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91133",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 116,
+		derivate_torpedo = "yulei_bingbang",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[117] = {
+		bullet_name = "feiji_saoqingniang",
+		name = "Weather Charm (Fighter)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "When it does its job, it really lightens up your day.",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_xuezi",
+		icon = "91133",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 117,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[118] = {
+		bullet_name = "feiji_saoqingniang",
+		name = "Weather Charm (Bomber)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "When it does its job, it really lightens up your day.",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_xuezi",
+		icon = "91133",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 118,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[120] = {
 		bullet_name = "zidan_ya",
 		name = "Tusk Shell",
@@ -3285,6 +3750,24 @@ pg.equip_skin_template = {
 		64,
 		65,
 		66,
+		101,
+		102,
+		103,
+		104,
+		105,
+		106,
+		107,
+		108,
+		109,
+		110,
+		111,
+		112,
+		113,
+		114,
+		115,
+		116,
+		117,
+		118,
 		120,
 		121,
 		122,

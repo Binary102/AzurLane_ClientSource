@@ -527,7 +527,7 @@ pg.gameset = {
 	commander_exp_a = {
 		description = "",
 		key = "commander_exp_a",
-		key_value = 100
+		key_value = 7000
 	},
 	commander_exp_same_rate = {
 		description = "",
@@ -572,12 +572,12 @@ pg.gameset = {
 	commander_form_b = {
 		description = "",
 		key = "commander_form_b",
-		key_value = 300
+		key_value = 1500
 	},
 	commander_form_c = {
 		description = "",
 		key = "commander_form_c",
-		key_value = 80
+		key_value = 250
 	},
 	commander_form_n = {
 		description = "",
@@ -587,22 +587,31 @@ pg.gameset = {
 	commander_grow_form_a = {
 		description = "",
 		key = "commander_grow_form_a",
-		key_value = 10
+		key_value = 24
 	},
 	commander_grow_form_b = {
 		description = "",
 		key = "commander_grow_form_b",
-		key_value = 50
+		key_value = 304
 	},
 	commander_skill_reset_cost = {
-		description = "",
 		key = "commander_skill_reset_cost",
-		key_value = 1000
+		key_value = 0,
+		description = {
+			{
+				3000,
+				5600,
+				7800,
+				9600,
+				11000,
+				12000
+			}
+		}
 	},
 	commander_box_count = {
 		description = "",
 		key = "commander_box_count",
-		key_value = 4
+		key_value = 10
 	},
 	commander_get_cost = {
 		key = "commander_get_cost",
@@ -614,9 +623,9 @@ pg.gameset = {
 				1
 			},
 			{
-				3000,
+				1500,
 				5000,
-				9
+				14
 			}
 		}
 	},
@@ -650,6 +659,21 @@ pg.gameset = {
 		description = "",
 		key = "reactivity_ticket_max",
 		key_value = 30
+	},
+	max_commander_bag = {
+		description = "",
+		key = "max_commander_bag",
+		key_value = 200
+	},
+	commander_rename_open = {
+		description = "",
+		key = "commander_rename_open",
+		key_value = 1
+	},
+	commander_rename_coldtime = {
+		description = "",
+		key = "commander_rename_coldtime",
+		key_value = 86400
 	},
 	event_tips = {
 		description = "",

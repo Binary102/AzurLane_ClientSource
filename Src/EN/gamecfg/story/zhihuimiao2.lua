@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“指挥喵”可以随舰队一同出击，并且给舰队带来各种强力的帮助喵！",
+			say = "Meowfficers will accompany your ships into battle, providing various benefits to your fleet, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，与其听{namecode:98}说，不如指挥官亲自尝试喵！首先获取一名伙伴试试喵？！",
+			say = "You'll understand once you see for yourself, nya! First, you'll have to use a Cat Box to train a Meowfficer, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -23,14 +23,20 @@ function slot3(slot0)
 end
 
 function slot4(slot0, slot1, slot2)
-	if slot0(slot0) then
-		slot1(slot2)
+	if pg.SeriesGuideMgr.GetInstance():isRunning() then
+		slot0(slot2)
+
+		return
+	end
+
+	if slot1(slot0) then
+		slot0(slot2)
 
 		return
 	end
 
 	if not pg.GuideMgr.GetInstance():canPlay() then
-		slot1(slot2)
+		slot0(slot2)
 
 		return
 	end

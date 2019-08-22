@@ -147,7 +147,7 @@ end
 
 function slot0.updateSkinInfo(slot0, slot1, slot2)
 	setText(slot1:Find("desc"), pg.equip_skin_template[slot2].desc)
-	setText(slot1:Find("cont/name_mask/name"), pg.equip_skin_template[slot2].name)
+	setText(slot1:Find("cont/name_mask/name"), shortenString(pg.equip_skin_template[slot2].name, 10))
 	updateDrop(slot1:Find("IconTpl"), {
 		type = DROP_TYPE_EQUIPMENT_SKIN,
 		id = slot2

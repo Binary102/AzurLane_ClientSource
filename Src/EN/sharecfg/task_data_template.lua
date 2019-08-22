@@ -16638,6 +16638,38 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[7012] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 7012,
+		type = 3,
+		name = "指挥喵训练",
+		count_inherit = 0,
+		desc = "Train 1 Cat Box. ",
+		target_id_2 = "",
+		sub_type = 170,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 40,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 7012,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20011,
+				1
+			}
+		}
+	},
 	[7013] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -17353,6 +17385,38 @@ pg.task_data_template = {
 				1,
 				3,
 				300
+			}
+		}
+	},
+	[7110] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 7110,
+		type = 4,
+		name = "指挥喵训练",
+		count_inherit = 0,
+		desc = "Train 10 Cat Boxes. ",
+		target_id_2 = "",
+		sub_type = 170,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 40,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 7110,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20012,
+				1
 			}
 		}
 	},
@@ -23799,7 +23863,7 @@ pg.task_data_template = {
 		type = 26,
 		name = "Neptune",
 		count_inherit = 0,
-		desc = "Sortie and clear 3 Challenge Mode Stages.",
+		desc = "Sortie and clear 3 Daily Challenges ",
 		target_id_2 = "",
 		sub_type = 26,
 		added_tip = 0,
@@ -24478,7 +24542,7 @@ pg.task_data_template = {
 		type = 26,
 		name = "Knight's Certificate",
 		count_inherit = 0,
-		desc = "Sortie and clear 3 Challenge Mode Stages.",
+		desc = "Sortie and clear 3 Daily Challenges ",
 		target_id_2 = "",
 		sub_type = 26,
 		added_tip = 0,
@@ -54150,6 +54214,7 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		7009,
 		7010,
 		7011,
+		7012,
 		7013,
 		7014,
 		7015,
@@ -54169,6 +54234,7 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		7107,
 		7108,
 		7109,
+		7110,
 		7111,
 		7112,
 		7113,

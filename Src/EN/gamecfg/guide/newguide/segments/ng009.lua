@@ -3,7 +3,7 @@ return {
 	events = {
 		{
 			style = {
-				text = "点击这里可以查看指挥喵的技能和天赋！",
+				text = "Tap here to view the Meowfficer's Skills and Talents!",
 				mode = 1,
 				dir = -1,
 				posY = -200,
@@ -18,7 +18,7 @@ return {
 		},
 		{
 			style = {
-				text = "点击这里可以查看指挥喵带来的属性加成！",
+				text = "Tap here to view the stat bonuses received from the Meowfficer!",
 				mode = 1,
 				dir = -1,
 				posY = -200,
@@ -33,7 +33,7 @@ return {
 		},
 		{
 			style = {
-				text = "通过“陪玩”和“天赋”操作可以对指挥喵进行进一步培养，这部分就由指挥官自己去感受吧~",
+				text = "You can make the Meowfficer better by Enhancing them and leveling their Talents!",
 				mode = 1,
 				dir = 1,
 				posY = -110,
@@ -42,7 +42,7 @@ return {
 		},
 		{
 			style = {
-				text = "点击这里可以查看具体的帮助信息！要加油哦！拜拜~",
+				text = "If you want some more info, just tap the Help button!",
 				mode = 1,
 				dir = -1,
 				posY = -200,

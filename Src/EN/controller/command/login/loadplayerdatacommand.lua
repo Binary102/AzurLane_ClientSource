@@ -38,6 +38,7 @@ class("LoadPlayerDataCommand", pm.SimpleCommand).execute = function (slot0, slot
 	slot0.facade:registerProxy(SkirmishProxy.New())
 	slot0.facade:registerProxy(PrayProxy.New())
 	slot0.facade:registerProxy(EmojiProxy.New())
+	slot0.facade:registerProxy(MiniGameProxy.New())
 	pg.ConnectionMgr.GetInstance():setPacketIdx(1)
 	pg.ConnectionMgr.GetInstance():Send(11001, {
 		timestamp = 0
@@ -61,6 +62,9 @@ class("LoadPlayerDataCommand", pm.SimpleCommand).execute = function (slot0, slot
 		pg.SdkMgr.GetInstance():EnterServer(tostring(slot6.id), slot6.name, slot2.id, slot2.name, slot2.registerTime, slot2.level, slot2:getTotalGem())
 		slot5:recordLoginedServer(getProxy(UserProxy).getData(slot3).uid, slot6.id)
 		slot1:sendNotification(GAME.LOAD_PLAYER_DATA_DONE)
+		slot1:sendNotification(GAME.REQUEST_MINI_GAME, {
+			type = MiniGameRequestCommand.REQUEST_HUB_DATA
+		})
 		pg.SdkMgr.GetInstance():BindCPU()
 		getProxy(PlayerProxy).setInited(slot7, true)
 		pg.SecondaryPWDMgr.GetInstance():FetchData()

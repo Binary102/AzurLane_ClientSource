@@ -4176,6 +4176,63 @@ pg.item_data_statistics = {
 		},
 		index = {}
 	},
+	[20011] = {
+		display = "A plain box purchased from Akashi. What might be inside...?",
+		rarity = 2,
+		type = 2,
+		name = "Rare Cat Box",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 20011,
+		icon = "Props/20011",
+		display_icon = {},
+		price = {
+			1,
+			100
+		},
+		index = {}
+	},
+	[20012] = {
+		display = "A slick box purchased from Akashi. What might be inside...?",
+		rarity = 3,
+		type = 2,
+		name = "Elite Cat Box",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 20012,
+		icon = "Props/20012",
+		display_icon = {},
+		price = {
+			1,
+			100
+		},
+		index = {}
+	},
+	[20013] = {
+		display = "An ornate box purchased from Akashi. What might be inside...?",
+		rarity = 4,
+		type = 2,
+		name = "Super Rare Cat Box",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 20013,
+		icon = "Props/20013",
+		display_icon = {},
+		price = {
+			1,
+			100
+		},
+		index = {}
+	},
 	[30001] = {
 		display = "Contains a Rare piece of submarine gear:\nLow chance to receive <color=#60a9ff>Rare gear</color>\nHigh chance to receive Common gear",
 		rarity = 2,
@@ -5050,6 +5107,116 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			{
 				9,
 				21,
+				1
+			}
+		},
+		price = {
+			1,
+			7000
+		},
+		index = {}
+	},
+	[30307] = {
+		display = "Contains a random gear skin.",
+		rarity = 4,
+		type = 11,
+		name = "Gear Skin Box (End of Summer) ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 30307,
+		icon = "Props/appearanceboxsummer",
+		display_icon = {
+			{
+				9,
+				101,
+				1
+			},
+			{
+				9,
+				102,
+				1
+			},
+			{
+				9,
+				103,
+				1
+			},
+			{
+				9,
+				104,
+				1
+			},
+			{
+				9,
+				105,
+				1
+			},
+			{
+				9,
+				106,
+				1
+			},
+			{
+				9,
+				107,
+				1
+			},
+			{
+				9,
+				108,
+				1
+			},
+			{
+				9,
+				109,
+				1
+			},
+			{
+				9,
+				110,
+				1
+			},
+			{
+				9,
+				111,
+				1
+			},
+			{
+				9,
+				112,
+				1
+			},
+			{
+				9,
+				113,
+				1
+			},
+			{
+				9,
+				114,
+				1
+			},
+			{
+				9,
+				115,
+				1
+			},
+			{
+				9,
+				116,
+				1
+			},
+			{
+				9,
+				117,
+				1
+			},
+			{
+				9,
+				118,
 				1
 			}
 		},
@@ -11535,10 +11702,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[50004] = {
-		display = "Sweet Curry or Hot Curry that is the question.  <color=#A9F548>（Increase EXP by 5 for 60 minutes）</color>",
+		display = "This kind of food(?) is all the rage these days. ",
 		rarity = 2,
 		type = 3,
-		name = "Naval curry",
+		name = "Festival Food(?) ",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -57715,6 +57882,22 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[59114] = {
+		display = "Increases maximum Meowfficer limit by 5. ",
+		rarity = 5,
+		type = 98,
+		name = "Expand Cattery ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59114,
+		icon = "props/commander_expand",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59116] = {
 		display = "Can redeem Combat Supplies during “Fallen Wings” event, will disappear after the event ends.",
 		rarity = 2,
@@ -58895,6 +59078,22 @@ let us celebrate."]],
 		price = {},
 		index = {}
 	},
+	[59783] = {
+		display = "Obtained by playing minigames in the Summer Festival. Complete your stamp book and earn prizes! ",
+		rarity = 2,
+		type = 0,
+		name = "Summer Festival Stamp ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59783,
+		icon = "props/summer_stamp",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59801] = {
 		display = "Jigsaw A-1",
 		rarity = 2,
@@ -59512,7 +59711,7 @@ This lucky bag contains a random Ship skin listed below. (If you’ve received a
 Skins and their drop rates:
 （<color=#92fc63>8%</color>）Fubuki  Music Pixy（<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>8%</color>）Cleveland  Gentry Knight（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>8%</color>）Taihou  Farbidden Fruit（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8%</color>）Taihou  Forbidden Fruit（<color=#92fc63>Live 2d</color>）；
 （<color=#92fc63>9.5%</color>）Aurora  Dawn's Paean；
 （<color=#92fc63>9.5%</color>）Queen Elizabeth  The Queen's Ball；
 （<color=#92fc63>9.5%</color>）Ajax  Party Queen；
@@ -60210,6 +60409,9 @@ Skins and their drop rates:
 		18032,
 		18033,
 		20001,
+		20011,
+		20012,
+		20013,
 		30001,
 		30011,
 		30012,
@@ -60237,6 +60439,7 @@ Skins and their drop rates:
 		30303,
 		30305,
 		30306,
+		30307,
 		30310,
 		30311,
 		30312,
@@ -61242,6 +61445,7 @@ Skins and their drop rates:
 		59111,
 		59112,
 		59113,
+		59114,
 		59116,
 		59118,
 		59119,
@@ -61311,6 +61515,7 @@ Skins and their drop rates:
 		59780,
 		59781,
 		59782,
+		59783,
 		59801,
 		59802,
 		59803,

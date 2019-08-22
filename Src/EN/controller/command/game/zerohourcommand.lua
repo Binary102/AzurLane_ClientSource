@@ -121,6 +121,10 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE) and not slot26:isEnd() then
 		slot0:sendNotification(GAME.CHALLENGE2_INFO, {})
 	end
+
+	slot0:sendNotification(GAME.REQUEST_MINI_GAME, {
+		type = MiniGameRequestCommand.REQUEST_HUB_DATA
+	})
 end
 
 return class("ZeroHourCommand", pm.SimpleCommand)

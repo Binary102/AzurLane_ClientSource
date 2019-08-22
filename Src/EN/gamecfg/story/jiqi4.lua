@@ -138,12 +138,11 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			actor = 108010,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			dir = 1,
-			actor = 108010,
 			nameColor = "#a9f548",
+			dir = 1,
 			say = "You think she lost cause she's been skipping out on training in favor of her secretary work?",
 			typewriter = {
 				speed = 0.05,

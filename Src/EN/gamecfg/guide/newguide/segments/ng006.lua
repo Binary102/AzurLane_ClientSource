@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "首先通过“预订”从{namecode:98}的商店获取喵箱！",
+				text = "Start by going to the Buy menu to purchase a Cat Box from Akashi!",
 				mode = 1,
 				dir = 1,
 				posY = -110,

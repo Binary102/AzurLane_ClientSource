@@ -4004,6 +4004,50 @@ pg.memory_template = {
 		icon = "memory_aisaikesi",
 		is_open = 0
 	},
+	[457] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Enter the Meowfficers",
+		condition = "Unlock the Meowfficer feature (reach Commander Level 40.)",
+		story = "ZHIHUIMIAO1",
+		id = 457,
+		icon = "memory_zhihuimiao",
+		is_open = 0
+	},
+	[458] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Meowfficer Introduction",
+		condition = "Unlock the Meowfficer feature (reach Commander Level 40.)",
+		story = "ZHIHUIMIAO2",
+		id = 458,
+		icon = "memory_zhihuimiao",
+		is_open = 0
+	},
+	[459] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Meowfficer Training",
+		condition = "Unlock the Meowfficer feature (reach Commander Level 40.)",
+		story = "ZHIHUIMIAO3",
+		id = 459,
+		icon = "memory_zhihuimiao",
+		is_open = 0
+	},
+	[460] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "The Housing Situation...",
+		condition = "Unlock the Meowfficer feature (reach Commander Level 40.)",
+		story = "ZHIHUIMIAO4",
+		id = 460,
+		icon = "memory_zhihuimiao",
+		is_open = 0
+	},
 	[471] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -7304,6 +7348,17 @@ pg.memory_template = {
 		icon = "memory_salatuojiahaibao",
 		is_open = 0
 	},
+	[889] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Prepare for the Festival! ",
+		condition = "Begin Summer Festival",
+		story = "TIANHOUYUYI1",
+		id = 889,
+		icon = "memory_tianhouyuyi",
+		is_open = 0
+	},
 	[10011] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -8252,6 +8307,10 @@ pg.memory_template = {
 		454,
 		455,
 		456,
+		457,
+		458,
+		459,
+		460,
 		471,
 		472,
 		473,
@@ -8552,6 +8611,7 @@ pg.memory_template = {
 		886,
 		887,
 		888,
+		889,
 		10011,
 		10012,
 		10013,

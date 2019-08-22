@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.commander_data_template = {
 	[10011] = {
-		name = "伯克喵",
+		name = "Justice",
 		rarity = 5,
 		painting = "bokemiao",
 		nationality = 1,
@@ -17,7 +17,7 @@ pg.commander_data_template = {
 		command_value = 52
 	},
 	[10021] = {
-		name = "奥古喵",
+		name = "Antenna",
 		rarity = 5,
 		painting = "aogumiao",
 		nationality = 1,
@@ -33,7 +33,7 @@ pg.commander_data_template = {
 		command_value = 64
 	},
 	[11011] = {
-		name = "汉克喵",
+		name = "Bunny",
 		rarity = 4,
 		painting = "baiyingmiao",
 		nationality = 1,
@@ -49,7 +49,7 @@ pg.commander_data_template = {
 		command_value = 55
 	},
 	[11021] = {
-		name = "莫里喵",
+		name = "Eagle",
 		rarity = 4,
 		painting = "baiyingmiao",
 		nationality = 1,
@@ -65,7 +65,7 @@ pg.commander_data_template = {
 		command_value = 52
 	},
 	[12011] = {
-		name = "谢尔喵",
+		name = "Lady",
 		rarity = 3,
 		painting = "shuishoumiao",
 		nationality = 1,
@@ -81,7 +81,7 @@ pg.commander_data_template = {
 		command_value = 40
 	},
 	[12021] = {
-		name = "查理喵",
+		name = "SG",
 		rarity = 3,
 		painting = "shuishoumiao",
 		nationality = 1,
@@ -97,7 +97,7 @@ pg.commander_data_template = {
 		command_value = 51
 	},
 	[20011] = {
-		name = "约翰喵",
+		name = "Lime",
 		rarity = 5,
 		painting = "yuehanmiao",
 		nationality = 2,
@@ -113,7 +113,7 @@ pg.commander_data_template = {
 		command_value = 52
 	},
 	[20021] = {
-		name = "庞德喵",
+		name = "Pound",
 		rarity = 5,
 		painting = "pangdemiao",
 		nationality = 2,
@@ -129,7 +129,7 @@ pg.commander_data_template = {
 		command_value = 59
 	},
 	[21011] = {
-		name = "威廉喵",
+		name = "Pepper",
 		rarity = 4,
 		painting = "huangjiamiao",
 		nationality = 2,
@@ -145,7 +145,7 @@ pg.commander_data_template = {
 		command_value = 50
 	},
 	[21021] = {
-		name = "鲁普喵",
+		name = "Soup",
 		rarity = 4,
 		painting = "huangjiamiao",
 		nationality = 2,
@@ -161,7 +161,7 @@ pg.commander_data_template = {
 		command_value = 55
 	},
 	[21031] = {
-		name = "莫德喵",
+		name = "Ark",
 		rarity = 4,
 		painting = "huangjiamiao",
 		nationality = 2,
@@ -177,7 +177,7 @@ pg.commander_data_template = {
 		command_value = 64
 	},
 	[21041] = {
-		name = "帕特喵",
+		name = "Marble",
 		rarity = 4,
 		painting = "huangjiamiao",
 		nationality = 2,
@@ -193,7 +193,7 @@ pg.commander_data_template = {
 		command_value = 48
 	},
 	[22011] = {
-		name = "乔治喵",
+		name = "Rose",
 		rarity = 3,
 		painting = "shuishoumiao",
 		nationality = 2,
@@ -209,7 +209,7 @@ pg.commander_data_template = {
 		command_value = 29
 	},
 	[22021] = {
-		name = "贝尔喵",
+		name = "Bugles",
 		rarity = 3,
 		painting = "shuishoumiao",
 		nationality = 2,
@@ -225,7 +225,7 @@ pg.commander_data_template = {
 		command_value = 38
 	},
 	[30011] = {
-		name = "毗沙丸",
+		name = "Bishamaru",
 		rarity = 5,
 		painting = "duoduowan",
 		nationality = 3,
@@ -241,7 +241,7 @@ pg.commander_data_template = {
 		command_value = 49
 	},
 	[30021] = {
-		name = "小竹丸",
+		name = "Takemaru",
 		rarity = 5,
 		painting = "xiaozhuwan",
 		nationality = 3,
@@ -257,7 +257,7 @@ pg.commander_data_template = {
 		command_value = 62
 	},
 	[31011] = {
-		name = "次郎丸",
+		name = "Jiromaru",
 		rarity = 4,
 		painting = "chongyingmiao",
 		nationality = 3,
@@ -273,7 +273,7 @@ pg.commander_data_template = {
 		command_value = 61
 	},
 	[31021] = {
-		name = "小吉丸",
+		name = "Yoshimaru",
 		rarity = 4,
 		painting = "chongyingmiao",
 		nationality = 3,
@@ -289,7 +289,7 @@ pg.commander_data_template = {
 		command_value = 62
 	},
 	[32011] = {
-		name = "朝丸",
+		name = "Asamaru",
 		rarity = 3,
 		painting = "shuishoumiao",
 		nationality = 3,
@@ -305,7 +305,7 @@ pg.commander_data_template = {
 		command_value = 48
 	},
 	[32021] = {
-		name = "小胜丸",
+		name = "Katsumaru",
 		rarity = 3,
 		painting = "shuishoumiao",
 		nationality = 3,
@@ -321,7 +321,7 @@ pg.commander_data_template = {
 		command_value = 47
 	},
 	[40011] = {
-		name = "克雷喵",
+		name = "Steel",
 		rarity = 5,
 		painting = "keleimiao",
 		nationality = 4,
@@ -337,7 +337,7 @@ pg.commander_data_template = {
 		command_value = 66
 	},
 	[40021] = {
-		name = "林德喵",
+		name = "Oscar",
 		rarity = 5,
 		painting = "lindemiao",
 		nationality = 4,
@@ -353,7 +353,7 @@ pg.commander_data_template = {
 		command_value = 66
 	},
 	[41011] = {
-		name = "弗里喵",
+		name = "Potato",
 		rarity = 4,
 		painting = "tiexuemiao",
 		nationality = 4,
@@ -369,7 +369,7 @@ pg.commander_data_template = {
 		command_value = 56
 	},
 	[41021] = {
-		name = "莫赫喵",
+		name = "Edelweiss",
 		rarity = 4,
 		painting = "tiexuemiao",
 		nationality = 4,
@@ -385,7 +385,7 @@ pg.commander_data_template = {
 		command_value = 59
 	},
 	[41031] = {
-		name = "赫尔喵",
+		name = "Gral",
 		rarity = 4,
 		painting = "tiexuemiao",
 		nationality = 4,
@@ -401,7 +401,7 @@ pg.commander_data_template = {
 		command_value = 51
 	},
 	[42011] = {
-		name = "海耶喵",
+		name = "Tofu",
 		rarity = 3,
 		painting = "shuishoumiao",
 		nationality = 4,
@@ -417,7 +417,7 @@ pg.commander_data_template = {
 		command_value = 46
 	},
 	[42021] = {
-		name = "埃里喵",
+		name = "Beer",
 		rarity = 3,
 		painting = "shuishoumiao",
 		nationality = 4,

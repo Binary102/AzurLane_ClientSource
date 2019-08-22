@@ -25,12 +25,36 @@ pg.push_data_template = {
 		title = "Class is over",
 		content = "$1 has finished $2! It's time to buy a new textbook *Nyaa*!"
 	},
+	{
+		id = 6,
+		title = "Lecture's over, nya!",
+		content = "The course in the Lecture Hall is over, nya! We should set up the next one, nya..."
+	},
+	{
+		id = 7,
+		title = "Research complete, nya!",
+		content = "The research task \"$1\" has been completed, nya! Let's check our progress, nya~"
+	},
+	{
+		id = 8,
+		title = "Development has progressed, nya!",
+		content = "Progress has been made in the development of $1! Let's head down to the development docks, nya!"
+	},
+	{
+		id = 9,
+		title = "Meowfficer training complete, nya!",
+		content = "Meowfficer training has been completed, nya! Let's go greet our new little friend, nya!"
+	},
 	all = {
 		1,
 		2,
 		3,
 		4,
-		5
+		5,
+		6,
+		7,
+		8,
+		9
 	}
 }
 

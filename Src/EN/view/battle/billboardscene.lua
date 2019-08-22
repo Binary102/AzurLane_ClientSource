@@ -77,7 +77,7 @@ function slot0.init(slot0)
 
 	if (slot0.contextData.page or PowerRank.TYPE_POWER) == PowerRank.TYPE_EXTRA_CHAPTER then
 		setActive(slot0.leftPanel, false)
-		setAnchoredPosition(slot0.mainPanel, Vector3(0, -35.5, 0))
+		setAnchoredPosition(slot0.mainPanel, Vector2(0, -35.5))
 		setImageSprite(slot0.extraChapterBg, GetSpriteFromAtlas("commonbg/bg_fengshan", ""))
 	end
 

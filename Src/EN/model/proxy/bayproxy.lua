@@ -305,7 +305,11 @@ function slot0.updateShip(slot0, slot1)
 
 	slot0.recordShipLevelVertify(slot1)
 
-	if (slot0.data[slot1.id].getStar(slot2) < slot1:getStar() or slot2.intimacy < slot1.intimacy or slot2.level < slot1.level or (not slot2.propose and slot1.propose)) and getProxy(CollectionProxy) and not slot1:isActivityNpc() then
+	if slot0.data[slot1.id].level < slot1.level then
+		pg.TrackerMgr.GetInstance():Tracking(TRACKING_SHIP_LEVEL_UP, slot1.level - slot2.level)
+	end
+
+	if (slot2:getStar() < slot1:getStar() or slot2.intimacy < slot1.intimacy or slot2.level < slot1.level or (not slot2.propose and slot1.propose)) and getProxy(CollectionProxy) and not slot1:isActivityNpc() then
 		slot3:flushCollection(slot1)
 	end
 

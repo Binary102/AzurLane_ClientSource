@@ -3,6 +3,41 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 1,
+		pic = "temp5",
+		param = {
+			"scene command room",
+			{}
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 2,
 		pic = "temp1",
 		param = {
 			"scene activity",
@@ -37,7 +72,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 2,
+		id = 3,
 		pic = "temp2",
 		param = {
 			"scene coloring",
@@ -72,7 +107,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 3,
+		id = 4,
 		pic = "temp3",
 		param = {
 			"scene charge",
@@ -109,7 +144,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 4,
+		id = 5,
 		pic = "temp4",
 		param = {
 			"scene charge",
@@ -146,7 +181,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 5,
+		id = 6,
 		pic = "temp11",
 		param = {
 			"CHALLENGE_MAIN_SCENE",
@@ -179,78 +214,13 @@ pg.activity_banner = {
 			}
 		}
 	},
-	{
-		param = "30185",
-		type = 3,
-		id = 6,
-		pic = "temp9",
-		time = {
-			{
-				{
-					2019,
-					8,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "30186",
-		type = 3,
-		id = 7,
-		pic = "temp10",
-		time = {
-			{
-				{
-					2019,
-					8,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
 	all = {
 		1,
 		2,
 		3,
 		4,
 		5,
-		6,
-		7
+		6
 	}
 }
 

@@ -3574,14 +3574,40 @@ pg.activity_template = {
 	[30117] = {
 		mark = 20190426,
 		title_res_tag = "",
-		time = "stop",
 		type = 0,
 		bg = "",
 		config_id = 0,
 		is_show = 0,
 		config_data = "",
 		config_client = "",
-		id = 30117
+		id = 30117,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					8,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[30118] = {
 		mark = 20190426,
@@ -5197,6 +5223,7 @@ pg.activity_template = {
 	[30175] = {
 		mark = 20190731,
 		title_res_tag = "",
+		time = "stop",
 		type = 36,
 		bg = "",
 		config_id = 0,
@@ -5210,109 +5237,30 @@ pg.activity_template = {
 			0.36,
 			0.6,
 			10
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					7,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[30176] = {
 		mark = 20190731,
 		title_res_tag = "",
+		time = "stop",
 		type = 16,
 		bg = "",
 		config_id = 131,
 		is_show = 0,
 		config_data = "100",
 		config_client = "",
-		id = 30176,
-		time = {
-			timer,
-			{
-				{
-					2019,
-					7,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 30176
 	},
 	[30177] = {
 		mark = 20190731,
 		title_res_tag = "newmeixi_pt",
+		time = "stop",
 		type = 54,
 		config_id = 30177,
 		is_show = 8,
 		config_client = "",
 		id = 30177,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					7,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/activity_bg_newmeixi_pt"
 		}
@@ -5320,6 +5268,7 @@ pg.activity_template = {
 	[30178] = {
 		mark = 20190731,
 		title_res_tag = "",
+		time = "stop",
 		type = 14,
 		bg = "",
 		config_id = 0,
@@ -5341,33 +5290,6 @@ pg.activity_template = {
 			916,
 			917,
 			918
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					7,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			"commonbg/bg_pt_newmeixi",
@@ -5587,6 +5509,7 @@ pg.activity_template = {
 	[30185] = {
 		mark = 20190807,
 		title_res_tag = "xixuegui",
+		time = "stop",
 		type = 18,
 		config_id = 3,
 		is_show = 6,
@@ -5612,33 +5535,6 @@ pg.activity_template = {
 			},
 			{
 				13718
-			}
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					8,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		bg = {
@@ -5733,40 +5629,14 @@ pg.activity_template = {
 	[30187] = {
 		mark = 20190807,
 		title_res_tag = "",
+		time = "stop",
 		type = 13,
 		bg = "",
 		config_id = 0,
 		is_show = 0,
 		config_client = "",
 		id = 30187,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					8,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					8,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[30188] = {
 		mark = 20190815,
@@ -6107,6 +5977,99 @@ pg.activity_template = {
 					2019,
 					8,
 					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30194] = {
+		mark = 20190822,
+		title_res_tag = "",
+		type = 57,
+		bg = "",
+		config_id = 1,
+		is_show = 0,
+		id = 30194,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					8,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			ships = {
+				"huonululu",
+				"xixuegui",
+				"lei",
+				"dian",
+				"xiefeierde",
+				"beifeng",
+				"I26",
+				"muyue",
+				"ruihe"
+			},
+			bufflist = {
+				10,
+				11,
+				12
+			}
+		}
+	},
+	[30195] = {
+		mark = 20190822,
+		title_res_tag = "",
+		type = 27,
+		bg = "",
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31994,100}]",
+		config_client = "",
+		id = 30195,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					8,
+					22
 				},
 				{
 					0,
@@ -6794,6 +6757,8 @@ pg.activity_template = {
 		30191,
 		30192,
 		30193,
+		30194,
+		30195,
 		30500,
 		30501,
 		30502,

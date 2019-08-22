@@ -139,7 +139,7 @@ return {
 		return
 	end,
 	OnAndoridBackPress = function ()
-		slot0:onBackPressed()
+		PressBack()
 
 		return
 	end,

@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是这样喵！接下来让我们看看指挥喵的性能——嗯？“每天只有第一次预订免费”喵？",
+			say = "That's the gist of it, nya! Hm... our current production capacity is a bit limited, nya... Hold on, only the first Cat Box per day is free, nya. After that, there will be a charge, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼、呼喵…你看，{namecode:98}和指挥喵们为指挥官和舰队提供助力总是需要些消耗的不是喵？",
+			say = "Heh... hehe... After all, nya~ Akashi and the Meowfficers will be working hard for your sake~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所、所以啦…想要更快得到更多的指挥喵，就请提供物资给{namecode:98}喵！",
+			say = "Anyways! If you want to get a lot more Meowfficers, Akashi welcomes your patronage at any time, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:98}会以最快的速度给指挥官带来新的指挥喵伙伴的喵！",
+			say = "I'll send those Meowfficers to you in no time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总、总之！指挥喵除了有指挥舰队的“能力”，还有不同的“天赋”和“技能”喵，具体的就留给指挥官自己探索了喵！",
+			say = "In addition to increasing your fleet's power, Meowfficers also have different talents and abilities, but I'll let you discover those on your own, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要在“编队”中将它们加入出击舰队，就可以——嗯喵？你问它们究竟是什么喵？",
+			say = "You can add them to your fleet through \"Formations,\" nya. Huh? What exactly are Meowfficers?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那、那是…企业机密喵！指挥官就把它们当作强力又可爱的小伙伴就可以了喵！",
+			say = "Th-that's a trade secret, nya! You can just think of them as cuddly companions that are both cute and strong, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就这样喵！{namecode:98}也要去忙自己的事情了喵，指挥官再见喵！",
+			say = "Anyway, Akashi is busy and has to head back to the store, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "…{namecode:98}急匆匆地说完就走了…还是来看看“指挥喵”究竟有些什么能力吧……",
+			say = "That sounds a bit fishy... but let's see what these Meowfficers are capable of...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

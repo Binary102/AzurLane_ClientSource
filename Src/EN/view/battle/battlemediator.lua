@@ -282,10 +282,19 @@ function slot0.GenBattleData(slot0)
 		SubFlag = -1,
 		ActID = slot0.contextData.actId
 	}
+
+	if pg.battle_cost_template[slot0.contextData.system].global_buff_effected > 0 then
+		_.each(getProxy(PlayerProxy):getData().getBuffByType(slot4, ys.Battle.BattleConst.BATTLE_GLOBAL_BUFF), function (slot0)
+			table.insert(slot0, pg.benefit_buff_template[slot0.id].benefit_effect)
+		end)
+
+		slot1.GlobalBuffIDs = {} or {}
+	end
+
 	slot3 = getProxy(BayProxy)
 	slot4 = {}
 
-	if slot0.contextData.system == SYSTEM_SCENARIO or slot2 == SYSTEM_SHAM or slot2 == SYSTEM_GUILD then
+	if slot2 == SYSTEM_SCENARIO or slot2 == SYSTEM_SHAM or slot2 == SYSTEM_GUILD then
 		slot5 = getProxy(ChapterProxy)
 		slot6 = nil
 

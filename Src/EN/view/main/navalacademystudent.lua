@@ -4,6 +4,7 @@ slot0.ShipState = {
 	Idle = "Idle",
 	Walk = "Walk"
 }
+slot0.normalSpeed = 15
 
 function slot0.Ctor(slot0, slot1)
 	slot0._go = slot1
@@ -137,7 +138,7 @@ function slot0.updateLogic(slot0)
 	slot0:clearLogic()
 
 	if slot0.state == slot0.ShipState.Walk then
-		LeanTween.value(slot0._go, 0, 1, Vector3.Distance(slot1, slot2) / 15):setOnUpdate(System.Action_float(function (slot0)
+		LeanTween.value(slot0._go, 0, 1, Vector3.Distance(slot1, slot2) / slot0.normalSpeed):setOnUpdate(System.Action_float(function (slot0)
 			slot0._tf.anchoredPosition3D = Vector3.Lerp(slot0._tf, Vector3.Lerp, slot0)
 			slot0._tf.localScale.x = (slot0.currentPoint.x < slot0.targetPoint.x and 1) or -1
 			slot0._tf.localScale = slot0._tf.localScale

@@ -1,5 +1,7 @@
 return {
+	fadeOut = 1.5,
 	mode = 2,
+	fadeType = 1,
 	once = true,
 	id = "ZHIHUIMIAO3",
 	fadein = 1.5,
@@ -9,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小猫需要经过一段时间的培训才能成长为合格的指挥喵…不过，这次情况特殊，就让{namecode:98}来进行“特殊指导”喵！",
+			say = "These ordinary kitties normally require a bit of time before they can become qualifed Meowfficers, nya... But just this time, Akashi will carry out some special training, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +26,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "好了喵！准备迎接你的第一名指挥喵伙伴喵！",
+			say = "We're all done, nya! Get ready to meet your first Meowfficer friend, nya!",
 			flashout = {
 				dur = 1,
 				alpha = {

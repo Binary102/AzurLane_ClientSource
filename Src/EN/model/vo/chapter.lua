@@ -562,7 +562,7 @@ function slot0.shipInWartime(slot0, slot1)
 end
 
 function slot0.existAmbush(slot0)
-	return slot0:getDataType() == ChapterConst.TypeNone or slot0:getPlayType() == ChapterConst.TypeLagacy
+	return slot0:getDataType() == ChapterConst.TypeNone and slot0:getPlayType() == ChapterConst.TypeLagacy
 end
 
 function slot0.getAmbushRate(slot0, slot1, slot2)

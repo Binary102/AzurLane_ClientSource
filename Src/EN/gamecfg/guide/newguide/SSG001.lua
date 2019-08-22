@@ -29,7 +29,7 @@ return {
 		{
 			id = "NG005",
 			condition = function ()
-				return getProxy(PlayerProxy):getData().level >= 400
+				return getProxy(PlayerProxy):getData().level >= 40
 			end,
 			args = function (slot0)
 				return {}

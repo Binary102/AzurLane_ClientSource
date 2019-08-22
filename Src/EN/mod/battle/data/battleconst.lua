@@ -1,4 +1,5 @@
 ys.Battle.BattleConst = ys.Battle.BattleConst or {}
+ys.Battle.BattleConst.BATTLE_GLOBAL_BUFF = "battle_buff"
 ys.Battle.BattleConst.NORMALIZE_FLEET_SPEED = Vector3.right
 ys.Battle.BattleConst.SUMMONING_SICKNESS_DURATION = 1.5
 ys.Battle.BattleConst.NON_QUEUE_WEAPON = 0

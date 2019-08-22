@@ -5609,6 +5609,75 @@ pg.ship_skin_words = {
 		detail = "Being able to enjoy this peaceful, festive holiday atmosphere is only possible because of everyone's continued hard work... Right, Commander?",
 		couple_encourage = {}
 	},
+	[107063] = {
+		touch = "Would you also like to see my trusty steed?",
+		feeling3 = "",
+		ID = 107063,
+		expedition = "",
+		win_mvp = "For the sake of freedom and the Azur Lane, I'll keep on winning!",
+		home = "Good work out there! Go ahead and take a break while the others are being inspected.",
+		mission = "",
+		touch2 = "",
+		feeling1 = "Maybe I should just hit the road and never look back... ",
+		skill = "",
+		drop_descrip = "Happy Anniversary! Commander, celebrate to your heart's content today! I'll be praying for our continued victories!",
+		mail = "Commander, there's an incoming message from fleet command. ",
+		lose = "Sometimes there really is a no-win scenario... ",
+		propose = "",
+		hp_warning = "",
+		upgrade = "",
+		voice_key = 0,
+		feeling5 = "Would you like to come with me, Commander? We can go anywhere in the world. Think of all the new people and cultures we could discover together on our trek!",
+		main = "Commander? Recently... I've been thinking about how it would feel to be able to soar through the skies and stars... but that's not really possible. Sorry for making you listen to my idle thoughts. |Vacation, huh... To be honest, I've been deployed in so many places during my lengthy service that sometimes even vacations feel like yet another mission... |Recently, Essex has picked up biking as well. It'd be great to go out with everyone else next time.",
+		voice_key_2 = -1,
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		feeling4 = "",
+		unlock = "Happy Anniversary! Commander, celebrate to your heart's content today! I'll be praying for our continued victories!",
+		battle = "Enterprise, engage!",
+		login = "Ah, you're here. I'm ready to go whenever you are. Oh, can't be forgetting my helmet!",
+		vote = "",
+		detail = "Commander, are you doing well? Live long and prosper!",
+		couple_encourage = {
+			{
+				{
+					10709
+				},
+				1,
+				"All right, let me see what you're made of!",
+				0
+			},
+			{
+				{
+					20212
+				},
+				1,
+				"I'm counting on you. Don't fall behind!",
+				0
+			},
+			{
+				{
+					20121,
+					10117,
+					30105,
+					401231
+				},
+				1,
+				"So this is... the power of friendship...",
+				0
+			},
+			{
+				{
+					30405
+				},
+				1,
+				"I feel like... if you were there, then Akagi could have...",
+				0
+			}
+		}
+	},
 	[107068] = {
 		touch = "Hmm, I like you the same way that you like me.",
 		feeling3 = "",
@@ -7215,6 +7284,39 @@ pg.ship_skin_words = {
 		detail = "(Whispers) Commander, does... does this count as a medical check up?",
 		couple_encourage = {}
 	},
+	[201221] = {
+		touch = "",
+		feeling3 = "",
+		ID = 201221,
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		skill = "",
+		drop_descrip = "I love the bustle of a Sakura festival! Commander, care to try some of Akashi's takoyaki? I've heard their taste is out of this world!",
+		mail = "",
+		lose = "",
+		propose = "",
+		hp_warning = "",
+		upgrade = "",
+		voice_key = 0,
+		feeling5 = "",
+		main = "nil|nil|nil",
+		voice_key_2 = -1,
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		feeling4 = "",
+		unlock = "I love the bustle of a Sakura festival! Commander, care to try some of Akashi's takoyaki? I've heard their taste is out of this world!",
+		battle = "",
+		login = "",
+		vote = "",
+		detail = "",
+		couple_encourage = {}
+	},
 	[201230] = {
 		touch = "Where art thou touching? It is much better over there ...Done already? Hehehe, such a half-heart~",
 		feeling3 = "Since thou are so allured by me, are thou perhaps a pervert? A beast. Seeking respite? More excuses? Lo, I've seen what's under thine bed and read them all",
@@ -7594,6 +7696,48 @@ pg.ship_skin_words = {
 		vote = "",
 		detail = "Eh? Me liking potatoes... does not match with my image?!",
 		couple_encourage = {}
+	},
+	[202029] = {
+		touch = "Let's go and sail off into the sunset! Strewth, this is what being a teeny's all about, eh~",
+		feeling3 = "",
+		ID = 202029,
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		skill = "",
+		drop_descrip = "The cute and charming Achilles is Super☆Retro☆Fitted! Even my heel won't give me any problems now! Well, not like it really ever did before, ahaha~☆",
+		mail = "",
+		lose = "",
+		propose = "",
+		hp_warning = "",
+		upgrade = "",
+		voice_key = 0,
+		feeling5 = "",
+		main = "nil|Being here now, I can chat with anyone whenever! Stoked as a stove, I am!☆|You trying to hide some good chow from me? C'mon, let me have a taste!☆",
+		voice_key_2 = -1,
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		feeling4 = "",
+		unlock = "The cute and charming Achilles is Super☆Retro☆Fitted! Even my heel won't give me any problems now! Well, not like it really ever did before, ahaha~☆",
+		battle = "Target: enemy at 12 o'clock~! Shooooot!",
+		login = "Commander, want some honey? It's heckin' yummy~!",
+		vote = "",
+		detail = "Look, Commander! There's a gorgeous sheila in the sky! ... Really? You believed that?",
+		couple_encourage = {
+			{
+				{
+					20203
+				},
+				1,
+				"Ajax, whaddya want me to do?",
+				0
+			}
+		}
 	},
 	[202030] = {
 		touch = "Alright. If you make me feel good, I might 'allow' you something~",
@@ -8910,6 +9054,39 @@ pg.ship_skin_words = {
 				0
 			}
 		}
+	},
+	[203089] = {
+		touch = "",
+		feeling3 = "",
+		ID = 203089,
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		skill = "",
+		drop_descrip = "Commander, what do you think? I look more mature than I did before... right?",
+		mail = "",
+		lose = "",
+		propose = "",
+		hp_warning = "",
+		upgrade = "",
+		voice_key = 0,
+		feeling5 = "",
+		main = "nil|nil|nil",
+		voice_key_2 = -1,
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		feeling4 = "",
+		unlock = "Commander, what do you think? I look more mature than I did before... right?",
+		battle = "",
+		login = "",
+		vote = "",
+		detail = "",
+		couple_encourage = {}
 	},
 	[203090] = {
 		touch = "Commander, your collar is messed up. And your hair too... Hold still, I'll fix it for you.",
@@ -22807,6 +22984,7 @@ pg.ship_skin_words = {
 		107060,
 		107061,
 		107062,
+		107063,
 		107068,
 		107070,
 		107071,
@@ -22852,6 +23030,7 @@ pg.ship_skin_words = {
 		201218,
 		201219,
 		201220,
+		201221,
 		201230,
 		201231,
 		201232,
@@ -22863,6 +23042,7 @@ pg.ship_skin_words = {
 		202010,
 		202019,
 		202020,
+		202029,
 		202030,
 		202031,
 		202039,
@@ -22899,6 +23079,7 @@ pg.ship_skin_words = {
 		203060,
 		203070,
 		203080,
+		203089,
 		203090,
 		204010,
 		204020,

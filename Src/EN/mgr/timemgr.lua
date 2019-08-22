@@ -291,6 +291,13 @@ function pg.TimeMgr.inTime(slot0, slot1)
 		return slot1 == "always"
 	end
 
+	if slot1[1] == nil then
+		slot1 = {
+			slot1[2],
+			slot1[3]
+		}
+	end
+
 	function slot2(slot0)
 		return {
 			year = slot0[1][1],

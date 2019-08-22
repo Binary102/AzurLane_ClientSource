@@ -66,9 +66,9 @@ end
 
 function slot0.setOrMovePanelState(slot0, slot1, slot2)
 	if slot2 then
-		setAnchoredPosition(slot0.mainPanel, Vector3.zero)
+		setAnchoredPosition(slot0.mainPanel, Vector2.zero)
 		SetActive(slot0.mainPanel, true)
-		setAnchoredPosition(slot0.letterPanel, Vector3.zero)
+		setAnchoredPosition(slot0.letterPanel, Vector2.zero)
 		SetActive(slot0.letterPanel, false)
 
 		return

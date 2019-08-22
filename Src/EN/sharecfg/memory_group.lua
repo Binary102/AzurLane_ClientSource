@@ -74,6 +74,18 @@ pg.memory_group = {
 			721
 		}
 	},
+	[99] = {
+		title = "Enter the Meowfficers! ",
+		type = 1,
+		id = 99,
+		icon = "title_main",
+		memories = {
+			457,
+			458,
+			459,
+			460
+		}
+	},
 	[100] = {
 		title = "Unlock the new Research feature. ",
 		type = 1,
@@ -894,6 +906,15 @@ pg.memory_group = {
 			888
 		}
 	},
+	[165] = {
+		title = "Summer Festival ",
+		type = 2,
+		id = 165,
+		icon = "title_event",
+		memories = {
+			889
+		}
+	},
 	[501] = {
 		title = "{namecode:98}'s Commission",
 		type = 3,
@@ -1408,6 +1429,7 @@ pg.memory_group = {
 		3,
 		4,
 		98,
+		99,
 		100,
 		101,
 		102,
@@ -1456,6 +1478,7 @@ pg.memory_group = {
 		162,
 		163,
 		164,
+		165,
 		501,
 		502,
 		503,

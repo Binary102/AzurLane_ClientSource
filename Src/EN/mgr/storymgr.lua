@@ -2231,7 +2231,7 @@ function slot17(slot0, slot1)
 				slot2 = setAnchoredPosition
 				slot3 = slot3
 				slot3 = slot3._asideSignDate
-				slot4 = Vector3
+				slot4 = Vector2
 				slot5 = slot0
 				slot5 = slot5.signDate
 				slot5 = slot5[3]
@@ -2240,9 +2240,8 @@ function slot17(slot0, slot1)
 				slot6 = slot6.signDate
 				slot6 = slot6[3]
 				slot6 = slot6[2]
-				slot7 = 0
 
-				slot2(slot3, slot4(slot5, slot6, slot7))
+				slot2(slot3, slot4(slot5, slot6))
 			end
 		else
 			slot2 = setText
@@ -4918,6 +4917,11 @@ function slot17(slot0, slot1)
 		slot5 = 0
 
 		if slot4 > slot5 then
+			slot5 = print
+			slot6 = slot4
+
+			slot5(slot6)
+
 			slot5 = slot0
 			slot5 = slot5[slot4]
 			slot5 = slot5.ship_group

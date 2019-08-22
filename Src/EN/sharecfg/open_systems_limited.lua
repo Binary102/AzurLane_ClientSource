@@ -110,6 +110,16 @@ pg.open_systems_limited = {
 		mediator = "TechnologyMediator",
 		level = 30
 	},
+	[14] = {
+		scene = "MAINUI",
+		name = "Meowfficer ",
+		guid_end_id = 0,
+		guidId = 0,
+		id = 14,
+		story_id = "",
+		mediator = "CommandRoomMediator",
+		level = 40
+	},
 	[15] = {
 		scene = "MAINUI",
 		name = "Challenge Mode ",
@@ -132,6 +142,7 @@ pg.open_systems_limited = {
 		9,
 		10,
 		11,
+		14,
 		15
 	}
 }

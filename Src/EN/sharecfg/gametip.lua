@@ -6394,6 +6394,18 @@ Would you like to proceed with the retrofit?
 		tip = "Custom names hidden. Head to Settings - Notifications to enable.",
 		key = "word_rename_switch_tip"
 	},
+	word_ssr = {
+		tip = "SR",
+		key = "word_ssr"
+	},
+	word_sr = {
+		tip = "Elite",
+		key = "word_sr"
+	},
+	word_r = {
+		tip = "R",
+		key = "word_r"
+	},
 	ship_renameShip_error = {
 		tip = "Failed to rename ship.",
 		key = "ship_renameShip_error"
@@ -8429,6 +8441,78 @@ with Anti-Sub gear.
 		tip = "<color=grey>Time left on discount</color> <color=#92fc63>$1</color> ",
 		key = "discount_time"
 	},
+	commander_talent_not_exist = {
+		tip = "Talent error: this Talent already exists.",
+		key = "commander_talent_not_exist"
+	},
+	commander_replace_talent_not_exist = {
+		tip = "Talent error: this Talent is from before a game update.",
+		key = "commander_replace_talent_not_exist"
+	},
+	commander_talent_learned = {
+		tip = "Learned the following Talent: $1.",
+		key = "commander_talent_learned"
+	},
+	commander_talent_learn_erro = {
+		tip = "Failed to learn the following Talent: $1.",
+		key = "commander_talent_learn_erro"
+	},
+	commander_not_exist = {
+		tip = "This Meowfficer does not exist.",
+		key = "commander_not_exist"
+	},
+	commander_fleet_not_exist = {
+		tip = "This fleet does not exist.",
+		key = "commander_fleet_not_exist"
+	},
+	commander_fleet_pos_not_exist = {
+		tip = "A Meowfficer has not been assigned.",
+		key = "commander_fleet_pos_not_exist"
+	},
+	commander_equip_to_fleet_erro = {
+		tip = "Could not assign the following Meowfficer: $1.",
+		key = "commander_equip_to_fleet_erro"
+	},
+	commander_acquire_erro = {
+		tip = "The following Meowfficer could not be obtained: $1.",
+		key = "commander_acquire_erro"
+	},
+	commander_lock_erro = {
+		tip = "The following could not be locked: $1.",
+		key = "commander_lock_erro"
+	},
+	commander_reset_talent_time_no_rearch = {
+		tip = "You must wait before you can reset these Talents again.",
+		key = "commander_reset_talent_time_no_rearch"
+	},
+	commander_reset_talent_is_not_need = {
+		tip = "Talents could not be reset.",
+		key = "commander_reset_talent_is_not_need"
+	},
+	commander_reset_talent_success = {
+		tip = "Talents have been reset.",
+		key = "commander_reset_talent_success"
+	},
+	commander_reset_talent_erro = {
+		tip = "The following Talent could not be reset: $1.",
+		key = "commander_reset_talent_erro"
+	},
+	commander_can_not_be_upgrade = {
+		tip = "The selected Meowfficer cannot level up.",
+		key = "commander_can_not_be_upgrade"
+	},
+	commander_anyone_is_in_fleet = {
+		tip = "The selected Meowfficer is already in a fleet.",
+		key = "commander_anyone_is_in_fleet"
+	},
+	commander_is_in_fleet = {
+		tip = "The selected Meowfficer is currently sortieing.",
+		key = "commander_is_in_fleet"
+	},
+	commander_play_erro = {
+		tip = "Failed to Enhance $1.",
+		key = "commander_play_erro"
+	},
 	ship_equip_same_group_equipment = {
 		tip = "You can only equip 1 Unique gear piece. ",
 		key = "ship_equip_same_group_equipment"
@@ -8436,6 +8520,98 @@ with Anti-Sub gear.
 	summary_page_un_rearch = {
 		tip = "Unclaimed ",
 		key = "summary_page_un_rearch"
+	},
+	commander_exp_overflow_tip = {
+		tip = "The Meowfficer will receive wasted EXP due to going beyond the level cap. Would you like to continue?",
+		key = "commander_exp_overflow_tip"
+	},
+	commander_reset_talent_tip = {
+		tip = "Would you like to reset this Meowfficer's Talents?",
+		key = "commander_reset_talent_tip"
+	},
+	commander_reset_talent = {
+		tip = "Resettable",
+		key = "commander_reset_talent"
+	},
+	commander_select_min_cnt = {
+		tip = "You must select $1 or more Meowfficers.",
+		key = "commander_select_min_cnt"
+	},
+	commander_select_max = {
+		tip = "You cannot select any more Meowfficers.",
+		key = "commander_select_max"
+	},
+	commander_lock_done = {
+		tip = "Meowfficer locked.",
+		key = "commander_lock_done"
+	},
+	commander_unlock_done = {
+		tip = "Meowfficer unlocked.",
+		key = "commander_unlock_done"
+	},
+	commander_get_1 = {
+		tip = "Your daily first Cat Box is free of charge, nya!",
+		key = "commander_get_1"
+	},
+	commander_get = {
+		tip = "Would you like to spend $1 Coins and purchase $2 Cat Box(es)?",
+		key = "commander_get"
+	},
+	commander_build_done = {
+		tip = "Commenced Meowfficer training!",
+		key = "commander_build_done"
+	},
+	commander_build_erro = {
+		tip = "Failed to train Meowfficer(s): $1",
+		key = "commander_build_erro"
+	},
+	commander_get_skills_done = {
+		tip = "Failed to fetch list of learnable Talents.",
+		key = "commander_get_skills_done"
+	},
+	collection_way_is_unopen = {
+		tip = "You cannot obtain this now.",
+		key = "collection_way_is_unopen"
+	},
+	commander_can_not_select_same_group = {
+		tip = "You cannot assign 2 Meowfficers of the same type to one fleet.",
+		key = "commander_can_not_select_same_group"
+	},
+	commander_capcity_is_max = {
+		tip = "The Cattery is full, nya...",
+		key = "commander_capcity_is_max"
+	},
+	commander_reserve_count_is_max = {
+		tip = "You cannot buy any more than this.",
+		key = "commander_reserve_count_is_max"
+	},
+	commander_build_pool_tip = {
+		tip = "即将消耗$2个$1开始指挥喵训练，是否继续？ ",
+		key = "commander_build_pool_tip"
+	},
+	commander_select_matiral_erro = {
+		tip = "This Meowfficer is at the max level; you can only Enhance its Skill with Meowfficers of the same type.",
+		key = "commander_select_matiral_erro"
+	},
+	commander_material_is_rarity = {
+		tip = "You have selected an SR Meowfficer. Would you like to continue?",
+		key = "commander_material_is_rarity"
+	},
+	commander_material_is_maxLevel = {
+		tip = "This Meowfficer is at the max level; it will not gain any EXP from Enhancing. Would you like to continue?",
+		key = "commander_material_is_maxLevel"
+	},
+	charge_commander_bag_max = {
+		tip = "The Cattery has been fully expanded. You cannot purchase any more slots.",
+		key = "charge_commander_bag_max"
+	},
+	shop_extendcommander_success = {
+		tip = "Slots purchased. The Cattery was successfully expanded.",
+		key = "shop_extendcommander_success"
+	},
+	commander_skill_point_noengough = {
+		tip = "This Meowfficer does not have any Talent Points.",
+		key = "commander_skill_point_noengough"
 	},
 	pay_cancel = {
 		tip = "Cancel Payment",
@@ -8686,8 +8862,72 @@ with Anti-Sub gear.
 		key = "newplayer_notice_2"
 	},
 	newplayer_notice_3 = {
-		tip = "Unlocked after completing all Exams",
-		key = "newplayer_notice_3"
+		key = "newplayer_notice_3",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_build"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_info"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability3"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_up"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 2,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	},
 	newplayer_notice_4 = {
 		tip = "Receive Portland after claiming victory",
@@ -8737,9 +8977,329 @@ with Anti-Sub gear.
 		tip = "Your Invitation can only be used once.\nWould you like to invite <color=#92fc63>$1</color>?\nIf so, <color=#92fc63>$1</color> will join your fleet and you will receive a commemorative item. ",
 		key = "nine_choose_one"
 	},
+	help_commander_info = {
+		key = "help_commander_info",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_build"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_info"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability3"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_up"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 2,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
+	help_commander_play = {
+		key = "help_commander_play",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_build"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_info"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability3"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_up"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 4,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
+	help_commander_ability = {
+		key = "help_commander_ability",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_build"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_info"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability3"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_up"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 3,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
 	story_skip_confirm = {
 		tip = "Are you sure you want to skip story cutscene? Skipped story scenes can be replayed in <color=#A1E400FF>Collection>Memories</COLOR>.",
 		key = "story_skip_confirm"
+	},
+	commander_ability_replace_warning = {
+		tip = "The above Talent will be replaced by the one the Meowfficer is about to learn. Would you like to continue? ",
+		key = "commander_ability_replace_warning"
+	},
+	help_command_room = {
+		key = "help_command_room",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_build"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_info"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability3"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_up"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
+	commander_build_rate_tip = {
+		tip = "Cat Box procurement rates: Rare: 60%; Elite: 35%; Super Rare: 5%.",
+		key = "commander_build_rate_tip"
+	},
+	commander_is_in_fleet_already = {
+		tip = "This Meowfficer is already assigned to a fleet.",
+		key = "commander_is_in_fleet_already"
+	},
+	commander_material_is_in_fleet_tip = {
+		tip = "This Meowfficer is assigned to a fleet.\nWould you like to remove it?",
+		key = "commander_material_is_in_fleet_tip"
+	},
+	commander_main_pos = {
+		tip = "Command Cat",
+		key = "commander_main_pos"
+	},
+	commander_assistant_pos = {
+		tip = "Staff Cat",
+		key = "commander_assistant_pos"
+	},
+	comander_repalce_tip = {
+		tip = "This Meowfficer is already assigned to the $2 slot in $1.\nWould you like to assign it to your chosen fleet instead?",
+		key = "comander_repalce_tip"
+	},
+	commander_lock_tip = {
+		tip = "Would you like to lock this Meowfficer?",
+		key = "commander_lock_tip"
+	},
+	commander_is_in_battle = {
+		tip = "This Meowfficer is currently sortieing.",
+		key = "commander_is_in_battle"
+	},
+	commander_rename_warning = {
+		tip = "Would you like to change this Meowfficer's name to $1?",
+		key = "commander_rename_warning"
+	},
+	commander_rename_coldtime_tip = {
+		tip = "You can only change a Meowfficer's name once every 24 hours.",
+		key = "commander_rename_coldtime_tip"
+	},
+	commander_rename_success_tip = {
+		tip = "Name change successful.",
+		key = "commander_rename_success_tip"
 	},
 	amercian_notice_1 = {
 		tip = "Confirm using <color=#92fc63>$1</color> Battle Stars to redeem <color=#92fc63>$2</color>",
@@ -9871,6 +10431,26 @@ Would you like to change modes?]],
 		tip = "You can attempt the Challenge Stages as many times as you like!",
 		key = "challenge_unlimited_tip"
 	},
+	commander_prefab_rename_success = {
+		tip = "Name change successful.",
+		key = "commander_prefab_rename_success"
+	},
+	commander_prefab_name = {
+		tip = "Team $1",
+		key = "commander_prefab_name"
+	},
+	commander_prefab_rename_time = {
+		tip = "You cannot rename this until $1 seconds have passed.",
+		key = "commander_prefab_rename_time"
+	},
+	commander_build_solt_deficiency = {
+		tip = "Only up to 10 Cat Boxes can be prepared for training at a time.",
+		key = "commander_build_solt_deficiency"
+	},
+	commander_select_box_tip = {
+		tip = "Commence training for $1 Cat Box(es)? A maximum of 4 can be trained simultaneously.",
+		key = "commander_select_box_tip"
+	},
 	challenge_end_tip = {
 		tip = "This event has concluded. ",
 		key = "challenge_end_tip"
@@ -10119,9 +10699,123 @@ Would you like to change modes?]],
 		tip = "Rewards",
 		key = "word_reward"
 	},
+	tips_dispense_completed = {
+		tip = "Filling complete",
+		key = "tips_dispense_completed"
+	},
+	tips_firework_completed = {
+		tip = "Fireworks production complete",
+		key = "tips_firework_completed"
+	},
+	help_summer_feast = {
+		key = "help_summer_feast",
+		tip = {
+			{
+				info = [[
+During the event, you will be given 2 Game Tickets per day,up to a maximum of 14.Game Tickets let you play three minigames:Shooting Game, Fireworks Workshop, or Food Stalls. Your performance determines the possible prizes: First-tier Prize: Coins x150, Festival Food(?) x1 Second-tier Prize: Coins x130, Festival Food(?) x1 Third-tier Prize: Coins x110 Booby Prize: Coins x100 Get Juno’s limited outfit by collecting 14 stamps.Your remaining Game Tickets can be seen on the right.You can check your Stamp Collection by tapping the "Stamps" button.Playing minigames with Game Tickets will also increase your number of Shrine Visits.Donating will grant one of three blessings.
+TIPS：
+1. Playing minigames without Game Tickets will not award prizes, stamps, or Shrine Visits.
+2. If you quit during a minigame, the Game Ticket will not be consumed, but you will not gain any prizes.]]
+			}
+		}
+	},
+	help_firework_produce = {
+		tip = "Press the Start button to begin filling the fireworks. The Fill Gauge will continuously move. There will be three Fill attempts - press the button at the appropriate time on each attempt to finish filling the fireworks.The total Fill amount can be seen on the horizontal bar at the right-hand side of the screen.Prizes are given depending on total fill amount: First-tier prize: <color=#c80a00>140%-160%</color> Second-tier prize: <color=#e66f00>120%-140% 160-180%</color>Third-tier prize: <color=#ffea01>90-120% 180-210%</color>All other fill amounts will result in a booby prize.",
+		key = "help_firework_produce"
+	},
+	help_firework = {
+		key = "help_firework",
+		tip = {
+			{
+				info = [[
+<size=31><color=#92fc63>TIPS:
+You can play the minigame without a Game Ticket but will not earn any prizes.</color></size>How to make fireworks:
+1. Press "Start" to begin configuring the fireworks.
+2. Fireworks are made up of three components-Inner, Middle, and Outer layers. Click on the colored Element Balls to add them to the fireworks.The chosen elements change the fireworks’ colors.You can swap an already selected element for another,clear the slot, or swap with another layer.
+3. When all three layers have been selected,Click "Start" to begin filling the fireworks.A Game Ticket will be used to begin filling.You can earn a stamp depending on your performance.
+4. After successfully filling fireworks 3 times, you can click the "Launch Fireworks" button next to the Fireworks Workshop in the Summer Festival Screen to use the fireworks you most recently produced.
+5. The fireworks will continue to launch until you enter another interface or leave the Summer Festival screen.You can click the button again to launch them again.
+6. If you wish to change the fireworks configuration,you will need to use the Fireworks Workshop again.]]
+			}
+		}
+	},
+	help_summer_shrine = {
+		key = "help_summer_shrine",
+		tip = {
+			{
+				info = [[
+<size=31><color=#92fc63>TIPS:
+Making a Donation when you have no Visits will still consume resources but grant no blessing effects.</color></size>
+1. Earn Shrine Visits by using Game Tickets to play any of the three minigames.
+2. As long as you have Shrine Visits, you can make a Donation of 5 coins to choose one of these blessings: Academic Achievement: reduces training time in the Tactical Class. Career Success: Deal more damage while sortieing in a Campaign, Hard Mode, or War Archives map.Blissful Courtship: Your secretary gains affection faster.These blessings last for one day.
+3. Gaining the Academic Achievement blessing will not reduce the time of any in-progress training.When the blessing expires, it will also not increase the time of any in-progress training.
+4. If you acquire a new blessing while one is already in effect, the new blessing will replace the existing one and reset the duration.
+5. Only one blessing may be active at a time.]]
+			}
+		}
+	},
+	help_summer_food = {
+		key = "help_summer_food",
+		tip = {
+			{
+				info = [[
+<size=31><color=#92fc63>TIPS:
+You can play the minigame without a Game Ticket but will not earn any prizes.</color></size>
+1. Press "Order" to begin the game. The desired food will appear above the character’s head on the left-hand side of the screen. After five seconds, the desired food will disappear, so the player needs to remember it.Select the three foods desired by the character within ten seconds.
+2. The desired foods must be selected in the order that they appeared over the character’s head, from left to right.
+3. Press the icon corresponding to the food to select it,and press it again to de-select it.The order will automatically be submitted after selecting three food items.
+4. If there is time left over, the three selected foods will enter the assessment panel. Correctly-selected food will increase the remaining time. You can choose to continue the game, or retire. Extra time earned and scoring are as below:3 correct food chosen: +5 seconds, +5 points 2 correct food chosen: +2 seconds, +2 points 1 correct food chosen: +1 second, +1 point 0 correct food chosen: +0 seconds, +0 points
+5. If you choose to continue, you will retain your countdown and points and continue to select the three desired food items of the character on the left.
+6. If you retire or the countdown expires, a Game Ticket will be consumed and the following prizes awarded:20 points or more: First-tier prize 12-19 points: Second-tier prize 5-11 points: Third-tier prize Fewer than 5 points: Booby prize]]
+			}
+		}
+	},
+	help_summer_shooting = {
+		key = "help_summer_shooting",
+		tip = {
+			{
+				info = [[
+<size=31><color=#92fc63>TIPS：
+You can play the minigame without a Game Ticket but will not earn any prizes.</color></size>
+1.Press "Start" to begin the game. 12 Siren targets will appear across 18 possible spaces,use the movement and fire buttons to shoot the targets before the countdown ends.Different targets have different point values.
+2.Values are marked to the right of the game field.
+3.Fire with the crosshair over the target's portrait to register a hit.There is a one second cooldown between shots.
+4.After you hit a target, it will disappear and the remaining targets will shuffle themselves.
+5.The minigame's countdown runs 12 seconds, at which point the game will end and your points will be tallied.The minigame will then consume your Game Ticket and award a Stamp. You will also earn one of the following prizes:35 points or more: First-tier prize 25-34 points: Second-tier prize 10-24 points: Third-tier prize Fewer than 10 points: Booby prize]]
+			}
+		}
+	},
+	help_summer_stamp = {
+		key = "help_summer_stamp",
+		tip = {
+			{
+				info = "Use Game Tickets to play minigames in order to earn stamps.Stamps earned are displayed in the \"Stamps\" booklet.When 14 stamps have been collected,click on the button on the left-hand side of the booklet to get Juno’s limited outfit."
+			}
+		}
+	},
+	tips_summergame_exit = {
+		tip = "A minigame is currently in progress. If you leave now, you won't earn any prizes. Are you sure you want to leave?",
+		key = "tips_summergame_exit"
+	},
+	tips_shrine_buff = {
+		tip = "You spent 5 Coins and received a blessing: $1",
+		key = "tips_shrine_buff"
+	},
+	tips_shrine_nobuff = {
+		tip = "You spent 5 Coins but your prayers fall upon deaf ears. Perhaps you need more Shrine Visits.",
+		key = "tips_shrine_nobuff"
+	},
 	paint_hide_other_obj_tip = {
-		tip = "Hide background objects ",
+		tip = "Hide background objects",
 		key = "paint_hide_other_obj_tip"
+	},
+	tips_firework_exit = {
+		tip = "The fireworks have not yet been completed. Are you sure you want to leave?",
+		key = "tips_firework_exit"
+	},
+	result_firework_produce = {
+		tip = "Fireworks production has been completed. Your final rating: ",
+		key = "result_firework_produce"
 	}
 }
 

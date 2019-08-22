@@ -563,6 +563,28 @@ pg.shop_template = {
 			}
 		}
 	},
+	[23] = {
+		group_type = 0,
+		resource_num = 200,
+		desc = "200钻石扩展指挥喵容量+10",
+		type = 0,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 0,
+		time = "always",
+		effect_args = "commander_bag_size",
+		group = 0,
+		num = 10,
+		discount = 0,
+		resource_type = 14,
+		id = 23,
+		genre = "",
+		discount_time = {},
+		limit_args = {}
+	},
 	[24] = {
 		group_type = 0,
 		resource_num = 450,
@@ -2553,6 +2575,30 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			30310
+		}
+	},
+	[31994] = {
+		group_type = 0,
+		resource_num = 7000,
+		desc = "7000物资兑换1个外观装备箱",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 0,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 1,
+		id = 31994,
+		genre = "shopping_street",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			30307
 		}
 	},
 	[31996] = {
@@ -5613,6 +5659,33 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			15009
+		}
+	},
+	[61012] = {
+		group_type = 0,
+		resource_num = 80,
+		desc = "80钻石扩展猫窝容量+5",
+		type = 0,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		time_second = 0,
+		order = 0,
+		time = "always",
+		effect_args = "commander_bag_size",
+		group = 0,
+		num = 5,
+		discount = 0,
+		resource_type = 14,
+		id = 61012,
+		genre = "gem_shop",
+		discount_time = {},
+		limit_args = {
+			{
+				"level",
+				40
+			}
 		}
 	},
 	[70001] = {
@@ -14313,6 +14386,55 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70217] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤：企业常服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 9825,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70217,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			107063
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[90001] = {
 		group_type = 0,
 		resource_num = 1,
@@ -15223,6 +15345,7 @@ pg.shop_template = {
 		19,
 		20,
 		21,
+		23,
 		24,
 		21001,
 		21002,
@@ -15306,6 +15429,7 @@ pg.shop_template = {
 		31989,
 		31990,
 		31991,
+		31994,
 		31996,
 		31997,
 		31998,
@@ -15390,6 +15514,7 @@ pg.shop_template = {
 		61008,
 		61009,
 		61010,
+		61012,
 		70001,
 		70002,
 		70003,
@@ -15567,6 +15692,7 @@ pg.shop_template = {
 		70209,
 		70210,
 		70211,
+		70217,
 		90001,
 		90002,
 		90003,

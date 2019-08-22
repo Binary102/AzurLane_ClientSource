@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.commander_skill_template = {
 	[10011] = {
-		name = "31节的正义",
+		name = "31 Knots of Justice",
 		exp = 1,
 		next_id = 10012,
 		id = 10011,
@@ -10,15 +10,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"所在舰队中有三艘驱逐时，地图移动力+1"
+				"When assigned to a fleet with 3 DDs: gives your fleet +1 tile movement on the map."
 			},
 			{
 				2,
-				"当作为司令位指挥喵，接触非旗舰敌方单位时，若队伍中有驱逐，则有15%概率发射一次鱼雷打击(地图)(Lv2生效)"
+				"When assigned as the Command Cat to a fleet that has at least 1 DD: 15.0% chance to launch a preemptive torpedo strike when engaging any non-Boss fleet on the map. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"作为司令位指挥喵，当编队中存在驱逐且未进入交战状态时，可选择相邻位置与敌方交战中的己方舰队，与之互换所在位置代替其与敌方交战。(Lv3生效)"
+				"When assigned as the Command Cat to a fleet that isn't in combat and has at least 1 DD: adds an option in the Strategy Menu to switch positions with a friendly fleet in combat if it is directly adjacent to yours. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -26,7 +26,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[10012] = {
-		name = "31节的正义",
+		name = "31 Knots of Justice",
 		exp = 3,
 		next_id = 10013,
 		id = 10012,
@@ -35,15 +35,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"所在舰队中有三艘驱逐时，地图移动力+1"
+				"When assigned to a fleet with 3 DDs: gives your fleet +1 tile movement on the map."
 			},
 			{
 				2,
-				"当作为司令位指挥喵，接触非旗舰敌方单位时，若队伍中有驱逐，则有15%概率发射一次鱼雷打击(地图)"
+				"When assigned as the Command Cat to a fleet that has at least 1 DD: 15.0% chance to launch a preemptive torpedo strike when engaging any non-Boss fleet on the map."
 			},
 			{
 				3,
-				"作为司令位指挥喵，当编队中存在驱逐且未进入交战状态时，可选择相邻位置与敌方交战中的己方舰队，与之互换所在位置代替其与敌方交战。(Lv3生效)"
+				"When assigned as the Command Cat to a fleet that isn't in combat and has at least 1 DD: adds an option in the Strategy Menu to switch positions with a friendly fleet in combat if it is directly adjacent to yours. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -52,7 +52,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[10013] = {
-		name = "31节的正义",
+		name = "31 Knots of Justice",
 		exp = 0,
 		next_id = 0,
 		id = 10013,
@@ -61,15 +61,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"所在舰队中有三艘驱逐时，地图移动力+1"
+				"When assigned to a fleet with 3 DDs: gives your fleet +1 tile movement on the map."
 			},
 			{
 				2,
-				"当作为司令位指挥喵，接触非旗舰敌方单位时，若队伍中有驱逐，则有15%概率发射一次鱼雷打击(地图)"
+				"When assigned as the Command Cat to a fleet that has at least 1 DD: 15.0% chance to launch a preemptive torpedo strike when engaging any non-Boss fleet on the map."
 			},
 			{
 				3,
-				"作为司令位指挥喵，编队中存在驱逐且未进入交战状态时，可选择相邻位置与敌方交战中的己方舰队，与之互换所在位置代替其与敌方交战"
+				"When assigned as the Command Cat to a fleet that isn't in combat and has at least 1 DD: adds an option in the Strategy Menu to switch positions with a friendly fleet in combat if it is directly adjacent to yours."
 			}
 		},
 		effect_tactic = {
@@ -79,7 +79,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[10021] = {
-		name = "王牌射手",
+		name = "Snipurr",
 		exp = 1,
 		next_id = 10022,
 		id = 10021,
@@ -88,15 +88,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"与主力舰队或侦查舰队交战时，依据指挥喵战术属性，提高所在舰队中战列、战巡、航战的命中属性(效果大)"
+				"When engaging an enemy Vanguard or Main Fleet: increases the Accuracy of your BBs, BCs, and BBVs by a large amount based on the Tactics stat."
 			},
 			{
 				2,
-				"若所在舰队旗舰为战列、战巡或航战，依据指挥喵指挥属性，提高旗舰造成的伤害(Lv2生效)"
+				"When assigned to a fleet with a BB, BC, or BBV as its Flagship: increases the DMG the Flagship deals based on the Directives stat. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"依据指挥喵指挥属性，提高所在舰队中战列、战巡、航战的机动、防空属性(效果中)(Lv3生效)"
+				"Increases EVA and AA for your BBs, BCs, and BBVs by a moderate amount based on the Directives stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -104,7 +104,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[10022] = {
-		name = "王牌射手",
+		name = "Snipurr",
 		exp = 3,
 		next_id = 10023,
 		id = 10022,
@@ -113,15 +113,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"与主力舰队或侦查舰队交战时，依据指挥喵战术属性，提高所在舰队中战列、战巡、航战的命中属性(效果大)"
+				"When engaging an enemy Vanguard or Main Fleet: increases the Accuracy of your BBs, BCs, and BBVs by a large amount based on the Tactics stat."
 			},
 			{
 				2,
-				"若所在舰队旗舰为战列、战巡或航战，依据指挥喵指挥属性，提高旗舰造成的伤害"
+				"When assigned to a fleet with a BB, BC, or BBV as its Flagship: increases the DMG the Flagship deals based on the Directives stat."
 			},
 			{
 				3,
-				"依据指挥喵指挥属性，提高所在舰队中战列、战巡、航战的机动、防空属性(效果中)(Lv3生效)"
+				"Increases EVA and AA for your BBs, BCs, and BBVs by a moderate amount based on the Directives stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -130,7 +130,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[10023] = {
-		name = "王牌射手",
+		name = "Snipurr",
 		exp = 0,
 		next_id = 0,
 		id = 10023,
@@ -139,15 +139,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"与主力舰队或侦查舰队交战时，依据指挥喵战术属性，提高所在舰队中战列、战巡、航战的命中属性(效果大)"
+				"When engaging an enemy Vanguard or Main Fleet: increases the Accuracy of your BBs, BCs, and BBVs by a large amount based on the Tactics stat."
 			},
 			{
 				2,
-				"若所在舰队旗舰为战列、战巡或航战，依据指挥喵指挥属性，提高旗舰造成的伤害"
+				"When assigned to a fleet with a BB, BC, or BBV as its Flagship: increases the DMG the Flagship deals based on the Directives stat."
 			},
 			{
 				3,
-				"依据指挥喵指挥属性，提高所在舰队中战列、战巡、航战的机动、防空属性(效果中)"
+				"Increases EVA and AA for your BBs, BCs, and BBVs by a moderate amount based on the Directives stat."
 			}
 		},
 		effect_tactic = {
@@ -157,7 +157,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[11011] = {
-		name = "5英寸的勇气",
+		name = "Bite Their Fingers",
 		exp = 1,
 		next_id = 11012,
 		id = 11011,
@@ -166,15 +166,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"当作为司令位指挥喵，接触非旗舰敌方单位时，若队伍中有驱逐，则有15%概率发射一次鱼雷打击(地图)"
+				"When assigned as the Command Cat to a fleet that has at least 1 DD: 15.0% chance to launch a preemptive torpedo strike when engaging any non-Boss fleet on the map."
 			},
 			{
 				2,
-				"先锋领舰为驱逐时，靠近敌人可以发射一轮特殊弹幕I(Lv2生效)"
+				"Once per battle, when a DD is the frontmost ship of your Vanguard: activates Meowfficer Barrage Ⅰ when in close proximity to an enemy. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"特殊弹幕I 强化为 特殊弹幕II(Lv3生效)"
+				"Upgrades Meowfficer Barrage Ⅰ to Meowfficer Barrage Ⅱ. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -182,7 +182,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[11012] = {
-		name = "5英寸的勇气",
+		name = "Bite Their Fingers",
 		exp = 3,
 		next_id = 11013,
 		id = 11012,
@@ -191,15 +191,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"当作为司令位指挥喵，接触非旗舰敌方单位时，若队伍中有驱逐，则有15%概率发射一次鱼雷打击(地图)"
+				"When assigned as the Command Cat to a fleet that has at least 1 DD: 15.0% chance to launch a preemptive torpedo strike when engaging any non-Boss fleet on the map."
 			},
 			{
 				2,
-				"先锋领舰为驱逐时，战斗中靠近敌人时发射一轮特殊弹幕I，每场战斗一次"
+				"Once per battle, when a DD is the frontmost ship of your Vanguard: activates Meowfficer Barrage Ⅰ when in close proximity to an enemy."
 			},
 			{
 				3,
-				"特殊弹幕I 强化为 特殊弹幕II(Lv3生效)"
+				"Upgrades Meowfficer Barrage Ⅰ to Meowfficer Barrage Ⅱ. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -208,7 +208,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[11013] = {
-		name = "5英寸的勇气",
+		name = "Bite Their Fingers",
 		exp = 0,
 		next_id = 0,
 		id = 11013,
@@ -217,15 +217,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"当作为司令位指挥喵，接触非旗舰敌方单位时，若队伍中有驱逐，则有15%概率发射一次鱼雷打击(地图)"
+				"When assigned as the Command Cat to a fleet that has at least 1 DD: 15.0% chance to launch a preemptive torpedo strike when engaging any non-Boss fleet on the map."
 			},
 			{
 				2,
-				"先锋领舰为驱逐时，战斗中靠近敌人时发射一轮特殊弹幕I，每场战斗一次"
+				"Once per battle, when a DD is the frontmost ship of your Vanguard: activates Meowfficer Barrage Ⅰ when in close proximity to an enemy."
 			},
 			{
 				3,
-				"特殊弹幕I 强化为 特殊弹幕II"
+				"Upgrades Meowfficer Barrage Ⅰ to Meowfficer Barrage Ⅱ."
 			}
 		},
 		effect_tactic = {
@@ -234,7 +234,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[11021] = {
-		name = "幸运之翼",
+		name = "Nine Lives",
 		exp = 1,
 		next_id = 11022,
 		id = 11021,
@@ -243,15 +243,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻航、正航的装填属性(效果小)"
+				"When assigned as the Staff Cat: increases the RLD of your CVs and CVLs by a small amount based on the Tactics stat."
 			},
 			{
 				2,
-				"所在舰队遭遇空袭时，依据指挥喵战术属性，有概率回避此次空袭伤害(Lv2生效)"
+				"When the fleet runs into an Airstrike on the map: gives a chance to completely evade the Airstrike based on the Tactics stat. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻航、正航的航空属性(效果中)(Lv3生效)"
+				"When assigned as the Staff Cat: increases the AVI of your CVs and CVLs by a moderate amount based on the Directives stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -259,7 +259,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[11022] = {
-		name = "幸运之翼",
+		name = "Nine Lives",
 		exp = 3,
 		next_id = 11023,
 		id = 11022,
@@ -268,15 +268,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻航、正航的装填属性(效果小)"
+				"When assigned as the Staff Cat: increases the RLD of your CVs and CVLs by a small amount based on the Tactics stat."
 			},
 			{
 				2,
-				"所在舰队遭遇空袭时，依据指挥喵战术属性，有概率回避此次空袭伤害"
+				"When the fleet runs into an Airstrike on the map: gives a chance to completely evade the Airstrike based on the Tactics stat."
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻航、正航的航空属性(效果中)(Lv3生效)"
+				"When assigned as the Staff Cat: increases the AVI of your CVs and CVLs by a moderate amount based on the Directives stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -285,7 +285,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[11023] = {
-		name = "幸运之翼",
+		name = "Nine Lives",
 		exp = 0,
 		next_id = 0,
 		id = 11023,
@@ -294,15 +294,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻航、正航的装填属性(效果小)"
+				"When assigned as the Staff Cat: increases the RLD of your CVs and CVLs by a small amount based on the Tactics stat."
 			},
 			{
 				2,
-				"所在舰队遭遇空袭时，依据指挥喵战术属性，有概率回避此次空袭伤害"
+				"When the fleet runs into an Airstrike on the map: gives a chance to completely evade the Airstrike based on the Tactics stat."
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻航、正航的航空属性(效果中)"
+				"When assigned as the Staff Cat: increases the AVI of your CVs and CVLs by a moderate amount based on the Directives stat."
 			}
 		},
 		effect_tactic = {
@@ -312,7 +312,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[12011] = {
-		name = "空母后勤",
+		name = "Carrier Boost",
 		exp = 1,
 		next_id = 12012,
 		id = 12011,
@@ -321,15 +321,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中轻航、正航的装填属性(效果小)"
+				"When assigned as the Staff Cat: increases the RLD of your CVs and CVLs by a small amount based on the Logistics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻航、正航的航空属性(效果小)(Lv2生效)"
+				"When assigned as the Staff Cat: increases the AVI of your CVs and CVLs by a small amount based on the Directives stat. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻航、正航的命中属性(效果小)(Lv3生效)"
+				"When assigned as the Staff Cat: increases the Accuracy of your CVs and CVLs by a small amount based on the Tactics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -337,7 +337,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[12012] = {
-		name = "空母后勤",
+		name = "Carrier Boost",
 		exp = 3,
 		next_id = 12013,
 		id = 12012,
@@ -346,15 +346,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中轻航、正航的装填属性(效果小)"
+				"When assigned as the Staff Cat: increases the RLD of your CVs and CVLs by a small amount based on the Logistics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻航、正航的航空属性(效果小)"
+				"When assigned as the Staff Cat: increases the AVI of your CVs and CVLs by a small amount based on the Directives stat."
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻航、正航的命中属性(效果小)(Lv3生效)"
+				"When assigned as the Staff Cat: increases the Accuracy of your CVs and CVLs by a small amount based on the Tactics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -363,7 +363,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[12013] = {
-		name = "空母后勤",
+		name = "Carrier Boost",
 		exp = 0,
 		next_id = 0,
 		id = 12013,
@@ -372,15 +372,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中轻航、正航的装填属性(效果小)"
+				"When assigned as the Staff Cat: increases the RLD of your CVs and CVLs by a small amount based on the Logistics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻航、正航的航空属性(效果小)"
+				"When assigned as the Staff Cat: increases the AVI of your CVs and CVLs by a small amount based on the Directives stat."
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻航、正航的命中属性(效果小)"
+				"When assigned as the Staff Cat: increases the Accuracy of your CVs and CVLs by a small amount based on the Tactics stat."
 			}
 		},
 		effect_tactic = {
@@ -390,7 +390,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[12021] = {
-		name = "雷达侦察",
+		name = "Recon Boost",
 		exp = 1,
 		next_id = 12022,
 		id = 12021,
@@ -399,15 +399,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"依据指挥喵后勤属性，降低所在舰队遭遇伏击的概率"
+				"Decreases the fleet's chance of running into an Ambush based on the Logistics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻巡、重巡、超巡的命中属性(效果小)(Lv2生效)"
+				"When assigned as the Staff Cat: increases the Accuracy of your CLs, CAs, and CBs by a small amount based on the Tactics stat. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻巡、重巡、超巡的炮击属性(效果小)(Lv3生效)"
+				"When assigned as the Staff Cat: increases the FP your CLs, CAs, and CBs by a small amount based on the Directives stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -415,7 +415,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[12022] = {
-		name = "雷达侦察",
+		name = "Recon Boost",
 		exp = 3,
 		next_id = 12023,
 		id = 12022,
@@ -424,15 +424,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"依据指挥喵后勤属性，降低所在舰队遭遇伏击的概率"
+				"Decreases the fleet's chance of running into an Ambush based on the Logistics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻巡、重巡、超巡的命中属性(效果小)"
+				"When assigned as the Staff Cat: increases the Accuracy of your CLs, CAs, and CBs by a small amount based on the Tactics stat."
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻巡、重巡、超巡的炮击属性(效果小)(Lv3生效)"
+				"When assigned as the Staff Cat: increases the FP your CLs, CAs, and CBs by a small amount based on the Directives stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -441,7 +441,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[12023] = {
-		name = "雷达侦察",
+		name = "Recon Boost",
 		exp = 0,
 		next_id = 0,
 		id = 12023,
@@ -450,15 +450,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"依据指挥喵后勤属性，降低所在舰队遭遇伏击的概率"
+				"Decreases the fleet's chance of running into an Ambush based on the Logistics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻巡、重巡、超巡的命中属性(效果小)"
+				"When assigned as the Staff Cat: increases the Accuracy of your CLs, CAs, and CBs by a small amount based on the Tactics stat."
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻巡、重巡、超巡的炮击属性(效果小)"
+				"When assigned as the Staff Cat: increases the FP your CLs, CAs, and CBs by a small amount based on the Directives stat."
 			}
 		},
 		effect_tactic = {
@@ -468,7 +468,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[20011] = {
-		name = "尽忠职守",
+		name = "Churchill's Blessing",
 		exp = 1,
 		next_id = 20012,
 		id = 20011,
@@ -477,15 +477,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中战列、战巡、航战的炮击、防空属性(效果中)"
+				"When assigned as the Staff Cat: increases the FP and AA of your BBs, BCs, and BBVs by a moderate amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵，舰队在沿岸区域(不可通行的岛屿陆地旁)交战时，依据指挥喵战术属性，提高所在舰队全员的炮击属性(效果中)(Lv2生效)"
+				"When assigned as the Staff Cat and when in a coastal battle (i.e. fighting on a tile adjacent to impassable land): increases the entire fleet's FP by a moderate amount based on the Tactics stat. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"依据指挥喵战术属性，提高所在舰队成员对战列、战巡、航战造成的伤害(Lv3生效)"
+				"Increases the DMG your BBs, BCs, and BBVs deal based on the Tactics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -493,7 +493,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[20012] = {
-		name = "尽忠职守",
+		name = "Churchill's Blessing",
 		exp = 3,
 		next_id = 20013,
 		id = 20012,
@@ -502,15 +502,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中战列、战巡、航战的炮击、防空属性(效果中)"
+				"When assigned as the Staff Cat: increases the FP and AA of your BBs, BCs, and BBVs by a moderate amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵，舰队在沿岸区域(不可通行的岛屿陆地旁)交战时，依据指挥喵战术属性，提高所在舰队全员的炮击属性(效果中)"
+				"When assigned as the Staff Cat and when in a coastal battle (i.e. fighting on a tile adjacent to impassable land): increases the entire fleet's FP by a moderate amount based on the Tactics stat."
 			},
 			{
 				3,
-				"依据指挥喵战术属性，提高所在舰队成员对战列、战巡、航战造成的伤害(Lv3生效)"
+				"Increases the DMG your BBs, BCs, and BBVs deal based on the Tactics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -519,7 +519,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[20013] = {
-		name = "尽忠职守",
+		name = "Churchill's Blessing",
 		exp = 0,
 		next_id = 0,
 		id = 20013,
@@ -528,15 +528,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中战列、战巡、航战的炮击、防空属性(效果中)"
+				"When assigned as the Staff Cat: increases the FP and AA of your BBs, BCs, and BBVs by a moderate amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵，舰队在沿岸区域(不可通行的岛屿陆地旁)交战时，依据指挥喵战术属性，提高所在舰队全员的炮击属性(效果中)"
+				"When assigned as the Staff Cat and when in a coastal battle (i.e. fighting on a tile adjacent to impassable land): increases the entire fleet's FP by a moderate amount based on the Tactics stat."
 			},
 			{
 				3,
-				"依据指挥喵战术属性，提高所在舰队成员对战列、战巡、航战造成的伤害"
+				"Increases the DMG your BBs, BCs, and BBVs deal based on the Tactics stat."
 			}
 		},
 		effect_tactic = {
@@ -546,7 +546,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[20021] = {
-		name = "狡黠之獾",
+		name = "Rule Britannya",
 		exp = 1,
 		next_id = 20022,
 		id = 20021,
@@ -555,15 +555,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为司令位指挥喵时，依据指挥喵指挥属性，提高所在舰队中战列、战巡、航战的炮击、防空属性(效果中)"
+				"When assigned as the Command Cat: increases the FP and AA of your BBs, BCs, and BBVs by a moderate amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为司令位指挥喵时，若队伍中皇家阵营角色数量不少于4名，战斗开始后，依据后勤属性，降低队伍中先锋角色受到的伤害，持续30秒(Lv2生效)"
+				"When assigned as the Command Cat to a fleet with at least 4 Royal Navy ships: decreases the DMG your Vanguard takes for 30s after the battle starts based on the Logistics stat. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"作为司令位指挥喵时，依据指挥喵后勤属性，提高所在舰队中皇家阵营角色的机动属性(效果大)(Lv3生效)"
+				"When assigned as the Command Cat: increases the EVA of your Royal Navy ships by a large amount based on the Logistics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -571,7 +571,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[20022] = {
-		name = "狡黠之獾",
+		name = "Rule Britannya",
 		exp = 3,
 		next_id = 20023,
 		id = 20022,
@@ -580,15 +580,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为司令位指挥喵时，依据指挥喵指挥属性，提高所在舰队中战列、战巡、航战的炮击、防空属性(效果中)"
+				"When assigned as the Command Cat: increases the FP and AA of your BBs, BCs, and BBVs by a moderate amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为司令位指挥喵时，若队伍中皇家阵营角色数量不少于4名，战斗开始后，依据后勤属性，降低队伍中先锋角色受到的伤害，持续30秒"
+				"When assigned as the Command Cat to a fleet with at least 4 Royal Navy ships: decreases the DMG your Vanguard takes for 30s after the battle starts based on the Logistics stat."
 			},
 			{
 				3,
-				"作为司令位指挥喵时，依据指挥喵后勤属性，提高所在舰队中皇家阵营角色的机动属性(效果大)(Lv3生效)"
+				"When assigned as the Command Cat: increases the EVA of your Royal Navy ships by a large amount based on the Logistics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -597,7 +597,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[20023] = {
-		name = "狡黠之獾",
+		name = "Rule Britannya",
 		exp = 0,
 		next_id = 0,
 		id = 20023,
@@ -606,15 +606,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为司令位指挥喵时，依据指挥喵指挥属性，提高所在舰队中战列、战巡、航战的炮击、防空属性(效果中)"
+				"When assigned as the Command Cat: increases the FP and AA of your BBs, BCs, and BBVs by a moderate amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为司令位指挥喵时，若队伍中皇家阵营角色数量不少于4名，战斗开始后，依据后勤属性，降低队伍中先锋角色受到的伤害，持续30秒"
+				"When assigned as the Command Cat to a fleet with at least 4 Royal Navy ships: decreases the DMG your Vanguard takes for 30s after the battle starts based on the Logistics stat."
 			},
 			{
 				3,
-				"作为司令位指挥喵时，依据指挥喵后勤属性，提高所在舰队中皇家阵营角色的机动属性(效果大)"
+				"When assigned as the Command Cat: increases the EVA of your Royal Navy ships by a large amount based on the Logistics stat."
 			}
 		},
 		effect_tactic = {
@@ -624,7 +624,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[21011] = {
-		name = "物资拦截者",
+		name = "Commerce Purrsuiter",
 		exp = 1,
 		next_id = 21012,
 		id = 21011,
@@ -633,15 +633,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中轻巡、重巡、超巡的机动属性(效果小)"
+				"When assigned as the Staff Cat: increases the EVA of your CLs, CAs, and CBs by a small amount based on the Logistics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵，与运输舰队交战时，依据指挥喵战术属性，提高所在舰队中轻巡、重巡、超巡的炮击属性(效果大)(Lv2生效)"
+				"When assigned as the Staff Cat and when engaging an enemy Cargo Fleet: increases the FP of your CLs, CAs, and CBs by a large amount based on the Tactics stat. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻巡、重巡的雷击属性(效果中)(Lv3生效)"
+				"When assigned as the Staff Cat: increases the TRP of your CLs, CAs, and CBs by a moderate amount based on the Directives stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -649,7 +649,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[21012] = {
-		name = "物资拦截者",
+		name = "Commerce Purrsuiter",
 		exp = 3,
 		next_id = 21013,
 		id = 21012,
@@ -658,15 +658,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中轻巡、重巡、超巡的机动属性(效果小)"
+				"When assigned as the Staff Cat: increases the EVA of your CLs, CAs, and CBs by a small amount based on the Logistics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵，与运输舰队交战时，依据指挥喵战术属性，提高所在舰队中轻巡、重巡、超巡的炮击属性(效果大)"
+				"When assigned as the Staff Cat and when engaging an enemy Cargo Fleet: increases the FP of your CLs, CAs, and CBs by a large amount based on the Tactics stat."
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻巡、重巡的雷击属性(效果中)(Lv3生效)"
+				"When assigned as the Staff Cat: increases the TRP of your CLs, CAs, and CBs by a moderate amount based on the Directives stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -675,7 +675,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[21013] = {
-		name = "物资拦截者",
+		name = "Commerce Purrsuiter",
 		exp = 0,
 		next_id = 0,
 		id = 21013,
@@ -684,15 +684,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中轻巡、重巡、超巡的机动属性(效果小)"
+				"When assigned as the Staff Cat: increases the EVA of your CLs, CAs, and CBs by a small amount based on the Logistics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵，与运输舰队交战时，依据指挥喵战术属性，提高所在舰队中轻巡、重巡、超巡的炮击属性(效果大)"
+				"When assigned as the Staff Cat and when engaging an enemy Cargo Fleet: increases the FP of your CLs, CAs, and CBs by a large amount based on the Tactics stat."
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻巡、重巡的雷击属性(效果中)"
+				"When assigned as the Staff Cat: increases the TRP of your CLs, CAs, and CBs by a moderate amount based on the Directives stat."
 			}
 		},
 		effect_tactic = {
@@ -702,7 +702,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[21021] = {
-		name = "斥候猎手",
+		name = "Purrceptive",
 		exp = 1,
 		next_id = 21022,
 		id = 21021,
@@ -711,15 +711,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵，与侦查舰队交战时，依据指挥喵战术属性，提高所在舰队中驱逐的命中属性(效果中)"
+				"When assigned as the Staff Cat and when engaging an enemy Vanguard Fleet: increases the Accuracy of your DDs by a moderate amount based on the Tactics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中驱逐的机动属性(效果小)(Lv2生效)"
+				"When assigned as the Staff Cat: increases the EVA of your DDs by a small amount based on the Logistics stat. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"距离自身3格范围内存在敌方侦察舰队时，当前舰队移动力+1(Lv3生效)"
+				"When assigned to a fleet that is within 3 tiles of an enemy Vanguard Fleet: gives your fleet +1 tile movement on the map. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -727,7 +727,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[21022] = {
-		name = "斥候猎手",
+		name = "Purrceptive",
 		exp = 3,
 		next_id = 21023,
 		id = 21022,
@@ -736,15 +736,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵，与侦查舰队交战时，依据指挥喵战术属性，提高所在舰队中驱逐的命中属性(效果中)"
+				"When assigned as the Staff Cat and when engaging an enemy Vanguard Fleet: increases the Accuracy of your DDs by a moderate amount based on the Tactics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中驱逐的机动属性(效果小)"
+				"When assigned as the Staff Cat: increases the EVA of your DDs by a small amount based on the Logistics stat."
 			},
 			{
 				3,
-				"距离自身3格范围内存在敌方侦察舰队时，当前舰队移动力+1(Lv3生效)"
+				"When assigned to a fleet that is within 3 tiles of an enemy Vanguard Fleet: gives your fleet +1 tile movement on the map. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -753,7 +753,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[21023] = {
-		name = "斥候猎手",
+		name = "Purrceptive",
 		exp = 0,
 		next_id = 0,
 		id = 21023,
@@ -762,15 +762,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵，与侦查舰队交战时，依据指挥喵战术属性，提高所在舰队中驱逐的命中属性(效果中)"
+				"When assigned as the Staff Cat and when engaging an enemy Vanguard Fleet: increases the Accuracy of your DDs by a moderate amount based on the Tactics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中驱逐的机动属性(效果小)"
+				"When assigned as the Staff Cat: increases the EVA of your DDs by a small amount based on the Logistics stat."
 			},
 			{
 				3,
-				"距离自身3格范围内存在敌方侦察舰队时，当前舰队移动力+1"
+				"When assigned to a fleet that is within 3 tiles of an enemy Vanguard Fleet: gives your fleet +1 tile movement on the map."
 			}
 		},
 		effect_tactic = {
@@ -780,7 +780,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[21031] = {
-		name = "守望者",
+		name = "Tiddles' Legacy",
 		exp = 1,
 		next_id = 21032,
 		id = 21031,
@@ -789,15 +789,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻航、正航的命中属性(效果小)"
+				"When assigned as the Staff Cat: increases the Accuracy of your CVs and CVLs by a small amount based on the Tactics stat."
 			},
 			{
 				2,
-				"距离自身2格范围内存在敌方侦察舰队时，当前舰队移动力+1(Lv2生效)"
+				"When assigned to a fleet that is within 2 tiles of an enemy Vanguard Fleet: gives your fleet +1 tile movement on the map. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻航、正航的航空属性(效果中)(Lv3生效)"
+				"When assigned as the Staff Cat: increases the AVI of your CVs and CVLs by a moderate amount based on the Directives stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -805,7 +805,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[21032] = {
-		name = "守望者",
+		name = "Tiddles' Legacy",
 		exp = 3,
 		next_id = 21033,
 		id = 21032,
@@ -814,15 +814,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻航、正航的命中属性(效果小)"
+				"When assigned as the Staff Cat: increases the Accuracy of your CVs and CVLs by a small amount based on the Tactics stat."
 			},
 			{
 				2,
-				"距离自身2格范围内存在敌方侦察舰队时，当前舰队移动力+1"
+				"When assigned to a fleet that is within 2 tiles of an enemy Vanguard Fleet: gives your fleet +1 tile movement on the map."
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻航、正航的航空属性(效果中)(Lv3生效)"
+				"When assigned as the Staff Cat: increases the AVI of your CVs and CVLs by a moderate amount based on the Directives stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -831,7 +831,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[21033] = {
-		name = "守望者",
+		name = "Tiddles' Legacy",
 		exp = 0,
 		next_id = 0,
 		id = 21033,
@@ -840,15 +840,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻航、正航的命中属性(效果小)"
+				"When assigned as the Staff Cat: increases the Accuracy of your CVs and CVLs by a small amount based on the Tactics stat."
 			},
 			{
 				2,
-				"距离自身2格范围内存在敌方侦察舰队时，当前舰队移动力+1"
+				"When assigned to a fleet that is within 2 tiles of an enemy Vanguard Fleet: gives your fleet +1 tile movement on the map."
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻航、正航的航空属性(效果中)"
+				"When assigned as the Staff Cat: increases the AVI of your CVs and CVLs by a moderate amount based on the Directives stat."
 			}
 		},
 		effect_tactic = {
@@ -858,7 +858,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[21041] = {
-		name = "无畏的骑士",
+		name = "Sophissticated",
 		exp = 1,
 		next_id = 21042,
 		id = 21041,
@@ -867,15 +867,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"依据指挥喵后勤属性，降低受到伏击的概率"
+				"Decreases the chance of the fleet running into an Airstrike on the map based on the Logistics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中战列、战巡、航战的装填属性(效果小)(Lv2生效)"
+				"When assigned as the Staff Cat: increases the RLD of your BBs, BCs, and BBVs by a small amount based on the Directives stat. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中皇家阵营角色的炮击属性(效果小)(Lv3生效)"
+				"When assigned as the Staff Cat: increases the FP of your Royal Navy ships by a small amount based on the Tactics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -883,7 +883,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[21042] = {
-		name = "无畏的骑士",
+		name = "Sophissticated",
 		exp = 3,
 		next_id = 21043,
 		id = 21042,
@@ -892,15 +892,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"依据指挥喵后勤属性，降低受到伏击的概率"
+				"Decreases the chance of the fleet running into an Airstrike on the map based on the Logistics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中战列、战巡、航战的装填属性(效果小)"
+				"When assigned as the Staff Cat: increases the RLD of your BBs, BCs, and BBVs by a small amount based on the Directives stat."
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中皇家阵营角色的炮击属性(效果小)(Lv3生效)"
+				"When assigned as the Staff Cat: increases the FP of your Royal Navy ships by a small amount based on the Tactics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -909,7 +909,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[21043] = {
-		name = "无畏的骑士",
+		name = "Sophissticated",
 		exp = 0,
 		next_id = 0,
 		id = 21043,
@@ -918,15 +918,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"依据指挥喵后勤属性，降低受到伏击的概率"
+				"Decreases the chance of the fleet running into an Airstrike on the map based on the Logistics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中战列、战巡、航战的装填属性(效果小)"
+				"When assigned as the Staff Cat: increases the RLD of your BBs, BCs, and BBVs by a small amount based on the Directives stat."
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中皇家阵营角色的炮击属性(效果小)"
+				"When assigned as the Staff Cat: increases the FP of your Royal Navy ships by a small amount based on the Tactics stat."
 			}
 		},
 		effect_tactic = {
@@ -936,7 +936,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[22011] = {
-		name = "战列后勤",
+		name = "Battleship Boost",
 		exp = 1,
 		next_id = 22012,
 		id = 22011,
@@ -945,15 +945,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中战列、战巡、航战的装填属性(效果小)"
+				"When assigned as the Staff Cat: increases the RLD of your BBs, BCs, and BBVs by a small amount based on the Logistics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中战列、战巡、航战的命中属性(效果小)(Lv2生效)"
+				"When assigned as the Staff Cat: increases the Accuracy of your BBs, BCs, and BBVs by a small amount based on the Logistics stat. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中战列、战巡、航战的炮击属性(效果小)(Lv3生效)"
+				"When assigned as the Staff Cat: increases the FP of your BBs, BCs, and BBVs by a small amount based on the Logistics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -961,7 +961,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[22012] = {
-		name = "战列后勤",
+		name = "Battleship Boost",
 		exp = 3,
 		next_id = 22013,
 		id = 22012,
@@ -970,15 +970,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中战列、战巡、航战的装填属性(效果小)"
+				"When assigned as the Staff Cat: increases the RLD of your BBs, BCs, and BBVs by a small amount based on the Logistics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中战列、战巡、航战的命中属性(效果小)"
+				"When assigned as the Staff Cat: increases the Accuracy of your BBs, BCs, and BBVs by a small amount based on the Logistics stat. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中战列、战巡、航战的炮击属性(效果小)(Lv3生效)"
+				"When assigned as the Staff Cat: increases the FP of your BBs, BCs, and BBVs by a small amount based on the Logistics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -987,7 +987,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[22013] = {
-		name = "战列后勤",
+		name = "Battleship Boost",
 		exp = 0,
 		next_id = 0,
 		id = 22013,
@@ -996,15 +996,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中战列、战巡、航战的装填属性(效果小)"
+				"When assigned as the Staff Cat: increases the RLD of your BBs, BCs, and BBVs by a small amount based on the Logistics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中战列、战巡、航战的命中属性(效果小)"
+				"When assigned as the Staff Cat: increases the Accuracy of your BBs, BCs, and BBVs by a small amount based on the Logistics stat. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中战列、战巡、航战的炮击属性(效果小)"
+				"When assigned as the Staff Cat: increases the FP of your BBs, BCs, and BBVs by a small amount based on the Logistics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1014,7 +1014,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[22021] = {
-		name = "巡洋战术",
+		name = "Cruiser Tactics",
 		exp = 1,
 		next_id = 22022,
 		id = 22021,
@@ -1023,15 +1023,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻巡、重巡、超巡的炮击属性(效果小)"
+				"When assigned as the Staff Cat: increases the FP of your CLs, CAs, and CBs by a small amount based on the Tactics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻巡、重巡、超巡的命中属性(效果小)(Lv2生效)"
+				"When assigned as the Staff Cat: increases the Accuracy of your CLs, CAs, and CBs by a small amount based on the Tactics stat. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻巡、重巡、超巡的机动属性(效果小)(Lv3生效)"
+				"When assigned as the Staff Cat: increases the EVA of your CLs, CAs, and CBs by a small amount based on the Tactics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1039,7 +1039,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[22022] = {
-		name = "巡洋战术",
+		name = "Cruiser Tactics",
 		exp = 3,
 		next_id = 22023,
 		id = 22022,
@@ -1048,15 +1048,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻巡、重巡、超巡的炮击属性(效果小)"
+				"When assigned as the Staff Cat: increases the FP of your CLs, CAs, and CBs by a small amount based on the Tactics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻巡、重巡、超巡的命中属性(效果小)"
+				"When assigned as the Staff Cat: increases the Accuracy of your CLs, CAs, and CBs by a small amount based on the Tactics stat."
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻巡、重巡、超巡的机动属性(效果小)(Lv3生效)"
+				"When assigned as the Staff Cat: increases the EVA of your CLs, CAs, and CBs by a small amount based on the Tactics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1065,7 +1065,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[22023] = {
-		name = "巡洋战术",
+		name = "Cruiser Tactics",
 		exp = 0,
 		next_id = 0,
 		id = 22023,
@@ -1074,15 +1074,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻巡、重巡、超巡的炮击属性(效果小)"
+				"When assigned as the Staff Cat: increases the FP of your CLs, CAs, and CBs by a small amount based on the Tactics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻巡、重巡、超巡的命中属性(效果小)"
+				"When assigned as the Staff Cat: increases the Accuracy of your CLs, CAs, and CBs by a small amount based on the Tactics stat."
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻巡、重巡、超巡的机动属性(效果小)"
+				"When assigned as the Staff Cat: increases the EVA of your CLs, CAs, and CBs by a small amount based on the Tactics stat."
 			}
 		},
 		effect_tactic = {
@@ -1092,7 +1092,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[30011] = {
-		name = "反击的一拳",
+		name = "Paws of Fury",
 		exp = 1,
 		next_id = 30012,
 		id = 30011,
@@ -1101,15 +1101,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻航、正航的航空、装填属性(效果小)"
+				"When assigned as the Staff Cat: increases the AVI and RDL of your CVs and CVLs by a small amount based on the Directives stat."
 			},
 			{
 				2,
-				"依据指挥喵后勤属性，降低受到伏击的概率(Lv2生效)"
+				"Decreases the fleet's chance of running into an Ambush based on the Logistics stat. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"进入战斗时，若主力舰队仅剩下一艘轻航或正航，且无其他主力舰，则首轮空袭装填速度加快8%，同时首轮空袭时触发额外的鱼雷机编队攻击(Lv3生效)"
+				"Once per battle, if your fleet consists of only 1 CV or CVL: quickens the load time of your CV's/CVL's first Airstrike by 8.0% and launches an additional Torpedo Bomber airstrike once. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1117,7 +1117,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[30012] = {
-		name = "反击的一拳",
+		name = "Paws of Fury",
 		exp = 3,
 		next_id = 30013,
 		id = 30012,
@@ -1126,15 +1126,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻航、正航的航空、装填属性(效果小)"
+				"When assigned as the Staff Cat: increases the AVI and RDL of your CVs and CVLs by a small amount based on the Directives stat."
 			},
 			{
 				2,
-				"依据指挥喵后勤属性，降低受到伏击的概率"
+				"Decreases the fleet's chance of running into an Ambush based on the Logistics stat."
 			},
 			{
 				3,
-				"进入战斗时，若主力舰队仅剩下一艘轻航或正航，且无其他主力舰，则首轮空袭装填速度加快8%，同时首轮空袭时触发额外的鱼雷机编队攻击(Lv3生效)"
+				"Once per battle, if your fleet consists of only 1 CV or CVL: quickens the load time of your CV's/CVL's first Airstrike by 8.0% and launches an additional Torpedo Bomber airstrike once. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1143,7 +1143,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[30013] = {
-		name = "反击的一拳",
+		name = "Paws of Fury",
 		exp = 0,
 		next_id = 0,
 		id = 30013,
@@ -1152,15 +1152,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻航、正航的航空、装填属性(效果小)"
+				"When assigned as the Staff Cat: increases the AVI and RDL of your CVs and CVLs by a small amount based on the Directives stat."
 			},
 			{
 				2,
-				"依据指挥喵后勤属性，降低受到伏击的概率"
+				"Decreases the fleet's chance of running into an Ambush based on the Logistics stat."
 			},
 			{
 				3,
-				"进入战斗时，若主力舰队仅剩下一艘轻航或正航，且无其他主力舰，则首轮空袭装填速度加快8%，同时首轮空袭时触发额外的鱼雷机编队攻击"
+				"Once per battle, if your fleet consists of only 1 CV or CVL: quickens the load time of your CV's/CVL's first Airstrike by 8.0% and launches an additional Torpedo Bomber airstrike once."
 			}
 		},
 		effect_tactic = {
@@ -1170,7 +1170,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[30021] = {
-		name = "敢勇当先",
+		name = "Ironbottom Tail Swipe",
 		exp = 1,
 		next_id = 30022,
 		id = 30021,
@@ -1179,15 +1179,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为司令位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻巡、重巡、超巡的炮击、雷击属性(效果中)"
+				"When assigned as the Command Cat: increases the FP and TRP of your CLs, CAs, and CBs by a moderate amount based on the Tactics stat."
 			},
 			{
 				2,
-				"作为司令位指挥喵时，若距离自身2格范围内存在敌方主力舰队，依据指挥属性，降低队伍中旗舰受到的伤害(Lv2生效)"
+				"When assigned as the Command Cat to a fleet that is within 2 tiles of an enemy Main Fleet: decreases the DMG your Flagship takes based on the Directives stat. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"作为司令位指挥喵，与主力舰队交战时，战斗开始后，依据战术属性，提高所在舰队中轻巡、重巡、超巡的命中、机动属性(效果大)，持续30秒(Lv3生效)"
+				"For 30s after the battle starts when assigned as the Command Cat and when engaging an enemy Main Fleet: increases the Accuracy and EVA of your CLs, CAs, and CBs by a large amount based on the Tactics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1195,7 +1195,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[30022] = {
-		name = "敢勇当先",
+		name = "Ironbottom Tail Swipe",
 		exp = 3,
 		next_id = 30023,
 		id = 30022,
@@ -1204,15 +1204,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为司令位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻巡、重巡、超巡的炮击、雷击属性(效果中)"
+				"When assigned as the Command Cat: increases the FP and TRP of your CLs, CAs, and CBs by a moderate amount based on the Tactics stat."
 			},
 			{
 				2,
-				"作为司令位指挥喵时，若距离自身2格范围内存在敌方主力舰队，依据指挥属性，降低队伍中旗舰受到的伤害(Lv2生效)"
+				"When assigned as the Command Cat to a fleet that is within 2 tiles of an enemy Main Fleet: decreases the DMG your Flagship takes based on the Directives stat."
 			},
 			{
 				3,
-				"作为司令位指挥喵，与主力舰队交战时，战斗开始后，依据战术属性，提高所在舰队中轻巡、重巡、超巡的命中、机动属性(效果大)，持续30秒"
+				"For 30s after the battle starts when assigned as the Command Cat and when engaging an enemy Main Fleet: increases the Accuracy and EVA of your CLs, CAs, and CBs by a large amount based on the Tactics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1221,7 +1221,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[30023] = {
-		name = "敢勇当先",
+		name = "Ironbottom Tail Swipe",
 		exp = 0,
 		next_id = 0,
 		id = 30023,
@@ -1230,15 +1230,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为司令位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻巡、重巡、超巡的炮击、雷击属性(效果中)"
+				"When assigned as the Command Cat: increases the FP and TRP of your CLs, CAs, and CBs by a moderate amount based on the Tactics stat."
 			},
 			{
 				2,
-				"作为司令位指挥喵时，若距离自身2格范围内存在敌方主力舰队，依据指挥属性，降低队伍中旗舰受到的伤害"
+				"When assigned as the Command Cat to a fleet that is within 2 tiles of an enemy Main Fleet: decreases the DMG your Flagship takes based on the Directives stat."
 			},
 			{
 				3,
-				"作为司令位指挥喵，与主力舰队交战时，战斗开始后，依据战术属性，提高所在舰队中轻巡、重巡、超巡的命中、机动属性(效果大)，持续30秒"
+				"For 30s after the battle starts when assigned as the Command Cat and when engaging an enemy Main Fleet: increases the Accuracy and EVA of your CLs, CAs, and CBs by a large amount based on the Tactics stat."
 			}
 		},
 		effect_tactic = {
@@ -1248,7 +1248,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[31011] = {
-		name = "必杀·三段击",
+		name = "Belly Flop Bombardment",
 		exp = 1,
 		next_id = 31012,
 		id = 31011,
@@ -1257,15 +1257,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻航、正航的命中属性(效果小)"
+				"When assigned as the Staff Cat: increases the Accuracy of your CVs and CVLs by a small amount based on the Tactics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻航、正航的航空属性(效果中)(Lv2生效)"
+				"When assigned as the Staff Cat: increases the AVI of your CVs and CVLs by a moderate amount based on the Directives stat. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"若所在舰队中有轻航或正航，当接触非旗舰敌方单位时，有15%的概率发射一次空袭打击（地图），伤害依据指挥喵战术属性、双方等级、战斗力决定(Lv3生效)"
+				"When assigned to a fleet that has at least 1 CV or CVL: 15.0% chance to launch a preemptive airstrike when engaging any non-Boss fleet on the map. The DMG of the airstrike is based on the Tactics stat as well as the Level and Fleet Power of both sides. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1273,7 +1273,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[31012] = {
-		name = "必杀·三段击",
+		name = "Belly Flop Bombardment",
 		exp = 3,
 		next_id = 31013,
 		id = 31012,
@@ -1282,15 +1282,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻航、正航的命中属性(效果小)"
+				"When assigned as the Staff Cat: increases the Accuracy of your CVs and CVLs by a small amount based on the Tactics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻航、正航的航空属性(效果中)"
+				"When assigned as the Staff Cat: increases the AVI of your CVs and CVLs by a moderate amount based on the Directives stat."
 			},
 			{
 				3,
-				"若所在舰队中有轻航或正航，当接触非旗舰敌方单位时，有15%的概率发射一次空袭打击（地图），伤害依据指挥喵战术属性、双方等级、战斗力决定(Lv3生效)"
+				"When assigned to a fleet that has at least 1 CV or CVL: 15.0% chance to launch a preemptive airstrike when engaging any non-Boss fleet on the map. The DMG of the airstrike is based on the Tactics stat as well as the Level and Fleet Power of both sides. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1299,7 +1299,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[31013] = {
-		name = "必杀·三段击",
+		name = "Belly Flop Bombardment",
 		exp = 0,
 		next_id = 0,
 		id = 31013,
@@ -1308,15 +1308,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中轻航、正航的命中属性(效果小)"
+				"When assigned as the Staff Cat: increases the Accuracy of your CVs and CVLs by a small amount based on the Tactics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻航、正航的航空属性(效果中)"
+				"When assigned as the Staff Cat: increases the AVI of your CVs and CVLs by a moderate amount based on the Directives stat."
 			},
 			{
 				3,
-				"若所在舰队中有轻航或正航，当接触非旗舰敌方单位时，有15%的概率发射一次空袭打击（地图），伤害依据指挥喵战术属性、双方等级、战斗力决定"
+				"When assigned to a fleet that has at least 1 CV or CVL: 15.0% chance to launch a preemptive airstrike when engaging any non-Boss fleet on the map. The DMG of the airstrike is based on the Tactics stat as well as the Level and Fleet Power of both sides."
 			}
 		},
 		effect_tactic = {
@@ -1326,7 +1326,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[31021] = {
-		name = "野性的直觉",
+		name = "Feral Instincts",
 		exp = 1,
 		next_id = 31022,
 		id = 31021,
@@ -1335,15 +1335,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中驱逐的机动属性(效果小)"
+				"When assigned as the Staff Cat: increases the EVA of your DDs by a small amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中驱逐的雷击属性(效果中)(Lv2生效)"
+				"When assigned as the Staff Cat: increases the TRP of your DDs by a moderate amount based on the Logistics stat. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"作为参谋位指挥喵，先锋舰队只有一艘舰船且为驱逐时，依据指挥喵指挥属性，提高所在舰队中驱逐的雷击属性(效果大)(Lv3生效)"
+				"When assigned as the Staff Cat and when your Vanguard consists of only 1 DD: increases your DD's TRP by a large amount based on the Directives stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1351,7 +1351,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[31022] = {
-		name = "野性的直觉",
+		name = "Feral Instincts",
 		exp = 3,
 		next_id = 31023,
 		id = 31022,
@@ -1360,15 +1360,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中驱逐的机动属性(效果小)"
+				"When assigned as the Staff Cat: increases the EVA of your DDs by a small amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中驱逐的雷击属性(效果中)"
+				"When assigned as the Staff Cat: increases the TRP of your DDs by a moderate amount based on the Logistics stat."
 			},
 			{
 				3,
-				"作为参谋位指挥喵，先锋舰队只有一艘舰船且为驱逐时，依据指挥喵指挥属性，提高所在舰队中驱逐的雷击属性(效果大)(Lv3生效)"
+				"When assigned as the Staff Cat and when your Vanguard consists of only 1 DD: increases your DD's TRP by a large amount based on the Directives stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1377,7 +1377,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[31023] = {
-		name = "野性的直觉",
+		name = "Feral Instincts",
 		exp = 0,
 		next_id = 0,
 		id = 31023,
@@ -1386,15 +1386,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中驱逐的机动属性(效果小)"
+				"When assigned as the Staff Cat: increases the EVA of your DDs by a small amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中驱逐的雷击属性(效果中)"
+				"When assigned as the Staff Cat: increases the TRP of your DDs by a moderate amount based on the Logistics stat."
 			},
 			{
 				3,
-				"作为参谋位指挥喵，先锋舰队只有一艘舰船且为驱逐时，依据指挥喵指挥属性，提高所在舰队中驱逐的雷击属性(效果大)"
+				"When assigned as the Staff Cat and when your Vanguard consists of only 1 DD: increases your DD's TRP by a large amount based on the Directives stat."
 			}
 		},
 		effect_tactic = {
@@ -1404,7 +1404,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[32011] = {
-		name = "巡洋指挥",
+		name = "Cruiser Directives",
 		exp = 1,
 		next_id = 32012,
 		id = 32011,
@@ -1413,15 +1413,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻巡、重巡、超巡的炮击属性(效果小)"
+				"When assigned as the Staff Cat: increases the FP of your CLs, CAs, and CBs by a small amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中轻巡、重巡的雷击属性(效果小)(Lv2生效)"
+				"When assigned as the Staff Cat: increases the TRP of your CLs, CAs, and CBs by a small amount based on the Logistics stat. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻巡、重巡的雷击属性(效果小)(Lv3生效)"
+				"When assigned as the Staff Cat: increases the TRP of your CLs, CAs, and CBs by a small amount based on the Directives stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1429,7 +1429,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[32012] = {
-		name = "巡洋指挥",
+		name = "Cruiser Directives",
 		exp = 3,
 		next_id = 32013,
 		id = 32012,
@@ -1438,15 +1438,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻巡、重巡、超巡的炮击属性(效果小)"
+				"When assigned as the Staff Cat: increases the FP of your CLs, CAs, and CBs by a small amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中轻巡、重巡的雷击属性(效果小)"
+				"When assigned as the Staff Cat: increases the TRP of your CLs, CAs, and CBs by a small amount based on the Logistics stat."
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻巡、重巡的雷击属性(效果小)(Lv3生效)"
+				"When assigned as the Staff Cat: increases the TRP of your CLs, CAs, and CBs by a small amount based on the Directives stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1455,7 +1455,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[32013] = {
-		name = "巡洋指挥",
+		name = "Cruiser Directives",
 		exp = 0,
 		next_id = 0,
 		id = 32013,
@@ -1464,15 +1464,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻巡、重巡、超巡的炮击属性(效果小)"
+				"When assigned as the Staff Cat: increases the FP of your CLs, CAs, and CBs by a small amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中轻巡、重巡的雷击属性(效果小)"
+				"When assigned as the Staff Cat: increases the TRP of your CLs, CAs, and CBs by a small amount based on the Logistics stat."
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻巡、重巡的雷击属性(效果小)"
+				"When assigned as the Staff Cat: increases the TRP of your CLs, CAs, and CBs by a small amount based on the Directives stat."
 			}
 		},
 		effect_tactic = {
@@ -1482,7 +1482,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[32021] = {
-		name = "战列后勤",
+		name = "Battleship Support",
 		exp = 1,
 		next_id = 32022,
 		id = 32021,
@@ -1491,15 +1491,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中战列、战巡、航战的命中属性(效果小)"
+				"When assigned as the Staff Cat: increases the Accuracy of your BBs, BCs, and BBVs by a small amount based on the Logistics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中战列、战巡、航战的防空属性(效果小)(Lv2生效)"
+				"When assigned as the Staff Cat: increases the AA of your BBs, BCs, and BBVs by a small amount based on the Directives stat. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中战列、战巡、航战的炮击属性(效果小)(Lv3生效)"
+				"When assigned as the Staff Cat: increases the FP of your BBs, BCs, and BBVs by a small amount based on the Tactics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1507,7 +1507,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[32022] = {
-		name = "战列后勤",
+		name = "Battleship Support",
 		exp = 3,
 		next_id = 32023,
 		id = 32022,
@@ -1516,15 +1516,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中战列、战巡、航战的命中属性(效果小)"
+				"When assigned as the Staff Cat: increases the Accuracy of your BBs, BCs, and BBVs by a small amount based on the Logistics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中战列、战巡、航战的防空属性(效果小)"
+				"When assigned as the Staff Cat: increases the AA of your BBs, BCs, and BBVs by a small amount based on the Directives stat."
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中战列、战巡、航战的炮击属性(效果小)(Lv3生效)"
+				"When assigned as the Staff Cat: increases the FP of your BBs, BCs, and BBVs by a small amount based on the Tactics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1533,7 +1533,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[32023] = {
-		name = "战列后勤",
+		name = "Battleship Support",
 		exp = 0,
 		next_id = 0,
 		id = 32023,
@@ -1542,15 +1542,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中战列、战巡、航战的命中属性(效果小)"
+				"When assigned as the Staff Cat: increases the Accuracy of your BBs, BCs, and BBVs by a small amount based on the Logistics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中战列、战巡、航战的防空属性(效果小)"
+				"When assigned as the Staff Cat: increases the AA of your BBs, BCs, and BBVs by a small amount based on the Directives stat."
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中战列、战巡、航战的炮击属性(效果小)"
+				"When assigned as the Staff Cat: increases the FP of your BBs, BCs, and BBVs by a small amount based on the Tactics stat."
 			}
 		},
 		effect_tactic = {
@@ -1560,7 +1560,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[40011] = {
-		name = "静寂的狩猎者",
+		name = "Silent Hunter",
 		exp = 1,
 		next_id = 40012,
 		id = 40011,
@@ -1569,15 +1569,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"依据指挥喵指挥、后勤属性，提高所在舰队中潜艇、潜母的雷击属性(效果小)"
+				"Increases the TRP of your SSs and SSVs by a small amount based on the Command and Logistics stats."
 			},
 			{
 				2,
-				"狩猎范围等级+1(Lv2生效)"
+				"Increases ASR by 1 level. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"依据指挥喵战术属性，提高鱼雷打击（地图）的伤害(Lv3生效)"
+				"Increases the DMG dealt to enemy fleets while in Attack Mode based on the Tactics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1585,7 +1585,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[40012] = {
-		name = "静寂的狩猎者",
+		name = "Silent Hunter",
 		exp = 3,
 		next_id = 40013,
 		id = 40012,
@@ -1594,15 +1594,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"依据指挥喵指挥、后勤属性，提高所在舰队中潜艇、潜母的雷击属性(效果小)"
+				"Increases the TRP of your SSs and SSVs by a small amount based on the Command and Logistics stats."
 			},
 			{
 				2,
-				"狩猎范围等级+1"
+				"Increases ASR by 1 level."
 			},
 			{
 				3,
-				"依据指挥喵战术属性，提高鱼雷打击（地图）的伤害(Lv3生效)"
+				"Increases the DMG dealt to enemy fleets while in Attack Mode based on the Tactics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1611,7 +1611,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[40013] = {
-		name = "静寂的狩猎者",
+		name = "Silent Hunter",
 		exp = 0,
 		next_id = 0,
 		id = 40013,
@@ -1620,15 +1620,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"依据指挥喵指挥、后勤属性，提高所在舰队中潜艇、潜母的雷击属性(效果小)"
+				"Increases the TRP of your SSs and SSVs by a small amount based on the Command and Logistics stats."
 			},
 			{
 				2,
-				"狩猎范围等级+1"
+				"Increases ASR by 1 level."
 			},
 			{
 				3,
-				"依据指挥喵战术属性，提高鱼雷打击（地图）的伤害"
+				"Increases the DMG dealt to enemy fleets while in Attack Mode based on the Tactics stat."
 			}
 		},
 		effect_tactic = {
@@ -1638,7 +1638,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[40021] = {
-		name = "不屈的意志",
+		name = "Unsinkable Oscar",
 		exp = 1,
 		next_id = 40022,
 		id = 40021,
@@ -1647,15 +1647,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中战列、战巡、航战的炮击、命中属性(效果中)"
+				"When assigned as the Staff Cat: increases the FP and Accuracy of your BBs, BCs, and BBVs by a moderate amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵，若所在舰队中有战列、战巡、航战，当接触非旗舰敌方单位时，有15%的概率发射一次主炮打击（地图），伤害依据指挥喵指挥属性、双方等级、战斗力决定(Lv2生效)"
+				"When assigned as the Staff Cat to a fleet that has at least 1 BB, BC, or BBV: 15.0% chance to launch a preemptive volley when engaging an enemy Vanguard Fleet. The DMG of the volley is based on the Directives stat as well as the Level and Fleet Power of both sides. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"作为参谋位指挥喵，与主力舰队交战时，依据指挥喵后勤属性，降低队伍中战列、战巡、航战受到的伤害(Lv3生效)"
+				"When assigned as the Staff Cat and when engaging an enemy Main Fleet: decreases the DMG your BBs, BCs, and BBVs take based on the Logistics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1663,7 +1663,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[40022] = {
-		name = "不屈的意志",
+		name = "Unsinkable Oscar",
 		exp = 3,
 		next_id = 40023,
 		id = 40022,
@@ -1672,15 +1672,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中战列、战巡、航战的炮击、命中属性(效果中)"
+				"When assigned as the Staff Cat: increases the FP and Accuracy of your BBs, BCs, and BBVs by a moderate amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵，若所在舰队中有战列、战巡、航战，当接触非旗舰敌方单位时，有15%的概率发射一次主炮打击（地图），伤害依据指挥喵指挥属性、双方等级、战斗力决定"
+				"When assigned as the Staff Cat to a fleet that has at least 1 BB, BC, or BBV: 15.0% chance to launch a preemptive volley when engaging an enemy Vanguard Fleet. The DMG of the volley is based on the Directives stat as well as the Level and Fleet Power of both sides."
 			},
 			{
 				3,
-				"作为参谋位指挥喵，与主力舰队交战时，依据指挥喵后勤属性，降低队伍中战列、战巡、航战受到的伤害(Lv3生效)"
+				"When assigned as the Staff Cat and when engaging an enemy Main Fleet: decreases the DMG your BBs, BCs, and BBVs take based on the Logistics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1689,7 +1689,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[40023] = {
-		name = "不屈的意志",
+		name = "Unsinkable Oscar",
 		exp = 0,
 		next_id = 0,
 		id = 40023,
@@ -1698,15 +1698,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中战列、战巡、航战的炮击、命中属性(效果中)"
+				"When assigned as the Staff Cat: increases the FP and Accuracy of your BBs, BCs, and BBVs by a moderate amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵，若所在舰队中有战列、战巡、航战，当接触非旗舰敌方单位时，有15%的概率发射一次主炮打击（地图），伤害依据指挥喵指挥属性、双方等级、战斗力决定"
+				"When assigned as the Staff Cat to a fleet that has at least 1 BB, BC, or BBV: 15.0% chance to launch a preemptive volley when engaging an enemy Vanguard Fleet. The DMG of the volley is based on the Directives stat as well as the Level and Fleet Power of both sides."
 			},
 			{
 				3,
-				"作为参谋位指挥喵，与主力舰队交战时，依据指挥喵后勤属性，降低队伍中战列、战巡、航战受到的伤害"
+				"When assigned as the Staff Cat and when engaging an enemy Main Fleet: decreases the DMG your BBs, BCs, and BBVs take based on the Logistics stat."
 			}
 		},
 		effect_tactic = {
@@ -1716,7 +1716,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[41011] = {
-		name = "海之铁骑士",
+		name = "Paladin of the Sea",
 		exp = 1,
 		next_id = 41012,
 		id = 41011,
@@ -1725,15 +1725,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中战列、战巡、航战的机动属性(效果小)"
+				"When assigned as the Staff Cat: increases the EVA of your BBs, BCs, and BBVs by a small amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中战列、战巡、航战的命中属性(效果中)(Lv2生效)"
+				"When assigned as the Staff Cat: increases the Accuracy of your BBs, BCs, and BBVs by a moderate amount based on the Tactics stat. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"与主力舰队交战时，依据指挥喵战术属性，降低旗舰受到的伤害(Lv3生效)"
+				"When engaging an enemy Main Fleet: decreases the DMG your Flagship takes based on the Tactics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1741,7 +1741,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[41012] = {
-		name = "海之铁骑士",
+		name = "Paladin of the Sea",
 		exp = 3,
 		next_id = 41013,
 		id = 41012,
@@ -1750,15 +1750,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中战列、战巡、航战的机动属性(效果小)"
+				"When assigned as the Staff Cat: increases the EVA of your BBs, BCs, and BBVs by a small amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中战列、战巡、航战的命中属性(效果中)"
+				"When assigned as the Staff Cat: increases the Accuracy of your BBs, BCs, and BBVs by a moderate amount based on the Tactics stat."
 			},
 			{
 				3,
-				"与主力舰队交战时，依据指挥喵战术属性，降低旗舰受到的伤害(Lv3生效)"
+				"When engaging an enemy Main Fleet: decreases the DMG your Flagship takes based on the Tactics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1767,7 +1767,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[41013] = {
-		name = "海之铁骑士",
+		name = "Paladin of the Sea",
 		exp = 0,
 		next_id = 0,
 		id = 41013,
@@ -1776,15 +1776,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中战列、战巡、航战的机动属性(效果小)"
+				"When assigned as the Staff Cat: increases the EVA of your BBs, BCs, and BBVs by a small amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中战列、战巡、航战的命中属性(效果中)"
+				"When assigned as the Staff Cat: increases the Accuracy of your BBs, BCs, and BBVs by a moderate amount based on the Tactics stat."
 			},
 			{
 				3,
-				"与主力舰队交战时，依据指挥喵战术属性，降低旗舰受到的伤害"
+				"When engaging an enemy Main Fleet: decreases the DMG your Flagship takes based on the Tactics stat."
 			}
 		},
 		effect_tactic = {
@@ -1794,7 +1794,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[41021] = {
-		name = "海之勇者",
+		name = "Champion of the Sea",
 		exp = 1,
 		next_id = 41022,
 		id = 41021,
@@ -1803,15 +1803,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中潜艇、潜母的雷击属性(效果小)"
+				"When assigned as the Staff Cat: increases the TRP of your SSs and SSVs by a small amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中潜艇、潜母的命中属性(效果中)(Lv2生效)"
+				"When assigned as the Staff Cat: increases the Accuracy of your SSs and SSVs by a moderate amount based on the Directives stat. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"狩猎范围等级+1(Lv3生效)"
+				"Increases ASR by 1 level. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1819,7 +1819,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[41022] = {
-		name = "海之勇者",
+		name = "Champion of the Sea",
 		exp = 3,
 		next_id = 41023,
 		id = 41022,
@@ -1828,15 +1828,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中潜艇、潜母的雷击属性(效果小)"
+				"When assigned as the Staff Cat: increases the TRP of your SSs and SSVs by a small amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中潜艇、潜母的命中属性(效果中)"
+				"When assigned as the Staff Cat: increases the Accuracy of your SSs and SSVs by a moderate amount based on the Directives stat."
 			},
 			{
 				3,
-				"狩猎范围等级+1(Lv3生效)"
+				"Increases ASR by 1 level. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1845,7 +1845,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[41023] = {
-		name = "海之勇者",
+		name = "Champion of the Sea",
 		exp = 0,
 		next_id = 0,
 		id = 41023,
@@ -1854,15 +1854,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中潜艇、潜母的雷击属性(效果小)"
+				"When assigned as the Staff Cat: increases the TRP of your SSs and SSVs by a small amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中潜艇、潜母的命中属性(效果中)"
+				"When assigned as the Staff Cat: increases the Accuracy of your SSs and SSVs by a moderate amount based on the Directives stat."
 			},
 			{
 				3,
-				"狩猎范围等级+1"
+				"Increases ASR by 1 level."
 			}
 		},
 		effect_tactic = {
@@ -1872,7 +1872,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[41031] = {
-		name = "守护之心",
+		name = "Sentinel of the Sea",
 		exp = 1,
 		next_id = 41032,
 		id = 41031,
@@ -1881,15 +1881,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中潜艇、潜母的雷击属性(效果小)"
+				"When assigned as the Staff Cat: increases the TRP of your SSs and SSVs by a small amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中潜艇、潜母的机动属性(效果中)(Lv2生效)"
+				"When assigned as the Staff Cat: increases the EVA of your SSs and SSVs by a moderate amount based on the Directives stat. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"作为潜艇舰队参谋位指挥喵时，若战斗中舰队旗舰为战列、战巡或航战，依据指挥喵指挥属性，提高所在舰队中潜艇、潜母的命中属性(效果中)(Lv3生效)"
+				"When assigned as the Staff Cat of the Submarine Fleet and when a fleet with a BB, BC, or BBV as its Flagship calls in Submarine Support: increases the Accuracy of your SSs and SSVs by a moderate amount based on the Directives stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1897,7 +1897,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[41032] = {
-		name = "守护之心",
+		name = "Sentinel of the Sea",
 		exp = 3,
 		next_id = 41033,
 		id = 41032,
@@ -1906,15 +1906,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中潜艇、潜母的雷击属性(效果小)"
+				"When assigned as the Staff Cat: increases the TRP of your SSs and SSVs by a small amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中潜艇、潜母的机动属性(效果中)"
+				"When assigned as the Staff Cat: increases the EVA of your SSs and SSVs by a moderate amount based on the Directives stat."
 			},
 			{
 				3,
-				"作为潜艇舰队参谋位指挥喵时，若战斗中舰队旗舰为战列、战巡或航战，依据指挥喵指挥属性，提高所在舰队中潜艇、潜母的命中属性(效果中)(Lv3生效)"
+				"When assigned as the Staff Cat of the Submarine Fleet and when a fleet with a BB, BC, or BBV as its Flagship calls in Submarine Support: increases the Accuracy of your SSs and SSVs by a moderate amount based on the Directives stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1923,7 +1923,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[41033] = {
-		name = "守护之心",
+		name = "Sentinel of the Sea",
 		exp = 0,
 		next_id = 0,
 		id = 41033,
@@ -1932,15 +1932,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中潜艇、潜母的雷击属性(效果小)"
+				"When assigned as the Staff Cat: increases the TRP of your SSs and SSVs by a small amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中潜艇、潜母的机动属性(效果中)"
+				"When assigned as the Staff Cat: increases the EVA of your SSs and SSVs by a moderate amount based on the Directives stat."
 			},
 			{
 				3,
-				"作为潜艇舰队参谋位指挥喵时，若战斗中舰队旗舰为战列、战巡或航战，依据指挥喵指挥属性，提高所在舰队中潜艇、潜母的命中属性(效果中)"
+				"When assigned as the Staff Cat of the Submarine Fleet and when a fleet with a BB, BC, or BBV as its Flagship calls in Submarine Support: increases the Accuracy of your SSs and SSVs by a moderate amount based on the Directives stat."
 			}
 		},
 		effect_tactic = {
@@ -1950,7 +1950,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[42011] = {
-		name = "巡洋后勤",
+		name = "Cruiser Boost",
 		exp = 1,
 		next_id = 42012,
 		id = 42011,
@@ -1959,15 +1959,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中轻巡、重巡、超巡的机动属性(效果小)"
+				"When assigned as the Staff Cat: increases the EVA of your CLs, CAs, and CBs by a small amount based on the Logistics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中轻巡、重巡、超巡的炮击属性(效果小)(Lv2生效)"
+				"When assigned as the Staff Cat: increases the FP of your CLs, CAs, and CBs by a small amount based on the Logistics stat. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻巡、重巡、超巡的炮击属性(效果小)(Lv3生效)"
+				"When assigned as the Staff Cat: increases the FP of your CLs, CAs, and CBs by a small amount based on the Directives stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -1975,7 +1975,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[42012] = {
-		name = "巡洋后勤",
+		name = "Cruiser Boost",
 		exp = 3,
 		next_id = 42013,
 		id = 42012,
@@ -1984,15 +1984,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中轻巡、重巡、超巡的机动属性(效果小)"
+				"When assigned as the Staff Cat: increases the EVA of your CLs, CAs, and CBs by a small amount based on the Logistics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中轻巡、重巡、超巡的炮击属性(效果小)"
+				"When assigned as the Staff Cat: increases the FP of your CLs, CAs, and CBs by a small amount based on the Logistics stat."
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻巡、重巡、超巡的炮击属性(效果小)(Lv3生效)"
+				"When assigned as the Staff Cat: increases the FP of your CLs, CAs, and CBs by a small amount based on the Directives stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -2001,7 +2001,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[42013] = {
-		name = "巡洋后勤",
+		name = "Cruiser Boost",
 		exp = 0,
 		next_id = 0,
 		id = 42013,
@@ -2010,15 +2010,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中轻巡、重巡、超巡的机动属性(效果小)"
+				"When assigned as the Staff Cat: increases the EVA of your CLs, CAs, and CBs by a small amount based on the Logistics stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中轻巡、重巡、超巡的炮击属性(效果小)"
+				"When assigned as the Staff Cat: increases the FP of your CLs, CAs, and CBs by a small amount based on the Logistics stat."
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中轻巡、重巡、超巡的炮击属性(效果小)"
+				"When assigned as the Staff Cat: increases the FP of your CLs, CAs, and CBs by a small amount based on the Directives stat."
 			}
 		},
 		effect_tactic = {
@@ -2028,7 +2028,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[42021] = {
-		name = "驱逐指挥",
+		name = "Destroyer Directives",
 		exp = 1,
 		next_id = 42022,
 		id = 42021,
@@ -2037,15 +2037,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中驱逐的机动属性(效果小)"
+				"When assigned as the Staff Cat: increases the EVA of your DDs by a small amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中驱逐的命中属性(效果小)(Lv2生效)"
+				"When assigned as the Staff Cat: increases the Accuracy of your DDs by a small amount based on the Tactics stat. (Unlocks at Skill Lvl 2)"
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中驱逐的雷击属性(效果小)(Lv3生效)"
+				"When assigned as the Staff Cat: increases the TRP of your DDs by a small amount based on the Logistics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -2053,7 +2053,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[42022] = {
-		name = "驱逐指挥",
+		name = "Destroyer Directives",
 		exp = 3,
 		next_id = 42023,
 		id = 42022,
@@ -2062,15 +2062,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中驱逐的机动属性(效果小)"
+				"When assigned as the Staff Cat: increases the EVA of your DDs by a small amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中驱逐的命中属性(效果小)"
+				"When assigned as the Staff Cat: increases the Accuracy of your DDs by a small amount based on the Tactics stat."
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中驱逐的雷击属性(效果小)(Lv3生效)"
+				"When assigned as the Staff Cat: increases the TRP of your DDs by a small amount based on the Logistics stat. (Unlocks at Skill Lvl 3)"
 			}
 		},
 		effect_tactic = {
@@ -2079,7 +2079,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[42023] = {
-		name = "驱逐指挥",
+		name = "Destroyer Directives",
 		exp = 0,
 		next_id = 0,
 		id = 42023,
@@ -2088,15 +2088,15 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"作为参谋位指挥喵时，依据指挥喵指挥属性，提高所在舰队中驱逐的机动属性(效果小)"
+				"When assigned as the Staff Cat: increases the EVA of your DDs by a small amount based on the Directives stat."
 			},
 			{
 				2,
-				"作为参谋位指挥喵时，依据指挥喵战术属性，提高所在舰队中驱逐的命中属性(效果小)"
+				"When assigned as the Staff Cat: increases the Accuracy of your DDs by a small amount based on the Tactics stat."
 			},
 			{
 				3,
-				"作为参谋位指挥喵时，依据指挥喵后勤属性，提高所在舰队中驱逐的雷击属性(效果小)"
+				"When assigned as the Staff Cat: increases the TRP of your DDs by a small amount based on the Logistics stat."
 			}
 		},
 		effect_tactic = {

@@ -3,7 +3,7 @@ slot1 = setmetatable
 
 function slot2(slot0)
 	function slot4(slot0, slot1, slot2)
-		setAnchoredPosition(slot1, Vector3(0, 0, 0))
+		setAnchoredPosition(slot1, Vector2.zero)
 		setText(slot1.transform:Find("Text"), "")
 	end
 

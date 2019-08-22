@@ -26,7 +26,7 @@ class("ColoringAchieveCommand", pm.SimpleCommand).execute = function (slot0, slo
 				drops = slot1
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("coloring_achieve", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("coloring_achieve", slot0.result))
 		end
 	end)
 end

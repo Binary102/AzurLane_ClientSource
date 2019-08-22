@@ -10,7 +10,7 @@ class("SelectEliteCommanderCommand", pm.SimpleCommand).execute = function (slot0
 		slot11, slot12 = Commander.canEquipToEliteChapter(slot3, slot4, slot5, slot6)
 
 		if not slot11 then
-			pg.TipsMgr:GetInstance():ShowTips(slot12)
+			pg.TipsMgr.GetInstance():ShowTips(slot12)
 
 			return
 		end

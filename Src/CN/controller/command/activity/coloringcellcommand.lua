@@ -25,7 +25,7 @@ class("ColoringCellCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			return
 		end
 
-		pg.TipsMgr:GetInstance():ShowTips(errorTip("coloring_cell", slot0.result))
+		pg.TipsMgr.GetInstance():ShowTips(errorTip("coloring_cell", slot0.result))
 	end)
 end
 

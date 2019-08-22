@@ -75,6 +75,18 @@ function slot0.register(slot0)
 		slot0:updateCourseNotices()
 	end
 
+	slot14 = slot7:getBuffList()
+
+	if slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and not slot15:isEnd() then
+		slot16 = slot15:getConfig("config_client").bufflist
+
+		for slot21, slot22 in pairs(getProxy(PlayerProxy):getData().buff_list) do
+			if table.contains(slot16, slot22.id) then
+				table.insert(slot14, ActivityBuff.New(slot15.id, slot22.id, slot22.timestamp))
+			end
+		end
+	end
+
 	slot0.viewComponent:updateBuffList(slot14)
 	slot0:updateTaskNotices()
 	slot0:updateBackYardNotices()
@@ -90,7 +102,7 @@ function slot0.register(slot0)
 	slot0:updateCommissionNotices()
 	slot0:updateSettingsNotice()
 	slot0:updateExSkinNotice()
-	slot0:updateCommanderNotices(getProxy(CommanderProxy).haveFinishedBox(slot15))
+	slot0:updateCommanderNotices(getProxy(CommanderProxy).haveFinishedBox(slot16))
 	slot0:bind(slot0.ON_MONOPOLY, function (slot0)
 		slot0:addSubLayers(Context.New({
 			mediator = MonopolyMediator,
@@ -163,10 +175,10 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.OPEN_GUILD, function (slot0)
 		if getProxy(PlayerProxy) and slot1:getData() then
-			slot3, slot4 = pg.SystemOpenMgr:GetInstance():isOpenSystem(slot2.level, "NewGuildMediator")
+			slot3, slot4 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot2.level, "NewGuildMediator")
 
 			if not slot3 then
-				pg.TipsMgr:GetInstance():ShowTips(slot4)
+				pg.TipsMgr.GetInstance():ShowTips(slot4)
 
 				return
 			end
@@ -224,10 +236,10 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.OPEN_RANK, function (slot0)
 		if getProxy(PlayerProxy) and slot1:getData() then
-			slot3, slot4 = pg.SystemOpenMgr:GetInstance():isOpenSystem(slot2.level, "BillboardMediator")
+			slot3, slot4 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot2.level, "BillboardMediator")
 
 			if not slot3 then
-				pg.TipsMgr:GetInstance():ShowTips(slot4)
+				pg.TipsMgr.GetInstance():ShowTips(slot4)
 
 				return
 			end
@@ -298,7 +310,7 @@ function slot0.register(slot0)
 				end
 			}))
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("no_notice_tip"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("no_notice_tip"))
 		end
 	end)
 	slot0:bind(slot0.ON_BLACKWHITE, function ()
@@ -324,7 +336,7 @@ function slot0.register(slot0)
 		slot4 = slot2 and getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot2].on_activity)
 
 		if not slot4 or slot4:isEnd() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
 		end
@@ -391,11 +403,11 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.GET_SEASON_INFO)
 	end
 
-	pg.SystemOpenMgr:GetInstance():notification(slot4.level)
+	pg.SystemOpenMgr.GetInstance():notification(slot4.level)
 
 	if getProxy(GuildProxy):getData() then
-		if (slot18:getDutyByMemberId(slot4.id) == GuildMember.DUTY_COMMANDER or slot19 == GuildMember.DUTY_DEPUTY_COMMANDER) and not slot17:getRequests() then
-			slot0:sendNotification(GAME.GUILD_GET_REQUEST_LIST, slot18.id)
+		if (slot19:getDutyByMemberId(slot4.id) == GuildMember.DUTY_COMMANDER or slot20 == GuildMember.DUTY_DEPUTY_COMMANDER) and not slot18:getRequests() then
+			slot0:sendNotification(GAME.GUILD_GET_REQUEST_LIST, slot19.id)
 		end
 
 		slot0:updateGuildNotices()
@@ -421,10 +433,10 @@ function slot0.register(slot0)
 		end
 	end)
 	slot0:bind(slot0.OPEN_ESCORT, function ()
-		slot2, slot3 = pg.SystemOpenMgr:GetInstance():isOpenSystem(getProxy(PlayerProxy).getRawData(slot0).level, "Escort")
+		slot2, slot3 = pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy).getRawData(slot0).level, "Escort")
 
 		if not slot2 then
-			pg.TipsMgr:GetInstance():ShowTips(slot3)
+			pg.TipsMgr.GetInstance():ShowTips(slot3)
 
 			return
 		end
@@ -433,17 +445,18 @@ function slot0.register(slot0)
 	end)
 
 	if getProxy(MailProxy).total >= 1000 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("warning_mail_max_2"))
-	elseif slot19.total >= 950 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("warning_mail_max_1", slot19.total))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("warning_mail_max_2"))
+	elseif slot20.total >= 950 then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("warning_mail_max_1", slot20.total))
 	end
 
 	slot0.viewComponent:updateActivityMapBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT))
 	slot0.viewComponent:updateActivityEscort()
+	slot0.viewComponent:updateActivityMiniGameBtn(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME))
 end
 
 function slot0.onBluePrintNotify(slot0)
-	slot3, slot4 = pg.SystemOpenMgr:GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "TechnologyMediator")
+	slot3, slot4 = pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "TechnologyMediator")
 
 	slot0.viewComponent:notifyTechnology((OPEN_TEC_TREE_SYSTEM and getProxy(TechnologyNationProxy):getShowRedPointTag()) or ((SelectTechnologyMediator.onBlueprintNotify() or SelectTechnologyMediator.onTechnologyNotify()) and slot3))
 
@@ -463,7 +476,7 @@ function slot0.onBluePrintNotify(slot0)
 		end
 
 		if slot9 and not slot0.DontNotifyBluePrintTaskAgain then
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("blueprint_task_update_tip", slot7:getShipVO():getConfig("name")),
 				weight = LayerWeightConst.SECOND_LAYER,
 				onYes = function ()
@@ -647,7 +660,11 @@ function slot0.listNotificationInterests(slot0)
 		GAME.CLOSE_MSGBOX_DONE,
 		TechnologyConst.UPDATE_REDPOINT_ON_TOP,
 		GAME.HANDLE_OVERDUE_ATTIRE_DONE,
-		GAME.ESCORT_FETCH_DONE
+		GAME.ESCORT_FETCH_DONE,
+		PERMISSION_GRANTED,
+		PERMISSION_REJECT,
+		PERMISSION_NEVER_REMIND,
+		MiniGameProxy.ON_HUB_DATA_UPDATE
 	}
 end
 
@@ -684,10 +701,10 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == ChatProxy.NEW_MSG or slot2 == GuildProxy.NEW_MSG_ADDED then
 		slot0:updateChat()
 	elseif slot2 == GAME.LOAD_SCENE_DONE or slot2 == GAME.GUIDE_FINISH then
-		if not LOCK_TECHNOLOGY and pg.SystemOpenMgr:GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "TechnologyMediator") then
+		if not LOCK_TECHNOLOGY and pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "TechnologyMediator") then
 			if not pg.StoryMgr.GetInstance():IsPlayed("FANGAN1") then
 				slot0:sendNotification(GAME.GO_SCENE, SCENE.SELTECHNOLOGY)
-				pg.StoryMgr:GetInstance():Play("FANGAN1", function ()
+				pg.StoryMgr.GetInstance():Play("FANGAN1", function ()
 					return
 				end, true)
 			else
@@ -749,6 +766,32 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:showOverDueAttire(slot3)
 	elseif slot2 == GAME.ESCORT_FETCH_DONE then
 		slot0:escortHandler()
+	elseif PERMISSION_GRANTED == slot2 then
+		if slot3 == ANDROID_CAMERA_PERMISSION then
+			slot0.viewComponent:openSnapShot()
+		end
+	elseif PERMISSION_REJECT == slot2 then
+		if slot3 == ANDROID_CAMERA_PERMISSION then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("apply_permission_camera_tip3"),
+				onYes = function ()
+					ApplyPermission({
+						ANDROID_CAMERA_PERMISSION
+					})
+				end
+			})
+		end
+	elseif PERMISSION_NEVER_REMIND == slot2 then
+		if slot3 == ANDROID_CAMERA_PERMISSION then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("apply_permission_camera_tip2"),
+				onYes = function ()
+					OpenDetailSetting()
+				end
+			})
+		end
+	elseif slot2 == MiniGameProxy.ON_HUB_DATA_UPDATE then
+		slot0.viewComponent:updateActivityMiniGameBtn(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME))
 	end
 end
 
@@ -759,14 +802,14 @@ function slot0.onChapterTimeUp(slot0)
 		slot0:sendNotification(GAME.CHAPTER_OP, {
 			type = ChapterConst.OpRetreat
 		})
-		pg.TipsMgr:GetInstance():ShowTips(i18n("levelScene_chapter_timeout"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_chapter_timeout"))
 	end
 end
 
 function slot0.handleEnterMainUI(slot0)
 	slot0:updateSeverNotices()
 
-	if pg.SeriesGuideMgr:GetInstance():isEnd() then
+	if pg.SeriesGuideMgr.GetInstance():isEnd() then
 		slot1 = nil
 
 		function slot2()
@@ -828,7 +871,7 @@ end
 
 function slot0.playStroys(slot0, slot1)
 	slot3 = {}
-	slot4 = pg.StoryMgr:GetInstance()
+	slot4 = pg.StoryMgr.GetInstance()
 
 	for slot8, slot9 in pairs(slot2) do
 		if slot9:getConfig("story_id") and slot10 ~= "" and not slot4:IsPlayed(slot10) then
@@ -876,10 +919,10 @@ function slot0.playStroys(slot0, slot1)
 		slot9 = slot6.getConfig("config_client").npc[2]
 		slot10 = {
 			function (slot0)
-				if slot0 == "" or pg.StoryMgr:GetInstance():IsPlayed(slot0) then
+				if slot0 == "" or pg.StoryMgr.GetInstance():IsPlayed(slot0) then
 					slot0()
 				else
-					pg.StoryMgr:GetInstance():Play(slot0, slot0, true, true)
+					pg.StoryMgr.GetInstance():Play(slot0, slot0, true, true)
 				end
 			end,
 			function (slot0)
@@ -900,7 +943,7 @@ function slot0.playStroys(slot0, slot1)
 	end
 
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) and not slot7:isEnd() then
-		if type(slot7:getConfig("config_client")) == "table" and slot8[2] and type(slot8[2]) == "string" and not pg.StoryMgr:GetInstance():IsPlayed(slot8[2]) then
+		if type(slot7:getConfig("config_client")) == "table" and slot8[2] and type(slot8[2]) == "string" and not pg.StoryMgr.GetInstance():IsPlayed(slot8[2]) then
 			table.insert(slot3, function (slot0)
 				slot0:Play(slot1[2], slot0, true, true)
 			end)
@@ -911,31 +954,7 @@ function slot0.playStroys(slot0, slot1)
 end
 
 function slot0.tryPlayGuide(slot0)
-	slot2 = getProxy(FleetProxy):getFleetById(11)
-	slot3 = {}
-	slot4 = true
-
-	if getProxy(TaskProxy):getTaskById(10302) and slot1:isFinish() and not slot1:isReceive() and slot2:isEmpty() then
-		pg.StoryMgr:GetInstance():PlayGuide("NG002", (_.any(getProxy(BayProxy):getShips(), function (slot0)
-			return slot0 and slot0.configId == 308031
-		end) and {}) or {
-			1
-		})
-
-		slot4 = pg.GuideMgr:GetInstance():isPlayed("NG002")
-	end
-
-	if slot4 and slot0.viewComponent.openTraningCamp then
-		pg.StoryMgr:GetInstance():PlayGuide("NG004", {})
-
-		slot4 = pg.GuideMgr:GetInstance():isPlayed("NG004")
-	end
-
-	if slot4 and getProxy(PlayerProxy):getData().level >= 40 then
-		pg.StoryMgr:GetInstance():PlayGuide("NG005", {})
-
-		slot4 = pg.GuideMgr:GetInstance():isPlayed("NG005")
-	end
+	pg.SystemGuideMgr.GetInstance():Play(slot0)
 end
 
 function slot0.tryRequestMainSub(slot0)

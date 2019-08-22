@@ -21,13 +21,13 @@ class("CompositeEquipmentCommand", pm.SimpleCommand).execute = function (slot0, 
 	end
 
 	if not slot6[slot9.material_id] then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("word_materal_no_enough"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("word_materal_no_enough"))
 
 		return
 	end
 
 	if slot6[slot9.material_id].count < slot9.material_num * slot3 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("word_materal_no_enough"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("word_materal_no_enough"))
 
 		return
 	end
@@ -51,7 +51,7 @@ class("CompositeEquipmentCommand", pm.SimpleCommand).execute = function (slot0, 
 				composeId = slot1.equip_id
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("equipment_compositeEquipment", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("equipment_compositeEquipment", slot0.result))
 		end
 	end)
 end

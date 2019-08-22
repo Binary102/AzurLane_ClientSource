@@ -14,10 +14,10 @@ class("InformCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	}, 50112, function (slot0)
 		if slot0.result == 0 then
 			table.insert(getProxy(ChatProxy).informs, slot0 .. slot1)
-			pg.TipsMgr:GetInstance():ShowTips(i18n("inform_sueecss"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("inform_sueecss"))
 			pg.TipsMgr.GetInstance().ShowTips:sendNotification(GAME.INFORM_DONE)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("inform_failed"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("inform_failed"))
 		end
 	end)
 end

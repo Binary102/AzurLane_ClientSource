@@ -38,6 +38,7 @@ class("LoadPlayerDataCommand", pm.SimpleCommand).execute = function (slot0, slot
 	slot0.facade:registerProxy(SkirmishProxy.New())
 	slot0.facade:registerProxy(PrayProxy.New())
 	slot0.facade:registerProxy(EmojiProxy.New())
+	slot0.facade:registerProxy(MiniGameProxy.New())
 	pg.ConnectionMgr.GetInstance():setPacketIdx(1)
 	pg.ConnectionMgr.GetInstance():Send(11001, {
 		timestamp = 0
@@ -48,20 +49,23 @@ class("LoadPlayerDataCommand", pm.SimpleCommand).execute = function (slot0, slot
 		slot2 = getProxy(PlayerProxy).getData(slot1)
 
 		if slot0 then
-			pg.StoryMgr:GetInstance():Reset()
-			pg.PushNotificationMgr:GetInstance():Reset()
-			BilibiliSdkMgr.inst:createRole(slot2.id, slot2.name, slot2.level, 1000 * slot2.registerTime, "vip0", slot2:getTotalGem())
+			pg.StoryMgr.GetInstance():Reset()
+			pg.PushNotificationMgr.GetInstance():Reset()
+			pg.SdkMgr.GetInstance():CreateRole(slot2.id, slot2.name, slot2.level, slot2.registerTime, slot2:getTotalGem())
 		end
 
-		pg.SeriesGuideMgr:GetInstance():setPlayer(slot2)
+		pg.SeriesGuideMgr.GetInstance():setPlayer(slot2)
 
 		slot5 = getProxy(ServerProxy)
 		slot6 = slot5:getLastServer(getProxy(UserProxy).getData(slot3).uid)
 
-		BilibiliSdkMgr.inst:enterServer(tostring(slot6.id), slot6.name, slot2.id, slot2.name, slot2.registerTime * 1000, slot2.level, "vip0", slot2:getTotalGem())
+		pg.SdkMgr.GetInstance():EnterServer(tostring(slot6.id), slot6.name, slot2.id, slot2.name, slot2.registerTime, slot2.level, slot2:getTotalGem())
 		slot5:recordLoginedServer(getProxy(UserProxy).getData(slot3).uid, slot6.id)
 		slot1:sendNotification(GAME.LOAD_PLAYER_DATA_DONE)
-		BilibiliSdkMgr.inst:callSdkApi("bindCpu", nil)
+		slot1:sendNotification(GAME.REQUEST_MINI_GAME, {
+			type = MiniGameRequestCommand.REQUEST_HUB_DATA
+		})
+		pg.SdkMgr.GetInstance():BindCPU()
 		getProxy(PlayerProxy).setInited(slot7, true)
 		pg.SecondaryPWDMgr.GetInstance():FetchData()
 	end)

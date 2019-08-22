@@ -11,7 +11,7 @@ class("ExchangeShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end
 
 	if slot11 == nil or slot11.count < slot7 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("word_materal_no_enough"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("word_materal_no_enough"))
 
 		return
 	end
@@ -33,7 +33,7 @@ class("ExchangeShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot2:updateExchangeShip(slot3, slot3)
 			slot2.updateExchangeShip:sendNotification(GAME.EXCHANGE_SHIP_DONE, slot2)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("ship_exchange_erro", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_exchange_erro", slot0.result))
 		end
 	end)
 end

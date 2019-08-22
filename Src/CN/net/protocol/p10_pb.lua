@@ -91,6 +91,7 @@ slot66 = slot0.FieldDescriptor()
 slot67 = slot0.FieldDescriptor()
 slot68 = slot0.FieldDescriptor()
 slot69 = slot0.FieldDescriptor()
+slot70 = slot0.FieldDescriptor()
 slot1.name = "account"
 slot1.full_name = ".p10.cs_10001.account"
 slot1.number = 1
@@ -929,6 +930,15 @@ slot69.has_default_value = false
 slot69.default_value = 0
 slot69.type = 13
 slot69.cpp_type = 3
+slot70.name = "is_ts"
+slot70.full_name = ".p10.sc_10801.is_ts"
+slot70.number = 7
+slot70.index = 6
+slot70.label = 2
+slot70.has_default_value = false
+slot70.default_value = 0
+slot70.type = 13
+slot70.cpp_type = 3
 SC_10801.name = "sc_10801"
 SC_10801.full_name = ".p10.sc_10801"
 SC_10801.nested_types = {}
@@ -939,7 +949,8 @@ SC_10801.fields = {
 	slot66,
 	slot67,
 	slot68,
-	slot69
+	slot69,
+	slot70
 }
 SC_10801.is_extendable = false
 SC_10801.extensions = {}

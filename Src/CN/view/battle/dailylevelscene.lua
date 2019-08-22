@@ -156,7 +156,7 @@ function slot0.tryOpenDesc(slot0, slot1)
 	if table.contains(pg.expedition_daily_template[slot1].weekday, tonumber(slot0:getWeek())) then
 		slot0:openDailyDesc(slot1)
 	else
-		pg.TipsMgr:GetInstance():ShowTips(slot3.tips)
+		pg.TipsMgr.GetInstance():ShowTips(slot3.tips)
 	end
 end
 
@@ -270,7 +270,7 @@ function slot0.updateStage(slot0, slot1)
 	setActive(findTF(slot3, "score"), false)
 	onButton(slot0, slot3, function ()
 		if slot0.limit_time <= (slot0.dailyCounts[slot0.dailyLevelId] or 0) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("dailyLevel_restCount_notEnough"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("dailyLevel_restCount_notEnough"))
 
 			return
 		end
@@ -278,7 +278,7 @@ function slot0.updateStage(slot0, slot1)
 		slot0:emit(DailyLevelMediator.ON_STAGE, slot0.emit)
 	end, SFX_PANEL)
 	onButton(slot0, slot4, function ()
-		pg.TipsMgr:GetInstance():ShowTips(i18n("dailyLevel_unopened"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("dailyLevel_unopened"))
 	end, SFX_PANEL)
 end
 
@@ -378,14 +378,11 @@ function slot0.flipToSpecificCard(slot0, slot1)
 end
 
 function slot0.tryPlayGuide(slot0)
-	if pg.StoryMgr:GetInstance():IsPlayed("NG0015") then
-		return
-	end
+	pg.SystemGuideMgr.GetInstance():PlayDailyLevel(function ()
+		triggerButton(slot0:findTF("help_btn"))
 
-	triggerButton(slot0:findTF("help_btn"))
-	pg.m02:sendNotification(GAME.STORY_UPDATE, {
-		storyId = slot2
-	})
+		return
+	end)
 
 	return
 end

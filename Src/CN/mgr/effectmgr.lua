@@ -3,7 +3,7 @@ slot1 = singletonClass("EffectMgr")
 pg.EffectMgr = slot1
 
 function slot1.Ctor(slot0)
-	slot1 = ys.Battle.BattleResourceManager:GetInstance()
+	slot1 = ys.Battle.BattleResourceManager.GetInstance()
 	slot0.effectCbMap = setmetatable({}, {
 		__mode = "k"
 	})
@@ -50,7 +50,7 @@ end
 
 function slot1.BattleUIEffect(slot0, slot1, slot2)
 	LoadAndInstantiateAsync("UI", slot1, function (slot0)
-		slot1 = ys.Battle.BattleState:GetInstance()
+		slot1 = ys.Battle.BattleState.GetInstance()
 
 		if slot1:GetState() ~= slot1.BATTLE_STATE_FIGHT then
 			Destroy(slot0)

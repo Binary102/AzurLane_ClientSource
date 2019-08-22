@@ -4,7 +4,7 @@ class("WorldTriggerTaskCommand", pm.SimpleCommand).execute = function (slot0, sl
 	slot5 = slot2.callback
 
 	if getProxy(WorldProxy).GetWorld(slot6).getTaskProxy(slot7):getTaskById(slot2.taskId) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n1("该任务已存在" .. slot4))
+		pg.TipsMgr.GetInstance():ShowTips(i18n1("该任务已存在" .. slot4))
 
 		return
 	end
@@ -14,7 +14,7 @@ class("WorldTriggerTaskCommand", pm.SimpleCommand).execute = function (slot0, sl
 	slot10, slot11 = WorldTask.canTrigger(slot4)
 
 	if not slot10 then
-		pg.TipsMgr:GetInstance():ShowTips(slot11)
+		pg.TipsMgr.GetInstance():ShowTips(slot11)
 
 		return
 	end
@@ -42,7 +42,7 @@ class("WorldTriggerTaskCommand", pm.SimpleCommand).execute = function (slot0, sl
 				task = slot1.id
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n1("触发任务失败" .. slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(i18n1("触发任务失败" .. slot0.result))
 		end
 	end)
 end

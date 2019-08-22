@@ -132,7 +132,7 @@ return {
 			},
 			subActors = {
 				{
-					dir = 107060,
+					dir = 1,
 					actor = 107060,
 					pos = {
 						x = 1030.5

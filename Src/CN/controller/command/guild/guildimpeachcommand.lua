@@ -2,7 +2,7 @@ class("GuildImpeachCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot2 = slot1:getBody()
 
 	if getProxy(GuildProxy).getData(slot3):inKickTime() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_commder_in_impeach_time"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_commder_in_impeach_time"))
 
 		return
 	end
@@ -16,10 +16,10 @@ class("GuildImpeachCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 			slot2:setkickLeaderTime(slot3)
 			slot1:updateGuild(slot2)
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_impeach_sucess"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_impeach_sucess"))
 			slot0:sendNotification(GAME.GUILD_IMPEACH_DONE)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("guild_impeach_erro", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("guild_impeach_erro", slot0.result))
 		end
 	end)
 end

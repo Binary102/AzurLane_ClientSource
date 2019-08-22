@@ -9,13 +9,13 @@ class("CollectionGetAwardCommand", pm.SimpleCommand).execute = function (slot0, 
 	end
 
 	if slot5 and slot6 == 1 and slot7:GoldMax(1) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_collect"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_collect"))
 
 		return
 	end
 
 	if slot5 and slot6 == 2 and slot7:OilMax(1) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_collect"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_collect"))
 
 		return
 	end
@@ -43,7 +43,7 @@ class("CollectionGetAwardCommand", pm.SimpleCommand).execute = function (slot0, 
 				getProxy(EquipmentProxy):addEquipmentById(slot3[2], slot3[3])
 			elseif slot3[1] == DROP_TYPE_SIREN_EQUIP then
 			elseif slot3[1] == DROP_TYPE_SHIP then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("collection_award_ship", pg.ship_data_statistics[slot3[2]].name))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("collection_award_ship", pg.ship_data_statistics[slot3[2]].name))
 			elseif slot3[1] == DROP_TYPE_FURNITURE then
 				getProxy(DormProxy):addFurniture(Furniture.New({
 					count = 1,
@@ -60,9 +60,9 @@ class("CollectionGetAwardCommand", pm.SimpleCommand).execute = function (slot0, 
 				id = slot0,
 				items = {}
 			})
-			pg.TipsMgr:GetInstance():ShowTips(i18n("word_takeOk"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("word_takeOk"))
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("collection_getResource_error", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("collection_getResource_error", slot0.result))
 		end
 	end)
 end

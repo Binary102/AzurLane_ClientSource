@@ -55,9 +55,9 @@ end
 
 function slot0.loadChar(slot0)
 	if not slot0.shipPrefab then
-		pg.UIMgr:GetInstance():LoadingOn()
+		pg.UIMgr.GetInstance():LoadingOn()
 		PoolMgr.GetInstance():GetSpineChar(slot0.shipVO:getPrefab(), true, function (slot0)
-			pg.UIMgr:GetInstance():LoadingOff()
+			pg.UIMgr.GetInstance():LoadingOff()
 
 			slot0.shipPrefab = slot0
 			slot0.shipModel = slot0

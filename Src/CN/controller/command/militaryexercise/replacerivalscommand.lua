@@ -3,7 +3,7 @@ class("ReplaceRivalsCommand", pm.SimpleCommand).execute = function (slot0, slot1
 	slot4 = slot3:getconsumeGem()
 
 	if MAX_REPLACE_RIVAL_COUNT < slot3:getFlashCount() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_refresh_count_insufficient"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_refresh_count_insufficient"))
 
 		return
 	end
@@ -23,7 +23,7 @@ class("ReplaceRivalsCommand", pm.SimpleCommand).execute = function (slot0, slot1
 			slot0:updateSeasonInfo(slot1)
 			slot0.updateSeasonInfo:sendNotification(GAME.REPLACE_RIVALS_DONE, slot0:getSeasonInfo())
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 		end
 	end)
 end

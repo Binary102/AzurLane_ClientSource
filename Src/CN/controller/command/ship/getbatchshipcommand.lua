@@ -5,7 +5,7 @@ class("GetBatchShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot10 = getProxy(PlayerProxy).getData(slot9)
 
 	if slot2:getNeedFinishCount() > 0 and (not slot7 or slot7.count == 0) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_item_1"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
 
 		return
 	end
@@ -35,7 +35,7 @@ class("GetBatchShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 	seriesAsync(slot13, function ()
 		if slot0:getFinishCount() ~= table.getCount(table.getCount) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_backyardShipInfoLayer_error_noQuickItem"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardShipInfoLayer_error_noQuickItem"))
 		end
 
 		slot1 = {}

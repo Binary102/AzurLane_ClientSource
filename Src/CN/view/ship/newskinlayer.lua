@@ -136,7 +136,7 @@ function slot0.setSkin(slot0, slot1)
 end
 
 function slot0.showExitTip(slot0)
-	pg.MsgboxMgr:GetInstance():ShowMsgBox({
+	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		content = i18n("give_up_cloth_change"),
 		onYes = function ()
 			slot0:emit(slot1.ON_CLOSE)
@@ -201,7 +201,7 @@ function slot0.onSwitch(slot0, slot1, slot2)
 		if slot0 then
 			slot1:openSelectPanel()
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("err_cloth_change_noship", slot1.shipName))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("err_cloth_change_noship", slot1.shipName))
 		end
 	end)
 end
@@ -379,7 +379,7 @@ function slot0.openSelectPanel(slot0)
 
 	onButton(slot0, slot0.confirmChangeBtn, function ()
 		if not slot0.selectIds or #slot0.selectIds <= 0 then
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("new_skin_no_choose"),
 				onYes = function ()
 					slot0:emit(slot1.ON_CLOSE)
@@ -417,7 +417,7 @@ function slot0.closeSelectPanel(slot0)
 end
 
 function slot0.willExit(slot0)
-	pg.TipsMgr:GetInstance():ShowTips(i18n("ship_newSkinLayer_get", pg.ship_data_statistics[slot0._skinConfig.ship_group * 10 + 1].name, HXSet.hxLan(slot0._skinConfig.name)), COLOR_GREEN)
+	pg.TipsMgr.GetInstance():ShowTips(i18n("ship_newSkinLayer_get", pg.ship_data_statistics[slot0._skinConfig.ship_group * 10 + 1].name, HXSet.hxLan(slot0._skinConfig.name)), COLOR_GREEN)
 	slot0:recyclePainting()
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 

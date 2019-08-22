@@ -21,7 +21,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.maskTip = i18n("buy_countLimit")
 
 	onButton(slot0, slot0.mask, function ()
-		pg.TipsMgr:GetInstance():ShowTips(slot0.maskTip)
+		pg.TipsMgr.GetInstance():ShowTips(slot0.maskTip)
 	end, SFX_PANEL)
 end
 

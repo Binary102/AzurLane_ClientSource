@@ -6,7 +6,7 @@ function slot0.OnInit(slot0)
 			return
 		end
 
-		pg.ShareMgr:GetInstance():Share(pg.ShareMgr.TypeSummary)
+		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeSummary)
 	end, SFX_PANEL)
 	setText(slot3, slot0.summaryInfoVO.name)
 

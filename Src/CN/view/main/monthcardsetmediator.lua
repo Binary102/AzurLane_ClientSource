@@ -8,7 +8,7 @@ function slot0.register(slot0)
 		if slot0:getCardById(VipCard.MONTH).data ~= slot1 then
 			slot1:sendNotification(GAME.MONTH_CARD_SET_RATIO, slot1)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("month_card_set_ratio_not_change"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("month_card_set_ratio_not_change"))
 		end
 	end)
 	slot0.viewComponent:setPlayer(slot2)

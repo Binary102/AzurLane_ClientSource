@@ -18,7 +18,7 @@ function slot0.onFire(slot0, slot1, slot2)
 
 	slot4 = slot0._tempData.arg_list.node
 	slot5 = slot0._tempData.arg_list.weapon
-	slot6 = ys.Battle.BattleDataProxy:GetInstance():GetSeqCenter()
+	slot6 = ys.Battle.BattleDataProxy.GetInstance():GetSeqCenter()
 
 	for slot10, slot11 in ipairs(slot1:GetAutoWeapons()) do
 		if slot11:GetWeaponId() == slot5 then

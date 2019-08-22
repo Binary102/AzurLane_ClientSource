@@ -21,7 +21,7 @@ end
 function ys.Battle.BattleCameraWave.DoWave(slot0)
 	slot0.super.DoWave(slot0)
 
-	slot1 = slot0.super.DoWave.Battle.BattleCameraUtil:GetInstance()
+	slot1 = slot0.super.DoWave.Battle.BattleCameraUtil.GetInstance()
 
 	if slot0._type == 1 then
 		slot3 = nil

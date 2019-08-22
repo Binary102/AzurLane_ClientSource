@@ -18,7 +18,7 @@ class("GetWBDamageRankCommand", pm.SimpleCommand).execute = function (slot0, slo
 				bossId = slot0
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("world_activate_error_", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("world_activate_error_", slot0.result))
 		end
 	end)
 end

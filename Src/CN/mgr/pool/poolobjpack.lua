@@ -14,6 +14,10 @@ function slot1.Set(slot0, slot1, slot2)
 	slot0.items[slot1] = slot2
 end
 
+function slot1.GetAmount(slot0)
+	return table.getCount(slot0.items)
+end
+
 function slot1.Clear(slot0)
 	slot0.items = nil
 end

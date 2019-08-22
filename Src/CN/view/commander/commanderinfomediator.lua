@@ -243,20 +243,20 @@ function slot0.handleNotification(slot0, slot1)
 
 		slot0.contextData.materialIds = {}
 
-		pg.UIMgr:GetInstance():LoadingOn(false)
+		pg.UIMgr.GetInstance():LoadingOn(false)
 		slot0.viewComponent.panels[CommanderInfoScene.PAGE_PLAY]:playAnim(slot3.oldCommander, slot3.commander, function ()
-			pg.UIMgr:GetInstance():LoadingOff(false)
+			pg.UIMgr.GetInstance():LoadingOff(false)
 		end)
 	elseif slot2 == GAME.COMMANDER_LOCK_DONE then
 		if slot3.flag == 1 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_lock_done"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_lock_done"))
 		elseif slot3.flag == 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_unlock_done"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_unlock_done"))
 		end
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:setPlayer(slot3)
 	elseif slot2 == GAME.COMMANDER_RENAME_DONE then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("commander_rename_success_tip"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("commander_rename_success_tip"))
 	end
 end
 

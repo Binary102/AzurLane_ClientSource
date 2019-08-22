@@ -10,7 +10,7 @@ class("GetMailListCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				slot1:addMail(Mail.New(slot6))
 			end
 		elseif slot1.init then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("mail_getMailList_error_noNewMail"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("mail_getMailList_error_noNewMail"))
 		end
 
 		slot1.dirty = false

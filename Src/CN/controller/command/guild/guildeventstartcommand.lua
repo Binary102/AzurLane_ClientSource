@@ -1,6 +1,6 @@
 class("GuildEventStartCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	if getProxy(GuildProxy):getData() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_boss_appear"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_boss_appear"))
 
 		slot2.eventTip = true
 

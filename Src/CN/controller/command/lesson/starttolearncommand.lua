@@ -11,7 +11,7 @@ class("StartToLearnCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot1:setCourse(slot2)
 			slot1:sendNotification(GAME.CLASS_START_COURSE_DONE)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("lesson_startToLearn", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("lesson_startToLearn", slot0.result))
 		end
 	end)
 end

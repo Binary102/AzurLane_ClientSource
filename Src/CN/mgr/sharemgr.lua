@@ -62,8 +62,8 @@ function pg.ShareMgr.Init(slot0)
 end
 
 function pg.ShareMgr.Share(slot0, slot1, slot2)
-	if not isAiriJP() and not WBManager.IsSupportShare() then
-		slot0.TipsMgr:GetInstance():ShowTips("指挥官，当前平台暂不支持分享功能哦")
+	if PLATFORM_CODE ~= PLATFORM_JP and PLATFORM_CODE ~= PLATFORM_US and PLATFORM_CODE ~= PLATFORM_KR and not WBManager.IsSupportShare() then
+		slot0.TipsMgr.GetInstance():ShowTips("指挥官，当前平台暂不支持分享功能哦")
 
 		return
 	end
@@ -175,11 +175,8 @@ function pg.ShareMgr.Share(slot0, slot1, slot2)
 
 	slot10 = 
 
-	if isAiriJP() then
-		slot14 = slot13:TakePhoto(slot11)
-
-		slot14:LoadImage(slot15)
-		AiriSdkMgr.inst:ShareCustomScreenshot(slot3.description, slot14)
+	if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and slot0.SdkMgr.GetInstance():GetIsPlatform() then
+		slot0.SdkMgr.GetInstance():GameShare(slot3.description, slot14)
 		slot0.UIMgr.GetInstance():LoadingOn()
 
 		time = Timer.New(function ()
@@ -194,7 +191,7 @@ function pg.ShareMgr.Share(slot0, slot1, slot2)
 			print("截图位置: " .. slot0.screenshot)
 			slot0:Show(slot3)
 		else
-			slot0.TipsMgr:GetInstance():ShowTips("截图失败")
+			slot0.TipsMgr.GetInstance():ShowTips("截图失败")
 		end
 	end
 
@@ -238,7 +235,7 @@ function pg.ShareMgr.Show(slot0, slot1)
 	onButton(slot0, slot0.panel:Find("main/buttons/weibo"), function ()
 		WBManager.Inst:Share(slot0.description, slot1.screenshot, function (slot0, slot1)
 			if slot0 and slot1 == 0 then
-				slot0.TipsMgr:GetInstance():ShowTips("分享成功")
+				slot0.TipsMgr.GetInstance():ShowTips("分享成功")
 			end
 
 			return
@@ -250,10 +247,10 @@ function pg.ShareMgr.Show(slot0, slot1)
 	onButton(slot0, slot0.panel:Find("main/buttons/weixin"), function ()
 		WXManager.Inst:Share(slot0.description, slot1.screenshot, function (slot0, slot1)
 			if slot0 and slot1 == 0 then
-				slot0.TipsMgr:GetInstance():ShowTips("分享成功")
+				slot0.TipsMgr.GetInstance():ShowTips("分享成功")
 			else
 				if slot1 == 99 then
-					slot0.TipsMgr:GetInstance():ShowTips("指挥官，你没有安装微信客户端哦")
+					slot0.TipsMgr.GetInstance():ShowTips("指挥官，你没有安装微信客户端哦")
 				end
 			end
 
@@ -263,6 +260,21 @@ function pg.ShareMgr.Show(slot0, slot1)
 
 		return
 	end)
+
+	if PLATFORM_CODE == PLATFORM_KR then
+		onButton(slot0, slot0.panel:Find("main/buttons/facebook"), function ()
+			slot0.SdkMgr.GetInstance():ShareImg(slot1.screenshot, function (slot0, slot1)
+				if slot0 and slot1 == 0 then
+					slot0.TipsMgr.GetInstance():ShowTips(i18n("share_success"))
+				end
+
+				return
+			end)
+			slot1.screenshot()
+
+			return
+		end)
+	end
 
 	return
 end

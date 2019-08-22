@@ -202,7 +202,7 @@ function slot0.updateExchangeShips(slot0, slot1, slot2, slot3)
 
 	slot0.exchangeTiemr = Timer.New(function ()
 		if slot0 - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
-			setText(slot1.leftTimeTF, pg.TimeMgr:GetInstance():DescCDTime(slot1))
+			setText(slot1.leftTimeTF, pg.TimeMgr.GetInstance():DescCDTime(slot1))
 		else
 			slot2()
 		end
@@ -225,7 +225,7 @@ function slot0.updateFlagShipChangeTime(slot0)
 
 	if slot2 < 86400 then
 		slot0.downCountTimer = Timer.New(function ()
-			slot1 = pg.TimeMgr:GetInstance():DescCDTime(slot0.flagShipTime - pg.TimeMgr.GetInstance():GetServerTime())
+			slot1 = pg.TimeMgr.GetInstance():DescCDTime(slot0.flagShipTime - pg.TimeMgr.GetInstance():GetServerTime())
 
 			if slot0.flagShipTime - pg.TimeMgr.GetInstance().GetServerTime() > 0 then
 				slot0.flagShipchangeTimeTF.text = slot0.flagShipchangeTimeTF
@@ -337,7 +337,7 @@ function slot0.updateShips(slot0, slot1, slot2)
 end
 
 function slot0.closeMsgBox(slot0)
-	if pg.MsgboxMgr:GetInstance()._go.activeSelf then
+	if pg.MsgboxMgr.GetInstance()._go.activeSelf then
 		slot1:hide()
 	end
 end

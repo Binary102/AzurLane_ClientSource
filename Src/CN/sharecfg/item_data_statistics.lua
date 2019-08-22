@@ -18705,10 +18705,10 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "甜咖喱还是辣咖喱，这是一个问题！ <color=#92fc63>（提高经验加成5%，持续60分钟）</color>",
+		display = "据说时下非常流行的祭典美食(?)",
 		rarity = 2,
 		type = 3,
-		name = "海军咖喱",
+		name = "祭典美食(?)",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -71112,6 +71112,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59783] = {
+		display = "完成祭典小游戏可以获得的印花，收集印花并在印花册盖章，可以获得特别奖励哦！",
+		rarity = 2,
+		type = 0,
+		name = "夏日祭典印花",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59783,
+		icon = "props/summer_stamp",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59801] = {
 		display = "拼图A-1",
 		rarity = 2,
@@ -73889,6 +73905,7 @@ pg.item_data_statistics = {
 		59780,
 		59781,
 		59782,
+		59783,
 		59801,
 		59802,
 		59803,

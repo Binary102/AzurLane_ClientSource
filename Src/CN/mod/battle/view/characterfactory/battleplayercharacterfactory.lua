@@ -23,7 +23,7 @@ function slot1.MakeModel(slot0, slot1, slot2)
 
 		slot1 = slot0.AddModel:GetSceneMediator()
 
-		slot0:CameraOrthogonal(slot2.Battle.BattleCameraUtil:GetInstance():GetCamera())
+		slot0:CameraOrthogonal(slot2.Battle.BattleCameraUtil.GetInstance():GetCamera())
 		slot1:AddPlayerCharacter(slot0)
 		slot1:MakeUIComponentContainer(slot0)
 		slot1:MakeFXContainer(slot0)
@@ -65,7 +65,7 @@ function slot1.RemoveCharacter(slot0, slot1, slot2)
 
 	if slot2 and slot2 ~= slot0.Battle.BattleConst.UnitDeathReason.KILLED then
 	else
-		slot0.Battle.BattleCameraUtil:GetInstance():StartShake(pg.shake_template[slot0.Battle.BattleConst.ShakeType.UNIT_DIE])
+		slot0.Battle.BattleCameraUtil.GetInstance():StartShake(pg.shake_template[slot0.Battle.BattleConst.ShakeType.UNIT_DIE])
 	end
 
 	slot1.super.RemoveCharacter(slot0, slot1, slot2)

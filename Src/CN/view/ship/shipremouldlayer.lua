@@ -460,7 +460,7 @@ function slot0.updateProgress(slot0, slot1)
 				if slot0 then
 					slot1:emit(ShipRemouldMediator.ON_SELECTE_SHIP, slot1.shipVO)
 				else
-					pg.TipsMgr:GetInstance():ShowTips(slot2)
+					pg.TipsMgr.GetInstance():ShowTips(slot2)
 				end
 			end, SFX_PANEL)
 		else
@@ -560,7 +560,7 @@ function slot0.updateProgress(slot0, slot1)
 		slot0, slot1 = Ship.canModifyShip(slot0.shipVO)
 
 		if not slot0 then
-			pg.TipsMgr:GetInstance():ShowTips(slot1)
+			pg.TipsMgr.GetInstance():ShowTips(slot1)
 
 			return
 		end
@@ -568,7 +568,7 @@ function slot0.updateProgress(slot0, slot1)
 		slot2, slot3 = slot0:canRemould(slot1)
 
 		if not slot2 then
-			pg.TipsMgr:GetInstance():ShowTips(slot3)
+			pg.TipsMgr.GetInstance():ShowTips(slot3)
 
 			return
 		end
@@ -576,7 +576,7 @@ function slot0.updateProgress(slot0, slot1)
 		slot4, slot5 = slot0:isEnoughResource(slot1)
 
 		if not slot4 then
-			pg.TipsMgr:GetInstance():ShowTips(slot5)
+			pg.TipsMgr.GetInstance():ShowTips(slot5)
 
 			return
 		end

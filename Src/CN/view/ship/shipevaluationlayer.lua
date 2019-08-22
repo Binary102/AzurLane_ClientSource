@@ -67,7 +67,7 @@ function slot0.didEnter(slot0)
 		if slot1 then
 			setTextColor(slot0.inputText, Color.red)
 			setButtonEnabled(slot0.btnEva, false)
-			pg.TipsMgr:GetInstance():ShowTips(slot2)
+			pg.TipsMgr.GetInstance():ShowTips(slot2)
 		else
 			setTextColor(slot0.inputText, Color.white)
 			setButtonEnabled(slot0.btnEva, true)
@@ -148,7 +148,7 @@ function slot0.flushEva(slot0)
 			if not slot0.izan then
 				slot1:emit(slot2.EVENT_ZAN, slot0.id, slot0)
 			else
-				pg.TipsMgr:GetInstance():ShowTips(i18n("zan_ship_eva_error_7"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("zan_ship_eva_error_7"))
 			end
 
 			return

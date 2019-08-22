@@ -4,7 +4,7 @@ class("GetGuildMemberRankCommand", pm.SimpleCommand).execute = function (slot0, 
 	slot4 = slot3:getGuildEvent()
 
 	if not slot3:getData() or not slot4 or slot4:isEnd() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 		return
 	end

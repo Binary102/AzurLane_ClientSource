@@ -3,16 +3,16 @@ class("StartCampTecCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot5 = pg.TimeMgr.GetInstance():DescCDTime(pg.fleet_tech_template[slot1.getBody().levelID].time)
 
 	if getProxy(TechnologyNationProxy):getStudyingTecItem() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("technology_uplevel_error_studying", pg.fleet_tech_group[slot7].name))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("technology_uplevel_error_studying", pg.fleet_tech_group[slot7].name))
 
 		return
 	end
 
-	pg.MsgboxMgr:GetInstance():ShowMsgBox({
+	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		content = i18n("technology_uplevel_error_no_res", pg.fleet_tech_template[slot4].cost, slot5, math.fmod(slot2.levelID, 1000) - 1, math.fmod(slot2.levelID, 1000)),
 		onYes = function ()
 			if getProxy(PlayerProxy):getData().gold < pg.fleet_tech_template[getProxy(PlayerProxy).getData()].cost then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_gold"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_gold"))
 
 				return
 			end
@@ -36,7 +36,7 @@ class("StartCampTecCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 					})
 					slot2:updatePlayer(slot3)
 				else
-					pg.TipsMgr:GetInstance():ShowTips(errorTip("coloring_cell", slot0.result))
+					pg.TipsMgr.GetInstance():ShowTips(errorTip("coloring_cell", slot0.result))
 				end
 			end)
 		end,

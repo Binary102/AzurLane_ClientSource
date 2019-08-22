@@ -132,7 +132,7 @@ function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.REFRESH_MILITARY_SHOP_DONE then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("refresh_shopStreet_ok"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("refresh_shopStreet_ok"))
 		slot0.viewComponent:setMilitaryShop(slot3)
 	elseif slot2 == GAME.SHOPPING_DONE then
 		slot4 = getProxy(ShopsProxy)

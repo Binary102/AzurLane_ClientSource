@@ -29,7 +29,7 @@ class("SubmitAnswerCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				virgin = not slot2.getScore(slot1)
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("submit_answer", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("submit_answer", slot0.result))
 			slot0:sendNotification(GAME.ANSWER_SUBMIT_DONE, {
 				success = false
 			})

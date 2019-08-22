@@ -27,7 +27,7 @@ function slot0.register(slot0)
 				items = slot1:getAllAttachment()
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("take_nothing"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("take_nothing"))
 		end
 	end)
 	slot0:bind(slot0.ON_DELETE, function (slot0, slot1)
@@ -125,9 +125,9 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.OPEN_MAIL_DONE then
 		slot0.viewComponent:openMail(slot3)
 	elseif slot2 == GAME.DELETE_MAIL_DONE then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("main_mailMediator_mailDelete"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("main_mailMediator_mailDelete"))
 	elseif slot2 == GAME.DELETE_ALL_MAIL_DONE then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("main_mailMediator_mailDelete"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("main_mailMediator_mailDelete"))
 	elseif slot2 == GAME.OPEN_MAIL_ATTACHMENT_DONE then
 		if DROP_TYPE_SHIP == slot3.type then
 			slot4 = {}

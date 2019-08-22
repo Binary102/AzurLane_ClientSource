@@ -12,9 +12,9 @@ class("LikeShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				slot1:sendNotification(CollectionProxy.GROUP_INFO_UPDATE, slot0)
 			end
 
-			pg.TipsMgr:GetInstance():ShowTips(i18n("like_ship_success"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("like_ship_success"))
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("like_ship", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("like_ship", slot0.result))
 		end
 	end)
 end

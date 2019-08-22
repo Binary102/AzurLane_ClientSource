@@ -6,7 +6,7 @@ class("DestroyShipsCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 	for slot10, slot11 in ipairs(slot3) do
 		if slot5:getShipById(slot11) == nil then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("ship_error_noShip", slot11))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_error_noShip", slot11))
 
 			return
 		end
@@ -40,7 +40,7 @@ class("DestroyShipsCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 							slot19.skinId = 0
 
-							pg.TipsMgr:GetInstance():ShowTips(i18n("equipment_skin_unload"))
+							pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_unload"))
 						end
 
 						slot4:addEquipment(slot19)
@@ -94,7 +94,7 @@ class("DestroyShipsCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				equipments = slot5
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("ship_destoryShips", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_destoryShips", slot0.result))
 		end
 	end)
 end

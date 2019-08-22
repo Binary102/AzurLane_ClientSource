@@ -29,9 +29,15 @@ end
 
 function slot0.update(slot0, slot1)
 	slot0.id = slot1.id
-	slot0.name = (getProxy(FleetProxy):getFleetById(slot0.id) and slot3.name ~= "" and slot3.name) or Fleet.DEFAULT_NAME[slot0.id]
-	slot4 = {}
-	slot5 = {}
+	slot0.name = nil
+
+	if slot1.fleet_id then
+		slot0.name = (getProxy(FleetProxy):getFleetById(slot1.fleet_id) and slot3.name ~= "" and slot3.name) or Fleet.DEFAULT_NAME[slot1.fleet_id]
+	end
+
+	slot0.name = slot0.name or Fleet.DEFAULT_NAME[slot0.id]
+	slot2 = {}
+	slot3 = {}
 
 	_.each(slot1.box_strategy_list, function (slot0)
 		slot0[slot0.id] = slot0.count
@@ -46,16 +52,16 @@ function slot0.update(slot0, slot1)
 	end)
 
 	if #{} == 0 then
-		table.insert(slot6, slot0:getFormationStg())
+		table.insert(slot4, slot0:getFormationStg())
 	end
 
-	for slot11, slot12 in ipairs(slot7) do
-		table.insert(slot6, slot12)
+	for slot9, slot10 in ipairs(slot5) do
+		table.insert(slot4, slot10)
 	end
 
-	slot0.stgPicked = slot4
-	slot0.stgUsed = slot5
-	slot0.stgIds = slot6
+	slot0.stgPicked = slot2
+	slot0.stgUsed = slot3
+	slot0.stgIds = slot4
 	slot0.line = {
 		row = slot1.pos.row,
 		column = slot1.pos.column
@@ -558,13 +564,13 @@ end
 function slot0.canUseStrategy(slot0, slot1)
 	if pg.strategy_data_template[slot1.id].type == ChapterConst.StgTypeForm then
 		if slot0:getFormationStg() == slot2.id then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("level_scene_formation_active_already"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("level_scene_formation_active_already"))
 
 			return false
 		end
 	elseif slot2.type == ChapterConst.StgTypeConsume then
 		if slot1.count <= 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("level_scene_not_enough"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("level_scene_not_enough"))
 
 			return false
 		end
@@ -572,7 +578,7 @@ function slot0.canUseStrategy(slot0, slot1)
 		if slot2.id == ChapterConst.StrategyRepair and _.all(slot0:getShips(true), function (slot0)
 			return slot0.hpRant == 0 or slot0.hpRant == 10000
 		end) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("level_scene_full_hp"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("level_scene_full_hp"))
 
 			return false
 		end

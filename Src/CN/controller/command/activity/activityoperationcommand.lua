@@ -8,7 +8,7 @@ function slot0.execute(slot0, slot1)
 			if slot7 then
 				GoShoppingMsgBox(i18n("switch_to_shop_tip_1"), ChargeScene.TYPE_ITEM, slot7)
 			else
-				pg.TipsMgr:GetInstance():ShowTips(slot6)
+				pg.TipsMgr.GetInstance():ShowTips(slot6)
 			end
 
 			return
@@ -17,20 +17,20 @@ function slot0.execute(slot0, slot1)
 
 	if slot4 == ActivityConst.ACTIVITY_TYPE_SHOP then
 		if getProxy(PlayerProxy):getData()[id2res(getProxy(ShopsProxy):getActivityShopById(slot3.id).bindConfigTable(slot6)[slot2.arg1].resource_type)] < getProxy(ShopsProxy).getActivityShopById(slot3.id).bindConfigTable(slot6)[slot2.arg1].resource_num * (slot2.arg2 or 1) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_resource"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 			return
 		end
 
 		if slot7.commodity_type == 1 then
 			if slot7.commodity_id == 1 and slot5:GoldMax(slot7.num * slot8) then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_shop"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_shop"))
 
 				return
 			end
 
 			if slot7.commodity_id == 2 and slot5:OilMax(slot7.num * slot8) then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_shop"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_shop"))
 
 				return
 			end
@@ -56,14 +56,14 @@ function slot0.execute(slot0, slot1)
 				getProxy(ActivityProxy):updateActivity(getProxy(ActivityProxy))
 			elseif slot3 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 or slot3 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_2 then
 				if slot0.result == 1 then
-					pg.TipsMgr:GetInstance():ShowTips(i18n("activity_build_end_tip"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("activity_build_end_tip"))
 				end
 			elseif slot3 == 17 then
-				pg.TipsMgr:GetInstance():ShowTips("错误!:" .. slot0.result)
+				pg.TipsMgr.GetInstance():ShowTips("错误!:" .. slot0.result)
 			elseif slot0.result == 3 or slot0.result == 4 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 			else
-				pg.TipsMgr:GetInstance():ShowTips(errorTip("activity_op_error", slot0.result))
+				pg.TipsMgr.GetInstance():ShowTips(errorTip("activity_op_error", slot0.result))
 			end
 
 			slot0:sendNotification(ActivityProxy.ACTIVITY_OPERATION_ERRO, {
@@ -92,7 +92,7 @@ function slot0.getAwards(slot0, slot1, slot2)
 		if slot9.type ~= DROP_TYPE_SHIP then
 			slot0:sendNotification(GAME.ADD_ITEM, Item.New(slot9))
 		elseif not getProxy(CollectionProxy):getShipGroup(pg.ship_data_template[slot9.id].group_type) and Ship.inUnlockTip(slot9.id) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("collection_award_ship", slot10.name))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("collection_award_ship", slot10.name))
 		end
 	end
 
@@ -155,6 +155,7 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 		slot6:updatePlayer(slot8)
 		slot0:sendNotification(GAME.ACTIVITY_BUILD_SHIP_DONE)
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 or slot5 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_PRAY then
+		pg.TrackerMgr.GetInstance():Tracking(TRACKING_BUILD_SHIP, slot1.arg1)
 		getProxy(BagProxy):removeItemById(pg.ship_data_create_material[slot1.buildId].use_item, pg.ship_data_create_material[slot1.buildId].number_1 * slot1.arg1)
 
 		slot9 = slot6:getData()
@@ -247,7 +248,7 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 
 		slot9:sortList()
 		slot8:setVoteGroup(slot9)
-		pg.TipsMgr:GetInstance():ShowTips(i18n("vote_success"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("vote_success"))
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_BB then
 		slot3.data1 = slot3.data1 + 1
 		slot3.data2 = slot3.data2 + 1
@@ -410,7 +411,7 @@ function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 		end
 
 		if slot0 == 17 and slot5.cmd and slot5.cmd == 2 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("mingshi_get_tip"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("mingshi_get_tip"))
 		end
 
 		getProxy(ActivityProxy):updateActivity(getProxy(ActivityProxy))

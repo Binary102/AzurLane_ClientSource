@@ -237,7 +237,7 @@ function slot6(slot0)
 				return
 			end
 			slot2 = false
-			slot4 = pg.StoryMgr:GetInstance()
+			slot4 = pg.StoryMgr.GetInstance()
 
 			if type(slot0.stageVO.storys) == "table" then
 				for slot8, slot9 in pairs(slot3) do
@@ -391,7 +391,7 @@ function slot0.reigsterEvent(slot0, slot1, slot2)
 	end)
 	slot6:AddPointUpFunc(function (slot0, slot1)
 		if slot0.stage:isEnd() then
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("activity_hit_monster_reset_tip"),
 				onYes = function ()
 					slot0.data2 = 100
@@ -412,7 +412,7 @@ function slot0.reigsterEvent(slot0, slot1, slot2)
 					slot4()
 				end
 			else
-				pg.TipsMgr:GetInstance():ShowTips(i18n("activity_hit_monster_nocount"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("activity_hit_monster_nocount"))
 			end
 		end
 

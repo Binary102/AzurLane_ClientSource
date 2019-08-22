@@ -18,13 +18,13 @@ class("LockCommanderCommande", pm.SimpleCommand).execute = function (slot0, slot
 					flag = slot3.sendNotification
 				})
 			else
-				pg.TipsMgr:GetInstance():ShowTips(i18n("commander_lock_erro", slot0.result))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("commander_lock_erro", slot0.result))
 			end
 		end)
 	end
 
 	if slot4 == 0 then
-		slot8 = pg.SecondaryPWDMgr:GetInstance()
+		slot8 = pg.SecondaryPWDMgr.GetInstance()
 
 		slot8:LimitedOperation(slot8.UNLOCK_COMMANDER, slot3, slot7)
 	else

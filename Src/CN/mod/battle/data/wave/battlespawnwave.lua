@@ -28,7 +28,7 @@ function ys.Battle.BattleSpawnWave.DoWave(slot0)
 	slot0.super.DoWave(slot0)
 
 	if slot0._round then
-		if slot1.Battle.BattleDataProxy:GetInstance():GetInitData().ChallengeInfo then
+		if slot1.Battle.BattleDataProxy.GetInstance():GetInitData().ChallengeInfo then
 			slot3 = slot2:GetInitData().ChallengeInfo:getRound()
 
 			if slot0._round.less and slot3 < slot0._round.less then

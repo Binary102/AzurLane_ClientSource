@@ -13,7 +13,7 @@ slot8.__name = "BattleRepeaterAntiAirUnit"
 function slot8.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 
-	slot0._dataProxy = slot0.super.Ctor.Battle.BattleDataProxy:GetInstance()
+	slot0._dataProxy = slot0.super.Ctor.Battle.BattleDataProxy.GetInstance()
 end
 
 function slot8.FilterTarget(slot0)

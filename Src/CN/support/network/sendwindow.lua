@@ -100,7 +100,7 @@ function slot1.Queue(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 			slot5(slot0)
 
 			if slot0 and slot0.result and slot0.result == 0 then
-				slot6.SeriesGuideMgr:GetInstance():receiceProtocol(slot4, , slot0)
+				slot6.SeriesGuideMgr.GetInstance():receiceProtocol(slot4, , slot0)
 			end
 		end,
 		slot5,

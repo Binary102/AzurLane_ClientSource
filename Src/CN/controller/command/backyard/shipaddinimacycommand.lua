@@ -13,9 +13,9 @@ class("ShipAddInimacyCommand", pm.SimpleCommand).execute = function (slot0, slot
 			slot1:updateShip(slot2)
 
 			if slot2.state_info_3 == 0 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_getResource_emptry"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_getResource_emptry"))
 			else
-				pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_shipAddInimacy_ok", slot2:getName()))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_shipAddInimacy_ok", slot2:getName()))
 			end
 
 			slot1:sendNotification(GAME.BACKYARD_ADD_INTIMACY_DONE)
@@ -32,7 +32,7 @@ class("ShipAddInimacyCommand", pm.SimpleCommand).execute = function (slot0, slot
 				})
 			end
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("backyard_shipAddInimacy", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("backyard_shipAddInimacy", slot0.result))
 		end
 	end)
 end

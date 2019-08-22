@@ -208,12 +208,12 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.COMMANDER_RESERVE_BOX_DONE then
 		slot0.viewComponent:OnReserveDone(slot3.awards)
 	elseif slot2 == GAME.COMMANDER_RENAME_DONE then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("commander_rename_success_tip"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("commander_rename_success_tip"))
 	elseif slot2 == GAME.COMMANDER_LOCK_DONE then
 		if slot3.flag == 1 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_lock_done"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_lock_done"))
 		elseif slot3.flag == 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_unlock_done"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_unlock_done"))
 		end
 	elseif slot2 == GAME.COMMANDER_ON_BATCH_DONE then
 		slot0.viewComponent:setBoxes(getProxy(CommanderProxy):getBoxes())

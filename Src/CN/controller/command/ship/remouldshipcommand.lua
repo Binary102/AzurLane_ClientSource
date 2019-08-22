@@ -9,7 +9,7 @@ class("RemouldShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end
 
 	if getProxy(PlayerProxy).getData(slot6).gold < pg.transform_data_template[slot4].use_gold then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_resource"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
 	end
@@ -17,7 +17,7 @@ class("RemouldShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot13 = 0
 
 	if getProxy(BayProxy).getShipById(slot10, slot3).transforms[slot4] and slot11.transforms[slot4].level == #slot8.effect then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("ship_remould_max_level"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_remould_max_level"))
 
 		return
 	end
@@ -27,7 +27,7 @@ class("RemouldShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 	for slot19, slot20 in ipairs(slot14) do
 		if slot15:getItemCountById(slot20[1]) < slot20[2] then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_item_1"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
 
 			return
 		end
@@ -35,14 +35,14 @@ class("RemouldShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 	if slot8.use_ship ~= 0 then
 		if table.getCount(slot5) ~= slot8.use_ship then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("ship_remould_material_ship_no_enough"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_remould_material_ship_no_enough"))
 
 			return
 		end
 
 		for slot19, slot20 in ipairs(slot5) do
 			if not slot10:getShipById(slot20) then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("ship_remould_material_ship_on_exist"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("ship_remould_material_ship_on_exist"))
 
 				return
 			end
@@ -55,7 +55,7 @@ class("RemouldShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 			for slot26, slot27 in ipairs(Clone(slot11).equipments) do
 				if slot27 and slot22:isForbiddenAtPos(slot27, slot26) then
-					pg.TipsMgr:GetInstance():ShowTips(i18n("equipment_cant_unload"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_cant_unload"))
 
 					return
 				end
@@ -69,10 +69,12 @@ class("RemouldShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		material_id = slot5
 	}, 12012, function (slot0)
 		if slot0.result == 0 then
-			if slot0 then
-				slot1.transforms[].level = slot1.transforms[slot2].level + 1
+			pg.TrackerMgr.GetInstance():Tracking(TRACKING_REMOULD_SHIP, slot0.groupId)
+
+			if pg.TrackerMgr.GetInstance().Tracking then
+				slot0.transforms[].level = slot0.transforms[slot2].level + 1
 			else
-				slot1.transforms[slot2] = {
+				slot0.transforms[slot2] = {
 					level = 1,
 					id = slot2
 				}
@@ -109,7 +111,7 @@ class("RemouldShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 								slot9.exp = slot10.exp
 							end
 
-							pg.TipsMgr:GetInstance():ShowTips(i18n("ship_remould_material_unlock_skill", pg.skill_data_template[slot8].name))
+							pg.TipsMgr.GetInstance():ShowTips(i18n("ship_remould_material_unlock_skill", pg.skill_data_template[slot8].name))
 						end
 
 						slot0.skills[slot9.id] = slot9
@@ -174,35 +176,35 @@ class("RemouldShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot5 = {}
 
 			if slot4.skin_id ~= 0 then
-				slot1:updateSkinId(slot4.skin_id)
+				slot0:updateSkinId(slot4.skin_id)
 				table.insert(slot5, {
 					count = 1,
 					type = DROP_TYPE_SKIN,
 					id = slot4.skin_id
 				})
 
-				if getProxy(CollectionProxy):getShipGroup(slot1.groupId) and not slot7.trans then
+				if getProxy(CollectionProxy):getShipGroup(slot0.groupId) and not slot7.trans then
 					slot7.trans = true
 
 					slot6:updateShipGroup(slot7)
 				end
 			end
 
-			if slot4.skill_id ~= 0 and not slot1.skills[slot4.skill_id] then
-				slot1.skills[slot4.skill_id] = {
+			if slot4.skill_id ~= 0 and not slot0.skills[slot4.skill_id] then
+				slot0.skills[slot4.skill_id] = {
 					exp = 0,
 					level = 1,
 					id = slot4.skill_id
 				}
 
-				pg.TipsMgr:GetInstance():ShowTips(i18n("ship_remould_material_unlock_skill", HXSet.hxLan(pg.skill_data_template[slot4.skill_id].name)))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("ship_remould_material_unlock_skill", HXSet.hxLan(pg.skill_data_template[slot4.skill_id].name)))
 			end
 
-			slot1:updateName()
-			slot1:updateShip(slot1)
+			slot0:updateName()
+			slot0:updateShip(slot0)
 
 			slot6 = ipairs
-			slot7 = slot1 or {}
+			slot7 = slot0 or {}
 
 			for slot9, slot10 in slot6(slot7) do
 				slot7:removeShipById(slot10)
@@ -241,7 +243,7 @@ class("RemouldShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			return
 		end
 
-		pg.TipsMgr:GetInstance():ShowTips(errorTip("ship_remouldShip", slot0.result))
+		pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_remouldShip", slot0.result))
 	end)
 end
 

@@ -43,7 +43,7 @@ class("StartUpBackYardCommand", pm.SimpleCommand).execute = function (slot0, slo
 			pg.m02:sendNotification(GAME.EXIT_SHIP, {
 				shipId = slot15
 			})
-			pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_notPosition_shipExit"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_notPosition_shipExit"))
 		end
 	end
 

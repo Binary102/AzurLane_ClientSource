@@ -322,22 +322,22 @@ function slot0.initSkinPage(slot0)
 end
 
 function slot0.UpdateViewMode(slot0, slot1)
-	slot2, slot3 = nil
+	slot2, slot3, slot4 = nil
 
 	if slot0.viewMode == slot0.SHOP_TYPE_TIMELIMIT then
 		slot2 = slot0.PAGE_TIME_LIMIT
-		slot3 = Vector3(35.8, 605.6, 0)
-		posPaint = Vector3(-250, -88.3, 0)
+		slot3 = Vector2(35.8, 605.6)
+		slot4 = Vector2(-250, -88.3)
 	elseif slot0.viewMode == slot0.SHOP_TYPE_COMMON then
 		slot2 = slot0.PAGE_ALL
-		slot3 = Vector3(217.41, 605.6, 0)
-		posPaint = Vector3(-100, -88.3, 0)
+		slot3 = Vector2(217.41, 605.6)
+		slot4 = Vector2(-100, -88.3)
 	end
 
 	setActive(slot0.leftPanel, slot0.viewMode == slot0.SHOP_TYPE_COMMON)
 	triggerButton(slot1:Find(slot2), true)
 	setAnchoredPosition(slot0.namePanel, slot3)
-	setAnchoredPosition(slot0.paintingTF, posPaint)
+	setAnchoredPosition(slot0.paintingTF, slot4)
 	setImageSprite(slot0.title, GetSpriteFromAtlas("ui/SkinShopUI_atlas", slot1[slot0.viewMode][1]), true)
 	setImageSprite(slot0.titleEn, GetSpriteFromAtlas("ui/SkinShopUI_atlas", slot1[slot0.viewMode][2]), true)
 end

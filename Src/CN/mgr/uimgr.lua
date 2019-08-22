@@ -185,17 +185,12 @@ function pg.UIMgr.SetOutput(slot0, slot1, slot2, slot3)
 	slot0.hrz = slot1
 	slot0.vtc = slot2
 
-	if slot3 >= 0 then
-		if slot0.fingerId < 0 then
-			slot0._areaImg.color = slot0._normalColor
-			slot0._stickImg.color = slot0._normalColor
-		end
-	else
-		if slot0.fingerId >= 0 then
-			slot0._areaImg.color = slot0._darkColor
-			slot0._stickImg.color = slot0._darkColor
-		end
+	if ((slot3 >= 0 and 1) or 0) - ((slot0.fingerId >= 0 and 1) or 0) ~= 0 and slot0._areaImg and slot0._stickImg then
+		slot0._areaImg.color = (slot4 > 0 and slot0._normalColor) or slot0._darkColor
+		slot0._stickImg.color = (slot4 > 0 and slot0._normalColor) or slot0._darkColor
+	end
 
+	if slot3 < 0 then
 		slot0._stick.localPosition = Vector3.zero
 	end
 

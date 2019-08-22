@@ -74,9 +74,8 @@ function slot3(slot0)
 		slot1 = slot0
 		slot1 = slot1.Battle
 		slot1 = slot1.BattleCameraUtil
-		slot2 = slot1
 		slot1 = slot1.GetInstance
-		slot1 = slot1(slot2)
+		slot1 = slot1()
 		slot3 = slot1
 		slot2 = slot1.FocusCharacter
 		slot4 = nil

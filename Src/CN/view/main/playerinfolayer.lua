@@ -51,9 +51,9 @@ function slot0.OffsetSource(slot0, slot1, slot2)
 		slot8 = (slot5 - slot10) / slot9
 	end
 
-	slot10 = GetComponent(slot1, "RectTransform")
-
-	setAnchoredPosition(slot10, Vector3(-(slot3.rect.width * slot0.rightPanel.localScale.x + slot2 + slot8), slot10.localPosition.y, slot10.localPosition.z))
+	setAnchoredPosition(slot1, {
+		x = -(slot3.rect.width * slot0.rightPanel.localScale.x + slot2 + slot8)
+	})
 end
 
 function slot0.init(slot0)
@@ -103,7 +103,7 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 	onInputEndEdit(slot0, slot0.inputField, function (slot0)
 		if wordVer(slot0) > 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("playerinfo_mask_word"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("playerinfo_mask_word"))
 			activateInputField(slot0.inputField)
 
 			return
@@ -121,7 +121,7 @@ function slot0.didEnter(slot0)
 		slot0, slot1 = slot0.player:canModifyName()
 
 		if not slot0 then
-			pg.TipsMgr:GetInstance():ShowTips(slot1)
+			pg.TipsMgr.GetInstance():ShowTips(slot1)
 
 			return
 		end
@@ -368,7 +368,7 @@ function slot0.getGroupSkinList(slot0, slot1)
 	end
 
 	for slot6 = #slot2, 1, -1 do
-		if slot2[slot6].show_time and ((type(slot7.show_time) == "string" and slot7.show_time == "stop") or (type(slot7.show_time) == "table" and not pg.TimeMgr:GetInstance():inTime(slot7.show_time))) then
+		if slot2[slot6].show_time and ((type(slot7.show_time) == "string" and slot7.show_time == "stop") or (type(slot7.show_time) == "table" and not pg.TimeMgr.GetInstance():inTime(slot7.show_time))) then
 			table.remove(slot2, slot6)
 		end
 	end

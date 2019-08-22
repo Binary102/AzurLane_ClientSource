@@ -1,7 +1,7 @@
 class("ExchangeCodeUseCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot3 = slot1:getBody().key
 
-	if BilibiliSdkMgr.inst.channelUID == "" then
+	if pg.SdkMgr.GetInstance():GetChannelUID() == "" then
 		slot4 = PLATFORM_LOCAL
 	end
 
@@ -16,7 +16,7 @@ class("ExchangeCodeUseCommand", pm.SimpleCommand).execute = function (slot0, slo
 			})
 			pg.m02:sendNotification(GAME.EXCHANGECODE_USE_SUCCESS)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("exchangecode_use", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("exchangecode_use", slot0.result))
 		end
 	end)
 end

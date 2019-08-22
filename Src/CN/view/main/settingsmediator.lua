@@ -15,7 +15,10 @@ end
 function slot0.listNotificationInterests(slot0)
 	return {
 		PlayerProxy.UPDATED,
-		GAME.EXCHANGECODE_USE_SUCCESS
+		GAME.EXCHANGECODE_USE_SUCCESS,
+		GAME.ON_GET_TRANSCODE,
+		GAME.ON_SOCIAL_LINKED,
+		GAME.ON_SOCIAL_UNLINKED
 	}
 end
 
@@ -24,6 +27,23 @@ function slot0.handleNotification(slot0, slot1)
 
 	if slot1:getName() == GAME.EXCHANGECODE_USE_SUCCESS then
 		slot0.viewComponent:clearExchangeCode()
+	elseif slot2 == GAME.ON_GET_TRANSCODE then
+		slot0.viewComponent:showTranscode(slot3.transcode)
+	elseif slot2 == GAME.ON_SOCIAL_LINKED then
+		if PLATFORM_CODE == PLATFORM_JP then
+			slot0.viewComponent:checkAccountTwitterView()
+		elseif PLATFORM_CODE == PLATFORM_US then
+			slot0.viewComponent:checkAccountTwitterView_US()
+			slot0.viewComponent:checkAccountFacebookView_US()
+			slot0.viewComponent:checkAccountYostarView_US()
+		end
+	elseif slot2 == GAME.ON_SOCIAL_UNLINKED then
+		if PLATFORM_CODE == PLATFORM_JP then
+			slot0.viewComponent:checkAccountTwitterView()
+		elseif PLATFORM_CODE == PLATFORM_US then
+			slot0.viewComponent:checkAccountTwitterView_US()
+			slot0.viewComponent:checkAccountFacebookView_US()
+		end
 	end
 end
 

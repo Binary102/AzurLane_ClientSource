@@ -23,7 +23,7 @@ function slot0.isExpired(slot0)
 end
 
 function slot0.getRemainTime(slot0)
-	return slot0:getExpireTime() - pg.TimeMgr:GetInstance():GetServerTime()
+	return slot0:getExpireTime() - pg.TimeMgr.GetInstance():GetServerTime()
 end
 
 function slot0.getIcon(slot0)

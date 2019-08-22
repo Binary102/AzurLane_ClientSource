@@ -268,7 +268,7 @@ function slot0.updateProject(slot0, slot1, slot2)
 				if slot2 then
 					GoShoppingMsgBox(i18n("switch_to_shop_tip_1"), ChargeScene.TYPE_ITEM, slot2)
 				else
-					pg.TipsMgr:GetInstance():ShowTips(slot1)
+					pg.TipsMgr.GetInstance():ShowTips(slot1)
 				end
 
 				return

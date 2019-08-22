@@ -116,6 +116,18 @@ slot1 = {
 	[ActivityConst.SKIN_XIXUEGUI] = {
 		className = "XixueguiSkinPage",
 		uiName = "xixueguiskinpage"
+	},
+	[ActivityConst.WUDAOLOGIN_ID] = {
+		className = "WudaoLoginPage",
+		uiName = "wudaologinpage"
+	},
+	[ActivityConst.SUMMER_REMAKE] = {
+		className = "SummerRemakePage",
+		uiName = "summerremakepage"
+	},
+	[ActivityConst.SUMMER_REMAKEPT] = {
+		className = "SummerRemakePTPage",
+		uiName = "summerremakeptpage"
 	}
 }
 slot2 = {}

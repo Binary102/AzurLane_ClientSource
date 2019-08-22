@@ -61,11 +61,21 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.ACTIVITY_OPERATION, slot1)
 	end)
 	slot0:bind(slot0.EVENT_GO_SCENE, function (slot0, slot1, slot2)
-		slot0:sendNotification(GAME.GO_SCENE, slot1, slot2)
+		if slot1 == SCENE.SUMMER_FEAST then
+			if not pg.StoryMgr:IsPlayed("TIANHOUYUYI1") then
+				pg.StoryMgr.GetInstance():Play("TIANHOUYUYI1", function ()
+					slot0:sendNotification(GAME.GO_SCENE, SCENE.SUMMER_FEAST)
+				end, true)
+			else
+				slot0:sendNotification(GAME.GO_SCENE, SCENE.SUMMER_FEAST)
+			end
+		else
+			slot0:sendNotification(GAME.GO_SCENE, slot1, slot2)
+		end
 	end)
 	slot0:bind(slot0.BLACKWHITEGRID, function ()
 		if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BLACKWHITE) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
 		end
@@ -77,7 +87,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.MEMORYBOOK, function ()
 		if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
 		end
@@ -107,7 +117,7 @@ function slot0.register(slot0)
 		slot2 = slot0 and getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot0].on_activity)
 
 		if not slot2 or slot2:isEnd() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
 		end

@@ -83,7 +83,7 @@ end
 function ys.Battle.BattleBulletUnit.Ctor(slot0, slot1, slot2)
 	slot0.EventDispatcher.AttachEventDispatcher(slot0)
 
-	slot0._battleProxy = slot0.Battle.BattleDataProxy:GetInstance()
+	slot0._battleProxy = slot0.Battle.BattleDataProxy.GetInstance()
 	slot0._uniqueID = slot1
 	slot0._speedExemptKey = "bullet_" .. slot1
 	slot0._IFF = slot2

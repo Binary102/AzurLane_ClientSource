@@ -171,7 +171,7 @@ function slot4.DoAttack(slot0, slot1)
 
 	slot0:DispatchEvent(slot0.Event.New(slot1.MANUAL_WEAPON_FIRE, {}))
 	slot0:TriggerBuffOnFire()
-	slot0.Battle.BattleCameraUtil:GetInstance():StartShake(pg.shake_template[slot2.ShakeType.FIRE])
+	slot0.Battle.BattleCameraUtil.GetInstance():StartShake(pg.shake_template[slot2.ShakeType.FIRE])
 end
 
 function slot4.TriggerBuffOnReady(slot0)

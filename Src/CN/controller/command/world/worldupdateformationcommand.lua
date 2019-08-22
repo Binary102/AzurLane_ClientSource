@@ -47,7 +47,7 @@ class("WorldUpdateFormationCommand", pm.SimpleCommand).execute = function (slot0
 				})
 			end)
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("world_update_formation_err", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("world_update_formation_err", slot0.result))
 		end
 
 		if slot0.callback then

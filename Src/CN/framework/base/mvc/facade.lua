@@ -117,7 +117,7 @@ ys or .MVC.Facade.ActiveEscape = function (slot0)
 end
 
 ys or .MVC.Facade.DeactiveEscape = function (slot0)
-	slot0.TimeMgr:GetInstance():RemoveTimer(slot0._escapeAITimer)
+	slot0.TimeMgr.GetInstance():RemoveTimer(slot0._escapeAITimer)
 end
 
 ys or .MVC.Facade.RemoveAllTimer = function (slot0)

@@ -50,7 +50,7 @@ return {
 			}
 		},
 		isShow = function ()
-			return pg.TimeMgr:GetInstance():inTime(ActivityConst.LIMIT_SKIN_SHOP_TIME)
+			return pg.TimeMgr.GetInstance():inTime(ActivityConst.LIMIT_SKIN_SHOP_TIME)
 		end,
 		isTip = function ()
 			return getProxy(PlayerProxy):getRawData().skinTicket and slot0.skinTicket > 0
@@ -116,7 +116,7 @@ return {
 			SCENE.SKINSHOP
 		},
 		isShow = function ()
-			return pg.TimeMgr:GetInstance():inTime({
+			return pg.TimeMgr.GetInstance():inTime({
 				{
 					{
 						2019,
@@ -142,6 +142,16 @@ return {
 					}
 				}
 			})
+		end
+	},
+	{
+		banner = "summer_feast",
+		event = ActivityMediator.EVENT_GO_SCENE,
+		data = {
+			SCENE.SUMMER_FEAST
+		},
+		isShow = function ()
+			return getProxy(ActivityProxy):getActivityById(ActivityConst.SUMMER_FEAST_ID) and not slot0:isEnd()
 		end
 	}
 }

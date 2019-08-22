@@ -52,7 +52,7 @@ function slot0.didEnter(slot0)
 	end, SOUND_BACK)
 	onButton(slot0, slot0.searchBtn, function ()
 		if wordVer(slot0) > 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("playerinfo_mask_word"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("playerinfo_mask_word"))
 
 			return
 		end
@@ -213,7 +213,7 @@ function slot0.onInitItem(slot0, slot1)
 
 	onButton(slot0, slot0.items[slot1].applyBtn, function ()
 		if slot0.playerVO:inGuildCDTime() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_leave_cd_time"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_leave_cd_time"))
 
 			return
 		end

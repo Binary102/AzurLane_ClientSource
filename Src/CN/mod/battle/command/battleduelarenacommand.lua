@@ -212,7 +212,7 @@ function slot3.onPlayerShutDown(slot0, slot1)
 			slot11:AddBuff(slot0.Battle.BattleBuffUnit.New(slot0.Battle.BattleConfig.DUEL_MAIN_RAGE_BUFF))
 		end
 
-		pg.TipsMgr:GetInstance():ShowTips(i18n("battle_duel_main_rage"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("battle_duel_main_rage"))
 	end
 end
 

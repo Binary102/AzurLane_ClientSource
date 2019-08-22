@@ -28,7 +28,7 @@ function slot0.Entrance(slot0, slot1)
 	slot18 = slot2:getData()
 
 	if slot5 and slot18.oil < slot10 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
 
 		return
 	end

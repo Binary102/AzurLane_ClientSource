@@ -9559,6 +9559,17 @@ pg.memory_template = {
 		icon = "memory_salatuojiahaibao",
 		is_open = 0
 	},
+	[889] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "准备夏日祭典吧！",
+		condition = "开始活动「夏日祭」",
+		story = "TIANHOUYUYI1",
+		id = 889,
+		icon = "memory_tianhouyuyi",
+		is_open = 0
+	},
 	[10011] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -11056,6 +11067,7 @@ pg.memory_template = {
 		886,
 		887,
 		888,
+		889,
 		10011,
 		10012,
 		10013,

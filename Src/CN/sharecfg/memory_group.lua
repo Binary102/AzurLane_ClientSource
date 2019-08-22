@@ -1168,6 +1168,15 @@ pg.memory_group = {
 			888
 		}
 	},
+	[165] = {
+		title = "大家的夏日祭",
+		type = 2,
+		id = 165,
+		icon = "title_event",
+		memories = {
+			889
+		}
+	},
 	[501] = {
 		title = "{namecode:98}的委托",
 		type = 3,
@@ -1897,6 +1906,7 @@ pg.memory_group = {
 		162,
 		163,
 		164,
+		165,
 		501,
 		502,
 		503,

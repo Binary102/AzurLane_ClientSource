@@ -50,7 +50,7 @@ function slot0.execute(slot0, slot1)
 				})
 			end
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("sham_op_error", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("sham_op_error", slot0.result))
 
 			if pg.TipsMgr.GetInstance().ShowTips.type ~= ChapterConst.OpRequest and slot1.type ~= ChapterConst.OpRetreat then
 				slot0:sendNotification(GAME.SHAM_OP, {
@@ -80,13 +80,13 @@ function slot0.doStrategy(slot0)
 			end
 		end
 
-		pg.TipsMgr:GetInstance():ShowTips(i18n("chapter_tip_change", slot5.name))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("chapter_tip_change", slot5.name))
 	elseif slot5.type == ChapterConst.StgTypeConsume then
 		slot6, slot7, slot8 = slot4:getStgConsume(slot5.id)
 
 		if slot6 then
 			slot3:updateShipStg(slot6, slot5.id, slot8 + 1)
-			pg.TipsMgr:GetInstance():ShowTips(i18n("chapter_tip_use", slot5.name))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("chapter_tip_use", slot5.name))
 		end
 	end
 

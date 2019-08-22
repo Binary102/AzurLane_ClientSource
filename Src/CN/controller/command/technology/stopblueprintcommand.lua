@@ -24,7 +24,7 @@ class("StopBluePrintCommand", pm.SimpleCommand).execute = function (slot0, slot1
 				slot3()
 			end
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("technology_stop_erro") .. slot0.result)
+			pg.TipsMgr.GetInstance():ShowTips(i18n("technology_stop_erro") .. slot0.result)
 		end
 	end)
 end

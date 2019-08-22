@@ -4,13 +4,13 @@ class("TakeAllAttachmentCommand", pm.SimpleCommand).execute = function (slot0, s
 	slot8 = getConfigFromLevel1(pg.user_level, getProxy(PlayerProxy).getData(slot2).level)
 
 	if getProxy(MailProxy).getAttatchmentsCount(slot9, DROP_TYPE_RESOURCE, 1) > 0 and slot3:GoldMax(slot10) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_mail"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_mail"))
 
 		return
 	end
 
 	if slot9:getAttatchmentsCount(DROP_TYPE_RESOURCE, 2) > 0 and slot3:OilMax(slot11) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_mail"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_mail"))
 
 		return
 	end

@@ -21,7 +21,7 @@ class("FinishBluePrintCommand", pm.SimpleCommand).execute = function (slot0, slo
 				ship = slot1
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("printblue_build_erro") .. slot0.result)
+			pg.TipsMgr.GetInstance():ShowTips(i18n("printblue_build_erro") .. slot0.result)
 		end
 	end)
 end

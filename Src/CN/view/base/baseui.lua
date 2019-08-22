@@ -45,7 +45,7 @@ function slot0.preload(slot0, slot1)
 end
 
 function slot0.loadUISync(slot0, slot1)
-	LoadAndInstantiateSync("UI", slot1, true, false).transform:SetParent(pg.UIMgr:GetInstance().UIMain.transform, false)
+	LoadAndInstantiateSync("UI", slot1, true, false).transform:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
 
 	return LoadAndInstantiateSync("UI", slot1, true, false)
 end
@@ -72,7 +72,7 @@ function slot0.load(slot0)
 			playBGM(slot0)
 		end
 
-		slot0.transform:SetParent(pg.UIMgr:GetInstance().UIMain.transform, false)
+		slot0.transform:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
 		slot0:SetActive(true)
 		slot0.SetActive:onUILoaded(slot0)
 	end)
@@ -119,7 +119,7 @@ function slot0.onUILoaded(slot0, slot1)
 		slot0:addToLayerMgr()
 	end
 
-	pg.SeriesGuideMgr:GetInstance():dispatch({
+	pg.SeriesGuideMgr.GetInstance():dispatch({
 		view = slot0.__cname
 	})
 
@@ -184,13 +184,13 @@ function slot0.enter(slot0)
 		slot0.emit:didEnter()
 		slot0.emit.didEnter:emit(slot1.AVALIBLE)
 		slot0.emit.didEnter.emit:onUIAnimEnd(function ()
-			pg.SeriesGuideMgr:GetInstance():start({
+			pg.SeriesGuideMgr.GetInstance():start({
 				view = slot0.__cname,
 				code = {
 					pg.SeriesGuideMgr.CODES.MAINUI
 				}
 			})
-			pg.GuideMgr:GetInstance():onSceneAnimDone({
+			pg.GuideMgr.GetInstance():onSceneAnimDone({
 				view = slot0.__cname
 			})
 		end)
@@ -225,12 +225,12 @@ function slot0.prepareAnimtion(slot0)
 		slot3 = slot0.animTF:Find("adapt/left_length")
 
 		if slot0.animTF:Find("adapt/top") and slot2 then
-			setAnchoredPosition(slot1, Vector3(slot1.anchoredPosition.x, 180, 0))
-			setAnchoredPosition(slot2, Vector3(slot2.anchoredPosition.x, 180, 0))
+			setAnchoredPosition(slot1, Vector2(slot1.anchoredPosition.x, 180))
+			setAnchoredPosition(slot2, Vector2(slot2.anchoredPosition.x, 180))
 		end
 
 		if slot3 then
-			setAnchoredPosition(slot3, Vector3(-180, slot3.anchoredPosition.y, 0))
+			setAnchoredPosition(slot3, Vector2(-180, slot3.anchoredPosition.y))
 		end
 	end
 end
@@ -259,7 +259,7 @@ function slot0.exit(slot0)
 	function slot1()
 		slot0:willExit()
 		slot0.willExit:detach()
-		pg.GuideMgr:GetInstance():onSceneExit({
+		pg.GuideMgr.GetInstance():onSceneExit({
 			view = slot0.__cname
 		})
 		pg.GuideMgr.GetInstance().onSceneExit:emit(slot1.DID_EXIT)

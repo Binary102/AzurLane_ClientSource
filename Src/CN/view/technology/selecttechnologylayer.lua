@@ -13,7 +13,7 @@ function slot0.setPlayer(slot0, slot1)
 end
 
 function slot0.init(slot0)
-	pg.UIMgr:GetInstance():OverlayPanel(slot0._tf, {
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 		weight = LayerWeightConst.LOWER_LAYER
 	})
 
@@ -64,7 +64,7 @@ function slot0.didEnter(slot0)
 		slot0:emit(slot1.ON_BACK)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.helpBtn, function ()
-		if pg.gametip[(pg.SystemOpenMgr:GetInstance():isOpenSystem(slot0.playerVO.level, "ShipBluePrintMediator") and "help_technolog") or "help_technolog0"] then
+		if pg.gametip[(pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.playerVO.level, "ShipBluePrintMediator") and "help_technolog") or "help_technolog0"] then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_HELP,
 				helps = pg.gametip[slot1].tip,
@@ -75,7 +75,7 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.checkSystemOpen(slot0, slot1, slot2)
-	slot3 = pg.SystemOpenMgr:GetInstance():isOpenSystem(slot0.playerVO.level, slot1)
+	slot3 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.playerVO.level, slot1)
 
 	setActive(slot0:findTF("word", slot2), slot3)
 	setGray(slot2, not slot3)

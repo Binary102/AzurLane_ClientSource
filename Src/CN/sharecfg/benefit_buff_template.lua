@@ -44,11 +44,44 @@ pg.benefit_buff_template = {
 			30
 		}
 	},
+	[10] = {
+		max_time = 86400,
+		name = "学业",
+		icon = "Props/buff_minigame_10",
+		benefit_effect = "300",
+		id = 10,
+		benefit_condition = "",
+		benefit_type = "skill_learncost_up",
+		desc = "战术学院技能学习时间略微减少\n剩余时间:$1"
+	},
+	[11] = {
+		max_time = 86400,
+		name = "事业",
+		icon = "Props/buff_minigame_11",
+		benefit_effect = "500",
+		id = 11,
+		benefit_condition = "",
+		benefit_type = "battle_buff",
+		desc = "主线、困难、作战档案关卡中，我方战斗内造成的伤害略微提高\n剩余时间:$1"
+	},
+	[12] = {
+		max_time = 86400,
+		name = "姻缘",
+		icon = "Props/buff_minigame_12",
+		benefit_effect = "1",
+		id = 12,
+		benefit_condition = "",
+		benefit_type = "intimacy_up_extra",
+		desc = "秘书舰好感度提高速度加快\n剩余时间:$1"
+	},
 	all = {
 		1,
 		2,
 		3,
-		4
+		4,
+		10,
+		11,
+		12
 	}
 }
 

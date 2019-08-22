@@ -228,7 +228,7 @@ function slot0.switchPage(slot0, slot1)
 	if slot1 == slot0.PAGE_PLAY and slot0.commanderVO.inBattle then
 		slot0.toggleTFs[slot0.PAGE_TALENT]:GetComponent("Toggle").isOn = true
 
-		pg.TipsMgr:GetInstance():ShowTips(i18n("commander_is_in_battle"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("commander_is_in_battle"))
 
 		return
 	end

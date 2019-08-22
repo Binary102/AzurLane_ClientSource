@@ -319,7 +319,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "这可不是现在应有的想法，我们要进攻纳尔维克，然后……",
 			typewriter = {
 				speed = 0.05,

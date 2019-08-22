@@ -1,6 +1,8 @@
 if jit then
+	jit.off()
+	jit.flush()
+
 	if jit.opt then
-		jit.opt.start(3)
 	end
 
 	print("ver" .. jit.version_num .. " jit: ", jit.status())
@@ -114,6 +116,7 @@ Profiler = UnityEngine.Profiler
 HScrollSnap = UnityEngine.UI.Extensions.HScrollSnap
 CanvasScaler = UnityEngine.UI.CanvasScaler
 SleepTimeout = UnityEngine.SleepTimeout
+GraphicRaycaster = UnityEngine.UI.GraphicRaycaster
 SocketError = System.Net.Sockets.SocketError
 GCHandle = System.Runtime.InteropServices.GCHandle
 GCHandleType = System.Runtime.InteropServices.GCHandleType

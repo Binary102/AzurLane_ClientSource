@@ -12,6 +12,8 @@ function slot0.register(slot0)
 
 			slot6:display("loaded")
 
+			slot0.shipHighestLevel = math.max(slot0.shipHighestLevel, slot6.level)
+
 			if slot6:getConfigTable() then
 				slot0.data[slot6.id] = slot6
 
@@ -63,6 +65,8 @@ function slot0.register(slot0)
 	slot0.handbookTypeAssign = {}
 
 	slot0:buildHandbookTypeAssign()
+
+	slot0.shipHighestLevel = 0
 end
 
 function slot0.buildHandbookTypeAssign(slot0)
@@ -157,6 +161,8 @@ function slot0.addShip(slot0, slot1, slot2)
 	if defaultValue(slot2, true) then
 		slot0:countShip()
 	end
+
+	slot0.shipHighestLevel = math.max(slot0.shipHighestLevel, slot1.level)
 
 	if getProxy(CollectionProxy) and not slot1:isActivityNpc() then
 		slot3:flushCollection(slot1)
@@ -289,11 +295,21 @@ function slot0.updateShip(slot0, slot1)
 		return
 	end
 
+	if slot0.shipHighestLevel < slot1.level then
+		slot0.shipHighestLevel = slot1.level
+
+		pg.TrackerMgr.GetInstance():Tracking(TRACKING_SHIP_HIGHEST_LEVEL, slot0.shipHighestLevel)
+	end
+
 	slot0.data[slot1.id] = slot1:clone()
 
 	slot0.recordShipLevelVertify(slot1)
 
-	if (slot0.data[slot1.id].getStar(slot2) < slot1:getStar() or slot2.intimacy < slot1.intimacy or slot2.level < slot1.level or (not slot2.propose and slot1.propose)) and getProxy(CollectionProxy) and not slot1:isActivityNpc() then
+	if slot0.data[slot1.id].level < slot1.level then
+		pg.TrackerMgr.GetInstance():Tracking(TRACKING_SHIP_LEVEL_UP, slot1.level - slot2.level)
+	end
+
+	if (slot2:getStar() < slot1:getStar() or slot2.intimacy < slot1.intimacy or slot2.level < slot1.level or (not slot2.propose and slot1.propose)) and getProxy(CollectionProxy) and not slot1:isActivityNpc() then
 		slot3:flushCollection(slot1)
 	end
 

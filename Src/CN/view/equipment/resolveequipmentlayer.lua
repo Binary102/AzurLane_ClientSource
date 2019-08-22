@@ -386,7 +386,7 @@ function slot0.checkDestroyGold(slot0, slot1, slot2)
 	end
 
 	if slot0.player:GoldMax(slot3) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_destroy"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_destroy"))
 
 		return false
 	end

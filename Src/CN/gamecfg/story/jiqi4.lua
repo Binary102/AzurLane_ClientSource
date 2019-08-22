@@ -138,12 +138,11 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			actor = 108010,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			dir = 1,
-			actor = 108010,
 			nameColor = "#a9f548",
+			dir = 1,
 			say = "一定是秘书舰的工作多了，疏于训练了！",
 			typewriter = {
 				speed = 0.05,

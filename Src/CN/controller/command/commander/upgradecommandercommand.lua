@@ -14,7 +14,7 @@ function slot0.execute(slot0, slot1)
 	end
 
 	if slot7:isMaxLevel() and slot8:isMaxLevel() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("commander_can_not_be_upgrade"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("commander_can_not_be_upgrade"))
 
 		return
 	end
@@ -24,7 +24,7 @@ function slot0.execute(slot0, slot1)
 	if _.any(slot4, function (slot0)
 		return table.contains(slot0, slot0)
 	end) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("commander_anyone_is_in_fleet"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("commander_anyone_is_in_fleet"))
 
 		return
 	end
@@ -34,7 +34,7 @@ function slot0.execute(slot0, slot1)
 			if _.any(_.values(slot1), function (slot0)
 				return slot0.id == slot0
 			end) then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("commander_is_in_battle"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("commander_is_in_battle"))
 
 				return
 			end
@@ -59,7 +59,7 @@ function slot0.execute(slot0, slot1)
 	slot13 = math.floor(slot13)
 
 	if getProxy(PlayerProxy).getData(slot15).gold < slot12 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_resource"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
 	end
@@ -87,7 +87,7 @@ function slot0.execute(slot0, slot1)
 				slot7:clearActivityCommanders(slot6)
 			end
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_play_erro", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_play_erro", slot0.result))
 		end
 	end)
 end

@@ -11,8 +11,8 @@ function slot0.init(slot0)
 	slot0.confirmBtnTrans = slot0:findTF("BtnPanel/ConfirmBtn")
 	slot0.cancelBtnTrans = slot0:findTF("BtnPanel/CancelBtn")
 	slot0.userAgreenTF = slot0:findTF("UserAgreement")
-	slot0.userAgreenMainTF = slot0:findTF("main", slot0.userAgreenTF)
-	slot0.closeUserAgreenTF = slot0:findTF("top/btnBack", slot0.userAgreenMainTF)
+	slot0.userAgreenMainTF = slot0:findTF("window", slot0.userAgreenTF)
+	slot0.closeUserAgreenTF = slot0:findTF("close_btn", slot0.userAgreenMainTF)
 	slot0.userRefuseConfirmTF = slot0:findTF("refuse_btn", slot0.userAgreenMainTF)
 	slot0.userAgreenConfirmTF = slot0:findTF("accept_btn", slot0.userAgreenMainTF)
 
@@ -37,7 +37,7 @@ function slot0.didEnter(slot0)
 		slot0 = pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t")
 
 		NativeGallery.SaveImageToGallery(slot0.bytes, "Camera", slot1)
-		pg.TipsMgr:GetInstance():ShowTips(i18n("word_save_ok"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("word_save_ok"))
 		slot0:closeView()
 	end)
 	onButton(slot0, slot0.cancelBtnTrans, function ()
@@ -53,11 +53,11 @@ function slot0.showUserAgreement(slot0, slot1)
 	setButtonEnabled(slot0.userAgreenConfirmTF, false)
 
 	slot2 = nil
-	slot0.userAgreenTitleTF = slot0:findTF("UserAgreement/main/title")
+	slot0.userAgreenTitleTF = slot0:findTF("UserAgreement/window/title")
 	slot0.userAgreenTitleTF:GetComponent("Text").text = i18n("word_snapshot_share_title")
 
 	setActive(slot0.userAgreenTF, true)
-	setText(slot0.userAgreenTF:Find("main/container/scrollrect/content/Text"), i18n("word_snapshot_share_agreement"))
+	setText(slot0.userAgreenTF:Find("window/container/scrollrect/content/Text"), i18n("word_snapshot_share_agreement"))
 	onButton(slot0, slot0.userRefuseConfirmTF, function ()
 		setActive(slot0.userAgreenTF, false)
 	end)
@@ -68,7 +68,7 @@ function slot0.showUserAgreement(slot0, slot1)
 			slot1()
 		end
 	end)
-	onScroll(slot0, slot0.userAgreenTF:Find("main/container/scrollrect"), function (slot0)
+	onScroll(slot0, slot0.userAgreenTF:Find("window/container/scrollrect"), function (slot0)
 		if slot0.y <= 0.01 and not slot0 then
 			slot0 = true
 

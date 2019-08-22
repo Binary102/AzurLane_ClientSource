@@ -18,9 +18,9 @@ class("ShipAddMoneyCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot4:updatePlayer(slot5)
 
 			if slot2.state_info_4 == 0 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_getResource_emptry"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_getResource_emptry"))
 			else
-				pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_shipAddMoney_ok", slot2:getName(), slot3))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_shipAddMoney_ok", slot2:getName(), slot3))
 			end
 
 			slot1:sendNotification(GAME.BACKYARD_ADD_MONEY_DONE)
@@ -37,7 +37,7 @@ class("ShipAddMoneyCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				})
 			end
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("backyard_shipAddMoney", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("backyard_shipAddMoney", slot0.result))
 		end
 	end)
 end

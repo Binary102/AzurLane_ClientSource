@@ -72,7 +72,7 @@ function ys.Battle.BattleCharacterFXContainersPool.Push(slot0, slot1)
 		slot6.transform.SetParent(slot7, slot0._templateContainerTf, false)
 
 		for slot12 = slot6.transform.childCount - 1, 0, -1 do
-			slot0:GetInstance():DestroyOb(slot7:GetChild(slot12).gameObject)
+			slot0.GetInstance():DestroyOb(slot7:GetChild(slot12).gameObject)
 		end
 	end
 

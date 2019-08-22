@@ -40,7 +40,7 @@ function slot0.loadScene(slot0, slot1, slot2, slot3)
 
 	seriesAsync({
 		function (slot0)
-			pg.UIMgr:GetInstance():LoadingOn()
+			pg.UIMgr.GetInstance():LoadingOn()
 
 			if slot0 ~= nil then
 				slot1:extendData({
@@ -99,7 +99,7 @@ function slot0.loadScene(slot0, slot1, slot2, slot3)
 				slot0()
 			end
 
-			pg.UIMgr:GetInstance():LoadingOff()
+			pg.UIMgr.GetInstance():LoadingOff()
 			pg.UIMgr.GetInstance():sendNotification(GAME.LOAD_SCENE_DONE, slot2.scene)
 		end
 	})
@@ -111,7 +111,7 @@ function slot0.loadLayer(slot0, slot1, slot2, slot3)
 
 	seriesAsync({
 		function (slot0)
-			pg.UIMgr:GetInstance():LoadingOn()
+			pg.UIMgr.GetInstance():LoadingOn()
 			slot0:prepareLayer(slot1.facade, slot0, , function (slot0)
 				for slot4, slot5 in ipairs(slot0) do
 					table.insert(slot0, slot5)
@@ -128,7 +128,7 @@ function slot0.loadLayer(slot0, slot1, slot2, slot3)
 				slot0()
 			end
 
-			pg.UIMgr:GetInstance():LoadingOff()
+			pg.UIMgr.GetInstance():LoadingOff()
 		end
 	})
 end

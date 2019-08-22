@@ -20,7 +20,7 @@ class("AddShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot1 = getProxy(BayProxy)
 
 			if slot0 == BackYardShipInfoLayer.SHIP_TRAIN_TYPE then
-				slot1.state_info_1 = pg.TimeMgr:GetInstance():GetServerTime()
+				slot1.state_info_1 = pg.TimeMgr.GetInstance():GetServerTime()
 				slot1.state_info_2 = slot1:getTotalExp()
 
 				slot1:updateState(Ship.STATE_TRAIN)
@@ -40,7 +40,7 @@ class("AddShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				type = slot0
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("backyard_addShip", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("backyard_addShip", slot0.result))
 		end
 
 		if slot6 then

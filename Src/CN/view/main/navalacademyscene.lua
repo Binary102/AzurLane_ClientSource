@@ -91,10 +91,10 @@ function slot0.didEnter(slot0)
 	setText(slot0._shop:Find("title/name/Text"), i18n("school_title_xiaomaibu"))
 	setText(slot0._canteen:Find("title/name/Text"), i18n("school_title_shitang"))
 	onButton(slot0, slot0._classBtn, function ()
-		slot0, slot1 = pg.SystemOpenMgr:GetInstance():isOpenSystem(slot0._player.level, "ClassMediator")
+		slot0, slot1 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0._player.level, "ClassMediator")
 
 		if not slot0 then
-			pg.TipsMgr:GetInstance():ShowTips(slot1)
+			pg.TipsMgr.GetInstance():ShowTips(slot1)
 
 			return
 		end
@@ -109,14 +109,14 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0._getGold, function ()
 		if slot0._player.goldField <= 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("battle_levelScene_0Gold"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_0Gold"))
 		else
 			slot0:emit(NavalAcademyMediator.GET_RES, ResourceField.TYPE_GOLD)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0._getOil, function ()
 		if slot0._player.oilField <= 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("battle_levelScene_0Oil"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_0Oil"))
 		else
 			slot0:emit(NavalAcademyMediator.GET_RES, ResourceField.TYPE_OIL)
 		end
@@ -144,7 +144,7 @@ function slot0.didEnter(slot0)
 
 	if slot0._currentCourseID ~= nil then
 		if slot0._startCourseFlag then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("main_navalAcademyScene_quest_startClass"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("main_navalAcademyScene_quest_startClass"))
 		end
 
 		triggerToggle(slot0._toggleList[slot0._currentCourseID], true)
@@ -209,7 +209,7 @@ function slot0.updateMap(slot0)
 end
 
 function slot0.updateResourceBuilding(slot0, slot1, slot2, slot3)
-	pg.TimeMgr:GetInstance():RemoveTimer(slot0._buildingTimers[slot3])
+	pg.TimeMgr.GetInstance():RemoveTimer(slot0._buildingTimers[slot3])
 
 	if slot2 then
 		SetActive(slot1:Find("popup_contain/popup"), slot2 > 0)
@@ -238,11 +238,11 @@ function slot0.updateResourceBuilding(slot0, slot1, slot2, slot3)
 		SetActive(slot5, true)
 
 		slot6 = slot5:Find("Text"):GetComponent(typeof(Text))
-		slot0._buildingTimers[slot3] = pg.TimeMgr:GetInstance():AddTimer("timer", 0, 1, function ()
+		slot0._buildingTimers[slot3] = pg.TimeMgr.GetInstance():AddTimer("timer", 0, 1, function ()
 			if slot0:GetDuration() and slot0 > 0 then
 				slot1.text = pg.TimeMgr.GetInstance():DescCDTime(slot0)
 			else
-				pg.TimeMgr:GetInstance():RemoveTimer(slot2._buildingTimers[slot0])
+				pg.TimeMgr.GetInstance():RemoveTimer(slot2._buildingTimers[slot0])
 				pg.TimeMgr.GetInstance():emit(NavalAcademyMediator.UPGRADE_TIMES_UP)
 			end
 		end)
@@ -314,7 +314,7 @@ function slot0.OpenResourcePanel(slot0, slot1)
 			SetActive(slot3, false)
 
 			slot3:GetComponent("Button").interactable = false
-			slot0._panelTimer[#slot0._panelTimer + 1] = pg.TimeMgr:GetInstance():AddTimer("timer", 0, 1, function ()
+			slot0._panelTimer[#slot0._panelTimer + 1] = pg.TimeMgr.GetInstance():AddTimer("timer", 0, 1, function ()
 				if slot0:GetDuration() and slot0 > 0 then
 					slot1.text = pg.TimeMgr.GetInstance():DescCDTime(slot0)
 				else
@@ -401,7 +401,7 @@ function slot0.openSecondPanel(slot0)
 	slot0.isOpenSecondPanel = true
 
 	for slot4, slot5 in ipairs(slot0._panelTimer) do
-		pg.TimeMgr:GetInstance():RemoveTimer(slot5)
+		pg.TimeMgr.GetInstance():RemoveTimer(slot5)
 	end
 
 	slot0._panelTimer = {}
@@ -417,7 +417,7 @@ function slot0.closeSecondPanel(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._blurLayer, slot0._tf)
 
 	for slot4, slot5 in ipairs(slot0._panelTimer) do
-		pg.TimeMgr:GetInstance():RemoveTimer(slot5)
+		pg.TimeMgr.GetInstance():RemoveTimer(slot5)
 	end
 
 	slot0._panelTimer = {}
@@ -805,11 +805,11 @@ function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._blurLayer, slot0._tf)
 
 	for slot4, slot5 in ipairs(slot0._panelTimer) do
-		pg.TimeMgr:GetInstance():RemoveTimer(slot5)
+		pg.TimeMgr.GetInstance():RemoveTimer(slot5)
 	end
 
 	for slot4, slot5 in pairs(slot0._buildingTimers) do
-		pg.TimeMgr:GetInstance():RemoveTimer(slot5)
+		pg.TimeMgr.GetInstance():RemoveTimer(slot5)
 	end
 
 	if slot0._chatTimer then

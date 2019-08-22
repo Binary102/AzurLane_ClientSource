@@ -1,6 +1,6 @@
 class("VisitBackYardCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	if not getProxy(FriendProxy):getFriend(slot1:getBody()) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("friend_not_add"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("friend_not_add"))
 
 		return
 	end
@@ -29,7 +29,7 @@ class("VisitBackYardCommand", pm.SimpleCommand).execute = function (slot0, slot1
 		})
 
 		if not getProxy(DormProxy).friendData then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("data_erro"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("data_erro"))
 		else
 			slot0:sendNotification(GAME.VISIT_BACKYARD_DONE, {
 				ships = slot1,

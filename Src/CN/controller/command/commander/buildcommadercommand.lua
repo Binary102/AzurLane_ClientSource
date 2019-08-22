@@ -7,12 +7,12 @@ class("BuildCommaderCommand", pm.SimpleCommand).execute = function (slot0, slot1
 	for slot14, slot15 in ipairs(slot9) do
 		if slot15[1] == DROP_TYPE_RESOURCE then
 			if slot7:getResById(slot15[2]) < slot15[3] then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_resource"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 				return
 			end
 		elseif slot15[1] == DROP_TYPE_ITEM and slot8:getItemCountById(slot15[2]) < slot15[3] then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_item_1"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
 
 			return
 		end
@@ -35,9 +35,9 @@ class("BuildCommaderCommand", pm.SimpleCommand).execute = function (slot0, slot1
 			end
 
 			slot2:sendNotification(GAME.COMMANDER_ON_BUILD_DONE)
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_build_done"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_build_done"))
 		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_build_erro", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_build_erro", slot0.result))
 		end
 
 		if slot3 then

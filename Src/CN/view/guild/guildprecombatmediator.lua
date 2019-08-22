@@ -459,9 +459,8 @@ function slot1(slot0)
 	if not slot2 then
 		slot2 = pg
 		slot2 = slot2.TipsMgr
-		slot3 = slot2
 		slot2 = slot2.GetInstance
-		slot2 = slot2(slot3)
+		slot2 = slot2()
 		slot3 = slot2
 		slot2 = slot2.ShowTips
 		slot4 = i18n
@@ -477,9 +476,8 @@ function slot1(slot0)
 		if not slot2 then
 			slot2 = pg
 			slot2 = slot2.TipsMgr
-			slot3 = slot2
 			slot2 = slot2.GetInstance
-			slot2 = slot2(slot3)
+			slot2 = slot2()
 			slot3 = slot2
 			slot2 = slot2.ShowTips
 			slot4 = i18n
@@ -1156,9 +1154,8 @@ function slot1(slot0, slot1, slot2, slot3)
 						if slot5 == 1 then
 							slot5 = pg
 							slot5 = slot5.TipsMgr
-							slot6 = slot5
 							slot5 = slot5.GetInstance
-							slot5 = slot5(slot6)
+							slot5 = slot5()
 							slot6 = slot5
 							slot5 = slot5.ShowTips
 							slot7 = i18n

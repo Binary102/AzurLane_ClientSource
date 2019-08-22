@@ -47,7 +47,7 @@ class("UpdateCustomFleetCommand", pm.SimpleCommand).execute = function (slot0, s
 				slot0()
 			end
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("update_custom_fleet", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("update_custom_fleet", slot0.result))
 		end
 	end)
 end

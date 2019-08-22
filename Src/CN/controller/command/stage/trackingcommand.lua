@@ -6,7 +6,7 @@ class("TrackingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot6 = slot2.loopFlag or 0
 
 	if getProxy(ChapterProxy).getChapterById(slot7, slot3).active then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("levelScene_strategying"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_strategying"))
 
 		return
 	end
@@ -22,15 +22,15 @@ class("TrackingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	if not getProxy(PlayerProxy).getData(slot12):isEnough({
 		oil = slot8:getConfig("oil")
 	}) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_resource"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
 	end
 
 	slot14 = getProxy(DailyLevelProxy)
 
-	if slot8:getConfig("type") == Chapter.CustomFleet and not slot8:isActivity() and not slot14:IsEliteEnabled() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_elite_no_quota"))
+	if slot8:isEliteChapter() and not slot14:IsEliteEnabled() then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_elite_no_quota"))
 
 		return
 	end
@@ -114,14 +114,14 @@ class("TrackingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot5:sendNotification(GAME.TRACKING_DONE, )
 			slot5:sendNotification(ChapterProxy.CHAPTER_EXTAR_FLAG_UPDATED, slot3.extraFlagList)
 		elseif slot0.result == 1 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("levelScene_tracking_error_retry"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_tracking_error_retry"))
 			slot5:sendNotification(GAME.CHAPTER_OP, {
 				type = ChapterConst.OpRetreat
 			})
 		elseif slot0.result == 3010 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("levelScene_tracking_error_3001"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_tracking_error_3001"))
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("levelScene_tracking_erro", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("levelScene_tracking_erro", slot0.result))
 		end
 	end)
 end

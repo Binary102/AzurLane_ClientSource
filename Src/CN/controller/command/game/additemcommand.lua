@@ -106,7 +106,7 @@ class("AddItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			end_time = pg.TimeMgr.GetInstance():GetServerTime() + slot5:getConfig("time_second")
 		})
 		getProxy(AttireProxy).addAttireFrame(slot3, slot5)
-		pg.ToastMgr:GetInstance():ShowToast(pg.ToastMgr.TYPE_ATTIRE, slot5)
+		pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_ATTIRE, slot5)
 	elseif slot2.dropType == DROP_TYPE_CHAT_FRAME then
 		slot5 = ChatFrame.New({
 			id = slot2.id
@@ -117,7 +117,7 @@ class("AddItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			end_time = pg.TimeMgr.GetInstance():GetServerTime() + slot5:getConfig("time_second")
 		})
 		getProxy(AttireProxy).addAttireFrame(slot3, slot5)
-		pg.ToastMgr:GetInstance():ShowToast(pg.ToastMgr.TYPE_ATTIRE, slot5)
+		pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_ATTIRE, slot5)
 	elseif slot2.dropType == DROP_TYPE_EMOJI then
 		getProxy(EmojiProxy):addNewEmojiID(slot2.id)
 	else

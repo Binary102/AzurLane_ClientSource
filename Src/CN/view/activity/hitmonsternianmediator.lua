@@ -6,7 +6,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:setActivity(slot2)
 	slot0:bind(slot0.ON_HIT, function (slot0)
 		if not slot0 or slot0:isEnd() then
-			pg.TipsMgr:GetInstance():ShowTips("common_activity_end")
+			pg.TipsMgr.GetInstance():ShowTips("common_activity_end")
 
 			return
 		end
@@ -49,7 +49,7 @@ function slot0.handleNotification(slot0, slot1)
 			onNextTick(slot3.callback)
 		end
 	elseif slot2 == ActivityProxy.ACTIVITY_OPERATION_ERRO and getProxy(ActivityProxy):getActivityById(slot3.actId).getConfig(slot4, "type") == ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("activity_hit_monster_erro", slot3.code))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("activity_hit_monster_erro", slot3.code))
 	end
 end
 

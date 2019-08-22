@@ -1603,6 +1603,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 125,
 		nation = 4,
 		ships = {
+			40802,
 			40805,
 			40806
 		}
@@ -1616,7 +1617,8 @@ pg.fleet_tech_ship_class = {
 		nation = 4,
 		ships = {
 			40801,
-			40804
+			40804,
+			40803
 		}
 	},
 	[40803] = {

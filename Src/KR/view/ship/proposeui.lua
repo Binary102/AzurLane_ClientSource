@@ -1144,10 +1144,15 @@ function slot2(slot0)
 		slot0._delayVoiceTweenID = slot1
 	end
 
-	slot1 = LeanTween
-	slot1 = slot1.cancelAll
+	slot1 = slot0.contextData
+	slot1 = slot1.shipId
 
-	slot1()
+	if not slot1 then
+		slot1 = LeanTween
+		slot1 = slot1.cancelAll
+
+		slot1()
+	end
 
 	slot1 = pg
 	slot1 = slot1.CriMgr

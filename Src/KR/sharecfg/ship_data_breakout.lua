@@ -17670,6 +17670,128 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[408021] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 40802,
+		breakout_id = 408022,
+		breakout_view = "스킬 습득 - 특수 탄막 I / 어뢰 효율 +5%",
+		id = 408021,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			79311
+		}
+	},
+	[408022] = {
+		use_gold = 3000,
+		pre_id = 408021,
+		use_char_num = 1,
+		use_char = 40802,
+		breakout_id = 408023,
+		breakout_view = "어뢰 장전 수 +1 / 지원 범위 확대",
+		id = 408022,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			140,
+			140,
+			140,
+			140
+		}
+	},
+	[408023] = {
+		use_gold = 10000,
+		pre_id = 408022,
+		use_char_num = 2,
+		use_char = 40802,
+		breakout_id = 408024,
+		breakout_view = "특수 탄막 강화 / 어뢰 탑재량 +1 / 어뢰 효율 +10%",
+		id = 408023,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			79312
+		}
+	},
+	[408024] = {
+		use_gold = 0,
+		pre_id = 408023,
+		use_char_num = 0,
+		use_char = 40802,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 408024,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[408031] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 40803,
+		breakout_id = 408032,
+		breakout_view = "스킬 습득 - 전탄 발사 I / 어뢰 효율 +5%",
+		id = 408031,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			73311
+		}
+	},
+	[408032] = {
+		use_gold = 1500,
+		pre_id = 408031,
+		use_char_num = 1,
+		use_char = 40803,
+		breakout_id = 408033,
+		breakout_view = "어뢰 장전 수 +1 / 지원 범위 확대",
+		id = 408032,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			140,
+			140,
+			140,
+			140
+		}
+	},
+	[408033] = {
+		use_gold = 2500,
+		pre_id = 408032,
+		use_char_num = 2,
+		use_char = 40803,
+		breakout_id = 408034,
+		breakout_view = "전탄 발사 스킬 강화 / 어뢰 효율 +10%",
+		id = 408033,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			73312
+		}
+	},
+	[408034] = {
+		use_gold = 0,
+		pre_id = 408033,
+		use_char_num = 0,
+		use_char = 40803,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 408034,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[408041] = {
 		use_gold = 500,
 		pre_id = 0,
@@ -21842,6 +21964,14 @@ pg.ship_data_breakout = {
 		408012,
 		408013,
 		408014,
+		408021,
+		408022,
+		408023,
+		408024,
+		408031,
+		408032,
+		408033,
+		408034,
 		408041,
 		408042,
 		408043,

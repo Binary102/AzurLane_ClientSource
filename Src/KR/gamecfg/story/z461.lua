@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"纯白之诗\n\n<size=45>一 初诞</size>",
+					"순백의 시\n\n<size=45>1. 탄생</size>",
 					1
 				}
 			}
@@ -20,11 +20,11 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"我的颜色是…透明（Klarheit）。",
+					"나의 색은… 투명(Klarheit)",
 					1
 				},
 				{
-					"生于虚无，被唤醒的钢铁之虚像。",
+					"무에서 태어나 깨어난 강철의 허상.",
 					3
 				},
 				{
@@ -32,17 +32,17 @@ return {
 					4
 				},
 				{
-					"为守护文明的灯火而建，",
+					"문명의 등불을 지키기 위해 만들어졌고,",
 					6
 				},
 				{
-					"为妥善使用力量生于此世。",
+					"올바른 곳에 힘을 사용하도록 태어났다.",
 					8
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "항구-지휘실",
 			bgName = "bg_story_task",
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -74,7 +74,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "经过应当是与我同样之存在的同型舰的介绍，我正向面前这位“指挥官”做着就任的自我介绍——",
+			say = "나와 같은 존재일 동형함의 소개로, 나는 나의 앞에 서있는 '지휘관'에게 자기 소개를 했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,33 +86,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "根据从过去获得的常理知识，将最适合的答案借由发声器官吟咏而出。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 401460,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "是你在召唤我吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			bgName = "bg_story_task",
-			say = "个体名称识别、阶级确认。与方才介绍来的信息核对后确定一致。",
+			say = "과거로부터 얻은 상식에 근거하여, 나는 가장 적합한 답안을 발성기관을 통해서 내놓았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +100,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "我是……",
+			say = "나를 부른 것이 당신인가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,19 +112,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "——这才意识到，我并没有可以说出口的名字。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			bgName = "bg_story_task",
-			say = "方才热心地向我介绍的铁血女孩，似乎是叫做Z35吧……",
+			say = "개체명 식별, 등급 확인. 방금 소개한 정보와 완벽하게 일치한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +126,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "很可惜，现在我还没有名字，你就暂时叫我Z46吧。",
+			say = "나는......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +138,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "“名字象征着自身的存在”…若是如此，虽说是急中生智，这么轻易地定义自己似乎是步坏棋…",
+			say = "——그제서야 깨달았다. 나는 내놓을 이름이 없다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,45 +150,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "突然对这临时起意而生的名字是否合适感到一阵不安…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 401460,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "如何？对这个名字可有不满？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			bgName = "bg_story_task",
-			say = "……居然轻易就接受了",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			bgName = "bg_story_task",
-			say = "这身体本就是被赐予的存在，只需听从命令即可。既然如此——",
+			say = "방금 나에게 열심히 자기 소개를 한 메탈 블러드의 함선, 아마도 Z35였던가.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +164,31 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "直到寻找到真正的名字为止，Z46这个名字就是维系你我的丝线。",
+			say = "아쉽게도 지금은 이름이 없다. 임시로 Z46이라고 불러줘.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			bgName = "bg_story_task",
+			say = "\"이름은 존재를 나타난다\"… 그렇다면, 아무리 다급한 중에 떠올렸다지만 이렇게 쉽게 자신의 존재를 정의하는 것은 좋지 않은 수일지도 모른다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			bgName = "bg_story_task",
+			say = "임시로 지은 이름이 알맞은 것인지에 대해 갑자기 불안감이 든다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +202,59 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "我的主人啊，请你牵引这丝线，指引我前进的方向吧！",
+			say = "어떤가? 이 이름이 마음에 들지 않는가?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			bgName = "bg_story_task",
+			say = "......뜻밖에도 쉽게 받아들여졌다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			bgName = "bg_story_task",
+			say = "어차피 부여받은 몸, 명령을 이행하기만 하면 된다. 기왕이면......",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 401460,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "진짜 이름을 찾기 전까지, Z46이라는 이름이 그대와 나를 이어줄 것이다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 401460,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "주인이여. 이 인연으로 내가 나아갈 길을 알려줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 		{
 			bgName = "bg_story_task",
 			blackBg = true,
-			say = "至少在你以这个名字呼唤我的时候，让透明的我看到世界的色彩吧。",
+			say = "적어도 그대가 나를 이 이름으로 부르는 동안 만이라도 투명한 나에게 세상의 색깔을 보여주길 바라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

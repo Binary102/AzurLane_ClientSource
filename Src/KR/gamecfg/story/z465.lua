@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"纯白之诗\n\n<size=45>五 幕间II</size>",
+					"순백의 시\n\n<size=45>5. 막간II</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·学院",
+			say = "항구-학원",
 			bgName = "bg_story_school",
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "这香肠比以往更美味了。",
+			say = "이 소시지, 이전보다 훨씬 맛있군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "来到港区以后，齐柏林的酸菜腌制手艺也越来越好了。",
+			say = "항구에 온 이후, 체펠린의 사워크라우트 만드는 솜씨가 더 좋아졌군.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -85,7 +85,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "我们单是要让自己的舰装听话就要费不少力。与其他阵营共存的话更需多加留心。要多谢46你的协助。",
+			say = "자신의 장비를 갖추는 일만으로도 힘이 많이 들지. 다른 진영과 함께 공존하는 것도 신경쓸 일이 많고. 너의 노고에 감사하고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "没关系。齐柏林是我重要的朋友，出手帮你乃是理所当然。",
+			say = "괜찮다. 체펠린은 나의 중요한 친구니, 돕는 것은 당연한 일이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "朋友…吗…呵呵，从没想过会被驱逐舰当做朋友，但是Z46的话…很不可思议的觉得没什么违和感呢",
+			say = "친구...인가. 하하, 구축함과 친구가 될 거란 생각은 해본 적이 없지만 Z46이라면... 이상하게도 위화감이 느껴지지 않는군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "另外，我并没有做任何值得感谢的事。同为铁血舰，相互照应是理所当然",
+			say = "그리고 나는 감사받을만한 일은 하지 않았다. 같은 메탈 블러드의 함선으로서 해야할 일을 했을 뿐이지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "既然如此，我也给你一个建议吧。46，你这个说话口气能否改一改？",
+			say = "그렇다면 한가지 건의를 하지. 46, 말투를 조금 바꿀 생각은 없나?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "齐柏林也没资格说我吧。不过，为何要改口气？",
+			say = "체펠린이 할 말은 아닌 것 같은데. 하지만, 왜 바꿔야 하지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "你不是因为难以融入驱逐舰的氛围而烦恼着吗。那么不妨试着学一学？",
+			say = "구축함들 사이에 녹아들기 어려운 문제로 고민하고 있는 것이 아닌가? 그렇다면 한번 배워보는 것은 어떤가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "……和她们一样的说话方式。",
+			say = "......그녀들과 같은 말투라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "…………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "Z46？",
+			say = "Z46?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "我、试试看……好了。",
+			say = "한, 한번 해보도록 하지......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "呵。继续努力吧。我会支持你的。",
+			say = "아, 힘내라. 응원하겠다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "……嗯……下次我们还、交换便当……吧？",
+			say = "......그래. 다음 번에도......같이 도, 도시락 먹......자?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "嗯。当然了。",
+			say = "그래. 알겠다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 		{
 			bgName = "bg_story_school",
 			blackBg = true,
-			say = "我挖了一勺齐柏林做的便当——酸菜焗饭，送进了嘴里。",
+			say = "나는 체펠린의 도시락인 사워크라우트 파엘라를 한 스푼 떠서 입에 넣었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

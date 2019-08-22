@@ -131,61 +131,7 @@ function slot0.finishStroy(slot0, slot1)
 end
 
 function slot0.tryPlayStroy(slot0)
-	seriesAsync({
-		function (slot0)
-			if pg.StoryMgr.GetInstance():IsPlayed("ZHIHUIMIAO2") then
-				slot0()
-			else
-				pg.StoryMgr.GetInstance():Play("ZHIHUIMIAO2", slot0, true, true)
-			end
-		end,
-		function (slot0)
-			if not pg.GuideMgr.GetInstance():isPlayed("NG006") and table.getCount(getProxy(CommanderProxy):getData()) >= 1 then
-				slot0:finishStroy("NG006")
-				slot0()
-			else
-				pg.StoryMgr.GetInstance():PlayGuide("NG006", {}, slot0)
-			end
-		end,
-		function (slot0)
-			if not pg.GuideMgr.GetInstance():isPlayed("NG007") and getProxy(BagProxy):getItemCountById(20012) ~= 1 then
-				slot0:finishStroy("NG007")
-				slot0()
-			else
-				pg.StoryMgr.GetInstance():PlayGuide("NG007", {}, slot0)
-			end
-		end,
-		function (slot0)
-			if pg.StoryMgr.GetInstance():IsPlayed("ZHIHUIMIAO3") then
-				slot0()
-			else
-				pg.StoryMgr.GetInstance():Play("ZHIHUIMIAO3", slot0, true, true)
-			end
-		end,
-		function (slot0)
-			if not pg.GuideMgr.GetInstance():isPlayed("NG008") and slot0.boxes[1]:getState() ~= CommanderBox.STATE_FINISHED then
-				slot0:finishStroy("NG008")
-				slot0()
-			else
-				pg.StoryMgr.GetInstance():PlayGuide("NG008", {}, slot0)
-			end
-		end,
-		function (slot0)
-			if pg.StoryMgr.GetInstance():IsPlayed("ZHIHUIMIAO4") then
-				slot0()
-			else
-				pg.StoryMgr.GetInstance():Play("ZHIHUIMIAO4", slot0, true, true)
-			end
-		end,
-		function (slot0)
-			if not pg.GuideMgr.GetInstance():isPlayed("NG009") and table.getCount(getProxy(CommanderProxy):getData()) ~= 1 then
-				slot0:finishStroy("NG009")
-				slot0()
-			else
-				pg.StoryMgr.GetInstance():PlayGuide("NG009", {}, slot0)
-			end
-		end
-	})
+	pg.SystemGuideMgr.GetInstance():PlayCommander()
 end
 
 function slot0.updateRes(slot0)

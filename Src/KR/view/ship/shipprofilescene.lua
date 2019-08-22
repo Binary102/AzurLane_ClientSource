@@ -794,7 +794,10 @@ function slot0.shiftSkin(slot0, slot1)
 	slot0:switchVoiceList(false)
 	slot0:loadModel()
 	slot0:shiftPainting()
-	slot0:loadSkinBg((slot0.currentSkin.bg and #slot0.currentSkin.bg > 0 and slot0.currentSkin.bg) or shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), slot0.currentSkin.id, slot0.shipGroup:isBluePrintGroup()))
+
+	slot3 = nil
+
+	slot0:loadSkinBg((not slot0.currentSkin.bg_sp or slot0.currentSkin.bg_sp == "" or PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot0.currentSkin.painting, 0) ~= 0 or slot0.currentSkin.bg_sp) and ((slot0.currentSkin.bg and #slot0.currentSkin.bg > 0 and slot0.currentSkin.bg) or shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), slot0.currentSkin.id, slot0.shipGroup:isBluePrintGroup())))
 	slot0:switchLive2d(false)
 end
 

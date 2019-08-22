@@ -1,6 +1,12 @@
 class("LogoutCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot2 = slot1:getBody()
 
+	if PLATFORM_CHT == PLATFORM_CODE and slot2.code ~= SDK_EXIT_CODE then
+		pg.SdkMgr.GetInstance():LogoutSDK()
+
+		return
+	end
+
 	pg.TrackerMgr.GetInstance():Tracking(TRACKING_ROLE_LOGOUT)
 
 	if ys.Battle.BattleState.GetInstance().GetState(slot3) ~= ys.Battle.BattleState.BATTLE_STATE_IDLE then
@@ -89,6 +95,8 @@ class("LogoutCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot0.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade:removeProxy(AttireProxy.__cname)
 			slot0.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade:removeProxy(ShipSkinProxy.__cname)
 			slot0.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade:removeProxy(PrayProxy.__cname)
+			slot0.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade:removeProxy(SecondaryPWDProxy.__cname)
+			slot0.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade.removeProxy.facade:removeProxy(SkirmishProxy.__cname)
 		end
 	})
 

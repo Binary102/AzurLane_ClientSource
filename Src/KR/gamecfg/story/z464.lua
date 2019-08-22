@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"纯白之诗\n\n<size=45>四 思考</size>",
+					"순백의 시\n\n<size=45>4. 사고</size>",
 					1
 				}
 			}
@@ -20,25 +20,25 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"我的颜色是…混色（Mischfarbe）。",
+					"나의 색은... 혼합색(Mischfarbe).",
 					1
 				},
 				{
-					"思绪交织，透过名为社会的镜头反射出的精彩倒影。",
+					"뒤엉킨 생각이 사회라는 렌즈를 통해 반사되는 그림자.",
 					3
 				},
 				{
-					"现今我正拿着指挥官交付的某样东西，",
+					"지금 나는 지휘관이 넘겨준 어떤 물건을 들고 있다. ",
 					5
 				},
 				{
-					"任务是去码头把它交到冰一般的她手上。",
+					"임무는 이것을 부두에 있는 얼음같은 그녀에게 넘겨주는 것이다.",
 					7
 				}
 			}
 		},
 		{
-			say = "港区·码头",
+			say = "항구-부두",
 			bgName = "bg_story_outdoor",
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -72,7 +72,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "提尔比茨，我来给你送指挥官给的东西。",
+			say = "티르피츠, 지휘관이 주는 물건을 건네주러 왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "Z46？谢谢，我收下了。",
+			say = "Z46? 고마워. 잘 받았어.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -102,7 +102,7 @@ return {
 		},
 		{
 			bgName = "bg_story_outdoor",
-			say = "我将小包递给冰一般的她——被称为“北方的孤独女王”的战舰，提尔比茨。",
+			say = "나는 작은 가방을 얼음 같은 그녀——'북해의 고독한 여왕'이라 불리는 티르피츠에게 건네주었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "46你还在执行秘书舰任务吧？接下来有什么预定吗？",
+			say = "아직까지 비서함 업무 중인가? 앞으로의 예정은?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			say = "并无其他预定，准备回自己的房间了。",
+			say = "딱히 예정은 없다. 방에 돌아가려고 해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "是吗？那你陪我聊一会儿吧。感觉还是46好说话呢。",
+			say = "그런가? 그러면 이야기라도 나누지. 46과는 말이 잘 통하니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			say = "没问题。不过我不会说话，大概只能听听，你不介意的话就好",
+			say = "알겠다. 나는 이야기를 잘 하지 않고 듣기만 하니 개의치 않는다면 그러도록 하지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "当然没关系。就当我在自言自语也好",
+			say = "문제없다. 혼잣말을 하는 것이라 생각하면 되니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 		},
 		{
 			bgName = "bg_story_outdoor",
-			say = "谈话内容非常有趣。与其他阵营的交流、那些未完成舰如今的样子，还有因为战舰们的集会而焦头烂额的提尔比茨自己——",
+			say = "대화 내용은 재미있었다. 다른 진영과의 교류, 미완성된 전함의 현재 모습들, 그리고 전함들이 모임으로서 골머리를 앓는 티르피츠 자신——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 		},
 		{
 			bgName = "bg_story_outdoor",
-			say = "谈话内容非常令人叹息……过去铁血的最后一刻，出现在镜面海域的“另一个自己”，投身于永无止境的战争的伙伴们的、无法确知的未来——",
+			say = "대화의 내용은 탄식이 나오는 것이었다. 과거 메탈 블러드의 마지막 순간, 거울 해역 저편에 등장한 '또 다른 나', 끝없는 전쟁에 뛰어든 동료들. 확실하지 않은 미래——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 		},
 		{
 			bgName = "bg_story_outdoor",
-			say = "时不时随声附和，迎合她的视线，用寥寥数语表示同感。",
+			say = "때때로 맞장구를 쳐 주면서 그녀와 눈을 마주치고 몇 마디 말로 공감을 표시했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "46将来想做什么？",
+			say = "46은 앞으로 뭘 하고 싶지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			say = "我？我想…………",
+			say = "나? 나는......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 		},
 		{
 			bgName = "bg_story_outdoor",
-			say = "突如其来的问题。长久的沉默。",
+			say = "갑자기 건네진 질문에 긴 침묵이 맴돌았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 		{
 			bgName = "bg_story_outdoor",
 			blackBg = true,
-			say = "我——是什么颜色？",
+			say = "나......는 무슨 색이지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

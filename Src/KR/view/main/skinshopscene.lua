@@ -207,6 +207,11 @@ function slot0.init(slot0)
 
 	Input.multiTouchEnabled = false
 	slot0.viewMode = slot0.contextData.type or slot0.SHOP_TYPE_COMMON
+	slot0.hideObjToggleTF = slot0:findTF("hideObjToggle", slot0.rightPanel)
+
+	setActive(slot0.hideObjToggleTF, false)
+
+	slot0.hideObjToggle = GetComponent(slot0.hideObjToggleTF, typeof(Toggle))
 end
 
 function slot0.didEnter(slot0)
@@ -370,7 +375,10 @@ function slot0.updateMainView(slot0, slot1)
 		slot0.painting = slot5
 	end
 
-	slot6 = false
+	setActive(slot0.hideObjToggle, slot6)
+
+	slot0.hideObjToggle.isOn = true
+	slot7 = false
 
 	eachChild(slot0.tags, function (slot0)
 		if table.contains(slot0.tag, tonumber(go(slot0).name)) then
@@ -380,13 +388,13 @@ function slot0.updateMainView(slot0, slot1)
 		setActive(slot0, slot2)
 	end)
 
-	slot7 = Ship.New({
+	slot8 = Ship.New({
 		configId = slot3.id,
 		skin_id = slot2.id
 	})
 
-	if slot7:getShipBgPrint() ~= slot7:rarity2bgPrintForGet() then
-		GetSpriteFromAtlasAsync("bg/star_level_bg_" .. slot8, "", function (slot0)
+	if slot8:getShipBgPrint() ~= slot8:rarity2bgPrintForGet() then
+		GetSpriteFromAtlasAsync("bg/star_level_bg_" .. slot9, "", function (slot0)
 			if not slot0.exited then
 				setImageSprite(slot0:GetCurBgTransform(), slot0)
 				slot0:AnimBg()
@@ -397,10 +405,34 @@ function slot0.updateMainView(slot0, slot1)
 		slot0:AnimBg()
 	end
 
+	slot0:setBg(slot3, slot2, slot6)
 	slot0:updatePrice(slot1.goodsVO)
 	slot0:removeShopTimer()
 	slot0:addShopTimer(slot1)
 	slot0:updateBuyBtn(slot1.goodsVO)
+end
+
+function slot0.setBg(slot0, slot1, slot2, slot3)
+	slot5 = Ship.New({
+		configId = slot1.id,
+		skin_id = slot2.id
+	}):getShipBgPrint(true)
+
+	if slot3 and slot2.bg_sp ~= "" then
+		slot5 = slot2.bg_sp
+	end
+
+	if slot5 ~= slot4:rarity2bgPrintForGet() then
+		GetSpriteFromAtlasAsync("bg/star_level_bg_" .. slot5, "", function (slot0)
+			if not slot0.exited then
+				setImageSprite(slot0:GetCurBgTransform(), slot0)
+				slot0:AnimBg()
+			end
+		end)
+	else
+		setImageSprite(slot0:GetCurBgTransform(), slot0.defaultBg)
+		slot0:AnimBg()
+	end
 end
 
 function slot0.GetCurBgTransform(slot0)
@@ -441,7 +473,7 @@ function slot0.updateBuyBtn(slot0, slot1)
 	if slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
 		onButton(slot0, slot0.timelimitBtn, function ()
 			if getProxy(ShipSkinProxy):getSkinById(slot0:getSkinId()) and not slot1:isExpireType() then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("already_have_the_skin"))
+				pg.TipsMgr:GetInstance():ShowTips(i18n("already_have_the_skin"))
 
 				return
 			end
@@ -449,8 +481,6 @@ function slot0.updateBuyBtn(slot0, slot1)
 			slot1:showTimeLimitSkinWindow(slot0)
 		end, SFX_PANEL)
 	else
-		slot4 = slot0[slot1:getSkinId()]
-
 		setActive(slot0.buyBtn, not (slot1.type == Goods.TYPE_ACTIVITY or slot5 == Goods.TYPE_ACTIVITY_EXTRA) and slot1.buyCount == 0)
 		setActive(slot0.gotBtn, not (slot1.type == Goods.TYPE_ACTIVITY or slot5 == Goods.TYPE_ACTIVITY_EXTRA) and not (slot1.buyCount == 0))
 		setActive(slot0.activityBtn, slot1.type == Goods.TYPE_ACTIVITY or slot5 == Goods.TYPE_ACTIVITY_EXTRA)
@@ -466,14 +496,14 @@ function slot0.updateBuyBtn(slot0, slot1)
 						slot2 = slot1 * slot2
 					end
 
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					pg.MsgboxMgr:GetInstance():ShowMsgBox({
 						content = i18n("charge_scene_buy_confirm", slot2, HXSet.hxLan(slot2.name)),
 						onYes = function ()
 							slot0:emit(SkinShopMediator.ON_SHOPPING, slot1.id, 1)
 						end
 					})
 				else
-					pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[9999])
+					pg.TipsMgr:GetInstance():ShowTips(ERROR_MESSAGE[9999])
 
 					return
 				end
@@ -494,8 +524,15 @@ function slot0.updateBuyBtn(slot0, slot1)
 					end
 				end
 			else
-				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_not_start"))
+				pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_not_start"))
 			end
+		end, SFX_PANEL)
+
+		slot8 = ShipGroup.getDefaultShipConfig(slot0[slot1:getSkinId()].ship_group)
+
+		onToggle(slot0, slot0.hideObjToggleTF, function (slot0)
+			slot0:loadPainting(slot0.painting .. ((slot0 and "") or "_n"))
+			slot0:setBg(slot0.setBg, slot0, slot0)
 		end, SFX_PANEL)
 	end
 end
@@ -503,11 +540,11 @@ end
 function slot0.showTimeLimitSkinWindow(slot0, slot1)
 	slot17, slot18, slot8, slot9 = pg.TimeMgr.GetInstance():parseTimeFrom(slot3)
 
-	pg.MsgboxMgr.GetInstance():ShowMsgBox({
+	pg.MsgboxMgr:GetInstance():ShowMsgBox({
 		content = i18n("exchange_limit_skin_tip", slot1:getConfig("resource_num"), pg.ship_skin_template[slot1:getSkinId()].name, slot6, slot7),
 		onYes = function ()
 			if slot0.skinTicket < slot1 then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
+				pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_item_1"))
 
 				return
 			end
@@ -551,7 +588,7 @@ function slot0.addShopTimer(slot0, slot1)
 		return
 	end
 
-	slot7 = pg.TimeMgr.GetInstance().Table2ServerTime(slot6, slot5)
+	slot7 = pg.TimeMgr:GetInstance().Table2ServerTime(slot6, slot5)
 	slot0.shopTimer = Timer.New(function ()
 		if slot0 < slot0:GetServerTime() then
 			slot2:removeShopTimer()
@@ -617,7 +654,7 @@ end
 
 function slot0.loadPainting(slot0, slot1)
 	slot0:recyclePainting()
-	setPaintingPrefab(slot0.paintingTF, slot1, "chuanwu")
+	setPaintingPrefab(slot0.paintingTF, slot1, "chuanwu", true)
 end
 
 function slot0.recyclePainting(slot0)
@@ -628,9 +665,9 @@ end
 
 function slot0.loadChar(slot0, slot1)
 	slot0:recycleChar()
-	pg.UIMgr.GetInstance():LoadingOn()
+	pg.UIMgr:GetInstance():LoadingOn()
 	PoolMgr.GetInstance():GetSpineChar(slot1, true, function (slot0)
-		pg.UIMgr.GetInstance():LoadingOff()
+		pg.UIMgr:GetInstance():LoadingOff()
 
 		slot0.modelTf = tf(slot0)
 		slot0.modelTf.localScale = Vector3(0.9, 0.9, 1)

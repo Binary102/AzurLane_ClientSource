@@ -1,7 +1,7 @@
-jit.off()
-jit.flush()
-
 if jit then
+	jit.off()
+	jit.flush()
+
 	if jit.opt then
 	end
 

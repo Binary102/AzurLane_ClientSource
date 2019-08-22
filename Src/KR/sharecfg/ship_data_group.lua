@@ -9456,6 +9456,29 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[343] = {
+		nationality = 4,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 343,
+		type = 8,
+		index_id = 294,
+		group_type = 40802,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"이벤트 : 거울에 비친 이색",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[387] = {
 		nationality = 4,
 		hide = 0,
@@ -9568,6 +9591,29 @@ pg.ship_data_group = {
 		description = {
 			{
 				"이벤트：메탈 블러드, 음표 & 맹세",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[344] = {
+		nationality = 4,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 344,
+		type = 8,
+		index_id = 300,
+		group_type = 40803,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"이벤트 : 거울에 비친 이색",
 				{
 					""
 				},
@@ -11002,11 +11048,13 @@ pg.ship_data_group = {
 		251,
 		252,
 		385,
+		343,
 		387,
 		341,
 		399,
 		400,
 		386,
+		344,
 		253,
 		254,
 		255,

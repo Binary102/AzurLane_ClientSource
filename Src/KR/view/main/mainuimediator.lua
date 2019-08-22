@@ -937,31 +937,7 @@ function slot0.playStroys(slot0, slot1)
 end
 
 function slot0.tryPlayGuide(slot0)
-	slot2 = getProxy(FleetProxy):getFleetById(11)
-	slot3 = {}
-	slot4 = true
-
-	if getProxy(TaskProxy):getTaskById(10302) and slot1:isFinish() and not slot1:isReceive() and slot2:isEmpty() then
-		pg.StoryMgr.GetInstance():PlayGuide("NG002", (_.any(getProxy(BayProxy):getShips(), function (slot0)
-			return slot0 and slot0.configId == 308031
-		end) and {}) or {
-			1
-		})
-
-		slot4 = pg.GuideMgr.GetInstance():isPlayed("NG002")
-	end
-
-	if slot4 and slot0.viewComponent.openTraningCamp then
-		pg.StoryMgr.GetInstance():PlayGuide("NG004", {})
-
-		slot4 = pg.GuideMgr.GetInstance():isPlayed("NG004")
-	end
-
-	if slot4 and getProxy(PlayerProxy):getData().level >= 40 then
-		pg.StoryMgr.GetInstance():PlayGuide("NG005", {})
-
-		slot4 = pg.GuideMgr.GetInstance():isPlayed("NG005")
-	end
+	pg.SystemGuideMgr.GetInstance():Play(slot0)
 end
 
 function slot0.tryRequestMainSub(slot0)

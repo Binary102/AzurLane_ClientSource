@@ -21,6 +21,14 @@ function slot0.Ctor(slot0, slot1)
 
 	setActive(slot0.timelimitTag, false)
 	setActive(slot0.timelimitTimeTxt, false)
+
+	slot0.hideObjToggleTF = findTF(slot0.tr, "hideObjToggle")
+
+	setActive(slot0.hideObjToggleTF, false)
+
+	slot0.hideObjToggle = GetComponent(slot0.hideObjToggleTF, typeof(Toggle))
+
+	setText(findTF(slot0.hideObjToggleTF, "Label"), i18n("paint_hide_other_obj_tip"))
 end
 
 function slot0.updateSkin(slot0, slot1, slot2)
@@ -221,6 +229,19 @@ function slot0.loadPainting(slot0)
 
 	slot0.paintingName = slot2
 
+	setActive(slot0.hideObjToggle, slot2)
+
+	slot3 = slot0.hideObjToggle
+
+	if PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot0.paintingName, 0) == 0 then
+		slot4 = false
+	else
+		slot4 = true
+	end
+
+	slot3.isOn = slot4
+
+	setPaintingPrefabAsync(slot0.painting, slot0.paintingName, "pifu")
 	setPaintingPrefabAsync(slot0.painting, slot0.paintingName, "pifu")
 
 	return

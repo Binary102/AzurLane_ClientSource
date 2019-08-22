@@ -11,14 +11,14 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"纯白之诗\n\n<size=45>七 纯白</size>",
+					"순백의 시\n\n<size=45>7. 순백</size>",
 					1
 				}
 			}
 		},
 		{
 			blackBg = true,
-			say = "“不是这样”——作为兵器存在的我，被否定了。那么我的颜色，并不是灰色",
+			say = "그렇지 않다'로 나의 병기로서의 존재는 부정당했다. 그렇다면 나는 회색이 아니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +30,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "“46有想法也有愿望，是一个人”——并不是毫无自我的纯粹。那么我的颜色，也不是透明",
+			say = "46은 생각도 소망도 있는 하나의 개인이다'는 자아가 없는 순수함이 아니다. 그렇다면 나는 투명하지 않다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "“46应该更珍重自己”——只有一时虚名的存在，却确实拥有着值得珍惜的“自己”。",
+			say = "46은 자신을 더 소중히 여겨야 해' 한때는 허울뿐인 존재였지만 지금은 소중히 여길만한 '자신'을 가지고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "那么，试问——",
+			say = "그렇다면, 묻겠다......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			bgmDelay = 2,
 			bgm = "story-2",
 			actor = 401460,
-			say = "挚爱的人啊，我究竟是何颜色？",
+			say = "사랑하는 이여. 나는 대체 어떤 색인가?",
 			flashout = {
 				dur = 1,
 				black = false,
@@ -101,7 +101,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "请你告诉我。究竟你期望的“我”，是什么样的？",
+			say = "대답해줘. 당신이 소망하는 '나'는 대체 어떤 존재지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "我会试着成为，你所希望的那个存在。",
+			say = "당신이 원하는 그런 존재가 되어보겠다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "——“46只要，做46自己就好”",
+			say = "......\"46은 46으로 충분해.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,21 +139,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "我得到了答案。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 401460,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "我的颜色…应是白色（Weiß）。",
+			say = "답을 들었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +153,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "为染上你的颜色，将原本透明的自身染为白色的愚昧之“物”——",
+			say = "나의 색은...... 아마도 백색(Weiß).",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +167,21 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "要成为纵使无数次满身战争的硝烟，也将洗尽心中灰色的“人”。",
+			say = "당신의 색으로 물들기 위해 원래는 투명했던 자신을 하얗게 물들인 바보같은 '물건'......",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 401460,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "몸을 뒤덮은 숱한 연기와 먼지를 털어내고, 마음 속의 회색을 털어낸 '사람'.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "向着这誓言，向着眼前的“指挥官”，献上力所能及的所有。",
+			say = "이 맹세를 향해, 눈 앞의 '지휘관'을 향해서 나의 모든 것을 바친다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "话语、拥抱、亲吻。一切一切的祝福。",
+			say = "말, 포옹, 키스. 모든 것이 축복이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			blackBg = true,
-			say = "但愿，纯白的我能成为，你所期望的存在——",
+			say = "그저 바라건대, 순백의 내가 당신이 원하는 존재가 될 수 있기를......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

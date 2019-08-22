@@ -4048,6 +4048,148 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[9920001] = {
+		map = 9920001,
+		name = "거울에 비친 이색 - 전편|| ||EX CHAPTER||E.X.",
+		bgm = "level02",
+		type = 4,
+		on_activity = 20248,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "UIACT20000",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "purple",
+		bg = "map_1000000",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 9920011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[9920002] = {
+		map = 9920002,
+		name = "거울에 비친 이색 - 후편|| ||EX CHAPTER||E.X.",
+		bgm = "level02",
+		type = 4,
+		on_activity = 20248,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "UIACT20001",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Tornado",
+		cloud_suffix = "",
+		bg = "map_1000000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 9920012,
+		clouds_pos = {}
+	},
+	[9920011] = {
+		map = 9920011,
+		name = "거울에 비친 이색 - 전편|| ||EX CHAPTER||E.X.",
+		bgm = "level02",
+		type = 5,
+		on_activity = 20248,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "UIACT20000",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "purple",
+		bg = "map_1000000",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 9920001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[9920012] = {
+		map = 9920012,
+		name = "거울에 비친 이색 - 후편|| ||EX CHAPTER||E.X.",
+		bgm = "level02",
+		type = 5,
+		on_activity = 20248,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "UIACT20001",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Tornado",
+		cloud_suffix = "",
+		bg = "map_1000000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 9920002,
+		clouds_pos = {}
+	},
+	[9920021] = {
+		map = 9920021,
+		name = "거울에 비친 이색 - 후편|| ||EX CHAPTER||E.X.",
+		bgm = "level02",
+		type = 8,
+		on_activity = 20248,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "UIACT20001",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Tornado",
+		cloud_suffix = "",
+		bg = "map_1000000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 9920012,
+		clouds_pos = {}
+	},
 	all = {
 		1,
 		2,
@@ -4145,7 +4287,12 @@ pg.expedition_data_by_map = {
 		2100001,
 		2100010,
 		2100011,
-		2200000
+		2200000,
+		9920001,
+		9920002,
+		9920011,
+		9920012,
+		9920021
 	}
 }
 

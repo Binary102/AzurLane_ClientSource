@@ -79,12 +79,8 @@ function pg.SystemOpenMgr.doSystemGuide(slot0, slot1)
 			})
 		end
 
-		pg.StoryMgr.GetInstance():PlayGuide(slot3, {}, function ()
-			pg.m02:sendNotification(GAME.STORY_UPDATE, {
-				storyId = pg.m02.sendNotification
-			})
-
-			pg.m02.active = nil
+		pg.SystemGuideMgr.GetInstance():PlayByGuideId(slot3, {}, function ()
+			slot0.active = nil
 		end)
 	end
 end

@@ -1073,6 +1073,10 @@ pg.gametip = {
 		tip = "<color=#92fc63>이전 스테이지</color> 클리어 시 개방됩니다.",
 		key = "battle_levelScene_lock"
 	},
+	battle_levelScene_lock_1 = {
+		tip = "해당 이벤트는 아직 개방되지 않았습니다. ",
+		key = "battle_levelScene_lock_1"
+	},
 	battle_preCombatLayer_changeFormationError = {
 		tip = "해당 진형으로는 변경할 수 없습니다.",
 		key = "battle_preCombatLayer_changeFormationError"
@@ -8857,7 +8861,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "앨라배마、볼티모어、버밍햄、아일윈 출현 확률UP ",
+		tip = "그라프 체펠린、Z46、아드미랄 히퍼、U47、Z25、Z35、Z19 출현 확률UP",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -11030,6 +11034,10 @@ P7 지정 스테이지 클리어]]
 	word_reward = {
 		tip = "보상",
 		key = "word_reward"
+	},
+	paint_hide_other_obj_tip = {
+		tip = "隐藏背景物件",
+		key = "paint_hide_other_obj_tip"
 	}
 }
 

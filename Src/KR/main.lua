@@ -31,7 +31,7 @@ function luaIdeDebugFunc()
 	print("luaIdeDebugFunc")
 end
 
-if PLATFORM_CODE == PLATFORM_CH and PLATFORM == 8 then
+if (PLATFORM_CODE == PLATFORM_CH or PLATFORM_CODE == PLATFORM_CHT) and PLATFORM == 8 then
 	pg.SdkMgr.GetInstance():InitSDK()
 end
 
@@ -40,7 +40,7 @@ pg.TimeMgr.GetInstance():Init()
 pg.PushNotificationMgr.GetInstance():Init()
 
 function OnApplicationPause(slot0)
-	print("OnApplicationPause: " .. tostring(slot0))
+	print("111OnApplicationPause: " .. tostring(slot0))
 
 	if not pg.m02 then
 		return
@@ -183,6 +183,9 @@ seriesAsync({
 			end,
 			function (slot0)
 				pg.SystemOpenMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.SystemGuideMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
 				pg.GuideMgr.GetInstance():Init(slot0)

@@ -2,7 +2,7 @@ pg = pg or {}
 pg.SdkMgr = singletonClass("SdkMgr")
 
 function pg.SdkMgr.Ctor(slot0)
-	if PLATFORM_CODE == PLATFORM_CH or PLATFORM_CODE == PLATFORM_CHT then
+	if PLATFORM_CODE == PLATFORM_CH then
 		slot0.instance = require("Mgr.Sdk.BiliSDKMgr")
 	elseif PLATFORM_CODE == PLATFORM_JP then
 		slot0.instance = require("Mgr.Sdk.AiriSDKJPMgr")
@@ -10,6 +10,8 @@ function pg.SdkMgr.Ctor(slot0)
 		slot0.instance = require("Mgr.Sdk.TxwyKrSDKMgr")
 	elseif PLATFORM_CODE == PLATFORM_US then
 		slot0.instance = require("Mgr.Sdk.AiriSDKUSMgr")
+	elseif PLATFORM_CODE == PLATFORM_CHT then
+		slot0.instance = require("Mgr.Sdk.YongshiSdkMgr")
 	end
 end
 
@@ -266,6 +268,14 @@ function pg.SdkMgr.GetDeviceId(slot0)
 	else
 		return ""
 	end
+end
+
+function InLoginScene()
+	if getProxy(ContextProxy):getCurrentContext() and slot0.mediator == LoginMediator then
+		return true
+	end
+
+	return false
 end
 
 return

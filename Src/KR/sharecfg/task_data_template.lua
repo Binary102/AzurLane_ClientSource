@@ -8344,6 +8344,262 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5151] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5121,
+		type = 5,
+		name = "탄생",
+		count_inherit = 0,
+		desc = "어뢰 튀김을 3개 제출한다.",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "z46",
+		award_choice = "",
+		level = 1,
+		next_task = "5152",
+		visibility = 1,
+		story_id = "Z461",
+		target_id_for_client = 50003,
+		id = 5151,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5152] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5122,
+		type = 5,
+		name = "궤적",
+		count_inherit = 0,
+		desc = "임의의 함선소녀를 10회 강화한다.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "z46",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5153",
+		visibility = 1,
+		story_id = "Z462",
+		target_id_for_client = 0,
+		id = 5152,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5153] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5123,
+		type = 5,
+		name = "막간I",
+		count_inherit = 0,
+		desc = "Z46를 포함한 함대를 출격시켜\n20회 승리한다.",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "z46",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5154",
+		visibility = 1,
+		story_id = "Z463",
+		target_id_for_client = 40146,
+		id = 5153,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "40146",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5154] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5124,
+		type = 5,
+		name = "사고",
+		count_inherit = 0,
+		desc = "Z46를 포함한 함대로 데일리 챌린지를\n3회 클리어한다.",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "z46",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5155",
+		visibility = 1,
+		story_id = "Z464",
+		target_id_for_client = 40146,
+		id = 5154,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "40146",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5155] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5125,
+		type = 5,
+		name = "막간II",
+		count_inherit = 0,
+		desc = "Z46의 호감도를 100까지 달성한다.",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "z46",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5156",
+		visibility = 1,
+		story_id = "Z465",
+		target_id_for_client = 40146,
+		id = 5155,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "40146",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16012,
+				1
+			}
+		}
+	},
+	[5156] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5126,
+		type = 5,
+		name = "속박",
+		count_inherit = 0,
+		desc = "Z46의 한계돌파를 3회 진행한다.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "z46",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5157",
+		visibility = 1,
+		story_id = "Z466",
+		target_id_for_client = 401464,
+		id = 5156,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "401464",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[5157] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5127,
+		type = 5,
+		name = "순백",
+		count_inherit = 0,
+		desc = "Z46의 레벨을 100까지 달성한다.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "z46",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "Z467",
+		target_id_for_client = 40146,
+		id = 5157,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "40146",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
 	[5171] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -28169,749 +28425,1251 @@ pg.task_data_template = {
 			"ACTIVITY_MAP"
 		}
 	},
-	[13577] = {
+	[13596] = {
 		is_head = 1,
 		guild_coin_award = 0,
-		award = 8549,
+		award = 8609,
 		type = 6,
-		name = "【异色格复刻】活动任务_开局",
+		name = "『异色格复刻』-PT累积1",
 		count_inherit = 0,
-		desc = "이벤트 해역 A1 혹은 C1을 클리어",
+		desc = "PT",
 		target_id_2 = "",
-		sub_type = 1020,
+		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
 		scene = "",
 		award_choice = "",
-		level = 10,
-		next_task = "13578",
-		visibility = 1,
+		level = 1,
+		next_task = "13597",
+		visibility = 0,
 		story_id = "",
-		target_id_for_client = 0,
-		id = 13577,
-		target_num = 1,
+		target_id_for_client = 110,
+		id = 13596,
+		target_num = 100,
 		fix_task = 0,
-		target_id = {
-			1120001,
-			1120011
-		},
+		target_id = "950",
 		open_need = {},
 		award_display = {
 			{
 				2,
-				20001,
+				54005,
+				5
+			}
+		}
+	},
+	[13597] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8610,
+		type = 6,
+		name = "『异色格复刻』-PT累积2",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13598",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13597,
+		target_num = 300,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18012,
 				1
-			},
+			}
+		}
+	},
+	[13598] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8611,
+		type = 6,
+		name = "『异色格复刻』-PT累积3",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13599",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13598,
+		target_num = 500,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18022,
+				1
+			}
+		}
+	},
+	[13599] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8612,
+		type = 6,
+		name = "『异色格复刻』-PT累积4",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13600",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13599,
+		target_num = 700,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
 			{
 				1,
 				1,
-				600
-			},
+				3000
+			}
+		}
+	},
+	[13600] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8613,
+		type = 6,
+		name = "『异色格复刻』-PT累积5",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13601",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13600,
+		target_num = 1000,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
 			{
-				1,
-				110,
+				2,
+				15008,
 				200
 			}
 		}
 	},
-	[13578] = {
+	[13601] = {
 		is_head = 0,
 		guild_coin_award = 0,
-		award = 8550,
+		award = 8614,
 		type = 6,
-		name = "【异色格复刻】活动任务_占领",
+		name = "『异色格复刻』-PT累积6",
 		count_inherit = 0,
-		desc = "이벤트 해역 A2 혹은 C2를 클리어",
+		desc = "PT",
 		target_id_2 = "",
-		sub_type = 1020,
+		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
 		scene = "",
 		award_choice = "",
-		level = 10,
-		next_task = "13579",
-		visibility = 1,
+		level = 1,
+		next_task = "13602",
+		visibility = 0,
 		story_id = "",
-		target_id_for_client = 0,
-		id = 13578,
-		target_num = 1,
+		target_id_for_client = 110,
+		id = 13601,
+		target_num = 1500,
 		fix_task = 0,
-		target_id = {
-			1120002,
-			1120012
-		},
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				3000
+			}
+		}
+	},
+	[13602] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8615,
+		type = 6,
+		name = "『异色格复刻』-PT累积7",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13603",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13602,
+		target_num = 2000,
+		fix_task = 0,
+		target_id = "950",
 		open_need = {},
 		award_display = {
 			{
 				2,
-				20001,
-				1
-			},
-			{
-				1,
-				1,
-				600
-			},
-			{
-				1,
-				110,
-				400
-			}
-		}
-	},
-	[13579] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 8551,
-		type = 6,
-		name = "【异色格复刻】活动任务_主动权",
-		count_inherit = 0,
-		desc = "이벤트 해역 A3 혹은 C3를 클리어",
-		target_id_2 = "",
-		sub_type = 1020,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 10,
-		next_task = "13580",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 13579,
-		target_num = 1,
-		fix_task = 0,
-		target_id = {
-			1120003,
-			1120013
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				20001,
-				2
-			},
-			{
-				1,
-				1,
-				600
-			},
-			{
-				1,
-				110,
-				600
-			}
-		}
-	},
-	[13580] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 8552,
-		type = 6,
-		name = "【异色格复刻】活动任务_升变",
-		count_inherit = 0,
-		desc = "이벤트 해역 A4 혹은 C4를 클리어",
-		target_id_2 = "",
-		sub_type = 1020,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 10,
-		next_task = "13581",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 13580,
-		target_num = 1,
-		fix_task = 0,
-		target_id = {
-			1120004,
-			1120014
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				20001,
-				2
-			},
-			{
-				1,
-				1,
-				600
-			},
-			{
-				1,
-				110,
-				800
-			}
-		}
-	},
-	[13581] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 8553,
-		type = 6,
-		name = "【异色格复刻】活动任务_弃子",
-		count_inherit = 0,
-		desc = "이벤트 해역 B1 혹은 D1을 클리어",
-		target_id_2 = "",
-		sub_type = 1020,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 10,
-		next_task = "13582",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 13581,
-		target_num = 1,
-		fix_task = 0,
-		target_id = {
-			1120005,
-			1120015
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				20001,
-				1
-			},
-			{
-				1,
-				1,
-				600
-			},
-			{
-				1,
-				110,
-				400
-			}
-		}
-	},
-	[13582] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 8554,
-		type = 6,
-		name = "【异色格复刻】活动任务_直觉",
-		count_inherit = 0,
-		desc = "이벤트 해역 B2 혹은 D2를 클리어",
-		target_id_2 = "",
-		sub_type = 1020,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 10,
-		next_task = "13583",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 13582,
-		target_num = 1,
-		fix_task = 0,
-		target_id = {
-			1120006,
-			1120016
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				20001,
-				1
-			},
-			{
-				1,
-				1,
-				600
-			},
-			{
-				1,
-				110,
-				600
-			}
-		}
-	},
-	[13583] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 8555,
-		type = 6,
-		name = "【异色格复刻】活动任务_陷阱",
-		count_inherit = 0,
-		desc = "이벤트 해역 B3 혹은 D3를 클리어",
-		target_id_2 = "",
-		sub_type = 1020,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 10,
-		next_task = "[13584,13585]",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 13583,
-		target_num = 1,
-		fix_task = 0,
-		target_id = {
-			1120007,
-			1120017
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				20001,
-				2
-			},
-			{
-				1,
-				1,
-				600
-			},
-			{
-				1,
-				110,
-				800
-			}
-		}
-	},
-	[13584] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 8556,
-		type = 6,
-		name = "【异色格复刻】活动任务_将杀",
-		count_inherit = 0,
-		desc = "이벤트 해역 B4 혹은 D4를 클리어",
-		target_id_2 = "",
-		sub_type = 1020,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 10,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 13584,
-		target_num = 1,
-		fix_task = 0,
-		target_id = {
-			1120008,
-			1120018
-		},
-		open_need = {},
-		award_display = {
-			{
-				4,
-				404011,
-				1
-			},
-			{
-				1,
-				1,
-				600
-			},
-			{
-				1,
-				110,
-				1000
-			}
-		}
-	},
-	[13585] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 8557,
-		type = 6,
-		name = "【异色格复刻】活动任务_夏季活动勋章",
-		count_inherit = 0,
-		desc = "이벤트 해역 D4를 클리어",
-		target_id_2 = "",
-		sub_type = 1020,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 10,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1120018,
-		id = 13585,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "1120018",
-		open_need = {},
-		award_display = {
-			{
-				5,
-				106,
+				18012,
 				1
 			}
 		}
 	},
-	[13586] = {
-		is_head = 1,
+	[13603] = {
+		is_head = 0,
 		guild_coin_award = 0,
-		award = 8558,
+		award = 8616,
 		type = 6,
-		name = "【异色格复刻】活动任务_开局",
+		name = "『异色格复刻』-PT累积8",
 		count_inherit = 0,
-		desc = "A1 혹은 C1의 모든 작전목표(★3)를 달성!",
+		desc = "PT",
 		target_id_2 = "",
-		sub_type = 1021,
+		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
 		scene = "",
 		award_choice = "",
-		level = 10,
-		next_task = "13587",
-		visibility = 1,
+		level = 1,
+		next_task = "13604",
+		visibility = 0,
 		story_id = "",
-		target_id_for_client = 0,
-		id = 13586,
-		target_num = 1,
+		target_id_for_client = 110,
+		id = 13603,
+		target_num = 2500,
 		fix_task = 0,
-		target_id = {
-			1120001,
-			1120011
-		},
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18022,
+				1
+			}
+		}
+	},
+	[13604] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8617,
+		type = 6,
+		name = "『异色格复刻』-PT累积9",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13605",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13604,
+		target_num = 3000,
+		fix_task = 0,
+		target_id = "950",
 		open_need = {},
 		award_display = {
 			{
 				1,
-				2,
-				500
-			},
-			{
-				4,
-				401201,
-				1
-			}
-		}
-	},
-	[13587] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 8559,
-		type = 6,
-		name = "【异色格复刻】活动任务_占领",
-		count_inherit = 0,
-		desc = "A2 혹은 C2의 모든 작전목표(★3)를 달성!",
-		target_id_2 = "",
-		sub_type = 1021,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 10,
-		next_task = "13588",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 13587,
-		target_num = 1,
-		fix_task = 0,
-		target_id = {
-			1120002,
-			1120012
-		},
-		open_need = {},
-		award_display = {
-			{
-				4,
-				100001,
-				1
-			},
-			{
-				4,
-				401211,
-				1
-			}
-		}
-	},
-	[13588] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 8560,
-		type = 6,
-		name = "【异色格复刻】活动任务_主动权",
-		count_inherit = 0,
-		desc = "A3 혹은 C3의 모든 작전목표(★3)를 달성!",
-		target_id_2 = "",
-		sub_type = 1021,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 10,
-		next_task = "13589",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 13588,
-		target_num = 1,
-		fix_task = 0,
-		target_id = {
-			1120003,
-			1120013
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				18003,
-				1
-			}
-		}
-	},
-	[13589] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 8561,
-		type = 6,
-		name = "【异色格复刻】活动任务_升变",
-		count_inherit = 0,
-		desc = "A4 혹은 C4의 모든 작전목표(★3)를 달성!",
-		target_id_2 = "",
-		sub_type = 1021,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 10,
-		next_task = "13590",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 13589,
-		target_num = 1,
-		fix_task = 0,
-		target_id = {
-			1120004,
-			1120014
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				18003,
-				2
-			}
-		}
-	},
-	[13590] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 8562,
-		type = 6,
-		name = "【异色格复刻】活动任务_弃子",
-		count_inherit = 0,
-		desc = "B1 혹은 D1의 모든 작전목표(★3)를 달성!",
-		target_id_2 = "",
-		sub_type = 1021,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 10,
-		next_task = "13591",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 13590,
-		target_num = 1,
-		fix_task = 0,
-		target_id = {
-			1120005,
-			1120015
-		},
-		open_need = {},
-		award_display = {
-			{
 				1,
-				2,
-				500
+				4000
 			}
 		}
 	},
-	[13591] = {
+	[13605] = {
 		is_head = 0,
 		guild_coin_award = 0,
-		award = 8563,
+		award = 8618,
 		type = 6,
-		name = "【异色格复刻】活动任务_直觉",
+		name = "『异色格复刻』-PT累积10",
 		count_inherit = 0,
-		desc = "B2 혹은 D2의 모든 작전목표(★3)를 달성!",
+		desc = "PT",
 		target_id_2 = "",
-		sub_type = 1021,
+		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
 		scene = "",
 		award_choice = "",
-		level = 10,
-		next_task = "13592",
-		visibility = 1,
+		level = 1,
+		next_task = "13606",
+		visibility = 0,
 		story_id = "",
-		target_id_for_client = 0,
-		id = 13591,
-		target_num = 1,
+		target_id_for_client = 110,
+		id = 13605,
+		target_num = 3500,
 		fix_task = 0,
-		target_id = {
-			1120006,
-			1120016
-		},
-		open_need = {},
-		award_display = {
-			{
-				4,
-				100011,
-				1
-			}
-		}
-	},
-	[13592] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 8564,
-		type = 6,
-		name = "【异色格复刻】活动任务_陷阱",
-		count_inherit = 0,
-		desc = "B3 혹은 D3의 모든 작전목표(★3)를 달성!",
-		target_id_2 = "",
-		sub_type = 1021,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 10,
-		next_task = "13593",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 13592,
-		target_num = 1,
-		fix_task = 0,
-		target_id = {
-			1120007,
-			1120017
-		},
+		target_id = "950",
 		open_need = {},
 		award_display = {
 			{
 				2,
-				18003,
-				1
-			}
-		}
-	},
-	[13593] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 8565,
-		type = 6,
-		name = "【异色格复刻】活动任务_将杀",
-		count_inherit = 0,
-		desc = "B4 혹은 D4의 모든 작전목표(★3)를 달성!",
-		target_id_2 = "",
-		sub_type = 1021,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 10,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 13593,
-		target_num = 1,
-		fix_task = 0,
-		target_id = {
-			1120008,
-			1120018
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				18003,
-				2
-			}
-		}
-	},
-	[13594] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 8566,
-		type = 36,
-		name = "【异色格复刻】活动任务_日常建造",
-		count_inherit = 0,
-		desc = "함선을 3척 「건조」하라!",
-		target_id_2 = "",
-		sub_type = 30,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 10,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 13594,
-		target_num = 3,
-		fix_task = 0,
-		target_id = "0",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				110,
+				15008,
 				300
 			}
 		}
 	},
-	[13595] = {
-		is_head = 1,
+	[13606] = {
+		is_head = 0,
 		guild_coin_award = 0,
-		award = 8567,
-		type = 36,
-		name = "【异色格复刻】活动任务_日常出击",
+		award = 8619,
+		type = 6,
+		name = "『异色格复刻』-PT累积11",
 		count_inherit = 0,
-		desc = "전투에서 15번 승리하라!",
+		desc = "PT",
 		target_id_2 = "",
-		sub_type = 20,
+		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
 		scene = "",
 		award_choice = "",
-		level = 10,
-		next_task = "0",
-		visibility = 1,
+		level = 1,
+		next_task = "13607",
+		visibility = 0,
 		story_id = "",
-		target_id_for_client = 0,
-		id = 13595,
-		target_num = 15,
+		target_id_for_client = 110,
+		id = 13606,
+		target_num = 4000,
 		fix_task = 0,
-		target_id = "0",
+		target_id = "950",
 		open_need = {},
 		award_display = {
 			{
-				1,
-				110,
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[13607] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8620,
+		type = 6,
+		name = "『异色格复刻』-PT累积12",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13608",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13607,
+		target_num = 4500,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18022,
+				1
+			}
+		}
+	},
+	[13608] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8621,
+		type = 6,
+		name = "『异色格复刻』-PT累积13",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13609",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13608,
+		target_num = 5000,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16003,
+				2
+			}
+		}
+	},
+	[13609] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8622,
+		type = 6,
+		name = "『异色格复刻』-PT累积14",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13610",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13609,
+		target_num = 5500,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
 				300
+			}
+		}
+	},
+	[13610] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8623,
+		type = 6,
+		name = "『异色格复刻』-PT累积15",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13611",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13610,
+		target_num = 6000,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				1
+			}
+		}
+	},
+	[13611] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8624,
+		type = 6,
+		name = "『异色格复刻』-PT累积16",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13612",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13611,
+		target_num = 6500,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		}
+	},
+	[13612] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8625,
+		type = 6,
+		name = "『异色格复刻』-PT累积17",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13613",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13612,
+		target_num = 7000,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16023,
+				2
+			}
+		}
+	},
+	[13613] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8626,
+		type = 6,
+		name = "『异色格复刻』-PT累积18",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13614",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13613,
+		target_num = 7500,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				300
+			}
+		}
+	},
+	[13614] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8627,
+		type = 6,
+		name = "『异色格复刻』-PT累积19",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13615",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13614,
+		target_num = 8000,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				1
+			}
+		}
+	},
+	[13615] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8628,
+		type = 6,
+		name = "『异色格复刻』-PT累积20",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13616",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13615,
+		target_num = 8500,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		}
+	},
+	[13616] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8629,
+		type = 6,
+		name = "『异色格复刻』-PT累积21",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13617",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13616,
+		target_num = 9000,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16013,
+				2
+			}
+		}
+	},
+	[13617] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8630,
+		type = 6,
+		name = "『异色格复刻』-PT累积22",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13618",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13617,
+		target_num = 9500,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				300
+			}
+		}
+	},
+	[13618] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8631,
+		type = 6,
+		name = "『异色格复刻』-PT累积23",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13619",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13618,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				408031,
+				1
+			}
+		}
+	},
+	[13619] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8632,
+		type = 6,
+		name = "『异色格复刻』-PT累积24",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13620",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13619,
+		target_num = 11000,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				2
+			}
+		}
+	},
+	[13620] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8633,
+		type = 6,
+		name = "『异色格复刻』-PT累积25",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13621",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13620,
+		target_num = 12000,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		}
+	},
+	[13621] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8634,
+		type = 6,
+		name = "『异色格复刻』-PT累积26",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13622",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13621,
+		target_num = 13000,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				1
+			}
+		}
+	},
+	[13622] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8635,
+		type = 6,
+		name = "『异色格复刻』-PT累积27",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13623",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13622,
+		target_num = 14000,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		}
+	},
+	[13623] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8636,
+		type = 6,
+		name = "『异色格复刻』-PT累积28",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13624",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13623,
+		target_num = 15000,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				408031,
+				1
+			}
+		}
+	},
+	[13624] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8637,
+		type = 6,
+		name = "『异色格复刻』-PT累积29",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13625",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13624,
+		target_num = 20000,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30045,
+				1
+			}
+		}
+	},
+	[13625] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8638,
+		type = 6,
+		name = "『异色格复刻』-PT累积30",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13626",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13625,
+		target_num = 25000,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54051,
+				2
+			}
+		}
+	},
+	[13626] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8639,
+		type = 6,
+		name = "『异色格复刻』-PT累积31",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13627",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13626,
+		target_num = 30000,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		}
+	},
+	[13627] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8640,
+		type = 6,
+		name = "『异色格复刻』-PT累积32",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13628",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13627,
+		target_num = 35000,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	},
+	[13628] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8641,
+		type = 6,
+		name = "『异色格复刻』-PT累积33",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13629",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13628,
+		target_num = 40000,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				408031,
+				1
+			}
+		}
+	},
+	[13629] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8642,
+		type = 6,
+		name = "『异色格复刻』-PT累积34",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13630",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13629,
+		target_num = 45000,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54051,
+				2
+			}
+		}
+	},
+	[13630] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8643,
+		type = 6,
+		name = "『异色格复刻』-PT累积35",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13631",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13630,
+		target_num = 50000,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	},
+	[13631] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8644,
+		type = 6,
+		name = "『异色格复刻』-PT累积36",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13632",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13631,
+		target_num = 55000,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54051,
+				2
+			}
+		}
+	},
+	[13632] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8645,
+		type = 6,
+		name = "『异色格复刻』-PT累积37",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13633",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13632,
+		target_num = 60000,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				408031,
+				1
+			}
+		}
+	},
+	[13633] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8646,
+		type = 6,
+		name = "『异色格复刻』-PT累积38",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13634",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13633,
+		target_num = 80000,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30045,
+				1
+			}
+		}
+	},
+	[13634] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8647,
+		type = 6,
+		name = "『异色格复刻』-PT累积39",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 110,
+		id = 13634,
+		target_num = 100000,
+		fix_task = 0,
+		target_id = "950",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30045,
+				1
 			}
 		}
 	},
@@ -62797,6 +63555,786 @@ pg.task_data_template = {
 		open_need = {},
 		award_display = {}
 	},
+	[999950] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8549,
+		type = 6,
+		name = "【异色格复刻】活动任务_开局",
+		count_inherit = 0,
+		desc = "A1 혹은 C1을 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999951",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999950,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920001,
+			9920011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				1,
+				110,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999951] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8550,
+		type = 6,
+		name = "【异色格复刻】活动任务_占领",
+		count_inherit = 0,
+		desc = "A2 혹은 C2을 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999952",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999951,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920002,
+			9920012
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				1,
+				110,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999952] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8551,
+		type = 6,
+		name = "【异色格复刻】活动任务_主动权",
+		count_inherit = 0,
+		desc = "A3 혹은 C3을 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999953",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999952,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920003,
+			9920013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				1,
+				110,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999953] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8552,
+		type = 6,
+		name = "【异色格复刻】活动任务_升变",
+		count_inherit = 0,
+		desc = "A4 혹은 C4을 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999954",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999953,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920004,
+			9920014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				1,
+				110,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999954] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8553,
+		type = 6,
+		name = "【异色格复刻】活动任务_弃子",
+		count_inherit = 0,
+		desc = "B1 혹은 D1을 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999955",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999954,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920005,
+			9920015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				1,
+				110,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999955] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8554,
+		type = 6,
+		name = "【异色格复刻】活动任务_直觉",
+		count_inherit = 0,
+		desc = "B2 혹은 D2을 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999956",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999955,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920006,
+			9920016
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				1,
+				110,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999956] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8555,
+		type = 6,
+		name = "【异色格复刻】活动任务_陷阱",
+		count_inherit = 0,
+		desc = "B3 혹은 D3을 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "[999957,999958]",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999956,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920007,
+			9920017
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				1,
+				110,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999957] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8556,
+		type = 6,
+		name = "【异色格复刻】活动任务_将杀",
+		count_inherit = 0,
+		desc = "B4 혹은 D4을 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999957,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920008,
+			9920018
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				404011,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				1,
+				110,
+				1000
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999958] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8557,
+		type = 6,
+		name = "【异色格复刻】活动任务_夏季活动勋章",
+		count_inherit = 0,
+		desc = "D4을 클리어 <color=#92fc63>(훈장은 중복 획득할 수 없습니다)</color>",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 9920018,
+		id = 999958,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "9920018",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				106,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999959] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8558,
+		type = 6,
+		name = "【异色格复刻】活动任务_开局",
+		count_inherit = 0,
+		desc = "A1 혹은 C1을 ✩3성으로 클리어",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999960",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999959,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920001,
+			9920011
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			},
+			{
+				4,
+				401201,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999960] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8559,
+		type = 6,
+		name = "【异色格复刻】活动任务_占领",
+		count_inherit = 0,
+		desc = "A2 혹은 C2을 ✩3성으로 클리어",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999961",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999960,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920002,
+			9920012
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			},
+			{
+				4,
+				401211,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999961] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8560,
+		type = 6,
+		name = "【异色格复刻】活动任务_主动权",
+		count_inherit = 0,
+		desc = "A3 혹은 C3을 ✩3성으로 클리어",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999962",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999961,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920003,
+			9920013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999962] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8561,
+		type = 6,
+		name = "【异色格复刻】活动任务_升变",
+		count_inherit = 0,
+		desc = "A4 혹은 C4을 ✩3성으로 클리어",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999963",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999962,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920004,
+			9920014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				2
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999963] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8562,
+		type = 6,
+		name = "【异色格复刻】活动任务_弃子",
+		count_inherit = 0,
+		desc = "B1 혹은 D1을 ✩3성으로 클리어",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999964",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999963,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920005,
+			9920015
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999964] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8563,
+		type = 6,
+		name = "【异色格复刻】活动任务_直觉",
+		count_inherit = 0,
+		desc = "B2 혹은 D2을 ✩3성으로 클리어",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999965",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999964,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920006,
+			9920016
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999965] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8564,
+		type = 6,
+		name = "【异色格复刻】活动任务_陷阱",
+		count_inherit = 0,
+		desc = "B3 혹은 D3을 ✩3성으로 클리어",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999966",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999965,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920007,
+			9920017
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999966] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8565,
+		type = 6,
+		name = "【异色格复刻】活动任务_将杀",
+		count_inherit = 0,
+		desc = "B4 혹은 D4을 ✩3성으로 클리어",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999966,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920008,
+			9920018
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				2
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999967] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8566,
+		type = 36,
+		name = "【异色格复刻】活动任务_日常建造",
+		count_inherit = 0,
+		desc = "함선을 3회 건조한다.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999967,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				110,
+				300
+			}
+		}
+	},
+	[999968] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8567,
+		type = 36,
+		name = "【异色格复刻】活动任务_日常出击",
+		count_inherit = 0,
+		desc = "함대를 출격시켜 15회 승리한다.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999968,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				110,
+				300
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -63015,6 +64553,13 @@ pg.task_data_template = {
 		5125,
 		5126,
 		5127,
+		5151,
+		5152,
+		5153,
+		5154,
+		5155,
+		5156,
+		5157,
 		5171,
 		5172,
 		5173,
@@ -63563,25 +65108,45 @@ pg.task_data_template = {
 		13548,
 		13549,
 		13550,
-		13577,
-		13578,
-		13579,
-		13580,
-		13581,
-		13582,
-		13583,
-		13584,
-		13585,
-		13586,
-		13587,
-		13588,
-		13589,
-		13590,
-		13591,
-		13592,
-		13593,
-		13594,
-		13595,
+		13596,
+		13597,
+		13598,
+		13599,
+		13600,
+		13601,
+		13602,
+		13603,
+		13604,
+		13605,
+		13606,
+		13607,
+		13608,
+		13609,
+		13610,
+		13611,
+		13612,
+		13613,
+		13614,
+		13615,
+		13616,
+		13617,
+		13618,
+		13619,
+		13620,
+		13621,
+		13622,
+		13623,
+		13624,
+		13625,
+		13626,
+		13627,
+		13628,
+		13629,
+		13630,
+		13631,
+		13632,
+		13633,
+		13634,
 		13635,
 		13636,
 		13637,
@@ -64549,7 +66114,26 @@ pg.task_data_template = {
 		60126,
 		60127,
 		60128,
-		60129
+		60129,
+		999950,
+		999951,
+		999952,
+		999953,
+		999954,
+		999955,
+		999956,
+		999957,
+		999958,
+		999959,
+		999960,
+		999961,
+		999962,
+		999963,
+		999964,
+		999965,
+		999966,
+		999967,
+		999968
 	}
 }
 

@@ -90,7 +90,6 @@ function slot0.loginProcessHandler(slot0)
 		slot1.viewComponent:autoLogin()
 	end)
 
-	slot0.viewComponent:switchToAiriLogin()
 	slot0.process()
 end
 
@@ -147,8 +146,12 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:updateServerList(slot3)
 	elseif slot2 == GAME.USER_LOGIN_SUCCESS then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("login_loginMediator_loginSuccess"))
-		slot0.viewComponent:setLastLoginServer(slot5)
+		slot0.viewComponent:setLastLoginServer(getProxy(ServerProxy).getLastServer(slot4, slot3.id))
 		slot0.viewComponent:switchToServer()
+
+		if PLATFORM_CODE == PLATFORM_JP then
+			slot0.viewComponent:setUserData(getProxy(UserProxy).getLastLoginUser())
+		end
 
 		if #getProxy(GatewayNoticeProxy).getGatewayNotices(slot6, false) > 0 then
 			slot0:addSubLayers(Context.New({

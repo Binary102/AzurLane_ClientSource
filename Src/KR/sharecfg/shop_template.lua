@@ -10819,9 +10819,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 1017,
+		order = 877,
 		group = 0,
 		num = 1,
 		isHX = 1,
@@ -10838,9 +10838,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					8,
-					1
+					22
 				},
 				{
 					0,
@@ -10850,9 +10850,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					8,
-					21
+					2019,
+					9,
+					4
 				},
 				{
 					23,
@@ -10870,9 +10870,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 1017,
+		order = 877,
 		group = 0,
 		num = 1,
 		isHX = 1,
@@ -10889,9 +10889,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					8,
-					1
+					22
 				},
 				{
 					0,
@@ -10901,9 +10901,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					8,
-					21
+					2019,
+					9,
+					4
 				},
 				{
 					23,
@@ -10955,6 +10955,57 @@ pg.shop_template = {
 					2018,
 					8,
 					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70079] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤:U47皮肤",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 876,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70079,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			408021
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					4
 				},
 				{
 					23,
@@ -11023,9 +11074,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 1018,
+		order = 877,
 		group = 0,
 		num = 1,
 		isHX = 1,
@@ -11042,9 +11093,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					8,
-					1
+					22
 				},
 				{
 					0,
@@ -11054,9 +11105,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					8,
-					21
+					2019,
+					9,
+					4
 				},
 				{
 					23,
@@ -16922,6 +16973,118 @@ pg.shop_template = {
 			}
 		}
 	},
+	[99009] = {
+		group_type = 0,
+		resource_num = 200,
+		desc = "200钻石购买异色格攻略补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 99009,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				5
+			}
+		},
+		effect_args = {
+			40109
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[99010] = {
+		group_type = 0,
+		resource_num = 980,
+		desc = "980钻石购买异色格建造补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 99010,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			40110
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -17206,6 +17369,7 @@ pg.shop_template = {
 		70076,
 		70077,
 		70078,
+		70079,
 		70080,
 		70081,
 		70082,
@@ -17323,7 +17487,9 @@ pg.shop_template = {
 		99005,
 		99006,
 		99007,
-		99008
+		99008,
+		99009,
+		99010
 	}
 }
 

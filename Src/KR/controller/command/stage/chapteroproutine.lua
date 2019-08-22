@@ -302,7 +302,7 @@ function slot0.doSupply(slot0)
 	slot0.chapter.updateChapterCell(slot2, slot7)
 
 	if slot7.attachmentId > 20 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("level_ammo_supply_p1", slot8))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("level_ammo_supply_p1", slot8))
 	elseif slot7.attachmentId > 0 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("level_ammo_supply", slot8, slot7.attachmentId))
 	else

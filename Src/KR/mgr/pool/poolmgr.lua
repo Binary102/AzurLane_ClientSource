@@ -241,7 +241,8 @@ slot7 = {
 	"SkillInfoUI",
 	"ItemInfoUI",
 	"ShipDetailView",
-	"LevelFleetSelectView"
+	"LevelFleetSelectView",
+	"ToastUI"
 }
 slot8 = {}
 
@@ -416,7 +417,9 @@ function pg.PoolMgr.DestroySprite(slot0, slot1)
 
 		slot0.pools_pack[slot2] = nil
 
-		ResourceMgr.Inst:ClearBundleRef(slot2, true, false)
+		for slot8 = 1, slot0.pools_pack[slot2]:GetAmount(), 1 do
+			ResourceMgr.Inst:ClearBundleRef(slot2, true, false)
+		end
 	end
 end
 
@@ -435,8 +438,12 @@ function pg.PoolMgr.DestroyAllSprite(slot0)
 
 		slot0.pools_pack[slot6] = nil
 
-		ResourceMgr.Inst:ClearBundleRef(slot6, true, false)
+		for slot12 = 1, slot0.pools_pack[slot6]:GetAmount(), 1 do
+			ResourceMgr.Inst:ClearBundleRef(slot6, true, false)
+		end
 	end
+
+	ResourceMgr.Inst:unloadUnusedAssetBundles()
 end
 
 function pg.PoolMgr.SpriteMemUsage(slot0)

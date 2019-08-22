@@ -118,7 +118,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.CHANGE_PLAYER_NAME_DONE,
 		GAME.CHANGE_PLAYER_MEDAL_DISPLAY_DONE,
 		GAME.CHANGE_PAINT,
-		BayProxy.SHIP_UPDATED
+		BayProxy.SHIP_UPDATED,
+		GAME.UPDATE_SKINCONFIG
 	}
 end
 
@@ -143,9 +144,8 @@ function slot0.handleNotification(slot0, slot1)
 		if slot3.id == slot0.shipVO.id then
 			slot0.viewComponent:setFlagShip(slot3)
 		end
-	elseif slot2 == GAME.CHANGE_PLAYER_MEDAL_DISPLAY_DONE then
-		slot0.viewComponent:updateMedalDisplay(getProxy(PlayerProxy).getData(slot4).displayTrophyList)
-		slot0.viewComponent:closeAddMedalPanel()
+	elseif slot2 == GAME.UPDATE_SKINCONFIG and slot3.skinId == slot0.shipVO.skinId then
+		slot0.viewComponent:setFlagShip(slot0.shipVO)
 	end
 end
 

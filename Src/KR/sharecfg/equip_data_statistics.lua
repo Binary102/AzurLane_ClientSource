@@ -11374,6 +11374,149 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[3100] = {
+		name = "산소 봄베 ",
+		type = 10,
+		id = 3100,
+		tech = 0,
+		nationality = 0,
+		speciality = "없음",
+		range = 0,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "3100",
+		value_1 = "8",
+		angle = 0,
+		avoid_extra = 0,
+		rarity = 4,
+		scatter = "없음",
+		is_siren = 0,
+		ammo = "없음",
+		descrip = "약 15MPa의 기압으로 압축된 공기가 충전되어 있다. 장시간 호흡할 수 있게 해준다. ",
+		value_3 = 0,
+		attribute_1 = "oxy_max",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[3101] = {
+		id = 3101,
+		base = 3100,
+		is_siren = 0,
+		value_1 = "10",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[3102] = {
+		id = 3102,
+		base = 3100,
+		is_siren = 0,
+		value_1 = "12",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[3103] = {
+		id = 3103,
+		base = 3100,
+		is_siren = 0,
+		value_1 = "14",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[3104] = {
+		id = 3104,
+		base = 3100,
+		is_siren = 0,
+		value_1 = "27",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[3105] = {
+		id = 3105,
+		base = 3100,
+		is_siren = 0,
+		value_1 = "30",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[3106] = {
+		id = 3106,
+		base = 3100,
+		is_siren = 0,
+		value_1 = "33",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[3107] = {
+		id = 3107,
+		base = 3100,
+		is_siren = 0,
+		value_1 = "36",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[3108] = {
+		id = 3108,
+		base = 3100,
+		is_siren = 0,
+		value_1 = "39",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[3109] = {
+		id = 3109,
+		base = 3100,
+		is_siren = 0,
+		value_1 = "42",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[3110] = {
+		id = 3110,
+		base = 3100,
+		is_siren = 0,
+		value_1 = "45",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
 	[3120] = {
 		name = "잠수함 스노클",
 		type = 10,
@@ -82491,6 +82634,17 @@ pg.equip_data_statistics = {
 		3048,
 		3049,
 		3050,
+		3100,
+		3101,
+		3102,
+		3103,
+		3104,
+		3105,
+		3106,
+		3107,
+		3108,
+		3109,
+		3110,
 		3120,
 		3121,
 		3122,

@@ -1,12 +1,12 @@
-slot0 = class("ChaptperTransportFleet", ChapterFleet)
+slot0 = class("ChapterTransportFleet", ChapterFleet)
 
-function slot0.Ctor(slot0, slot1)
+function slot0.Ctor(slot0, slot1, slot2)
 	slot0.line = {
 		row = slot1.pos.row,
 		column = slot1.pos.column
 	}
-	slot0.id = slot1.item_id
-	slot0.configId = slot0.id
+	slot0.id = slot2
+	slot0.configId = slot1.item_id
 	slot0.restHp = slot1.item_data
 	slot0.rotation = Quaternion.identity
 

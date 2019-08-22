@@ -265,10 +265,10 @@ function slot0.didEnter(slot0)
 		end
 	end, SFX_MAIN)
 	onButton(slot0, slot0.accountBtn, function ()
-		if not (pg.SdkMgr:GetInstance():GetLoginType() ~= LoginType.PLATFORM_INNER) then
+		if not (pg.SdkMgr.GetInstance():GetLoginType() ~= LoginType.PLATFORM_INNER) then
 			slot0:switchToLogin()
 		elseif slot1 and PLATFORM_KR == PLATFORM_CODE then
-			pg.SdkMgr:GetInstance():SwitchAccount()
+			pg.SdkMgr.GetInstance():SwitchAccount()
 		end
 	end, SFX_MAIN)
 

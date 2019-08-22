@@ -378,14 +378,11 @@ function slot0.flipToSpecificCard(slot0, slot1)
 end
 
 function slot0.tryPlayGuide(slot0)
-	if pg.StoryMgr:GetInstance():IsPlayed("NG0015") then
-		return
-	end
+	pg.SystemGuideMgr.GetInstance():PlayDailyLevel(function ()
+		triggerButton(slot0:findTF("help_btn"))
 
-	triggerButton(slot0:findTF("help_btn"))
-	pg.m02:sendNotification(GAME.STORY_UPDATE, {
-		storyId = slot2
-	})
+		return
+	end)
 
 	return
 end

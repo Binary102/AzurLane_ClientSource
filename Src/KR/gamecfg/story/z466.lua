@@ -11,14 +11,14 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"纯白之诗\n\n<size=45>六 羁绊</size>",
+					"순백의 시\n\n<size=45>6.속박</size>",
 					1
 				}
 			}
 		},
 		{
 			blackBg = true,
-			say = "出击结束了。",
+			say = "출격이 끝났다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +30,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "十余艘量产型敌舰。几枚“棋子”。不过是中等规模的舰队，然而对于弹药已尽的己方而言，已是难以应付的强敌了。",
+			say = "10여척의 양산형 적함, 몇 기의 '장기말'. 중간 규모의 함대지만 탄약이 다 떨어진 우리에게는 상대하기 어려운 적이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "我全力战斗了。",
+			say = "나는 전력을 다해 싸웠다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "发射了数十次主炮。不停地击出炮弹、直到炮身过热停止，满身疮痍。",
+			say = "포신이 과열되어 멈출 때까지 수십차례, 멈추지 않고 주포를 발사했다. 온몸이 만신창이였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "舰装，还有裹在这一时之躯上的布，全都——失去了原本的色彩，染上了硝烟的灰色。",
+			say = "몸을 감싼 천과 장비들은 모두 원래의 색을 잃고 짙은 회색으로 물들어 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "항구-지휘실",
 			bgName = "bg_story_task",
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -111,7 +111,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "方才战斗的报告书……不要忘了确认。",
+			say = "방금 전투의 보고서...... 확인을 잊지 마라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,33 +123,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "——为何，要如此拼死战斗。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 401460,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "我们尽了最大努力，直到用尽所有弹药。敌人若也有自我，应该也会感到骄傲吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			bgName = "bg_story_task",
-			say = "——为何，没有选择撤退。",
+			say = "......대체 왜, 필사적으로 싸워야 했지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +137,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "为了确保一切可能入手的战果。结果上来说，比起撤退的情况，我们给予了敌人更为巨大的打击不是吗。",
+			say = "우리는 탄약이 바닥날 때까지 최선을 다해서 싸웠다. 만약 적에게도 자아가 있다면 자랑스러워 할 것이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,21 +149,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "——为何，不珍惜自己。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 401460,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "虽然身为秘书舰，但仍是兵器。仍只是为了战斗而生的存在。",
+			say = "......대체 왜 후퇴하지 않았지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +163,47 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在成为“Z46”之前，我首先是那艘在大战中被设计建造、背负了众人期待的“Z46号舰”。",
+			say = "입수 가능한 모든 결과를 위해서였다. 결과적으로 말하자면 후퇴하는 것보다 우리는 훨씬 더 많은 피해를 적에게 주지 않았는가.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			bgName = "bg_story_task",
+			say = "......대체 왜 자신을 아끼지 않았지?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 401460,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "비서함이라고는 하지만 병기이다. 그러니 전투를 위해서 태어난 존재다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 401460,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "Z46이 되기 전, 나는 그 전쟁 중에 설계되어 많은 사람들의 기대를 한 몸에 받았던 'Z46'이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 		{
 			stopbgm = true,
 			blackBg = true,
-			say = "我的内心在呼喊着。如果不是这样的话，请你赐予我意义。",
+			say = "나의 마음이 그렇게 외치고 있어. 만약 그렇지 않다면, 나에게 의미를 부여해줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "赐予我，不是兵器而是你所期望的我，战斗的理由。",
+			say = "병기가 아니라 당신이 바라는 나에게 싸워야 하는 이유를 줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "赐予我，留在挚爱的你身边的我，可被呼唤的姓名。",
+			say = "사랑하는 당신의 옆에 남아있을 나에게 부를 수 있는 이름을 줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "请给我，属于我的颜色。",
+			say = "나에게, 나만의 색깔을 줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

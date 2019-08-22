@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"纯白之诗\n\n<size=45>二 轨迹</size>",
+					"순백의 시\n\n<size=45>2. 궤적</size>",
 					1
 				}
 			}
@@ -20,11 +20,11 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"我的颜色是…原色（Grundfarbe）。",
+					"나의 색은… 원색(Grundfarbe). ",
 					1
 				},
 				{
-					"凭借着虚有之名，内心寻求着生存之意义的人偶。",
+					"허울뿐인 이름을 빌려 생존의 의미를 찾고 있는 인형.",
 					3
 				},
 				{
@@ -32,17 +32,17 @@ return {
 					4
 				},
 				{
-					"如今正作为统帅这支舰队之人——",
+					"현재는 이 함대를 통솔하고 있는 사람—— ",
 					6
 				},
 				{
-					"“指挥官”的秘书，在港区的指挥室里执行业务。",
+					"'지휘관'의 비서로 항구의 지휘실에서 업무를 수행하고 있다.",
 					8
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "항구-지휘실",
 			bgName = "bg_story_task",
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -76,7 +76,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这份资料放在这里可以吗？……嗯，听从你的命令。",
+			say = "이 자료는 여기에 두면 되는가? ......알겠다. 명령을 수행하지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……人类果然有趣。仅仅为了驱动兵器，就要处理这么多文件。",
+			say = "......인간은 재미있군. 단지 병기를 구동시키기 위해 이렇게 많은 서류를 처리해야 하다니.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "调运与储备燃料、确保弹药资源、粮食补给、备用品补充与废弃处理。除了对兵器本身的整修，还要顾及一切生活必需品，实在繁琐。",
+			say = "연료 조달 및 비축, 탄약 재고 확보, 식량 보급, 비품 보충 및 폐기물 처리. 병기 자체를 손질하는 것 외에도 모든 생필품을 챙겨야하는 번거로움이 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "话虽如此，整理十分有效。秘书舰的工作，会让人有种自己才是舰队指挥者的错觉。",
+			say = "말은 그렇게 하지만 정리는 완벽했다. 비서함의 일은 자신이 함대의 지휘관이 된 것과 같은 착각을 불러일으키곤 한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "虽然不明白的事尚有不少，但比起光是战斗的那段时光，担任秘书舰以来对一切的看法都有了许多变化。",
+			say = "아직 모르는 것이 많지만 전투만 하던 그때와 비교했을 때, 비서함의 일을 시작한 이후 모든 것을 바라보는 시각이 달라졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "要考虑的不是如何打倒敌人，而是“如何不输给对手”。",
+			say = "적을 어떻게 이겨야 하는가를 고민하는 것이 아니라 '어떻게 지지 않는가'를 고민해야 했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,21 +154,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "以及，除了“战斗”之外，还有如何“生存”下去。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 401460,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "指挥官，我来提交报告书了，请你查收。",
+			say = "그리고 '전투'외에도, '생존'에 대해서 고민해야 했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +168,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "铁血这个月的会计账本，誊抄和整理好了，濒临赤字。",
+			say = "지휘관. 보고서를 가져왔다. 받도록 해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,19 +182,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "节约很重要——对驱逐舰还好，说服重巡花费了很大功夫。战舰本来就需要更多的物资，确实比较难以控制成本",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			bgName = "bg_story_task",
-			say = "——被摸头了",
+			say = "메탈 블러드의 이번 달 회계장부, 베껴서 정리했다. 아슬아슬하게 적자더군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +196,19 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "能理解表扬的意义，但我不太明白，隔着布料触摸身体这一行为有何意义？",
+			say = "절약은 중요하다—— 구축함은 괜찮지만, 중순양함은 소모가 크지. 전함에는 원래도 많은 물자가 들어간다. 확실히 비용을 줄이기가 어렵지.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			bgName = "bg_story_task",
+			say = "——머리가 쓰다듬어졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +222,21 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "也不会因此增加报酬，这样的触摸究竟有何好处？",
+			say = "칭찬의 의미라는 것은 알겠지만 이해하기가 어렵다. 옷감을 사이에 두고 몸을 만지는 행위에 어떠한 의미가 있는가?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 401460,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "이런다고 보수가 늘어나는 것도 아닌데, 이러한 터치로 무엇을 얻을 수 있지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "原本连“表扬”这一行为都无法理解，这次算有点进步了吧。如果这算是大家所说的“进步”的话…",
+			say = "원래는 '칭찬'이라는 행동조차 이해하지 못했다. 그러니 지금은 많이 발전한 셈이다. 만약 이것이 모두가 말하는 '발전'이라는 것이라면...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "我对这种“身体接触”依然无法理解。然而即使生出“想了解”的心之波澜，也会在战斗来临之时被瞬间吞噬。",
+			say = "나는 이런 '신체 접촉'을 여전히 이해할 수 없다. 하지만 알고 싶은 마음이 든다고 해도 금새 전투에 임박해 그 감정은 삼켜지고 만다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 		{
 			bgName = "bg_story_task",
 			blackBg = true,
-			say = "下一次，更直接地问问吧。",
+			say = "다음번에는, 직접 물어보자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

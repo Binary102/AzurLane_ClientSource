@@ -24,6 +24,7 @@ require("Mgr/LayerWeightMgr")
 require("Mgr/const/LayerWeightConst")
 require("Mgr/ToastMgr")
 require("Mgr/SecondaryPWDMgr")
+require("Mgr/SystemGuideMgr")
 require("Mgr/Sdk/SdkMgr")
 require("Mgr/Tracker/TrackerMgr")
 

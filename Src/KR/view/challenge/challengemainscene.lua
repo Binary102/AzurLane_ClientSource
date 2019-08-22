@@ -659,12 +659,12 @@ slot0.findUI = slot1
 
 function slot1(slot0)
 	slot1 = pg
-	slot1 = slot1.StoryMgr
+	slot1 = slot1.SystemGuideMgr
 	slot1 = slot1.GetInstance
 	slot1 = slot1()
 	slot2 = slot1
-	slot1 = slot1.PlayGuide
-	slot3 = "NG0014"
+	slot1 = slot1.Play
+	slot3 = slot0
 
 	slot1(slot2, slot3)
 end

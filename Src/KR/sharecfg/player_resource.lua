@@ -200,6 +200,11 @@ pg.player_resource = {
 		name = "qixihaibao_pt",
 		itemid = 59135
 	},
+	[950] = {
+		id = 950,
+		name = "yisegefuke_pt1",
+		itemid = 59111
+	},
 	[2001] = {
 		id = 2001,
 		name = "contribution_worldboss",
@@ -208,6 +213,9 @@ pg.player_resource = {
 	get_id_list_by_name = {
 		contribution_worldboss = {
 			2001
+		},
+		yisegefuke_pt1 = {
+			950
 		},
 		qixihaibao_pt = {
 			132
@@ -371,6 +379,7 @@ pg.player_resource = {
 		130,
 		131,
 		132,
+		950,
 		2001
 	}
 }

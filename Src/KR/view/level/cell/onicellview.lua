@@ -19,6 +19,17 @@ function slot0.setModel(slot0, slot1)
 	return
 end
 
+function slot0.SetActive(slot0, slot1)
+	slot0.showFlag = slot1
+
+	slot0:SetActiveModel(slot1)
+	setActive(slot0.tfShadow, slot1)
+end
+
+function slot0.SetActiveModel(slot0, slot1)
+	slot0:SetSpineVisible(slot1 and slot0.showFlag)
+end
+
 function slot0.setAttachment(slot0, slot1)
 	slot0._attachmentInfo = slot1
 end

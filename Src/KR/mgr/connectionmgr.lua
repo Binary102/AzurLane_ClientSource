@@ -58,20 +58,19 @@ function pg.ConnectionMgr.Reconnect(slot0, slot1)
 	slot0:stopHBTimer()
 	slot4:stopTimer()
 	slot0:Connect(slot0:GetLastHost(), slot0:GetLastPort(), function ()
-		slot0 = getProxy(UserProxy)
-		slot1 = slot0:getData()
+		slot1 = getProxy(UserProxy).getData(slot0)
 
-		if slot0.SdkMgr.GetInstance():GetChannelUID() == "" then
+		if BilibiliSdkMgr.inst.channelUID == "" then
 			slot2 = PLATFORM_LOCAL
 		end
 
 		if not slot1 or not slot1:isLogin() then
-			if slot1.currentCS == 10020 and slot2 ~= DISCONNECT_TIME_OUT then
-				slot3.needStartSend = false
+			if slot0.currentCS == 10020 and slot1 ~= DISCONNECT_TIME_OUT then
+				slot2.needStartSend = false
 
-				slot1:StartSend()
+				slot0:StartSend()
 			else
-				slot0.m02:sendNotification(GAME.LOGOUT, {
+				slot3.m02:sendNotification(GAME.LOGOUT, {
 					code = 3
 				})
 			end
@@ -79,13 +78,13 @@ function pg.ConnectionMgr.Reconnect(slot0, slot1)
 			return
 		end
 
-		slot1:Send(10022, {
+		slot0:Send(10022, {
 			platform = slot2,
 			account_id = slot1.uid,
 			server_ticket = slot1.token,
 			serverid = slot1.server,
 			check_key = HashUtil.CalcMD5(slot1.token .. AABBUDUD),
-			device_id = slot0.SdkMgr.GetInstance():GetDeviceId()
+			device_id = getDeviceId()
 		}, 10023, function (slot0)
 			if slot0.result == 0 then
 				print("reconnect success: " .. slot0.user_id, " - ", slot0.server_ticket)
@@ -112,8 +111,11 @@ function pg.ConnectionMgr.Reconnect(slot0, slot1)
 
 				slot3 = nil
 
-				slot6.SecondaryPWDMgr.GetInstance():FetchData()
-				slot6.GuideMgr.GetInstance():onReconneceted()
+				if getProxy(PlayerProxy) and slot1:getInited() then
+					slot6.SecondaryPWDMgr:GetInstance():FetchData()
+				end
+
+				slot6.GuideMgr:GetInstance():onReconneceted()
 			else
 				print("reconnect failed: " .. slot0.result)
 				slot6.m02:sendNotification(GAME.LOGOUT, {
@@ -205,7 +207,7 @@ function pg.ConnectionMgr.onError(slot0)
 				onNo = slot1,
 				weight = LayerWeightConst.TOP_LAYER
 			})
-			slot0.GuideMgr.GetInstance():onDisconnected()
+			slot0.GuideMgr:GetInstance():onDisconnected()
 		end
 	else
 		slot1()

@@ -488,7 +488,7 @@ function slot24(slot0, slot1)
 		slot0.img.sprite = slot0:GetSprite()
 
 		slot0.img:SetNativeSize()
-		setAnchoredPosition(slot0.cellImage, Vector3(slot0.cellImage.sizeDelta.x / 2, -slot0.cellImage.sizeDelta.y / 2, 0))
+		setAnchoredPosition(slot0.cellImage, Vector2(slot0.cellImage.sizeDelta.x / 2, -slot0.cellImage.sizeDelta.y / 2))
 		slot0:SetScale()
 		slot0:SetPosition()
 	end({
@@ -530,7 +530,7 @@ function slot24(slot0, slot1)
 		SetScale = function (slot0)
 			slot0.cellImage.localScale = Vector3((slot0.cell.x / slot0.maxSpriteIndexX > 1 and -1) or 1, (slot1.y / slot0.maxSpriteIndexY > 1 and -1) or 1, 1)
 
-			setAnchoredPosition(slot0.cellImage, Vector3(slot0.cellImage.anchoredPosition.x * ((slot0.cell.x / slot0.maxSpriteIndexX > 1 and -1) or 1), slot0.cellImage.anchoredPosition.y * ((slot1.y / slot0.maxSpriteIndexY > 1 and -1) or 1), slot0.cellImage.anchoredPosition.z))
+			setAnchoredPosition(slot0.cellImage, Vector2(slot0.cellImage.anchoredPosition.x * ((slot0.cell.x / slot0.maxSpriteIndexX > 1 and -1) or 1), slot0.cellImage.anchoredPosition.y * ((slot1.y / slot0.maxSpriteIndexY > 1 and -1) or 1)))
 		end,
 		ResetAlhpa = function (slot0)
 			slot0.img.color = Color.New(slot0.img.color.r, slot0.img.color.g, slot0.img.color.b, 1)

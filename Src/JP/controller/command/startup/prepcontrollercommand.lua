@@ -256,6 +256,9 @@ class("PrepControllerCommand", pm.SimpleCommand).execute = function (slot0, slot
 	slot0.facade:registerCommand(GAME.SET_PASSWORD, SetSecondaryPasswordCommand)
 	slot0.facade:registerCommand(GAME.SET_PASSWORD_SETTINGS, SetSecondaryPasswordSettingsCommand)
 	slot0.facade:registerCommand(GAME.CONFIRM_PASSWORD, ConfirmSecondaryPasswordCommand)
+	slot0.facade:registerCommand(GAME.SEND_MINI_GAME_OP, MiniGameOPCommand)
+	slot0.facade:registerCommand(GAME.REQUEST_MINI_GAME, MiniGameRequestCommand)
+	slot0.facade:registerCommand(GAME.MODIFY_MINI_GAME_DATA, MiniGameModifyDataCommand)
 end
 
 return class("PrepControllerCommand", pm.SimpleCommand)

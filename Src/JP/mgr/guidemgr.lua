@@ -1442,12 +1442,11 @@ function slot7(slot0, slot1)
 
 	slot13 = setAnchoredPosition
 	slot14 = slot0.guiderTF
-	slot15 = Vector3
+	slot15 = Vector2
 	slot16 = slot5
 	slot17 = slot6
-	slot18 = 0
 
-	slot13(slot14, slot15(slot16, slot17, slot18))
+	slot13(slot14, slot15(slot16, slot17))
 
 	return
 end

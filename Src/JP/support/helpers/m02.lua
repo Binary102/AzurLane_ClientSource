@@ -134,10 +134,14 @@ function LoadSprite(slot0, slot1)
 	return ResourceMgr.Inst:getAssetSync(slot0, slot1 or "", typeof(Sprite), true, false)
 end
 
-function LoadSpriteAsync(slot0, slot1)
-	ResourceMgr.Inst:getAssetAsync(slot0, "", typeof(Sprite), slot0.Events.UnityAction_UnityEngine_Object(function (slot0)
+function LoadSpriteAtlasAsync(slot0, slot1, slot2)
+	ResourceMgr.Inst:getAssetAsync(slot0, slot1 or "", typeof(Sprite), slot0.Events.UnityAction_UnityEngine_Object(function (slot0)
 		slot0(slot0)
 	end), true, false)
+end
+
+function LoadSpriteAsync(slot0, slot1)
+	LoadSpriteAtlasAsync(slot0, nil, slot1)
 end
 
 function LoadAny(slot0, slot1, slot2)
@@ -148,11 +152,11 @@ function LoadAnyAsync(slot0, slot1, slot2, slot3)
 	return ResourceMgr.Inst:getAssetAsync(slot0, slot1, slot2, slot3, true, false)
 end
 
-function LoadImageSpriteAsync(slot0, slot1, slot2)
-	slot1:GetComponent(typeof(Image)).enabled = false
-	slot0[slot1.GetComponent(typeof(Image))] = slot0
+function LoadImageSpriteAtlasAsync(slot0, slot1, slot2, slot3)
+	slot2:GetComponent(typeof(Image)).enabled = false
+	slot0[slot2.GetComponent(typeof(Image))] = slot0
 
-	LoadSpriteAsync(slot0, function (slot0)
+	LoadSpriteAtlasAsync(slot0, slot1, function (slot0)
 		if not IsNil(slot0) and slot1[slot0] == slot0 then
 			slot1[slot0] = nil
 			slot0.enabled = true
@@ -163,6 +167,10 @@ function LoadImageSpriteAsync(slot0, slot1, slot2)
 			end
 		end
 	end)
+end
+
+function LoadImageSpriteAsync(slot0, slot1, slot2)
+	LoadImageSpriteAtlasAsync(slot0, nil, slot1, slot2)
 end
 
 function GetSpriteFromAtlas(slot0, slot1)
@@ -235,6 +243,12 @@ function setPaintingPrefab(slot0, slot1, slot2, slot3)
 	GetOrAddComponent(findTF(slot0, "fitter"), "PaintingScaler").FrameName = slot2 or ""
 	GetOrAddComponent(findTF(slot0, "fitter"), "PaintingScaler").Tween = 1
 	slot6 = slot1
+
+	if not slot3 and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot1 .. "_n")) and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot1, 0) ~= 0 then
+		slot1 = slot1 .. "_n"
+	end
+
+	slot7 = slot1
 
 	if not slot3 and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot1 .. "_n")) and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot1, 0) ~= 0 then
 		slot1 = slot1 .. "_n"

@@ -7408,6 +7408,37 @@ pg.ship_skin_expression = {
 		battle = "1",
 		login = "",
 		detail = "5"
+	},
+	tianhou_2 = {
+		default = "",
+		feeling3 = "",
+		main_1 = "",
+		touch = "2",
+		expedition = "",
+		win_mvp = "",
+		home = "1",
+		unlock = "",
+		touch2 = "5",
+		mail = "",
+		painting = "tianhou_2",
+		mission = "",
+		main_2 = "4",
+		lose = "3",
+		main_3 = "3",
+		feeling1 = "2",
+		profile = "",
+		feeling4 = "",
+		feeling5 = "4",
+		propose = "5",
+		hp_warning = "",
+		upgrade = "4",
+		mission_complete = "4",
+		headtouch = "",
+		feeling2 = "",
+		skill = "",
+		battle = "",
+		login = "4",
+		detail = "2"
 	}
 }
 

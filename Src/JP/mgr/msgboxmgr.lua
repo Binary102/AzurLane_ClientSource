@@ -2818,6 +2818,8 @@ end
 slot1.switchHelpPage = slot9
 
 function slot9(slot0, slot1)
+	slot2 = true
+	slot0.enable = slot2
 	slot2 = slot0
 	slot2 = slot2.DelegateInfo
 	slot2 = slot2.New
@@ -3988,8 +3990,6 @@ end
 slot1.Clear = slot9
 
 function slot9(slot0, slot1)
-	slot2 = true
-	slot0.enable = slot2
 	slot2 = slot1.type
 
 	if not slot2 then

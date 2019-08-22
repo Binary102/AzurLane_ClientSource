@@ -116,6 +116,14 @@ slot1 = {
 	[ActivityConst.WUDAOLOGIN_ID] = {
 		className = "WudaoLoginPage",
 		uiName = "wudaologinpage"
+	},
+	[ActivityConst.SUMMER_REMAKE] = {
+		className = "SummerRemakePage",
+		uiName = "summerremakepage"
+	},
+	[ActivityConst.SUMMER_REMAKEPT] = {
+		className = "SummerRemakePTPage",
+		uiName = "summerremakeptpage"
 	}
 }
 slot2 = {}

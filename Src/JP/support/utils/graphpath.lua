@@ -2,6 +2,25 @@ GraphPath = class("GraphPath")
 
 function GraphPath.Ctor(slot0, slot1)
 	slot0.points = {}
+	slot0.offset = {
+		x = 0,
+		y = 0
+	}
+	slot0.scale = {
+		x = 1,
+		y = 1
+	}
+
+	if slot1.Transform then
+		slot0.offset = {
+			x = slot1.Transform[1],
+			y = slot1.Transform[2]
+		}
+		slot0.scale = {
+			x = slot1.Transform[3],
+			y = slot1.Transform[4]
+		}
+	end
 
 	for slot5, slot6 in pairs(slot1.Points) do
 		slot0.points[slot5] = {

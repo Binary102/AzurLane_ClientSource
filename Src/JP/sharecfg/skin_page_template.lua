@@ -42,6 +42,12 @@ pg.skin_page_template = {
 		res = "sifu",
 		english_name = "Casual wear"
 	},
+	[10] = {
+		id = 10,
+		name = "夏祭り",
+		res = "jidianxilie",
+		english_name = "Festival"
+	},
 	[9999] = {
 		id = 9999,
 		name = "その他",
@@ -56,6 +62,7 @@ pg.skin_page_template = {
 		6,
 		7,
 		9,
+		10,
 		9999
 	}
 }

@@ -47,6 +47,9 @@ function slot8.TirggerBattleStartBuffs(slot0)
 			underscore.each(slot0._battleInitData.ChapterBuffIDs or {}, function (slot0)
 				slot1:AddBuff(slot0.Battle.BattleBuffUnit.New(slot0))
 			end)
+			underscore.each(slot0._battleInitData.GlobalBuffIDs or {}, function (slot0)
+				slot1:AddBuff(slot0.Battle.BattleBuffUnit.New(slot0))
+			end)
 			slot15:TriggerBuff(slot1.BuffEffectType.ON_START_GAME)
 
 			if slot15 == slot7 then

@@ -257,6 +257,11 @@ return {
 	OnAndoridBackPress = function ()
 		PressBack()
 	end,
+	BindCPU = function ()
+		if CSharpVersion > 30 then
+			slot0:callSdkApi("bindCpu", nil)
+		end
+	end,
 	AiriResultCodeHandler = function (slot0)
 		slot2 = ":" .. slot0:ToInt()
 

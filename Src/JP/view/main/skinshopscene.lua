@@ -322,22 +322,22 @@ function slot0.initSkinPage(slot0)
 end
 
 function slot0.UpdateViewMode(slot0, slot1)
-	slot2, slot3 = nil
+	slot2, slot3, slot4 = nil
 
 	if slot0.viewMode == slot0.SHOP_TYPE_TIMELIMIT then
 		slot2 = slot0.PAGE_TIME_LIMIT
-		slot3 = Vector3(35.8, 605.6, 0)
-		posPaint = Vector3(-250, -88.3, 0)
+		slot3 = Vector2(35.8, 605.6)
+		slot4 = Vector2(-250, -88.3)
 	elseif slot0.viewMode == slot0.SHOP_TYPE_COMMON then
 		slot2 = slot0.PAGE_ALL
-		slot3 = Vector3(217.41, 605.6, 0)
-		posPaint = Vector3(-100, -88.3, 0)
+		slot3 = Vector2(217.41, 605.6)
+		slot4 = Vector2(-100, -88.3)
 	end
 
 	setActive(slot0.leftPanel, slot0.viewMode == slot0.SHOP_TYPE_COMMON)
 	triggerButton(slot1:Find(slot2), true)
 	setAnchoredPosition(slot0.namePanel, slot3)
-	setAnchoredPosition(slot0.paintingTF, posPaint)
+	setAnchoredPosition(slot0.paintingTF, slot4)
 	setImageSprite(slot0.title, GetSpriteFromAtlas("ui/SkinShopUI_atlas", slot1[slot0.viewMode][1]), true)
 	setImageSprite(slot0.titleEn, GetSpriteFromAtlas("ui/SkinShopUI_atlas", slot1[slot0.viewMode][2]), true)
 end
@@ -383,7 +383,25 @@ function slot0.updateMainView(slot0, slot1)
 
 		setActive(slot0, slot2)
 	end)
-	slot0:setBg(slot3, slot2, PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot5 .. "_n")))
+
+	slot8 = Ship.New({
+		configId = slot3.id,
+		skin_id = slot2.id
+	})
+
+	if slot8:getShipBgPrint() ~= slot8:rarity2bgPrintForGet() then
+		GetSpriteFromAtlasAsync("bg/star_level_bg_" .. slot9, "", function (slot0)
+			if not slot0.exited then
+				setImageSprite(slot0:GetCurBgTransform(), slot0)
+				slot0:AnimBg()
+			end
+		end)
+	else
+		setImageSprite(slot0:GetCurBgTransform(), slot0.defaultBg)
+		slot0:AnimBg()
+	end
+
+	slot0:setBg(slot3, slot2, slot6)
 	slot0:updatePrice(slot1.goodsVO)
 	slot0:removeShopTimer()
 	slot0:addShopTimer(slot1)
@@ -480,7 +498,7 @@ function slot0.updateBuyBtn(slot0, slot1)
 	if slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
 		onButton(slot0, slot0.timelimitBtn, function ()
 			if getProxy(ShipSkinProxy):getSkinById(slot0:getSkinId()) and not slot1:isExpireType() then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("already_have_the_skin"))
+				pg.TipsMgr:GetInstance():ShowTips(i18n("already_have_the_skin"))
 
 				return
 			end
@@ -503,14 +521,14 @@ function slot0.updateBuyBtn(slot0, slot1)
 						slot2 = slot1 * slot2
 					end
 
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					pg.MsgboxMgr:GetInstance():ShowMsgBox({
 						content = i18n("charge_scene_buy_confirm", slot2, HXSet.hxLan(slot2.name)),
 						onYes = function ()
 							slot0:emit(SkinShopMediator.ON_SHOPPING, slot1.id, 1)
 						end
 					})
 				else
-					pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[9999])
+					pg.TipsMgr:GetInstance():ShowTips(ERROR_MESSAGE[9999])
 
 					return
 				end
@@ -531,7 +549,7 @@ function slot0.updateBuyBtn(slot0, slot1)
 					end
 				end
 			else
-				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_not_start"))
+				pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_not_start"))
 			end
 		end, SFX_PANEL)
 
@@ -547,11 +565,11 @@ end
 function slot0.showTimeLimitSkinWindow(slot0, slot1)
 	slot17, slot18, slot8, slot9 = pg.TimeMgr.GetInstance():parseTimeFrom(slot3)
 
-	pg.MsgboxMgr.GetInstance():ShowMsgBox({
+	pg.MsgboxMgr:GetInstance():ShowMsgBox({
 		content = i18n("exchange_limit_skin_tip", slot1:getConfig("resource_num"), pg.ship_skin_template[slot1:getSkinId()].name, slot6, slot7),
 		onYes = function ()
 			if slot0.skinTicket < slot1 then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
+				pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_item_1"))
 
 				return
 			end
@@ -595,7 +613,7 @@ function slot0.addShopTimer(slot0, slot1)
 		return
 	end
 
-	slot7 = pg.TimeMgr.GetInstance().Table2ServerTime(slot6, slot5)
+	slot7 = pg.TimeMgr:GetInstance().Table2ServerTime(slot6, slot5)
 	slot0.shopTimer = Timer.New(function ()
 		if slot0 < slot0:GetServerTime() then
 			slot2:removeShopTimer()
@@ -672,9 +690,9 @@ end
 
 function slot0.loadChar(slot0, slot1)
 	slot0:recycleChar()
-	pg.UIMgr.GetInstance():LoadingOn()
+	pg.UIMgr:GetInstance():LoadingOn()
 	PoolMgr.GetInstance():GetSpineChar(slot1, true, function (slot0)
-		pg.UIMgr.GetInstance():LoadingOff()
+		pg.UIMgr:GetInstance():LoadingOff()
 
 		slot0.modelTf = tf(slot0)
 		slot0.modelTf.localScale = Vector3(0.9, 0.9, 1)

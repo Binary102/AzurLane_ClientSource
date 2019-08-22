@@ -18339,10 +18339,10 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "甘口？辛口？好みは人それぞれ…<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
+		display = "最近流行りの飲み物（らしい）",
 		rarity = 2,
 		type = 3,
-		name = "海軍カレー",
+		name = "ミルキィ饅頭",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -69204,6 +69204,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59783] = {
+		display = "チケット所持中でお祭りのミニゲームをプレイすると入手可能！スタンプを集めて、報酬を手に入れよう！",
+		rarity = 2,
+		type = 0,
+		name = "祭スタンプ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59783,
+		icon = "props/summer_stamp",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59801] = {
 		display = "ピースA-1",
 		rarity = 2,
@@ -71938,6 +71954,7 @@ pg.item_data_statistics = {
 		59780,
 		59781,
 		59782,
+		59783,
 		59801,
 		59802,
 		59803,

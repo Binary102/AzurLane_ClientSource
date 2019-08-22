@@ -22003,6 +22003,119 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[201221] = {
+		name = "ちょっと美味しい日",
+		bg = "114",
+		ship_group = 20122,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		id = 201221,
+		painting = "tianhou_2",
+		air_bullet_skin = "",
+		hand_id = 13,
+		shop_type_id = 10,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "tianhou_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "重桜のお祭り、楽しいです！指揮官、明石さんのたこ焼きはいかがですか？すごく美味しいと聞きましたよ？",
+		voice_actor = 37,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.43,
+					0.728,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.395,
+					0.711,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.001,
+					0.009,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.375,
+					0.757,
+					0
+				}
+			},
+			plane = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.549,
+							2.179,
+							-0.4
+						}
+					}
+				}
+			}
+		}
+	},
 	[201230] = {
 		name = "ヴァンパイア",
 		bg = "",
@@ -55305,7 +55418,7 @@ pg.ship_skin_template = {
 		painting = "I168_2",
 		air_bullet_skin = "",
 		hand_id = 14,
-		shop_type_id = 0,
+		shop_type_id = 10,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -73982,6 +74095,105 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[900195] = {
+		name = "北風",
+		bg = "",
+		ship_group = 900195,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		id = 900195,
+		painting = "beifeng",
+		air_bullet_skin = "",
+		hand_id = 6,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "beifeng",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "駆逐艦・北風",
+		voice_actor = 33,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.118,
+					0.774,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.001,
+					0.076,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.081,
+					0.724,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.48,
+							2.389,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
 	[10100010] = {
 		name = "ネプテューヌ",
 		bg = "",
@@ -76487,7 +76699,7 @@ pg.ship_skin_template = {
 		painting = "aijiangDD_2",
 		air_bullet_skin = "",
 		hand_id = 13,
-		shop_type_id = 0,
+		shop_type_id = 10,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -79025,6 +79237,7 @@ pg.ship_skin_template = {
 		201218,
 		201219,
 		201220,
+		201221,
 		201230,
 		201231,
 		201232,
@@ -79506,6 +79719,7 @@ pg.ship_skin_template = {
 		900192,
 		900193,
 		900194,
+		900195,
 		10100010,
 		10100020,
 		10100030,

@@ -399,8 +399,6 @@ function slot0.Clone2Full(slot0, slot1, slot2)
 end
 
 function slot0.TryPlayStory(slot0)
-	return
-
 	if "TIANHOUYUYI2" then
 		pg.StoryMgr.GetInstance():Play(slot1)
 	end

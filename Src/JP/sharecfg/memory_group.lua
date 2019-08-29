@@ -1129,7 +1129,19 @@ pg.memory_group = {
 		id = 165,
 		icon = "title_event",
 		memories = {
-			889
+			889,
+			890
+		}
+	},
+	[166] = {
+		title = "SPストーリー",
+		type = 2,
+		id = 166,
+		icon = "title_event",
+		memories = {
+			891,
+			892,
+			894
 		}
 	},
 	[201] = {
@@ -1874,6 +1886,7 @@ pg.memory_group = {
 		163,
 		164,
 		165,
+		166,
 		201,
 		501,
 		502,

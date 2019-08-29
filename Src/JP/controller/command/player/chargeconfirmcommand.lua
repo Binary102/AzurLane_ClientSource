@@ -6,9 +6,9 @@ class("ChargeConfirmCommand", pm.SimpleCommand).execute = function (slot0, slot1
 		pay_id_bili = slot1.getBody().bsId or ""
 	}, 11505, function (slot0)
 		if slot0 then
-			print("��Ϣ11505���ش�����Ϊ��" .. slot0.result)
+			print("消息11505返回错误码为：" .. slot0.result)
 		else
-			print("��Ϣ11505��������Ϊ��")
+			print("消息11505返回数据为空")
 		end
 
 		if slot0.result == 0 then

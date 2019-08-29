@@ -255,8 +255,6 @@ return {
 		return
 	end,
 	BindCPU = function ()
-		slot0:callSdkApi("bindCpu", nil)
-
 		return
 	end,
 	OnAndoridBackPress = function ()

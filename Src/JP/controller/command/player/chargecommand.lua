@@ -1,4 +1,10 @@
 class("ChargeCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	if (PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP) and not pg.SdkMgr.GetInstance():CheckAiriCanBuy() then
+		print("wait for a second, Do not click quickly~")
+
+		return
+	end
+
 	slot3 = slot1:getBody().shopId
 	slot5 = getProxy(ShopsProxy):getFirstChargeList() or {}
 

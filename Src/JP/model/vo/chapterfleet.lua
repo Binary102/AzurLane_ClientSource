@@ -30,6 +30,7 @@ end
 function slot0.update(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.name = nil
+	slot0.fleetId = slot1.fleet_id
 
 	if slot1.fleet_id then
 		slot0.name = (getProxy(FleetProxy):getFleetById(slot1.fleet_id) and slot3.name ~= "" and slot3.name) or Fleet.DEFAULT_NAME[slot1.fleet_id]
@@ -143,7 +144,7 @@ function slot0.updateShips(slot0, slot1)
 end
 
 function slot0.flushShips(slot0)
-	slot0.name = (getProxy(FleetProxy):getFleetById(slot0.id) and slot2.name ~= "" and slot2.name) or Fleet.DEFAULT_NAME[slot0.id]
+	slot0.name = (getProxy(FleetProxy):getFleetById(slot0.fleetId) and slot2.name ~= "" and slot2.name) or Fleet.DEFAULT_NAME[slot0.fleetId] or Fleet.DEFAULT_NAME[slot0.id]
 
 	for slot7, slot8 in ipairs(slot3) do
 		if slot0:fetchShipVO(slot8) then

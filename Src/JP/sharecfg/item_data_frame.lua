@@ -64,6 +64,30 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>――青き自由のために！ユニオンに武運を！</color>\n「開かれし紺碧の砂箱」イベントで入手可能",
 		scene = {}
 	},
+	[401] = {
+		name = "殿堂入り：エンタープライズ",
+		time_second = 0,
+		id = 401,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>前回人気投票殿堂入り艦船テーマのチャットフレーム</color>\n「アズールレーン人気投票2019」殿堂入りページで入手可能",
+		scene = {}
+	},
+	[402] = {
+		name = "殿堂入り：ベルファスト",
+		time_second = 0,
+		id = 402,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>前回人気投票殿堂入り艦船テーマのチャットフレーム</color>\n「アズールレーン人気投票2019」殿堂入りページで入手可能",
+		scene = {}
+	},
+	[403] = {
+		name = "殿堂入り：綾波",
+		time_second = 0,
+		id = 403,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>前回人気投票殿堂入り艦船テーマのチャットフレーム</color>\n「アズールレーン人気投票2019」殿堂入りページで入手可能",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -72,7 +96,10 @@ pg.item_data_frame = {
 		300,
 		301,
 		302,
-		303
+		303,
+		401,
+		402,
+		403
 	}
 }
 

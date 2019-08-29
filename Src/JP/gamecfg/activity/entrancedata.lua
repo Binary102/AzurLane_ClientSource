@@ -153,5 +153,18 @@ return {
 		isShow = function ()
 			return getProxy(ActivityProxy):getActivityById(ActivityConst.SUMMER_FEAST_ID) and not slot0:isEnd()
 		end
+	},
+	{
+		banner = "vote_frame_hall",
+		event = ActivityMediator.GO_FISRT_VOTE,
+		data = {},
+		isShow = function ()
+			return getProxy(ActivityProxy):GetVoteActivty() and not slot1:isEnd() and PLATFORM_CODE ~= PLATFORM_US
+		end,
+		isTip = function ()
+			return _.any(VoteFameHallLayer.configs, function (slot0)
+				return getProxy(TaskProxy):getTaskById(slot0[2]) and slot1:isFinish() and not slot1:isReceive()
+			end)
+		end
 	}
 }

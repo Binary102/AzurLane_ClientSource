@@ -4550,6 +4550,189 @@ pg.ship_data_template = {
 			51
 		}
 	},
+	[101351] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 2,
+		type = 1,
+		energy = 150,
+		name = "バッチ ",
+		can_get_proficency = 0,
+		star = 2,
+		star_max = 5,
+		strengthen_id = 10135,
+		equip_id_2 = 0,
+		equip_id_1 = 11100,
+		group_type = 10135,
+		id = 101351,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			12560
+		},
+		buff_list_display = {
+			12560,
+			20041
+		},
+		hide_buff_list = {
+			51
+		}
+	},
+	[101352] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 4,
+		type = 1,
+		energy = 150,
+		name = "バッチ ",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 5,
+		strengthen_id = 10135,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10135,
+		id = 101352,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			12560,
+			20041
+		},
+		buff_list_display = {
+			12560,
+			20041
+		},
+		hide_buff_list = {
+			51
+		}
+	},
+	[101353] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 6,
+		type = 1,
+		energy = 150,
+		name = "バッチ ",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 5,
+		strengthen_id = 10135,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10135,
+		id = 101353,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			12560,
+			20041
+		},
+		buff_list_display = {
+			12560,
+			20041
+		},
+		hide_buff_list = {
+			51
+		}
+	},
+	[101354] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 8,
+		type = 1,
+		energy = 150,
+		name = "バッチ ",
+		can_get_proficency = 1,
+		star = 5,
+		star_max = 5,
+		strengthen_id = 10135,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10135,
+		id = 101354,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			12560,
+			20042
+		},
+		buff_list_display = {
+			12560,
+			20042
+		},
+		hide_buff_list = {
+			51
+		}
+	},
 	[101361] = {
 		oil_at_start = 1,
 		max_level = 70,
@@ -25460,6 +25643,201 @@ pg.ship_data_template = {
 			52
 		}
 	},
+	[202241] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 4,
+		type = 2,
+		energy = 150,
+		name = "ブラック・プリンス",
+		can_get_proficency = 0,
+		star = 2,
+		star_max = 5,
+		strengthen_id = 20224,
+		equip_id_2 = 5000,
+		equip_id_1 = 21500,
+		group_type = 20224,
+		id = 202241,
+		equip_1 = {
+			1,
+			2
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			12550,
+			4081
+		},
+		buff_list_display = {
+			12550,
+			4081,
+			21121
+		},
+		hide_buff_list = {
+			52
+		}
+	},
+	[202242] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 6,
+		type = 2,
+		energy = 150,
+		name = "ブラック・プリンス",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 5,
+		strengthen_id = 20224,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 20224,
+		id = 202242,
+		equip_1 = {
+			1,
+			2
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			12550,
+			4081,
+			21121
+		},
+		buff_list_display = {
+			12550,
+			4081,
+			21121
+		},
+		hide_buff_list = {
+			52
+		}
+	},
+	[202243] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 8,
+		type = 2,
+		energy = 150,
+		name = "ブラック・プリンス",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 5,
+		strengthen_id = 20224,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 20224,
+		id = 202243,
+		equip_1 = {
+			1,
+			2
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			12550,
+			4081,
+			21121
+		},
+		buff_list_display = {
+			12550,
+			4081,
+			21121
+		},
+		hide_buff_list = {
+			52
+		}
+	},
+	[202244] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 10,
+		type = 2,
+		energy = 150,
+		name = "ブラック・プリンス",
+		can_get_proficency = 1,
+		star = 5,
+		star_max = 5,
+		strengthen_id = 20224,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 20224,
+		id = 202244,
+		equip_1 = {
+			1,
+			2
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			12550,
+			4081,
+			21122
+		},
+		buff_list_display = {
+			12550,
+			4081,
+			21122
+		},
+		hide_buff_list = {
+			52
+		}
+	},
 	[203011] = {
 		oil_at_start = 1,
 		max_level = 70,
@@ -36283,6 +36661,180 @@ pg.ship_data_template = {
 			11360,
 			2151,
 			29282
+		},
+		hide_buff_list = {
+			51
+		}
+	},
+	[301541] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 2,
+		type = 1,
+		energy = 150,
+		name = "清波",
+		can_get_proficency = 0,
+		star = 2,
+		star_max = 5,
+		strengthen_id = 30154,
+		equip_id_2 = 35200,
+		equip_id_1 = 31200,
+		group_type = 30154,
+		id = 301541,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {},
+		buff_list_display = {
+			22056
+		},
+		hide_buff_list = {
+			51
+		}
+	},
+	[301542] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 4,
+		type = 1,
+		energy = 150,
+		name = "清波",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 5,
+		strengthen_id = 30154,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 30154,
+		id = 301542,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			22056
+		},
+		buff_list_display = {
+			22056
+		},
+		hide_buff_list = {
+			51
+		}
+	},
+	[301543] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 6,
+		type = 1,
+		energy = 150,
+		name = "清波",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 5,
+		strengthen_id = 30154,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 30154,
+		id = 301543,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			22056
+		},
+		buff_list_display = {
+			22056
+		},
+		hide_buff_list = {
+			51
+		}
+	},
+	[301544] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 8,
+		type = 1,
+		energy = 150,
+		name = "清波",
+		can_get_proficency = 1,
+		star = 5,
+		star_max = 5,
+		strengthen_id = 30154,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 30154,
+		id = 301544,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			22057
+		},
+		buff_list_display = {
+			22057
 		},
 		hide_buff_list = {
 			51
@@ -65597,6 +66149,10 @@ pg.ship_data_template = {
 		101342,
 		101343,
 		101344,
+		101351,
+		101352,
+		101353,
+		101354,
 		101361,
 		101362,
 		101363,
@@ -66050,6 +66606,10 @@ pg.ship_data_template = {
 		202232,
 		202233,
 		202234,
+		202241,
+		202242,
+		202243,
+		202244,
 		203011,
 		203012,
 		203013,
@@ -66288,6 +66848,10 @@ pg.ship_data_template = {
 		301492,
 		301493,
 		301494,
+		301541,
+		301542,
+		301543,
+		301544,
 		301561,
 		301562,
 		301563,

@@ -77,16 +77,19 @@ end
 
 function slot0.addListener(slot0)
 	onButton(slot0, slot0.bg, function ()
-		slot0:willExit()
+		slot0:exit()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.btnBack, function ()
-		slot0:willExit()
+		slot0:exit()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.shopBtn, function ()
-		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
-			wrap = ChargeScene.TYPE_ITEM
-		})
-		pg.m02.sendNotification:willExit()
+		if getProxy(ContextProxy):getContextByMediator(ChargeMediator) then
+			slot0:exit()
+		else
+			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
+				wrap = ChargeScene.TYPE_ITEM
+			})
+		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.confirmBtn, function ()
 		if slot0.selectedIndex == 1 then
@@ -99,7 +102,7 @@ function slot0.addListener(slot0)
 			id = slot0,
 			count = slot0.selectedNum
 		})
-		slot0:willExit()
+		slot0:exit()
 	end, SFX_PANEL)
 
 	for slot4 = 1, 2, 1 do
@@ -149,7 +152,9 @@ end
 
 function slot0.overLayMyself(slot0, slot1)
 	if slot1 == true then
-		pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+		pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+			weight = LayerWeightConst.TOP_LAYER
+		})
 	else
 		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 	end

@@ -2809,6 +2809,58 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[149] = {
+		advice = 0,
+		name = "芝居舞台 ",
+		count = 1,
+		type = 7,
+		dir = 0,
+		gain_by = "",
+		is_get_time_note = 1,
+		belong = 1,
+		can_rotate = 1,
+		effect = "",
+		dorm_icon_price = 500,
+		not_for_sale = 1,
+		icon = "piyingxiicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 5,
+		tag = 6,
+		picture = "",
+		canputon = 0,
+		discount = 0,
+		id = 149,
+		comfortable = 0,
+		describe = "東煌の伝統芸能「皮影（ピーイン）」をご覧あれー！ ",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			13,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"piyingxi",
+				"normal",
+				{
+					"action"
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		can_rotate = 0,
 		name = "友情の空気ポンプ",
@@ -81619,6 +81671,7 @@ pg.furniture_data_template = {
 		143,
 		145,
 		148,
+		149,
 		100002,
 		100003,
 		100004,

@@ -5,6 +5,7 @@ slot0.GO_SHOPS_LAYER = "event go shop layer"
 slot0.BATTLE_OPERA = "event difficult sel"
 slot0.REQUEST_VOTE_INFO = "event request vote info"
 slot0.GO_VOTE_LAYER = "event go vote layer"
+slot0.GO_FISRT_VOTE = "event go first vote"
 slot0.GO_BACKYARD = "event go backyard"
 slot0.GO_LOTTERY = "event go lottery"
 slot0.EVENT_COLORING_ACHIEVE = "event coloring achieve"
@@ -21,11 +22,18 @@ slot0.GO_DODGEM = "event go dodgem"
 slot0.SPECIAL_BATTLE_OPERA = "special battle opera"
 slot0.GO_PRAY_POOL = "go pray pool"
 slot0.SELECT_ACTIVITY = "event select activity"
+slot0.OPEN_VOTEBOOK = "event open vote book"
 slot0.SHOW_NEXT_ACTIVITY = "show next activity"
 
 function slot0.register(slot0)
 	slot0.UIAvalibleCallbacks = {}
 
+	slot0:bind(slot0.OPEN_VOTEBOOK, function (slot0)
+		slot0:addSubLayers(Context.New({
+			mediator = VoteOrderBookMediator,
+			viewComponent = VoteOrderBookLayer
+		}))
+	end)
 	slot0:bind(slot0.GO_DODGEM, function (slot0, slot1)
 		slot0:sendNotification(GAME.BEGIN_STAGE, {
 			system = SYSTEM_SUBMARINE_RUN,
@@ -149,10 +157,25 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.REQUEST_VOTE_INFO, slot1)
 	end)
 	slot0:bind(slot0.GO_VOTE_LAYER, function (slot0, slot1)
+		if not _.detect(pg.activity_vote.all, function (slot0)
+			return pg.TimeMgr.GetInstance():inTime(pg.activity_vote[slot0].time_show) and slot1.is_in_game == 1
+		end) then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_not_start"))
+
+			return
+		end
+
+		slot0:sendNotification(GAME.REQUEST_VOTE_INFO, {
+			configId = slot2,
+			callback = function ()
+				slot0:sendNotification(GAME.GO_SCENE, SCENE.VOTE)
+			end
+		})
+	end)
+	slot0:bind(slot0.GO_FISRT_VOTE, function (slot0, slot1)
 		slot0:addSubLayers(Context.New({
-			mediator = VoteMediator,
-			viewComponent = VoteScene,
-			data = slot1
+			mediator = VoteFameHallMediator,
+			viewComponent = VoteFameHallLayer
 		}))
 	end)
 	slot0:bind(slot0.GO_LOTTERY, function (slot0)
@@ -218,7 +241,10 @@ function slot0.listNotificationInterests(slot0)
 		GAME.SUBMIT_TASK_DONE,
 		GAME.ACT_NEW_PT_DONE,
 		GAME.BEGIN_STAGE_DONE,
-		GAME.RETURN_AWARD_OP_DONE
+		GAME.RETURN_AWARD_OP_DONE,
+		VoteProxy.VOTE_ORDER_BOOK_DELETE,
+		VoteProxy.VOTE_ORDER_BOOK_UPDATE,
+		GAME.REMOVE_LAYERS
 	}
 end
 
@@ -263,6 +289,12 @@ function slot0.handleNotification(slot0, slot1)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
 	elseif slot2 == GAME.RETURN_AWARD_OP_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
+	elseif slot2 == VoteProxy.VOTE_ORDER_BOOK_DELETE or slot2 == VoteProxy.VOTE_ORDER_BOOK_UPDATE then
+		if slot0.viewComponent.pageDic or {}[ActivityConst.VOTE_ORDER_BOOK_PHASE_1] or slot0.viewComponent.pageDic or [ActivityConst.VOTE_ORDER_BOOK_PHASE_2] or slot0.viewComponent.pageDic or [ActivityConst.VOTE_ORDER_BOOK_PHASE_3] or slot0.viewComponent.pageDic or [ActivityConst.VOTE_ORDER_BOOK_PHASE_4] or slot0.viewComponent.pageDic or [ActivityConst.VOTE_ORDER_BOOK_PHASE_5] or slot0.viewComponent.pageDic or [ActivityConst.VOTE_ORDER_BOOK_PHASE_6] or slot0.viewComponent.pageDic or [ActivityConst.VOTE_ORDER_BOOK_PHASE_7] or slot0.viewComponent.pageDic or [ActivityConst.VOTE_ORDER_BOOK_PHASE_8] then
+			slot5:UpdateOrderBookBtn(slot3)
+		end
+	elseif slot2 == GAME.REMOVE_LAYERS and slot3.context.mediator == VoteFameHallMediator then
+		slot0.viewComponent:updateEntrances()
 	end
 end
 
@@ -284,6 +316,10 @@ function slot0.showNextActivity(slot0)
 				activity_id = slot2.id,
 				cmd = (slot2.data1 < 7 and 1) or 2
 			})
+		elseif slot2.id == ActivityConst.SHADOW_PLAY_ID then
+			slot2.clientData1 = 1
+
+			slot0:showNextActivity()
 		end
 	elseif not slot0.viewComponent.activity then
 		slot0.viewComponent:verifyTabs(slot0.contextData.id or (slot0.contextData.type and checkExist(_.detect(slot1:getPanelActivities(), function (slot0)

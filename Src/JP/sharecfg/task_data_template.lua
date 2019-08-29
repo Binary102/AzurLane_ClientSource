@@ -68473,6 +68473,486 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[31013] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91495,
+		type = 36,
+		name = "投票日常建造",
+		count_inherit = 0,
+		desc = "建造を1回行う",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 25,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 31013,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				10
+			}
+		}
+	},
+	[31014] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91495,
+		type = 36,
+		name = "投票日常出击",
+		count_inherit = 0,
+		desc = "艦隊を出撃させ、戦闘15回勝利せよ！",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 25,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 31014,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				10
+			}
+		}
+	},
+	[31015] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91495,
+		type = 36,
+		name = "投票日常委托",
+		count_inherit = 0,
+		desc = "「軍事委託」を4回遂行する",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 25,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 31015,
+		target_num = 4,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				10
+			}
+		}
+	},
+	[31016] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		name = "投票单轮单次",
+		count_inherit = 0,
+		desc = "「投票券入手」毎日任務を10回クリア",
+		target_id_2 = "",
+		sub_type = 91,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 25,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 31016,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			31013,
+			31014,
+			31015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31017] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91509,
+		type = 6,
+		name = "殿堂奖励第一名",
+		count_inherit = 0,
+		desc = "不该看到",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 31017,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				14,
+				401,
+				1
+			}
+		}
+	},
+	[31018] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91510,
+		type = 6,
+		name = "殿堂奖励第二名",
+		count_inherit = 0,
+		desc = "不该看到",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 31018,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				14,
+				402,
+				1
+			}
+		}
+	},
+	[31019] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91512,
+		type = 6,
+		name = "殿堂奖励第三名",
+		count_inherit = 0,
+		desc = "不该看到",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 31019,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				14,
+				403,
+				1
+			}
+		}
+	},
+	[31020] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		name = "投票单轮单次-小组1",
+		count_inherit = 0,
+		desc = "「投票券入手」毎日任務を10回クリア",
+		target_id_2 = "",
+		sub_type = 91,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 25,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 31020,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			31013,
+			31014,
+			31015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31021] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		name = "投票单轮单次-小组2",
+		count_inherit = 0,
+		desc = "「投票券入手」毎日任務を10回クリア",
+		target_id_2 = "",
+		sub_type = 91,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 25,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 31021,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			31013,
+			31014,
+			31015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31022] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		name = "投票单轮单次-小组3",
+		count_inherit = 0,
+		desc = "「投票券入手」毎日任務を10回クリア",
+		target_id_2 = "",
+		sub_type = 91,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 25,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 31022,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			31013,
+			31014,
+			31015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31023] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		name = "投票单轮单次-小组4",
+		count_inherit = 0,
+		desc = "「投票券入手」毎日任務を10回クリア",
+		target_id_2 = "",
+		sub_type = 91,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 25,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 31023,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			31013,
+			31014,
+			31015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31024] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		name = "投票单轮单次-小组5",
+		count_inherit = 0,
+		desc = "「投票券入手」毎日任務を10回クリア",
+		target_id_2 = "",
+		sub_type = 91,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 25,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 31024,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			31013,
+			31014,
+			31015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31025] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		name = "投票单轮单次-复活",
+		count_inherit = 0,
+		desc = "「投票券入手」毎日任務を10回クリア",
+		target_id_2 = "",
+		sub_type = 91,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 25,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 31025,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			31013,
+			31014,
+			31015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
+	[31026] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91496,
+		type = 6,
+		name = "投票单轮单次-决赛",
+		count_inherit = 0,
+		desc = "「投票券入手」毎日任務を10回クリア",
+		target_id_2 = "",
+		sub_type = 91,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 25,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 31026,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			31013,
+			31014,
+			31015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59824,
+				50
+			}
+		}
+	},
 	[40001] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -77253,6 +77733,20 @@ pg.task_data_template = {
 		31004,
 		31005,
 		31006,
+		31013,
+		31014,
+		31015,
+		31016,
+		31017,
+		31018,
+		31019,
+		31020,
+		31021,
+		31022,
+		31023,
+		31024,
+		31025,
+		31026,
 		40001,
 		40002,
 		50001,

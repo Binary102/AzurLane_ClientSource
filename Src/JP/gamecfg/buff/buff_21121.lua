@@ -1,13 +1,13 @@
 return {
 	{
-		desc = "主炮每进行12次攻击，触发全弹发射-黛朵级I"
+		desc = "主炮每进行15次攻击，触发全弹发射-黛朵级I"
 	},
 	time = 0,
 	name = "全弹发射",
 	init_effect = "",
 	id = 21121,
 	picture = "",
-	desc = "主炮每进行12次攻击，触发全弹发射-黛朵级I",
+	desc = "主炮每进行15次攻击，触发全弹发射-黛朵级I",
 	stack = 1,
 	color = "red",
 	icon = 20100,
@@ -19,7 +19,7 @@ return {
 				"onFire"
 			},
 			arg_list = {
-				countTarget = 12,
+				countTarget = 15,
 				countType = 21120,
 				index = {
 					1

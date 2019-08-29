@@ -1,83 +1,74 @@
 slot0 = class("VoteGroup", import("..BaseVO"))
+slot0.VOTE_STAGE = 1
+slot0.STTLEMENT_STAGE = 2
+slot0.DISPLAY_STAGE = 3
 
-function slot0.Ctor(slot0, slot1, slot2)
-	slot0.activityId = slot1
-	slot0.id = slot2
+function slot0.Ctor(slot0, slot1)
+	slot0.id = slot1.id
 	slot0.configId = slot0.id
+	slot0.list = slot1.list
+	slot0.onWeb = slot1.onWeb
+
+	slot0:updateRankMap()
+end
+
+function slot0.isWeb(slot0)
+	return slot0.onWeb
 end
 
 function slot0.bindConfigTable(slot0)
 	return pg.activity_vote
 end
 
+function slot0.isResurrectionRace(slot0)
+	return slot0:getConfig("type") == 4
+end
+
 function slot0.getList(slot0)
 	return slot0.list
 end
 
-function slot0.updateList(slot0, slot1)
-	slot0.list = slot1
+function slot0.UpdateVoteCnt(slot0, slot1, slot2)
+	for slot6, slot7 in ipairs(slot0.list) do
+		if slot7:isSamaGroup(slot1) then
+			slot7:UpdateVoteCnt(slot2)
+		end
+	end
+
+	slot0:updateRankMap()
 end
 
-function slot0.sortList(slot0)
-	_.sort(slot0.list, function (slot0, slot1)
-		if slot0.votes == slot1.votes then
-			return slot0.group < slot1.group
+function slot0.updateRankMap(slot0)
+	table.sort(slot0.list, function (slot0, slot1)
+		if slot0.onWeb then
+			return slot1.netVotes < slot0.netVotes
 		else
 			return slot1.votes < slot0.votes
 		end
 	end)
 
-	slot1 = -1
-	slot2 = 0
-	slot3 = 1
+	slot0.rankMaps = {}
 
-	_.each(slot0.list, function (slot0)
-		if slot0 == -1 or slot0.votes < slot0 then
-			slot1 = slot1 + slot2
-			slot0 = slot0.votes
-			slot2 = 1
-		else
-			slot2 = slot2 + 1
-		end
-
-		slot0.rank = slot1
-	end)
-end
-
-function slot0.getVoteShip(slot0, slot1)
-	return _.detect(slot0.list, function (slot0)
-		return slot0.group == slot0
-	end)
-end
-
-function slot0.voteShip(slot0, slot1)
-	if _.detect(slot0.list, function (slot0)
-		return slot0.group == slot0
-	end) and (slot0:getConfig("type") == VoteConst.RaceFinal or not slot2.ivoted) then
-		slot2.ivoted = true
-		slot2.votes = slot2.votes + 1
+	for slot4, slot5 in ipairs(slot0.list) do
+		slot0.rankMaps[slot5.group] = slot4
 	end
 end
 
-function slot0.loveShip(slot0, slot1)
-	if _.detect(slot0.list, function (slot0)
-		return slot0.group == slot0
-	end) and slot2.ivoted then
-		slot2.votes = slot2.votes + 1
+function slot0.GetRank(slot0, slot1)
+	return slot0.rankMaps[slot1.group] or 0
+end
+
+function slot0.GetStage(slot0)
+	slot2 = slot0:getConfig("time_vote_client")
+	slot3 = slot0:getConfig("time_show")
+
+	if pg.TimeMgr.GetInstance():inTime(slot0:getConfig("time_vote")) then
+		return slot0.VOTE_STAGE
+	elseif pg.TimeMgr.GetInstance():inTime(slot2) then
+		return slot0.STTLEMENT_STAGE
+	elseif pg.TimeMgr.GetInstance():inTime(slot3) then
+		return slot0.DISPLAY_STAGE
 	end
-end
-
-function slot0.getVoteTimeStr(slot0)
-	return i18n("vote_vote_time", table.concat(slot0:getConfig("time_vote")[1][1], "."), table.concat(slot0.getConfig("time_vote")[2][1], "."))
-end
-
-function slot0.getVoteGroupChar(slot0)
-	return ({
-		"A",
-		"B",
-		"C",
-		"D"
-	})[slot0.configId - pg.activity_vote.all[1] + 1]
 end
 
 return slot0

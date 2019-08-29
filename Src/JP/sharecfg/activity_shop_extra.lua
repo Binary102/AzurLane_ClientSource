@@ -722,7 +722,7 @@ pg.activity_shop_extra = {
 		commodity_id = 201221,
 		scene = "",
 		id = 29,
-		order = 1,
+		order = 4,
 		time = {
 			{
 				{

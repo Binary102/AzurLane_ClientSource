@@ -775,6 +775,11 @@ pg.gameset = {
 		description = "",
 		key = "technology_once_limit",
 		key_value = 1
+	},
+	vote_web_url = {
+		description = "vote.azurlane.jp",
+		key = "vote_web_url",
+		key_value = 0
 	}
 }
 

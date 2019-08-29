@@ -656,6 +656,7 @@ function slot0.willExit(slot0)
 
 	slot0:closeThemeBox()
 	slot0:closeMsgBox()
+	PoolMgr.GetInstance():ReturnUI("BackYardIndexUI", slot0.filterTF)
 end
 
 return slot0

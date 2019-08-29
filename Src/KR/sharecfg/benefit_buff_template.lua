@@ -44,11 +44,44 @@ pg.benefit_buff_template = {
 			30
 		}
 	},
+	[10] = {
+		max_time = 86400,
+		name = "학업 ",
+		icon = "Props/buff_minigame_10",
+		benefit_effect = "300",
+		id = 10,
+		benefit_condition = "",
+		benefit_type = "skill_learncost_up",
+		desc = "전술학원에서 스킬 강화 시 수업시간을 줄입니다.\n남은 시간:$1 "
+	},
+	[11] = {
+		max_time = 86400,
+		name = "사업 ",
+		icon = "Props/buff_minigame_11",
+		benefit_effect = "500",
+		id = 11,
+		benefit_condition = "",
+		benefit_type = "battle_buff",
+		desc = "메인, 어려움, 작전문서 스테이지에서 전투 시 아군의 공격력을 소폭 증가시킵니다.\n남은 시간:$1 "
+	},
+	[12] = {
+		max_time = 86400,
+		name = "인연 ",
+		icon = "Props/buff_minigame_12",
+		benefit_effect = "1",
+		id = 12,
+		benefit_condition = "",
+		benefit_type = "intimacy_up_extra",
+		desc = "비서함의 호감도 증가 속도가 빨라집니다.\n남은 시간:$1 "
+	},
 	all = {
 		1,
 		2,
 		3,
-		4
+		4,
+		10,
+		11,
+		12
 	}
 }
 

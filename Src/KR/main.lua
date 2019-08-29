@@ -40,7 +40,7 @@ pg.TimeMgr.GetInstance():Init()
 pg.PushNotificationMgr.GetInstance():Init()
 
 function OnApplicationPause(slot0)
-	print("111OnApplicationPause: " .. tostring(slot0))
+	print("OnApplicationPause: " .. tostring(slot0))
 
 	if not pg.m02 then
 		return

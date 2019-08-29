@@ -143,5 +143,15 @@ return {
 				}
 			})
 		end
+	},
+	{
+		banner = "summer_feast",
+		event = ActivityMediator.EVENT_GO_SCENE,
+		data = {
+			SCENE.SUMMER_FEAST
+		},
+		isShow = function ()
+			return getProxy(ActivityProxy):getActivityById(ActivityConst.SUMMER_FEAST_ID) and not slot0:isEnd()
+		end
 	}
 }

@@ -316,10 +316,10 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "지금 생각할 일은 아니네요. 지금은 나르비크에 위력 정찰을 실시해야하고, 그 다음엔……",
 			typewriter = {
 				speed = 0.05,

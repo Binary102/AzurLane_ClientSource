@@ -225,12 +225,12 @@ function slot0.prepareAnimtion(slot0)
 		slot3 = slot0.animTF:Find("adapt/left_length")
 
 		if slot0.animTF:Find("adapt/top") and slot2 then
-			setAnchoredPosition(slot1, Vector3(slot1.anchoredPosition.x, 180, 0))
-			setAnchoredPosition(slot2, Vector3(slot2.anchoredPosition.x, 180, 0))
+			setAnchoredPosition(slot1, Vector2(slot1.anchoredPosition.x, 180))
+			setAnchoredPosition(slot2, Vector2(slot2.anchoredPosition.x, 180))
 		end
 
 		if slot3 then
-			setAnchoredPosition(slot3, Vector3(-180, slot3.anchoredPosition.y, 0))
+			setAnchoredPosition(slot3, Vector2(-180, slot3.anchoredPosition.y))
 		end
 	end
 end

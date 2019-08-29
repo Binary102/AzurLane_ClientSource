@@ -138,12 +138,11 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			actor = 108010,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			dir = 1,
-			actor = 108010,
 			nameColor = "#a9f548",
+			dir = 1,
 			say = "분명 비서함 일이 많아서 훈련을 소홀히 한 탓이야.",
 			typewriter = {
 				speed = 0.05,

@@ -6132,7 +6132,7 @@ pg.ship_data_group = {
 	[269] = {
 		nationality = 3,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 301309,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 269,
@@ -6140,8 +6140,17 @@ pg.ship_data_group = {
 		index_id = 170,
 		group_type = 30130,
 		trans_type = 1,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_skill = {
+			11130
+		},
 		description = {
 			{
 				"소형함 건조",
@@ -6837,7 +6846,7 @@ pg.ship_data_group = {
 	[167] = {
 		nationality = 3,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 301179,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 167,
@@ -6845,8 +6854,17 @@ pg.ship_data_group = {
 		index_id = 198,
 		group_type = 30117,
 		trans_type = 1,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"C",
+			"A",
+			"E",
+			"A",
+			"D",
+			"C"
+		},
+		trans_skill = {
+			5001
+		},
 		description = {
 			{
 				"메인 스테이지 해역3-3",
@@ -7125,6 +7143,29 @@ pg.ship_data_group = {
 		description = {
 			{
 				"한정 이벤트 : 청홍의 메아리",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[293] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 293,
+		type = 1,
+		index_id = 211,
+		group_type = 30154,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"출석 스탬프",
 				{
 					""
 				},
@@ -10965,6 +11006,7 @@ pg.ship_data_group = {
 		319,
 		170,
 		370,
+		293,
 		295,
 		296,
 		297,

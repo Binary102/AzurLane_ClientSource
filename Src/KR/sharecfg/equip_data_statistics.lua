@@ -3405,6 +3405,296 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[660] = {
+		name = "100/150호 항공 연료 ",
+		type = 10,
+		id = 660,
+		tech = 0,
+		nationality = 1,
+		speciality = "없음",
+		range = 0,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "660",
+		value_1 = "28",
+		angle = 0,
+		avoid_extra = 0,
+		rarity = 4,
+		scatter = "없음",
+		is_siren = 0,
+		ammo = "없음",
+		descrip = "성능치가 150에 도달한 항공 연료. 순이소옥탄의 1.5배에 달하는 폭발 저항 능력을 가지고 있어 엔진의 성능을 크게 향상시켜 준다. ",
+		value_3 = 0,
+		attribute_1 = "air",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6300
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[661] = {
+		id = 661,
+		base = 660,
+		is_siren = 0,
+		value_1 = "32",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[662] = {
+		id = 662,
+		base = 660,
+		is_siren = 0,
+		value_1 = "36",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[663] = {
+		id = 663,
+		base = 660,
+		is_siren = 0,
+		value_1 = "40",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[664] = {
+		id = 664,
+		base = 660,
+		is_siren = 0,
+		value_1 = "44",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[665] = {
+		id = 665,
+		base = 660,
+		is_siren = 0,
+		value_1 = "49",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[666] = {
+		id = 666,
+		base = 660,
+		is_siren = 0,
+		value_1 = "53",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[667] = {
+		id = 667,
+		base = 660,
+		is_siren = 0,
+		value_1 = "57",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[668] = {
+		id = 668,
+		base = 660,
+		is_siren = 0,
+		value_1 = "61",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[669] = {
+		id = 669,
+		base = 660,
+		is_siren = 0,
+		value_1 = "65",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[670] = {
+		id = 670,
+		base = 660,
+		is_siren = 0,
+		value_1 = "70",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[680] = {
+		name = "귀환 표지 ",
+		type = 10,
+		id = 680,
+		tech = 0,
+		nationality = 2,
+		speciality = "없음",
+		range = 0,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "680",
+		value_1 = "18",
+		angle = 0,
+		avoid_extra = 0,
+		rarity = 4,
+		scatter = "없음",
+		is_siren = 0,
+		ammo = "없음",
+		descrip = "72DM형 회항 지시 표지. 항공모함의 주 마스트에 설치되어 있어 함재기가 항공모함의 실제 위치를 파악하는데 도움을 준다. ",
+		value_3 = 0,
+		attribute_1 = "air",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6310
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[681] = {
+		id = 681,
+		base = 680,
+		is_siren = 0,
+		value_1 = "22",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[682] = {
+		id = 682,
+		base = 680,
+		is_siren = 0,
+		value_1 = "26",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[683] = {
+		id = 683,
+		base = 680,
+		is_siren = 0,
+		value_1 = "30",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[684] = {
+		id = 684,
+		base = 680,
+		is_siren = 0,
+		value_1 = "34",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[685] = {
+		id = 685,
+		base = 680,
+		is_siren = 0,
+		value_1 = "39",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[686] = {
+		id = 686,
+		base = 680,
+		is_siren = 0,
+		value_1 = "43",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[687] = {
+		id = 687,
+		base = 680,
+		is_siren = 0,
+		value_1 = "47",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[688] = {
+		id = 688,
+		base = 680,
+		is_siren = 0,
+		value_1 = "51",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[689] = {
+		id = 689,
+		base = 680,
+		is_siren = 0,
+		value_1 = "55",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[690] = {
+		id = 690,
+		base = 680,
+		is_siren = 0,
+		value_1 = "60",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
 	[720] = {
 		name = "약속의 증명",
 		type = 10,
@@ -82088,6 +82378,28 @@ pg.equip_data_statistics = {
 		648,
 		649,
 		650,
+		660,
+		661,
+		662,
+		663,
+		664,
+		665,
+		666,
+		667,
+		668,
+		669,
+		670,
+		680,
+		681,
+		682,
+		683,
+		684,
+		685,
+		686,
+		687,
+		688,
+		689,
+		690,
 		720,
 		721,
 		722,

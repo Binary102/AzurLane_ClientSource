@@ -93,7 +93,7 @@ return {
 			actor = 900012,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "观察者",
+			actorName = "옵저버",
 			say = "어때? 새 「체스말<Piece>」이 되어 보지 않을래? 신종 「체스말<Piece>」이 섞이면, 테스트 데이터는 더 재미있어 진다구. ",
 			typewriter = {
 				speed = 0.05,

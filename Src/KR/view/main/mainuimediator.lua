@@ -75,6 +75,18 @@ function slot0.register(slot0)
 		slot0:updateCourseNotices()
 	end
 
+	slot14 = slot7:getBuffList()
+
+	if slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and not slot15:isEnd() then
+		slot16 = slot15:getConfig("config_client").bufflist
+
+		for slot21, slot22 in pairs(getProxy(PlayerProxy):getData().buff_list) do
+			if pg.TimeMgr:GetInstance():GetServerTime() < slot22.timestamp and table.contains(slot16, slot22.id) then
+				table.insert(slot14, ActivityBuff.New(slot15.id, slot22.id, slot22.timestamp))
+			end
+		end
+	end
+
 	slot0.viewComponent:updateBuffList(slot14)
 	slot0:updateTaskNotices()
 	slot0:updateBackYardNotices()
@@ -90,7 +102,7 @@ function slot0.register(slot0)
 	slot0:updateCommissionNotices()
 	slot0:updateSettingsNotice()
 	slot0:updateExSkinNotice()
-	slot0:updateCommanderNotices(getProxy(CommanderProxy).haveFinishedBox(slot15))
+	slot0:updateCommanderNotices(getProxy(CommanderProxy).haveFinishedBox(slot16))
 	slot0:bind(slot0.ON_MONOPOLY, function (slot0)
 		slot0:addSubLayers(Context.New({
 			mediator = MonopolyMediator,
@@ -394,8 +406,8 @@ function slot0.register(slot0)
 	pg.SystemOpenMgr.GetInstance():notification(slot4.level)
 
 	if getProxy(GuildProxy):getData() then
-		if (slot18:getDutyByMemberId(slot4.id) == GuildMember.DUTY_COMMANDER or slot19 == GuildMember.DUTY_DEPUTY_COMMANDER) and not slot17:getRequests() then
-			slot0:sendNotification(GAME.GUILD_GET_REQUEST_LIST, slot18.id)
+		if (slot19:getDutyByMemberId(slot4.id) == GuildMember.DUTY_COMMANDER or slot20 == GuildMember.DUTY_DEPUTY_COMMANDER) and not slot18:getRequests() then
+			slot0:sendNotification(GAME.GUILD_GET_REQUEST_LIST, slot19.id)
 		end
 
 		slot0:updateGuildNotices()
@@ -434,12 +446,13 @@ function slot0.register(slot0)
 
 	if getProxy(MailProxy).total >= 1000 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("warning_mail_max_2"))
-	elseif slot19.total >= 950 then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("warning_mail_max_1", slot19.total))
+	elseif slot20.total >= 950 then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("warning_mail_max_1", slot20.total))
 	end
 
 	slot0.viewComponent:updateActivityMapBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT))
 	slot0.viewComponent:updateActivityEscort()
+	slot0.viewComponent:updateActivityMiniGameBtn(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME))
 end
 
 function slot0.onBluePrintNotify(slot0)
@@ -650,7 +663,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.ESCORT_FETCH_DONE,
 		PERMISSION_GRANTED,
 		PERMISSION_REJECT,
-		PERMISSION_NEVER_REMIND
+		PERMISSION_NEVER_REMIND,
+		MiniGameProxy.ON_HUB_DATA_UPDATE
 	}
 end
 
@@ -767,13 +781,17 @@ function slot0.handleNotification(slot0, slot1)
 				end
 			})
 		end
-	elseif PERMISSION_NEVER_REMIND == slot2 and slot3 == ANDROID_CAMERA_PERMISSION then
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n("apply_permission_camera_tip2"),
-			onYes = function ()
-				OpenDetailSetting()
-			end
-		})
+	elseif PERMISSION_NEVER_REMIND == slot2 then
+		if slot3 == ANDROID_CAMERA_PERMISSION then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("apply_permission_camera_tip2"),
+				onYes = function ()
+					OpenDetailSetting()
+				end
+			})
+		end
+	elseif slot2 == MiniGameProxy.ON_HUB_DATA_UPDATE then
+		slot0.viewComponent:updateActivityMiniGameBtn(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME))
 	end
 end
 

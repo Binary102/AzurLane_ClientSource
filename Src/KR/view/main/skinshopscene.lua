@@ -324,22 +324,22 @@ function slot0.initSkinPage(slot0)
 end
 
 function slot0.UpdateViewMode(slot0, slot1)
-	slot2, slot3 = nil
+	slot2, slot3, slot4 = nil
 
 	if slot0.viewMode == slot0.SHOP_TYPE_TIMELIMIT then
 		slot2 = slot0.PAGE_TIME_LIMIT
-		slot3 = Vector3(35.8, 605.6, 0)
-		posPaint = Vector3(-250, -88.3, 0)
+		slot3 = Vector2(35.8, 605.6)
+		slot4 = Vector2(-250, -88.3)
 	elseif slot0.viewMode == slot0.SHOP_TYPE_COMMON then
 		slot2 = slot0.PAGE_ALL
-		slot3 = Vector3(217.41, 605.6, 0)
-		posPaint = Vector3(-100, -88.3, 0)
+		slot3 = Vector2(217.41, 605.6)
+		slot4 = Vector2(-100, -88.3)
 	end
 
 	setActive(slot0.leftPanel, slot0.viewMode == slot0.SHOP_TYPE_COMMON)
 	triggerButton(slot1:Find(slot2), true)
 	setAnchoredPosition(slot0.namePanel, slot3)
-	setAnchoredPosition(slot0.paintingTF, posPaint)
+	setAnchoredPosition(slot0.paintingTF, slot4)
 	setImageSprite(slot0.title, GetSpriteFromAtlas("ui/SkinShopUI_atlas", slot1[slot0.viewMode][1]), true)
 	setImageSprite(slot0.titleEn, GetSpriteFromAtlas("ui/SkinShopUI_atlas", slot1[slot0.viewMode][2]), true)
 end
@@ -387,14 +387,25 @@ function slot0.updateMainView(slot0, slot1)
 
 		setActive(slot0, slot2)
 	end)
+	slot0:setBg(slot3, slot2, PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot5 .. "_n")))
+	slot0:updatePrice(slot1.goodsVO)
+	slot0:removeShopTimer()
+	slot0:addShopTimer(slot1)
+	slot0:updateBuyBtn(slot1.goodsVO)
+end
 
-	slot8 = Ship.New({
-		configId = slot3.id,
+function slot0.setBg(slot0, slot1, slot2, slot3)
+	slot5 = Ship.New({
+		configId = slot1.id,
 		skin_id = slot2.id
-	})
+	}):getShipBgPrint(true)
 
-	if slot8:getShipBgPrint() ~= slot8:rarity2bgPrintForGet() then
-		GetSpriteFromAtlasAsync("bg/star_level_bg_" .. slot9, "", function (slot0)
+	if slot3 and slot2.bg_sp ~= "" then
+		slot5 = slot2.bg_sp
+	end
+
+	if slot5 ~= slot4:rarity2bgPrintForGet() then
+		GetSpriteFromAtlasAsync("bg/star_level_bg_" .. slot5, "", function (slot0)
 			if not slot0.exited then
 				setImageSprite(slot0:GetCurBgTransform(), slot0)
 				slot0:AnimBg()
@@ -405,11 +416,11 @@ function slot0.updateMainView(slot0, slot1)
 		slot0:AnimBg()
 	end
 
-	slot0:setBg(slot3, slot2, slot6)
-	slot0:updatePrice(slot1.goodsVO)
+	slot0:setBg(slot1, slot2, slot3)
+	slot0:updatePrice(card.goodsVO)
 	slot0:removeShopTimer()
-	slot0:addShopTimer(slot1)
-	slot0:updateBuyBtn(slot1.goodsVO)
+	slot0:addShopTimer(card)
+	slot0:updateBuyBtn(card.goodsVO)
 end
 
 function slot0.setBg(slot0, slot1, slot2, slot3)
@@ -610,6 +621,7 @@ function slot0.addShopTimer(slot0, slot1)
 	end, 1, -1)
 
 	slot0.shopTimer:Start()
+	slot0.shopTimer.func()
 end
 
 function slot0.removeShopTimer(slot0)
@@ -647,7 +659,7 @@ function slot0.updatePrice(slot0, slot1)
 
 			slot0.originalPriceTxt.text = slot8
 
-			setActive(tf(go(slot0.originalPriceTxt)).parent, slot4:isDisCount())
+			setActive(tf(go(slot0.originalPriceTxt)).parent, false)
 		end
 	end
 end

@@ -13,7 +13,7 @@ return {
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/top/LevelStageView(Clone)/bottom_stage/help_button"
+				path = "/OverlayCamera/Overlay/UIMain/top/LevelStageView(Clone)/bottom_stage/normal/help_button"
 			}
 		}
 	}

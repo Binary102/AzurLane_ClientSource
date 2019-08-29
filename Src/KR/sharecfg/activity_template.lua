@@ -77,7 +77,7 @@ pg.activity_template = {
 			"clutter/activity_bg_month_sign"
 		},
 		config_client = {
-			6,
+			9,
 			21
 		}
 	},
@@ -9427,6 +9427,61 @@ pg.activity_template = {
 			}
 		}
 	},
+	[20254] = {
+		mark = 20190829,
+		title_res_tag = "",
+		type = 57,
+		bg = "",
+		config_id = 1,
+		is_show = 0,
+		id = 20254,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					8,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			ships = {
+				"huonululu",
+				"xixuegui",
+				"lei",
+				"dian",
+				"xiefeierde",
+				"beifeng",
+				"I26",
+				"muyue",
+				"ruihe"
+			},
+			bufflist = {
+				10,
+				11,
+				12
+			}
+		}
+	},
 	[25000] = {
 		mark = 20188020,
 		title_res_tag = "",
@@ -10348,6 +10403,7 @@ pg.activity_template = {
 		20251,
 		20252,
 		20253,
+		20254,
 		25000,
 		25001,
 		25002,

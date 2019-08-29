@@ -690,6 +690,11 @@ function slot2(slot0, slot1)
 		slot4 = slot4._closeBtn
 
 		function slot5()
+			slot0 = print
+			slot1 = "点击1"
+
+			slot0(slot1)
+
 			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.hide
@@ -837,6 +842,8 @@ function slot2(slot0, slot1)
 end
 
 function slot3(slot0, slot1)
+	slot0.enable = true
+
 	slot0.DelegateInfo.New(slot0)
 
 	slot0.settings = slot1
@@ -899,6 +906,11 @@ function slot3(slot0, slot1)
 	slot4 = slot0._closeBtn
 
 	function slot5()
+		slot0 = print
+		slot1 = "点击2"
+
+		slot0(slot1)
+
 		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.hide
@@ -2838,6 +2850,8 @@ end
 slot1.switchHelpPage = slot9
 
 function slot9(slot0, slot1)
+	slot2 = true
+	slot0.enable = slot2
 	slot2 = slot0
 	slot2 = slot2.DelegateInfo
 	slot2 = slot2.New
@@ -3310,6 +3324,11 @@ function slot9(slot0, slot1)
 		slot0 = slot0
 		slot0 = slot0.settings
 		slot0 = slot0.onClose
+		slot1 = print
+		slot2 = "点击3"
+
+		slot1(slot2)
+
 		slot1 = slot0
 		slot2 = slot1
 		slot1 = slot1.hide
@@ -4008,8 +4027,6 @@ end
 slot1.Clear = slot9
 
 function slot9(slot0, slot1)
-	slot2 = true
-	slot0.enable = slot2
 	slot2 = slot1.type
 
 	if not slot2 then

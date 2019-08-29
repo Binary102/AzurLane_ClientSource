@@ -22,7 +22,9 @@ function slot0.init(slot0)
 	slot1 = pg.shop_template
 
 	onButton(slot0, slot0.goldAddBtn, function ()
-		pg.goldExchangeMgr = GoldExchangeView.New()
+		if not pg.goldExchangeMgr then
+			pg.goldExchangeMgr = GoldExchangeView.New()
+		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.oilAddBtn, function ()
 		if not ShoppingStreet.getRiseShopId(ShopArgs.BuyOil, slot0.player.buyOilCount) then
@@ -71,7 +73,7 @@ function slot0.init(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.gemAddBtn, function ()
-		function ()
+		function slot0()
 			if not pg.m02:hasMediator(ChargeMediator.__cname) then
 				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
 					wrap = ChargeScene.TYPE_DIAMOND
@@ -79,7 +81,20 @@ function slot0.init(slot0)
 			else
 				pg.m02:sendNotification(slot0.GO_MALL)
 			end
-		end()
+		end
+
+		if PLATFORM_CODE == PLATFORM_JP then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				fontSize = 23,
+				yesText = "text_buy",
+				content = i18n("word_diamond_tip", slot1.player:getFreeGem(), slot1.player:getChargeGem(), slot1.player:getTotalGem()),
+				onYes = slot0,
+				alignment = TextAnchor.UpperLeft,
+				weight = LayerWeightConst.TOP_LAYER
+			})
+		else
+			slot0()
+		end
 	end, SFX_PANEL)
 end
 
@@ -99,7 +114,9 @@ end
 
 function slot0.willExit(slot0)
 	if pg.goldExchangeMgr then
-		pg.goldExchangeMgr:willExit()
+		pg.goldExchangeMgr:exit()
+
+		pg.goldExchangeMgr = nil
 	end
 
 	PoolMgr.GetInstance():ReturnUI("ResPanel", slot0._go)

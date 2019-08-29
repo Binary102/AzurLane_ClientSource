@@ -403,7 +403,6 @@ end
 function setAnchoredPosition(slot0, slot1)
 	slot1.x = slot1.x or rtf(slot0).anchoredPosition.x
 	slot1.y = slot1.y or rtf(slot0).anchoredPosition.y
-	slot1.z = slot1.z or rtf(slot0).anchoredPosition.z
 	slot2.anchoredPosition = slot1
 end
 

@@ -43,6 +43,7 @@ SCENE = {
 	LOGIN = "scene login",
 	NEWGUILD = "scene newguild",
 	ACTIVITY = "scene activity",
+	SUMMER_FEAST = "summer feast",
 	BULLETINBOARD = "scene bulletinboard",
 	COMMANDROOM = "scene command room",
 	BACKYARD = "scene back yard",

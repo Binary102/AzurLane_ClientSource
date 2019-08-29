@@ -166,5 +166,8 @@ return {
 	end,
 	GetDeviceModel = function ()
 		return slot0:GetDeviceModel()
+	end,
+	OnAndoridBackPress = function ()
+		PressBack()
 	end
 }

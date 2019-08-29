@@ -45,7 +45,7 @@ function slot0.applyToFleet(slot0, slot1, slot2, slot3)
 				row = slot0.movePath[#slot0.movePath].row,
 				column = slot0.movePath[#slot0.movePath].column
 			}
-			slot5 = bit.bor(slot5, ChapterConst.DirtyFleet, ChapterConst.DirtyAttachment, ChapterConst.DirtyChampion)
+			slot5 = bit.bor(slot5, ChapterConst.DirtyFleet, ChapterConst.DirtyAttachment, ChapterConst.DirtyChampionPosition)
 		end
 	end
 

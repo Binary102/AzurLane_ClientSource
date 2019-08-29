@@ -19,8 +19,10 @@ function slot0.Ctor(slot0)
 		[TRACKING_7D_RETENTION] = "7d_retention",
 		[TRACKING_BUILD_SHIP] = "construct",
 		[TRACKING_SHIP_INTENSIFY] = "strengthen",
+		[TRACKING_SHIP_LEVEL_UP] = "levelup",
 		[TRACKING_SHIP_HIGHEST_LEVEL] = "character_Max_level",
 		[TRACKING_CUBE_ADD] = "cube_acquisition",
+		[TRACKING_CUBE_CONSUME] = "cube_Consumption",
 		[TRACKING_USER_LEVEL_THIRTY] = "level_30",
 		[TRACKING_USER_LEVEL_FORTY] = "level_40",
 		[TRACKING_PROPOSE_SHIP] = "married",
@@ -73,6 +75,12 @@ function slot0.Tracking(slot0, slot1, slot2, slot3)
 
 		slot5:AddParam("user_id", slot2)
 		slot5:AddParam("Cost_Num", slot3)
+		pg.SdkMgr.GetInstance():UserEventUpload(slot5)
+	elseif slot1 == TRACKING_SHIP_LEVEL_UP then
+		slot5 = AiriUserEvent.New(slot4)
+
+		slot5:AddParam("user_id", slot2)
+		slot5:AddParam("Lvup_Num", slot3)
 		pg.SdkMgr.GetInstance():UserEventUpload(slot5)
 	elseif slot1 == TRACKING_SHIP_HIGHEST_LEVEL then
 		slot5 = AiriUserEvent.New(slot4)

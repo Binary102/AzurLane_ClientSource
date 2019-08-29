@@ -1078,6 +1078,15 @@ pg.memory_group = {
 			888
 		}
 	},
+	[165] = {
+		title = "모두의 여름 축제 ",
+		type = 2,
+		id = 165,
+		icon = "title_event",
+		memories = {
+			889
+		}
+	},
 	[501] = {
 		title = "아카시의 의뢰",
 		type = 3,
@@ -1636,6 +1645,7 @@ pg.memory_group = {
 		162,
 		163,
 		164,
+		165,
 		501,
 		502,
 		503,

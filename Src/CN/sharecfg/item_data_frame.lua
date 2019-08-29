@@ -72,6 +72,30 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「——为了碧蓝色的自由意志，天佑白鹰」</color>\n「箱庭疗法」活动获取",
 		scene = {}
 	},
+	[401] = {
+		name = "殿堂纪念：企业",
+		time_second = 0,
+		id = 401,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>为企业特别制作的角色专属头像框</color>\n「Azurlane人气投票2019」活动获取",
+		scene = {}
+	},
+	[402] = {
+		name = "殿堂纪念：贝尔法斯特",
+		time_second = 0,
+		id = 402,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>为贝尔法斯特特别制作的角色专属头像框</color>\n「Azurlane人气投票2019」活动获取",
+		scene = {}
+	},
+	[404] = {
+		name = "殿堂纪念：椿",
+		time_second = 0,
+		id = 404,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>为椿特别制作的角色专属头像框</color>\n「Azurlane人气投票2019」活动获取",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -81,7 +105,10 @@ pg.item_data_frame = {
 		300,
 		301,
 		302,
-		303
+		303,
+		401,
+		402,
+		404
 	}
 }
 

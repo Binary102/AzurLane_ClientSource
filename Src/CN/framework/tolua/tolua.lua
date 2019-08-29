@@ -1,8 +1,6 @@
 if jit then
-	jit.off()
-	jit.flush()
-
 	if jit.opt then
+		jit.opt.start(3)
 	end
 
 	print("ver" .. jit.version_num .. " jit: ", jit.status())

@@ -3079,6 +3079,15 @@ function slot17(slot0, slot1)
 			slot10 = setPaintingPrefab
 			slot11 = slot4
 			slot12 = slot7
+			slot13 = slot1.hidePaintObj
+
+			if slot13 then
+				slot13 = "_n"
+			else
+				slot13 = ""
+			end
+
+			slot12 = slot12 .. slot13
 			slot13 = "duihua"
 
 			slot10(slot11, slot12, slot13)

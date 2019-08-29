@@ -426,6 +426,16 @@ function ShowFuncInfo(slot0)
 	return string.format("file:%s#%d", debug.getinfo(slot0).source, debug.getinfo(slot0).linedefined)
 end
 
+function String2Table(slot0)
+	slot1 = {}
+
+	for slot5 in slot0:gmatch(".") do
+		table.insert(slot1, slot5)
+	end
+
+	return slot1
+end
+
 slot7 = require("bit")
 
 function unicode_to_utf8(slot0)

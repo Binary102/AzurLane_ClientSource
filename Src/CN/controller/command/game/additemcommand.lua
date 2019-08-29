@@ -28,9 +28,8 @@ class("AddItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				slot6 = getProxy(VoteProxy)
 
 				if slot5 == 2 then
+					getProxy(ActivityProxy).getActivityByType(slot7, ActivityConst.ACTIVITY_TYPE_VOTE).data1 = getProxy(ActivityProxy).getActivityByType(slot7, ActivityConst.ACTIVITY_TYPE_VOTE).data1 + slot4.count
 					slot6.votes = slot6.votes + slot4.count
-				elseif slot5 == 3 then
-					slot6.loves = slot6.loves + slot4.count
 				end
 			elseif slot5 == 4 then
 				slot7[slot4.id] = (getProxy(ColoringProxy).getColorItems(slot6)[slot4.id] or 0) + slot4.count

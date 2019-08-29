@@ -237,8 +237,14 @@ function slot0.updateBuff(slot0, slot1)
 
 		for slot8, slot9 in ipairs(getProxy(PlayerProxy):getData().buff_list) do
 			if table.indexof(slot3, slot9.id, 1) then
-				setImageSprite(slot0.buffImg, GetSpriteFromAtlas("ui/shrineui_atlas", "buff_type_" .. slot4, true))
-				setActive(slot0.buffImg, true)
+				if pg.TimeMgr:GetInstance():GetServerTime() < slot9.timestamp then
+					setImageSprite(slot0.buffImg, GetSpriteFromAtlas("ui/shrineui_atlas", "buff_type_" .. slot4, true))
+					setActive(slot0.buffImg, true)
+
+					break
+				end
+
+				slot4 = nil
 
 				break
 			end

@@ -267,6 +267,7 @@ function slot0.switchLive2d(slot0, slot1)
 				end
 
 				slot0.chatFlag = false
+				slot0.actionFlag = false
 
 				slot0:switchLive2d(not slot0.live2dChecked)
 				slot0.switchLive2d:switchVoiceList(slot0.live2dChecked)
@@ -655,6 +656,7 @@ function slot0.initProfile(slot0)
 					setActive(slot0.prevSelected, true)
 
 					setActive.chatFlag = false
+					setActive.actionFlag = false
 				end)
 			else
 				slot12:setText(HXSet.hxLan(slot10.name))
@@ -1000,7 +1002,7 @@ function slot0.appendVoiceButton(slot0, slot1, slot2)
 
 	onButton(slot0, slot8, function ()
 		if slot0 then
-			if slot1.l2dChar and slot1.live2dChecked and slot1.chatFlag then
+			if slot1.l2dChar and slot1.live2dChecked and (slot1.chatFlag or slot1.actionFlag) then
 				return
 			end
 
@@ -1023,7 +1025,11 @@ function slot0.appendVoiceButton(slot0, slot1, slot2)
 			end
 
 			if slot1.live2dChecked and slot1.l2dChar then
-				slot1.l2dChar:TriggerAction(slot5.l2d_action)
+				slot1.actionFlag = true
+
+				slot1.l2dChar:TriggerAction(slot5.l2d_action, function ()
+					slot0.actionFlag = false
+				end)
 			end
 		else
 			pg.TipsMgr.GetInstance():ShowTips(slot6)
@@ -1047,7 +1053,7 @@ function slot0.appendVoiceExButton(slot0, slot1, slot2)
 			setActive(slot12, true)
 			setText(slot0:findTF("Text", slot12), slot1.voice_name .. "Ex")
 			onButton(slot0, slot12, function ()
-				if slot0.l2dChar and slot0.live2dChecked and slot0.chatFlag then
+				if slot0.l2dChar and slot0.live2dChecked and (slot0.chatFlag or slot0.actionFlag) then
 					return
 				end
 
@@ -1085,7 +1091,7 @@ function slot0.appendVoiceExButton(slot0, slot1, slot2)
 end
 
 function slot0.showChat(slot0, slot1, slot2, slot3)
-	if slot0.l2dChar and slot0.live2dChecked and slot0.chatFlag then
+	if slot0.l2dChar and slot0.live2dChecked and (slot0.chatFlag or slot0.actionFlag) then
 		return
 	end
 
@@ -1116,10 +1122,6 @@ function slot0.showChat(slot0, slot1, slot2, slot3)
 		slot6 = 0
 	end
 
-	if slot6 and slot6 > 0 then
-		slot8 = slot8 + slot6
-	end
-
 	if slot0.currentSkinWord.voice_key >= 0 then
 		if slot0._currentVoice then
 			slot0._currentVoice:Stop(true)
@@ -1130,10 +1132,6 @@ function slot0.showChat(slot0, slot1, slot2, slot3)
 
 			if slot3 then
 				slot2 = long2int(slot0.length) * 0.001
-
-				if slot3 and slot3 > 0 then
-					slot2 = slot2 + slot3
-				end
 			end
 
 			return

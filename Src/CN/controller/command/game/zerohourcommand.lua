@@ -64,13 +64,9 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end
 
 	if getProxy(VoteProxy):getVoteGroup() then
-		_.each(slot17:getList(), function (slot0)
-			slot0.ivoted = false
-		end)
-
 		slot16.votes = 0
 
-		slot16:setVoteGroup(slot17)
+		slot16:updateVoteGroup(slot17)
 	end
 
 	if getProxy(GuildProxy):getData() then

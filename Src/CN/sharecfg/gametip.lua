@@ -6731,7 +6731,7 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		key = "vote_success"
 	},
 	vote_not_enough = {
-		tip = "余票数量不足",
+		tip = "没有投票券了哦",
 		key = "vote_not_enough"
 	},
 	vote_love_not_enough = {
@@ -8982,11 +8982,11 @@ $3]],
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
-		tip = "提尔比茨、希佩尔 建造追加",
+		tip = "鳗 建造追加",
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "Z46、Z25、Z35、Z18、Z19 建造追加",
+		tip = "黑太子、贝奇、丘比特 建造追加",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
@@ -9056,6 +9056,30 @@ $3]],
 	newplayer_notice_8 = {
 		tip = "指挥官，欢迎来到碧蓝航线，先去新兵训练营报道吧。",
 		key = "newplayer_notice_8"
+	},
+	apply_permission_camera_tip1 = {
+		tip = "为了ar录像的使用，需要有权限访问录音功能",
+		key = "apply_permission_camera_tip1"
+	},
+	apply_permission_camera_tip2 = {
+		tip = "您关闭了录音权限，需要到setting界面确认权限开启",
+		key = "apply_permission_camera_tip2"
+	},
+	apply_permission_camera_tip3 = {
+		tip = "您拒绝授予录音权限，这导致您无法使用ar录像",
+		key = "apply_permission_camera_tip3"
+	},
+	apply_permission_record_audio_tip1 = {
+		tip = "为了ar相机的使用，需要有权限访问相机",
+		key = "apply_permission_record_audio_tip1"
+	},
+	apply_permission_record_audio_tip2 = {
+		tip = "您关闭了相机权限，需要到setting界面确认权限开启",
+		key = "apply_permission_record_audio_tip2"
+	},
+	apply_permission_record_audio_tip3 = {
+		tip = "您拒绝授权相机权限，这导致您无法使用ar相机",
+		key = "apply_permission_record_audio_tip3"
 	},
 	nine_choose_one = {
 		tip = "指挥官只能邀请一人参加舞会，\n是否确认邀请<color=#92fc63>$1</color>？\n邀请后会获得对应角色和回礼",
@@ -11249,6 +11273,113 @@ TIPS：
 		tip = "隐藏背景物件",
 		key = "paint_hide_other_obj_tip"
 	},
+	help_vote = {
+		key = "help_vote",
+		tip = {
+			{
+				info = [[
+<color=#FFDD00>2019人气投票活动规则说明</color>
+
+活动说明：
+· 2019年8月29日起，至2019年10月30日，将举行2019
+人气投票活动
+· 本次人气投票活动，将显示服务器合计投票情况
+· 本次投票活动将由<color=#92fc63>游戏内投票</color>，<color=#92fc63>网页投票</color>两部分组成，
+网页投票将以一定比例计入投票结果
+（详情请查看网页投票页面的具体规则说明）
+· 2017年投票活动进入决胜阶段<color=#92fc63>前三名</color>的角色，本次将
+加入<color=#92fc63>投票殿堂</color>，不参与人气投票
+· 除3名殿堂角色外，其余<color=#92fc63>2019年8月29日前</color>加入游戏的
+所有非联动角色，包括方案舰共<color=#92fc63>327</color>名角色将参与投票
+
+获取投票方式：
+指挥官等级达到25级的玩家，可以通过以下方式获得<color=#92fc63>投
+票卷</color>
+· 活动期间，通过完成<color=#92fc63>投票活动任务</color>，获得<color=#92fc63>投票券</color>
+· 活动期间，通过出击获得<color=#92fc63>应援资格</color>，通过应援资格获
+取<color=#92fc63>应援棒</color>
+累积<color=#92fc63>应援棒</color>数量，可在活动页面领取<color=#92fc63>投票券</color>
+<color=#92fc63>应援资格</color>获得后，在<color=#92fc63>有效时间</color>内未完成将会消失
+※在<color=#92fc63>主线普通关卡</color>及<color=#92fc63>限时活动关卡</color>中可获得<color=#92fc63>应援资格</color>
+各关卡获得的<color=#92fc63>应援资格</color>产出的<color=#92fc63>应援棒</color>数量不同
+　第3章……120
+　第4章……150
+　第5章……180
+　第6章……220
+　第7章……270
+　第8章……350
+　第9章……450
+　第10章……550
+　第11章……700
+　第12章……850
+　第13章……1000
+
+每日前两次<color=#92fc63>应援资格</color>在完成关卡时必定获得，<color=#92fc63>应援资格</color>
+过期不会计入次数
+作战档案及主线困难关卡不可获取<color=#92fc63>应援资格</color>
+· 每轮投票结束时，剩余的<color=#92fc63>应援棒</color>、<color=#92fc63>投票卷</color>、<color=#92fc63>应援棒累积
+进度</color>将<color=#92fc63>重置清空</color>
+
+（网页投票详情请查看网页投票页面的具体规则说明）
+
+赛程安排：
+本次投票分为以下9个阶段
+<color=#92fc63>预选赛</color>（仅开放游戏内投票）：2019年8月29日维护后-
+2019年9月5日23：59
+<color=#92fc63>预选复活赛</color>（仅网页投票）：2019年9月12日00：00-
+9月23日23：59
+<color=#92fc63>小组赛A组</color>：2019年9月12日00：00-9月16日23：59
+<color=#92fc63>小组赛B组</color>：2019年9月19日00：009月23日23：59
+<color=#92fc63>小组赛C组</color>：2019年9月26日00：00-9月30日23：59
+<color=#92fc63>小组赛D组</color>：2019年10月3日00：00-10月7日23：59
+<color=#92fc63>小组赛E组</color>：2019年10月10日00：00-10月14日23：59
+<color=#92fc63>决胜复活赛</color>：2019年10月17日00：00-10月21日23：59
+<color=#92fc63>决赛</color>：2019年10月24日14：00-10月30日23：59
+
+每轮投票结束的次日中午12点，将展示该轮投票的统计
+结果
+
+各阶段规则：
+<color=#92fc63>预选赛</color>
+<color=#92fc63>预选赛</color>仅开放游戏内投票，该轮投票结果仅展示角色得
+票排名，不展示得票数量
+<color=#92fc63>预选赛</color>由除3名殿堂角色、联动角色外，共327名角色参
+加
+<color=#92fc63>预选赛</color>获得票数排名前150名的角色，将根据排名，自动
+分成5组，每组30名角色，进入<color=#92fc63>小组赛</color>
+（排名个位数为1或0为A组，2或9为B组，3或8为C组，
+4或7为D组，5或6为E组）
+
+<color=#92fc63>预选复活赛</color>
+<color=#92fc63>预选复活赛</color>仅开放网页投票
+<color=#92fc63>预选复活赛</color>由<color=#92fc63>预选赛</color>未进入<color=#92fc63>小组赛</color>的168名角色参加，
+最终得票数排名前10的角色，进入<color=#92fc63>决胜复活赛</color>
+其余角色将被淘汰
+
+<color=#92fc63>小组赛</color>
+<color=#92fc63>小组赛</color>由<color=#92fc63>预选赛</color>前150名的角色自动分组组成，共5个小
+组，每组30名角色
+每个小组内获得前3名的角色，将直接进入<color=#92fc63>决赛</color>
+第4至第10名的角色，将进入<color=#92fc63>决胜复活赛</color>
+其余角色将被淘汰
+
+<color=#92fc63>决胜复活赛</color>
+<color=#92fc63>决胜复活赛</color>由<color=#92fc63>预选复活赛</color>晋级，及<color=#92fc63>小组赛</color>每个小组第4名
+至第10名的角色参加，共45名角色
+<color=#92fc63>决胜复活赛</color>中的前九名角色，将进入<color=#92fc63>决赛</color>
+其余角色将被淘汰
+
+决赛：
+<color=#92fc63>决赛</color>由<color=#92fc63>小组赛</color>各小组的前3名，<color=#92fc63>决胜复活赛</color>的前9名，
+共24名角色参加
+
+同票规则：<color=#92fc63>预选赛</color>中若出现同票情况，按照达到票数的
+先后处理
+<color=#92fc63>预选复活赛</color>、<color=#92fc63>小组赛</color>、<color=#92fc63>决赛</color>中若出现同票情况，按照<color=#92fc63>预
+选赛</color>的排名先后处理]]
+			}
+		}
+	},
 	tips_firework_exit = {
 		tip = "烟花尚未制作完成，是否确认离开？",
 		key = "tips_firework_exit"
@@ -11256,6 +11387,26 @@ TIPS：
 	result_firework_produce = {
 		tip = "烟花制作完成，本次评价：",
 		key = "result_firework_produce"
+	},
+	vote_get_book = {
+		tip = "获得了应援资格",
+		key = "vote_get_book"
+	},
+	vote_book_is_over = {
+		tip = "本轮投票已结束，无法再获取应援资格",
+		key = "vote_book_is_over"
+	},
+	vote_fame_tip = {
+		tip = "※观赏完殿堂角色特别小故事，可解锁角色专属头像框：企业$1,贝尔法斯特$2,椿$3",
+		key = "vote_fame_tip"
+	},
+	word_maintain = {
+		tip = "维护后",
+		key = "word_maintain"
+	},
+	name_zhanliejahe = {
+		tip = "{namecode:92}(战列)",
+		key = "name_zhanliejahe"
 	}
 }
 

@@ -26,6 +26,11 @@ function slot0.register(slot0)
 				end
 
 				slot0.data[slot5.id] = slot6
+
+				slot0:sendNotification(GAME.ACTIVITY_BE_UPDATED, {
+					isInit = true,
+					activity = slot6
+				})
 			end
 		end
 
@@ -55,6 +60,10 @@ function slot0.register(slot0)
 		if pg.activity_template[slot1.id].type == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
 			slot0:updateActivityFleet(slot0.activity_info)
 		end
+
+		slot0:sendNotification(GAME.ACTIVITY_BE_UPDATED, {
+			activity = slot1
+		})
 	end)
 end
 
@@ -134,7 +143,11 @@ function slot0.getPanelActivities(slot0)
 			end
 		end
 	end):sort(function (slot0, slot1)
-		return slot0.id < slot1.id
+		if slot0:getConfig("login_pop") == slot1:getConfig("login_pop") then
+			return slot0.id < slot1.id
+		else
+			return slot3 < slot2
+		end
 	end):value()
 end
 
@@ -194,6 +207,12 @@ function slot0.findNextAutoActivity(slot0)
 
 								break
 							end
+						end
+					else
+						if slot8.id == ActivityConst.SHADOW_PLAY_ID and slot8.clientData1 == 0 and (getProxy(TaskProxy):getTaskById(slot8:getConfig("config_data")[1]) or slot11:getFinishTaskById(slot10)) and not slot12:isReceive() then
+							slot1 = slot8
+
+							break
 						end
 					end
 				end
@@ -388,6 +407,10 @@ function slot0.recommendActivityFleet(slot0, slot1, slot2)
 	getProxy(FleetProxy):updateActivityFleet(slot1, slot2, slot6)
 
 	return
+end
+
+function slot0.GetVoteActivty(slot0)
+	return slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_1) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_2) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_3) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_4) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_5) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_6) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_7) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_8)
 end
 
 return slot0

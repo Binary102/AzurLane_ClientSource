@@ -1174,7 +1174,19 @@ pg.memory_group = {
 		id = 165,
 		icon = "title_event",
 		memories = {
-			889
+			889,
+			890
+		}
+	},
+	[166] = {
+		title = "特别小故事",
+		type = 2,
+		id = 166,
+		icon = "title_event",
+		memories = {
+			891,
+			892,
+			893
 		}
 	},
 	[501] = {
@@ -1907,6 +1919,7 @@ pg.memory_group = {
 		163,
 		164,
 		165,
+		166,
 		501,
 		502,
 		503,

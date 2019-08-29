@@ -3153,7 +3153,7 @@ pg.furniture_data_template = {
 		level = 1,
 		rarity = 5,
 		tag = 6,
-		picture = "chuanmo/xiangtingliaofa",
+		picture = "",
 		canputon = 0,
 		discount = 0,
 		id = 148,
@@ -3180,6 +3180,58 @@ pg.furniture_data_template = {
 			{
 				"xiangtingliaofa",
 				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[149] = {
+		advice = 0,
+		name = "皮影戏台",
+		count = 1,
+		type = 7,
+		dir = 0,
+		gain_by = "",
+		is_get_time_note = 1,
+		belong = 1,
+		can_rotate = 1,
+		effect = "",
+		dorm_icon_price = 500,
+		not_for_sale = 1,
+		icon = "piyingxiicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 5,
+		tag = 6,
+		picture = "",
+		canputon = 0,
+		discount = 0,
+		id = 149,
+		comfortable = 0,
+		describe = "一起来欣赏古老的皮影戏技艺吧~",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			13,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"piyingxi",
+				"normal",
+				{
+					"action"
+				}
 			}
 		},
 		interAction_group = {}
@@ -90611,6 +90663,7 @@ pg.furniture_data_template = {
 		145,
 		146,
 		148,
+		149,
 		100001,
 		100002,
 		100003,

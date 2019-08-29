@@ -33,7 +33,9 @@ pg.ship_data_create_material = {
 			"<color=#ffde38>超稀有舰船</color>：7%",
 			"<color=#d797ff>精锐舰船</color>：12%",
 			"<color=#3dc6ff>稀有舰船</color>：26%",
-			"普通舰船：55%"
+			"普通舰船：55%",
+			"<color=#d797ff>黑太子</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#3dc6ff>贝奇</color>：5.0%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

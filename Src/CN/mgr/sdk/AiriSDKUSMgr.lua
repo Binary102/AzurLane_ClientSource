@@ -231,7 +231,12 @@ return {
 		AIRI_LAST_GEN_TIME = Time.realtimeSinceStartup
 	end,
 	OpenYostarHelp = function ()
-		slot0:OpenHelpShift()
+		slot0 = getProxy(PlayerProxy)
+		slot1 = slot0:getData()
+		slot5 = getProxy(ServerProxy).getLastServer(slot4, getProxy(UserProxy).getData(slot2).uid)
+
+		print("uid:" .. slot1.id .. ",name:" .. slot1.name .. ",level" .. slot1.level .. ",serverId:" .. slot5.id .. " - " .. slot5.name .. ",rmb:" .. math.modf(slot1.rmb / 100) .. ",createTime:" .. pg.TimeMgr.GetInstance():STimeDescS(slot1.registerTime, "%Y-%m-%d %H:%M:%S"))
+		slot0:OpenHelp(tostring(slot1.id), slot1.name, tostring(slot1.level), tostring(slot5.id .. " - " .. slot5.name), tostring(slot7), pg.TimeMgr.GetInstance().STimeDescS(slot1.registerTime, "%Y-%m-%d %H:%M:%S"))
 	end,
 	GetYostarUid = function ()
 		return slot0.loginRet.UID
@@ -259,9 +264,7 @@ return {
 		PressBack()
 	end,
 	BindCPU = function ()
-		if CSharpVersion > 30 then
-			slot0:callSdkApi("bindCpu", nil)
-		end
+		return
 	end,
 	AiriResultCodeHandler = function (slot0)
 		slot2 = ":" .. slot0:ToInt()
@@ -269,6 +272,10 @@ return {
 		if slot0.ToInt() == 0 then
 			return true
 		else
+			if slot1 == 100110 then
+				slot0.ClearAccountCache()
+			end
+
 			print("SDK Error Code:" .. slot1)
 
 			if string.find(i18n("new_airi_error_code_" .. slot1), "UndefinedLanguage") then

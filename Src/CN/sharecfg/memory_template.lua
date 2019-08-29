@@ -9570,6 +9570,50 @@ pg.memory_template = {
 		icon = "memory_tianhouyuyi",
 		is_open = 0
 	},
+	[890] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "享受夏日祭典吧~",
+		condition = "天后浴衣入手后",
+		story = "TIANHOUYUYI2",
+		id = 890,
+		icon = "memory_tianhouyuyi",
+		is_open = 0
+	},
+	[891] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "碧蓝之海",
+		condition = "参与2019人气投票活动",
+		story = "RENQIQIYE",
+		id = 891,
+		icon = "memory_renqiqiye",
+		is_open = 0
+	},
+	[892] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "绝对完美的她",
+		condition = "参与2019人气投票活动",
+		story = "RENQIBEIERFASITE",
+		id = 892,
+		icon = "memory_renqibeierfasite",
+		is_open = 0
+	},
+	[893] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "夏夜祭典的美味回忆",
+		condition = "参与2019人气投票活动",
+		story = "RENQIXILI",
+		id = 893,
+		icon = "memory_renqixili",
+		is_open = 0
+	},
 	[10011] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -11068,6 +11112,10 @@ pg.memory_template = {
 		887,
 		888,
 		889,
+		890,
+		891,
+		892,
+		893,
 		10011,
 		10012,
 		10013,

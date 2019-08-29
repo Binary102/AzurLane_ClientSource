@@ -123,11 +123,13 @@ function slot0.init(slot0)
 end
 
 function slot0.SetSprite(slot0, slot1, slot2)
-	slot1:GetComponent("Image").sprite = ResourceMgr.Inst:getAssetSync("ui/fireworkfactoryui_atlas", slot2, typeof(Sprite), true, false)
+	slot0:SetImageSprite(slot1:GetComponent("Image"), slot2)
 end
 
 function slot0.SetImageSprite(slot0, slot1, slot2)
-	slot1.sprite = ResourceMgr.Inst:getAssetSync("ui/fireworkfactoryui_atlas", slot2, typeof(Sprite), true, false)
+	pg.PoolMgr.GetInstance():GetSprite("ui/fireworkfactoryui_atlas", slot2, false, function (slot0)
+		slot0.sprite = slot0
+	end)
 end
 
 function slot0.didEnter(slot0)
@@ -695,8 +697,10 @@ function slot0.willExit(slot0)
 
 	if slot0.effect_light then
 		pg.PoolMgr.GetInstance():ReturnPrefab("ui/light01", "", slot0.effect_light)
-		pg.PoolMgr.GetInstance():DestroyPrefab("ui/light01", "")
 	end
+
+	pg.PoolMgr.GetInstance():DestroyPrefab("ui/light01", "")
+	pg.PoolMgr.GetInstance():DestroySprite("ui/fireworkfactoryui_atlas")
 
 	if slot0.OPTimer then
 		slot0.OPTimer:Stop()

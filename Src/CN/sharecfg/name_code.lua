@@ -864,6 +864,11 @@ pg.name_code = {
 		id = 173,
 		name = "扶桑级量产型.verAI",
 		code = "魟量产型.verAI"
+	},
+	{
+		id = 174,
+		name = "清波",
+		code = "棈"
 	}
 }
 

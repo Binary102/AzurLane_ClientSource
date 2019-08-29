@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"闪耀☆战斗之星！\n\n<size=45>三　圣地亚哥、苦恼中？！</size>",
+					"Sparkling Battle Star!\n\n<size=45>Chapter 3: When In Doubt, Ask a Friend</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 102080,
 			nameColor = "#a9f548",
-			say = "唔…好像有点明白了，又好像不太明白…",
+			say = "I feel like I kinda get it, but I don't really...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所谓的“改造”究竟是什么呢…",
+			say = "What the heck do you do to get retrofitted...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			actor = 102080,
 			nameColor = "#a9f548",
-			say = "不过聪明如圣地亚哥，一定早晚能搞明白的，嗯！",
+			say = "Well, I'm a genius with a 4-digit IQ, so I'll probably understand in due time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼…呼…",
+			say = "Zzzzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀？在那边的是…",
+			say = "Hey, who's that behind the tree over there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呀~吼~~！！！！尼古拉斯~~",
+			say = "Oh! HEEEEY, NICHOLAAAAAS!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			actor = 101319,
 			nameColor = "#a9f548",
-			say = "啊哇哇哇哇！敌、敌袭？！还是地震！？天灾来了！？",
+			say = "WAAAAGH?! Jeebus, what was that?! An earthquake, an airhorn, or both?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			say = "啊哈哈哈，是我是我啦，圣地亚哥~",
+			say = "Nope, just me, San Diego!",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -189,7 +189,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么嘛…原来是圣地亚哥啊，吓了我一跳…",
+			say = "Good gosh... You nearly gave me a heart attack...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！尼古拉斯好像也变得不一样了！",
+			say = "Maybe for Christmas! By the way, is it just me or have you grown a bit?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼哇~因为我一直都在睡觉嘛…睡着睡着身体就成长啦",
+			say = "Have I? Maybe... I sleep all the time... so that could be why...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			actor = 102080,
 			nameColor = "#a9f548",
-			say = "噢噢！多睡觉就能有所成长吗！我记下来了！",
+			say = "Hold up, you can get a retrofit just by sleeping?! I need to write this down!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…也不是……算了，解释也好麻烦——",
+			say = "(Don't think it works that way, but I can't be bothered to explain it...) Yup, worked for me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			}
 		},
 		{
-			say = "才不是那样的啦啦啦啦啦！！！",
+			say = "No, that's not how it works!",
 			side = 2,
 			actor = 101259,
 			dir = 1,
@@ -309,7 +309,7 @@ return {
 			}
 		},
 		{
-			say = "呀吼~哈曼~",
+			say = "Heyo, Hammann!",
 			side = 1,
 			bgName = "star_level_bg_103",
 			actor = 102080,
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			actor = 101259,
 			nameColor = "#a9f548",
-			say = "这边可是历经了千辛万苦，好不容易才完成的“改造”啊！",
+			say = "Let me tell you: to get MY retrofit, I had to work my butt off while everyone stood by and stared at me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要不是想着能为指挥官多出点力…（小声",
+			say = "All because I was stupid and wanted to be more useful to the Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？哈曼为指挥官做什么？",
+			say = "Useful to the Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			actor = 101259,
 			nameColor = "#a9f548",
-			say = "没、没什么啦！总之我想说的就是，改造才没有那么容易呢！要做好心理准备才行啦！",
+			say = "N-never mind, it doesn't matter! What I'm saying is: you want a retrofit? Then work hard for it! It won't just fall into your lap!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！好像又更明白了一些！",
+			say = "Oh, okay! I think I'm starting to get it now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…怎么都好啦，总之让我再多睡一会吧…Zzz",
+			say = "If that's all, then I'm going back to sleep now... Good night, or morning, or whatever it is... Zzzzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "蜕变之路似乎也并不是那么好走，有了心理准备的圣地亚哥，似乎距离“改造”又更进了一步——也许",
+			say = "And so, San Diego felt like she had adopted the right mindset to receive a retrofit. Perhaps her goal was just within reach, and all she had to do was keep advancing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

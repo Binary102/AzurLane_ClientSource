@@ -132,6 +132,50 @@ slot1 = {
 	[ActivityConst.SUMMER_REMAKEPT] = {
 		className = "SummerRemakePTPage",
 		uiName = "summerremakeptpage"
+	},
+	[ActivityConst.VOTE_ORDER_BOOK_PHASE_1] = {
+		className = "VoteOrderBookPage",
+		uiName = "VotePage"
+	},
+	[ActivityConst.VOTE_ORDER_BOOK_PHASE_2] = {
+		className = "VoteOrderBookPage",
+		uiName = "VotePage"
+	},
+	[ActivityConst.VOTE_ORDER_BOOK_PHASE_3] = {
+		className = "VoteOrderBookPage",
+		uiName = "VotePage"
+	},
+	[ActivityConst.VOTE_ORDER_BOOK_PHASE_4] = {
+		className = "VoteOrderBookPage",
+		uiName = "VotePage"
+	},
+	[ActivityConst.VOTE_ORDER_BOOK_PHASE_5] = {
+		className = "VoteOrderBookPage",
+		uiName = "VotePage"
+	},
+	[ActivityConst.VOTE_ORDER_BOOK_PHASE_6] = {
+		className = "VoteOrderBookPage",
+		uiName = "VotePage"
+	},
+	[ActivityConst.VOTE_ORDER_BOOK_PHASE_7] = {
+		className = "VoteOrderBookPage",
+		uiName = "VotePage"
+	},
+	[ActivityConst.VOTE_ORDER_BOOK_PHASE_8] = {
+		className = "VoteOrderBookPage",
+		uiName = "VotePage"
+	},
+	[ActivityConst.SHADOW_PLAY_ID] = {
+		className = "ShadowPlayPage",
+		uiName = "shadowPlayPage"
+	},
+	[ActivityConst.SANDIEGO_REFORM] = {
+		className = "SandiegoReformPage",
+		uiName = "sandiegoreformpage"
+	},
+	[ActivityConst.SKIN_YAMASHIRO_II] = {
+		className = "YamashiroSkinPage",
+		uiName = "yamashiroskinpage"
 	}
 }
 slot2 = {}

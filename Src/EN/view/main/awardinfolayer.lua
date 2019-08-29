@@ -112,7 +112,7 @@ function slot0.didEnter(slot0)
 
 		slot0:emit(slot1.ON_CLOSE)
 
-		if slot0.contextData.onClose then
+		if slot0 then
 			slot0()
 		end
 	end, SFX_CANCEL, {
@@ -224,19 +224,30 @@ function slot0.playAnim(slot0, slot1)
 	for slot6 = 1, #slot0.awards, 1 do
 		setActive(slot7, false)
 		table.insert(slot2, function (slot0)
-			if not slot0.tweenItems then
+			function slot1()
 				slot0()
+
+				if slot1._itemsWindow then
+					w = slot1._itemsWindow.rect.width
+					h = slot1._itemsWindow.rect.height
+
+					setLocalScale(slot1.spriteMask, Vector3(w / slot2 * , h /  * slot3, 1))
+				end
+			end
+
+			if not slot0.tweenItems then
+				slot1()
 
 				return
 			end
 
-			setActive(setActive, true)
+			setActive(slot4, true)
 
-			if slot0.title ~= setActive.TITLE.SHIP and #slot0.awards > 10 then
+			if slot0.title ~= slot5.TITLE.SHIP and #slot0.awards > 10 then
 				scrollTo(slot0._itemsWindow:Find("items_scroll"), 0, 0)
 			end
 
-			table.insert(slot0.tweenItems, LeanTween.delayedCall(LeanTween.delayedCall, System.Action(slot0)).id)
+			table.insert(slot0.tweenItems, LeanTween.delayedCall(slot6, System.Action(slot1)).id)
 		end)
 	end
 

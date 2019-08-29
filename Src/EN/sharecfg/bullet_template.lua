@@ -309,6 +309,61 @@ pg.bullet_template = {
 		},
 		push_power = {}
 	},
+	[105] = {
+		range_offset = 0,
+		modle_ID = "BulletUK",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMiss",
+		miss_sfx = "battle/sink",
+		hit_fx = "pofang",
+		range = 99,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 10,
+		ammo_type = 1,
+		id = 105,
+		velocity = 15,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {},
+		push_power = {}
+	},
 	[701] = {
 		range_offset = 20,
 		modle_ID = "deepcharge",
@@ -102323,6 +102378,7 @@ pg.bullet_template = {
 		102,
 		103,
 		104,
+		105,
 		701,
 		801,
 		802,

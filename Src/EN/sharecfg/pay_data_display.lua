@@ -1327,6 +1327,99 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[112] = {
+		limit_arg = 1,
+		descrip_extra = "*After your purchase, the Lucky Box will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		name = "Yukata Lucky Bag",
+		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
+		subject = "Yukata Lucky Bag",
+		extra_service = 3,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai57",
+		id_str = "com.yostaren.azurlane.diamond122",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 112,
+		airijp_id = "com.yostaren.azurlane.diamond122",
+		extra_service_item = {
+			{
+				2,
+				59957,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				20013,
+				1
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59905,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				20013,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1347,7 +1440,8 @@ pg.pay_data_display = {
 		108,
 		109,
 		110,
-		111
+		111,
+		112
 	}
 }
 

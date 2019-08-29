@@ -42,6 +42,7 @@ slot0.OPEN_TRANINGCAMP = "MainUIMediator:OPEN_TRANINGCAMP"
 slot0.OPEN_COMMANDER = "MainUIMediator:OPEN_COMMANDER"
 slot0.OPEN_BULLETINBOARD = "MainUIMediator:OPEN_BULLETINBOARD"
 slot0.OPEN_ESCORT = "event open escort"
+slot0.ON_VOTE_BOOK = "event on vote book"
 slot0.OPEN_TECHNOLOGY = "MainUIMediator:OPEN_TECHNOLOGY"
 slot0.ON_BOSS_BATTLE = "MainUIMediator:ON_BOSS_BATTLE"
 slot0.ON_MONOPOLY = "MainUIMediator:ON_MONOPOLY"
@@ -81,7 +82,7 @@ function slot0.register(slot0)
 		slot16 = slot15:getConfig("config_client").bufflist
 
 		for slot21, slot22 in pairs(getProxy(PlayerProxy):getData().buff_list) do
-			if table.contains(slot16, slot22.id) then
+			if pg.TimeMgr:GetInstance():GetServerTime() < slot22.timestamp and table.contains(slot16, slot22.id) then
 				table.insert(slot14, ActivityBuff.New(slot15.id, slot22.id, slot22.timestamp))
 			end
 		end
@@ -133,6 +134,12 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
 			shipId = slot1.id
 		})
+	end)
+	slot0:bind(slot0.ON_VOTE_BOOK, function (slot0)
+		slot0:addSubLayers(Context.New({
+			mediator = VoteOrderBookMediator,
+			viewComponent = VoteOrderBookLayer
+		}))
 	end)
 	slot0:bind(slot0.OPEN_CHUANWUSTART, function (slot0, slot1)
 		if slot1 == DockyardScene.MODE_OVERVIEW then
@@ -377,27 +384,11 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.SELTECHNOLOGY)
 	end)
 	slot0:bind(slot0.ON_VOTE, function ()
-		if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_VOTE) or slot1:isEnd() then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_not_start"))
-
-			return
+		if getProxy(ActivityProxy):GetVoteActivty() then
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
+				id = slot1.id
+			})
 		end
-
-		if not _.detect(pg.activity_vote.all, function (slot0)
-			return pg.TimeMgr.GetInstance():inTime(pg.activity_vote[slot0].time)
-		end) then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_not_start"))
-
-			return
-		end
-
-		slot0:sendNotification(GAME.REQUEST_VOTE_INFO, {
-			activityId = slot1.id,
-			configId = slot2,
-			callback = function ()
-				slot0:sendNotification(GAME.GO_SCENE, SCENE.VOTE)
-			end
-		})
 	end)
 
 	if not getProxy(MilitaryExerciseProxy):getData() then
@@ -453,7 +444,7 @@ function slot0.register(slot0)
 
 	slot0.viewComponent:updateActivityMapBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT))
 	slot0.viewComponent:updateActivityEscort()
-	slot0.viewComponent:updateActivityMiniGameBtn(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME))
+	slot0.viewComponent:updateVoteBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_VOTE), getProxy(VoteProxy):GetOrderBook())
 	slot0.viewComponent:updateAnniversaryBtn(slot7:getActivityById(ActivityConst.ANNIVERSARY_TASK_LIST_ID))
 end
 
@@ -666,7 +657,9 @@ function slot0.listNotificationInterests(slot0)
 		PERMISSION_GRANTED,
 		PERMISSION_REJECT,
 		PERMISSION_NEVER_REMIND,
-		MiniGameProxy.ON_HUB_DATA_UPDATE
+		MiniGameProxy.ON_HUB_DATA_UPDATE,
+		VoteProxy.VOTE_ORDER_BOOK_DELETE,
+		VoteProxy.VOTE_ORDER_BOOK_UPDATE
 	}
 end
 
@@ -794,6 +787,8 @@ function slot0.handleNotification(slot0, slot1)
 		end
 	elseif slot2 == MiniGameProxy.ON_HUB_DATA_UPDATE then
 		slot0.viewComponent:updateActivityMiniGameBtn(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME))
+	elseif slot2 == VoteProxy.VOTE_ORDER_BOOK_DELETE or VoteProxy.VOTE_ORDER_BOOK_UPDATE == slot2 then
+		slot0.viewComponent:updateVoteBookBtn(slot3)
 	end
 end
 

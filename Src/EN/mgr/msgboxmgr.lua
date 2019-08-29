@@ -676,6 +676,11 @@ function slot2(slot0, slot1)
 		slot4 = slot4._closeBtn
 
 		function slot5()
+			slot0 = print
+			slot1 = "点击1"
+
+			slot0(slot1)
+
 			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.hide
@@ -823,6 +828,8 @@ function slot2(slot0, slot1)
 end
 
 function slot3(slot0, slot1)
+	slot0.enable = true
+
 	slot0.DelegateInfo.New(slot0)
 
 	slot0.settings = slot1
@@ -885,6 +892,11 @@ function slot3(slot0, slot1)
 	slot4 = slot0._closeBtn
 
 	function slot5()
+		slot0 = print
+		slot1 = "点击2"
+
+		slot0(slot1)
+
 		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.hide
@@ -1813,11 +1825,13 @@ function slot7(slot0, slot1)
 								if slot12 == slot13 then
 									slot12 = setTextEN
 									slot13 = slot3
-									slot14 = slot1.drop
-									slot14 = slot14.cfg
-									slot14 = slot14.desc
+									slot14 = HXSet
+									slot14 = slot14.hxLan
+									slot15 = slot1.drop
+									slot15 = slot15.cfg
+									slot15 = slot15.desc
 
-									slot12(slot13, slot14)
+									slot12(slot13, slot14(slot15))
 								else
 									slot12 = slot1.drop
 									slot12 = slot12.type
@@ -3292,6 +3306,11 @@ function slot9(slot0, slot1)
 		slot0 = slot0
 		slot0 = slot0.settings
 		slot0 = slot0.onClose
+		slot1 = print
+		slot2 = "点击3"
+
+		slot1(slot2)
+
 		slot1 = slot0
 		slot2 = slot1
 		slot1 = slot1.hide

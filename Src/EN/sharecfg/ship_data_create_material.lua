@@ -33,7 +33,9 @@ pg.ship_data_create_material = {
 			"<color=#ffde38>Super Rare</color>：7%",
 			"<color=#d797ff>Elite</color>：12%",
 			"<color=#3dc6ff>Rare</color>：26%",
-			"Common：55%"
+			"Common：55%",
+			"<color=#d797ff>Black Prince</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#3dc6ff>Bache</color>：5.0%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

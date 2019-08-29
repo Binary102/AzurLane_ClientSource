@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区的特别宴会\n\n<size=45>一　准备完成喵！</size>",
+					"The Special Banquet\n\n<size=45>Chapter 1: Preparations Done, Nya!</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·厨房",
+			say = "Port - Kitchen",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			actor = 312012,
 			actorName = "{namecode:98}",
-			say = "呼喵…终于准备完了喵！差点以为要赶不上宴会了喵。",
+			say = "Uunya... I'm finally done with the preparations, nya! I was afraid I wasn't going to be able to make it to the banquet, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			actor = 312012,
 			actorName = "{namecode:98}",
-			say = "累死{namecode:98}了喵…果然准备全港区都参与的宴会没那么容易喵…",
+			say = "I'm wiped, nya... It's not easy setting up an event for everyone here at port, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			}
 		},
 		{
-			say = "那是当然…总之你先从灶台上下来，也不怕弄脏新衣服。",
+			say = "That should be obvious... Anyway, you should get down from there before you get your new clothes dirty.",
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			actor = 312012,
 			actorName = "{namecode:98}",
-			say = "不要喵，{namecode:98}还要再坐会儿，这边挺干净喵。",
+			say = "Don't wannya, I'm gonna sit here for a bit longer. It's clean over here, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			actor = 304020,
 			actorName = "{namecode:71}",
-			say = "两位都辛苦了呢。",
+			say = "I see that you two are working hard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:71}主持厨房也辛苦了喵~今晚要用到的食材和其他东西应该都在这里了喵！",
+			say = "Thanks for staffing the kitchen, Hiei. Tonight's ingredients should have all arrived by now, nya.",
 			actor = 312012,
 			actorName = "{namecode:98}",
 			paintingFadeOut = {
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			actor = 304020,
 			actorName = "{namecode:71}",
-			say = "嗯，帮了大忙了。",
+			say = "Indeed. I appreciate it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			actor = 312012,
 			actorName = "{namecode:98}",
-			say = "不过{namecode:71}你不去会场真的没关系喵？主持宴会不是你的拿手好戏喵？",
+			say = "But is it fine for you to not help out at the main banquet, nya? Hosting is your specialty, isn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			actor = 304020,
 			actorName = "{namecode:71}",
-			say = "一场宴会的成功与否可不只是看表面的光鲜，幕后的努力才是更重要的哦？",
+			say = "A banquet's success isn't solely determined by its glitz or glamor. The hard work behind the scenes is far more important.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			actor = 304020,
 			actorName = "{namecode:71}",
-			say = "对我来说，像这样的幕后工作也是主持宴会的一部分呢。",
+			say = "For me, being able to put in this kind of work is the essence of being a good host.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			actor = 301180,
 			actorName = "{namecode:20}",
-			say = "……确实，我们能够像这样举办庆典，也是多亏大家平日的努力呢…",
+			say = "You have a point... We're only able to have extravagant events like this because of everyone's hard work...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			actor = 312012,
 			actorName = "{namecode:98}",
-			say = "庆典很开心喵，{namecode:98}去看了列克星敦小姐和萨拉小姐的新live，还买了新衣服喵！",
+			say = "The festival is so much fun, nya! I went to Lexington and Sara's concert, and also bought some new clothes, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			actor = 301180,
 			actorName = "{namecode:20}",
-			say = "还真是一如既往地有活力…不过这次我也参加了厨神大赛，呵呵，回想起来也是很充实呢。",
+			say = "You're as energetic as ever... Well, I even entered that cooking contest. Heheh, it was more memorable than I first thought.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			actor = 312012,
 			actorName = "{namecode:98}",
-			say = "{namecode:20}原来会做菜喵？",
+			say = "Nuinui, you can cook, nya?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			actor = 304020,
 			actorName = "{namecode:71}",
-			say = "还差点进入决赛了呢，可惜在半决赛输给了{namecode:134}的家庭料理…",
+			say = "She was very close to advancing to the finals, but she lost to Matsukaze's home-style cooking in the semifinals...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			actor = 301180,
 			actorName = "{namecode:20}",
-			say = "{namecode:134}前辈对于家庭感的掌握确实很厉害，我自愧不如……",
+			say = "Matsukaze's motherly meals were truly tremendous... I stood no chance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			actor = 304020,
 			actorName = "{namecode:71}",
-			say = "呵呵，这次比赛的激烈程度连作为评委的我都有些吃惊呢。",
+			say = "Hehe, I was one of the judges for the match. It was an amazing round.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			actor = 304020,
 			actorName = "{namecode:71}",
-			say = "来自各个阵营的菜肴能在同一个地方百花齐放，也只有在这支舰队才能见到了呢。",
+			say = "Nowhere else except in this fleet would you be able to see so many various cuisines placed together side-to-side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			actor = 312012,
 			actorName = "{namecode:98}",
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			actor = 301180,
 			actorName = "{namecode:20}",
-			say = "先说好，不会给你蹭饭的。",
+			say = "Before you ask, you're not mooching a free meal off of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			actor = 312012,
 			actorName = "{namecode:98}",
-			say = "为什么喵！我们难道不是好朋友喵？！",
+			say = "Why, nya?! What are friends for, nya?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			actor = 312012,
 			actorName = "{namecode:20}",
-			say = "笨蛋，靠太近了！放开我！",
+			say = "You cheapscat! Get your paws off me! Let go!",
 			subActors = {
 				{
 					actor = 301180,
@@ -488,7 +488,7 @@ return {
 			dir = 1,
 			actor = 301180,
 			actorName = "{namecode:20}",
-			say = "知道了我知道了，下次给你做行了吧！",
+			say = "Fine, fine, have it your way! Just this time, I'll bring you something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			actor = 312012,
 			actorName = "{namecode:98}",
-			say = "这才像话喵！",
+			say = "That's more like it, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			actor = 304020,
 			actorName = "{namecode:71}",
-			say = "呵呵，关系真好呢。",
+			say = "Hehe~ I'm glad you two get along so well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			dir = 1,
 			actor = 304020,
 			actorName = "{namecode:71}",
-			say = "不过…正如{namecode:20}说的，我们能举办庆典，靠的是大家的努力。",
+			say = "But... Shiranui made an important point. We're only able to celebrate like this because of everyone's hard work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			}
 		},
 		{
-			say = "是啊，还有现在还在埋头工作的——",
+			say = "That's right. Even now, there's still someone buried in work...",
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -587,7 +587,7 @@ return {
 			dir = 1,
 			actor = 304020,
 			actorName = "{namecode:71}",
-			say = "哎呀，{namecode:20}在关心指挥官的事吗？",
+			say = "Oh my. Shiranui, are you worried about Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			dir = 1,
 			actor = 301180,
 			actorName = "{namecode:20}",
-			say = "…才没有，只是在担心指挥官会不会忙得把宴会都忘了而已。",
+			say = "... As if. I just hope that Commander doesn't forget about the banquet due to having too much work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			dir = 1,
 			actor = 304020,
 			actorName = "{namecode:71}",
-			say = "呵呵，指挥官的努力大家是有目共睹的，不会有人忘了现在指挥室的灯还亮着的。",
+			say = "Hehe. I'm sure everyone knows just how hard Commander is working. We can all see the lights of the office glowing through the night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			dir = 1,
 			actor = 304020,
 			actorName = "{namecode:71}",
-			say = "我们只要努力让每个人都能尽情享受这场宴会就好了~",
+			say = "We just need to do our part so that everyone can have a good time at the banquet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			dir = -1,
 			actor = 312012,
 			actorName = "{namecode:98}",
-			say = "没错喵~{namecode:98}也休息地差不多了，去宴会场地看看喵！",
+			say = "That's right, nya~ I've had enough of a break, so I'm off to the banquet, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			dir = 1,
 			actor = 301180,
 			actorName = "{namecode:20}",
-			say = "我不太喜欢热闹，就留在这帮忙好了。",
+			say = "I'm not a fan of crowded places, so I'll help out from here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,7 +699,7 @@ return {
 			blackBg = true,
 			actor = 304020,
 			actorName = "{namecode:71}",
-			say = "呵呵，那就麻烦你了~",
+			say = "Hehe~ Your help is much appreciated~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

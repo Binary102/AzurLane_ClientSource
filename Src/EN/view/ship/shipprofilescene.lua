@@ -1043,7 +1043,7 @@ function slot0.appendVoiceButton(slot0, slot1, slot2)
 			end
 
 			if slot1.live2dChecked and slot1.l2dChar then
-				slot1.l2dChar:TriggerAction(slot5.l2d_action)
+				slot1.l2dChar:TriggerAction(slot5.l2d_action, true)
 			end
 		else
 			pg.TipsMgr.GetInstance():ShowTips(slot6)
@@ -1136,10 +1136,6 @@ function slot0.showChat(slot0, slot1, slot2, slot3)
 		slot6 = 0
 	end
 
-	if slot6 and slot6 > 0 then
-		slot8 = slot8 + slot6
-	end
-
 	if slot0.currentSkinWord.voice_key >= 0 then
 		if slot0._currentVoice then
 			slot0._currentVoice:Stop(true)
@@ -1150,10 +1146,6 @@ function slot0.showChat(slot0, slot1, slot2, slot3)
 
 			if slot3 then
 				slot2 = long2int(slot0.length) * 0.001
-
-				if slot3 and slot3 > 0 then
-					slot2 = slot2 + slot3
-				end
 			end
 
 			return

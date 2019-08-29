@@ -20,7 +20,8 @@ pg.fleet_tech_ship_class = {
 		nation = 1,
 		ships = {
 			10103,
-			10104
+			10104,
+			10135
 		}
 	},
 	[10103] = {
@@ -49,6 +50,7 @@ pg.fleet_tech_ship_class = {
 			10129,
 			10130,
 			10131,
+			10135,
 			10114,
 			10115,
 			10112,
@@ -616,7 +618,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 50,
 		nation = 2,
 		ships = {
-			20220
+			20220,
+			20224
 		}
 	},
 	[20207] = {
@@ -995,7 +998,8 @@ pg.fleet_tech_ship_class = {
 		nation = 3,
 		ships = {
 			30163,
-			30164
+			30164,
+			30165
 		}
 	},
 	[30111] = {

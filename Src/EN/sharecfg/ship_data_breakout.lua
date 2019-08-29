@@ -1324,6 +1324,65 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[101351] = {
+		use_gold = 300,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 10135,
+		breakout_id = 101352,
+		breakout_view = "Unlock All Out Assault Ⅰ/All weapons' efficiency +2%",
+		id = 101351,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			70041
+		}
+	},
+	[101352] = {
+		use_gold = 800,
+		pre_id = 101351,
+		use_char_num = 1,
+		use_char = 10135,
+		breakout_id = 101353,
+		breakout_view = "Torpedo base +1/Torpedo preload +1/All weapons' efficiency +3%",
+		id = 101352,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			108,
+			108
+		}
+	},
+	[101353] = {
+		use_gold = 1500,
+		pre_id = 101352,
+		use_char_num = 2,
+		use_char = 10135,
+		breakout_id = 101354,
+		breakout_view = "Improve All Out Assault/All weapons' efficiency +5%",
+		id = 101353,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			70042
+		}
+	},
+	[101354] = {
+		use_gold = 0,
+		pre_id = 101353,
+		use_char_num = 0,
+		use_char = 10135,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 101354,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[101361] = {
 		use_gold = 300,
 		pre_id = 0,
@@ -2499,6 +2558,65 @@ pg.ship_data_breakout = {
 		breakout_id = 0,
 		breakout_view = "N/A",
 		id = 102154,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[102171] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 10208,
+		breakout_id = 102172,
+		breakout_view = "Unlock All Out Assault Ⅰ/AA gun efficiency +5%",
+		id = 102171,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			70131
+		}
+	},
+	[102172] = {
+		use_gold = 3000,
+		pre_id = 102171,
+		use_char_num = 1,
+		use_char = 10208,
+		breakout_id = 102173,
+		breakout_view = "Torpedo base +1/Torpedo preload +1/AA gun efficiency +10%",
+		id = 102172,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[102173] = {
+		use_gold = 10000,
+		pre_id = 102172,
+		use_char_num = 2,
+		use_char = 10208,
+		breakout_id = 102174,
+		breakout_view = "Improve All Out Assault/All weapons' efficiency +5%",
+		id = 102173,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			70132
+		}
+	},
+	[102174] = {
+		use_gold = 0,
+		pre_id = 102173,
+		use_char_num = 0,
+		use_char = 10208,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 102174,
 		icon = "10001",
 		level = 0,
 		use_item = {},
@@ -7582,6 +7700,65 @@ pg.ship_data_breakout = {
 		breakout_id = 0,
 		breakout_view = "N/A",
 		id = 202224,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[202241] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 20224,
+		breakout_id = 202242,
+		breakout_view = "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
+		id = 202241,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			71121
+		}
+	},
+	[202242] = {
+		use_gold = 1500,
+		pre_id = 202241,
+		use_char_num = 1,
+		use_char = 20224,
+		breakout_id = 202243,
+		breakout_view = "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		id = 202242,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[202243] = {
+		use_gold = 2500,
+		pre_id = 202242,
+		use_char_num = 2,
+		use_char = 20224,
+		breakout_id = 202244,
+		breakout_view = "Improve EX Barrage/Main gun efficiency +15%",
+		id = 202243,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			71122
+		}
+	},
+	[202244] = {
+		use_gold = 0,
+		pre_id = 202243,
+		use_char_num = 0,
+		use_char = 20224,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 202244,
 		icon = "10001",
 		level = 0,
 		use_item = {},
@@ -19460,6 +19637,10 @@ pg.ship_data_breakout = {
 		101342,
 		101343,
 		101344,
+		101351,
+		101352,
+		101353,
+		101354,
 		101361,
 		101362,
 		101363,
@@ -19540,6 +19721,10 @@ pg.ship_data_breakout = {
 		102152,
 		102153,
 		102154,
+		102171,
+		102172,
+		102173,
+		102174,
 		102181,
 		102182,
 		102183,
@@ -19876,6 +20061,10 @@ pg.ship_data_breakout = {
 		202222,
 		202223,
 		202224,
+		202241,
+		202242,
+		202243,
+		202244,
 		203011,
 		203012,
 		203013,

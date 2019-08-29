@@ -5670,7 +5670,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		display = "Contains loads of valuable rewards",
 		rarity = 4,
 		type = 5,
-		name = "Red Dyed\nConstruction Supplies",
+		name = "Construction Supplies",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -6889,6 +6889,53 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 				2,
 				15008,
 				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[40963] = {
+		display = "Yukata Lucky Bag contains 1 x random Ship skin, 2019 x Gems, 1 x , 20 x Wisdom Cubes, 10 x Quick Finishers, and 100 x Decor Tokens, 1 x Super Rare Cat Box ",
+		rarity = 4,
+		type = 5,
+		name = "Yukata Lucky Bag ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 40963,
+		icon = "Props/fudai57",
+		display_icon = {
+			{
+				2,
+				59957,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				20013,
+				1
 			},
 			{
 				2,
@@ -58090,11 +58137,27 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[59136] = {
+		display = "Can be used to obtain Ballots from the point total on the Popularity Poll 2019 page. The point total resets at each step of the poll. ",
+		rarity = 2,
+		type = 98,
+		name = "Support Points ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59136,
+		icon = "Props/vote_pt",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59615] = {
-		display = "用于『回流活动』累计点数获得奖励，活动结束后将会消失",
+		display = "A ballot for the 2019 Azur Lane Popularity Poll. Will disappear after every step of the vote (Qualifiers, Groups, each Group vote, Finals Comeback, and Finals) has concluded. ",
 		rarity = 2,
 		type = 0,
-		name = "回流pt点",
+		name = "Ballot ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 6,
@@ -58584,6 +58647,38 @@ let us celebrate."]],
 		link_id = 0,
 		id = 59747,
 		icon = "Props/30000",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59748] = {
+		display = "Collect all 18 to receive San Diego's retrofit item – the Sparkling Mic.",
+		rarity = 2,
+		type = 0,
+		name = "San Diego Star",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 8,
+		replace_item = 0,
+		link_id = 30198,
+		id = 59748,
+		icon = "Props/linkstar",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59749] = {
+		display = "An item required to retrofit San Diego – \"I'm number one!\"",
+		rarity = 4,
+		type = 7,
+		name = "Sparkling Mic",
+		shop_id = -1,
+		shiptrans_id = 102174,
+		virtual_type = 0,
+		replace_item = 59773,
+		link_id = 0,
+		id = 59749,
+		icon = "Props/shanyaomaikefeng",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -59350,6 +59445,22 @@ let us celebrate."]],
 		price = {},
 		index = {}
 	},
+	[59824] = {
+		display = "A ballot for the 2019 Azur Lane Popularity Poll. Will disappear after every step of the vote (Qualifiers, Groups, each Group vote, Finals Comeback, and Finals) has concluded. ",
+		rarity = 4,
+		type = 0,
+		name = "Ballot ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 2,
+		replace_item = 0,
+		link_id = 0,
+		id = 59824,
+		icon = "Props/voteT3",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59831] = {
 		display = "Piece 1",
 		rarity = 2,
@@ -59729,6 +59840,32 @@ Skins and their drop rates:
 		replace_item = 0,
 		link_id = 0,
 		id = 59956,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59957] = {
+		display = [[
+This lucky bag contains a random Ship skin listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
+Skins and their drop rates:
+（<color=#92fc63>10.0%</color>）Honolulu Among the Stalls（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10.0%</color>）Vampire Night Princess's Regalia（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12.5%</color>）Zuikaku Ceremonial Crane；
+（<color=#92fc63>13.5%</color>）Ikazuchi Thunderous Festival；
+（<color=#92fc63>13.5%</color>）Inazuma Flash of Fireworks；
+（<color=#92fc63>13.5%</color>）Sheffield A Moment's Respite；
+（<color=#92fc63>13.5%</color>）I-26 Shortly Before the Fireworks；
+（<color=#92fc63>13.5%</color>）Mutsuki Candy Festival!；]],
+		rarity = 4,
+		type = 98,
+		name = "Random Yukata Ship skin ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59957,
 		icon = "Props/clothIcon",
 		display_icon = {},
 		price = {},
@@ -60478,6 +60615,7 @@ Skins and their drop rates:
 		40960,
 		40961,
 		40962,
+		40963,
 		41201,
 		41202,
 		41203,
@@ -61458,6 +61596,7 @@ Skins and their drop rates:
 		59130,
 		59134,
 		59135,
+		59136,
 		59615,
 		59711,
 		59713,
@@ -61486,6 +61625,8 @@ Skins and their drop rates:
 		59745,
 		59746,
 		59747,
+		59748,
+		59749,
 		59750,
 		59751,
 		59752,
@@ -61532,6 +61673,7 @@ Skins and their drop rates:
 		59814,
 		59815,
 		59816,
+		59824,
 		59831,
 		59832,
 		59833,
@@ -61551,6 +61693,7 @@ Skins and their drop rates:
 		59954,
 		59955,
 		59956,
+		59957,
 		60011,
 		60012,
 		70000,

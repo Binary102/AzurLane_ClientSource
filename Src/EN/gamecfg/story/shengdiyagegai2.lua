@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"闪耀☆战斗之星！\n\n<size=45>二　圣地亚哥、想特训？！</size>",
+					"Sparkling Battle Star!\n\n<size=45>Chapter 2: The Quest for Knowledge</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "强袭模式展开，切换为最大出力！",
+			say = "Heavy attack mode prepared, ready to use ultimate firepower!",
 			bgm = "story-1",
 			actor = 201219,
 			nameColor = "#a9f548",
@@ -54,13 +54,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 301059,
 			dir = 1,
-			actorName = "{namecode:6}",
-			say = "“鬼神”之力，好好感受吧！",
+			actor = 301059,
+			nameColor = "#a9f548",
+			say = "Bear witness to my Demon Dance...!",
 			effects = {
 				{
 					active = true,
@@ -82,7 +81,7 @@ return {
 			dir = 1,
 			actor = 101179,
 			nameColor = "#a9f548",
-			say = "呼啊…有点困了",
+			say = "Annihilation Mode reconfiguration complete... *Yawn*... I'm sleepy...",
 			effects = {
 				{
 					active = false,
@@ -114,7 +113,7 @@ return {
 			dir = 1,
 			actor = 401239,
 			nameColor = "#a9f548",
-			say = "啊！拉菲，不行啦，难得大家凑在一起摆个pose，要睡觉等一会再睡！",
+			say = "Destruction Mode, initia– No, Laffey! Now's not the time for sleep! We agreed to display our cool team pose, remember?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +139,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}也…想睡",
+			say = "I'm feeling sleepy as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +155,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜呜…连{namecode:6}都……",
+			say = "You too, Ayanami?! Are Laffey's yawns this contagious?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +171,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈哈，不如大家一起去午睡吧~",
+			say = "Ahaha... Well, standing like this is pretty tiring, so how about we take a break, Zed?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +187,7 @@ return {
 			dir = 1,
 			actor = 401230,
 			nameColor = "#a9f548",
-			say = "啊啊啊！还有人在看着呢！好歹让人家看到我们帅气的一面嘛…",
+			say = "No! Come on, we can't just quit, we're–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +213,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳、咳咳，就是这样，圣地亚哥。虽然坚持不到几秒…不过，大概能感受到吧，所谓“改造”的感觉",
+			say = "Darn it... *Ahem*! Unfortunately, we could only show you for a few seconds... but in essence, that is what a retrofit is like, San Diego!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +224,7 @@ return {
 			}
 		},
 		{
-			say = "嗯…嗯！难道这个就是所谓的气场？",
+			say = "Neato! That was your \"retrofit aura\" thingy, right?",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -260,7 +259,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没、没错！气场是很重要的！",
+			say = "Err... That's right! It's essential to leave an impression, or – as you say – have an aura!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +275,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，圣地亚哥为什么突然想知道改造的事情呢？",
+			say = "Why are you so curious about our retrofits all of a sudden, San Diego?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +291,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，也不知道为什么，突然就有点在意…",
+			say = "Ahaha... I dunno! I'm interested in them, I guess!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +307,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听好咯，圣地亚哥。所谓的改造呀，可不仅仅是改变一点形象这么简单哦！",
+			say = "In that case, I think there's something you should know, San Diego! A retrofit is a big commitment, it's not merely a change of uniform!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +323,7 @@ return {
 			dir = 1,
 			actor = 102080,
 			nameColor = "#a9f548",
-			say = "噢噢？！",
+			say = "Huh...? What's a \"commute mint\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +349,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要通过平常日积月累的训练，再加上追求更进一步的决心，以及适当的时机！才能完成一次真正的“改造”！",
+			say = "You need the persistence to study diligently every day, the resolve to always aspire for greater things, and – lastly – good timing! Once you have all of that, you may receive the chance for a retrofit!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +365,7 @@ return {
 			dir = 1,
 			actor = 102080,
 			nameColor = "#a9f548",
-			say = "噢噢…！改造原来是件这么厉害的事情！",
+			say = "Me neither!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,8 +392,8 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 201210,
-			actorName = "标枪&{namecode:6}&拉菲",
-			say = "噢噢……",
+			actorName = "Javelin & Ayanami & Laffey",
+			say = "Me neither!",
 			subActors = {
 				{
 					actor = 301050,
@@ -434,7 +433,7 @@ return {
 			dir = 1,
 			actor = 401230,
 			nameColor = "#a9f548",
-			say = "怎么连你们都这样了啦！！！！",
+			say = "It certainly i– Wait, am I really the only one who worked so hard?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +458,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "经过了与Z23等伙伴们的交流，圣地亚哥对“改造”有了更深刻的理解，距离蜕变的时刻，已经不远了——也许",
+			say = "And so, with the help of Z23 and company, San Diego had acquired a deeper understanding of the concept of retrofitting. Perhaps this knowledge would eventually lead to a retrofit of her own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,8 +1,176 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		type = 2,
+		param = "30197",
+		type = 3,
 		id = 1,
+		pic = "temp6",
+		time = {
+			{
+				{
+					2019,
+					8,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 2,
+		pic = "temp7",
+		param = {
+			"scene skinshop",
+			{}
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "30198",
+		type = 3,
+		id = 3,
+		pic = "temp8",
+		time = {
+			{
+				{
+					2019,
+					8,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "30199",
+		type = 3,
+		id = 4,
+		pic = "temp9",
+		time = {
+			{
+				{
+					2019,
+					8,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 5,
+		pic = "temp10",
+		param = {
+			"scene get boat",
+			{
+				projectName = "light"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 6,
 		pic = "temp5",
 		param = {
 			"scene command room",
@@ -37,7 +205,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 2,
+		id = 7,
 		pic = "temp1",
 		param = {
 			"scene activity",
@@ -72,7 +240,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 3,
+		id = 8,
 		pic = "temp2",
 		param = {
 			"scene coloring",
@@ -107,7 +275,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 4,
+		id = 9,
 		pic = "temp3",
 		param = {
 			"scene charge",
@@ -144,7 +312,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 5,
+		id = 10,
 		pic = "temp4",
 		param = {
 			"scene charge",
@@ -181,7 +349,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 6,
+		id = 11,
 		pic = "temp11",
 		param = {
 			"CHALLENGE_MAIN_SCENE",
@@ -220,7 +388,12 @@ pg.activity_banner = {
 		3,
 		4,
 		5,
-		6
+		6,
+		7,
+		8,
+		9,
+		10,
+		11
 	}
 }
 

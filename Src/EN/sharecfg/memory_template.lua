@@ -3850,6 +3850,72 @@ pg.memory_template = {
 		icon = "memory_huihua",
 		is_open = 0
 	},
+	[437] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Preparations Done, Nya!",
+		condition = "Clear \"The Special Banquet\" Mission 1.",
+		story = "SHANCHENGLIFU1",
+		id = 437,
+		icon = "memory_shanchenglifu",
+		is_open = 0
+	},
+	[438] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "A Little Chat Outside the Office",
+		condition = "Clear \"The Special Banquet\" Mission 2.",
+		story = "SHANCHENGLIFU2",
+		id = 438,
+		icon = "memory_shanchenglifu",
+		is_open = 0
+	},
+	[439] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Cleveland Enters!",
+		condition = "Clear \"The Special Banquet\" Mission 3.",
+		story = "SHANCHENGLIFU3",
+		id = 439,
+		icon = "memory_shanchenglifu",
+		is_open = 0
+	},
+	[440] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "The Queen at the Banquet",
+		condition = "Clear \"The Special Banquet\" Mission 4.",
+		story = "SHANCHENGLIFU4",
+		id = 440,
+		icon = "memory_shanchenglifu",
+		is_open = 0
+	},
+	[441] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "The Pianist of the Banquet Hall",
+		condition = "Clear \"The Special Banquet\" Mission 5.",
+		story = "SHANCHENGLIFU5",
+		id = 441,
+		icon = "memory_shanchenglifu",
+		is_open = 0
+	},
+	[442] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Anniversary Orchestra",
+		condition = "Clear \"The Special Banquet\" Mission 6.",
+		story = "SHANCHENGLIFU6",
+		id = 442,
+		icon = "memory_shanchenglifu",
+		is_open = 0
+	},
 	[443] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -4046,6 +4112,50 @@ pg.memory_template = {
 		story = "ZHIHUIMIAO4",
 		id = 460,
 		icon = "memory_zhihuimiao",
+		is_open = 0
+	},
+	[461] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "A Seed is Sown",
+		condition = "Begin \"Sparkling Battle Star!\"",
+		story = "SHENGDIYAGEGAI1",
+		id = 461,
+		icon = "memory_shengdiyagegai",
+		is_open = 0
+	},
+	[462] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "The Quest for Knowledge",
+		condition = "Collect the 2nd San Diego Star from the \"Sparkling Battle Star!\" event.",
+		story = "SHENGDIYAGEGAI2",
+		id = 462,
+		icon = "memory_shengdiyagegai",
+		is_open = 0
+	},
+	[463] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "When In Doubt, Ask a Friend",
+		condition = "Collect the 4th San Diego Star from the \"Sparkling Battle Star!\" event.",
+		story = "SHENGDIYAGEGAI3",
+		id = 463,
+		icon = "memory_shengdiyagegai",
+		is_open = 0
+	},
+	[464] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "One Battle Star to Another",
+		condition = "Collect the final San Diego Stars from the \"Sparkling Battle Star!\" event.",
+		story = "SHENGDIYAGEGAI4",
+		id = 464,
+		icon = "memory_shengdiyagegai",
 		is_open = 0
 	},
 	[471] = {
@@ -7359,6 +7469,17 @@ pg.memory_template = {
 		icon = "memory_tianhouyuyi",
 		is_open = 0
 	},
+	[890] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Enjoy for the Festival! ",
+		condition = "Obtain Juno's festival skin. ",
+		story = "TIANHOUYUYI2",
+		id = 890,
+		icon = "memory_tianhouyuyi",
+		is_open = 0
+	},
 	[10011] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -8293,6 +8414,12 @@ pg.memory_template = {
 		434,
 		435,
 		436,
+		437,
+		438,
+		439,
+		440,
+		441,
+		442,
 		443,
 		444,
 		445,
@@ -8311,6 +8438,10 @@ pg.memory_template = {
 		458,
 		459,
 		460,
+		461,
+		462,
+		463,
+		464,
 		471,
 		472,
 		473,
@@ -8612,6 +8743,7 @@ pg.memory_template = {
 		887,
 		888,
 		889,
+		890,
 		10011,
 		10012,
 		10013,

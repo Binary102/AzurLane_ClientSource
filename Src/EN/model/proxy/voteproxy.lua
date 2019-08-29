@@ -1,64 +1,304 @@
 slot0 = class("VoteProxy", import(".NetProxy"))
-slot0.VOTE_GROUP_UPDATE = "VoteProxy:VOTE_GROUP_UPDATE"
+slot0.VOTEGROUP_UPDATE = "VoteProxy:VOTEGROUP_UPDATE"
+slot0.VOTE_ORDER_BOOK_UPDATE = "VoteProxy:VOTE_ORDER_BOOK_UPDATE"
+slot0.VOTE_ORDER_BOOK_DELETE = "VoteProxy:VOTE_ORDER_BOOK_DELETE"
+slot0.VOTES_COUNT_UPDATE = "VoteProxy:VOTES_COUNT_UPDATE"
+slot1 = false
 
 function slot0.register(slot0)
-	slot0.votes = 0
-	slot0.loves = 0
+	slot0.orderBook = nil
 	slot0.voteGroup = nil
+	slot0.webVoteGroup = nil
+	slot0.votes = 0
 	slot0.lastRequestTime = 0
+	slot0.lastWebRequestTime = 0
+end
+
+function slot0.InitWebGroup(slot0, slot1, slot2)
+	slot3 = slot1.list
+
+	if slot0 then
+		slot3 = {
+			{
+				value1 = 0,
+				key = 21301,
+				value2 = 0,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 21302,
+				value2 = 1,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 21304,
+				value2 = 2,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 30130,
+				value2 = 3,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 30131,
+				value2 = 4,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 30179,
+				value2 = 5,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 30132,
+				value2 = 7,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 30133,
+				value2 = 8,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 30135,
+				value2 = 0,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 30137,
+				value2 = 0,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 30138,
+				value2 = 0,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 30141,
+				value2 = 0,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 30101,
+				value2 = 0,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 30105,
+				value2 = 0,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 30109,
+				value2 = 0,
+				value3 = 0
+			}
+		}
+	end
+
+	slot0.webVoteGroup = VoteGroup.New({
+		id = slot2,
+		list = _.map(slot3, function (slot0)
+			return VoteShip.New(slot0)
+		end)
+	})
+end
+
+function slot0.GetWebGroup(slot0)
+	return Clone(slot0.webVoteGroup)
 end
 
 function slot0.initVoteGroup(slot0, slot1, slot2, slot3)
-	slot0.votes = slot3.daily_vote
-	slot0.loves = slot3.love_vote
-	slot4 = {}
-	slot5 = {}
+	slot4 = slot1.list
 
-	if pg.activity_vote[slot2].type == VoteConst.RacePrimary then
-		slot5 = slot6.group_data
-	elseif slot6.type == VoteConst.RaceFinal then
-		slot5 = slot1.data1_list
+	if slot0 then
+		slot4 = {
+			{
+				value1 = 0,
+				key = 21301,
+				value2 = 0,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 21302,
+				value2 = 1,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 21304,
+				value2 = 2,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 30130,
+				value2 = 3,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 30131,
+				value2 = 4,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 30179,
+				value2 = 5,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 30132,
+				value2 = 7,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 30133,
+				value2 = 8,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 30135,
+				value2 = 0,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 30137,
+				value2 = 0,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 30138,
+				value2 = 0,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 30141,
+				value2 = 0,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 30101,
+				value2 = 0,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 30105,
+				value2 = 0,
+				value3 = 0
+			},
+			{
+				value1 = 0,
+				key = 30109,
+				value2 = 0,
+				value3 = 0
+			}
+		}
 	end
 
-	_.each(slot5, function (slot0)
-		slot1 = VoteShip.New({
-			votes = 0,
-			group = slot0
-		})
-		slot1.ivoted = table.contains(slot0.daily_ship_list, slot0)
-
-		table.insert(slot1, slot1)
-	end)
-
-	slot7 = VoteGroup.New(slot1.id, slot2)
-
-	slot7:updateList(slot4)
-
-	slot0.voteGroup = slot7
+	slot0.votes = slot3
+	slot0.voteGroup = VoteGroup.New({
+		id = slot2,
+		list = _.map(slot4, function (slot0)
+			return VoteShip.New(slot0)
+		end)
+	})
 end
 
-function slot0.updateRankInfo(slot0, slot1)
-	slot2 = {}
+function slot0.UpdateVotes(slot0, slot1)
+	slot0.votes = slot0.votes - slot1
 
-	_.each(slot1.list, function (slot0)
-		slot0[slot0.id] = slot0.count
-	end)
-	_.each(slot0.voteGroup:getList(), function (slot0)
-		if slot0[slot0.group] then
-			slot0.votes = slot0[slot0.group]
-		end
-	end)
-	slot0.voteGroup:sortList()
+	slot0:sendNotification(slot0.VOTES_COUNT_UPDATE, slot0.votes)
 end
 
 function slot0.getVoteGroup(slot0)
 	return Clone(slot0.voteGroup)
 end
 
-function slot0.setVoteGroup(slot0, slot1)
+function slot0.updateVoteGroup(slot0, slot1)
 	slot0.voteGroup = slot1
 
-	slot0:sendNotification(slot0.VOTE_GROUP_UPDATE)
+	slot0:sendNotification(slot0.VOTEGROUP_UPDATE, slot0:getVoteGroup())
+end
+
+function slot0.SetOrderBook(slot0, slot1)
+	slot0.orderBook = slot1
+
+	slot0:RemoveOrderBookTimer()
+
+	if slot0.orderBook then
+		slot0:AddOrderBookTimer(slot0.orderBook)
+		slot0:sendNotification(slot0.VOTE_ORDER_BOOK_UPDATE, slot1)
+	else
+		slot0:sendNotification(slot0.VOTE_ORDER_BOOK_DELETE)
+	end
+end
+
+function slot0.GetOrderBook(slot0)
+	return slot0.orderBook
+end
+
+function slot0.IsNewOrderBook(slot0)
+	slot1 = slot0.orderBook and slot0.orderBook.isNew
+
+	if slot0.orderBook then
+		slot0.orderBook:SetIsNew(false)
+	end
+
+	return slot1
+end
+
+function slot0.AddOrderBookTimer(slot0, slot1)
+	if slot1:GetEndTime() - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
+		slot0.timer = Timer.New(function ()
+			slot0:RemoveOrderBook()
+		end, slot3, 1)
+
+		slot0.timer:Start()
+	end
+end
+
+function slot0.RemoveOrderBookTimer(slot0)
+	if slot0.timer then
+		slot0.timer:Stop()
+
+		slot0.timer = nil
+	end
+end
+
+function slot0.RemoveOrderBook(slot0)
+	slot0:RemoveOrderBookTimer()
+	slot0:SetOrderBook(nil)
+end
+
+function slot0.remove(slot0)
+	slot0:RemoveOrderBookTimer()
 end
 
 return slot0

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"闪耀☆战斗之星！\n\n<size=45>四　圣地亚哥、向前进～！</size>",
+					"Sparkling Battle Star!\n\n<size=45>Chapter 4: One Battle Star to Another</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "嗯，下一场演习的时间是——嗯？",
+			say = "Let's see, the next exercise should be starting in... Hm?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			say = "企业大姐头~~！呀吼~~",
+			say = "Howdy do, Enterprise, old pal!",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊，是圣地亚哥么，今天看来也是状态不错的样子",
+			say = "Oh, it's you, San Diego. Always nice to see you so upbeat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸嘿，每天都要保持干劲满满才行呢，不然可是会变成笨蛋的~",
+			say = "Upbeat is my middle name~! You gotta be beaming with energy all day or else your brain'll turn to mush, you know!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "…嗯，有精神总是好的",
+			say = "I suppose. You can never have too much stamina.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……（盯",
+			say = "(Staring intently)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "…怎么了，一直盯着我看？",
+			say = "... What? Is there something on my face?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业大姐头，好像不用“改造”，就有一股很厉害的“气场”呢！",
+			say = "You don't have a retrofit, yet you've got that aura thingy like it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "改造？…是吗，你想了解改造的意义吗？",
+			say = "Retrofit...? Ah, right, heard you've been going around and asking everyone about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，最近看到了好多经历过“改造”的小伙伴呢，虽然不是很明白，但是就突然觉得有些在意起来",
+			say = "I'm learning things~! See, I spotted all these people with retrofits and had no clue what they were, so it got me curious!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呵呵…真难得，你居然会这么在意一件事情",
+			say = "Not every day you see that... You devoting all your focus to one thing, I mean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不过，就我看来，你只要按你自己的步调，以你自己的方式继续走下去就可以了吧",
+			say = "I'm not sure why you're so curious, but my advice to you is to take in things at your own pace and you'll understand them eventually.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "以我自己的步调吗？",
+			say = "My own pace?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯。这个舰队里有许多个性特点都十分鲜明的同伴，她们也各自有各自的成长方式",
+			say = "Yeah. Everybody learns new things and grow as people every day. How they do it differs from person to person.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "你也是一样，只要按着自己的步调走下去，总有一点能达到自己想要的突破的吧",
+			say = "Retrofitting is the same. Don't think too much about everyone else's, focus on what you want yours to be, and you'll surely break free of your personal limits one day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噢、噢噢…不知怎么的，总有种被激励了的感觉？！",
+			say = "W-wow... I'm kinda dumbstruck, but it feels like you just gave the best motivational speech I've ever heard!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊啊，从某种意义上来说，你可是仅次于我的存在，加油吧",
+			say = "Glad to help someone second only to me in battle stars. Good luck with your goal, San Diego. I believe in you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			actor = 102080,
 			nameColor = "#a9f548",
-			say = "感觉干劲都涌上来了~！有种立刻就能“变身”的感觉！难道这就是“改造”的感觉吗！？",
+			say = "Wow, I'm feeling super-duper motivated now! It... it almost feels like I could retrofit right here, right now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "在企业的开导下，终于达成了顿悟（？）的圣地亚哥，改造之日，已经近在咫尺了——也许",
+			say = "Have San Diego's efforts and her friends' advice brought her to the climax of this story? Has her dream of retrofitting come true? Find out now – go to your Dock and check on her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

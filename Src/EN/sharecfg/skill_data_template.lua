@@ -19375,8 +19375,8 @@ pg.skill_data_template = {
 	},
 	[11720] = {
 		desc_get = "",
-		name = "星之歌",
-		desc = "自身防空属性提高$2；每20秒，有$1概率发射强力弹幕",
+		name = "Sparkling Battle Star!",
+		desc = "Increases this ship's AA by $2. Every 20s: $1 chance to fire a special barrage.",
 		type = 1,
 		max_level = 10,
 		id = 11720,
@@ -23871,6 +23871,212 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[12550] = {
+		desc_get = "",
+		name = "Longbow of Woodstock",
+		desc = "When sortied with an Eagle Union ship: increases this ship's Main Gun Crit Rate by $1 and its FP and TRP by $2.",
+		type = 1,
+		max_level = 10,
+		id = 12550,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"20.0%",
+				"40.0%"
+			},
+			{
+				"8.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			},
+			{
+				{
+					"8.0%",
+					"+1.2%"
+				},
+				{
+					"9.2%",
+					"+1.2%"
+				},
+				{
+					"10.4%",
+					"+1.6%"
+				},
+				{
+					"12.0%",
+					"+1.2%"
+				},
+				{
+					"13.2%",
+					"+1.2%"
+				},
+				{
+					"14.4%",
+					"+1.6%"
+				},
+				{
+					"16.0%",
+					"+1.2%"
+				},
+				{
+					"17.2%",
+					"+1.2%"
+				},
+				{
+					"18.4%",
+					"+1.6%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[12560] = {
+		desc_get = "",
+		name = "Bache In The Sky",
+		desc = "Decreases this ship's DMG taken from enemy aircraft by $1. When any ship in the fleet fires their Anti-Air Guns: 25.0% chance to increase this ship's AA by $2 for 8s.",
+		type = 2,
+		max_level = 10,
+		id = 12560,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"10.0%",
+				"30.0%"
+			},
+			{
+				"15.0%",
+				"30.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+2.2%"
+				},
+				{
+					"12.2%",
+					"+2.2%"
+				},
+				{
+					"14.4%",
+					"+2.2%"
+				},
+				{
+					"16.6%",
+					"+2.2%"
+				},
+				{
+					"18.8%",
+					"+2.2%"
+				},
+				{
+					"21.0%",
+					"+2.2%"
+				},
+				{
+					"23.2%",
+					"+2.2%"
+				},
+				{
+					"25.4%",
+					"+2.2%"
+				},
+				{
+					"27.6%",
+					"+2.4%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shell +",
@@ -25761,7 +25967,7 @@ pg.skill_data_template = {
 	[21121] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activates All Out Assault Ⅰ: Dido Class once every 12 times the Main Guns are fired.",
+		desc = "Activates All Out Assault Ⅰ: Dido Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21121,
@@ -25772,7 +25978,7 @@ pg.skill_data_template = {
 	[21122] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activates All Out Assault Ⅱ: Dido Class once every 8 times the Main Guns are fired.",
+		desc = "Activates All Out Assault Ⅱ: Dido Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21122,
@@ -27623,8 +27829,8 @@ pg.skill_data_template = {
 	},
 	[29351] = {
 		desc_get = "",
-		name = "专属弹幕-圣地亚哥I",
-		desc = "主炮每进行16次攻击，触发专属弹幕-圣地亚哥I",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: San Diego once every 16 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29351,
@@ -30042,6 +30248,8 @@ pg.skill_data_template = {
 		12520,
 		12530,
 		12540,
+		12550,
+		12560,
 		18010,
 		18040,
 		18050,

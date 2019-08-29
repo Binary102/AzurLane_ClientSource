@@ -864,6 +864,11 @@ pg.name_code = {
 		id = 173,
 		name = "AI-Type Fusou Production",
 		code = "AI-Type Fusou Production"
+	},
+	{
+		id = 174,
+		name = "Kiyonami",
+		code = "Kiyonami"
 	}
 }
 

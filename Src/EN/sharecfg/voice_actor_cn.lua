@@ -795,6 +795,10 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Yurika Kubo",
 		code = 199
+	},
+	{
+		actor_name = "Rimo Hasegawa",
+		code = 200
 	}
 }
 

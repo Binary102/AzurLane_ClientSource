@@ -1390,11 +1390,11 @@ pg.skill_data_display = {
 	},
 	[11720] = {
 		id = 11720,
-		name = "星之歌"
+		name = "Sparkling Battle Star! "
 	},
 	[11721] = {
 		id = 11721,
-		name = "星之歌"
+		name = "Sparkling Battle Star! "
 	},
 	[11730] = {
 		id = 11730,
@@ -1763,6 +1763,18 @@ pg.skill_data_display = {
 	[12541] = {
 		id = 12541,
 		name = "I'll Handle This! "
+	},
+	[12550] = {
+		id = 12550,
+		name = "Longbow of Woodstock "
+	},
+	[12560] = {
+		id = 12560,
+		name = "Bache In The Sky "
+	},
+	[12561] = {
+		id = 12561,
+		name = "Bache In The Sky "
 	},
 	[18010] = {
 		id = 18010,
@@ -2778,7 +2790,7 @@ pg.skill_data_display = {
 	},
 	[29351] = {
 		id = 29351,
-		name = "专属弹幕-圣地亚哥I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29361] = {
 		id = 29361,
@@ -3386,6 +3398,9 @@ pg.skill_data_display = {
 		12531,
 		12540,
 		12541,
+		12550,
+		12560,
+		12561,
 		18010,
 		18040,
 		18041,

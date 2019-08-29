@@ -52,7 +52,7 @@ pg.skin_page_template = {
 		id = 10,
 		name = "祭典系列",
 		res = "jidianxilie",
-		english_name = "Summer Festival Series "
+		english_name = "SUMMER FEST"
 	},
 	[9999] = {
 		id = 9999,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区的特别宴会\n\n<size=45>三　克利夫兰的入场</size>",
+					"The Special Banquet\n\n<size=45>Chapter 3: Cleveland Enters!</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			stopbgm = true,
 			dir = 1,
 			blackBg = true,
-			say = "港区·大讲堂",
+			say = "Port - Outside the Gymnasium",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -50,7 +50,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "哈……到底要不要进去呢。",
+			say = "Ugh... Should I go in or not...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "虽然之前被大家说服换上了男装，真到了这里又有点不敢进去了。",
+			say = "I know that I caved and agreed to wear men's attire, but I'm not sure I have the heart to go in...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "为什么大家都穿着漂亮的裙子我却要穿男装嘛！",
+			say = "Why the heck do I have to wear a suit anyway when everyone else is wearing a pretty dress...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "…虽然不得不承认这样的衣服穿起来很舒服…",
+			say = "... But I have to admit, this is way more comfortable...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			blackBg = true,
 			actor = 102092,
 			nameColor = "#a9f548",
-			say = "但是只有我一个男装会不会很奇怪啊……",
+			say = "No no, it's definitely weird that I'm the only one wearing a suit...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……不过，不愧是庆典的重头戏啊…光是从外面看过去，完全想象不出这是平时的大讲堂。",
+			say = "But man, they really went all-out with this party... From the outside, you can't even tell that this place is a gymnasium anymore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "算了算了，都到了这里了，再回去换衣服也不像话。",
+			say = "Well, in any case, since I'm already here, it wouldn't make sense to turn around and change back...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "我只是正好穿男装很合适而已，我只是正好穿男装很合适而已，我只是正好穿男装很合适而已……",
+			say = "It's just a coincidence that I look good in men's attire. It's just a coincidence that I look good in men's attire. It's just a coincidence that I look good in men's attire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "好！",
+			say = "All right!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "1,2,3！",
+			say = "One, two three!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,15 +249,17 @@ return {
 		{
 			bgName = "bg_story_litang",
 			flashout = {
-				dur = 0.5,
+				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
-				dur = 0.5,
+				delay = 0.2,
+				dur = 0.2,
+				black = true,
 				alpha = {
 					1,
 					0
@@ -271,7 +273,7 @@ return {
 			bgm = "story-1",
 			actor = 102092,
 			nameColor = "#a9f548",
-			say = "………………金碧辉煌啊。",
+			say = "It's... magnificent!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +289,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然有预想过了，不过还是没想到实际变成了这么壮观的场所…",
+			say = "I knew it'd be a big deal, but this is beyond my wildest expectations...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +306,7 @@ return {
 			bgName = "star_level_bg_107",
 			actor = 207032,
 			nameColor = "#a9f548",
-			say = "胜利，那边就拜托你了——",
+			say = "Victorious, I'll entrust that to you~",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -337,7 +339,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "克利夫兰？果然和大家说的一样，真是帅气呢~",
+			say = "Oh my, Cleveland? You look just as dashing as everyone was saying~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +350,7 @@ return {
 			}
 		},
 		{
-			say = "啊哈哈…光辉你的礼服才是，就像你的名字一样，散发着光芒呢。",
+			say = "Ahaha... Your dress definitely lives up to your name, Illustrious.",
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
@@ -375,7 +377,7 @@ return {
 			dir = -1,
 			actor = 312012,
 			actorName = "{namecode:98}",
-			say = "克利夫兰，晚上好喵~",
+			say = "Good evening nya, Cleveland!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +393,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "克利夫兰，晚上好。",
+			say = "Good evening, Miss Cleveland.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +409,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们两个也晚上好。",
+			say = "Hello, you two!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +426,7 @@ return {
 			dir = 1,
 			actor = 207032,
 			nameColor = "#a9f548",
-			say = "独角兽，{namecode:71}把宴会拜托给我，所以我还要四处走走，你一个人在这没关系吗？",
+			say = "Unicorn, Hiei asked me to make sure all the guests are taken care of, so I have to make a few more rounds. Will you be fine by yourself?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +437,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，独角兽要在这里等指挥官哥哥。",
+			say = "Mm... Unicorn will be a good girl and wait here for Big Brother...",
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
@@ -461,7 +463,7 @@ return {
 			dir = 1,
 			actor = 207032,
 			nameColor = "#a9f548",
-			say = "呵呵，独角兽还是一如既往地粘指挥官呢……",
+			say = "Hehe... Unicorn, you're sticking to Commander as always.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +479,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那…{namecode:98}，能麻烦你照看一下独角兽吗？",
+			say = "Anyway... Akashi, can I leave Unicorn with you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +497,7 @@ return {
 			dir = -1,
 			actor = 312012,
 			actorName = "{namecode:98}",
-			say = "交给{namecode:98}喵！",
+			say = "You betcha, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +513,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，光辉姐姐，克利夫兰，拜拜。",
+			say = "Mm! Illustrious, Cleveland, bye-bye!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +524,7 @@ return {
 			}
 		},
 		{
-			say = "咦，那不是企业吗，看起来心情不错啊，果然是因为埃塞克斯吧。",
+			say = "Huh? Isn't that Enterprise over there? She seems to be in a good mood, so that means Essex is probably here too.",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
@@ -548,7 +550,7 @@ return {
 			dir = 1,
 			actor = 207032,
 			nameColor = "#a9f548",
-			say = "是呀，她最近的心情看来都相当不错的样子～",
+			say = "That's true. Essex is an excellent mentee, after all, so she's been in high spirits for a while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +566,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，克利夫兰对宴会感觉如何？",
+			say = "Cleveland, are you enjoying the banquet so far?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +577,7 @@ return {
 			}
 		},
 		{
-			say = "嗯…豪华到感觉自己都有些格格不入了。",
+			say = "Hmm... It's so glamorous that I feel out of place...",
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
@@ -600,7 +602,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过看到都是熟悉的面孔就安心下来了。",
+			say = "But seeing so many friendly faces puts me at ease. I think I'll be fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +619,7 @@ return {
 			dir = 1,
 			actor = 207032,
 			nameColor = "#a9f548",
-			say = "呵呵，习惯就好了。",
+			say = "Hehe~ I'm glad to hear that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +636,7 @@ return {
 			dir = 1,
 			actor = 207032,
 			nameColor = "#a9f548",
-			say = "现在先到处走走吧，等指挥官来了之后舞会就会开始，今晚的你说不定会很忙呢～",
+			say = "For the time being, I need to continue making rounds, since the ball will begin when Commander gets here. You might have a pretty busy night ahead of you, Cleveland~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +652,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，就别拿我开玩笑了，不过就我来说，果然还是想和指挥官跳一支舞吧。",
+			say = "Ahaha... Don't make fun of me like that. You know, I want to dance with Commander too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +668,7 @@ return {
 			dir = 1,
 			actor = 102140,
 			nameColor = "#a9f548",
-			say = "啊，大姐头！这边这边！",
+			say = "Ah! Cleve! Over here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +694,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在叫你呢，那我就不打扰你们咯。",
+			say = "Someone's calling for you. Anyway, I'll be taking my leave now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -709,7 +711,7 @@ return {
 			blackBg = true,
 			actor = 102092,
 			nameColor = "#a9f548",
-			say = "嗯，回见。",
+			say = "Right. See you later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

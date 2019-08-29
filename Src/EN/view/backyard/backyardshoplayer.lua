@@ -883,6 +883,8 @@ function slot0.willExit(slot0)
 	end
 
 	slot0.indexPanel = nil
+
+	PoolMgr.GetInstance():ReturnUI("BackYardIndexUI", slot0.filterTF)
 end
 
 return slot0

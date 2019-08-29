@@ -42,10 +42,17 @@ slot0.ON_FLEET_SHIPINFO = "LevelMediator2:ON_FLEET_SHIPINFO"
 slot0.ON_COMMANDER_OP = "LevelMediator2:ON_COMMANDER_OP"
 slot0.CLICK_CHALLENGE_BTN = "LevelMediator2:CLICK_CHALLENGE_BTN"
 slot0.ON_SUBMIT_TASK = "LevelMediator2:ON_SUBMIT_TASK"
+slot0.ON_VOTE_BOOK = "LevelMediator2:ON_VOTE_BOOK"
 
 function slot0.register(slot0)
 	slot1 = getProxy(PlayerProxy)
 
+	slot0:bind(slot0.ON_VOTE_BOOK, function (slot0)
+		slot0:addSubLayers(Context.New({
+			mediator = VoteOrderBookMediator,
+			viewComponent = VoteOrderBookLayer
+		}))
+	end)
 	slot0:bind(slot0.ON_COMMANDER_OP, function (slot0, slot1, slot2)
 		slot0.contextData.commanderOPChapter = slot2
 
@@ -517,6 +524,7 @@ function slot0.register(slot0)
 
 	slot7 = getProxy(ActivityProxy)
 
+	slot0.viewComponent:updateVoteBookBtn(getProxy(VoteProxy):GetOrderBook())
 	slot0.viewComponent:setCommanderPrefabs(slot8)
 	slot0.viewComponent:updateBattleActivitys(slot9)
 
@@ -573,6 +581,25 @@ function slot0.register(slot0)
 	end
 end
 
+function slot0.NoticeVoteBook(slot0, slot1)
+	if getProxy(VoteProxy):IsNewOrderBook() then
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			yesText = "text_forward",
+			noText = "text_iknow",
+			content = i18n("vote_get_book"),
+			onYes = function ()
+				if getProxy(VoteProxy):GetOrderBook() and not slot0:IsExpired() then
+					slot0.viewComponent:emit(slot1.ON_VOTE_BOOK)
+				end
+
+				slot2()
+			end
+		})
+	else
+		slot1()
+	end
+end
+
 function slot0.OnSwitchChapterDone(slot0)
 	slot0.viewComponent:tryPlaySubGuide()
 end
@@ -604,7 +631,10 @@ function slot0.listNotificationInterests(slot0)
 		GAME.COOMMANDER_EQUIP_TO_FLEET_DONE,
 		GAME.COMMANDER_ELIT_FORMATION_OP_DONE,
 		GAME.SUBMIT_TASK_DONE,
-		GAME.GET_REMASTER_TICKETS_DONE
+		GAME.GET_REMASTER_TICKETS_DONE,
+		VoteProxy.VOTE_ORDER_BOOK_DELETE,
+		VoteProxy.VOTE_ORDER_BOOK_UPDATE,
+		GAME.VOTE_BOOK_BE_UPDATED_DONE
 	}
 end
 
@@ -614,6 +644,8 @@ function slot0.handleNotification(slot0, slot1)
 	if slot1:getName() == GAME.BEGIN_STAGE_DONE then
 		slot0.viewComponent:emit(LevelUIConst.DESTROY_LEVEL_STAGE_VIEW)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
+	elseif slot2 == VoteProxy.VOTE_ORDER_BOOK_DELETE or VoteProxy.VOTE_ORDER_BOOK_UPDATE == slot2 then
+		slot0.viewComponent:updateVoteBookBtn(slot3)
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:updateRes(slot3)
 	elseif slot2 == GAME.TRACKING_DONE or slot2 == GAME.SHAM_ENTER_DONE then
@@ -854,7 +886,13 @@ function slot0.handleNotification(slot0, slot1)
 		if slot2 == ChapterProxy.CHAPTER_TIMESUP then
 			slot0:onTimeUp()
 		elseif slot2 == GAME.EVENT_LIST_UPDATE then
-			slot0:OnEventUpdate()
+			slot0.viewComponent:addbubbleMsgBox(function (slot0)
+				slot0:OnEventUpdate(slot0)
+			end)
+		elseif slot2 == GAME.VOTE_BOOK_BE_UPDATED_DONE then
+			slot0.viewComponent:addbubbleMsgBox(function (slot0)
+				slot0:NoticeVoteBook(slot0)
+			end)
 		elseif slot2 == GAME.SET_SHIP_FLAG_DONE then
 			slot0.viewComponent:setShips(slot3.shipsById)
 		elseif slot2 == DailyLevelProxy.ELITE_QUOTA_UPDATE then
@@ -1000,20 +1038,27 @@ function slot0.OnExitChapter(slot0, slot1)
 	})
 end
 
-function slot0.OnEventUpdate(slot0)
-	slot0.viewComponent:updateEvent(slot1)
+function slot0.OnEventUpdate(slot0, slot1)
+	slot0.viewComponent:updateEvent(slot2)
 
-	slot2, slot3 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "EventMediator")
+	slot3, slot4 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "EventMediator")
 
-	if slot2 and slot1.eventForMsg then
+	if slot3 and slot2.eventForMsg then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			modal = false,
 			hideNo = true,
-			content = i18n("event_special_update", (pg.collection_template[slot1.eventForMsg.id or 0] and pg.collection_template[slot1.eventForMsg.id or 0].title) or ""),
-			weight = LayerWeightConst.SECOND_LAYER
+			content = i18n("event_special_update", (pg.collection_template[slot2.eventForMsg.id or 0] and pg.collection_template[slot2.eventForMsg.id or 0].title) or ""),
+			weight = LayerWeightConst.SECOND_LAYER,
+			onYes = function ()
+				if slot0 then
+					slot0()
+				end
+			end
 		})
 
-		slot1.eventForMsg = nil
+		slot2.eventForMsg = nil
+	elseif slot1 then
+		slot1()
 	end
 end
 

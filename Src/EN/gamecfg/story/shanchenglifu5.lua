@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区的特别宴会\n\n<size=45>五　宴会的钢琴师</size>",
+					"The Special Banquet\n\n<size=45>Chapter 5: The Pianist of the Banquet Hall</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·宴会会场",
+			say = "Port - Banquet Hall",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……没想到我也会有这么一天。",
+			say = "... I never expected to be doing something like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "穿上轻飘飘的衣服，坐在钢琴面前，为这么多人弹奏乐曲。",
+			say = "Wearing a flowing dress, sitting at the piano, about to perform for so many people...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			actor = 105141,
 			nameColor = "#a9f548",
-			say = "过去那个只知道战斗的我，一定想也不敢想这样的事吧。",
+			say = "The old me that knew only the sound of battle... would never have imagined a day like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是这样的改变并不坏，不是吗？",
+			say = "It's for the best, though, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			say = "欧若拉，演奏的准备完成了吗？",
+			say = "Aurora, is everything set up for the performance?",
 			dir = 1,
 			actor = 105141,
 			nameColor = "#a9f548",
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			actor = 202152,
 			nameColor = "#a9f548",
-			say = "嗯，久等了。",
+			say = "Yes, sorry to keep you waiting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过也不急，先稍微聊聊天吧。",
+			say = "We still have some time left. Want to chat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			actor = 105141,
 			nameColor = "#a9f548",
-			say = "也好，那稍微继续一下刚才的话题吧…",
+			say = "That's fine by me. Let's continue where we left off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我并不讨厌只知道战斗的感觉，那样可以让我心无杂念。",
+			say = "I don't regret the part of me that only knows battle. All the unnecessary weight of the world disappears in the heat of battle, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			actor = 202152,
 			nameColor = "#a9f548",
-			say = "但我们不只是为了战斗而生呢。",
+			say = "But, we weren't born just to fight...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊，我们也有自己的爱好可以选择，也有自己的个性可以宣扬。",
+			say = "You're right. We have the freedom to choose our personalities and the things that we want to do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			actor = 105141,
 			nameColor = "#a9f548",
-			say = "这是来到这支舰队后，大家还有指挥官教给我的，最重要的事。",
+			say = "This is the most important lesson that I've learned since joining the fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,24 +254,7 @@ return {
 			dir = 1,
 			actor = 202152,
 			nameColor = "#a9f548",
-			say = "来到港区以后有所变化的，不只是你，大家都是这样的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 1,
-			bgName = "star_level_bg_107",
-			dir = 1,
-			actor = 202152,
-			nameColor = "#a9f548",
-			say = "遇见了各种各样的人，与各种各样的想法碰撞，然后产生了变化……",
+			say = "It's not just you who has changed. We all meet a bunch of different people, exchange ideas, and become better as a result.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +271,7 @@ return {
 			dir = 1,
 			actor = 202152,
 			nameColor = "#a9f548",
-			say = "南达科他也是，要我说的话，比以前要有人情味多了呢。",
+			say = "I think you're much more approachable now than you were at first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +288,7 @@ return {
 			dir = 1,
 			actor = 105141,
 			nameColor = "#a9f548",
-			say = "……我就当你是在夸我了。",
+			say = "... I'll take that as a compliment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +304,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，不过你会选择钢琴确实有些出人意料呢。",
+			say = "Anyway, I was surprised when you decided to learn how to play the piano!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +321,7 @@ return {
 			dir = 1,
 			actor = 105141,
 			nameColor = "#a9f548",
-			say = "是马萨诸塞推荐的。原本我也觉得我和钢琴这种高雅的东西差的未免太远……",
+			say = "It was Massachusetts's recommendation. At first, I thought that the elegance of the piano was a poor match for someone as stolid as me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +337,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，实际尝试后，我才明白，音乐能够将所有的感情都表达出来……",
+			say = "But I soon realized... that music is able to express so many emotions that I'd never be able to with words.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +353,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喜悦，愤怒，悲伤，痛苦，等等等等……",
+			say = "Joy, anger, sorrow, grief...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +370,7 @@ return {
 			dir = 1,
 			actor = 105141,
 			nameColor = "#a9f548",
-			say = "对于不擅长表达感情的我来说，其实音乐反而是最适合我的爱好也说不定。",
+			say = "For someone like me, who is not good at expressing emotions, music was actually the most suitable fit for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +387,7 @@ return {
 			dir = 1,
 			actor = 202152,
 			nameColor = "#a9f548",
-			say = "嗯，这么说的话，说不定你与钢琴其实意外的合拍呢。",
+			say = "After hearing all that, it sounds like you and the piano were an unexpected match made in heaven.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +403,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谁知道呢……",
+			say = "Hard to say...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +420,7 @@ return {
 			dir = 1,
 			actor = 105141,
 			nameColor = "#a9f548",
-			say = "不过，姑且不说钢琴，那个…我穿这样的礼服真的看起来不奇怪吗？",
+			say = "But, let's move on from the piano... Um, this dress doesn't look weird on me, does it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +437,7 @@ return {
 			dir = 1,
 			actor = 105141,
 			nameColor = "#a9f548",
-			say = "穿习惯了便服后，这一身穿着总觉得哪里不对……",
+			say = "It's too different from what I normally wear... I feel like I can't settle down at all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +464,7 @@ return {
 			dir = 1,
 			actor = 202152,
 			nameColor = "#a9f548",
-			say = "……南达科他，看起来你还不知道你的魅力有多大呢。",
+			say = "Hehehe... South Dakota, I don't think you're aware of your own charms yet~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +481,7 @@ return {
 			dir = 1,
 			actor = 105141,
 			nameColor = "#a9f548",
-			say = "啊？",
+			say = "... What?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +498,7 @@ return {
 			dir = 1,
 			actor = 202152,
 			nameColor = "#a9f548",
-			say = "呵，等指挥官过来的时候，你亲自去问合不合身就好了。",
+			say = "Don't worry about it. When Commander gets here, you can ask for yourself~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +515,7 @@ return {
 			dir = 1,
 			actor = 105141,
 			nameColor = "#a9f548",
-			say = "哈……",
+			say = "*sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +531,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比起这个，差不多开始演奏吧。",
+			say = "In any case, it's about time for your performance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +547,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也对。",
+			say = "That's right...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +558,7 @@ return {
 			}
 		},
 		{
-			say = "……呼……",
+			say = "South Dakota drew a deep breath...",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
@@ -595,13 +578,12 @@ return {
 			}
 		},
 		{
+			actor = 105141,
 			side = 2,
 			bgName = "star_level_bg_107",
-			dir = 1,
-			blackBg = true,
-			actor = 105141,
 			nameColor = "#a9f548",
-			say = "那么……开始吧——",
+			dir = 1,
+			say = "Now then... let's begin...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

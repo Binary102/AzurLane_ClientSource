@@ -575,6 +575,32 @@ pg.memory_group = {
 			436
 		}
 	},
+	[138] = {
+		title = "The Special Banquet",
+		type = 2,
+		id = 138,
+		icon = "title_event",
+		memories = {
+			437,
+			438,
+			439,
+			440,
+			441,
+			442
+		}
+	},
+	[139] = {
+		title = "Sparkling Battle Star!",
+		type = 2,
+		id = 139,
+		icon = "title_event",
+		memories = {
+			461,
+			462,
+			463,
+			464
+		}
+	},
 	[141] = {
 		title = "Trick or Treat Halloween Night! ",
 		type = 2,
@@ -912,7 +938,8 @@ pg.memory_group = {
 		id = 165,
 		icon = "title_event",
 		memories = {
-			889
+			889,
+			890
 		}
 	},
 	[501] = {
@@ -1460,6 +1487,8 @@ pg.memory_group = {
 		134,
 		135,
 		137,
+		138,
+		139,
 		141,
 		145,
 		147,

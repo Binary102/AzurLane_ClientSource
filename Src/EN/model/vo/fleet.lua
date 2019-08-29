@@ -30,7 +30,7 @@ slot0.DEFAULT_NAME_FOR_DOCKYARD = {
 	[101] = i18n("ship_formationUI_exercise_fleetName")
 }
 slot0.REGULAR_FLEET_ID = 1
-slot0.REGULAR_FLEET_NUMS = 4
+slot0.REGULAR_FLEET_NUMS = 6
 slot0.SUBMARINE_FLEET_ID = 11
 slot0.SUBMARINE_FLEET_NUMS = 2
 

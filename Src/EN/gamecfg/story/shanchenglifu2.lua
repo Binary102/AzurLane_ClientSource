@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区的特别宴会\n\n<size=45>二　指挥室外的小小剧场</size>",
+					"The Special Banquet\n\n<size=45>Chapter 2: A Little Chat Outside the Office</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室外",
+			say = "Port - Outside the Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,7 +52,7 @@ return {
 			dir = -1,
 			actor = 305023,
 			actorName = "{namecode:79}",
-			say = "啦~啦~啦~",
+			say = "Hum dee dum~ hum de dum~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			dir = -1,
 			actor = 305023,
 			actorName = "{namecode:79}",
-			say = "穿着~新衣服~和殿下~一起去~宴会~",
+			say = "Heading to the banquet~ in some cute new clothes~ with Milord~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = -1,
 			actor = 305023,
 			actorName = "{namecode:79}",
-			say = "嘿嘿，殿下看到我的新衣服会不会很吃惊呢~",
+			say = "Ehehe, I wonder if Milord will be surprised when seeing my new outfit~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = -1,
 			actor = 305023,
 			actorName = "{namecode:79}",
-			say = "不过我洋装穿的少，殿下说不定也会觉得很奇怪…",
+			say = "... But I never wear Western-style clothes... I hope I don't look weird...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			actor = 307071,
 			actorName = "{namecode:97}",
-			say = "……老远就听到了声音，这不是{namecode:79}吗。",
+			say = "Oh my, if it isn't Yamashiro. I could hear your voice from far away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			}
 		},
 		{
-			say = "啊，{namecode:97}，你也来找殿下呀~",
+			say = "M-Miss Taihou! D-did you have business with Milord?",
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			actor = 307071,
 			actorName = "{namecode:97}",
-			say = "来“找”吗……呵呵，如果说打算潜入指挥室最后放弃了也算找的话。",
+			say = "Business...? Hardly. I'm just going to sneak into the office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = -1,
 			actor = 305023,
 			actorName = "{namecode:79}",
-			say = "欸，为什么放弃了呀？",
+			say = "S-sneak in? Why would you do something like that...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			actor = 307071,
 			actorName = "{namecode:97}",
-			say = "因为指挥官大人正在工作当中呢，{namecode:97}我怎么忍心去打扰呢。",
+			say = "Because my beloved Commander is hard at work. It would be unbecoming of me to interrupt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			actor = 307071,
 			actorName = "{namecode:97}",
-			say = "所以就在这里一边喝点酒，一边等待指挥官大人完成工作，然后一起前往宴会。",
+			say = "In any case, that's why I'm out here. I'm just having a little something to drink while waiting for Commander to accompany me to the banquet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = -1,
 			actor = 305023,
 			actorName = "{namecode:79}",
-			say = "这样啊……",
+			say = "I see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = -1,
 			actor = 305023,
 			actorName = "{namecode:79}",
-			say = "不过总感觉今天的{namecode:97}和平时的感觉不太一样呢。",
+			say = "But, um, Miss Taihou seems a bit different from usual today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			dir = -1,
 			actor = 305023,
 			actorName = "{namecode:79}",
-			say = "好像…安静了许多？",
+			say = "Like, a lot more calm...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			actor = 307071,
 			actorName = "{namecode:97}",
-			say = "你是说平时的我很吵闹吗？",
+			say = "Are you saying that I'm not calm normally?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = -1,
 			actor = 305023,
 			actorName = "{namecode:79}",
-			say = "没、没有啦，就是平时的{namecode:97}总觉得，怎么说呢，有些难以靠近？虽然没有{namecode:91}那么明显。",
+			say = "I-I didn't mean it like that! It's just, how do I put it... Miss Taihou sometimes feels hard to approach... not as bad as Akagi, but... Eek!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			actor = 307071,
 			actorName = "{namecode:97}",
-			say = "啊哈哈，别紧张，开玩笑的。",
+			say = "Heehee~♪ You don't need to be so nervous. I was just messing with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			actor = 307071,
 			actorName = "{namecode:97}",
-			say = "嗯……或许因为今晚是个特殊的夜晚吧~",
+			say = "Anyways... Tonight might be a bit special.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			actor = 307071,
 			actorName = "{namecode:97}",
-			say = "在今晚，有一种能够包容许多事的感觉呢。",
+			say = "I feel like I'm willing to overlook a lot more things than usual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = -1,
 			actor = 305023,
 			actorName = "{namecode:79}",
-			say = "好像明白又好像不明白……",
+			say = "I can't tell if I can totally relate to that or not at all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,24 @@ return {
 			dir = -1,
 			actor = 305023,
 			actorName = "{namecode:79}",
-			say = "不过，殿下一直都在工作，我也想要让殿下能在今晚好好放松呢。",
+			say = "But what I do know is that Milord has been hard at work all this time. I want to be able to get Milord to relax...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 1,
+			bgName = "bg_story_task",
+			dir = -1,
+			actor = 305023,
+			actorName = "{namecode:79}",
+			say = "That's why I'd like to invite Milord to the banquet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +455,7 @@ return {
 			dir = 1,
 			actor = 307071,
 			actorName = "{namecode:97}",
-			say = "呵呵，正是如此。",
+			say = "Ahaha, I see now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +473,7 @@ return {
 			dir = 1,
 			actor = 307071,
 			actorName = "{namecode:97}",
-			say = "…………",
+			say = "... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +491,7 @@ return {
 			dir = -1,
 			actor = 305023,
 			actorName = "{namecode:79}",
-			say = "…………",
+			say = "... ...... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +508,7 @@ return {
 			dir = -1,
 			actor = 305023,
 			actorName = "{namecode:79}",
-			say = "话、话说…{namecode:97}你才刚加入舰队，居然就准备了礼服呀，而且好漂亮哦…",
+			say = "Oh, um, by the way... Miss Taihou, even though you just joined the fleet, you already have your dress... and it's so beautiful too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +525,7 @@ return {
 			dir = 1,
 			actor = 307071,
 			actorName = "{namecode:97}",
-			say = "我很早就开始准备这件礼服了哦，为的就是今晚，能够和指挥官大人一起出席宴会呢~",
+			say = "I've been planning for this moment for a long time, after all. That is, for Commander to take me to the banquet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +543,7 @@ return {
 			dir = -1,
 			actor = 305023,
 			actorName = "{namecode:79}",
-			say = "呜哇，好厉害，我只想找殿下玩，完全没想那么多呢……",
+			say = "Wow! I just wanted to play with Milord a bit. I never was good with the planning stuff...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +570,7 @@ return {
 			dir = -1,
 			actor = 305023,
 			actorName = "{namecode:79}",
-			say = "不过庆典这么热闹，{namecode:97}你没有去参加总觉得有点可惜呢。",
+			say = "But, it'd be a shame to not go to the banquet after going through all that trouble to find a dress...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +588,7 @@ return {
 			dir = 1,
 			actor = 307071,
 			actorName = "{namecode:97}",
-			say = "我的心里只有指挥官大人，其他的事我并不关心——",
+			say = "The only thing that matters to me is Commander. Other things aren't of any concern to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +605,7 @@ return {
 			dir = 1,
 			actor = 307071,
 			actorName = "{namecode:97}",
-			say = "虽然一开始是这么想的，不过这里确实是个令人舒服的地方呢…",
+			say = "Or rather, that's what I thought at first... Honestly, this fleet... feels like home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +622,7 @@ return {
 			dir = -1,
 			actor = 305023,
 			actorName = "{namecode:79}",
-			say = "欸嘿嘿，毕竟是殿下一手建立的舰队呢！",
+			say = "Ehehe~ It's a home made by Milord, after all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +640,7 @@ return {
 			dir = 1,
 			actor = 307071,
 			actorName = "{namecode:97}",
-			say = "{namecode:79}你呢，有参加什么活动吗？",
+			say = "Yamashiro, did you go to any events?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +658,7 @@ return {
 			dir = -1,
 			actor = 305023,
 			actorName = "{namecode:79}",
-			say = "我？基本都在帮姐姐的忙呢…中间还和其他驱逐妹妹们一起参加过试胆大会——",
+			say = "Me? Um, I suppose I've been helping Fusou this whole time... Oh, and I went on a test of courage with some of the destroyers...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +675,7 @@ return {
 			dir = -1,
 			actor = 305023,
 			actorName = "{namecode:79}",
-			say = "那个超吓人的，现在想起来都还觉得很可怕……",
+			say = "That was so scary... I'm getting the shakes just thinking about it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +702,7 @@ return {
 			dir = 1,
 			actor = 307071,
 			actorName = "{namecode:97}",
-			say = "呵呵，好像很开心呢，下次我也参加些活动看看好了。",
+			say = "Hehe, sounds like you had a good time. I'll have to join in myself the next time around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +720,7 @@ return {
 			dir = 1,
 			actor = 307071,
 			actorName = "{namecode:97}",
-			say = "不过，指挥官大人看起来还要一些时间的样子呢…",
+			say = "But by the looks of things, Commander won't be done for a while...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -714,7 +731,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:79}，不妨你也坐下来喝一杯如何？",
+			say = "Yamashiro, care for a drink?",
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -741,7 +758,7 @@ return {
 			dir = -1,
 			actor = 305023,
 			actorName = "{namecode:79}",
-			say = "酒吗！？姐姐虽然说我最好不要喝，不过…我一直很感兴趣呢！",
+			say = "Um, sake?! Fusou said it'd be best for me not to drink... but I've always been a little curious!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -769,7 +786,7 @@ return {
 			dir = 1,
 			actor = 307071,
 			actorName = "{namecode:97}",
-			say = "呵呵，不是烈酒，给你喝一点应该也没关系……",
+			say = "Hehe. This stuff isn't very strong, so you should be fine...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -787,7 +804,7 @@ return {
 			blackBg = true,
 			actor = 307071,
 			actorName = "{namecode:97}",
-			say = "来吧，坐这里。在指挥官大人完成工作前，我们再聊会天吧~",
+			say = "Here, come sit next to me. Until Commander is finished with work, let's have some girl's talk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

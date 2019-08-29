@@ -978,7 +978,7 @@ function updateDrop(slot0, slot1, slot2)
 	end
 
 	slot1.cfg = slot5
-	slot1.desc = slot6
+	slot1.desc = HXSet.hxLan(slot6)
 
 	slot2(slot0, slot1.count)
 end

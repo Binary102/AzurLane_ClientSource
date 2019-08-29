@@ -4911,6 +4911,21 @@ pg.item_data_template = {
 			0
 		}
 	},
+	[40963] = {
+		limit = "[]",
+		display_effect = "",
+		other_resource_cost = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "4963",
+		id = 40963,
+		compose_number = 0,
+		target_id = 0,
+		open_ui = {
+			0,
+			0
+		}
+	},
 	[41201] = {
 		limit = "[]",
 		display_effect = "",
@@ -9818,6 +9833,21 @@ pg.item_data_template = {
 			0
 		}
 	},
+	[59749] = {
+		limit = "[]",
+		display_effect = "",
+		other_resource_cost = "[]",
+		usage = "usage_undefined",
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		id = 59749,
+		compose_number = 0,
+		target_id = 0,
+		open_ui = {
+			0,
+			0
+		}
+	},
 	[59750] = {
 		limit = "[]",
 		display_effect = "",
@@ -10403,6 +10433,7 @@ pg.item_data_template = {
 		40960,
 		40961,
 		40962,
+		40963,
 		41201,
 		41202,
 		41203,
@@ -10723,6 +10754,7 @@ pg.item_data_template = {
 		59745,
 		59746,
 		59747,
+		59749,
 		59750,
 		59751,
 		59752,

@@ -1,5 +1,161 @@
 pg = pg or {}
 pg.gametip = {
+	facebook_link_title = {
+		tip = "Facebook Account:$1",
+		key = "facebook_link_title"
+	},
+	verification_code_req_tip1 = {
+		tip = "The e-mail box cannot be left blank.",
+		key = "verification_code_req_tip1"
+	},
+	verification_code_req_tip2 = {
+		tip = "Verification request successful! Please check your e-mail for the verification code.",
+		key = "verification_code_req_tip2"
+	},
+	verification_code_req_tip3 = {
+		tip = "Email and Verification Code cannot be empty",
+		key = "verification_code_req_tip3"
+	},
+	yostar_link_title = {
+		tip = "Yostar Account:$1",
+		key = "yostar_link_title"
+	},
+	pay_cancel = {
+		tip = "Cancel Payment",
+		key = "pay_cancel"
+	},
+	order_error = {
+		tip = "Balance Calculation Failed",
+		key = "order_error"
+	},
+	pay_fail = {
+		tip = "Payment Failed",
+		key = "pay_fail"
+	},
+	user_cancel = {
+		tip = "Cancelled by Player",
+		key = "user_cancel"
+	},
+	system_error = {
+		tip = "System Error",
+		key = "system_error"
+	},
+	time_out = {
+		tip = "You are not logged in or afk too long",
+		key = "time_out"
+	},
+	server_error = {
+		tip = "Server communication Error",
+		key = "server_error"
+	},
+	data_error = {
+		tip = "Data Verification Failed",
+		key = "data_error"
+	},
+	share_success = {
+		tip = "Sharing Successfully",
+		key = "share_success"
+	},
+	shoot_screen_fail = {
+		tip = "Screenshot Failed",
+		key = "shoot_screen_fail"
+	},
+	server_name = {
+		tip = "Event Server",
+		key = "server_name"
+	},
+	non_support_share = {
+		tip = "Commander, the \"Share\" option is still unavailable.",
+		key = "non_support_share"
+	},
+	save_success = {
+		tip = "Data Saved Successfully",
+		key = "save_success"
+	},
+	word_guild_join_err1 = {
+		tip = "You can't join multiple guilds.",
+		key = "word_guild_join_err1"
+	},
+	task_empty_tip_1 = {
+		tip = "No events available now!",
+		key = "task_empty_tip_1"
+	},
+	task_empty_tip_2 = {
+		tip = "No events available now! \nStay tuned with our Facebook & Twitter official Page!",
+		key = "task_empty_tip_2"
+	},
+	["airi_error_code_ 100210"] = {
+		tip = "TW Failed to authorize, unable to login",
+		key = "airi_error_code_ 100210"
+	},
+	["airi_error_code_ 100211"] = {
+		tip = "TW Unable to login, please bind your account first",
+		key = "airi_error_code_ 100211"
+	},
+	["airi_error_code_ 100212"] = {
+		tip = "TW Login verification failed.",
+		key = "airi_error_code_ 100212"
+	},
+	["airi_error_code_ 100610"] = {
+		tip = "TW Failed to authorize, unable to bind",
+		key = "airi_error_code_ 100610"
+	},
+	["airi_error_code_ 100611"] = {
+		tip = "TW Already binded to another user",
+		key = "airi_error_code_ 100611"
+	},
+	["airi_error_code_ 100612"] = {
+		tip = "TW Login verification failed, unable to bind",
+		key = "airi_error_code_ 100612"
+	},
+	["airi_error_code_ 100710"] = {
+		tip = "TW Failed to authorize, unable to unbind",
+		key = "airi_error_code_ 100710"
+	},
+	["airi_error_code_ 100711"] = {
+		tip = "TW The account is not binded to any user",
+		key = "airi_error_code_ 100711"
+	},
+	["airi_error_code_ 100712"] = {
+		tip = "TW Invalid login verification, unable to unbind",
+		key = "airi_error_code_ 100712"
+	},
+	["airi_error_code_ 100810"] = {
+		tip = "FB Failed to authorize, unable to login",
+		key = "airi_error_code_ 100810"
+	},
+	["airi_error_code_ 100811"] = {
+		tip = "FB Unable to login, please bind your account first",
+		key = "airi_error_code_ 100811"
+	},
+	["airi_error_code_ 100812"] = {
+		tip = "FB Login verification failed, unable to login",
+		key = "airi_error_code_ 100812"
+	},
+	["airi_error_code_ 100813"] = {
+		tip = "FB Failed to authorize, unable to bind",
+		key = "airi_error_code_ 100813"
+	},
+	["airi_error_code_ 100814"] = {
+		tip = "FB Already binded to another user",
+		key = "airi_error_code_ 100814"
+	},
+	["airi_error_code_ 100815"] = {
+		tip = "FB Login verification failed, unable to bind",
+		key = "airi_error_code_ 100815"
+	},
+	["airi_error_code_ 100816"] = {
+		tip = "FB Failed to authorize, unable to unbind",
+		key = "airi_error_code_ 100816"
+	},
+	["airi_error_code_ 100817"] = {
+		tip = "FB The account is not binded to any user",
+		key = "airi_error_code_ 100817"
+	},
+	["airi_error_code_ 100818"] = {
+		tip = "FB Login verification failed, unable to unbind",
+		key = "airi_error_code_ 100818"
+	},
 	ad_0 = {
 		tip = "",
 		key = "ad_0"
@@ -2276,6 +2432,35 @@ pg.gametip = {
 13. After the event ends, all unused paint will be removed. 
 14. Before August 21th, a new page will be unlocked every day. 
 15. The soonest the extra blank page can be unlocked is August 22th.]]
+			}
+		}
+	},
+	link_link_help_tip = {
+		key = "link_link_help_tip",
+		tip = {
+			{
+				info = " How to Play:\n"
+			},
+			{
+				info = "1. Once a day, after server reset at midnight, you will receive 1 San Diego Star minigame point."
+			},
+			{
+				info = "2. You will receive this point even if you didn't login during a particular day or didn't complete the minigame. You can earn all San Diego Stars in one day if you have 7 minigame points."
+			},
+			{
+				info = "3. The number of San Diego Stars you obtain depends on how many you've collected up to that point. The more you've collected, the more you'll receive."
+			},
+			{
+				info = "4. You play the minigame by drawing a line to connect 2 identical character tiles, which, if the conditions below are met, will clear them from the board."
+			},
+			{
+				info = "5. The line can only bend twice to reach the other tile. The connection can't be made if the line has to bend more than 2 times. The line can bend horizontally and vertically."
+			},
+			{
+				info = "6. Once you clear the board of all the tiles, you can receive a San Diego Star."
+			},
+			{
+				info = "7. Once you collect all 18 San Diego Stars from the minigame, you'll receive San Diego's retrofit item, the Sparkling Mic."
 			}
 		}
 	},
@@ -6154,6 +6339,10 @@ Attack/Support Range Level:
 		tip = "Improved!",
 		key = "ship_remould_sueecss"
 	},
+	ship_remould_warning_102174 = {
+		tip = "The <color=#92fc63>Sparkling Mic</color> will be used to complete the retrofit.\nWould you like to continue? ",
+		key = "ship_remould_warning_102174"
+	},
 	ship_remould_warning_203114 = {
 		tip = "This ship's <color=#92fc63>Torpedo slot</color> will be converted into an <color=#92fc63>Auxiliary Weapon slot.</color><color=#92fc63>\n<material=underline c=#92fc63 event=clickDetail>View more info here.</material></color>\nWould you like to proceed with the retrofit? ",
 		key = "ship_remould_warning_203114"
@@ -6620,7 +6809,7 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 		key = "vote_success"
 	},
 	vote_not_enough = {
-		tip = "You don't have enough votes left.",
+		tip = "You do not have enough Ballots. ",
 		key = "vote_not_enough"
 	},
 	vote_love_not_enough = {
@@ -7505,16 +7694,12 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		key = "activity_switch_award_pool_failed"
 	},
 	shop_street_activity_tip = {
-		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>04.26 – 05.15</COLOR>)!",
+		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>08.22 – 09.04</COLOR>)!",
 		key = "shop_street_activity_tip"
 	},
 	twitter_link_title = {
 		tip = "Twitter Account:$1",
 		key = "twitter_link_title"
-	},
-	facebook_link_title = {
-		tip = "Facebook Account:$1",
-		key = "facebook_link_title"
 	},
 	battle_result_boss_destruct = {
 		tip = "Defeat the boss before it self-destructs",
@@ -8590,7 +8775,7 @@ with Anti-Sub gear.
 		key = "commander_build_pool_tip"
 	},
 	commander_select_matiral_erro = {
-		tip = "This Meowfficer is at the max level; you can only Enhance its Skill with Meowfficers of the same type.",
+		tip = "<size=22>This Meowfficer is at the max level; you can only Enhance its Skill with Meowfficers of the same type.</size>",
 		key = "commander_select_matiral_erro"
 	},
 	commander_material_is_rarity = {
@@ -8613,142 +8798,6 @@ with Anti-Sub gear.
 		tip = "This Meowfficer does not have any Talent Points.",
 		key = "commander_skill_point_noengough"
 	},
-	pay_cancel = {
-		tip = "Cancel Payment",
-		key = "pay_cancel"
-	},
-	order_error = {
-		tip = "Balance Calculation Failed",
-		key = "order_error"
-	},
-	pay_fail = {
-		tip = "Payment Failed",
-		key = "pay_fail"
-	},
-	user_cancel = {
-		tip = "Cancelled by Player",
-		key = "user_cancel"
-	},
-	system_error = {
-		tip = "System Error",
-		key = "system_error"
-	},
-	time_out = {
-		tip = "You are not logged in or afk too long",
-		key = "time_out"
-	},
-	server_error = {
-		tip = "Server communication Error",
-		key = "server_error"
-	},
-	data_error = {
-		tip = "Data Verification Failed",
-		key = "data_error"
-	},
-	share_success = {
-		tip = "Sharing Successfully",
-		key = "share_success"
-	},
-	shoot_screen_fail = {
-		tip = "Screenshot Failed",
-		key = "shoot_screen_fail"
-	},
-	server_name = {
-		tip = "Event Server",
-		key = "server_name"
-	},
-	non_support_share = {
-		tip = "Commander, the \"Share\" option is still unavailable.",
-		key = "non_support_share"
-	},
-	save_success = {
-		tip = "Data Saved Successfully",
-		key = "save_success"
-	},
-	word_guild_join_err1 = {
-		tip = "You can't join multiple guilds.",
-		key = "word_guild_join_err1"
-	},
-	task_empty_tip_1 = {
-		tip = "No events available now!",
-		key = "task_empty_tip_1"
-	},
-	task_empty_tip_2 = {
-		tip = "No events available now! \nStay tuned with our Facebook & Twitter official Page!",
-		key = "task_empty_tip_2"
-	},
-	["airi_error_code_ 100210"] = {
-		tip = "TW Failed to authorize, unable to login",
-		key = "airi_error_code_ 100210"
-	},
-	["airi_error_code_ 100211"] = {
-		tip = "TW Unable to login, please bind your account first",
-		key = "airi_error_code_ 100211"
-	},
-	["airi_error_code_ 100212"] = {
-		tip = "TW Login verification failed.",
-		key = "airi_error_code_ 100212"
-	},
-	["airi_error_code_ 100610"] = {
-		tip = "TW Failed to authorize, unable to bind",
-		key = "airi_error_code_ 100610"
-	},
-	["airi_error_code_ 100611"] = {
-		tip = "TW Already binded to another user",
-		key = "airi_error_code_ 100611"
-	},
-	["airi_error_code_ 100612"] = {
-		tip = "TW Login verification failed, unable to bind",
-		key = "airi_error_code_ 100612"
-	},
-	["airi_error_code_ 100710"] = {
-		tip = "TW Failed to authorize, unable to unbind",
-		key = "airi_error_code_ 100710"
-	},
-	["airi_error_code_ 100711"] = {
-		tip = "TW The account is not binded to any user",
-		key = "airi_error_code_ 100711"
-	},
-	["airi_error_code_ 100712"] = {
-		tip = "TW Invalid login verification, unable to unbind",
-		key = "airi_error_code_ 100712"
-	},
-	["airi_error_code_ 100810"] = {
-		tip = "FB Failed to authorize, unable to login",
-		key = "airi_error_code_ 100810"
-	},
-	["airi_error_code_ 100811"] = {
-		tip = "FB Unable to login, please bind your account first",
-		key = "airi_error_code_ 100811"
-	},
-	["airi_error_code_ 100812"] = {
-		tip = "FB Login verification failed, unable to login",
-		key = "airi_error_code_ 100812"
-	},
-	["airi_error_code_ 100813"] = {
-		tip = "FB Failed to authorize, unable to bind",
-		key = "airi_error_code_ 100813"
-	},
-	["airi_error_code_ 100814"] = {
-		tip = "FB Already binded to another user",
-		key = "airi_error_code_ 100814"
-	},
-	["airi_error_code_ 100815"] = {
-		tip = "FB Login verification failed, unable to bind",
-		key = "airi_error_code_ 100815"
-	},
-	["airi_error_code_ 100816"] = {
-		tip = "FB Failed to authorize, unable to unbind",
-		key = "airi_error_code_ 100816"
-	},
-	["airi_error_code_ 100817"] = {
-		tip = "FB The account is not binded to any user",
-		key = "airi_error_code_ 100817"
-	},
-	["airi_error_code_ 100818"] = {
-		tip = "FB Login verification failed, unable to unbind",
-		key = "airi_error_code_ 100818"
-	},
 	buildship_new_tip = {
 		tip = "Rate Up characters: Essex, Taihou, and Le Téméraire",
 		key = "buildship_new_tip"
@@ -8758,7 +8807,7 @@ with Anti-Sub gear.
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "Light: Destroyers, Light Cruisers,Repair Ships and more!",
+		tip = "Construction rates up for Black Prince and Bache!",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
@@ -8862,72 +8911,8 @@ with Anti-Sub gear.
 		key = "newplayer_notice_2"
 	},
 	newplayer_notice_3 = {
-		key = "newplayer_notice_3",
-		tip = {
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_build"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_info"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_ability1"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_ability2"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_ability3"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_up"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_skill1"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_skill2"
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			defaultpage = 2,
-			ImageMode = true,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
+		tip = "Unlocked after completing all Exams",
+		key = "newplayer_notice_3"
 	},
 	newplayer_notice_4 = {
 		tip = "Receive Portland after claiming victory",
@@ -9466,7 +9451,7 @@ with Anti-Sub gear.
 		key = "school_title_dajiangtang"
 	},
 	school_title_zhihuimiao = {
-		tip = "Cat Lodge ",
+		tip = "Cattery ",
 		key = "school_title_zhihuimiao"
 	},
 	school_title_shitang = {
@@ -10051,22 +10036,6 @@ From now till forever, our fates are bound together.
 	without_selected_ship = {
 		tip = "Not enough items",
 		key = "without_selected_ship"
-	},
-	verification_code_req_tip1 = {
-		tip = "The e-mail box cannot be left blank.",
-		key = "verification_code_req_tip1"
-	},
-	verification_code_req_tip2 = {
-		tip = "Verification request successful! Please check your e-mail for the verification code.",
-		key = "verification_code_req_tip2"
-	},
-	verification_code_req_tip3 = {
-		tip = "Email and Verification Code cannot be empty",
-		key = "verification_code_req_tip3"
-	},
-	yostar_link_title = {
-		tip = "Yostar Account:$1",
-		key = "yostar_link_title"
 	},
 	index_all = {
 		tip = "All",
@@ -10809,6 +10778,87 @@ You can play the minigame without a Game Ticket but will not earn any prizes.</c
 		tip = "Hide background objects",
 		key = "paint_hide_other_obj_tip"
 	},
+	help_vote = {
+		key = "help_vote",
+		tip = {
+			{
+				info = [[
+<color=#FFDD00>Azur Lane Popularity Poll 2019</color>
+
+About the Popularity Poll:
+ The Azur Lane Popularity Poll 2019 consists of two parts: in-game voting, and website voting. The Poll has 3 main rounds: Qualifiers, Groups, and Finals. 
+ For each step of voting, the candidates that advance to the next step are determined by the combined totals of in-game voting across all servers, and website voting.
+
+Popularity Poll Rules:
+ Qualifiers round:
+ All characters, excluding Hall of Fame characters, that were implemented prior to 8/29/2019 are in the Qualifiers, meaning a total of 298 characters. The top 150 characters with the most votes advance to the Groups round.
+ The Qualifiers round will be hosted in-game only.
+ Note: during the Qualifiers round, a character's number of votes will not be displayed, only their ranking.
+ Qualifiers Comeback round:
+ Characters that lost the Qualifiers enter a separate vote. The top 10 characters from this vote get the chance to appear in the Finals Comeback round.
+ The Qualifiers Comeback round will be hosted on a special webpage only.
+ Groups round:
+ Characters that advanced to the Groups round are sorted into 5 groups of 30 ships per group. Each character competes for votes within their own group. The top 3 characters with the most votes within each group advances to the Finals while the top 4 to 10 characters from each group are sent to the Finals Comeback round.
+ Finals Comeback round:
+ The top 4 to 10 characters of each group and the top 10 from the Qualifiers Comeback will participate in this separate vote. The top 9 characters who receive the most votes will advance to the Finals.
+ Finals round:
+ The Finals consist of 15 characters from the Groups round and 9 from the Finals Comeback round, for a total of 24 characters.
+ Final Result Calculation:
+ Once each step has concluded, the website votes will be weighted then added to the in-game votes to calculate the final vote count.
+ In the event of a tie, the character who reached that number of votes first will advance.
+
+Final Results Announcement:
+ Once each step has concluded, barring the Finals round, the voting results will be announced the next day at 12:00 in-game and on the website.
+ Once the Finals round has concluded, the final results will be announced on Twitter and Facebook the following day after server maintenance.
+
+How to Vote:
+ In-game Voting:
+ Players with a Commander level of 25 and above can obtain Ballots through the following 2 ways:
+ 1: By completing special missions available during the voting period. These can be viewed from the Missions menu.
+ 2: By sortieing and defeating Boss nodes in Campaign mode to earn a Certificate of Support.
+ Players can use their Certificate of Support on the Campaign overworld screen or the Popularity Poll banner to receive Support Points.
+ Support Points will in turn give the player Ballots based on how many Points he/she earned.
+ The player can then use their Ballots to vote for their favorite characters with the Vote button on the Popularity Poll banner.
+ Please note that once each step of the Poll has concluded, all remaining Ballots will disappear.
+
+About Certificates of Support:
+ 1. Players can obtain a Certificate of Support by defeating Boss nodes on Campaign (Normal mode only) and Event maps (excluding through War Archives.)
+ 2. Players cannot possess more than 1 Certificate of Support at a time. It can be used on the Campaign overworld map or from the Popularity Poll banner.
+ 3. When using their Certificate of Support, players will be sent to a screen with the chibi sprites of several characters. By tapping the chibis in the direction that the Manjuu is pointing, the Certificate of Support will be spent and the player will receive Support Points.
+ 4. The Certificate of Support will disappear if not used within a certain timespan.
+ 5. Certificates of Support obtained from higher level Campaign maps give more Support Points.
+	Chapter 3: 120 Points
+	Chapter 4: 150 Points
+	Chapter 5: 180 Points
+	Chapter 6: 220 Points
+	Chapter 7: 270 Points
+	Chapter 8: 350 Points
+	Chapter 9: 450 Points
+	Chapter 10: 550 Points
+	Chapter 11: 700 Points
+	Chapter 12: 850 Points
+
+You can check the in-game Help button for more details on the above.
+
+Website Voting:
+ Players can vote on their favorite characters once a day by visiting the Azur Lane Popularity Poll 2019 website after binding their Twitter or Facebook account to it.
+ Players can vote a second time by using the Share button to post their character choices on Twitter. Please note that you can only vote a maximum of 2 times a day from the same device.
+ The link to the Popularity Poll website will be posted on the official Azur Lane Twitter and Facebook accounts.
+
+Voting Schedule:
+ Qualifiers (in-game only): Begins after the 29/8 maintenance, lasts until 23:59 PDT on 5/9.
+ Qualifiers Comeback (web voting only): Begins at 00:00 PDT on 12/9, lasts until 23:59 PDT on 23/9.
+ Group A: Begins at 00:00 PDT on 12/9, lasts until 23:59 PDT on 16/9.
+ Group B: Begins at 00:00 PDT on 19/9, lasts until 23:59 PDT on 23/9.
+ Group C: Begins at 00:00 PDT on 26/9, lasts until 23:59 PDT on 30/9.
+ Group D: Begins at 00:00 PDT on 3/10, lasts until 23:59 PDT on 7/10.
+ Group E: Begins at 00:00 PDT on 10/10, lasts until 23:59 PDT on 14/10.
+ Finals Comeback: Begins at 00:00 PDT on 17/10, lasts until 23:59 PDT on 21/10.
+ Finals: Begins at 14:00 on 24/10, lasts until 23:59 PDT on 30/10.
+]]
+			}
+		}
+	},
 	tips_firework_exit = {
 		tip = "The fireworks have not yet been completed. Are you sure you want to leave?",
 		key = "tips_firework_exit"
@@ -10816,6 +10866,22 @@ You can play the minigame without a Game Ticket but will not earn any prizes.</c
 	result_firework_produce = {
 		tip = "Fireworks production has been completed. Your final rating: ",
 		key = "result_firework_produce"
+	},
+	vote_get_book = {
+		tip = "You obtained a Certificate of Support.",
+		key = "vote_get_book"
+	},
+	vote_book_is_over = {
+		tip = "The Popularity Poll has concluded.",
+		key = "vote_book_is_over"
+	},
+	word_maintain = {
+		tip = "post-maintenance ",
+		key = "word_maintain"
+	},
+	name_zhanliejahe = {
+		tip = "{namecode:92}(BB)",
+		key = "name_zhanliejahe"
 	}
 }
 

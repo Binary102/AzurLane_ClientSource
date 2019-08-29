@@ -744,6 +744,11 @@ pg.gameset = {
 		description = "",
 		key = "air_dominance_y",
 		key_value = 450
+	},
+	vote_web_url = {
+		description = "vote.azurlane.jp",
+		key = "vote_web_url",
+		key_value = 0
 	}
 }
 

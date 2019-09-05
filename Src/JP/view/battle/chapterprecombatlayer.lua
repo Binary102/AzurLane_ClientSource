@@ -391,6 +391,18 @@ function slot0.loadAllCharacter(slot0, slot1)
 		setActive(slot14, slot1.hpRant < ChapterConst.HpGreen)
 
 		(ChapterConst.HpGreen <= slot1.hpRant and slot13) or slot14:GetComponent("Image").fillAmount = slot1.hpRant * 0.0001
+
+		setActive(slot6:Find("expbuff"), getProxy(ActivityProxy).getBuffShipList(slot14)[slot1:getGroupId()] ~= nil)
+
+		if slot18 then
+			slot22 = tostring(slot20)
+
+			if slot18 % 100 > 0 then
+				slot22 = slot22 .. "." .. tostring(slot21)
+			end
+
+			setText(slot19:Find("text"), string.format("EXP +%s%%", slot22))
+		end
 	end
 
 	slot4(TeamType.Vanguard)

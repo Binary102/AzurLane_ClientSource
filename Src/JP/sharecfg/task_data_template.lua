@@ -68365,114 +68365,6 @@ pg.task_data_template = {
 			}
 		}
 	},
-	[31004] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 8139,
-		type = 6,
-		name = "特殊票入手",
-		count_inherit = 0,
-		desc = "「投票券入手」毎日任務を12回クリア",
-		target_id_2 = "",
-		sub_type = 91,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 15,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 31004,
-		target_num = 12,
-		fix_task = 0,
-		target_id = {
-			31001,
-			31002,
-			31003
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				59822,
-				1
-			}
-		}
-	},
-	[31005] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 8139,
-		type = 6,
-		name = "特殊票入手2",
-		count_inherit = 0,
-		desc = "「投票券入手」毎日任務を20回クリア",
-		target_id_2 = "",
-		sub_type = 91,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 15,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 31005,
-		target_num = 20,
-		fix_task = 0,
-		target_id = {
-			31001,
-			31002,
-			31003
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				59822,
-				1
-			}
-		}
-	},
-	[31006] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 8139,
-		type = 6,
-		name = "特殊票入手3",
-		count_inherit = 0,
-		desc = "「投票券入手」毎日任務を1回クリア",
-		target_id_2 = "",
-		sub_type = 91,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 15,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 31006,
-		target_num = 1,
-		fix_task = 0,
-		target_id = {
-			31001,
-			31002,
-			31003
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				59822,
-				1
-			}
-		}
-	},
 	[31013] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -77730,9 +77622,6 @@ pg.task_data_template = {
 		31001,
 		31002,
 		31003,
-		31004,
-		31005,
-		31006,
 		31013,
 		31014,
 		31015,

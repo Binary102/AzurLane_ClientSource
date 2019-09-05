@@ -523,6 +523,22 @@ function slot0.loadAllCharacter(slot0)
 
 		setImageSprite(findTF(slot9, "type"), slot14, true)
 		setText(findTF(slot9, "frame/lv_contain/lv"), slot7.level)
+
+		if slot0.contextData.system == SYSTEM_SCENARIO or slot15 == SYSTEM_ROUTINE or slot15 == SYSTEM_ACT_BOSS or slot15 == SYSTEM_SUB_ROUTINE then
+			setActive(slot9:Find("expbuff"), getProxy(ActivityProxy).getBuffShipList(slot16)[slot7:getGroupId()] ~= nil)
+
+			if slot18 then
+				slot22 = tostring(slot20)
+
+				if slot18 % 100 > 0 then
+					slot22 = slot22 .. "." .. tostring(slot21)
+				end
+
+				setText(slot19:Find("text"), string.format("EXP +%s%%", slot22))
+			end
+		else
+			setActive(slot9:Find("expbuff"), false)
+		end
 	end
 
 	slot3(slot0._currentFleetVO.vanguardShips, Fleet.VANGUARD)

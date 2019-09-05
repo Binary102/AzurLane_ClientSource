@@ -298,6 +298,10 @@ function slot0.didEnter(slot0)
 		setActive(slot0.serversPanel, false)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0:findTF("background"), function ()
+		if slot0.onPlayingOP then
+			return
+		end
+
 		if not slot0.initFinished then
 			return
 		end
@@ -329,21 +333,10 @@ function slot0.didEnter(slot0)
 
 	if PLAY_OPENING then
 		onButton(slot0, slot0.opBtn, function ()
-			if slot0.initFinished then
+			if slot0.initFinished and not slot0.onPlayingOP then
 				slot0:playOpening(true)
 			end
 		end)
-
-		if PlayerPrefs.GetString("op_ver", "") ~= OP_VERSION then
-			slot0:playOpening(true, function ()
-				PlayerPrefs.SetString("op_ver", OP_VERSION)
-				PlayerPrefs.SetString:playExtraVoice()
-
-				PlayerPrefs.SetString.playExtraVoice.initFinished = true
-			end)
-
-			return
-		end
 	end
 
 	slot0:playExtraVoice()
@@ -576,9 +569,13 @@ function slot0.willExit(slot0)
 end
 
 function slot0.playOpening(slot0, slot1, slot2, slot3)
-	pg.CriMgr.GetInstance():stopBGM()
+	slot0.onPlayingOP = true
 
 	function slot4()
+		if not slot0.openingTF then
+			return
+		end
+
 		setActive(slot0.openingTF, false)
 
 		setActive.openingAni.enabled = false
@@ -599,8 +596,7 @@ function slot0.playOpening(slot0, slot1, slot2, slot3)
 		end
 
 		slot0.cg.alpha = 1
-
-		pg.CriMgr.GetInstance():resumeNormalBGM()
+		slot0.cg.onPlayingOP = false
 	end
 
 	function slot5()

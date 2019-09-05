@@ -6137,6 +6137,105 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[101410] = {
+		name = "スタンリー ",
+		bg = "",
+		ship_group = 10141,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		id = 101410,
+		painting = "sitanli",
+		air_bullet_skin = "",
+		hand_id = 5,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "sitanli",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "フレッチャー級駆逐艦・スタンリー（DD-478)",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.004,
+					0.816,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.968,
+					0.789,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.06,
+					0.02,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.31,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[102010] = {
 		name = "オマハ",
 		bg = "",
@@ -28123,6 +28222,130 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[202241] = {
+		name = "ホワイトプリンセス",
+		bg = "106",
+		ship_group = 20224,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		id = 202241,
+		painting = "heitaizi_2",
+		air_bullet_skin = "",
+		hand_id = 13,
+		shop_type_id = 6,
+		lip_smoothing = 0,
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "heitaizi_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70226,
+		desc = "指揮官、お待たせ。休暇に誘ってくれてありがとう。こうして休みの日に貴方と会うのは……少し慣れないけど…ええと、この水着…どう？",
+		voice_actor = 77,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			-130,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.188,
+					1.002,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.188,
+					0.989,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.12,
+					0.968,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.39,
+							-0.568
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			login = 7
+		}
+	},
 	[203010] = {
 		name = "ロンドン",
 		bg = "",
@@ -32609,7 +32832,7 @@ pg.ship_skin_template = {
 		},
 		live2d_offset = {
 			0,
-			0,
+			-20,
 			0
 		},
 		fx_container = {
@@ -50057,6 +50280,114 @@ pg.ship_skin_template = {
 				{
 					0.72,
 					1.05,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.14,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[304042] = {
+		name = "ブレイブリーサマー",
+		bg = "105",
+		ship_group = 30404,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		id = 304042,
+		painting = "wudao_3",
+		air_bullet_skin = "",
+		hand_id = 2,
+		shop_type_id = 9,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "wudao_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70227,
+		desc = "普段はともかく、指揮官の前でこの格好をするとやっぱり恥ずかしいな。……えっと、まあ…コホン！指揮官、どうだ？二人でふらっと海辺かどこかで散歩してみない？",
+		voice_actor = 128,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.969,
+					0.682,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.991,
+					0.724,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.035,
+					0.033,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.988,
+					0.638,
 					0
 				}
 			}
@@ -80391,6 +80722,7 @@ pg.ship_skin_template = {
 		101392,
 		101400,
 		101401,
+		101410,
 		102010,
 		102020,
 		102030,
@@ -80595,6 +80927,7 @@ pg.ship_skin_template = {
 		202230,
 		202231,
 		202240,
+		202241,
 		203010,
 		203019,
 		203020,
@@ -80797,6 +81130,7 @@ pg.ship_skin_template = {
 		304031,
 		304040,
 		304041,
+		304042,
 		304050,
 		304060,
 		305010,

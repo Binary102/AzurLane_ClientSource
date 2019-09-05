@@ -168,6 +168,14 @@ slot1 = {
 	[ActivityConst.SKIN_YAMASHIRO_II] = {
 		className = "YamashiroSkinPage",
 		uiName = "yamashiroskinpage"
+	},
+	[ActivityConst.SHENSHENGXVMU_ID] = {
+		className = "ShenshengxvmuPage",
+		uiName = "shenshengxvmupage"
+	},
+	[ActivityConst.SITANLI_LOGIN_ID] = {
+		className = "SitanliLoginPage",
+		uiName = "sitanliloginpage"
 	}
 }
 slot2 = {}

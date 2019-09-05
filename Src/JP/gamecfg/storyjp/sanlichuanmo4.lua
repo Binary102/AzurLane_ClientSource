@@ -553,7 +553,7 @@ return {
 			}
 		},
 		{
-			say = "三笠だいさんぱいのモデル、かっこいい！",
+			say = "三笠だいせんぱいのモデル、かっこいい！",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,

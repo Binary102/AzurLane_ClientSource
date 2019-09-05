@@ -337,6 +337,8 @@ function slot0.loadAllCharacter(slot0, slot1)
 		setActive(slot14, slot1.hpRant < ChapterConst.HpGreen)
 
 		(ChapterConst.HpGreen <= slot1.hpRant and slot13) or slot14:GetComponent("Image").fillAmount = slot1.hpRant * 0.0001
+
+		setActive(slot6:Find("expbuff"), false)
 	end
 
 	slot4(TeamType.Vanguard)

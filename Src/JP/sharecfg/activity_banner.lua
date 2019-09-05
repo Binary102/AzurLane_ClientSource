@@ -12,8 +12,8 @@ pg.activity_banner = {
 			{
 				{
 					2019,
-					8,
-					29
+					9,
+					5
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.activity_banner = {
 				{
 					2019,
 					9,
-					4
+					11
 				},
 				{
 					23,
@@ -36,21 +36,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "361",
+		type = 3,
 		id = 2,
 		pic = "temp6",
-		param = {
-			"scene get boat",
-			{
-				projectName = "light"
-			}
-		},
 		time = {
 			{
 				{
 					2019,
-					8,
-					29
+					9,
+					5
 				},
 				{
 					0,
@@ -61,8 +56,8 @@ pg.activity_banner = {
 			{
 				{
 					2019,
-					9,
-					5
+					10,
+					2
 				},
 				{
 					23,

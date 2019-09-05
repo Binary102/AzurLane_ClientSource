@@ -18339,10 +18339,10 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "最近流行りの飲み物（らしい）",
+		display = "甘口？辛口？好みは人それぞれ…<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
 		rarity = 2,
 		type = 3,
-		name = "ミルキィ饅頭",
+		name = "海軍カレー",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -67418,6 +67418,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59138] = {
+		display = "「帝国の先触れ」報酬交換用アイテム。イベント終了後に削除される。",
+		rarity = 2,
+		type = 98,
+		name = "訓練Pt",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59138,
+		icon = "Props/xunliandianshu",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "三笠大先輩の蒐集品の一つ。駆逐艦「江風」のモデル",
 		rarity = 2,
@@ -71860,6 +71876,7 @@ pg.item_data_statistics = {
 		59134,
 		59135,
 		59136,
+		59138,
 		59601,
 		59602,
 		59603,

@@ -8960,7 +8960,7 @@ pg.gametip = {
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "「ブラック・プリンス」、「バッチ」 出現率UP！",
+		tip = "「ブラック・プリンス」「ジュピター」常設追加！",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
@@ -11009,6 +11009,10 @@ Pt」が加算されます。
 	words_information = {
 		tip = "情報",
 		key = "words_information"
+	},
+	Word_Ship_Exp_Buff = {
+		tip = "経験値＋",
+		key = "Word_Ship_Exp_Buff"
 	},
 	secondarypassword_incorrectpwd_error = {
 		tip = "パスワードが間違っています。（あと<color=#FF5C5C>%d</color>回入力可能）",

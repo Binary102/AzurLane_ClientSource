@@ -858,7 +858,7 @@ return {
 			actor = 102124,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "え、えっ！？ど、どういう風俗なのよ…！うぅ…た、たーまやー…？",
+			say = "え、えっ！？ど、どういう風習なのよ…！うぅ…た、たーまやー…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

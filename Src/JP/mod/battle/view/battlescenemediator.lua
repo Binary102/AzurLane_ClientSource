@@ -25,7 +25,7 @@ function slot5.Initialize(slot0)
 end
 
 function slot5.Init(slot0)
-	slot0:InitPopNumPool(slot0.Battle.BattlePopNumManager.CONTAINER_HP)
+	slot0:InitPopNumPool()
 
 	slot0._characterList = {}
 	slot0._bulletList = {}
@@ -50,9 +50,8 @@ end
 
 function slot5.InitPopNumPool(slot0)
 	slot0._popNumPool = slot0.Battle.BattlePopNumManager.GetInstance()
-	slot1 = slot0._state:GetUI()
 
-	slot0._popNumPool:Init(slot1:findTF("HP_POP"), slot1:findTF(slot0.Battle.BattlePopNumManager.CONTAINER_HP))
+	slot0._popNumPool:InitialPoolRoot(slot0._state:GetUI():findTF("HP_POP"))
 end
 
 function slot5.InitPopScorePool(slot0)
@@ -73,7 +72,7 @@ end
 function slot5.InitCharacterFactory(slot0)
 	slot1 = slot0._state:GetUI()
 
-	slot0.Battle.BattleHPBarManager.GetInstance():Init(slot1:findTF(slot0.Battle.BattleHPBarManager.ROOT_NAME))
+	slot0.Battle.BattleHPBarManager.GetInstance():InitialPoolRoot(slot1:findTF(slot0.Battle.BattleHPBarManager.ROOT_NAME))
 	slot0.Battle.BattleArrowManager.GetInstance():Init(slot1:findTF(slot0.Battle.BattleArrowManager.ROOT_NAME))
 
 	slot0._characterFactoryList = {

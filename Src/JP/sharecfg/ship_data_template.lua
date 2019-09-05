@@ -4552,12 +4552,12 @@ pg.ship_data_template = {
 	},
 	[101351] = {
 		oil_at_start = 1,
-		max_level = 100,
+		max_level = 70,
 		equip_id_3 = 0,
 		oil_at_end = 2,
 		type = 1,
 		energy = 150,
-		name = "バッチ ",
+		name = "バッチ",
 		can_get_proficency = 0,
 		star = 2,
 		star_max = 5,
@@ -4597,12 +4597,12 @@ pg.ship_data_template = {
 	},
 	[101352] = {
 		oil_at_start = 1,
-		max_level = 100,
+		max_level = 80,
 		equip_id_3 = 0,
 		oil_at_end = 4,
 		type = 1,
 		energy = 150,
-		name = "バッチ ",
+		name = "バッチ",
 		can_get_proficency = 0,
 		star = 3,
 		star_max = 5,
@@ -4643,12 +4643,12 @@ pg.ship_data_template = {
 	},
 	[101353] = {
 		oil_at_start = 1,
-		max_level = 100,
+		max_level = 90,
 		equip_id_3 = 0,
 		oil_at_end = 6,
 		type = 1,
 		energy = 150,
-		name = "バッチ ",
+		name = "バッチ",
 		can_get_proficency = 0,
 		star = 4,
 		star_max = 5,
@@ -4694,7 +4694,7 @@ pg.ship_data_template = {
 		oil_at_end = 8,
 		type = 1,
 		energy = 150,
-		name = "バッチ ",
+		name = "バッチ",
 		can_get_proficency = 1,
 		star = 5,
 		star_max = 5,
@@ -4740,7 +4740,7 @@ pg.ship_data_template = {
 		oil_at_end = 2,
 		type = 1,
 		energy = 150,
-		name = "霍比占坑",
+		name = "霍比",
 		can_get_proficency = 0,
 		star = 2,
 		star_max = 5,
@@ -4785,7 +4785,7 @@ pg.ship_data_template = {
 		oil_at_end = 4,
 		type = 1,
 		energy = 150,
-		name = "霍比占坑",
+		name = "霍比",
 		can_get_proficency = 0,
 		star = 3,
 		star_max = 5,
@@ -4831,7 +4831,7 @@ pg.ship_data_template = {
 		oil_at_end = 6,
 		type = 1,
 		energy = 150,
-		name = "霍比占坑",
+		name = "霍比",
 		can_get_proficency = 0,
 		star = 4,
 		star_max = 5,
@@ -4877,7 +4877,7 @@ pg.ship_data_template = {
 		oil_at_end = 8,
 		type = 1,
 		energy = 150,
-		name = "霍比占坑",
+		name = "霍比",
 		can_get_proficency = 1,
 		star = 5,
 		star_max = 5,
@@ -4923,7 +4923,7 @@ pg.ship_data_template = {
 		oil_at_end = 2,
 		type = 1,
 		energy = 150,
-		name = "科尔克占坑",
+		name = "科尔克",
 		can_get_proficency = 0,
 		star = 2,
 		star_max = 5,
@@ -4968,7 +4968,7 @@ pg.ship_data_template = {
 		oil_at_end = 4,
 		type = 1,
 		energy = 150,
-		name = "科尔克占坑",
+		name = "科尔克",
 		can_get_proficency = 0,
 		star = 3,
 		star_max = 5,
@@ -5014,7 +5014,7 @@ pg.ship_data_template = {
 		oil_at_end = 6,
 		type = 1,
 		energy = 150,
-		name = "科尔克占坑",
+		name = "科尔克",
 		can_get_proficency = 0,
 		star = 4,
 		star_max = 5,
@@ -5060,7 +5060,7 @@ pg.ship_data_template = {
 		oil_at_end = 8,
 		type = 1,
 		energy = 150,
-		name = "科尔克占坑",
+		name = "科尔克",
 		can_get_proficency = 1,
 		star = 5,
 		star_max = 5,
@@ -5643,6 +5643,189 @@ pg.ship_data_template = {
 		buff_list_display = {
 			5021,
 			20012
+		},
+		hide_buff_list = {
+			51
+		}
+	},
+	[101411] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 0,
+		oil_at_end = 2,
+		type = 1,
+		energy = 150,
+		name = "スタンリー ",
+		can_get_proficency = 0,
+		star = 2,
+		star_max = 5,
+		strengthen_id = 10141,
+		equip_id_2 = 0,
+		equip_id_1 = 11100,
+		group_type = 10141,
+		id = 101411,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			4091
+		},
+		buff_list_display = {
+			4091,
+			20041
+		},
+		hide_buff_list = {
+			51
+		}
+	},
+	[101412] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 4,
+		type = 1,
+		energy = 150,
+		name = "スタンリー ",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 5,
+		strengthen_id = 10141,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10141,
+		id = 101412,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			4091,
+			20041
+		},
+		buff_list_display = {
+			4091,
+			20041
+		},
+		hide_buff_list = {
+			51
+		}
+	},
+	[101413] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 6,
+		type = 1,
+		energy = 150,
+		name = "スタンリー ",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 5,
+		strengthen_id = 10141,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10141,
+		id = 101413,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			4091,
+			20041
+		},
+		buff_list_display = {
+			4091,
+			20041
+		},
+		hide_buff_list = {
+			51
+		}
+	},
+	[101414] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 8,
+		type = 1,
+		energy = 150,
+		name = "スタンリー ",
+		can_get_proficency = 1,
+		star = 5,
+		star_max = 5,
+		strengthen_id = 10141,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10141,
+		id = 101414,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			4091,
+			20042
+		},
+		buff_list_display = {
+			4091,
+			20042
 		},
 		hide_buff_list = {
 			51
@@ -25645,7 +25828,7 @@ pg.ship_data_template = {
 	},
 	[202241] = {
 		oil_at_start = 1,
-		max_level = 100,
+		max_level = 70,
 		equip_id_3 = 0,
 		oil_at_end = 4,
 		type = 2,
@@ -25693,7 +25876,7 @@ pg.ship_data_template = {
 	},
 	[202242] = {
 		oil_at_start = 1,
-		max_level = 100,
+		max_level = 80,
 		equip_id_3 = 0,
 		oil_at_end = 6,
 		type = 2,
@@ -25742,7 +25925,7 @@ pg.ship_data_template = {
 	},
 	[202243] = {
 		oil_at_start = 1,
-		max_level = 100,
+		max_level = 90,
 		equip_id_3 = 0,
 		oil_at_end = 8,
 		type = 2,
@@ -66173,6 +66356,10 @@ pg.ship_data_template = {
 		101402,
 		101403,
 		101404,
+		101411,
+		101412,
+		101413,
+		101414,
 		102011,
 		102012,
 		102013,

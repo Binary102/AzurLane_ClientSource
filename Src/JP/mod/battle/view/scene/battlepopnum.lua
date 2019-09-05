@@ -14,7 +14,7 @@ function ys.Battle.BattlePopNum.Ctor(slot0, slot1, slot2)
 	slot0._go = slot3
 	slot0._tf = slot3.transform
 
-	slot0._tf:SetParent(slot2.parentTF, false)
+	slot0:SetParent(slot2.parentTF)
 
 	slot0._animator = slot3:GetComponent(typeof(Animator))
 
@@ -27,6 +27,10 @@ function ys.Battle.BattlePopNum.Ctor(slot0, slot1, slot2)
 	end)
 
 	slot0._tfposition = Vector3.zero
+end
+
+function ys.Battle.BattlePopNum.SetParent(slot0, slot1)
+	slot0._tf:SetParent(slot1, false)
 end
 
 function ys.Battle.BattlePopNum.SetText(slot0, slot1)

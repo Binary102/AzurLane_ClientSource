@@ -36,20 +36,33 @@ end
 function slot2.Init(slot0, slot1, slot2)
 	slot0._allPool = {}
 	slot0._activeList = {}
-	slot0._allPool[slot0.POP_COMMON] = slot0:generatePool(slot0.POP_COMMON, slot2, slot1, 10)
-	slot0._allPool[slot0.POP_MISS] = slot0:generatePool(slot0.POP_MISS, slot2, slot1, 10)
-	slot0._allPool[slot0.POP_UNBREAK] = slot0:generatePool(slot0.POP_UNBREAK, slot2, slot1, 10)
-	slot0._allPool[slot0.POP_HEAL] = slot0:generatePool(slot0.POP_HEAL, slot2, slot1, 0)
-	slot0._allPool[slot0.POP_NORMAL] = slot0:generatePool(slot0.POP_NORMAL, slot2, slot1, 0)
-	slot0._allPool[slot0.POP_EXPLO] = slot0:generatePool(slot0.POP_EXPLO, slot2, slot1, 0)
-	slot0._allPool[slot0.POP_PIERCE] = slot0:generatePool(slot0.POP_PIERCE, slot2, slot1, 0)
-	slot0._allPool[slot0.POP_CT_NORMAL] = slot0:generatePool(slot0.POP_CT_NORMAL, slot2, slot1, 0)
-	slot0._allPool[slot0.POP_CT_EXPLO] = slot0:generatePool(slot0.POP_CT_EXPLO, slot2, slot1, 0)
-	slot0._allPool[slot0.POP_CT_PIERCE] = slot0:generatePool(slot0.POP_CT_PIERCE, slot2, slot1, 0)
+	slot0._allPool[slot0.POP_COMMON] = slot0:generateTempPool(slot0.POP_COMMON, slot2, slot1, 10)
+	slot0._allPool[slot0.POP_MISS] = slot0:generateTempPool(slot0.POP_MISS, slot2, slot1, 10)
+	slot0._allPool[slot0.POP_UNBREAK] = slot0:generateTempPool(slot0.POP_UNBREAK, slot2, slot1, 10)
+	slot0._allPool[slot0.POP_HEAL] = slot0:generateTempPool(slot0.POP_HEAL, slot2, slot1, 0)
+	slot0._allPool[slot0.POP_NORMAL] = slot0:generateTempPool(slot0.POP_NORMAL, slot2, slot1, 0)
+	slot0._allPool[slot0.POP_EXPLO] = slot0:generateTempPool(slot0.POP_EXPLO, slot2, slot1, 0)
+	slot0._allPool[slot0.POP_PIERCE] = slot0:generateTempPool(slot0.POP_PIERCE, slot2, slot1, 0)
+	slot0._allPool[slot0.POP_CT_NORMAL] = slot0:generateTempPool(slot0.POP_CT_NORMAL, slot2, slot1, 0)
+	slot0._allPool[slot0.POP_CT_EXPLO] = slot0:generateTempPool(slot0.POP_CT_EXPLO, slot2, slot1, 0)
+	slot0._allPool[slot0.POP_CT_PIERCE] = slot0:generateTempPool(slot0.POP_CT_PIERCE, slot2, slot1, 0)
 end
 
 function slot2.InitScroePop(slot0, slot1, slot2)
 	slot0._allPool[slot0.POP_SCORE] = slot0:generatePool(slot0.POP_SCORE, slot2, slot1, 5)
+end
+
+function slot2.InitialPoolRoot(slot0, slot1)
+	slot0:resetPopParent(slot0._allPool[slot0.POP_COMMON], slot1)
+	slot0:resetPopParent(slot0._allPool[slot0.POP_MISS], slot1)
+	slot0:resetPopParent(slot0._allPool[slot0.POP_UNBREAK], slot1)
+	slot0:resetPopParent(slot0._allPool[slot0.POP_HEAL], slot1)
+	slot0:resetPopParent(slot0._allPool[slot0.POP_NORMAL], slot1)
+	slot0:resetPopParent(slot0._allPool[slot0.POP_EXPLO], slot1)
+	slot0:resetPopParent(slot0._allPool[slot0.POP_PIERCE], slot1)
+	slot0:resetPopParent(slot0._allPool[slot0.POP_CT_NORMAL], slot1)
+	slot0:resetPopParent(slot0._allPool[slot0.POP_CT_EXPLO], slot1)
+	slot0:resetPopParent(slot0._allPool[slot0.POP_CT_PIERCE], slot1)
 end
 
 function slot2.Clear(slot0)
@@ -119,6 +132,22 @@ function slot2.generatePool(slot0, slot1, slot2, slot3, slot4)
 		parentTF = slot2,
 		mgr = slot0
 	}, slot4)
+end
+
+function slot2.generateTempPool(slot0, slot1, slot2, slot3, slot4)
+	return pg.LuaObPool.New(slot0.Battle.BattlePopNum, {
+		template = slot3.transform:Find(slot1).gameObject,
+		parentTF = slot2,
+		mgr = slot0
+	}, slot4)
+end
+
+function slot2.resetPopParent(slot0, slot1, slot2)
+	slot1:UpdateInfo("parentTF", slot2)
+
+	for slot6, slot7 in ipairs(slot1.list) do
+		slot7:SetParent(slot2)
+	end
 end
 
 return

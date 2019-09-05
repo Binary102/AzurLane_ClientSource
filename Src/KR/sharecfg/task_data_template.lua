@@ -57585,6 +57585,38 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14847] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91508,
+		type = 6,
+		name = "登录赠送皮影戏家具",
+		count_inherit = 0,
+		desc = "感谢指挥官一直以来的支持喵~",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14847,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				149,
+				1
+			}
+		}
+	},
 	[30201] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -57773,114 +57805,6 @@ pg.task_data_template = {
 			{
 				2,
 				59821,
-				1
-			}
-		}
-	},
-	[31004] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 8139,
-		type = 6,
-		name = "특수표 획득",
-		count_inherit = 0,
-		desc = "일간 임무 「일반표 획득」을 12번 클리어",
-		target_id_2 = "",
-		sub_type = 91,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 15,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 31004,
-		target_num = 12,
-		fix_task = 0,
-		target_id = {
-			31001,
-			31002,
-			31003
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				59822,
-				1
-			}
-		}
-	},
-	[31005] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 8139,
-		type = 6,
-		name = "특수표 획득 2",
-		count_inherit = 0,
-		desc = "일간 임무 「일반표 획득」을 20번 클리어",
-		target_id_2 = "",
-		sub_type = 91,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 15,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 31005,
-		target_num = 20,
-		fix_task = 0,
-		target_id = {
-			31001,
-			31002,
-			31003
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				59822,
-				1
-			}
-		}
-	},
-	[31006] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 8139,
-		type = 6,
-		name = "특수표 획득 3",
-		count_inherit = 0,
-		desc = "일간 임무 「일반표 획득」을 1번 클리어",
-		target_id_2 = "",
-		sub_type = 91,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 15,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 31006,
-		target_num = 1,
-		fix_task = 0,
-		target_id = {
-			31001,
-			31002,
-			31003
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				59822,
 				1
 			}
 		}
@@ -65940,15 +65864,13 @@ pg.task_data_template = {
 		14844,
 		14845,
 		14846,
+		14847,
 		30201,
 		30202,
 		30203,
 		31001,
 		31002,
 		31003,
-		31004,
-		31005,
-		31006,
 		40001,
 		40002,
 		51001,

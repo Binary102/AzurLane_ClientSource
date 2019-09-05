@@ -1130,7 +1130,7 @@ function slot0.checkBuyDone(slot0, slot1)
 	if slot5 then
 		slot0.preAniName = slot2
 
-		slot0.live2dChar:TriggerAction(slot2, true)
+		slot0.live2dChar:TriggerAction(slot2, nil, true)
 	end
 
 	return slot5

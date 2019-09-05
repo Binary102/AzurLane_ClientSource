@@ -13,7 +13,7 @@ pg.item_data_chat = {
 		time_second = 0,
 		id = 101,
 		time_limit_type = 0,
-		desc = "항구에서 1년 동안 계속해서 분투를 하신 지휘관 님들께 바칩니다.\n<color=#A7A7AAFF> [재탄생의 새벽]을 개시하면 기념 코인을 획득.</color>",
+		desc = "1년 동안 분투 하신 지휘관님들께 바침.\n<color=#A7A7AAFF> [재탄생의 새벽]을 개시하면 기념 코인을 획득.</color>",
 		scene = {}
 	},
 	[300] = {

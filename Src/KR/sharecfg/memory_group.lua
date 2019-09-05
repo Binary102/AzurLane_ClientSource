@@ -1084,7 +1084,8 @@ pg.memory_group = {
 		id = 165,
 		icon = "title_event",
 		memories = {
-			889
+			889,
+			890
 		}
 	},
 	[501] = {

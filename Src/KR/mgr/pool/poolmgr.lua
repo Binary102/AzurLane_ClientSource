@@ -242,7 +242,10 @@ slot7 = {
 	"ItemInfoUI",
 	"ShipDetailView",
 	"LevelFleetSelectView",
-	"ToastUI"
+	"ToastUI",
+	"MsgBox",
+	"TipPanel",
+	"Loading"
 }
 slot8 = {}
 
@@ -543,6 +546,28 @@ function pg.PoolMgr.DestroyAllPrefab(slot0)
 	_.each(slot1, function (slot0)
 		slot0.pools_plural[slot0] = nil
 	end)
+end
+
+function pg.PoolMgr.DisplayPluralPools(slot0)
+	slot1 = ""
+
+	for slot5, slot6 in pairs(slot0.pools_plural) do
+		if #slot1 > 0 then
+			slot1 = slot1 .. "\n"
+		end
+
+		slot1 = slot1 .. " " .. table.concat(_.map({
+			slot5,
+			"balance",
+			slot6.balance,
+			"currentItmes",
+			#slot6.items
+		}, function (slot0)
+			return tostring(slot0)
+		end), " ")
+	end
+
+	warning(slot1)
 end
 
 function pg.PoolMgr.FromPlural(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)

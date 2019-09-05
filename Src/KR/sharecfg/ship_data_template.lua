@@ -4550,6 +4550,189 @@ pg.ship_data_template = {
 			51
 		}
 	},
+	[101351] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 0,
+		oil_at_end = 2,
+		type = 1,
+		energy = 150,
+		name = "贝奇",
+		can_get_proficency = 0,
+		star = 2,
+		star_max = 5,
+		strengthen_id = 10135,
+		equip_id_2 = 0,
+		equip_id_1 = 11100,
+		group_type = 10135,
+		id = 101351,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			12560
+		},
+		buff_list_display = {
+			12560,
+			20041
+		},
+		hide_buff_list = {
+			51
+		}
+	},
+	[101352] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 4,
+		type = 1,
+		energy = 150,
+		name = "贝奇",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 5,
+		strengthen_id = 10135,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10135,
+		id = 101352,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			12560,
+			20041
+		},
+		buff_list_display = {
+			12560,
+			20041
+		},
+		hide_buff_list = {
+			51
+		}
+	},
+	[101353] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 6,
+		type = 1,
+		energy = 150,
+		name = "贝奇",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 5,
+		strengthen_id = 10135,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10135,
+		id = 101353,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			12560,
+			20041
+		},
+		buff_list_display = {
+			12560,
+			20041
+		},
+		hide_buff_list = {
+			51
+		}
+	},
+	[101354] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 8,
+		type = 1,
+		energy = 150,
+		name = "贝奇",
+		can_get_proficency = 1,
+		star = 5,
+		star_max = 5,
+		strengthen_id = 10135,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10135,
+		id = 101354,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			12560,
+			20042
+		},
+		buff_list_display = {
+			12560,
+			20042
+		},
+		hide_buff_list = {
+			51
+		}
+	},
 	[101361] = {
 		oil_at_start = 1,
 		max_level = 70,
@@ -20955,6 +21138,189 @@ pg.ship_data_template = {
 			51
 		}
 	},
+	[201241] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 0,
+		oil_at_end = 2,
+		type = 1,
+		energy = 150,
+		name = "주피터",
+		can_get_proficency = 0,
+		star = 2,
+		star_max = 5,
+		strengthen_id = 20124,
+		equip_id_2 = 0,
+		equip_id_1 = 21400,
+		group_type = 20124,
+		id = 201241,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			5031
+		},
+		buff_list_display = {
+			5031,
+			21071
+		},
+		hide_buff_list = {
+			51
+		}
+	},
+	[201242] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 4,
+		type = 1,
+		energy = 150,
+		name = "주피터",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 5,
+		strengthen_id = 20124,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 20124,
+		id = 201242,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			5031,
+			21071
+		},
+		buff_list_display = {
+			5031,
+			21071
+		},
+		hide_buff_list = {
+			51
+		}
+	},
+	[201243] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 6,
+		type = 1,
+		energy = 150,
+		name = "주피터",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 5,
+		strengthen_id = 20124,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 20124,
+		id = 201243,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			5031,
+			21071
+		},
+		buff_list_display = {
+			5031,
+			21071
+		},
+		hide_buff_list = {
+			51
+		}
+	},
+	[201244] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 8,
+		type = 1,
+		energy = 150,
+		name = "주피터",
+		can_get_proficency = 1,
+		star = 5,
+		star_max = 5,
+		strengthen_id = 20124,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 20124,
+		id = 201244,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			5031,
+			21072
+		},
+		buff_list_display = {
+			5031,
+			21072
+		},
+		hide_buff_list = {
+			51
+		}
+	},
 	[201261] = {
 		oil_at_start = 1,
 		max_level = 70,
@@ -24517,6 +24883,201 @@ pg.ship_data_template = {
 			2131,
 			1081,
 			21172
+		},
+		hide_buff_list = {
+			52
+		}
+	},
+	[202241] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 0,
+		oil_at_end = 4,
+		type = 2,
+		energy = 150,
+		name = "黑太子",
+		can_get_proficency = 0,
+		star = 2,
+		star_max = 5,
+		strengthen_id = 20224,
+		equip_id_2 = 5000,
+		equip_id_1 = 21500,
+		group_type = 20224,
+		id = 202241,
+		equip_1 = {
+			1,
+			2
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			12550,
+			4081
+		},
+		buff_list_display = {
+			12550,
+			4081,
+			21121
+		},
+		hide_buff_list = {
+			52
+		}
+	},
+	[202242] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 6,
+		type = 2,
+		energy = 150,
+		name = "黑太子",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 5,
+		strengthen_id = 20224,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 20224,
+		id = 202242,
+		equip_1 = {
+			1,
+			2
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			12550,
+			4081,
+			21121
+		},
+		buff_list_display = {
+			12550,
+			4081,
+			21121
+		},
+		hide_buff_list = {
+			52
+		}
+	},
+	[202243] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 8,
+		type = 2,
+		energy = 150,
+		name = "黑太子",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 5,
+		strengthen_id = 20224,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 20224,
+		id = 202243,
+		equip_1 = {
+			1,
+			2
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			12550,
+			4081,
+			21121
+		},
+		buff_list_display = {
+			12550,
+			4081,
+			21121
+		},
+		hide_buff_list = {
+			52
+		}
+	},
+	[202244] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 10,
+		type = 2,
+		energy = 150,
+		name = "黑太子",
+		can_get_proficency = 1,
+		star = 5,
+		star_max = 5,
+		strengthen_id = 20224,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 20224,
+		id = 202244,
+		equip_1 = {
+			1,
+			2
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			12550,
+			4081,
+			21122
+		},
+		buff_list_display = {
+			12550,
+			4081,
+			21122
 		},
 		hide_buff_list = {
 			52
@@ -62510,7 +63071,8 @@ pg.ship_data_template = {
 		buff_list_display = {
 			19130,
 			19140,
-			19000
+			19000,
+			29391
 		},
 		hide_buff_list = {
 			52
@@ -62559,7 +63121,8 @@ pg.ship_data_template = {
 		buff_list_display = {
 			19130,
 			19140,
-			19000
+			19000,
+			29391
 		},
 		hide_buff_list = {
 			52
@@ -62609,7 +63172,8 @@ pg.ship_data_template = {
 		buff_list_display = {
 			19130,
 			19140,
-			19001
+			19001,
+			29391
 		},
 		hide_buff_list = {
 			52
@@ -62659,7 +63223,8 @@ pg.ship_data_template = {
 		buff_list_display = {
 			19130,
 			19140,
-			19002
+			19002,
+			29392
 		},
 		hide_buff_list = {
 			52
@@ -62896,7 +63461,8 @@ pg.ship_data_template = {
 		buff_list_display = {
 			19170,
 			19180,
-			19000
+			19000,
+			29381
 		},
 		hide_buff_list = {
 			51
@@ -62945,7 +63511,8 @@ pg.ship_data_template = {
 		buff_list_display = {
 			19170,
 			19180,
-			19000
+			19000,
+			29381
 		},
 		hide_buff_list = {
 			51
@@ -62994,7 +63561,8 @@ pg.ship_data_template = {
 		buff_list_display = {
 			19170,
 			19180,
-			19001
+			19001,
+			29381
 		},
 		hide_buff_list = {
 			51
@@ -63043,7 +63611,8 @@ pg.ship_data_template = {
 		buff_list_display = {
 			19170,
 			19180,
-			19002
+			19002,
+			29382
 		},
 		hide_buff_list = {
 			51
@@ -63732,6 +64301,10 @@ pg.ship_data_template = {
 		101342,
 		101343,
 		101344,
+		101351,
+		101352,
+		101353,
+		101354,
 		101361,
 		101362,
 		101363,
@@ -64089,6 +64662,10 @@ pg.ship_data_template = {
 		201232,
 		201233,
 		201234,
+		201241,
+		201242,
+		201243,
+		201244,
 		201261,
 		201262,
 		201263,
@@ -64165,6 +64742,10 @@ pg.ship_data_template = {
 		202222,
 		202223,
 		202224,
+		202241,
+		202242,
+		202243,
+		202244,
 		203011,
 		203012,
 		203013,

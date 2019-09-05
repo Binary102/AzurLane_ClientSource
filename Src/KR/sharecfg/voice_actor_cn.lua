@@ -795,6 +795,10 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Yurika Kubo",
 		code = 199
+	},
+	{
+		actor_name = "长谷川里桃",
+		code = 200
 	}
 }
 

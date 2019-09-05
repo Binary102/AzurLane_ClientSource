@@ -13,5 +13,6 @@ require("Support/Utils/GraphPath")
 require("Support/Utils/HXSet")
 require("Support/Utils/ScrollTxt")
 require("Support/Utils/PageUtil")
+require("Support/Utils/LuaBitUtil")
 
 return

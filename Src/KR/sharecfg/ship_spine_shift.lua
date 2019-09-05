@@ -4,7 +4,7 @@ pg.ship_spine_shift = {
 		spine = "lulutiye_2",
 		mainui_shift = {
 			0,
-			-175
+			-75
 		}
 	},
 	kelifulan_younv = {

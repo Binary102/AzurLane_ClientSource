@@ -1839,11 +1839,13 @@ function slot7(slot0, slot1)
 								if slot12 == slot13 then
 									slot12 = setText
 									slot13 = slot3
-									slot14 = slot1.drop
-									slot14 = slot14.cfg
-									slot14 = slot14.desc
+									slot14 = HXSet
+									slot14 = slot14.hxLan
+									slot15 = slot1.drop
+									slot15 = slot15.cfg
+									slot15 = slot15.desc
 
-									slot12(slot13, slot14)
+									slot12(slot13, slot14(slot15))
 								else
 									slot12 = slot1.drop
 									slot12 = slot12.type

@@ -1442,6 +1442,65 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[101351] = {
+		use_gold = 300,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 10135,
+		breakout_id = 101352,
+		breakout_view = "스킬 습득 - 전탄 발사 I / 모든 무기 효율 +2%",
+		id = 101351,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			70041
+		}
+	},
+	[101352] = {
+		use_gold = 800,
+		pre_id = 101351,
+		use_char_num = 1,
+		use_char = 10135,
+		breakout_id = 101353,
+		breakout_view = "어뢰 발사 수 +1 / 어뢰 탑재량 +1 / 모든 무기 효율 +3%",
+		id = 101352,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			108,
+			108
+		}
+	},
+	[101353] = {
+		use_gold = 1500,
+		pre_id = 101352,
+		use_char_num = 2,
+		use_char = 10135,
+		breakout_id = 101354,
+		breakout_view = "전탄 발사 스킬 강화 / 모든 무기 효율 +5%",
+		id = 101353,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			70042
+		}
+	},
+	[101354] = {
+		use_gold = 0,
+		pre_id = 101353,
+		use_char_num = 0,
+		use_char = 10135,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 101354,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[101361] = {
 		use_gold = 300,
 		pre_id = 0,
@@ -6897,6 +6956,65 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[201241] = {
+		use_gold = 300,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 20124,
+		breakout_id = 201242,
+		breakout_view = "스킬 습득 - 전탄 발사 I / 주포 효율 +5%",
+		id = 201241,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			71071
+		}
+	},
+	[201242] = {
+		use_gold = 800,
+		pre_id = 201241,
+		use_char_num = 1,
+		use_char = 20124,
+		breakout_id = 201243,
+		breakout_view = "어뢰 발사 수 +1 / 어뢰 탑재량 +1 / 주포 효율 +10%",
+		id = 201242,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			108,
+			108
+		}
+	},
+	[201243] = {
+		use_gold = 1500,
+		pre_id = 201242,
+		use_char_num = 2,
+		use_char = 20124,
+		breakout_id = 201244,
+		breakout_view = "전탄 발사 스킬 강화 / 모든 무기 효율 +5%",
+		id = 201243,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			71072
+		}
+	},
+	[201244] = {
+		use_gold = 0,
+		pre_id = 201243,
+		use_char_num = 0,
+		use_char = 20124,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 201244,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[201261] = {
 		use_gold = 500,
 		pre_id = 0,
@@ -8013,6 +8131,65 @@ pg.ship_data_breakout = {
 		breakout_id = 0,
 		breakout_view = "없음",
 		id = 202224,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[202241] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 20224,
+		breakout_id = 202242,
+		breakout_view = "스킬 습득 - 특수 탄막 I / 주포 효율 +5%",
+		id = 202241,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			71121
+		}
+	},
+	[202242] = {
+		use_gold = 1500,
+		pre_id = 202241,
+		use_char_num = 1,
+		use_char = 20224,
+		breakout_id = 202243,
+		breakout_view = "어뢰 발사 수 +1 / 어뢰 탑재량 +1 / 어뢰 효율 +10%",
+		id = 202242,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[202243] = {
+		use_gold = 2500,
+		pre_id = 202242,
+		use_char_num = 2,
+		use_char = 20224,
+		breakout_id = 202244,
+		breakout_view = "특수 탄막 강화 / 주포 효율 +15%",
+		id = 202243,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			71122
+		}
+	},
+	[202244] = {
+		use_gold = 0,
+		pre_id = 202243,
+		use_char_num = 0,
+		use_char = 20224,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 202244,
 		icon = "10001",
 		level = 0,
 		use_item = {},
@@ -20892,6 +21069,10 @@ pg.ship_data_breakout = {
 		101342,
 		101343,
 		101344,
+		101351,
+		101352,
+		101353,
+		101354,
 		101361,
 		101362,
 		101363,
@@ -21252,6 +21433,10 @@ pg.ship_data_breakout = {
 		201232,
 		201233,
 		201234,
+		201241,
+		201242,
+		201243,
+		201244,
 		201261,
 		201262,
 		201263,
@@ -21328,6 +21513,10 @@ pg.ship_data_breakout = {
 		202222,
 		202223,
 		202224,
+		202241,
+		202242,
+		202243,
+		202244,
 		203011,
 		203012,
 		203013,

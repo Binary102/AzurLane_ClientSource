@@ -30,10 +30,12 @@ pg.ship_data_create_material = {
 		id = 2,
 		icon = "build_2",
 		rate_tip = {
-			"<color=#ffde38>SS Rare</color>：7%",
-			"<color=#d797ff>S Rare</color>：12%",
+			"<color=#ffde38>Super Rare</color>：7%",
+			"<color=#d797ff>Elite</color>：12%",
 			"<color=#3dc6ff>Rare</color>：26%",
-			"Normal：55%"
+			"Common：55%",
+			"<color=#d797ff>블랙 프린스</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#3dc6ff>배시</color>：5.0%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

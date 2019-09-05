@@ -200,6 +200,11 @@ pg.player_resource = {
 		name = "qixihaibao_pt",
 		itemid = 59135
 	},
+	[1001] = {
+		id = 1001,
+		name = "vote2019_pt",
+		itemid = 59136
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -216,6 +221,9 @@ pg.player_resource = {
 		},
 		yisegefuke_pt1 = {
 			950
+		},
+		vote2019_pt = {
+			1001
 		},
 		qixihaibao_pt = {
 			132
@@ -379,6 +387,7 @@ pg.player_resource = {
 		130,
 		131,
 		132,
+		1001,
 		950,
 		2001
 	}

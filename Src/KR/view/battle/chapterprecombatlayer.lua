@@ -66,7 +66,7 @@ function slot0.init(slot0)
 	slot0._autoToggle = slot0:findTF("middle/auto_toggle")
 	slot0._autoSubToggle = slot0:findTF("middle/sub_toggle_container/sub_toggle")
 	slot0.topPanel = slot0:findTF("top")
-	slot0.strategyInfo = slot0:findTF("strategy_info", slot0.topPanel)
+	slot0.strategyInfo = slot0:findTF("strategy_info")
 
 	setActive(slot0.strategyInfo, false)
 
@@ -131,6 +131,7 @@ function slot0.didEnter(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		weight = LayerWeightConst.SECOND_LAYER
 	})
+	setParent(slot0.strategyInfo, slot0._tf.parent)
 	triggerToggle(slot0._autoToggle, ys.Battle.BattleState.IsAutoBotActive())
 	setAnchoredPosition(slot0.topPanel, {
 		y = slot0.topPanel.rect.height
@@ -726,6 +727,8 @@ function slot0.willExit(slot0)
 
 		slot0.eventTriggers = nil
 	end
+
+	setParent(slot0.strategyInfo, slot0._tf)
 
 	if slot0.tweens then
 		cancelTweens(slot0.tweens)

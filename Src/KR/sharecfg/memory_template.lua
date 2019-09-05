@@ -8173,6 +8173,17 @@ pg.memory_template = {
 		icon = "memory_tianhouyuyi",
 		is_open = 0
 	},
+	[890] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "여름 축제 즐겨보자~",
+		condition = "주노 유카타 입수 후",
+		story = "TIANHOUYUYI2",
+		id = 890,
+		icon = "memory_tianhouyuyi",
+		is_open = 0
+	},
 	[10000] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -9654,6 +9665,7 @@ pg.memory_template = {
 		887,
 		888,
 		889,
+		890,
 		10000,
 		10001,
 		10002,

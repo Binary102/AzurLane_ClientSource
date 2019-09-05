@@ -36,6 +36,10 @@ function slot0.init(slot0)
 	slot0.contain = slot0.frame:Find("contain")
 	slot1 = slot0.contain:Find("list")
 	slot0.content = slot1:Find("content")
+	slot0.emptySign = slot1:Find("EmptySign")
+
+	setActive(slot0.emptySign, false)
+
 	slot0.prefabSelf = slot1:Find("popo_self").gameObject
 	slot0.prefabOthers = slot1:Find("popo_other").gameObject
 	slot0.prefabPublic = slot1:Find("popo_public").gameObject
@@ -449,6 +453,7 @@ function slot0.updateAll(slot0)
 	end
 
 	scrollToBottom(slot0.content.parent)
+	setActive(slot0.emptySign, PLATFORM_CODE == PLATFORM_JP and #slot0.filteredMessages <= 0)
 
 	return
 end
@@ -474,6 +479,8 @@ function slot0.append(slot0, slot1, slot2, slot3)
 			scrollToBottom(slot0.content.parent)
 		end
 	end
+
+	setActive(slot0.emptySign, PLATFORM_CODE == PLATFORM_JP and #slot0.filteredMessages <= 0)
 
 	return
 end

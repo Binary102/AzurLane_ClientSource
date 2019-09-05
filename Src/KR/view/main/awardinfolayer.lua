@@ -38,6 +38,8 @@ function slot0.init(slot0)
 		slot0.container = slot0._itemsWindow:Find("ships")
 	end
 
+	slot0.containerCG = GetOrAddComponent(slot0.container, "CanvasGroup")
+
 	setLocalScale(slot0._itemsWindow, Vector3(0.5, 0.5, 0.5))
 
 	slot0.titleItem = slot0._itemsWindow:Find("titles/title_item")
@@ -51,6 +53,9 @@ function slot0.init(slot0)
 	setActive(slot0._itemsWindow:Find("items_scroll"), slot0.title ~= slot0.TITLE.SHIP and #slot0.awards > 10)
 	setActive(slot0._itemsWindow:Find("ships"), slot0.title == slot0.TITLE.SHIP)
 	setActive(slot0.container, true)
+
+	slot0.containerCG.alpha = 1
+
 	setActive(slot0.titleItem, slot0.title == slot0.TITLE.ITEM)
 	setActive(slot0.titleShip, slot0.title == slot0.TITLE.SHIP)
 	setActive(slot0.titleEscort, slot0.title == slot0.TITLE.ESCORT)
@@ -63,7 +68,6 @@ function slot0.init(slot0)
 		setLocalScale(slot1, Vector3.one)
 	end
 
-	slot0.nameTxts = {}
 	slot0.blinks = {}
 	slot0.tweenItems = {}
 	slot0.shipCardTpl = slot0._tf:GetComponent("ItemList").prefabItem[0]
@@ -112,7 +116,7 @@ function slot0.didEnter(slot0)
 
 		slot0:emit(slot1.ON_CLOSE)
 
-		if slot0.contextData.onClose then
+		if slot0 then
 			slot0()
 		end
 	end, SFX_CANCEL, {
@@ -127,8 +131,8 @@ end
 function slot0.onUIAnimEnd(slot0, slot1)
 	if slot0.contextData.animation then
 		slot0.inAniming = true
+		slot0.containerCG.alpha = 0
 
-		setActive(slot0.container, false)
 		slot0:doAnim(function ()
 			slot0:displayAwards()
 			slot0.displayAwards:playAnim(slot0.displayAwards)
@@ -190,9 +194,8 @@ function slot0.displayAwards(slot0)
 			})
 			setActive(findTF(slot5, "bonus"), slot6.riraty)
 			setActive(slot7, false)
-			setActive(slot8, true)
-			ScrollTxt.New(slot8, findTF(slot5, "name_mask/name")):setText(slot6.name or getText(slot7))
-			table.insert(slot0.nameTxts, slot9)
+			setActive(findTF(slot5, "name_mask"), true)
+			findTF(slot5, "name_mask/name"):GetComponent("ScrollText"):SetText(slot6.name or getText(slot7))
 			onButton(slot0, slot5, function ()
 				if slot0.inAniming then
 					return
@@ -251,7 +254,8 @@ function slot0.playAnim(slot0, slot1)
 		end)
 	end
 
-	setActive(slot0.container, true)
+	slot0.containerCG.alpha = 1
+
 	seriesAsync(slot2, function ()
 		slot0.inAniming = false
 
@@ -262,16 +266,7 @@ function slot0.playAnim(slot0, slot1)
 end
 
 function slot0.clearAllNameTxt(slot0)
-	if not slot0.nameTxts then
-		return
-	end
-
-	for slot4 = #slot0.nameTxts, 1, -1 do
-		if slot0.nameTxts[slot4] then
-			slot0.nameTxts[slot4]:destroy()
-			table.remove(slot0.nameTxts, slot4)
-		end
-	end
+	return
 end
 
 function slot0.willExit(slot0)

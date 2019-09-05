@@ -10565,7 +10565,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[41423] = {
-		display = "쥬피터에게 받은 밸런타인 데이 선물",
+		display = "주피터에게 받은 밸런타인 데이 선물",
 		rarity = 8,
 		type = 1,
 		name = "밸런타인 데이 선물",
@@ -62954,22 +62954,6 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
-	[59822] = {
-		display = "인기투표에 필요한 표. 투표에서 일반표를 전부 사용한 후, 사용할 수 있습니다. 리셋되지 않으며, 본선까지 갖고 갈 수 있습니다.",
-		rarity = 5,
-		type = 0,
-		name = "특별표",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 3,
-		replace_item = 0,
-		link_id = 29000,
-		id = 59822,
-		icon = "Props/voteT2",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
 	[59823] = {
 		display = "과거 작전 내역(상설 복각 이벤트)에 접속하기 위한 데이터 키. 소비 아이템 ",
 		rarity = 4,
@@ -62982,6 +62966,22 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 59823,
 		icon = "Props/activity_tickets",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59824] = {
+		display = "用于参加投票大战的投票次数，每轮投票结束时次数清零",
+		rarity = 4,
+		type = 0,
+		name = "投票次数",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 2,
+		replace_item = 0,
+		link_id = 0,
+		id = 59824,
+		icon = "Props/voteT3",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -65183,8 +65183,8 @@ pg.item_data_statistics = {
 		59815,
 		59816,
 		59821,
-		59822,
 		59823,
+		59824,
 		59831,
 		59832,
 		59833,

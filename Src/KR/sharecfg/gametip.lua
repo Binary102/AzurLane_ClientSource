@@ -8865,11 +8865,11 @@ B평가:<color=#92fc63>70</color>점
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
-		tip = "중형함 : 중순양함, 모니터함, 순양전함, 전함 등을 건조 가능 ",
+		tip = "키리시마 건조추가",
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "소형함 : 구축함, 경순양함, 경항모, 공작함, 모니터함 등을 건조 가능",
+		tip = "블랙 프린스、배시、주피터 건조추가 ",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {

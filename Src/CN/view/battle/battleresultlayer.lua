@@ -69,8 +69,9 @@ function slot0.setPlayer(slot0, slot1)
 	slot3 = slot0.contextData.extraBuffList
 end
 
-function slot0.setExpBuff(slot0, slot1)
+function slot0.setExpBuff(slot0, slot1, slot2)
 	slot0.expBuff = slot1
+	slot0.shipBuff = slot2
 end
 
 function slot0.init(slot0)
@@ -546,13 +547,13 @@ function slot0.displayShips(slot0)
 			slot43 = findTF(slot30, "exp_text")
 			slot45 = findTF(slot30, "exp_progress").GetComponent(slot44, typeof(Image))
 
-			setActive(findTF(slot30, "exp_buff"), slot0.expBuff)
+			setActive(findTF(slot30, "exp_buff"), slot0.expBuff or (slot0.shipBuff and slot0.shipBuff[slot15:getGroupId()]))
 
-			if slot0.expBuff then
-				setText(slot46, slot0.expBuff:getConfig("name"))
+			if slot0.expBuff or (slot0.shipBuff and slot0.shipBuff[slot15.getGroupId()]) then
+				setText(slot46, (slot0.expBuff and slot0.expBuff:getConfig("name")) or (slot47 and i18n("Word_Ship_Exp_Buff")))
 			end
 
-			function slot47()
+			function slot49()
 				SetActive(SetActive, true)
 
 				slot0 = SetActive
@@ -659,7 +660,7 @@ function slot0.displayShips(slot0)
 				end)
 			end
 
-			slot27:GetComponent(typeof(DftAniEvent)).SetTriggerEvent(slot48, function (slot0)
+			slot27:GetComponent(typeof(DftAniEvent)).SetTriggerEvent(slot50, function (slot0)
 				slot0()
 
 				return

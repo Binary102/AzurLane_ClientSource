@@ -72,6 +72,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「——为了碧蓝色的自由意志，天佑白鹰」</color>\n「箱庭疗法」活动获取",
 		scene = {}
 	},
+	[304] = {
+		name = "荣光之徽",
+		time_second = 0,
+		id = 304,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>「让世界知晓撒丁帝国的荣耀与尊严吧！」</color>\n通过后续活动获取",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂纪念：企业",
 		time_second = 0,
@@ -106,6 +114,7 @@ pg.item_data_frame = {
 		301,
 		302,
 		303,
+		304,
 		401,
 		402,
 		404

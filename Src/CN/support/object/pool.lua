@@ -90,6 +90,16 @@ function slot2.GetObject(slot0)
 	return slot1
 end
 
+function slot2.ResetParent(slot0, slot1)
+	slot0.parentTF = slot1
+
+	for slot5 in slot0.list:Iterator() do
+		slot5.Data.transform:SetParent(slot0.parentTF, false)
+	end
+
+	return
+end
+
 function slot2.Recycle(slot0, slot1)
 	if slot0.map[slot1] == nil then
 		slot0.Destroy(slot1)

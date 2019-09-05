@@ -113,7 +113,7 @@ end
 
 function slot0.setPlayer(slot0, slot1)
 	slot0.playerVO = slot1
-	slot0.skinTicket = slot0.playerVO:getResource(125)
+	slot0.skinTicket = (Player.SKIN_TICKET_RESOURCE > 0 and slot0.playerVO:getResource(Player.SKIN_TICKET_RESOURCE)) or 0
 
 	slot0._resPanel:setResources(slot1)
 end

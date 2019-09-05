@@ -18705,10 +18705,10 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "据说时下非常流行的祭典美食(?)",
+		display = "甜咖喱还是辣咖喱，这是一个问题！ <color=#92fc63>（提高经验加成5%，持续60分钟）</color>",
 		rarity = 2,
 		type = 3,
-		name = "祭典美食(?)",
+		name = "海军咖喱",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -69280,6 +69280,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59138] = {
+		display = "用于「神圣的序幕」活动兑换，活动结束后将会消失",
+		rarity = 2,
+		type = 98,
+		name = "训练点数",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59138,
+		icon = "Props/xunliandianshu",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "三笠收藏的驱逐船模-茳",
 		rarity = 2,
@@ -73811,6 +73827,7 @@ pg.item_data_statistics = {
 		59134,
 		59135,
 		59136,
+		59138,
 		59601,
 		59602,
 		59603,

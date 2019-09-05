@@ -327,6 +327,24 @@ function slot0.getBuffList(slot0)
 	end)
 end
 
+function slot0.getBuffShipList(slot0)
+	_.each(slot0:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHIP_BUFF), function (slot0)
+		if slot0 and not slot0:isEnd() then
+			if not pg.activity_expup_ship[slot0:getConfig("config_id")] then
+				return
+			end
+
+			for slot7, slot8 in pairs(slot3) do
+				slot0[slot8[1]] = slot8[2]
+			end
+		end
+
+		return
+	end)
+
+	return {}
+end
+
 function slot0.getVirtualItemNumber(slot0, slot1)
 	if slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_VIRTUAL_BAG) and not slot2:isEnd() then
 		return (slot2.data1KeyValueList[1][slot1] and slot2.data1KeyValueList[1][slot1]) or 0

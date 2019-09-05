@@ -1548,6 +1548,28 @@ pg.activity_event_pt = {
 			0
 		}
 	},
+	[351] = {
+		id_2 = 361,
+		type = 1,
+		id = 351,
+		pt = 134,
+		target = {
+			3000
+		},
+		drop_client = {
+			{
+				14,
+				304,
+				1
+			}
+		},
+		allplayer = {
+			0.1
+		},
+		day_unlock = {
+			0
+		}
+	},
 	[1020] = {
 		id_2 = 1020,
 		type = 1,
@@ -4181,6 +4203,7 @@ pg.activity_event_pt = {
 		345,
 		348,
 		350,
+		351,
 		1020,
 		1021,
 		1022,

@@ -17760,6 +17760,104 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70226] = {
+		group_type = 0,
+		resource_num = 1080,
+		desc = "购买皮肤：黑太子泳装",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 1,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70226,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			202241
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70227] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：雾岛常服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 2,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70227,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			304042
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[90001] = {
 		group_type = 0,
 		resource_num = 1,
@@ -18558,6 +18656,8 @@ pg.shop_template = {
 		70223,
 		70224,
 		70225,
+		70226,
+		70227,
 		90001,
 		90002,
 		90003,

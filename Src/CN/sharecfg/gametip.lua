@@ -10933,6 +10933,10 @@ UID：
 		tip = "信息",
 		key = "words_information"
 	},
+	Word_Ship_Exp_Buff = {
+		tip = "经验加成",
+		key = "Word_Ship_Exp_Buff"
+	},
 	secondarypassword_incorrectpwd_error = {
 		tip = "密码错误，可再尝试<color=#FF5C5C>%d</color>次",
 		key = "secondarypassword_incorrectpwd_error"

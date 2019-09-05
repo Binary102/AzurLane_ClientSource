@@ -73920,114 +73920,6 @@ pg.task_data_template = {
 			}
 		}
 	},
-	[31004] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 8139,
-		type = 6,
-		name = "真爱投票任务",
-		count_inherit = 0,
-		desc = "完成投票日常任务12次。",
-		target_id_2 = "",
-		sub_type = 91,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 25,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 31004,
-		target_num = 12,
-		fix_task = 0,
-		target_id = {
-			31001,
-			31002,
-			31003
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				59822,
-				1
-			}
-		}
-	},
-	[31005] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 8139,
-		type = 6,
-		name = "真爱投票任务2",
-		count_inherit = 0,
-		desc = "完成投票日常任务20次。",
-		target_id_2 = "",
-		sub_type = 91,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 25,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 31005,
-		target_num = 20,
-		fix_task = 0,
-		target_id = {
-			31001,
-			31002,
-			31003
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				59822,
-				1
-			}
-		}
-	},
-	[31006] = {
-		is_head = 1,
-		guild_coin_award = 0,
-		award = 8139,
-		type = 6,
-		name = "真爱投票任务3",
-		count_inherit = 0,
-		desc = "完成投票日常任务1次。",
-		target_id_2 = "",
-		sub_type = 91,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 25,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 0,
-		id = 31006,
-		target_num = 1,
-		fix_task = 0,
-		target_id = {
-			31001,
-			31002,
-			31003
-		},
-		open_need = {},
-		award_display = {
-			{
-				2,
-				59822,
-				1
-			}
-		}
-	},
 	[31007] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -83047,9 +82939,6 @@ pg.task_data_template = {
 		31001,
 		31002,
 		31003,
-		31004,
-		31005,
-		31006,
 		31007,
 		31008,
 		31009,

@@ -11700,6 +11700,149 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[3100] = {
+		name = "Compressed Oxygen Cylinder ",
+		type = 10,
+		id = 3100,
+		tech = 0,
+		nationality = 0,
+		speciality = "N/A",
+		range = 0,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "3100",
+		value_1 = "18",
+		angle = 0,
+		avoid_extra = 0,
+		rarity = 4,
+		scatter = "N/A",
+		is_siren = 0,
+		ammo = "N/A",
+		descrip = "Equipment that allows submarines to take in air while underwater. ",
+		value_3 = 0,
+		attribute_1 = "oxy_max",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[3101] = {
+		id = 3101,
+		base = 3100,
+		is_siren = 0,
+		value_1 = "20",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[3102] = {
+		id = 3102,
+		base = 3100,
+		is_siren = 0,
+		value_1 = "22",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[3103] = {
+		id = 3103,
+		base = 3100,
+		is_siren = 0,
+		value_1 = "24",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[3104] = {
+		id = 3104,
+		base = 3100,
+		is_siren = 0,
+		value_1 = "27",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[3105] = {
+		id = 3105,
+		base = 3100,
+		is_siren = 0,
+		value_1 = "30",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[3106] = {
+		id = 3106,
+		base = 3100,
+		is_siren = 0,
+		value_1 = "33",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[3107] = {
+		id = 3107,
+		base = 3100,
+		is_siren = 0,
+		value_1 = "36",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[3108] = {
+		id = 3108,
+		base = 3100,
+		is_siren = 0,
+		value_1 = "39",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[3109] = {
+		id = 3109,
+		base = 3100,
+		is_siren = 0,
+		value_1 = "42",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
+	[3110] = {
+		id = 3110,
+		base = 3100,
+		is_siren = 0,
+		value_1 = "45",
+		torpedo_ammo = 0,
+		label = {
+			"DEV"
+		},
+		property_rate = {}
+	},
 	[3120] = {
 		name = "Improved Snorkel ",
 		type = 10,
@@ -11711,7 +11854,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 0,
 		icon = "3120",
-		value_1 = "10",
+		value_1 = "34",
 		angle = 0,
 		avoid_extra = 0,
 		rarity = 5,
@@ -11737,7 +11880,7 @@ pg.equip_data_statistics = {
 		id = 3121,
 		base = 3120,
 		is_siren = 0,
-		value_1 = "12",
+		value_1 = "39",
 		torpedo_ammo = 0,
 		label = {
 			"DEV"
@@ -11748,7 +11891,7 @@ pg.equip_data_statistics = {
 		id = 3122,
 		base = 3120,
 		is_siren = 0,
-		value_1 = "14",
+		value_1 = "44",
 		torpedo_ammo = 0,
 		label = {
 			"DEV"
@@ -11759,7 +11902,7 @@ pg.equip_data_statistics = {
 		id = 3123,
 		base = 3120,
 		is_siren = 0,
-		value_1 = "16",
+		value_1 = "49",
 		torpedo_ammo = 0,
 		label = {
 			"DEV"
@@ -11770,7 +11913,7 @@ pg.equip_data_statistics = {
 		id = 3124,
 		base = 3120,
 		is_siren = 0,
-		value_1 = "18",
+		value_1 = "54",
 		torpedo_ammo = 0,
 		label = {
 			"DEV"
@@ -11781,7 +11924,7 @@ pg.equip_data_statistics = {
 		id = 3125,
 		base = 3120,
 		is_siren = 0,
-		value_1 = "20",
+		value_1 = "59",
 		torpedo_ammo = 0,
 		label = {
 			"DEV"
@@ -11792,7 +11935,7 @@ pg.equip_data_statistics = {
 		id = 3126,
 		base = 3120,
 		is_siren = 0,
-		value_1 = "22",
+		value_1 = "64",
 		torpedo_ammo = 0,
 		label = {
 			"DEV"
@@ -11844,7 +11987,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3140] = {
-		name = "Improved Snorkel ",
+		name = "改良蓄电池阵列",
 		type = 10,
 		id = 3140,
 		tech = 0,
@@ -11854,7 +11997,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 0,
 		icon = "3140",
-		value_1 = "12",
+		value_1 = "2",
 		angle = 0,
 		avoid_extra = 0,
 		rarity = 5,
@@ -11884,7 +12027,7 @@ pg.equip_data_statistics = {
 		id = 3141,
 		base = 3140,
 		is_siren = 0,
-		value_1 = "14",
+		value_1 = "3",
 		torpedo_ammo = 0,
 		label = {
 			"DEV"
@@ -11895,7 +12038,7 @@ pg.equip_data_statistics = {
 		id = 3142,
 		base = 3140,
 		is_siren = 0,
-		value_1 = "16",
+		value_1 = "4",
 		torpedo_ammo = 0,
 		label = {
 			"DEV"
@@ -11906,7 +12049,7 @@ pg.equip_data_statistics = {
 		id = 3143,
 		base = 3140,
 		is_siren = 0,
-		value_1 = "18",
+		value_1 = "5",
 		torpedo_ammo = 0,
 		label = {
 			"DEV"
@@ -11917,7 +12060,7 @@ pg.equip_data_statistics = {
 		id = 3144,
 		base = 3140,
 		is_siren = 0,
-		value_1 = "20",
+		value_1 = "6",
 		torpedo_ammo = 0,
 		label = {
 			"DEV"
@@ -11928,7 +12071,7 @@ pg.equip_data_statistics = {
 		id = 3145,
 		base = 3140,
 		is_siren = 0,
-		value_1 = "22",
+		value_1 = "7",
 		torpedo_ammo = 0,
 		label = {
 			"DEV"
@@ -11939,7 +12082,7 @@ pg.equip_data_statistics = {
 		id = 3146,
 		base = 3140,
 		is_siren = 0,
-		value_1 = "24",
+		value_1 = "8",
 		torpedo_ammo = 0,
 		label = {
 			"DEV"
@@ -11950,7 +12093,7 @@ pg.equip_data_statistics = {
 		id = 3147,
 		base = 3140,
 		is_siren = 0,
-		value_1 = "26",
+		value_1 = "9",
 		torpedo_ammo = 0,
 		label = {
 			"DEV"
@@ -11961,7 +12104,7 @@ pg.equip_data_statistics = {
 		id = 3148,
 		base = 3140,
 		is_siren = 0,
-		value_1 = "28",
+		value_1 = "11",
 		torpedo_ammo = 0,
 		label = {
 			"DEV"
@@ -11972,7 +12115,7 @@ pg.equip_data_statistics = {
 		id = 3149,
 		base = 3140,
 		is_siren = 0,
-		value_1 = "30",
+		value_1 = "13",
 		torpedo_ammo = 0,
 		label = {
 			"DEV"
@@ -11980,7 +12123,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3150] = {
-		value_1 = "32",
+		value_1 = "15",
 		base = 3140,
 		id = 3150,
 		is_siren = 0,
@@ -13038,7 +13181,7 @@ pg.equip_data_statistics = {
 		nationality = 1,
 		ammo = "Normal",
 		is_siren = 0,
-		descrip = "No description",
+		descrip = "A variant of the TBF outfitted with a more powerful engine. ",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -13116,7 +13259,7 @@ pg.equip_data_statistics = {
 		nationality = 1,
 		ammo = "Normal",
 		is_siren = 0,
-		descrip = "No description",
+		descrip = "A variant of the TBF outfitted with a more powerful engine. ",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -13236,7 +13379,7 @@ pg.equip_data_statistics = {
 		nationality = 1,
 		ammo = "Normal",
 		is_siren = 0,
-		descrip = "No description",
+		descrip = "A variant of the TBF outfitted with a more powerful engine. ",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -80582,7 +80725,7 @@ pg.equip_data_statistics = {
 		id = 90200,
 		tech = 1,
 		nationality = 8,
-		speciality = "散射",
+		speciality = "Lock",
 		range = 65,
 		ambush_extra = 0,
 		value_2 = 0,
@@ -80672,7 +80815,7 @@ pg.equip_data_statistics = {
 		type = 2,
 		id = 90220,
 		tech = 2,
-		speciality = "散射",
+		speciality = "Lock",
 		range = 65,
 		scatter = "42°",
 		ambush_extra = 0,
@@ -80764,7 +80907,7 @@ pg.equip_data_statistics = {
 		type = 2,
 		id = 90240,
 		tech = 3,
-		speciality = "散射",
+		speciality = "Lock",
 		range = 65,
 		scatter = "42°",
 		ambush_extra = 0,
@@ -83562,6 +83705,17 @@ pg.equip_data_statistics = {
 		3048,
 		3049,
 		3050,
+		3100,
+		3101,
+		3102,
+		3103,
+		3104,
+		3105,
+		3106,
+		3107,
+		3108,
+		3109,
+		3110,
 		3120,
 		3121,
 		3122,

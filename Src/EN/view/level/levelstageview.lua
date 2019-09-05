@@ -1559,7 +1559,7 @@ function slot0.CheckFleetChange(slot0)
 	end) then
 		slot0:emit(LevelMediator2.ON_OP, {
 			type = ChapterConst.OpRetreat,
-			id = f.id
+			id = slot4.id
 		})
 	end
 

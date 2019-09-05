@@ -7,6 +7,7 @@ slot0.MAX_COMMANDER_BAG = 200
 slot0.ASSISTS_TYPE_SHAM = 0
 slot0.ASSISTS_TYPE_GUILD = 1
 slot0.CHANGE_NAME_KEY = 1
+slot0.SKIN_TICKET_RESOURCE = 0
 
 function id2res(slot0)
 	return slot0[slot0].name

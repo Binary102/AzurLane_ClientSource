@@ -7268,15 +7268,15 @@ pg.activity_template = {
 		},
 		config_client = {
 			ships = {
-				"huonululu",
-				"xixuegui",
-				"lei",
-				"dian",
-				"xiefeierde",
-				"beifeng",
-				"I26",
-				"muyue",
-				"ruihe"
+				"huonululu_5",
+				"xixuegui_4",
+				"lei_3",
+				"dian_3",
+				"xiefeierde_3",
+				"beifeng_2",
+				"I26_3",
+				"muyue_3",
+				"ruihe_2"
 			},
 			bufflist = {
 				10,
@@ -7546,7 +7546,7 @@ pg.activity_template = {
 				{
 					2019,
 					9,
-					4
+					11
 				},
 				{
 					23,
@@ -7580,6 +7580,127 @@ pg.activity_template = {
 					"SHANCHENGLIFU6"
 				}
 			}
+		}
+	},
+	[30200] = {
+		mark = 20190905,
+		title_res_tag = "sitanli",
+		type = 3,
+		login_pop = 0,
+		config_id = 10,
+		is_show = 16,
+		config_client = "",
+		id = 30200,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					9,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/sitanli_login"
+		}
+	},
+	[30201] = {
+		mark = 20190905,
+		title_res_tag = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "",
+		config_client = "",
+		bg = "",
+		id = 30201,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					9,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30202] = {
+		mark = 20190905,
+		title_res_tag = "xunliandianshu",
+		type = 54,
+		login_pop = 0,
+		config_id = 30202,
+		is_show = 15,
+		config_client = "",
+		id = 30202,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					9,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_xunliandianshu"
 		}
 	},
 	[30500] = {
@@ -8310,6 +8431,9 @@ pg.activity_template = {
 		30197,
 		30198,
 		30199,
+		30200,
+		30201,
+		30202,
 		30500,
 		30501,
 		30502,

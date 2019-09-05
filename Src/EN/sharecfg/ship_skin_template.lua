@@ -4696,7 +4696,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 151,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -5759,6 +5759,106 @@ pg.ship_skin_template = {
 				{
 					0.149,
 					0.047,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.31,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[101410] = {
+		ship_group = 10141,
+		name = "Stanly ",
+		bullet_skin_main = "",
+		desc = "Fletcher-class destroyer - Stanly , Hull Number DD-478.",
+		illustrator2 = -1,
+		id = 101410,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "sitanli",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "sitanli",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.004,
+					0.816,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.968,
+					0.789,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.06,
+					0.02,
 					0
 				}
 			}
@@ -26631,6 +26731,131 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[202241] = {
+		ship_group = 20224,
+		name = "White Princess",
+		bullet_skin_main = "",
+		desc = "Sorry to keep you waiting, Commander. Thank you very much for taking me on vacation. Standing in front of you like this... is a little embarrassing... Nevertheless, what do you think of... my swimsuit?",
+		illustrator2 = -1,
+		id = 202241,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "heitaizi_2",
+		air_bullet_skin = "",
+		shop_type_id = 6,
+		hand_id = 13,
+		lip_smoothing = 0,
+		bg = "106",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "heitaizi_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70226,
+		voice_actor = 77,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			-130,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.188,
+					1.002,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.188,
+					0.989,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.12,
+					0.968,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.39,
+							-0.568
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			login = 7
+		}
+	},
 	[203010] = {
 		ship_group = 20301,
 		name = "London",
@@ -30020,115 +30245,6 @@ pg.ship_skin_template = {
 			}
 		}
 	},
-	[205063] = {
-		ship_group = 20506,
-		name = "威尔士浴衣",
-		bullet_skin_main = "",
-		desc = "占坑",
-		illustrator2 = -1,
-		id = 205063,
-		bullet_skin_secondary = "",
-		no_showing = "0",
-		painting = "weiershiqinwang_4",
-		air_bullet_skin = "",
-		shop_type_id = 10,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "114",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "weiershiqinwang_4",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = -1,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand2",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.002,
-					0.734,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.219,
-					0.773,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.24,
-					0.03,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.459,
-					0.742,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.2,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[205070] = {
 		ship_group = 20507,
 		name = "Duke of York",
@@ -30846,7 +30962,7 @@ pg.ship_skin_template = {
 		},
 		live2d_offset = {
 			0,
-			0,
+			-20,
 			0
 		},
 		fx_container = {
@@ -32211,101 +32327,6 @@ pg.ship_skin_template = {
 				{
 					1.11,
 					1.15,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.24,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[207034] = {
-		ship_group = 20703,
-		name = "光辉浴衣",
-		bullet_skin_main = "",
-		desc = "占坑",
-		illustrator2 = -1,
-		id = 207034,
-		bullet_skin_secondary = "",
-		no_showing = "0",
-		painting = "guanghui_5",
-		air_bullet_skin = "",
-		shop_type_id = 10,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "114",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "guanghui_5",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70219,
-		voice_actor = -1,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.01,
-					1.35,
-					0
-				}
-			},
-			plane = {
-				{
-					1.01,
-					1.35,
 					0
 				}
 			}
@@ -47238,6 +47259,115 @@ pg.ship_skin_template = {
 				{
 					0.72,
 					1.05,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.14,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[304042] = {
+		ship_group = 30404,
+		name = "Summery Audacity",
+		bullet_skin_main = "",
+		desc = "Being in front of my sisters in this outfit is one thing, but it really is embarrassing to be wearing it in front of you, Commander. Um... ahem! What do you think? Since you're here, want to walk down to the beach together?",
+		illustrator2 = -1,
+		id = 304042,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "wudao_3",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		hand_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "105",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "wudao_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70227,
+		voice_actor = 128,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.969,
+					0.682,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.991,
+					0.724,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.035,
+					0.033,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.988,
+					0.638,
 					0
 				}
 			}
@@ -71161,7 +71291,7 @@ pg.ship_skin_template = {
 	},
 	[900196] = {
 		ship_group = 900196,
-		name = "祭典制霸！",
+		name = "Kitakaze",
 		bullet_skin_main = "",
 		desc = "{namecode:164}，准备就绪——指挥官，和{namecode:164}一起制霸祭典吧！…不过在那之前，可以先吃点东西吗？",
 		illustrator2 = -1,
@@ -71170,13 +71300,13 @@ pg.ship_skin_template = {
 		no_showing = "0",
 		painting = "beifeng_2",
 		air_bullet_skin = "",
-		shop_type_id = 10,
+		shop_type_id = 0,
 		hand_id = 6,
 		lip_smoothing = 0,
 		l2d_animations = "",
-		bg = "114",
-		skin_type = 0,
-		bg_sp = "1102",
+		bg = "",
+		skin_type = -1,
+		bg_sp = "",
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
 		prefab = "beifeng_2",
@@ -71186,15 +71316,13 @@ pg.ship_skin_template = {
 		shop_id = 0,
 		voice_actor = 33,
 		air_bomb_skin = "",
-		illustrator = -1,
+		illustrator = 1,
 		rarity_bg = "",
 		l2d_para_range = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
+		tag = {},
 		live2d_offset = {
 			0,
 			0,
@@ -71225,22 +71353,22 @@ pg.ship_skin_template = {
 		bound_bone = {
 			cannon = {
 				{
-					1.133,
-					1.233,
+					1.118,
+					0.774,
 					0
 				}
 			},
 			torpedo = {
 				{
-					0,
-					0,
+					-0.001,
+					0.076,
 					0
 				}
 			},
 			antiaircraft = {
 				{
-					1.111,
-					1.358,
+					1.081,
+					0.724,
 					0
 				}
 			}
@@ -74283,6 +74411,7 @@ pg.ship_skin_template = {
 		101392,
 		101400,
 		101401,
+		101410,
 		102010,
 		102020,
 		102030,
@@ -74474,6 +74603,7 @@ pg.ship_skin_template = {
 		202200,
 		202201,
 		202240,
+		202241,
 		203010,
 		203019,
 		203020,
@@ -74504,7 +74634,6 @@ pg.ship_skin_template = {
 		205060,
 		205061,
 		205062,
-		205063,
 		205070,
 		205072,
 		206010,
@@ -74524,7 +74653,6 @@ pg.ship_skin_template = {
 		207031,
 		207032,
 		207033,
-		207034,
 		207038,
 		207040,
 		207041,
@@ -74662,6 +74790,7 @@ pg.ship_skin_template = {
 		304031,
 		304040,
 		304041,
+		304042,
 		304050,
 		304060,
 		305010,

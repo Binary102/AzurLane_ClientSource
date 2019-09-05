@@ -162,6 +162,11 @@ function slot2(slot0, slot1, slot2)
 	slot5 = "content/duang_6_tuzhi"
 	slot3 = slot3(slot4, slot5)
 	slot0.duang6tuzhi = slot3
+	slot3 = findTF
+	slot4 = slot0.tr
+	slot5 = "content/expbuff"
+	slot3 = slot3(slot4, slot5)
+	slot0.expBuff = slot3
 	slot3 = slot0
 	slot3 = slot3.DetailType0
 	slot0.detailType = slot3
@@ -186,6 +191,11 @@ function slot2(slot0, slot1, slot2)
 			slot0.sg = slot3
 		end
 	end
+
+	slot3 = getProxy
+	slot4 = ActivityProxy
+	slot3 = slot3(slot4)
+	slot0.activityProxy = slot3
 end
 
 slot0.Ctor = slot2
@@ -697,6 +707,11 @@ function slot2(slot0)
 				slot13(slot14, slot15)
 			end
 		end
+
+		slot14 = slot0
+		slot13 = slot0.UpdateExpBuff
+
+		slot13(slot14)
 	end
 
 	slot3 = slot0.content
@@ -1050,6 +1065,43 @@ function slot2(slot0)
 end
 
 slot0.updateBlackBlock = slot2
+
+function slot2(slot0)
+	setActive(slot0.expBuff, slot0.activityProxy:getBuffShipList()[slot0.shipVO.getGroupId(slot1)] ~= nil)
+
+	if slot3 then
+		slot4 = slot3 / 100
+		slot5 = slot3 % 100
+		slot6 = tostring
+		slot7 = slot4
+		slot6 = slot6(slot7)
+		slot7 = 0
+
+		if slot5 > slot7 then
+			slot7 = slot6
+			slot8 = "."
+			slot9 = tostring
+			slot10 = slot5
+			slot9 = slot9(slot10)
+			slot6 = slot7 .. slot8 .. slot9
+		end
+
+		slot7 = setText
+		slot8 = slot0.expBuff
+		slot9 = slot8
+		slot8 = slot8.Find
+		slot10 = "text"
+		slot8 = slot8(slot9, slot10)
+		slot9 = string
+		slot9 = slot9.format
+		slot10 = "EXP +%s%%"
+		slot11 = slot6
+
+		slot7(slot8, slot9(slot10, slot11))
+	end
+end
+
+slot0.UpdateExpBuff = slot2
 
 function slot2(slot0)
 	slot1 = slot0.selectedTwId

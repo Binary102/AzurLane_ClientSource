@@ -8807,7 +8807,7 @@ with Anti-Sub gear.
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "Construction rates up for Black Prince and Bache!",
+		tip = "Light: Destroyers, Light Cruisers,Repair Ships and more!",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
@@ -10098,7 +10098,7 @@ From now till forever, our fates are bound together.
 		key = "index_rare5"
 	},
 	index_rare6 = {
-		tip = "Legendary ",
+		tip = "Ultra",
 		key = "index_rare6"
 	},
 	warning_mail_max_1 = {
@@ -10531,6 +10531,10 @@ Would you like to change modes?]],
 	words_information = {
 		tip = "Info",
 		key = "words_information"
+	},
+	Word_Ship_Exp_Buff = {
+		tip = "EXP Rate+ ",
+		key = "Word_Ship_Exp_Buff"
 	},
 	secondarypassword_incorrectpwd_error = {
 		tip = "Your Secondary Password is incorrect. You have <color=#FF5C5C>%d</color> attempts remaining.",

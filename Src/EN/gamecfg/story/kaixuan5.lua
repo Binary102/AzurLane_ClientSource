@@ -155,7 +155,7 @@ return {
 			},
 			options = {
 				{
-					content = "ou'll be able to overcome your differences one day.",
+					content = "You'll be able to overcome your differences one day.",
 					flag = 1
 				}
 			}

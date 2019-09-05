@@ -27,18 +27,8 @@ function slot0.Ctor(slot0, slot1, slot2)
 	end
 
 	slot0.ships = _.map(slot4, function (slot0)
-		slot1 = ShipGroup.getDefaultShipConfig(slot0)
-		slot4 = ShipGroup.getSkinList(slot0)[math.random(1, #ShipGroup.getSkinList(slot0))] or {
-			id = 0
-		}
-
-		if slot4.id ~= 0 then
-			assert(slot0[slot4.id], slot4.id)
-		end
-
 		return Ship.New({
-			configId = slot1.id,
-			skin_id = slot4.id
+			configId = ShipGroup.getDefaultShipConfig(slot0).id
 		})
 	end)
 end

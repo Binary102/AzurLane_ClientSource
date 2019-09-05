@@ -375,6 +375,17 @@ function slot0.loadAllCharacter(slot0)
 
 		setImageSprite(findTF(slot9, "type"), slot14, true)
 		setText(findTF(slot9, "frame/lv_contain/lv"), slot7.level)
+		setActive(slot9:Find("expbuff"), getProxy(ActivityProxy).getBuffShipList(slot15)[slot7:getGroupId()] ~= nil)
+
+		if slot17 then
+			slot21 = tostring(slot19)
+
+			if slot17 % 100 > 0 then
+				slot21 = slot21 .. "." .. tostring(slot20)
+			end
+
+			setText(slot18:Find("text"), string.format("EXP +%s%%", slot21))
+		end
 	end
 
 	slot3(slot0._currentFleetVO.subShips, Fleet.SUBMARINE)

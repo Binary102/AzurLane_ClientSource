@@ -693,7 +693,7 @@ function slot1(slot0)
 
 	slot1(slot2)
 
-	slot1 = false
+	slot1 = true
 	slot0.openedCommanerSystem = slot1
 end
 
@@ -2225,9 +2225,7 @@ function slot1(slot0)
 	slot5 = slot4
 	slot4 = slot4.STimeDescS
 	slot6 = slot3
-	slot7 = "08/07 -"
-	slot8 = "%m/%d"
-	slot7 = slot7 .. slot8
+	slot7 = "%Y.%m.%d"
 	slot4 = slot4(slot5, slot6, slot7)
 	slot5 = setText
 	slot6 = slot0.activityTimeText

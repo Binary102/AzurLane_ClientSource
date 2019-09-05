@@ -43,7 +43,8 @@ slot6 = {
 	"index_rare2",
 	"index_rare3",
 	"index_rare4",
-	"index_rare5"
+	"index_rare5",
+	"index_rare6"
 }
 slot7 = {
 	i18n("word_rarity"),

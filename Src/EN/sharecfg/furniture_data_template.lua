@@ -2293,7 +2293,7 @@ pg.furniture_data_template = {
 		level = 1,
 		rarity = 5,
 		tag = 6,
-		picture = "chuanmo/xiangtingliaofa",
+		picture = "",
 		canputon = 0,
 		discount = 0,
 		id = 148,
@@ -2373,6 +2373,49 @@ pg.furniture_data_template = {
 					"action"
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[151] = {
+		can_rotate = 0,
+		name = "意大利活动勋章",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 1,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 500,
+		not_for_sale = 1,
+		icon = "ydlxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		tag = 6,
+		rarity = 5,
+		picture = "chuanmo/ydlxunzhang",
+		canputon = 0,
+		discount = 0,
+		id = 151,
+		comfortable = 0,
+		describe = "",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -63858,6 +63901,7 @@ pg.furniture_data_template = {
 		147,
 		148,
 		149,
+		151,
 		100006,
 		1001,
 		1002,

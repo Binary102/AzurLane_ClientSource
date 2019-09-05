@@ -88,7 +88,7 @@ end
 
 function slot0.setNoticeDetail(slot0, slot1)
 	slot0:clearLoadingPic()
-	setText(slot0._detailTitleTxt, slot1.title)
+	setText(slot0._detailTitleTxt, slot1.pageTitle)
 	setText(slot0._detailTimeTxt, slot1.timeDes)
 
 	slot0._detailTitleImgComp.color = Color.New(0, 0, 0, 0.4)

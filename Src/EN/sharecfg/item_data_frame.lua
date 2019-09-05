@@ -40,12 +40,21 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>\"For our azure freedom! God bless the Eagle Union!\"</color>\nAvailable during the \"Ashen Simulacrum\" event.",
 		scene = {}
 	},
+	[304] = {
+		name = "Insignia of Glory",
+		time_second = 0,
+		id = 304,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>\"Display the glory and dignity of the Sardegna Empire to the whole world!\"</color>\nObtained in a subsequent event.",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
 		201,
 		302,
-		303
+		303,
+		304
 	}
 }
 

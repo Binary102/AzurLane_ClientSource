@@ -413,7 +413,7 @@ return {
 			actor = 308022,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啊~기, 기다려. 지금은 안된다고! 아~ 또 찢어졌어… 다, 다시 한 번! 새 그물 하나 더!",
+			say = "기, 기다려. 지금은 안된다고! 아~ 또 찢어졌어… 다, 다시 한 번! 새 그물 하나 더!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

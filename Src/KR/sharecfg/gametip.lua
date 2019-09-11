@@ -5130,7 +5130,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "commission_open_tip"
 	},
 	commission_idle = {
-		tip = "의뢰 가능",
+		tip = "휴식 중... ",
 		key = "commission_idle"
 	},
 	commission_urgency = {
@@ -10865,6 +10865,10 @@ UID: 사령부에서 각 지휘관에게 전달한 고유의 신분 증명
 	words_information = {
 		tip = "정보",
 		key = "words_information"
+	},
+	Word_Ship_Exp_Buff = {
+		tip = "경험치＋ ",
+		key = "Word_Ship_Exp_Buff"
 	},
 	secondarypassword_incorrectpwd_error = {
 		tip = "비밀번호가 정확하지 않습니다. 재시도 가능 횟수: <color=FF5C5CFF>%d</color>회",

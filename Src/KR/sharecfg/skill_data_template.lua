@@ -3911,7 +3911,7 @@ pg.skill_data_template = {
 	[3631] = {
 		desc_get = "",
 		name = "원거리 지원",
-		desc = "잠수함 편대에 있을 때 해당 편대의 범위 밖에서 전투 내의 잠수 지원을 $1회 진행할 수 있다.",
+		desc = "자신의 잠항력이 $1 상승. 잠수함대에 배치 시, 잠수함대의 지원범위 밖에서도 전투 중 잠수지원이 1회 가능하다. ",
 		type = 3,
 		max_level = 10,
 		id = 3631,
@@ -6097,6 +6097,17 @@ pg.skill_data_template = {
 		type = 0,
 		max_level = 0,
 		id = 6291,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6310] = {
+		desc_get = "",
+		name = "귀항 가이드 ",
+		desc = "공중 지원 딜레이 시간 4% 단축 ",
+		type = 0,
+		max_level = 0,
+		id = 6310,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -33675,6 +33686,7 @@ pg.skill_data_template = {
 		6280,
 		6290,
 		6291,
+		6310,
 		6320,
 		6321,
 		6322,

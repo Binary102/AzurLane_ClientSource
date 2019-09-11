@@ -16268,6 +16268,210 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70212] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：杜威泳装",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 869,
+		group = 0,
+		num = 1,
+		isHX = 1,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70212,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			101021
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70213] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤：加斯科涅泳装",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 870,
+		group = 0,
+		num = 1,
+		isHX = 1,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70213,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			999011
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70214] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤：佐治亚泳装",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 871,
+		group = 0,
+		num = 1,
+		isHX = 1,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70214,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			199022
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70215] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：苏塞克斯泳装",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 872,
+		group = 0,
+		num = 1,
+		isHX = 1,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70215,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			203091
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70216] = {
 		group_type = 0,
 		resource_num = 1080,
@@ -16718,6 +16922,108 @@ pg.shop_template = {
 					2019,
 					9,
 					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70226] = {
+		group_type = 0,
+		resource_num = 1080,
+		desc = "购买皮肤：黑太子泳装",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 867,
+		group = 0,
+		num = 1,
+		isHX = 1,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70226,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			202241
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70227] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：雾岛常服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 868,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70227,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			304042
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					25
 				},
 				{
 					23,
@@ -17932,6 +18238,10 @@ pg.shop_template = {
 		70208,
 		70209,
 		70210,
+		70212,
+		70213,
+		70214,
+		70215,
 		70216,
 		70218,
 		70219,
@@ -17941,6 +18251,8 @@ pg.shop_template = {
 		70223,
 		70224,
 		70225,
+		70226,
+		70227,
 		90001,
 		90002,
 		90003,

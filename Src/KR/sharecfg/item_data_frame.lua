@@ -64,6 +64,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「——푸른 자유 의지를 위하여, 신이여 유니온을 보호하소서」</color>\n「샌드 플레이」이벤트에서 획득합니다",
 		scene = {}
 	},
+	[304] = {
+		name = "영광의 휘장",
+		time_second = 0,
+		id = 304,
+		time_limit_type = 0,
+		desc = "<Color=#ffffff>「세계에 사르데냐 제국의 영광과 위엄을 알리자!」 </Color>\n후에 이벤트를 통해 획득",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -72,7 +80,8 @@ pg.item_data_frame = {
 		300,
 		301,
 		302,
-		303
+		303,
+		304
 	}
 }
 

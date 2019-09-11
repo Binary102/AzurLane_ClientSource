@@ -50,10 +50,10 @@ function slot1.GetSkin(slot0)
 end
 
 function slot1.Enabled(slot0, slot1)
-	slot0.eventTriggers[GetOrAddComponent(slot0._btn, "EventTriggerListener")] = true
-	slot0.eventTriggers[GetOrAddComponent(slot0._block, "EventTriggerListener")] = true
-	GetOrAddComponent(slot0._btn, "EventTriggerListener").enabled = slot1
-	GetOrAddComponent(slot0._block, "EventTriggerListener").enabled = slot1
+	slot0.eventTriggers[GetComponent(slot0._btn, "EventTriggerListener")] = true
+	slot0.eventTriggers[GetComponent(slot0._block, "EventTriggerListener")] = true
+	GetComponent(slot0._btn, "EventTriggerListener").enabled = slot1
+	GetComponent(slot0._block, "EventTriggerListener").enabled = slot1
 end
 
 function slot1.Disable(slot0)
@@ -63,8 +63,8 @@ function slot1.Disable(slot0)
 
 	slot0:OnUnSelect()
 
-	GetOrAddComponent(slot0._btn, "EventTriggerListener").enabled = false
-	GetOrAddComponent(slot0._block, "EventTriggerListener").enabled = false
+	GetComponent(slot0._btn, "EventTriggerListener").enabled = false
+	GetComponent(slot0._block, "EventTriggerListener").enabled = false
 end
 
 function slot1.OnSelected(slot0)
@@ -152,8 +152,8 @@ function slot1.SetControllerActive(slot0, slot1)
 	end
 
 	slot0._isActive = slot1
-	slot2 = GetOrAddComponent(slot0._btn, "EventTriggerListener")
-	slot3 = GetOrAddComponent(slot0._block, "EventTriggerListener")
+	slot2 = GetComponent(slot0._btn, "EventTriggerListener")
+	slot3 = GetComponent(slot0._block, "EventTriggerListener")
 
 	if slot1 then
 		slot4 = nil

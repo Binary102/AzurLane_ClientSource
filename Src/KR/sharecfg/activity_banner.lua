@@ -1,9 +1,41 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "20255",
+		param = "20259",
 		type = 3,
 		id = 1,
+		pic = "temp2",
+		time = {
+			{
+				{
+					2019,
+					9,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "20255",
+		type = 3,
+		id = 2,
 		pic = "temp5",
 		time = {
 			{
@@ -34,7 +66,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 2,
+		id = 3,
 		pic = "temp3",
 		param = {
 			"scene skinshop",
@@ -69,7 +101,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 3,
+		id = 4,
 		pic = "temp4",
 		param = {
 			"scene get boat",
@@ -106,7 +138,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 4,
+		id = 5,
 		pic = "temp14",
 		param = {
 			"CHALLENGE_MAIN_SCENE",
@@ -141,7 +173,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 5,
+		id = 6,
 		pic = "temp9",
 		param = {
 			"scene back yard"
@@ -177,7 +209,7 @@ pg.activity_banner = {
 		param = "0",
 		time = "always",
 		type = 3,
-		id = 6,
+		id = 7,
 		pic = "temp11"
 	},
 	all = {
@@ -186,7 +218,8 @@ pg.activity_banner = {
 		3,
 		4,
 		5,
-		6
+		6,
+		7
 	}
 }
 

@@ -1608,8 +1608,14 @@ function slot1(slot0)
 	slot3 = {}
 	slot1[slot2] = slot3
 	slot0._characterList = slot1
+	slot1 = getProxy
+	slot2 = ActivityProxy
+	slot1 = slot1(slot2)
+	slot3 = slot1
+	slot2 = slot1.getBuffShipList
+	slot2 = slot2(slot3)
 
-	function slot1(slot0, slot1, slot2, slot3)
+	function slot3(slot0, slot1, slot2, slot3)
 		slot4 = slot0
 		slot4 = slot4.exited
 
@@ -1725,59 +1731,83 @@ function slot1(slot0)
 			slot14(slot15, slot16)
 		end
 
-		slot13 = setText
-		slot14 = findTF
-		slot15 = slot8
-		slot16 = "frame/lv_contain/lv"
-		slot14 = slot14(slot15, slot16)
-		slot15 = slot4.level
+		setText(findTF(slot8, "frame/lv_contain/lv"), slot4.level)
+		setActive(slot8:Find("expbuff"), slot1[slot4:getGroupId()] ~= nil)
 
-		slot13(slot14, slot15)
+		if slot13 then
+			slot15 = slot13 / 100
+			slot16 = slot13 % 100
+			slot17 = tostring
+			slot18 = slot15
+			slot17 = slot17(slot18)
+			slot18 = 0
 
-		slot13 = tf
-		slot14 = slot0
-		slot13 = slot13(slot14)
-		slot15 = slot13
-		slot14 = slot13.SetParent
-		slot16 = slot5
+			if slot16 > slot18 then
+				slot18 = slot17
+				slot19 = "."
+				slot20 = tostring
+				slot21 = slot16
+				slot20 = slot20(slot21)
+				slot17 = slot18 .. slot19 .. slot20
+			end
+
+			slot18 = setText
+			slot20 = slot14
+			slot19 = slot14.Find
+			slot21 = "text"
+			slot19 = slot19(slot20, slot21)
+			slot20 = string
+			slot20 = slot20.format
+			slot21 = "EXP +%s%%"
+			slot22 = slot17
+
+			slot18(slot19, slot20(slot21, slot22))
+		end
+
+		slot15 = tf
+		slot16 = slot0
+		slot15 = slot15(slot16)
+		slot17 = slot15
+		slot16 = slot15.SetParent
+		slot18 = slot5
+		slot19 = false
+
+		slot16(slot17, slot18, slot19)
+
+		slot16 = "model"
+		slot0.name = slot16
+		slot17 = slot0
+		slot16 = slot0.GetComponent
+		slot18 = "SkeletonGraphic"
+		slot16 = slot16(slot17, slot18)
 		slot17 = false
+		slot16.raycastTarget = slot17
+		slot17 = slot4
+		slot16 = slot4.getAttachmentPrefab
+		slot16 = slot16(slot17)
+		slot17 = pairs
+		slot18 = slot16
+		slot17, slot18, slot19 = slot17(slot18)
 
-		slot14(slot15, slot16, slot17)
+		for slot20, slot21 in slot17, slot18, slot19 do
+			slot22 = slot21.attachment_combat_ui
+			slot22 = slot22[1]
 
-		slot14 = "model"
-		slot0.name = slot14
-		slot15 = slot0
-		slot14 = slot0.GetComponent
-		slot16 = "SkeletonGraphic"
-		slot14 = slot14(slot15, slot16)
-		slot15 = false
-		slot14.raycastTarget = slot15
-		slot15 = slot4
-		slot14 = slot4.getAttachmentPrefab
-		slot14 = slot14(slot15)
-		slot15 = pairs
-		slot16 = slot14
-		slot15, slot16, slot17 = slot15(slot16)
+			if slot22 ~= "" then
+				slot23 = "Effect/"
+				slot24 = slot22
+				slot23 = slot23 .. slot24
+				slot24 = ResourceMgr
+				slot24 = slot24.Inst
+				slot25 = slot24
+				slot24 = slot24.getAssetAsync
+				slot26 = slot23
+				slot27 = slot22
+				slot28 = UnityEngine
+				slot28 = slot28.Events
+				slot28 = slot28.UnityAction_UnityEngine_Object
 
-		for slot18, slot19 in slot15, slot16, slot17 do
-			slot20 = slot19.attachment_combat_ui
-			slot20 = slot20[1]
-
-			if slot20 ~= "" then
-				slot21 = "Effect/"
-				slot22 = slot20
-				slot21 = slot21 .. slot22
-				slot22 = ResourceMgr
-				slot22 = slot22.Inst
-				slot23 = slot22
-				slot22 = slot22.getAssetAsync
-				slot24 = slot21
-				slot25 = slot20
-				slot26 = UnityEngine
-				slot26 = slot26.Events
-				slot26 = slot26.UnityAction_UnityEngine_Object
-
-				function slot27(slot0)
+				function slot29(slot0)
 					slot1 = slot0
 					slot1 = slot1.exited
 
@@ -1816,114 +1846,114 @@ function slot1(slot0)
 					end
 				end
 
-				slot26 = slot26(slot27)
-				slot27 = true
-				slot28 = true
+				slot28 = slot28(slot29)
+				slot29 = true
+				slot30 = true
 
-				slot22(slot23, slot24, slot25, slot26, slot27, slot28)
+				slot24(slot25, slot26, slot27, slot28, slot29, slot30)
 			end
 		end
 
-		slot15 = Vector3
-		slot16 = 0.8
-		slot17 = 0.8
-		slot18 = 1
-		slot15 = slot15(slot16, slot17, slot18)
-		slot13.localScale = slot15
-		slot15 = pg
-		slot15 = slot15.ViewUtils
-		slot15 = slot15.SetLayer
-		slot16 = slot13
-		slot17 = Layer
-		slot17 = slot17.UI
+		slot17 = Vector3
+		slot18 = 0.8
+		slot19 = 0.8
+		slot20 = 1
+		slot17 = slot17(slot18, slot19, slot20)
+		slot15.localScale = slot17
+		slot17 = pg
+		slot17 = slot17.ViewUtils
+		slot17 = slot17.SetLayer
+		slot18 = slot15
+		slot19 = Layer
+		slot19 = slot19.UI
 
-		slot15(slot16, slot17)
+		slot17(slot18, slot19)
 
-		slot16 = slot8
-		slot15 = slot8.SetSiblingIndex
-		slot17 = 2
+		slot18 = slot8
+		slot17 = slot8.SetSiblingIndex
+		slot19 = 2
 
-		slot15(slot16, slot17)
+		slot17(slot18, slot19)
 
-		slot15 = slot0
-		slot15 = slot15._characterList
-		slot15 = slot15[slot2]
-		slot15[slot3] = slot5
-		slot16 = GameObject
-		slot17 = "mouseChild"
-		slot16 = slot16(slot17)
-		slot17 = tf
-		slot18 = slot16
-		slot17 = slot17(slot18)
-		slot18 = slot17
-		slot17 = slot17.SetParent
+		slot17 = slot0
+		slot17 = slot17._characterList
+		slot17 = slot17[slot2]
+		slot17[slot3] = slot5
+		slot18 = GameObject
+		slot19 = "mouseChild"
+		slot18 = slot18(slot19)
 		slot19 = tf
-		slot20 = slot0
-
-		slot17(slot18, slot19(slot20))
-
-		slot17 = tf
-		slot18 = slot16
-		slot17 = slot17(slot18)
-		slot18 = Vector3
-		slot18 = slot18.zero
-		slot17.localPosition = slot18
-		slot17 = GetOrAddComponent
-		slot18 = slot16
-		slot19 = "ModelDrag"
-		slot17 = slot17(slot18, slot19)
-		slot18 = GetOrAddComponent
-		slot19 = slot16
-		slot20 = "UILongPressTrigger"
-		slot18 = slot18(slot19, slot20)
-		slot19 = GetOrAddComponent
-		slot20 = slot16
-		slot21 = "EventTriggerListener"
-		slot19 = slot19(slot20, slot21)
-		slot20 = slot0
-		slot20 = slot20.eventTriggers
-		slot21 = true
-		slot20[slot19] = slot21
-		slot21 = slot17
-		slot20 = slot17.Init
-
-		slot20(slot21)
-
-		slot21 = slot16
-		slot20 = slot16.GetComponent
-		slot22 = typeof
-		slot23 = RectTransform
-		slot20 = slot20(slot21, slot22(slot23))
-		slot21 = Vector2
-		slot22 = 3
-		slot23 = 3
-		slot21 = slot21(slot22, slot23)
-		slot20.sizeDelta = slot21
-		slot21 = Vector2
-		slot22 = 0.5
-		slot23 = 0
-		slot21 = slot21(slot22, slot23)
-		slot20.pivot = slot21
-		slot21 = Vector2
-		slot22 = 0
-		slot23 = 0
-		slot21 = slot21(slot22, slot23)
-		slot20.anchoredPosition = slot21
-		slot21 = 1
-		slot18.longPressThreshold = slot21
-		slot21 = pg
-		slot21 = slot21.DelegateInfo
-		slot21 = slot21.Add
+		slot20 = slot18
+		slot19 = slot19(slot20)
+		slot20 = slot19
+		slot19 = slot19.SetParent
+		slot21 = tf
 		slot22 = slot0
-		slot23 = slot18.onLongPressed
 
-		slot21(slot22, slot23)
+		slot19(slot20, slot21(slot22))
 
-		slot21 = slot18.onLongPressed
-		slot22 = slot21
-		slot21 = slot21.AddListener
+		slot19 = tf
+		slot20 = slot18
+		slot19 = slot19(slot20)
+		slot20 = Vector3
+		slot20 = slot20.zero
+		slot19.localPosition = slot20
+		slot19 = GetOrAddComponent
+		slot20 = slot18
+		slot21 = "ModelDrag"
+		slot19 = slot19(slot20, slot21)
+		slot20 = GetOrAddComponent
+		slot21 = slot18
+		slot22 = "UILongPressTrigger"
+		slot20 = slot20(slot21, slot22)
+		slot21 = GetOrAddComponent
+		slot22 = slot18
+		slot23 = "EventTriggerListener"
+		slot21 = slot21(slot22, slot23)
+		slot22 = slot0
+		slot22 = slot22.eventTriggers
+		slot23 = true
+		slot22[slot21] = slot23
+		slot23 = slot19
+		slot22 = slot19.Init
 
-		function slot23()
+		slot22(slot23)
+
+		slot23 = slot18
+		slot22 = slot18.GetComponent
+		slot24 = typeof
+		slot25 = RectTransform
+		slot22 = slot22(slot23, slot24(slot25))
+		slot23 = Vector2
+		slot24 = 3
+		slot25 = 3
+		slot23 = slot23(slot24, slot25)
+		slot22.sizeDelta = slot23
+		slot23 = Vector2
+		slot24 = 0.5
+		slot25 = 0
+		slot23 = slot23(slot24, slot25)
+		slot22.pivot = slot23
+		slot23 = Vector2
+		slot24 = 0
+		slot25 = 0
+		slot23 = slot23(slot24, slot25)
+		slot22.anchoredPosition = slot23
+		slot23 = 1
+		slot20.longPressThreshold = slot23
+		slot23 = pg
+		slot23 = slot23.DelegateInfo
+		slot23 = slot23.Add
+		slot24 = slot0
+		slot25 = slot20.onLongPressed
+
+		slot23(slot24, slot25)
+
+		slot23 = slot20.onLongPressed
+		slot24 = slot23
+		slot23 = slot23.AddListener
+
+		function slot25()
 			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.emit
@@ -1944,22 +1974,22 @@ function slot1(slot0)
 			slot0(slot1)
 		end
 
-		slot21(slot22, slot23)
+		slot23(slot24, slot25)
 
-		slot21, slot22, slot23, slot24 = nil
-		slot25 = pg
-		slot25 = slot25.DelegateInfo
-		slot25 = slot25.Add
-		slot26 = slot0
-		slot27 = slot17.onModelClick
+		slot23, slot24, slot25, slot26 = nil
+		slot27 = pg
+		slot27 = slot27.DelegateInfo
+		slot27 = slot27.Add
+		slot28 = slot0
+		slot29 = slot19.onModelClick
 
-		slot25(slot26, slot27)
+		slot27(slot28, slot29)
 
-		slot25 = slot17.onModelClick
-		slot26 = slot25
-		slot25 = slot25.AddListener
+		slot27 = slot19.onModelClick
+		slot28 = slot27
+		slot27 = slot27.AddListener
 
-		function slot27()
+		function slot29()
 			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.emit
@@ -1980,12 +2010,12 @@ function slot1(slot0)
 			slot0(slot1)
 		end
 
-		slot25(slot26, slot27)
+		slot27(slot28, slot29)
 
-		slot26 = slot19
-		slot25 = slot19.AddBeginDragFunc
+		slot28 = slot21
+		slot27 = slot21.AddBeginDragFunc
 
-		function slot27()
+		function slot29()
 			slot0 = slot0
 			slot0 = slot0._modelDrag
 
@@ -2077,12 +2107,12 @@ function slot1(slot0)
 			slot0(slot1)
 		end
 
-		slot25(slot26, slot27)
+		slot27(slot28, slot29)
 
-		slot26 = slot19
-		slot25 = slot19.AddDragFunc
+		slot28 = slot21
+		slot27 = slot21.AddDragFunc
 
-		function slot27(slot0, slot1)
+		function slot29(slot0, slot1)
 			slot2 = slot0
 			slot2 = slot2._modelDrag
 			slot3 = slot1
@@ -2110,12 +2140,12 @@ function slot1(slot0)
 			slot2.localPosition = slot3
 		end
 
-		slot25(slot26, slot27)
+		slot27(slot28, slot29)
 
-		slot26 = slot19
-		slot25 = slot19.AddDragEndFunc
+		slot28 = slot21
+		slot27 = slot21.AddDragEndFunc
 
-		function slot27(slot0, slot1)
+		function slot29(slot0, slot1)
 			slot2 = slot0
 			slot2 = slot2._modelDrag
 			slot3 = slot1
@@ -2361,21 +2391,21 @@ function slot1(slot0)
 			slot4(slot5)
 		end
 
-		slot25(slot26, slot27)
+		slot27(slot28, slot29)
 
-		slot25 = slot0
-		slot26 = slot25
-		slot25 = slot25.setCharacterPos
-		slot27 = slot2
-		slot28 = slot3
-		slot29 = slot5
+		slot27 = slot0
+		slot28 = slot27
+		slot27 = slot27.setCharacterPos
+		slot29 = slot2
+		slot30 = slot3
+		slot31 = slot5
 
-		slot25(slot26, slot27, slot28, slot29)
+		slot27(slot28, slot29, slot30, slot31)
 	end
 
-	slot2 = {}
+	slot4 = {}
 
-	function slot3(slot0, slot1)
+	function slot5(slot0, slot1)
 		slot2 = ipairs
 		slot3 = slot0
 		slot2, slot3, slot4 = slot2(slot3)
@@ -2421,62 +2451,62 @@ function slot1(slot0)
 		end
 	end
 
-	slot4 = slot0._currentFleetVO
-	slot5 = slot4
-	slot4 = slot4.getFleetType
-	slot4 = slot4(slot5)
-	slot5 = FleetType
-	slot5 = slot5.Normal
+	slot6 = slot0._currentFleetVO
+	slot7 = slot6
+	slot6 = slot6.getFleetType
+	slot6 = slot6(slot7)
+	slot7 = FleetType
+	slot7 = slot7.Normal
 
-	if slot4 == slot5 then
-		slot5 = slot3
-		slot6 = slot0._currentFleetVO
-		slot6 = slot6.vanguardShips
-		slot7 = Fleet
-		slot7 = slot7.VANGUARD
+	if slot6 == slot7 then
+		slot7 = slot5
+		slot8 = slot0._currentFleetVO
+		slot8 = slot8.vanguardShips
+		slot9 = Fleet
+		slot9 = slot9.VANGUARD
 
-		slot5(slot6, slot7)
+		slot7(slot8, slot9)
 
-		slot5 = slot3
-		slot6 = slot0._currentFleetVO
-		slot6 = slot6.mainShips
-		slot7 = Fleet
-		slot7 = slot7.MAIN
+		slot7 = slot5
+		slot8 = slot0._currentFleetVO
+		slot8 = slot8.mainShips
+		slot9 = Fleet
+		slot9 = slot9.MAIN
 
-		slot5(slot6, slot7)
+		slot7(slot8, slot9)
 	else
-		slot5 = FleetType
-		slot5 = slot5.Submarine
+		slot7 = FleetType
+		slot7 = slot7.Submarine
 
-		if slot4 == slot5 then
-			slot5 = slot3
-			slot6 = slot0._currentFleetVO
-			slot6 = slot6.subShips
-			slot7 = Fleet
-			slot7 = slot7.SUBMARINE
+		if slot6 == slot7 then
+			slot7 = slot5
+			slot8 = slot0._currentFleetVO
+			slot8 = slot8.subShips
+			slot9 = Fleet
+			slot9 = slot9.SUBMARINE
 
-			slot5(slot6, slot7)
+			slot7(slot8, slot9)
 		end
 	end
 
-	slot5 = #slot2
-	slot6 = 0
+	slot7 = #slot4
+	slot8 = 0
 
-	if slot5 > slot6 then
-		slot5 = pg
-		slot5 = slot5.UIMgr
-		slot5 = slot5.GetInstance
-		slot5 = slot5()
-		slot6 = slot5
-		slot5 = slot5.LoadingOn
+	if slot7 > slot8 then
+		slot7 = pg
+		slot7 = slot7.UIMgr
+		slot7 = slot7.GetInstance
+		slot7 = slot7()
+		slot8 = slot7
+		slot7 = slot7.LoadingOn
 
-		slot5(slot6)
+		slot7(slot8)
 	end
 
-	slot5 = parallelAsync
-	slot6 = slot2
+	slot7 = parallelAsync
+	slot8 = slot4
 
-	function slot7(slot0)
+	function slot9(slot0)
 		slot1 = pg
 		slot1 = slot1.UIMgr
 		slot1 = slot1.GetInstance
@@ -2500,7 +2530,7 @@ function slot1(slot0)
 		slot1(slot2)
 	end
 
-	slot5(slot6, slot7)
+	slot7(slot8, slot9)
 end
 
 slot0.loadAllCharacter = slot1

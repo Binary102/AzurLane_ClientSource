@@ -9691,6 +9691,127 @@ pg.activity_template = {
 			bg = "loadingbg/bg_build_2_act"
 		}
 	},
+	[20257] = {
+		mark = 20190911,
+		title_res_tag = "sitanli",
+		type = 3,
+		login_pop = 0,
+		config_id = 10,
+		is_show = 13,
+		config_client = "",
+		id = 20257,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					9,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/sitanli_login"
+		}
+	},
+	[20258] = {
+		mark = 20190911,
+		title_res_tag = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "",
+		config_client = "",
+		bg = "",
+		id = 20258,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					9,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20259] = {
+		mark = 20190911,
+		title_res_tag = "xunliandianshu",
+		type = 54,
+		login_pop = 0,
+		config_id = 20259,
+		is_show = 14,
+		config_client = "",
+		id = 20259,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					9,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_xunliandianshu"
+		}
+	},
 	[25000] = {
 		mark = 20188020,
 		title_res_tag = "",
@@ -10428,6 +10549,9 @@ pg.activity_template = {
 		20254,
 		20255,
 		20256,
+		20257,
+		20258,
+		20259,
 		25000,
 		25001,
 		25002,

@@ -3551,7 +3551,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[680] = {
-		name = "귀환 표지 ",
+		name = "귀항 표지 ",
 		type = 10,
 		id = 680,
 		tech = 0,

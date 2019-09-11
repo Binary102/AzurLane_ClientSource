@@ -3509,15 +3509,42 @@ function slot2(slot0, slot1, slot2, slot3)
 			end
 		end
 
-		slot5 = PoolMgr
-		slot5 = slot5.GetInstance
-		slot5 = slot5()
-		slot6 = slot5
-		slot5 = slot5.GetPainting
-		slot7 = slot0.paintingName
-		slot8 = true
+		slot5 = slot0.paintingName
+		slot6 = PathMgr
+		slot6 = slot6.FileExists
+		slot7 = PathMgr
+		slot7 = slot7.getAssetBundle
+		slot8 = "painting/"
+		slot9 = slot5
+		slot10 = "_n"
+		slot8 = slot8 .. slot9 .. slot10
+		slot6 = slot6(slot7(slot8))
 
-		function slot9(slot0)
+		if slot6 then
+			slot6 = PlayerPrefs
+			slot6 = slot6.GetInt
+			slot7 = "paint_hide_other_obj_"
+			slot8 = slot5
+			slot7 = slot7 .. slot8
+			slot8 = 0
+			slot6 = slot6(slot7, slot8)
+
+			if slot6 ~= 0 then
+				slot6 = slot5
+				slot7 = "_n"
+				slot5 = slot6 .. slot7
+			end
+		end
+
+		slot6 = PoolMgr
+		slot6 = slot6.GetInstance
+		slot6 = slot6()
+		slot7 = slot6
+		slot6 = slot6.GetPainting
+		slot8 = slot5
+		slot9 = true
+
+		function slot10(slot0)
 			slot1 = findTF
 			slot2 = slot0
 			slot3 = "Touch"
@@ -3574,26 +3601,26 @@ function slot2(slot0, slot1, slot2, slot3)
 			return
 		end
 
-		slot5(slot6, slot7, slot8, slot9)
+		slot6(slot7, slot8, slot9, slot10)
 
-		slot5 = ResourceMgr
-		slot5 = slot5.Inst
-		slot6 = slot5
-		slot5 = slot5.AssetExist
-		slot7 = "live2d/"
-		slot8 = string
-		slot8 = slot8.lower
-		slot9 = slot0.paintingName
-		slot8 = slot8(slot9)
-		slot7 = slot7 .. slot8
-		slot5 = slot5(slot6, slot7)
+		slot6 = ResourceMgr
+		slot6 = slot6.Inst
+		slot7 = slot6
+		slot6 = slot6.AssetExist
+		slot8 = "live2d/"
+		slot9 = string
+		slot9 = slot9.lower
+		slot10 = slot0.paintingName
+		slot9 = slot9(slot10)
+		slot8 = slot8 .. slot9
+		slot6 = slot6(slot7, slot8)
 
-		if slot5 then
-			slot6 = slot0
-			slot5 = slot0.createLive2D
-			slot7 = slot0.paintingName
+		if slot6 then
+			slot7 = slot0
+			slot6 = slot0.createLive2D
+			slot8 = slot0.paintingName
 
-			slot5(slot6, slot7)
+			slot6(slot7, slot8)
 		end
 	else
 		slot5 = slot4

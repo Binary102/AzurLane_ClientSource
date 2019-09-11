@@ -593,6 +593,10 @@ function slot5.InitPool(slot0, slot1, slot2)
 		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 1, 20, false, false):InitSize()
 	elseif slot1 == "UI/KizunaJamming" then
 		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 1, 20, false, false):InitSize()
+	elseif slot1 == "UI/CombatHPBar" then
+		slot1.Battle.BattleHPBarManager.GetInstance():Init(slot2, slot3)
+	elseif slot1 == "UI/CombatHPPop" then
+		slot1.Battle.BattlePopNumManager.GetInstance():Init(slot2, slot3)
 	end
 end
 
@@ -620,7 +624,9 @@ function slot5.GetCommonResource()
 		slot0.GetFXPath("shock"),
 		slot0.GetFXPath("qianting_chushui"),
 		slot0.GetFXPath("qianting_chushui".PLAYER_SUB_BUBBLE_FX),
-		slot0.GetUIPath("SkillPainting")
+		slot0.GetUIPath("SkillPainting"),
+		slot0.GetUIPath("CombatHPBar"),
+		slot0.GetUIPath("CombatHPPop")
 	}
 end
 

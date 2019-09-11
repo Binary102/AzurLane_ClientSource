@@ -19,11 +19,16 @@ function slot2.Ctor(slot0)
 	return
 end
 
-function slot2.Init(slot0, slot1)
+function slot2.Init(slot0, slot1, slot2)
 	slot0._allPool = {}
 	slot0._ob2Pool = {}
-	slot0._allPool[slot0.HP_BAR_FRIENDLY] = slot0.generatePool(slot0.HP_BAR_FRIENDLY, slot1, slot1, 3, 10)
-	slot0._allPool[slot0.HP_BAR_FOE] = slot0.generatePool(slot0.HP_BAR_FOE, slot1, slot1, 8, 10)
+	slot0._allPool[slot0.HP_BAR_FRIENDLY] = slot0.generateTempPool(slot0.HP_BAR_FRIENDLY, slot2, slot1, 3, 10)
+	slot0._allPool[slot0.HP_BAR_FOE] = slot0.generateTempPool(slot0.HP_BAR_FOE, slot2, slot1, 8, 10)
+end
+
+function slot2.InitialPoolRoot(slot0, slot1)
+	slot0._allPool[slot0.HP_BAR_FRIENDLY]:ResetParent(slot1)
+	slot0._allPool[slot0.HP_BAR_FOE]:ResetParent(slot1)
 end
 
 function slot2.Clear(slot0)
@@ -68,17 +73,17 @@ function slot2.HideBullet(slot0)
 	slot0.transform.position = slot0
 end
 
-function slot2.generatePool(slot0, slot1, slot2, slot3, slot4)
-	slot2:Find(slot0).gameObject.transform.position = slot0
+function slot2.generateTempPool(slot0, slot1, slot2, slot3, slot4)
+	slot2.transform.Find(slot5, slot0).gameObject.transform.position = slot0
 
-	slot2.Find(slot0).gameObject.SetActive(slot5, true)
+	slot2.transform.Find(slot5, slot0).gameObject.SetActive(slot6, true)
 
-	slot6 = pg.Pool.New(slot1, slot5, slot3, slot4, true, true)
+	slot7 = pg.Pool.New(slot1, slot6, slot3, slot4, true, true)
 
-	slot6:SetRecycleFuncs(slot1.HideBullet)
-	slot6:InitSize()
+	slot7:SetRecycleFuncs(slot1.HideBullet)
+	slot7:InitSize()
 
-	return slot6
+	return slot7
 end
 
 return

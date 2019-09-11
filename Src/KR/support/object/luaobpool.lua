@@ -46,6 +46,10 @@ function slot2.Recycle(slot0, slot1)
 	slot0.usedEnd = slot3 - 1
 end
 
+function slot2.UpdateInfo(slot0, slot1, slot2)
+	slot0.info[slot1] = slot2
+end
+
 function slot2.Dispose(slot0)
 	for slot4, slot5 in ipairs(slot0.list) do
 		slot5:Dispose()

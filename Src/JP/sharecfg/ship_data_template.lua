@@ -30796,6 +30796,201 @@ pg.ship_data_template = {
 			57
 		}
 	},
+	[207051] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 28300,
+		oil_at_end = 7,
+		type = 7,
+		energy = 150,
+		name = "フォーミダブル",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 6,
+		strengthen_id = 20705,
+		equip_id_2 = 28300,
+		equip_id_1 = 27000,
+		group_type = 20705,
+		id = 207051,
+		equip_1 = {
+			7
+		},
+		equip_2 = {
+			8
+		},
+		equip_3 = {
+			8
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {
+			23
+		},
+		buff_list = {
+			12570,
+			12580,
+			12590
+		},
+		buff_list_display = {
+			12570,
+			12580,
+			12590
+		},
+		hide_buff_list = {
+			57
+		}
+	},
+	[207052] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 9,
+		type = 7,
+		energy = 150,
+		name = "フォーミダブル",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 6,
+		strengthen_id = 20705,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 20705,
+		id = 207052,
+		equip_1 = {
+			7
+		},
+		equip_2 = {
+			8
+		},
+		equip_3 = {
+			8
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {
+			24
+		},
+		buff_list = {
+			12570,
+			12580,
+			12590
+		},
+		buff_list_display = {
+			12570,
+			12580,
+			12590
+		},
+		hide_buff_list = {
+			57
+		}
+	},
+	[207053] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 11,
+		type = 7,
+		energy = 150,
+		name = "フォーミダブル",
+		can_get_proficency = 0,
+		star = 5,
+		star_max = 6,
+		strengthen_id = 20705,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 20705,
+		id = 207053,
+		equip_1 = {
+			7
+		},
+		equip_2 = {
+			8
+		},
+		equip_3 = {
+			8
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {
+			24,
+			24
+		},
+		buff_list = {
+			12570,
+			12580,
+			12590
+		},
+		buff_list_display = {
+			12570,
+			12580,
+			12590
+		},
+		hide_buff_list = {
+			57
+		}
+	},
+	[207054] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 13,
+		type = 7,
+		energy = 150,
+		name = "フォーミダブル",
+		can_get_proficency = 1,
+		star = 6,
+		star_max = 6,
+		strengthen_id = 20705,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 20705,
+		id = 207054,
+		equip_1 = {
+			7,
+			9
+		},
+		equip_2 = {
+			8
+		},
+		equip_3 = {
+			8
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {
+			25,
+			25
+		},
+		buff_list = {
+			12570,
+			12580,
+			12590
+		},
+		buff_list_display = {
+			12570,
+			12580,
+			12590
+		},
+		hide_buff_list = {
+			57
+		}
+	},
 	[207061] = {
 		oil_at_start = 1,
 		max_level = 70,
@@ -57291,6 +57486,1092 @@ pg.ship_data_template = {
 			52
 		}
 	},
+	[601021] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 0,
+		oil_at_end = 3,
+		type = 1,
+		energy = 150,
+		name = "カラビニエーレ",
+		can_get_proficency = 0,
+		star = 2,
+		star_max = 5,
+		strengthen_id = 60102,
+		equip_id_2 = 5000,
+		equip_id_1 = 95400,
+		group_type = 60102,
+		id = 601021,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			12660,
+			12670
+		},
+		buff_list_display = {
+			12660,
+			12670,
+			25011
+		},
+		hide_buff_list = {
+			51
+		}
+	},
+	[601022] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 5,
+		type = 1,
+		energy = 150,
+		name = "カラビニエーレ",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 5,
+		strengthen_id = 60102,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 60102,
+		id = 601022,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			12660,
+			12670,
+			25011
+		},
+		buff_list_display = {
+			12660,
+			12670,
+			25011
+		},
+		hide_buff_list = {
+			51
+		}
+	},
+	[601023] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 7,
+		type = 1,
+		energy = 150,
+		name = "カラビニエーレ",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 5,
+		strengthen_id = 60102,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 60102,
+		id = 601023,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			12660,
+			12670,
+			25011
+		},
+		buff_list_display = {
+			12660,
+			12670,
+			25011
+		},
+		hide_buff_list = {
+			51
+		}
+	},
+	[601024] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 9,
+		type = 1,
+		energy = 150,
+		name = "カラビニエーレ",
+		can_get_proficency = 1,
+		star = 5,
+		star_max = 5,
+		strengthen_id = 60102,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 60102,
+		id = 601024,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			12660,
+			12670,
+			25012
+		},
+		buff_list_display = {
+			12660,
+			12670,
+			25012
+		},
+		hide_buff_list = {
+			51
+		}
+	},
+	[603011] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 95500,
+		oil_at_end = 4,
+		type = 3,
+		energy = 150,
+		name = "トレント ",
+		can_get_proficency = 0,
+		star = 2,
+		star_max = 5,
+		strengthen_id = 60301,
+		equip_id_2 = 0,
+		equip_id_1 = 95300,
+		group_type = 60301,
+		id = 603011,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			2011
+		},
+		buff_list_display = {
+			2011,
+			25211
+		},
+		hide_buff_list = {
+			53
+		}
+	},
+	[603012] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 6,
+		type = 3,
+		energy = 150,
+		name = "トレント ",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 5,
+		strengthen_id = 60301,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 60301,
+		id = 603012,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			2011,
+			25211
+		},
+		buff_list_display = {
+			2011,
+			25211
+		},
+		hide_buff_list = {
+			53
+		}
+	},
+	[603013] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 8,
+		type = 3,
+		energy = 150,
+		name = "トレント ",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 5,
+		strengthen_id = 60301,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 60301,
+		id = 603013,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			2011,
+			25211
+		},
+		buff_list_display = {
+			2011,
+			25211
+		},
+		hide_buff_list = {
+			53
+		}
+	},
+	[603014] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 10,
+		type = 3,
+		energy = 150,
+		name = "トレント ",
+		can_get_proficency = 1,
+		star = 5,
+		star_max = 5,
+		strengthen_id = 60301,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 60301,
+		id = 603014,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			2011,
+			25212
+		},
+		buff_list_display = {
+			2011,
+			25212
+		},
+		hide_buff_list = {
+			53
+		}
+	},
+	[603021] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 95500,
+		oil_at_end = 6,
+		type = 3,
+		energy = 150,
+		name = "ザラ",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 6,
+		strengthen_id = 60302,
+		equip_id_2 = 0,
+		equip_id_1 = 95200,
+		group_type = 60302,
+		id = 603021,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			12620,
+			12630
+		},
+		buff_list_display = {
+			12620,
+			12630,
+			25221
+		},
+		hide_buff_list = {
+			53
+		}
+	},
+	[603022] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 8,
+		type = 3,
+		energy = 150,
+		name = "ザラ",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 6,
+		strengthen_id = 60302,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 60302,
+		id = 603022,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			12620,
+			12630,
+			25221
+		},
+		buff_list_display = {
+			12620,
+			12630,
+			25221
+		},
+		hide_buff_list = {
+			53
+		}
+	},
+	[603023] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 10,
+		type = 3,
+		energy = 150,
+		name = "ザラ",
+		can_get_proficency = 0,
+		star = 5,
+		star_max = 6,
+		strengthen_id = 60302,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 60302,
+		id = 603023,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			12620,
+			12630,
+			25221
+		},
+		buff_list_display = {
+			12620,
+			12630,
+			25221
+		},
+		hide_buff_list = {
+			53
+		}
+	},
+	[603024] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 12,
+		type = 3,
+		energy = 150,
+		name = "ザラ",
+		can_get_proficency = 1,
+		star = 6,
+		star_max = 6,
+		strengthen_id = 60302,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 60302,
+		id = 603024,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			12620,
+			12630,
+			25222
+		},
+		buff_list_display = {
+			12620,
+			12630,
+			25222
+		},
+		hide_buff_list = {
+			53
+		}
+	},
+	[605021] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 95100,
+		oil_at_end = 9,
+		type = 5,
+		energy = 150,
+		name = "リットリオ ",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 6,
+		strengthen_id = 60502,
+		equip_id_2 = 0,
+		equip_id_1 = 95000,
+		group_type = 60502,
+		id = 605021,
+		equip_1 = {
+			4
+		},
+		equip_2 = {
+			1,
+			2
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			12600,
+			12610
+		},
+		buff_list_display = {
+			12600,
+			12610
+		},
+		hide_buff_list = {
+			12605,
+			55
+		}
+	},
+	[605022] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 11,
+		type = 5,
+		energy = 150,
+		name = "リットリオ ",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 6,
+		strengthen_id = 60502,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 60502,
+		id = 605022,
+		equip_1 = {
+			4
+		},
+		equip_2 = {
+			1,
+			2
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			12600,
+			12610
+		},
+		buff_list_display = {
+			12600,
+			12610
+		},
+		hide_buff_list = {
+			12605,
+			55,
+			1
+		}
+	},
+	[605023] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 13,
+		type = 5,
+		energy = 150,
+		name = "リットリオ ",
+		can_get_proficency = 0,
+		star = 5,
+		star_max = 6,
+		strengthen_id = 60502,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 60502,
+		id = 605023,
+		equip_1 = {
+			4
+		},
+		equip_2 = {
+			1,
+			2
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			12600,
+			12610
+		},
+		buff_list_display = {
+			12600,
+			12610
+		},
+		hide_buff_list = {
+			12605,
+			55,
+			1
+		}
+	},
+	[605024] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 15,
+		type = 5,
+		energy = 150,
+		name = "リットリオ ",
+		can_get_proficency = 1,
+		star = 6,
+		star_max = 6,
+		strengthen_id = 60502,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 60502,
+		id = 605024,
+		equip_1 = {
+			4
+		},
+		equip_2 = {
+			1,
+			2
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			12600,
+			12610
+		},
+		buff_list_display = {
+			12600,
+			12610
+		},
+		hide_buff_list = {
+			12605,
+			55,
+			2
+		}
+	},
+	[605051] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 0,
+		oil_at_end = 7,
+		type = 5,
+		energy = 150,
+		name = "コンテ・ディ・カブール ",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 5,
+		strengthen_id = 60505,
+		equip_id_2 = 95460,
+		equip_id_1 = 95480,
+		group_type = 60505,
+		id = 605051,
+		equip_1 = {
+			4
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			12650
+		},
+		buff_list_display = {
+			12650
+		},
+		hide_buff_list = {
+			55
+		}
+	},
+	[605052] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 9,
+		type = 5,
+		energy = 150,
+		name = "コンテ・ディ・カブール ",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 5,
+		strengthen_id = 60505,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 60505,
+		id = 605052,
+		equip_1 = {
+			4
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			12650
+		},
+		buff_list_display = {
+			12650
+		},
+		hide_buff_list = {
+			55,
+			1
+		}
+	},
+	[605053] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 11,
+		type = 5,
+		energy = 150,
+		name = "コンテ・ディ・カブール ",
+		can_get_proficency = 0,
+		star = 5,
+		star_max = 5,
+		strengthen_id = 60505,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 60505,
+		id = 605053,
+		equip_1 = {
+			4
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			12650
+		},
+		buff_list_display = {
+			12650
+		},
+		hide_buff_list = {
+			55,
+			1
+		}
+	},
+	[605054] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 13,
+		type = 5,
+		energy = 150,
+		name = "コンテ・ディ・カブール ",
+		can_get_proficency = 1,
+		star = 6,
+		star_max = 5,
+		strengthen_id = 60505,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 60505,
+		id = 605054,
+		equip_1 = {
+			4
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			12650
+		},
+		buff_list_display = {
+			12650
+		},
+		hide_buff_list = {
+			55,
+			2
+		}
+	},
+	[605061] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 0,
+		oil_at_end = 8,
+		type = 5,
+		energy = 150,
+		name = "ジュリオ・チェザーレ",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 5,
+		strengthen_id = 60506,
+		equip_id_2 = 95460,
+		equip_id_1 = 95480,
+		group_type = 60506,
+		id = 605061,
+		equip_1 = {
+			4
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			12640,
+			12650
+		},
+		buff_list_display = {
+			12640,
+			12650
+		},
+		hide_buff_list = {
+			55
+		}
+	},
+	[605062] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 10,
+		type = 5,
+		energy = 150,
+		name = "ジュリオ・チェザーレ",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 5,
+		strengthen_id = 60506,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 60506,
+		id = 605062,
+		equip_1 = {
+			4
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			12640,
+			12650
+		},
+		buff_list_display = {
+			12640,
+			12650
+		},
+		hide_buff_list = {
+			55,
+			1
+		}
+	},
+	[605063] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 12,
+		type = 5,
+		energy = 150,
+		name = "ジュリオ・チェザーレ",
+		can_get_proficency = 0,
+		star = 5,
+		star_max = 5,
+		strengthen_id = 60506,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 60506,
+		id = 605063,
+		equip_1 = {
+			4
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			12640,
+			12650
+		},
+		buff_list_display = {
+			12640,
+			12650
+		},
+		hide_buff_list = {
+			55,
+			1
+		}
+	},
+	[605064] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 14,
+		type = 5,
+		energy = 150,
+		name = "ジュリオ・チェザーレ",
+		can_get_proficency = 1,
+		star = 6,
+		star_max = 5,
+		strengthen_id = 60506,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 60506,
+		id = 605064,
+		equip_1 = {
+			4
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			12640,
+			12650
+		},
+		buff_list_display = {
+			12640,
+			12650
+		},
+		hide_buff_list = {
+			55,
+			2
+		}
+	},
 	[702011] = {
 		oil_at_start = 1,
 		max_level = 70,
@@ -66903,6 +68184,10 @@ pg.ship_data_template = {
 		207042,
 		207043,
 		207044,
+		207051,
+		207052,
+		207053,
+		207054,
 		207061,
 		207062,
 		207063,
@@ -67481,6 +68766,30 @@ pg.ship_data_template = {
 		502032,
 		502033,
 		502034,
+		601021,
+		601022,
+		601023,
+		601024,
+		603011,
+		603012,
+		603013,
+		603014,
+		603021,
+		603022,
+		603023,
+		603024,
+		605021,
+		605022,
+		605023,
+		605024,
+		605051,
+		605052,
+		605053,
+		605054,
+		605061,
+		605062,
+		605063,
+		605064,
 		702011,
 		702012,
 		702013,

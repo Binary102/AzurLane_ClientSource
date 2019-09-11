@@ -22,14 +22,14 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffAddAttrRatio",
+			type = "BattleBuffFixVelocity",
 			trigger = {
 				"onAttach",
 				"onRemove"
 			},
 			arg_list = {
-				number = -4000,
-				attr = "velocity"
+				add = 0,
+				mul = -4000
 			}
 		}
 	}

@@ -608,32 +608,33 @@ function slot0.displayShipWord(slot0, slot1, slot2)
 		setActive(slot0.chat, true)
 
 		slot0.chat.localPosition = Vector3(slot0.character.localPosition.x + 100, slot0.chat.localPosition.y, 0)
+		slot3 = slot0.shipVO:getIntimacy() / 100 + ((slot0.shipVO.propose and 1000) or 0)
 
 		slot0.chat:SetAsLastSibling()
 
 		if findTF(slot0.nowPainting, "fitter").childCount > 0 then
-			Ship.SetExpression(findTF(slot0.nowPainting, "fitter"):GetChild(0), slot0.paintingCode, slot1)
+			Ship.SetExpression(findTF(slot0.nowPainting, "fitter"):GetChild(0), slot0.paintingCode, slot1, slot3)
 		end
 
-		slot7, slot4 = Ship.getWords(slot0.shipVO.skinId, slot1, nil, nil, slot0.shipVO:getIntimacy() / 100 + ((slot0.shipVO.propose and 1000) or 0))
+		slot8, slot5 = Ship.getWords(slot0.shipVO.skinId, slot1, nil, nil, slot3)
 
-		setText(slot0.chatText, Ship.getWords)
+		setText(slot0.chatText, slot4)
 
 		if CHAT_POP_STR_LEN < #slot0.chatText:GetComponent(typeof(Text)).text then
-			slot5.alignment = TextAnchor.MiddleLeft
+			slot6.alignment = TextAnchor.MiddleLeft
 		else
-			slot5.alignment = TextAnchor.MiddleCenter
+			slot6.alignment = TextAnchor.MiddleCenter
 		end
 
-		if slot0.initChatBgH < slot5.preferredHeight + 120 then
-			slot0.chatBg.sizeDelta = Vector2.New(slot0.chatBg.sizeDelta.x, slot6)
+		if slot0.initChatBgH < slot6.preferredHeight + 120 then
+			slot0.chatBg.sizeDelta = Vector2.New(slot0.chatBg.sizeDelta.x, slot7)
 		else
 			slot0.chatBg.sizeDelta = Vector2.New(slot0.chatBg.sizeDelta.x, slot0.initChatBgH)
 		end
 
-		slot7 = slot0
+		slot8 = slot0
 
-		function slot8()
+		function slot9()
 			if slot0.chatFlag then
 				if slot0.chatani1Id then
 					LeanTween.cancel(slot0.chatani1Id)
@@ -651,8 +652,8 @@ function slot0.displayShipWord(slot0, slot1, slot2)
 			end)).uniqueId
 		end
 
-		if slot4 then
-			function slot9()
+		if slot5 then
+			function slot10()
 				if slot0._currentVoice then
 					slot0._currentVoice:Stop(true)
 				end
@@ -667,7 +668,7 @@ function slot0.displayShipWord(slot0, slot1, slot2)
 			end
 
 			if slot0.loadedCVBankName then
-				slot9()
+				slot10()
 			else
 				pg.CriMgr:LoadCV(Ship.getCVKeyID(slot0.shipVO.skinId), function ()
 					slot0 = pg.CriMgr.GetCVBankName(pg.CriMgr.GetCVBankName)
@@ -684,7 +685,7 @@ function slot0.displayShipWord(slot0, slot1, slot2)
 				end)
 			end
 		else
-			slot8()
+			slot9()
 		end
 	end
 end

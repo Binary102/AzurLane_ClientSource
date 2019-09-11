@@ -9,7 +9,7 @@ end
 
 function slot0.OnDataSetting(slot0)
 	slot0.config = pg.activity_7_day_sign[slot0.activity:getConfig("config_id")]
-	slot0.Day = 7
+	slot0.Day = #slot0.config.front_drops
 end
 
 function slot0.OnFirstFlush(slot0)

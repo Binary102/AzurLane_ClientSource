@@ -22,13 +22,13 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffFixVelocity",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					number = 4,
-					attr = "velocity"
+					add = 4,
+					mul = 0
 				}
 			}
 		}
@@ -56,13 +56,13 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffFixVelocity",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					number = 4,
-					attr = "velocity"
+					add = 4,
+					mul = 0
 				}
 			}
 		}
@@ -90,13 +90,13 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffFixVelocity",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					number = 4,
-					attr = "velocity"
+					add = 4,
+					mul = 0
 				}
 			}
 		}
@@ -124,13 +124,13 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffFixVelocity",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					number = 4,
-					attr = "velocity"
+					add = 4,
+					mul = 0
 				}
 			}
 		}
@@ -158,13 +158,13 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffFixVelocity",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					number = 4,
-					attr = "velocity"
+					add = 4,
+					mul = 0
 				}
 			}
 		}
@@ -192,13 +192,13 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffFixVelocity",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					number = 4,
-					attr = "velocity"
+					add = 4,
+					mul = 0
 				}
 			}
 		}
@@ -226,13 +226,13 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffFixVelocity",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					number = 4,
-					attr = "velocity"
+					add = 4,
+					mul = 0
 				}
 			}
 		}
@@ -260,13 +260,13 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffFixVelocity",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					number = 4,
-					attr = "velocity"
+					add = 4,
+					mul = 0
 				}
 			}
 		}
@@ -294,13 +294,13 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffFixVelocity",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					number = 4,
-					attr = "velocity"
+					add = 4,
+					mul = 0
 				}
 			}
 		}
@@ -328,13 +328,13 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffFixVelocity",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					number = 4,
-					attr = "velocity"
+					add = 4,
+					mul = 0
 				}
 			}
 		}
@@ -377,13 +377,13 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffAddAttr",
+			type = "BattleBuffFixVelocity",
 			trigger = {
 				"onAttach"
 			},
 			arg_list = {
-				number = 4,
-				attr = "velocity"
+				add = 4,
+				mul = 0
 			}
 		}
 	}

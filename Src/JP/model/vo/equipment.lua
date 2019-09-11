@@ -321,7 +321,9 @@ function slot0.GetRootEquipment(slot0)
 		slot2 = pg.equip_data_template[slot2.prev]
 	end
 
-	return slot0:MigrateTo(slot1)
+	slot0:MigrateTo(slot1).count = 1
+
+	return slot0.MigrateTo(slot1)
 end
 
 return slot0

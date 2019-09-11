@@ -3,7 +3,7 @@ pg.benefit_buff_template = {
 	{
 		max_time = 86400,
 		name = "",
-		icon = "Props/haijungali",
+		icon = "Props/guihuagao",
 		benefit_effect = "5",
 		id = 1,
 		benefit_condition = "",
@@ -37,11 +37,11 @@ pg.benefit_buff_template = {
 		benefit_effect = "100",
 		id = 4,
 		benefit_type = "rookie_battle_exp",
-		desc = "指揮官Lvが30以下の場合、通常海域のノーマルモード・ハードモード、デイリーチャレンジで入手する指揮官と艦の経験値が100%アップ",
+		desc = "指揮官Lvが40以下の場合、通常海域のノーマルモード・ハードモード、デイリーチャレンジで入手する指揮官と艦の経験値が100%アップ",
 		benefit_condition = {
 			"lv",
 			"<",
-			30
+			40
 		}
 	},
 	[10] = {

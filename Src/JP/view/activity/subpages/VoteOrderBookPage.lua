@@ -16,14 +16,17 @@ function slot0.OnInit(slot0)
 	slot0.isInit = true
 
 	function slot2(slot0)
-		return table.concat(pg.activity_vote[slot0].time_vote[1][1], ".") .. ((pg.activity_vote[slot0].type == 1 and i18n("word_maintain")) or "(00:00)") .. " ~ " .. table.concat(slot2[2][1], ".") .. "(23:59)"
+		return VoteGroup.New({
+			id = slot0,
+			list = {}
+		}):getTimeDesc()
 	end
 
 	slot3 = false
 	slot4 = ""
 
 	if _.detect(pg.activity_vote.all, function (slot0)
-		return pg.TimeMgr.GetInstance():inTime(pg.activity_vote[slot0].time_vote)
+		return pg.TimeMgr.GetInstance():inTime(pg.activity_vote[slot0].time_vote) and slot1.is_in_game == 1
 	end) then
 		slot3 = pg.activity_vote[slot1].is_on_web == 1
 		slot0.voteTime = slot5.time_vote

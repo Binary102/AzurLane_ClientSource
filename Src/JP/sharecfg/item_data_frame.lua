@@ -69,7 +69,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 304,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「サディアの威光を世界に知らしめましょう！」</color>\n――後日イベントで入手可能",
+		desc = "<color=#ffffff>「サディアの威光を世界に知らしめましょう！」</color>\n――「悲歎せし焔海の詩」イベントで入手可能",
 		scene = {}
 	},
 	[401] = {

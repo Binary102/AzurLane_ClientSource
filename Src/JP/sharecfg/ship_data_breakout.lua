@@ -10228,6 +10228,71 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[207051] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 20705,
+		breakout_id = 207052,
+		breakout_view = "攻撃機数+1/艦載機補正+2%",
+		id = 207051,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			60421,
+			54014
+		}
+	},
+	[207052] = {
+		use_gold = 3000,
+		pre_id = 207051,
+		use_char_num = 1,
+		use_char = 20705,
+		breakout_id = 207053,
+		breakout_view = "攻撃隊上限+1/戦闘機数+1/艦載機補正+3%",
+		id = 207052,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			60422,
+			54014,
+			60422,
+			54014
+		}
+	},
+	[207053] = {
+		use_gold = 10000,
+		pre_id = 207052,
+		use_char_num = 2,
+		use_char = 20705,
+		breakout_id = 207054,
+		breakout_view = "攻撃機数+1/艦載機補正+5%/戦闘機枠で爆撃機装備可能に",
+		id = 207053,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			60423,
+			54015,
+			60423,
+			54015
+		}
+	},
+	[207054] = {
+		use_gold = 0,
+		pre_id = 207053,
+		use_char_num = 0,
+		use_char = 20705,
+		breakout_id = 0,
+		breakout_view = "なし",
+		id = 207054,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[207061] = {
 		use_gold = 500,
 		pre_id = 0,
@@ -19218,6 +19283,372 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[601021] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 60102,
+		breakout_id = 601022,
+		breakout_view = "全弾発射スキル習得/主砲補正+5%",
+		id = 601021,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			75011
+		}
+	},
+	[601022] = {
+		use_gold = 1500,
+		pre_id = 601021,
+		use_char_num = 1,
+		use_char = 60102,
+		breakout_id = 601023,
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/主砲補正+10%",
+		id = 601022,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[601023] = {
+		use_gold = 2500,
+		pre_id = 601022,
+		use_char_num = 2,
+		use_char = 60102,
+		breakout_id = 601024,
+		breakout_view = "全弾発射弾幕強化/武器補正+5%",
+		id = 601023,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			75012
+		}
+	},
+	[601024] = {
+		use_gold = 0,
+		pre_id = 601023,
+		use_char_num = 0,
+		use_char = 60102,
+		breakout_id = 0,
+		breakout_view = "なし",
+		id = 601024,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[603011] = {
+		use_gold = 300,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 60301,
+		breakout_id = 603012,
+		breakout_view = "全弾発射スキル習得/主砲補正+5%",
+		id = 603011,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			75211
+		}
+	},
+	[603012] = {
+		use_gold = 800,
+		pre_id = 603011,
+		use_char_num = 1,
+		use_char = 60301,
+		breakout_id = 603013,
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
+		id = 603012,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			105,
+			105
+		}
+	},
+	[603013] = {
+		use_gold = 1500,
+		pre_id = 603012,
+		use_char_num = 2,
+		use_char = 60301,
+		breakout_id = 603014,
+		breakout_view = "全弾発射弾幕強化/魚雷補正+15%",
+		id = 603013,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			75212
+		}
+	},
+	[603014] = {
+		use_gold = 0,
+		pre_id = 603013,
+		use_char_num = 0,
+		use_char = 60301,
+		breakout_id = 0,
+		breakout_view = "なし",
+		id = 603014,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[603021] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 60302,
+		breakout_id = 603022,
+		breakout_view = "全弾発射スキル習得/主砲補正+5%",
+		id = 603021,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			75221
+		}
+	},
+	[603022] = {
+		use_gold = 3000,
+		pre_id = 603021,
+		use_char_num = 1,
+		use_char = 60302,
+		breakout_id = 603023,
+		breakout_view = "主砲砲座+1/主砲補正+10%",
+		id = 603022,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			95300,
+			95300
+		}
+	},
+	[603023] = {
+		use_gold = 10000,
+		pre_id = 603022,
+		use_char_num = 2,
+		use_char = 60302,
+		breakout_id = 603024,
+		breakout_view = "全弾発射弾幕強化/武器補正+5%",
+		id = 603023,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			75222
+		}
+	},
+	[603024] = {
+		use_gold = 0,
+		pre_id = 603023,
+		use_char_num = 0,
+		use_char = 60302,
+		breakout_id = 0,
+		breakout_view = "なし",
+		id = 603024,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[605021] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 60502,
+		breakout_id = 605022,
+		breakout_view = "主砲砲座+1/主砲補正+5%",
+		id = 605021,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			95000,
+			95000
+		}
+	},
+	[605022] = {
+		use_gold = 3000,
+		pre_id = 605021,
+		use_char_num = 1,
+		use_char = 60502,
+		breakout_id = 605023,
+		breakout_view = "副砲砲座+2/主砲補正+10%",
+		id = 605022,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			101,
+			101,
+			101
+		}
+	},
+	[605023] = {
+		use_gold = 10000,
+		pre_id = 605022,
+		use_char_num = 2,
+		use_char = 60502,
+		breakout_id = 605024,
+		breakout_view = "主砲砲座+1/主砲補正+15%",
+		id = 605023,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			95000,
+			95000,
+			95000
+		}
+	},
+	[605024] = {
+		use_gold = 0,
+		pre_id = 605023,
+		use_char_num = 0,
+		use_char = 60502,
+		breakout_id = 0,
+		breakout_view = "なし",
+		id = 605024,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[605051] = {
+		use_gold = 300,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 60505,
+		breakout_id = 605052,
+		breakout_view = "主砲砲座+1/主砲補正+5%",
+		id = 605051,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			95480,
+			95480
+		}
+	},
+	[605052] = {
+		use_gold = 800,
+		pre_id = 605051,
+		use_char_num = 1,
+		use_char = 60505,
+		breakout_id = 605053,
+		breakout_view = "副砲砲座+2/主砲補正+10%",
+		id = 605052,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			101,
+			101,
+			101
+		}
+	},
+	[605053] = {
+		use_gold = 1500,
+		pre_id = 605052,
+		use_char_num = 2,
+		use_char = 60505,
+		breakout_id = 605054,
+		breakout_view = "主砲砲座+1/主砲補正+15%",
+		id = 605053,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			95480,
+			95480,
+			95480
+		}
+	},
+	[605054] = {
+		use_gold = 0,
+		pre_id = 605053,
+		use_char_num = 0,
+		use_char = 60505,
+		breakout_id = 0,
+		breakout_view = "なし",
+		id = 605054,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[605061] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 60506,
+		breakout_id = 605062,
+		breakout_view = "主砲砲座+1/主砲補正+5%",
+		id = 605061,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			95480,
+			95480
+		}
+	},
+	[605062] = {
+		use_gold = 1500,
+		pre_id = 605061,
+		use_char_num = 1,
+		use_char = 60506,
+		breakout_id = 605063,
+		breakout_view = "副砲砲座+2/主砲補正+10%",
+		id = 605062,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			101,
+			101,
+			101
+		}
+	},
+	[605063] = {
+		use_gold = 2500,
+		pre_id = 605062,
+		use_char_num = 2,
+		use_char = 60506,
+		breakout_id = 605064,
+		breakout_view = "主砲砲座+1/主砲補正+15%",
+		id = 605063,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			95480,
+			95480,
+			95480
+		}
+	},
+	[605064] = {
+		use_gold = 0,
+		pre_id = 605063,
+		use_char_num = 0,
+		use_char = 60506,
+		breakout_id = 0,
+		breakout_view = "なし",
+		id = 605064,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[702011] = {
 		use_gold = 1000,
 		pre_id = 0,
@@ -22359,6 +22790,10 @@ pg.ship_data_breakout = {
 		207042,
 		207043,
 		207044,
+		207051,
+		207052,
+		207053,
+		207054,
 		207061,
 		207062,
 		207063,
@@ -22955,6 +23390,30 @@ pg.ship_data_breakout = {
 		502032,
 		502033,
 		502034,
+		601021,
+		601022,
+		601023,
+		601024,
+		603011,
+		603012,
+		603013,
+		603014,
+		603021,
+		603022,
+		603023,
+		603024,
+		605021,
+		605022,
+		605023,
+		605024,
+		605051,
+		605052,
+		605053,
+		605054,
+		605061,
+		605062,
+		605063,
+		605064,
 		702011,
 		702012,
 		702013,

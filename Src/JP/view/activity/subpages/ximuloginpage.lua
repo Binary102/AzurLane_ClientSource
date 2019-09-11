@@ -1,4 +1,4 @@
-slot0 = class("Day7LoginPage", import(".TemplatePage.LoginTemplatePage"))
+slot0 = class("XimuLoginPage", import(".TemplatePage.LoginTemplatePage"))
 
 function slot0.OnInit(slot0)
 	slot0.super.OnInit(slot0)

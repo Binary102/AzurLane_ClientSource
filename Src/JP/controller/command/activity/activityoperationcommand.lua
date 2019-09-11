@@ -137,6 +137,8 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 		end
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_LEVELAWARD then
 		table.insert(slot3.data1_list, slot1.arg1)
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_STORY_AWARD then
+		table.insert(slot3.data1_list, slot1.arg1)
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_LEVELPLAN then
 		if slot1.cmd == 1 then
 			slot3.data1 = true
@@ -404,7 +406,7 @@ function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 		elseif slot0 == ActivityConst.ACTIVITY_TYPE_CARD_PAIRS or slot0 == ActivityConst.ACTIVITY_TYPE_LINK_LINK then
 			slot0 = pg.StoryMgr.GetInstance()
 
-			if slot1:getConfig("config_client")[1][slot1.data2 + 1] and not slot0:IsPlayed(slot1) then
+			if slot1:getConfig("config_client")[1] and slot1:getConfig("config_client")[1][slot1.data2 + 1] and not slot0:IsPlayed(slot1) then
 				pg.StoryMgr.GetInstance():Play(slot1, pg.StoryMgr.GetInstance().Play)
 				coroutine.yield()
 			end

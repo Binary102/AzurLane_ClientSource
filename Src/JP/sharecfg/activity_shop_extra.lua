@@ -750,6 +750,42 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
+	[30] = {
+		num_limit = 1,
+		activity = 375,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 301181,
+		scene = "",
+		id = 30,
+		order = 4,
+		time = {
+			{
+				{
+					2019,
+					9,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -775,7 +811,8 @@ pg.activity_shop_extra = {
 		26,
 		27,
 		28,
-		29
+		29,
+		30
 	}
 }
 

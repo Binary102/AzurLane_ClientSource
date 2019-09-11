@@ -779,6 +779,14 @@ pg.voice_actor_CN = {
 	[200] = {
 		actor_name = "長谷川里桃",
 		code = 200
+	},
+	[201] = {
+		actor_name = "清水彩香",
+		code = 201
+	},
+	[202] = {
+		actor_name = "立花理香",
+		code = 202
 	}
 }
 

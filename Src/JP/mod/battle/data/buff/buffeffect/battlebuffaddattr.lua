@@ -22,11 +22,6 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	end
 
 	slot0._number = slot0._tempData.arg_list.number
-
-	if slot0._attr == "velocity" then
-		slot0._number = slot0.Battle.BattleFormulas.ConvertShipSpeed(slot0._number)
-	end
-
 	slot0._numberBase = slot0._number
 end
 
@@ -51,7 +46,7 @@ function slot1.IsSameAttr(slot0, slot1)
 end
 
 function slot1.UpdateAttr(slot0, slot1)
-	if slot0._attr == "injureRatio" or slot0._attr == "velocity" then
+	if slot0._attr == "injureRatio" then
 		slot0:UpdateAttrMul(slot1)
 	else
 		slot0:UpdateAttrAdd(slot1)
@@ -95,11 +90,7 @@ function slot1.UpdateAttrMul(slot0, slot1)
 		end
 	end
 
-	if slot0._attr == "velocity" then
-		slot1.Battle.BattleAttr.FlashVelocity(slot1, slot2 * slot3 - 1)
-	else
-		slot1.Battle.BattleAttr.FlashByBuff(slot1, slot0._attr, slot2 * slot3 - 1)
-	end
+	slot1.Battle.BattleAttr.FlashByBuff(slot1, slot0._attr, slot2 * slot3 - 1)
 
 	if slot0:CheckWeapon() then
 		slot1:FlushReloadingWeapon()

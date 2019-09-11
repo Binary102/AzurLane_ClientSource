@@ -2,13 +2,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffFixVelocity",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					number = 3,
-					attr = "velocity"
+					add = 3,
+					mul = 0
 				}
 			}
 		}
@@ -16,13 +16,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffFixVelocity",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					number = 3.5,
-					attr = "velocity"
+					add = 3.5,
+					mul = 0
 				}
 			}
 		}
@@ -30,13 +30,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffFixVelocity",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					number = 4,
-					attr = "velocity"
+					add = 4,
+					mul = 0
 				}
 			}
 		}
@@ -44,13 +44,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffFixVelocity",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					number = 4.5,
-					attr = "velocity"
+					add = 4.5,
+					mul = 0
 				}
 			}
 		}
@@ -58,13 +58,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffFixVelocity",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					number = 5,
-					attr = "velocity"
+					add = 5,
+					mul = 0
 				}
 			}
 		}
@@ -72,13 +72,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffFixVelocity",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					number = 5.5,
-					attr = "velocity"
+					add = 5.5,
+					mul = 0
 				}
 			}
 		}
@@ -86,13 +86,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffFixVelocity",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					number = 6,
-					attr = "velocity"
+					add = 6,
+					mul = 0
 				}
 			}
 		}
@@ -100,13 +100,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffFixVelocity",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					number = 6.5,
-					attr = "velocity"
+					add = 6.5,
+					mul = 0
 				}
 			}
 		}
@@ -114,13 +114,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffFixVelocity",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					number = 7,
-					attr = "velocity"
+					add = 7,
+					mul = 0
 				}
 			}
 		}
@@ -128,13 +128,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffFixVelocity",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					number = 8,
-					attr = "velocity"
+					add = 8,
+					mul = 0
 				}
 			}
 		}
@@ -151,13 +151,13 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffAddAttr",
+			type = "BattleBuffFixVelocity",
 			trigger = {
 				"onAttach"
 			},
 			arg_list = {
-				number = 3,
-				attr = "velocity"
+				add = 3,
+				mul = 0
 			}
 		}
 	}

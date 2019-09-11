@@ -34,9 +34,10 @@ class("ReturnAwardOPCommand", pm.SimpleCommand).execute = function (slot0, slot1
 			elseif slot1.cmd == ActivityConst.RETURN_AWARD_OP_GET_AWARD then
 				table.insert(slot2.data1_list, slot1.arg1)
 			elseif slot1.cmd == ActivityConst.RETURN_AWARD_OP_PUSH_UID then
-				slot2.data3 = 1
+				slot2.data2_list[1] = 1
 
 				pg.TipsMgr.GetInstance():ShowTips(i18n("returner_push_success"))
+			elseif slot1.cmd == ActivityConst.RETURN_AWARD_OP_ACCEPT_TASK then
 			elseif slot1.cmd == ActivityConst.RETURN_AWARD_OP_SET_RETRUNER then
 				slot2.data2 = slot1.arg1
 
@@ -51,7 +52,9 @@ class("ReturnAwardOPCommand", pm.SimpleCommand).execute = function (slot0, slot1
 
 			slot3:updateActivity(slot3.updateActivity)
 			slot0:sendNotification(GAME.RETURN_AWARD_OP_DONE, {
-				awards = slot1
+				awards = slot1,
+				id = slot2.id,
+				cmd = slot1.cmd
 			})
 		elseif ERROR_MESSAGE[slot0.result] then
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result])

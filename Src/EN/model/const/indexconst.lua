@@ -172,6 +172,7 @@ slot0.CampNames = {
 	"word_shipNation_chongYing",
 	"word_shipNation_tieXue",
 	"word_shipNation_dongHuang",
+	"word_shipNation_saDing",
 	"word_shipNation_beiLian",
 	"word_shipNation_ziyou",
 	"word_shipNation_weixi",
@@ -245,10 +246,10 @@ slot0.Nation2Camp = {
 	4,
 	5,
 	6,
-	10,
 	7,
 	8,
-	9
+	9,
+	10
 }
 
 function slot0.filterByCamp(slot0, slot1)

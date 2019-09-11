@@ -1354,6 +1354,52 @@ pg.backyard_theme_template = {
 			47307
 		}
 	},
+	[48] = {
+		Cfg_1 = 5,
+		name = "Slice of Sardegna",
+		desc = "Experience all the oppressive... er, impressive sights of the Sardegna Empire compressed into a single room.",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 48,
+		icon = "ydlthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			48001,
+			48002,
+			48101,
+			48102,
+			48103,
+			48104,
+			48105,
+			48106,
+			48107,
+			48108,
+			48109,
+			48110,
+			48111,
+			48112,
+			48113,
+			48114,
+			48115,
+			48116,
+			48117,
+			48118,
+			48119,
+			48120,
+			48121,
+			48201,
+			48202,
+			48203,
+			48301,
+			48302,
+			48303
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1382,7 +1428,8 @@ pg.backyard_theme_template = {
 		43,
 		45,
 		46,
-		47
+		47,
+		48
 	}
 }
 

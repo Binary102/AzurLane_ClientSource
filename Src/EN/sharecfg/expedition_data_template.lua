@@ -6250,7 +6250,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -6306,7 +6306,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -6362,7 +6362,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -6418,7 +6418,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -8026,7 +8026,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -8082,7 +8082,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -8138,7 +8138,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -8194,7 +8194,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -8250,7 +8250,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -8306,7 +8306,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -8362,7 +8362,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -8418,7 +8418,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -8474,7 +8474,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -10138,7 +10138,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -10194,7 +10194,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -10250,7 +10250,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -10306,7 +10306,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -10362,7 +10362,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -10418,7 +10418,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -10474,7 +10474,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -10530,7 +10530,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -10586,7 +10586,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -12250,7 +12250,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -12306,7 +12306,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -12362,7 +12362,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -12418,7 +12418,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -12474,7 +12474,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -12530,7 +12530,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -12586,7 +12586,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -12642,7 +12642,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -12698,7 +12698,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -14362,7 +14362,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -14418,7 +14418,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -14474,7 +14474,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -14530,7 +14530,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -14586,7 +14586,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -14642,7 +14642,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -14698,7 +14698,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -14754,7 +14754,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -14810,7 +14810,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -16474,7 +16474,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -16530,7 +16530,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -16586,7 +16586,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -16642,7 +16642,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -16698,7 +16698,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -16754,7 +16754,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -16810,7 +16810,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -16866,7 +16866,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -16922,7 +16922,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -18642,7 +18642,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -18698,7 +18698,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -18754,7 +18754,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -18810,7 +18810,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -18866,7 +18866,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -18922,7 +18922,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -18978,7 +18978,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -19034,7 +19034,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -19090,7 +19090,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -20810,7 +20810,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -20866,7 +20866,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -20922,7 +20922,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -20978,7 +20978,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -21034,7 +21034,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -21090,7 +21090,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -21146,7 +21146,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -21202,7 +21202,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -21258,7 +21258,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -22978,7 +22978,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -23034,7 +23034,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -23090,7 +23090,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -23146,7 +23146,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -23202,7 +23202,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -23258,7 +23258,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -23314,7 +23314,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -23370,7 +23370,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -23426,7 +23426,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -25074,7 +25074,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -25126,7 +25126,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -25178,7 +25178,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -25230,7 +25230,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -25282,7 +25282,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -25334,7 +25334,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -25386,7 +25386,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -25438,7 +25438,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -25490,7 +25490,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -26530,7 +26530,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -26586,7 +26586,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -26642,7 +26642,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -27402,7 +27402,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -27458,7 +27458,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -27514,7 +27514,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -28274,7 +28274,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -28330,7 +28330,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -28386,7 +28386,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -29146,7 +29146,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -29202,7 +29202,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -29258,7 +29258,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -29994,7 +29994,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -30046,7 +30046,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -30098,7 +30098,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -30850,7 +30850,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -30906,7 +30906,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -30962,7 +30962,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -31722,7 +31722,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -31778,7 +31778,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -31834,7 +31834,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -32594,7 +32594,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -32650,7 +32650,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -32706,7 +32706,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -33466,7 +33466,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -33522,7 +33522,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -33578,7 +33578,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -34314,7 +34314,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -34366,7 +34366,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -34418,7 +34418,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -35170,7 +35170,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -35226,7 +35226,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -35282,7 +35282,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -36042,7 +36042,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -36098,7 +36098,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -36154,7 +36154,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -36914,7 +36914,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -36970,7 +36970,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -37026,7 +37026,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -37786,7 +37786,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -37842,7 +37842,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -37898,7 +37898,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -38634,7 +38634,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -38686,7 +38686,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -38738,7 +38738,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -39490,7 +39490,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -39546,7 +39546,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -39602,7 +39602,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -40362,7 +40362,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -40418,7 +40418,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -40474,7 +40474,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -41234,7 +41234,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -41290,7 +41290,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -41346,7 +41346,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -42106,7 +42106,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -42162,7 +42162,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -42218,7 +42218,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -42954,7 +42954,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -43006,7 +43006,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -43058,7 +43058,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -43810,7 +43810,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -43866,7 +43866,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -43922,7 +43922,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -44682,7 +44682,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -44738,7 +44738,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -44794,7 +44794,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -45554,7 +45554,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -45610,7 +45610,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -45666,7 +45666,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -46426,7 +46426,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -46482,7 +46482,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -46538,7 +46538,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -47274,7 +47274,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -47326,7 +47326,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -47378,7 +47378,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -48130,7 +48130,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -48186,7 +48186,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -48242,7 +48242,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -49002,7 +49002,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -49058,7 +49058,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -49114,7 +49114,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -49874,7 +49874,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -49930,7 +49930,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -49986,7 +49986,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -50746,7 +50746,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -50802,7 +50802,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -50858,7 +50858,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -51594,7 +51594,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -51646,7 +51646,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -51698,7 +51698,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -52450,7 +52450,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -52506,7 +52506,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -52562,7 +52562,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -53322,7 +53322,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -53378,7 +53378,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -53434,7 +53434,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -54194,7 +54194,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -54250,7 +54250,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -54306,7 +54306,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -55066,7 +55066,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -55122,7 +55122,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -55178,7 +55178,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -55914,7 +55914,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -55966,7 +55966,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -56018,7 +56018,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -56770,7 +56770,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 3,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -56826,7 +56826,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 3,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -56882,7 +56882,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 3,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -57642,7 +57642,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 3,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -57698,7 +57698,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 3,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -57754,7 +57754,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 3,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -58514,7 +58514,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 3,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -58570,7 +58570,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 3,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -58626,7 +58626,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 3,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -59386,7 +59386,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 3,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -59442,7 +59442,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 3,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -59498,7 +59498,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 3,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -60234,7 +60234,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 3,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -60286,7 +60286,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 3,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -60338,7 +60338,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 3,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -61090,7 +61090,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 4,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -61146,7 +61146,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 4,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -61202,7 +61202,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 4,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -61962,7 +61962,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 4,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -62018,7 +62018,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 4,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -62074,7 +62074,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 4,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -62834,7 +62834,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 4,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -62890,7 +62890,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 4,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -62946,7 +62946,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 4,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -63706,7 +63706,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 4,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -63762,7 +63762,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 4,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -63818,7 +63818,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 4,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -64554,7 +64554,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 4,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -64606,7 +64606,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 4,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -64658,7 +64658,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 4,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -68214,7 +68214,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -68270,7 +68270,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -68326,7 +68326,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -68382,7 +68382,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -69990,7 +69990,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -70046,7 +70046,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -70102,7 +70102,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -70326,7 +70326,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -70382,7 +70382,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -70438,7 +70438,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -72102,7 +72102,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -72158,7 +72158,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -72214,7 +72214,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -72270,7 +72270,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -72326,7 +72326,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -72382,7 +72382,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -72438,7 +72438,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -72494,7 +72494,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -72550,7 +72550,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -74214,7 +74214,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -74270,7 +74270,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -74326,7 +74326,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -74382,7 +74382,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -74438,7 +74438,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -74494,7 +74494,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -74550,7 +74550,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -74606,7 +74606,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -74662,7 +74662,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -76326,7 +76326,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -76382,7 +76382,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -76438,7 +76438,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -76494,7 +76494,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -76550,7 +76550,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -76606,7 +76606,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -76662,7 +76662,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -76718,7 +76718,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -76774,7 +76774,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -78438,7 +78438,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -78494,7 +78494,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -78550,7 +78550,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -78606,7 +78606,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -78662,7 +78662,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -78718,7 +78718,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -78774,7 +78774,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -78830,7 +78830,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -78886,7 +78886,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -80606,7 +80606,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -80662,7 +80662,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -80718,7 +80718,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -80774,7 +80774,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -80830,7 +80830,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -80886,7 +80886,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -80942,7 +80942,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -80998,7 +80998,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -81054,7 +81054,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -82774,7 +82774,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -82830,7 +82830,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -82886,7 +82886,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -82942,7 +82942,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -82998,7 +82998,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -83054,7 +83054,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -83110,7 +83110,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -83166,7 +83166,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -83222,7 +83222,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -84942,7 +84942,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -84998,7 +84998,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -85054,7 +85054,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -85110,7 +85110,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -85166,7 +85166,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -85222,7 +85222,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -85278,7 +85278,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -85334,7 +85334,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -85390,7 +85390,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -86438,7 +86438,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -86494,7 +86494,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -86550,7 +86550,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -87310,7 +87310,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -87366,7 +87366,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -87422,7 +87422,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -88182,7 +88182,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -88238,7 +88238,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -88294,7 +88294,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -89054,7 +89054,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -89110,7 +89110,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -89166,7 +89166,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -89926,7 +89926,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -89982,7 +89982,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -90038,7 +90038,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -90798,7 +90798,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -90854,7 +90854,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -90910,7 +90910,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -91670,7 +91670,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -91726,7 +91726,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -91782,7 +91782,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -92542,7 +92542,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -92598,7 +92598,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -92654,7 +92654,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -93414,7 +93414,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -93470,7 +93470,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -93526,7 +93526,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -94286,7 +94286,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -94342,7 +94342,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -94398,7 +94398,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -95158,7 +95158,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -95214,7 +95214,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -95270,7 +95270,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -96030,7 +96030,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -96086,7 +96086,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -96142,7 +96142,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -96902,7 +96902,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -96958,7 +96958,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -97014,7 +97014,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -97774,7 +97774,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -97830,7 +97830,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -97886,7 +97886,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -98646,7 +98646,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -98702,7 +98702,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -98758,7 +98758,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -99518,7 +99518,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -99574,7 +99574,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -99630,7 +99630,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -100390,7 +100390,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -100446,7 +100446,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -100502,7 +100502,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -101262,7 +101262,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -101318,7 +101318,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -101374,7 +101374,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -102134,7 +102134,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -102190,7 +102190,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -102246,7 +102246,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -103006,7 +103006,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -103062,7 +103062,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -103118,7 +103118,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -103878,7 +103878,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -103934,7 +103934,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -103990,7 +103990,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -104750,7 +104750,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -104806,7 +104806,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -104862,7 +104862,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -105622,7 +105622,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -105678,7 +105678,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -105734,7 +105734,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -106494,7 +106494,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -106550,7 +106550,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -106606,7 +106606,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -107366,7 +107366,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -107422,7 +107422,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -107478,7 +107478,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -108238,7 +108238,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -108294,7 +108294,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -108350,7 +108350,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -109110,7 +109110,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -109166,7 +109166,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -109222,7 +109222,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -109982,7 +109982,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -110038,7 +110038,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -110094,7 +110094,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -110854,7 +110854,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -110910,7 +110910,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -110966,7 +110966,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -111726,7 +111726,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -111782,7 +111782,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -111838,7 +111838,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -112598,7 +112598,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -112654,7 +112654,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -112710,7 +112710,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -113470,7 +113470,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -113526,7 +113526,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -113582,7 +113582,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -114342,7 +114342,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -114398,7 +114398,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -114454,7 +114454,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -115214,7 +115214,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -115270,7 +115270,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -115326,7 +115326,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -116086,7 +116086,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -116142,7 +116142,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -116198,7 +116198,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -116958,7 +116958,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -117014,7 +117014,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -117070,7 +117070,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -117865,7 +117865,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -117921,7 +117921,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -117977,7 +117977,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -118737,7 +118737,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -118793,7 +118793,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -118849,7 +118849,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -119609,7 +119609,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -119665,7 +119665,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -119721,7 +119721,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -120481,7 +120481,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -120537,7 +120537,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -120593,7 +120593,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -121353,7 +121353,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -121409,7 +121409,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -121465,7 +121465,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -122225,7 +122225,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -122281,7 +122281,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -122337,7 +122337,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -123097,7 +123097,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -123153,7 +123153,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -123209,7 +123209,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -123969,7 +123969,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -124025,7 +124025,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -124081,7 +124081,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -124841,7 +124841,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -124897,7 +124897,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -124953,7 +124953,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -125713,7 +125713,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -125769,7 +125769,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -125825,7 +125825,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -126585,7 +126585,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -126641,7 +126641,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -126697,7 +126697,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -127457,7 +127457,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -127513,7 +127513,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -127569,7 +127569,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -128203,7 +128203,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 0,
@@ -128238,7 +128238,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 0,
@@ -128273,7 +128273,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 0,
@@ -128889,7 +128889,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -128945,7 +128945,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -129001,7 +129001,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -129761,7 +129761,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -129817,7 +129817,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -129873,7 +129873,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -130633,7 +130633,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -130689,7 +130689,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -130745,7 +130745,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -131505,7 +131505,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -131561,7 +131561,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -131617,7 +131617,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -132377,7 +132377,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -132433,7 +132433,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -132489,7 +132489,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -133249,7 +133249,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -133305,7 +133305,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -133361,7 +133361,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -134121,7 +134121,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -134177,7 +134177,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -134233,7 +134233,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -134993,7 +134993,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -135049,7 +135049,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -135105,7 +135105,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -135865,7 +135865,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -135921,7 +135921,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -135977,7 +135977,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -136737,7 +136737,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -136793,7 +136793,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -136849,7 +136849,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -137609,7 +137609,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -137665,7 +137665,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -137721,7 +137721,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -138481,7 +138481,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -138537,7 +138537,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -138593,7 +138593,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -139353,7 +139353,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -139409,7 +139409,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -139465,7 +139465,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -140225,7 +140225,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -140281,7 +140281,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -140337,7 +140337,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -141097,7 +141097,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -141153,7 +141153,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -141209,7 +141209,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -143180,7 +143180,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -143236,7 +143236,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -143292,7 +143292,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -144052,7 +144052,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -144108,7 +144108,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -144164,7 +144164,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -144924,7 +144924,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -144980,7 +144980,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -145036,7 +145036,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -145795,7 +145795,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -145851,7 +145851,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -145907,7 +145907,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -146667,7 +146667,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -146723,7 +146723,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -146779,7 +146779,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -147539,7 +147539,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -147595,7 +147595,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -147651,7 +147651,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -148411,7 +148411,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -148467,7 +148467,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -148523,7 +148523,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -149157,7 +149157,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -149192,7 +149192,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -149227,7 +149227,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -149843,7 +149843,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -149899,7 +149899,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -149955,7 +149955,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -150715,7 +150715,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -150771,7 +150771,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -150827,7 +150827,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -151587,7 +151587,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -151643,7 +151643,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -151699,7 +151699,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -152459,7 +152459,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -152515,7 +152515,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -152571,7 +152571,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -153331,7 +153331,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -153387,7 +153387,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -153443,7 +153443,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -154203,7 +154203,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -154259,7 +154259,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -154315,7 +154315,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -155075,7 +155075,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -155131,7 +155131,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -155187,7 +155187,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -155947,7 +155947,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -156003,7 +156003,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -156059,7 +156059,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -156819,7 +156819,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -156875,7 +156875,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -156931,7 +156931,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -157691,7 +157691,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -157747,7 +157747,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -157803,7 +157803,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -158563,7 +158563,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -158619,7 +158619,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -158675,7 +158675,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -159435,7 +159435,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -159491,7 +159491,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -159547,7 +159547,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -160181,7 +160181,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 0,
@@ -160216,7 +160216,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 0,
@@ -160251,7 +160251,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 0,
@@ -162435,7 +162435,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -162491,7 +162491,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -162547,7 +162547,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -163139,7 +163139,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -163195,7 +163195,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -163251,7 +163251,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -163843,7 +163843,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -163899,7 +163899,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -163955,7 +163955,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -164785,7 +164785,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -164841,7 +164841,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -164897,7 +164897,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -165489,7 +165489,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -165545,7 +165545,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -165601,7 +165601,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -166193,7 +166193,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -166249,7 +166249,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -166305,7 +166305,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -166897,7 +166897,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -166953,7 +166953,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -167009,7 +167009,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -167601,7 +167601,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -167657,7 +167657,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -167713,7 +167713,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -168305,7 +168305,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -168361,7 +168361,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -168417,7 +168417,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -169345,7 +169345,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -169401,7 +169401,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -169457,7 +169457,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -170049,7 +170049,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -170105,7 +170105,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -170161,7 +170161,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -170753,7 +170753,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -170809,7 +170809,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -170865,7 +170865,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -171793,7 +171793,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -171849,7 +171849,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -171905,7 +171905,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -172497,7 +172497,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -172553,7 +172553,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -172609,7 +172609,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -173201,7 +173201,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -173257,7 +173257,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -173313,7 +173313,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -174409,7 +174409,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -174465,7 +174465,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -174521,7 +174521,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -175113,7 +175113,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -175169,7 +175169,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -175225,7 +175225,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -175817,7 +175817,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -175873,7 +175873,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -175929,7 +175929,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -177060,7 +177060,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -177116,7 +177116,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -177172,7 +177172,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -177876,7 +177876,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -177932,7 +177932,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -177988,7 +177988,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -178748,7 +178748,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -178804,7 +178804,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -178860,7 +178860,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -179682,7 +179682,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -179738,7 +179738,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -179794,7 +179794,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -180834,7 +180834,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -180890,7 +180890,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -180946,7 +180946,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -181797,7 +181797,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -181853,7 +181853,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -181909,7 +181909,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -182501,7 +182501,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -182557,7 +182557,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -182613,7 +182613,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -183205,7 +183205,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -183261,7 +183261,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -183317,7 +183317,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -184581,7 +184581,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -184637,7 +184637,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -184693,7 +184693,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -185285,7 +185285,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -185341,7 +185341,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -185397,7 +185397,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -185989,7 +185989,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -186045,7 +186045,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -186101,7 +186101,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -187365,7 +187365,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -187421,7 +187421,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -187477,7 +187477,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -188069,7 +188069,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -188125,7 +188125,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -188181,7 +188181,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -188773,7 +188773,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -188829,7 +188829,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -188885,7 +188885,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -190485,7 +190485,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -190541,7 +190541,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -190597,7 +190597,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -191189,7 +191189,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -191245,7 +191245,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -191301,7 +191301,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -191893,7 +191893,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 3,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -191949,7 +191949,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 3,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -192005,7 +192005,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 3,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -192597,7 +192597,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 4,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -192653,7 +192653,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 4,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -192709,7 +192709,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 4,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -194568,7 +194568,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 1,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -194624,7 +194624,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 1,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -194680,7 +194680,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 1,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -195312,7 +195312,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -195368,7 +195368,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -195424,7 +195424,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -195886,7 +195886,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -195921,7 +195921,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -195956,7 +195956,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -196432,7 +196432,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 1,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -196488,7 +196488,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 1,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -196544,7 +196544,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 1,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -197176,7 +197176,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -197232,7 +197232,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -197288,7 +197288,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -197750,7 +197750,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -197785,7 +197785,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -197820,7 +197820,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -198296,7 +198296,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 1,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -198352,7 +198352,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 1,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -198408,7 +198408,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 1,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -198996,7 +198996,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -199052,7 +199052,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -199108,7 +199108,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -200473,7 +200473,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -200529,7 +200529,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -200585,7 +200585,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -201047,7 +201047,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -201082,7 +201082,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -201117,7 +201117,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -201637,7 +201637,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -201693,7 +201693,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -201749,7 +201749,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -202211,7 +202211,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -202246,7 +202246,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -202281,7 +202281,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -202801,7 +202801,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -202857,7 +202857,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -202913,7 +202913,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -204684,7 +204684,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 1,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -204740,7 +204740,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 1,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -204796,7 +204796,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 1,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -205428,7 +205428,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -205484,7 +205484,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -205540,7 +205540,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -206002,7 +206002,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -206037,7 +206037,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -206072,7 +206072,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -206548,7 +206548,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 1,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -206604,7 +206604,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 1,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -206660,7 +206660,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 1,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -207292,7 +207292,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -207348,7 +207348,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -207404,7 +207404,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -207866,7 +207866,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -207901,7 +207901,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -207936,7 +207936,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -208412,7 +208412,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 1,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -208468,7 +208468,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 1,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -208524,7 +208524,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 1,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -209112,7 +209112,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -209168,7 +209168,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -209224,7 +209224,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -211107,7 +211107,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -211163,7 +211163,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -211219,7 +211219,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -211681,7 +211681,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -211716,7 +211716,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -211751,7 +211751,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -212271,7 +212271,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -212327,7 +212327,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -212383,7 +212383,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -212845,7 +212845,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -212880,7 +212880,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -212915,7 +212915,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 2,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -213435,7 +213435,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 3,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -213491,7 +213491,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 3,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -213547,7 +213547,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 3,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -214135,7 +214135,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 1,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 4,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -214191,7 +214191,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 1,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 4,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -214247,7 +214247,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 1,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 4,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -216725,7 +216725,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 0,
@@ -216760,7 +216760,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 0,
@@ -216795,7 +216795,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 0,
@@ -217320,7 +217320,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 0,
@@ -217355,7 +217355,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 0,
@@ -217390,7 +217390,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 0,
@@ -218020,7 +218020,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 0,
@@ -218055,7 +218055,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 0,
@@ -218090,7 +218090,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 0,
@@ -218220,6 +218220,14982 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
+		},
+		bufficon = {}
+	},
+	[1250001] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250001,
+		exp = 155,
+		icon = "qz1",
+		difficulty = 2,
+		level = 31,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250001,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57676
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250002] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250002,
+		exp = 176,
+		icon = "qz1",
+		difficulty = 2,
+		level = 32,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250002,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57676
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250003] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250003,
+		exp = 198,
+		icon = "qz1",
+		difficulty = 2,
+		level = 33,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250003,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57676
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250004] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250004,
+		exp = 155,
+		icon = "zl1",
+		difficulty = 2,
+		level = 31,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250004,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57676
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250005] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250005,
+		exp = 176,
+		icon = "zl1",
+		difficulty = 2,
+		level = 32,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250005,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57676
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250006] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250006,
+		exp = 198,
+		icon = "zl1",
+		difficulty = 2,
+		level = 33,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250006,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57676
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250007] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250007,
+		exp = 155,
+		icon = "hm1",
+		difficulty = 2,
+		level = 31,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250007,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57676
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250008] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250008,
+		exp = 176,
+		icon = "hm1",
+		difficulty = 2,
+		level = 32,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250008,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57676
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250009] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250009,
+		exp = 198,
+		icon = "hm1",
+		difficulty = 2,
+		level = 33,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250009,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57676
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250010] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Cargo Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250010,
+		exp = 155,
+		icon = "ys1",
+		difficulty = 2,
+		level = 31,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250010,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250011] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Cargo Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250011,
+		exp = 176,
+		icon = "ys1",
+		difficulty = 2,
+		level = 32,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250011,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250012] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Cargo Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250012,
+		exp = 198,
+		icon = "ys1",
+		difficulty = 2,
+		level = 33,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250012,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250013] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1250013,
+		exp = 254,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 35,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250013,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57670
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250021] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250001,
+		exp = 155,
+		icon = "qz1",
+		difficulty = 2,
+		level = 31,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250021,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250022] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250002,
+		exp = 176,
+		icon = "qz1",
+		difficulty = 2,
+		level = 32,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250022,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250023] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250003,
+		exp = 198,
+		icon = "qz1",
+		difficulty = 2,
+		level = 33,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250023,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250024] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250004,
+		exp = 155,
+		icon = "zl1",
+		difficulty = 2,
+		level = 31,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250024,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250025] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250005,
+		exp = 176,
+		icon = "zl1",
+		difficulty = 2,
+		level = 32,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250025,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250026] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250006,
+		exp = 198,
+		icon = "zl1",
+		difficulty = 2,
+		level = 33,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250026,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250027] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小型航空舰队",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250007,
+		exp = 155,
+		icon = "hm1",
+		difficulty = 2,
+		level = 31,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250027,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250028] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "中型航空舰队",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250008,
+		exp = 176,
+		icon = "hm1",
+		difficulty = 2,
+		level = 32,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250028,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250029] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "大型航空舰队",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250009,
+		exp = 198,
+		icon = "hm1",
+		difficulty = 2,
+		level = 33,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250029,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250030] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250010,
+		exp = 155,
+		icon = "ys1",
+		difficulty = 2,
+		level = 31,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250030,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250031] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250011,
+		exp = 176,
+		icon = "ys1",
+		difficulty = 2,
+		level = 32,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250031,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250032] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250012,
+		exp = 198,
+		icon = "ys1",
+		difficulty = 2,
+		level = 33,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250032,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250033] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1250033,
+		exp = 254,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 35,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250033,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				20001
+			},
+			{
+				2,
+				59001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250101] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250101,
+		exp = 180,
+		icon = "qz1",
+		difficulty = 2,
+		level = 36,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250101,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57677
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250102] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250102,
+		exp = 203,
+		icon = "qz1",
+		difficulty = 2,
+		level = 37,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250102,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57677
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250103] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250103,
+		exp = 228,
+		icon = "qz1",
+		difficulty = 2,
+		level = 38,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250103,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57677
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250104] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250104,
+		exp = 180,
+		icon = "zl1",
+		difficulty = 2,
+		level = 36,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250104,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57677
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250105] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250105,
+		exp = 203,
+		icon = "zl1",
+		difficulty = 2,
+		level = 37,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250105,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57677
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250106] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250106,
+		exp = 228,
+		icon = "zl1",
+		difficulty = 2,
+		level = 38,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250106,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57677
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250107] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250107,
+		exp = 180,
+		icon = "hm1",
+		difficulty = 2,
+		level = 36,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250107,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57677
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250108] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250108,
+		exp = 203,
+		icon = "hm1",
+		difficulty = 2,
+		level = 37,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250108,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57677
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250109] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250109,
+		exp = 228,
+		icon = "hm1",
+		difficulty = 2,
+		level = 38,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250109,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57677
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250110] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250110,
+		exp = 180,
+		icon = "ys1",
+		difficulty = 2,
+		level = 36,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250110,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250111] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250111,
+		exp = 203,
+		icon = "ys1",
+		difficulty = 2,
+		level = 37,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250111,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250112] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250112,
+		exp = 228,
+		icon = "ys1",
+		difficulty = 2,
+		level = 38,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250112,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250113] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1250113,
+		exp = 290,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 40,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250113,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57671
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250121] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250001,
+		exp = 180,
+		icon = "qz1",
+		difficulty = 2,
+		level = 36,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250121,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250122] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250002,
+		exp = 203,
+		icon = "qz1",
+		difficulty = 2,
+		level = 37,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250122,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250123] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250003,
+		exp = 228,
+		icon = "qz1",
+		difficulty = 2,
+		level = 38,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250123,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250124] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250004,
+		exp = 180,
+		icon = "zl1",
+		difficulty = 2,
+		level = 36,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250124,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250125] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250005,
+		exp = 203,
+		icon = "zl1",
+		difficulty = 2,
+		level = 37,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250125,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250126] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250006,
+		exp = 228,
+		icon = "zl1",
+		difficulty = 2,
+		level = 38,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250126,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250127] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250007,
+		exp = 180,
+		icon = "hm1",
+		difficulty = 2,
+		level = 36,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250127,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250128] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250008,
+		exp = 203,
+		icon = "hm1",
+		difficulty = 2,
+		level = 37,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250128,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250129] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250009,
+		exp = 228,
+		icon = "hm1",
+		difficulty = 2,
+		level = 38,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250129,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250130] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250010,
+		exp = 180,
+		icon = "ys1",
+		difficulty = 2,
+		level = 36,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250130,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250131] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250011,
+		exp = 203,
+		icon = "ys1",
+		difficulty = 2,
+		level = 37,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250131,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250132] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250012,
+		exp = 228,
+		icon = "ys1",
+		difficulty = 2,
+		level = 38,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250132,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250133] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1250133,
+		exp = 290,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 40,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250133,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				20001
+			},
+			{
+				2,
+				59001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250201] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250101,
+		exp = 205,
+		icon = "qz1",
+		difficulty = 2,
+		level = 41,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250201,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57678
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250202] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250102,
+		exp = 231,
+		icon = "qz1",
+		difficulty = 2,
+		level = 42,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250202,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57678
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250203] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250103,
+		exp = 258,
+		icon = "qz1",
+		difficulty = 2,
+		level = 43,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250203,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57678
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250204] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250104,
+		exp = 205,
+		icon = "zl1",
+		difficulty = 2,
+		level = 41,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250204,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57678
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250205] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250105,
+		exp = 231,
+		icon = "zl1",
+		difficulty = 2,
+		level = 42,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250205,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57678
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250206] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250106,
+		exp = 258,
+		icon = "zl1",
+		difficulty = 2,
+		level = 43,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250206,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57678
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250207] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250107,
+		exp = 205,
+		icon = "hm1",
+		difficulty = 2,
+		level = 41,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250207,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57678
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250208] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250108,
+		exp = 231,
+		icon = "hm1",
+		difficulty = 2,
+		level = 42,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250208,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57678
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250209] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250109,
+		exp = 258,
+		icon = "hm1",
+		difficulty = 2,
+		level = 43,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250209,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57678
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250210] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250110,
+		exp = 205,
+		icon = "ys1",
+		difficulty = 2,
+		level = 41,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250210,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250211] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250111,
+		exp = 231,
+		icon = "ys1",
+		difficulty = 2,
+		level = 42,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250211,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250212] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250112,
+		exp = 258,
+		icon = "ys1",
+		difficulty = 2,
+		level = 43,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250212,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250213] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1250213,
+		exp = 326,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 45,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250213,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57672
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250221] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250221,
+		exp = 229,
+		icon = "sairenqingxun_i",
+		difficulty = 2,
+		level = 34,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250221,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57670
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250222] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250221,
+		exp = 229,
+		icon = "sairenqingxun_i",
+		difficulty = 2,
+		level = 34,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250222,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57670
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250223] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250221,
+		exp = 229,
+		icon = "sairenqingxun_i",
+		difficulty = 2,
+		level = 34,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250223,
+		scale = 80,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250229] = {
+		sink_limit = 1,
+		ai = 6,
+		guide_desc = "",
+		type = 97,
+		ai_mov = 2,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250231,
+		exp = 263,
+		icon = "guanghui",
+		difficulty = 2,
+		level = 39,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250229,
+		scale = 80,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {
+			"feiji"
+		}
+	},
+	[1250230] = {
+		sink_limit = 1,
+		ai = 6,
+		guide_desc = "",
+		type = 97,
+		ai_mov = 2,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250231,
+		exp = 263,
+		icon = "guanghui",
+		difficulty = 2,
+		level = 39,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250230,
+		scale = 80,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {
+			"feiji"
+		}
+	},
+	[1250231] = {
+		sink_limit = 1,
+		ai = 8,
+		guide_desc = "",
+		type = 13,
+		ai_mov = 1,
+		add_icon = "",
+		name = "Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250231,
+		exp = 263,
+		icon = "jianyu",
+		difficulty = 2,
+		level = 39,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250231,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57677
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				59001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250232] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 13,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250231,
+		exp = 263,
+		icon = "jianyu",
+		difficulty = 2,
+		level = 39,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250232,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57677
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				59001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250233] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250233,
+		exp = 263,
+		icon = "sairenqingxun_i",
+		difficulty = 2,
+		level = 39,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250233,
+		scale = 80,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250241] = {
+		sink_limit = 1,
+		ai = 8,
+		guide_desc = "",
+		type = 13,
+		ai_mov = 1,
+		add_icon = "",
+		name = "Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250241,
+		exp = 297,
+		icon = "jianyu",
+		difficulty = 2,
+		level = 44,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250241,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57678
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				59001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250242] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 13,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250241,
+		exp = 297,
+		icon = "jianyu",
+		difficulty = 2,
+		level = 44,
+		map_id = 50029,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250242,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57678
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				59001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250301] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250301,
+		exp = 255,
+		icon = "qz1",
+		difficulty = 2,
+		level = 51,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250301,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57679
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250302] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250302,
+		exp = 286,
+		icon = "qz1",
+		difficulty = 2,
+		level = 52,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250302,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57679
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250303] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250303,
+		exp = 318,
+		icon = "qz1",
+		difficulty = 2,
+		level = 53,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250303,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57679
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250304] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250304,
+		exp = 255,
+		icon = "zl1",
+		difficulty = 2,
+		level = 51,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250304,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57679
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250305] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250305,
+		exp = 286,
+		icon = "zl1",
+		difficulty = 2,
+		level = 52,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250305,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57679
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250306] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250306,
+		exp = 318,
+		icon = "zl1",
+		difficulty = 2,
+		level = 53,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250306,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57679
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250310] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250310,
+		exp = 255,
+		icon = "ys1",
+		difficulty = 2,
+		level = 51,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250310,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250311] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250311,
+		exp = 286,
+		icon = "ys1",
+		difficulty = 2,
+		level = 52,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250311,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250312] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250312,
+		exp = 318,
+		icon = "ys1",
+		difficulty = 2,
+		level = 53,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250312,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250313] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1250313,
+		exp = 399,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 55,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250313,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57673
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250321] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250321,
+		exp = 255,
+		icon = "qz1",
+		difficulty = 2,
+		level = 51,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250321,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250322] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250322,
+		exp = 286,
+		icon = "qz1",
+		difficulty = 2,
+		level = 52,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250322,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250323] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250323,
+		exp = 318,
+		icon = "qz1",
+		difficulty = 2,
+		level = 53,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250323,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250324] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250324,
+		exp = 255,
+		icon = "zl1",
+		difficulty = 2,
+		level = 51,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250324,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250325] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250325,
+		exp = 286,
+		icon = "zl1",
+		difficulty = 2,
+		level = 52,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250325,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250326] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250326,
+		exp = 318,
+		icon = "zl1",
+		difficulty = 2,
+		level = 53,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250326,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250327] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250327,
+		exp = 255,
+		icon = "hm1",
+		difficulty = 2,
+		level = 51,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250327,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250328] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250328,
+		exp = 286,
+		icon = "hm1",
+		difficulty = 2,
+		level = 52,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250328,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250329] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250329,
+		exp = 318,
+		icon = "hm1",
+		difficulty = 2,
+		level = 53,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250329,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250330] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250330,
+		exp = 255,
+		icon = "ys1",
+		difficulty = 2,
+		level = 51,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250330,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250331] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250331,
+		exp = 286,
+		icon = "ys1",
+		difficulty = 2,
+		level = 52,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250331,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250332] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250332,
+		exp = 318,
+		icon = "ys1",
+		difficulty = 2,
+		level = 53,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250332,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250333] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1250333,
+		exp = 399,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 55,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250333,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				20001
+			},
+			{
+				2,
+				59001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250401] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250301,
+		exp = 280,
+		icon = "qz1",
+		difficulty = 2,
+		level = 56,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250401,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57680
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250402] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250302,
+		exp = 313,
+		icon = "qz1",
+		difficulty = 2,
+		level = 57,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250402,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57680
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250403] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250303,
+		exp = 348,
+		icon = "qz1",
+		difficulty = 2,
+		level = 58,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250403,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57680
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250404] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250304,
+		exp = 280,
+		icon = "zl1",
+		difficulty = 2,
+		level = 56,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250404,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57680
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250405] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250305,
+		exp = 313,
+		icon = "zl1",
+		difficulty = 2,
+		level = 57,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250405,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57680
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250406] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250306,
+		exp = 348,
+		icon = "zl1",
+		difficulty = 2,
+		level = 58,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250406,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57680
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250410] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250310,
+		exp = 280,
+		icon = "ys1",
+		difficulty = 2,
+		level = 56,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250410,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250411] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250311,
+		exp = 313,
+		icon = "ys1",
+		difficulty = 2,
+		level = 57,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250411,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250412] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250312,
+		exp = 348,
+		icon = "ys1",
+		difficulty = 2,
+		level = 58,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250412,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250413] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1250413,
+		exp = 435,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 60,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250413,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57674
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250421] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250321,
+		exp = 280,
+		icon = "qz1",
+		difficulty = 2,
+		level = 56,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250421,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250422] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250322,
+		exp = 313,
+		icon = "qz1",
+		difficulty = 2,
+		level = 57,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250422,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250423] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250323,
+		exp = 348,
+		icon = "qz1",
+		difficulty = 2,
+		level = 58,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250423,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250424] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250324,
+		exp = 280,
+		icon = "zl1",
+		difficulty = 2,
+		level = 56,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250424,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250425] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250325,
+		exp = 313,
+		icon = "zl1",
+		difficulty = 2,
+		level = 57,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250425,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250426] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250326,
+		exp = 348,
+		icon = "zl1",
+		difficulty = 2,
+		level = 58,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250426,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250427] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250327,
+		exp = 280,
+		icon = "hm1",
+		difficulty = 2,
+		level = 56,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250427,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250428] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250328,
+		exp = 313,
+		icon = "hm1",
+		difficulty = 2,
+		level = 57,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250428,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250429] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250329,
+		exp = 348,
+		icon = "hm1",
+		difficulty = 2,
+		level = 58,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250429,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250430] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250330,
+		exp = 280,
+		icon = "ys1",
+		difficulty = 2,
+		level = 56,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250430,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250431] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250331,
+		exp = 313,
+		icon = "ys1",
+		difficulty = 2,
+		level = 57,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250431,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250432] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250332,
+		exp = 348,
+		icon = "ys1",
+		difficulty = 2,
+		level = 58,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250432,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250433] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1250433,
+		exp = 435,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 60,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250433,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				20001
+			},
+			{
+				2,
+				59001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250501] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250301,
+		exp = 305,
+		icon = "qz1",
+		difficulty = 2,
+		level = 61,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250501,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57681
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250502] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250302,
+		exp = 341,
+		icon = "qz1",
+		difficulty = 2,
+		level = 62,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250502,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57681
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250503] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250303,
+		exp = 378,
+		icon = "qz1",
+		difficulty = 2,
+		level = 63,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250503,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57681
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250504] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250304,
+		exp = 305,
+		icon = "zl1",
+		difficulty = 2,
+		level = 61,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250504,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57681
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250505] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250305,
+		exp = 341,
+		icon = "zl1",
+		difficulty = 2,
+		level = 62,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250505,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57681
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250506] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250306,
+		exp = 378,
+		icon = "zl1",
+		difficulty = 2,
+		level = 63,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250506,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57681
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250510] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250310,
+		exp = 305,
+		icon = "ys1",
+		difficulty = 2,
+		level = 61,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250510,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250511] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250311,
+		exp = 341,
+		icon = "ys1",
+		difficulty = 2,
+		level = 62,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250511,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250512] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250312,
+		exp = 378,
+		icon = "ys1",
+		difficulty = 2,
+		level = 63,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250512,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250513] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1250513,
+		exp = 471,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 65,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250513,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57675
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250521] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250521,
+		exp = 364,
+		icon = "longqibing",
+		difficulty = 2,
+		level = 54,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250521,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57673
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250522] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250521,
+		exp = 364,
+		icon = "longqibing",
+		difficulty = 2,
+		level = 54,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250522,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57673
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250523] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250523,
+		exp = 364,
+		icon = "teluntuo",
+		difficulty = 2,
+		level = 54,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250523,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57673
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250524] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250523,
+		exp = 364,
+		icon = "teluntuo",
+		difficulty = 2,
+		level = 54,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250524,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57673
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250525] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250525,
+		exp = 364,
+		icon = "sairenqingxun_i",
+		difficulty = 2,
+		level = 54,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250525,
+		scale = 80,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250531] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250531,
+		exp = 398,
+		icon = "longqibing",
+		difficulty = 2,
+		level = 59,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250531,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57674
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250532] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250531,
+		exp = 398,
+		icon = "longqibing",
+		difficulty = 2,
+		level = 59,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250532,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57674
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250533] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250533,
+		exp = 398,
+		icon = "teluntuo",
+		difficulty = 2,
+		level = 59,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250533,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57674
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250534] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250533,
+		exp = 398,
+		icon = "teluntuo",
+		difficulty = 2,
+		level = 59,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250534,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57674
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250535] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250535,
+		exp = 398,
+		icon = "sairenqingxun_i",
+		difficulty = 2,
+		level = 59,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250535,
+		scale = 80,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250536] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250536,
+		exp = 398,
+		icon = "sairenzhongxun_i",
+		difficulty = 2,
+		level = 59,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250536,
+		scale = 80,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250541] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250541,
+		exp = 432,
+		icon = "longqibing",
+		difficulty = 2,
+		level = 64,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250541,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57675
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250542] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250542,
+		exp = 432,
+		icon = "teluntuo",
+		difficulty = 2,
+		level = 64,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250542,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57675
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250543] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250543,
+		exp = 432,
+		icon = "lituoliao",
+		difficulty = 2,
+		level = 64,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250543,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57675
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250544] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250541,
+		exp = 432,
+		icon = "longqibing",
+		difficulty = 2,
+		level = 64,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250544,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57675
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250545] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250542,
+		exp = 432,
+		icon = "teluntuo",
+		difficulty = 2,
+		level = 64,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250545,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57675
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250546] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250543,
+		exp = 432,
+		icon = "lituoliao",
+		difficulty = 2,
+		level = 64,
+		map_id = 50033,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250546,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57675
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250601] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250601,
+		exp = 380,
+		icon = "qz1",
+		difficulty = 2,
+		level = 76,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250601,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57694
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250602] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250602,
+		exp = 423,
+		icon = "qz1",
+		difficulty = 2,
+		level = 77,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250602,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57694
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250603] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250603,
+		exp = 468,
+		icon = "qz1",
+		difficulty = 2,
+		level = 78,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250603,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57694
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250604] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250604,
+		exp = 380,
+		icon = "zl1",
+		difficulty = 2,
+		level = 76,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250604,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57694
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250605] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250605,
+		exp = 423,
+		icon = "zl1",
+		difficulty = 2,
+		level = 77,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250605,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57694
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250606] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250606,
+		exp = 468,
+		icon = "zl1",
+		difficulty = 2,
+		level = 78,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250606,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57694
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250607] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250607,
+		exp = 380,
+		icon = "hm1",
+		difficulty = 2,
+		level = 76,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250607,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57694
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250608] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250608,
+		exp = 423,
+		icon = "hm1",
+		difficulty = 2,
+		level = 77,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250608,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57694
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250609] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250609,
+		exp = 468,
+		icon = "hm1",
+		difficulty = 2,
+		level = 78,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250609,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57694
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250610] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250610,
+		exp = 380,
+		icon = "ys1",
+		difficulty = 2,
+		level = 76,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250610,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250611] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250611,
+		exp = 423,
+		icon = "ys1",
+		difficulty = 2,
+		level = 77,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250611,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250612] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250612,
+		exp = 468,
+		icon = "ys1",
+		difficulty = 2,
+		level = 78,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250612,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250613] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1250613,
+		exp = 580,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 80,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250613,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57688
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250621] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250601,
+		exp = 380,
+		icon = "qz1",
+		difficulty = 2,
+		level = 76,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250621,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250622] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250602,
+		exp = 423,
+		icon = "qz1",
+		difficulty = 2,
+		level = 77,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250622,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250623] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250603,
+		exp = 468,
+		icon = "qz1",
+		difficulty = 2,
+		level = 78,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250623,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250624] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250604,
+		exp = 380,
+		icon = "zl1",
+		difficulty = 2,
+		level = 76,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250624,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250625] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250605,
+		exp = 423,
+		icon = "zl1",
+		difficulty = 2,
+		level = 77,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250625,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250626] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250606,
+		exp = 468,
+		icon = "zl1",
+		difficulty = 2,
+		level = 78,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250626,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250627] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小型航空舰队",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250607,
+		exp = 380,
+		icon = "hm1",
+		difficulty = 2,
+		level = 76,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250627,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250628] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "中型航空舰队",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250608,
+		exp = 423,
+		icon = "hm1",
+		difficulty = 2,
+		level = 77,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250628,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250629] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "大型航空舰队",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250609,
+		exp = 468,
+		icon = "hm1",
+		difficulty = 2,
+		level = 78,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250629,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250630] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250610,
+		exp = 380,
+		icon = "ys1",
+		difficulty = 2,
+		level = 76,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250630,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250631] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250611,
+		exp = 423,
+		icon = "ys1",
+		difficulty = 2,
+		level = 77,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250631,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250632] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250612,
+		exp = 468,
+		icon = "ys1",
+		difficulty = 2,
+		level = 78,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250632,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250633] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1250633,
+		exp = 580,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 80,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250633,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				20001
+			},
+			{
+				2,
+				59001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250701] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250701,
+		exp = 405,
+		icon = "qz1",
+		difficulty = 2,
+		level = 81,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250701,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57695
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250702] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250702,
+		exp = 451,
+		icon = "qz1",
+		difficulty = 2,
+		level = 82,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250702,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57695
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250703] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250703,
+		exp = 498,
+		icon = "qz1",
+		difficulty = 2,
+		level = 83,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250703,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57695
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250704] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250704,
+		exp = 405,
+		icon = "zl1",
+		difficulty = 2,
+		level = 81,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250704,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57695
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250705] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250705,
+		exp = 451,
+		icon = "zl1",
+		difficulty = 2,
+		level = 82,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250705,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57695
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250706] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250706,
+		exp = 498,
+		icon = "zl1",
+		difficulty = 2,
+		level = 83,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250706,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57695
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250707] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250707,
+		exp = 405,
+		icon = "hm1",
+		difficulty = 2,
+		level = 81,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250707,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57695
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250708] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250708,
+		exp = 451,
+		icon = "hm1",
+		difficulty = 2,
+		level = 82,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250708,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57695
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250709] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250709,
+		exp = 498,
+		icon = "hm1",
+		difficulty = 2,
+		level = 83,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250709,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57695
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250710] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250710,
+		exp = 405,
+		icon = "ys1",
+		difficulty = 2,
+		level = 81,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250710,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250711] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250711,
+		exp = 451,
+		icon = "ys1",
+		difficulty = 2,
+		level = 82,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250711,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250712] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250712,
+		exp = 498,
+		icon = "ys1",
+		difficulty = 2,
+		level = 83,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250712,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250713] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1250713,
+		exp = 616,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 85,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250713,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57689
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250721] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250601,
+		exp = 405,
+		icon = "qz1",
+		difficulty = 2,
+		level = 81,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250721,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250722] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250602,
+		exp = 451,
+		icon = "qz1",
+		difficulty = 2,
+		level = 82,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250722,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250723] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250603,
+		exp = 498,
+		icon = "qz1",
+		difficulty = 2,
+		level = 83,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250723,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250724] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250604,
+		exp = 405,
+		icon = "zl1",
+		difficulty = 2,
+		level = 81,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250724,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250725] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250605,
+		exp = 451,
+		icon = "zl1",
+		difficulty = 2,
+		level = 82,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250725,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250726] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250606,
+		exp = 498,
+		icon = "zl1",
+		difficulty = 2,
+		level = 83,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250726,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250727] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250607,
+		exp = 405,
+		icon = "hm1",
+		difficulty = 2,
+		level = 81,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250727,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250728] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250608,
+		exp = 451,
+		icon = "hm1",
+		difficulty = 2,
+		level = 82,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250728,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250729] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250609,
+		exp = 498,
+		icon = "hm1",
+		difficulty = 2,
+		level = 83,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250729,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250730] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250610,
+		exp = 405,
+		icon = "ys1",
+		difficulty = 2,
+		level = 81,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250730,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250731] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250611,
+		exp = 451,
+		icon = "ys1",
+		difficulty = 2,
+		level = 82,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250731,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250732] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250612,
+		exp = 498,
+		icon = "ys1",
+		difficulty = 2,
+		level = 83,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250732,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250733] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1250733,
+		exp = 616,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 85,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250733,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				20001
+			},
+			{
+				2,
+				59001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250801] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250701,
+		exp = 430,
+		icon = "qz1",
+		difficulty = 2,
+		level = 86,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250801,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57696
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250802] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250702,
+		exp = 478,
+		icon = "qz1",
+		difficulty = 2,
+		level = 87,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250802,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57696
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250803] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250703,
+		exp = 528,
+		icon = "qz1",
+		difficulty = 2,
+		level = 88,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250803,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57696
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250804] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250704,
+		exp = 430,
+		icon = "zl1",
+		difficulty = 2,
+		level = 86,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250804,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57696
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250805] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250705,
+		exp = 478,
+		icon = "zl1",
+		difficulty = 2,
+		level = 87,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250805,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57696
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250806] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250706,
+		exp = 528,
+		icon = "zl1",
+		difficulty = 2,
+		level = 88,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250806,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57696
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250807] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250707,
+		exp = 430,
+		icon = "hm1",
+		difficulty = 2,
+		level = 86,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250807,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57696
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250808] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250708,
+		exp = 478,
+		icon = "hm1",
+		difficulty = 2,
+		level = 87,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250808,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57696
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250809] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250709,
+		exp = 528,
+		icon = "hm1",
+		difficulty = 2,
+		level = 88,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250809,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57696
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250810] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250710,
+		exp = 430,
+		icon = "ys1",
+		difficulty = 2,
+		level = 86,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250810,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250811] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250711,
+		exp = 478,
+		icon = "ys1",
+		difficulty = 2,
+		level = 87,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250811,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250812] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250712,
+		exp = 528,
+		icon = "ys1",
+		difficulty = 2,
+		level = 88,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250812,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250813] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1250813,
+		exp = 652,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 90,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250813,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57690
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250821] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250821,
+		exp = 533,
+		icon = "sairenqingxun_i",
+		difficulty = 2,
+		level = 79,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250821,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57688
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250822] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250822,
+		exp = 533,
+		icon = "sairenzhongxun_i",
+		difficulty = 2,
+		level = 79,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250822,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57688
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250823] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250821,
+		exp = 533,
+		icon = "sairenqingxun_i",
+		difficulty = 2,
+		level = 79,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250823,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57688
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250824] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250822,
+		exp = 533,
+		icon = "sairenzhongxun_i",
+		difficulty = 2,
+		level = 79,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250824,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57688
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250825] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250821,
+		exp = 533,
+		icon = "sairenqingxun_i",
+		difficulty = 2,
+		level = 79,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250825,
+		scale = 80,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250826] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250822,
+		exp = 533,
+		icon = "sairenzhongxun_i",
+		difficulty = 2,
+		level = 79,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250826,
+		scale = 80,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250829] = {
+		sink_limit = 1,
+		ai = 6,
+		guide_desc = "",
+		type = 97,
+		ai_mov = 2,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250831,
+		exp = 567,
+		icon = "guanghui",
+		difficulty = 2,
+		level = 84,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250829,
+		scale = 80,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {
+			"feiji"
+		}
+	},
+	[1250830] = {
+		sink_limit = 1,
+		ai = 6,
+		guide_desc = "",
+		type = 97,
+		ai_mov = 2,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250831,
+		exp = 567,
+		icon = "guanghui",
+		difficulty = 2,
+		level = 84,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250830,
+		scale = 80,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {
+			"feiji"
+		}
+	},
+	[1250831] = {
+		sink_limit = 1,
+		ai = 8,
+		guide_desc = "",
+		type = 13,
+		ai_mov = 1,
+		add_icon = "",
+		name = "Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250831,
+		exp = 567,
+		icon = "jianyu",
+		difficulty = 2,
+		level = 84,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250831,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57695
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				59001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250832] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 13,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250831,
+		exp = 567,
+		icon = "jianyu",
+		difficulty = 2,
+		level = 84,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250832,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57695
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				59001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250833] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250833,
+		exp = 567,
+		icon = "sairenqingxun_i",
+		difficulty = 2,
+		level = 84,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250833,
+		scale = 80,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250834] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250834,
+		exp = 567,
+		icon = "sairenzhongxun_i",
+		difficulty = 2,
+		level = 84,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250834,
+		scale = 80,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250835] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250835,
+		exp = 567,
+		icon = "sairenzhanlie_i",
+		difficulty = 2,
+		level = 84,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1250835,
+		scale = 80,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250841] = {
+		sink_limit = 1,
+		ai = 8,
+		guide_desc = "",
+		type = 13,
+		ai_mov = 1,
+		add_icon = "",
+		name = "Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250841,
+		exp = 601,
+		icon = "jianyu",
+		difficulty = 2,
+		level = 89,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250841,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57696
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				59001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250842] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 13,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Air formation",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250841,
+		exp = 601,
+		icon = "jianyu",
+		difficulty = 2,
+		level = 89,
+		map_id = 50030,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250842,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57696
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				59001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250901] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250901,
+		exp = 455,
+		icon = "qz1",
+		difficulty = 2,
+		level = 91,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250901,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57697
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250902] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250902,
+		exp = 506,
+		icon = "qz1",
+		difficulty = 2,
+		level = 92,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250902,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57697
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250903] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250903,
+		exp = 558,
+		icon = "qz1",
+		difficulty = 2,
+		level = 93,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250903,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57697
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250904] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250904,
+		exp = 455,
+		icon = "zl1",
+		difficulty = 2,
+		level = 91,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250904,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57697
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250905] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250905,
+		exp = 506,
+		icon = "zl1",
+		difficulty = 2,
+		level = 92,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250905,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57697
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250906] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250906,
+		exp = 558,
+		icon = "zl1",
+		difficulty = 2,
+		level = 93,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250906,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57697
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250910] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250910,
+		exp = 455,
+		icon = "ys1",
+		difficulty = 2,
+		level = 91,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250910,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250911] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250911,
+		exp = 506,
+		icon = "ys1",
+		difficulty = 2,
+		level = 92,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250911,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250912] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250912,
+		exp = 558,
+		icon = "ys1",
+		difficulty = 2,
+		level = 93,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250912,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250913] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1250913,
+		exp = 689,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 95,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250913,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57691
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250921] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250921,
+		exp = 455,
+		icon = "qz1",
+		difficulty = 2,
+		level = 91,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250921,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250922] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250922,
+		exp = 506,
+		icon = "qz1",
+		difficulty = 2,
+		level = 92,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250922,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250923] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250923,
+		exp = 558,
+		icon = "qz1",
+		difficulty = 2,
+		level = 93,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250923,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250924] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250924,
+		exp = 455,
+		icon = "zl1",
+		difficulty = 2,
+		level = 91,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250924,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250925] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250925,
+		exp = 506,
+		icon = "zl1",
+		difficulty = 2,
+		level = 92,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250925,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250926] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250926,
+		exp = 558,
+		icon = "zl1",
+		difficulty = 2,
+		level = 93,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250926,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250927] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250927,
+		exp = 455,
+		icon = "hm1",
+		difficulty = 2,
+		level = 91,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250927,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250928] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250928,
+		exp = 506,
+		icon = "hm1",
+		difficulty = 2,
+		level = 92,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250928,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250929] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250929,
+		exp = 558,
+		icon = "hm1",
+		difficulty = 2,
+		level = 93,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250929,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250930] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250930,
+		exp = 455,
+		icon = "ys1",
+		difficulty = 2,
+		level = 91,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250930,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250931] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250931,
+		exp = 506,
+		icon = "ys1",
+		difficulty = 2,
+		level = 92,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250931,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250932] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250932,
+		exp = 558,
+		icon = "ys1",
+		difficulty = 2,
+		level = 93,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250932,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1250933] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1250933,
+		exp = 689,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 95,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1250933,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				20001
+			},
+			{
+				2,
+				59001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251001] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250901,
+		exp = 480,
+		icon = "qz1",
+		difficulty = 2,
+		level = 96,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251001,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57698
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251002] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250902,
+		exp = 533,
+		icon = "qz1",
+		difficulty = 2,
+		level = 97,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251002,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57698
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251003] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250903,
+		exp = 588,
+		icon = "qz1",
+		difficulty = 2,
+		level = 98,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251003,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57698
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251004] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250904,
+		exp = 480,
+		icon = "zl1",
+		difficulty = 2,
+		level = 96,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251004,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57698
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251005] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250905,
+		exp = 533,
+		icon = "zl1",
+		difficulty = 2,
+		level = 97,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251005,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57698
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251006] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250906,
+		exp = 588,
+		icon = "zl1",
+		difficulty = 2,
+		level = 98,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251006,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57698
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251010] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250910,
+		exp = 480,
+		icon = "ys1",
+		difficulty = 2,
+		level = 96,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251010,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251011] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250911,
+		exp = 533,
+		icon = "ys1",
+		difficulty = 2,
+		level = 97,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251011,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251012] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250912,
+		exp = 588,
+		icon = "ys1",
+		difficulty = 2,
+		level = 98,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251012,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251013] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1251013,
+		exp = 725,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 100,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251013,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57692
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251021] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250921,
+		exp = 480,
+		icon = "qz1",
+		difficulty = 2,
+		level = 96,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251021,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251022] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250922,
+		exp = 533,
+		icon = "qz1",
+		difficulty = 2,
+		level = 97,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251022,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251023] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250923,
+		exp = 588,
+		icon = "qz1",
+		difficulty = 2,
+		level = 98,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251023,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251024] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250924,
+		exp = 480,
+		icon = "zl1",
+		difficulty = 2,
+		level = 96,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251024,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251025] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250925,
+		exp = 533,
+		icon = "zl1",
+		difficulty = 2,
+		level = 97,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251025,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251026] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250926,
+		exp = 588,
+		icon = "zl1",
+		difficulty = 2,
+		level = 98,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251026,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251027] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250927,
+		exp = 480,
+		icon = "hm1",
+		difficulty = 2,
+		level = 96,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251027,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251028] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250928,
+		exp = 533,
+		icon = "hm1",
+		difficulty = 2,
+		level = 97,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251028,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251029] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250929,
+		exp = 588,
+		icon = "hm1",
+		difficulty = 2,
+		level = 98,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251029,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251030] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250930,
+		exp = 480,
+		icon = "ys1",
+		difficulty = 2,
+		level = 96,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251030,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251031] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250931,
+		exp = 533,
+		icon = "ys1",
+		difficulty = 2,
+		level = 97,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251031,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251032] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250932,
+		exp = 588,
+		icon = "ys1",
+		difficulty = 2,
+		level = 98,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251032,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251033] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1251033,
+		exp = 725,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 100,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251033,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				20001
+			},
+			{
+				2,
+				59001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251101] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 3,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250901,
+		exp = 505,
+		icon = "qz1",
+		difficulty = 2,
+		level = 101,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251101,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57699
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251102] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 3,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250902,
+		exp = 561,
+		icon = "qz1",
+		difficulty = 2,
+		level = 102,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251102,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57699
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251103] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 3,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250903,
+		exp = 618,
+		icon = "qz1",
+		difficulty = 2,
+		level = 103,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251103,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57699
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251104] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 3,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250904,
+		exp = 505,
+		icon = "zl1",
+		difficulty = 2,
+		level = 101,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251104,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57699
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251105] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 3,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250905,
+		exp = 561,
+		icon = "zl1",
+		difficulty = 2,
+		level = 102,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251105,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57699
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251106] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 3,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250906,
+		exp = 618,
+		icon = "zl1",
+		difficulty = 2,
+		level = 103,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251106,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57699
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251110] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 3,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250910,
+		exp = 505,
+		icon = "ys1",
+		difficulty = 2,
+		level = 101,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251110,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251111] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 3,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250911,
+		exp = 561,
+		icon = "ys1",
+		difficulty = 2,
+		level = 102,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251111,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251112] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 3,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250912,
+		exp = 618,
+		icon = "ys1",
+		difficulty = 2,
+		level = 103,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251112,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251113] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 3,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1251113,
+		exp = 761,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 105,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251113,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57693
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251201] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 4,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250901,
+		exp = 550,
+		icon = "qz1",
+		difficulty = 2,
+		level = 110,
+		map_id = 50035,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251201,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57699
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251202] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 4,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250902,
+		exp = 605,
+		icon = "qz1",
+		difficulty = 2,
+		level = 110,
+		map_id = 50035,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251202,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57699
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251203] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 4,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250903,
+		exp = 660,
+		icon = "qz1",
+		difficulty = 2,
+		level = 110,
+		map_id = 50035,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251203,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57699
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251204] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 4,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250904,
+		exp = 550,
+		icon = "zl1",
+		difficulty = 2,
+		level = 110,
+		map_id = 50035,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251204,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57699
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251205] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 4,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250905,
+		exp = 605,
+		icon = "zl1",
+		difficulty = 2,
+		level = 110,
+		map_id = 50035,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251205,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57699
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251206] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 4,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250906,
+		exp = 660,
+		icon = "zl1",
+		difficulty = 2,
+		level = 110,
+		map_id = 50035,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251206,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57699
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251210] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Air formation",
+		exp_commander = 4,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250910,
+		exp = 550,
+		icon = "ys1",
+		difficulty = 2,
+		level = 110,
+		map_id = 50035,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251210,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251211] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Air formation",
+		exp_commander = 4,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250911,
+		exp = 605,
+		icon = "ys1",
+		difficulty = 2,
+		level = 110,
+		map_id = 50035,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251211,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251212] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Air formation",
+		exp_commander = 4,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1250912,
+		exp = 660,
+		icon = "ys1",
+		difficulty = 2,
+		level = 110,
+		map_id = 50035,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251212,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251213] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 3,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1251213,
+		exp = 797,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 110,
+		map_id = 50035,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251213,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57693
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251221] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1251221,
+		exp = 634,
+		icon = "longqibing",
+		difficulty = 2,
+		level = 94,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1251221,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57691
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251222] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1251222,
+		exp = 634,
+		icon = "teluntuo",
+		difficulty = 2,
+		level = 94,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1251222,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57691
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251223] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1251221,
+		exp = 634,
+		icon = "longqibing",
+		difficulty = 2,
+		level = 94,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1251223,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57691
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251224] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1251222,
+		exp = 634,
+		icon = "teluntuo",
+		difficulty = 2,
+		level = 94,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1251224,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57691
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251225] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1251225,
+		exp = 634,
+		icon = "sairenqingxun_i",
+		difficulty = 2,
+		level = 94,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1251225,
+		scale = 80,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251226] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1251226,
+		exp = 634,
+		icon = "sairenzhongxun_i",
+		difficulty = 2,
+		level = 94,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1251226,
+		scale = 80,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251231] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1251231,
+		exp = 668,
+		icon = "longqibing",
+		difficulty = 2,
+		level = 99,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1251231,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57692
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251232] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1251232,
+		exp = 668,
+		icon = "teluntuo",
+		difficulty = 2,
+		level = 99,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1251232,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57692
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251233] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1251233,
+		exp = 668,
+		icon = "lituoliao",
+		difficulty = 2,
+		level = 99,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1251233,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57692
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251234] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1251231,
+		exp = 668,
+		icon = "longqibing",
+		difficulty = 2,
+		level = 99,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1251234,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57692
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251235] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1251232,
+		exp = 668,
+		icon = "teluntuo",
+		difficulty = 2,
+		level = 99,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1251235,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57692
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251236] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1251233,
+		exp = 668,
+		icon = "lituoliao",
+		difficulty = 2,
+		level = 99,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1251236,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57692
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251237] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1251237,
+		exp = 668,
+		icon = "sairenqingxun_i",
+		difficulty = 2,
+		level = 99,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1251237,
+		scale = 80,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251238] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1251238,
+		exp = 668,
+		icon = "sairenzhongxun_i",
+		difficulty = 2,
+		level = 99,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1251238,
+		scale = 80,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251239] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1251239,
+		exp = 668,
+		icon = "sairenzhanlie_i",
+		difficulty = 2,
+		level = 99,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1251239,
+		scale = 80,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251241] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 3,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1251241,
+		exp = 702,
+		icon = "longqibing",
+		difficulty = 2,
+		level = 104,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1251241,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57693
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251242] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 3,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1251242,
+		exp = 702,
+		icon = "teluntuo",
+		difficulty = 2,
+		level = 104,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1251242,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57693
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251243] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 3,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1251243,
+		exp = 702,
+		icon = "lituoliao",
+		difficulty = 2,
+		level = 104,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1251243,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57693
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251244] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 3,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1251241,
+		exp = 702,
+		icon = "longqibing",
+		difficulty = 2,
+		level = 104,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1251244,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57693
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251245] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 3,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1251242,
+		exp = 702,
+		icon = "teluntuo",
+		difficulty = 2,
+		level = 104,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1251245,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57693
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251246] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 3,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1251243,
+		exp = 702,
+		icon = "lituoliao",
+		difficulty = 2,
+		level = 104,
+		map_id = 50034,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1251246,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57693
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251251] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 3,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1251251,
+		exp = 742,
+		icon = "longqibing",
+		difficulty = 2,
+		level = 110,
+		map_id = 50035,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1251251,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57693
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251252] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 3,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1251252,
+		exp = 742,
+		icon = "teluntuo",
+		difficulty = 2,
+		level = 110,
+		map_id = 50035,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1251252,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57693
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251253] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "Elite Fleet",
+		exp_commander = 3,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1251253,
+		exp = 742,
+		icon = "lituoliao",
+		difficulty = 2,
+		level = 110,
+		map_id = 50035,
+		limit_type = 1,
+		icon_type = 2,
+		plot_type = 0,
+		id = 1251253,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57693
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1251301] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 0,
+		time_limit = 150,
+		exp_commander_ratio = 0,
+		dungeon_id = 1251301,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 120,
+		map_id = 50036,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1251301,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			150
 		},
 		bufficon = {}
 	},
@@ -219278,7 +234254,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -219326,7 +234302,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -219374,7 +234350,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -219842,7 +234818,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -219890,7 +234866,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -219938,7 +234914,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -220406,7 +235382,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -220454,7 +235430,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -220502,7 +235478,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -221018,7 +235994,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -221074,7 +236050,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -221130,7 +236106,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -221722,7 +236698,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -221778,7 +236754,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -221834,7 +236810,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -222426,7 +237402,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -222482,7 +237458,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -222538,7 +237514,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -223466,7 +238442,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -223522,7 +238498,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -223578,7 +238554,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -224170,7 +239146,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -224226,7 +239202,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -224282,7 +239258,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -224874,7 +239850,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -224930,7 +239906,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -224986,7 +239962,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -225914,7 +240890,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -225970,7 +240946,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -226026,7 +241002,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -226618,7 +241594,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -226674,7 +241650,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -226730,7 +241706,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -227322,7 +242298,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -227378,7 +242354,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -227434,7 +242410,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -228530,7 +243506,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -228586,7 +243562,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -228642,7 +243618,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -229234,7 +244210,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -229290,7 +244266,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -229346,7 +244322,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -229938,7 +244914,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -229994,7 +244970,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -230050,7 +245026,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -231181,7 +246157,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -231237,7 +246213,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -231293,7 +246269,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -231881,7 +246857,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -231937,7 +246913,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -231993,7 +246969,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -232581,7 +247557,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -232637,7 +247613,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -232693,7 +247669,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -233953,7 +248929,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -234009,7 +248985,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -234065,7 +249041,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -234653,7 +249629,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -234709,7 +249685,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -234765,7 +249741,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -235353,7 +250329,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -235409,7 +250385,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -235465,7 +250441,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -237061,7 +252037,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -237117,7 +252093,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -237173,7 +252149,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -237761,7 +252737,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -237817,7 +252793,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -237873,7 +252849,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -238461,7 +253437,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -238517,7 +253493,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -238573,7 +253549,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -239833,7 +254809,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -239889,7 +254865,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -239945,7 +254921,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -240533,7 +255509,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -240589,7 +255565,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -240645,7 +255621,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -241233,7 +256209,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -241289,7 +256265,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -241345,7 +256321,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -243165,7 +258141,7 @@ pg.expedition_data_template = {
 		type = 7,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Small Aviation Fleet",
+		name = "Small Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -243221,7 +258197,7 @@ pg.expedition_data_template = {
 		type = 8,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Medium Aviation Fleet",
+		name = "Medium Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -243277,7 +258253,7 @@ pg.expedition_data_template = {
 		type = 9,
 		ai_mov = 0,
 		add_icon = "",
-		name = "Large Aviation Fleet",
+		name = "Large Air formation",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -247677,6 +262653,325 @@ pg.expedition_data_template = {
 		1242050,
 		1242051,
 		1242052,
+		1250001,
+		1250002,
+		1250003,
+		1250004,
+		1250005,
+		1250006,
+		1250007,
+		1250008,
+		1250009,
+		1250010,
+		1250011,
+		1250012,
+		1250013,
+		1250021,
+		1250022,
+		1250023,
+		1250024,
+		1250025,
+		1250026,
+		1250027,
+		1250028,
+		1250029,
+		1250030,
+		1250031,
+		1250032,
+		1250033,
+		1250101,
+		1250102,
+		1250103,
+		1250104,
+		1250105,
+		1250106,
+		1250107,
+		1250108,
+		1250109,
+		1250110,
+		1250111,
+		1250112,
+		1250113,
+		1250121,
+		1250122,
+		1250123,
+		1250124,
+		1250125,
+		1250126,
+		1250127,
+		1250128,
+		1250129,
+		1250130,
+		1250131,
+		1250132,
+		1250133,
+		1250201,
+		1250202,
+		1250203,
+		1250204,
+		1250205,
+		1250206,
+		1250207,
+		1250208,
+		1250209,
+		1250210,
+		1250211,
+		1250212,
+		1250213,
+		1250221,
+		1250222,
+		1250223,
+		1250229,
+		1250230,
+		1250231,
+		1250232,
+		1250233,
+		1250241,
+		1250242,
+		1250301,
+		1250302,
+		1250303,
+		1250304,
+		1250305,
+		1250306,
+		1250310,
+		1250311,
+		1250312,
+		1250313,
+		1250321,
+		1250322,
+		1250323,
+		1250324,
+		1250325,
+		1250326,
+		1250327,
+		1250328,
+		1250329,
+		1250330,
+		1250331,
+		1250332,
+		1250333,
+		1250401,
+		1250402,
+		1250403,
+		1250404,
+		1250405,
+		1250406,
+		1250410,
+		1250411,
+		1250412,
+		1250413,
+		1250421,
+		1250422,
+		1250423,
+		1250424,
+		1250425,
+		1250426,
+		1250427,
+		1250428,
+		1250429,
+		1250430,
+		1250431,
+		1250432,
+		1250433,
+		1250501,
+		1250502,
+		1250503,
+		1250504,
+		1250505,
+		1250506,
+		1250510,
+		1250511,
+		1250512,
+		1250513,
+		1250521,
+		1250522,
+		1250523,
+		1250524,
+		1250525,
+		1250531,
+		1250532,
+		1250533,
+		1250534,
+		1250535,
+		1250536,
+		1250541,
+		1250542,
+		1250543,
+		1250544,
+		1250545,
+		1250546,
+		1250601,
+		1250602,
+		1250603,
+		1250604,
+		1250605,
+		1250606,
+		1250607,
+		1250608,
+		1250609,
+		1250610,
+		1250611,
+		1250612,
+		1250613,
+		1250621,
+		1250622,
+		1250623,
+		1250624,
+		1250625,
+		1250626,
+		1250627,
+		1250628,
+		1250629,
+		1250630,
+		1250631,
+		1250632,
+		1250633,
+		1250701,
+		1250702,
+		1250703,
+		1250704,
+		1250705,
+		1250706,
+		1250707,
+		1250708,
+		1250709,
+		1250710,
+		1250711,
+		1250712,
+		1250713,
+		1250721,
+		1250722,
+		1250723,
+		1250724,
+		1250725,
+		1250726,
+		1250727,
+		1250728,
+		1250729,
+		1250730,
+		1250731,
+		1250732,
+		1250733,
+		1250801,
+		1250802,
+		1250803,
+		1250804,
+		1250805,
+		1250806,
+		1250807,
+		1250808,
+		1250809,
+		1250810,
+		1250811,
+		1250812,
+		1250813,
+		1250821,
+		1250822,
+		1250823,
+		1250824,
+		1250825,
+		1250826,
+		1250829,
+		1250830,
+		1250831,
+		1250832,
+		1250833,
+		1250834,
+		1250835,
+		1250841,
+		1250842,
+		1250901,
+		1250902,
+		1250903,
+		1250904,
+		1250905,
+		1250906,
+		1250910,
+		1250911,
+		1250912,
+		1250913,
+		1250921,
+		1250922,
+		1250923,
+		1250924,
+		1250925,
+		1250926,
+		1250927,
+		1250928,
+		1250929,
+		1250930,
+		1250931,
+		1250932,
+		1250933,
+		1251001,
+		1251002,
+		1251003,
+		1251004,
+		1251005,
+		1251006,
+		1251010,
+		1251011,
+		1251012,
+		1251013,
+		1251021,
+		1251022,
+		1251023,
+		1251024,
+		1251025,
+		1251026,
+		1251027,
+		1251028,
+		1251029,
+		1251030,
+		1251031,
+		1251032,
+		1251033,
+		1251101,
+		1251102,
+		1251103,
+		1251104,
+		1251105,
+		1251106,
+		1251110,
+		1251111,
+		1251112,
+		1251113,
+		1251201,
+		1251202,
+		1251203,
+		1251204,
+		1251205,
+		1251206,
+		1251210,
+		1251211,
+		1251212,
+		1251213,
+		1251221,
+		1251222,
+		1251223,
+		1251224,
+		1251225,
+		1251226,
+		1251231,
+		1251232,
+		1251233,
+		1251234,
+		1251235,
+		1251236,
+		1251237,
+		1251238,
+		1251239,
+		1251241,
+		1251242,
+		1251243,
+		1251244,
+		1251245,
+		1251246,
+		1251251,
+		1251252,
+		1251253,
+		1251301,
 		5000020,
 		5000021,
 		5000022,

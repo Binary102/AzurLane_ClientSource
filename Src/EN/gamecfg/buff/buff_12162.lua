@@ -33,6 +33,17 @@ return {
 					number = 0.04,
 					attr = "DMG_TAG_EHC_N_99"
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 12160,
+					number = 0.04,
+					attr = "DMG_TAG_EHC_N_6"
+				}
 			}
 		}
 	},
@@ -69,6 +80,17 @@ return {
 					group = 12160,
 					number = 0.046,
 					attr = "DMG_TAG_EHC_N_99"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 12160,
+					number = 0.046,
+					attr = "DMG_TAG_EHC_N_6"
 				}
 			}
 		}
@@ -107,6 +129,17 @@ return {
 					number = 0.052,
 					attr = "DMG_TAG_EHC_N_99"
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 12160,
+					number = 0.052,
+					attr = "DMG_TAG_EHC_N_6"
+				}
 			}
 		}
 	},
@@ -143,6 +176,17 @@ return {
 					group = 12160,
 					number = 0.06,
 					attr = "DMG_TAG_EHC_N_99"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 12160,
+					number = 0.06,
+					attr = "DMG_TAG_EHC_N_6"
 				}
 			}
 		}
@@ -181,6 +225,17 @@ return {
 					number = 0.066,
 					attr = "DMG_TAG_EHC_N_99"
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 12160,
+					number = 0.066,
+					attr = "DMG_TAG_EHC_N_6"
+				}
 			}
 		}
 	},
@@ -217,6 +272,17 @@ return {
 					group = 12160,
 					number = 0.072,
 					attr = "DMG_TAG_EHC_N_99"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 12160,
+					number = 0.072,
+					attr = "DMG_TAG_EHC_N_6"
 				}
 			}
 		}
@@ -255,6 +321,17 @@ return {
 					number = 0.08,
 					attr = "DMG_TAG_EHC_N_99"
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 12160,
+					number = 0.08,
+					attr = "DMG_TAG_EHC_N_6"
+				}
 			}
 		}
 	},
@@ -291,6 +368,17 @@ return {
 					group = 12160,
 					number = 0.086,
 					attr = "DMG_TAG_EHC_N_99"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 12160,
+					number = 0.086,
+					attr = "DMG_TAG_EHC_N_6"
 				}
 			}
 		}
@@ -329,6 +417,17 @@ return {
 					number = 0.092,
 					attr = "DMG_TAG_EHC_N_99"
 				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 12160,
+					number = 0.092,
+					attr = "DMG_TAG_EHC_N_6"
+				}
 			}
 		}
 	},
@@ -365,6 +464,17 @@ return {
 					group = 12160,
 					number = 0.1,
 					attr = "DMG_TAG_EHC_N_99"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					group = 12160,
+					number = 0.1,
+					attr = "DMG_TAG_EHC_N_6"
 				}
 			}
 		}

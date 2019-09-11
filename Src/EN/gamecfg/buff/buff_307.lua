@@ -10,7 +10,7 @@ return {
 	last_effect = "Darkness",
 	effect_list = {
 		{
-			type = "BattleBuffAddAttrRatio",
+			type = "BattleBuffFixVelocity",
 			trigger = {
 				"onAttach",
 				"onStack",
@@ -19,6 +19,22 @@ return {
 			arg_list = {
 				number = -3320,
 				attr = "velocity"
+			}
+		},
+		{
+			type = "BattleBuffFixVelocity",
+			trigger = {
+				"onAttach",
+				"onStack",
+				"onRemove"
+			},
+			arg_list = {
+				add = 0,
+				mul = -3320,
+				group = {
+					id = 300,
+					level = 7
+				}
 			}
 		}
 	}

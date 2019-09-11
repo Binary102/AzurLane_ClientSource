@@ -41,16 +41,12 @@ function slot4(slot0, slot1, slot2)
 		return
 	end
 
-	if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
-		slot3 = getProxy(PlayerProxy):getData()
-
-		if slot0 == "SYG001" then
-			SendAiriJPTracking(AIRIJP_TRACKING_TUTORIAL_COMPLETE_2, slot3.id)
-		elseif slot0 == "SYG003" then
-			SendAiriJPTracking(AIRIJP_TRACKING_TUTORIAL_COMPLETE_3, slot3.id)
-		elseif slot0 == "SYG006" then
-			SendAiriJPTracking(AIRIJP_TRACKING_TUTORIAL_COMPLETE_4, slot3.id)
-		end
+	if slot0 == "SYG001" then
+		pg.TrackerMgr.GetInstance():Tracking(TRACKING_TUTORIAL_COMPLETE_2)
+	elseif slot0 == "SYG003" then
+		pg.TrackerMgr.GetInstance():Tracking(TRACKING_TUTORIAL_COMPLETE_3)
+	elseif slot0 == "SYG006" then
+		pg.TrackerMgr.GetInstance():Tracking(TRACKING_TUTORIAL_COMPLETE_4)
 	end
 
 	pg.m02:sendNotification(GAME.STORY_UPDATE, {

@@ -70,10 +70,10 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Elite</color>：12%",
 			"<color=#3dc6ff>Rare</color>：51%",
 			"Common：30%",
-			"<color=#ffde38>Albacore</color>：0.5%",
-			"<color=#ffde38>Essex</color>：1.8%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Taihou</color>：1.8%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Le Téméraire</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>Littorio</color>：0.5%",
+			"<color=#ffde38>Zara</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Formidable</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>Giulio Cesare</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

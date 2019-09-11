@@ -1420,6 +1420,10 @@ pg.skill_data_display = {
 		id = 11762,
 		name = "Ready to go"
 	},
+	[11770] = {
+		id = 11770,
+		name = "Darkness Field "
+	},
 	[11780] = {
 		id = 11780,
 		name = "Ageless Phoenix "
@@ -1775,6 +1779,122 @@ pg.skill_data_display = {
 	[12561] = {
 		id = 12561,
 		name = "Bache In The Sky "
+	},
+	[12570] = {
+		id = 12570,
+		name = "Supporting Wings "
+	},
+	[12571] = {
+		id = 12571,
+		name = "Supporting Wings "
+	},
+	[12572] = {
+		id = 12572,
+		name = "Supporting Wings "
+	},
+	[12580] = {
+		id = 12580,
+		name = "Don't Move An Inch! "
+	},
+	[12581] = {
+		id = 12581,
+		name = "Don't Move An Inch! "
+	},
+	[12582] = {
+		id = 12582,
+		name = "Don't Move An Inch! "
+	},
+	[12590] = {
+		id = 12590,
+		name = "Armoured Hangar "
+	},
+	[12591] = {
+		id = 12591,
+		name = "Armoured Hangar "
+	},
+	[12592] = {
+		id = 12592,
+		name = "Armoured Hangar "
+	},
+	[12600] = {
+		id = 12600,
+		name = "Rosa Bombardamento "
+	},
+	[12601] = {
+		id = 12601,
+		name = "Rosa Bombardamento "
+	},
+	[12602] = {
+		id = 12602,
+		name = "Rosa Bombardamento "
+	},
+	[12603] = {
+		id = 12603,
+		name = "Rosa Bombardamento "
+	},
+	[12605] = {
+		id = 12605,
+		name = "Rosa Bombardamento "
+	},
+	[12606] = {
+		id = 12606,
+		name = "Rosa Bombardamento "
+	},
+	[12607] = {
+		id = 12607,
+		name = "Rosa Bombardamento "
+	},
+	[12608] = {
+		id = 12608,
+		name = "Rosa Bombardamento "
+	},
+	[12610] = {
+		id = 12610,
+		name = "Sardegnian Discipline "
+	},
+	[12611] = {
+		id = 12611,
+		name = "Sardegnian Discipline "
+	},
+	[12612] = {
+		id = 12612,
+		name = "Sardegnian Discipline "
+	},
+	[12620] = {
+		id = 12620,
+		name = "Terni Shields "
+	},
+	[12621] = {
+		id = 12621,
+		name = "Terni Shields "
+	},
+	[12630] = {
+		id = 12630,
+		name = "Semi-Armor Piercing High-Explosive "
+	},
+	[12631] = {
+		id = 12631,
+		name = "Semi-Armor Piercing High-Explosive "
+	},
+	[12640] = {
+		id = 12640,
+		name = "Sardegnian Coercion "
+	},
+	[12650] = {
+		id = 12650,
+		name = "Fading Memories of Glory "
+	},
+	[12651] = {
+		id = 12651,
+		name = "Fading Memories of Glory "
+	},
+	[12660] = {
+		id = 12660,
+		name = "Ricarica! "
+	},
+	[12670] = {
+		id = 12670,
+		name = "Fuoco di Copertura! "
 	},
 	[18010] = {
 		id = 18010,
@@ -2490,6 +2610,30 @@ pg.skill_data_display = {
 	},
 	[24122] = {
 		id = 24122,
+		name = "All Out Assault Ⅱ"
+	},
+	[25011] = {
+		id = 25011,
+		name = "All Out Assault Ⅰ"
+	},
+	[25012] = {
+		id = 25012,
+		name = "All Out Assault Ⅱ"
+	},
+	[25211] = {
+		id = 25211,
+		name = "All Out Assault Ⅰ"
+	},
+	[25212] = {
+		id = 25212,
+		name = "All Out Assault Ⅱ"
+	},
+	[25221] = {
+		id = 25221,
+		name = "All Out Assault Ⅰ"
+	},
+	[25222] = {
+		id = 25222,
 		name = "All Out Assault Ⅱ"
 	},
 	[28011] = {
@@ -3312,6 +3456,7 @@ pg.skill_data_display = {
 		11760,
 		11761,
 		11762,
+		11770,
 		11780,
 		11790,
 		11800,
@@ -3401,6 +3546,35 @@ pg.skill_data_display = {
 		12550,
 		12560,
 		12561,
+		12570,
+		12571,
+		12572,
+		12580,
+		12581,
+		12582,
+		12590,
+		12591,
+		12592,
+		12600,
+		12601,
+		12602,
+		12603,
+		12605,
+		12606,
+		12607,
+		12608,
+		12610,
+		12611,
+		12612,
+		12620,
+		12621,
+		12630,
+		12631,
+		12640,
+		12650,
+		12651,
+		12660,
+		12670,
 		18010,
 		18040,
 		18041,
@@ -3580,6 +3754,12 @@ pg.skill_data_display = {
 		24112,
 		24121,
 		24122,
+		25011,
+		25012,
+		25211,
+		25212,
+		25221,
+		25222,
 		28011,
 		28012,
 		28021,

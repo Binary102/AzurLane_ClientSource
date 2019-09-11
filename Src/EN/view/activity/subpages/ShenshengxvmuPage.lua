@@ -3,11 +3,16 @@ slot0 = class("ShenshengxvmuPage", import(".TemplatePage.PtTemplatePage"))
 function slot0.OnFirstFlush(slot0)
 	slot0.super.OnFirstFlush(slot0)
 	setActive(slot0.displayBtn, false)
+	setActive(slot0.awardTF, false)
+	onButton(slot0, slot0.battleBtn, function ()
+		slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK, {
+			page = "activity"
+		})
+	end, SFX_PANEL)
 end
 
 function slot0.OnUpdateFlush(slot0)
 	slot0.super.OnUpdateFlush(slot0)
-	setActive(slot0.battleBtn, false)
 
 	slot1, slot2, slot3 = slot0.ptData:GetResProgress()
 

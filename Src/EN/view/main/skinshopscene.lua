@@ -113,7 +113,7 @@ end
 
 function slot0.setPlayer(slot0, slot1)
 	slot0.playerVO = slot1
-	slot0.skinTicket = (Player.SKIN_TICKET_RESOURCE > 0 and slot0.playerVO:getResource(Player.SKIN_TICKET_RESOURCE)) or 0
+	slot0.skinTicket = slot0.playerVO:getSkinTicket()
 
 	slot0._resPanel:setResources(slot1)
 end
@@ -477,6 +477,8 @@ function slot0.onBuyDone(slot0, slot1)
 end
 
 function slot0.updateBuyBtn(slot0, slot1)
+	slot3 = nil
+
 	if slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
 		onButton(slot0, slot0.timelimitBtn, function ()
 			if getProxy(ShipSkinProxy):getSkinById(slot0:getSkinId()) and not slot1:isExpireType() then
@@ -487,7 +489,11 @@ function slot0.updateBuyBtn(slot0, slot1)
 
 			slot1:showTimeLimitSkinWindow(slot0)
 		end, SFX_PANEL)
+
+		slot3 = slot0[slot1:getSkinId()]
 	else
+		slot3 = slot0[slot1:getSkinId()]
+
 		setActive(slot0.buyBtn, not (slot1.type == Goods.TYPE_ACTIVITY or slot5 == Goods.TYPE_ACTIVITY_EXTRA) and slot1.buyCount == 0)
 		setActive(slot0.gotBtn, not (slot1.type == Goods.TYPE_ACTIVITY or slot5 == Goods.TYPE_ACTIVITY_EXTRA) and not (slot1.buyCount == 0))
 		setActive(slot0.activityBtn, slot1.type == Goods.TYPE_ACTIVITY or slot5 == Goods.TYPE_ACTIVITY_EXTRA)
@@ -534,14 +540,14 @@ function slot0.updateBuyBtn(slot0, slot1)
 				pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_not_start"))
 			end
 		end, SFX_PANEL)
-
-		slot8 = ShipGroup.getDefaultShipConfig(slot0[slot1:getSkinId()].ship_group)
-
-		onToggle(slot0, slot0.hideObjToggleTF, function (slot0)
-			slot0:loadPainting(slot0.painting .. ((slot0 and "") or "_n"))
-			slot0:setBg(slot0.setBg, slot0, slot0)
-		end, SFX_PANEL)
 	end
+
+	slot4 = ShipGroup.getDefaultShipConfig(slot3.ship_group)
+
+	onToggle(slot0, slot0.hideObjToggleTF, function (slot0)
+		slot0:loadPainting(slot0.painting .. ((slot0 and "") or "_n"))
+		slot0:setBg(slot0.setBg, slot0, slot0)
+	end, SFX_PANEL)
 end
 
 function slot0.showTimeLimitSkinWindow(slot0, slot1)

@@ -2378,8 +2378,8 @@ pg.furniture_data_template = {
 	},
 	[151] = {
 		can_rotate = 0,
-		name = "意大利活动勋章",
-		gain_by = "",
+		name = "Imperial Medal",
+		gain_by = "Empyreal Tragicomedy ",
 		type = 7,
 		dir = 0,
 		belong = 1,
@@ -2399,7 +2399,7 @@ pg.furniture_data_template = {
 		discount = 0,
 		id = 151,
 		comfortable = 0,
-		describe = "",
+		describe = "An intricately designed imperial medal. Looking at it makes you think of a glorious empire that once ruled the sea. Given to commanders who participated in the \"Empyreal Tragicomedy\" event.",
 		dorm_id = 0,
 		gem_price = 0,
 		themeId = 0,
@@ -2415,7 +2415,7 @@ pg.furniture_data_template = {
 		offset = {},
 		canputonGrid = {},
 		can_trigger = {
-			0
+			1
 		},
 		interAction_group = {}
 	},
@@ -63856,6 +63856,2246 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[48001] = {
+		can_rotate = 0,
+		name = "Sardegnian Stone Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		belong = 0,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "dibanydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 4,
+		rarity = 4,
+		picture = "yidali/dibanydl",
+		canputon = 0,
+		discount = 0,
+		id = 48001,
+		comfortable = 4,
+		describe = "This stone pavement could face a volcanic eruption and still come out intact. But let's not put that to the test.",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48002] = {
+		can_rotate = 0,
+		name = "Sardegnian City Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		belong = 0,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "qiaingbiapicon",
+		deblocking = 1,
+		level = 5,
+		tag = 3,
+		rarity = 4,
+		picture = "yidali/qiangbiydl",
+		canputon = 0,
+		discount = 0,
+		id = 48002,
+		comfortable = 4,
+		describe = "Just like how you might get lost in the city, you might get lost in this wallpaper.",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48101] = {
+		can_rotate = 0,
+		name = "Floating City Rainbow",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "caihongydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "yidali/caihongydl",
+		canputon = 0,
+		discount = 0,
+		id = 48101,
+		comfortable = 3,
+		describe = "A striking natural phenomenon composed of all colors! All on the spectrum of light visible to the human eye, anyway.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48102] = {
+		can_rotate = 0,
+		name = "Plaza Pigeon",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 3,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "geziydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/geziydl",
+		canputon = 0,
+		discount = 0,
+		id = 48102,
+		comfortable = 2,
+		describe = "Feed at your own risk. Once they develop a taste for breadcrumbs...",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48103] = {
+		can_rotate = 0,
+		name = "Flower Petal Pile",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 4,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "hua2ydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/hua2ydl",
+		canputon = 0,
+		discount = 0,
+		id = 48103,
+		comfortable = 2,
+		describe = "It might be a mess someone has to sweep up later, but it is a pretty mess.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48104] = {
+		can_rotate = 0,
+		name = "Flower Bed (Large)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "huapu2ydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/huapu2ydl",
+		canputon = 0,
+		discount = 0,
+		id = 48104,
+		comfortable = 2,
+		describe = "You know the rent in the neighborhood will be lavishly high when these decorate the streets.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48105] = {
+		can_rotate = 0,
+		name = "Flower Bed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 4,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "huapuydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/huapuydl",
+		canputon = 0,
+		discount = 0,
+		id = 48105,
+		comfortable = 2,
+		describe = "\"Mamma mia, that housing bubble is-a coming...\"",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48106] = {
+		advice = 0,
+		name = "Landscape Oil Painting",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "yidali/huaydl",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "huaydlicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 48106,
+		comfortable = 3,
+		describe = "The stuff on the canvas is nice and all, but those blotches belong in a modern art museum.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-50,
+					-18
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48107] = {
+		can_rotate = 0,
+		name = "Manhole Cover",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jinggaiydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/jinggaiydl",
+		canputon = 0,
+		discount = 0,
+		id = 48107,
+		comfortable = 2,
+		describe = "Local legends speak of folks falling into it and ending up in a place called \"1-2.\"",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48108] = {
+		can_rotate = 0,
+		name = "Sardegnian Streetlight",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "ludengydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/ludengydl",
+		canputon = 0,
+		discount = 0,
+		id = 48108,
+		comfortable = 2,
+		describe = "In keeping with the spirit of Romanticism, these streetlights are gas-powered.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48109] = {
+		can_rotate = 0,
+		name = "Bulletin Board",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "lupaiydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/lupaiydl",
+		canputon = 0,
+		discount = 0,
+		id = 48109,
+		comfortable = 2,
+		describe = "Once a signboard for locals, now it lists nothing but tourist information.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48110] = {
+		can_rotate = 1,
+		name = "Pizza Restaurant Sign 1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "paizi1ydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/paizi1ydl",
+		canputon = 0,
+		discount = 0,
+		id = 48110,
+		comfortable = 2,
+		describe = "\"Come get a taste of authentic Sardegnian pizza!\"",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48111] = {
+		can_rotate = 1,
+		name = "Pizza Restaurant Sign 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "paizi2ydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/paizi2ydl",
+		canputon = 0,
+		discount = 0,
+		id = 48111,
+		comfortable = 2,
+		describe = "When your eyes catch the sight of a big pizza pie, that's amore.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48112] = {
+		can_rotate = 0,
+		name = "Buffet Sign",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "paizi3ydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/paizi3ydl",
+		canputon = 0,
+		discount = 0,
+		id = 48112,
+		comfortable = 2,
+		describe = "Big buffet buffs 'bout to bunch up, begging to buy bountiful brunch.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48113] = {
+		advice = 0,
+		name = "Pizza Restaurant",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "yidali/pisawuydl",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "pisawuydlicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 48113,
+		comfortable = 3,
+		describe = "You didn't come all the way to the Sardegna Empire to NOT buy pizza, did you?",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					65,
+					-38
+				},
+				{
+					1,
+					1
+				},
+				"yidali/pisawuydl_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48114] = {
+		advice = 0,
+		name = "Sardegnian Stone Bridge",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "yidali/qiaoydl",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "qiaoydlicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 48114,
+		comfortable = 3,
+		describe = "It's enchanted with a very peculiar spell that causes tourists to drop whatever they're doing to take a selfie on it.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			13
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-55,
+					-3
+				},
+				{
+					-1,
+					1
+				},
+				"yidali/qiaoydl_using"
+			},
+			{
+				"stand2",
+				{
+					210.8,
+					-222.3
+				},
+				{
+					-1,
+					1
+				},
+				"yidali/qiaoydl_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48115] = {
+		advice = 0,
+		name = "Sardegnian Manjuu Fountain",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "yidali/shuichiydl",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "shuichiydlicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 48115,
+		comfortable = 3,
+		describe = "Drop a coin in it and make a wish. It'll either come true or you'll be 1 coin poorer than before.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-106.8,
+					-51.9
+				},
+				{
+					-1,
+					1
+				},
+				"yidali/shuichiydl_using"
+			},
+			{
+				"wash",
+				{
+					106.9,
+					-59.9
+				},
+				{
+					-1,
+					1
+				},
+				"yidali/shuichiydl_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48116] = {
+		can_rotate = 0,
+		name = "Potted Tree",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "shuydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/shuydl",
+		canputon = 0,
+		discount = 0,
+		id = 48116,
+		comfortable = 2,
+		describe = "Imagine being this tree and getting to bask in the city's scenery all day.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48117] = {
+		can_rotate = 0,
+		name = "Black Guard Rail",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "weilanydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/weilanydl",
+		canputon = 0,
+		discount = 0,
+		id = 48117,
+		comfortable = 2,
+		describe = "You can think of them as traffic barriers for gondolas.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48118] = {
+		advice = 0,
+		name = "Patio Chair",
+		count = 4,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "yidali/yiziydl",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "yiziydlicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 48118,
+		comfortable = 2,
+		describe = "Have a seat, take a sip from a glass of wine, recite foreign poetry, and experience il romanticismo della città.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-13,
+					25
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48119] = {
+		can_rotate = 0,
+		name = "Patio Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "zhuoziydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/zhuoziydl",
+		canputon = 1,
+		discount = 0,
+		id = 48119,
+		comfortable = 2,
+		describe = "Catch a glimpse of your partner, part your lips to form a smile, and savor tua pasta napoletana.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {
+			0,
+			-22.64
+		},
+		canputonGrid = {
+			{
+				2,
+				3
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				4
+			},
+			{
+				4,
+				3
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48120] = {
+		advice = 0,
+		name = "Red Bench",
+		count = 2,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "yidali/zuoyiydl",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "zuoyiydlicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 48120,
+		comfortable = 2,
+		describe = "\"Red is the color of love. Incidentally, care to sit down, signora?\"",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					11.7,
+					20.9
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48121] = {
+		advice = 0,
+		name = "Upright Tower of Pisa",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "yidali/xietaydl",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "xietaydlicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 48121,
+		comfortable = 3,
+		describe = "A replica of a famous tower. This time the architects got the foundation right.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					4,
+					242
+				},
+				{
+					1,
+					1
+				},
+				"yidali/xietaydl_using"
+			},
+			{
+				"dance",
+				{
+					72,
+					-249
+				},
+				{
+					1,
+					1
+				},
+				"yidali/xietaydl_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48122] = {
+		can_rotate = 0,
+		name = "City Canal",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "heydlicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 48122,
+		comfortable = 4,
+		describe = "The crown jewel of city aesthetics, radiating the very essence of romanticism. Gondola included!",
+		dorm_id = 0,
+		gem_price = 150,
+		themeId = 48,
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			24,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xiaoheB",
+				"normal"
+			},
+			{
+				"xiaoheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"xiaoheCharControl",
+				"xiaoheCharControl2"
+			}
+		},
+		interAction_group = {}
+	},
+	[48201] = {
+		can_rotate = 0,
+		name = "Sardegnian Wine",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jiuydlicon",
+		deblocking = 1,
+		level = 2,
+		tag = 2,
+		rarity = 2,
+		picture = "yidali/jiuydl",
+		canputon = 0,
+		discount = 0,
+		id = 48201,
+		comfortable = 2,
+		describe = "Iron Blood may have their engineering, but Sardegnian wine is the best in the world.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48202] = {
+		can_rotate = 0,
+		name = "Wine Glass",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 4,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jiubeiydlicon",
+		deblocking = 1,
+		level = 2,
+		tag = 2,
+		rarity = 2,
+		picture = "yidali/jiubeiydl",
+		canputon = 0,
+		discount = 0,
+		id = 48202,
+		comfortable = 2,
+		describe = "\"With which *normal* people drink wine. Looking at you, Laffey.\"",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48203] = {
+		can_rotate = 0,
+		name = "Sardegnian Spaghetti",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "panziydlicon",
+		deblocking = 1,
+		level = 2,
+		tag = 2,
+		rarity = 2,
+		picture = "yidali/panziydl",
+		canputon = 0,
+		discount = 0,
+		id = 48203,
+		comfortable = 2,
+		describe = "Whatever you do, don't drop it.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48301] = {
+		can_rotate = 0,
+		name = "Red Brick Balcony",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "dianmian3ydlicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 3,
+		picture = "yidali/dianmian3ydl",
+		canputon = 0,
+		discount = 0,
+		id = 48301,
+		comfortable = 3,
+		describe = "\"See how she leans her cheek upon her hand. O that I were a glove upon that hand, that I might touch that cheek!\"",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48302] = {
+		can_rotate = 0,
+		name = "Restaurant Service Window",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dianmianydl2icon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 2,
+		picture = "yidali/dianmianydl2",
+		canputon = 0,
+		discount = 0,
+		id = 48302,
+		comfortable = 2,
+		describe = "Essentially a low-tech drive-thru for people.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48303] = {
+		can_rotate = 0,
+		name = "Condominium Windows",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dianmianydlicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 2,
+		picture = "yidali/dianmianydl",
+		canputon = 0,
+		discount = 0,
+		id = 48303,
+		comfortable = 2,
+		describe = "The windows contribute to a picturesque view, both from outside and inside the building.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -64799,7 +67039,37 @@ pg.furniture_data_template = {
 		47305,
 		47306,
 		47307,
-		47308
+		47308,
+		48001,
+		48002,
+		48101,
+		48102,
+		48103,
+		48104,
+		48105,
+		48106,
+		48107,
+		48108,
+		48109,
+		48110,
+		48111,
+		48112,
+		48113,
+		48114,
+		48115,
+		48116,
+		48117,
+		48118,
+		48119,
+		48120,
+		48121,
+		48122,
+		48201,
+		48202,
+		48203,
+		48301,
+		48302,
+		48303
 	}
 }
 

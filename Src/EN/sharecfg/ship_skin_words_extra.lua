@@ -29,8 +29,83 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[207050] = {
+		feeling3 = "",
+		feeling1 = "",
+		win_mvp = "",
+		upgrade = "",
+		feeling4 = "",
+		lose = "",
+		feeling5 = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 207050,
+		login = {
+			{
+				1100,
+				"You're late, Commander. I've been waiting for ages!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Commander, I'm going to catch a few winks on the sofa here. Wake me up if anyone comes calling."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"The posters on the walls are all my favourite rock stars. I don't usually let anyone see them. You're a special exception, Commander~"
+			}
+		},
+		main = {
+			{
+				1100,
+				"That Ajax, she saw straight through me right away... And yet, I think we get along rather well. I've learned a lot from her.|Haah... I'm back. Those tea parties have some delicious snacks, sure, but they're so dreadfully uptight about bearing and deportment.... Hehehe, Commander, would you mind helping me with my shoes?|Commander, which of my sisters is more your type? The sweet and gentle Illustrious, or the passionate Victorious?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Commander, don't you think Veneto looks a bit dim, cool as she might be?"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Ding dong ding dong ♪, incoming message from Formidable: Commission complete. Repeat. Commission complete."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Big Brother, I finished organizing your mission list ♪ ... Hehe, is that your type, Commander?"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Commander, do you want your mission rewards or do you want me? You have to choose! ... Hehe, just kidding~"
+			}
+		},
+		mail = {
+			{
+				1100,
+				"Commander, the mail is here. Would you mind getting it yourself?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Commander, should I be angry? Positively inconsolable?"
+			}
+		}
+	},
 	all = {
-		108030
+		108030,
+		207050
 	}
 }
 

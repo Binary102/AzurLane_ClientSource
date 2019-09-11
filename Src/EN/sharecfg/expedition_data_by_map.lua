@@ -3450,6 +3450,252 @@ pg.expedition_data_by_map = {
 		bind_map = 0,
 		clouds_pos = {}
 	},
+	[1260001] = {
+		map = 1260001,
+		name = "Empyreal Tragicomedy - Pt. 1|| ||CHAPTER EX||E.X.",
+		bgm = "Battle-italy",
+		type = 4,
+		on_activity = 30203,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "SHENSHENGDEBEIXIJU1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1240001",
+		cloud_suffix = "",
+		bg = "Map_1240001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1260011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1260002] = {
+		map = 1260002,
+		name = "Empyreal Tragicomedy - Pt. 2|| ||CHAPTER EX||E.X.",
+		bgm = "Battle-italy",
+		type = 4,
+		on_activity = 30204,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "SHENSHENGDEBEIXIJU13",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1240005",
+		cloud_suffix = "",
+		bg = "Map_1240005",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1260012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1260011] = {
+		map = 1260011,
+		name = "Empyreal Tragicomedy - Pt. 1|| ||CHAPTER EX||E.X.",
+		bgm = "Battle-italy",
+		type = 5,
+		on_activity = 30203,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "SHENSHENGDEBEIXIJU1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1240003",
+		cloud_suffix = "",
+		bg = "Map_1240003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1260001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1260012] = {
+		map = 1260012,
+		name = "Empyreal Tragicomedy - Pt. 2|| ||CHAPTER EX||E.X.",
+		bgm = "Battle-italy",
+		type = 5,
+		on_activity = 30204,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "SHENSHENGDEBEIXIJU13",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1240006",
+		cloud_suffix = "",
+		bg = "Map_1240006",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1260002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1260025] = {
+		map = 1260025,
+		name = "Empyreal Tragicomedy - SP|| ||CHAPTER EX||E.X.",
+		bgm = "Battle-italy",
+		type = 8,
+		on_activity = 30204,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1240007",
+		cloud_suffix = "",
+		bg = "Map_1240007",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1260012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1260026] = {
+		map = 1260026,
+		name = "Empyreal Tragicomedy - EX|| ||CHAPTER EX||E.X.",
+		bgm = "Battle-italy",
+		type = 8,
+		on_activity = 30204,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1240008",
+		cloud_suffix = "",
+		bg = "Map_1240008",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1260012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3532,7 +3778,13 @@ pg.expedition_data_by_map = {
 		1250012,
 		1250025,
 		1250026,
-		1250022
+		1250022,
+		1260001,
+		1260002,
+		1260011,
+		1260012,
+		1260025,
+		1260026
 	}
 }
 

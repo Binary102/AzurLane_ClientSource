@@ -17,10 +17,18 @@ function slot0.setActivityData(slot0, slot1)
 	slot0.activityData = slot1
 
 	if not slot0.config_init then
-		slot0.firstShowingTime = slot0.activityData:getConfig("config_client")[2].firstShowingTime
-		slot0.showingTime = slot0.activityData.getConfig("config_client")[2].showingTime
-		slot0.aniTime = slot0.activityData.getConfig("config_client")[2].aniTime
-		slot0.cardEffectTimesMax = slot0.activityData:getConfig("config_data")[4]
+		if slot0.activityData:getConfig("config_client")[2] then
+			slot0.firstShowingTime = slot2.firstShowingTime
+			slot0.showingTime = slot2.showingTime
+			slot0.aniTime = slot2.aniTime
+			slot0.cardEffectTimesMax = slot0.activityData:getConfig("config_data")[4]
+		else
+			slot0.firstShowingTime = 2
+			slot0.showingTime = 0.3
+			slot0.aniTime = 0.2
+			slot0.cardEffectTimesMax = 7
+		end
+
 		CardPairsCard.ANI_TIME = slot0.aniTime
 		slot0.config_init = true
 	end
@@ -187,7 +195,7 @@ function slot0.updateTimes(slot0)
 	if slot0.cardEffectTimesMax < slot2 then
 		slot0.lastTimes = (slot0.cardEffectTimesMax or slot2) - slot0.activityData.data2
 
-		setText(slot0.timesTxt, slot0.lastTimes)
+		setText(slot0.timesTxt, (slot0.lastTimes >= 0 and slot0.lastTimes) or 0)
 
 		return
 	end
@@ -322,15 +330,19 @@ function slot0.hideChild(slot0, slot1)
 end
 
 function slot0.tryFirstPlayStory(slot0)
-	if slot0.activityData:getConfig("config_client")[1][1] ~= nil and not slot0.playerData:IsPlayed(slot1) then
-		pg.StoryMgr.GetInstance():Play(slot1, function ()
-			triggerButton(slot0.maskBtn)
-		end)
+	if slot0.activityData:getConfig("config_client")[1] then
+		if slot0.activityData:getConfig("config_client")[1][1] ~= nil and not slot0.playerData:IsPlayed(slot1) then
+			pg.StoryMgr.GetInstance():Play(slot1, function ()
+				triggerButton(slot0.maskBtn)
+			end)
 
-		return true
+			return true
+		end
+
+		return false
+	else
+		return false
 	end
-
-	return false
 end
 
 function slot0.clearCountTimer(slot0)

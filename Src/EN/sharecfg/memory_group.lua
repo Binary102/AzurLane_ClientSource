@@ -942,6 +942,37 @@ pg.memory_group = {
 			890
 		}
 	},
+	[167] = {
+		title = "Empyreal Tragicomedy ",
+		type = 2,
+		id = 167,
+		icon = "title_event",
+		memories = {
+			907,
+			908,
+			909,
+			910,
+			911,
+			912,
+			913,
+			914,
+			915,
+			916,
+			917,
+			918,
+			919,
+			920,
+			921,
+			922,
+			923,
+			924,
+			925,
+			926,
+			927,
+			928,
+			929
+		}
+	},
 	[501] = {
 		title = "{namecode:98}'s Commission",
 		type = 3,
@@ -1450,6 +1481,21 @@ pg.memory_group = {
 			850
 		}
 	},
+	[546] = {
+		title = "Storia di Rosa ",
+		type = 3,
+		id = 546,
+		icon = "title_chara_zhala",
+		memories = {
+			900,
+			901,
+			902,
+			903,
+			904,
+			905,
+			906
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1508,6 +1554,7 @@ pg.memory_group = {
 		163,
 		164,
 		165,
+		167,
 		501,
 		502,
 		503,
@@ -1540,7 +1587,8 @@ pg.memory_group = {
 		538,
 		543,
 		544,
-		545
+		545,
+		546
 	}
 }
 

@@ -88,37 +88,39 @@ function pg.LayerWeightMgr.LayerSortHandler(slot0)
 	slot0:SortStoreUIs()
 
 	slot1 = false
-	slot2 = {}
-	slot3 = nil
-	slot4 = false
+	slot2 = false
+	slot3 = {}
+	slot4 = nil
 	slot5 = false
-	slot6 = 0
+	slot6 = false
 	slot7 = 0
+	slot8 = 0
 
-	for slot11 = #slot0.storeUIs, 1, -1 do
-		slot13 = slot0.storeUIs[slot11].type
-		slot14 = slot0.storeUIs[slot11].ui
-		slot15 = slot0.storeUIs[slot11].pbList
-		slot16 = slot0.storeUIs[slot11].globalBlur
-		slot17 = slot0.storeUIs[slot11].groupName
-		slot18 = slot0.storeUIs[slot11].overlayType
-		slot19 = slot0.storeUIs[slot11].blurLevelCamera
-		slot20 = slot11 == #slot0.storeUIs
+	for slot12 = #slot0.storeUIs, 1, -1 do
+		slot14 = slot0.storeUIs[slot12].type
+		slot15 = slot0.storeUIs[slot12].ui
+		slot16 = slot0.storeUIs[slot12].pbList
+		slot17 = slot0.storeUIs[slot12].globalBlur
+		slot18 = slot0.storeUIs[slot12].groupName
+		slot19 = slot0.storeUIs[slot12].overlayType
+		slot20 = slot0.storeUIs[slot12].blurLevelCamera
+		slot21 = slot0.storeUIs[slot12].hideLowerLayer
+		slot22 = slot12 == #slot0.storeUIs
 
-		if slot13 == LayerWeightConst.UI_TYPE_SYSTEM then
+		if slot14 == LayerWeightConst.UI_TYPE_SYSTEM then
 			slot1 = true
 		end
 
-		if slot20 then
-			if slot17 ~= nil then
-				slot3 = slot17
+		if slot22 then
+			if slot18 ~= nil then
+				slot4 = slot18
 			end
 
-			slot4 = slot16
-			slot5 = slot19
+			slot5 = slot17
+			slot6 = slot20
 		end
 
-		function slot21()
+		function slot23()
 			slot0:ShowOrHideTF(slot0, true)
 			slot0.ShowOrHideTF:SetToOverlayParent(slot0.ShowOrHideTF, , )
 
@@ -127,34 +129,38 @@ function pg.LayerWeightMgr.LayerSortHandler(slot0)
 			end
 		end
 
-		if slot13 == LayerWeightConst.UI_TYPE_SUB then
-			if slot20 then
-				slot21()
-			elseif slot3 ~= nil and slot3 == slot17 then
-				slot21()
+		if slot14 == LayerWeightConst.UI_TYPE_SUB then
+			if slot22 then
+				slot23()
+			elseif slot4 ~= nil and slot4 == slot18 then
+				slot23()
 			else
-				slot0:SetToOrigin(slot14, slot7)
+				slot0:SetToOrigin(slot15, slot8)
 
-				if slot1 then
-					slot0:ShowOrHideTF(slot14, false)
+				if slot1 or slot2 then
+					slot0:ShowOrHideTF(slot15, false)
 				else
-					slot0:ShowOrHideTF(slot14, true)
+					slot0:ShowOrHideTF(slot15, true)
 
-					if #slot15 > 0 then
-						slot0.UIMgr.GetInstance():RevertPBMaterial(slot15)
+					if #slot16 > 0 then
+						slot0.UIMgr.GetInstance():RevertPBMaterial(slot16)
 					end
 				end
 			end
 		end
+
+		if slot21 then
+			slot2 = true
+		end
 	end
 
-	if #slot2 > 0 then
-		slot0.UIMgr.GetInstance():PartialBlurTfs(slot2)
+	if #slot3 > 0 then
+		slot0.UIMgr.GetInstance():PartialBlurTfs(slot3)
 	else
 		slot0.UIMgr.GetInstance():ShutdownPartialBlur()
 	end
 
-	if slot5 then
+	if slot6 then
 		slot0.UIMgr.GetInstance():BlurCamera(slot0.UIMgr.CameraLevel)
 	else
 		slot0.UIMgr.GetInstance():UnblurCamera(slot0.UIMgr.CameraLevel)

@@ -489,6 +489,35 @@ ys.Battle.BattleTargetChoise = {
 	TargetAllHarmTorpedoBullet = function (slot0)
 		return slot0:TargetAllHarmBulletByType(ys.Battle.BattleConst.BulletType.TORPEDO)
 	end,
+	TargetFleetIndex = function (slot0, slot1)
+		slot3 = TeamType.TeamPos
+		slot4 = slot1.fleetPos
+		slot5 = {}
+
+		for slot10, slot11 in ipairs(slot6) do
+			if slot4 == slot3.FLAG_SHIP and slot11 == slot2:GetFlagShip() then
+				table.insert(slot5, slot11)
+			elseif slot4 == slot3.LEADER and slot11 == slot2:GetScoutList()[1] then
+				table.insert(slot5, slot11)
+			elseif slot4 == slot3.REAR and slot11 == slot2:GetScoutList()[#slot2:GetScoutList()] then
+				table.insert(slot5, slot11)
+			elseif slot4 == slot3.CONSORT then
+				table.insert(slot5, slot11)
+			end
+		end
+
+		slot7 = slot2:GetSubList()
+
+		for slot11, slot12 in ipairs(slot6) do
+			if slot4 == slot3.SUB_LEADER and slot11 == 1 then
+				table.insert(slot5, slot12)
+			elseif slot4 == slot3.SUB_CONSORT then
+				table.insert(slot5, slot12)
+			end
+		end
+
+		return slot5
+	end,
 	TargetPlayerVanguardFleet = function (slot0, slot1, slot2)
 		slot4 = ys.Battle.BattleDataProxy.GetInstance():GetFleetByIFF(slot0:GetIFF()):GetScoutList()
 

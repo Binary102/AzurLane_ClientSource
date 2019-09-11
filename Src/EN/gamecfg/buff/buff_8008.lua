@@ -5,19 +5,19 @@ return {
 	picture = "",
 	desc = "自爆船冲撞自杀buff加速等效果",
 	stack = 1,
-	id = 8007,
-	icon = 8007,
+	id = 8008,
+	icon = 8008,
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffAddAttrRatio",
+			type = "BattleBuffFixVelocity",
 			trigger = {
 				"onAttach"
 			},
 			arg_list = {
 				group = 8003,
-				number = -8000,
-				attr = "velocity"
+				add = 0,
+				mul = -8000
 			}
 		},
 		{

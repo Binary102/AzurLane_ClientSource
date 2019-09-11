@@ -17,8 +17,8 @@ slot1 = {
 		className = "ChargeAwardPage",
 		uiName = "chargeawardpage"
 	},
-	[ActivityConst.ACTIVITY_TYPE_RETURN_AWARD_ID] = {
-		className = "ReturnAwardPage",
+	[ActivityConst.ACTIVITY_TYPE_RETURN_AWARD_ID2] = {
+		className = "Returner.ReturnAwardPage",
 		uiName = "returnawardpage"
 	},
 	[ActivityConst.SUB_RED_POCKET] = {
@@ -184,6 +184,26 @@ slot1 = {
 	[ActivityConst.SITANLI_LOGIN_ID] = {
 		className = "SitanliLoginPage",
 		uiName = "sitanliloginpage"
+	},
+	[ActivityConst.ACTIVITY_ID_STORY_AWARD] = {
+		className = "StoryAwardPage",
+		uiName = "storyawardpage"
+	},
+	[ActivityConst.ANNIVERSARY_LOGIN_ID] = {
+		className = "AnniversaryLoginPage",
+		uiName = "anniversaryloginpage"
+	},
+	[ActivityConst.YIDALI_PT_ID] = {
+		className = "YidaliPTPage",
+		uiName = "yidaliptpage"
+	},
+	[ActivityConst.YIDALI_MAIN_ID] = {
+		className = "YidaliMainPage",
+		uiName = "yidalimainpage"
+	},
+	[ActivityConst.CARDPAIR_ZQ] = {
+		className = "CardPairZQPage",
+		uiName = "cardpairzqpage"
 	}
 }
 slot2 = {}

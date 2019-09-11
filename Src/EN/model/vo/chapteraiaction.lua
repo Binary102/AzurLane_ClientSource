@@ -50,13 +50,18 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 			end)
 		elseif slot5.type == ChapterConst.LBHarbor then
 			if not slot0.hp_del or slot0.hp_del <= 0 then
-				return
+				slot3()
 			end
 
 			slot2.viewComponent.grid:PlayAttachmentEffect(slot4.row, slot4.column, "huoqiubaozha", Vector2(0, 0))
 			slot3()
 		elseif slot5.type == ChapterConst.LBDock then
 			slot3()
+		elseif slot5.type == ChapterConst.LBAntiAir then
+			slot2.viewComponent:doPlayAnim("AntiAirFire", function (slot0)
+				setActive(slot0, false)
+				slot0.viewComponent.grid:PlayChampionInsideEffect(slot1.stgTarget.row, slot1.stgTarget.column, "huoqiubaozha", slot0.viewComponent.grid)
+			end)
 		end
 
 		return
@@ -107,6 +112,8 @@ function slot0.applyTo(slot0, slot1, slot2)
 			return slot0:applyToHarbor(slot1, slot3, slot2)
 		elseif slot4.type == ChapterConst.LBDock then
 			return slot0:applyToDock(slot1, slot3, slot2)
+		elseif slot4.type == ChapterConst.LBAntiAir then
+			return slot0:applyToAntiAir(slot1, slot3, slot2)
 		else
 			return false, "Trouble with Attach LandBased"
 		end
@@ -323,6 +330,37 @@ function slot0.applyToDock(slot0, slot1, slot2, slot3)
 	end
 
 	return true, slot4
+end
+
+function slot0.applyToAntiAir(slot0, slot1, slot2, slot3)
+	if slot2.flag == 1 then
+		return false, "can not apply ai to dead antiairGun at: [" .. slot0.line.row .. ", " .. slot0.line.column .. "]"
+	end
+
+	slot4 = 0
+	slot5 = 0
+
+	if not slot1:getChampion(slot0.stgTarget.row, slot0.stgTarget.column) then
+		return false, "can not find champion at: [" .. slot0.stgTarget.row .. ", " .. slot0.stgTarget.column .. "]"
+	end
+
+	if not slot3 then
+		slot1:RemoveChampion(slot6)
+
+		slot4 = bit.bor(slot4, ChapterConst.DirtyChampion, ChapterConst.DirtyAttachment)
+
+		_.each(slot0.cellUpdates, function (slot0)
+			if isa(slot0, ChapterChampionPackage) then
+				merge = slot0:mergeChampion(slot0)
+			else
+				slot0:mergeChapterCell(slot0)
+
+				slot1 = bit.bor(bit.bor, ChapterConst.DirtyAttachment)
+			end
+		end)
+	end
+
+	return true, slot4, slot5
 end
 
 return slot0

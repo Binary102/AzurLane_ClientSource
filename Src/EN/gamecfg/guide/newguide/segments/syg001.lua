@@ -205,7 +205,6 @@ return {
 				posX = 0
 			},
 			ui = {
-				pathIndex = 0,
 				scale = 1.5,
 				path = "/OverlayCamera/Overlay/UIMain/main/frame/panel/scrollview/ships/tpl/addtpl",
 				triggerType = {

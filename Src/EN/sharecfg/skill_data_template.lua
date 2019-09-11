@@ -6086,6 +6086,17 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6450] = {
+		desc_get = "",
+		name = "Overheating",
+		desc = "Increases the Volley DMG of the ship this gun is equipped to by 10.0%; after firing 2 Volleys, the next Volley will have its reload time increased by 30.0%. This effect will then reset.",
+		type = 0,
+		max_level = 0,
+		id = 6450,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "Rhine Drill",
@@ -19753,6 +19764,154 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[11770] = {
+		desc_get = "",
+		name = "Darkness Field",
+		desc = "Decreases this ship's DMG taken from Burning and from Bombing Ships by $2 and decreases its DMG taken from HE ammo by $3. Also increases this ship's Auxiliary Gun Crit Rate by $1 and makes it ignore enemy armor type (DMG modifier is based on the skill's level.)",
+		type = 3,
+		max_level = 10,
+		id = 11770,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"40%",
+				"70%"
+			},
+			{
+				"20%",
+				"40%"
+			},
+			{
+				"5%",
+				"15%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
 	[11780] = {
 		desc_get = "",
 		name = "Ageless Phoenix ",
@@ -21435,8 +21594,8 @@ pg.skill_data_template = {
 	},
 	[12160] = {
 		desc_get = "",
-		name = "The Glory of the Never-Setting Sun",
-		desc = "Increases this ship's DMG against Sakura Empire, Iron Blood, Sardegna Empire, and Siren ships by $1. When your fleet contains 3 or more Royal Navy ships (excluding this ship): increases this ship's FP, RLD, EVA, and AA by $2.",
+		name = "The Glory of the Never-Setting Sun ",
+		desc = "Increases this ship's DMG against Sakura Empire, Iron Blood, Sardegna Empire, and Siren ships by $1. When your fleet contains 3 or more Royal Navy ships (excluding this ship): increases this ship's FP, RLD, EVA, and AA by $2. ",
 		type = 3,
 		max_level = 10,
 		id = 12160,
@@ -24073,6 +24232,1176 @@ pg.skill_data_template = {
 				},
 				{
 					"30.0%"
+				}
+			}
+		}
+	},
+	[12570] = {
+		desc_get = "",
+		name = "Supporting Wings",
+		desc = "Increases this ship's AVI by $2. While this ship has a Fairey Albacore equipped: increases the gear efficiency of the slot(s) in which the Fairey Albacore is equipped by $1. When this ship launches an Airstrike: $3 chance to launch a special Fairey Albacore airstrike with an 80.0% chance to cause Flooding DMG for 9s to enemies hit. DMG is based on the skill's level and this ship's AVI stat.",
+		type = 1,
+		max_level = 10,
+		id = 12570,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"70.0%",
+				"100.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"70.0%",
+					"+3.3%"
+				},
+				{
+					"73.3%",
+					"+3.3%"
+				},
+				{
+					"76.6%",
+					"+3.3%"
+				},
+				{
+					"79.9%",
+					"+3.3%"
+				},
+				{
+					"83.2%",
+					"+3.3%"
+				},
+				{
+					"86.5%",
+					"+3.3%"
+				},
+				{
+					"89.8%",
+					"+3.3%"
+				},
+				{
+					"93.1%",
+					"+3.3%"
+				},
+				{
+					"96.4%",
+					"+3.6%"
+				},
+				{
+					"100%"
+				}
+			}
+		}
+	},
+	[12580] = {
+		desc_get = "",
+		name = "Don't Move An Inch!",
+		desc = "When this ship launches an Airstrike: $1 chance to set the Speed of all enemies to 0 for $2s. After that, this effect will fade for 2.5s before completely ending. This skill will always activate on the ship's first Airstrike launch of each battle.",
+		type = 3,
+		max_level = 10,
+		id = 12580,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"70.0%",
+				"100.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"70.0%",
+					"+3.3%"
+				},
+				{
+					"73.3%",
+					"+3.3%"
+				},
+				{
+					"76.6%",
+					"+3.3%"
+				},
+				{
+					"79.9%",
+					"+3.3%"
+				},
+				{
+					"83.2%",
+					"+3.3%"
+				},
+				{
+					"86.5%",
+					"+3.3%"
+				},
+				{
+					"89.8%",
+					"+3.3%"
+				},
+				{
+					"93.1%",
+					"+3.3%"
+				},
+				{
+					"96.4%",
+					"+3.6%"
+				},
+				{
+					"100%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[12590] = {
+		desc_get = "",
+		name = "Armoured Hangar",
+		desc = "Decreases this ship's DMG taken by $1. When this ship launches an Airstrike: decreases your Main Fleet's DMG taken (excluding this ship) by $2 for 10s.",
+		type = 2,
+		max_level = 10,
+		id = 12590,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"3.5%",
+				"8.0%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	},
+	[12600] = {
+		desc_get = "",
+		name = "Rosa Bombardamento",
+		desc = "When this ship fires a Salvo: $1 chance to fire a special barrage (DMG is based on the skill's level.) While this ship has the Triple 381mm Main Gun (M1934) equipped: improves the barrage and increases its proc chance by 10.0%.",
+		type = 1,
+		max_level = 10,
+		id = 12600,
+		system_transform = {
+			12605,
+			12605,
+			nil,
+			12605,
+			nil,
+			12605,
+			nil,
+			12605,
+			12605
+		},
+		desc_get_add = {
+			{
+				"35.0%",
+				"65.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"35.0%",
+					"+3.3%"
+				},
+				{
+					"38.3%",
+					"+3.3%"
+				},
+				{
+					"41.6%",
+					"+3.3%"
+				},
+				{
+					"44.9%",
+					"+3.3%"
+				},
+				{
+					"48.2%",
+					"+3.3%"
+				},
+				{
+					"51.5%",
+					"+3.3%"
+				},
+				{
+					"54.8%",
+					"+3.3%"
+				},
+				{
+					"58.1%",
+					"+3.3%"
+				},
+				{
+					"61.4%",
+					"+3.6%"
+				},
+				{
+					"65.0%"
+				}
+			}
+		}
+	},
+	[12610] = {
+		desc_get = "",
+		name = "Sardegnian Discipline",
+		desc = "At the start of the battle, deploys 2 shields that can each block up to $1 enemy torpedoes around this ship and the ship in the frontmost position in your Vanguard. Additionally, increases this ship's FP by $2 for its first 3 battles of each sortie.",
+		type = 3,
+		max_level = 10,
+		id = 12610,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"1",
+				"2"
+			},
+			{
+				"4.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1"
+				},
+				{
+					"1"
+				},
+				{
+					"1"
+				},
+				{
+					"1"
+				},
+				{
+					"1"
+				},
+				{
+					"1"
+				},
+				{
+					"2"
+				},
+				{
+					"2"
+				},
+				{
+					"2"
+				},
+				{
+					"2"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+1.6%"
+				},
+				{
+					"5.6%",
+					"+1.6%"
+				},
+				{
+					"7.2%",
+					"+1.6%"
+				},
+				{
+					"8.8%",
+					"+1.6%"
+				},
+				{
+					"10.4%",
+					"+1.6%"
+				},
+				{
+					"12.0%",
+					"+2.0%"
+				},
+				{
+					"14.0%",
+					"+2.0%"
+				},
+				{
+					"16.0%",
+					"+2.0%"
+				},
+				{
+					"18.0%",
+					"+2.0%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[12620] = {
+		desc_get = "",
+		name = "Terni Shields",
+		desc = "When this ship takes DMG: $1 chance to deploy 2 shields that can each block up to 10 shells (shields last for 12s.)",
+		type = 2,
+		max_level = 10,
+		id = 12620,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"8.0%",
+				"18.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"8.0%",
+					"+1.1%"
+				},
+				{
+					"9.1%",
+					"+1.1%"
+				},
+				{
+					"10.2%",
+					"+1.1%"
+				},
+				{
+					"11.3%",
+					"+1.1%"
+				},
+				{
+					"12.4%",
+					"+1.1%"
+				},
+				{
+					"13.5%",
+					"+1.1%"
+				},
+				{
+					"14.6%",
+					"+1.1%"
+				},
+				{
+					"15.7%",
+					"+1.1%"
+				},
+				{
+					"16.8%",
+					"+1.2%"
+				},
+				{
+					"18.0%"
+				}
+			}
+		}
+	},
+	[12630] = {
+		desc_get = "",
+		name = "Semi-Armor Piercing High-Explosive",
+		desc = "While this ship has an HE or SAP Main Gun equipped: increases its Main Gun DMG dealt by $1 but loses the ability to ignite enemies. While this ship has an AP Main Gun equipped: $2 chance to cause enemies hit with the gun to take $3 more DMG from this ship for 10s.",
+		type = 1,
+		max_level = 10,
+		id = 12630,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[12640] = {
+		desc_get = "",
+		name = "Sardegnian Coercion",
+		desc = "When this ship fires a Salvo: $1 chance to fire a special barrage. Barrage DMG is based on the skill's level.",
+		type = 1,
+		max_level = 10,
+		id = 12640,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"20.0%",
+				"50.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20.0%",
+					"+3.3%"
+				},
+				{
+					"23.3%",
+					"+3.3%"
+				},
+				{
+					"26.6%",
+					"+3.3%"
+				},
+				{
+					"29.9%",
+					"+3.3%"
+				},
+				{
+					"33.2%",
+					"+3.3%"
+				},
+				{
+					"36.5%",
+					"+3.3%"
+				},
+				{
+					"39.8%",
+					"+3.3%"
+				},
+				{
+					"43.1%",
+					"+3.3%"
+				},
+				{
+					"46.4%",
+					"+3.6%"
+				},
+				{
+					"50%"
+				}
+			}
+		}
+	},
+	[12650] = {
+		desc_get = "",
+		name = "Fading Memories of Glory",
+		desc = "10s after the battle starts: fires a $3 torpedo barrage (DMG is based on the skill's level and this ship's TRP stat.) 5s after this ship fires its first Volley: for the rest of the battle, increases this ship's FP by $1, DMG dealt to enemy CLs by $2, and sets this ship's TRP stat to 0.",
+		type = 1,
+		max_level = 10,
+		id = 12650,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[12660] = {
+		desc_get = "",
+		name = "Ricarica!",
+		desc = "Increases this ship's Torpedo DMG by $1 for its first 3 Torpedo launches.",
+		type = 1,
+		max_level = 10,
+		id = 12660,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"30.0%",
+				"50.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"30.0%",
+					"+2.2%"
+				},
+				{
+					"32.2%",
+					"+2.2%"
+				},
+				{
+					"34.4%",
+					"+2.2%"
+				},
+				{
+					"36.6%",
+					"+2.2%"
+				},
+				{
+					"38.8%",
+					"+2.2%"
+				},
+				{
+					"41.0%",
+					"+2.2%"
+				},
+				{
+					"43.2%",
+					"+2.2%"
+				},
+				{
+					"45.4%",
+					"+2.2%"
+				},
+				{
+					"47.6%",
+					"+2.4%"
+				},
+				{
+					"50.0%"
+				}
+			}
+		}
+	},
+	[12670] = {
+		desc_get = "",
+		name = "Fuoco di Copertura!",
+		desc = "Every 20s, if this ship is in the backmost position of your Vanguard (there must be 2 or more ships alive in your Vanguard): $1 chance to increase this ship's DMG dealt by $2 and increase the DMG dealt by the ship in the frontmost position of your Vanguard by $3 for 10s.",
+		type = 3,
+		max_level = 10,
+		id = 12670,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
 				}
 			}
 		}
@@ -27005,6 +28334,72 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 24122,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[25011] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Soldati Class once every 15 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 25011,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[25012] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Soldati Class once every 10 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 25012,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[25211] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Trento Class once every 9 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 25211,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[25212] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Trento Class once every 6 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 25212,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[25221] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Zara Class once every 12 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 25221,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[25222] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Zara Class once every 8 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 25222,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -30008,6 +31403,7 @@ pg.skill_data_template = {
 		6411,
 		6415,
 		6440,
+		6450,
 		7000,
 		9010,
 		9020,
@@ -30201,6 +31597,7 @@ pg.skill_data_template = {
 		11740,
 		11750,
 		11760,
+		11770,
 		11780,
 		11790,
 		11800,
@@ -30250,6 +31647,17 @@ pg.skill_data_template = {
 		12540,
 		12550,
 		12560,
+		12570,
+		12580,
+		12590,
+		12600,
+		12610,
+		12620,
+		12630,
+		12640,
+		12650,
+		12660,
+		12670,
 		18010,
 		18040,
 		18050,
@@ -30424,6 +31832,12 @@ pg.skill_data_template = {
 		24112,
 		24121,
 		24122,
+		25011,
+		25012,
+		25211,
+		25212,
+		25221,
+		25222,
 		28011,
 		28012,
 		28021,

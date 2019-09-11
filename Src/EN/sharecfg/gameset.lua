@@ -384,7 +384,7 @@ pg.gameset = {
 	activity_res_id = {
 		description = "PT",
 		key = "activity_res_id",
-		key_value = 131
+		key_value = 133
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -746,9 +746,14 @@ pg.gameset = {
 		key_value = 450
 	},
 	vote_web_url = {
-		description = "vote.azurlane.jp",
+		description = "https://vote.azurlane.yo-star.com/",
 		key = "vote_web_url",
 		key_value = 0
+	},
+	skin_ticket = {
+		description = "",
+		key = "skin_ticket",
+		key_value = 136
 	}
 }
 

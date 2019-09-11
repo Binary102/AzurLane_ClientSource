@@ -7,6 +7,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
 	slot0.list = slot1.list
+	slot0.onWeb = slot1.onWeb
 
 	slot0:updateRankMap()
 end
@@ -60,6 +61,10 @@ function slot0.GetStage(slot0)
 	elseif pg.TimeMgr.GetInstance():inTime(slot3) then
 		return slot0.DISPLAY_STAGE
 	end
+end
+
+function slot0.getTimeDesc(slot0)
+	return table.concat(slot0:getConfig("time_vote")[1][1], ".") .. ((slot0:getConfig("type") == 1 and i18n("word_maintain")) or "(00:00)") .. " ~ " .. table.concat(slot1[2][1], ".") .. "(23:59)"
 end
 
 return slot0

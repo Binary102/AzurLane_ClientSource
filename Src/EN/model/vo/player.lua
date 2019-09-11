@@ -7,7 +7,6 @@ slot0.MAX_COMMANDER_BAG = 200
 slot0.ASSISTS_TYPE_SHAM = 0
 slot0.ASSISTS_TYPE_GUILD = 1
 slot0.CHANGE_NAME_KEY = 1
-slot0.SKIN_TICKET_RESOURCE = 0
 
 function id2res(slot0)
 	return slot0[slot0].name
@@ -39,6 +38,10 @@ function slot0.skin2Res(slot0)
 	end
 
 	return slot2, slot3
+end
+
+function slot0.getSkinTicket(slot0)
+	return (pg.gameset.skin_ticket.key_value == 0 and 0) or slot0:getResource(slot1)
 end
 
 function slot0.Ctor(slot0, slot1)

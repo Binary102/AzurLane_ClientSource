@@ -2811,6 +2811,471 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[160] = {
+		bullet_name = "zidan_rongyan",
+		name = "Lava Shell",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "The hottest shell on the market.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91711",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 160,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[161] = {
+		bullet_name = "zidan_kafeibei",
+		name = "Special Espresso Shell",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "Hell hath no fury like a woman scorned, or a shell that explodes in a shower of hot coffee.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91712",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 161,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[162] = {
+		bullet_name = "zidan_nailao",
+		name = "Cheese Shell",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "What a waste of fine Parmesan!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91713",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 162,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[163] = {
+		bullet_name = "paodan_yidalimian",
+		name = "Spaghetti Shell",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "It's spaghetti, so no penne-ful puns to be found here.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91714",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 163,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[164] = {
+		bullet_name = "paodan_zuqiu",
+		name = "Football Shell",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "Or \"soccer shell\" for people across the pond.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91715",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 164,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[165] = {
+		bullet_name = "paodan_pisa",
+		name = "Pizza Shell",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "Poor little fella survived being thrown onto a roof only to then be shot out of a cannon.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91716",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 165,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[166] = {
+		bullet_name = "yulei_bingqilin",
+		name = "Gelato Torpedo",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "♫ Molto obbligato, Mr. Gelato ♫",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91721",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 166,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[167] = {
+		bullet_name = "yulei_hongjiu",
+		name = "Vino Torpedo",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "\"We shall christen our enemies to smithereens! With wine!\"",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91722",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 167,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[168] = {
+		bullet_name = "yulei_jianbing",
+		name = "Piadini Torpedo",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "A classic flatbread dish best served cold, just like revenge.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91723",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 168,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[169] = {
+		bullet_name = "feiji_xieta",
+		name = "Pisa Manjuu (Torpedo)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "\"You call a 5 degree tilt impressive? Hold my beer.\"",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91731",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 169,
+		derivate_torpedo = "yulei_bingqilin",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[170] = {
+		bullet_name = "feiji_xieta",
+		name = "Pisa Manjuu (Fighter)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "\"You call a 5 degree tilt impressive? Hold my beer.\"",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_zuqiu",
+		icon = "91731",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 170,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[171] = {
+		bullet_name = "feiji_xieta",
+		name = "Pisa Manjuu (Bomber)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "\"You call a 5 degree tilt impressive? Hold my beer.\"",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_zuqiu",
+		icon = "91731",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 171,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[172] = {
+		bullet_name = "feiji_gongduola",
+		name = "Gondola Manjuu (Torpedo)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "The oars have been repurposed as wings. Extremely inefficient, but it works.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91732",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 172,
+		derivate_torpedo = "yulei_jianbing",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[173] = {
+		bullet_name = "feiji_gongduola",
+		name = "Gondola Manjuu (Fighter)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "The oars have been repurposed as wings. Extremely inefficient, but it works.",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_pisa",
+		icon = "91732",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 173,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[174] = {
+		bullet_name = "feiji_gongduola",
+		name = "Gondola Manjuu (Bomber)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "The oars have been repurposed as wings. Extremely inefficient, but it works.",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_pisa",
+		icon = "91732",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 174,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[175] = {
+		bullet_name = "feiji_yugang",
+		name = "Bathtub Manjuu (Torpedo)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "The Manjuu likes to exclaim \"Eureka!\" when it hits the target.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91733",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 175,
+		derivate_torpedo = "yulei_hongjiu",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[176] = {
+		bullet_name = "feiji_yugang",
+		name = "Bathtub Manjuu (Fighter)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "The Manjuu likes to exclaim \"Eureka!\" when it hits the target.",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_yidalimian",
+		icon = "91733",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 176,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[177] = {
+		bullet_name = "feiji_yugang",
+		name = "Bathtub Manjuu (Bomber)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "The Manjuu likes to exclaim \"Eureka!\" when it hits the target.",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_yidalimian",
+		icon = "91733",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 177,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		bullet_name = "Nep_bullet_shizi",
 		name = "Joypad Shell (P)",
@@ -3804,6 +4269,24 @@ pg.equip_skin_template = {
 		155,
 		156,
 		157,
+		160,
+		161,
+		162,
+		163,
+		164,
+		165,
+		166,
+		167,
+		168,
+		169,
+		170,
+		171,
+		172,
+		173,
+		174,
+		175,
+		176,
+		177,
 		1001,
 		1002,
 		1003,

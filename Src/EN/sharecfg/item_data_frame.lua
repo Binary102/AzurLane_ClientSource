@@ -24,6 +24,22 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Clear Challenge Mode for the first time to obtain.</color>\n(19.08.07-19.09.29)",
 		scene = {}
 	},
+	[300] = {
+		name = "Leader ",
+		time_second = 2592000,
+		id = 300,
+		time_limit_type = 1,
+		desc = "<color=#ffffff>Can be unlocked by collecting points from Returnee Missions. </color>\n(Lasts for 30 days)",
+		scene = {}
+	},
+	[301] = {
+		name = "Returnee",
+		time_second = 2592000,
+		id = 301,
+		time_limit_type = 1,
+		desc = "Welcome back to the Admiralty, Commander. We expect great things from you.",
+		scene = {}
+	},
 	[302] = {
 		name = "The Iron Blood Oath",
 		time_second = 0,
@@ -52,6 +68,8 @@ pg.item_data_frame = {
 		0,
 		101,
 		201,
+		300,
+		301,
 		302,
 		303,
 		304

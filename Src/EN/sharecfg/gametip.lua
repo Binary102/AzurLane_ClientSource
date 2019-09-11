@@ -4075,6 +4075,10 @@ pg.gametip = {
 		tip = "Dragon Empery",
 		key = "word_shipNation_dongHuang"
 	},
+	word_shipNation_saDing = {
+		tip = "Sardegna Empire ",
+		key = "word_shipNation_saDing"
+	},
 	word_shipNation_beiLian = {
 		tip = "Northern Parliament",
 		key = "word_shipNation_beiLian"
@@ -5489,6 +5493,12 @@ Attack/Support Range Level:
 	help_battle_defense = {
 		key = "help_battle_defense",
 		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_defense_6"
+				}
+			},
 			{
 				icon = {
 					path = "",
@@ -7694,7 +7704,7 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		key = "activity_switch_award_pool_failed"
 	},
 	shop_street_activity_tip = {
-		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>08.22 – 09.04</COLOR>)!",
+		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>09.11 – 09.25</COLOR>)!",
 		key = "shop_street_activity_tip"
 	},
 	twitter_link_title = {
@@ -7765,32 +7775,28 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		key = "card_pairs_help_tip",
 		tip = {
 			{
-				info = "Game Rules:\n"
+				info = "Event Information："
 			},
 			{
-				info = " <color=#A1E400FF>1. Every day at 0:00:00 for the duration of the event, you\n get 1 Round that can be used to acquire a Memory Card.\n You can hold up to a maximum of 10 Rounds.</color>"
+				info = " <color=#A1E400FF>1. You can obtain a “Mooncake” every day\nbeginning at midnight.</color>"
 			},
 			{
-				info = " 2. When you match 2 identical cards on the board, they will\n disappear."
+				info = " 2. Clear the board by flipping cards two at a time.\nFlipping over two identical cards will clear them\nfrom the playing field."
 			},
 			{
-				info = " 3. The game's timer starts ticking when you flip the first\n card."
+				info = " 3. The timer begins from the moment the player\nflips over the first card."
 			},
 			{
-				info = " 4. When you have matched all the cards with their pairs, you\n will get a Memory Card if you have 1 or more Rounds\n remaining. This will then consume 1 Round."
+				info = " 4. When the board has been fully cleared, a\n”Mooncake” will be awarded if there are still Mooncakes\navailable for that day."
 			},
 			{
-				info = " 5. When you have matched all the cards, you can tap\n anywhere to play the game again."
+				info = " 5. When the board has been fully cleared, tap on any\nspace to begin a new game."
 			},
 			{
-				info = " 6.When you have collected 10 Memory Cards, you will\n receive Houshou's skin."
+				info = " 6. Collect 7 “Mooncakes”’ to automatically unlock\nthe outfit: “Mooncake Merchant."
 			},
 			{
-				info = [[
- 7. Your fastest clearing record will be displayed on the
- event page.
-
-]]
+				info = " 7. Players may play the game as many times as\ndesired. The best score will be shown on the\nEvent page."
 			}
 		}
 	},
@@ -8799,7 +8805,7 @@ with Anti-Sub gear.
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "Rate Up characters: Essex, Taihou, and Le Téméraire",
+		tip = "Rate Up characters: Formidable, Zara, Giulio Cesare",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -10171,27 +10177,19 @@ From now till forever, our fates are bound together.
 			{
 				info = [[
 Event Information: 
-1. This event and the rewards you can receive from it are split into 2 categories depending on the player's last login status: 
+
+1. This event and the rewards you can receive from it are split into 2 categories depending on your last login status: 
  a. Active Commander 
- b. Returning Commander 
-2. All commanders that have reached Level 15 or higher may participate in this event. 
-3. If a player matches any of the following criteria, they are considered an Active Commander and are eligible for Active Commander rewards: 
- a. The player has reached Level 15 or higher before the May 20th maintenance period and has logged in at least once between April 20th to May 20th. 
- b. The player hasn't reached Level 15 before the May 20th maintenance period, but reached it during the duration of this event. 
- c. The player registered after the May 20th maintenance period and achieved Level 15 during the duration of this event. 
-4. If the player doesn't match any of the above criteria, they are considered a Returning Commander and are eligible for Returning Commander rewards. 
-5. If you are unsure whether you are an Active Commander or a Returning Commander, please view the information in the Returnee Missions banner. 
-Active Commanders: 
-1. You can earn rewards based upon the total Returnee Points collected. 
-2. You can receive Returnee Points from up to 3 Returning Commanders. 
-3. Give your User ID (found on your event banner) to Returning Commanders to start earning points. 
-4. Returning Commanders can participate in Returnee missions by entering your UID into the event banner on their end. 
-5. You can see the User IDs of your linked Returning Commanders on the right side of the event banner. 
-Returning Commanders: 
-1. Take part in Returnee missions by entering an Active Commander's User ID into your event banner. 
-2. Receive various awards by completing new personal missions that are unlocked each day. 
-3. A single User ID can be entered up to 3 times.
-4. You can still enter an Active Commander’s User ID even if they play on a different server.]]
+ b. Returning/New Commander
+2. Players who meet the following criterion are categorized as Active Commanders and are eligible for Active Commander objectives and rewards: 
+- Logged in at least once at any point between August 11th, 2019 and before the maintenance on September 11th, 2019.
+3. Players who do not meet this criterion are categorized as Returning/New Commanders and are eligible for their own set of objectives and rewards.
+4. If you are unsure whether you are an Active Commander or a Returning/New Commander, please view the information in the Returnee Missions banner. 
+5. An Active Commander's objective is to receive Returnee Points from up to 2 other players who participate in and complete Returnee Missions. Once an Active Commander has collected enough points, they can claim various nice rewards from the event banner.
+6. Returning/New Commanders can participate in Returnee Missions by entering the UID of an Active Commander into the event banner on their end. You can see the UIDs of your linked Returning/New Commanders on the right side of the event banner. 
+7. Active Commanders can tap the "Send Mobilization Request" button to show their UID to Returning/New Commanders who are looking for Active Commander UIDs.
+8. A Returning/New Commander's objective is to enter an Active Commander's UID in the event banner to gain access to Returnee Missions. Returning/New Commanders who participate in Returnee Missions gain access to daily tasks which give various nice rewards when completed.
+9. A single UID can be entered up to 2 times. You can still enter the UID of another player even if they play on a different server than you.]]
 			}
 		}
 	},
@@ -10272,6 +10270,22 @@ Returning Commanders:
 	bismarck_chapter_desc = {
 		tip = "Participate in \"Scherzo of Iron and Blood\" and complete tasks to acquire rare items. ",
 		key = "bismarck_chapter_desc"
+	},
+	returner_push_success = {
+		tip = "Automatic UID Search enabled. ",
+		key = "returner_push_success"
+	},
+	returner_max_count = {
+		tip = "The Returning/New Commander list is full.",
+		key = "returner_max_count"
+	},
+	returner_push_tip = {
+		tip = "Enabling Automatic UID Search will input your UID in the fields of Returning/New Commanders looking for Active Commander UIDs. Would you like to continue?",
+		key = "returner_push_tip"
+	},
+	returner_match_tip = {
+		tip = "A <color=#FF5C5C>random Active Commander's</color> UID will be input and you will become eligible for Returnee Missions. Would you like to continue?",
+		key = "returner_match_tip"
 	},
 	challenge_help = {
 		key = "challenge_help",
@@ -10870,6 +10884,10 @@ Voting Schedule:
 	result_firework_produce = {
 		tip = "Fireworks production has been completed. Your final rating: ",
 		key = "result_firework_produce"
+	},
+	tag_level_narrative = {
+		tip = "Story",
+		key = "tag_level_narrative"
 	},
 	vote_get_book = {
 		tip = "You obtained a Certificate of Support.",

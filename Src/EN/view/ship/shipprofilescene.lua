@@ -1114,7 +1114,7 @@ function slot0.showChat(slot0, slot1, slot2, slot3)
 
 	if slot2 then
 		if findTF(slot0.painting, "fitter").childCount > 0 then
-			Ship.SetExpression(findTF(slot0.painting, "fitter"):GetChild(0), slot0.paintingName, "main_" .. slot2)
+			Ship.SetExpression(findTF(slot0.painting, "fitter"):GetChild(0), slot0.paintingName, "main_" .. slot2, slot3)
 		end
 
 		slot4, slot5 = Ship.getWords(slot0.currentSkin.id, "main", slot2, nil, slot3)
@@ -1122,7 +1122,7 @@ function slot0.showChat(slot0, slot1, slot2, slot3)
 		slot7 = Ship.getL2dSoundEffect(slot0.currentSkin.id, "main", slot2)
 	else
 		if findTF(slot0.painting, "fitter").childCount > 0 then
-			Ship.SetExpression(findTF(slot0.painting, "fitter"):GetChild(0), slot0.paintingName, slot1)
+			Ship.SetExpression(findTF(slot0.painting, "fitter"):GetChild(0), slot0.paintingName, slot1, slot3)
 		end
 
 		slot4, slot5 = Ship.getWords(slot0.currentSkin.id, slot1, nil, nil, slot3)

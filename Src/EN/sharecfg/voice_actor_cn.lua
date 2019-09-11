@@ -799,6 +799,14 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Rimo Hasegawa",
 		code = 200
+	},
+	{
+		actor_name = "Ayaka Shimizu",
+		code = 201
+	},
+	{
+		actor_name = "Rika Tachibana",
+		code = 202
 	}
 }
 

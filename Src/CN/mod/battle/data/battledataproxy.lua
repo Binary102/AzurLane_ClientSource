@@ -580,10 +580,7 @@ function slot8.SpawnMonster(slot0, slot1, slot2, slot3, slot4, slot5)
 
 	slot0._cldSystem:InitShipCld(slot11)
 	slot11:SummonSickness(slot2.SUMMONING_SICKNESS_DURATION)
-
-	if slot1.moveCast then
-		slot11:SetMoveCast()
-	end
+	slot11:SetMoveCast(slot1.moveCat == true)
 
 	if slot11:GetIFF() == slot3.FRIENDLY_CODE then
 		slot0._friendlyShipList[slot6] = slot11

@@ -20,7 +20,8 @@ slot0.NationOrder = {
 	Nation.CN,
 	Nation.SN,
 	Nation.FF,
-	Nation.MNF
+	Nation.MNF,
+	Nation.ITA
 }
 slot0.NationResName = {
 	"nation_all_",
@@ -31,7 +32,8 @@ slot0.NationResName = {
 	"nation_donghuang_",
 	"nation_beilian_",
 	"nation_ziyou_",
-	"nation_weixi_"
+	"nation_weixi_",
+	"nation_sading_"
 }
 slot0.TECH_NATION_ATTRS = {
 	AttributeType.Durability,

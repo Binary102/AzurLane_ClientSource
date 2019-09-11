@@ -3236,6 +3236,49 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[151] = {
+		can_rotate = 0,
+		name = "撒丁纪念章",
+		gain_by = "神圣的悲喜剧",
+		type = 7,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 1,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 500,
+		not_for_sale = 1,
+		icon = "ydlxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		tag = 6,
+		rarity = 5,
+		picture = "chuanmo/ydlxunzhang",
+		canputon = 0,
+		discount = 0,
+		id = 151,
+		comfortable = 0,
+		describe = "制作精良并且保存慎重的勋章，从中可以感受到撒丁帝国的荣光——纪念参与[神圣的悲喜剧」特殊作战中获得的最高荣誉",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		can_rotate = 0,
 		name = "本ID禁用，后端固定会删除",
@@ -90605,6 +90648,2246 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[48001] = {
+		can_rotate = 0,
+		name = "撒丁风情地面",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		belong = 0,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "dibanydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 4,
+		rarity = 4,
+		picture = "yidali/dibanydl",
+		canputon = 0,
+		discount = 0,
+		id = 48001,
+		comfortable = 4,
+		describe = "领略迷人的撒丁文化与风情吧~",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48002] = {
+		can_rotate = 0,
+		name = "撒丁风情墙纸",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		belong = 0,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "qiaingbiapicon",
+		deblocking = 1,
+		level = 5,
+		tag = 3,
+		rarity = 4,
+		picture = "yidali/qiangbiydl",
+		canputon = 0,
+		discount = 0,
+		id = 48002,
+		comfortable = 4,
+		describe = "领略迷人的撒丁文化与风情吧~",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48101] = {
+		can_rotate = 0,
+		name = "迷人彩虹",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "caihongydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "yidali/caihongydl",
+		canputon = 0,
+		discount = 0,
+		id = 48101,
+		comfortable = 3,
+		describe = "雨后的彩虹，给人焕然一新的感觉",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48102] = {
+		can_rotate = 0,
+		name = "广场鸽子",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 3,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "geziydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/geziydl",
+		canputon = 0,
+		discount = 0,
+		id = 48102,
+		comfortable = 2,
+		describe = "不要轻易喂食，否则后果自负哦？",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48103] = {
+		can_rotate = 0,
+		name = "花瓣地饰",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 4,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "hua2ydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/hua2ydl",
+		canputon = 0,
+		discount = 0,
+		id = 48103,
+		comfortable = 2,
+		describe = "来点花瓣点缀一下小镇吧",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48104] = {
+		can_rotate = 0,
+		name = "长条花圃",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "huapu2ydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/huapu2ydl",
+		canputon = 0,
+		discount = 0,
+		id = 48104,
+		comfortable = 2,
+		describe = "为城市加点新鲜的绿意~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48105] = {
+		can_rotate = 0,
+		name = "方块花圃",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 4,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "huapuydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/huapuydl",
+		canputon = 0,
+		discount = 0,
+		id = 48105,
+		comfortable = 2,
+		describe = "为城市加点新鲜的绿意~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48106] = {
+		advice = 0,
+		name = "街头画摊",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "yidali/huaydl",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "huaydlicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 48106,
+		comfortable = 3,
+		describe = "要不要为您画一张画像呢？",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-50,
+					-18
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48107] = {
+		can_rotate = 0,
+		name = "井盖",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jinggaiydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/jinggaiydl",
+		canputon = 0,
+		discount = 0,
+		id = 48107,
+		comfortable = 2,
+		describe = "撒丁帝国的排水设施，安定可靠！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48108] = {
+		can_rotate = 0,
+		name = "街头路灯",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "ludengydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/ludengydl",
+		canputon = 0,
+		discount = 0,
+		id = 48108,
+		comfortable = 2,
+		describe = "晚上也不用担心看不到路！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48109] = {
+		can_rotate = 0,
+		name = "街头告示牌",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "lupaiydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/lupaiydl",
+		canputon = 0,
+		discount = 0,
+		id = 48109,
+		comfortable = 2,
+		describe = "述说着街道的历史和风光~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48110] = {
+		can_rotate = 1,
+		name = "披萨店广告A",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "paizi1ydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/paizi1ydl",
+		canputon = 0,
+		discount = 0,
+		id = 48110,
+		comfortable = 2,
+		describe = "撒丁风情海鲜披萨，热卖中！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48111] = {
+		can_rotate = 1,
+		name = "披萨店广告B",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "paizi2ydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/paizi2ydl",
+		canputon = 0,
+		discount = 0,
+		id = 48111,
+		comfortable = 2,
+		describe = "总有一种口味是你喜欢的，不来看看吗~？",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48112] = {
+		can_rotate = 0,
+		name = "甜点广告",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "paizi3ydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/paizi3ydl",
+		canputon = 0,
+		discount = 0,
+		id = 48112,
+		comfortable = 2,
+		describe = "要来块蛋糕吗？",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48113] = {
+		advice = 0,
+		name = "披萨店",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "yidali/pisawuydl",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "pisawuydlicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 48113,
+		comfortable = 3,
+		describe = "外卖同步开通中~",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					65,
+					-38
+				},
+				{
+					1,
+					1
+				},
+				"yidali/pisawuydl_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48114] = {
+		advice = 0,
+		name = "白色石桥",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "yidali/qiaoydl",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "qiaoydlicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 48114,
+		comfortable = 3,
+		describe = "造型优美的白色石桥，代表着撒丁帝国的建筑工艺~",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			13
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-55,
+					-3
+				},
+				{
+					-1,
+					1
+				},
+				"yidali/qiaoydl_using"
+			},
+			{
+				"stand2",
+				{
+					210.8,
+					-222.3
+				},
+				{
+					-1,
+					1
+				},
+				"yidali/qiaoydl_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48115] = {
+		advice = 0,
+		name = "啾啾喷水池",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "yidali/shuichiydl",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "shuichiydlicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 48115,
+		comfortable = 3,
+		describe = "似乎有种圣洁的氛围……",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-106.8,
+					-51.9
+				},
+				{
+					-1,
+					1
+				},
+				"yidali/shuichiydl_using"
+			},
+			{
+				"wash",
+				{
+					106.9,
+					-59.9
+				},
+				{
+					-1,
+					1
+				},
+				"yidali/shuichiydl_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48116] = {
+		can_rotate = 0,
+		name = "绿色行道树",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "shuydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/shuydl",
+		canputon = 0,
+		discount = 0,
+		id = 48116,
+		comfortable = 2,
+		describe = "精心栽培的行道树",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48117] = {
+		can_rotate = 0,
+		name = "黑色围栏",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "weilanydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/weilanydl",
+		canputon = 0,
+		discount = 0,
+		id = 48117,
+		comfortable = 2,
+		describe = "装饰着五彩花卉的黑色蔚蓝",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48118] = {
+		advice = 0,
+		name = "黑色餐椅",
+		count = 4,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "yidali/yiziydl",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "yiziydlicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 48118,
+		comfortable = 2,
+		describe = "与餐桌配套的考究的木制餐椅",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-13,
+					25
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48119] = {
+		can_rotate = 0,
+		name = "圆形餐桌",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "zhuoziydlicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "yidali/zhuoziydl",
+		canputon = 1,
+		discount = 0,
+		id = 48119,
+		comfortable = 2,
+		describe = "铺着考究桌布的黑色圆形餐桌",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {
+			0,
+			-22.64
+		},
+		canputonGrid = {
+			{
+				2,
+				3
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				4
+			},
+			{
+				4,
+				3
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48120] = {
+		advice = 0,
+		name = "红色长椅",
+		count = 2,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "yidali/zuoyiydl",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "zuoyiydlicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 48120,
+		comfortable = 2,
+		describe = "提供行人一时休憩的街边长椅",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					11.7,
+					20.9
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48121] = {
+		advice = 0,
+		name = "白色圆塔",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "yidali/xietaydl",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "xietaydlicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 48121,
+		comfortable = 3,
+		describe = "唔…好像不怎么歪……？",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					4,
+					242
+				},
+				{
+					1,
+					1
+				},
+				"yidali/xietaydl_using"
+			},
+			{
+				"dance",
+				{
+					72,
+					-249
+				},
+				{
+					1,
+					1
+				},
+				"yidali/xietaydl_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48122] = {
+		can_rotate = 0,
+		name = "小镇运河",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "heydlicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 48122,
+		comfortable = 4,
+		describe = "船只来来往往，小镇的一道风景线",
+		dorm_id = 0,
+		gem_price = 150,
+		themeId = 48,
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			24,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xiaoheB",
+				"normal"
+			},
+			{
+				"xiaoheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"xiaoheCharControl",
+				"xiaoheCharControl2"
+			}
+		},
+		interAction_group = {}
+	},
+	[48201] = {
+		can_rotate = 0,
+		name = "白葡萄酒",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jiuydlicon",
+		deblocking = 1,
+		level = 2,
+		tag = 2,
+		rarity = 2,
+		picture = "yidali/jiuydl",
+		canputon = 0,
+		discount = 0,
+		id = 48201,
+		comfortable = 2,
+		describe = "撒丁帝国酿造的白葡萄酒有着特别的风味哦~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48202] = {
+		can_rotate = 0,
+		name = "葡萄酒杯",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 4,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jiubeiydlicon",
+		deblocking = 1,
+		level = 2,
+		tag = 2,
+		rarity = 2,
+		picture = "yidali/jiubeiydl",
+		canputon = 0,
+		discount = 0,
+		id = 48202,
+		comfortable = 2,
+		describe = "葡萄酒是需要慢慢品尝的呢~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48203] = {
+		can_rotate = 0,
+		name = "圆形餐盘",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "panziydlicon",
+		deblocking = 1,
+		level = 2,
+		tag = 2,
+		rarity = 2,
+		picture = "yidali/panziydl",
+		canputon = 0,
+		discount = 0,
+		id = 48203,
+		comfortable = 2,
+		describe = "撒丁风味海鲜套餐，味道如何呢？",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48301] = {
+		can_rotate = 0,
+		name = "红墙窗台",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "dianmian3ydlicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 3,
+		picture = "yidali/dianmian3ydl",
+		canputon = 0,
+		discount = 0,
+		id = 48301,
+		comfortable = 3,
+		describe = "趴在窗台上看看窗外的风景，也是一件很棒的享受呢",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48302] = {
+		can_rotate = 0,
+		name = "小店窗台",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dianmianydl2icon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 2,
+		picture = "yidali/dianmianydl2",
+		canputon = 0,
+		discount = 0,
+		id = 48302,
+		comfortable = 2,
+		describe = "菜单在你的右手边~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[48303] = {
+		can_rotate = 0,
+		name = "公寓窗户",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dianmianydlicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 2,
+		picture = "yidali/dianmianydl",
+		canputon = 0,
+		discount = 0,
+		id = 48303,
+		comfortable = 2,
+		describe = "窗户…会不会小了点？",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 48,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -90664,6 +92947,7 @@ pg.furniture_data_template = {
 		146,
 		148,
 		149,
+		151,
 		100001,
 		100002,
 		100003,
@@ -91970,7 +94254,37 @@ pg.furniture_data_template = {
 		46302,
 		46303,
 		46304,
-		46305
+		46305,
+		48001,
+		48002,
+		48101,
+		48102,
+		48103,
+		48104,
+		48105,
+		48106,
+		48107,
+		48108,
+		48109,
+		48110,
+		48111,
+		48112,
+		48113,
+		48114,
+		48115,
+		48116,
+		48117,
+		48118,
+		48119,
+		48120,
+		48121,
+		48122,
+		48201,
+		48202,
+		48203,
+		48301,
+		48302,
+		48303
 	}
 }
 

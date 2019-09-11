@@ -77,7 +77,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 304,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「让世界知晓撒丁帝国的荣耀与尊严吧！」</color>\n通过后续活动获取",
+		desc = "<color=#ffffff>「让世界知晓撒丁帝国的荣耀与尊严吧！」</color>\n「神圣的悲喜剧」活动获取",
 		scene = {}
 	},
 	[401] = {

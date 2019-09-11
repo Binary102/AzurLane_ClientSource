@@ -571,8 +571,6 @@ end
 function slot0.playOpening(slot0, slot1, slot2, slot3)
 	slot0.onPlayingOP = true
 
-	pg.CriMgr.GetInstance():stopBGM()
-
 	function slot4()
 		if not slot0.openingTF then
 			return
@@ -598,10 +596,7 @@ function slot0.playOpening(slot0, slot1, slot2, slot3)
 		end
 
 		slot0.cg.alpha = 1
-
-		pg.CriMgr.GetInstance():resumeNormalBGM()
-
-		pg.CriMgr.GetInstance().resumeNormalBGM.onPlayingOP = false
+		slot0.cg.onPlayingOP = false
 	end
 
 	function slot5()

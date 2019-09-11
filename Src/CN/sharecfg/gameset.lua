@@ -383,9 +383,9 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "战斗之星·黑",
+		description = "帝国的荣光",
 		key = "activity_res_id",
-		key_value = 131
+		key_value = 133
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -777,9 +777,14 @@ pg.gameset = {
 		key_value = 1
 	},
 	vote_web_url = {
-		description = "vote.azurlane.jp",
+		description = "https://www.bilibili.com/blackboard/activity-rqtp2019.html",
 		key = "vote_web_url",
 		key_value = 0
+	},
+	skin_ticket = {
+		description = "",
+		key = "skin_ticket",
+		key_value = 136
 	}
 }
 

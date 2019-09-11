@@ -135,11 +135,8 @@ function slot0.OnVote(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.updateMainview(slot0, slot1)
-	if slot1 then
-		slot0:initShips()
-	end
-
+function slot0.updateMainview(slot0)
+	slot0:initShips()
 	slot0:initRanks()
 	slot0:updateNumber()
 end
@@ -163,7 +160,8 @@ function slot0.initShips(slot0)
 end
 
 function slot0.initTitles(slot0)
-	slot0.tagtimeTF.text = table.concat(slot0.voteGroup:getConfig("time_vote")[1][1], ".") .. i18n("word_maintain") .. " ~ " .. table.concat(slot0.voteGroup.getConfig("time_vote")[2][1], ".") .. "(23:59)"
+	slot1 = slot0.voteGroup:getConfig("time_vote")
+	slot0.tagtimeTF.text = slot0.voteGroup:getTimeDesc()
 	slot0.title.text = slot0.voteGroup:getConfig("name")
 	slot0.subTitle.text = slot0.voteGroup:getConfig("desc")
 end

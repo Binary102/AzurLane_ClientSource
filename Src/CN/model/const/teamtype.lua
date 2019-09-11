@@ -26,6 +26,14 @@ slot0.SubShipType = {
 slot0.VanguardMax = 3
 slot0.MainMax = 3
 slot0.SubmarineMax = 3
+slot0.TeamPos = {
+	FLAG_SHIP = "FlagShip",
+	LEADER = "Leader",
+	REAR = "Rear",
+	CONSORT = "Consort",
+	SUB_LEADER = "SubLeader",
+	SUB_CONSORT = "SubConsort"
+}
 
 function slot0.TeamToTypeList(slot0)
 	if slot0 == slot0.Vanguard then

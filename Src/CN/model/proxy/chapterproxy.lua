@@ -430,7 +430,7 @@ function slot0.updateChapter(slot0, slot1, slot2)
 	end
 
 	slot0.facade:sendNotification(slot0.CHAPTER_UPDATED, {
-		chapter = slot1:clone(),
+		chapter = slot1,
 		dirty = defaultValue(slot2, 0)
 	})
 
@@ -478,15 +478,14 @@ function slot0.duplicateEliteFleet(slot0, slot1, slot2)
 
 		slot0.mapEliteFleetCache[slot1:getConfig("map")] = slot1:getEliteFleetList()
 		slot0.mapEliteCommanderCache[slot1.getConfig("map")] = slot1:getEliteFleetCommanders()
-		slot6 = {}
 
-		for slot10, slot11 in pairs(slot0.data) do
-			if slot11:getConfig("map") == slot5 and slot11.configId ~= slot1.configId then
-				slot11:setEliteFleetList(slot3)
-				slot11:setEliteCommanders(slot4)
+		for slot9, slot10 in pairs(slot0.data) do
+			if slot10:getConfig("map") == slot5 and slot10.configId ~= slot1.configId then
+				slot10:setEliteFleetList(slot3)
+				slot10:setEliteCommanders(slot4)
 
 				if slot2 then
-					slot0:updateChapter(slot11)
+					slot0:updateChapter(slot10)
 				end
 			end
 		end

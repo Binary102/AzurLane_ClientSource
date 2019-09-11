@@ -390,6 +390,16 @@ pg.effect_offset = {
 			0
 		}
 	},
+	shield05 = {
+		id = "shield05",
+		container_index = 1,
+		mirror = false,
+		offset = {
+			0,
+			0,
+			0
+		}
+	},
 	appearbig = {
 		id = "appearbig",
 		container_index = 1,

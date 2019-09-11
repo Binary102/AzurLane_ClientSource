@@ -10,13 +10,13 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffAddAttr",
+			type = "BattleBuffFixVelocity",
 			trigger = {
 				"onAttach"
 			},
 			arg_list = {
-				number = 200,
-				attr = "velocity"
+				add = 0,
+				mul = 200
 			}
 		}
 	}

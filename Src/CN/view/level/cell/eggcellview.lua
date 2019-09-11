@@ -11,6 +11,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.tfFighting = slot0.tf:Find("fighting")
 	slot0.tfEffectFound = slot0.tf:Find("effect_found")
 	slot0.tfDamageCount = slot0.tf:Find("damage_count")
+	slot0.tfBufficons = slot0.tf:Find("random_buff_container")
 	slot0.tfEffectFound.transform.localPosition = Vector2(0, -12)
 	slot0.level = 0
 	slot0.enemyType = 1

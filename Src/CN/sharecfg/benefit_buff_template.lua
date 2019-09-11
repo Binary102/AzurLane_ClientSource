@@ -3,7 +3,7 @@ pg.benefit_buff_template = {
 	{
 		max_time = 86400,
 		name = "",
-		icon = "Props/haijungali",
+		icon = "Props/guihuagao",
 		benefit_effect = "5",
 		id = 1,
 		benefit_condition = "",
@@ -37,11 +37,11 @@ pg.benefit_buff_template = {
 		benefit_effect = "100",
 		id = 4,
 		benefit_type = "rookie_battle_exp",
-		desc = "指挥官等级小于30级时，在普通关卡、困难关卡、每日活动中获得的指挥官经验和角色经验提高100%",
+		desc = "指挥官等级小于40级时，在普通关卡、困难关卡、每日活动中获得的指挥官经验和角色经验提高100%",
 		benefit_condition = {
 			"lv",
 			"<",
-			30
+			40
 		}
 	},
 	[10] = {

@@ -10,7 +10,7 @@ return {
 	last_effect = "SPD",
 	effect_list = {
 		{
-			type = "BattleBuffAddAttr",
+			type = "BattleBuffFixVelocity",
 			trigger = {
 				"onAttach",
 				"onStack",
@@ -18,8 +18,8 @@ return {
 			},
 			arg_list = {
 				group = 101,
-				number = 100,
-				attr = "velocity"
+				add = 100,
+				mul = 0
 			}
 		}
 	}

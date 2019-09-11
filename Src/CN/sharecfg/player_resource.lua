@@ -200,10 +200,25 @@ pg.player_resource = {
 		name = "qixihaibao_pt",
 		itemid = 59135
 	},
+	[133] = {
+		id = 133,
+		name = "yidali_pt",
+		itemid = 59137
+	},
 	[134] = {
 		id = 134,
-		name = "ydlqianshao_pt",
+		name = "xunliandianshu",
 		itemid = 59138
+	},
+	[135] = {
+		id = 135,
+		name = "union2_pt",
+		itemid = 59139
+	},
+	[136] = {
+		id = 136,
+		name = "skinTicket2",
+		itemid = 59140
 	},
 	[1001] = {
 		id = 1001,
@@ -222,8 +237,17 @@ pg.player_resource = {
 		vote2019_pt = {
 			1001
 		},
-		ydlqianshao_pt = {
+		skinTicket2 = {
+			136
+		},
+		union2_pt = {
+			135
+		},
+		xunliandianshu = {
 			134
+		},
+		yidali_pt = {
+			133
 		},
 		qixihaibao_pt = {
 			132
@@ -387,7 +411,10 @@ pg.player_resource = {
 		130,
 		131,
 		132,
+		133,
 		134,
+		135,
+		136,
 		1001,
 		2001
 	}

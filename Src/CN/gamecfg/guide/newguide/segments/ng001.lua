@@ -69,7 +69,7 @@ return {
 		},
 		{
 			ui = {
-				path = "/UICamera/Canvas/UIMain/LevelMainScene(Clone)/float/levels/Chapter_305/sub",
+				path = "/UICamera/Canvas/UIMain/LevelMainScene(Clone)/float/levels/items/Chapter_305/sub",
 				fingerPos = {
 					posY = -47,
 					posX = -62.97

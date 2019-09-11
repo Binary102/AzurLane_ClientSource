@@ -10,16 +10,15 @@ return {
 	last_effect = "jingyingguaibuffzise",
 	effect_list = {
 		{
-			type = "BattleBuffAddAttr",
+			type = "BattleBuffFixVelocity",
 			trigger = {
 				"onAttach",
 				"onStack",
 				"onRemove"
 			},
 			arg_list = {
-				group = 70024,
-				number = 3,
-				attr = "velocity"
+				add = 3,
+				group = 70024
 			}
 		}
 	}

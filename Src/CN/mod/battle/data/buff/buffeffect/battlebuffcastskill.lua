@@ -181,6 +181,18 @@ function ys.Battle.BattleBuffCastSkill.GetEquipmentList(slot0, slot1)
 			if slot1.type and not table.contains(slot1.type, slot7.type) then
 				slot6 = false
 			end
+
+			if slot1.label then
+				slot8 = slot0.Battle.BattleDataFunction.GetWeaponDataFromID(slot5.id).label
+
+				for slot12, slot13 in ipairs(slot1.label) do
+					if not table.contains(slot8, slot13) then
+						slot6 = false
+
+						break
+					end
+				end
+			end
 		end
 
 		if not slot6 then

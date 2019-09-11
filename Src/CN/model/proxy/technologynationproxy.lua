@@ -83,7 +83,7 @@ function slot0.nationPointFilter(slot0)
 			slot0.nationToPoint[slot6] = slot0.nationToPoint[slot6] + pg.fleet_tech_ship_template[slot7].pt_get + pg.fleet_tech_ship_template[slot7].pt_level
 		end
 
-		if slot5.star == pg.fleet_tech_ship_template[slot7].max_star then
+		if pg.fleet_tech_ship_template[slot7].max_star <= slot5.star then
 			slot0.nationToPoint[slot6] = slot0.nationToPoint[slot6] + pg.fleet_tech_ship_template[slot7].pt_upgrage
 		end
 	end

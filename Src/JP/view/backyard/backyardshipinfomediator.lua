@@ -125,6 +125,7 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 		},
 		onShip = function (slot0, slot1, slot2)
 			slot3 = "inBackyard"
+			slot4 = nil
 
 			if slot0 == BackYardShipInfoLayer.SHIP_TRAIN_TYPE or slot0 == BackYardShipInfoLayer.SHIP_REST_TYPE then
 				if slot1 < #slot2 + 1 then
@@ -140,27 +141,30 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 				end
 
 				if slot0.inBackyard then
-					function onCalcBackYardExp(slot0)
+					function slot4(slot0)
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
 							hideNo = true,
 							content = i18n("exit_backyard_exp_display", slot0:getName(), slot0)
 						})
 
-						onCalcBackYardExp = nil
+						slot1 = nil
 					end
 				end
 
 				slot3 = "inClass"
 			end
 
-			slot4, slot5 = Ship.ShipStateConflict(slot3, slot0)
+			slot5, slot6 = Ship.ShipStateConflict(slot3, slot0)
 
-			if slot4 == Ship.STATE_CHANGE_FAIL then
-				return false, i18n(slot5)
-			elseif slot4 == Ship.STATE_CHANGE_CHECK then
-				return Ship.ChangeStateCheckBox(slot5, slot0, function (slot0)
-					onCalcBackYardExp(slot0)
-					slot0()
+			if slot5 == Ship.STATE_CHANGE_FAIL then
+				return false, i18n(slot6)
+			elseif slot5 == Ship.STATE_CHANGE_CHECK then
+				return Ship.ChangeStateCheckBox(slot6, slot0, function (slot0)
+					if slot0 then
+						slot0(slot0)
+					end
+
+					slot1()
 				end)
 			end
 
@@ -246,8 +250,7 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 			mediator = DockyardMediator,
 			data = slot20
 		}))
-		setActive(slot0.viewComponent._tf, false)
-		setActive(slot0.viewComponent.backyardui, false)
+		slot0.viewComponent:EnableUI(false)
 	else
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, slot20)
 	end
@@ -279,8 +282,7 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:setTrainShipVOs(slot0.dormProxy:getShipsByState(Ship.STATE_TRAIN))
 		slot0.viewComponent:setResetShipVOs(slot0.dormProxy:getShipsByState(Ship.STATE_REST))
 		slot0.viewComponent:updateSlots()
-		setActive(slot0.viewComponent._tf, true)
-		setActive(slot0.viewComponent.backyardui, true)
+		slot0.viewComponent:EnableUI(true)
 	end
 end
 

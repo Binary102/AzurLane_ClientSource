@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "这就是“卡拉布里亚的宝石”吗…果然是不虚此行呢~",
+			say = "「カラブリアの宝石」――この美しい海そのもの、ですわね",
 			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
@@ -25,7 +25,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "在月光的映照下，这片神奇的海面泛起了淡淡的荧光，与岸边的历史遗迹相互辉映",
+			say = "月の光に照らされた海はまるで青い宝石のように輝いていた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "仿佛数千年的古代文明在这一刻被悄然唤醒",
+			say = "遠く見える文明の灯火、彼方に映し出される遺跡の蜃気楼、静かに佇む少女たちは幻想的な景色を醸し出していた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605020,
-			say = "“神之海岸”——也被称作“卡拉布里亚的宝石”，这就是我们帝国的宝藏",
+			say = "そうよ。この青き海こそが私たちサディアの一番大切なもの、守るべきもの",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "特别是在仲夏的午夜时分，宝石更是会闪耀出千年文明的辉光",
+			say = "文明を育み、人々を養い、数々の伝説を生み出した、母なる海",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "是的，就和光辉级航空母舰一样迷人，美丽的女士~",
+			say = "そして、貴方と私の輝かしい姿にふさわしい宝そのものよ。美しいシニョリーナ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "啊啊…利托里奥真的没救了（扶额",
+			say = "（んー最後のは最高に余計でしたね）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207050,
-			say = "那么，帝国是否愿意与皇家一起守护这颗璀璨的宝石呢？",
+			say = "あなた方がここに現れた理由を教えてくださるかしら？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,12 +126,12 @@ return {
 			}
 		},
 		{
-			actorName = "维托里奥.维内托",
+			actorName = "ヴィットリオ・ヴェネト",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "我们曾经与铁血定下了盟约，希望能一同分享森林的果实",
+			say = "私たちは賭けようとしていますわ。鉄血の動きを、そしてあなた方の力を",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,12 +142,12 @@ return {
 			}
 		},
 		{
-			actorName = "维托里奥.维内托",
+			actorName = "ヴィットリオ・ヴェネト",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "然而未曾想到，它化身为了一只猛兽，连我们的血肉都不肯放过…",
+			say = "レッドアクシズの盟友である私たちは、彼女たちにとって果たしてどんな存在なのか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,12 +158,12 @@ return {
 			}
 		},
 		{
-			actorName = "维托里奥.维内托",
+			actorName = "ヴィットリオ・ヴェネト",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "为了得到力量，她们甚至不惜污染神圣的生命之海",
+			say = "この戦いが「再現」になるのか、それとも新しい未来の1ページになるのか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,12 +174,12 @@ return {
 			}
 		},
 		{
-			actorName = "维托里奥.维内托",
+			actorName = "ヴィットリオ・ヴェネト",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "她们没有对于文明和艺术的信仰！",
+			say = "……まあ、正直に言えばサディアの威光を広げるという目的もありますが",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,12 +190,12 @@ return {
 			}
 		},
 		{
-			actorName = "维托里奥.维内托",
+			actorName = "ヴィットリオ・ヴェネト",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "所以，我们需要一个保障",
+			say = "こうしてみんなが集まることで、この「演目」の全ての目的が達成されますわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,12 +206,12 @@ return {
 			}
 		},
 		{
-			actorName = "维托里奥.维内托",
+			actorName = "ヴィットリオ・ヴェネト",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "需要一个能够让这颗宝石继续传承下去的保障",
+			say = "全ては、この青き海を守るため",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,12 +222,12 @@ return {
 			}
 		},
 		{
-			actorName = "可畏",
+			actorName = "フォーミダブル",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家一直拥有能够保障陆间海稳定的力量与信心",
+			say = "それでしたら、なぜ陛下に直接交渉しないですか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,12 +238,12 @@ return {
 			}
 		},
 		{
-			actorName = "维托里奥.维内托",
+			actorName = "ヴィットリオ・ヴェネト",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "铁血目前的实力，已经大大超出了你们的想象，与她们继续合作，我们只会被黑暗的泥沼吞噬",
+			say = "鉄血は私たち……いいえ、もしかしたらあなた方が知っていた頃よりずっと強くなりました",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,12 +254,12 @@ return {
 			}
 		},
 		{
-			actorName = "维托里奥.维内托",
+			actorName = "ヴィットリオ・ヴェネト",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "所以，如果皇家的力量连我们的“测试”都不能通过，又有什么力量去对抗拥有塞壬科技的铁血呢",
+			say = "だから知りたいんです。ロイヤルの力は本当に信用できますかと",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,12 +270,12 @@ return {
 			}
 		},
 		{
-			actorName = "厌战",
+			actorName = "ウォースパイト",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们的立场我明白了…呼",
+			say = "「お互い」の「立場」……ねえ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "bg_italy_cg5",
 			dir = 1,
-			say = "厌战终于赶上了大部队，来到了秘约的集合点",
+			say = "定められし戦い、悲歎せし焔海の物語、鋼の少女たちに「再現」された数々の「演目」のなりそこないかもしれない。だが――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,28 +300,12 @@ return {
 			}
 		},
 		{
-			actorName = "厌战",
-			side = 2,
-			bgName = "bg_italy_cg5",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "“言语之约不足为信”，所以这一路上你们的阻拦便是你们所希望的“测试”吗",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "厌战",
+			actorName = "ウォースパイト",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总之，简单来说…只要我们能够证明自己拥有保障陆间海的实力，帝国就愿意回归碧蓝航线吗？",
+			say = "そのために、マルタ島を奪おうとし、そしてここまで来る途中に襲ってきたわけね…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,12 +316,28 @@ return {
 			}
 		},
 		{
-			actorName = "维托里奥.维内托",
+			actorName = "ウォースパイト",
+			side = 2,
+			bgName = "bg_italy_cg5",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "では問おう。ここでロイヤルネイビーが己の力を証明し貴方達を打ち破ったら、アズールレーンへの復帰を検討する、ということで良いかしら？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "ヴィットリオ・ヴェネト",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "...至少帝国海军会这样认可的",
+			say = "ええ。帝国の総旗艦として約束しますわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,12 +348,12 @@ return {
 			}
 		},
 		{
-			actorName = "厌战",
+			actorName = "ウォースパイト",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那还等什么，巴勒姆、勇士，让我们一起展现女王级的威严给帝国看看",
+			say = "――バーラム、ヴァリアント、そしてロイヤルネイビー全艦、陛下の威光を示すわ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,12 +364,12 @@ return {
 			}
 		},
 		{
-			actorName = "厌战",
+			actorName = "ウォースパイト",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可畏，空中支援就交给你了",
+			say = "フォーミダブル、空中支援は任せたわよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,12 +380,12 @@ return {
 			}
 		},
 		{
-			actorName = "可畏",
+			actorName = "フォーミダブル",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是~",
+			say = "ええ。おまかせくださいませ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,12 +396,12 @@ return {
 			}
 		},
 		{
-			actorName = "利托里奥",
+			actorName = "リットリオ",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "可畏妹妹，你的姐姐们呢？（小声",
+			say = "イラストリアスは来てないのか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,12 +412,12 @@ return {
 			}
 		},
 		{
-			actorName = "可畏",
+			actorName = "フォーミダブル",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐们绕路去爱琴海消灭塞壬残余去了，说是光辉级一起出动的话就太不公平了~",
+			say = "お姉さんはセイレーン退治に行ってるわ。そちらのトレントたちと合流するところでしてよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,12 +428,12 @@ return {
 			}
 		},
 		{
-			actorName = "利托里奥",
+			actorName = "リットリオ",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "啊——太可惜了，还以为这次能同时见到皇家三大女神的泳装形态呢~",
+			say = "あら、それは残念ね。私の水着姿であのイラストリアスをも凌ぐ輝きを見せたかったのに",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,12 +444,12 @@ return {
 			}
 		},
 		{
-			actorName = "维托里奥.维内托",
+			actorName = "ヴィットリオ・ヴェネト",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "咳…咳",
+			say = "こ、コホン！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,12 +460,12 @@ return {
 			}
 		},
 		{
-			actorName = "维托里奥.维内托",
+			actorName = "ヴィットリオ・ヴェネト",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "扎拉、波拉以及所有帝国军舰听令，以罗穆路斯之名，展现帝国的战斗艺术吧！",
+			say = "ザラ、ポーラ、そしてサディア艦隊の各員、全力で戦い、帝国の威光を示せ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			}
 		},
 		{
-			actorName = "维托里奥.维内托",
+			actorName = "ヴィットリオ・ヴェネト",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			dir = 1,

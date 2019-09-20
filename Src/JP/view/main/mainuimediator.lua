@@ -383,7 +383,7 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.SELTECHNOLOGY)
 	end)
 	slot0:bind(slot0.ON_VOTE, function ()
-		if getProxy(ActivityProxy):GetVoteActivty() then
+		if getProxy(ActivityProxy):GetVoteBookActivty() then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
 				id = slot1.id
 			})
@@ -444,7 +444,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:updateActivityMapBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT))
 	slot0.viewComponent:updateActivityEscort()
 	slot0.viewComponent:updateActivityMiniGameBtn(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME))
-	slot0.viewComponent:updateVoteBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_VOTE), getProxy(VoteProxy):GetOrderBook())
+	slot0.viewComponent:updateVoteBtn(slot7:GetVoteActivity(), getProxy(VoteProxy):GetOrderBook())
 end
 
 function slot0.onBluePrintNotify(slot0)

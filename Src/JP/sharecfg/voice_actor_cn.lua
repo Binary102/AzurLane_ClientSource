@@ -787,6 +787,14 @@ pg.voice_actor_CN = {
 	[202] = {
 		actor_name = "立花理香",
 		code = 202
+	},
+	[203] = {
+		actor_name = "渡部紗弓",
+		code = 203
+	},
+	[204] = {
+		actor_name = "金子彩花",
+		code = 204
 	}
 }
 

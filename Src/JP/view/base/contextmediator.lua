@@ -156,7 +156,7 @@ function slot0.onRegister(slot0)
 				for slot7, slot8 in pairs(slot0) do
 					if slot8.type == DROP_TYPE_SKIN then
 						if pg.ship_skin_template[slot8.id].skin_type == Ship.SKIN_TYPE_REMAKE then
-						elseif not getProxy(ShipSkinProxy):hasOldSkin(slot8.id) then
+						elseif not getProxy(ShipSkinProxy):hasOldNonLimitSkin(slot8.id) then
 							slot1:addSubLayers(Context.New({
 								mediator = NewSkinMediator,
 								viewComponent = NewSkinLayer,

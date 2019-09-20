@@ -11,23 +11,23 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>你又为何返回这痛苦的深渊</size>",
+					"<size=51>「墜落か、上昇か」</size>",
 					1
 				},
 				{
-					"<size=51>为何不攀登那明媚的高山？</size>",
+					"<size=51>「その悩みは純潔、その躊躇いは純真、その選択は純白な神聖」</size>",
 					3
 				},
 				{
-					"<size=51>而这高山正是一切幸福的来由和开端</size>",
+					"<size=51>「獣に追われ、森に沈んでゆく者」</size>",
 					5
 				},
 				{
-					"<size=51>维吉尔如是说</size> ",
+					"<size=51>「獣を追い払い、頂上へと登り続ける者」</size> ",
 					7
 				},
 				{
-					"<size=51>请告诉我，我的老师，请拯救我，我的救主</size>",
+					"<size=51>「あなたにコキュートスの永遠の安寧あり」</size>",
 					9
 				}
 			}
@@ -37,23 +37,23 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>以你不曾见识的圣主之名义，</size>",
+					"<size=51>「あなたにエンピリオの永遠の栄光あり」</size>",
 					1
 				},
 				{
-					"<size=51>帮我逃出这是非和受苦之地，</size>",
+					"<size=51>「心満たされし彷徨を選び、十天への道筋を断とう」</size>",
 					3
 				},
 				{
-					"<size=51>把我带到你方才所说的地方，</size>",
+					"<size=51>「心満たされし漂白を選び、人の世の黄金を捨てよう」</size>",
 					5
 				},
 				{
-					"<size=51>让我能亲眼目睹圣彼得之门</size>",
+					"<size=51>「差し伸べられた手を握りしめるのは、貴方」</size>",
 					7
 				},
 				{
-					"<size=51>看一看世间悲惨的灵魂——</size>",
+					"<size=51>「さあ、物語の結末を聞かせて頂戴？」</size>",
 					9
 				}
 			}
@@ -67,7 +67,7 @@ return {
 			bgm = "story-italy",
 			actor = 900198,
 			nameColor = "#ff5c5c",
-			say = "最后还是没有来吗？",
+			say = "確かに、来ていませんよね？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ff5c5c",
-			say = "是的，从一开始交手的时候便通知了铁血空军和帝国空军",
+			say = "ああ、ロイヤルネイビーと接触したときから鉄血には支援を要請したが、一向に現れなかった",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_italy_cg6",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "但是他们都以夜间作战充满不确定因素等借口推脱了",
+			say = "夜での戦闘は不確定要素が多いというのが応じない理由らしいが、まあただの言い訳よ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_italy_cg6",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "……",
+			say = "ええ…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_italy_cg6",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "看来我们这次也要变成弃子了，就同维希教廷的战舰们一样…",
+			say = "ヴィシアと同じ、私たちは四大陣営から見て取るに足らない存在",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
-			say = "口口声声说着帝国的艺术、罗穆路斯的希望",
+			say = "レッドアクシズに誘われたときにはあんなに希望を持てたというのに…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_italy_cg6",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "最后却只能成为任人笑话的喜剧演员吗？",
+			say = "これはまた「再現」のために見捨てられた、と考えたほうがいいですね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ff5c5c",
-			say = "马上就到午夜12时了，我们也该出发了",
+			say = "そろそろ終幕の時間ね。ヴェネト",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_italy_cg6",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "是的，不论是喜剧还是悲剧，这出戏都该谢幕了，以它应有的方式",
+			say = "ええ、この「再現」の「演目」はそろそろ終わり。私たちにできるのは、悲劇か喜劇を選ぶことしかありませんから――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

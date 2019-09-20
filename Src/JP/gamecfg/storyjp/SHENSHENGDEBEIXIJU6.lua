@@ -23,7 +23,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "ロイヤルの貴族は喋り方がこうも特徴的なのかしら……",
+			say = "ロイヤルの貴族の喋り方って特徴的なのかしら……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

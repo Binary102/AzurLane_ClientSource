@@ -5,7 +5,7 @@ class("VoteCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot5 = slot2.count
 	slot6 = getProxy(VoteProxy)
 
-	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_VOTE) then
+	if not getProxy(ActivityProxy):GetVoteActivity() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 		return

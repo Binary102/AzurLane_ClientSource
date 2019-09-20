@@ -130,7 +130,7 @@ return {
 		return NetConst.GATEWAY_PORT == 20001 and NetConst.GATEWAY_HOST == "blhxjpauditapi.azurlane.jp"
 	end,
 	CheckPreAudit = function ()
-		return NetConst.GATEWAY_PORT == 50001 and NetConst.GATEWAY_HOST == "staging.azurlane.jp"
+		return NetConst.GATEWAY_PORT == 30001 and NetConst.GATEWAY_HOST == "blhxjpauditapi.azurlane.jp"
 	end,
 	CheckPretest = function ()
 		return false
@@ -314,5 +314,7 @@ return {
 	end,
 	EndAiriTimeout = function ()
 		slot0.ON_AIRI_LOADING = false
+
+		pg.UIMgr.GetInstance():LoadingOff()
 	end
 }

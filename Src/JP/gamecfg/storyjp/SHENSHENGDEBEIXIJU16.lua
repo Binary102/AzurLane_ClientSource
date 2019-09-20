@@ -13,7 +13,7 @@ return {
 			bgm = "battle-boss-italy",
 			actor = 207050,
 			nameColor = "#a9f548",
-			say = "…你这样窜来窜去的样子可真烦人",
+			say = "あっちこっち動いてうっと…じゃなくて、気分が下がりますわ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "看着在眼前不断进行高速规避移动，又时而进行炮击的龙骑兵，可畏说到",
+			say = "カラビニエーレは得意の速力を活かし、フォーミダブルとの間合いを縮め艦載機の攻撃から逃れ続けた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "哼哼，龙骑兵的名字本来就来源于数百年前帝国的高速机动部队",
+			say = "こう見えても自分の追跡術は縁あるサディア竜騎兵隊仕込みであります！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "用高速移动迷惑对手，伺机给予致命一击是我们最擅长的作战方式",
+			say = "それに高速で接近し、魚雷による一撃離脱こそ駆逐艦の正しい戦い方ではありませんか！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 601020,
-			say = "就算是像你这样的钢铁巨兽也…",
+			say = "フォーミダブルさん、重たい空母である貴方から簡単には引き離れませんよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 207050,
-			say = "嗯？！",
+			say = "……なんですって？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "可畏眉头一紧，露出了和平时不一样的气场",
+			say = "とある単語を耳にしたフォーミダブルは激怒した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 207050,
-			say = "你说…",
+			say = "あなた、今の言葉、もう一回言ってみなさい",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = -1,
 			actor = 207050,
 			nameColor = "#a9f548",
-			say = "你说谁是笨重又死板的庞然大物啦！！？",
+			say = "誰　が　「　重　た　い　」　で　す　っ　て　？",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -161,7 +161,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "可畏一反平常稳重的表情，嘟起嘴生气的说到，眼角似乎还泛出了泪光",
+			say = "フォーミダブルの豹変にカラビニエーレは思わずきょとんとした。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 601020,
-			say = "啊，我…我没…",
+			say = "ふぉ、フォーミダブルさん！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 207050,
-			say = "——【机关禁止】！！！",
+			say = "――じっとしてなさい！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "随着可畏挥起右手，周围的海域瞬间被一股奇怪的气场笼罩",
+			say = "力強い声の一喝がサディアの駆逐艦に直撃した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			actor = 601020,
 			nameColor = "#ff5c5c",
-			say = "这…这是？",
+			say = "ひゃぅ！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,23 +245,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "连同龙骑兵在内，周围数艘驱逐舰的锅炉同时出现了故障",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			nameColor = "#ff5c5c",
-			side = 1,
-			dir = 1,
-			actor = 601020,
-			say = "可恶，无法保持航速了！",
+			say = "艤装の故障か、単に気圧されたのか、それともロイヤルレディの迫力（？）によるものか、とにかくカラビニエーレは動きを一瞬止めた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +261,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 207050,
-			say = "本来姐姐不允许我在实战中使用这一手的…可是…",
+			say = "ねえ？重たいのは一体誰のことかしら？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +277,7 @@ return {
 			dir = -1,
 			actor = 207050,
 			nameColor = "#a9f548",
-			say = "都怪你说人家是丑陋又懒惰的肥恐龙啦！！",
+			say = "もう一回言ってみなさい？重たいのは誰のこと？！",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -324,7 +308,7 @@ return {
 			dir = 1,
 			actor = 601020,
 			nameColor = "#ff5c5c",
-			say = "我才没有说过啊！！",
+			say = "ち、違います！自分はそういう意味じゃ……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +335,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 207050,
 			nameColor = "#a9f548",
-			say = "化为可畏的战绩吧！！梭鱼，出击！！",
+			say = "私の戦果になりなさい！バラクーダ隊、お仕置きよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +351,7 @@ return {
 			dir = 1,
 			actor = 601020,
 			nameColor = "#ff5c5c",
-			say = "呜，皇家的女孩子都是这样的吗（泪）————",
+			say = "わあああああ！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,8 +377,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 205029,
-			actorName = "厌战",
-			say = "……",
+			actorName = "ウォースパイト",
+			say = "う、うわぁ……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +391,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "缓缓赶来的旗舰厌战碰巧看到了这一幕，不禁流出了一身冷汗",
+			say = "同行しているウォースパイトはカラビニエーレがコミカルに吹き飛ばされたのを見た。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,8 +407,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 205029,
-			actorName = "厌战",
-			say = "可...可畏，好像有点做得太过火了…",
+			actorName = "ウォースパイト",
+			say = "フォーミダブル、流石にやりすぎかしら……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +423,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊啊，贵安，旗舰大人~光辉级航空母舰可畏号向你献上午后的问候",
+			say = "あ、ウォースパイト様、御機嫌よう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +446,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "可畏双手提了下裙子，行了一个标准的英式问候礼，露出阳光般灿烂的微笑",
+			say = "フォーミダブルはいつものようにロイヤルレディらしく、優雅に一礼した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +462,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 207050,
-			say = "帝国的先锋部队都已经被我解决掉了哦",
+			say = "ふふふ、攻撃してくるサディアの前衛艦隊は片付けました",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +478,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 207050,
-			say = "放心吧，都按姐姐说的，避开她们的要害部位了~",
+			say = "イラストリアス姉さんの言いつけ通り、吹き飛ばしただけで傷つけたりはいたしませんわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,8 +494,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 205029,
-			actorName = "厌战",
-			say = "没，没什么，你做得很好...我们继续前进吧，目标——“卡拉布里亚的宝石”",
+			actorName = "ウォースパイト",
+			say = "……よ、よく頑張ったわ。早く次に――「カラブリアの宝石」とやらを探しに行きましょ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

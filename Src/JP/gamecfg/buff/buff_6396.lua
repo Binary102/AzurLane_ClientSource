@@ -28,7 +28,7 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				skin_id = 1115,
+				skin_id = 1113,
 				index = {
 					2
 				}
@@ -40,7 +40,7 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				skin_id = 1118,
+				skin_id = 1111,
 				index = {
 					3
 				}

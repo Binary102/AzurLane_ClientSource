@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
-			say = "数日后，皇家三岛",
+			say = "ロイヤル本島",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,12 +32,12 @@ return {
 			}
 		},
 		{
-			actorName = "光辉",
+			actorName = "イラストリアス",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，战斗最后的结果如何呢？",
+			say = "結局戦いましたのね……どっちが勝ちましたの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,12 +48,12 @@ return {
 			}
 		},
 		{
-			actorName = "可畏",
+			actorName = "フォーミダブル",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有悬念，夜晚的海面就是我们的主场",
+			say = "もちろんロイヤルでしてよ？夜戦はイラストリアス姉さんと同じく得意ですわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_italy_cg4",
 			dir = 1,
-			say = "可畏一边端着红茶，一边淡淡的说着",
+			say = "フォーミダブルは紅茶を優雅に飲みながら、自慢気に二人の姉に報告していた",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,28 +78,12 @@ return {
 			}
 		},
 		{
-			actorName = "可畏",
-			side = 2,
-			bgName = "bg_italy_cg4",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "帝国的战舰虽然装甲厚实，但是却没有装备火控雷达",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "可畏",
+			actorName = "フォーミダブル",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不出几回合，她们的动力系统就被我和厌战大人给破坏了",
+			say = "サディアの戦艦は防御が得意ですけど、火器管制レーダーを装備していませんでしたわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,12 +94,12 @@ return {
 			}
 		},
 		{
-			actorName = "光辉",
+			actorName = "フォーミダブル",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真不愧是可畏妹妹呢~",
+			say = "私の艦載機とウォースパイト様の砲撃でボコボコにしましたよ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,26 +110,12 @@ return {
 			}
 		},
 		{
-			side = 2,
-			bgName = "bg_italy_cg4",
-			dir = 1,
-			say = "光辉一把将可畏搂在了怀里，像个洋娃娃一样的给她梳起了头发",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "胜利",
+			actorName = "イラストリアス",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊——我也好想能尽快回到战线啊~服役测试实在太无趣了",
+			say = "まあ、さすがですわ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,12 +126,26 @@ return {
 			}
 		},
 		{
-			actorName = "光辉",
+			side = 2,
+			bgName = "bg_italy_cg4",
+			dir = 1,
+			say = "3人の平和な時が続く。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "ヴィクトリアス",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵~再过一段时间四妹也要下水了，皇家的实力又会得到一次飞跃",
+			say = "私も敵をボコボコにしたいわね～勝利の女神みたいに美しく勝つ！なんて～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,12 +156,12 @@ return {
 			}
 		},
 		{
-			actorName = "光辉",
+			actorName = "イラストリアス",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们的姐妹茶会又要再添一员了~",
+			say = "あ、そういえば今度ユニコーンちゃんを紹介しますね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,12 +172,12 @@ return {
 			}
 		},
 		{
-			actorName = "胜利",
+			actorName = "イラストリアス",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，好想知道四妹长什么样子呀，不知道会不会和可畏妹妹一样可爱呢~嘿嘿嘿",
+			say = "フォーミダブル？あの子ともちゃんと仲良くなってね？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,26 +188,12 @@ return {
 			}
 		},
 		{
-			side = 2,
-			bgName = "bg_italy_cg4",
-			dir = 1,
-			say = "胜利一边说着一边轻轻的戳了戳可畏嘟起的脸蛋",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "可畏",
+			actorName = "ヴィクトリアス",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔..唔，对了，那个，帝国的那个战舰，叫什么什么里奥的让我跟姐姐转达一句话呢",
+			say = "そうね～フォーミダブル、衣装作らせてくれないし～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,12 +204,10 @@ return {
 			}
 		},
 		{
-			actorName = "光辉",
 			side = 2,
 			bgName = "bg_italy_cg4",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "…就是那个特别蹦跶的家伙吗，她说了些什么？",
+			say = "…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,12 +218,12 @@ return {
 			}
 		},
 		{
-			actorName = "可畏",
+			actorName = "フォーミダブル",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「静待重逢，尚需时日，望好」",
+			say = "あ、そうだ、リットリオさんからイラストリアス姉さんへの伝言を預かりましたわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,12 +234,12 @@ return {
 			}
 		},
 		{
-			actorName = "光辉",
+			actorName = "イラストリアス",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来她们也不容易呢，被夹在左右不定的元老院中间…",
+			say = "あら、どんな伝言？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,12 +250,44 @@ return {
 			}
 		},
 		{
-			actorName = "胜利",
+			actorName = "フォーミダブル",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "光辉姐，我觉得这句话的重心应该不在那里…",
+			say = "ええと、確か…「サディアの情勢が落ち着いたらまた会いましょう」？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "イラストリアス",
+			side = 2,
+			bgName = "bg_italy_cg4",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "陣営一つの意思をまとめるのは大変ですわね……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "ヴィクトリアス",
+			side = 2,
+			bgName = "bg_italy_cg4",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "ん？どういうこと？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,8 +302,8 @@ return {
 			side = 2,
 			bgName = "bg_italy_cg4",
 			dir = 1,
-			actorName = "伊丽莎白女王",
-			say = "啊！！被我发现了，居然在偷偷的举办秘密茶会！！！",
+			actorName = "クイーン・エリザベス",
+			say = "こっちのセリフよ！あんたたち、私に隠れてお茶会してるなんてどういうこと！？",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			bgName = "bg_italy_cg4",
 			dir = 1,
-			say = "伊丽莎白碰巧路过花园，看到了光辉姐妹的茶会，兴奋地拿手指着茶桌",
+			say = "小さな女王陛下は従者を連れて登場した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,12 +333,12 @@ return {
 			}
 		},
 		{
-			actorName = "贝尔法斯特",
+			actorName = "ベルファスト",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳…女王陛下，请注意您的淑女形象",
+			say = "イラストリアス様、ヴィクトリアス様、フォーミダブル様、ご機嫌麗しゅうございます",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,12 +349,12 @@ return {
 			}
 		},
 		{
-			actorName = "光辉&胜利&可畏",
+			actorName = "みんな",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贵安，向女王陛下献上最高的问候~",
+			say = "陛下、ご機嫌麗しゅうございます。ベルファストもお疲れ様",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,12 +365,12 @@ return {
 			}
 		},
 		{
-			actorName = "光辉",
+			actorName = "イラストリアス",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下来得正好，红茶才刚刚泡好~还有我和胜利从爱琴海带回的特别点心",
+			say = "陛下、申し訳ございません。サディアのお菓子でもいかがでしょうか？ベルファスト、席を用意してくださいませんか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,13 +381,13 @@ return {
 			}
 		},
 		{
-			actorName = "光辉",
+			actorName = "イラストリアス",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "一起来享用甜蜜而又和平的午后吧~",
+			say = "もしよろしければ、私たちのお土産話でも聞いてくださいませ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

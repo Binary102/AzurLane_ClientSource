@@ -12,7 +12,7 @@ math.randomseed(os.time())
 
 CSharpVersion = NetConst.GatewayState
 
-print("C# Ver. " .. CSharpVersion)
+print("C# Ver... " .. CSharpVersion)
 
 PLATFORM = LuaHelper.GetPlatformInt()
 PLATFORM_CH = 1

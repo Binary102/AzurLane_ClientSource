@@ -37046,7 +37046,7 @@ pg.ship_data_template = {
 	},
 	[301541] = {
 		oil_at_start = 1,
-		max_level = 100,
+		max_level = 70,
 		equip_id_3 = 0,
 		oil_at_end = 2,
 		type = 1,
@@ -37078,8 +37078,13 @@ pg.ship_data_template = {
 			14
 		},
 		airassist_time = {},
-		buff_list = {},
+		buff_list = {
+			2011,
+			2161
+		},
 		buff_list_display = {
+			2011,
+			2161,
 			22056
 		},
 		hide_buff_list = {
@@ -37088,7 +37093,7 @@ pg.ship_data_template = {
 	},
 	[301542] = {
 		oil_at_start = 1,
-		max_level = 100,
+		max_level = 80,
 		equip_id_3 = 0,
 		oil_at_end = 4,
 		type = 1,
@@ -37121,9 +37126,13 @@ pg.ship_data_template = {
 		},
 		airassist_time = {},
 		buff_list = {
+			2011,
+			2161,
 			22056
 		},
 		buff_list_display = {
+			2011,
+			2161,
 			22056
 		},
 		hide_buff_list = {
@@ -37132,7 +37141,7 @@ pg.ship_data_template = {
 	},
 	[301543] = {
 		oil_at_start = 1,
-		max_level = 100,
+		max_level = 90,
 		equip_id_3 = 0,
 		oil_at_end = 6,
 		type = 1,
@@ -37165,9 +37174,13 @@ pg.ship_data_template = {
 		},
 		airassist_time = {},
 		buff_list = {
+			2011,
+			2161,
 			22056
 		},
 		buff_list_display = {
+			2011,
+			2161,
 			22056
 		},
 		hide_buff_list = {
@@ -37209,9 +37222,13 @@ pg.ship_data_template = {
 		},
 		airassist_time = {},
 		buff_list = {
+			2011,
+			2161,
 			22057
 		},
 		buff_list_display = {
+			2011,
+			2161,
 			22057
 		},
 		hide_buff_list = {
@@ -58231,7 +58248,7 @@ pg.ship_data_template = {
 		energy = 150,
 		name = "コンテ・ディ・カブール ",
 		can_get_proficency = 0,
-		star = 3,
+		star = 2,
 		star_max = 5,
 		strengthen_id = 60505,
 		equip_id_2 = 95460,
@@ -58273,7 +58290,7 @@ pg.ship_data_template = {
 		energy = 150,
 		name = "コンテ・ディ・カブール ",
 		can_get_proficency = 0,
-		star = 4,
+		star = 3,
 		star_max = 5,
 		strengthen_id = 60505,
 		equip_id_2 = 0,
@@ -58316,7 +58333,7 @@ pg.ship_data_template = {
 		energy = 150,
 		name = "コンテ・ディ・カブール ",
 		can_get_proficency = 0,
-		star = 5,
+		star = 4,
 		star_max = 5,
 		strengthen_id = 60505,
 		equip_id_2 = 0,
@@ -58359,7 +58376,7 @@ pg.ship_data_template = {
 		energy = 150,
 		name = "コンテ・ディ・カブール ",
 		can_get_proficency = 1,
-		star = 6,
+		star = 5,
 		star_max = 5,
 		strengthen_id = 60505,
 		equip_id_2 = 0,
@@ -58402,7 +58419,7 @@ pg.ship_data_template = {
 		energy = 150,
 		name = "ジュリオ・チェザーレ",
 		can_get_proficency = 0,
-		star = 3,
+		star = 2,
 		star_max = 5,
 		strengthen_id = 60506,
 		equip_id_2 = 95460,
@@ -58446,7 +58463,7 @@ pg.ship_data_template = {
 		energy = 150,
 		name = "ジュリオ・チェザーレ",
 		can_get_proficency = 0,
-		star = 4,
+		star = 3,
 		star_max = 5,
 		strengthen_id = 60506,
 		equip_id_2 = 0,
@@ -58491,7 +58508,7 @@ pg.ship_data_template = {
 		energy = 150,
 		name = "ジュリオ・チェザーレ",
 		can_get_proficency = 0,
-		star = 5,
+		star = 4,
 		star_max = 5,
 		strengthen_id = 60506,
 		equip_id_2 = 0,
@@ -58536,7 +58553,7 @@ pg.ship_data_template = {
 		energy = 150,
 		name = "ジュリオ・チェザーレ",
 		can_get_proficency = 1,
-		star = 6,
+		star = 5,
 		star_max = 5,
 		strengthen_id = 60506,
 		equip_id_2 = 0,

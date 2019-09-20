@@ -473,9 +473,9 @@ pg.task_data_trigger = {
 			}
 		}
 	},
-	[46] = {
+	[47] = {
 		group_id = 60302,
-		id = 46,
+		id = 47,
 		activity_id = 2044,
 		args = {
 			{
@@ -528,7 +528,7 @@ pg.task_data_trigger = {
 		44,
 		45,
 		46,
-		46
+		47
 	}
 }
 

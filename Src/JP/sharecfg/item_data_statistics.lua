@@ -3483,7 +3483,7 @@ pg.item_data_statistics = {
 		replace_item = 0,
 		link_id = 0,
 		id = 11041,
-		icon = "Equips/55400",
+		icon = "Equips/55200",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -7294,7 +7294,7 @@ pg.item_data_statistics = {
 		display_icon = {
 			{
 				2,
-				59901,
+				69901,
 				1
 			},
 			{
@@ -7341,7 +7341,7 @@ pg.item_data_statistics = {
 		display_icon = {
 			{
 				2,
-				59902,
+				69902,
 				1
 			},
 			{
@@ -7388,7 +7388,7 @@ pg.item_data_statistics = {
 		display_icon = {
 			{
 				2,
-				59903,
+				69903,
 				1
 			},
 			{
@@ -7435,7 +7435,7 @@ pg.item_data_statistics = {
 		display_icon = {
 			{
 				2,
-				59904,
+				69904,
 				1
 			},
 			{
@@ -7482,7 +7482,54 @@ pg.item_data_statistics = {
 		display_icon = {
 			{
 				2,
-				59905,
+				69905,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[40906] = {
+		display = "ランダムにドレスシリーズの着せ替え衣装、メンタルユニット×50、ダイヤ×2019、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
+		rarity = 4,
+		type = 5,
+		name = "二週年福袋",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 40906,
+		icon = "Props/lihe2",
+		display_icon = {
+			{
+				2,
+				69906,
 				1
 			},
 			{
@@ -68142,11 +68189,6 @@ pg.item_data_statistics = {
 			},
 			{
 				4,
-				103011,
-				1
-			},
-			{
-				4,
 				103021,
 				1
 			},
@@ -68269,11 +68311,6 @@ pg.item_data_statistics = {
 			},
 			{
 				4,
-				103011,
-				1
-			},
-			{
-				4,
 				103021,
 				1
 			},
@@ -68387,11 +68424,6 @@ pg.item_data_statistics = {
 			{
 				4,
 				101071,
-				1
-			},
-			{
-				4,
-				103011,
 				1
 			},
 			{
@@ -69378,11 +69410,6 @@ pg.item_data_statistics = {
 			},
 			{
 				4,
-				103011,
-				1
-			},
-			{
-				4,
 				103021,
 				1
 			},
@@ -69505,11 +69532,6 @@ pg.item_data_statistics = {
 			},
 			{
 				4,
-				103011,
-				1
-			},
-			{
-				4,
 				103021,
 				1
 			},
@@ -69623,11 +69645,6 @@ pg.item_data_statistics = {
 			{
 				4,
 				101071,
-				1
-			},
-			{
-				4,
-				103011,
 				1
 			},
 			{
@@ -72664,134 +72681,6 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
-	[59901] = {
-		display = "ランダムに正月シリーズの着せ替え衣装を入手可能(既に所有している着せ替え衣装を入手した場合は、その購入価格と同じ分のダイヤを入手できます)",
-		rarity = 4,
-		type = 98,
-		name = "ランダム衣装",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59901,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[59902] = {
-		display = [[
-パーティーシリーズの着せ替え（モナーク「ホワイト・ウォリック」除く）をランダム入手できます。（すでに所持している場合、購入時に消費した分の無償ダイヤに変換されます）
-各衣装の出現割合：
-（<color=#92fc63>8%</color>）吹雪： Music Pixy（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>8%</color>）クリーブランド：ジェントリーナイト（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>8%</color>）大鳳：禁断の宴（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>9.5%</color>）オーロラ：黎明に捧げる賛歌；
-（<color=#92fc63>9.5%</color>）クイーン・エリザベス：女王さまの舞踏会；
-（<color=#92fc63>9.5%</color>）エイジャックス：パーティークイーン；
-（<color=#92fc63>9.5%</color>）明石：黒猫来襲す！；
-（<color=#92fc63>9.5%</color>）アマゾン：リトルオーケストラ；
-（<color=#92fc63>9.5%</color>）サウスダコタ：ソロコンサート；
-（<color=#92fc63>9.5%</color>）U-81：静謐なセレナーデ；
-（<color=#92fc63>9.5%</color>）イラストリアス：輝きの舞踏会；]],
-		rarity = 4,
-		type = 98,
-		name = "ランダム衣装（パーティー）",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59902,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[59903] = {
-		display = [[
-下記の着せ替えをランダム入手できます。（すでに所持している場合、購入時に消費した分の無償ダイヤに変換されます）
-各衣装の出現割合：
-（<color=#92fc63>9%</color>）エルドリッジ：正月のおてて（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>9%</color>）伊吹：冬籠の夢（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>10%</color>）セントルイス：ティプシースノー（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>12%</color>）出雲：出雲千本桜；
-（<color=#92fc63>12%</color>）プリンス・オブ・ウェールズ：風流装束・桜；
-（<color=#92fc63>12%</color>）磯風：新年大合戦；
-（<color=#92fc63>12%</color>）ヘレナ：青い鳥の正月；
-（<color=#92fc63>12%</color>）モントピリア：雪夜の華；
-（<color=#92fc63>12%</color>）足柄：幕間少憩；]],
-		rarity = 4,
-		type = 98,
-		name = "ランダム衣装（お正月）",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59903,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[59904] = {
-		display = [[
-下記の着せ替えをランダム入手できます。（すでに所持している場合、購入時に消費した分の無償ダイヤに変換されます）
-各衣装の出現割合：
-（<color=#92fc63>8.5%</color>）ベルファスト：彩雲の薔薇（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>9%</color>）ラフィー：春待ちウサギ（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>9%</color>）太原：春騒ぎの玄亀（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>10.5%</color>）エンタープライズ：ブライトピオニー；
-（<color=#92fc63>10.5%</color>）セントー ：清冽な春風；
-（<color=#92fc63>10.5%</color>）モナーク ：ブラック・ジェラード；
-（<color=#92fc63>10.5%</color>）夕暮：春の夕暮；
-（<color=#92fc63>10.5%</color>）綾波：波濤新歳；
-（<color=#92fc63>10.5%</color>）レキシントン：春華の歌；
-（<color=#92fc63>10.5%</color>）チェイサー：東煌見聞録；]],
-		rarity = 4,
-		type = 98,
-		name = "ランダム衣装（旧正月）",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59904,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[59905] = {
-		display = [[
-下記の着せ替えをランダム入手できます。（すでに所持している場合、購入時に消費した分の無償ダイヤに変換されます）
-各衣装の出現割合：
-（<color=#92fc63>7.2%</color>）ビスマルク：鉄血の威光（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>7.8%</color>）アーク・ロイヤル：バンケットガーディアン（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>9.5%</color>）キング・ジョージ5世：ウィンザー・ローズ；
-（<color=#92fc63>9.5%</color>）ジョージア：サウスタウンパール；
-（<color=#92fc63>11.0%</color>）Z23：麗しきアーベントクライト；
-（<color=#92fc63>11.0%</color>）ヘレナ：君と踊りを；
-（<color=#92fc63>11.0%</color>）ホーネット：Bubbly Anniversary！；
-（<color=#92fc63>11.0%</color>）ヨークタウン：優雅と微酔の夜；
-（<color=#92fc63>11.0%</color>）アドミラル・グラーフ・シュペー：未知の記念日；
-（<color=#92fc63>11.0%</color>）時雨：イブニングラッキースター；]],
-		rarity = 4,
-		type = 98,
-		name = "ランダム衣装",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59905,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
 	[59906] = {
 		display = "使用すると、一部のSSR艦船と記念アイテム「お礼」を入手可能",
 		rarity = 4,
@@ -73234,6 +73123,163 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 60012,
 		icon = "Props/54003",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69901] = {
+		display = "ランダムに正月シリーズの着せ替え衣装を入手可能(既に所有している着せ替え衣装を入手した場合は、その購入価格と同じ分のダイヤを入手できます)",
+		rarity = 4,
+		type = 98,
+		name = "ランダム衣装",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69901,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69902] = {
+		display = [[
+パーティーシリーズの着せ替え（モナーク「ホワイト・ウォリック」除く）をランダム入手できます。（すでに所持している場合、購入時に消費した分の無償ダイヤに変換されます）
+各衣装の出現割合：
+（<color=#92fc63>8%</color>）吹雪： Music Pixy（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8%</color>）クリーブランド：ジェントリーナイト（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8%</color>）大鳳：禁断の宴（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9.5%</color>）オーロラ：黎明に捧げる賛歌；
+（<color=#92fc63>9.5%</color>）クイーン・エリザベス：女王さまの舞踏会；
+（<color=#92fc63>9.5%</color>）エイジャックス：パーティークイーン；
+（<color=#92fc63>9.5%</color>）明石：黒猫来襲す！；
+（<color=#92fc63>9.5%</color>）アマゾン：リトルオーケストラ；
+（<color=#92fc63>9.5%</color>）サウスダコタ：ソロコンサート；
+（<color=#92fc63>9.5%</color>）U-81：静謐なセレナーデ；
+（<color=#92fc63>9.5%</color>）イラストリアス：輝きの舞踏会；]],
+		rarity = 4,
+		type = 98,
+		name = "ランダム衣装（パーティー）",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69902,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69903] = {
+		display = [[
+下記の着せ替えをランダム入手できます。（すでに所持している場合、購入時に消費した分の無償ダイヤに変換されます）
+各衣装の出現割合：
+（<color=#92fc63>9%</color>）エルドリッジ：正月のおてて（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9%</color>）伊吹：冬籠の夢（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10%</color>）セントルイス：ティプシースノー（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12%</color>）出雲：出雲千本桜；
+（<color=#92fc63>12%</color>）プリンス・オブ・ウェールズ：風流装束・桜；
+（<color=#92fc63>12%</color>）磯風：新年大合戦；
+（<color=#92fc63>12%</color>）ヘレナ：青い鳥の正月；
+（<color=#92fc63>12%</color>）モントピリア：雪夜の華；
+（<color=#92fc63>12%</color>）足柄：幕間少憩；]],
+		rarity = 4,
+		type = 98,
+		name = "ランダム衣装（お正月）",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69903,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69904] = {
+		display = [[
+下記の着せ替えをランダム入手できます。（すでに所持している場合、購入時に消費した分の無償ダイヤに変換されます）
+各衣装の出現割合：
+（<color=#92fc63>8.5%</color>）ベルファスト：彩雲の薔薇（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9%</color>）ラフィー：春待ちウサギ（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9%</color>）太原：春騒ぎの玄亀（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10.5%</color>）エンタープライズ：ブライトピオニー；
+（<color=#92fc63>10.5%</color>）セントー ：清冽な春風；
+（<color=#92fc63>10.5%</color>）モナーク ：ブラック・ジェラード；
+（<color=#92fc63>10.5%</color>）夕暮：春の夕暮；
+（<color=#92fc63>10.5%</color>）綾波：波濤新歳；
+（<color=#92fc63>10.5%</color>）レキシントン：春華の歌；
+（<color=#92fc63>10.5%</color>）チェイサー：東煌見聞録；]],
+		rarity = 4,
+		type = 98,
+		name = "ランダム衣装（旧正月）",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69904,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69905] = {
+		display = [[
+下記の着せ替えをランダム入手できます。（すでに所持している場合、購入時に消費した分の無償ダイヤに変換されます）
+各衣装の出現割合：
+（<color=#92fc63>7.2%</color>）ビスマルク：鉄血の威光（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.8%</color>）アーク・ロイヤル：バンケットガーディアン（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9.5%</color>）キング・ジョージ5世：ウィンザー・ローズ；
+（<color=#92fc63>9.5%</color>）ジョージア：サウスタウンパール；
+（<color=#92fc63>11.0%</color>）Z23：麗しきアーベントクライト；
+（<color=#92fc63>11.0%</color>）ヘレナ：君と踊りを；
+（<color=#92fc63>11.0%</color>）ホーネット：Bubbly Anniversary！；
+（<color=#92fc63>11.0%</color>）ヨークタウン：優雅と微酔の夜；
+（<color=#92fc63>11.0%</color>）アドミラル・グラーフ・シュペー：未知の記念日；
+（<color=#92fc63>11.0%</color>）時雨：イブニングラッキースター；]],
+		rarity = 4,
+		type = 98,
+		name = "ランダム衣装",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69905,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69906] = {
+		display = [[
+下記の着せ替えをランダム入手できます。（すでに所持している場合、購入時に消費した分の無償ダイヤに変換されます）
+各衣装の出現割合：
+（<color=#92fc63>7.0%</color>）翔鶴：風と舞う鶴（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9.2%</color>）U-47：Eigenen Raum；
+（<color=#92fc63>9.2%</color>）プリンツ・オイゲン：ヴァイン・コーンブルメ；
+（<color=#92fc63>9.2%</color>）ティルピッツ：鉄血の氷風；
+（<color=#92fc63>9.2%</color>）伊吹：宴のかざばな；
+（<color=#92fc63>9.2%</color>）シアトル：ゴージャスパーティー；
+（<color=#92fc63>9.2%</color>）夕立：お肉パーティー！；
+（<color=#92fc63>9.2%</color>）ベルファスト：優雅にして高貴な従者；
+（<color=#92fc63>9.2%</color>）ジャン・バール：不羈なブラッドストーン；
+（<color=#92fc63>9.2%</color>）ローン：灰と紅の微笑み；
+（<color=#92fc63>10.2%</color>）ドイッチュラント：魔姫の夜宴；]],
+		rarity = 4,
+		type = 98,
+		name = "ランダム衣装",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69906,
+		icon = "Props/clothIcon",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -73977,6 +74023,7 @@ pg.item_data_statistics = {
 		40903,
 		40904,
 		40905,
+		40906,
 		41001,
 		41002,
 		41003,
@@ -75390,11 +75437,6 @@ pg.item_data_statistics = {
 		59838,
 		59839,
 		59900,
-		59901,
-		59902,
-		59903,
-		59904,
-		59905,
 		59906,
 		59907,
 		59908,
@@ -75420,6 +75462,12 @@ pg.item_data_statistics = {
 		60003,
 		60011,
 		60012,
+		69901,
+		69902,
+		69903,
+		69904,
+		69905,
+		69906,
 		70000,
 		70001,
 		70002,

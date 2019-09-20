@@ -13,7 +13,7 @@ return {
 			bgm = "battle-boss-italy",
 			actor = 603020,
 			nameColor = "#ff5c5c",
-			say = "呜…明明只是艘老旧的船骨头，居然还这么难缠",
+			say = "もうチートだと言われてもしょうがないわね…あの砲撃は…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "厌战额头的青筋蹦起了一下",
+			say = "ロイヤルの最高の騎士のひとり、ウォースパイトが戦いに勝利した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "为什么你能在这样漆黑的夜晚还射得那么准啊…",
+			say = "夜なのに、なんであんなに正確に撃てるのよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 603020,
-			say = "作弊，皇家的战舰在决斗中作弊啦！！",
+			say = "くっ…旧式の戦艦と侮ったツケね…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,8 +73,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 205029,
-			actorName = "厌战",
-			say = "胜负已分，两位女士就请不要再阻拦在下去路了",
+			actorName = "ウォースパイト",
+			say = "ふふ、このウォースパイト、戦いで学んだことを一つ教えてあげるわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,8 +90,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 205029,
-			actorName = "厌战",
-			say = "扎拉女士、波拉女士，在我多年的征战生崖里发现，战舰的性能并不是决定胜负的关键…",
+			actorName = "ウォースパイト",
+			say = "それは、艦船の性能の違いが、戦力の決定的差ではないということよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,8 +107,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 205029,
-			actorName = "厌战",
-			say = "还是要拥有一颗正直勇敢的心灵以及多年的经验积累",
+			actorName = "ウォースパイト",
+			say = "己のカンレキにこだわるのではなく、戦士としての初心のまま困難に挑み、そして絶えず切磋琢磨し続ける――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,8 +124,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 205029,
-			actorName = "厌战",
-			say = "作为一个长者，我就要告诉你们……",
+			actorName = "ウォースパイト",
+			say = "それこそがロイヤルの強さよ。ふん、そちらさえ良ければ、このウォースパイト、少し指導してあげても――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,8 +141,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 205029,
-			actorName = "厌战",
-			say = "……",
+			actorName = "ウォースパイト",
+			say = "…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,8 +158,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 205029,
-			actorName = "厌战",
-			say = "诶，人呢？！",
+			actorName = "ウォースパイト",
+			say = "…………行ったわね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "厌战猛一抬头才发现两艘扎拉级巡洋舰已经飞速驶离了射击范围",
+			say = "ウォースパイトの話が終わるのを待つまでもなく、ザラ姉妹は戦闘海域からほぼ離脱した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 603020,
-			say = "我们才不要听你长话连篇呢，哔哔——",
+			say = "悪いけど、先に失礼させてもらうわ。ポーラ、通信を",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "扎拉朝愣在原地的厌战摆了个鬼脸",
+			say = "ザラはフォーミダブルの進んだ方向を指で一回指し示し、妹のポーラに命令を飛ばした",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,8 +226,8 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205029,
-			actorName = "厌战",
-			say = "啊…等，等等！！",
+			actorName = "ウォースパイト",
+			say = "あなたたち…まさか！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "通知三妹四妹，有一艘航空母舰和一支轻巡部队漏过了防守线，正在朝“卡拉布里亚的宝石”驶去",
+			say = "みんなに連絡して、空母と護衛艦隊が防衛線を突破して、例の…「カラブリアの宝石」に前進中よ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 603020,
-			say = "皇家的战舰似乎装备了新型的夜战装备，能够在黑夜中精确射击，请务必小心",
+			say = "ウォースパイトをもう十分足止めしたわよね？今からそちらに合流するわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "我们正在全速前往拦截，希望能够汇合击破！",
+			say = "サディアの意地を見せるわよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "了解…电报发送中，哔哔哔哔——",
+			say = "ふふふ、ヴェネトに打電、よし",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,8 +314,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 205029,
-			actorName = "厌战",
-			say = "呼呼，真是的…现在的孩子们速度一个比一个快，呼...已经完全跟不上了",
+			actorName = "ウォースパイト",
+			say = "ちっ、逃げられた……やっぱり速力を長時間上げると機関に響くわね……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "厌战拖着沉重的身躯在黑夜中缓慢的前进着",
+			say = "ザラたちとの戦闘で機関を酷使したせいか、ウォースパイトは低速力でゆっくりと二人の消えた方向への舵をとった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,8 +344,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 205029,
-			actorName = "厌战",
-			say = "如果....等这场战斗结束后，能进行一次彻底的现代化改装就好了，嘿嘿嘿",
+			actorName = "ウォースパイト",
+			say = "戦いが終わったら、陛下に大改装でも申請したほうがよさそうね…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			say = "哼——果然帝国的那班战舰到了关键时刻一点都靠不住",
+			say = "ふふ、サディア帝国の戦艦、いい戦いができそうだと思っていたらとんだ見かけ倒しだ！",
 			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "平时鼓吹的陆间海第一舰队、欧罗巴最先进的海上力量，到了实战中居然没有一点反手之力",
+			say = "現存艦隊主義を掲げ、地中海最強の艦隊だと誇っていながらロイヤルにあんなに弄ばれたとは",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "之前承诺把陆间海交给她们掌控就是一个错误的决定！",
+			say = "地中海を任せたのはどうやら間違いのようだな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "皇家首次在夜战中出动了航空母舰，并且夜战雷达也使她们的炮击命中率大幅提高",
+			say = "夜間の空母運用、新型レーダーによる夜間砲撃の精度向上、ロイヤルの勝利は計算上容易に予測できたでしょう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "部分观测数据已经通过塞壬的数据网络传递回开发部了，希望能对新兵器的研发有所帮助",
+			say = "観測した情報は開発部署に回したし、新兵器の開発に役立ってくれるはずよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "曾经不可一世的帝国海军，最后的价值也就只有这点了…吗，呵呵呵",
+			say = "はあ……結局その程度の成果でしかないってことか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "另外，俾斯麦级战列舰的服役测试已经通过了最终阶段，预计再过1个月就可以正式服役",
+			say = "ビスマルク、ようやく重い腰を上げてくれたようね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "等到俾斯麦服役，“欧罗巴大陆第一战舰”的名号就会回到我们手上了",
+			say = "彼女が復帰してくれたら、こちらの勝率も更に上昇するわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "哼，敢于和狼群为敌的愚昧之徒，最终都将受到铁的制裁",
+			say = "我が鉄血を裏切る者は、いずれ鉄と血の裁きを受ける――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "格奈森瑙！",
+			say = "グナイゼナウ。サディアの監視を頼んでもいい？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "在",
+			say = "ええ。姉さんこそ、北海の哨戒を",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "严格监视帝国舰队日后的行动，一旦出现可能的叛逃行为，立刻向司令部汇报！",
+			say = "何かあったらすぐみんなに報告して？放っておけば寝返りそうな気がする",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "遵命，Eisen und Blut über alles！",
+			say = "もちろん。元々は私の仕事なので",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

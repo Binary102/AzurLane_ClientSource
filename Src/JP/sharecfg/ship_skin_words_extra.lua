@@ -142,30 +142,6 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
-	[999011] = {
-		touch = "",
-		feeling3 = "",
-		login = "",
-		feeling1 = "",
-		expedition = "",
-		win_mvp = "",
-		home = "",
-		mission = "",
-		touch2 = "",
-		upgrade = "",
-		feeling4 = "",
-		mail = "",
-		lose = "",
-		feeling5 = "",
-		main = "",
-		profile = "",
-		mission_complete = "",
-		headtouch = "",
-		feeling2 = "",
-		battle = "",
-		id = 999011,
-		detail = ""
-	},
 	[207050] = {
 		feeling3 = "",
 		feeling1 = "",
@@ -244,7 +220,6 @@ pg.ship_skin_words_extra = {
 		999010,
 		801040,
 		108030,
-		999011,
 		207050
 	}
 }

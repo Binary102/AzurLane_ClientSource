@@ -441,7 +441,7 @@ function slot5.StartPreload(slot0, slot1, slot2)
 				slot3()
 			end), true, true)
 		elseif string.find(slot9, "painting/") then
-			PoolMgr.GetInstance():GetPainting(slot11, true, function (slot0)
+			PoolMgr.GetInstance():GetPainting(slot11 .. ((PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot11, 0) ~= 0 and "_n") or ""), true, function (slot0)
 				if slot0 == nil then
 					print("资源预加载失败，检查以下目录：>>" .. slot0 .. "<<")
 				else

@@ -241754,7 +241754,6 @@ pg.expedition_data_template = {
 		guide_desc = "",
 		type = 98,
 		ai_mov = 2,
-		award_display = "",
 		add_icon = "",
 		name = "精英舰队",
 		exp_commander = 0,
@@ -241771,6 +241770,7 @@ pg.expedition_data_template = {
 		plot_type = 0,
 		id = 1250223,
 		scale = 80,
+		award_display = {},
 		objective_1 = {
 			1
 		},

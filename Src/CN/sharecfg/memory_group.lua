@@ -1220,6 +1220,18 @@ pg.memory_group = {
 			929
 		}
 	},
+	[168] = {
+		title = "心血来潮的夜宴",
+		type = 2,
+		id = 168,
+		icon = "title_event",
+		memories = {
+			930,
+			931,
+			932,
+			933
+		}
+	},
 	[501] = {
 		title = "{namecode:98}的委托",
 		type = 3,
@@ -1967,6 +1979,7 @@ pg.memory_group = {
 		165,
 		166,
 		167,
+		168,
 		501,
 		502,
 		503,

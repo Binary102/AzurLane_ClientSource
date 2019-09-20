@@ -3659,7 +3659,7 @@ pg.item_data_statistics = {
 		replace_item = 0,
 		link_id = 0,
 		id = 11041,
-		icon = "Equips/55400",
+		icon = "Equips/55200",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -7660,7 +7660,7 @@ pg.item_data_statistics = {
 		display_icon = {
 			{
 				2,
-				59901,
+				69901,
 				1
 			},
 			{
@@ -7707,7 +7707,7 @@ pg.item_data_statistics = {
 		display_icon = {
 			{
 				2,
-				59902,
+				69902,
 				1
 			},
 			{
@@ -7754,7 +7754,7 @@ pg.item_data_statistics = {
 		display_icon = {
 			{
 				2,
-				59903,
+				69903,
 				1
 			},
 			{
@@ -7801,7 +7801,7 @@ pg.item_data_statistics = {
 		display_icon = {
 			{
 				2,
-				59904,
+				69904,
 				1
 			},
 			{
@@ -7848,7 +7848,54 @@ pg.item_data_statistics = {
 		display_icon = {
 			{
 				2,
-				59905,
+				69905,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[40906] = {
+		display = "购买礼包可获得随机换装*1，钻石*2019，心智单元*50，心智魔方*20，快速建造*10，家具币*100",
+		rarity = 4,
+		type = 5,
+		name = "2019国庆礼盒",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 40906,
+		icon = "Props/lihe1",
+		display_icon = {
+			{
+				2,
+				69906,
 				1
 			},
 			{
@@ -69940,11 +69987,6 @@ pg.item_data_statistics = {
 			},
 			{
 				4,
-				103011,
-				1
-			},
-			{
-				4,
 				103021,
 				1
 			},
@@ -70067,11 +70109,6 @@ pg.item_data_statistics = {
 			},
 			{
 				4,
-				103011,
-				1
-			},
-			{
-				4,
 				103021,
 				1
 			},
@@ -70185,11 +70222,6 @@ pg.item_data_statistics = {
 			{
 				4,
 				101071,
-				1
-			},
-			{
-				4,
-				103011,
 				1
 			},
 			{
@@ -71176,11 +71208,6 @@ pg.item_data_statistics = {
 			},
 			{
 				4,
-				103011,
-				1
-			},
-			{
-				4,
 				103021,
 				1
 			},
@@ -71303,11 +71330,6 @@ pg.item_data_statistics = {
 			},
 			{
 				4,
-				103011,
-				1
-			},
-			{
-				4,
 				103021,
 				1
 			},
@@ -71421,11 +71443,6 @@ pg.item_data_statistics = {
 			{
 				4,
 				101071,
-				1
-			},
-			{
-				4,
-				103011,
 				1
 			},
 			{
@@ -74572,134 +74589,6 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
-	[59901] = {
-		display = "获得1件随机新年换装(如果获得已经拥有的新年换装，则会自动转化为该换装等价的钻石)",
-		rarity = 4,
-		type = 98,
-		name = "随机新年换装",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59901,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[59902] = {
-		display = [[
-从如下换装中随机获得1件换装(如果该换装已拥有，则会转化为对应原价9折的钻石) 
-包含的换装和概率如下：
-（<color=#92fc63>8%</color>）桐换装  Music Pixy（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>8%</color>）克利夫兰换装  骑士之夜（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>8%</color>）鹩换装  毒苹果（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>9.5%</color>）欧若拉换装  黎明的赞歌；
-（<color=#92fc63>9.5%</color>）伊丽莎白换装  女王的舞踏会；
-（<color=#92fc63>9.5%</color>）阿贾克斯换装  晚会女王；
-（<color=#92fc63>9.5%</color>）茗换装  黑猫来袭！；
-（<color=#92fc63>9.5%</color>）女将换装  小小的管弦乐队；
-（<color=#92fc63>9.5%</color>）南达科他换装  剧场上的独奏；
-（<color=#92fc63>9.5%</color>）U-81换装  静谧小夜曲；
-（<color=#92fc63>9.5%</color>）光辉换装  光辉的舞会；]],
-		rarity = 4,
-		type = 98,
-		name = "随机换装",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59902,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[59903] = {
-		display = [[
-从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
-包含的换装和概率如下：
-（<color=#92fc63>9%</color>）埃尔德里奇换装 正月的牵手（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>9%</color>）峦换装  永梦的青女（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>10%</color>）圣路易斯换装 雪下之饮（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>12%</color>）侌换装  出云千本樱；
-（<color=#92fc63>12%</color>）威尔士亲王换装  皇家式风流；
-（<color=#92fc63>12%</color>）柉换装  新年合战；
-（<color=#92fc63>12%</color>）海伦娜换装  正月与青鸟；
-（<color=#92fc63>12%</color>）蒙彼利埃换装  雪夜之花；
-（<color=#92fc63>12%</color>）狳换装  幕间小憩；]],
-		rarity = 4,
-		type = 98,
-		name = "随机新年换装",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59903,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[59904] = {
-		display = [[
-从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
-包含的换装和概率如下：
-（<color=#92fc63>8.5%</color>）贝尔法斯特换装  彩云之玫瑰（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>9%</color>）拉菲换装  白兔迎春（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>9%</color>）太原换装  金蛇闹春（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>10.5%</color>）企业换装  傲春之牡丹；
-（<color=#92fc63>10.5%</color>）半人马换装  清冽的春风；
-（<color=#92fc63>10.5%</color>）君主换装  赭红爵祿；
-（<color=#92fc63>10.5%</color>）棭换装  夕暮春华；
-（<color=#92fc63>10.5%</color>）柚换装  新岁之鬼神；
-（<color=#92fc63>10.5%</color>）列克星敦换装  春华佳人；
-（<color=#92fc63>10.5%</color>）追赶者换装  东煌之道；]],
-		rarity = 4,
-		type = 98,
-		name = "随机春节换装",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59904,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[59905] = {
-		display = [[
-从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
-包含的换装和概率如下：
-（<color=#92fc63>7.2%</color>）俾斯麦换装  铁血的辉光（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>7.8%</color>）皇家方舟换装  晚会的守护者（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>9.5%</color>）乔治五世换装  温莎的玫瑰；
-（<color=#92fc63>9.5%</color>）佐治亚换装  南方的黑珍珠；
-（<color=#92fc63>11.0%</color>）Z23换装  宴会上的优等生；
-（<color=#92fc63>11.0%</color>）海伦娜换装  与君共舞；
-（<color=#92fc63>11.0%</color>）大黄蜂换装  Bubbly Anniversary！；
-（<color=#92fc63>11.0%</color>）约克城换装  优雅与朦胧之夜；
-（<color=#92fc63>11.0%</color>）斯佩伯爵换装  未知的晚会；
-（<color=#92fc63>11.0%</color>）栴换装  晚会幸运星！；]],
-		rarity = 4,
-		type = 98,
-		name = "随机二周年换装",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59905,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
 	[59906] = {
 		display = "使用后可以邀请一名特定对象参加宴会（获得指定角色）",
 		rarity = 4,
@@ -75142,6 +75031,163 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 60012,
 		icon = "Props/54003",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69901] = {
+		display = "获得1件随机新年换装(如果获得已经拥有的新年换装，则会自动转化为该换装等价的钻石)",
+		rarity = 4,
+		type = 98,
+		name = "随机新年换装",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69901,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69902] = {
+		display = [[
+从如下换装中随机获得1件换装(如果该换装已拥有，则会转化为对应原价9折的钻石) 
+包含的换装和概率如下：
+（<color=#92fc63>8%</color>）桐换装  Music Pixy（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8%</color>）克利夫兰换装  骑士之夜（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8%</color>）鹩换装  毒苹果（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9.5%</color>）欧若拉换装  黎明的赞歌；
+（<color=#92fc63>9.5%</color>）伊丽莎白换装  女王的舞踏会；
+（<color=#92fc63>9.5%</color>）阿贾克斯换装  晚会女王；
+（<color=#92fc63>9.5%</color>）茗换装  黑猫来袭！；
+（<color=#92fc63>9.5%</color>）女将换装  小小的管弦乐队；
+（<color=#92fc63>9.5%</color>）南达科他换装  剧场上的独奏；
+（<color=#92fc63>9.5%</color>）U-81换装  静谧小夜曲；
+（<color=#92fc63>9.5%</color>）光辉换装  光辉的舞会；]],
+		rarity = 4,
+		type = 98,
+		name = "随机换装",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69902,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69903] = {
+		display = [[
+从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
+包含的换装和概率如下：
+（<color=#92fc63>9%</color>）埃尔德里奇换装 正月的牵手（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9%</color>）峦换装  永梦的青女（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10%</color>）圣路易斯换装 雪下之饮（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12%</color>）侌换装  出云千本樱；
+（<color=#92fc63>12%</color>）威尔士亲王换装  皇家式风流；
+（<color=#92fc63>12%</color>）柉换装  新年合战；
+（<color=#92fc63>12%</color>）海伦娜换装  正月与青鸟；
+（<color=#92fc63>12%</color>）蒙彼利埃换装  雪夜之花；
+（<color=#92fc63>12%</color>）狳换装  幕间小憩；]],
+		rarity = 4,
+		type = 98,
+		name = "随机新年换装",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69903,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69904] = {
+		display = [[
+从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
+包含的换装和概率如下：
+（<color=#92fc63>8.5%</color>）贝尔法斯特换装  彩云之玫瑰（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9%</color>）拉菲换装  白兔迎春（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9%</color>）太原换装  金蛇闹春（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10.5%</color>）企业换装  傲春之牡丹；
+（<color=#92fc63>10.5%</color>）半人马换装  清冽的春风；
+（<color=#92fc63>10.5%</color>）君主换装  赭红爵祿；
+（<color=#92fc63>10.5%</color>）棭换装  夕暮春华；
+（<color=#92fc63>10.5%</color>）柚换装  新岁之鬼神；
+（<color=#92fc63>10.5%</color>）列克星敦换装  春华佳人；
+（<color=#92fc63>10.5%</color>）追赶者换装  东煌之道；]],
+		rarity = 4,
+		type = 98,
+		name = "随机春节换装",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69904,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69905] = {
+		display = [[
+从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
+包含的换装和概率如下：
+（<color=#92fc63>7.2%</color>）俾斯麦换装  铁血的辉光（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.8%</color>）皇家方舟换装  晚会的守护者（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9.5%</color>）乔治五世换装  温莎的玫瑰；
+（<color=#92fc63>9.5%</color>）佐治亚换装  南方的黑珍珠；
+（<color=#92fc63>11.0%</color>）Z23换装  宴会上的优等生；
+（<color=#92fc63>11.0%</color>）海伦娜换装  与君共舞；
+（<color=#92fc63>11.0%</color>）大黄蜂换装  Bubbly Anniversary！；
+（<color=#92fc63>11.0%</color>）约克城换装  优雅与朦胧之夜；
+（<color=#92fc63>11.0%</color>）斯佩伯爵换装  未知的晚会；
+（<color=#92fc63>11.0%</color>）栴换装  晚会幸运星！；]],
+		rarity = 4,
+		type = 98,
+		name = "随机二周年换装",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69905,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69906] = {
+		display = [[
+从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
+包含的换装和概率如下：
+（<color=#92fc63>7.0%</color>）鹬换装  散花舞鹤（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9.2%</color>）U-47换装  静谧一隅；
+（<color=#92fc63>9.2%</color>）欧根亲王换装  Wein Kornblume；
+（<color=#92fc63>9.2%</color>）提尔比茨换装  铁血的冰风；
+（<color=#92fc63>9.2%</color>）峦换装  轻扬的风花；
+（<color=#92fc63>9.2%</color>）西雅图换装  绚烂的盛宴；
+（<color=#92fc63>9.2%</color>）椿换装  肉肉之宴！；
+（<color=#92fc63>9.2%</color>）贝尔法斯特换装  优雅而高贵的从者；
+（<color=#92fc63>9.2%</color>）让巴尔换装  不羁的BloodStone；
+（<color=#92fc63>9.2%</color>）罗恩换装  暗红色的微笑；
+（<color=#92fc63>10.2%</color>）德意志换装  魔姬的夜宴；]],
+		rarity = 4,
+		type = 98,
+		name = "随机国庆换装",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69906,
+		icon = "Props/clothIcon",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -75903,6 +75949,7 @@ pg.item_data_statistics = {
 		40903,
 		40904,
 		40905,
+		40906,
 		41001,
 		41002,
 		41003,
@@ -77341,11 +77388,6 @@ pg.item_data_statistics = {
 		59838,
 		59839,
 		59900,
-		59901,
-		59902,
-		59903,
-		59904,
-		59905,
 		59906,
 		59907,
 		59908,
@@ -77371,6 +77413,12 @@ pg.item_data_statistics = {
 		60003,
 		60011,
 		60012,
+		69901,
+		69902,
+		69903,
+		69904,
+		69905,
+		69906,
 		70000,
 		70001,
 		70002,

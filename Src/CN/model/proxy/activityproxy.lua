@@ -427,8 +427,18 @@ function slot0.recommendActivityFleet(slot0, slot1, slot2)
 	return
 end
 
-function slot0.GetVoteActivty(slot0)
+function slot0.GetVoteBookActivty(slot0)
 	return slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_1) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_2) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_3) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_4) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_5) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_6) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_7) or slot0:getActivityById(ActivityConst.VOTE_ORDER_BOOK_PHASE_8)
+end
+
+function slot0.GetVoteActivity(slot0)
+	for slot5, slot6 in ipairs(slot1) do
+		if slot6:getConfig("config_id") ~= 6 then
+			return slot6
+		end
+	end
+
+	return
 end
 
 return slot0

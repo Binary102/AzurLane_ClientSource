@@ -7,8 +7,12 @@ end
 function slot0.onInitItem(slot0, slot1)
 	slot0.super.onInitItem(slot0, slot1)
 	onButton(slot0, slot0.voteItems[slot1].go, function ()
-		if slot0.phase == VoteGroup.VOTE_STAGE and slot0.CallBack then
-			slot0.CallBack(slot1, slot1.voteShip.votes)
+		if slot0.CallBack then
+			if slot0.phase == VoteGroup.DISPLAY_STAGE then
+				slot0.CallBack(slot1, slot1.voteShip.totalVotes)
+			else
+				slot0.CallBack(slot1, slot1.voteShip.votes)
+			end
 		end
 	end, SFX_PANEL)
 end

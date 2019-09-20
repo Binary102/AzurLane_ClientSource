@@ -41,7 +41,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "哼哼，龙骑兵的名字本来就来源于数百年前帝国的高速机动部队",
+			say = "哼哼，龙骑兵的名字本就源于数百年前帝国的高速机动部队",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 207050,
 			nameColor = "#a9f548",
-			say = "化为可畏的战绩吧！！梭鱼，出击！！",
+			say = "化为可畏的战绩吧！！青花鱼，出击！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

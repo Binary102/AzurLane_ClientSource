@@ -14796,7 +14796,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -16956,7 +16957,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -17031,7 +17033,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -17106,7 +17109,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -17215,7 +17219,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -17290,7 +17295,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -17399,7 +17405,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -28472,7 +28479,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -28547,7 +28555,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -28656,7 +28665,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -38773,7 +38783,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -38848,7 +38859,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -38957,7 +38969,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -39110,7 +39123,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -50353,7 +50367,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -50462,7 +50477,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -50615,7 +50631,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -50768,7 +50785,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -50921,7 +50939,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -50997,7 +51016,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -51106,7 +51126,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -67989,7 +68010,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 12,
 		icon = "55200",
-		value_1 = "18 x 8",
+		value_1 = "19 x 8",
 		attribute_2 = "cannon",
 		avoid_extra = 0,
 		rarity = 3,
@@ -68010,7 +68031,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -68032,7 +68054,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95202] = {
-		value_1 = "22 x 8",
+		value_1 = "21 x 8",
 		id = 95202,
 		base = 95200,
 		is_siren = 0,
@@ -68043,7 +68065,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95203] = {
-		value_1 = "24 x 8",
+		value_1 = "22 x 8",
 		id = 95203,
 		base = 95200,
 		is_siren = 0,
@@ -68054,7 +68076,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95204] = {
-		value_1 = "20 x 8",
+		value_1 = "23 x 8",
 		id = 95204,
 		base = 95200,
 		is_siren = 0,
@@ -68065,7 +68087,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95205] = {
-		value_1 = "22 x 8",
+		value_1 = "24 x 8",
 		id = 95205,
 		base = 95200,
 		is_siren = 0,
@@ -68076,7 +68098,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95206] = {
-		value_1 = "24 x 8",
+		value_1 = "25 x 8",
 		id = 95206,
 		base = 95200,
 		is_siren = 0,
@@ -68118,7 +68140,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -68130,7 +68153,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95221] = {
-		value_1 = "28 x 8",
+		value_1 = "26 x 8",
 		id = 95221,
 		base = 95220,
 		is_siren = 0,
@@ -68141,7 +68164,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95222] = {
-		value_1 = "30 x 8",
+		value_1 = "27 x 8",
 		id = 95222,
 		base = 95220,
 		is_siren = 0,
@@ -68152,7 +68175,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95223] = {
-		value_1 = "32 x 8",
+		value_1 = "28 x 8",
 		id = 95223,
 		base = 95220,
 		is_siren = 0,
@@ -68163,7 +68186,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95224] = {
-		value_1 = "22 x 8",
+		value_1 = "29 x 8",
 		id = 95224,
 		base = 95220,
 		is_siren = 0,
@@ -68174,7 +68197,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95225] = {
-		value_1 = "24 x 8",
+		value_1 = "30 x 8",
 		id = 95225,
 		base = 95220,
 		is_siren = 0,
@@ -68185,7 +68208,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95226] = {
-		value_1 = "26 x 8",
+		value_1 = "31 x 8",
 		id = 95226,
 		base = 95220,
 		is_siren = 0,
@@ -68196,7 +68219,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95227] = {
-		value_1 = "28 x 8",
+		value_1 = "32 x 8",
 		id = 95227,
 		base = 95220,
 		is_siren = 0,
@@ -68207,7 +68230,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95228] = {
-		value_1 = "30 x 8",
+		value_1 = "33 x 8",
 		id = 95228,
 		base = 95220,
 		is_siren = 0,
@@ -68218,7 +68241,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95229] = {
-		value_1 = "32 x 8",
+		value_1 = "34 x 8",
 		id = 95229,
 		base = 95220,
 		is_siren = 0,
@@ -68229,7 +68252,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95230] = {
-		value_1 = "34 x 8",
+		value_1 = "35 x 8",
 		id = 95230,
 		base = 95220,
 		is_siren = 0,
@@ -68271,7 +68294,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -68283,7 +68307,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95241] = {
-		value_1 = "38 x 8",
+		value_1 = "37 x 8",
 		id = 95241,
 		base = 95240,
 		is_siren = 0,
@@ -68294,7 +68318,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95242] = {
-		value_1 = "40 x 8",
+		value_1 = "37 x 8",
 		id = 95242,
 		base = 95240,
 		is_siren = 0,
@@ -68305,7 +68329,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95243] = {
-		value_1 = "42 x 8",
+		value_1 = "38 x 8",
 		id = 95243,
 		base = 95240,
 		is_siren = 0,
@@ -68316,7 +68340,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95244] = {
-		value_1 = "30 x 8",
+		value_1 = "38 x 8",
 		id = 95244,
 		base = 95240,
 		is_siren = 0,
@@ -68327,7 +68351,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95245] = {
-		value_1 = "32 x 8",
+		value_1 = "39 x 8",
 		id = 95245,
 		base = 95240,
 		is_siren = 0,
@@ -68338,7 +68362,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95246] = {
-		value_1 = "34 x 8",
+		value_1 = "39 x 8",
 		id = 95246,
 		base = 95240,
 		is_siren = 0,
@@ -68349,7 +68373,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95247] = {
-		value_1 = "36 x 8",
+		value_1 = "40 x 8",
 		id = 95247,
 		base = 95240,
 		is_siren = 0,
@@ -68360,7 +68384,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95248] = {
-		value_1 = "38 x 8",
+		value_1 = "41 x 8",
 		id = 95248,
 		base = 95240,
 		is_siren = 0,
@@ -68371,7 +68395,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95249] = {
-		value_1 = "40 x 8",
+		value_1 = "42 x 8",
 		id = 95249,
 		base = 95240,
 		is_siren = 0,
@@ -68382,7 +68406,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95250] = {
-		value_1 = "42 x 8",
+		value_1 = "43 x 8",
 		id = 95250,
 		base = 95240,
 		is_siren = 0,
@@ -68424,7 +68448,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -68499,7 +68524,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -68608,7 +68634,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},

@@ -9944,6 +9944,50 @@ pg.memory_template = {
 		icon = "memory_italy",
 		is_open = 0
 	},
+	[930] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "来办宴会吧！",
+		condition = "解锁「夜宴微醺」DAY1",
+		story = "DACHAOLIFU1",
+		id = 930,
+		icon = "memory_dachaolifu",
+		is_open = 0
+	},
+	[931] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Prost！",
+		condition = "解锁「夜宴微醺」DAY3",
+		story = "DACHAOLIFU2",
+		id = 931,
+		icon = "memory_dachaolifu",
+		is_open = 0
+	},
+	[932] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "各自的欢愉",
+		condition = "解锁「夜宴微醺」DAY5",
+		story = "DACHAOLIFU3",
+		id = 932,
+		icon = "memory_dachaolifu",
+		is_open = 0
+	},
+	[933] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "定番的尾声",
+		condition = "解锁「夜宴微醺」DAY7",
+		story = "DACHAOLIFU4",
+		id = 933,
+		icon = "memory_dachaolifu",
+		is_open = 0
+	},
 	[10011] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -11476,6 +11520,10 @@ pg.memory_template = {
 		927,
 		928,
 		929,
+		930,
+		931,
+		932,
+		933,
 		10011,
 		10012,
 		10013,

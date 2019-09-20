@@ -159,7 +159,7 @@ return {
 		event = ActivityMediator.GO_FISRT_VOTE,
 		data = {},
 		isShow = function ()
-			return getProxy(ActivityProxy):GetVoteActivty() and not slot1:isEnd() and PLATFORM_CODE ~= PLATFORM_US
+			return getProxy(ActivityProxy):GetVoteBookActivty() and not slot1:isEnd() and PLATFORM_CODE ~= PLATFORM_US
 		end,
 		isTip = function ()
 			return _.any(VoteFameHallLayer.configs, function (slot0)

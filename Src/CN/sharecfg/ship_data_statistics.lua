@@ -105190,32 +105190,32 @@ pg.ship_data_statistics = {
 		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
-			1,
+			331,
+			11,
+			96,
+			26,
 			0,
+			77,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			71,
+			71,
+			42,
+			46,
+			45
 		},
 		attrs_growth = {
+			8080,
+			108,
+			948,
+			500,
+			0,
+			384,
+			0,
+			1050,
+			1050,
 			0,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			448
 		},
 		attrs_growth_extra = {
 			0,
@@ -105232,12 +105232,12 @@ pg.ship_data_statistics = {
 			0
 		},
 		grades = {
+			"D",
+			"A",
 			"E",
-			"E",
-			"E",
-			"E",
-			"E",
-			"E"
+			"A",
+			"D",
+			"C"
 		},
 		lock = {
 			"air"
@@ -105282,9 +105282,9 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1,
-			1,
-			1
+			0.7,
+			1.3,
+			0.7
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -105318,32 +105318,32 @@ pg.ship_data_statistics = {
 		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
-			1,
+			412,
+			14,
+			120,
+			32,
 			0,
+			77,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			71,
+			71,
+			42,
+			46,
+			56
 		},
 		attrs_growth = {
+			8080,
+			108,
+			948,
+			500,
+			0,
+			384,
+			0,
+			1050,
+			1050,
 			0,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			448
 		},
 		attrs_growth_extra = {
 			0,
@@ -105360,12 +105360,12 @@ pg.ship_data_statistics = {
 			0
 		},
 		grades = {
+			"D",
+			"A",
 			"E",
-			"E",
-			"E",
-			"E",
-			"E",
-			"E"
+			"A",
+			"D",
+			"C"
 		},
 		lock = {
 			"air"
@@ -105410,9 +105410,9 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1,
-			1,
-			1
+			0.7,
+			1.35,
+			0.7
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -105446,32 +105446,32 @@ pg.ship_data_statistics = {
 		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
-			1,
+			573,
+			19,
+			167,
+			45,
 			0,
+			77,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			71,
+			71,
+			42,
+			46,
+			79
 		},
 		attrs_growth = {
+			8080,
+			108,
+			948,
+			500,
+			0,
+			384,
+			0,
+			1050,
+			1050,
 			0,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			448
 		},
 		attrs_growth_extra = {
 			0,
@@ -105488,12 +105488,12 @@ pg.ship_data_statistics = {
 			0
 		},
 		grades = {
+			"D",
+			"A",
 			"E",
-			"E",
-			"E",
-			"E",
-			"E",
-			"E"
+			"A",
+			"D",
+			"C"
 		},
 		lock = {
 			"air"
@@ -105538,9 +105538,9 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1,
-			1,
-			1
+			0.7,
+			1.45,
+			0.7
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -105574,54 +105574,54 @@ pg.ship_data_statistics = {
 		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
-			1,
+			816,
+			27,
+			238,
+			64,
 			0,
+			77,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			71,
+			71,
+			42,
+			46,
+			112
 		},
 		attrs_growth = {
+			8080,
+			108,
+			948,
+			500,
+			0,
+			384,
+			0,
+			1050,
+			1050,
 			0,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			448
 		},
 		attrs_growth_extra = {
+			8070,
+			252,
+			1182,
+			348,
+			0,
+			914,
+			0,
+			-615,
+			-765,
 			0,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			446
 		},
 		grades = {
+			"D",
+			"A",
 			"E",
-			"E",
-			"E",
-			"E",
-			"E",
-			"E"
+			"A",
+			"D",
+			"C"
 		},
 		lock = {
 			"air"
@@ -105666,9 +105666,9 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1,
-			1,
-			1
+			0.75,
+			1.5,
+			0.75
 		},
 		strategy_list = {},
 		strategy_list_ai = {},

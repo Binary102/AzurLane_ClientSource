@@ -1320,6 +1320,27 @@ pg.backyard_theme_template = {
 			30303
 		}
 	},
+	[31] = {
+		Cfg_1 = 5,
+		name = "atre秋叶原",
+		desc = "atre系列",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 0,
+		discount = 0,
+		id = 31,
+		icon = "atrethemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			31101,
+			31102,
+			31103,
+			31104
+		}
+	},
 	[32] = {
 		Cfg_1 = 5,
 		name = "lawson系列",
@@ -1999,6 +2020,52 @@ pg.backyard_theme_template = {
 			48303
 		}
 	},
+	[49] = {
+		Cfg_1 = 5,
+		name = "港区指挥室",
+		desc = "",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 49,
+		icon = "dhthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			49001,
+			49002,
+			49101,
+			49102,
+			49103,
+			49104,
+			49105,
+			49106,
+			49107,
+			49108,
+			49109,
+			49110,
+			49111,
+			49112,
+			49113,
+			49114,
+			49115,
+			49116,
+			49117,
+			49118,
+			49119,
+			49120,
+			49121,
+			49122,
+			49301,
+			49302,
+			49303,
+			49304,
+			49305
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2027,6 +2094,7 @@ pg.backyard_theme_template = {
 		28,
 		29,
 		30,
+		31,
 		32,
 		33,
 		35,
@@ -2041,7 +2109,8 @@ pg.backyard_theme_template = {
 		44,
 		45,
 		46,
-		48
+		48,
+		49
 	}
 }
 

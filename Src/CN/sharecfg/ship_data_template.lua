@@ -36281,8 +36281,13 @@ pg.ship_data_template = {
 			14
 		},
 		airassist_time = {},
-		buff_list = {},
+		buff_list = {
+			2011,
+			2161
+		},
 		buff_list_display = {
+			2011,
+			2161,
 			22056
 		},
 		hide_buff_list = {
@@ -36323,9 +36328,13 @@ pg.ship_data_template = {
 		},
 		airassist_time = {},
 		buff_list = {
+			2011,
+			2161,
 			22056
 		},
 		buff_list_display = {
+			2011,
+			2161,
 			22056
 		},
 		hide_buff_list = {
@@ -36366,9 +36375,13 @@ pg.ship_data_template = {
 		},
 		airassist_time = {},
 		buff_list = {
+			2011,
+			2161,
 			22056
 		},
 		buff_list_display = {
+			2011,
+			2161,
 			22056
 		},
 		hide_buff_list = {
@@ -36409,9 +36422,13 @@ pg.ship_data_template = {
 		},
 		airassist_time = {},
 		buff_list = {
+			2011,
+			2161,
 			22057
 		},
 		buff_list_display = {
+			2011,
+			2161,
 			22057
 		},
 		hide_buff_list = {

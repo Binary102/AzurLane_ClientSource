@@ -58669,6 +58669,244 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[31101] = {
+		can_rotate = 0,
+		name = "军舰tori",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		icon = "atre_1icon",
+		deblocking = 1,
+		level = 1,
+		tag = 6,
+		rarity = 3,
+		picture = "atre/atre_1",
+		canputon = 0,
+		discount = 0,
+		id = 31101,
+		comfortable = 3,
+		describe = "保卫atre秋叶原（和母港）的和平，tori！",
+		dorm_id = 0,
+		gem_price = 1000,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[31102] = {
+		can_rotate = 0,
+		name = "女仆tori",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		icon = "atre_4icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "atre/atre_4",
+		canputon = 0,
+		discount = 0,
+		id = 31102,
+		comfortable = 3,
+		describe = "可靠又知性的（女仆？）领班，tori！",
+		dorm_id = 0,
+		gem_price = 1000,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[31103] = {
+		can_rotate = 1,
+		name = "tori之家",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		icon = "atre_5icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "atre/atre_5",
+		canputon = 0,
+		discount = 0,
+		id = 31103,
+		comfortable = 3,
+		describe = "观赏时，请站在正面，tori！",
+		dorm_id = 0,
+		gem_price = 1000,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			14,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[31104] = {
+		can_rotate = 1,
+		name = "tori电车",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		icon = "atre_6icon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 31104,
+		comfortable = 4,
+		describe = "目标，atre秋叶原，GO！",
+		dorm_id = 0,
+		gem_price = 1000,
+		themeId = 0,
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			14,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xiaohuocheB",
+				"normal"
+			},
+			{
+				"xiaohuocheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				-80.8,
+				-75
+			},
+			{
+				-1,
+				1
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					54,
+					-16
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					183,
+					50
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"xiaohuocheCharControl",
+				"xiaohuocheCharControl2",
+				"xiaohuocheCharControl3"
+			}
+		},
+		interAction_group = {}
+	},
 	[32103] = {
 		advice = 0,
 		name = "大货架",
@@ -91968,7 +92206,7 @@ pg.furniture_data_template = {
 		discount = 0,
 		id = 48117,
 		comfortable = 2,
-		describe = "装饰着五彩花卉的黑色蔚蓝",
+		describe = "装饰着五彩花卉的黑色围栏",
 		dorm_id = 0,
 		gem_price = 120,
 		themeId = 48,
@@ -92877,6 +93115,2117 @@ pg.furniture_data_template = {
 				{
 					2019,
 					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49001] = {
+		can_rotate = 0,
+		name = "指挥室地毯",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "dibandhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 4,
+		rarity = 4,
+		picture = "donghuaBD/dibandh",
+		canputon = 0,
+		discount = 0,
+		id = 49001,
+		comfortable = 0,
+		describe = "加油开始新一天的工作吧！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49002] = {
+		can_rotate = 0,
+		name = "指挥室墙纸",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "qiangbidhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 3,
+		rarity = 4,
+		picture = "donghuaBD/qiangbidh",
+		canputon = 0,
+		discount = 0,
+		id = 49002,
+		comfortable = 0,
+		describe = "加油开始新一天的工作吧！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49101] = {
+		can_rotate = 0,
+		name = "地下保管库入口",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "dixiadhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/dixiadh",
+		canputon = 0,
+		discount = 0,
+		id = 49101,
+		comfortable = 0,
+		describe = "秘密的收藏，尽在其中……",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49102] = {
+		can_rotate = 0,
+		name = "绿意盆栽",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 4,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "yezishudhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/yezishudh",
+		canputon = 0,
+		discount = 0,
+		id = 49102,
+		comfortable = 0,
+		describe = "突然想吃椰子了呢",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49103] = {
+		can_rotate = 0,
+		name = "皇家风格茶几",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "zhuozi2dhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/zhuozi2dh",
+		canputon = 1,
+		discount = 0,
+		id = 49103,
+		comfortable = 0,
+		describe = "待客用的茶几，是不是有种优雅的感觉？",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			2
+		},
+		offset = {
+			0,
+			12.99
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				1
+			},
+			{
+				4,
+				2
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49104] = {
+		advice = 0,
+		name = "客用长沙发",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "donghuaBD/yizi2dh",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "yizi2dhicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 49104,
+		comfortable = 0,
+		describe = "似乎还能躺着休息一会～",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					75.8,
+					34.6
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-9.4,
+					-11.1
+				},
+				{
+					1,
+					1
+				},
+				"donghuaBD/yizi2dh_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49105] = {
+		advice = 0,
+		name = "客用单人沙发",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "donghuaBD/yizi3dh",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "yizi3dhicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 49105,
+		comfortable = 0,
+		describe = "有种让人难以起身的魔力～",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-23.9,
+					12
+				},
+				{
+					-1,
+					1
+				},
+				"donghuaBD/yizi3dh_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49106] = {
+		can_rotate = 0,
+		name = "钢琴凳",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "dengzidhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/dengzidh",
+		canputon = 0,
+		discount = 0,
+		id = 49106,
+		comfortable = 0,
+		describe = "来弹奏一首小夜曲如何？",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49107] = {
+		can_rotate = 0,
+		name = "钢琴乐团啾",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "yanzoudhicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 49107,
+		comfortable = 0,
+		describe = "来弹奏一首小夜曲如何？",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yuedui",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"yueduiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[49108] = {
+		can_rotate = 0,
+		name = "简约鞋柜",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "xieguidhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/xieguidh",
+		canputon = 0,
+		discount = 0,
+		id = 49108,
+		comfortable = 0,
+		describe = "放置着各种各样鞋子的鞋柜",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49109] = {
+		can_rotate = 0,
+		name = "展列柜",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 4,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "guitaidhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/guitaidh",
+		canputon = 0,
+		discount = 0,
+		id = 49109,
+		comfortable = 0,
+		describe = "漂亮的柜子，为室内增添花香",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49110] = {
+		can_rotate = 0,
+		name = "管家啾",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "guanjiadhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/guanjiadh",
+		canputon = 0,
+		discount = 0,
+		id = 49110,
+		comfortable = 0,
+		describe = "今天的点心……啾！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49111] = {
+		can_rotate = 0,
+		name = "女仆啾",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "nvpudhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/nvpudh",
+		canputon = 0,
+		discount = 0,
+		id = 49111,
+		comfortable = 0,
+		describe = "家事就全都交给我吧……啾！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49112] = {
+		advice = 0,
+		name = "室内高尔夫",
+		count = 1,
+		type = 2,
+		dir = 0,
+		gain_by = "",
+		is_get_time_note = 0,
+		belong = 1,
+		can_rotate = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "gaoerfudhicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		picture = "",
+		canputon = 0,
+		discount = 0,
+		id = 49112,
+		comfortable = 0,
+		describe = "下一杆，一定进洞……啾！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			9,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"golf",
+				"normal"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49113] = {
+		can_rotate = 0,
+		name = "园艺啾",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "yuanyidhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/yuanyidh",
+		canputon = 0,
+		discount = 0,
+		id = 49113,
+		comfortable = 0,
+		describe = "唔…要修成什么样的造型…啾？",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49114] = {
+		can_rotate = 0,
+		name = "展列柜组合A",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "guizi2dhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/guizi2dh",
+		canputon = 0,
+		discount = 0,
+		id = 49114,
+		comfortable = 0,
+		describe = "摆着相框台灯等装饰的柜子",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49115] = {
+		can_rotate = 0,
+		name = "展列柜组合B",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "guizi3dhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/guizi3dh",
+		canputon = 0,
+		discount = 0,
+		id = 49115,
+		comfortable = 0,
+		describe = "摆着盘子和花卉等装饰的柜子",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49116] = {
+		can_rotate = 0,
+		name = "指挥官办公桌",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 3,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "zhuodhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/zhuodh",
+		canputon = 0,
+		discount = 0,
+		id = 49116,
+		comfortable = 0,
+		describe = "需要审阅的文件……还有这么多！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49117] = {
+		advice = 0,
+		name = "指挥官办公椅",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "donghuaBD/yizidh",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "yizidhicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 49117,
+		comfortable = 0,
+		describe = "保持正确的坐姿，才能更长久地工作！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					19.1,
+					15.8
+				},
+				{
+					1,
+					1
+				},
+				"donghuaBD/yizidh_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49118] = {
+		can_rotate = 0,
+		name = "典雅台灯",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "taidengdhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/taidengdh",
+		canputon = 0,
+		discount = 0,
+		id = 49118,
+		comfortable = 0,
+		describe = "温暖的灯光陪伴着你我度过漫漫加班长夜",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49119] = {
+		can_rotate = 0,
+		name = "精致下午茶",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "zhuo2dhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/zhuo2dh",
+		canputon = 0,
+		discount = 0,
+		id = 49119,
+		comfortable = 0,
+		describe = "来办场小型下午茶会吧～",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49120] = {
+		can_rotate = 0,
+		name = "博学书柜",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "shuguidhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/shuguidh",
+		canputon = 0,
+		discount = 0,
+		id = 49120,
+		comfortable = 0,
+		describe = "唔…想要的资料应该是在…这里？",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49121] = {
+		can_rotate = 0,
+		name = "碧蓝之纹章",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "ditandhicon",
+		deblocking = 1,
+		level = 2,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/ditandh",
+		canputon = 0,
+		discount = 0,
+		id = 49121,
+		comfortable = 0,
+		describe = "印着阵营标记的圆形地毯",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49122] = {
+		can_rotate = 0,
+		name = "指挥室地毯",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "ditan3dhicon",
+		deblocking = 1,
+		level = 2,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/ditan3dh",
+		canputon = 0,
+		discount = 0,
+		id = 49122,
+		comfortable = 0,
+		describe = "简约而上流的地毯～",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			18,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49301] = {
+		can_rotate = 0,
+		name = "镂空窗户",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 3,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "chuangdhicon",
+		deblocking = 1,
+		level = 2,
+		tag = 5,
+		rarity = 4,
+		picture = "donghuaBD/chuangdh",
+		canputon = 0,
+		discount = 0,
+		id = 49301,
+		comfortable = 0,
+		describe = "阳、阳光好刺眼…已经天亮了吗……",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49302] = {
+		can_rotate = 0,
+		name = "壁挂蜡烛",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 3,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "lazhudhicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 4,
+		picture = "donghuaBD/lazhudh",
+		canputon = 0,
+		discount = 0,
+		id = 49302,
+		comfortable = 0,
+		describe = "造型考究，风格怀旧的壁挂蜡烛～",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49303] = {
+		can_rotate = 0,
+		name = "世界地图",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "ditudhicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 4,
+		picture = "donghuaBD/ditudh",
+		canputon = 0,
+		discount = 0,
+		id = 49303,
+		comfortable = 0,
+		describe = "运筹帷幄，决胜千里～",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49304] = {
+		can_rotate = 0,
+		name = "指挥室挂钟",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "zhongdhicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 4,
+		picture = "donghuaBD/zhongdh",
+		canputon = 0,
+		discount = 0,
+		id = 49304,
+		comfortable = 0,
+		describe = "就算12点的钟声响起，没做完的工作，还是得乖乖做完",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49305] = {
+		can_rotate = 0,
+		name = "指挥室入口",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "mendhicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 4,
+		picture = "donghuaBD/mendh",
+		canputon = 0,
+		discount = 0,
+		id = 49305,
+		comfortable = 0,
+		describe = "这就开始今天的工作吧～",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
 					14
 				},
 				{
@@ -93824,6 +96173,10 @@ pg.furniture_data_template = {
 		30301,
 		30302,
 		30303,
+		31101,
+		31102,
+		31103,
+		31104,
 		32103,
 		32104,
 		32105,
@@ -94284,7 +96637,36 @@ pg.furniture_data_template = {
 		48203,
 		48301,
 		48302,
-		48303
+		48303,
+		49001,
+		49002,
+		49101,
+		49102,
+		49103,
+		49104,
+		49105,
+		49106,
+		49107,
+		49108,
+		49109,
+		49110,
+		49111,
+		49112,
+		49113,
+		49114,
+		49115,
+		49116,
+		49117,
+		49118,
+		49119,
+		49120,
+		49121,
+		49122,
+		49301,
+		49302,
+		49303,
+		49304,
+		49305
 	}
 }
 

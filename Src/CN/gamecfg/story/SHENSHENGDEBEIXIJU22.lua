@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "皇家首次在夜战中出动了航空母舰，并且夜战雷达也使她们的炮击命中率大幅提高",
+			say = "皇家不但首次在夜战中出动了航空母舰，夜战雷达也使她们的战舰炮击命中率大幅提高",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "哼，敢于和狼群为敌的愚昧之徒，最终都将受到铁的制裁",
+			say = "哼，敢于和狼群为敌的愚昧之徒，最终都将受到铁与血的制裁",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

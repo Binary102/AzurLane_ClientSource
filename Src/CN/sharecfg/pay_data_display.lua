@@ -231,7 +231,7 @@ pg.pay_data_display = {
 		extra_service_item = {
 			{
 				2,
-				59901,
+				69901,
 				1
 			},
 			{
@@ -289,7 +289,7 @@ pg.pay_data_display = {
 		display = {
 			{
 				2,
-				59901,
+				69901,
 				1
 			},
 			{
@@ -324,7 +324,7 @@ pg.pay_data_display = {
 		extra_service_item = {
 			{
 				2,
-				59902,
+				69902,
 				1
 			},
 			{
@@ -382,7 +382,7 @@ pg.pay_data_display = {
 		display = {
 			{
 				2,
-				59902,
+				69902,
 				1
 			},
 			{
@@ -417,7 +417,7 @@ pg.pay_data_display = {
 		extra_service_item = {
 			{
 				2,
-				59903,
+				69903,
 				1
 			},
 			{
@@ -475,7 +475,7 @@ pg.pay_data_display = {
 		display = {
 			{
 				2,
-				59903,
+				69903,
 				1
 			},
 			{
@@ -510,7 +510,7 @@ pg.pay_data_display = {
 		extra_service_item = {
 			{
 				2,
-				59904,
+				69904,
 				1
 			},
 			{
@@ -568,7 +568,7 @@ pg.pay_data_display = {
 		display = {
 			{
 				2,
-				59904,
+				69904,
 				1
 			},
 			{
@@ -603,7 +603,7 @@ pg.pay_data_display = {
 		extra_service_item = {
 			{
 				2,
-				59905,
+				69905,
 				1
 			},
 			{
@@ -661,7 +661,100 @@ pg.pay_data_display = {
 		display = {
 			{
 				2,
-				59905,
+				69905,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			}
+		}
+	},
+	[15] = {
+		limit_arg = 1,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		name = "2019国庆礼盒",
+		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
+		subject = "2019国庆礼盒",
+		extra_service = 3,
+		money = 198,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe1_l",
+		id_str = "com.bilibili.blhx.zuanshi113",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 15,
+		airijp_id = "com.yostarjp.azurlane.diamond109",
+		extra_service_item = {
+			{
+				2,
+				69906,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69906,
 				1
 			},
 			{
@@ -689,7 +782,8 @@ pg.pay_data_display = {
 		11,
 		12,
 		13,
-		14
+		14,
+		15
 	}
 }
 

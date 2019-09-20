@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actorName = "维托里奥.维内托",
+			actorName = "维托里奥·维内托",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
@@ -142,7 +142,7 @@ return {
 			}
 		},
 		{
-			actorName = "维托里奥.维内托",
+			actorName = "维托里奥·维内托",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
@@ -158,7 +158,7 @@ return {
 			}
 		},
 		{
-			actorName = "维托里奥.维内托",
+			actorName = "维托里奥·维内托",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
@@ -174,7 +174,7 @@ return {
 			}
 		},
 		{
-			actorName = "维托里奥.维内托",
+			actorName = "维托里奥·维内托",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
@@ -190,7 +190,7 @@ return {
 			}
 		},
 		{
-			actorName = "维托里奥.维内托",
+			actorName = "维托里奥·维内托",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
@@ -206,7 +206,7 @@ return {
 			}
 		},
 		{
-			actorName = "维托里奥.维内托",
+			actorName = "维托里奥·维内托",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
@@ -238,7 +238,7 @@ return {
 			}
 		},
 		{
-			actorName = "维托里奥.维内托",
+			actorName = "维托里奥·维内托",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
@@ -254,7 +254,7 @@ return {
 			}
 		},
 		{
-			actorName = "维托里奥.维内托",
+			actorName = "维托里奥·维内托",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
@@ -332,7 +332,7 @@ return {
 			}
 		},
 		{
-			actorName = "维托里奥.维内托",
+			actorName = "维托里奥·维内托",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
@@ -444,7 +444,7 @@ return {
 			}
 		},
 		{
-			actorName = "维托里奥.维内托",
+			actorName = "维托里奥·维内托",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
@@ -460,7 +460,7 @@ return {
 			}
 		},
 		{
-			actorName = "维托里奥.维内托",
+			actorName = "维托里奥·维内托",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
@@ -476,7 +476,7 @@ return {
 			}
 		},
 		{
-			actorName = "维托里奥.维内托",
+			actorName = "维托里奥·维内托",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			dir = 1,

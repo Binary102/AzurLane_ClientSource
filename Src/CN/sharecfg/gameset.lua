@@ -785,6 +785,14 @@ pg.gameset = {
 		description = "",
 		key = "skin_ticket",
 		key_value = 136
+	},
+	order_pt_max = {
+		key = "order_pt_max",
+		key_value = 0,
+		description = {
+			1001,
+			25000
+		}
 	}
 }
 

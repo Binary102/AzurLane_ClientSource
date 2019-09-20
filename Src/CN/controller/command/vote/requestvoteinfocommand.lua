@@ -18,7 +18,7 @@ class("RequestVoteInfoCommand", pm.SimpleCommand).execute = function (slot0, slo
 			slot1.lastRequestTime = pg.TimeMgr.GetInstance():GetServerTime()
 			slot3 = 0
 
-			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_VOTE) then
+			if getProxy(ActivityProxy):GetVoteActivity() then
 				slot3 = slot2.data1
 			end
 

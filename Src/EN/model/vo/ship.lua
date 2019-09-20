@@ -149,21 +149,21 @@ function slot0.getMainwordsCount(slot0)
 	return #string.split(slot1.main, "|")
 end
 
-function slot0.getWordsEx(slot0, slot1, slot2, slot3, slot4)
-	slot6 = false
+function slot0.getWordsEx(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot7 = false
 
-	if type(slot5) == "string" then
+	if type(slot6) == "string" then
 		return
 	end
 
 	slot3 = slot3 or 0
 
-	for slot10, slot11 in ipairs(slot5) do
-		if slot11[1] <= slot3 then
+	for slot11, slot12 in ipairs(slot6) do
+		if slot12[1] <= slot3 then
 			if slot1 == "main" then
-				return string.split(slot11[2], "|")[slot2], slot11[1], slot6
+				return string.split(slot12[2], "|")[slot2], slot12[1], slot7
 			else
-				return slot11[2], slot11[1], slot6
+				return slot12[2], slot12[1], slot7
 			end
 		end
 	end
@@ -214,7 +214,7 @@ function slot0.getWords(slot0, slot1, slot2, slot3, slot4)
 		slot12 = string.split(slot11, "|")
 	end
 
-	rstEx, cvEx, defaultCoverEx = slot0.getWordsEx(slot6, slot1, slot13, slot4, slot7)
+	rstEx, cvEx, defaultCoverEx = slot0.getWordsEx(slot6, slot1, slot13, slot4, slot7, slot10)
 	slot14 = nil
 	slot16 = (PlayerPrefs.GetInt("CV_LANGUAGE_" .. pg.ship_skin_template[slot0].ship_group) == 2 and slot5.voice_key_2) or slot5.voice_key
 

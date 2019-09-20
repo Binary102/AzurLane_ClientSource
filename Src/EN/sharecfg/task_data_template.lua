@@ -53036,13 +53036,7 @@ pg.task_data_template = {
 			14983,
 			14984,
 			14985,
-			14986,
-			14987,
-			14988,
-			14989,
-			14990,
-			14991,
-			14992
+			14986
 		},
 		open_need = {},
 		award_display = {
@@ -53075,7 +53069,10 @@ pg.task_data_template = {
 		id = 14981,
 		target_num = 1,
 		fix_task = 0,
-		target_id = "1260001",
+		target_id = {
+			1260001,
+			1260021
+		},
 		open_need = {},
 		award_display = {}
 	},
@@ -53101,7 +53098,10 @@ pg.task_data_template = {
 		id = 14982,
 		target_num = 1,
 		fix_task = 0,
-		target_id = "1260002",
+		target_id = {
+			1260002,
+			1260022
+		},
 		open_need = {},
 		award_display = {}
 	},
@@ -53127,7 +53127,10 @@ pg.task_data_template = {
 		id = 14983,
 		target_num = 1,
 		fix_task = 0,
-		target_id = "1260003",
+		target_id = {
+			1260003,
+			1260023
+		},
 		open_need = {},
 		award_display = {}
 	},
@@ -53153,7 +53156,10 @@ pg.task_data_template = {
 		id = 14984,
 		target_num = 1,
 		fix_task = 0,
-		target_id = "1260006",
+		target_id = {
+			1260006,
+			1260026
+		},
 		open_need = {},
 		award_display = {}
 	},
@@ -53179,7 +53185,10 @@ pg.task_data_template = {
 		id = 14985,
 		target_num = 1,
 		fix_task = 0,
-		target_id = "1260007",
+		target_id = {
+			1260007,
+			1260027
+		},
 		open_need = {},
 		award_display = {}
 	},
@@ -53205,9 +53214,460 @@ pg.task_data_template = {
 		id = 14986,
 		target_num = 1,
 		fix_task = 0,
-		target_id = "1260008",
+		target_id = {
+			1260008,
+			1260028
+		},
 		open_need = {},
 		award_display = {}
+	},
+	[14993] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91736,
+		type = 26,
+		name = "送大潮礼服活动任务1",
+		count_inherit = 0,
+		desc = "Sortie and obtain 10 Perfect victories.",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14993,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				136,
+				1
+			}
+		}
+	},
+	[14994] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91737,
+		type = 26,
+		name = "送大潮礼服活动任务1",
+		count_inherit = 0,
+		desc = "Enhance gear 2 times.",
+		target_id_2 = "",
+		sub_type = 40,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14994,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14995] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91738,
+		type = 26,
+		name = "送大潮礼服活动任务2",
+		count_inherit = 0,
+		desc = "Conduct 2 Exercises.",
+		target_id_2 = "",
+		sub_type = 27,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14995,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20012,
+				1
+			}
+		}
+	},
+	[14996] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91739,
+		type = 26,
+		name = "送大潮礼服活动任务2",
+		count_inherit = 0,
+		desc = "Complete 2 Commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14996,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14997] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91740,
+		type = 26,
+		name = "送大潮礼服活动任务3",
+		count_inherit = 0,
+		desc = "Retire 2 ships.",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14997,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14998] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91741,
+		type = 26,
+		name = "送大潮礼服活动任务3",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges.",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14998,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				136,
+				1
+			}
+		}
+	},
+	[14999] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91742,
+		type = 26,
+		name = "送大潮礼服活动任务4",
+		count_inherit = 0,
+		desc = "Enhance ships 5 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14999,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20012,
+				1
+			}
+		}
+	},
+	[15000] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91743,
+		type = 26,
+		name = "送大潮礼服活动任务4",
+		count_inherit = 0,
+		desc = "Conduct tactical training 2 times.",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15000,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15001] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91744,
+		type = 26,
+		name = "送大潮礼服活动任务5",
+		count_inherit = 0,
+		desc = "Resupply the Dorm with Snacks 5 times.",
+		target_id_2 = "",
+		sub_type = 61,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15001,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20011,
+				4
+			}
+		}
+	},
+	[15002] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91745,
+		type = 26,
+		name = "送大潮礼服活动任务5",
+		count_inherit = 0,
+		desc = "Defeat 20 enemies.",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15002,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15003] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91746,
+		type = 26,
+		name = "送大潮礼服活动任务6",
+		count_inherit = 0,
+		desc = "Build 2 ships.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15003,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15004] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91747,
+		type = 26,
+		name = "送大潮礼服活动任务6",
+		count_inherit = 0,
+		desc = "Open a Tech Box.",
+		target_id_2 = "",
+		sub_type = 50,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15004,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20012,
+				2
+			}
+		}
+	},
+	[15005] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91748,
+		type = 26,
+		name = "送大潮礼服活动任务7",
+		count_inherit = 0,
+		desc = "Sortie and defeat 3 boss fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15005,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20013,
+				1
+			}
+		}
+	},
+	[15006] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91749,
+		type = 26,
+		name = "送大潮礼服活动任务7",
+		count_inherit = 0,
+		desc = "Conduct tactical training 2 times.",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15006,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				7,
+				301642,
+				1
+			}
+		}
 	},
 	[31013] = {
 		is_head = 1,
@@ -59510,6 +59970,20 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		14984,
 		14985,
 		14986,
+		14993,
+		14994,
+		14995,
+		14996,
+		14997,
+		14998,
+		14999,
+		15000,
+		15001,
+		15002,
+		15003,
+		15004,
+		15005,
+		15006,
 		31013,
 		31014,
 		31015,

@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-italy",
-			say = "サディア帝都「チッタ エテールナ」",
+			say = "Città Eterna - Capital of the Sardegna Empire",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
-			say = "………………………………………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "あ、あのぉ…そろそろ止まってもいいと思いますが…",
+			say = "Ah, um... can you stop doing that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			dir = 1,
-			say = "サディアの総旗艦、ヴィットリオ・ヴェネトは会議室を歩き回っているリットリオにを手を焼かせている。",
+			say = "Vittorio Veneto spoke up, unable to take Littorio's pacing around the palace any longer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ff5c5c",
-			say = "ふむ…ふむふむ……",
+			say = "Hmm... Hmmmmmm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ff5c5c",
-			say = "そろそろ決断の時だ",
+			say = "It is time to make a choice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "確かに…ロイヤルネイビーの地中海への進出が最近多くなってきていますね……",
+			say = "Indeed... I understand the Royal Navy has bolstered their strength in the Mediterranean...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ff5c5c",
-			say = "競泳水着とビギニ、どっちのほうがいいかな？",
+			say = "Which would be more suitable, competition swimwear, or a bikini?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
-			say = "んー最近はビギニのほうが流行っていますね…",
+			say = "Hmm... I heard bikinis were all the rage these days...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
-			say = "………え？",
+			say = "Wait, what...?",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "そうか。あのイラストリアス級の三人が同時に地中海を回航しているのだ。これは気合を入れて立ち向かわないとね",
+			say = "I heard that the three Illustrious sisters have been deployed to the Mediterranean. This is an opportunity that we cannot miss.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
-			say = "あのぉ…リットリオ？今何の話をしているのでしょうか…？",
+			say = "Um... Littorio? I'm beginning to suspect we aren't talking about the same thing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ff5c5c",
-			say = "ヴェネトこそ、「ロイヤル空母の対処法」について議論すると言い出したのはそっちじゃない",
+			say = "Was the strategic plan to handle the Illustrious-class aircraft carriers not on the agenda?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
-			say = "ま、まあ……そうですが……",
+			say = "I did say that, but... (I'm concerned. I hope that wasn't a pun...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "（リットリオ、どうしたの…あの一件のショックでおかしくなったのかしら…）",
+			say = "(Littorio has been acting strange ever since the Battle of Taranto...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
-			say = "（みんな無事とはいえ、うん……色々困っちゃいますね……）",
+			say = "(It must be some sort of post-traumatic stress... Poor girl.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "そういえば、この間イラストリアスが送ってきた電文は確か…",
+			say = "Veneto, the truth is, I received a telegram from Illustrious some time ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ff5c5c",
-			say = "【陛下は『カラブリアの宝石』の輝きのもとに、過去を水に流すことをご所望です】",
+			say = "\"To The Jewel of Calabria, the Most Resplendent One, Her Majesty the Queen hopes that our differences may become as water under the bridge.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ff5c5c",
-			say = "【追伸：妹もお連れいたします】",
+			say = "\"PS: I am bringing my two little sisters.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
-			say = "ええと、つまり？",
+			say = "Um, what's the point of this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ff5c5c",
-			say = "ああ、せっかくの機会を、利用しない手はない",
+			say = "Ahh, do you not see the value of this opportunity? We must seize it with both hands!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ff5c5c",
-			say = "――イラストリアスたちが来るこの機を生かしてまずはその技術を盗むのよ",
+			say = "This is a prime opportunity to lay Illustrious bare and expose her secrets!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "夜間発着に加え、普通の空母らしからぬあの重装甲…",
+			say = "An aircraft carrier who can launch planes in the dead of night, and with such unreasonably thick armor...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ff5c5c",
-			say = "これらの技術を手に入れ、帝国海軍に応用し、それを我が物にすれば、",
+			say = "Since that defeat, we have been groping in the dark to understand how that fateful night unfolded. But now, we can make them ours.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ff5c5c",
-			say = "サディアの栄光を再現するなど容易いものに違いない！",
+			say = "We shall pad our technology with theirs, milk it for all it's worth, and usher in a new age of Sardegnian glory!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "確かに、一理ありますね……",
+			say = "... When you put it that way, I can see your logic...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "鉄血とロイヤルの戦況の推移を見ている帝国元老院は方針が中々決まらないですし、",
+			say = "The Senate responsible for keeping abreast of the situation with the Iron Blood and Royal Navy remains paralyzed by political infighting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
-			say = "人間の権力争いがこうして繰り広げられている間に、サディア艦隊も「現状維持」のまま。これでは……",
+			say = "The power struggles continue while the Sardegna Fleet stagnates. At this rate...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ff5c5c",
-			say = "その通り。鉄血の動きがこの前の一件以来より活発的になってきている",
+			say = "You're right. The Iron Blood seems to be losing patience with us since the Battle of Taranto.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ff5c5c",
-			say = "例のセイレーンも前進拠点が見つかっていない以上、数が少しずつ増えている傾向だ",
+			say = "Not to mention the Sirens, whose numbers in the Mediterranean seem to grow by the day. They're watching our every move.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "リットリオ、私にはいいアイデアがあります",
+			say = "Littorio, I just had an idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
-			say = "ロイヤルがこうして連絡してくるのは、私たちにとってもいいきっかけかもしれません",
+			say = "There must be a reason why the Royal Navy reached out to us, and we should not let it slip past us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
-			say = "私たちにとって味方とは誰か、敵とは誰か、「演目」として最後まで演じきれるのは誰か",
+			say = "Who are our allies, who are our enemies, and who remains an \"actor\" until the very end...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "ロイヤルの方々にそれを見定めるのを付き合っていただきましょう",
+			say = "Let us conduct a little experiment of our own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
-			say = "ふふ、貴方のいう「一芝居」で――どうでしょう？",
+			say = "This was the \"play\" that you had wanted, is it not?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +624,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ff5c5c",
-			say = "ふん、私は最初からそう考えていたわよ",
+			say = "Yes... My thoughts exactly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "では、「総旗艦殿」ならぬ美しいシニョリーナよ",
+			say = "Now then, Great Flagship, my sweet signora...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
-			say = "ええと、なんですか？",
+			say = "Err, what now...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ff5c5c",
-			say = "今度は貴方の水着を選ぶ番よ？",
+			say = "It is time to make your decision... on which swimsuit to wear!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			blackBg = true,
 			actor = 900198,
 			nameColor = "#ff5c5c",
-			say = "きゃっ！？もう、リットリオ――！",
+			say = "Huh...?! Littorio, whyyyyyy...?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,

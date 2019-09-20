@@ -55,8 +55,8 @@ function slot0.initRank(slot0, slot1)
 end
 
 function slot0.UpdateTitle(slot0)
-	setActive(slot0.unrise, slot0.phase == VoteGroup.DISPLAY_STAGE and slot0.page ~= 1)
-	setActive(slot0.rise, slot0.phase == VoteGroup.DISPLAY_STAGE and slot0.page == 1)
+	setActive(slot0.unrise, slot0.phase == VoteGroup.DISPLAY_STAGE and slot0.page >= 11)
+	setActive(slot0.rise, slot0.phase == VoteGroup.DISPLAY_STAGE and slot0.page < 11)
 	setActive(slot0.rankTitle, slot0.phase == VoteGroup.VOTE_STAGE or slot0.phase == VoteGroup.STTLEMENT_STAGE)
 end
 

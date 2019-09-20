@@ -3473,17 +3473,17 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[11041] = {
-		display = "Twin 120mm Main Gun (M1936) T3 Design",
+		display = "Twin 203mm Main Gun (M1927) T3 Design",
 		rarity = 4,
 		type = 9,
-		name = "Twin 120mm Main Gun (M1936) T3 Design",
+		name = "Twin 203mm Main Gun (M1927) T3 Design",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
 		replace_item = 0,
 		link_id = 0,
 		id = 11041,
-		icon = "Equips/55400",
+		icon = "Equips/55200",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -6682,7 +6682,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		display_icon = {
 			{
 				2,
-				59903,
+				69903,
 				1
 			},
 			{
@@ -6729,7 +6729,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		display_icon = {
 			{
 				2,
-				59904,
+				69904,
 				1
 			},
 			{
@@ -6781,7 +6781,54 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		display_icon = {
 			{
 				2,
-				59905,
+				69905,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[40906] = {
+		display = "Full Dress Lucky Bag contains 1 x random Ship skin, 2019 x Gems, 50 x Cognitive Chips, 20 x Wisdom Cubes, 10 x Quick Finishers, and 100 x Decor Tokens ",
+		rarity = 4,
+		type = 5,
+		name = "Full Dress Lucky Bag ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 40906,
+		icon = "Props/fudai58",
+		display_icon = {
+			{
+				2,
+				69906,
 				1
 			},
 			{
@@ -6828,7 +6875,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		display_icon = {
 			{
 				2,
-				59951,
+				69951,
 				1
 			},
 			{
@@ -6875,7 +6922,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		display_icon = {
 			{
 				2,
-				59952,
+				69952,
 				1
 			},
 			{
@@ -6932,7 +6979,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		display_icon = {
 			{
 				2,
-				59953,
+				69953,
 				1
 			},
 			{
@@ -7117,7 +7164,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		display_icon = {
 			{
 				2,
-				59954,
+				69954,
 				1
 			},
 			{
@@ -7164,7 +7211,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		display_icon = {
 			{
 				2,
-				59955,
+				69955,
 				1
 			},
 			{
@@ -7253,7 +7300,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		display_icon = {
 			{
 				2,
-				59905,
+				69905,
 				1
 			}
 		},
@@ -7275,7 +7322,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		display_icon = {
 			{
 				2,
-				59956,
+				69956,
 				1
 			},
 			{
@@ -7322,7 +7369,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		display_icon = {
 			{
 				2,
-				59957,
+				69957,
 				1
 			},
 			{
@@ -59037,11 +59084,6 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			},
 			{
 				4,
-				103011,
-				1
-			},
-			{
-				4,
 				103021,
 				1
 			},
@@ -59164,11 +59206,6 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			},
 			{
 				4,
-				103011,
-				1
-			},
-			{
-				4,
 				103021,
 				1
 			},
@@ -59282,11 +59319,6 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			{
 				4,
 				101071,
-				1
-			},
-			{
-				4,
-				103011,
 				1
 			},
 			{
@@ -60273,11 +60305,6 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			},
 			{
 				4,
-				103011,
-				1
-			},
-			{
-				4,
 				103021,
 				1
 			},
@@ -60400,11 +60427,6 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			},
 			{
 				4,
-				103011,
-				1
-			},
-			{
-				4,
 				103021,
 				1
 			},
@@ -60518,11 +60540,6 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			{
 				4,
 				101071,
-				1
-			},
-			{
-				4,
-				103011,
 				1
 			},
 			{
@@ -62585,83 +62602,6 @@ let us celebrate."]],
 		price = {},
 		index = {}
 	},
-	[59903] = {
-		display = [[
-This lucky bag contains a random skin listed below. (If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
-Skins and drop rates:
-（<color=#A9F548>14%</color>）Eldridge - New Year's Outing（<color=#A9F548>Live 2D</color>）；
-（<color=#A9F548>14%</color>）St. Louis - Spirits in the Snow（<color=#A9F548>Live 2D</color>）；
-（<color=#A9F548>18%</color>）Prince of Wales - Sakura Elegance；
-（<color=#A9F548>18%</color>）Isokaze - New Year's Campaign；
-（<color=#A9F548>18%</color>）Helena - New Year's Bluebird ；
-（<color=#A9F548>18%</color>）Ashigara - Brief Intermission； ]],
-		rarity = 4,
-		type = 98,
-		name = "Random Skin (Shogatsu) ",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59903,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[59904] = {
-		display = [[
-This lucky bag contains a random skin listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
-Skins and drop rates:
-（<color=#A9F548>10%</color>）Belfast - Iridescent Rosa（<color=#A9F548>Live 2D</color>）；
-（<color=#A9F548>10%</color>）Laffey - White Rabbit Welcomes the Spring（<color=#A9F548>Live 2D</color>）；
-（<color=#A9F548>10%</color>）Tai Yuan - The Golden Dragon's Festivities （<color=#A9F548>Live 2D</color>）；
-（<color=#A9F548>14%</color>）Enterprise - Blooming Peony；
-（<color=#A9F548>14%</color>）Yuugure - Twilight Blossom ；
-（<color=#A9F548>14%</color>）Ayanami - Lunar Demon；
-（<color=#A9F548>14%</color>）Lexington - The Beauty of Spring；
-（<color=#A9F548>14%</color>）Chaser - The Way of the Dragon Empery； ]],
-		rarity = 4,
-		type = 98,
-		name = "Random Ship Skin (Lunar New Year) ",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59904,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[59905] = {
-		display = [[
-This lucky bag contains a random Ship skin listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
-Skins and their drop rates:
-（<color=#92fc63>8.0%</color>）Bismarck - Beacon of the Iron Blood（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>8.7%</color>）Ark Royal - Guardian of the Ball（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>10.7%</color>）King George V - Rose's Regalia；
-（<color=#92fc63>12.1%</color>）Z23 - The Banquet's Honor Student；
-（<color=#92fc63>12.1%</color>）Helena - May I Have this Dance?；
-（<color=#92fc63>12.1%</color>）Hornet - Bubbly Anniversary!；
-（<color=#92fc63>12.1%</color>）Yorktown - Evening I Can't Remember；
-（<color=#92fc63>12.1%</color>）Admiral Graf Spee -  A Novel Anniversary；
-（<color=#92fc63>12.1%</color>）Shigure - The Ballroom's Lucky Star；]],
-		rarity = 4,
-		type = 98,
-		name = "Random Ship skin ",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59905,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
 	[59925] = {
 		display = "Something good might happen when you collect 7 of these. ",
 		rarity = 2,
@@ -62674,179 +62614,6 @@ Skins and their drop rates:
 		link_id = 30216,
 		id = 59925,
 		icon = "props/zhongqiufanpai",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[59951] = {
-		display = [[
-This lucky bag contains a random Nep Ship skin (If you draw an already owned ship skin, you will be refunded 80% of the gem cost) 
- Skins and drop rate: 
- (<color=#A9F548>25%</color>) Purple Heart - Goddesses' Promise; 
- (<color=#A9F548>25%</color>) Black Heart - Goddesses' Smile; 
- (<color=#A9F548>25%</color>) White Heart - Goddesses' Humility; 
- (<color=#A9F548>25%</color>) Green Heart - Goddesses' Moment;]],
-		rarity = 4,
-		type = 98,
-		name = "Random Nep Ship skin.",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59951,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[59952] = {
-		display = [[
-This lucky bag contains a random School Girl Ship skin (if you draw an already owned ship skin, you will be refunded 100% of the gem cost) 
- Skins and drop rates: 
- (<color=#A9F548>20%</color>) Eldridge - Astonishingly Empty Classroom; 
- (<color=#A9F548>20%</color>) Edinburgh - Fairy of The Library; 
- (<color=#A9F548>20%</color>) Souryuu - The Taskmaster Girl; 
- (<color=#A9F548>20%</color>) Hiryuu - After School Bullies; 
- (<color=#A9F548>20%</color>) Z1 - “Rebellious” Top Student;]],
-		rarity = 4,
-		type = 98,
-		name = "Random School Girl Ship skin. ",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59952,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[59953] = {
-		display = [[
-This lucky bag contains a random Christmas Ship skin (If you drew a ship skin that you already have, you will be refunded 80% of the gem cost) 
- Skins and drop rates: 
- (<color=#A9F548>16.6%</color>) Enterprise - Reindeer Champion; 
- (<color=#A9F548>16.6%</color>) Cygnet - Holy Night Hymn; 
- (<color=#A9F548>16.6%</color>) San Diego - Sandy Claus; 
- (<color=#A9F548>16.6%</color>) Mutsuki - Mr. Reindeer, Depart!; 
- (<color=#A9F548>16.6%</color>) Eldridge - Holy Night Hug; 
- (<color=#A9F548>16.6%</color>) Yamashiro - Holy Night Assault; ]],
-		rarity = 4,
-		type = 98,
-		name = "Random Christmas Ship skin ",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59953,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[59954] = {
-		display = [[
-This lucky bag contains a random Ship skin (Winter's Crown) listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
-Skins and their drop rates:
-（<color=#A9F548>18.57%</color>）Victorious - The Goddess' Day Off；
-（<color=#A9F548>23.34%</color>）Sirius - White Rose；
-（<color=#A9F548>18.57%</color>）Duke of York - Eternal Night's Carola；
-（<color=#A9F548>20.95%</color>）Jamaica - Dark Bolt；
-（<color=#A9F548>18.57%</color>）Sheffield - Cloak and Dagger；]],
-		rarity = 4,
-		type = 98,
-		name = "Random Winter Ship skin ",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59954,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[59955] = {
-		display = [[
-This lucky bag contains a random Ship skin (Hanami) listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
-Skins and their drop rates:
-（<color=#A9F548>10.5%</color>）Haruna - Free Time Before Class；
-（<color=#A9F548>10.5%</color>）Asashio - The Transfer Student Underneath the Dancing Petals；
-（<color=#A9F548>13%</color>）Fumizuki - Sleepy Fairy；
-（<color=#A9F548>15%</color>）Kawakaze - Monochromatic Interlude；
-（<color=#A9F548>10.5%</color>）Nagato - Great Fox's Respite；
-（<color=#A9F548>13.5%</color>）Kongou - The Beauties of Nature；
-（<color=#A9F548>13.5%</color>）Yoizuki -  Sports Festival Preparations；
-（<color=#A9F548>13.5%</color>）Mutsu - Warring States Warship；]],
-		rarity = 4,
-		type = 98,
-		name = "Random Hanami Ship skin ",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59955,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[59956] = {
-		display = [[
-This lucky bag contains a random Ship skin listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's on sale value in Gems) 
-Skins and their drop rates:
-（<color=#92fc63>8%</color>）Fubuki  Music Pixy（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>8%</color>）Cleveland  Gentry Knight（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>8%</color>）Taihou  Forbidden Fruit（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>9.5%</color>）Aurora  Dawn's Paean；
-（<color=#92fc63>9.5%</color>）Queen Elizabeth  The Queen's Ball；
-（<color=#92fc63>9.5%</color>）Ajax  Party Queen；
-（<color=#92fc63>9.5%</color>）Akashi  The Black Cat Cometh!；
-（<color=#92fc63>9.5%</color>）Amazon  Little Drchestra；
-（<color=#92fc63>9.5%</color>）South Dakota  Solo Concert；
-（<color=#92fc63>9.5%</color>）U-81  Soft Serenade；
-（<color=#92fc63>9.5%</color>）Illustrious  Illustrious Ball；]],
-		rarity = 4,
-		type = 98,
-		name = "Random 1st Anniversary Ship skin ",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59956,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[59957] = {
-		display = [[
-This lucky bag contains a random Ship skin listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
-Skins and their drop rates:
-（<color=#92fc63>10.0%</color>）Honolulu Among the Stalls（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>10.0%</color>）Vampire Night Princess's Regalia（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>12.5%</color>）Zuikaku Ceremonial Crane；
-（<color=#92fc63>13.5%</color>）Ikazuchi Thunderous Festival；
-（<color=#92fc63>13.5%</color>）Inazuma Flash of Fireworks；
-（<color=#92fc63>13.5%</color>）Sheffield A Moment's Respite；
-（<color=#92fc63>13.5%</color>）I-26 Shortly Before the Fireworks；
-（<color=#92fc63>13.5%</color>）Mutsuki Candy Festival!；]],
-		rarity = 4,
-		type = 98,
-		name = "Random Yukata Ship skin ",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59957,
-		icon = "Props/clothIcon",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -62879,6 +62646,283 @@ Skins and their drop rates:
 		link_id = 0,
 		id = 60012,
 		icon = "Props/54003",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69903] = {
+		display = [[
+This lucky bag contains a random skin listed below. (If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
+Skins and drop rates:
+（<color=#A9F548>14%</color>）Eldridge - New Year's Outing（<color=#A9F548>Live 2D</color>）；
+（<color=#A9F548>14%</color>）St. Louis - Spirits in the Snow（<color=#A9F548>Live 2D</color>）；
+（<color=#A9F548>18%</color>）Prince of Wales - Sakura Elegance；
+（<color=#A9F548>18%</color>）Isokaze - New Year's Campaign；
+（<color=#A9F548>18%</color>）Helena - New Year's Bluebird ；
+（<color=#A9F548>18%</color>）Ashigara - Brief Intermission； ]],
+		rarity = 4,
+		type = 98,
+		name = "Random Skin (Shogatsu) ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69903,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69904] = {
+		display = [[
+This lucky bag contains a random skin listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
+Skins and drop rates:
+（<color=#A9F548>10%</color>）Belfast - Iridescent Rosa（<color=#A9F548>Live 2D</color>）；
+（<color=#A9F548>10%</color>）Laffey - White Rabbit Welcomes the Spring（<color=#A9F548>Live 2D</color>）；
+（<color=#A9F548>10%</color>）Tai Yuan - The Golden Dragon's Festivities （<color=#A9F548>Live 2D</color>）；
+（<color=#A9F548>14%</color>）Enterprise - Blooming Peony；
+（<color=#A9F548>14%</color>）Yuugure - Twilight Blossom ；
+（<color=#A9F548>14%</color>）Ayanami - Lunar Demon；
+（<color=#A9F548>14%</color>）Lexington - The Beauty of Spring；
+（<color=#A9F548>14%</color>）Chaser - The Way of the Dragon Empery； ]],
+		rarity = 4,
+		type = 98,
+		name = "Random Ship Skin (Lunar New Year) ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69904,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69905] = {
+		display = [[
+This lucky bag contains a random Ship skin listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
+Skins and their drop rates:
+（<color=#92fc63>8.0%</color>）Bismarck - Beacon of the Iron Blood（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8.7%</color>）Ark Royal - Guardian of the Ball（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10.7%</color>）King George V - Rose's Regalia；
+（<color=#92fc63>12.1%</color>）Z23 - The Banquet's Honor Student；
+（<color=#92fc63>12.1%</color>）Helena - May I Have this Dance?；
+（<color=#92fc63>12.1%</color>）Hornet - Bubbly Anniversary!；
+（<color=#92fc63>12.1%</color>）Yorktown - Evening I Can't Remember；
+（<color=#92fc63>12.1%</color>）Admiral Graf Spee -  A Novel Anniversary；
+（<color=#92fc63>12.1%</color>）Shigure - The Ballroom's Lucky Star；]],
+		rarity = 4,
+		type = 98,
+		name = "Random Ship skin ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69905,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69906] = {
+		display = [[
+This lucky bag contains a random Ship skin listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
+Skins and their drop rates:
+（<color=#92fc63>8.1%</color>）Shoukaku The Crane that Dances With the Wind（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>11.3%</color>）Prinz Eugen Cordial Cornflower；
+（<color=#92fc63>11.3%</color>）Tirpitz Iron Blood Snowstorm；
+（<color=#92fc63>11.3%</color>）Ibuki Snow on the Wind；
+（<color=#92fc63>11.3%</color>）Yuudachi  Carnivore Carnival!；
+（<color=#92fc63>11.3%</color>）Belfast The Noble Attendant；
+（<color=#92fc63>11.3%</color>）Jean Bart  Uninhibited Bloodstone；
+（<color=#92fc63>11.3%</color>）Roon Dark Red Grin；
+（<color=#92fc63>12.8%</color>）Deutschland Demon Princess' Dark Hour Banquet；]],
+		rarity = 4,
+		type = 98,
+		name = "Random Full Dress skin ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69906,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69951] = {
+		display = [[
+This lucky bag contains a random Nep Ship skin (If you draw an already owned ship skin, you will be refunded 80% of the gem cost) 
+ Skins and drop rate: 
+ (<color=#A9F548>25%</color>) Purple Heart - Goddesses' Promise; 
+ (<color=#A9F548>25%</color>) Black Heart - Goddesses' Smile; 
+ (<color=#A9F548>25%</color>) White Heart - Goddesses' Humility; 
+ (<color=#A9F548>25%</color>) Green Heart - Goddesses' Moment;]],
+		rarity = 4,
+		type = 98,
+		name = "Random Nep Ship skin.",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69951,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69952] = {
+		display = [[
+This lucky bag contains a random School Girl Ship skin (if you draw an already owned ship skin, you will be refunded 100% of the gem cost) 
+ Skins and drop rates: 
+ (<color=#A9F548>20%</color>) Eldridge - Astonishingly Empty Classroom; 
+ (<color=#A9F548>20%</color>) Edinburgh - Fairy of The Library; 
+ (<color=#A9F548>20%</color>) Souryuu - The Taskmaster Girl; 
+ (<color=#A9F548>20%</color>) Hiryuu - After School Bullies; 
+ (<color=#A9F548>20%</color>) Z1 - “Rebellious” Top Student;]],
+		rarity = 4,
+		type = 98,
+		name = "Random School Girl Ship skin. ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69952,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69953] = {
+		display = [[
+This lucky bag contains a random Christmas Ship skin (If you drew a ship skin that you already have, you will be refunded 80% of the gem cost) 
+ Skins and drop rates: 
+ (<color=#A9F548>16.6%</color>) Enterprise - Reindeer Champion; 
+ (<color=#A9F548>16.6%</color>) Cygnet - Holy Night Hymn; 
+ (<color=#A9F548>16.6%</color>) San Diego - Sandy Claus; 
+ (<color=#A9F548>16.6%</color>) Mutsuki - Mr. Reindeer, Depart!; 
+ (<color=#A9F548>16.6%</color>) Eldridge - Holy Night Hug; 
+ (<color=#A9F548>16.6%</color>) Yamashiro - Holy Night Assault; ]],
+		rarity = 4,
+		type = 98,
+		name = "Random Christmas Ship skin ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69953,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69954] = {
+		display = [[
+This lucky bag contains a random Ship skin (Winter's Crown) listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
+Skins and their drop rates:
+（<color=#A9F548>18.57%</color>）Victorious - The Goddess' Day Off；
+（<color=#A9F548>23.34%</color>）Sirius - White Rose；
+（<color=#A9F548>18.57%</color>）Duke of York - Eternal Night's Carola；
+（<color=#A9F548>20.95%</color>）Jamaica - Dark Bolt；
+（<color=#A9F548>18.57%</color>）Sheffield - Cloak and Dagger；]],
+		rarity = 4,
+		type = 98,
+		name = "Random Winter Ship skin ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69954,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69955] = {
+		display = [[
+This lucky bag contains a random Ship skin (Hanami) listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
+Skins and their drop rates:
+（<color=#A9F548>10.5%</color>）Haruna - Free Time Before Class；
+（<color=#A9F548>10.5%</color>）Asashio - The Transfer Student Underneath the Dancing Petals；
+（<color=#A9F548>13%</color>）Fumizuki - Sleepy Fairy；
+（<color=#A9F548>15%</color>）Kawakaze - Monochromatic Interlude；
+（<color=#A9F548>10.5%</color>）Nagato - Great Fox's Respite；
+（<color=#A9F548>13.5%</color>）Kongou - The Beauties of Nature；
+（<color=#A9F548>13.5%</color>）Yoizuki -  Sports Festival Preparations；
+（<color=#A9F548>13.5%</color>）Mutsu - Warring States Warship；]],
+		rarity = 4,
+		type = 98,
+		name = "Random Hanami Ship skin ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69955,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69956] = {
+		display = [[
+This lucky bag contains a random Ship skin listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's on sale value in Gems) 
+Skins and their drop rates:
+（<color=#92fc63>8%</color>）Fubuki  Music Pixy（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8%</color>）Cleveland  Gentry Knight（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8%</color>）Taihou  Forbidden Fruit（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9.5%</color>）Aurora  Dawn's Paean；
+（<color=#92fc63>9.5%</color>）Queen Elizabeth  The Queen's Ball；
+（<color=#92fc63>9.5%</color>）Ajax  Party Queen；
+（<color=#92fc63>9.5%</color>）Akashi  The Black Cat Cometh!；
+（<color=#92fc63>9.5%</color>）Amazon  Little Drchestra；
+（<color=#92fc63>9.5%</color>）South Dakota  Solo Concert；
+（<color=#92fc63>9.5%</color>）U-81  Soft Serenade；
+（<color=#92fc63>9.5%</color>）Illustrious  Illustrious Ball；]],
+		rarity = 4,
+		type = 98,
+		name = "Random 1st Anniversary Ship skin ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69956,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69957] = {
+		display = [[
+This lucky bag contains a random Ship skin listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
+Skins and their drop rates:
+（<color=#92fc63>10.0%</color>）Honolulu Among the Stalls（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10.0%</color>）Vampire Night Princess's Regalia（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12.5%</color>）Zuikaku Ceremonial Crane；
+（<color=#92fc63>13.5%</color>）Ikazuchi Thunderous Festival；
+（<color=#92fc63>13.5%</color>）Inazuma Flash of Fireworks；
+（<color=#92fc63>13.5%</color>）Sheffield A Moment's Respite；
+（<color=#92fc63>13.5%</color>）I-26 Shortly Before the Fireworks；
+（<color=#92fc63>13.5%</color>）Mutsuki Candy Festival!；]],
+		rarity = 4,
+		type = 98,
+		name = "Random Yukata Ship skin ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69957,
+		icon = "Props/clothIcon",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -63602,6 +63646,7 @@ Skins and their drop rates:
 		40903,
 		40904,
 		40905,
+		40906,
 		40951,
 		40952,
 		40953,
@@ -64723,19 +64768,20 @@ Skins and their drop rates:
 		59838,
 		59839,
 		59900,
-		59903,
-		59904,
-		59905,
 		59925,
-		59951,
-		59952,
-		59953,
-		59954,
-		59955,
-		59956,
-		59957,
 		60011,
 		60012,
+		69903,
+		69904,
+		69905,
+		69906,
+		69951,
+		69952,
+		69953,
+		69954,
+		69955,
+		69956,
+		69957,
 		70000,
 		70001,
 		70002,

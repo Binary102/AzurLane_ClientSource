@@ -23,55 +23,55 @@ function slot0.InitWebGroup(slot0, slot1, slot2)
 				value1 = 0,
 				key = 21301,
 				value2 = 0,
-				value3 = 0
+				value3 = 1
 			},
 			{
 				value1 = 0,
 				key = 21302,
 				value2 = 1,
-				value3 = 0
+				value3 = 1
 			},
 			{
 				value1 = 0,
 				key = 21304,
 				value2 = 2,
-				value3 = 0
+				value3 = 1
 			},
 			{
 				value1 = 0,
 				key = 30130,
 				value2 = 3,
-				value3 = 0
+				value3 = 1
 			},
 			{
 				value1 = 0,
 				key = 30131,
 				value2 = 4,
-				value3 = 0
+				value3 = 1
 			},
 			{
 				value1 = 0,
 				key = 30179,
 				value2 = 5,
-				value3 = 0
+				value3 = 1
 			},
 			{
 				value1 = 0,
 				key = 30132,
 				value2 = 7,
-				value3 = 0
+				value3 = 1
 			},
 			{
 				value1 = 0,
 				key = 30133,
 				value2 = 8,
-				value3 = 0
+				value3 = 1
 			},
 			{
 				value1 = 0,
 				key = 30135,
 				value2 = 0,
-				value3 = 0
+				value3 = 1
 			},
 			{
 				value1 = 0,
@@ -83,7 +83,7 @@ function slot0.InitWebGroup(slot0, slot1, slot2)
 				value1 = 0,
 				key = 30138,
 				value2 = 0,
-				value3 = 0
+				value3 = 2
 			},
 			{
 				value1 = 0,
@@ -101,7 +101,7 @@ function slot0.InitWebGroup(slot0, slot1, slot2)
 				value1 = 0,
 				key = 30105,
 				value2 = 0,
-				value3 = 0
+				value3 = 5
 			},
 			{
 				value1 = 0,
@@ -113,6 +113,7 @@ function slot0.InitWebGroup(slot0, slot1, slot2)
 	end
 
 	slot0.webVoteGroup = VoteGroup.New({
+		onWeb = true,
 		id = slot2,
 		list = _.map(slot3, function (slot0)
 			return VoteShip.New(slot0)

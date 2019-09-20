@@ -66096,6 +66096,2117 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[49001] = {
+		can_rotate = 0,
+		name = "New Office Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "dibandhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 4,
+		rarity = 4,
+		picture = "donghuaBD/dibandh",
+		canputon = 0,
+		discount = 0,
+		id = 49001,
+		comfortable = 0,
+		describe = "Sometimes, simplicity really is the best.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49002] = {
+		can_rotate = 0,
+		name = "New Office Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "qiangbidhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 3,
+		rarity = 4,
+		picture = "donghuaBD/qiangbidh",
+		canputon = 0,
+		discount = 0,
+		id = 49002,
+		comfortable = 0,
+		describe = "Please don't be too upset if your furniture doesn't align perfectly with the pattern.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49101] = {
+		can_rotate = 0,
+		name = "Stairway to the Vault",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "dixiadhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/dixiadh",
+		canputon = 0,
+		discount = 0,
+		id = 49101,
+		comfortable = 0,
+		describe = "Sounds cool, but the vault mostly just contains old naval documents.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49102] = {
+		can_rotate = 0,
+		name = "Decorative Potted Plant",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 4,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "yezishudhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/yezishudh",
+		canputon = 0,
+		discount = 0,
+		id = 49102,
+		comfortable = 0,
+		describe = "A plant resembling a palm tree, native to Aruba, Jamaica, ooh I wanna take ya.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49103] = {
+		can_rotate = 0,
+		name = "Large Royal Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "zhuozi2dhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/zhuozi2dh",
+		canputon = 1,
+		discount = 0,
+		id = 49103,
+		comfortable = 0,
+		describe = "It's so well-polished that it feels like a crime to even place your hand on it.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			2
+		},
+		offset = {
+			0,
+			12.99
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				1
+			},
+			{
+				4,
+				2
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49104] = {
+		advice = 0,
+		name = "Large Reception Sofa",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "donghuaBD/yizi2dh",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "yizi2dhicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 49104,
+		comfortable = 0,
+		describe = "Seats two people. Has other uses once reception time ends for the day...",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					75.8,
+					34.6
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-9.4,
+					-11.1
+				},
+				{
+					1,
+					1
+				},
+				"donghuaBD/yizi2dh_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49105] = {
+		advice = 0,
+		name = "Small Reception Sofa",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "donghuaBD/yizi3dh",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "yizi3dhicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 49105,
+		comfortable = 0,
+		describe = "Seats one person. Some people would just rather sit alone.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-23.9,
+					12
+				},
+				{
+					-1,
+					1
+				},
+				"donghuaBD/yizi3dh_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49106] = {
+		can_rotate = 0,
+		name = "Small Royal Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "dengzidhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/dengzidh",
+		canputon = 0,
+		discount = 0,
+		id = 49106,
+		comfortable = 0,
+		describe = "Very similar to the Large Royal Table. For no particular reason whatsoever, Ark Royal seems to like this one more.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49107] = {
+		can_rotate = 0,
+		name = "Manjuu Orchestra",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "yanzoudhicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 49107,
+		comfortable = 0,
+		describe = "They have a friendly rivalry with Bismarck's orchestra. Much harder to redeploy though, owing to the piano.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yuedui",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"yueduiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[49108] = {
+		can_rotate = 0,
+		name = "Simple Shoe Rack",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "xieguidhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/xieguidh",
+		canputon = 0,
+		discount = 0,
+		id = 49108,
+		comfortable = 0,
+		describe = "Is that a super rare Cat Box? Oh... there's only a pair of dress shoes inside.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49109] = {
+		can_rotate = 0,
+		name = "Cupboard with Roses",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 4,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "guitaidhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/guitaidh",
+		canputon = 0,
+		discount = 0,
+		id = 49109,
+		comfortable = 0,
+		describe = "At least one of the roses is stolen every week. Whoever finds the perpetrator will be handsomely rewarded.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49110] = {
+		can_rotate = 0,
+		name = "Manjuu Butler",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "guanjiadhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/guanjiadh",
+		canputon = 0,
+		discount = 0,
+		id = 49110,
+		comfortable = 0,
+		describe = "A very attentive butler by the name of Sebastian. Please don't lock him up in the Canteen's freezer!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49111] = {
+		can_rotate = 0,
+		name = "Manjuu Maid",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "nvpudhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/nvpudh",
+		canputon = 0,
+		discount = 0,
+		id = 49111,
+		comfortable = 0,
+		describe = "Don't mistake her expression for dissatisfaction. She's very much glad to not be stuck working at a maid café.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49112] = {
+		advice = 0,
+		name = "Minigolf Course",
+		count = 1,
+		type = 2,
+		dir = 0,
+		gain_by = "",
+		is_get_time_note = 0,
+		belong = 1,
+		can_rotate = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "gaoerfudhicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		picture = "",
+		canputon = 0,
+		discount = 0,
+		id = 49112,
+		comfortable = 0,
+		describe = "Putting it nicely, the salesman's pitch was that it's \"par for the course\" to have this in the office.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			9,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"golf",
+				"normal"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49113] = {
+		can_rotate = 0,
+		name = "Manjuu Gardener",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "yuanyidhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/yuanyidh",
+		canputon = 0,
+		discount = 0,
+		id = 49113,
+		comfortable = 0,
+		describe = "This Manjuu used to work in a clock tower before switching jobs. Looks intimidating, but is just misunderstood.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49114] = {
+		can_rotate = 0,
+		name = "Cabinet with Photograph",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "guizi2dhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/guizi2dh",
+		canputon = 0,
+		discount = 0,
+		id = 49114,
+		comfortable = 0,
+		describe = "It's a bit hard to tell who the photograph is of from the sprite, but Taihou seems keenly interested in finding out.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49115] = {
+		can_rotate = 0,
+		name = "Cabinet with Mirror",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "guizi3dhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/guizi3dh",
+		canputon = 0,
+		discount = 0,
+		id = 49115,
+		comfortable = 0,
+		describe = "\"Could we move it? 'Mirror, mirror on the cabinet' doesn't quite have the same ring to it.\"",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49116] = {
+		can_rotate = 0,
+		name = "New Office Desk",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 3,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "zhuodhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/zhuodh",
+		canputon = 0,
+		discount = 0,
+		id = 49116,
+		comfortable = 0,
+		describe = "Many documents, operation drafts, and love letters find their way to this elegant desk.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49117] = {
+		advice = 0,
+		name = "New Office Chair",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "donghuaBD/yizidh",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "yizidhicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 49117,
+		comfortable = 0,
+		describe = "Surprisingly plain and disturbingly uncomfortable, considering who usually sits here.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					19.1,
+					15.8
+				},
+				{
+					1,
+					1
+				},
+				"donghuaBD/yizidh_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49118] = {
+		can_rotate = 0,
+		name = "Elegant Lamp",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "taidengdhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/taidengdh",
+		canputon = 0,
+		discount = 0,
+		id = 49118,
+		comfortable = 0,
+		describe = "Seems to attract many lamp-starved moths.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49119] = {
+		can_rotate = 0,
+		name = "Royal Tea Set",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "zhuo2dhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/zhuo2dh",
+		canputon = 0,
+		discount = 0,
+		id = 49119,
+		comfortable = 0,
+		describe = "The new Royal Navy carrier who recently joined the fleet insisted on having one in the office. It's so very hard to say no to her...",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49120] = {
+		can_rotate = 0,
+		name = "Scholar's Bookshelves",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "shuguidhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/shuguidh",
+		canputon = 0,
+		discount = 0,
+		id = 49120,
+		comfortable = 0,
+		describe = "There's no secret chamber located behind these. That would be too obvious.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49121] = {
+		can_rotate = 0,
+		name = "Emblematic Carpet",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "ditandhicon",
+		deblocking = 1,
+		level = 2,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/ditandh",
+		canputon = 0,
+		discount = 0,
+		id = 49121,
+		comfortable = 0,
+		describe = "Represents something grand. You would feel bad stepping on it if it wasn't a carpet, and that's the point.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49122] = {
+		can_rotate = 0,
+		name = "New Office Carpet",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "ditan3dhicon",
+		deblocking = 1,
+		level = 2,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/ditan3dh",
+		canputon = 0,
+		discount = 0,
+		id = 49122,
+		comfortable = 0,
+		describe = "Vaguely resembles a runway, which has led to a few incidents with carriers practicing aircraft takeoffs with it.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			18,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49301] = {
+		can_rotate = 0,
+		name = "Lattice Window",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 3,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "chuangdhicon",
+		deblocking = 1,
+		level = 2,
+		tag = 5,
+		rarity = 4,
+		picture = "donghuaBD/chuangdh",
+		canputon = 0,
+		discount = 0,
+		id = 49301,
+		comfortable = 0,
+		describe = "Holey light passes through it.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49302] = {
+		can_rotate = 0,
+		name = "Wall-Mounted Candle",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 3,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "lazhudhicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 4,
+		picture = "donghuaBD/lazhudh",
+		canputon = 0,
+		discount = 0,
+		id = 49302,
+		comfortable = 0,
+		describe = "Rustic during the day, spooky at night. Always a fire hazard.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49303] = {
+		can_rotate = 0,
+		name = "Otherworldly Atlas",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "ditudhicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 4,
+		picture = "donghuaBD/ditudh",
+		canputon = 0,
+		discount = 0,
+		id = 49303,
+		comfortable = 0,
+		describe = "A map of a markedly different, yet strangely familiar world. Nobody knows where it came from.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49304] = {
+		can_rotate = 0,
+		name = "Grandfather Clock",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "zhongdhicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 4,
+		picture = "donghuaBD/zhongdh",
+		canputon = 0,
+		discount = 0,
+		id = 49304,
+		comfortable = 0,
+		describe = "Doesn't work anymore after Formidable fiddled with it. Still right twice a day, though!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49305] = {
+		can_rotate = 0,
+		name = "New Office Doorway",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "mendhicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 4,
+		picture = "donghuaBD/mendh",
+		canputon = 0,
+		discount = 0,
+		id = 49305,
+		comfortable = 0,
+		describe = "Walking through something this sumptuous feels like logging into a video game.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -67069,7 +69180,36 @@ pg.furniture_data_template = {
 		48203,
 		48301,
 		48302,
-		48303
+		48303,
+		49001,
+		49002,
+		49101,
+		49102,
+		49103,
+		49104,
+		49105,
+		49106,
+		49107,
+		49108,
+		49109,
+		49110,
+		49111,
+		49112,
+		49113,
+		49114,
+		49115,
+		49116,
+		49117,
+		49118,
+		49119,
+		49120,
+		49121,
+		49122,
+		49301,
+		49302,
+		49303,
+		49304,
+		49305
 	}
 }
 

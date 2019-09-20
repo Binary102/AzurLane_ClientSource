@@ -7810,6 +7810,50 @@ pg.memory_template = {
 		icon = "memory_italy",
 		is_open = 0
 	},
+	[930] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Ready, Ladies!",
+		condition = "Start \"Woozy Party\" Day 1.",
+		story = "DACHAOLIFU1",
+		id = 930,
+		icon = "memory_dachaolifu",
+		is_open = 0
+	},
+	[931] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Prost!",
+		condition = "Start \"Woozy Party\" Day 3.",
+		story = "DACHAOLIFU2",
+		id = 931,
+		icon = "memory_dachaolifu",
+		is_open = 0
+	},
+	[932] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Other Ways to Have Fun",
+		condition = "Start \"Woozy Party\" Day 5.",
+		story = "DACHAOLIFU3",
+		id = 932,
+		icon = "memory_dachaolifu",
+		is_open = 0
+	},
+	[933] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Classic Conclusion",
+		condition = "Start \"Woozy Party\" Day 7.",
+		story = "DACHAOLIFU4",
+		id = 933,
+		icon = "memory_dachaolifu",
+		is_open = 0
+	},
 	[10011] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -9104,6 +9148,10 @@ pg.memory_template = {
 		927,
 		928,
 		929,
+		930,
+		931,
+		932,
+		933,
 		10011,
 		10012,
 		10013,

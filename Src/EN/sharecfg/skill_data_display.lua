@@ -232,6 +232,10 @@ pg.skill_data_display = {
 		id = 2151,
 		name = "Impartial Destruction "
 	},
+	[2161] = {
+		id = 2161,
+		name = "Lightning Strikes Twice "
+	},
 	[2171] = {
 		id = 2171,
 		name = "Anti-Air Vigilance"
@@ -3159,6 +3163,7 @@ pg.skill_data_display = {
 		2131,
 		2141,
 		2151,
+		2161,
 		2171,
 		3001,
 		3011,

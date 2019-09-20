@@ -13,7 +13,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.ON_WEB, function (slot0)
 		if not _.detect(pg.activity_vote.all, function (slot0)
-			return pg.TimeMgr.GetInstance():inTime(pg.activity_vote[slot0].time_show) and slot1.is_in_game == 0 and slot1.is_on_web == 1
+			return pg.TimeMgr.GetInstance():inTime(pg.activity_vote[slot0].time_show) and slot1.is_in_game == 1
 		end) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_not_start"))
 

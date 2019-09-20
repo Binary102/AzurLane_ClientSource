@@ -11,43 +11,43 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>「詩人は昏き森に迷い込み、3つの獣に行路を阻まれた」</size>",
+					"<size=51>At the edge of that gloomy forest, three beasts blocked my path</size>",
 					1
 				},
 				{
-					"<size=51>「一匹は狡猾なるヒョウ」</size>",
+					"<size=51>There was the Leopard,</size>",
 					2
 				},
 				{
-					"<size=51>「――斑目模様の肌に鋭い爪、牙、獲物を絶対に見逃さない野生の申し子」</size>",
+					"<size=51>its coat dazzling with many colors</size>",
 					3
 				},
 				{
-					"<size=51>「一匹は気高き獅子」</size> ",
+					"<size=51>There was the Lion,</size> ",
 					4
 				},
 				{
-					"<size=51>「――優雅に、そしてときに獰猛に振る舞う、自然を統べるノブリージュ」</size>",
+					"<size=51>its head ringed with a proud mane</size>",
 					5
 				},
 				{
-					"<size=51>「一匹は狼」</size>",
+					"<size=51>And there was the She-Wolf,</size>",
 					6
 				},
 				{
-					"<size=51>「――猛獣たちの影に隠れ、己の本性を抑え込み、狩りの機会を伺う隠忍の性（さが）」</size>",
+					"<size=51>its body emaciated, mad with hunger</size>",
 					7
 				},
 				{
-					"<size=51>「獣に弄ばれる哀れな人、貴方はこの欲深い獣たちから生き残れるかしら？」</size>",
+					"<size=51>They surrounded me, their ravenous intentions dripping from their mouths</size>",
 					8
 				},
 				{
-					"<size=51>「それとも通りかかったお節介さんに助けられ、天国へと到れるのかしら？」</size>",
+					"<size=51>Little by little, step by ominous step, they advanced on me; I looked desperately back toward the dark forest</size>",
 					9
 				},
 				{
-					"<size=51>「ふふふ、物語の結末――楽しみだわ」</size>",
+					"<size=51>A place where even the light of the sun itself had been snuffed out...</size>",
 					10
 				}
 			}
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
-			say = "ロイヤル本島",
+			say = "The Royal Islands",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -128,12 +128,12 @@ return {
 			}
 		},
 		{
-			actorName = "イラストリアス",
+			actorName = "Illustrious",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ヴィクトリアス、フォーミダブル、お茶をお持ちしましたわ",
+			say = "Victorious, Formidable, the tea's going to go cold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,12 +144,12 @@ return {
 			}
 		},
 		{
-			actorName = "ヴィクトリアス",
+			actorName = "Victorious",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "はあああ……なんだかお日様がポカポカ過ぎて、思わず眠くなっちゃったわ…",
+			say = "Ahahaha... It was so pleasant and warm outside that I ended up dozing off...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,12 +160,12 @@ return {
 			}
 		},
 		{
-			actorName = "フォーミダブル",
+			actorName = "Formidable",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ヴィクトリアス姉さんはいつもそうですわ。御機嫌よう、イラストリアス姉さん",
+			say = "That's Victorious for you. Good day, Illustrious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,8 +180,8 @@ return {
 			side = 2,
 			bgName = "bg_italy_cg4",
 			dir = 1,
-			actorName = "ヴィクトリアス",
-			say = "フォーミダブル、今のは余計だわ！",
+			actorName = "Victorious",
+			say = "Hey, Formidable, I didn't appreciate that extra comment!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -197,12 +197,12 @@ return {
 			}
 		},
 		{
-			actorName = "イラストリアス",
+			actorName = "Illustrious",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "まあまあ、はい、今日の紅茶は私が淹れましたわ。ふふ、この三人が揃うのは久しぶりですわね",
+			say = "Calm down, you two. It feels like it's been ages since we've all sat down together for tea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,12 +213,12 @@ return {
 			}
 		},
 		{
-			actorName = "イラストリアス",
+			actorName = "Illustrious",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ヴィクトリアス、艤装の慣熟訓練のほうは大丈夫？",
+			say = "Oh, Victorious, how did your shakedown cruise go?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,12 +229,12 @@ return {
 			}
 		},
 		{
-			actorName = "ヴィクトリアス",
+			actorName = "Victorious",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "んーちょっとしたトラブルがあってね？うまく使いこなすにはまだちょっとかかるかな～",
+			say = "Err, there was a spot of trouble I guess? They said it might be a while before I'd be able to deploy~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,12 +245,12 @@ return {
 			}
 		},
 		{
-			actorName = "イラストリアス",
+			actorName = "Illustrious",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "フォーミダブルのほうは確か…もう訓練が完了したのかしら？",
+			say = "That means your little sister is going into active service before you. You'll have to redouble your efforts to match her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,12 +261,12 @@ return {
 			}
 		},
 		{
-			actorName = "ヴィクトリアス",
+			actorName = "Victorious",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "はいはい、ヴィクトリアス、がんばりますわー姉さんと陛下のためにー…",
+			say = "But of course! I shall be victorious! For my sisters, and for Her Majesty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,12 +277,12 @@ return {
 			}
 		},
 		{
-			actorName = "イラストリアス",
+			actorName = "Illustrious",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "うふふ、実は今日、大事なお話がありますわ",
+			say = "Pfft... Actually, I'm afraid there's a more important matter for which I've called you two here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,12 +293,12 @@ return {
 			}
 		},
 		{
-			actorName = "フォーミダブル",
+			actorName = "Formidable",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ケッコン話！？",
+			say = "You're getting married?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,8 +313,8 @@ return {
 			side = 2,
 			bgName = "bg_italy_cg4",
 			dir = 1,
-			actorName = "イラストリアス",
-			say = "フォーミダブル、違いますよ！",
+			actorName = "Illustrious",
+			say = "Heavens, no! *cough* *cough*",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -333,7 +333,7 @@ return {
 			side = 2,
 			bgName = "bg_italy_cg4",
 			dir = 1,
-			say = "イラストリアスはちょっと取り乱した。",
+			say = "Illustrious turned bright red and nearly spilled her tea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,12 +344,12 @@ return {
 			}
 		},
 		{
-			actorName = "フォーミダブル",
+			actorName = "Formidable",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "えー…………",
+			say = "Aw.......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,12 +360,12 @@ return {
 			}
 		},
 		{
-			actorName = "イラストリアス",
+			actorName = "Illustrious",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "もう、そういう冗談をしないでちょうだい？ふぅ……",
+			say = "It's unbecoming of a Lady to joke about such things.. Hmph~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,12 +376,12 @@ return {
 			}
 		},
 		{
-			actorName = "イラストリアス",
+			actorName = "Illustrious",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ええと、実はちょっと真面目な話ですが……",
+			say = "Anyway, I did say it was an important matter, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,13 +392,13 @@ return {
 			}
 		},
 		{
-			actorName = "イラストリアス",
+			actorName = "Illustrious",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "――地中海に、行ってきてくださらないかしら？",
+			say = "Could I interest the two of you in a trip to the Mediterranean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

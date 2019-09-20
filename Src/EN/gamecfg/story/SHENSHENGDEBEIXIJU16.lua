@@ -13,7 +13,7 @@ return {
 			bgm = "battle-boss-italy",
 			actor = 207050,
 			nameColor = "#a9f548",
-			say = "あっちこっち動いてうっと…じゃなくて、気分が下がりますわ！",
+			say = "... Your scurrying back and forth is giving me a headache.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "カラビニエーレは得意の速力を活かし、フォーミダブルとの間合いを縮め艦載機の攻撃から逃れ続けた。",
+			say = "Carabiniere made use of her agility to avoid the carrier's attacks while gradually closing the distance between them, poking and prodding at Formidable with her guns.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "こう見えても自分の追跡術は縁あるサディア竜騎兵隊仕込みであります！",
+			say = "Hah! My very name comes from a centuries-old type of Sardegnian light cavalry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "それに高速で接近し、魚雷による一撃離脱こそ駆逐艦の正しい戦い方ではありませんか！",
+			say = "Using rapid movements to confuse our enemies while I wait for the perfect moment to strike true, that is my fighting style.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 601020,
-			say = "フォーミダブルさん、重たい空母である貴方から簡単には引き離れませんよ！",
+			say = "Miss Formidable, a lumbering carrier like you has no chance of keeping up with my speed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 207050,
-			say = "……なんですって？",
+			say = "... I beg your pardon?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "とある単語を耳にしたフォーミダブルは激怒した。",
+			say = "Formidable raised an eyebrow, giving off an uncharacteristically vexed aura.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 207050,
-			say = "あなた、今の言葉、もう一回言ってみなさい",
+			say = "You... take that back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = -1,
 			actor = 207050,
 			nameColor = "#a9f548",
-			say = "誰　が　「　重　た　い　」　で　す　っ　て　？",
+			say = "Who. Did. You. Call. Lumbering?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -161,7 +161,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "フォーミダブルの豹変にカラビニエーレは思わずきょとんとした。",
+			say = "Carabiniere was taken back by Formidable's pouty lips and the tears welling up in the corners of her eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 601020,
-			say = "ふぉ、フォーミダブルさん！？",
+			say = "No, I... That's not...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 207050,
-			say = "――じっとしてなさい！",
+			say = "DON'T MOVE AN INCH!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "力強い声の一喝がサディアの駆逐艦に直撃した。",
+			say = "An intense pressure began to exude from Formidable as she glared at the Sardegnian destroyer, enveloping her in a distorted aura.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			actor = 601020,
 			nameColor = "#ff5c5c",
-			say = "ひゃぅ！？",
+			say = "Wha... what is this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "艤装の故障か、単に気圧されたのか、それともロイヤルレディの迫力（？）によるものか、とにかくカラビニエーレは動きを一瞬止めた。",
+			say = "Carabiniere's boiler suddenly gave out with a pop. One by one, her fellow destroyers lost power from their boilers and slowed to a crawl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 207050,
-			say = "ねえ？重たいのは一体誰のことかしら？",
+			say = "So, who's the lumbering one now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = -1,
 			actor = 207050,
 			nameColor = "#a9f548",
-			say = "もう一回言ってみなさい？重たいのは誰のこと？！",
+			say = "Care to say that again? Who's the lumbering one now?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			actor = 601020,
 			nameColor = "#ff5c5c",
-			say = "ち、違います！自分はそういう意味じゃ……",
+			say = "W-wait! That's not what I meant...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 207050,
 			nameColor = "#a9f548",
-			say = "私の戦果になりなさい！バラクーダ隊、お仕置きよ！",
+			say = "You're about to become a kill marking on my Baraccuda! Engage!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			actor = 601020,
 			nameColor = "#ff5c5c",
-			say = "わあああああ！！",
+			say = "Waaaaaaaahhh!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,9 +376,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 205029,
-			actorName = "ウォースパイト",
-			say = "う、うわぁ……",
+			actor = 900199,
+			actorName = "Warspite",
+			say = "... Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "同行しているウォースパイトはカラビニエーレがコミカルに吹き飛ばされたのを見た。",
+			say = "Warspite arrived just in time to see Carabiniere get blown away. She broke out in a cold sweat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,9 +406,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 205029,
-			actorName = "ウォースパイト",
-			say = "フォーミダブル、流石にやりすぎかしら……",
+			actor = 900199,
+			actorName = "Warspite",
+			say = "Formidable... Don't you think you might have overdone it a bit...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "あ、ウォースパイト様、御機嫌よう",
+			say = "Oh, um... What a fine day it is, Warspite.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "フォーミダブルはいつものようにロイヤルレディらしく、優雅に一礼した。",
+			say = "Formidable executed a graceful curtsy and smiled wryly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 207050,
-			say = "ふふふ、攻撃してくるサディアの前衛艦隊は片付けました",
+			say = "I took the liberty of clearing out Sardegna's vanguard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 207050,
-			say = "イラストリアス姉さんの言いつけ通り、吹き飛ばしただけで傷つけたりはいたしませんわ",
+			say = "But don't worry, I made sure to not hit any vital areas. Just disable her, as Illustrious instructed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,9 +493,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 205029,
-			actorName = "ウォースパイト",
-			say = "……よ、よく頑張ったわ。早く次に――「カラブリアの宝石」とやらを探しに行きましょ？",
+			actor = 900199,
+			actorName = "Warspite",
+			say = "Um... w-well done, I suppose. We should hurry and search for this \"Jewel of Calabria\" next.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,6 +12,10 @@ function slot0.Ctor(slot0, slot1)
 	slot0:updateRankMap()
 end
 
+function slot0.isWeb(slot0)
+	return slot0.onWeb
+end
+
 function slot0.bindConfigTable(slot0)
 	return pg.activity_vote
 end
@@ -35,14 +39,22 @@ function slot0.UpdateVoteCnt(slot0, slot1, slot2)
 end
 
 function slot0.updateRankMap(slot0)
+	slot1 = slot0:GetStage()
+
 	table.sort(slot0.list, function (slot0, slot1)
-		return slot1.votes < slot0.votes
+		if slot0 == slot1.DISPLAY_STAGE then
+			return slot1.totalVotes < slot0.totalVotes
+		elseif slot2.onWeb then
+			return slot1.netVotes < slot0.netVotes
+		else
+			return slot1.votes < slot0.votes
+		end
 	end)
 
 	slot0.rankMaps = {}
 
-	for slot4, slot5 in ipairs(slot0.list) do
-		slot0.rankMaps[slot5.group] = slot4
+	for slot5, slot6 in ipairs(slot0.list) do
+		slot0.rankMaps[slot6.group] = slot5
 	end
 end
 
@@ -65,6 +77,14 @@ end
 
 function slot0.getTimeDesc(slot0)
 	return table.concat(slot0:getConfig("time_vote")[1][1], ".") .. ((slot0:getConfig("type") == 1 and i18n("word_maintain")) or "(00:00)") .. " ~ " .. table.concat(slot1[2][1], ".") .. "(23:59)"
+end
+
+function slot0.GetVotes(slot0, slot1)
+	if slot0:GetStage() == slot0.DISPLAY_STAGE then
+		return slot1:getTotalVotes()
+	else
+		return (slot0:isWeb() and slot1:getNetVotes()) or slot1:GetGameVotes()
+	end
 end
 
 return slot0

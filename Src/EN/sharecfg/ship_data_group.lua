@@ -4899,6 +4899,33 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[337] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 337,
+		type = 3,
+		index_id = 145,
+		group_type = 20309,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
 	[121] = {
 		nationality = 2,
 		hide = 0,
@@ -4907,7 +4934,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 121,
 		type = 3,
-		index_id = 145,
+		index_id = 146,
 		group_type = 20303,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -4954,7 +4981,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 122,
 		type = 3,
-		index_id = 146,
+		index_id = 147,
 		group_type = 20304,
 		trans_type = 3,
 		trans_radar_chart = {
@@ -5010,7 +5037,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 123,
 		type = 3,
-		index_id = 147,
+		index_id = 148,
 		group_type = 20305,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -5057,7 +5084,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 124,
 		type = 3,
-		index_id = 148,
+		index_id = 149,
 		group_type = 20306,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -5083,7 +5110,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 125,
 		type = 3,
-		index_id = 149,
+		index_id = 150,
 		group_type = 20307,
 		trans_type = 3,
 		trans_radar_chart = {
@@ -5139,7 +5166,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 126,
 		type = 3,
-		index_id = 150,
+		index_id = 151,
 		group_type = 20308,
 		trans_type = 3,
 		trans_radar_chart = {
@@ -5176,33 +5203,6 @@ pg.ship_data_group = {
 			},
 			{
 				"Heavy/Special Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
-			}
-		}
-	},
-	[337] = {
-		nationality = 2,
-		hide = 0,
-		trans_skin = 0,
-		handbook_type = 0,
-		redirect_id = 101,
-		code = 337,
-		type = 3,
-		index_id = 151,
-		group_type = 20309,
-		trans_type = 0,
-		trans_radar_chart = {},
-		trans_skill = {},
-		description = {
-			{
-				"Heavy Ship Construction",
 				{
 					"GETBOAT",
 					{
@@ -6086,6 +6086,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -6671,6 +6682,17 @@ pg.ship_data_group = {
 				"Event: Ink-Stained Steel Sakura",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -10403,13 +10425,13 @@ pg.ship_data_group = {
 		328,
 		119,
 		120,
+		337,
 		121,
 		122,
 		123,
 		124,
 		125,
 		126,
-		337,
 		127,
 		128,
 		129,

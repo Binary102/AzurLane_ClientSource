@@ -11,23 +11,23 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>「それは太陽も沈黙する荒涼なる闇、祈りも届かない絶望の窪み」</size>",
+					"<size=51>And thus the sun once again sinks into the desolate darkness, the hollow of despair where no prayer can reach</size>",
 					1
 				},
 				{
-					"<size=51>「偽りの神を奉じる時代に生まれし者、詩人を導く叡智の師にして案内人」</size>",
+					"<size=51>O those who were born into an era of false gods, wise is the teacher who guides the poet.</size>",
 					3
 				},
 				{
-					"<size=51>「貴方に救い出されし者は高みヘと望む者なり」</size>",
+					"<size=51>You turned your head up, seeking salvation from above.</size>",
 					5
 				},
 				{
-					"<size=51>「貴方の旅は九つの圏から至る最奥を渡り」</size> ",
+					"<size=51>Your journey has crossed through the Nine Circles.</size> ",
 					7
 				},
 				{
-					"<size=51>「貴方の旅は七つの冠から登る楽園ヘ向かう」</size>",
+					"<size=51>Your journey shall ascend the Seven Crowns towards Paradise.</size>",
 					9
 				}
 			}
@@ -37,23 +37,23 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>「焔の海で身を焼かれようと、その歩みは止まることを知らず」</size>",
+					"<size=51>Your footsteps shall know no pause, even as the seas of flame consume your form.</size>",
 					1
 				},
 				{
-					"<size=51>「受難の物語は終わり、希望への道筋が開かれる」</size>",
+					"<size=51>The trials of tribulation thus end, and the path of hope is opened.</size>",
 					3
 				},
 				{
-					"<size=51>「ふふ、しかし……」</size>",
+					"<size=51>But alas...</size>",
 					5
 				},
 				{
-					"<size=51>「それを享受できるものは限られた存在だと……」</size>",
+					"<size=51>The fruit of Paradise is not freely shared...</size>",
 					7
 				},
 				{
-					"<size=51>「貴方は知っているのだろうか…？」</size>",
+					"<size=51>Has that not always been clear...?</size>",
 					9
 				}
 			}
@@ -66,7 +66,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 603020,
 			nameColor = "#ff5c5c",
-			say = "ポーラ、大丈夫？",
+			say = "Pola, are you all right?",
 			flashN = {
 				color = {
 					1,
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "大丈夫よ。ちょっと腫れちゃっただけ",
+			say = "I'm fine. It's just a scratch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900197,
-			say = "重巡最高クラスの装甲を持つザラ級は簡単には負けないわよ！",
+			say = "We're equipped with the most durable armor out there, and it's not just for show.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "「Tenacemente」&「ardisco ad ogni impresa」――私たちの根性と勇気を見くびらないことね",
+			say = "Tenacemente e ardisco ad ogni impresa! Our courage and resolve will not be overlooked.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207050,
-			say = "サディアの子、イラストリアス姉さんが言ってた通り粘り強い子が多いですわね",
+			say = "Sardegnian warships are just as persistent as Illustrious said. Can't say I'm a fan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,12 +186,12 @@ return {
 			}
 		},
 		{
-			actor = 205029,
+			actor = 900199,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "ウォースパイト",
-			say = "ここは私に任せなさい。陛下の命令は第一よ、そちらに集中して",
+			actorName = "Warspite",
+			say = "Let me handle this. Don't forget Her Majesty's orders - concentrate on that first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207050,
-			say = "かしこまりました。「本日0時に指定海域に到着し、『カラブリアの宝石』を探索しなさい」ってね",
+			say = "Of course. \"Seize the Jewel of Calabria before midnight.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,9 +222,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 205029,
-			actorName = "ウォースパイト",
-			say = "その通り。オリオンと一緒に貴方達の「演目」を果たしなさい",
+			actor = 900199,
+			actorName = "Warspite",
+			say = "There's no time to waste. Take Orion with you. You already know what to do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ではウォースパイト様、ご武運を。そして女王陛下に栄光を",
+			say = "Godspeed, Warspite, and God Save the Queen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "簡単には行かせないわよ？",
+			say = "Think I'd let you get away so easily? Fiiire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			}
 		},
 		{
-			say = "ウォースパイトの妨害でザラの攻撃が射線から大きく外れた。",
+			say = "Warspite rushed in, causing Zara's shot to go wide.",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -330,9 +330,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 205029,
-			actorName = "ウォースパイト",
-			say = "このオールド・レディを無視するとはいい度胸ね",
+			actor = 900199,
+			actorName = "Warspite",
+			say = "I wouldn't recommend taking your eyes off of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "さすがはウォースパイト、ロイヤル随一の勇士が相手とは光栄だわ。しかしいいのかしら？仲間を行かせちゃって",
+			say = "Aw, look at you, the hero rushing to save the damsel in distress. Are you sure you should leave her alone though?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,9 +362,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 205029,
-			actorName = "ウォースパイト",
-			say = "ふふ、あの子とは一緒にいないほうが戦いやすいわ",
+			actor = 900199,
+			actorName = "Warspite",
+			say = "Heh. Actually, it'll be much easier to deal with you without her around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,37 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 603020,
-			say = "なんですって…？",
+			say = "What did you say...?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Illustrious",
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "\"To The Right Honourable Flagship: My sister is in your care. As this is her first sortie, I trust you will ensure her safety in case of any unexpected mishaps.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Illustrious",
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "\"Yours sincerely, Illustrious\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +423,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "（イラストリアスに妹の面倒を見てほしいと言われたけど、さっきの戦いを見た限り、彼女と護衛艦だけでも十分戦えるわ）",
+			say = "A chill ran down Warspite's spine as she recalled the telegram.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,38 +434,12 @@ return {
 			}
 		},
 		{
-			side = 2,
-			dir = 1,
-			say = "（……というより、戦いでさっきのようにキレられたら色々とダメージを受けてしまうのね……主に精神的な意味で……）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			dir = 1,
-			say = "（うん。これでいいわ。あとで合流しましょう）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 205029,
+			actor = 900199,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "ウォースパイト",
-			say = "なんでもないわ。さあ、お互いの艦砲で勝負するわよ！Belli dura despicio！",
+			actorName = "Warspite",
+			say = "No matter. Come then, bring your guns to bear and let us see who is the stronger! Belli dura despicio!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -973,6 +973,18 @@ pg.memory_group = {
 			929
 		}
 	},
+	[168] = {
+		title = "Swept Away in the Moment ",
+		type = 2,
+		id = 168,
+		icon = "title_event",
+		memories = {
+			930,
+			931,
+			932,
+			933
+		}
+	},
 	[501] = {
 		title = "{namecode:98}'s Commission",
 		type = 3,
@@ -1555,6 +1567,7 @@ pg.memory_group = {
 		164,
 		165,
 		167,
+		168,
 		501,
 		502,
 		503,

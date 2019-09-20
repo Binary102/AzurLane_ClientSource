@@ -807,6 +807,14 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Rika Tachibana",
 		code = 202
+	},
+	{
+		actor_name = "Sayumi Watabe",
+		code = 203
+	},
+	{
+		actor_name = "Sayaka Kaneko",
+		code = 204
 	}
 }
 

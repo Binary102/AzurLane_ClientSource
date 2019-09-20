@@ -149,10 +149,11 @@ slot0.CampEN = 3
 slot0.CampJP = 4
 slot0.CampDE = 5
 slot0.CampCN = 6
-slot0.CampSN = 7
-slot0.CampFR = 8
-slot0.CampMNF = 9
-slot0.CampOther = 10
+slot0.CampITA = 7
+slot0.CampSN = 8
+slot0.CampFR = 9
+slot0.CampMNF = 10
+slot0.CampOther = 11
 slot0.CampTypes = {
 	slot0.CampAll,
 	slot0.CampUS,
@@ -160,6 +161,7 @@ slot0.CampTypes = {
 	slot0.CampJP,
 	slot0.CampDE,
 	slot0.CampCN,
+	slot0.CampITA,
 	slot0.CampSN,
 	slot0.CampFR,
 	slot0.CampMNF,

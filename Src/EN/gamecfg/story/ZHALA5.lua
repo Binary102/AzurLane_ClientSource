@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "",
+			say = "Port - Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			bgm = "story-2",
-			actorName = "ザラ",
+			actorName = "Zara",
 			say = "Alright, here we go. Don't move, Commander~",
 			flashin = {
 				delay = 1,
@@ -317,7 +317,7 @@ return {
 			}
 		},
 		{
-			actorName = "ザラ",
+			actorName = "Zara",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,

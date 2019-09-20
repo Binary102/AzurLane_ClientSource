@@ -11,7 +11,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			say = "ふふ、サディア帝国の戦艦、いい戦いができそうだと思っていたらとんだ見かけ倒しだ！",
+			say = "Hah. When it came down to it, those Sardegnian warships weren't worth a damn!",
 			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "現存艦隊主義を掲げ、地中海最強の艦隊だと誇っていながらロイヤルにあんなに弄ばれたとは",
+			say = "After all that talk about being the greatest fleet in the Mediterranean, in the end they couldn't even fight their way out of a wet paper bag.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "地中海を任せたのはどうやら間違いのようだな",
+			say = "Turns out it was a mistake to entrust the Mediterranean to them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "夜間の空母運用、新型レーダーによる夜間砲撃の精度向上、ロイヤルの勝利は計算上容易に予測できたでしょう",
+			say = "With their night carrier operations and improved shelling accuracy from their radars, the Royal Navy's victory was practically guaranteed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "観測した情報は開発部署に回したし、新兵器の開発に役立ってくれるはずよ",
+			say = "The observation data has already been forwarded to the research and development department. They should prove invaluable in the development of new weapons.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "はあ……結局その程度の成果でしかないってことか",
+			say = "And in the end that's all those insufferably arrogant Sardegnians were worth... Ahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "ビスマルク、ようやく重い腰を上げてくれたようね",
+			say = "Furthermore, Bismarck has finally begun to stir.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "彼女が復帰してくれたら、こちらの勝率も更に上昇するわ",
+			say = "When she returns once more, all the lands and seas will soon belong to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "我が鉄血を裏切る者は、いずれ鉄と血の裁きを受ける――",
+			say = "Those who betray the Iron Blood shall quickly find that we are their judge, jury, and executioner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "グナイゼナウ。サディアの監視を頼んでもいい？",
+			say = "Gneisenau, can I trust you to monitor the Sardegna Empire?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "ええ。姉さんこそ、北海の哨戒を",
+			say = "Aye!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "何かあったらすぐみんなに報告して？放っておけば寝返りそうな気がする",
+			say = "I want eyes on their fleet around the clock. Report any signs of treachery immediately.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "もちろん。元々は私の仕事なので",
+			say = "Affirmative! Long live Iron Blood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

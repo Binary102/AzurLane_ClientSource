@@ -13,7 +13,7 @@ return {
 			bgm = "battle-boss-italy",
 			actor = 207050,
 			nameColor = "#a9f548",
-			say = "……サディアの歓迎にしては荒々しすぎるのではなくて？",
+			say = "I didn't expect such an... extravagant welcome from the Sardegna Fleet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "ヴェネト様の命により、ロイヤルのレディたちにサディアの海を思う存分楽しんでいただきます！",
+			say = "Lady Veneto instructed me to show the Ladies of the Royal Navy our Mediterranean hospitality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "（陛下の言ってた「カラブリアの宝石」とはなんなのかしら…）",
+			say = "(What is this \"Jewel of Calabria\" that Her Majesty spoke of...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 207050,
-			say = "って、ちょっと！せっかくの新しい服を汚さないでくださいまし！",
+			say = "W-wait! You're going to get my new clothes dirty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "ではロイヤルレディの方々、ご無礼をお許しを！",
+			say = "Please forgive me for my indiscretion!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

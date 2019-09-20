@@ -4,7 +4,7 @@ slot0.TYPE_NEGATIVE = 2
 slot1 = pg.ship_data_group
 slot2 = pg.ship_skin_template
 
-function slot0.Ctor(slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.activityId = slot1.id
 	slot0.durTime = slot1.data2
 	slot0.endTime = slot0.durTime
@@ -12,21 +12,21 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.decode = slot0:ToBitCode(slot1.data4)
 	slot0.awardCnt = slot1.data1_list[1] or 0
 	slot0.isSubmit = false
-	slot0.isNew = slot2
-	slot3 = _.map(_.select(slot0.all, function (slot0)
+	slot0.isNew = slot2 and slot3
+	slot4 = _.map(_.select(slot0.all, function (slot0)
 		return slot0[slot0].handbook_type ~= 1
 	end), function (slot0)
 		return slot0[slot0].group_type
 	end)
-	slot4 = {}
+	slot5 = {}
 
-	while #slot4 < 7 do
-		if not table.contains(slot4, slot3[math.random(1, #slot3)]) then
-			table.insert(slot4, slot6)
+	while #slot5 < 7 do
+		if not table.contains(slot5, slot4[math.random(1, #slot4)]) then
+			table.insert(slot5, slot7)
 		end
 	end
 
-	slot0.ships = _.map(slot4, function (slot0)
+	slot0.ships = _.map(slot5, function (slot0)
 		return Ship.New({
 			configId = ShipGroup.getDefaultShipConfig(slot0).id
 		})

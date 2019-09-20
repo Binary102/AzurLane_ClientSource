@@ -96,7 +96,7 @@ end
 function slot0.OnFirstFlush(slot0)
 	slot0.super.OnFirstFlush(slot0)
 	onButton(slot0, slot0.getBtn, function ()
-		if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_VOTE) or slot0:isEnd() then
+		if not getProxy(ActivityProxy):GetVoteActivity() or slot0:isEnd() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return

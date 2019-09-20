@@ -3116,6 +3116,10 @@ pg.gametip = {
 		tip = "Commander, are you sure you want to retreat from <color=#92fc63>$1</color>?",
 		key = "levelScene_who_to_retreat"
 	},
+	levelScene_who_to_exchange = {
+		tip = "Are you sure you want to swap fleet positions? ",
+		key = "levelScene_who_to_exchange"
+	},
 	levelScene_time_out = {
 		tip = "Battle time exceeded.",
 		key = "levelScene_time_out"
@@ -5948,6 +5952,14 @@ Attack/Support Range Level:
 	guild_fire_succeed = {
 		tip = "Kicked!",
 		key = "guild_fire_succeed"
+	},
+	guild_duty_tip_1 = {
+		tip = "<color=#7FAFFF>Current Rank</color>",
+		key = "guild_duty_tip_1"
+	},
+	guild_duty_tip_2 = {
+		tip = "<color=#C3C3C3>Non-promotion</color>",
+		key = "guild_duty_tip_2"
 	},
 	battle_repair_special_tip = {
 		tip = "Are you sure you want to use an \n<color=#a0ff40>Elite management team</color>?",

@@ -13,7 +13,7 @@ return {
 			bgm = "battle-boss-italy",
 			actor = 603020,
 			nameColor = "#ff5c5c",
-			say = "もうチートだと言われてもしょうがないわね…あの砲撃は…",
+			say = "How is this granny so hard to deal with... What was that attack...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "ロイヤルの最高の騎士のひとり、ウォースパイトが戦いに勝利した。",
+			say = "As one of the Royal Navy's most esteemed warriors, Warspite easily won her duel. However, Zara's verbal assault did hit its mark.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "夜なのに、なんであんなに正確に撃てるのよ！",
+			say = "How are you aiming so well in the middle of the night?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 603020,
-			say = "くっ…旧式の戦艦と侮ったツケね…！",
+			say = "Ugh... This has to be some kind of cheat...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,9 +72,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 205029,
-			actorName = "ウォースパイト",
-			say = "ふふ、このウォースパイト、戦いで学んだことを一つ教えてあげるわ",
+			actor = 900199,
+			actorName = "Warspite",
+			say = "Heh. Allow me to teach you something I've learned from my many years of service as a warrior.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,9 +89,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 205029,
-			actorName = "ウォースパイト",
-			say = "それは、艦船の性能の違いが、戦力の決定的差ではないということよ",
+			actor = 900199,
+			actorName = "Warspite",
+			say = "And that is, the key to a ship's performance is not her raw combat prowess, nor is it through adhering to the service history imprinted within you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,9 +106,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 205029,
-			actorName = "ウォースパイト",
-			say = "己のカンレキにこだわるのではなく、戦士としての初心のまま困難に挑み、そして絶えず切磋琢磨し続ける――",
+			actor = 900199,
+			actorName = "Warspite",
+			say = "Rather, it is through constantly challenging yourself and pushing your limits.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,9 +123,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 205029,
-			actorName = "ウォースパイト",
-			say = "それこそがロイヤルの強さよ。ふん、そちらさえ良ければ、このウォースパイト、少し指導してあげても――",
+			actor = 900199,
+			actorName = "Warspite",
+			say = "That is the source of the Royal Navy's strength. I wouldn't mind sharing some of my experience with you should you care to listen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,9 +140,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 205029,
-			actorName = "ウォースパイト",
-			say = "…………",
+			actor = 900199,
+			actorName = "Warspite",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,9 +157,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 205029,
-			actorName = "ウォースパイト",
-			say = "…………行ったわね",
+			actor = 900199,
+			actorName = "Warspite",
+			say = "Hey... Where'd you go...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "ウォースパイトの話が終わるのを待つまでもなく、ザラ姉妹は戦闘海域からほぼ離脱した。",
+			say = "Warspite looked up to find the Zara sisters had already steamed out of range.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 603020,
-			say = "悪いけど、先に失礼させてもらうわ。ポーラ、通信を",
+			say = "Sorry, but we got tired of listening to your senile rambling. Pola, the communications...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "ザラはフォーミダブルの進んだ方向を指で一回指し示し、妹のポーラに命令を飛ばした",
+			say = "While taunting Warspite, Zara gestured in the direction that Formidable headed and relayed her instructions to Pola.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,9 +225,9 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 205029,
-			actorName = "ウォースパイト",
-			say = "あなたたち…まさか！？",
+			actor = 900199,
+			actorName = "Warspite",
+			say = "Wait... Get back here!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "みんなに連絡して、空母と護衛艦隊が防衛線を突破して、例の…「カラブリアの宝石」に前進中よ",
+			say = "Let everyone know. One aircraft carrier and her escort fleet broke through our lines... and are headed for the Jewel of Calabria.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 603020,
-			say = "ウォースパイトをもう十分足止めしたわよね？今からそちらに合流するわ",
+			say = "We've managed to waste some of Warspite's time, but she seems to have some new night battle technique. Please use caution.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "サディアの意地を見せるわよ",
+			say = "I'll now move to intercept them. Glory to Sardegna.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "ふふふ、ヴェネトに打電、よし",
+			say = "Hehe... Now Veneto will know. All right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,9 +313,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 205029,
-			actorName = "ウォースパイト",
-			say = "ちっ、逃げられた……やっぱり速力を長時間上げると機関に響くわね……",
+			actor = 900199,
+			actorName = "Warspite",
+			say = "Mercy... they got away. Kids these days just keep getting faster and faster. I can't keep up anymore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "ザラたちとの戦闘で機関を酷使したせいか、ウォースパイトは低速力でゆっくりと二人の消えた方向への舵をとった。",
+			say = "Warspite dragged her weighty hull slowly but surely through the night, trailing the heavy cruisers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,9 +343,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 205029,
-			actorName = "ウォースパイト",
-			say = "戦いが終わったら、陛下に大改装でも申請したほうがよさそうね…",
+			actor = 900199,
+			actorName = "Warspite",
+			say = "It would be grand if Her Majesty would grant me a retrofit after this operation. Haha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

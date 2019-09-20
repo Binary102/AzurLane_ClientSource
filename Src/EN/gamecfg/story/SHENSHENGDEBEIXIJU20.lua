@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "「カラブリアの宝石」――この美しい海そのもの、ですわね",
+			say = "The Jewel of Calabria... is this beautiful sea itself?",
 			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
@@ -25,7 +25,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "月の光に照らされた海はまるで青い宝石のように輝いていた。",
+			say = "The sea, illuminated by the glow of the pale moonlight, glimmered like a blue gemstone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "遠く見える文明の灯火、彼方に映し出される遺跡の蜃気楼、静かに佇む少女たちは幻想的な景色を醸し出していた。",
+			say = "The ruins of ancient civilizations swaying like mirages along the shore, and the lifegiving waters that birthed a home for so many people... The breathtaking scenery was almost a spiritual experience.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605020,
-			say = "そうよ。この青き海こそが私たちサディアの一番大切なもの、守るべきもの",
+			say = "\"The Coast of the Gods,\" they call it, as well as the Jewel of Calabria. This is Sardegna's national treasure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "文明を育み、人々を養い、数々の伝説を生み出した、母なる海",
+			say = "This is the cradle that nurtured countless peoples, civilizations, and legends over thousands of years.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "そして、貴方と私の輝かしい姿にふさわしい宝そのものよ。美しいシニョリーナ",
+			say = "Indeed, this is a treasure that is as resplendent as you and I being together, beautiful signora.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "（んー最後のは最高に余計でしたね）",
+			say = "(Uhh... that last line didn't seem necessary...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207050,
-			say = "あなた方がここに現れた理由を教えてくださるかしら？",
+			say = "Would you two mind telling me why you came here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,12 +126,12 @@ return {
 			}
 		},
 		{
-			actorName = "ヴィットリオ・ヴェネト",
+			actorName = "Vittorio Veneto",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "私たちは賭けようとしていますわ。鉄血の動きを、そしてあなた方の力を",
+			say = "We've come to make a wager. Between the Iron Blood's machinations and the Royal Navy's strength.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,12 +142,12 @@ return {
 			}
 		},
 		{
-			actorName = "ヴィットリオ・ヴェネト",
+			actorName = "Vittorio Veneto",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "レッドアクシズの盟友である私たちは、彼女たちにとって果たしてどんな存在なのか",
+			say = "Though we are a part of the Crimson Axis, we wish to ascertain what we mean to them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,12 +158,12 @@ return {
 			}
 		},
 		{
-			actorName = "ヴィットリオ・ヴェネト",
+			actorName = "Vittorio Veneto",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "この戦いが「再現」になるのか、それとも新しい未来の1ページになるのか",
+			say = "Will this battle become their \"Reenactment,\" or will it become the first page of a new future?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,12 +174,12 @@ return {
 			}
 		},
 		{
-			actorName = "ヴィットリオ・ヴェネト",
+			actorName = "Vittorio Veneto",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "……まあ、正直に言えばサディアの威光を広げるという目的もありますが",
+			say = "Of course, we are still interested in spreading the glory of Sardegna.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,12 +190,12 @@ return {
 			}
 		},
 		{
-			actorName = "ヴィットリオ・ヴェネト",
+			actorName = "Vittorio Veneto",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "こうしてみんなが集まることで、この「演目」の全ての目的が達成されますわ",
+			say = "But now that all the actors are assembled, the objectives of this play shall be revealed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,12 +206,12 @@ return {
 			}
 		},
 		{
-			actorName = "ヴィットリオ・ヴェネト",
+			actorName = "Vittorio Veneto",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "全ては、この青き海を守るため",
+			say = "Everything was for the sake of preserving the sanctity of this jewel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,12 +222,12 @@ return {
 			}
 		},
 		{
-			actorName = "フォーミダブル",
+			actorName = "Formidable",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "それでしたら、なぜ陛下に直接交渉しないですか？",
+			say = "The Royal Navy has always held the power to ensure the safety and stability of the Mediterranean. Why not just negotiate with Her Majesty?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,12 +238,12 @@ return {
 			}
 		},
 		{
-			actorName = "ヴィットリオ・ヴェネト",
+			actorName = "Vittorio Veneto",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "鉄血は私たち……いいえ、もしかしたらあなた方が知っていた頃よりずっと強くなりました",
+			say = "The Iron Blood have become more powerful than us... No, stronger than you can possibly imagine. In due time, we would be swallowed by their darkness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,12 +254,12 @@ return {
 			}
 		},
 		{
-			actorName = "ヴィットリオ・ヴェネト",
+			actorName = "Vittorio Veneto",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "だから知りたいんです。ロイヤルの力は本当に信用できますかと",
+			say = "That is the purpose of our wager here. If your Royal Navy falls here, what chance to do you stand against the Iron Blood and their Siren masters?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,12 +270,12 @@ return {
 			}
 		},
 		{
-			actorName = "ウォースパイト",
+			actorName = "Warspite",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「お互い」の「立場」……ねえ",
+			say = "So we've finally reached a mutual understanding, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "bg_italy_cg5",
 			dir = 1,
-			say = "定められし戦い、悲歎せし焔海の物語、鋼の少女たちに「再現」された数々の「演目」のなりそこないかもしれない。だが――",
+			say = "Star-crossed ships bound by fate to battle... The lamentations of a sea ablaze... The girls dancing like puppets across countless \"Reenactments...\" But at last...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,28 +300,12 @@ return {
 			}
 		},
 		{
-			actorName = "ウォースパイト",
-			side = 2,
-			bgName = "bg_italy_cg5",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "そのために、マルタ島を奪おうとし、そしてここまで来る途中に襲ってきたわけね…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "ウォースパイト",
+			actorName = "Warspite",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "では問おう。ここでロイヤルネイビーが己の力を証明し貴方達を打ち破ったら、アズールレーンへの復帰を検討する、ということで良いかしら？",
+			say = "\"Res, non verba.\" All these obstacles you put in our way are parts of your \"wager,\" correct?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,12 +316,28 @@ return {
 			}
 		},
 		{
-			actorName = "ヴィットリオ・ヴェネト",
+			actorName = "Warspite",
+			side = 2,
+			bgName = "bg_italy_cg5",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Let me ask you then. Should we stop you here and prove that we are capable of protecting the Mediterranean, would you rejoin the Azur Lane?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Vittorio Veneto",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "ええ。帝国の総旗艦として約束しますわ",
+			say = "Yes. As flagship of the Imperial Fleet, you have my word.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,12 +348,12 @@ return {
 			}
 		},
 		{
-			actorName = "ウォースパイト",
+			actorName = "Warspite",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "――バーラム、ヴァリアント、そしてロイヤルネイビー全艦、陛下の威光を示すわ！",
+			say = "Very well. Barham, Valiant, let us fight for the glory of Her Majesty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,12 +364,12 @@ return {
 			}
 		},
 		{
-			actorName = "ウォースパイト",
+			actorName = "Warspite",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "フォーミダブル、空中支援は任せたわよ",
+			say = "Formidable, I'll leave air support in your hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,12 +380,12 @@ return {
 			}
 		},
 		{
-			actorName = "フォーミダブル",
+			actorName = "Formidable",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ええ。おまかせくださいませ",
+			say = "Of course. You can count on me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,12 +396,12 @@ return {
 			}
 		},
 		{
-			actorName = "リットリオ",
+			actorName = "Littorio",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "イラストリアスは来てないのか？",
+			say = "Is your sister not coming?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,12 +412,12 @@ return {
 			}
 		},
 		{
-			actorName = "フォーミダブル",
+			actorName = "Formidable",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "お姉さんはセイレーン退治に行ってるわ。そちらのトレントたちと合流するところでしてよ",
+			say = "Illustrious is on a little side trip to the Aegean, where she's putting an end to the Sirens there. She said it wouldn't be fair to put you up against the entire Illustrious-class.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,12 +428,12 @@ return {
 			}
 		},
 		{
-			actorName = "リットリオ",
+			actorName = "Littorio",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "あら、それは残念ね。私の水着姿であのイラストリアスをも凌ぐ輝きを見せたかったのに",
+			say = "Alas, what a pity. And here I thought I'd get to see all three goddesses of the Royal Navy in their swimsuits~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,12 +444,12 @@ return {
 			}
 		},
 		{
-			actorName = "ヴィットリオ・ヴェネト",
+			actorName = "Vittorio Veneto",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "こ、コホン！",
+			say = "Ahem...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,12 +460,12 @@ return {
 			}
 		},
 		{
-			actorName = "ヴィットリオ・ヴェネト",
+			actorName = "Vittorio Veneto",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "ザラ、ポーラ、そしてサディア艦隊の各員、全力で戦い、帝国の威光を示せ！",
+			say = "Zara, Pola, and all members of the Sardegna Fleet. This is our time. Allow the light of Sardegna to shine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			}
 		},
 		{
-			actorName = "ヴィットリオ・ヴェネト",
+			actorName = "Vittorio Veneto",
 			side = 2,
 			bgName = "bg_italy_cg5",
 			dir = 1,

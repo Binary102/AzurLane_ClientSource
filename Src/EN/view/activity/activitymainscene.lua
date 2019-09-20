@@ -204,6 +204,30 @@ slot1 = {
 	[ActivityConst.CARDPAIR_ZQ] = {
 		className = "CardPairZQPage",
 		uiName = "cardpairzqpage"
+	},
+	[ActivityConst.AVRORA_TW_CBT] = {
+		className = "AvroraTWCBTPage",
+		uiName = "avroratwcbtpage"
+	},
+	[ActivityConst.ACTIVITY_ID_ATRE_FURNITURE] = {
+		className = "AtreFurniturePage",
+		uiName = "atrefurniturepage"
+	},
+	[ActivityConst.CHUIXUE_RE_PT] = {
+		className = "ChuixuePTRePage",
+		uiName = "chuixueptrepage"
+	},
+	[ActivityConst.SHANCHENG_PT_OIL] = {
+		className = "ShanchengPTOilPage",
+		uiName = "shanchengptoilpage"
+	},
+	[ActivityConst.DACHAOLIFU_SKIN] = {
+		className = "DachaolifuSkinPage",
+		uiName = "dachaolifuskinpage"
+	},
+	[ActivityConst.SECOND_ANNIVERSARY_COLLECT] = {
+		className = "SecondAnniversaryCollectPage",
+		uiName = "secondanniversarycollectpage"
 	}
 }
 slot2 = {}

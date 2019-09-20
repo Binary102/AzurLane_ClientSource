@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
-			say = "ロイヤル本島",
+			say = "The Royal Islands",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,12 +32,12 @@ return {
 			}
 		},
 		{
-			actorName = "イラストリアス",
+			actorName = "Illustrious",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "結局戦いましたのね……どっちが勝ちましたの？",
+			say = "So you ended up fighting after all? What was the outcome?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,12 +48,12 @@ return {
 			}
 		},
 		{
-			actorName = "フォーミダブル",
+			actorName = "Formidable",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "もちろんロイヤルでしてよ？夜戦はイラストリアス姉さんと同じく得意ですわ",
+			say = "Of course we won. The night belongs to us, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_italy_cg4",
 			dir = 1,
-			say = "フォーミダブルは紅茶を優雅に飲みながら、自慢気に二人の姉に報告していた",
+			say = "Formidable sipped on her tea elegantly as she gave her report to her sisters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,28 +78,12 @@ return {
 			}
 		},
 		{
-			actorName = "フォーミダブル",
-			side = 2,
-			bgName = "bg_italy_cg4",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "サディアの戦艦は防御が得意ですけど、火器管制レーダーを装備していませんでしたわ",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "フォーミダブル",
+			actorName = "Formidable",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "私の艦載機とウォースパイト様の砲撃でボコボコにしましたよ？",
+			say = "While Sardegna's ships are equipped with heavy armor, they don't have fire control radars.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,12 +94,12 @@ return {
 			}
 		},
 		{
-			actorName = "イラストリアス",
+			actorName = "Formidable",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "まあ、さすがですわ～",
+			say = "As a result, Warspite and I made quick work of them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,26 +110,12 @@ return {
 			}
 		},
 		{
-			side = 2,
-			bgName = "bg_italy_cg4",
-			dir = 1,
-			say = "3人の平和な時が続く。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "ヴィクトリアス",
+			actorName = "Illustrious",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "私も敵をボコボコにしたいわね～勝利の女神みたいに美しく勝つ！なんて～",
+			say = "An expected result, but well done nevertheless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,12 +126,26 @@ return {
 			}
 		},
 		{
-			actorName = "イラストリアス",
+			side = 2,
+			bgName = "bg_italy_cg4",
+			dir = 1,
+			say = "Finally, the three sisters could enjoy a moment of peace together.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Victorious",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "あ、そういえば今度ユニコーンちゃんを紹介しますね",
+			say = "Aww, I also wanted to beat up some enemies, in an elegant way that only a goddess of victory like me could accomplish! How unfair~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,12 +156,12 @@ return {
 			}
 		},
 		{
-			actorName = "イラストリアス",
+			actorName = "Illustrious",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "フォーミダブル？あの子ともちゃんと仲良くなってね？",
+			say = "By the way, our fourth sister will soon be joining us, and the Royal Navy will grow even stronger.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,12 +172,12 @@ return {
 			}
 		},
 		{
-			actorName = "ヴィクトリアス",
+			actorName = "Illustrious",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "そうね～フォーミダブル、衣装作らせてくれないし～",
+			say = "And of course, our sororal tea parties will become a little livelier~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,26 +188,12 @@ return {
 			}
 		},
 		{
-			side = 2,
-			bgName = "bg_italy_cg4",
-			dir = 1,
-			say = "…………",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "フォーミダブル",
+			actorName = "Victorious",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "あ、そうだ、リットリオさんからイラストリアス姉さんへの伝言を預かりましたわ",
+			say = "Ah! I wonder what our new sister will look like. Could she possibly be cuter than Formidable? Hehehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,12 +204,10 @@ return {
 			}
 		},
 		{
-			actorName = "イラストリアス",
 			side = 2,
 			bgName = "bg_italy_cg4",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "あら、どんな伝言？",
+			say = "Victorious pinched Formidable's cheeks as she teased her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,12 +218,12 @@ return {
 			}
 		},
 		{
-			actorName = "フォーミダブル",
+			actorName = "Formidable",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ええと、確か…「サディアの情勢が落ち着いたらまた会いましょう」？",
+			say = "Oh, yes, I nearly forgot. That Sardegnian warship, Lit... Litter-something? She asked me to pass along a message for you, Illustrious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,12 +234,12 @@ return {
 			}
 		},
 		{
-			actorName = "イラストリアス",
+			actorName = "Illustrious",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陣営一つの意思をまとめるのは大変ですわね……",
+			say = "...That was the very spirited one, if I recall? What did she have to say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,12 +250,44 @@ return {
 			}
 		},
 		{
-			actorName = "ヴィクトリアス",
+			actorName = "Formidable",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ん？どういうこと？",
+			say = "Um, if I'm remembering this correctly... \"When the Passions of this land fade at last, let us reignite the Passion between us.\" Dreadfully baroque, if you ask me.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Illustrious",
+			side = 2,
+			bgName = "bg_italy_cg4",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "One never quite knows what those bunch are up to... I suppose they have plenty of problems to deal with internally...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Victorious",
+			side = 2,
+			bgName = "bg_italy_cg4",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Huh? What's going on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,8 +302,8 @@ return {
 			side = 2,
 			bgName = "bg_italy_cg4",
 			dir = 1,
-			actorName = "クイーン・エリザベス",
-			say = "こっちのセリフよ！あんたたち、私に隠れてお茶会してるなんてどういうこと！？",
+			actorName = "Queen Elizabeth",
+			say = "Hey, that's my line! What's the meaning of this, having a secret tea party behind my back?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			bgName = "bg_italy_cg4",
 			dir = 1,
-			say = "小さな女王陛下は従者を連れて登場した。",
+			say = "Queen Elizabeth, while strolling through the garden with her entourage, saw the sisters gathered for tea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,12 +333,12 @@ return {
 			}
 		},
 		{
-			actorName = "ベルファスト",
+			actorName = "Belfast",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "イラストリアス様、ヴィクトリアス様、フォーミダブル様、ご機嫌麗しゅうございます",
+			say = "Madam Illustrious, Madam Victorious, Madam Formidable, good day to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,12 +349,12 @@ return {
 			}
 		},
 		{
-			actorName = "みんな",
+			actorName = "Illustrious, Victorious, Formidable",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下、ご機嫌麗しゅうございます。ベルファストもお疲れ様",
+			say = "Good day, Your Majesty. Belfast.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,12 +365,12 @@ return {
 			}
 		},
 		{
-			actorName = "イラストリアス",
+			actorName = "Illustrious",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下、申し訳ございません。サディアのお菓子でもいかがでしょうか？ベルファスト、席を用意してくださいませんか？",
+			say = "As it happens, Your Majesty has excellent timing. The tea is just ready~ And may I offer you some treats from my trip to the Aegean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,13 +381,13 @@ return {
 			}
 		},
 		{
-			actorName = "イラストリアス",
+			actorName = "Illustrious",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "もしよろしければ、私たちのお土産話でも聞いてくださいませ～",
+			say = "Won't you join us for sweets and a spot of scintillating conversation~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "",
+			say = "Port - Office",
 			flashout = {
 				dur = 1,
 				black = true,

@@ -37218,7 +37218,7 @@ pg.chapter_template_loop = {
 		land_based = {}
 	},
 	[1260001] = {
-		enter_story = "",
+		enter_story = "SHENSHENGDEBEIXIJU2",
 		submarine_num = 1,
 		boss_refresh = 3,
 		limit_move = 0,
@@ -37688,7 +37688,7 @@ pg.chapter_template_loop = {
 		land_based = {}
 	},
 	[1260002] = {
-		enter_story = "",
+		enter_story = "SHENSHENGDEBEIXIJU6",
 		submarine_num = 1,
 		boss_refresh = 4,
 		limit_move = 0,
@@ -38178,7 +38178,7 @@ pg.chapter_template_loop = {
 		}
 	},
 	[1260003] = {
-		enter_story = "",
+		enter_story = "SHENSHENGDEBEIXIJU10",
 		submarine_num = 1,
 		boss_refresh = 4,
 		limit_move = 0,
@@ -38758,7 +38758,7 @@ pg.chapter_template_loop = {
 		}
 	},
 	[1260006] = {
-		enter_story = "",
+		enter_story = "SHENSHENGDEBEIXIJU14",
 		submarine_num = 1,
 		boss_refresh = 4,
 		limit_move = 0,
@@ -39262,7 +39262,7 @@ pg.chapter_template_loop = {
 		land_based = {}
 	},
 	[1260007] = {
-		enter_story = "",
+		enter_story = "SHENSHENGDEBEIXIJU17",
 		submarine_num = 1,
 		boss_refresh = 5,
 		limit_move = 0,
@@ -39808,7 +39808,7 @@ pg.chapter_template_loop = {
 		land_based = {}
 	},
 	[1260008] = {
-		enter_story = "",
+		enter_story = "SHENSHENGDEBEIXIJU19",
 		submarine_num = 1,
 		boss_refresh = 5,
 		limit_move = 0,
@@ -40313,7 +40313,7 @@ pg.chapter_template_loop = {
 		land_based = {}
 	},
 	[1260021] = {
-		enter_story = "",
+		enter_story = "SHENSHENGDEBEIXIJU2",
 		submarine_num = 1,
 		boss_refresh = 4,
 		limit_move = 0,
@@ -40825,7 +40825,7 @@ pg.chapter_template_loop = {
 		land_based = {}
 	},
 	[1260022] = {
-		enter_story = "",
+		enter_story = "SHENSHENGDEBEIXIJU6",
 		submarine_num = 1,
 		boss_refresh = 4,
 		limit_move = 0,
@@ -41355,7 +41355,7 @@ pg.chapter_template_loop = {
 		}
 	},
 	[1260023] = {
-		enter_story = "",
+		enter_story = "SHENSHENGDEBEIXIJU10",
 		submarine_num = 1,
 		boss_refresh = 5,
 		limit_move = 0,
@@ -41976,7 +41976,7 @@ pg.chapter_template_loop = {
 		}
 	},
 	[1260026] = {
-		enter_story = "",
+		enter_story = "SHENSHENGDEBEIXIJU14",
 		submarine_num = 1,
 		boss_refresh = 5,
 		limit_move = 0,
@@ -42521,7 +42521,7 @@ pg.chapter_template_loop = {
 		land_based = {}
 	},
 	[1260027] = {
-		enter_story = "",
+		enter_story = "SHENSHENGDEBEIXIJU17",
 		submarine_num = 1,
 		boss_refresh = 6,
 		limit_move = 0,
@@ -43111,7 +43111,7 @@ pg.chapter_template_loop = {
 		land_based = {}
 	},
 	[1260028] = {
-		enter_story = "",
+		enter_story = "SHENSHENGDEBEIXIJU19",
 		submarine_num = 1,
 		boss_refresh = 6,
 		limit_move = 0,

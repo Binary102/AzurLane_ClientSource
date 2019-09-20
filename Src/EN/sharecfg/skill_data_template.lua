@@ -3022,6 +3022,64 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[2161] = {
+		desc_get = "",
+		name = "Lightning Strikes Twice",
+		desc = "10s after the battle starts and with a $1 chance every 20s after that: fires a wave of torpedoes. (Which torpedoes are fired are based on this ship's equipped Torpedoes.) ",
+		type = 1,
+		max_level = 10,
+		id = 2161,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"15.0%",
+				"25.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			}
+		}
+	},
 	[2171] = {
 		desc_get = "",
 		name = "Anti-Air Vigilance",
@@ -24239,7 +24297,7 @@ pg.skill_data_template = {
 	[12570] = {
 		desc_get = "",
 		name = "Supporting Wings",
-		desc = "Increases this ship's AVI by $2. While this ship has a Fairey Albacore equipped: increases the gear efficiency of the slot(s) in which the Fairey Albacore is equipped by $1. When this ship launches an Airstrike: $3 chance to launch a special Fairey Albacore airstrike with an 80.0% chance to cause Flooding DMG for 9s to enemies hit. DMG is based on the skill's level and this ship's AVI stat.",
+		desc = "Increases this ship's AVI by $2. While this ship has a Fairey Albacore equipped: increases the gear efficiency of the slot it's equipped in by $1 and, when this ship launches an Airstrike: $3 chance to launch a Fairey Albacore airstrike with an 80.0% chance to cause Flooding DMG for 9s to enemies hit (DMG is based on the skill's level and this ship's AVI stat.)",
 		type = 1,
 		max_level = 10,
 		id = 12570,
@@ -24254,56 +24312,11 @@ pg.skill_data_template = {
 				"15.0%"
 			},
 			{
-				"5.0%",
-				"15.0%"
-			},
-			{
 				"70.0%",
 				"100.0%"
 			}
 		},
 		desc_add = {
-			{
-				{
-					"5.0%",
-					"+1.1%"
-				},
-				{
-					"6.1%",
-					"+1.1%"
-				},
-				{
-					"7.2%",
-					"+1.1%"
-				},
-				{
-					"8.3%",
-					"+1.1%"
-				},
-				{
-					"9.4%",
-					"+1.1%"
-				},
-				{
-					"10.5%",
-					"+1.1%"
-				},
-				{
-					"11.6%",
-					"+1.1%"
-				},
-				{
-					"12.7%",
-					"+1.1%"
-				},
-				{
-					"13.8%",
-					"+1.2%"
-				},
-				{
-					"15.0%"
-				}
-			},
 			{
 				{
 					"5.0%",
@@ -24439,86 +24452,95 @@ pg.skill_data_template = {
 		system_transform = {},
 		desc_get_add = {
 			{
-				"70.0%",
-				"100.0%"
+				"50.0%",
+				"80.0%"
 			},
 			{
-				"Lv.1",
-				"Lv.10"
+				"0.5",
+				"1.5"
 			}
 		},
 		desc_add = {
 			{
 				{
-					"70.0%",
+					"50.0%",
 					"+3.3%"
 				},
 				{
-					"73.3%",
+					"53.3%",
 					"+3.3%"
 				},
 				{
-					"76.6%",
+					"56.6%",
 					"+3.3%"
 				},
 				{
-					"79.9%",
+					"59.9%",
 					"+3.3%"
 				},
 				{
-					"83.2%",
+					"63.2%",
 					"+3.3%"
 				},
 				{
-					"86.5%",
+					"66.5%",
 					"+3.3%"
 				},
 				{
-					"89.8%",
+					"69.8%",
 					"+3.3%"
 				},
 				{
-					"93.1%",
+					"73.1%",
 					"+3.3%"
 				},
 				{
-					"96.4%",
+					"76.4%",
 					"+3.6%"
 				},
 				{
-					"100%"
+					"80%"
 				}
 			},
 			{
 				{
-					"Lv.1"
+					"0.5",
+					"+0.1"
 				},
 				{
-					"Lv.2"
+					"0.6",
+					"+0.1"
 				},
 				{
-					"Lv.3"
+					"0.7",
+					"+0.1"
 				},
 				{
-					"Lv.4"
+					"0.8",
+					"+0.1"
 				},
 				{
-					"Lv.5"
+					"0.9",
+					"+0.1"
 				},
 				{
-					"Lv.6"
+					"1.0",
+					"+0.1"
 				},
 				{
-					"Lv.7"
+					"1.1",
+					"+0.1"
 				},
 				{
-					"Lv.8"
+					"1.2",
+					"+0.1"
 				},
 				{
-					"Lv.9"
+					"1.3",
+					"+0.2"
 				},
 				{
-					"Lv.10"
+					"1.5"
 				}
 			}
 		}
@@ -31324,6 +31346,7 @@ pg.skill_data_template = {
 		2131,
 		2141,
 		2151,
+		2161,
 		2171,
 		3001,
 		3011,

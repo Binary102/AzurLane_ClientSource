@@ -685,7 +685,7 @@ function updateShip(slot0, slot1, slot2)
 
 	if findTF(slot0, "icon_bg/new") then
 		if slot2.isSkin then
-			setActive(slot6, not slot5:hasOldSkin(slot1.skinId))
+			setActive(slot6, not slot5:hasOldNonLimitSkin(slot1.skinId))
 		else
 			setActive(slot6, slot1.virgin)
 		end

@@ -11,23 +11,23 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>「墜落か、上昇か」</size>",
+					"<size=51>\"But thou, why goest thou back to such annoyance?</size>",
 					1
 				},
 				{
-					"<size=51>「その悩みは純潔、その躊躇いは純真、その選択は純白な神聖」</size>",
+					"<size=51>Why climb'st thou not the Mount Delectable,</size>",
 					3
 				},
 				{
-					"<size=51>「獣に追われ、森に沈んでゆく者」</size>",
+					"<size=51>Which is the source and cause of every joy?\"</size>",
 					5
 				},
 				{
-					"<size=51>「獣を追い払い、頂上へと登り続ける者」</size> ",
+					"<size=51>Asked Virgil, the poet, of I.</size>",
 					7
 				},
 				{
-					"<size=51>「あなたにコキュートスの永遠の安寧あり」</size>",
+					"<size=51>Please teach me, my teacher, please save me, my savior.</size>",
 					9
 				}
 			}
@@ -37,23 +37,23 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>「あなたにエンピリオの永遠の栄光あり」</size>",
+					"<size=51>In the name of the God you never knew,</size>",
 					1
 				},
 				{
-					"<size=51>「心満たされし彷徨を選び、十天への道筋を断とう」</size>",
+					"<size=51>Help me escape this woe and torment.</size>",
 					3
 				},
 				{
-					"<size=51>「心満たされし漂白を選び、人の世の黄金を捨てよう」</size>",
+					"<size=51>Take me to the place of which you spoke,</size>",
 					5
 				},
 				{
-					"<size=51>「差し伸べられた手を握りしめるのは、貴方」</size>",
+					"<size=51>That I may see the gate of Saint Peter,</size>",
 					7
 				},
 				{
-					"<size=51>「さあ、物語の結末を聞かせて頂戴？」</size>",
+					"<size=51>And the souls of those so tormented.</size>",
 					9
 				}
 			}
@@ -67,7 +67,7 @@ return {
 			bgm = "story-italy",
 			actor = 900198,
 			nameColor = "#ff5c5c",
-			say = "確かに、来ていませんよね？",
+			say = "And in the end, they never came?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ff5c5c",
-			say = "ああ、ロイヤルネイビーと接触したときから鉄血には支援を要請したが、一向に現れなかった",
+			say = "Correct. We informed the Iron Blood as soon as we engaged the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_italy_cg6",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "夜での戦闘は不確定要素が多いというのが応じない理由らしいが、まあただの言い訳よ",
+			say = "They said something about \"night battle having too many unknown variables,\" but all I heard was a bunch of verbal garbage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_italy_cg6",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "ええ…………",
+			say = "Hrmm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_italy_cg6",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "ヴィシアと同じ、私たちは四大陣営から見て取るに足らない存在",
+			say = "Looks like we were never more than cannon fodder to them, just like the Vichya Dominion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			actor = 900198,
 			nameColor = "#ff5c5c",
-			say = "レッドアクシズに誘われたときにはあんなに希望を持てたというのに…",
+			say = "I was full of hope when we were brought into the Crimson Axis...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_italy_cg6",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "これはまた「再現」のために見捨てられた、と考えたほうがいいですね",
+			say = "But it looks like we are just pawns for their \"Reenactment.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ff5c5c",
-			say = "そろそろ終幕の時間ね。ヴェネト",
+			say = "It's almost time for the denouement, Veneto.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_italy_cg6",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "ええ、この「再現」の「演目」はそろそろ終わり。私たちにできるのは、悲劇か喜劇を選ぶことしかありませんから――",
+			say = "Indeed. This \"Reenactment\" is about to come to an end. The only thing left for us... is to decide whether it ends as a comedy or as a tragedy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

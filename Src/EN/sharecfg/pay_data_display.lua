@@ -236,7 +236,7 @@ pg.pay_data_display = {
 		extra_service_item = {
 			{
 				2,
-				59951,
+				69951,
 				1
 			},
 			{
@@ -294,7 +294,7 @@ pg.pay_data_display = {
 		display = {
 			{
 				2,
-				59951,
+				69951,
 				1
 			},
 			{
@@ -329,7 +329,7 @@ pg.pay_data_display = {
 		extra_service_item = {
 			{
 				2,
-				59952,
+				69952,
 				1
 			},
 			{
@@ -397,7 +397,7 @@ pg.pay_data_display = {
 		display = {
 			{
 				2,
-				59952,
+				69952,
 				1
 			},
 			{
@@ -432,7 +432,7 @@ pg.pay_data_display = {
 		extra_service_item = {
 			{
 				2,
-				59953,
+				69953,
 				1
 			},
 			{
@@ -490,7 +490,7 @@ pg.pay_data_display = {
 		display = {
 			{
 				2,
-				59953,
+				69953,
 				1
 			},
 			{
@@ -696,7 +696,7 @@ pg.pay_data_display = {
 		extra_service_item = {
 			{
 				2,
-				59903,
+				69903,
 				1
 			},
 			{
@@ -754,7 +754,7 @@ pg.pay_data_display = {
 		display = {
 			{
 				2,
-				59903,
+				69903,
 				1
 			},
 			{
@@ -789,7 +789,7 @@ pg.pay_data_display = {
 		extra_service_item = {
 			{
 				2,
-				59904,
+				69904,
 				1
 			},
 			{
@@ -852,7 +852,7 @@ pg.pay_data_display = {
 		display = {
 			{
 				2,
-				59904,
+				69904,
 				1
 			},
 			{
@@ -887,7 +887,7 @@ pg.pay_data_display = {
 		extra_service_item = {
 			{
 				2,
-				59954,
+				69954,
 				1
 			},
 			{
@@ -945,7 +945,7 @@ pg.pay_data_display = {
 		display = {
 			{
 				2,
-				59954,
+				69954,
 				1
 			},
 			{
@@ -980,7 +980,7 @@ pg.pay_data_display = {
 		extra_service_item = {
 			{
 				2,
-				59955,
+				69955,
 				1
 			},
 			{
@@ -1038,7 +1038,7 @@ pg.pay_data_display = {
 		display = {
 			{
 				2,
-				59955,
+				69955,
 				1
 			},
 			{
@@ -1161,7 +1161,7 @@ pg.pay_data_display = {
 		extra_service_item = {
 			{
 				2,
-				59905,
+				69905,
 				1
 			},
 			{
@@ -1219,7 +1219,7 @@ pg.pay_data_display = {
 		display = {
 			{
 				2,
-				59905,
+				69905,
 				1
 			},
 			{
@@ -1254,7 +1254,7 @@ pg.pay_data_display = {
 		extra_service_item = {
 			{
 				2,
-				59956,
+				69956,
 				1
 			},
 			{
@@ -1312,7 +1312,7 @@ pg.pay_data_display = {
 		display = {
 			{
 				2,
-				59905,
+				69905,
 				1
 			},
 			{
@@ -1347,7 +1347,7 @@ pg.pay_data_display = {
 		extra_service_item = {
 			{
 				2,
-				59957,
+				69957,
 				1
 			},
 			{
@@ -1405,7 +1405,7 @@ pg.pay_data_display = {
 		display = {
 			{
 				2,
-				59905,
+				69905,
 				1
 			},
 			{
@@ -1417,6 +1417,99 @@ pg.pay_data_display = {
 				2,
 				20013,
 				1
+			}
+		}
+	},
+	[113] = {
+		limit_arg = 1,
+		descrip_extra = "*After your purchase, the Lucky Box will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		name = "Full Dress Lucky Bag ",
+		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
+		subject = "Full Dress Lucky Bag ",
+		extra_service = 3,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai58",
+		id_str = "com.yostaren.azurlane.diamond123",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 113,
+		airijp_id = "com.yostaren.azurlane.diamond123",
+		extra_service_item = {
+			{
+				2,
+				69906,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69906,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
 			}
 		}
 	},
@@ -1441,7 +1534,8 @@ pg.pay_data_display = {
 		109,
 		110,
 		111,
-		112
+		112,
+		113
 	}
 }
 

@@ -34188,7 +34188,7 @@ pg.ship_data_template = {
 		oil_at_end = 2,
 		type = 1,
 		energy = 150,
-		name = "清波",
+		name = "Kiyonami",
 		can_get_proficency = 0,
 		star = 2,
 		star_max = 5,
@@ -34215,8 +34215,13 @@ pg.ship_data_template = {
 			14
 		},
 		airassist_time = {},
-		buff_list = {},
+		buff_list = {
+			2011,
+			2161
+		},
 		buff_list_display = {
+			2011,
+			2161,
 			22056
 		},
 		hide_buff_list = {
@@ -34230,7 +34235,7 @@ pg.ship_data_template = {
 		oil_at_end = 4,
 		type = 1,
 		energy = 150,
-		name = "清波",
+		name = "Kiyonami",
 		can_get_proficency = 0,
 		star = 3,
 		star_max = 5,
@@ -34258,9 +34263,13 @@ pg.ship_data_template = {
 		},
 		airassist_time = {},
 		buff_list = {
+			2011,
+			2161,
 			22056
 		},
 		buff_list_display = {
+			2011,
+			2161,
 			22056
 		},
 		hide_buff_list = {
@@ -34274,7 +34283,7 @@ pg.ship_data_template = {
 		oil_at_end = 6,
 		type = 1,
 		energy = 150,
-		name = "清波",
+		name = "Kiyonami",
 		can_get_proficency = 0,
 		star = 4,
 		star_max = 5,
@@ -34302,9 +34311,13 @@ pg.ship_data_template = {
 		},
 		airassist_time = {},
 		buff_list = {
+			2011,
+			2161,
 			22056
 		},
 		buff_list_display = {
+			2011,
+			2161,
 			22056
 		},
 		hide_buff_list = {
@@ -34318,7 +34331,7 @@ pg.ship_data_template = {
 		oil_at_end = 8,
 		type = 1,
 		energy = 150,
-		name = "清波",
+		name = "Kiyonami",
 		can_get_proficency = 1,
 		star = 5,
 		star_max = 5,
@@ -34346,9 +34359,13 @@ pg.ship_data_template = {
 		},
 		airassist_time = {},
 		buff_list = {
+			2011,
+			2161,
 			22057
 		},
 		buff_list_display = {
+			2011,
+			2161,
 			22057
 		},
 		hide_buff_list = {

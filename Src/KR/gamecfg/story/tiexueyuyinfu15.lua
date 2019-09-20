@@ -291,7 +291,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "테스터",
-			say = "(옵저버의 센서만큼은 아니지만, 이쪽도 열량 관측치가 정상이 아냐)）",
+			say = "(옵저버의 센서만큼은 아니지만, 이쪽도 열량 관측치가 정상이 아냐)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "테스터",
-			say = "(비스마르크에게 건넨 '큐브'의 영향인가……?)）",
+			say = "(비스마르크에게 건넨 '큐브'의 영향인가……?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

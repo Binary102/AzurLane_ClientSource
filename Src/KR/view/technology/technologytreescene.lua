@@ -220,6 +220,8 @@ function slot0.updateNationItemList(slot0)
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
+			print("nation index:" .. slot1)
+
 			slot0:findTF("UnSelectedImg", slot2):GetComponent("Image").sprite, slot0:findTF("SelectedImg", slot2):GetComponent("Image").sprite = TechnologyConst.GetNationSpriteByIndex(slot1 + 1)
 
 			if slot1 == 0 then

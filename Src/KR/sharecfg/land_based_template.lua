@@ -59,13 +59,24 @@ pg.land_based_template = {
 			3
 		}
 	},
+	[12] = {
+		name = "防空炮",
+		prefab = "fangkongpao",
+		type = 4,
+		id = 12,
+		function_args = {
+			1,
+			3
+		}
+	},
 	all = {
 		1,
 		2,
 		3,
 		4,
 		10,
-		11
+		11,
+		12
 	}
 }
 

@@ -62,7 +62,7 @@ return {
 			ui = {
 				pathIndex = -1,
 				delay = 1.8,
-				path = "UICamera/Canvas/UIMain/LevelMainScene(Clone)/float/levels/Chapter_101/main",
+				path = "UICamera/Canvas/UIMain/LevelMainScene(Clone)/float/levels/items/Chapter_101/main",
 				triggerType = {
 					1
 				},

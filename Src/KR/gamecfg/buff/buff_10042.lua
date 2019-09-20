@@ -17,14 +17,14 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleBuffAddAttr",
+			type = "BattleBuffFixVelocity",
 			trigger = {
 				"onAttach",
 				"onRemove"
 			},
 			arg_list = {
-				number = 15,
-				attr = "velocity"
+				add = 15,
+				mul = 0
 			}
 		}
 	}

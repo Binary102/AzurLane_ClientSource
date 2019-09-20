@@ -272,8 +272,8 @@ ys.Battle.BattleAttr = {
 
 		return
 	end,
-	FlashVelocity = function (slot0, slot1)
-		slot0:SetCurrent("velocity", Mathf.Clamp(slot1 + slot0._baseAttr.velocity, slot3, slot2))
+	FlashVelocity = function (slot0, slot1, slot2)
+		slot0:SetCurrent("velocity", Mathf.Clamp(slot0._baseAttr.velocity * slot1 + slot2, slot4, slot3))
 
 		return
 	end,

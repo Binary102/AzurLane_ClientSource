@@ -72,13 +72,10 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>S Rare</color>：12%",
 			"<color=#3dc6ff>Rare</color>：51%",
 			"Normal：30%",
-			"<color=#ffde38>그라프 체펠린</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Z46</color>：1.5%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>U47</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Z25</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Z35</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>아드미랄 히퍼</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#3dc6ff>Z19</color>：5.0%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>포미더블</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>차라</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>리토리오</color>：0.5%",
+			"<color=#d797ff>줄리오 체사레</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

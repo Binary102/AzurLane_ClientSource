@@ -60,6 +60,14 @@ function setText(slot0, slot1)
 	slot0:GetComponent(typeof(Text)).text = tostring(slot1)
 end
 
+function setTextEN(slot0, slot1)
+	if not slot1 then
+		return
+	end
+
+	slot0:GetComponent(typeof(Text)).text = tostring(splitByWordEN(slot1, slot0))
+end
+
 function setTextFont(slot0, slot1)
 	if not slot1 then
 		return
@@ -100,6 +108,10 @@ end
 
 function setWidgetText(slot0, slot1, slot2)
 	setText(findTF(slot0, slot2 or "Text"), slot1)
+end
+
+function setWidgetTextEN(slot0, slot1, slot2)
+	setTextEN(findTF(slot0, slot2 or "Text"), slot1)
 end
 
 slot0 = true

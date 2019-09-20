@@ -96,7 +96,7 @@ function slot0.updateDetail(slot0)
 	setText(slot0.pointNumCompleteText, "+" .. slot2)
 	setText(slot0.allStarPointText, "+" .. pg.fleet_tech_ship_template[slot0.groupID].pt_upgrage)
 
-	if slot0.star == pg.fleet_tech_ship_template[slot0.groupID].max_star then
+	if pg.fleet_tech_ship_template[slot0.groupID].max_star <= slot0.star then
 		setImageColor(slot0.allStarStatusImg, Color.New(1, 0.9137254901960784, 0.4470588235294118, 1))
 	end
 

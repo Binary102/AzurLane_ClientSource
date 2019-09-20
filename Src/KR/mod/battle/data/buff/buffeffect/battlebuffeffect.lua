@@ -6,6 +6,7 @@ ys.Battle.BattleBuffEffect.FX_TYPE_NOR = 0
 ys.Battle.BattleBuffEffect.FX_TYPE_MOD_ATTR = 1
 ys.Battle.BattleBuffEffect.FX_TYPE_CASTER = 2
 ys.Battle.BattleBuffEffect.FX_TYPE_LINK = 3
+ys.Battle.BattleBuffEffect.FX_TYPE_MOD_VELOCTIY = 4
 
 function ys.Battle.BattleBuffEffect.Ctor(slot0, slot1)
 	slot0._tempData = Clone(slot1)
@@ -318,6 +319,8 @@ function ys.Battle.BattleBuffEffect.onBulletHitBefore(slot0, slot1, slot2, slot3
 end
 
 function ys.Battle.BattleBuffEffect.onBulletCreate(slot0, slot1, slot2, slot3)
+	print(slot0:equipIndexRequire(slot3.equipIndex))
+
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return
 	end

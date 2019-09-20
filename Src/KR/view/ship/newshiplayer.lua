@@ -52,7 +52,9 @@ function slot0.init(slot0)
 	setActive(slot0._skipButton, slot0.contextData.canSkipBatch)
 	setActive(slot0._left, not slot0.contextData.canSkip)
 	setActive(slot0.audioBtn, not slot0.contextData.canSkip)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
+		hideLowerLayer = true
+	})
 
 	slot0.rarityEffect = {}
 end

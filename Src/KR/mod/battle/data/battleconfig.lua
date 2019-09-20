@@ -211,12 +211,20 @@ ys.Battle.BattleConfig.DOT_CONFIG_DEFAULT = {
 ys.Battle.BattleConfig.AMMO_DAMAGE_ENHANCE = {
 	"damageRatioByAmmoType_1",
 	"damageRatioByAmmoType_2",
-	"damageRatioByAmmoType_3"
+	"damageRatioByAmmoType_3",
+	nil,
+	nil,
+	nil,
+	"damageRatioByAmmoType_7"
 }
 ys.Battle.BattleConfig.AMMO_DAMAGE_REDUCE = {
 	"damageReduceFromAmmoType_1",
 	"damageReduceFromAmmoType_2",
-	"damageReduceFromAmmoType_3"
+	"damageReduceFromAmmoType_3",
+	nil,
+	nil,
+	nil,
+	"damageReduceFromAmmoType_7"
 }
 ys.Battle.BattleConfig.SHIP_TYPE_ACCURACY_ENHANCE = {
 	[ShipType.QuZhu] = "accuracyToShipType_1",

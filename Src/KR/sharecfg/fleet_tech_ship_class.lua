@@ -857,7 +857,8 @@ pg.fleet_tech_ship_class = {
 		nation = 2,
 		ships = {
 			20703,
-			20704
+			20704,
+			20705
 		}
 	},
 	[20702] = {
@@ -1052,7 +1053,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 80,
 		nation = 3,
 		ships = {
-			30180
+			30180,
+			30154
 		}
 	},
 	[30112] = {
@@ -1682,6 +1684,62 @@ pg.fleet_tech_ship_class = {
 			50201
 		}
 	},
+	[60101] = {
+		shiptype = 1,
+		name = "솔다티급",
+		t_level = 6,
+		id = 60101,
+		t_level_1 = 130,
+		nation = 6,
+		ships = {
+			60102
+		}
+	},
+	[60301] = {
+		shiptype = 3,
+		name = "차라급",
+		t_level = 7,
+		id = 60301,
+		t_level_1 = 131,
+		nation = 6,
+		ships = {
+			60302
+		}
+	},
+	[60302] = {
+		shiptype = 3,
+		name = "트렌토급",
+		t_level = 5,
+		id = 60302,
+		t_level_1 = 132,
+		nation = 6,
+		ships = {
+			60301
+		}
+	},
+	[60501] = {
+		shiptype = 5,
+		name = "베네토급",
+		t_level = 7,
+		id = 60501,
+		t_level_1 = 133,
+		nation = 6,
+		ships = {
+			60502
+		}
+	},
+	[60502] = {
+		shiptype = 5,
+		name = "콘테 디 카보우르급",
+		t_level = 4,
+		id = 60502,
+		t_level_1 = 134,
+		nation = 6,
+		ships = {
+			60505,
+			60506
+		}
+	},
 	[70201] = {
 		shiptype = 2,
 		name = "아브로라급",
@@ -1932,6 +1990,11 @@ pg.fleet_tech_ship_class = {
 		50101,
 		50201,
 		50202,
+		60101,
+		60301,
+		60302,
+		60501,
+		60502,
 		70201,
 		80101,
 		80102,

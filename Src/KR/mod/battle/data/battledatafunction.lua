@@ -220,6 +220,10 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 				end
 			end
 		end
+
+		if slot10.arg_list.effect then
+			slot3[#slot3 + 1] = slot1.Battle.BattleResourceManager.GetFXPath(slot16)
+		end
 	end
 
 	return slot3

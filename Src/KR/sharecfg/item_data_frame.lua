@@ -69,7 +69,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 304,
 		time_limit_type = 0,
-		desc = "<Color=#ffffff>「세계에 사르데냐 제국의 영광과 위엄을 알리자!」 </Color>\n후에 이벤트를 통해 획득",
+		desc = "<color=#ffffff>「세계에 사르데냐 엠파이어의 영광과 위엄을 알리자!」 </Color>\n이벤트에서 획득",
 		scene = {}
 	},
 	all = {

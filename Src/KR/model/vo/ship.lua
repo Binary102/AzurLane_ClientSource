@@ -149,21 +149,21 @@ function slot0.getMainwordsCount(slot0)
 	return #string.split(slot1.main, "|")
 end
 
-function slot0.getWordsEx(slot0, slot1, slot2, slot3, slot4)
-	slot6 = false
+function slot0.getWordsEx(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot7 = false
 
-	if type(slot5) == "string" then
+	if type(slot6) == "string" then
 		return
 	end
 
 	slot3 = slot3 or 0
 
-	for slot10, slot11 in ipairs(slot5) do
-		if slot11[1] <= slot3 then
+	for slot11, slot12 in ipairs(slot6) do
+		if slot12[1] <= slot3 then
 			if slot1 == "main" then
-				return string.split(slot11[2], "|")[slot2], slot11[1], slot6
+				return string.split(slot12[2], "|")[slot2], slot12[1], slot7
 			else
-				return slot11[2], slot11[1], slot6
+				return slot12[2], slot12[1], slot7
 			end
 		end
 	end
@@ -214,7 +214,7 @@ function slot0.getWords(slot0, slot1, slot2, slot3, slot4)
 		slot12 = string.split(slot11, "|")
 	end
 
-	rstEx, cvEx, defaultCoverEx = slot0.getWordsEx(slot6, slot1, slot13, slot4, slot7)
+	rstEx, cvEx, defaultCoverEx = slot0.getWordsEx(slot6, slot1, slot13, slot4, slot7, slot10)
 	slot14 = nil
 	slot16 = (PlayerPrefs.GetInt("CV_LANGUAGE_" .. pg.ship_skin_template[slot0].ship_group) == 2 and slot5.voice_key_2) or slot5.voice_key
 
@@ -2180,37 +2180,47 @@ function slot0.getTactics(slot0)
 	return 1, "tactics_attack"
 end
 
-function slot0.SetExpression(slot0, slot1, slot2)
-	slot3 = findTF(slot0, "face")
+function slot0.SetExpression(slot0, slot1, slot2, slot3)
+	slot4 = findTF(slot0, "face")
 
 	if not pg.ship_skin_expression[slot1] then
-		if slot3 then
-			setActive(slot3, false)
+		if slot4 then
+			setActive(slot4, false)
 		end
 
 		return
 	end
 
-	if not slot4[slot2] or slot5 == "" then
-		slot5 = slot4.default
-	end
+	slot6 = slot5[slot2]
 
-	slot6 = GetSpriteFromAtlas("paintingface/" .. slot1, slot5)
-
-	if slot3 then
-		setActive(slot3, slot5 and slot5 ~= "")
-		setImageSprite(slot3, slot6)
-
-		if findTF(slot3, "face_sub") then
-			setActive(slot7, GetSpriteFromAtlas("paintingface/" .. slot1, slot5 .. "_sub"))
-
-			if GetSpriteFromAtlas("paintingface/" .. slot1, slot5 .. "_sub") then
-				setImageSprite(slot7, slot8)
+	if slot3 and pg.ship_skin_expression_ex[slot1] and slot7[slot2] and slot8 ~= "" then
+		for slot12, slot13 in ipairs(slot8) do
+			if slot3 <= slot13[1] then
+				slot6 = slot13[2]
 			end
 		end
 	end
 
-	return (slot4.default and true) or false
+	if not slot6 or slot6 == "" then
+		slot6 = slot5.default
+	end
+
+	slot7 = GetSpriteFromAtlas("paintingface/" .. slot1, slot6)
+
+	if slot4 then
+		setActive(slot4, slot6 and slot6 ~= "")
+		setImageSprite(slot4, slot7)
+
+		if findTF(slot4, "face_sub") then
+			setActive(slot8, GetSpriteFromAtlas("paintingface/" .. slot1, slot6 .. "_sub"))
+
+			if GetSpriteFromAtlas("paintingface/" .. slot1, slot6 .. "_sub") then
+				setImageSprite(slot8, slot9)
+			end
+		end
+	end
+
+	return (slot5.default and true) or false
 end
 
 function slot0.DefaultFaceless(slot0)

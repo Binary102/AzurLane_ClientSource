@@ -25,8 +25,8 @@ function slot0.Update(slot0, slot1)
 	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			setText(slot2:Find("number"), slot1 + 1)
-			setText(slot2:Find("name"), slot0[slot1 + 1].getShipName(slot3))
-			setText(slot2:Find("Text"), (slot1:isWeb() and slot3.netVotes) or slot3.votes)
+			setText(slot2:Find("name"), shortenString(slot0[slot1 + 1].getShipName(slot3), 6))
+			setText(slot2:Find("Text"), (slot1:isWeb() and slot3:getNetVotes()) or slot3:GetGameVotes())
 		end
 	end)
 	slot0.uilist:align(#slot1:getList())

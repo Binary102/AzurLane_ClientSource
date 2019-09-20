@@ -2346,6 +2346,471 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[160] = {
+		bullet_name = "zidan_rongyan",
+		name = "용암탄",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "작렬하는 화산에서 온 자연의 힘!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91711",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 160,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[161] = {
+		bullet_name = "zidan_kafeibei",
+		name = "특제 에스프레소",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "특제 에스프레소 한잔 어때?",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91712",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 161,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[162] = {
+		bullet_name = "zidan_nailao",
+		name = "치즈탄",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "후후후… 파르마 치즈, 분명 좋아하게 될거야~",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91713",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 162,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[163] = {
+		bullet_name = "paodan_yidalimian",
+		name = "파스타 포탄",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "정말 맛있어 보이는데~",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91714",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 163,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[164] = {
+		bullet_name = "paodan_zuqiu",
+		name = "축구공 포탄",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "어느 축구팀 팬이야~?",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91715",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 164,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[165] = {
+		bullet_name = "paodan_pisa",
+		name = "피자 포탄",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "특제 사르데냐 피자, 절찬 판매중~",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91716",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 165,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[166] = {
+		bullet_name = "yulei_bingqilin",
+		name = "젤라또 어뢰",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "신선한 저칼로리 건강식! 먹어보지 않을래?",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91721",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 166,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[167] = {
+		bullet_name = "yulei_hongjiu",
+		name = "와인 어뢰",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "사르데냐의 와인은 세계제일!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91722",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 167,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[168] = {
+		bullet_name = "yulei_jianbing",
+		name = "피아디나 어뢰",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "이것이 바로 본 고장의 간식~",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91723",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 168,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[169] = {
+		bullet_name = "feiji_xieta",
+		name = "사탑 비행기(어뢰)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "포환이 떨어지는 속도… 똑같잖아 짹!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91731",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 169,
+		derivate_torpedo = "yulei_bingqilin",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[170] = {
+		bullet_name = "feiji_xieta",
+		name = "사탑 비행기(전투)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "포환이 떨어지는 속도… 똑같잖아 짹!",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_zuqiu",
+		icon = "91731",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 170,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[171] = {
+		bullet_name = "feiji_xieta",
+		name = "사탑 비행기(폭격)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "포환이 떨어지는 속도… 똑같잖아 짹!",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_zuqiu",
+		icon = "91731",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 171,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[172] = {
+		bullet_name = "feiji_gongduola",
+		name = "곤돌라 비행기(어뢰)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "으쌰으쌰, 곧 도착한다 짹!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91732",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 172,
+		derivate_torpedo = "yulei_jianbing",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[173] = {
+		bullet_name = "feiji_gongduola",
+		name = "곤돌라 비행기(전투)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "으쌰으쌰, 곧 도착한다 짹!",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_pisa",
+		icon = "91732",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 173,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[174] = {
+		bullet_name = "feiji_gongduola",
+		name = "곤돌라 비행기(폭격)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "으쌰으쌰, 곧 도착한다 짹!",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_pisa",
+		icon = "91732",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 174,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[175] = {
+		bullet_name = "feiji_yugang",
+		name = "욕조 비행기(어뢰)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "욕조는 철학적인 사색을 하기 가장 좋은 곳…짹!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91733",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 175,
+		derivate_torpedo = "yulei_hongjiu",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[176] = {
+		bullet_name = "feiji_yugang",
+		name = "욕조 비행기(전투)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "욕조는 철학적인 사색을 하기 가장 좋은 곳…짹!",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_yidalimian",
+		icon = "91733",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 176,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[177] = {
+		bullet_name = "feiji_yugang",
+		name = "욕조 비행기(폭격)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "욕조는 철학적인 사색을 하기 가장 좋은 곳…짹!",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_yidalimian",
+		icon = "91733",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 177,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		bullet_name = "Nep_bullet_shizi",
 		name = "십자키 포탄(보라)",
@@ -3786,6 +4251,24 @@ pg.equip_skin_template = {
 		135,
 		136,
 		137,
+		160,
+		161,
+		162,
+		163,
+		164,
+		165,
+		166,
+		167,
+		168,
+		169,
+		170,
+		171,
+		172,
+		173,
+		174,
+		175,
+		176,
+		177,
 		1001,
 		1002,
 		1003,

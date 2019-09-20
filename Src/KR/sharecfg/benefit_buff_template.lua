@@ -3,7 +3,7 @@ pg.benefit_buff_template = {
 	{
 		max_time = 86400,
 		name = "",
-		icon = "Props/guihuagao",
+		icon = "Props/haijungali",
 		benefit_effect = "5",
 		id = 1,
 		benefit_condition = "",
@@ -37,11 +37,11 @@ pg.benefit_buff_template = {
 		benefit_effect = "100",
 		id = 4,
 		benefit_type = "rookie_battle_exp",
-		desc = "지휘관 레벨 30 미만일 때, 통상 스테이지, 어려움 난이도 스테이지, 데일리 이벤트 중 획득하는 지휘관 경험치와 함선소녀 경험치가 100% 상승. ",
+		desc = "지휘관 레벨 40 미만일 때, 통상 스테이지, 어려움 난이도 스테이지, 데일리 이벤트 중 획득하는 지휘관 경험치와 함선소녀 경험치가 100% 상승. ",
 		benefit_condition = {
 			"lv",
 			"<",
-			30
+			40
 		}
 	},
 	[10] = {

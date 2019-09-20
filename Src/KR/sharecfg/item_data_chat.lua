@@ -17,11 +17,11 @@ pg.item_data_chat = {
 		scene = {}
 	},
 	[300] = {
-		name = "발령자",
+		name = "소집자",
 		time_second = 2592000,
 		id = 300,
 		time_limit_type = 1,
-		desc = "<color=#ffffff>동원 지령에 응답하여 주셔서 감사합니다，지휘관</color>\n유효기간 30일",
+		desc = "<color=#ffffff>동원 지령에 대한 응답에 감사드립니다, 지휘관님.</color>\n유효기간 30일",
 		scene = {}
 	},
 	[301] = {

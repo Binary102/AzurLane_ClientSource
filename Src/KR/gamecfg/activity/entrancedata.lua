@@ -53,7 +53,7 @@ return {
 			return pg.TimeMgr.GetInstance():inTime(ActivityConst.LIMIT_SKIN_SHOP_TIME)
 		end,
 		isTip = function ()
-			return getProxy(PlayerProxy):getRawData().skinTicket and slot0.skinTicket > 0
+			return getProxy(PlayerProxy):getRawData():getResource(pg.gameset.skin_ticket.key_value) and slot2 > 0
 		end
 	},
 	{
@@ -159,7 +159,7 @@ return {
 		event = ActivityMediator.GO_FISRT_VOTE,
 		data = {},
 		isShow = function ()
-			return getProxy(ActivityProxy):GetVoteActivty() and not slot1:isEnd() and PLATFORM_CODE ~= PLATFORM_US
+			return getProxy(ActivityProxy):GetVoteBookActivty() and not slot1:isEnd() and PLATFORM_CODE ~= PLATFORM_US
 		end,
 		isTip = function ()
 			return _.any(VoteFameHallLayer.configs, function (slot0)

@@ -144,7 +144,7 @@ function slot0.__index(slot0, slot1)
 		return slot0.fleets[slot0.findex]
 	end
 
-	return rawget(slot0, slot1) or slot0[slot1] or slot0.super[slot1]
+	return rawget(slot0, slot1) or slot0[slot1]
 end
 
 function slot0.getFleetById(slot0, slot1)
@@ -452,7 +452,7 @@ function slot0.findChapterCells(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot7, slot8 in pairs(slot0.cells) do
-		if slot8.attachment == slot1 and (not attchmentId or slot8.attachmentId == attchmentId) then
+		if slot8.attachment == slot1 and (not slot2 or slot8.attachmentId == slot2) then
 			table.insert(slot3, Clone(slot8))
 		end
 	end
@@ -461,23 +461,23 @@ function slot0.findChapterCells(slot0, slot1, slot2)
 end
 
 function slot0.mergeChapterCell(slot0, slot1)
-	slot3 = slot0:getChapterCell(slot1.row, slot1.column) == nil or slot2.attachment ~= slot1.attachment or slot2.attachmentId ~= slot1.attachmentId or (slot2.attachment == ChapterConst.AttachRival and slot2.rival.id ~= slot1.rival.id)
+	slot4 = slot0.cells[ChapterCell.Line2Name(slot1.row, slot1.column)] == nil or slot3.attachment ~= slot1.attachment or slot3.attachmentId ~= slot1.attachmentId or (slot3.attachment == ChapterConst.AttachRival and slot3.rival.id ~= slot1.rival.id)
 
-	if slot2 then
-		slot2.attachment = slot1.attachment
-		slot2.attachmentId = slot1.attachmentId
-		slot2.flag = slot1.flag
-		slot2.data = slot1.data
-		slot2.rival = slot1.rival
-		slot1 = slot2
+	if slot3 then
+		slot3.attachment = slot1.attachment
+		slot3.attachmentId = slot1.attachmentId
+		slot3.flag = slot1.flag
+		slot3.data = slot1.data
+		slot3.rival = slot1.rival
+		slot1 = slot3
 	end
 
-	if slot3 and ChapterConst.NeedMarkAsLurk(slot1) then
+	if slot4 and ChapterConst.NeedMarkAsLurk(slot1) then
 		slot1.trait = ChapterConst.TraitLurk
 	end
 
 	if slot1.attachment == ChapterConst.AttachBoss and slot0:getChampionIndex(slot1.row, slot1.column) then
-		table.remove(slot0.champions, slot4)
+		table.remove(slot0.champions, slot5)
 	end
 
 	slot0:updateChapterCell(slot1)
@@ -1435,6 +1435,41 @@ function slot0.getDefeatStory(slot0, slot1)
 	return slot0:getConfig("defeat_story")[slot4]
 end
 
+slot1 = {
+	cell = 3,
+	fleet = 1,
+	champion = 2
+}
+slot2 = {
+	"fleet",
+	"champion",
+	"cell"
+}
+
+function slot4(slot0, slot1)
+	slot2 = slot0[slot1]
+
+	if slot1 and not slot2 then
+		return
+	end
+
+	slot2 = slot2 or 0
+
+	for slot6 = slot2 + 1, #slot1, 1 do
+		if slot0[slot1[slot6]] then
+			return slot1[slot6]
+		end
+	end
+end
+
+function slot0.GetObjectsInCell(slot0, slot1, slot2)
+	return setmetatable({
+		fleet = slot0:getFleet(nil, slot1, slot2),
+		champion = slot0:getChampion(slot1, slot2),
+		cell = slot0:getChapterCell(slot1, slot2)
+	}, slot0)
+end
+
 function slot0.getFleet(slot0, slot1, slot2, slot3)
 	return _.detect(slot0.fleets, function (slot0)
 		return slot0.line.row == slot0 and slot0.line.column ==  and (not slot2 or slot0:getFleetType() == slot0) and slot0:isValid()
@@ -1543,7 +1578,7 @@ function slot0.considerAsObstacle(slot0, slot1, slot2, slot3)
 end
 
 function slot0.considerAsStayPoint(slot0, slot1, slot2, slot3)
-	if not slot0:getChapterCell(slot2, slot3) or not slot4:IsStandable(slot1) then
+	if not slot0:getChapterCell(slot2, slot3) or not slot4:IsWalkable() then
 		return false
 	end
 
@@ -1554,6 +1589,10 @@ function slot0.considerAsStayPoint(slot0, slot1, slot2, slot3)
 	if slot1 == ChapterConst.SubjectPlayer then
 		if slot4.flag == 0 and slot4.attachment == ChapterConst.AttachStory then
 			return true
+		end
+
+		if slot4.attachment == ChapterConst.AttachLandbase and slot4.attachmentId == ChapterConst.LBIDHarbor then
+			return false
 		end
 
 		if slot0:existFleet(FleetType.Normal, slot2, slot3) then
@@ -1595,7 +1634,19 @@ function slot0.existAny(slot0, slot1, slot2)
 end
 
 function slot0.existBarrier(slot0, slot1, slot2)
-	return (slot0:getChapterCell(slot1, slot2).attachment == ChapterConst.AttachBox and slot3.flag == 0 and pg.box_data_template[slot3.attachmentId].type == ChapterConst.BoxBarrier) or (slot3.attachment == ChapterConst.AttachStory and slot3.flag == 3 and pg.map_event_template[slot3.attachmentId].type == ChapterConst.StoryObstacle)
+	if slot0:getChapterCell(slot1, slot2).attachment == ChapterConst.AttachBox and slot3.flag == 0 and pg.box_data_template[slot3.attachmentId].type == ChapterConst.BoxBarrier then
+		return true
+	end
+
+	if slot3.attachment == ChapterConst.AttachStory and slot3.flag == 3 and pg.map_event_template[slot3.attachmentId].type == ChapterConst.StoryObstacle then
+		return true
+	end
+
+	if slot0:getChampion(slot1, slot2) and slot4.flag ~= 1 and pg.expedition_data_template[slot4.attachmentId] and slot5.type == 97 then
+		return true
+	end
+
+	return false
 end
 
 function slot0.existEnemy(slot0, slot1, slot2, slot3)
@@ -2109,7 +2160,7 @@ function slot0.writeBack(slot0, slot1, slot2)
 			slot7.count = slot7.count + 1
 		end
 
-		if slot0:CheckWin() then
+		if slot0:CheckChapterWin() then
 			pg.TrackerMgr.GetInstance():Tracking(TRACKING_KILL_BOSS)
 			_.each(slot0.achieves, function (slot0)
 				if slot0.type == ChapterConst.AchieveType3 then
@@ -2156,27 +2207,29 @@ function slot0.writeBack(slot0, slot1, slot2)
 	end
 end
 
-function slot0.CheckWin(slot0)
-	slot2 = false
+function slot0.CheckChapterWin(slot0)
+	slot1 = slot0:CheckTransportState()
+	slot3 = false
+	slot4 = ChapterConst.ReasonVictory
 
-	for slot6, slot7 in pairs(slot1) do
-		if slot7.type == 1 then
+	for slot8, slot9 in pairs(slot2) do
+		if slot9.type == 1 then
 			_.each(slot0:findChapterCells(ChapterConst.AttachBoss), function (slot0)
 				if slot0 and slot0.flag == 1 then
 					slot0 = slot0 + 1
 				end
 			end)
 
-			slot2 = slot2 or slot7.param <= 0
-		elseif slot7.type == 2 then
-			slot2 = slot2 or slot7.param <= slot0:GetDefeatCount()
-		elseif slot7.type == 3 then
-			slot2 = slot2 or transportState == 1
-		elseif slot7.type == 4 then
-			slot2 = slot2 or slot7.param < slot0:getRoundNum()
-		elseif slot7.type == 5 then
-			slot8 = slot7.param
-			slot2 = slot2 or not (_.any(slot0.champions, function (slot0)
+			slot3 = slot3 or slot9.param <= 0
+		elseif slot9.type == 2 then
+			slot3 = slot3 or slot9.param <= slot0:GetDefeatCount()
+		elseif slot9.type == 3 then
+			slot3 = slot3 or slot1 == 1
+		elseif slot9.type == 4 then
+			slot3 = slot3 or slot9.param < slot0:getRoundNum()
+		elseif slot9.type == 5 then
+			slot10 = slot9.param
+			slot3 = slot3 or not (_.any(slot0.champions, function (slot0)
 				slot1 = slot0.attachmentId == slot0
 
 				for slot5, slot6 in pairs(slot0.idList) do
@@ -2187,14 +2240,43 @@ function slot0.CheckWin(slot0)
 			end) or _.any(slot0.cells, function (slot0)
 				return slot0.attachmentId == slot0 and slot0.flag ~= 1
 			end))
+		elseif slot9.type == 6 then
+			slot10 = slot9.param
+			slot3 = slot3 or _.any(slot0.fleets, function (slot0)
+				return slot0:getFleetType() == FleetType.Normal and slot0:isValid() and slot0.line.row == slot0[1] and slot0.line.column == slot0[2]
+			end)
 		end
 
-		if slot2 then
+		if slot3 then
 			break
 		end
 	end
 
-	return slot2
+	return slot3, slot4
+end
+
+function slot0.CheckChapterLose(slot0)
+	slot1 = slot0:CheckTransportState()
+	slot3 = false
+	slot4 = ChapterConst.ReasonDefeat
+
+	for slot8, slot9 in pairs(slot2) do
+		if slot9.type == 1 then
+			slot3 = slot3 or not _.any(slot0.fleets, function (slot0)
+				return slot0:getFleetType() == FleetType.Normal and slot0:isValid()
+			end)
+		elseif slot9.type == 2 then
+			slot4 = (slot3 or slot0.BaseHP <= 0) and ChapterConst.ReasonDefeatDefense
+		end
+
+		if slot3 then
+			break
+		end
+	end
+
+	if slot0:getPlayType() == ChapterConst.TypeTransport then
+		return slot3 or slot1 == -1, slot4
+	end
 end
 
 function slot0.triggerSkill(slot0, slot1, slot2)
@@ -2290,27 +2372,29 @@ function slot0.triggerCheck(slot0, slot1, slot2, slot3)
 	end
 end
 
+slot5 = {
+	{
+		1,
+		0
+	},
+	{
+		-1,
+		0
+	},
+	{
+		0,
+		1
+	},
+	{
+		0,
+		-1
+	}
+}
+
 function slot0.checkOniState(slot0)
 	slot1 = slot0:getOni()
 
-	if _.all({
-		{
-			1,
-			0
-		},
-		{
-			-1,
-			0
-		},
-		{
-			0,
-			1
-		},
-		{
-			0,
-			-1
-		}
-	}, function (slot0)
+	if _.all(slot0, function (slot0)
 		if slot1:existFleet(FleetType.Normal, ({
 			slot0.row + slot0[1],
 			slot0.column + slot0[2]
@@ -2448,6 +2532,53 @@ function slot0.getCoastalGunArea(slot0)
 				})
 			end
 		end
+	end
+
+	return slot1
+end
+
+function slot0.GetAntiAirGunArea(slot0)
+	slot1 = {}
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot0.cells) do
+		if slot7.attachment == ChapterConst.AttachLandbase and slot7.flag ~= 1 and pg.land_based_template[slot7.attachmentId].type == ChapterConst.LBAntiAir then
+			function getIndex(slot0, slot1)
+				return ChapterConst.MaxColumn * slot0 + slot1
+			end
+
+			slot11 = {}
+			slot12 = {}
+
+			if math.abs(slot8.function_args[1]) > 0 then
+				slot11[getIndex(slot7.row, slot7.column)] = slot7
+			end
+
+			while next(slot11) do
+				slot11[next(slot11)] = nil
+
+				if math.abs(slot11[next(slot11)].row - slot7.row) <= slot10 and math.abs(slot14.column - slot7.column) <= slot10 then
+					slot12[slot13] = slot14
+
+					for slot18 = 1, #slot0, 1 do
+						if not slot12[getIndex(slot19, slot14.column + slot0[slot18][2])] then
+							slot11[slot21] = {
+								row = slot19,
+								column = slot20
+							}
+						end
+					end
+				end
+			end
+
+			for slot16, slot17 in pairs(slot12) do
+				slot2[slot16] = slot17
+			end
+		end
+	end
+
+	for slot6, slot7 in pairs(slot2) do
+		table.insert(slot1, slot7)
 	end
 
 	return slot1

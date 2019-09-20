@@ -79,4 +79,20 @@ function slot0.getSkinId(slot0)
 	return slot0.group * 10
 end
 
+function slot0.getNetVotes(slot0)
+	if slot0.netVotes >= 100000 then
+		return math.floor(slot0.netVotes / 1000) .. "K"
+	else
+		return slot0.netVotes
+	end
+end
+
+function slot0.GetGameVotes(slot0)
+	if slot0.votes >= 100000 then
+		return math.floor(slot0.votes / 1000) .. "K"
+	else
+		return slot0.votes
+	end
+end
+
 return slot0

@@ -174,6 +174,11 @@ function slot0.init(slot0)
 	slot0.backyardui = GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)")
 end
 
+function slot0.EnableUI(slot0, slot1)
+	GetOrAddComponent(slot0._tf, typeof(CanvasGroup)).blocksRaycasts = slot1
+	GetOrAddComponent(slot0.backyardui, typeof(CanvasGroup)).blocksRaycasts = slot1
+end
+
 function slot0.didEnter(slot0)
 	slot0:blurPanel()
 

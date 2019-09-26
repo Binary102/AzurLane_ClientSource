@@ -116,6 +116,10 @@ function slot0.hasOldSkin(slot0, slot1)
 	return slot0.oldSkins[slot1] ~= nil
 end
 
+function slot0.hasOldNonLimitSkin(slot0, slot1)
+	return slot0.oldSkins[slot1] and not slot2:isExpireType()
+end
+
 function slot0.getSkinCountById(slot0, slot1)
 	return (slot0:hasSkin(slot1) and 1) or 0
 end

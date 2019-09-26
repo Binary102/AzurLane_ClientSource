@@ -335,7 +335,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 207050,
 			nameColor = "#a9f548",
-			say = "포미더블의 전과가 되라고!! 바라쿠다, 출격!!",
+			say = "포미더블의 성과가 되라고!! 바라쿠다, 출격!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

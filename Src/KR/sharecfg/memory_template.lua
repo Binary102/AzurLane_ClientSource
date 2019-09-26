@@ -8514,6 +8514,50 @@ pg.memory_template = {
 		icon = "memory_italy",
 		is_open = 0
 	},
+	[930] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "파티를 열자!",
+		condition = "「취기 오른 파티」DAY1 해제",
+		story = "DACHAOLIFU1",
+		id = 930,
+		icon = "memory_dachaolifu",
+		is_open = 0
+	},
+	[931] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Prost!",
+		condition = "「취기 오른 파티」DAY3 해제",
+		story = "DACHAOLIFU2",
+		id = 931,
+		icon = "memory_dachaolifu",
+		is_open = 0
+	},
+	[932] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "각자의 즐거움",
+		condition = "「취기 오른 파티」DAY5 해제",
+		story = "DACHAOLIFU3",
+		id = 932,
+		icon = "memory_dachaolifu",
+		is_open = 0
+	},
+	[933] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "엔딩은 항상 그 느낌대로",
+		condition = "「취기 오른 파티」DAY7 해제",
+		story = "DACHAOLIFU4",
+		id = 933,
+		icon = "memory_dachaolifu",
+		is_open = 0
+	},
 	[10000] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -10026,6 +10070,10 @@ pg.memory_template = {
 		927,
 		928,
 		929,
+		930,
+		931,
+		932,
+		933,
 		10000,
 		10001,
 		10002,

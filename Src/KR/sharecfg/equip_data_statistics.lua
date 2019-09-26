@@ -14737,7 +14737,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -16897,7 +16898,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -16972,7 +16974,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -17047,7 +17050,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -17156,7 +17160,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -17231,7 +17236,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -17340,7 +17346,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -28413,7 +28420,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -28488,7 +28496,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -28597,7 +28606,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -35006,7 +35016,7 @@ pg.equip_data_statistics = {
 		nationality = 2,
 		ammo = "통상탄",
 		is_siren = 0,
-		descrip = "검어식 어뢰 폭격기의 후속 기종, 그러나, 마지막에는 검어와 함께 숭어식 어뢰 폭격기로 대체될 때까지 병용되었다. ",
+		descrip = "소드피시 후계 기종으로 계획되었으나 소드피쉬와 함께 페어리 바라쿠다로 교체될 때까지 병용되었다. ",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -35078,7 +35088,7 @@ pg.equip_data_statistics = {
 		nationality = 2,
 		ammo = "통상탄",
 		is_siren = 0,
-		descrip = "검어식 어뢰 폭격기의 후속 기종, 그러나, 마지막에는 검어와 함께 숭어식 어뢰 폭격기로 대체될 때까지 병용되었다. ",
+		descrip = "소드피시 후계 기종으로 계획되었으나 소드피쉬와 함께 페어리 바라쿠다로 교체될 때까지 병용되었다. ",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -35183,7 +35193,7 @@ pg.equip_data_statistics = {
 		nationality = 2,
 		ammo = "통상탄",
 		is_siren = 0,
-		descrip = "검어식 어뢰 폭격기의 후속 기종, 그러나, 마지막에는 검어와 함께 숭어식 어뢰 폭격기로 대체될 때까지 병용되었다. ",
+		descrip = "소드피시 후계 기종으로 계획되었으나 소드피쉬와 함께 페어리 바라쿠다로 교체될 때까지 병용되었다. ",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -38714,7 +38724,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -38789,7 +38800,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -38898,7 +38910,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -39051,7 +39064,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -50144,7 +50158,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -50253,7 +50268,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -50406,7 +50422,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -50559,7 +50576,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -50712,7 +50730,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -50788,7 +50807,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -50897,7 +50917,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -66795,7 +66816,7 @@ pg.equip_data_statistics = {
 		nationality = 6,
 		ammo = "통상탄",
 		is_siren = 0,
-		descrip = "3연장 381mm 주포, 비토리오 비네토급 전열함 주포, 전순 및 전열 사용 가능 ",
+		descrip = "3연장 381mm 주포, 비토리오 베네토급 전함 주포, 순전 및 전함 사용 가능",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -66904,7 +66925,7 @@ pg.equip_data_statistics = {
 		nationality = 6,
 		ammo = "철갑탄",
 		is_siren = 0,
-		descrip = "3연장 381mm 주포, 비토리오 비네토급 전열함 주포, 전순 및 전열 사용 가능 ",
+		descrip = "3연장 381mm 주포, 비토리오 베네토급 전함 주포, 순전 및 전함 사용 가능",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -67058,7 +67079,7 @@ pg.equip_data_statistics = {
 		nationality = 6,
 		ammo = "철갑탄",
 		is_siren = 0,
-		descrip = "3연장 381mm 주포, 비토리오 비네토급 전열함 주포, 전순 및 전열 사용 가능 ",
+		descrip = "3연장 381mm 주포, 비토리오 베네토급 전함 주포, 순전 및 전함 사용 가능",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -67627,7 +67648,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -67735,7 +67757,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -67888,7 +67911,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -68041,7 +68065,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -68116,7 +68141,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -68225,7 +68251,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},

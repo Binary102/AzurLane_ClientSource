@@ -2,6 +2,7 @@ slot0 = class("ActivityMediator", import("..base.ContextMediator"))
 slot0.EVENT_GO_SCENE = "event go scene"
 slot0.EVENT_OPERATION = "event operation"
 slot0.GO_SHOPS_LAYER = "event go shop layer"
+slot0.GO_SHOPS_LAYER_STEEET = "event go shop layer in shopstreet"
 slot0.BATTLE_OPERA = "event difficult sel"
 slot0.REQUEST_VOTE_INFO = "event request vote info"
 slot0.GO_VOTE_LAYER = "event go vote layer"
@@ -117,6 +118,15 @@ function slot0.register(slot0)
 			viewComponent = ShopsLayer,
 			data = slot1 or {
 				warp = ShopsLayer.TYPE_ACTIVITY
+			}
+		}))
+	end)
+	slot0:bind(slot0.GO_SHOPS_LAYER_STEEET, function (slot0, slot1)
+		slot0:addSubLayers(Context.New({
+			mediator = ShopsMediator,
+			viewComponent = ShopsLayer,
+			data = slot1 or {
+				warp = ShopsLayer.TYPE_SHOP_STREET
 			}
 		}))
 	end)

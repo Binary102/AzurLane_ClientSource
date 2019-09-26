@@ -3108,6 +3108,98 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100008] = {
+		can_rotate = 0,
+		name = "쥬쥬 가마 ",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "8yueqiandaoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 6,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 100008,
+		comfortable = 0,
+		describe = "으쌰! 으쌰! 앞으로 또 앞으로! 파티를 훨씬 시끌벅적하게! ",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 0,
+		time = "always",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"8yueqiandaoB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"8yueqiandaoT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"8yueqiandaoCharControl",
+				"8yueqiandaoCharControl2"
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		can_rotate = 0,
 		name = "낡은 바닥",
@@ -81321,6 +81413,2117 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[49001] = {
+		can_rotate = 0,
+		name = "지휘실 카페트",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "dibandhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 4,
+		rarity = 4,
+		picture = "donghuaBD/dibandh",
+		canputon = 0,
+		discount = 0,
+		id = 49001,
+		comfortable = 0,
+		describe = "오늘도 힘내서 일하자!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49002] = {
+		can_rotate = 0,
+		name = "지휘실 벽지",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "qiangbidhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 3,
+		rarity = 4,
+		picture = "donghuaBD/qiangbidh",
+		canputon = 0,
+		discount = 0,
+		id = 49002,
+		comfortable = 0,
+		describe = "오늘도 힘내서 일하자!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49101] = {
+		can_rotate = 0,
+		name = "지하 보관창고 입구",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "dixiadhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/dixiadh",
+		canputon = 0,
+		discount = 0,
+		id = 49101,
+		comfortable = 0,
+		describe = "비밀의 보관실. 그 속에는……",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49102] = {
+		can_rotate = 0,
+		name = "녹색 분재",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 4,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "yezishudhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/yezishudh",
+		canputon = 0,
+		discount = 0,
+		id = 49102,
+		comfortable = 0,
+		describe = "갑자기 코코넛이 먹고 싶은걸",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49103] = {
+		can_rotate = 0,
+		name = "로열풍 티 테이블",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "zhuozi2dhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/zhuozi2dh",
+		canputon = 1,
+		discount = 0,
+		id = 49103,
+		comfortable = 0,
+		describe = "손님 접대용 티 테이블. 우아한 느낌이 드는 걸?",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			2
+		},
+		offset = {
+			0,
+			12.99
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				1
+			},
+			{
+				4,
+				2
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49104] = {
+		advice = 0,
+		name = "손님용 긴 소파",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "donghuaBD/yizi2dh",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "yizi2dhicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 49104,
+		comfortable = 0,
+		describe = "누워서 쉴 수 있어 보이는걸~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					75.8,
+					34.6
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-9.4,
+					-11.1
+				},
+				{
+					1,
+					1
+				},
+				"donghuaBD/yizi2dh_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49105] = {
+		advice = 0,
+		name = "손님용 작은 소파",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "donghuaBD/yizi3dh",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "yizi3dhicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 49105,
+		comfortable = 0,
+		describe = "쉽게 일어서지 못하는 매력이 있어~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-23.9,
+					12
+				},
+				{
+					-1,
+					1
+				},
+				"donghuaBD/yizi3dh_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49106] = {
+		can_rotate = 0,
+		name = "피아노 의자",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "dengzidhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/dengzidh",
+		canputon = 0,
+		discount = 0,
+		id = 49106,
+		comfortable = 0,
+		describe = "세레나데 한곡 어때?",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49107] = {
+		can_rotate = 0,
+		name = "피아노 악단쥬",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "yanzoudhicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 49107,
+		comfortable = 0,
+		describe = "세레나데 한곡 어때?",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yuedui",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"yueduiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[49108] = {
+		can_rotate = 0,
+		name = "심플한 신발장",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "xieguidhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/xieguidh",
+		canputon = 0,
+		discount = 0,
+		id = 49108,
+		comfortable = 0,
+		describe = "각종 신발이 놓인 신발장",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49109] = {
+		can_rotate = 0,
+		name = "진열장",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 4,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "guitaidhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/guitaidh",
+		canputon = 0,
+		discount = 0,
+		id = 49109,
+		comfortable = 0,
+		describe = "실내에 꽃향기를 더하는 예쁜 카운터",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49110] = {
+		can_rotate = 0,
+		name = "하우스키퍼쥬",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "guanjiadhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/guanjiadh",
+		canputon = 0,
+		discount = 0,
+		id = 49110,
+		comfortable = 0,
+		describe = "오늘의 점심……쥬!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49111] = {
+		can_rotate = 0,
+		name = "메이드쥬",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "nvpudhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/nvpudh",
+		canputon = 0,
+		discount = 0,
+		id = 49111,
+		comfortable = 0,
+		describe = "집안일은 모두 맡겨다라……쥬!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49112] = {
+		advice = 0,
+		name = "실내 골프",
+		count = 1,
+		type = 2,
+		dir = 0,
+		gain_by = "",
+		is_get_time_note = 0,
+		belong = 1,
+		can_rotate = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "gaoerfudhicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		picture = "",
+		canputon = 0,
+		discount = 0,
+		id = 49112,
+		comfortable = 0,
+		describe = "다음 샷은 반드시 홀아웃……쥬!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			9,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"golf",
+				"normal"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49113] = {
+		can_rotate = 0,
+		name = "원예쥬",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "yuanyidhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/yuanyidh",
+		canputon = 0,
+		discount = 0,
+		id = 49113,
+		comfortable = 0,
+		describe = "음… 어떤 모양을 해야 할까…쥬?",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49114] = {
+		can_rotate = 0,
+		name = "진열장 세트A",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "guizi2dhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/guizi2dh",
+		canputon = 0,
+		discount = 0,
+		id = 49114,
+		comfortable = 0,
+		describe = "액자와 스탠드 등이 장식된 캐비닛",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49115] = {
+		can_rotate = 0,
+		name = "진열장 세트B",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "guizi3dhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/guizi3dh",
+		canputon = 0,
+		discount = 0,
+		id = 49115,
+		comfortable = 0,
+		describe = "접시와 꽃 등이 장식된 캐비닛",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49116] = {
+		can_rotate = 0,
+		name = "지휘관의 사무용 데스크",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "zhuodhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/zhuodh",
+		canputon = 0,
+		discount = 0,
+		id = 49116,
+		comfortable = 0,
+		describe = "검토해야 할 서류가…… 아직도 이만큼!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49117] = {
+		advice = 0,
+		name = "지휘관의 사무용 의자",
+		count = 3,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "donghuaBD/yizidh",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "yizidhicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 49117,
+		comfortable = 0,
+		describe = "바른 자세로 앉아야 오래 일할 수 있다!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					19.1,
+					15.8
+				},
+				{
+					1,
+					1
+				},
+				"donghuaBD/yizidh_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49118] = {
+		can_rotate = 0,
+		name = "우아한 스탠드",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "taidengdhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/taidengdh",
+		canputon = 0,
+		discount = 0,
+		id = 49118,
+		comfortable = 0,
+		describe = "당신의 잔업을 함께 해주는 따뜻한 불빛",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49119] = {
+		can_rotate = 0,
+		name = "세련된 애프터눈 티",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "zhuo2dhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/zhuo2dh",
+		canputon = 0,
+		discount = 0,
+		id = 49119,
+		comfortable = 0,
+		describe = "소소한 애프터눈 티파티~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49120] = {
+		can_rotate = 0,
+		name = "박사 책장",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "shuguidhicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/shuguidh",
+		canputon = 0,
+		discount = 0,
+		id = 49120,
+		comfortable = 0,
+		describe = "음… 필요한 자료는 아마도… 여기?",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49121] = {
+		can_rotate = 0,
+		name = "벽람의 문장",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "ditandhicon",
+		deblocking = 1,
+		level = 2,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/ditandh",
+		canputon = 0,
+		discount = 0,
+		id = 49121,
+		comfortable = 0,
+		describe = "진영 로고가 새겨진 원형 카페트",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49122] = {
+		can_rotate = 0,
+		name = "지휘실 카페트",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "ditan3dhicon",
+		deblocking = 1,
+		level = 2,
+		tag = 1,
+		rarity = 4,
+		picture = "donghuaBD/ditan3dh",
+		canputon = 0,
+		discount = 0,
+		id = 49122,
+		comfortable = 0,
+		describe = "심플하지만 고급진 카페트~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			18,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49301] = {
+		can_rotate = 0,
+		name = "펀칭 창문",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 3,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "chuangdhicon",
+		deblocking = 1,
+		level = 2,
+		tag = 5,
+		rarity = 4,
+		picture = "donghuaBD/chuangdh",
+		canputon = 0,
+		discount = 0,
+		id = 49301,
+		comfortable = 0,
+		describe = "햇, 햇살이 너무 눈부셔… 벌써 아침인가…",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49302] = {
+		can_rotate = 0,
+		name = "벽걸이 양초",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 3,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "lazhudhicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 4,
+		picture = "donghuaBD/lazhudh",
+		canputon = 0,
+		discount = 0,
+		id = 49302,
+		comfortable = 0,
+		describe = "고심 끝에 선택한 빈티지 풍의 벽걸이 양초~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49303] = {
+		can_rotate = 0,
+		name = "세계지도",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "ditudhicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 4,
+		picture = "donghuaBD/ditudh",
+		canputon = 0,
+		discount = 0,
+		id = 49303,
+		comfortable = 0,
+		describe = "앉아서 짠 책략으로 천리의 승리를~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49304] = {
+		can_rotate = 0,
+		name = "지휘실 괘종시계",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "zhongdhicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 4,
+		picture = "donghuaBD/zhongdh",
+		canputon = 0,
+		discount = 0,
+		id = 49304,
+		comfortable = 0,
+		describe = "12시의 종이 울려도 일이 끝나지 않았다면 끝까지 해야한다구",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[49305] = {
+		can_rotate = 0,
+		name = "지휘실 입구",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "mendhicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 4,
+		picture = "donghuaBD/mendh",
+		canputon = 0,
+		discount = 0,
+		id = 49305,
+		comfortable = 0,
+		describe = "오늘의 일을 시작하자~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 49,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -81376,6 +83579,7 @@ pg.furniture_data_template = {
 		100005,
 		100006,
 		100007,
+		100008,
 		1001,
 		1002,
 		1101,
@@ -82521,7 +84725,36 @@ pg.furniture_data_template = {
 		48203,
 		48301,
 		48302,
-		48303
+		48303,
+		49001,
+		49002,
+		49101,
+		49102,
+		49103,
+		49104,
+		49105,
+		49106,
+		49107,
+		49108,
+		49109,
+		49110,
+		49111,
+		49112,
+		49113,
+		49114,
+		49115,
+		49116,
+		49117,
+		49118,
+		49119,
+		49120,
+		49121,
+		49122,
+		49301,
+		49302,
+		49303,
+		49304,
+		49305
 	}
 }
 

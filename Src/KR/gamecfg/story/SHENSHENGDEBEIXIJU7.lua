@@ -76,7 +76,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "로열의 아가씨는 아직 상황 파학이 되지 않은 모양이네요——",
+			say = "로열의 아가씨는 아직 상황 파악이 되지 않은 모양이네요——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

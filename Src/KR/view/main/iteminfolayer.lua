@@ -51,7 +51,7 @@ end
 
 function slot0.setItemInfo(slot0, slot1, slot2)
 	slot3 = slot2:Find("icon_bg/stars")
-	slot4 = slot2:Find("display_panel/scroll/desc")
+	slot4 = slot2:Find("display_panel/scroll/desc") or slot2:Find("display_panel/desc")
 	slot5 = slot2:Find("display_panel/name_container/name")
 	slot6 = slot2:Find("display_panel/name_container/shiptype"):GetComponent(typeof(Image))
 	slot7 = slot2:Find("icon_bg/count")

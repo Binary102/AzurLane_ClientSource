@@ -11,7 +11,11 @@ function slot0.OnInit(slot0)
 	slot0.webBtn = slot0:findTF("web")
 
 	onButton(slot0, slot0.webBtn, function ()
-		slot0:emit(VoteMediator.ON_WEB)
+		if slot0.phase == VoteGroup.DISPLAY_STAGE then
+			Application.OpenURL(pg.gameset.vote_web_url.description)
+		else
+			slot0:emit(VoteMediator.ON_WEB)
+		end
 	end, SFX_PANEL)
 	setActive(slot0._tf, true)
 end
@@ -26,7 +30,7 @@ function slot0.Update(slot0, slot1)
 		if slot0 == UIItemList.EventUpdate then
 			setText(slot2:Find("number"), slot1 + 1)
 			setText(slot2:Find("name"), shortenString(slot0[slot1 + 1].getShipName(slot3), 6))
-			setText(slot2:Find("Text"), (slot1:isWeb() and slot3:getNetVotes()) or slot3:GetGameVotes())
+			setText(slot2:Find("Text"), slot1:GetVotes(slot0[slot1 + 1]))
 		end
 	end)
 	slot0.uilist:align(#slot1:getList())

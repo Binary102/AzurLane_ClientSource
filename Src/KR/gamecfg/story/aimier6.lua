@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "嗯~그렇네, 그럼 잠깐 산책이라도 해볼까. 우선 저기부터~",
+			say = "그렇네, 그럼 잠깐 산책이라도 해볼까. 우선 저기부터~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

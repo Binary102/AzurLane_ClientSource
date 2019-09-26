@@ -797,16 +797,24 @@ pg.voice_actor_CN = {
 		code = 199
 	},
 	{
-		actor_name = "长谷川里桃",
+		actor_name = "Rimo Hasegawa",
 		code = 200
 	},
 	{
-		actor_name = "清水彩香",
+		actor_name = "Ayaka Shimizu",
 		code = 201
 	},
 	{
-		actor_name = "立花理香 ",
+		actor_name = "Rika Tachibana",
 		code = 202
+	},
+	{
+		actor_name = "Sayumi Watabe",
+		code = 203
+	},
+	{
+		actor_name = "Sayaka Kaneko",
+		code = 204
 	}
 }
 

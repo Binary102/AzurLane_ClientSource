@@ -552,22 +552,6 @@ return {
 			}
 		},
 		{
-			actor = 900198,
-			side = 2,
-			bgName = "bg_story_italy",
-			nameColor = "#ff5c5c",
-			dir = 1,
-			say = "타란토 항 결전에서 일러스트리어스는 아마 사정을 봐준 것 같습니다.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",

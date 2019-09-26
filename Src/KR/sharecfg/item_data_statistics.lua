@@ -7410,6 +7410,53 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[40906] = {
+		display = "패키지를 구매하면 특정 범위 내의 랜덤 스킨*1, 다이아*2019, 성정 유닛*50, 성정 큐브*20, 고속건조재*10, 가구 코인*100를 얻을 수 있다냥! ",
+		rarity = 4,
+		type = 5,
+		name = "2019 가을 스킨 패키지 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 40906,
+		icon = "Props/lihe1",
+		display_icon = {
+			{
+				2,
+				69906,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[41201] = {
 		display = "범용형 부린에게 받은 밸런타인 데이 선물",
 		rarity = 8,
@@ -12149,7 +12196,7 @@ pg.item_data_statistics = {
 		display = "스페셜 프로젝트 1&2 기 함선의 강화 유닛(SSR) 중 하나를 선택하여 획득할 수 있습니다.",
 		rarity = 4,
 		type = 13,
-		name = "강화 유닛 - 제2기",
+		name = "지향형 강화 유닛 - 제2기",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12312,7 +12359,7 @@ pg.item_data_statistics = {
 		display = "스페셜 프로젝트 함선 「아즈마」, 「프리드리히 데어 그로세」의 강화 유닛을 선택하여 획득할 수 있습니다.",
 		rarity = 5,
 		type = 13,
-		name = "상급 지향형 강화 유닛 - 제2기",
+		name = "상급 지향형 지향형 강화 유닛 - 제2기",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12393,10 +12440,10 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "현재 굉장히 유행하고 있는 축제 음식(?)이라고 한다.\n<color=#92fc63>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
+		display = "단맛? 매운맛? 취향은 사람마다 제각각... \n<color=#92fc63>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
 		rarity = 2,
 		type = 3,
-		name = "축제 음식(?) ",
+		name = "해군 카레",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -66110,134 +66157,6 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
-	[59901] = {
-		display = "랜덤으로 '신년 테마' 스킨을 하나 획득한다냥! (만약 이미 보유 중인 스킨이 나오는 경우엔, 자동으로 상응하는 가격의 다이아로 변환된다냥)",
-		rarity = 4,
-		type = 98,
-		name = "랜덤 신년 스킨 ",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59901,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[59902] = {
-		display = [[
-1개의 연회복 테마 스킨을 랜덤으로 획득합니다. (만약 획득 스킨이 이미 보유 중인 경우엔, 자동적으로 스킨 구매 금액에 상응하는 다이아로 변경됩니다.)
-획득 가능한 스킨 및 확률은 아래와 같습니다：
-（<color=#92fc63>8.81%</color>）후부키 [뮤직 픽시]（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>8.81%</color>）클리블랜드 [비스티 나이트]（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>8.81%</color>）다이호 [금단의 연회]（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>10.51%</color>）퀸 엘리자베스 [여왕님의 무도회]；
-（<color=#92fc63>10.51%</color>）에이잭스 [파티 퀸]；
-（<color=#92fc63>10.51%</color>）아카시 [검은 고양이의 습격!]；
-（<color=#92fc63>10.51%</color>）아마존 [리틀 오케스트라]；
-（<color=#92fc63>10.51%</color>）사우스다코타 [피아노 리사이틀]；
-（<color=#92fc63>10.51%</color>）U-81 [정밀한 세레나데]；
-（<color=#92fc63>10.51%</color>）일러스트리어스 [빛나는 무도회]；]],
-		rarity = 4,
-		type = 98,
-		name = "랜덤 스킨",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59902,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[59903] = {
-		display = [[
-다음의 스킨을 랜덤으로 입수할 수 있습니다.(이미 보유 중인 스킨의 경우, 해당 스킨에 상응하는 가격의 다이아로 자동 변환 됩니다)
-각 스킨의 출현 확률 : 
-（<color=#92fc63>9%</color>）엘드릿지 [정월의 손길]（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>9%</color>）이부키 [영원한 꿈을 꾸는 청녀]（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>10%</color>）세인트루이스 [눈 내린 그날 밤, 잊지 못할 그 한 잔의 술]（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>12%</color>）이즈모 [구름을 벗어난 천 그루 벚꽃처럼]；
-（<color=#92fc63>12%</color>）프린스 오브 웨일즈 [로열 네이비의 풍류]；
-（<color=#92fc63>12%</color>）이소카제 [신년 대합전]；
-（<color=#92fc63>12%</color>）헬레나 [파랑새의 정월]；
-（<color=#92fc63>12%</color>）몬트필리어 [눈 내린 밤에 핀 꽃]；
-（<color=#92fc63>12%</color>）아시가라 [막간 휴식]； ]],
-		rarity = 4,
-		type = 98,
-		name = "랜덤 신년 스킨 ",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59903,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[59904] = {
-		display = [[
-다음의 스킨을 랜덤으로 입수할 수 있습니다.
-(입수한 스킨이 이미 소지하고 있는 스킨인 경우, 구매 시 소비한 만큼의 다이아로 변환되어 지급됩니다)
-스킨 출현 확률：
- (<color=#92fc63>8.5%</color>) 벨파스트 [채운의 장미] (<color=#92fc63>Live 2d</color>)；
- (<color=#92fc63>9%</color>) 라피：봄을 기다리는 토끼 (<color=#92fc63>Live 2d</color>)；
- (<color=#92fc63>9%</color>) 타이위안：봄을 깨우는 검은 거북이 (<color=#92fc63>Live 2d</color>)；
- (<color=#92fc63>10.5%</color>) 엔터프라이즈：블루밍 피어니；
- (<color=#92fc63>10.5%</color>) 센토：청량한 봄바람；
- (<color=#92fc63>10.5%</color>) 모나크：블랙 제라드；
- (<color=#92fc63>10.5%</color>) 유구레：해질 무렵에 피는 봄꽃；
- (<color=#92fc63>10.5%</color>) 아야나미：파도신년；
- (<color=#92fc63>10.5%</color>) 렉싱턴：봄꽃의 노래；
- (<color=#92fc63>10.5%</color>) 체이서：이스트 글림 견문록； ]],
-		rarity = 4,
-		type = 98,
-		name = "랜덤 스킨 (설날) ",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59904,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[59905] = {
-		display = [[
-아래의 스킨을 랜덤으로 획득할 수 있습니다. (이미 소지하고 있는 스킨을 입수하게 되는 경우, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환되어 제공됩니다.) 
-각 스킨의 출현 확률: 
-（<color=#92fc63>7.2%</color>）비스마르크: 메탈 블러드의 영광（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>7.8%</color>）아크 로열: 연회장의 수호자（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>9.5%</color>）킹 조지 5세: 온순한 장미；
-（<color=#92fc63>9.5%</color>）조지아: 사우스타운 펄；
-（<color=#92fc63>11%</color>）Z23 스킨: 연회의 우등생；
-（<color=#92fc63>11%</color>）헬레나: 지휘관과의 춤；
-（<color=#92fc63>11%</color>）호넷: Bubbly Anniversary!；
-（<color=#92fc63>11%</color>）요크타운: 우아와 취기가 어린 밤；
-（<color=#92fc63>11%</color>）아드미랄 그라프 슈피: 비밀 연회；
-（<color=#92fc63>11%</color>）시구레: 행운의 연회! ； ]],
-		rarity = 4,
-		type = 98,
-		name = "랜덤 스페셜 스킨 ",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 59905,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
 	[59906] = {
 		display = "사용하면, 지정된 SSR 함선과 기념 아이템「답례」를 획득할 수 있다.",
 		rarity = 4,
@@ -66632,6 +66551,163 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 60012,
 		icon = "Props/54003",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69901] = {
+		display = "랜덤으로 '신년 테마' 스킨을 하나 획득한다냥! (만약 이미 보유 중인 스킨이 나오는 경우엔, 자동으로 상응하는 가격의 다이아로 변환된다냥)",
+		rarity = 4,
+		type = 98,
+		name = "랜덤 신년 스킨 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69901,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69902] = {
+		display = [[
+1개의 연회복 테마 스킨을 랜덤으로 획득합니다. (만약 획득 스킨이 이미 보유 중인 경우엔, 자동적으로 스킨 구매 금액에 상응하는 다이아로 변경됩니다.)
+획득 가능한 스킨 및 확률은 아래와 같습니다：
+（<color=#92fc63>8.81%</color>）후부키 [뮤직 픽시]（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8.81%</color>）클리블랜드 [비스티 나이트]（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8.81%</color>）다이호 [금단의 연회]（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10.51%</color>）퀸 엘리자베스 [여왕님의 무도회]；
+（<color=#92fc63>10.51%</color>）에이잭스 [파티 퀸]；
+（<color=#92fc63>10.51%</color>）아카시 [검은 고양이의 습격!]；
+（<color=#92fc63>10.51%</color>）아마존 [리틀 오케스트라]；
+（<color=#92fc63>10.51%</color>）사우스다코타 [피아노 리사이틀]；
+（<color=#92fc63>10.51%</color>）U-81 [정밀한 세레나데]；
+（<color=#92fc63>10.51%</color>）일러스트리어스 [빛나는 무도회]；]],
+		rarity = 4,
+		type = 98,
+		name = "랜덤 스킨",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69902,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69903] = {
+		display = [[
+다음의 스킨을 랜덤으로 입수할 수 있습니다.(이미 보유 중인 스킨의 경우, 해당 스킨에 상응하는 가격의 다이아로 자동 변환 됩니다)
+각 스킨의 출현 확률 : 
+（<color=#92fc63>9%</color>）엘드릿지 [정월의 손길]（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9%</color>）이부키 [영원한 꿈을 꾸는 청녀]（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10%</color>）세인트루이스 [눈 내린 그날 밤, 잊지 못할 그 한 잔의 술]（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12%</color>）이즈모 [구름을 벗어난 천 그루 벚꽃처럼]；
+（<color=#92fc63>12%</color>）프린스 오브 웨일즈 [로열 네이비의 풍류]；
+（<color=#92fc63>12%</color>）이소카제 [신년 대합전]；
+（<color=#92fc63>12%</color>）헬레나 [파랑새의 정월]；
+（<color=#92fc63>12%</color>）몬트필리어 [눈 내린 밤에 핀 꽃]；
+（<color=#92fc63>12%</color>）아시가라 [막간 휴식]； ]],
+		rarity = 4,
+		type = 98,
+		name = "랜덤 신년 스킨 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69903,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69904] = {
+		display = [[
+다음의 스킨을 랜덤으로 입수할 수 있습니다.
+(입수한 스킨이 이미 소지하고 있는 스킨인 경우, 구매 시 소비한 만큼의 다이아로 변환되어 지급됩니다)
+스킨 출현 확률：
+ (<color=#92fc63>8.5%</color>) 벨파스트 [채운의 장미] (<color=#92fc63>Live 2d</color>)；
+ (<color=#92fc63>9%</color>) 라피：봄을 기다리는 토끼 (<color=#92fc63>Live 2d</color>)；
+ (<color=#92fc63>9%</color>) 타이위안：봄을 깨우는 검은 거북이 (<color=#92fc63>Live 2d</color>)；
+ (<color=#92fc63>10.5%</color>) 엔터프라이즈：블루밍 피어니；
+ (<color=#92fc63>10.5%</color>) 센토：청량한 봄바람；
+ (<color=#92fc63>10.5%</color>) 모나크：블랙 제라드；
+ (<color=#92fc63>10.5%</color>) 유구레：해질 무렵에 피는 봄꽃；
+ (<color=#92fc63>10.5%</color>) 아야나미：파도신년；
+ (<color=#92fc63>10.5%</color>) 렉싱턴：봄꽃의 노래；
+ (<color=#92fc63>10.5%</color>) 체이서：이스트 글림 견문록； ]],
+		rarity = 4,
+		type = 98,
+		name = "랜덤 스킨 (설날) ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69904,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69905] = {
+		display = [[
+아래의 스킨을 랜덤으로 획득할 수 있습니다. (이미 소지하고 있는 스킨을 입수하게 되는 경우, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환되어 제공됩니다.) 
+각 스킨의 출현 확률: 
+（<color=#92fc63>7.2%</color>）비스마르크: 메탈 블러드의 영광（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.8%</color>）아크 로열: 연회장의 수호자（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9.5%</color>）킹 조지 5세: 온순한 장미；
+（<color=#92fc63>9.5%</color>）조지아: 사우스타운 펄；
+（<color=#92fc63>11%</color>）Z23 스킨: 연회의 우등생；
+（<color=#92fc63>11%</color>）헬레나: 지휘관과의 춤；
+（<color=#92fc63>11%</color>）호넷: Bubbly Anniversary!；
+（<color=#92fc63>11%</color>）요크타운: 우아와 취기가 어린 밤；
+（<color=#92fc63>11%</color>）아드미랄 그라프 슈피: 비밀 연회；
+（<color=#92fc63>11%</color>）시구레: 행운의 연회! ； ]],
+		rarity = 4,
+		type = 98,
+		name = "랜덤 스페셜 스킨 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69905,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69906] = {
+		display = [[
+다음의 스킨을 랜덤으로 입수할 수 있습니다.(이미 보유 중인 스킨의 경우, 해당 스킨에 상응하는 가격의 다이아로 자동 변환 됩니다)
+각 스킨의 출현 확률 : 
+（<color=#92fc63>7.0%</color>）쇼카쿠 스킨 바람에 춤추는 학（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9.2%</color>）U-47 스킨 Eigenen Raum；
+（<color=#92fc63>9.2%</color>）프린츠 오이겐 스킨 Wein Kornblume；
+（<color=#92fc63>9.2%</color>）티르피츠 스킨 메탈 블러드의 아이스 윈드；
+（<color=#92fc63>9.2%</color>）이부키 스킨 바람에 날리는 꽃；
+（<color=#92fc63>9.2%</color>）시에틀 스킨 고저스 파티；
+（<color=#92fc63>9.2%</color>）유다치 스킨 고기 파티！；
+（<color=#92fc63>9.2%</color>）벨파스트 스킨 우아하고 고귀한 메이드；
+（<color=#92fc63>9.2%</color>）장 바르 스킨 자유의 BloodStone；
+（<color=#92fc63>9.2%</color>）론 스킨 다크레드 스마일；
+（<color=#92fc63>10.2%</color>）도이칠란트 스킨 마희의 나이트 파티； ]],
+		rarity = 4,
+		type = 98,
+		name = "랜덤 스페셜 스킨 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69906,
+		icon = "Props/clothIcon",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -67382,6 +67458,7 @@ pg.item_data_statistics = {
 		40903,
 		40904,
 		40905,
+		40906,
 		41201,
 		41202,
 		41203,
@@ -68584,11 +68661,6 @@ pg.item_data_statistics = {
 		59838,
 		59839,
 		59900,
-		59901,
-		59902,
-		59903,
-		59904,
-		59905,
 		59906,
 		59907,
 		59908,
@@ -68611,6 +68683,12 @@ pg.item_data_statistics = {
 		59925,
 		60011,
 		60012,
+		69901,
+		69902,
+		69903,
+		69904,
+		69905,
+		69906,
 		70000,
 		70001,
 		70002,

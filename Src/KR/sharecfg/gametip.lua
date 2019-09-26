@@ -2952,7 +2952,7 @@ pg.gametip = {
 		key = "levelScene_who_to_retreat"
 	},
 	levelScene_who_to_exchange = {
-		tip = "교전 함대를 변경 하시겠습니까?",
+		tip = "함대를 변경하시겠습니까? ",
 		key = "levelScene_who_to_exchange"
 	},
 	levelScene_time_out = {
@@ -8165,8 +8165,8 @@ B평가:<color=#92fc63>70</color>점
 				info = [[
 「용골편찬」이란
 
-1. 스페셜 프로젝트 함선의 강화 레벨이<color=#92fc63>Lv.30</color>이 된 경우, 해당 함선의
-「용골 편찬」이 가능해집니다.
+1. 스페셜 프로젝트 함선의 강화 레벨이<color=#92fc63>Lv.30</color>이 된 경우, 해당 
+함선의 「용골 편찬」이 가능해집니다.
 2. 「용골편찬」에선, <color=#92fc63>최대 레벨5</color>까지 강화할 수 있으며, 함선에 
 대응하는<color=#92fc63>강화 유닛</color>을 소비하여 진척도를 100％까지 진행시키면 
 그 레벨의 용골편찬이 완료됩니다.

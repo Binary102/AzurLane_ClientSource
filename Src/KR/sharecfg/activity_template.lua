@@ -171,6 +171,19 @@ pg.activity_template = {
 			}
 		}
 	},
+	[100001] = {
+		mark = 20190530,
+		title_res_tag = "",
+		time = "stop",
+		type = 13,
+		login_pop = 0,
+		config_id = 5461,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 100001,
+		config_data = {}
+	},
 	[20001] = {
 		mark = 20180316,
 		title_res_tag = "",
@@ -10202,6 +10215,135 @@ pg.activity_template = {
 			}
 		}
 	},
+	[20276] = {
+		mark = 20190926,
+		title_res_tag = "dachaolifu",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 21,
+		id = 20276,
+		config_data = {
+			{
+				14993,
+				14994
+			},
+			{
+				14995,
+				14996
+			},
+			{
+				14997,
+				14998
+			},
+			{
+				14999,
+				15000
+			},
+			{
+				15001,
+				15002
+			},
+			{
+				15003,
+				15004
+			},
+			{
+				15005,
+				15006
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/skin_dachaolifu"
+		},
+		config_client = {
+			story = {
+				{
+					"DACHAOLIFU1"
+				},
+				{},
+				{
+					"DACHAOLIFU2"
+				},
+				{},
+				{
+					"DACHAOLIFU3"
+				},
+				{},
+				{
+					"DACHAOLIFU4"
+				}
+			}
+		}
+	},
+	[20277] = {
+		mark = 20190926,
+		title_res_tag = "erzhounianhuizong",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 22,
+		config_client = "",
+		id = 20277,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_erzhounian"
+		}
+	},
 	[25000] = {
 		mark = 20188020,
 		title_res_tag = "",
@@ -10708,6 +10850,7 @@ pg.activity_template = {
 		7,
 		9,
 		21,
+		100001,
 		20001,
 		20002,
 		20003,
@@ -10974,6 +11117,8 @@ pg.activity_template = {
 		20273,
 		20274,
 		20275,
+		20276,
+		20277,
 		25000,
 		25001,
 		25002,

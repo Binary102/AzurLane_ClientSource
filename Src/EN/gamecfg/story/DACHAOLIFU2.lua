@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			actor = 403033,
 			nameColor = "#a9f548",
-			say = "Hehehe... I've been saving these all these drinks just for this occasion. Today, I can drink as much as I please.",
+			say = "Hehehe... I've been saving all these drinks just for this occasion. Today, I can drink as much as I please.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -985,6 +985,19 @@ pg.memory_group = {
 			933
 		}
 	},
+	[169] = {
+		title = "Crosswave ",
+		type = 2,
+		id = 169,
+		icon = "title_event",
+		memories = {
+			934,
+			935,
+			936,
+			937,
+			938
+		}
+	},
 	[501] = {
 		title = "{namecode:98}'s Commission",
 		type = 3,
@@ -1388,6 +1401,21 @@ pg.memory_group = {
 			605
 		}
 	},
+	[534] = {
+		title = "Together with Souryuu ",
+		type = 3,
+		id = 534,
+		icon = "title_chara_canglong",
+		memories = {
+			606,
+			607,
+			608,
+			609,
+			610,
+			611,
+			612
+		}
+	},
 	[535] = {
 		title = "The Timid Black Cat ",
 		type = 3,
@@ -1568,6 +1596,7 @@ pg.memory_group = {
 		165,
 		167,
 		168,
+		169,
 		501,
 		502,
 		503,
@@ -1594,6 +1623,7 @@ pg.memory_group = {
 		531,
 		532,
 		533,
+		534,
 		535,
 		536,
 		537,

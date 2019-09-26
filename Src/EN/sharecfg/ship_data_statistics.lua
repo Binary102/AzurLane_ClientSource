@@ -59999,6 +59999,518 @@ pg.ship_data_statistics = {
 			"Jersey Skill"
 		}
 	},
+	[201251] = {
+		name = "Jersey",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 201251,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Jersey",
+		skin_id = 201250,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			248,
+			14,
+			69,
+			29,
+			0,
+			74,
+			0,
+			71,
+			78,
+			43.2,
+			20,
+			52
+		},
+		attrs_growth = {
+			6040,
+			142,
+			680,
+			568,
+			0,
+			366,
+			0,
+			1050,
+			1158,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.35,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201252] = {
+		name = "Jersey",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 201252,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Jersey",
+		skin_id = 201250,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			308,
+			18,
+			86,
+			36,
+			0,
+			74,
+			0,
+			71,
+			78,
+			43.2,
+			20,
+			65
+		},
+		attrs_growth = {
+			6040,
+			142,
+			680,
+			568,
+			0,
+			366,
+			0,
+			1050,
+			1158,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.35,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201253] = {
+		name = "Jersey",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 201253,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Jersey",
+		skin_id = 201250,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			429,
+			25,
+			120,
+			50,
+			0,
+			74,
+			0,
+			71,
+			78,
+			43.2,
+			20,
+			90
+		},
+		attrs_growth = {
+			6040,
+			142,
+			680,
+			568,
+			0,
+			366,
+			0,
+			1050,
+			1158,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.35,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201254] = {
+		name = "Jersey",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 201254,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Jersey",
+		skin_id = 201250,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			610,
+			35,
+			171,
+			72,
+			0,
+			74,
+			0,
+			71,
+			78,
+			43.2,
+			20,
+			129
+		},
+		attrs_growth = {
+			6040,
+			142,
+			680,
+			568,
+			0,
+			366,
+			0,
+			1050,
+			1158,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			6030,
+			331,
+			1210,
+			392,
+			0,
+			872,
+			0,
+			-615,
+			-878,
+			0,
+			0,
+			448
+		},
+		grades = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.4,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[201261] = {
 		name = "Matchless",
 		type = 1,
@@ -91316,7 +91828,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yukikaze"
+		}
 	},
 	[301162] = {
 		name = "Yukikaze",
@@ -91444,7 +91958,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yukikaze"
+		}
 	},
 	[301163] = {
 		name = "Yukikaze",
@@ -91572,7 +92088,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yukikaze"
+		}
 	},
 	[301164] = {
 		name = "Yukikaze",
@@ -91700,7 +92218,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yukikaze"
+		}
 	},
 	[301171] = {
 		name = "Kagerou",
@@ -158721,7 +159241,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Qinglong",
+			"Anshan-Class"
+		}
 	},
 	[501012] = {
 		name = "An Shan",
@@ -158849,7 +159372,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Qinglong",
+			"Anshan-Class"
+		}
 	},
 	[501013] = {
 		name = "An Shan",
@@ -158977,7 +159503,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Qinglong",
+			"Anshan-Class"
+		}
 	},
 	[501014] = {
 		name = "An Shan",
@@ -159105,7 +159634,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Qinglong",
+			"Anshan-Class"
+		}
 	},
 	[501021] = {
 		name = "Fu Shun",
@@ -159233,7 +159765,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Zhuque",
+			"Anshan-Class"
+		}
 	},
 	[501022] = {
 		name = "Fu Shun",
@@ -159361,7 +159896,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Zhuque",
+			"Anshan-Class"
+		}
 	},
 	[501023] = {
 		name = "Fu Shun",
@@ -159489,7 +160027,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Zhuque",
+			"Anshan-Class"
+		}
 	},
 	[501024] = {
 		name = "Fu Shun",
@@ -159617,7 +160158,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Zhuque",
+			"Anshan-Class"
+		}
 	},
 	[501031] = {
 		name = "Chang Chun",
@@ -159745,7 +160289,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Baihu",
+			"Anshan-Class"
+		}
 	},
 	[501032] = {
 		name = "Chang Chun",
@@ -159873,7 +160420,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Baihu",
+			"Anshan-Class"
+		}
 	},
 	[501033] = {
 		name = "Chang Chun",
@@ -160001,7 +160551,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Baihu",
+			"Anshan-Class"
+		}
 	},
 	[501034] = {
 		name = "Chang Chun",
@@ -160129,7 +160682,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Baihu",
+			"Anshan-Class"
+		}
 	},
 	[501041] = {
 		name = "Tai Yuan",
@@ -160257,7 +160813,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Xuanwu",
+			"Anshan-Class"
+		}
 	},
 	[501042] = {
 		name = "Tai Yuan",
@@ -160385,7 +160944,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Xuanwu",
+			"Anshan-Class"
+		}
 	},
 	[501043] = {
 		name = "Tai Yuan",
@@ -160513,7 +161075,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Xuanwu",
+			"Anshan-Class"
+		}
 	},
 	[501044] = {
 		name = "Tai Yuan",
@@ -160641,7 +161206,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Xuanwu",
+			"Anshan-Class"
+		}
 	},
 	[502011] = {
 		name = "Yat Sen",
@@ -200538,6 +201106,10 @@ pg.ship_data_statistics = {
 		201242,
 		201243,
 		201244,
+		201251,
+		201252,
+		201253,
+		201254,
 		201261,
 		201262,
 		201263,

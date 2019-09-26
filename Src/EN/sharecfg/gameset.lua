@@ -660,6 +660,11 @@ pg.gameset = {
 		key = "reactivity_ticket_max",
 		key_value = 30
 	},
+	reactivity_ticket_daily = {
+		description = "",
+		key = "reactivity_ticket_daily",
+		key_value = 2
+	},
 	max_commander_bag = {
 		description = "",
 		key = "max_commander_bag",

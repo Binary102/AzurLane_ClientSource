@@ -13338,6 +13338,262 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5361] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5268,
+		type = 5,
+		name = "Be Careful What You Wish For ",
+		count_inherit = 0,
+		desc = "Acquire 3 \"Torpedo Tempura\" (will be automatically consumed.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "canglong",
+		award_choice = "",
+		level = 1,
+		next_task = "5362",
+		visibility = 1,
+		story_id = "CANGLONG1",
+		target_id_for_client = 50003,
+		id = 5361,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5362] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5269,
+		type = 5,
+		name = "Instruct Me, Souryuu! ",
+		count_inherit = 0,
+		desc = "Enhance any character 10 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "canglong",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5363",
+		visibility = 1,
+		story_id = "CANGLONG2",
+		target_id_for_client = 0,
+		id = 5362,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5363] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5270,
+		type = 5,
+		name = "What are Friends? ",
+		count_inherit = 0,
+		desc = "Sortie and obtain 20 victories with Souryuu in the fleet.",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "canglong",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5364",
+		visibility = 1,
+		story_id = "CANGLONG3",
+		target_id_for_client = 30703,
+		id = 5363,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "30703",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5364] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5271,
+		type = 5,
+		name = "Unnecessary Things...? ",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges with Souryuu in the fleet.",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "canglong",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5365",
+		visibility = 1,
+		story_id = "CANGLONG4",
+		target_id_for_client = 30703,
+		id = 5364,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "30703",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5365] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5272,
+		type = 5,
+		name = "Change (Pt. 1) ",
+		count_inherit = 0,
+		desc = "Reach 100 Affinity with Souryuu.",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "canglong",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5366",
+		visibility = 1,
+		story_id = "CANGLONG5",
+		target_id_for_client = 30703,
+		id = 5365,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "30703",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16022,
+				1
+			}
+		}
+	},
+	[5366] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5273,
+		type = 5,
+		name = "Change (Pt. 2) ",
+		count_inherit = 0,
+		desc = "Fully Limit Break Souryuu.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "canglong",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5367",
+		visibility = 1,
+		story_id = "CANGLONG6",
+		target_id_for_client = 307034,
+		id = 5366,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "307034",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18032,
+				1
+			}
+		}
+	},
+	[5367] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5274,
+		type = 5,
+		name = "Change (Pt. 3) ",
+		count_inherit = 0,
+		desc = "Get Souryuu to Level 100.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "canglong",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "CANGLONG7",
+		target_id_for_client = 30703,
+		id = 5367,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "30703",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18032,
+				2
+			}
+		}
+	},
 	[5371] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -53669,6 +53925,1465 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[15007] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91791,
+		type = 6,
+		name = "TV纪念填色累计耗油1",
+		count_inherit = 15008,
+		desc = "Total Oil Spent 500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15008",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15007,
+		target_num = 500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				140
+			},
+			{
+				2,
+				59931,
+				100
+			},
+			{
+				2,
+				59934,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15008] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91792,
+		type = 6,
+		name = "TV纪念填色累计耗油2",
+		count_inherit = 15009,
+		desc = "Total Oil Spent 1000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15009",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15008,
+		target_num = 1000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59936,
+				80
+			},
+			{
+				2,
+				59931,
+				100
+			},
+			{
+				2,
+				59935,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15009] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91793,
+		type = 6,
+		name = "TV纪念填色累计耗油3",
+		count_inherit = 15010,
+		desc = "Total Oil Spent 1500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15010",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15009,
+		target_num = 1500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				140
+			},
+			{
+				2,
+				59930,
+				60
+			},
+			{
+				2,
+				59934,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15010] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91794,
+		type = 6,
+		name = "TV纪念填色累计耗油4",
+		count_inherit = 15011,
+		desc = "Total Oil Spent 2000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15011",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15010,
+		target_num = 2000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59936,
+				80
+			},
+			{
+				2,
+				59931,
+				100
+			},
+			{
+				2,
+				59933,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15011] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91795,
+		type = 6,
+		name = "TV纪念填色累计耗油5",
+		count_inherit = 15012,
+		desc = "Total Oil Spent 2500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15012",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15011,
+		target_num = 2500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				140
+			},
+			{
+				2,
+				59930,
+				77
+			},
+			{
+				2,
+				59934,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15012] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91796,
+		type = 6,
+		name = "TV纪念填色累计耗油6",
+		count_inherit = 15013,
+		desc = "Total Oil Spent 3000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15013",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15012,
+		target_num = 3000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				140
+			},
+			{
+				2,
+				59937,
+				60
+			},
+			{
+				2,
+				59935,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15013] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91797,
+		type = 6,
+		name = "TV纪念填色累计耗油7",
+		count_inherit = 15014,
+		desc = "Total Oil Spent 4000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15014",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15013,
+		target_num = 4000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				140
+			},
+			{
+				2,
+				59931,
+				100
+			},
+			{
+				2,
+				59933,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15014] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91798,
+		type = 6,
+		name = "TV纪念填色累计耗油8",
+		count_inherit = 15015,
+		desc = "Total Oil Spent 5000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15015",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15014,
+		target_num = 5000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59936,
+				80
+			},
+			{
+				2,
+				59937,
+				50
+			},
+			{
+				2,
+				59934,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15015] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91799,
+		type = 6,
+		name = "TV纪念填色累计耗油9",
+		count_inherit = 15016,
+		desc = "Total Oil Spent 6000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15016",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15015,
+		target_num = 6000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				140
+			},
+			{
+				2,
+				59931,
+				100
+			},
+			{
+				2,
+				59933,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15016] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91800,
+		type = 6,
+		name = "TV纪念填色累计耗油10",
+		count_inherit = 15017,
+		desc = "Total Oil Spent 7000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15017",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15016,
+		target_num = 7000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				120
+			},
+			{
+				2,
+				59936,
+				92
+			},
+			{
+				2,
+				59934,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15017] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91801,
+		type = 6,
+		name = "TV纪念填色累计耗油11",
+		count_inherit = 15018,
+		desc = "Total Oil Spent 8000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15018",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15017,
+		target_num = 8000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				140
+			},
+			{
+				2,
+				59937,
+				50
+			},
+			{
+				2,
+				59934,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15018] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91802,
+		type = 6,
+		name = "TV纪念填色累计耗油12",
+		count_inherit = 15019,
+		desc = "Total Oil Spent 9000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15019",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15018,
+		target_num = 9000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				140
+			},
+			{
+				2,
+				59931,
+				100
+			},
+			{
+				2,
+				59933,
+				22
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15019] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91803,
+		type = 6,
+		name = "TV纪念填色累计耗油13",
+		count_inherit = 15020,
+		desc = "Total Oil Spent 10000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15020",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15019,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				140
+			},
+			{
+				2,
+				59931,
+				100
+			},
+			{
+				2,
+				59934,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15020] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91804,
+		type = 6,
+		name = "TV纪念填色累计耗油14",
+		count_inherit = 15021,
+		desc = "Total Oil Spent 11000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15021",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15020,
+		target_num = 11000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				100
+			},
+			{
+				2,
+				59937,
+				37
+			},
+			{
+				2,
+				59936,
+				56
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15021] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91805,
+		type = 6,
+		name = "TV纪念填色累计耗油15",
+		count_inherit = 15022,
+		desc = "Total Oil Spent 12000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15022",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15021,
+		target_num = 12000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				100
+			},
+			{
+				2,
+				59931,
+				100
+			},
+			{
+				2,
+				59935,
+				59
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15022] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91806,
+		type = 6,
+		name = "TV纪念填色累计耗油16",
+		count_inherit = 15023,
+		desc = "Total Oil Spent 13000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15023",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15022,
+		target_num = 13000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				90
+			},
+			{
+				2,
+				59931,
+				100
+			},
+			{
+				2,
+				59934,
+				71
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15023] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91807,
+		type = 6,
+		name = "TV纪念填色累计耗油17",
+		count_inherit = 15024,
+		desc = "Total Oil Spent 14000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15024",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15023,
+		target_num = 14000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				90
+			},
+			{
+				2,
+				59931,
+				71
+			},
+			{
+				2,
+				59936,
+				20
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15024] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91808,
+		type = 6,
+		name = "TV纪念填色累计耗油18",
+		count_inherit = 0,
+		desc = "Total Oil Spent 15000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15024,
+		target_num = 15000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				103
+			},
+			{
+				2,
+				59937,
+				12
+			},
+			{
+				2,
+				59936,
+				23
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15025] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91774,
+		type = 36,
+		name = "骏河世界BOSS每日任务",
+		count_inherit = 0,
+		desc = "Play 5 stages in the \"Crosswave\" event. ",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15025,
+		target_num = 5,
+		fix_task = 0,
+		target_id = {
+			1260001,
+			1260002,
+			1260003,
+			1260004
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59141,
+				300
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE"
+		}
+	},
+	[15026] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91816,
+		type = 36,
+		name = "骏河世界BOSS挑战券任务1",
+		count_inherit = 0,
+		desc = "Log in to the game.",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15026,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2003,
+				1
+			}
+		}
+	},
+	[15027] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91817,
+		type = 36,
+		name = "骏河世界BOSS挑战券任务2",
+		count_inherit = 0,
+		desc = "Sortie and clear 1 non-event \nHard Mode map",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15027,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2003,
+				1
+			}
+		}
+	},
+	[15028] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91818,
+		type = 36,
+		name = "骏河世界BOSS挑战券任务3",
+		count_inherit = 0,
+		desc = "Sortie and clear 3 non-event \nHard Mode map",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15028,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2003,
+				1
+			}
+		}
+	},
+	[15029] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91819,
+		type = 36,
+		name = "骏河世界BOSS挑战券任务4",
+		count_inherit = 0,
+		desc = "Sortie and clear 5 stages of any difficulty in the \"Crosswave\" event.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15029,
+		target_num = 5,
+		fix_task = 0,
+		target_id = {
+			1260001,
+			1260002,
+			1260003,
+			1260004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2003,
+				1
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE"
+		}
+	},
+	[15030] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91820,
+		type = 36,
+		name = "骏河世界BOSS挑战券任务5",
+		count_inherit = 0,
+		desc = "Sortie and clear 10 stages of any difficulty in the \"Crosswave\" event.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15030,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1260001,
+			1260002,
+			1260003,
+			1260004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2003,
+				1
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE"
+		}
+	},
+	[15031] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91821,
+		type = 26,
+		name = "牙买加皮肤任务1",
+		count_inherit = 0,
+		desc = "Defeat 100 enemies. ",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15031,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15032] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91822,
+		type = 26,
+		name = "牙买加皮肤任务2",
+		count_inherit = 0,
+		desc = "Defeat 150 enemies. ",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15032,
+		target_num = 150,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				5
+			}
+		}
+	},
+	[15033] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91823,
+		type = 26,
+		name = "牙买加皮肤任务3",
+		count_inherit = 0,
+		desc = "Defeat 150 enemies. ",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15033,
+		target_num = 150,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				300
+			}
+		}
+	},
+	[15034] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91824,
+		type = 26,
+		name = "牙买加皮肤任务4",
+		count_inherit = 0,
+		desc = "Defeat 200 enemies. ",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15034,
+		target_num = 200,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				5
+			}
+		}
+	},
+	[15035] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91825,
+		type = 26,
+		name = "牙买加皮肤任务5",
+		count_inherit = 0,
+		desc = "Defeat 250 enemies. ",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15035,
+		target_num = 250,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				500
+			}
+		}
+	},
+	[15036] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91826,
+		type = 26,
+		name = "牙买加皮肤任务6",
+		count_inherit = 0,
+		desc = "Defeat 300 enemies. ",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15036,
+		target_num = 300,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				10
+			}
+		}
+	},
+	[15037] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91827,
+		type = 26,
+		name = "牙买加皮肤任务7",
+		count_inherit = 0,
+		desc = "Defeat 300 enemies. ",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15037,
+		target_num = 300,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				7,
+				202172,
+				1
+			}
+		}
+	},
+	[15038] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91845,
+		type = 36,
+		name = "骏河世界BOSS投票任务1",
+		count_inherit = 0,
+		desc = "Sortie and clear 1 stages of any difficulty in the \"Crosswave\" event. ",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15038,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1260001,
+			1260002,
+			1260003,
+			1260004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1001,
+				100
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE"
+		}
+	},
+	[15039] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91846,
+		type = 36,
+		name = "骏河世界BOSS投票任务2",
+		count_inherit = 0,
+		desc = "Sortie and clear 5 stages of any difficulty in the \"Crosswave\" event. ",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15039,
+		target_num = 5,
+		fix_task = 0,
+		target_id = {
+			1260001,
+			1260002,
+			1260003,
+			1260004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1001,
+				200
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE"
+		}
+	},
+	[15040] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91847,
+		type = 36,
+		name = "骏河世界BOSS投票任务3",
+		count_inherit = 0,
+		desc = "Sortie and clear 10 stages of any difficulty in the \"Crosswave\" event. ",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15040,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1260001,
+			1260002,
+			1260003,
+			1260004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1001,
+				400
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE"
+		}
+	},
+	[15041] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91848,
+		type = 36,
+		name = "骏河世界BOSS投票任务4",
+		count_inherit = 0,
+		desc = "Sortie and clear 15 stages of any difficulty in the \"Crosswave\" event. ",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15041,
+		target_num = 15,
+		fix_task = 0,
+		target_id = {
+			1260001,
+			1260002,
+			1260003,
+			1260004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1001,
+				900
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE"
+		}
+	},
 	[31013] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -58856,6 +60571,13 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		5355,
 		5356,
 		5357,
+		5361,
+		5362,
+		5363,
+		5364,
+		5365,
+		5366,
+		5367,
 		5371,
 		5372,
 		5373,
@@ -59984,6 +61706,41 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		15004,
 		15005,
 		15006,
+		15007,
+		15008,
+		15009,
+		15010,
+		15011,
+		15012,
+		15013,
+		15014,
+		15015,
+		15016,
+		15017,
+		15018,
+		15019,
+		15020,
+		15021,
+		15022,
+		15023,
+		15024,
+		15025,
+		15026,
+		15027,
+		15028,
+		15029,
+		15030,
+		15031,
+		15032,
+		15033,
+		15034,
+		15035,
+		15036,
+		15037,
+		15038,
+		15039,
+		15040,
+		15041,
 		31013,
 		31014,
 		31015,

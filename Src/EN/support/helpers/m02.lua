@@ -2528,30 +2528,41 @@ end
 function getActivityTask(slot0, slot1)
 	slot2 = getProxy(TaskProxy)
 	slot4 = pg.TimeMgr.GetInstance()
-	slot6, slot7, slot8, slot9 = nil
+	slot6, slot7, slot8 = nil
 
-	for slot13 = math.max(slot0.data3, 1), math.min(slot5, #slot0:getConfig("config_data")), 1 do
-		for slot18, slot19 in ipairs(slot14) do
-			slot9 = slot2:getFinishTaskById(slot19)
+	for slot12 = math.max(slot0.data3, 1), math.min(slot5, #slot0:getConfig("config_data")), 1 do
+		for slot17, slot18 in ipairs(slot13) do
+			if slot2:getTaskById(slot18) then
+				return slot6.id, slot6
+			end
 
-			if slot2:getTaskById(slot19) then
-				return slot19, slot8
-			else
-				if slot9 then
-					slot6 = slot19
-					slot7 = slot9
+			if slot7 then
+				if slot2:getFinishTaskById(slot18) then
+					slot7 = slot8
 				else
-					if slot1 or not slot6 then
-						return slot19
+					if slot1 then
+						return slot18
 					else
-						return slot6, slot7
+						return slot7.id, slot7
 					end
+				end
+			else
+				slot7 = slot2:getFinishTaskById(slot18)
+
+				if not slot8 then
+					slot8 = slot18
 				end
 			end
 		end
 	end
 
-	return slot6, slot7
+	if slot7 then
+		return slot7.id, slot7
+	else
+		return slot8
+	end
+
+	return
 end
 
 function setImageFromImage(slot0, slot1, slot2)

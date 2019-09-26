@@ -999,22 +999,6 @@ function slot0.OnExitChapter(slot0, slot1)
 			slot0()
 		end,
 		function (slot0)
-			if slot0:getDefeatStory(slot0.defeatCount) and type(slot2) == "number" and not pg.StoryMgr.GetInstance():IsPlayed(slot2) then
-				pg.m02:sendNotification(GAME.STORY_UPDATE, {
-					storyId = slot2
-				})
-				slot1.viewComponent:emit(LevelMediator2.ON_PERFORM_COMBAT, slot2, slot0)
-
-				return
-			elseif slot2 and type(slot2) == "string" then
-				pg.StoryMgr.GetInstance():Play(slot2, slot0)
-
-				return
-			end
-
-			slot0()
-		end,
-		function (slot0)
 			if Map.IsType(slot0:getConfig("map"), Map.SKIRMISH) then
 				slot1 = slot0.id
 

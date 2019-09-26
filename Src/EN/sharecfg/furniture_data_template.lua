@@ -2419,114 +2419,6 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
-	[100006] = {
-		can_rotate = 0,
-		name = "闪亮的舞台秀",
-		gain_by = "",
-		type = 7,
-		dir = 0,
-		picture = "",
-		is_get_time_note = 0,
-		count = 1,
-		advice = 0,
-		effect = "",
-		dorm_icon_price = 40,
-		not_for_sale = 1,
-		icon = "qiandaowutaiicon",
-		deblocking = 1,
-		level = 1,
-		rarity = 4,
-		tag = 6,
-		belong = 1,
-		canputon = 0,
-		discount = 0,
-		id = 100006,
-		comfortable = 0,
-		describe = "就是今天，你也能成为展台上最闪亮的那颗星星！",
-		dorm_id = 0,
-		gem_price = 120,
-		themeId = 0,
-		spine_extra = "",
-		time = "always",
-		spine_action_replace = "",
-		new = 1,
-		discount_time = "",
-		size = {
-			10,
-			8
-		},
-		offset = {},
-		canputonGrid = {},
-		can_trigger = {
-			0
-		},
-		spine = {
-			{
-				"xingguangwutaiB",
-				"normal"
-			},
-			{
-				"xingguangwutaiT"
-			},
-			{
-				{
-					0,
-					0
-				},
-				{
-					{
-						"walk1",
-						0,
-						"walk"
-					},
-					{
-						"dance",
-						0,
-						"stand2"
-					},
-					{
-						"walk2",
-						0,
-						"walk"
-					},
-					{
-						"motou",
-						0,
-						"dance"
-					},
-					{
-						"dance2",
-						0,
-						"dance"
-					},
-					{
-						"normal",
-						0,
-						"walk"
-					}
-				},
-				{},
-				{
-					0
-				}
-			},
-			{},
-			{
-				0,
-				0
-			},
-			{
-				1,
-				1
-			}
-		},
-		animator = {
-			{
-				"xingguangwutaiCharControl"
-			}
-		},
-		interAction_group = {}
-	},
 	[1001] = {
 		can_rotate = 0,
 		name = "Broken Floor",
@@ -67373,7 +67265,7 @@ pg.furniture_data_template = {
 		dir = 0,
 		belong = 1,
 		is_get_time_note = 0,
-		count = 3,
+		count = 1,
 		advice = 0,
 		effect = "",
 		dorm_icon_price = 40,
@@ -67436,7 +67328,7 @@ pg.furniture_data_template = {
 	[49117] = {
 		advice = 0,
 		name = "New Office Chair",
-		count = 1,
+		count = 3,
 		type = 2,
 		dir = 0,
 		effect = "",
@@ -68207,6 +68099,1840 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[50001] = {
+		can_rotate = 0,
+		name = "Eagle Union Drylands",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "dibanjcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 4,
+		rarity = 4,
+		picture = "jiche/dibanjc",
+		canputon = 0,
+		discount = 0,
+		id = 50001,
+		comfortable = 4,
+		describe = "A scenic place, although the sand is coarse, rough, irritating, and gets everywhere.",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50002] = {
+		can_rotate = 0,
+		name = "Eagle Union Countryside",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "qiangbijcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 3,
+		rarity = 4,
+		picture = "jiche/qiangbijc",
+		canputon = 0,
+		discount = 0,
+		id = 50002,
+		comfortable = 4,
+		describe = "For when you want your room to feel a bit more barren.",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50101] = {
+		can_rotate = 1,
+		name = "Manjuu Service Area",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "cantingjcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "jiche/cantingjc",
+		canputon = 0,
+		discount = 0,
+		id = 50101,
+		comfortable = 4,
+		describe = "I heard they don't serve chicken at this establishment.",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			10,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50102] = {
+		can_rotate = 0,
+		name = "Tumbleweed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "caojcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "jiche/caojc",
+		canputon = 0,
+		discount = 0,
+		id = 50102,
+		comfortable = 2,
+		describe = "Always ready to roll by when your joke doesn't land.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50103] = {
+		can_rotate = 0,
+		name = "Gas Pump",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jiayoujcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "jiche/jiayoujc",
+		canputon = 0,
+		discount = 0,
+		id = 50103,
+		comfortable = 2,
+		describe = "There is an old proverb that goes, \"to step on the gas, you must first pump the gas.\"",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50104] = {
+		can_rotate = 0,
+		name = "Vending Machine",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "jiqijcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "jiche/jiqijc",
+		canputon = 0,
+		discount = 0,
+		id = 50104,
+		comfortable = 3,
+		describe = "A bit top-heavy, so don't kick it. Wouldn't want your post-mortem to read \"death by vending machine.\"",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50105] = {
+		can_rotate = 1,
+		name = "Railroad Crossing",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "lanjiejcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "jiche/lanjiejc",
+		canputon = 0,
+		discount = 0,
+		id = 50105,
+		comfortable = 2,
+		describe = "Try to cross when the barrier is down and the train will cross you.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50106] = {
+		can_rotate = 0,
+		name = "Eagle Union Road",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "lujcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "jiche/lujc",
+		canputon = 0,
+		discount = 0,
+		id = 50106,
+		comfortable = 3,
+		describe = "These roads take you home to the place you belong.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50107] = {
+		can_rotate = 1,
+		name = "Speed Limit Sign",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "lupai1jcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 1,
+		picture = "jiche/lupai1jc",
+		canputon = 0,
+		discount = 0,
+		id = 50107,
+		comfortable = 1,
+		describe = "To stop people from starting arguments about it, no unit of speed has been specified.",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50108] = {
+		can_rotate = 1,
+		name = "Route Sign",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "lupai2jcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 1,
+		picture = "jiche/lupai2jc",
+		canputon = 0,
+		discount = 0,
+		id = 50108,
+		comfortable = 1,
+		describe = "Follow this sign for the one and only way to get your kicks.",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50109] = {
+		can_rotate = 1,
+		name = "Directional Sign",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "lupai3jcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 1,
+		picture = "jiche/lupai3jc",
+		canputon = 0,
+		discount = 0,
+		id = 50109,
+		comfortable = 1,
+		describe = "As vague as it gets, but still technically correct.",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50110] = {
+		can_rotate = 1,
+		name = "A Number of Signs",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "lupai4jcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 1,
+		picture = "jiche/lupai4jc",
+		canputon = 0,
+		discount = 0,
+		id = 50110,
+		comfortable = 1,
+		describe = "Feeling lost? These won't help you much, then.",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50111] = {
+		can_rotate = 1,
+		name = "Manjuu Road Worker",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "luzhangjcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "jiche/luzhangjc",
+		canputon = 0,
+		discount = 0,
+		id = 50111,
+		comfortable = 3,
+		describe = "These little guys really need to unionize...",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50112] = {
+		can_rotate = 1,
+		name = "Parking Sign",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "pjcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 1,
+		picture = "jiche/pjc",
+		canputon = 0,
+		discount = 0,
+		id = 50112,
+		comfortable = 1,
+		describe = "Some say the sign bears a strong resemblance to a famous idol manager. Others don't see it.",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50113] = {
+		can_rotate = 0,
+		name = "Pile of Rocks",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 3,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "shijcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "jiche/shijc",
+		canputon = 0,
+		discount = 0,
+		id = 50113,
+		comfortable = 2,
+		describe = "\"Rock and stone, brutha!\"",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50114] = {
+		can_rotate = 0,
+		name = "Withered Tree",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "shu1jcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "jiche/shu1jc",
+		canputon = 0,
+		discount = 0,
+		id = 50114,
+		comfortable = 2,
+		describe = "Fall is coming.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50115] = {
+		can_rotate = 0,
+		name = "Spry Tree",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "shu2jcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "jiche/shu2jc",
+		canputon = 0,
+		discount = 0,
+		id = 50115,
+		comfortable = 2,
+		describe = "Or maybe this tree just hogged all the water to itself.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50116] = {
+		can_rotate = 0,
+		name = "Cactus",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "shu3jcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "jiche/shu3jc",
+		canputon = 0,
+		discount = 0,
+		id = 50116,
+		comfortable = 2,
+		describe = "Don't be a stranger, it just wants a hug.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50117] = {
+		advice = 0,
+		name = "Drylands Pond",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "jiche/shuichijc",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "shuichijcicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 50117,
+		comfortable = 3,
+		describe = "You can lead a ship girl to water, but can you make her swim?",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-73.6,
+					-64.2
+				},
+				{
+					1,
+					1
+				},
+				"jiche/shuichi_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50118] = {
+		can_rotate = 0,
+		name = "Parking Area",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "tingchejcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "jiche/tingchejc",
+		canputon = 0,
+		discount = 0,
+		id = 50118,
+		comfortable = 3,
+		describe = "A place to let your ride rest after a long day of engine revving.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50119] = {
+		can_rotate = 0,
+		name = "Chain-link Fence",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "wangjcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "jiche/wangjc",
+		canputon = 0,
+		discount = 0,
+		id = 50119,
+		comfortable = 2,
+		describe = "I have bad news for you. This one's a repost.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50120] = {
+		can_rotate = 0,
+		name = "Traffic Barrier",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "zhalanjcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "jiche/zhalanjc",
+		canputon = 0,
+		discount = 0,
+		id = 50120,
+		comfortable = 2,
+		describe = "Remember: road safety is number one! ... But sweet wheelies on your ride are a close second.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50121] = {
+		advice = 0,
+		name = "Windproof Tent",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "jiche/zhangpengjc",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "zhangpengjcicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 50121,
+		comfortable = 3,
+		describe = "Let's turn this road trip into a camping trip!",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-42.8,
+					-48.7
+				},
+				{
+					1,
+					1
+				},
+				"jiche/zhangpengjc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50122] = {
+		can_rotate = 1,
+		name = "Hotdog Sign",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "zhaopaijcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "jiche/zhaopaijc",
+		canputon = 0,
+		discount = 0,
+		id = 50122,
+		comfortable = 2,
+		describe = "An enticing sign that attracts equal parts customers, equal parts wild animals that mistake it for the real deal.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50123] = {
+		can_rotate = 0,
+		name = "Traffic Cone",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "zhuijcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "jiche/zhuijc",
+		canputon = 0,
+		discount = 0,
+		id = 50123,
+		comfortable = 2,
+		describe = "Can also be used as a pointy hat.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50124] = {
+		can_rotate = 0,
+		name = "Downhill Road",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "jichejcicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 50124,
+		comfortable = 4,
+		describe = "A popular haunt for speedsters, and by extension, cops.",
+		dorm_id = 0,
+		gem_price = 150,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			20,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jicheB",
+				"normal"
+			},
+			{
+				"jicheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"jicheCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -68253,7 +69979,6 @@ pg.furniture_data_template = {
 		148,
 		149,
 		151,
-		100006,
 		1001,
 		1002,
 		1101,
@@ -69209,7 +70934,33 @@ pg.furniture_data_template = {
 		49302,
 		49303,
 		49304,
-		49305
+		49305,
+		50001,
+		50002,
+		50101,
+		50102,
+		50103,
+		50104,
+		50105,
+		50106,
+		50107,
+		50108,
+		50109,
+		50110,
+		50111,
+		50112,
+		50113,
+		50114,
+		50115,
+		50116,
+		50117,
+		50118,
+		50119,
+		50120,
+		50121,
+		50122,
+		50123,
+		50124
 	}
 }
 

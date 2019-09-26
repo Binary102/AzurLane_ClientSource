@@ -4,6 +4,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0._tf = slot1
 	slot0.binder = slot2
 	slot0.UIlist = UIItemList.New(slot0._tf:Find("window/panel/list"), slot0._tf:Find("window/panel/list/item"))
+	slot0.ptTF = slot0._tf:Find("window/pt")
 	slot0.totalTxt = slot0._tf:Find("window/pt/Text"):GetComponent(typeof(Text))
 	slot0.totalTitleTxt = slot0._tf:Find("window/pt/title"):GetComponent(typeof(Text))
 	slot0.closeBtn = slot0._tf:Find("window/top/btnBack")

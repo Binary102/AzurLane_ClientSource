@@ -4196,6 +4196,29 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[307] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 307,
+		type = 1,
+		index_id = 121,
+		group_type = 20125,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Monthly Sign-in",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[325] = {
 		nationality = 2,
 		hide = 0,
@@ -8185,7 +8208,7 @@ pg.ship_data_group = {
 	[226] = {
 		nationality = 3,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 307039,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 226,
@@ -8193,8 +8216,17 @@ pg.ship_data_group = {
 		index_id = 261,
 		group_type = 30703,
 		trans_type = 7,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"A",
+			"B"
+		},
+		trans_skill = {
+			11830
+		},
 		description = {
 			{
 				"Explore Stage3-1",
@@ -8211,7 +8243,7 @@ pg.ship_data_group = {
 	[227] = {
 		nationality = 3,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 307049,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 227,
@@ -8219,8 +8251,17 @@ pg.ship_data_group = {
 		index_id = 262,
 		group_type = 30704,
 		trans_type = 7,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"A",
+			"B"
+		},
+		trans_skill = {
+			11840
+		},
 		description = {
 			{
 				"Explore Stage3-1",
@@ -10404,6 +10445,7 @@ pg.ship_data_group = {
 		101,
 		102,
 		306,
+		307,
 		325,
 		326,
 		372,

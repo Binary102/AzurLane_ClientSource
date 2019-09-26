@@ -232,6 +232,10 @@ pg.skill_data_display = {
 		id = 2151,
 		name = "Impartial Destruction "
 	},
+	[2160] = {
+		id = 2160,
+		name = "Lightning Strikes Twice "
+	},
 	[2161] = {
 		id = 2161,
 		name = "Lightning Strikes Twice "
@@ -555,6 +559,22 @@ pg.skill_data_display = {
 	[8521] = {
 		id = 8521,
 		name = "新生重樱联合"
+	},
+	[8640] = {
+		id = 8640,
+		name = "Suruga Fleet I"
+	},
+	[8641] = {
+		id = 8641,
+		name = "Suruga Fleet II"
+	},
+	[8642] = {
+		id = 8642,
+		name = "Suruga Fleet III"
+	},
+	[8643] = {
+		id = 8643,
+		name = "Suruga Fleet IV"
 	},
 	[9010] = {
 		id = 9010,
@@ -1455,6 +1475,46 @@ pg.skill_data_display = {
 	[11820] = {
 		id = 11820,
 		name = "Conquer to Loot!"
+	},
+	[11830] = {
+		id = 11830,
+		name = "Flowers of Fate "
+	},
+	[11831] = {
+		id = 11831,
+		name = "Five Brights"
+	},
+	[11832] = {
+		id = 11832,
+		name = "Boar, Deer, Butterfly"
+	},
+	[11833] = {
+		id = 11833,
+		name = "Moonlight Sake"
+	},
+	[11834] = {
+		id = 11834,
+		name = "Seeds"
+	},
+	[11840] = {
+		id = 11840,
+		name = "Flowers of Fate "
+	},
+	[11841] = {
+		id = 11841,
+		name = "Five Brights"
+	},
+	[11842] = {
+		id = 11842,
+		name = "Lesser Blue"
+	},
+	[11843] = {
+		id = 11843,
+		name = "Flower Sake"
+	},
+	[11844] = {
+		id = 11844,
+		name = "Scraps"
 	},
 	[11850] = {
 		id = 11850,
@@ -3163,6 +3223,7 @@ pg.skill_data_display = {
 		2131,
 		2141,
 		2151,
+		2160,
 		2161,
 		2171,
 		3001,
@@ -3244,6 +3305,10 @@ pg.skill_data_display = {
 		7000,
 		7500,
 		8521,
+		8640,
+		8641,
+		8642,
+		8643,
 		9010,
 		9020,
 		9030,
@@ -3469,6 +3534,16 @@ pg.skill_data_display = {
 		11810,
 		11811,
 		11820,
+		11830,
+		11831,
+		11832,
+		11833,
+		11834,
+		11840,
+		11841,
+		11842,
+		11843,
+		11844,
 		11850,
 		11860,
 		11890,

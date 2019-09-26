@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"与{namecode:93}共度的时光\n\n<size=45>七 不变与变化（下）</size>",
+					"Together with Souryuu\n\n<size=45>Chapter 7: Change (Pt. 3)</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-2",
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "今天的路上，大家都用很不可思议的眼光在看着我们呢。",
+			say = "Everyone was staring at us incredulously the whole day.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "确实，几乎每个人看到今天的{namecode:93}都露出了惊讶的表情。",
+			say = "It's true. Pretty much everyone who saw us today ended up with bewildered expressions on their faces.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,23 +67,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的，我应该是板着脸督促指挥官好好工作的形象。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 307030,
-			side = 2,
-			bgName = "bg_night",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "而不应该是在和指挥官的约会中露出笑容的形象。",
+			say = "Well, the only \"me\" people expect is the stolid Souryuu that pushes you to work harder.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,24 +83,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，我为什么不能呢？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_night",
-			withoutActorName = true,
-			actor = 307030,
-			nameColor = "#a9f548",
-			say = "{namecode:93}扶了一下眼镜，直视着这边。",
+			say = "Of course it'd be hard for them to imagine me smiling happily while on a date.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,39 +99,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我的指挥官变得越来越出色，不再是我需要督促的存在，而仅仅需要我的辅佐。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 307030,
-			side = 2,
-			bgName = "bg_night",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "闲暇的时候，还会主动来找我，陪我玩我唯一的爱好花札。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 307030,
-			side = 2,
-			bgName = "bg_night",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "我会想要为这样的人改变，会喜欢上这样的人，不是理所当然的事情吗？",
+			say = "Naturally, those kinds of assumptions are incorrect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +116,72 @@ return {
 			withoutActorName = true,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "虽然做着大胆的表白，然而{namecode:93}的脸上却没有丝毫羞涩。",
+			say = "Souryuu adjusted her glasses and looked my way.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307030,
+			side = 2,
+			bgName = "bg_night",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Commander, you've matured into someone who no longer needs my supervision. ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307030,
+			side = 2,
+			bgName = "bg_night",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Someone who chose to invest their precious time into me so that we could have a shared hobby...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307030,
+			side = 2,
+			bgName = "bg_night",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "For me to go on a date or two with that person, or even fall in love with that person, is perfectly normal, isn't it?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_night",
+			withoutActorName = true,
+			actor = 307030,
+			nameColor = "#a9f548",
+			say = "Despite her tremendously assertive confession, Souryuu did not appear flustered in the slightest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "指挥官，你还记得之前我和{namecode:94}的对话吧？",
+			say = "Commander, do you still remember what Hiryuu and I talked about a while ago?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			},
 			options = {
 				{
-					content = "点头",
+					content = "Nod.",
 					flag = 1
 				}
 			}
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能让我改变想法，想要为所谓女子力而努力的人，就是你。",
+			say = "The person who I want to change for... the person who I want to become \"girlier\" for... is you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			withoutActorName = true,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "原来如此，以为是自己适应了{namecode:93}的节奏，实际上，自己也悄悄影响了{namecode:93}吗……",
+			say = "I had assumed that I was getting used to following her lead, but it turns out that I had been influencing her as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官呢，对我是怎么想的？",
+			say = "By the way, Commander, what do you think about me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			withoutActorName = true,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "对{namecode:93}的心意，自然不必多说，但是这个时候，果然还是应该……",
+			say = "My feelings for Souryuu obviously needed no words. But at this crucial moment, when I opened my mouth...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			},
 			options = {
 				{
-					content = "回去来一局花札吧！",
+					content = "\"Let's head back and play hanafuda!\"",
 					flag = 1
 				}
 			}
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "…………噗。",
+			say = "... Pfft...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是指挥官。说的也是，既然是从花札开始，那就用花札来延续吧……",
+			say = "I see. How very much like you, Commander. Very well, since we began with hanafuda, it makes sense for us to communicate through hanafuda.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			blackBg = true,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "指挥官要是能从我手里赢下一局的话，我什么都答应你哦？",
+			say = "If you can beat me even once, I'll tell you anything you want to know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

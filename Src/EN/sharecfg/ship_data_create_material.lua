@@ -96,7 +96,7 @@ pg.ship_data_create_material = {
 	},
 	{
 		use_gold = 1500,
-		name = "特型舰祈愿",
+		name = "Wishing Well - Special",
 		build_anim = "building",
 		type = 2,
 		ship_icon = "1",
@@ -106,15 +106,15 @@ pg.ship_data_create_material = {
 		id = 6,
 		icon = "build_6",
 		rate_tip = {
-			"<color=#ffde38>超稀有舰船</color>：7%",
-			"<color=#d797ff>精锐舰船</color>：12%",
-			"<color=#3dc6ff>稀有舰船</color>：51%",
-			"普通舰船：30%"
+			"<color=#ffde38>Super Rare</color>：7%",
+			"<color=#d797ff>Elite</color>：12%",
+			"<color=#3dc6ff>Rare</color>：51%",
+			"Common：30%"
 		}
 	},
 	{
 		use_gold = 600,
-		name = "轻型舰祈愿",
+		name = "Wishing Well - Light",
 		build_anim = "building",
 		type = 2,
 		ship_icon = "2",
@@ -124,15 +124,15 @@ pg.ship_data_create_material = {
 		id = 7,
 		icon = "build_7",
 		rate_tip = {
-			"<color=#ffde38>超稀有舰船</color>：7%",
-			"<color=#d797ff>精锐舰船</color>：12%",
-			"<color=#3dc6ff>稀有舰船</color>：26%",
-			"普通舰船：55%"
+			"<color=#ffde38>Super Rare</color>：7%",
+			"<color=#d797ff>Elite</color>：12%",
+			"<color=#3dc6ff>Rare</color>：26%",
+			"Common：55%"
 		}
 	},
 	{
 		use_gold = 1500,
-		name = "重型舰祈愿",
+		name = "Wishing Well - Heavy",
 		build_anim = "building",
 		type = 2,
 		ship_icon = "3",
@@ -142,10 +142,10 @@ pg.ship_data_create_material = {
 		id = 8,
 		icon = "build_8",
 		rate_tip = {
-			"<color=#ffde38>超稀有舰船</color>：7%",
-			"<color=#d797ff>精锐舰船</color>：12%",
-			"<color=#3dc6ff>稀有舰船</color>：51%",
-			"普通舰船：30%"
+			"<color=#ffde38>Super Rare</color>：7%",
+			"<color=#d797ff>Elite</color>：12%",
+			"<color=#3dc6ff>Rare</color>：51%",
+			"Common：30%"
 		}
 	},
 	all = {

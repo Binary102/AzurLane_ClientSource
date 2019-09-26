@@ -208,6 +208,8 @@ class("PrepControllerCommand", pm.SimpleCommand).execute = function (slot0, slot
 	slot0.facade:registerCommand(GAME.ACTIVITY_BE_UPDATED, ActivityBeUpdatedCommand)
 	slot0.facade:registerCommand(GAME.SUBMIT_VOTE_BOOK, SubmitVoteBookCommand)
 	slot0.facade:registerCommand(GAME.ON_NEW_VOTE, VoteCommand)
+	slot0.facade:registerCommand(GAME.ACT_BOSS_NORMAL_UPDATE, ActivityBossNormalUpdateCommand)
+	slot0.facade:registerCommand(GAME.ACT_BOSS_EXCHANGE_TICKET, ActivityBossExchangeTicketCommand)
 	slot0.facade:registerCommand(GAME.SHAM_CHANGE_MY_ASSIST, ShamChangeMyAssistCommand)
 	slot0.facade:registerCommand(GAME.SHAM_CHANGE_FORMATION, ShamChangeFormationCommand)
 	slot0.facade:registerCommand(GAME.SHAM_ENTER, ShamEnterCommand)

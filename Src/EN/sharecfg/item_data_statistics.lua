@@ -3664,6 +3664,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[13011] = {
+		display = "Twin 40mm Bofors \"Hazemeyer\" AA Gun T0 Design ",
+		rarity = 4,
+		type = 9,
+		name = "Twin 40mm Bofors \"Hazemeyer\" AA Gun T0 Design ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13011,
+		icon = "Equips/26620",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[15001] = {
 		display = "A Medal of Honor granted after retiring a ship. Use to apply for rare ships.",
 		rarity = 3,
@@ -60606,6 +60622,132 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[57707] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57707,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				3,
+				1
+			},
+			{
+				2,
+				27,
+				1
+			},
+			{
+				2,
+				47,
+				1
+			},
+			{
+				2,
+				10053,
+				1
+			},
+			{
+				2,
+				10060,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57708] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57708,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10067,
+				1
+			},
+			{
+				2,
+				10068,
+				1
+			},
+			{
+				2,
+				10070,
+				1
+			},
+			{
+				2,
+				10087,
+				1
+			},
+			{
+				2,
+				10088,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57709] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57709,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10052,
+				1
+			},
+			{
+				2,
+				10057,
+				1
+			},
+			{
+				2,
+				10060,
+				1
+			},
+			{
+				2,
+				10068,
+				1
+			},
+			{
+				2,
+				11033,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[59000] = {
 		display = "EXP is required to level up",
 		rarity = 2,
@@ -61130,6 +61272,38 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		link_id = 0,
 		id = 59140,
 		icon = "Props/skinTicket",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59141] = {
+		display = "Earned by participating in the \"Crosswave\" event. Earning a certain amount will allow you to claim Individual Rewards.",
+		rarity = 2,
+		type = 98,
+		name = "Contribution Points",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59141,
+		icon = "Props/junhe_pt",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59142] = {
+		display = "A ticket used to access the EX stage in the \"Crosswave\" event. Can also be used to gain more Reward Sorties.",
+		rarity = 4,
+		type = 98,
+		name = "Bonus Ticket",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59142,
+		icon = "Props/special_ticket",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -62426,6 +62600,22 @@ let us celebrate."]],
 		price = {},
 		index = {}
 	},
+	[59823] = {
+		display = "A key that grants access to the War Archives (Permanent Rerun Events). Consumed when used. ",
+		rarity = 4,
+		type = 0,
+		name = "Data Key ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 7,
+		replace_item = 0,
+		link_id = 0,
+		id = 59823,
+		icon = "Props/activity_tickets",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59824] = {
 		display = "A ballot for the 2019 Azur Lane Popularity Poll. Will disappear after every step of the vote (Qualifiers, Groups, each Group vote, Finals Comeback, and Finals) has concluded. ",
 		rarity = 4,
@@ -62614,6 +62804,134 @@ let us celebrate."]],
 		link_id = 30216,
 		id = 59925,
 		icon = "props/zhongqiufanpai",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59930] = {
+		display = "Paint A, used in the Coloring Book event. Will be removed after the event ends",
+		rarity = 2,
+		type = 0,
+		name = "Paint A",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 30225,
+		id = 59930,
+		icon = "props/draw_a",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59931] = {
+		display = "Paint B, used in the Coloring Book event. Will be removed after the event ends",
+		rarity = 2,
+		type = 0,
+		name = "Paint B",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 30225,
+		id = 59931,
+		icon = "props/draw_b",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59932] = {
+		display = "Paint C, used in the Coloring Book event. Will be removed after the event ends",
+		rarity = 2,
+		type = 0,
+		name = "Paint C",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 30225,
+		id = 59932,
+		icon = "props/draw_c",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59933] = {
+		display = "Paint D, used in the Coloring Book event. Will be removed after the event ends",
+		rarity = 2,
+		type = 0,
+		name = "Paint D",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 30225,
+		id = 59933,
+		icon = "props/draw_d",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59934] = {
+		display = "Paint E, used in the Coloring Book event. Will be removed after the event ends",
+		rarity = 2,
+		type = 0,
+		name = "Paint E",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 30225,
+		id = 59934,
+		icon = "props/draw_e",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59935] = {
+		display = "Paint F, used in the Coloring Book event. Will be removed after the event ends",
+		rarity = 2,
+		type = 0,
+		name = "Paint F",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 30225,
+		id = 59935,
+		icon = "props/draw_f",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59936] = {
+		display = "Paint G, used in the Coloring Book event. Will be removed after the event ends",
+		rarity = 2,
+		type = 0,
+		name = "Paint G",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 30225,
+		id = 59936,
+		icon = "props/draw_g",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59937] = {
+		display = "Paint H, used in the Coloring Book event. Will be removed after the event ends",
+		rarity = 2,
+		type = 0,
+		name = "Paint H",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 30225,
+		id = 59937,
+		icon = "props/draw_h",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -63541,6 +63859,7 @@ Skins and their drop rates:
 		13008,
 		13009,
 		13010,
+		13011,
 		15001,
 		15002,
 		15003,
@@ -64648,6 +64967,9 @@ Skins and their drop rates:
 		57703,
 		57704,
 		57705,
+		57707,
+		57708,
+		57709,
 		59000,
 		59001,
 		59002,
@@ -64681,6 +65003,8 @@ Skins and their drop rates:
 		59138,
 		59139,
 		59140,
+		59141,
+		59142,
 		59615,
 		59711,
 		59713,
@@ -64757,6 +65081,7 @@ Skins and their drop rates:
 		59814,
 		59815,
 		59816,
+		59823,
 		59824,
 		59831,
 		59832,
@@ -64769,6 +65094,14 @@ Skins and their drop rates:
 		59839,
 		59900,
 		59925,
+		59930,
+		59931,
+		59932,
+		59933,
+		59934,
+		59935,
+		59936,
+		59937,
 		60011,
 		60012,
 		69903,

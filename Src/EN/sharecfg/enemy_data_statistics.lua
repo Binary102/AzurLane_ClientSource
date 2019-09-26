@@ -33537,7 +33537,7 @@ pg.enemy_data_statistics = {
 	},
 	[343] = {
 		cannon = 0,
-		name = "铃谷",
+		name = "Suzuya",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -33695,7 +33695,7 @@ pg.enemy_data_statistics = {
 	},
 	[344] = {
 		cannon = 0,
-		name = "矶风",
+		name = "Isokaze",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -33830,7 +33830,7 @@ pg.enemy_data_statistics = {
 	},
 	[345] = {
 		cannon = 0,
-		name = "浦风",
+		name = "Urakaze",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -33965,7 +33965,7 @@ pg.enemy_data_statistics = {
 	},
 	[346] = {
 		cannon = 0,
-		name = "最上",
+		name = "Mogami",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -38577,6 +38577,141 @@ pg.enemy_data_statistics = {
 						{
 							-0.6,
 							2.33,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {}
+	},
+	[380] = {
+		cannon = 0,
+		name = "Suruga ",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 3,
+		icon_type = 5,
+		type = 5,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "junhe",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		friendly_cld = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 380,
+		scale = 150,
+		drop_id = 0,
+		wave_fx = "movewave",
+		prefab = "junhe",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		bubble_fx = "",
+		dodge = 0,
+		bubble_initial = 0,
+		reload_growth = 0,
+		remarks = "敌人模板",
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 3,
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.601,
+					1.611,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.585,
+					1.681,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.27,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.561,
+					1.745,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.654,
+							2.41,
 							0
 						}
 					}
@@ -184731,6 +184866,649 @@ pg.enemy_data_statistics = {
 		specific_fx_scale = {},
 		equipment_list = {}
 	},
+	[12500001] = {
+		cannon = 8,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 25,
+		hit_growth = 120,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【世界BOSS简单】长良级量产型",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 107,
+		durability = 90,
+		armor_growth = 0,
+		torpedo_growth = 1000,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 12500001,
+		cannon_growth = 400,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 8,
+		torpedo = 12,
+		durability_growth = 4800,
+		antiaircraft = 17,
+		antiaircraft_growth = 1440,
+		appear_fx = {
+			"appearsmall"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100425,
+			1100230
+		}
+	},
+	[12500002] = {
+		cannon = 6,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 50,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【世界BOSS简单】野分",
+		dodge_growth = 222,
+		star = 3,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 175,
+		durability = 240,
+		armor_growth = 0,
+		torpedo_growth = 1600,
+		bubble_interval = 0,
+		speed = 26,
+		armor = 0,
+		id = 12500002,
+		cannon_growth = 424,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 15,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 27,
+		durability_growth = 12000,
+		antiaircraft = 20,
+		antiaircraft_growth = 1200,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100055,
+			1100100,
+			1100165,
+			1100495
+		}
+	},
+	[12500003] = {
+		cannon = 6,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 50,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【世界BOSS简单】睦月",
+		dodge_growth = 222,
+		star = 4,
+		antisub_growth = 0,
+		rarity = 3,
+		base = 155,
+		durability = 240,
+		armor_growth = 0,
+		torpedo_growth = 1600,
+		bubble_interval = 0,
+		speed = 26,
+		armor = 0,
+		id = 12500003,
+		cannon_growth = 424,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 15,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 27,
+		durability_growth = 12000,
+		antiaircraft = 20,
+		antiaircraft_growth = 1200,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100105,
+			1100465
+		}
+	},
+	[12500004] = {
+		cannon = 25,
+		luck = 10,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 95,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【世界BOSS简单】Boss-雪风",
+		dodge_growth = 468,
+		star = 4,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 172,
+		durability = 6500,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 36,
+		armor = 0,
+		id = 12500004,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 25,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 95,
+		durability_growth = 0,
+		antiaircraft = 100,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			613001,
+			613002,
+			613003,
+			613004,
+			613005,
+			613006,
+			613007
+		}
+	},
+	[12500011] = {
+		cannon = 8,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 25,
+		hit_growth = 120,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【世界BOSS普通】长良级量产型",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 107,
+		durability = 240,
+		armor_growth = 0,
+		torpedo_growth = 1000,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 12500011,
+		cannon_growth = 400,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 8,
+		torpedo = 12,
+		durability_growth = 9200,
+		antiaircraft = 17,
+		antiaircraft_growth = 1440,
+		appear_fx = {
+			"appearsmall"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100426,
+			1100231
+		}
+	},
+	[12500012] = {
+		cannon = 6,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 50,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【世界BOSS普通】阳炎",
+		dodge_growth = 222,
+		star = 3,
+		antisub_growth = 0,
+		rarity = 3,
+		base = 169,
+		durability = 750,
+		armor_growth = 0,
+		torpedo_growth = 1600,
+		bubble_interval = 0,
+		speed = 32,
+		armor = 0,
+		id = 12500012,
+		cannon_growth = 468,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 15,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 27,
+		durability_growth = 20800,
+		antiaircraft = 20,
+		antiaircraft_growth = 1200,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100061,
+			1100501
+		}
+	},
+	[12500013] = {
+		cannon = 12,
+		antiaircraft_growth = 1400,
+		hit_growth = 210,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		antiaircraft = 25,
+		armor = 0,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【世界BOSS普通】爱宕",
+		dodge_growth = 198,
+		star = 5,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 208,
+		durability = 1200,
+		armor_growth = 0,
+		torpedo_growth = 1400,
+		bubble_interval = 0,
+		speed = 18,
+		luck = 0,
+		id = 12500013,
+		cannon_growth = 1000,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 12,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 16,
+		durability_growth = 41600,
+		luck_growth = 0,
+		battle_unit_type = 60,
+		specific_fx_scale = {},
+		equipment_list = {
+			1100021,
+			1100616,
+			1100470
+		}
+	},
+	[12500014] = {
+		cannon = 50,
+		antisub = 0,
+		antiaircraft = 150,
+		speed_growth = 0,
+		battle_unit_type = 95,
+		air = 140,
+		armor = 0,
+		hit_growth = 270,
+		air_growth = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		dodge_growth = 170,
+		remarks = "【世界BOSS普通】Boss-大凤",
+		star = 6,
+		antisub_growth = 0,
+		rarity = 6,
+		base = 332,
+		durability = 33600,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 25,
+		luck = 20,
+		id = 12500014,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 22,
+		reload_growth = 0,
+		hit = 20,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		bound_bone = {
+			cannon = {
+				{
+					-0.27,
+					0.64,
+					0
+				}
+			},
+			vicegun = {
+				{
+					3.87,
+					4.63,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.13,
+					0.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					3.87,
+					4.63,
+					0
+				}
+			},
+			plane = {
+				{
+					0.94,
+					4.3,
+					0
+				}
+			}
+		},
+		equipment_list = {
+			613015,
+			613011,
+			613013,
+			613014,
+			613016,
+			613018,
+			613019
+		}
+	},
+	[12500021] = {
+		cannon = 12,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 30,
+		hit_growth = 144,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【世界BOSS困难】长良级量产型",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 107,
+		durability = 890,
+		armor_growth = 0,
+		torpedo_growth = 1100,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 12500021,
+		cannon_growth = 440,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 18,
+		durability_growth = 20800,
+		antiaircraft = 52,
+		antiaircraft_growth = 1760,
+		appear_fx = {
+			"appearsmall"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100427,
+			1100232
+		}
+	},
+	[12500022] = {
+		cannon = 14,
+		luck = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 55,
+		hit_growth = 210,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【世界BOSS困难】夕张",
+		dodge_growth = 210,
+		star = 3,
+		antisub_growth = 0,
+		rarity = 2,
+		base = 185,
+		durability = 5270,
+		armor_growth = 0,
+		torpedo_growth = 1200,
+		bubble_interval = 0,
+		speed = 24,
+		armor = 0,
+		id = 12500022,
+		cannon_growth = 480,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 14,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 32,
+		durability_growth = 33600,
+		antiaircraft = 65,
+		antiaircraft_growth = 1920,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			1100507,
+			1100102,
+			1100142
+		}
+	},
+	[12500023] = {
+		cannon = 35,
+		antisub = 0,
+		antiaircraft = 75,
+		speed_growth = 0,
+		battle_unit_type = 65,
+		air = 0,
+		armor = 0,
+		hit_growth = 210,
+		air_growth = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		dodge_growth = 156,
+		remarks = "【世界BOSS困难】比叡",
+		star = 5,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 220,
+		durability = 9010,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 14,
+		luck = 0,
+		id = 12500023,
+		cannon_growth = 1440,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 10,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 0,
+		durability_growth = 68000,
+		luck_growth = 0,
+		antiaircraft_growth = 1680,
+		appear_fx = {
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		bound_bone = {
+			cannon = {
+				{
+					0.82,
+					0.67,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		equipment_list = {
+			1100022,
+			1100627,
+			1100042,
+			1100732
+		}
+	},
+	[12500024] = {
+		cannon = 200,
+		luck = 30,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 95,
+		hit_growth = 330,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【世界BOSS困难】Boss-骏河",
+		dodge_growth = 156,
+		star = 4,
+		antisub_growth = 0,
+		rarity = 3,
+		base = 380,
+		durability = 150000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 25,
+		armor = 0,
+		id = 12500024,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 20,
+		reload_growth = 0,
+		hit = 30,
+		torpedo = 80,
+		durability_growth = 0,
+		antiaircraft = 250,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {
+			613031,
+			613032,
+			613033,
+			613034,
+			613035,
+			613036
+		}
+	},
+	[12500034] = {
+		cannon = 250,
+		luck = 50,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 95,
+		hit_growth = 390,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		remarks = "【世界BOSSEX】Boss-骏河",
+		dodge_growth = 312,
+		star = 4,
+		antisub_growth = 0,
+		rarity = 3,
+		base = 380,
+		durability = 500000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 25,
+		armor = 0,
+		id = 12500034,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 30,
+		reload_growth = 0,
+		hit = 50,
+		torpedo = 120,
+		durability_growth = 0,
+		antiaircraft = 300,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		equipment_list = {}
+	},
 	[900001] = {
 		name = "Laffey",
 		luck = 0,
@@ -197649,6 +198427,7 @@ pg.enemy_data_statistics = {
 		377,
 		378,
 		379,
+		380,
 		400,
 		401,
 		402,
@@ -200603,6 +201382,19 @@ pg.enemy_data_statistics = {
 		12400258,
 		12400259,
 		12400260,
+		12500001,
+		12500002,
+		12500003,
+		12500004,
+		12500011,
+		12500012,
+		12500013,
+		12500014,
+		12500021,
+		12500022,
+		12500023,
+		12500024,
+		12500034,
 		900001,
 		900002,
 		900003,

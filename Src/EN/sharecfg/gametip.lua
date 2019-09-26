@@ -1210,6 +1210,14 @@ pg.gametip = {
 		tip = "Total:",
 		key = "battle_result_score_total"
 	},
+	battle_result_total_damage = {
+		tip = "Total Damage:",
+		key = "battle_result_total_damage"
+	},
+	battle_result_contribution = {
+		tip = "Contributions Earned:",
+		key = "battle_result_contribution"
+	},
 	battle_levelScene_0Oil = {
 		tip = "Oil Production is 0",
 		key = "battle_levelScene_0Oil"
@@ -2406,7 +2414,7 @@ pg.gametip = {
 		key = "coloring_help_tip",
 		tip = {
 			{
-				info = "Game Rules\n"
+				info = "Game Rules:\n"
 			},
 			{
 				info = [[
@@ -2417,21 +2425,21 @@ pg.gametip = {
 5. Paint can be obtained by completing event missions to consume a total amount of oil. 
 6. Completing pages in the Coloring Book will grant rewards. 
 7. The rewards for completing each page are as follows: 
-	 Complete Page 1: Podium. 
-	 Complete Page 2: Random skill book T3 x1. 
-	 Complete Page 3: Candy Trolley. 
-	 Complete Page 4: T3 General Part x2. 
-	 Complete Page 5: Floaty Balloons. 
-	 Complete Page 6: T3 General Part x3. 
-	 Complete Page 7: Albacore. 
+	 Complete Page 1: Rental Outfit Voucher x1
+	 Complete Page 2: Random Skill Book T3 x2
+	 Complete Page 3: Rental Outfit Voucher x1
+	 Complete Page 4: T3 Main Gun Part x2
+	 Complete Page 5: Rental Outfit Voucher x1
+	 Complete Page 6: T3 General Part x3
+	 Complete Page 7: Jupiter's skin: "Fanclub Sleepover"
 8. Unlock an extra blank drawing page after completing the first 8 pages in the Coloring Book. 
 9. There are no restrictions on which colors can be used in the blank coloring page, and no paint will be consumed. 
 10. The "Eraser" and "Clear All" functions can be used on the extra blank page. 
 11. The "Eraser" tool can erase a single cell. 
 12. The "Clear All" function will erase all colored cells on the extra page. 
 13. After the event ends, all unused paint will be removed. 
-14. Before August 21th, a new page will be unlocked every day. 
-15. The soonest the extra blank page can be unlocked is August 22th.]]
+14. A new page will be unlocked every day until October 2nd.
+15. The extra blank page will be available after October 3rd.]]
 			}
 		}
 	},
@@ -3088,6 +3096,10 @@ pg.gametip = {
 		tip = "Your ships are <color=#92fc63>out of Oil</color>!",
 		key = "stage_beginStage_error_noResource"
 	},
+	stage_beginStage_error_noTicket = {
+		tip = "You need more Challenge Tickets to play this stage. ",
+		key = "stage_beginStage_error_noTicket"
+	},
 	stage_finishStage_error = {
 		tip = "Stage may not be completed: ",
 		key = "stage_finishStage_error"
@@ -3347,9 +3359,60 @@ pg.gametip = {
 		tip = "New Chapter(s): ",
 		key = "levelScene_new_chapter_coming"
 	},
+	levelScene_chapter_open_count_down = {
+		tip = "Open time:",
+		key = "levelScene_chapter_open_count_down"
+	},
+	levelScene_chapter_not_open = {
+		tip = "Not open yet",
+		key = "levelScene_chapter_not_open"
+	},
+	levelScene_activate_remaster = {
+		tip = "Would you like to use a <color=#ffde38>Data Key</color> and gain access to this event for 15 minutes? Once your time is up, you will need to use another Data Key.",
+		key = "levelScene_activate_remaster"
+	},
+	levelScene_remaster_tickets_not_enough = {
+		tip = "You do not have enough Data Keys.",
+		key = "levelScene_remaster_tickets_not_enough"
+	},
+	levelScene_remaster_do_not_open = {
+		tip = "This is not yet available.",
+		key = "levelScene_remaster_do_not_open"
+	},
+	levelScene_remaster_help_tip = {
+		key = "levelScene_remaster_help_tip",
+		tip = {
+			{
+				info = "About <color=#92fc63>Data Keys:</color>\nYou can use <color=#92fc63>Data Keys</color> to gain temporary access to the stages of certain past events from the <color=#92fc63>War Archives</color> screen.\nAny progress you may have made on an event stage prior to its implementation to the <color=#92fc63>War Archives</color> feature does not carry over."
+			},
+			{
+				info = "\n 1. You can currently acquire 2 <color=#92fc63>Data Keys</color> a day through a daily mission."
+			},
+			{
+				info = "2. You can store up to 30 <color=#92fc63>Data Keys</color> in total. Any <color=#92fc63>Data Keys</color> that you attempt to collect beyond that point will be automatically deleted."
+			},
+			{
+				info = "3. Using 1 <color=#92fc63>Data Key</color> allows you to play a past event for <color=#92fc63>15 minutes</color>."
+			},
+			{
+				info = "4. All stages of the particular event will be available to you during this period, barring EX Stages, if applicable."
+			},
+			{
+				info = "5. You can still finish a stage if your 15 minutes run out. However, you must still complete your run in the allotted 12 hours before you are automatically booted out of the stage."
+			}
+		}
+	},
 	levelScene_activate_loop_mode_failed = {
-		tip = "Bring the Threat Level down to Safe and clear with 3 Stars to unlock Clearing Mode. ",
+		tip = "Bring the Threat Level down to Safe and clear with 3 Stars to unlock Clearing Mode.",
 		key = "levelScene_activate_loop_mode_failed"
+	},
+	levelScene_coastalgun_help_tip = {
+		tip = "You already have the maximum amount of <color=#ffde38>Data Keys</color>. You will receive <color=#ff5c5c>$1</color> Data Key(s) if you proceed. Would you still like to collect these rewards?",
+		key = "levelScene_coastalgun_help_tip"
+	},
+	tack_tickets_max_warning = {
+		tip = "所持<color=#ffde38>档案密钥</color>数量达到上限，完成任务后只能获得<color=#ff5c5c>$1</color>份<color=#ffde38>档案密钥</color>，是否确认领取？",
+		key = "tack_tickets_max_warning"
 	},
 	error_refresh_sub_chapter = {
 		tip = "You cannot initiate any more Rescue Missions. ",
@@ -9596,55 +9659,65 @@ with Anti-Sub gear.
 		key = "world_boss_help",
 		tip = {
 			{
-				info = "活动说明："
+				info = "<color=#92fc63>- How to Play:</color>"
 			},
 			{
-				info = "1. 活动期间，参与演习战斗，当击破敌人、超时或作战失败时，\n根据演习战斗中造成的伤害总量结算贡献值；"
+				info = "During the Crosswave event, your goal is to accumulate <color=#92fc63>Contribution Points (CP)</color> which will progress the mission and can be used to claim Individual Rewards and Milestone Rewards.\n"
 			},
 			{
-				info = "2. 演习战斗中，造成的伤害越高，获得奖励越丰厚，获得的贡\n献值也越多；"
+				info = [[
+During the event period, you will play on a special stage and face off against a Sakura Empire fleet led by the battleship Suruga.
+All commanders on the same server will need to work together by gathering CP and <color=#92fc63>lowering the progress gauge to 0%</color> in order to complete the mission.
+Once the mission is completed, all players who participated will be rewarded with a special piece of gear sent to their Mailbox.
+<color=#92fc63>Note that you can still earn CP through the Event Stage even once the progress gauge has hit 0%.</color>
+]]
 			},
 			{
-				info = "3. 活动期间，根据本服所有玩家获得的贡献值，消耗埃塞克斯\n的演习据点耐久；"
+				info = [[
+<color=#92fc63>- About Contribution Points:</color>
+1. You earn Contribution Points by clearing the Special Stage.
+2. The progress gauge is affected by the total number of CP earned by all commanders on your server.
+3. Once the progress bar hits <color=#92fc63>0%</color>, the mission is complete. Note that each server's progress bar is independent of the others.
+4. You can claim nice rewards from the event banner by collecting a lot of CP.
+]]
 			},
 			{
-				info = "4. 当演习据点耐久下降至75%、50%、25%、以及耐久完全\n耗尽后，会记录本服达成的里程碑时间。同时，在演习中获得\n过贡献值的玩家可以获得演习奖励；"
+				info = [[
+<color=#92fc63>- About the Event Stage:</color>
+1. The Event Stage can be played on 4 difficulty modes: <color=#92fc63>Easy</color>, <color=#92fc63>Normal</color>, <color=#92fc63>Hard</color>, and <color=#92fc63>EX</color>.
+2. You earn a <color=#92fc63>fixed amount</color> of CP from the first 3 difficulties, but the amount of CP and which rewards you receive on <color=#92fc63>EX difficulty</color> are based on how much damage you dealt during the battle.
+3. The Event Stage uses a <color=#92fc63>different fleet composition</color> to regular maps. You can change its formation beforehand.
+4. <color=#92fc63>Oil</color> will be consumed when you sortie for and win on the Event Stage. When you complete the map, you receive <color=#92fc63>EXP</color> and <color=#92fc63>clear rewards</color> as per usual, and Morale changes will take effect. (Note that the EX difficulty also imposes a <color=#92fc63>60-second time limit</color>. Your EX difficulty run concludes when you run out of time, when you defeat the boss, or when your Flagship sinks.)
+5. You can deploy <color=#92fc63>submarines</color> and <color=#92fc63>Meowfficers</color> on EX difficulty. Calling in your submarines during a battle will cost Oil.
+6. You can play on Easy, Normal, and Hard difficulty <color=#92fc63>as much as you like</color>, but you will need to spend a <color=#92fc63>Bonus Ticket</color> each time you wish to do a run on <color=#92fc63>EX difficulty</color>.
+]]
 			},
 			{
-				info = "5. 演习奖励将在据点耐久完成耗尽后，通过邮件发放；"
+				info = [[
+<color=#92fc63>- About Reward Sorties and Bonus Tickets:</color>
+1. Your first <color=#92fc63>30 battles</color> on Easy, Normal, or Hard difficulty of each day are treated as <color=#92fc63>Reward Sorties</color>, which will give you better clear rewards than usual.
+2. If you've <color=#92fc63>used up</color> your 30 daily Reward Sorties, you can use <color=#92fc63>Bonus Tickets</color> to gain access to more Reward Sorties.
+3. <color=#92fc63>Bonus Tickets</color> are also used to gain access to EX difficulty.
+4. <color=#92fc63>Bonus Tickets</color> can be acquired through <color=#92fc63>missions</color> available during the event period.
+]]
 			},
 			{
-				info = "6. 如果活动结束时耐久未被耗尽，则会根据据点推进进度，为\n获得过贡献值的玩家发放对应进度的奖励；"
-			},
-			{
-				info = "7. 演习战斗的出击队伍可以通过【编队】按钮编组出击队伍，\n允许携带潜艇和指挥喵；"
-			},
-			{
-				info = "8. 演习战斗中，携带香格里拉和独立可以获得额外的总贡献值\n加成。携带香格里拉获得20%的加成，携带独立获得10%的加\n成，同时携带最多可获得30%的贡献值加成；"
-			},
-			{
-				info = "9. 演习战斗中，无法获得指挥舰、出战角色和指挥喵经验；"
-			},
-			{
-				info = "10. 演习战斗中，会正常增减出战角色的心情；"
-			},
-			{
-				info = "11. 随着据点耐久的下降，演习战斗中敌方旗舰的伤害能力会\n逐步提升，同时降低受到的炮击、雷击伤害，但会提高受到的\n航空伤害；"
-			},
-			{
-				info = "12. 活动期间，还可以领取个人贡献奖励，个人贡献奖励需要\n当据点攻略进度和拥有的贡献值达到指定要求后才能领取；"
-			},
-			{
-				info = "13. 2.28~3.7期间可以参与演习战斗，奖励领取的截止时间为\n3.13；"
+				info = [[
+<color=#ff5c5c>- Miscellaneous Info:</color>
+1. If you abort an EX difficulty run halfway through, your Bonus Ticket will still be consumed, but you will <color=#ff5c5c>not receive any rewards or CP</color>.
+2. We recommend you play the game on <color=#92fc63>Manual Mode</color> when doing a run on EX difficulty.
+3. A Reward Sortie will <color=#92fc63>not be deducted from your daily 30</color> if you choose to abort a run halfway through on Easy, Normal, or Hard difficulty.
+4. We urge you to keep an eye on your ships' Morale and Affinity and to not sortie too much. <color=#92fc63>Please be considerate!</color>
+5. The number of clears required for any given server to complete the event will differ based on the combined user data of that server.]]
 			}
 		}
 	},
 	world_boss_tip = {
-		tip = "「<color=#7e7e7f>$1</color>」为演习做出了<color=#8299bc>$2</color>贡献",
+		tip = "<color=#7e7e7f>$1</color> has contributed <color=#8299bc>$2</color> points towards the world boss progress gauge! ",
 		key = "world_boss_tip"
 	},
 	world_boss_award_limit = {
-		tip = "演习据点耐久降至<color=#FFDE00FF>$1%</color>及以下后解锁",
+		tip = "Unlocks when the progress gauge reaches <color=#FFDE00FF>$1%</color>. ",
 		key = "world_boss_award_limit"
 	},
 	backyard_is_loading = {
@@ -10229,49 +10302,49 @@ Event Information:
 		key = "pray_build_help",
 		tip = {
 			{
-				info = "Event Description：\n"
+				info = "Event Description: \n"
 			},
 			{
-				info = "1.Focus your wishes upon one of the three permanent build categories — Light, Heavy, or Special builds — then choose one ship to wish for."
+				info = "1. Focus your wishes upon one of the three permanent build categories — Light, Heavy, or Special builds — then choose one ship to wish for."
 			},
 			{
-				info = "2. The acquisiton rate of each rarity is the same in the Wishing Well as it is for normal building:"
+				info = "2. The acquisition rate of each rarity is the same in the Wishing Well as it is for normal building:"
 			},
 			{
-				info = "Light Ships:<color=#ffde38>Super Rare</color>:7% <color=#d797ff>Elite</color>:12% <color=#3dc6ff>Rare</color>:26% Common:55%"
+				info = "Light Ships: <color=#ffde38>Super Rare</color>: 7%, <color=#d797ff>Elite</color>: 12%, <color=#3dc6ff>Rare</color>: 26%, Common: 55%"
 			},
 			{
-				info = "Heavy Ships:<color=#ffde38>Super Rare</color>:7% <color=#d797ff>Elite</color>:12% <color=#3dc6ff>Rare</color>:51% Common:30%"
+				info = "Heavy Ships: <color=#ffde38>Super Rare</color>: 7%, <color=#d797ff>Elite</color>: 12%, <color=#3dc6ff>Rare</color>: 51%, Common: 30%"
 			},
 			{
-				info = "Special Ships:<color=#ffde38>Super Rare</color>:7% <color=#d797ff>Elite</color>:12% <color=#3dc6ff>Rare</color>:51% Common:30%"
+				info = "Special Ships:<color=#ffde38>Super Rare</color>: 7%, <color=#d797ff>Elite</color>: 12%, <color=#3dc6ff>Rare</color>: 51%, Common: 30%"
 			},
 			{
-				info = "3.You can see a list of all ships available for construction in the Wishing Well."
+				info = "3. You can see a list of all ships available for construction in the Wishing Well."
 			},
 			{
-				info = "4.You may choose two ships on which to focus your wishes."
+				info = "4. You may choose two ships on which to focus your wishes."
 			},
 			{
-				info = "5.Only ships added to the normal building pool prior to 3/23 can hear your wishes."
+				info = "5. Only ships added to the normal building pool prior to July 26th can hear your wishes."
 			},
 			{
-				info = "6.Ships that have an unlock condition cannot hear your wishes, and will not appear in the Wishing Well."
+				info = "6. Ships that have an unlock condition cannot hear your wishes, and will not appear in the Wishing Well."
 			},
 			{
-				info = "7.The acquisition rate of each ship in the Wishing Well varies according to differences in rarity."
+				info = "7. The acquisition rate of each ship in the Wishing Well varies according to differences in rarity."
 			},
 			{
-				info = "<color=#ffde38>Super Rare</color>:2.0% <color=#d797ff>Elite</color>:.2.5% <color=#3dc6ff>Rare</color>:2.5% Common:2.5%"
+				info = "<color=#ffde38>Super Rare</color>: 2.0%, <color=#d797ff>Elite</color>: 2.5%, <color=#3dc6ff>Rare</color>: 2.5%, Common: 2.5%"
 			},
 			{
-				info = "8.Once you have chosen your two ships, you are ready to begin wishing."
+				info = "8. Once you have chosen your two ships, you are ready to begin wishing."
 			},
 			{
-				info = "9.Once you start wishing, you cannot change your selections for the duration of the event."
+				info = "9. Once you start wishing, you cannot change your selections for the duration of the event."
 			},
 			{
-				info = "10.Wishing Well build costs are the same as ordinary builds, as are build durations, which can be skipped with a Quick Finisher."
+				info = "10. Wishing Well build costs are the same as ordinary builds, as are build durations, which can be skipped with a Quick Finisher."
 			}
 		}
 	},
@@ -10916,6 +10989,110 @@ Voting Schedule:
 	name_zhanliejahe = {
 		tip = "{namecode:92}(BB)",
 		key = "name_zhanliejahe"
+	},
+	change_skin_secretary_ship_success = {
+		tip = "Secretary Set Successfully",
+		key = "change_skin_secretary_ship_success"
+	},
+	change_skin_secretary_ship = {
+		tip = "Set Secretary",
+		key = "change_skin_secretary_ship"
+	},
+	word_billboard = {
+		tip = "Rankings",
+		key = "word_billboard"
+	},
+	word_easy = {
+		tip = "Easy",
+		key = "word_easy"
+	},
+	word_normal_junhe = {
+		tip = "Normal",
+		key = "word_normal_junhe"
+	},
+	word_hard = {
+		tip = "Hard",
+		key = "word_hard"
+	},
+	tip_exchange_ticket = {
+		tip = "Would you like to exchange a Challenge Ticket for 1 additional Reward Sortie on the $1 stage?",
+		key = "tip_exchange_ticket"
+	},
+	dont_remind = {
+		tip = "Hide reminder ",
+		key = "dont_remind"
+	},
+	worldbossex_help = {
+		key = "worldbossex_help",
+		tip = {
+			{
+				info = [[
+<color=#FF5C5C>Notice</color>：
+1. The EX stage is challenging. You may press the
+“Practice” button to try it.
+2. Practice mode does not consume Oil, change ship 
+Morale, consume “Bonus Ticket,” count towards the 
+number of event sorties, or grant Contribution points.
+3. If you disconnect or quit while playing an EX stage, a 
+ “Bonus Ticket” will be consumed and you will not 
+receive any rewards. Please make sure your connection
+is stable before attempting an EX stage.
+4. “Bonus Tickets” can be exchanged for additional 
+“Reward Sorties” on any of the other three difficulties.
+ 5. The Contribution points earned on the EX stage 
+depends on the amount of damage dealt to the boss.
+]]
+			},
+			helpPos = {
+				y = 53.1
+			},
+			windowSize = {
+				y = 790
+			},
+			windowPos = {
+				y = -85.05
+			}
+		}
+	},
+	ship_formationUI_fleetName_easy = {
+		tip = "Easy",
+		key = "ship_formationUI_fleetName_easy"
+	},
+	ship_formationUI_fleetName_normal = {
+		tip = "Normal",
+		key = "ship_formationUI_fleetName_normal"
+	},
+	ship_formationUI_fleetName_hard = {
+		tip = "Hard",
+		key = "ship_formationUI_fleetName_hard"
+	},
+	ship_formationUI_fleetName_extra = {
+		tip = "EX",
+		key = "ship_formationUI_fleetName_extra"
+	},
+	ship_formationUI_fleetName_easy_ss = {
+		tip = "Sub Fleet - Easy",
+		key = "ship_formationUI_fleetName_easy_ss"
+	},
+	ship_formationUI_fleetName_normal_ss = {
+		tip = "Sub Fleet - Normal",
+		key = "ship_formationUI_fleetName_normal_ss"
+	},
+	ship_formationUI_fleetName_hard_ss = {
+		tip = "Sub Fleet - Hard",
+		key = "ship_formationUI_fleetName_hard_ss"
+	},
+	ship_formationUI_fleetName_extra_ss = {
+		tip = "Sub Fleet - EX",
+		key = "ship_formationUI_fleetName_extra_ss"
+	},
+	text_consume = {
+		tip = "Cancel ",
+		key = "text_consume"
+	},
+	text_inconsume = {
+		tip = "Exchange ",
+		key = "text_inconsume"
 	}
 }
 

@@ -1101,7 +1101,7 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"When assigned as the Staff Cat: increases the AVI and RDL of your CVs and CVLs by a small amount based on the Directives stat."
+				"When assigned as the Staff Cat: increases the AVI and RLD of your CVs and CVLs by a small amount based on the Directives stat."
 			},
 			{
 				2,
@@ -1126,7 +1126,7 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"When assigned as the Staff Cat: increases the AVI and RDL of your CVs and CVLs by a small amount based on the Directives stat."
+				"When assigned as the Staff Cat: increases the AVI and RLD of your CVs and CVLs by a small amount based on the Directives stat."
 			},
 			{
 				2,
@@ -1152,7 +1152,7 @@ pg.commander_skill_template = {
 		desc = {
 			{
 				1,
-				"When assigned as the Staff Cat: increases the AVI and RDL of your CVs and CVLs by a small amount based on the Directives stat."
+				"When assigned as the Staff Cat: increases the AVI and RLD of your CVs and CVLs by a small amount based on the Directives stat."
 			},
 			{
 				2,

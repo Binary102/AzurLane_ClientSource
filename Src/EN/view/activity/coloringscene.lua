@@ -6,9 +6,13 @@ slot0.Letters = {
 	"D",
 	"E",
 	"F",
-	"G"
+	"G",
+	"H"
 }
-slot0.PageNums = 8
+slot1 = 387
+slot2 = 467
+slot3 = 812.5
+slot4 = 1200
 
 function slot0.getUIName(slot0)
 	return "ColoringUI"
@@ -136,7 +140,7 @@ function slot0.initColoring(slot0)
 
 	slot0.selectedIndex = 0
 
-	triggerButton(slot0.paintsgroup[Mathf.Min(slot1, slot0.PageNums)], true)
+	triggerButton(slot0.paintsgroup[Mathf.Min(slot1, #slot0.paintsgroup)], true)
 
 	slot0.selectedColorIndex = 0
 
@@ -173,12 +177,12 @@ function slot0.initInteractive(slot0)
 
 			if slot0 then
 				if slot0.selectedColorIndex ~= slot2 + 1 then
-					slot1.sizeDelta.x = 487
+					slot1.sizeDelta.x = slot3
 					slot1.sizeDelta = slot1.sizeDelta
 					slot0.selectedColorIndex = slot2 + 1
 				end
 			else
-				slot1.sizeDelta.x = 387
+				slot1.sizeDelta.x = slot4
 				slot1.sizeDelta = slot1.sizeDelta
 			end
 		end, SFX_PANEL)
@@ -222,7 +226,7 @@ function slot0.updateSelectedColoring(slot0)
 	setActive(slot0.title.parent, slot1:getConfig("name") ~= nil)
 	setActive(slot0.barExtra, slot1:canBeCustomised())
 
-	slot0.scrollColor.sizeDelta.y = (slot1:canBeCustomised() and 812.5) or 1000
+	slot0.scrollColor.sizeDelta.y = (slot1:canBeCustomised() and slot0) or slot1
 	slot0.scrollColor.sizeDelta = slot0.scrollColor.sizeDelta
 	slot0.scrollColor:GetComponent(typeof(ScrollRect)).verticalNormalizedPosition = 1
 
@@ -451,7 +455,7 @@ function slot0.searchColoringCells(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.tryPlayStory(slot0)
-	if pg.gameset.coloring_story.description[slot0.selectedIndex] then
+	if nil then
 		pg.StoryMgr.GetInstance():Play(slot1)
 	end
 end

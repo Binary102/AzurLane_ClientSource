@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"与{namecode:93}共度的时光\n\n<size=45>四 不需要的东西……？</size>",
+					"Together with Souryuu\n\n<size=45>Chapter 4: Unnecessary Things...?</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·重樱宿舍",
+			say = "Port - Sakura Dorms",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "休息日，想着放松一下，回过神来，已经来到了{namecode:93}的宿舍——",
+			say = "On my day off, I once again found myself headed for Souryuu's room, looking to relax and recover.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指挥官，你也来找姐姐呀。",
+			say = "Did you need to see my sister?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			say = "指挥官，虽然休息日的使用方式是每个人的自由，不过希望您也能找到更有意义的事情去做。",
+			say = "Commander, though you're free to spend your day off however you please, I'd recommend you do something more worthwhile.",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -102,7 +102,7 @@ return {
 			withoutActorName = true,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "{namecode:93}一边说着，手上还在处理着昨天带回来整理的工作，不愧是秘书舰的楷模。",
+			say = "As she spoke, she was still working on documents that she had brought back from the office yesterday. Truly a model secretary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈…………",
+			say = "*sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我什么时候能也变得像姐姐一样就好了。",
+			say = "I wonder when I'll be able to help the Commander like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那你就要从现在开始好好学习。",
+			say = "If that's what you really want, you'd better start studying harder from now on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			actor = 307040,
 			nameColor = "#a9f548",
-			say = "不是啦，我是说，姐姐你投入工作时，看起来好漂亮啊，指挥官也这么想吧？",
+			say = "That's not what I meant... When you're working hard like this, you look really beautiful. Don't you think so too, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示理解",
+					content = "\"I agree.\"",
 					flag = 1
 				}
 			}
@@ -188,7 +188,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说什么傻话，怎么可能有这种事?",
+			say = "*sigh*... What are you talking about? There's nothing beautiful about this.?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，我也说不好啦，可能就是{namecode:91}前辈说的那个“女性的幸福”这样的？",
+			say = "Err, I dunno, I'm not so great with words... but Akagi said something about \"a woman's allure?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:94}，这种事作为舰队的一员是大家都应该做到的，我可不是只为了指挥官个人才帮忙的",
+			say = "Listen, Hiryuu. This is simply what is expected of every member of the fleet. My relationship with the Commander has nothing to do with this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这点和作为一名女性的幸福什么的，还有你平常说的什么女子力什么的可没有关系哦",
+			say = "This has nothing to do with a \"woman's allure\" or that \"girlishness\" thing that you're always talking about, understood?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			withoutActorName = true,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "{namecode:93}对这方面意外的很平淡呢…",
+			say = "Wow... Souryuu was being colder than usual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那会有什么让姐姐你也变得关心女子力吗？",
+			say = "Well, isn't there something that you'd want to do to improve your girlishness?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你这孩子，这么关心这个干什么……",
+			say = "What are you... why in the world would I want to do something like that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为我觉得姐姐很漂亮啊，虽然不近人情的姐姐也很棒，但是也想看到更多的姐姐呢。",
+			say = "Ah, um, hear me out! I really think you're beautiful, Souryuu, and that includes when you're being cold too. However, I sometimes want to see more aspects of your personality!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是个傻妹妹……",
+			say = "*sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过……是呢，说不定真的有呢，能让我改变想法的存在……",
+			say = "But... Hmm. There just might be a way to get me to change.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			actor = 307040,
 			nameColor = "#a9f548",
-			say = "咦，真的吗？！",
+			say = "Eh? Really?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示好奇",
+					content = "\"I'd like to know, too.\"",
 					flag = 1
 				}
 			}
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还说不好呢……",
+			say = "I wonder, what should I do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "似乎被{namecode:93}瞟了一眼，是错觉吗？",
+			say = "Was it just my imagination, or did Souryuu just steal a sideways glance at me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

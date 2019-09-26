@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"与{namecode:93}共度的时光\n\n<size=45>五 不变与变化（上）</size>",
+					"Together with Souryuu\n\n<size=45>Chapter 5 - Change (Pt. 1)</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "Port - Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "通过花札以及其他的交流，与{namecode:93}关系渐渐加深了",
+			say = "Recently, I feel like I've been able to talk to Souryuu about more and more things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不过，工作时的她依然严厉——",
+			say = "Of course, she was no less strict during work hours.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，请认真执行任务，绝对不要对奇怪的东西产生兴趣。",
+			say = "Commander, please do your work properly. Don't develop any strange ideas.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不过…",
+			say = "だが……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，有关下次演习的安排……",
+			say = "Commander, regarding the next naval exercise...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舰爆机的训练交给我吗？没有问题，其他的我也会妥善安排好。",
+			say = "You're entrusting the dive bomber training to me? Very well, no objections here. I'll sort out the other details as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "工作上，随着对{namecode:93}的了解加深，越发感受到她有多值得信赖",
+			say = "As much as I greatly appreciated Souryuu's assistance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是指挥官的日程安排，请过目。",
+			say = "This is your itinerary for the day. Please look over it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "总感觉受到{namecode:93}的影响，也开始不禁自觉努力起来了",
+			say = "It felt like I'd taken after her too much and started overworking myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是指挥官，只要好好做就能做出成果呢。",
+			say = "I knew you had it in you, Commander. Look what you've been able to accomplish with some focus and hard work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "像这样得到{namecode:93}称赞的次数也逐渐多了起来。",
+			say = "Of course, her praise quickly washed away any fatigue I otherwise might have felt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……官。",
+			say = "Com...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽然开始只想搞好关系，让她不那么严格……",
+			say = "Though at first I only wanted to improve our relationship so she wouldn't be so strict...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不过结果来说，似乎变成了自己习惯了她的节奏——",
+			say = "Before I knew it, I was starting to become a workaholic just like her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……挥官。",
+			say = "Comman...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "这样似乎也不坏…",
+			say = "I guess that's not such a bad thing though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "指挥官！",
+			say = "Commander!",
 			effects = {
 				{
 					active = true,
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "！！?",
+			say = "！",
 			effects = {
 				{
 					active = false,
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，您又在发什么呆呢。",
+			say = "Good grief, you should stop daydreaming like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "突然从{namecode:93}嘴里听到了一句想都没想过的话",
+			say = "I could hardly believe my ears when I heard what Souryuu said next.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			blackBg = true,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "那个，不知道您这个休息日有空吗？",
+			say = "By the way, would you like to go on a date this upcoming weekend?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

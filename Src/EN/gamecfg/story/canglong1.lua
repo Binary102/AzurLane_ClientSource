@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"与{namecode:93}共度的时光\n\n<size=45>一 自讨苦吃？</size>",
+					"Together with Souryuu\n\n<size=45>Chapter 1: Be Careful What You Wish For</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
-			say = "我是{namecode:93}，从今往后，指挥官在做奇怪的事情前，请务必跟我提交书面申请。",
+			say = "My name is Souryuu. Commander, from now on, please request my permission in writing before doing anything weird.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "初次见面的时候，就能感觉到她那种不假辞色的严肃。",
+			say = "Ever since we first met, I've always been drawn to her cold, dignified seriousness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "想着有她的辅佐或许能提高工作效率吧，于是试着任命她为秘书舰了一段时间……",
+			say = "Thinking that she might be able to help increase my work efficiency, I appointed her as my secretary to see how things would go...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "Port - Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "一早刚来到指挥室——",
+			say = "That morning, when I arrived at the office...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "早安，指挥官，公文已经准备好了，请开始批阅吧",
+			say = "Good morning, Commander. I have already sorted all your documents, so please begin reviewing them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,14 +145,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "一上来就毫不留情啊…………",
+			say = "Right away, I knew she had no intent on showing me any mercy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "向{namecode:93}搭话",
+					content = "Try to strike up some small talk with Souryuu.",
 					flag = 1
 				}
 			}
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，在工作期间请不要随便和我搭话，今天要完成的工作还有很多呢",
+			say = "Commander, please refrain from idle chatter while you're working. There's a lot to get through today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "得到了冷淡的回应。",
+			say = "I was rebuked coldly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "…有点累了，要不要稍微放松一下——",
+			say = "... I'm getting a bit tired. Maybe it's time to take a break...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，我的飞机已经全方位锁定您了……",
+			say = "Commander, all my planes have already locked onto you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "工作时间请麻烦好·好·工·作。",
+			say = "During work hours, please make sure that you're actually working.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			}
 		},
 		{
-			say = "头上传来了嗡嗡的声音，有点可怕……",
+			say = "I heard the churning engines of aircraft circling above my head... How terrifying...",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "嗯…有种搬起石头砸了自己的脚的感觉。",
+			say = "My attempts to strike up friendly conversation with Souryuu had backfired spectacularly.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不过，在{namecode:93}的督促，工作效率大大提高了也是事实",
+			say = "Nevertheless, under her watchful eye, my productivity had undeniably skyrocketed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "能不能和她搞好关系，让她对自己稍微宽容一些呢？",
+			say = "Would I be able to convince her to be a little more easygoing if we were on better terms?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，您又在假装看公文一边想奇怪的事情了吧？",
+			say = "Commander, surely you aren't daydreaming about weird things while pretending to read your documents?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "……总之，先好好工作吧！",
+			say = "... I guess I have no choice but to focus on the work in front of me first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -116,9 +116,20 @@ function slot0.init(slot0)
 	slot0._conditionContainer = slot0:findTF("bg16/list", slot0._conditions)
 	slot0._conditionTpl = slot0:findTF("bg16/conditionTpl", slot0._conditions)
 	slot0._conditionSubTpl = slot0:findTF("bg16/conditionSubTpl", slot0._conditions)
+	slot0._conditionContributeTpl = slot0:findTF("bg16/conditionContributeTpl", slot0._conditions)
+	slot0._conditionBGNormal = slot0:findTF("bg16/bg_normal", slot0._conditions)
+	slot0._conditionBGContribute = slot0:findTF("bg16/bg_contribute", slot0._conditions)
 	slot0._cmdExp = slot0:findTF("commanderExp", slot0._leftPanel)
 	slot0._cmdContainer = slot0:findTF("commander_container", slot0._cmdExp)
 	slot0._cmdTpl = slot0:findTF("commander_tpl", slot0._cmdExp)
+
+	slot0:setGradeLabel()
+	SetActive(slot0._levelText, false)
+
+	slot0._delayLeanList = {}
+end
+
+function slot0.setGradeLabel(slot0)
 	slot1 = {
 		"d",
 		"c",
@@ -151,9 +162,6 @@ function slot0.init(slot0)
 
 	LoadImageSpriteAsync(slot4, slot2, false)
 	LoadImageSpriteAsync(slot5, slot3, false)
-	SetActive(slot0._levelText, false)
-
-	slot0._delayLeanList = {}
 end
 
 function slot0.displayerCommanders(slot0, slot1)
@@ -433,7 +441,7 @@ function slot0.displayShips(slot0)
 	end
 
 	slot4, slot5 = nil
-	slot5 = (slot3.mvpShipID == 0 or slot3[slot3.mvpShipID].output) and 0
+	slot5 = (not slot3.mvpShipID or slot3.mvpShipID == 0 or slot3[slot3.mvpShipID].output) and 0
 	slot0._atkFuncs = {}
 	slot0._commonAtkTplList = {}
 	slot0._subAtkTplList = {}

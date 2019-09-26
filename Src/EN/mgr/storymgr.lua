@@ -2786,9 +2786,11 @@ function slot17(slot0, slot1)
 		slot10 = slot5.Find
 		slot12 = "Text"
 		slot10 = slot10(slot11, slot12)
-		slot11 = slot6
+		slot11 = HXSet
+		slot11 = slot11.hxLan
+		slot12 = slot6
 
-		slot9(slot10, slot11)
+		slot9(slot10, slot11(slot12))
 
 		slot9 = slot1.withoutPainting
 
@@ -3513,9 +3515,11 @@ function slot17(slot0, slot1)
 			slot8 = slot5.Find
 			slot10 = "Text"
 			slot8 = slot8(slot9, slot10)
-			slot9 = slot6
+			slot9 = HXSet
+			slot9 = slot9.hxLan
+			slot10 = slot6
 
-			slot7(slot8, slot9)
+			slot7(slot8, slot9(slot10))
 		end
 	end
 

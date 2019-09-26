@@ -130,7 +130,11 @@ end
 
 function slot0.buildFinishComeback(slot0)
 	if table.getCount(getProxy(BuildShipProxy):getData()) == 0 and slot0.viewComponent then
-		triggerToggle(slot0.viewComponent.toggles[BuildShipScene.PAGE_BUILD], true)
+		if (BuildShip.getPageFromPoolType(slot1:getLastBuildShipPoolType()) or BuildShipScene.PAGE_BUILD) == BuildShipScene.PAGE_PRAY and (not getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_PRAY_POOL) or slot3:isEnd()) then
+			slot2 = BuildShipScene.PAGE_BUILD
+		end
+
+		triggerToggle(slot0.viewComponent.toggles[slot2], true)
 	end
 end
 

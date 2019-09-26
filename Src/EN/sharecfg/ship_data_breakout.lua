@@ -6643,6 +6643,65 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[201251] = {
+		use_gold = 300,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 20125,
+		breakout_id = 201252,
+		breakout_view = "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		id = 201251,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			71071
+		}
+	},
+	[201252] = {
+		use_gold = 800,
+		pre_id = 201251,
+		use_char_num = 1,
+		use_char = 20125,
+		breakout_id = 201253,
+		breakout_view = "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+		id = 201252,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			108,
+			108
+		}
+	},
+	[201253] = {
+		use_gold = 1500,
+		pre_id = 201252,
+		use_char_num = 2,
+		use_char = 20125,
+		breakout_id = 201254,
+		breakout_view = "Improve All Out Assault/All weapons' efficiency +5%",
+		id = 201253,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			71072
+		}
+	},
+	[201254] = {
+		use_gold = 0,
+		pre_id = 201253,
+		use_char_num = 0,
+		use_char = 20125,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 201254,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[201261] = {
 		use_gold = 500,
 		pre_id = 0,
@@ -20538,6 +20597,10 @@ pg.ship_data_breakout = {
 		201242,
 		201243,
 		201244,
+		201251,
+		201252,
+		201253,
+		201254,
 		201261,
 		201262,
 		201263,

@@ -10209,7 +10209,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3140] = {
-		name = "改良蓄电池阵列",
+		name = "Improved Storage Battery ",
 		type = 10,
 		id = 3140,
 		tech = 0,
@@ -10226,7 +10226,7 @@ pg.equip_data_statistics = {
 		scatter = "N/A",
 		is_siren = 0,
 		ammo = "N/A",
-		descrip = "Equipment that allows submarines to take in air while underwater. ",
+		descrip = "An improved battery type. Increases submarine ASR. ",
 		value_3 = 0,
 		attribute_1 = "dodge",
 		torpedo_ammo = 0,
@@ -10329,6 +10329,249 @@ pg.equip_data_statistics = {
 		skill_id = {
 			6291
 		},
+		property_rate = {}
+	},
+	[3200] = {
+		name = "VH Armor Plating ",
+		type = 10,
+		id = 3200,
+		tech = 0,
+		nationality = 3,
+		speciality = "N/A",
+		range = 0,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "3200",
+		value_1 = "350",
+		angle = 0,
+		avoid_extra = 0,
+		rarity = 5,
+		scatter = "N/A",
+		is_siren = 0,
+		ammo = "N/A",
+		descrip = "A newer type of armor plating designed to be more durable and easier to produce. The cementing process was eliminated in favor of new carburizing techniques. ",
+		value_3 = 0,
+		attribute_1 = "durability",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6460
+		},
+		part_main = {
+			4,
+			5,
+			7,
+			10,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[3201] = {
+		id = 3201,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "380",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3202] = {
+		id = 3202,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "410",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3203] = {
+		id = 3203,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "440",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3204] = {
+		id = 3204,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "470",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3205] = {
+		id = 3205,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "500",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3206] = {
+		id = 3206,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "530",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3207] = {
+		id = 3207,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "560",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3208] = {
+		id = 3208,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "590",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3209] = {
+		id = 3209,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "620",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3210] = {
+		id = 3210,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "650",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3220] = {
+		name = "VC Armor Plating ",
+		type = 10,
+		id = 3220,
+		tech = 0,
+		nationality = 3,
+		speciality = "N/A",
+		range = 0,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "3220",
+		value_1 = "220",
+		angle = 0,
+		avoid_extra = 0,
+		rarity = 4,
+		scatter = "N/A",
+		is_siren = 0,
+		ammo = "N/A",
+		descrip = "Armor plating formed with Royal Navy craftsmanship. It was often used to protect the main armor belt of battleships. ",
+		value_3 = 0,
+		attribute_1 = "durability",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6470
+		},
+		part_main = {
+			4,
+			5,
+			7,
+			10,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[3221] = {
+		id = 3221,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "250",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3222] = {
+		id = 3222,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "280",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3223] = {
+		id = 3223,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "310",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3224] = {
+		id = 3224,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "340",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3225] = {
+		id = 3225,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "370",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3226] = {
+		id = 3226,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "400",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3227] = {
+		id = 3227,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "430",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3228] = {
+		id = 3228,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "460",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3229] = {
+		id = 3229,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "490",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3230] = {
+		id = 3230,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "520",
+		torpedo_ammo = 0,
+		equip_parameters = {},
 		property_rate = {}
 	},
 	[4000] = {
@@ -14773,7 +15016,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -16933,7 +17177,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -17008,7 +17253,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -17083,7 +17329,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -17192,7 +17439,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -17267,7 +17515,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -17376,7 +17625,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -28449,7 +28699,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -28524,7 +28775,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -28633,7 +28885,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -32661,7 +32914,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26620] = {
-		name = "双联装40mm博福斯海兹梅耶",
+		name = "Twin 40mm Bofors \"Hazemeyer\" AA Gun ",
 		speciality = "Anti-Air",
 		tech = 0,
 		type = 6,
@@ -38750,7 +39003,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -38825,7 +39079,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -38934,7 +39189,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -39087,7 +39343,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -50330,7 +50587,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -50439,7 +50697,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -50592,7 +50851,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -50745,7 +51005,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -50898,7 +51159,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -50974,7 +51236,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -51083,7 +51346,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -68252,7 +68516,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -68360,7 +68625,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -68513,7 +68779,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -68666,7 +68933,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -68741,7 +69009,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -68850,7 +69119,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -70922,6 +71192,28 @@ pg.equip_data_statistics = {
 		3148,
 		3149,
 		3150,
+		3200,
+		3201,
+		3202,
+		3203,
+		3204,
+		3205,
+		3206,
+		3207,
+		3208,
+		3209,
+		3210,
+		3220,
+		3221,
+		3222,
+		3223,
+		3224,
+		3225,
+		3226,
+		3227,
+		3228,
+		3229,
+		3230,
 		4000,
 		4001,
 		4002,

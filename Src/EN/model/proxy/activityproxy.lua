@@ -51,6 +51,10 @@ function slot0.register(slot0)
 		if slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST_MONITOR) and not slot2:isEnd() and slot2.data1 == 0 then
 			slot0:monitorTaskList(slot2)
 		end
+
+		if slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) and not slot3:isEnd() then
+			slot0:InitActivityBossData(slot0.data[slot3.id])
+		end
 	end)
 	slot0:on(11201, function (slot0)
 		if not slot0.data[Activity.New(slot0.activity_info).id] then
@@ -437,6 +441,25 @@ function slot0.GetVoteActivity(slot0)
 	for slot5, slot6 in ipairs(slot1) do
 		if slot6:getConfig("config_id") ~= 6 then
 			return slot6
+		end
+	end
+
+	return
+end
+
+function slot0.InitActivityBossData(slot0, slot1)
+	if not pg.activity_event_worldboss[slot1:getConfig("config_id")] then
+		return
+	end
+
+	slot3 = slot1.data1KeyValueList
+	slot4 = pairs
+	slot5 = slot2.normal_expedition_drop_num or {}
+
+	for slot7, slot8 in slot4(slot5) do
+		for slot12, slot13 in pairs(slot8[1]) do
+			slot3[1][slot13] = math.max(slot8[2] - (slot3[1][slot13] or 0), 0)
+			slot3[2][slot13] = slot3[2][slot13] or 0
 		end
 	end
 

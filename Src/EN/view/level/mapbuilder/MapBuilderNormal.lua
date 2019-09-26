@@ -121,23 +121,12 @@ function slot1.UpdateMapItem(slot0, slot1, slot2, slot3)
 
 		slot0.mapItemTimer[slot1]:Start()
 		slot8()
-
-		slot9 = findTF(slot6, "fighting")
-		slot10 = GetOrAddComponent(slot9, "CanvasGroup")
-
 		setText(findTF(slot9, "Text"), i18n("tag_level_fighting"))
-
-		slot11 = findTF(slot6, "oni")
-		slot12 = GetOrAddComponent(slot9, "CanvasGroup")
-
-		setText(findTF(slot11, "Text"), i18n("tag_level_oni"))
-
-		slot14 = GetOrAddComponent(slot11, "CanvasGroup")
-
-		setText(findTF(slot13, "Text"), i18n("tag_level_narrative"))
+		setText(findTF(slot10, "Text"), i18n("tag_level_oni"))
+		setText(findTF(slot11, "Text"), i18n("tag_level_narrative"))
 		setActive(slot9, false)
+		setActive(slot10, false)
 		setActive(slot11, false)
-		setActive(slot13, false)
 		slot0:DeleteTween("fighting" .. slot2.id)
 
 		slot6:GetComponent("Animator").enabled = true
@@ -148,48 +137,31 @@ function slot1.UpdateMapItem(slot0, slot1, slot2, slot3)
 
 			if slot1:getConfig("chapter_tag") == 1 then
 				slot1 = slot2
-				slot2 = slot3
 			end
 
-			if slot1.active then
-				slot2 = slot5
-
-				if slot1:existOni() then
-					slot1 = slot6
-					slot2 = slot7
-				end
+			if slot1.active and slot1:existOni() then
+				slot1 = slot4
 			end
 
 			if slot1 then
 				setActive(slot1, true)
 
-				slot2.alpha = 1
+				GetOrAddComponent(slot1, "CanvasGroup").alpha = 1
 
-				slot8:RecordTween("fighting" .. slot1.id, LeanTween.alphaCanvas(slot2, 0, 0.5):setFrom(1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong().uniqueId)
+				slot5:RecordTween("fighting" .. slot1.id, LeanTween.alphaCanvas(slot2, 0, 0.5):setFrom(1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong().uniqueId)
 			end
 		end)
 	else
 		setActive(slot5, true)
 		setActive(slot6, false)
-
-		slot8 = findTF(slot5, "info/bk/fordark")
-
 		setActive(findTF(slot5, "circle/fordark"), slot4.icon_outline == 1)
-		setActive(slot8, slot4.icon_outline == 1)
+		setActive(findTF(slot5, "info/bk/fordark"), slot4.icon_outline == 1)
 
 		slot9 = findTF(slot5, "circle/clear_flag")
-		slot11 = GetOrAddComponent(slot8, "CanvasGroup")
 
-		setText(findTF(slot8, "Text"), i18n("tag_level_fighting"))
-
-		slot12 = findTF(slot5, "circle/oni")
-		slot13 = GetOrAddComponent(slot12, "CanvasGroup")
-
-		setText(findTF(slot12, "Text"), i18n("tag_level_oni"))
-
-		slot15 = GetOrAddComponent(slot12, "CanvasGroup")
-
-		setText(findTF(slot14, "Text"), i18n("tag_level_narrative"))
+		setText(findTF(findTF(slot5, "info/bk/fordark"), "Text"), i18n("tag_level_fighting"))
+		setText(findTF(slot4.icon_outline == 1, "Text"), i18n("tag_level_oni"))
+		setText(findTF(slot12, "Text"), i18n("tag_level_narrative"))
 		setText(findTF(slot5, "info/bk/title_form/title_index"), slot4.chapter_name .. "  ")
 		setText(findTF(slot5, "info/bk/title_form/title"), string.split(slot4.name, "|")[1])
 		setText(findTF(slot5, "info/bk/title_form/title_en"), string.split(slot4.name, "|")[2] or "")
@@ -198,62 +170,59 @@ function slot1.UpdateMapItem(slot0, slot1, slot2, slot3)
 		setActive(findTF(slot5, "circle/stars"), slot2:existAchieve())
 
 		if slot2:existAchieve() then
-			for slot23, slot24 in ipairs(slot2.achieves) do
-				setActive(slot18:Find("star" .. slot23 .. "/light"), ChapterConst.IsAchieved(slot24))
+			for slot20, slot21 in ipairs(slot2.achieves) do
+				setActive(slot15:Find("star" .. slot20 .. "/light"), ChapterConst.IsAchieved(slot21))
 			end
 		end
 
 		slot0:DeleteTween("fighting" .. slot2.id)
 		setActive(slot10, false)
+		setActive(slot11, false)
 		setActive(slot12, false)
-		setActive(slot14, false)
 		setActive(slot9, false)
-		setActive(slot17, true)
+		setActive(slot14, true)
 
 		if not slot2:isUnlock() and not slot2:activeAlways() then
 			setActive(slot5, false)
 		else
 			setActive(slot5, true)
 
-			slot20, slot21 = nil
+			slot17, slot18 = nil
 
 			if slot2:getConfig("chapter_tag") == 1 then
-				slot20 = slot14
-				slot21 = slot15
+				slot17 = slot12
 			end
 
 			if slot2.active then
-				slot20 = slot10
-				slot21 = slot11
+				slot17 = slot10
 
 				if slot2:existOni() then
-					slot20 = slot12
-					slot21 = slot13
+					slot17 = slot11
 				end
 			elseif slot2:isClear() then
 				setActive(slot9, true)
-				setActive(slot17, false)
+				setActive(slot14, false)
 			end
 
-			if slot20 then
-				setActive(slot20, true)
+			if slot17 then
+				setActive(slot17, true)
 
-				slot21.alpha = 1
+				GetOrAddComponent(slot17, "CanvasGroup").alpha = 1
 
-				slot0:RecordTween("fighting" .. slot2.id, LeanTween.alphaCanvas(slot21, 0, 0.5):setFrom(1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong().uniqueId)
+				slot0:RecordTween("fighting" .. slot2.id, LeanTween.alphaCanvas(slot18, 0, 0.5):setFrom(1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong().uniqueId)
 			end
 		end
 
-		setActive(slot20, false)
+		setActive(slot17, false)
 
-		slot23 = findTF(slot5, "circle")
+		slot20 = findTF(slot5, "circle")
 
-		LeanTween.cancel(go(slot23))
+		LeanTween.cancel(go(slot20))
 
-		slot23.localScale = Vector3.zero
+		slot20.localScale = Vector3.zero
 
-		LeanTween.scale(slot23, Vector3(1, 1, 1), 0.2):setDelay(0.3)
-		setAnchoredPosition(slot24, {
+		LeanTween.scale(slot20, Vector3(1, 1, 1), 0.2):setDelay(0.3)
+		setAnchoredPosition(slot21, {
 			x = -1 * slot5:Find("info").rect.width
 		})
 		shiftPanel(findTF(slot5, "info/bk"), 0, nil, 0.4, 0.4, true, true, nil, function ()
@@ -267,34 +236,34 @@ function slot1.UpdateMapItem(slot0, slot1, slot2, slot3)
 		end)
 
 		if slot2:isTriesLimit() then
-			slot25 = slot2:getConfig("count")
+			slot22 = slot2:getConfig("count")
 
-			setText(slot20:Find("label"), i18n("levelScene_chapter_count_tip"))
-			setText(slot20:Find("Text"), setColorStr(slot25 - slot2:getTodayDefeatCount() .. "/" .. slot25, (slot25 <= slot2:getTodayDefeatCount() and COLOR_RED) or COLOR_GREEN))
+			setText(slot17:Find("label"), i18n("levelScene_chapter_count_tip"))
+			setText(slot17:Find("Text"), setColorStr(slot22 - slot2:getTodayDefeatCount() .. "/" .. slot22, (slot22 <= slot2:getTodayDefeatCount() and COLOR_RED) or COLOR_GREEN))
 		end
 
-		slot26 = 0
+		slot23 = 0
 
-		for slot30, slot31 in ipairs(slot25) do
-			slot26 = math.max(slot26, (pg.expedition_activity_template[slot31] and slot32.bonus_time) or 0)
+		for slot27, slot28 in ipairs(slot22) do
+			slot23 = math.max(slot23, (pg.expedition_activity_template[slot28] and slot29.bonus_time) or 0)
 		end
 
 		if pg.chapter_defense[slot2.id] then
-			slot26 = math.max(slot26, slot27.bonus_time or 0)
+			slot23 = math.max(slot23, slot24.bonus_time or 0)
 		end
 
-		slot28 = findTF(slot5, "mark")
-		slot31 = slot2:getOniChapterInfo()
+		slot25 = findTF(slot5, "mark")
+		slot28 = slot2:getOniChapterInfo()
 
-		setActive(slot28:Find("bonus"), not slot0.data:isRemaster() and slot26 > 0 and math.max(slot26 - slot2.todayDefeatCount, 0) > 0)
-		setActive(slot28, not slot0.data.isRemaster() and slot26 > 0 and math.max(slot26 - slot2.todayDefeatCount, 0) > 0)
+		setActive(slot25:Find("bonus"), not slot0.data:isRemaster() and slot23 > 0 and math.max(slot23 - slot2.todayDefeatCount, 0) > 0)
+		setActive(slot25, not slot0.data.isRemaster() and slot23 > 0 and math.max(slot23 - slot2.todayDefeatCount, 0) > 0)
 
-		if slot30 then
-			slot33 = slot28.anchoredPosition.y
-			slot28:GetComponent(typeof(CanvasGroup)).alpha = 0
+		if slot27 then
+			slot30 = slot25.anchoredPosition.y
+			slot25:GetComponent(typeof(CanvasGroup)).alpha = 0
 
-			LeanTween.cancel(go(slot28))
-			LeanTween.value(go(slot28), 0, 1, 0.2):setOnUpdate(System.Action_float(function (slot0)
+			LeanTween.cancel(go(slot25))
+			LeanTween.value(go(slot25), 0, 1, 0.2):setOnUpdate(System.Action_float(function (slot0)
 				slot0.alpha = slot0
 				slot0.anchoredPosition.y = slot2 * slot0
 				slot0.anchoredPosition.anchoredPosition = slot0.anchoredPosition

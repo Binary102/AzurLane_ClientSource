@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"与{namecode:93}共度的时光\n\n<size=45>二 教教我，{namecode:93}老师！</size>",
+					"Together with Souryuu\n\n<size=45>Chapter 2: Instruct Me, Souryuu!</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "听说{namecode:93}好像喜欢花札的样子，就从花札入手吧！",
+			say = "I heard that Souryuu's hobby was playing hanafuda, so I decided to learn it as a way of finding some common ground with her.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·重樱宿舍",
+			say = "Port - Sakura Dorms",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……那么，今天我们要讲的是桶狭间之战。",
+			say = "... Today, we'll be going over the Battle of Okehazama.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			say = "哦……终于到了这场决定性的战役了！",
+			say = "Hmm... At last, the great battle that led to the country's unification!",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "在那时，今川家还是称霸东海道的……咦，这不是指挥官吗？",
+			say = "At that time, the Imagawa clan had a numbers advantage... Oh my, Commander. What brings you here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问在做什么",
+					content = "Ask what she is doing.",
 					flag = 1
 				}
 			}
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一看就知道了吧，是历史课。",
+			say = "Isn't it obvious? It's a history lesson!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，{namecode:142}想要进一步了解战国时代，就由我来给她上课。",
+			say = "Indeed. Urakaze wants to deepen her understanding of the Sengoku period, so I'm giving her a lesson.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官要是有兴趣的话，也可以来听一听。",
+			say = "Commander, you're welcome to join if you're interested.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			withoutActorName = true,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "那就听一听吧。",
+			say = "I suppose it wouldn't hurt to listen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "……信长的奇袭竟然直取了义元的首级，这是谁也没想到的。",
+			say = "... Nobody could have foreseen that Imagawa Yoshimoto would be slain by Nobunaga's attack.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "以这一战为契机，织田氏……——",
+			say = "In the aftermath of the battle, the Oda clan...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "今天的课就上到这里了。",
+			say = "... All right, that concludes today's lesson.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "不愧是{namecode:93}，讲解的十分简洁明了，而且面面俱到。",
+			say = "Amazing... Souryuu's lesson was informative, but also very easy to follow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			actor = 301590,
 			nameColor = "#a9f548",
-			say = "嗯嗯……原来如此，谢谢{namecode:93}老师！",
+			say = "Hm, hm... I see! Thank you very much, teacher!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之后{namecode:143}她们的课程也麻烦你了。",
+			say = "Teach us something else next!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯。",
+			say = "Of course. It would be my pleasure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "其他课程……总觉得{namecode:93}好像什么都知道的样子。",
+			say = "Something else...? I was beginning to think that Souryuu knew everything...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，想什么都写在脸上了……这是一名副官应该有的素养。",
+			say = "Commander, your thoughts are written all over your face... This is simply part of a secretary's duties.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "话说回来，您来找我有什么事吗？",
+			say = "Now, did you need something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			},
 			options = {
 				{
-					content = "说明来意",
+					content = "\"Could you teach me hanafuda?\"",
 					flag = 1
 				}
 			}
@@ -407,7 +407,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "学习花札？您为什么突然对这个感兴趣？",
+			say = "You want to learn hanafuda? Why the sudden interest...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，要是真的想学，我自然不介意……",
+			say = "However, if you are genuinely interested in learning, I wouldn't mind teaching you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "于是，向{namecode:93}学习了花札。",
+			say = "And thus, I began to learn hanafuda from Souryuu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

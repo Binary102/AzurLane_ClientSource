@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"与{namecode:93}共度的时光\n\n<size=45>六 不变与变化（中）</size>",
+					"Together with Souryuu\n\n<size=45>Chapter 6: Change (Pt. 2)</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			blackBg = true,
 			bgm = "story-1",
-			say = "港区·广场 ",
+			say = "Port - Plaza ",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,7 +52,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，抱歉，没让你久等吧？",
+			say = "My apologies, Commander. I didn't keep you waiting, did I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "虽然有些突然，事情突然演变成了和{namecode:93}的约会",
+			say = "I wasn't quite sure what happened, but somehow I ended up on a date(?) with Souryuu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,37 +78,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为是第一次和别人约会，我也不是很清楚该怎么做好……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 307030,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "不过，我已经按照指挥官的喜好选定了几个地方。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_school",
-			dir = 1,
-			say = "不愧是{namecode:93}，准备万全",
+			say = "This is my first time going out like this, so I'm not sure what we should do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +94,37 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就让我们出发吧。",
+			say = "But, I've already picked out some spots to go to based upon your preferences.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_school",
+			dir = 1,
+			say = "It almost felt as if Souryuu was going to take me on a guided tour.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307030,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Shall we get going?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "我们就买这些，{namecode:20}，麻烦你包装一下。",
+			say = "Akashi, here's what we'd like to buy. Shiranui, would you mind bagging everything for us?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……好。",
+			say = "Sure...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欢迎……再次光临喵……",
+			say = "Thank you for your patronyage. H-hope to see you next time, nya...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在不可思议的目光中，和{namecode:93}离开了店铺。",
+			say = "We walked out of the shop with two incredulous gazes following us the entire time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			actor = 307040,
 			nameColor = "#a9f548",
-			say = "啊，姐……姐？！",
+			say = "S-Souryuu?! Is that you...?!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -253,7 +253,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:94}，怎么了？",
+			say = "Good day, Hiryuu. Is something the matter?",
 			side = 1,
 			bgName = "star_level_bg_105",
 			dir = 1,
@@ -278,7 +278,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没、没事，但是姐姐，你，难道说……",
+			say = "Ah, um, I'm fine. Souryuu, you're...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我正打算和指挥官一起去港口看看呢。",
+			say = "Indeed. I'm planning to head into town with Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦、哦……",
+			say = "I-I see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			say = "也不是不能理解大家的惊讶呢……毕竟{namecode:93}从出发的时候就一直挽着自己的手臂……",
+			say = "I can understand why everyone might be a bit bewildered... After all, Souryuu has had her arm entwined around mine ever since we left.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "让你准备这一顿晚餐真是不好意思呢，{namecode:71}。",
+			say = "I apologize for dumping dinner duties on you like this, Hiei.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -369,7 +369,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "举手之劳，那么，二位慢用。",
+			say = "Don't worry about me. Just have a good time together, you two.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "{namecode:71}带着毫不掩饰的笑容离开了。",
+			say = "Hiei slipped out of the room with a knowing grin on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			actor = 307030,
 			nameColor = "#a9f548",
-			say = "指挥官，这一天的约会你还满意吗？",
+			say = "Commander, have you been enjoying today's date so far?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,11 +406,11 @@ return {
 			},
 			options = {
 				{
-					content = "满意",
+					content = "Nod.",
 					flag = 1
 				},
 				{
-					content = "十分满意",
+					content = "Nod vigorously.",
 					flag = 2
 				}
 			}
@@ -421,7 +421,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，那就好。",
+			say = "Hehe... I'm glad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			say = "但是……为什么{namecode:93}会忽然来邀请约会呢？",
+			say = "But now I wondered... why did she even ask me out in the first place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

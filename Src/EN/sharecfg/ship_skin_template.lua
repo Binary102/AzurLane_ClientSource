@@ -4771,6 +4771,108 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[101351] = {
+		ship_group = 10135,
+		name = "Gorgeous Speed-star",
+		bullet_skin_main = "",
+		desc = "Ahaha~! Are you seeing this, Commander? This sturdiness, this gorgeous paint job, and these special accessories hand-picked by yours truly! Muahaha! I am the true speed-star of this port!",
+		illustrator2 = -1,
+		id = 101351,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "beiqi_2",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "118",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "beiqi_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70246,
+		voice_actor = 204,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.018,
+					0.921,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.993,
+					0.918,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.25,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101360] = {
 		ship_group = 10136,
 		name = "Hobby ",
@@ -7627,12 +7729,13 @@ pg.ship_skin_template = {
 		shop_type_id = 9,
 		hand_id = 13,
 		lip_smoothing = 0,
-		bg = "105",
+		bg = "118",
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
 		prefab = "kelifulan_4",
+		l2d_se = "",
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70211,
@@ -7643,6 +7746,7 @@ pg.ship_skin_template = {
 		l2d_para_range = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
+		l2d_voice_calibrate = "",
 		tag = {
 			2
 		},
@@ -7676,29 +7780,29 @@ pg.ship_skin_template = {
 		bound_bone = {
 			cannon = {
 				{
-					1.11,
-					1.34,
+					1.127,
+					0.986,
 					0
 				}
 			},
 			vicegun = {
 				{
-					1.15,
-					1.27,
+					1.103,
+					0.955,
 					0
 				}
 			},
 			torpedo = {
 				{
-					0.22,
-					0.18,
+					0.012,
+					0.024,
 					0
 				}
 			},
 			antiaircraft = {
 				{
-					-0.17,
-					1.26,
+					1.051,
+					0.947,
 					0
 				}
 			}
@@ -7731,24 +7835,6 @@ pg.ship_skin_template = {
 			"mail",
 			"touch_body",
 			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			propose = 2.5,
-			touch2 = 2.467
-		},
-		l2d_se = {
-			main_1 = {
-				"finger",
-				2.1
-			},
-			home = {
-				"finger",
-				4.35
-			},
-			login = {
-				"finger",
-				2.27
-			}
 		}
 	},
 	[102098] = {
@@ -16752,7 +16838,7 @@ pg.ship_skin_template = {
 		hand_id = 1,
 		lip_smoothing = 0,
 		l2d_animations = "",
-		bg = "105",
+		bg = "118",
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -16803,15 +16889,15 @@ pg.ship_skin_template = {
 		bound_bone = {
 			antiaircraft = {
 				{
-					1.01,
-					1.38,
+					0.949,
+					1.064,
 					0
 				}
 			},
 			plane = {
 				{
-					1.01,
-					1.38,
+					0.913,
+					1.087,
 					0
 				}
 			}
@@ -17292,6 +17378,101 @@ pg.ship_skin_template = {
 				{
 					1.09,
 					1.32,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.37,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[107091] = {
+		ship_group = 10709,
+		name = "A Trip Down Route 66",
+		bullet_skin_main = "",
+		desc = "I'm not trying to go anywhere in particular; I just want to enjoy the scenery along the way. Commander, let's go experience the thrills of the road together.",
+		illustrator2 = -1,
+		id = 107091,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "aisaikesi_3",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "118",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "aisaikesi_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70245,
+		voice_actor = 149,
+		air_bomb_skin = "",
+		illustrator = 8,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.93,
+					1.151,
+					0
+				}
+			},
+			plane = {
+				{
+					0.906,
+					1.168,
 					0
 				}
 			}
@@ -22717,6 +22898,222 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[201241] = {
+		ship_group = 20124,
+		name = "Fanclub Sleepover",
+		bullet_skin_main = "",
+		desc = "Good evening, Commander. There's a new show on the telly. You want to watch with me?",
+		illustrator2 = -1,
+		id = 201241,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "qiubite_2",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "109",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "qiubite_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 102,
+		air_bomb_skin = "",
+		illustrator = 40,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.963,
+					0.745,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.001,
+					0.726,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.09,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.936,
+					0.79,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.271,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201250] = {
+		ship_group = 20125,
+		name = "Jersey",
+		bullet_skin_main = "",
+		desc = "J-class destroyer – Jersey, Hull Number F72!",
+		illustrator2 = -1,
+		id = 201250,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "zexi",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "zexi",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 177,
+		air_bomb_skin = "",
+		illustrator = 40,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.84,
+					0.74,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.84,
+					0.74,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.23,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.84,
+					0.74,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.32,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[201260] = {
 		ship_group = 20126,
 		name = "Matchless",
@@ -25863,6 +26260,115 @@ pg.ship_skin_template = {
 						"smoke",
 						{
 							-0.71,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202172] = {
+		ship_group = 20217,
+		name = "Highway Star",
+		bullet_skin_main = "",
+		desc = "Look, Boss, this is the new bike that Akashi sent me. She said she wanted me to be her brand ambassador... Doesn't that job sound badass?",
+		illustrator2 = -1,
+		id = 202172,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "yamaijia_3",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		hand_id = 16,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "118",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yamaijia_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70247,
+		voice_actor = 93,
+		air_bomb_skin = "",
+		illustrator = 6,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.816,
+					1.118,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.822,
+					1.139,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.021,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.798,
+					1.188,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.468,
 							2.24,
 							0
 						}
@@ -35006,6 +35512,115 @@ pg.ship_skin_template = {
 						{
 							-0.416,
 							2.325,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301092] = {
+		ship_group = 30109,
+		name = "Motoninja Akatsuki",
+		bullet_skin_main = "",
+		desc = "What do you think, Commander? I have a brand new outfit and a brand new companion! I am no longer a plain old ninja... I am now a motoninja!",
+		illustrator2 = -1,
+		id = 301092,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "xiao_3",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		hand_id = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "118",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "xiao_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70248,
+		voice_actor = 24,
+		air_bomb_skin = "",
+		illustrator = 2,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.685,
+					0.982,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.723,
+					0.99,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.006,
+					0.017,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.731,
+					0.95,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.58,
+							2.39,
 							0
 						}
 					}
@@ -52481,6 +53096,99 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[307039] = {
+		ship_group = 30703,
+		name = "Souryuu (Retrofit) ",
+		bullet_skin_main = "",
+		desc = "If I can become stronger through this... Commander, what are you staring at? Don't you still have work to do? ",
+		illustrator2 = -1,
+		id = 307039,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "canglong_g",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "canglong_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 15,
+		air_bomb_skin = "",
+		illustrator = 12,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.78,
+					0.969,
+					0
+				}
+			},
+			plane = {
+				{
+					1.14,
+					2.32,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.36,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[307040] = {
 		ship_group = 30704,
 		name = "Hiryuu",
@@ -52623,6 +53331,99 @@ pg.ship_skin_template = {
 		tag = {
 			2
 		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.01,
+					1.14,
+					0
+				}
+			},
+			plane = {
+				{
+					1.13,
+					1.24,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[307049] = {
+		ship_group = 30704,
+		name = "Hiryuu (Retrofit)",
+		bullet_skin_main = "",
+		desc = "Retrofit complete! Aircraft Carrier Hiryuu, reporting for duty! Hahaha! I finally got the chance to use that line! I'll be counting on you once more!",
+		illustrator2 = -1,
+		id = 307049,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "feilong_g",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "feilong_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 30,
+		air_bomb_skin = "",
+		illustrator = 12,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
 		live2d_offset = {
 			0,
 			0,
@@ -53202,8 +54003,8 @@ pg.ship_skin_template = {
 			2
 		},
 		live2d_offset = {
-			30,
-			-85,
+			0,
+			-10,
 			0
 		},
 		fx_container = {
@@ -65414,6 +66215,116 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[808011] = {
+		ship_group = 80801,
+		name = "Shopping Time!",
+		bullet_skin_main = "",
+		desc = "Hmm? Commander, are you shopping as well? If so, why don't you come along and take a look around? ... Huh? Of course you can't climb on. That'd be illegal.",
+		illustrator2 = -1,
+		id = 808011,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "xukufu_2",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "118",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "xukufu_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70249,
+		voice_actor = 85,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			50,
+			-50,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.951,
+					0.661,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.971,
+					0.727,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.138,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.969,
+					0.906,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[901010] = {
 		ship_group = 90101,
 		name = "Le Mars ",
@@ -74265,6 +75176,106 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[900200] = {
+		ship_group = 900200,
+		name = "Suruga ",
+		bullet_skin_main = "",
+		desc = "Suruga ",
+		illustrator2 = -1,
+		id = 900200,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "junhe",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "junhe",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.601,
+					1.611,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.585,
+					1.681,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.561,
+					1.745,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.654,
+							2.41,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[10100010] = {
 		ship_group = 1010001,
 		name = "Neptune",
@@ -77100,15 +78111,15 @@ pg.ship_skin_template = {
 		bound_bone = {
 			cannon = {
 				{
-					0.56,
-					0.867,
+					0.759,
+					0.967,
 					0
 				}
 			},
 			vicegun = {
 				{
-					0.505,
-					0.908,
+					0.75,
+					0.984,
 					0
 				}
 			},
@@ -77121,8 +78132,8 @@ pg.ship_skin_template = {
 			},
 			antiaircraft = {
 				{
-					0.598,
-					0.862,
+					0.92,
+					0.977,
 					0
 				}
 			}
@@ -77590,6 +78601,7 @@ pg.ship_skin_template = {
 		101312,
 		101319,
 		101350,
+		101351,
 		101360,
 		101361,
 		101370,
@@ -77706,6 +78718,7 @@ pg.ship_skin_template = {
 		107071,
 		107080,
 		107090,
+		107091,
 		107290,
 		107291,
 		107380,
@@ -77756,6 +78769,8 @@ pg.ship_skin_template = {
 		201233,
 		201238,
 		201240,
+		201241,
+		201250,
 		201260,
 		201270,
 		201290,
@@ -77784,6 +78799,7 @@ pg.ship_skin_template = {
 		202160,
 		202170,
 		202171,
+		202172,
 		202180,
 		202190,
 		202210,
@@ -77867,6 +78883,7 @@ pg.ship_skin_template = {
 		301058,
 		301059,
 		301090,
+		301092,
 		301110,
 		301111,
 		301112,
@@ -78029,8 +79046,10 @@ pg.ship_skin_template = {
 		307030,
 		307031,
 		307032,
+		307039,
 		307040,
 		307041,
+		307049,
 		307050,
 		307051,
 		307060,
@@ -78149,6 +79168,7 @@ pg.ship_skin_template = {
 		802011,
 		802019,
 		808010,
+		808011,
 		901010,
 		901011,
 		901012,
@@ -78229,6 +79249,7 @@ pg.ship_skin_template = {
 		900197,
 		900198,
 		900199,
+		900200,
 		10100010,
 		10100020,
 		10100030,

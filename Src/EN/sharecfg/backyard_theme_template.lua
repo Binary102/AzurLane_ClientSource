@@ -1446,6 +1446,48 @@ pg.backyard_theme_template = {
 			49305
 		}
 	},
+	[50] = {
+		Cfg_1 = 5,
+		name = "On The Road",
+		desc = "Get your ride ready and let's go on an Eagle Union road trip!",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 50,
+		icon = "jcthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			50001,
+			50002,
+			50101,
+			50102,
+			50103,
+			50104,
+			50105,
+			50106,
+			50107,
+			50108,
+			50109,
+			50110,
+			50111,
+			50112,
+			50113,
+			50114,
+			50115,
+			50116,
+			50117,
+			50118,
+			50119,
+			50120,
+			50121,
+			50122,
+			50123
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1476,7 +1518,8 @@ pg.backyard_theme_template = {
 		46,
 		47,
 		48,
-		49
+		49,
+		50
 	}
 }
 

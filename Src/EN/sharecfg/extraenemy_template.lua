@@ -1,14 +1,12 @@
 pg = pg or {}
 pg.extraenemy_template = {
 	{
-		mail_title = "world_boss_title_1",
 		name = "女仆据点",
 		hp = 10000,
-		expedition = "",
-		expedition_dead = 0,
-		background = "",
 		mail_content = "world_boss_content_1",
 		id = 1,
+		background = "",
+		mail_title = "world_boss_title_1",
 		reward = {
 			8931
 		},
@@ -21,13 +19,12 @@ pg.extraenemy_template = {
 		}
 	},
 	{
-		mail_title = "world_boss_title_1",
 		name = "埃塞克斯",
 		hp = 10000,
-		expedition_dead = 1201205,
-		background = "",
 		mail_content = "world_boss_content_1",
 		id = 2,
+		background = "",
+		mail_title = "world_boss_title_1",
 		reward = {
 			90631,
 			90632,
@@ -55,41 +52,48 @@ pg.extraenemy_template = {
 				18060,
 				1
 			}
+		}
+	},
+	{
+		name = "骏河",
+		hp = 10000,
+		mail_content = "world_boss_content_1",
+		id = 3,
+		background = "",
+		mail_title = "world_boss_title_4",
+		reward = {
+			91770,
+			91771,
+			91772,
+			91773
 		},
-		expedition = {
+		reward_display = {
 			{
-				{
-					10000,
-					7500
-				},
-				1201201
+				2,
+				17003,
+				10
 			},
 			{
-				{
-					7500,
-					5000
-				},
-				1201202
+				2,
+				18003,
+				2
 			},
 			{
-				{
-					5000,
-					2500
-				},
-				1201203
+				2,
+				13003,
+				5
 			},
 			{
-				{
-					2500,
-					0
-				},
-				1201204
+				3,
+				2640,
+				1
 			}
 		}
 	},
 	all = {
 		1,
-		2
+		2,
+		3
 	}
 }
 

@@ -3696,6 +3696,170 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2100000] = {
+		map = 2100000,
+		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
+		bgm = "level02",
+		type = 4,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "GUOQING1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "fengshan_1",
+		cloud_suffix = "white",
+		bg = "Map_1040000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100010,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100001] = {
+		map = 2100001,
+		name = "Visitors Dyed in Red: Sequel || || S.P. || E.X.",
+		bgm = "level02",
+		type = 4,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "GUOQING11",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "fengshan",
+		cloud_suffix = "white",
+		bg = "Map_1040001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100010] = {
+		map = 2100010,
+		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
+		bgm = "level02",
+		type = 5,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "GUOQING1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "fengshan_1",
+		cloud_suffix = "white",
+		bg = "Map_1040000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100000,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100011] = {
+		map = 2100011,
+		name = "Visitors Dyed in Red: Sequel || || S.P. || E.X.",
+		bgm = "level02",
+		type = 5,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "GUOQING11",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "fengshan",
+		cloud_suffix = "white",
+		bg = "Map_1040001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3784,7 +3948,11 @@ pg.expedition_data_by_map = {
 		1260011,
 		1260012,
 		1260025,
-		1260026
+		1260026,
+		2100000,
+		2100001,
+		2100010,
+		2100011
 	}
 }
 

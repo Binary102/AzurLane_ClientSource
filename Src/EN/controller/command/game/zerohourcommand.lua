@@ -121,6 +121,23 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot0:sendNotification(GAME.REQUEST_MINI_GAME, {
 		type = MiniGameRequestCommand.REQUEST_HUB_DATA
 	})
+
+	if slot22:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) and not slot27:isEnd() then
+		slot28 = slot27.data1KeyValueList[1]
+
+		if pg.activity_event_worldboss[slot27:getConfig("config_id")] then
+			slot30 = ipairs
+			slot31 = slot29.normal_expedition_drop_num or {}
+
+			for slot33, slot34 in slot30(slot31) do
+				for slot38, slot39 in ipairs(slot34[1]) do
+					slot28[slot39] = slot34[2] or 0
+				end
+			end
+		end
+
+		slot22:updateActivity(slot27)
+	end
 end
 
 return class("ZeroHourCommand", pm.SimpleCommand)

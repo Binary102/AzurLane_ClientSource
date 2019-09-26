@@ -228,6 +228,10 @@ slot1 = {
 	[ActivityConst.SECOND_ANNIVERSARY_COLLECT] = {
 		className = "SecondAnniversaryCollectPage",
 		uiName = "secondanniversarycollectpage"
+	},
+	[ActivityConst.ACTIVITY_JAMAICA_SKIN_PAGE] = {
+		className = "JamaicaSkinPage",
+		uiName = "jamaicaskinpage"
 	}
 }
 slot2 = {}

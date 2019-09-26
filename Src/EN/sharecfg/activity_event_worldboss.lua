@@ -2,9 +2,17 @@ pg = pg or {}
 pg.activity_event_worldboss = {
 	{
 		group_num = 1,
+		ticket = 0,
+		time = "stop",
+		stage_hp = "",
 		submarine_num = 1,
+		normal_expedition_drop_num = "",
+		normal_expedition = "",
 		damage_resource = 2001,
 		id = 1,
+		ex_expedition = 0,
+		expedition_buff = "",
+		expedition_both_buff = "",
 		boss_id = {
 			2
 		},
@@ -90,37 +98,11 @@ pg.activity_event_worldboss = {
 				14205
 			}
 		},
-		time = {
-			{
-				{
-					2019,
-					2,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					3,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		formula = {
 			0.02,
 			0.75
 		},
-		expedition = {
+		ex_expedition_enemy = {
 			{
 				1201201,
 				{
@@ -153,8 +135,118 @@ pg.activity_event_worldboss = {
 			}
 		}
 	},
+	{
+		group_num = 1,
+		ticket = 2003,
+		submarine_num = 1,
+		damage_resource = 2002,
+		id = 2,
+		ex_expedition = 1260004,
+		boss_id = {
+			3
+		},
+		reward_pt = {
+			9500,
+			9500,
+			9500,
+			9000,
+			8500,
+			8000,
+			7500,
+			7000,
+			6500,
+			6000,
+			5500,
+			5000,
+			4500,
+			4000,
+			3500,
+			3000,
+			2500,
+			2000,
+			1500,
+			1000,
+			500,
+			0,
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		formula = {
+			10,
+			5,
+			2,
+			60,
+			0.026,
+			0.68,
+			1.3,
+			11.7,
+			0.1
+		},
+		ex_expedition_enemy = {
+			{
+				1260004,
+				{
+					12500034
+				}
+			}
+		},
+		normal_expedition = {
+			1260001,
+			1260002,
+			1260003
+		},
+		normal_expedition_drop_num = {
+			{
+				{
+					1260001
+				},
+				15
+			},
+			{
+				{
+					1260002
+				},
+				15
+			},
+			{
+				{
+					1260003
+				},
+				15
+			}
+		},
+		stage_hp = {},
+		expedition_buff = {},
+		expedition_both_buff = {}
+	},
 	all = {
-		1
+		1,
+		2
 	}
 }
 

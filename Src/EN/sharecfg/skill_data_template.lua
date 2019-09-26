@@ -6047,8 +6047,8 @@ pg.skill_data_template = {
 	},
 	[6290] = {
 		desc_get = "",
-		name = "远洋巡航I",
-		desc = "该角色的狩猎范围等级+1\n(该装备强化+10时，效果提升为狩猎范围等级+2)",
+		name = "Auxiliary Power Source Ⅰ",
+		desc = "Increases ASR by 1 (2, when fully enhanced) for the submarine using this gear.",
 		type = 0,
 		max_level = 0,
 		id = 6290,
@@ -6058,8 +6058,8 @@ pg.skill_data_template = {
 	},
 	[6291] = {
 		desc_get = "",
-		name = "远洋巡航II",
-		desc = "该角色的狩猎范围等级+2",
+		name = "Auxiliary Power Source Ⅱ",
+		desc = "Increases ASR by 2 for the submarine using this gear.",
 		type = 0,
 		max_level = 0,
 		id = 6291,
@@ -6151,6 +6151,28 @@ pg.skill_data_template = {
 		type = 0,
 		max_level = 0,
 		id = 6450,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6460] = {
+		desc_get = "",
+		name = "VH Armor Plating",
+		desc = "When equipped by a ship with Heavy armor: decreases its DMG taken from AP ammo by 6.0% and decreases its DMG taken from HE and Normal ammo by 3.0%. When equipped by a ship with an Armor Type other than Heavy: changes its Armor Type to Heavy.",
+		type = 0,
+		max_level = 0,
+		id = 6460,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6470] = {
+		desc_get = "",
+		name = "VC Armor Plating",
+		desc = "When equipped by a ship with Heavy armor: decreases its DMG taken from AP ammo by 4.0% and decreases its DMG taken from HE and Normal ammo by 2.0%.",
+		type = 0,
+		max_level = 0,
+		id = 6470,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -7655,7 +7677,8 @@ pg.skill_data_template = {
 			10131,
 			nil,
 			10131,
-			10131
+			10131,
+			[95.0] = 10131
 		},
 		desc_get_add = {
 			{
@@ -8669,7 +8692,8 @@ pg.skill_data_template = {
 			10291,
 			nil,
 			10291,
-			10291
+			10291,
+			[95.0] = 10291
 		},
 		desc_get_add = {
 			{
@@ -13740,7 +13764,8 @@ pg.skill_data_template = {
 			11001,
 			nil,
 			11001,
-			11001
+			11001,
+			[95.0] = 11001
 		},
 		desc_get_add = {},
 		desc_add = {
@@ -15832,7 +15857,8 @@ pg.skill_data_template = {
 			11271,
 			nil,
 			11271,
-			11271
+			11271,
+			[95.0] = 11271
 		},
 		desc_get_add = {
 			{
@@ -20250,7 +20276,8 @@ pg.skill_data_template = {
 			11811,
 			nil,
 			11811,
-			11811
+			11811,
+			[95.0] = 11811
 		},
 		desc_get_add = {
 			{
@@ -20351,6 +20378,114 @@ pg.skill_data_template = {
 				},
 				{
 					"20"
+				}
+			}
+		}
+	},
+	[11830] = {
+		desc_get = "15s after the battle starts and every 20s after that: launches a randomly selected special airstrike (DMG is based on the skill level and the card combination.)",
+		name = "Flowers of Fate",
+		desc = "15s after the battle starts and every 20s after that: launches a randomly selected special airstrike $1 (DMG is based on the skill level and the card combination.)",
+		type = 1,
+		max_level = 10,
+		id = 11830,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {
+			{
+				{
+					"",
+					"Power+"
+				},
+				{
+					"",
+					"Power+"
+				},
+				{
+					"",
+					"Power+"
+				},
+				{
+					"",
+					"Power+"
+				},
+				{
+					"",
+					"Power+"
+				},
+				{
+					"",
+					"Power+"
+				},
+				{
+					"",
+					"Power+"
+				},
+				{
+					"",
+					"Power+"
+				},
+				{
+					"",
+					"Power+"
+				},
+				{
+					"",
+					"Power+"
+				}
+			}
+		}
+	},
+	[11840] = {
+		desc_get = "10s after the battle starts and every 20s after that: launches a randomly selected special airstrike (DMG is based on the skill level and the card combination.)",
+		name = "Flowers of Fate",
+		desc = "10s after the battle starts and every 20s after that: launches a randomly selected special airstrike $1 (DMG is based on the skill level and the card combination.)",
+		type = 1,
+		max_level = 10,
+		id = 11840,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {
+			{
+				{
+					"",
+					"Power+"
+				},
+				{
+					"",
+					"Power+"
+				},
+				{
+					"",
+					"Power+"
+				},
+				{
+					"",
+					"Power+"
+				},
+				{
+					"",
+					"Power+"
+				},
+				{
+					"",
+					"Power+"
+				},
+				{
+					"",
+					"Power+"
+				},
+				{
+					"",
+					"Power+"
+				},
+				{
+					"",
+					"Power+"
+				},
+				{
+					"",
+					"Power+"
 				}
 			}
 		}
@@ -21247,7 +21382,8 @@ pg.skill_data_template = {
 			12135,
 			nil,
 			12135,
-			12135
+			12135,
+			[95.0] = 12135
 		},
 		desc_get_add = {
 			{
@@ -21508,7 +21644,8 @@ pg.skill_data_template = {
 			12170,
 			nil,
 			12170,
-			12170
+			12170,
+			[95.0] = 12170
 		},
 		desc_get_add = {
 			{
@@ -24664,7 +24801,8 @@ pg.skill_data_template = {
 			12605,
 			nil,
 			12605,
-			12605
+			12605,
+			[95.0] = 12605
 		},
 		desc_get_add = {
 			{
@@ -25663,7 +25801,8 @@ pg.skill_data_template = {
 			18071,
 			nil,
 			18071,
-			18071
+			18071,
+			[95.0] = 18071
 		},
 		desc_get_add = {
 			{
@@ -26027,7 +26166,8 @@ pg.skill_data_template = {
 			19031,
 			nil,
 			19031,
-			19031
+			19031,
+			[95.0] = 19031
 		},
 		desc_get_add = {
 			{
@@ -31427,6 +31567,8 @@ pg.skill_data_template = {
 		6415,
 		6440,
 		6450,
+		6460,
+		6470,
 		7000,
 		9010,
 		9020,
@@ -31626,6 +31768,8 @@ pg.skill_data_template = {
 		11800,
 		11810,
 		11820,
+		11830,
+		11840,
 		11850,
 		11860,
 		11890,

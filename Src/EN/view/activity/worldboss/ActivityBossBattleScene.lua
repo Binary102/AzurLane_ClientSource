@@ -1,4 +1,4 @@
-slot0 = class("ActivityBossBattleScene", import("..base.BaseUI"))
+slot0 = class("ActivityBossBattleScene", import("view.base.BaseUI"))
 slot1 = pg.expedition_data_template
 
 function slot0.getUIName(slot0)

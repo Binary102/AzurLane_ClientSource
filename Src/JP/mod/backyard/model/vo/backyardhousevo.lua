@@ -505,43 +505,53 @@ function slot0.isLegalPos(slot0, slot1, slot2)
 	slot3 = true
 	slot0.curPos = slot2
 	slot4 = slot1:getOccupyGrid(slot2)
-	slot5 = {}
+	slot0.curPos = nil
 
-	if slot1:isFloor() then
-		for slot9, slot10 in ipairs(slot4) do
-			if slot0:isOccupyFurnPos(slot10.x, slot10.y, slot1) then
-				table.insert(slot5, slot9)
+	return (not slot1:isFloor() or slot0:checkFloorOccupyGrids(slot1, slot2, {})) and slot0:checkOccupyGrids(slot1, slot2, ), 
+end
 
-				slot3 = false
-			end
+function slot0.checkFloorOccupyGrids(slot0, slot1, slot2, slot3)
+	slot4 = true
+
+	return slot0:checkOccupyGrids(slot1, slot2, slot3) and slot0:checkChildOccupyGrids(slot1, slot2, slot3)
+end
+
+function slot0.checkOccupyGrids(slot0, slot1, slot2, slot3)
+	slot4 = true
+
+	for slot9, slot10 in ipairs(slot5) do
+		if slot0:isOccupyFurnPos(slot10.x, slot10.y, slot1) then
+			table.insert(slot3, slot9)
+
+			slot4 = false
 		end
+	end
 
-		if slot0.localedParent and table.getCount(slot0.localedParent.child) ~= 0 then
+	return slot4
+end
+
+function slot0.checkChildOccupyGrids(slot0, slot1, slot2, slot3)
+	slot4 = true
+
+	if slot0.localedParent then
+		slot5 = slot1:getOccupyGrid(slot2)
+
+		if table.getCount(slot0.localedParent.child) ~= 0 then
 			for slot9, slot10 in pairs(slot0.localedParent.child) do
 				slot11 = slot0.furnitures[slot9]
 
-				for slot15, slot16 in ipairs(slot4) do
+				for slot15, slot16 in ipairs(slot5) do
 					if slot1.id ~= slot11.id and slot11:isOccupy(slot16.x, slot16.y) then
-						table.insert(slot5, slot15)
+						table.insert(slot3, slot15)
 
-						slot3 = false
+						slot4 = false
 					end
 				end
 			end
 		end
-	else
-		for slot9, slot10 in ipairs(slot4) do
-			if slot0:isOccupyFurnPos(slot10.x, slot10.y, slot1) then
-				table.insert(slot5, slot9)
-
-				slot3 = false
-			end
-		end
 	end
 
-	slot0.curPos = nil
-
-	return slot3, slot5
+	return slot4
 end
 
 function slot0.findInterActionFurnitrue(slot0, slot1, slot2)
@@ -1167,6 +1177,22 @@ function slot0.getGridForMoveableFurniture(slot0, slot1)
 	end)
 
 	return slot5
+end
+
+function slot0.getMats(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0.furnitures) do
+		if slot6:isMat() then
+			table.insert(slot1, slot6)
+		end
+	end
+
+	table.sort(slot1, function (slot0, slot1)
+		return slot1:getOccupyGridCount() < slot0:getOccupyGridCount()
+	end)
+
+	return slot1
 end
 
 return slot0

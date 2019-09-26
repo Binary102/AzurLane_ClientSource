@@ -18784,17 +18784,17 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "「桂花糯…もぐもぐ～中秋節、良い祝日！」<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
+		display = "甘口？辛口？好みは人それぞれ…<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
 		rarity = 2,
 		type = 3,
-		name = "桂花糯",
+		name = "海軍カレー",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		virtual_type = 0,
 		replace_item = 0,
 		link_id = 0,
 		id = 50004,
-		icon = "Props/guihuagao",
+		icon = "Props/haijungali",
 		display_icon = {},
 		price = {
 			1,
@@ -69711,6 +69711,132 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[57707] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		rarity = 1,
+		type = 99,
+		name = "ランダム設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57707,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				3,
+				1
+			},
+			{
+				2,
+				27,
+				1
+			},
+			{
+				2,
+				47,
+				1
+			},
+			{
+				2,
+				10053,
+				1
+			},
+			{
+				2,
+				10060,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57708] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		rarity = 1,
+		type = 99,
+		name = "ランダム設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57708,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10067,
+				1
+			},
+			{
+				2,
+				10068,
+				1
+			},
+			{
+				2,
+				10070,
+				1
+			},
+			{
+				2,
+				10087,
+				1
+			},
+			{
+				2,
+				10088,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57709] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		rarity = 1,
+		type = 99,
+		name = "ランダム設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57709,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10052,
+				1
+			},
+			{
+				2,
+				10057,
+				1
+			},
+			{
+				2,
+				10060,
+				1
+			},
+			{
+				2,
+				10068,
+				1
+			},
+			{
+				2,
+				11033,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[59000] = {
 		display = "参加キャラは経験値を獲得できます",
 		rarity = 2,
@@ -70395,6 +70521,38 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 59140,
 		icon = "Props/skinTicket",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59141] = {
+		display = "イベント「交錯する新たな波」で得られるイベントポイント。イベントバナーで「累計Pt報酬」を入手可能",
+		rarity = 2,
+		type = 98,
+		name = "演習pt",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59141,
+		icon = "Props/junhe_pt",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59142] = {
+		display = "「交錯する新たな波」EXステージ出撃、もしくはボーナス出撃回数回復時に使用可能",
+		rarity = 4,
+		type = 98,
+		name = "特別戦闘券",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59142,
+		icon = "Props/special_ticket",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -73047,6 +73205,134 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59930] = {
+		display = "絵の具A",
+		rarity = 2,
+		type = 0,
+		name = "絵の具A",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 387,
+		id = 59930,
+		icon = "props/draw_a",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59931] = {
+		display = "絵の具B",
+		rarity = 2,
+		type = 0,
+		name = "絵の具B",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 387,
+		id = 59931,
+		icon = "props/draw_b",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59932] = {
+		display = "絵の具C",
+		rarity = 2,
+		type = 0,
+		name = "絵の具C",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 387,
+		id = 59932,
+		icon = "props/draw_c",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59933] = {
+		display = "絵の具D",
+		rarity = 2,
+		type = 0,
+		name = "絵の具D",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 387,
+		id = 59933,
+		icon = "props/draw_d",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59934] = {
+		display = "絵の具E",
+		rarity = 2,
+		type = 0,
+		name = "絵の具E",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 387,
+		id = 59934,
+		icon = "props/draw_e",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59935] = {
+		display = "絵の具F",
+		rarity = 2,
+		type = 0,
+		name = "絵の具F",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 387,
+		id = 59935,
+		icon = "props/draw_f",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59936] = {
+		display = "絵の具G",
+		rarity = 2,
+		type = 0,
+		name = "絵の具G",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 387,
+		id = 59936,
+		icon = "props/draw_g",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59937] = {
+		display = "絵の具H",
+		rarity = 2,
+		type = 0,
+		name = "絵の具H",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 387,
+		id = 59937,
+		icon = "props/draw_h",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[60001] = {
 		display = "0",
 		rarity = 3,
@@ -75253,6 +75539,9 @@ pg.item_data_statistics = {
 		57703,
 		57704,
 		57705,
+		57707,
+		57708,
+		57709,
 		59000,
 		59001,
 		59002,
@@ -75296,6 +75585,8 @@ pg.item_data_statistics = {
 		59138,
 		59139,
 		59140,
+		59141,
+		59142,
 		59601,
 		59602,
 		59603,
@@ -75457,6 +75748,14 @@ pg.item_data_statistics = {
 		59923,
 		59924,
 		59925,
+		59930,
+		59931,
+		59932,
+		59933,
+		59934,
+		59935,
+		59936,
+		59937,
 		60001,
 		60002,
 		60003,

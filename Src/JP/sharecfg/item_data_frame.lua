@@ -16,6 +16,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>First　Anniversary！</color>\n「再誕の暁」使用で開放可能",
 		scene = {}
 	},
+	[102] = {
+		name = "二周年記念",
+		time_second = 0,
+		id = 102,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Second　Anniversary！</color>\n　二周年記念イベントで開放可能",
+		scene = {}
+	},
 	[201] = {
 		name = "チャレンジャー",
 		time_second = 0,
@@ -99,6 +107,7 @@ pg.item_data_frame = {
 	all = {
 		0,
 		101,
+		102,
 		201,
 		202,
 		300,

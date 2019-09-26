@@ -1071,6 +1071,14 @@ pg.gametip = {
 		tip = "合計：",
 		key = "battle_result_score_total"
 	},
+	battle_result_total_damage = {
+		tip = "合計ダメージ：",
+		key = "battle_result_total_damage"
+	},
+	battle_result_contribution = {
+		tip = "演習進捗：",
+		key = "battle_result_contribution"
+	},
 	battle_levelScene_0Oil = {
 		tip = "燃料ポイントが空になりました",
 		key = "battle_levelScene_0Oil"
@@ -2279,9 +2287,13 @@ pg.gametip = {
 ・絵が完成（着色枠を全て着色・「空白絵」は除く）す
 ると、報酬を入手することができます。
 ・おえかき完成の報酬一覧：
- No.1 ランダム教科書T3 x3
- No.2 汎用パーツT3 x4
- No.3 明石の着せ替え「島へようこそ！」 
+ No.1 試着貸出チケット x1
+ No.2 ランダム教科書T3 x2
+ No.3 試着貸出チケットx1 
+ No.4 艦砲パーツT3x2
+ No.5 試着貸出チケット x1
+ No.6 汎用パーツT3 x3
+ No.7 ジュピターの着せ替え「放送待機中」
 ・全ての絵が塗り終わると、「空白絵」がアンロックさ
 れます。
 ・空白絵に絵の具を使って絵を描いても絵の具を消費し
@@ -2292,9 +2304,9 @@ pg.gametip = {
 ・「リセット」は現在の絵の着色済みの枠の色を全て消
 すことが出来ます。
 ・イベント終了後、未使用の絵の具はリセットされます
-・5月22日（水）まで毎日新しい絵が一枚ずつ解放され
+・10月2日（水）まで毎日新しい絵が一枚ずつ解放され
 ます。
-・空白絵は5月23日（木）以降開放できます。]]
+・空白絵は10月3日（木）以降開放できます。]]
 			}
 		}
 	},
@@ -2953,6 +2965,10 @@ pg.gametip = {
 	stage_beginStage_error_noResource = {
 		tip = "<color=#92fc63>燃料</color>が足りません!",
 		key = "stage_beginStage_error_noResource"
+	},
+	stage_beginStage_error_noTicket = {
+		tip = "特別戦闘券が必要です",
+		key = "stage_beginStage_error_noTicket"
 	},
 	stage_finishStage_error = {
 		tip = "ステージクリアにエラーが発生しました",
@@ -8970,11 +8986,11 @@ pg.gametip = {
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "「ブラック・プリンス」「ジュピター」常設追加！",
+		tip = "「雪風」常設追加！",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "「グラーフ・ツェッペリン」、「U47」、「U557」常設追加！",
+		tip = "「大鳳」常設追加！",
 		key = "buildship_special_tip"
 	},
 	open_skill_pos = {
@@ -9796,75 +9812,101 @@ pg.gametip = {
 		key = "world_boss_help",
 		tip = {
 			{
-				info = "活动说明："
+				info = "<color=#92fc63>★遊び方</color>"
 			},
 			{
-				info = "1.活动期间，玩家首日可获得4个骰子，此后每日24点可获得4\n个骰子；"
+				info = [[
+イベント「交錯する新たな波」とは、<color=#92fc63>「演習Pt」</color>を集め
+て作戦進捗を進め、個人累計Pt報酬と作戦進捗報酬を狙
+うイベントになります。
+]]
 			},
 			{
-				info = "2.玩家每投掷8次骰子，即可获得一个红包；"
+				info = [[
+イベント期間中、駿河が率いる「重桜演習艦隊」を相手
+に戦う「合同演習作戦」特別ステージが登場します。
+作戦を完遂するには指揮官同士で協力し、「演習Pt」を
+集め、作戦進捗を進める<color=#92fc63>（演習ゲージを0%まで削る）
+</color>必要があります。
+作戦に成功した場合、作戦に参加した指揮官に報酬とし
+て特別兵装をメールで配布します。
+（演習ゲージが0%になっても、引き続き特別ステージ
+に挑戦することで「演習pt」を獲得できま）
+]]
 			},
 			{
-				info = "3.玩家获得的前7个红包为特殊红包（奖励丰厚），第8个及之后\n为普通红包；"
+				info = [[
+-<color=#92fc63>演習Ptについて-</color>
+1 特別ステージをクリアすると「演習pt」を獲得でき
+ます。
+2 同じサーバーのすべての指揮官が獲得した「演習pt」
+の合計数が作戦の進捗を左右します。
+3 演習ゲージが<color=#92fc63>0%</color>になると、作戦が成功になります。
+各サーバーの作戦進捗はそれぞれで計算されます。
+4 イベント期間中に獲得した「演習pt」の累計数に応
+じて、イベントバナーより「pt累計報酬」を入手でき
+ます。
+]]
 			},
 			{
-				info = "4.活动期间，玩家还可以通过抚顺大冒险、鞍山绘图教室与厌战\n的特别训练活动中获得额外的骰子；"
+				info = [[
+<color=#92fc63>-特別ステージについて-</color>
+1 特別ステージは難易度に応じて、「簡単」「普通」
+「難しい」「EX」の四種類があります。
+2「EX」以外の難易度で得られる演習Ptは固定で、
+「EX」では戦闘中に与えるダメージ総量によっ演習Pt・
+報酬が変化します。
+3 特別ステージは通常の艦隊とは違う<color=#92fc63>「特別演習編成」</color>
+を使用します(ステージ出撃時に編成可能)。
+4 特別ステージは出撃/勝利時には通常海域の出撃と同じ
+く燃料・コンディションを消費します。また、勝利時に
+経験値・通常クリア報酬の獲得と、コンディションが増
+減します。
+・特別ステージの「EX」では作戦制限時間は<color=#92fc63>【60秒】</color>
+になります。60秒経過・敵を撃破・味方旗艦大破すると
+クリア扱いになります
+・特別ステージでは艦船が戦闘不能になっても、コンデ
+ィションは低下しません
+・「EX」ステージの「模擬戦」して出撃する場合、燃料
+・コンディション・特別戦闘券（後術）は増減せず、
+経験値・報酬をを入手できません
+5 特別演習編成では潜水艦・オフニャを配置できます。
+戦闘中に潜水支援を行う場合、燃料を消費します。
+6 特別ステージの「簡単」「普通」「難しい」は回数
+無制限に出撃できます。「EX」は「特別戦闘券」を
+<color=#92fc63>1枚</color>消費しなければ出撃することが出来ません。
+]]
 			},
 			{
-				info = "5.活动期间，玩家完成10圈大富翁游戏（第11次经过起点）即可\n获得金伯利换装【东煌之风】；"
+				info = [[
+<color=#92fc63>-ボーナス出撃と「特別戦闘券」について-</color>
+1 特別ステージの「簡単」「普通」「難しい」はそれぞ
+れ、毎日の<color=#92fc63>15回</color>までの出撃は「ボーナス出撃」になり、
+得られる報酬は通常時より多くなります。
+2 ボーナス出撃回数が残り<color=#92fc63>0回</color>の状態で上記ステージに
+出撃する場合、アイテム「特別戦闘券」を<color=#92fc63>1枚</color>消費し、出
+撃を「ボーナス出撃」に変更できます。
+3 「特別戦闘券」は「EX」に出撃する際にも消費されま
+す。
+4 「特別戦闘券」はイベント期間中に出現する限定任務
+で入手出来ます。
+]]
 			},
 			{
-				info = "6.游戏中，根据玩家停留的格子可获得不同奖励，每次经过起点\n可获得200物资；"
-			},
-			{
-				info = "    ：获得一定数量物资；",
-				icon = {
-					posX = 0,
-					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
-					path = "jinbi"
-				}
-			},
-			{
-				info = "    ：获得一定数量石油；",
-				icon = {
-					posX = 0,
-					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
-					path = "shiyou"
-				}
-			},
-			{
-				info = "    ：触发随机事件；",
-				icon = {
-					posX = 0,
-					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
-					path = "minyun"
-				}
-			},
-			{
-				info = "    ：触发随机奖励；",
-				icon = {
-					posX = 0,
-					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
-					path = "daoju"
-				}
-			},
-			{
-				info = "    ：触发随机移动事件；",
-				icon = {
-					posX = 0,
-					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
-					path = "teshu"
-				}
+				info = [[
+<color=#ff5c5c>※注意点</color>
+1 「EX」での戦闘を中止した場合、特別戦闘券のみが
+消費され、報酬・演習Ptを得ることが出来ません。
+2 「EX」での戦闘は<color=#92fc63>マニュアル（手動）</color>操作での
+チャレンジをおすすめします。
+3「EX」の出撃編成画面では「模擬戦」出撃できます。
+4「簡単」「普通」「難しい」の戦闘を中止した場合
+、「ボーナス出撃回数」が減ることはありま
+せん。
+5 艦隊の戦力・コンディション・好感度を鑑み、<color=#92fc63>過度に
+連続出撃しないことをおすすめします。</color>
+5 各サーバーのユーザーデータによって作戦成功に必要
+な全指揮官のクリア回数が異なります。]]
 			}
 		}
 	},
@@ -10654,7 +10696,7 @@ Pt」が加算されます。
 				info = [[
 2.同建造で出現する艦船から2種類を選び「ピックアッ
 プ状態」（出現率がUPする状態）にできます
-<color=#FF5C5C>（※2019年3月23日まで常設建造した艦しか出現し
+<color=#FF5C5C>（※2019年7月26日まで常設建造した艦しか出現し
 ません）</color>]]
 			},
 			{
@@ -11590,6 +11632,105 @@ staff）にて告知されます。
 	name_zhanliejahe = {
 		tip = "加賀(戦艦)",
 		key = "name_zhanliejahe"
+	},
+	change_skin_secretary_ship_success = {
+		tip = "秘書艦に設定しました",
+		key = "change_skin_secretary_ship_success"
+	},
+	change_skin_secretary_ship = {
+		tip = "秘書官に設定する",
+		key = "change_skin_secretary_ship"
+	},
+	word_billboard = {
+		tip = "ランキング",
+		key = "word_billboard"
+	},
+	word_easy = {
+		tip = "簡単",
+		key = "word_easy"
+	},
+	word_normal_junhe = {
+		tip = "普通",
+		key = "word_normal_junhe"
+	},
+	word_hard = {
+		tip = "難しい",
+		key = "word_hard"
+	},
+	tip_exchange_ticket = {
+		tip = "特別戦闘券を1枚消費し、$1ステージのボーナス出撃回数を1回増やしますか？",
+		key = "tip_exchange_ticket"
+	},
+	dont_remind = {
+		tip = "これ以上表示しません",
+		key = "dont_remind"
+	},
+	worldbossex_help = {
+		key = "worldbossex_help",
+		tip = {
+			{
+				info = [[
+<color=#ff5c5c>※高難易度「EX」ステージについて</color>
+・「EX」ステージでは、敵に与えるダメージによって、
+戦闘終了時に得られるい報酬が変化します。 
+・「EX」ステージでは戦が途中で中止された場合でも、
+「特別戦闘券」が消費されます。
+・高難易度ステージにつき、出撃前に「模擬戦」ボタンで
+戦闘シミュレーションを行うことをオススメします。
+・「模擬戦」では燃料、「特別戦闘券」が消費されず、コ
+ンディションは増減せず、報酬を入手できません。
+]]
+			},
+			helpPos = {
+				y = 53.1
+			},
+			windowSize = {
+				y = 790
+			},
+			windowPos = {
+				y = -85.05
+			}
+		}
+	},
+	ship_formationUI_fleetName_easy = {
+		tip = "簡単艦隊",
+		key = "ship_formationUI_fleetName_easy"
+	},
+	ship_formationUI_fleetName_normal = {
+		tip = "普通艦隊",
+		key = "ship_formationUI_fleetName_normal"
+	},
+	ship_formationUI_fleetName_hard = {
+		tip = "難しい艦隊",
+		key = "ship_formationUI_fleetName_hard"
+	},
+	ship_formationUI_fleetName_extra = {
+		tip = "EX艦隊",
+		key = "ship_formationUI_fleetName_extra"
+	},
+	ship_formationUI_fleetName_easy_ss = {
+		tip = "簡単潜水艦隊",
+		key = "ship_formationUI_fleetName_easy_ss"
+	},
+	ship_formationUI_fleetName_normal_ss = {
+		tip = "普通潜水艦隊",
+		key = "ship_formationUI_fleetName_normal_ss"
+	},
+	ship_formationUI_fleetName_hard_ss = {
+		tip = "難しい潜水艦隊",
+		key = "ship_formationUI_fleetName_hard_ss"
+	},
+	ship_formationUI_fleetName_extra_ss = {
+		tip = "EX潜水艦隊",
+		key = "ship_formationUI_fleetName_extra_ss"
+	},
+	text_consume = {
+		tip = "確定",
+		key = "text_consume"
+	},
+	text_inconsume = {
+		tip = "いいえ",
+		key = "text_inconsume"
 	}
 }
 

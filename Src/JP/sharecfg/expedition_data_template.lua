@@ -188184,7 +188184,7 @@ pg.expedition_data_template = {
 		type = 15,
 		ai_mov = 0,
 		add_icon = "",
-		name = "特別演習",
+		name = "敵中枢艦隊",
 		exp_commander = 0,
 		time_limit = 150,
 		exp_commander_ratio = 0,
@@ -188232,7 +188232,7 @@ pg.expedition_data_template = {
 		type = 15,
 		ai_mov = 0,
 		add_icon = "",
-		name = "特別演習",
+		name = "敵中枢艦隊",
 		exp_commander = 0,
 		time_limit = 150,
 		exp_commander_ratio = 0,
@@ -188280,7 +188280,7 @@ pg.expedition_data_template = {
 		type = 15,
 		ai_mov = 0,
 		add_icon = "",
-		name = "特別演習",
+		name = "敵中枢艦隊",
 		exp_commander = 0,
 		time_limit = 150,
 		exp_commander_ratio = 0,
@@ -188328,7 +188328,7 @@ pg.expedition_data_template = {
 		type = 15,
 		ai_mov = 0,
 		add_icon = "",
-		name = "特別演習",
+		name = "敵中枢艦隊",
 		exp_commander = 0,
 		time_limit = 150,
 		exp_commander_ratio = 0,
@@ -188376,7 +188376,7 @@ pg.expedition_data_template = {
 		type = 15,
 		ai_mov = 0,
 		add_icon = "",
-		name = "特別演習",
+		name = "敵中枢艦隊",
 		exp_commander = 0,
 		time_limit = 150,
 		exp_commander_ratio = 0,
@@ -245862,6 +245862,209 @@ pg.expedition_data_template = {
 		},
 		bufficon = {}
 	},
+	[1260001] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "敵中枢艦隊",
+		exp_commander = 0,
+		time_limit = 150,
+		exp_commander_ratio = 50,
+		dungeon_id = 1260001,
+		exp = 169,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 20,
+		map_id = 50037,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1260001,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				57707
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			},
+			{
+				2,
+				50001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			150
+		},
+		bufficon = {}
+	},
+	[1260002] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "敵中枢艦隊",
+		exp_commander = 1,
+		time_limit = 150,
+		exp_commander_ratio = 50,
+		dungeon_id = 1260002,
+		exp = 286,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 50,
+		map_id = 50037,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1260002,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				57708
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54017
+			},
+			{
+				2,
+				50001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			150
+		},
+		bufficon = {}
+	},
+	[1260003] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "敵中枢艦隊",
+		exp_commander = 2,
+		time_limit = 150,
+		exp_commander_ratio = 50,
+		dungeon_id = 1260003,
+		exp = 468,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 100,
+		map_id = 50037,
+		limit_type = 1,
+		icon_type = 1,
+		plot_type = 0,
+		id = 1260003,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				57709
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54017
+			},
+			{
+				2,
+				50001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			150
+		},
+		bufficon = {}
+	},
+	[1260004] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		add_icon = "",
+		name = "敵中枢艦隊",
+		exp_commander = 4,
+		time_limit = 150,
+		exp_commander_ratio = 50,
+		dungeon_id = 1260004,
+		exp = 583,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 125,
+		map_id = 50037,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 1,
+		objective_3 = "",
+		plot_type = 0,
+		id = 1260004,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				57709
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54017
+			},
+			{
+				2,
+				50001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		bufficon = {}
+	},
 	[5000020] = {
 		sink_limit = 1,
 		ai = 3,
@@ -275794,6 +275997,10 @@ pg.expedition_data_template = {
 		1251252,
 		1251253,
 		1251301,
+		1260001,
+		1260002,
+		1260003,
+		1260004,
 		5000020,
 		5000021,
 		5000022,

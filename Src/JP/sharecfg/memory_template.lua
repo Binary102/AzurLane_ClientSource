@@ -9526,6 +9526,61 @@ pg.memory_template = {
 		icon = "memory_dachaolifu",
 		is_open = 0
 	},
+	[934] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "最終演習するが",
+		condition = "「交錯する新たな波」イベント開始",
+		story = "JUNHEBOSS1",
+		id = 934,
+		icon = "memory_junheboss",
+		is_open = 0
+	},
+	[935] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "幸運艦の激励",
+		condition = "「交錯する新たな波」作戦進捗25%",
+		story = "JUNHEBOSS2",
+		id = 935,
+		icon = "memory_junheboss",
+		is_open = 0
+	},
+	[936] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "指揮艦のカリスマ",
+		condition = "「交錯する新たな波」作戦進捗50%",
+		story = "JUNHEBOSS3",
+		id = 936,
+		icon = "memory_junheboss",
+		is_open = 0
+	},
+	[937] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "交錯する新たな波",
+		condition = "「交錯する新たな波」作戦進捗75%",
+		story = "JUNHEBOSS4",
+		id = 937,
+		icon = "memory_junheboss",
+		is_open = 0
+	},
+	[938] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "駿河SIDE",
+		condition = "「交錯する新たな波」作戦進捗100%",
+		story = "JUNHEBOSS5",
+		id = 938,
+		icon = "memory_junheboss",
+		is_open = 0
+	},
 	[10000] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -11284,6 +11339,11 @@ pg.memory_template = {
 		931,
 		932,
 		933,
+		934,
+		935,
+		936,
+		937,
+		938,
 		10000,
 		10001,
 		10002,

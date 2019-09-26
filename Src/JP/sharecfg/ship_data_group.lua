@@ -7003,7 +7003,7 @@ pg.ship_data_group = {
 	[176] = {
 		nationality = 3,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 301269,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 176,
@@ -7011,7 +7011,14 @@ pg.ship_data_group = {
 		index_id = 193,
 		group_type = 30126,
 		trans_type = 0,
-		trans_radar_chart = {},
+		trans_radar_chart = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
 		trans_skill = {},
 		description = {
 			{
@@ -7056,7 +7063,7 @@ pg.ship_data_group = {
 	[165] = {
 		nationality = 3,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 301159,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 165,
@@ -7064,7 +7071,14 @@ pg.ship_data_group = {
 		index_id = 195,
 		group_type = 30115,
 		trans_type = 0,
-		trans_radar_chart = {},
+		trans_radar_chart = {
+			"C",
+			"S",
+			"E",
+			"A",
+			"D",
+			"C"
+		},
 		trans_skill = {},
 		description = {
 			{

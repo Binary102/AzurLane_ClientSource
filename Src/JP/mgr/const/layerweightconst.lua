@@ -21,7 +21,8 @@ LayerWeightConst = {
 	GROUP_BUILDSHIPSCENE = "group_BuildShipUI_top",
 	GROUP_SHIPINFOUI = "group_ShipInfoUI_top",
 	GROUP_LEVELUI = "group_LevelUI",
-	GROUP_SHIP_PROFILE = "group_ShipProfileScene"
+	GROUP_SHIP_PROFILE = "group_ShipProfileScene",
+	GROUP_FORMATION_PAGE = "group_FormationPage"
 }
 
 return

@@ -129,7 +129,7 @@ function slot0.Preload(slot0)
 				slot0.addCommanderBuffRes(slot15)
 				slot0.addChapterBuffRes(slot14)
 			end
-		elseif slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS then
+		elseif slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS or slot0.contextData.system == SYSTEM_ACT_BOSS or slot0.contextData.system == SYSTEM_BOSS_EXPERIMENT then
 			if getProxy(FleetProxy).getActivityFleets(slot5)[slot0.contextData.actId][slot0.contextData.mainFleetId] then
 				for slot12, slot13 in ipairs(slot8) do
 					table.insert(slot3, slot2:getShipById(slot13))
@@ -138,7 +138,7 @@ function slot0.Preload(slot0)
 				slot0.addCommanderBuffRes(slot7:buildBattleBuffList())
 			end
 
-			if slot6[Fleet.SUBMARINE_FLEET_ID] then
+			if slot6[slot0.contextData.mainFleetId + 10] then
 				for slot13, slot14 in ipairs(slot9) do
 					table.insert(slot3, slot2:getShipById(slot14))
 				end

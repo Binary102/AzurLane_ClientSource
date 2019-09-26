@@ -38,6 +38,22 @@ return {
 
 		return slot5
 	end,
+	createAlphaImage = function (slot0, slot1, slot2, slot3, slot4)
+		slot5 = GameObject(slot0)
+		slot5:AddComponent(typeof(AlphaCheckImage)).raycastTarget = slot1
+
+		setParent(slot5, slot2)
+
+		if slot3 then
+			tf(slot5):SetSiblingIndex(slot3)
+		end
+
+		if slot4 then
+			setActive(slot5, slot4)
+		end
+
+		return slot5
+	end,
 	getPaths = function (slot0, slot1, slot2, slot3, slot4)
 		slot11 = {}
 		slot12 = ipairs

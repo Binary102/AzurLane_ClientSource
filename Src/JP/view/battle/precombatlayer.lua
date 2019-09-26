@@ -25,6 +25,7 @@ function slot0.init(slot0)
 	slot0.eventTriggers = {}
 	slot0._startBtn = slot0:findTF("right/start")
 	slot0._popup = slot0:findTF("right/start/popup")
+	slot0._ticket = slot0:findTF("right/start/ticket")
 	slot0._costText = slot0:findTF("right/start/popup/Text")
 	slot0._moveLayer = slot0:findTF("moveLayer")
 	slot1 = slot0:findTF("middle")
@@ -98,34 +99,52 @@ function slot0.SetStageID(slot0, slot1)
 	removeAllChildren(slot0._spoilsContainer)
 
 	slot0._stageID = slot1
+	slot3 = Clone(pg.expedition_data_template[slot1].award_display)
 
-	for slot7, slot8 in ipairs(slot3) do
-		updateDrop(slot9, slot10)
-		onButton(slot0, cloneTplTo(slot0._item, slot0._spoilsContainer), function ()
-			if pg.item_data_statistics[slot0[2]] and slot1[slot0.type] then
-				slot2 = {}
+	if checkExist(pg.expedition_activity_template[slot1], {
+		"pt_drop_display"
+	}) and type(slot4) == "table" then
+		slot5 = getProxy(ActivityProxy)
 
-				for slot6, slot7 in ipairs(slot1) do
-					slot2[#slot2 + 1] = {
-						hideName = true,
-						type = slot8,
-						id = slot7[2],
-						anonymous = slot7[1] == DROP_TYPE_SHIP and not table.contains(slot2.chapter.dropShipIdList, slot7[2])
-					}
-				end
-
-				slot2:emit(slot3.ON_DROP_LIST, {
-					item2Row = true,
-					itemList = slot2,
-					content = slot0.display
+		for slot9 = #slot4, 1, -1 do
+			if slot5:getActivityById(slot4[slot9][1]) and not slot10:isEnd() then
+				table.insert(slot3, 1, {
+					2,
+					id2ItemId(slot4[slot9][2])
 				})
-			else
-				slot2:emit(slot3.ON_DROP, slot4)
 			end
-		end, SFX_PANEL)
+		end
 	end
 
-	function slot4(slot0, slot1)
+	if slot0.contextData.system ~= SYSTEM_BOSS_EXPERIMENT then
+		for slot8, slot9 in ipairs(slot3) do
+			updateDrop(slot10, slot11)
+			onButton(slot0, cloneTplTo(slot0._item, slot0._spoilsContainer), function ()
+				if pg.item_data_statistics[slot0[2]] and slot1[slot0.type] then
+					slot2 = {}
+
+					for slot6, slot7 in ipairs(slot1) do
+						slot2[#slot2 + 1] = {
+							hideName = true,
+							type = slot8,
+							id = slot7[2],
+							anonymous = slot7[1] == DROP_TYPE_SHIP and not table.contains(slot2.chapter.dropShipIdList, slot7[2])
+						}
+					end
+
+					slot2:emit(slot3.ON_DROP_LIST, {
+						item2Row = true,
+						itemList = slot2,
+						content = slot0.display
+					})
+				else
+					slot2:emit(slot3.ON_DROP, slot4)
+				end
+			end, SFX_PANEL)
+		end
+	end
+
+	function slot5(slot0, slot1)
 		if type(slot0) == "table" then
 			setActive(slot1, true)
 			setWidgetText(slot1, i18n(slot0.ObjectiveList[slot0[1]], slot0[2]))
@@ -134,23 +153,23 @@ function slot0.SetStageID(slot0, slot1)
 		end
 	end
 
-	slot5 = {
+	slot6 = {
 		findTF(slot0._goals, "goal_tpl"),
 		findTF(slot0._goals, "goal_sink"),
 		findTF(slot0._goals, "goal_time")
 	}
-	slot7 = 1
+	slot8 = 1
 
-	for slot11, slot12 in ipairs(slot6) do
-		if type(slot12) ~= "string" then
-			slot4(slot12, slot5[slot7])
+	for slot12, slot13 in ipairs(slot7) do
+		if type(slot13) ~= "string" then
+			slot5(slot13, slot6[slot8])
 
-			slot7 = slot7 + 1
+			slot8 = slot8 + 1
 		end
 	end
 
-	for slot11 = slot7, #slot5, 1 do
-		slot4("", slot5[slot11])
+	for slot12 = slot8, #slot6, 1 do
+		slot5("", slot6[slot12])
 	end
 
 	setActive(slot0.guideDesc, slot2.guide_desc and #slot2.guide_desc > 0)
@@ -385,7 +404,7 @@ function slot0.switchToEditMode(slot0)
 		end)
 	end, SFX_CONFIRM)
 
-	if slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS then
+	if slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS and slot0.contextData.system ~= SYSTEM_ACT_BOSS and slot0.contextData.system ~= SYSTEM_BOSS_EXPERIMENT then
 		slot0:EnableAddGrid(Fleet.MAIN)
 		slot0:EnableAddGrid(Fleet.VANGUARD)
 	end
@@ -683,15 +702,13 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 
 			pg.DelegateInfo.Add(slot0, GetOrAddComponent(slot5, "UILongPressTrigger").onLongPressed)
 			GetOrAddComponent(slot5, "UILongPressTrigger").onLongPressed:AddListener(function ()
-				if slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS then
-					slot0:emit(PreCombatMediator.OPEN_SHIP_INFO, slot1.id, slot0._currentFleetVO)
-				end
+				slot0:emit(PreCombatMediator.OPEN_SHIP_INFO, slot1.id, slot0._currentFleetVO)
 
 				return
 			end)
 			pg.DelegateInfo.Add(slot0, GetOrAddComponent(slot5, "ModelDrag").onModelClick)
 			GetOrAddComponent(slot5, "ModelDrag").onModelClick:AddListener(function ()
-				if slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS then
+				if slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS and slot0.contextData.system ~= SYSTEM_ACT_BOSS and slot0.contextData.system ~= SYSTEM_BOSS_EXPERIMENT then
 					playSoundEffect(SFX_UI_CLICK)
 					playSoundEffect:emit(PreCombatMediator.CHANGE_FLEET_SHIP, playSoundEffect, slot0._currentFleetVO, )
 				end
@@ -729,7 +746,7 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 					return
 				end
 
-				if slot1.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS and (slot1.position.x > UnityEngine.Screen.width * 0.65 or slot1.position.y < UnityEngine.Screen.height * 0.25) then
+				if slot1.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS and slot1.contextData.system ~= SYSTEM_ACT_BOSS and slot1.contextData.system ~= SYSTEM_BOSS_EXPERIMENT and (slot1.position.x > UnityEngine.Screen.width * 0.65 or slot1.position.y < UnityEngine.Screen.height * 0.25) then
 					if not slot1._currentFleetVO:canRemove(slot2) then
 						slot3, slot4 = slot1._currentFleetVO:getShipPos(slot2)
 
@@ -780,18 +797,34 @@ end
 function slot0.displayFleetInfo(slot0)
 	slot1 = slot0._currentFleetVO:GetPropertiesSum()
 
-	setActive(slot0._popup, slot0.contextData.system ~= SYSTEM_DUEL)
-	slot0.tweenNumText(slot0._costText, slot0._currentFleetVO:GetCostSum().oil)
+	setActive(slot0._popup, slot5 ~= SYSTEM_DUEL)
+	slot0.tweenNumText(slot0._costText, (pg.battle_cost_template[slot0.contextData.system].oil_cost == 0 and 0) or slot0._currentFleetVO:GetCostSum().oil)
 	slot0.tweenNumText(slot0._vanguardGS, slot0._currentFleetVO:GetGearScoreSum(Fleet.VANGUARD))
 	slot0.tweenNumText(slot0._mainGS, slot0._currentFleetVO:GetGearScoreSum(Fleet.MAIN))
-	setText(slot0._fleetNameText, slot0.defaultFleetName(slot0._currentFleetVO))
+
+	if slot5 == SYSTEM_BOSS_EXPERIMENT then
+		setActive(slot0._ticket, true)
+		setText(slot0:findTF("right/start/ticket/Text"), 0)
+	else
+		if slot5 == SYSTEM_HP_SHARE_ACT_BOSS then
+			setActive(slot0._ticket, true)
+			setText(slot0:findTF("right/start/ticket/Text"), 1)
+		end
+	end
+
+	if slot5 == SYSTEM_ACT_BOSS or slot5 == SYSTEM_HP_SHARE_ACT_BOSS or slot5 == SYSTEM_BOSS_EXPERIMENT then
+		setText(slot0._fleetNameText, Fleet.DEFAULT_NAME_BOSS_ACT[slot0._currentFleetVO.id])
+	else
+		setText(slot0._fleetNameText, slot0.defaultFleetName(slot0._currentFleetVO))
+	end
+
 	setText(slot0._fleetNumText, slot0._currentFleetVO.id)
 
 	return
 end
 
 function slot0.SetFleetStepper(slot0)
-	if slot0.contextData.system ~= SYSTEM_DUEL and slot0.contextData.system ~= SYSTEM_HP_SHARE_ACT_BOSS then
+	if slot0.contextData.system ~= SYSTEM_DUEL and slot1 ~= SYSTEM_ACT_BOSS and slot1 ~= SYSTEM_HP_SHARE_ACT_BOSS and slot1 ~= SYSTEM_BOSS_EXPERIMENT then
 		SetActive(slot0._nextPage, slot0._curFleetIndex < #slot0._legalFleetIdList)
 		SetActive(slot0._prevPage, slot0._curFleetIndex > 1)
 	else

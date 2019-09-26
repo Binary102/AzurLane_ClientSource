@@ -378,9 +378,14 @@ function slot1(slot0, slot1)
 		slot2(slot3, slot4, slot5)
 
 		slot2 = slot2
-		slot2 = slot2.ScenarioCommanderExp
+		slot2 = slot2.GenerateCommanderExp
 		slot3 = slot0
-		slot2 = slot2(slot3)
+		slot4 = slot5
+		slot5 = slot4
+		slot4 = slot4.getActiveChapter
+		slot4 = slot4(slot5)
+		slot4 = slot4.fleet
+		slot2 = slot2(slot3, slot4)
 		slot3 = slot3
 		slot3 = slot3.statistics
 		slot4 = slot0.mvp
@@ -393,8 +398,8 @@ function slot1(slot0, slot1)
 		slot5 = slot2
 		slot5 = slot5.GeneralPlayerCosume
 		slot6 = SYSTEM_SCENARIO
-		slot7 = slot5
-		slot8 = slot6
+		slot7 = slot6
+		slot8 = slot7
 		slot9 = slot0.player_exp
 		slot10 = slot1
 
@@ -406,7 +411,7 @@ function slot1(slot0, slot1)
 		slot6 = slot3
 		slot6 = slot6.statistics
 		slot5.statistics = slot6
-		slot6 = slot7
+		slot6 = slot8
 		slot5.score = slot6
 		slot5.drops = slot3
 		slot5.commanderExps = slot2
@@ -425,13 +430,13 @@ function slot1(slot0, slot1)
 
 		slot6(slot7, slot8, slot9)
 
-		slot6 = slot8
+		slot6 = slot5
 		slot7 = slot6
 		slot6 = slot6.updateActiveChapterShips
 
 		slot6(slot7)
 
-		slot6 = slot8
+		slot6 = slot5
 		slot7 = slot6
 		slot6 = slot6.getActiveChapter
 		slot6 = slot6(slot7)
@@ -441,7 +446,7 @@ function slot1(slot0, slot1)
 
 		slot7(slot8, slot9)
 
-		slot7 = slot8
+		slot7 = slot5
 		slot8 = slot7
 		slot7 = slot7.getMaps
 		slot7 = slot7(slot8)
@@ -460,14 +465,14 @@ function slot1(slot0, slot1)
 			end
 		end
 
-		slot9 = slot8
+		slot9 = slot5
 		slot10 = slot9
 		slot9 = slot9.updateChapter
 		slot11 = slot6
 
 		slot9(slot10, slot11)
 
-		slot9 = slot8
+		slot9 = slot5
 		slot10 = slot9
 		slot9 = slot9.getMaps
 		slot9 = slot9(slot10)

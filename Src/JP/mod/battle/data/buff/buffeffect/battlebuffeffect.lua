@@ -20,6 +20,7 @@ function ys.Battle.BattleBuffEffect.Ctor(slot0, slot1)
 	slot0._ammoIndexRequire = slot2.ammoIndex
 
 	slot0:ConfigHPTrigger()
+	slot0:ConfigAttrTrigger()
 	slot0:SetActive()
 end
 
@@ -49,6 +50,12 @@ function ys.Battle.BattleBuffEffect.ConfigHPTrigger(slot0)
 
 	slot0._hpSigned = slot1.hpSigned or -1
 	slot0._hpOutInterval = slot1.hpOutInterval
+end
+
+function ys.Battle.BattleBuffEffect.ConfigAttrTrigger(slot0)
+	slot0._attrLowerBound = slot0._tempData.arg_list.attrLowerBound
+	slot0._attrUpperBound = slot0._tempData.arg_list.attrUpperBound
+	slot0._attrInterval = slot0._tempData.arg_list.attrInterval
 end
 
 function ys.Battle.BattleBuffEffect.SetCaster(slot0, slot1)
@@ -397,6 +404,20 @@ function ys.Battle.BattleBuffEffect.hpIntervalRequire(slot0, slot1, slot2)
 	end
 
 	return slot3
+end
+
+function ys.Battle.BattleBuffEffect.attrIntervalRequire(slot0, slot1)
+	slot2 = true
+
+	if slot0._attrUpperBound and slot0._attrUpperBound <= slot1 then
+		slot2 = false
+	end
+
+	if slot0._attrLowerBound and slot1 <= slot0._attrLowerBound then
+		slot2 = false
+	end
+
+	return slot2
 end
 
 function ys.Battle.BattleBuffEffect.onHPRatioUpdate(slot0, slot1, slot2, slot3)

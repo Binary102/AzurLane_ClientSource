@@ -516,10 +516,10 @@ end
 function slot0.updateSkillDesc(slot0, slot1, slot2, slot3, slot4)
 	setText(findTF(slot1, "name"), slot2.name)
 	setText(findTF(slot1, "level_contain/level"), slot2.level)
-	setText(findTF(slot1, "desc"), Student.getSkillDesc(slot2.id, slot2.level))
+	setText(findTF(slot1, "descView/Viewport/desc"), Student.getSkillDesc(slot2.id, slot2.level))
 
-	if 26 - math.floor((#findTF(slot1, "desc"):GetComponent(typeof(Text)).text - 160) / 40) < 20 then
-		slot6 = 20
+	if 26 - math.floor((#findTF(slot1, "descView/Viewport/desc"):GetComponent(typeof(Text)).text - 160) / 40) < 26 then
+		slot6 = 26
 	end
 
 	if slot6 > 28 then
@@ -701,13 +701,13 @@ function slot0.updateSkill(slot0, slot1, slot2, slot3, slot4)
 				setText(slot10, "<color=#A9F548FF>" .. slot3.exp .. "</color>/" .. slot9.exp)
 			end
 
-			setText(findTF(slot5, "desc"), Student.getSkillDesc(slot3.id, slot3.level))
+			setText(findTF(slot5, "descView/Viewport/desc"), Student.getSkillDesc(slot3.id, slot3.level))
 		else
-			setText(findTF(slot5, "desc"), slot3.desc)
+			setText(findTF(slot5, "descView/Viewport/desc"), slot3.desc)
 		end
 
-		if 26 - math.floor((#findTF(slot5, "desc"):GetComponent(typeof(Text)).text - 160) / 40) < 20 then
-			slot10 = 20
+		if 26 - math.floor((#findTF(slot5, "descView/Viewport/desc"):GetComponent(typeof(Text)).text - 160) / 40) < 26 then
+			slot10 = 26
 		end
 
 		if slot10 > 28 then

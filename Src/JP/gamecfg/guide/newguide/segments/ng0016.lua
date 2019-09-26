@@ -1,5 +1,5 @@
 return {
-	id = "NG0015",
+	id = "NG0016",
 	events = {
 		{
 			alpha = 0.4,

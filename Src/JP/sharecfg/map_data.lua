@@ -1479,6 +1479,35 @@ pg.map_data = {
 			r = 0.03
 		}
 	},
+	[50037] = {
+		long_speed = 0.5,
+		long_pos = "-52.2, -54.1, 204.0;23.9, -53.9, 204.0;79.6, -53.1, 204.0;-0.5, -55.8, 204.0;-40.8, -56.5, 204.0;-17.9, -56.3, 204.0;95.1, -55.8, 204.0;73.2, -56.3, 204.0;108.8, -54.1, 204.0",
+		close_pos = "-65.9, -23.0, 134.4;-14.6, -21.7, 134.4;40.3, -23.0, 134.4;88.1, -22.0, 134.4;140.7, -23.0, 134.4",
+		long_scale = "1.0, 1.0, 1.0;1.0, 1.0, 1.0;1.0, 1.0, 1.0;1.0, 1.0, 1.0;1.0, 1.0, 1.0;1.0, 1.0, 1.0;-1.0, 1.0, 1.0;1.0, 1.0, 1.0;1.0, 1.0, 1.0",
+		sky_pos = "-30.3, -80.8, 260.5;-46.0, -33.7, 164.4",
+		map_id = 50037,
+		sea_shot = "yinghua_easy2_huaban;gelidai;seayinghuaeasy",
+		close_scale = "1.2, 1.2, 1.2;1.2, 1.2, 1.2;1.2, 1.2, 1.2;1.2, 1.2, 1.2;-1.2, 1.2, 1.2",
+		sea_pos = "4.5, 2.3, 65.3;-27.1, -5.6, 54.0;-43.0, -1.0, 52.8",
+		sea_scale = "1.0, 1.0, 1.0;9.4, 23.9, 28.4;22.5, 1.0, 12.2",
+		range_left = -200,
+		range_right = 244.6,
+		sky_scale = "12.6, 9.1, 1.2;-1120.0, 3.7, 0.9",
+		mid_scale = "1.0, 1.0, 1.0;1.0, 1.0, 1.0;1.0, 1.0, 1.0;-1.0, 1.0, 1.0",
+		close_shot = "yinghua_easy_jinjing02;yinghua_easy_jinjing04;yinghua_easy_jinjing05;yinghua_easy_jinjing07;yinghua_easy_jinjing04",
+		long_shot = "yinghua_easy_yuanjing01;yinghua_easy_yuanjing02;yinghua_easy_yuanjing03;yinghua_easy_yuanjing04;yinghua_easy_yuanjing05;yinghua_easy_yuanjing06;yinghua_easy_yuanjing04;yinghua_easy_yuanjing06;yinghua_easy_yuanjing01",
+		sky_shot = "skyyinghuaeasy;wuqiyinghuaeasy",
+		mid_pos = "41.1, -29.5, 154.0;-41.1, -30.2, 154.0;104.6, -28.6, 154.0;156.0, -28.7, 154.0",
+		mid_shot = "yinghua_easy_jinjing01;yinghua_easy_jinjing03;yinghua_easy_jinjing06;yinghua_easy_jinjing03",
+		mid_speed = 2.34,
+		close_speed = 4.29,
+		diving_filter = {
+			g = 0.03,
+			a = 0.35,
+			b = 0.23,
+			r = 0.03
+		}
+	},
 	[90000] = {
 		long_speed = 1,
 		long_pos = "4.3, -57.6, 204.0;32.9, -57.7, 204.0;52.6, -57.6, 204.0;90.8, -57.7, 204.0;123.6, -57.6, 204.0;169.9, -57.7, 204.0;-69.0, -57.7, 204.0;-37.7, -57.6, 204.0;-7.5, -57.7, 204.0",
@@ -1705,6 +1734,7 @@ pg.map_data = {
 		50034,
 		50035,
 		50036,
+		50037,
 		90000,
 		90001,
 		90002,

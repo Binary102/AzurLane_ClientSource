@@ -203,6 +203,8 @@ function slot0.getWords(slot0, slot1, slot2, slot3, slot4)
 	slot13 = slot2 or math.random(#string.split(slot11, "|"))
 
 	if slot1 == "main" and slot12[slot13] == "nil" then
+		slot10 = true
+
 		if not slot0.getShipWords(slot7) then
 			return nil
 		end

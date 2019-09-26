@@ -78,49 +78,18 @@ function slot5(slot0, slot1, slot2)
 	slot3 = slot0.cfg
 	slot3 = slot3.backyard_speed
 	slot0.speed = slot3
-	slot3 = LoadAndInstantiateAsync
-	slot4 = "sfurniture"
-	slot5 = "modelmask"
-
-	function slot6(slot0)
-		slot1 = slot0
-		slot1 = slot1.tf
-
-		if not slot1 then
-			return
-		end
-
-		slot1 = SetParent
-		slot2 = slot0
-		slot3 = slot0
-		slot3 = slot3.tf
-
-		slot1(slot2, slot3)
-
-		slot1 = slot0
-		slot2 = tf
-		slot3 = slot0
-		slot2 = slot2(slot3)
-		slot1.bodyMask = slot2
-		slot1 = slot0
-		slot1 = slot1.bodyMask
-		slot2 = slot1
-		slot1 = slot1.SetSiblingIndex
-		slot3 = 0
-
-		slot1(slot2, slot3)
-
-		slot1 = SetActive
-		slot2 = slot0
-		slot3 = false
-
-		slot1(slot2, slot3)
-	end
-
-	slot7 = true
-	slot8 = true
-
-	slot3(slot4, slot5, slot6, slot7, slot8)
+	slot3 = slot0.tf
+	slot4 = slot3
+	slot3 = slot3.Find
+	slot5 = "_effect_"
+	slot3 = slot3(slot4, slot5)
+	slot0.effectContainer = slot3
+	slot3 = slot0.tf
+	slot4 = slot3
+	slot3 = slot3.Find
+	slot5 = "bodyMask"
+	slot3 = slot3(slot4, slot5)
+	slot0.bodyMask = slot3
 end
 
 slot0.Ctor = slot5
@@ -133,173 +102,186 @@ slot0.updateBoatVO = slot5
 
 function slot5(slot0, slot1)
 	slot0.viewComponent = slot1
-	slot3 = slot1
-	slot2 = slot1.findTF
-	slot4 = "resources"
-	slot2 = slot2(slot3, slot4)
-	slot4 = slot1
-	slot3 = slot1.findTF
-	slot5 = "bg/furContain/shadow"
-	slot3 = slot3(slot4, slot5)
-	slot4 = pg
-	slot4 = slot4.ViewUtils
-	slot4 = slot4.SetLayer
-	slot5 = slot0.tf
-	slot6 = Layer
-	slot6 = slot6.UI
+	slot2 = pg
+	slot2 = slot2.ViewUtils
+	slot2 = slot2.SetLayer
+	slot3 = slot0.tf
+	slot4 = Layer
+	slot4 = slot4.UI
 
-	slot4(slot5, slot6)
+	slot2(slot3, slot4)
 
-	slot4 = slot0.tf
-	slot5 = Vector3
-	slot6 = slot0
-	slot7 = slot0
-	slot8 = 1
-	slot5 = slot5(slot6, slot7, slot8)
-	slot4.localScale = slot5
-	slot4 = slot0.tf
-	slot5 = slot4
-	slot4 = slot4.Find
-	slot6 = "model"
-	slot4 = slot4(slot5, slot6)
-	slot0.model = slot4
-	slot4 = slot0.model
-	slot5 = Vector3
+	slot2 = slot0.tf
+	slot3 = Vector3
+	slot4 = slot0
+	slot5 = slot0
 	slot6 = 1
-	slot7 = 1
-	slot8 = 1
-	slot5 = slot5(slot6, slot7, slot8)
-	slot4.localScale = slot5
+	slot3 = slot3(slot4, slot5, slot6)
+	slot2.localScale = slot3
+	slot2 = slot0.tf
+	slot3 = slot2
+	slot2 = slot2.Find
+	slot4 = "model"
+	slot2 = slot2(slot3, slot4)
+	slot0.model = slot2
+	slot2 = slot0.model
+	slot3 = Vector3
+	slot4 = 1
+	slot5 = 1
+	slot6 = 1
+	slot3 = slot3(slot4, slot5, slot6)
+	slot2.localScale = slot3
+	slot2 = slot1.floorContain
+	slot0.floorGrid = slot2
+	slot2 = slot1.floorContain
+	slot2 = slot2.parent
+	slot3 = slot2
+	slot2 = slot2.Find
+	slot4 = "ship_grid"
+	slot2 = slot2(slot3, slot4)
+	slot0.shipGridContainer = slot2
+	slot2 = slot0.shipGridContainer
+	slot3 = slot2
+	slot2 = slot2.Find
+	slot4 = "grid"
+	slot2 = slot2(slot3, slot4)
+	slot0.shipGrid = slot2
+	slot2 = slot0.shipGrid
+	slot3 = slot2
+	slot2 = slot2.GetComponent
+	slot4 = typeof
+	slot5 = Image
+	slot2 = slot2(slot3, slot4(slot5))
+	slot0.shipGridImg = slot2
+	slot2 = slot0.model
+	slot3 = slot2
+	slot2 = slot2.GetComponent
+	slot4 = "SpineAnimUI"
+	slot2 = slot2(slot3, slot4)
+	slot0.spineAnimUI = slot2
+	slot2 = slot0.spineAnimUI
+	slot3 = slot2
+	slot2 = slot2.SetAction
+	slot4 = "stand2"
+	slot5 = 0
+
+	slot2(slot3, slot4, slot5)
+
+	slot2 = GetOrAddComponent
+	slot3 = slot0.go
+	slot4 = "CanvasGroup"
+	slot2 = slot2(slot3, slot4)
+	slot0.canvasGroup = slot2
+	slot2 = slot0.tf
+	slot3 = slot2
+	slot2 = slot2.Find
+	slot4 = "chat"
+	slot2 = slot2(slot3, slot4)
+	slot0.chatTF = slot2
+	slot3 = slot0
+	slot2 = slot0.loadClick
+
+	slot2(slot3)
+
+	slot3 = slot0
+	slot2 = slot0.loadExp
+
+	slot2(slot3)
+
+	slot3 = slot0
+	slot2 = slot0.loadInimacy
+
+	slot2(slot3)
+
+	slot3 = slot0
+	slot2 = slot0.loadMoeny
+
+	slot2(slot3)
+
+	slot3 = slot0
+	slot2 = slot0.loadShadow
+	slot5 = slot1
+	slot4 = slot1.findTF
+	slot6 = "bg/furContain/shadow"
+
+	slot2(slot3, slot4(slot5, slot6))
+
+	slot2 = slot0.tf
+	slot3 = slot2
+	slot2 = slot2.SetParent
 	slot4 = slot1.floorContain
-	slot0.floorGrid = slot4
-	slot4 = slot1.floorContain
-	slot4 = slot4.parent
-	slot5 = slot4
-	slot4 = slot4.Find
-	slot6 = "ship_grid"
-	slot4 = slot4(slot5, slot6)
-	slot0.shipGridContainer = slot4
-	slot4 = slot0.shipGridContainer
-	slot5 = slot4
-	slot4 = slot4.Find
-	slot6 = "grid"
-	slot4 = slot4(slot5, slot6)
-	slot0.shipGrid = slot4
-	slot4 = slot0.shipGrid
-	slot5 = slot4
-	slot4 = slot4.GetComponent
-	slot6 = typeof
-	slot7 = Image
-	slot4 = slot4(slot5, slot6(slot7))
-	slot0.shipGridImg = slot4
-	slot4 = slot0.model
-	slot5 = slot4
-	slot4 = slot4.GetComponent
-	slot6 = "SpineAnimUI"
-	slot4 = slot4(slot5, slot6)
-	slot0.spineAnimUI = slot4
-	slot4 = slot0.spineAnimUI
-	slot5 = slot4
-	slot4 = slot4.SetAction
-	slot6 = "stand2"
-	slot7 = 0
+	slot5 = false
 
-	slot4(slot5, slot6, slot7)
+	slot2(slot3, slot4, slot5)
 
-	slot4 = GetOrAddComponent
-	slot5 = slot0.go
-	slot6 = "CanvasGroup"
-	slot4 = slot4(slot5, slot6)
-	slot0.canvasGroup = slot4
-	slot5 = slot0
-	slot4 = slot0.loadChat
-	slot6 = findTF
-	slot7 = slot2
-	slot8 = "chat"
+	slot2 = slot0.boatVO
+	slot3 = slot2
+	slot2 = slot2.getPosition
+	slot2 = slot2(slot3)
+	slot4 = slot0
+	slot3 = slot0.updateShadowTF
+	slot5 = true
 
-	slot4(slot5, slot6(slot7, slot8))
+	slot3(slot4, slot5)
 
-	slot5 = slot0
-	slot4 = slot0.loadClick
-	slot6 = findTF
-	slot7 = slot2
-	slot8 = "click"
+	slot4 = slot0
+	slot3 = slot0.updatePosition
+	slot5 = slot2
 
-	slot4(slot5, slot6(slot7, slot8))
+	slot3(slot4, slot5)
 
-	slot5 = slot0
-	slot4 = slot0.loadExp
-	slot6 = findTF
-	slot7 = slot2
-	slot8 = "addition"
+	slot4 = slot0
+	slot3 = slot0.updateShadowPos
 
-	slot4(slot5, slot6(slot7, slot8))
+	slot3(slot4)
 
-	slot5 = slot0
-	slot4 = slot0.loadInimacy
-	slot6 = findTF
-	slot7 = slot2
-	slot8 = "intimacy"
+	slot4 = slot0
+	slot3 = slot0.addBoatDragListenter
 
-	slot4(slot5, slot6(slot7, slot8))
+	slot3(slot4)
 
-	slot5 = slot0
-	slot4 = slot0.loadMoeny
-	slot6 = findTF
-	slot7 = slot2
-	slot8 = "money"
-
-	slot4(slot5, slot6(slot7, slot8))
-
-	slot5 = slot0
-	slot4 = slot0.loadShadow
-	slot6 = findTF
-	slot7 = slot2
-	slot8 = "shadow"
-	slot6 = slot6(slot7, slot8)
-	slot7 = slot3
-
-	slot4(slot5, slot6, slot7)
-
-	slot4 = slot0.tf
-	slot5 = slot4
-	slot4 = slot4.SetParent
-	slot6 = slot1.floorContain
-	slot7 = false
-
-	slot4(slot5, slot6, slot7)
-
-	slot4 = slot0.boatVO
-	slot5 = slot4
-	slot4 = slot4.getPosition
-	slot4 = slot4(slot5)
-	slot6 = slot0
-	slot5 = slot0.updateShadowTF
-	slot7 = true
-
-	slot5(slot6, slot7)
-
-	slot6 = slot0
-	slot5 = slot0.updatePosition
-	slot7 = slot4
-
-	slot5(slot6, slot7)
-
-	slot6 = slot0
-	slot5 = slot0.updateShadowPos
-
-	slot5(slot6)
-
-	slot6 = slot0
-	slot5 = slot0.addBoatDragListenter
-
-	slot5(slot6)
-
-	slot5 = {}
-	slot0.actionCallback = slot5
+	slot3 = {}
+	slot0.actionCallback = slot3
 end
 
 slot0.onLoadSlotModel = slot5
+
+function slot5(slot0)
+	slot1 = SetParent
+	slot2 = slot0.tf
+	slot3 = slot0.floorGrid
+
+	slot1(slot2, slot3)
+
+	slot2 = slot0
+	slot1 = slot0.setAction
+	slot3 = "stand2"
+
+	slot1(slot2, slot3)
+end
+
+slot0.CancelInterAction = slot5
+
+function slot5(slot0, slot1)
+	slot2 = slot0.tf
+	slot3 = slot2
+	slot2 = slot2.Find
+	slot4 = "shadow"
+	slot2 = slot2(slot3, slot4)
+	slot0.shadowTF = slot2
+	slot2 = setParent
+	slot3 = slot0.shadowTF
+	slot4 = slot1
+
+	slot2(slot3, slot4)
+
+	slot2 = slot0.shadowTF
+	slot3 = slot0.tf
+	slot3 = slot3.localPosition
+	slot2.localPosition = slot3
+end
+
+slot0.loadShadow = slot5
 
 function slot5(slot0, slot1, slot2, slot3, slot4)
 	slot5 = LeanTween
@@ -335,57 +317,18 @@ end
 
 slot0.showChat = slot5
 
-function slot5(slot0, slot1)
-	slot2 = cloneTplTo
-	slot3 = slot1
-	slot4 = slot0.go
-	slot2 = slot2(slot3, slot4)
-	slot0.chatTF = slot2
-	slot2 = findTF
-	slot3 = slot0.chatTF
-	slot4 = "Text"
-	slot2 = slot2(slot3, slot4)
-	slot3 = slot0.chatTF
-	slot4 = Vector2
-	slot5 = 145
-	slot6 = 290
-	slot4 = slot4(slot5, slot6)
-	slot3.localPosition = slot4
-	slot3 = slot0.chatTF
-	slot4 = Vector3
-	slot5 = 0
-	slot6 = 0
-	slot7 = 0
-	slot4 = slot4(slot5, slot6, slot7)
-	slot3.localScale = slot4
-end
+function slot5(slot0)
+	slot1 = slot0.tf
+	slot2 = slot1
+	slot1 = slot1.Find
+	slot3 = "click"
+	slot1 = slot1(slot2, slot3)
+	slot0.clickTF = slot1
+	slot1 = onButton
+	slot2 = slot0
+	slot3 = slot0.clickTF
 
-slot0.loadChat = slot5
-
-function slot5(slot0, slot1)
-	slot2 = cloneTplTo
-	slot3 = slot1
-	slot4 = slot0.go
-	slot2 = slot2(slot3, slot4)
-	slot0.clickTF = slot2
-	slot2 = slot0.clickTF
-	slot3 = Vector2
-	slot4 = 0
-	slot5 = 130
-	slot3 = slot3(slot4, slot5)
-	slot2.localPosition = slot3
-	slot2 = slot0.clickTF
-	slot3 = Vector2
-	slot4 = 1
-	slot5 = 1
-	slot6 = 1
-	slot3 = slot3(slot4, slot5, slot6)
-	slot2.localScale = slot3
-	slot2 = onButton
-	slot3 = slot0
-	slot4 = slot0.clickTF
-
-	function slot5()
+	function slot4()
 		slot0 = slot0
 		slot0 = slot0.boatVO
 		slot1 = slot0
@@ -504,43 +447,38 @@ function slot5(slot0, slot1)
 		slot0(slot1, slot2, slot3, slot4, slot5)
 	end
 
-	slot2(slot3, slot4, slot5)
+	slot1(slot2, slot3, slot4)
 end
 
 slot0.loadClick = slot5
 
-function slot5(slot0, slot1)
-	slot2 = cloneTplTo
-	slot3 = slot1
-	slot4 = slot0.go
-	slot2 = slot2(slot3, slot4)
-	slot0.expTF = slot2
-	slot2 = findTF
-	slot3 = slot0.expTF
-	slot4 = "money"
-	slot2 = slot2(slot3, slot4)
-	slot0.moneyAdditionTF = slot2
-	slot2 = findTF
-	slot3 = slot0.expTF
-	slot4 = "intimacy"
-	slot2 = slot2(slot3, slot4)
-	slot0.inimacyAdditionTF = slot2
-	slot2 = findTF
-	slot3 = slot0.expTF
-	slot4 = "exp"
-	slot2 = slot2(slot3, slot4)
-	slot0.expAdditionTF = slot2
+function slot5(slot0)
+	slot1 = slot0.tf
+	slot2 = slot1
+	slot1 = slot1.Find
+	slot3 = "addition"
+	slot1 = slot1(slot2, slot3)
+	slot0.expTF = slot1
+	slot1 = findTF
 	slot2 = slot0.expTF
-	slot3 = Vector2
-	slot4 = 0
-	slot5 = 250
-	slot3 = slot3(slot4, slot5)
-	slot2.localPosition = slot3
-	slot3 = slot0
-	slot2 = slot0.changeInnerDir
-	slot4 = 1
+	slot3 = "money"
+	slot1 = slot1(slot2, slot3)
+	slot0.moneyAdditionTF = slot1
+	slot1 = findTF
+	slot2 = slot0.expTF
+	slot3 = "intimacy"
+	slot1 = slot1(slot2, slot3)
+	slot0.inimacyAdditionTF = slot1
+	slot1 = findTF
+	slot2 = slot0.expTF
+	slot3 = "exp"
+	slot1 = slot1(slot2, slot3)
+	slot0.expAdditionTF = slot1
+	slot2 = slot0
+	slot1 = slot0.changeInnerDir
+	slot3 = 1
 
-	slot2(slot3, slot4)
+	slot1(slot2, slot3)
 end
 
 slot0.loadExp = slot5
@@ -611,101 +549,69 @@ end
 
 slot0.changeInnerDir = slot5
 
-function slot5(slot0, slot1)
-	slot2 = cloneTplTo
-	slot3 = slot1
-	slot4 = slot0.go
-	slot2 = slot2(slot3, slot4)
-	slot0.inimacyTF = slot2
+function slot5(slot0)
+	slot1 = slot0.tf
+	slot2 = slot1
+	slot1 = slot1.Find
+	slot3 = "intimacy"
+	slot1 = slot1(slot2, slot3)
+	slot0.inimacyTF = slot1
+	slot1 = floatAni
 	slot2 = slot0.inimacyTF
-	slot3 = Vector2
-	slot4 = 145
-	slot5 = 290
-	slot3 = slot3(slot4, slot5)
-	slot2.localPosition = slot3
-	slot2 = slot0.inimacyTF
-	slot3 = Vector2
-	slot4 = slot0
-	slot4 = 1 / slot4
-	slot5 = slot0
-	slot5 = 1 / slot5
-	slot3 = slot3(slot4, slot5)
-	slot2.localScale = slot3
-	slot2 = floatAni
-	slot3 = slot0.inimacyTF
-	slot4 = 20
-	slot5 = 1
+	slot3 = 20
+	slot4 = 1
 
-	slot2(slot3, slot4, slot5)
+	slot1(slot2, slot3, slot4)
 
-	slot3 = slot0
-	slot2 = slot0.updateInimacy
-	slot4 = slot0.boatVO
-	slot5 = slot4
-	slot4 = slot4.hasInimacy
+	slot2 = slot0
+	slot1 = slot0.updateInimacy
+	slot3 = slot0.boatVO
+	slot4 = slot3
+	slot3 = slot3.hasInimacy
 
-	slot2(slot3, slot4(slot5))
+	slot1(slot2, slot3(slot4))
 end
 
 slot0.loadInimacy = slot5
 
-function slot5(slot0, slot1)
-	slot2 = cloneTplTo
-	slot3 = slot1
-	slot4 = slot0.go
+function slot5(slot0)
+	slot1 = slot0.tf
+	slot2 = slot1
+	slot1 = slot1.Find
+	slot3 = "money"
+	slot1 = slot1(slot2, slot3)
+	slot0.moneyTF = slot1
+	slot1 = slot0.moneyTF
+	slot2 = Vector2
+	slot3 = 145
+	slot4 = 290
 	slot2 = slot2(slot3, slot4)
-	slot0.moneyTF = slot2
-	slot2 = slot0.moneyTF
-	slot3 = Vector2
-	slot4 = 145
-	slot5 = 290
-	slot3 = slot3(slot4, slot5)
-	slot2.localPosition = slot3
-	slot2 = slot0.moneyTF
-	slot3 = Vector2
+	slot1.localPosition = slot2
+	slot1 = slot0.moneyTF
+	slot2 = Vector2
+	slot3 = slot0
+	slot3 = 1 / slot3
 	slot4 = slot0
 	slot4 = 1 / slot4
-	slot5 = slot0
-	slot5 = 1 / slot5
-	slot3 = slot3(slot4, slot5)
-	slot2.localScale = slot3
-	slot2 = floatAni
-	slot3 = slot0.moneyTF
-	slot4 = 20
-	slot5 = 1
+	slot2 = slot2(slot3, slot4)
+	slot1.localScale = slot2
+	slot1 = floatAni
+	slot2 = slot0.moneyTF
+	slot3 = 20
+	slot4 = 1
 
-	slot2(slot3, slot4, slot5)
+	slot1(slot2, slot3, slot4)
 
-	slot3 = slot0
-	slot2 = slot0.updateMoney
-	slot4 = slot0.boatVO
-	slot5 = slot4
-	slot4 = slot4.hasMoney
+	slot2 = slot0
+	slot1 = slot0.updateMoney
+	slot3 = slot0.boatVO
+	slot4 = slot3
+	slot3 = slot3.hasMoney
 
-	slot2(slot3, slot4(slot5))
+	slot1(slot2, slot3(slot4))
 end
 
 slot0.loadMoeny = slot5
-
-function slot5(slot0, slot1, slot2)
-	slot3 = cloneTplTo
-	slot4 = slot1
-	slot5 = slot2
-	slot3 = slot3(slot4, slot5)
-	slot0.shadowTF = slot3
-	slot3 = slot0.shadowTF
-	slot4 = slot0.tf
-	slot4 = slot4.localPosition
-	slot3.localPosition = slot4
-	slot3 = slot0.shadowTF
-	slot4 = Vector2
-	slot5 = 1
-	slot6 = 1
-	slot4 = slot4(slot5, slot6)
-	slot3.localScale = slot4
-end
-
-slot0.loadShadow = slot5
 
 function slot5(slot0)
 	slot1 = IsNil
@@ -720,9 +626,10 @@ function slot5(slot0)
 
 	if slot1 then
 		slot1 = slot0.viewComponent
-		slot1 = slot1.furnitureModals
-		slot2 = slot0.archId
-		slot1 = slot1[slot2]
+		slot2 = slot1
+		slot1 = slot1.GetFurnitureGo
+		slot3 = slot0.archId
+		slot1 = slot1(slot2, slot3)
 		slot2 = slot0
 		slot2 = slot2.turnTransformLocalPos
 		slot3 = slot0.tf
@@ -1709,8 +1616,10 @@ slot0.triggerInterAction = slot5
 
 function slot5(slot0, slot1)
 	slot2 = slot0.viewComponent
-	slot2 = slot2.furnitureModals
-	slot2 = slot2[slot1]
+	slot3 = slot2
+	slot2 = slot2.GetFurnitureGo
+	slot4 = slot1
+	slot2 = slot2(slot3, slot4)
 	slot3 = slot0.viewComponent
 	slot3 = slot3.furnitureVOs
 	slot3 = slot3[slot1]
@@ -2038,9 +1947,10 @@ function slot5(slot0, slot1, slot2)
 	slot3(slot4)
 
 	slot3 = slot0.viewComponent
-	slot3 = slot3.furnitureModals
-	slot4 = slot1.id
-	slot3 = slot3[slot4]
+	slot4 = slot3
+	slot3 = slot3.GetFurnitureGo
+	slot5 = slot1.id
+	slot3 = slot3(slot4, slot5)
 	slot5 = slot1
 	slot4 = slot1.getInterActionData
 	slot6 = slot2
@@ -2187,8 +2097,10 @@ function slot5(slot0)
 	slot1 = slot1.getInterActionFurnitrueId
 	slot1 = slot1(slot2)
 	slot2 = slot0.viewComponent
-	slot2 = slot2.furnitureModals
-	slot2 = slot2[slot1]
+	slot3 = slot2
+	slot2 = slot2.GetFurnitureGo
+	slot4 = slot1
+	slot2 = slot2(slot3, slot4)
 	slot3 = slot0.viewComponent
 	slot3 = slot3.furnitureVOs
 	slot3 = slot3[slot1]
@@ -2236,9 +2148,10 @@ function slot5(slot0, slot1)
 
 	slot0.spineFurniture = slot1
 	slot2 = slot0.viewComponent
-	slot2 = slot2.furnitureModals
-	slot3 = slot1.id
-	slot2 = slot2[slot3]
+	slot3 = slot2
+	slot2 = slot2.GetFurnitureGo
+	slot4 = slot1.id
+	slot2 = slot2(slot3, slot4)
 	slot4 = slot0
 	slot3 = slot0.updateModelDir
 
@@ -3251,7 +3164,7 @@ end
 slot0.playTailActions = slot5
 
 function slot5(slot0, slot1, slot2)
-	slot3 = slot0.viewComponent.furnitureModals[slot1.id]
+	slot3 = slot0.viewComponent:GetFurnitureGo(slot1.id)
 	slot4 = slot1:getAnimtorControlName(slot2 or 0)
 	slot5 = slot0.animtorNameIndex
 
@@ -3402,9 +3315,10 @@ function slot5(slot0, slot1, slot2, slot3)
 
 		if slot4 then
 			slot4 = slot0.viewComponent
-			slot4 = slot4.furnitureModals
-			slot5 = slot1.id
-			slot4 = slot4[slot5]
+			slot5 = slot4
+			slot4 = slot4.GetFurnitureGo
+			slot6 = slot1.id
+			slot4 = slot4(slot5, slot6)
 
 			if slot4 then
 				slot5 = nil
@@ -3496,9 +3410,10 @@ function slot5(slot0, slot1)
 
 		if slot2 then
 			slot2 = slot0.viewComponent
-			slot2 = slot2.furnitureModals
-			slot3 = slot1.id
-			slot2 = slot2[slot3]
+			slot3 = slot2
+			slot2 = slot2.GetFurnitureGo
+			slot4 = slot1.id
+			slot2 = slot2(slot3, slot4)
 
 			if slot2 then
 				slot3 = SetParent
@@ -3808,8 +3723,10 @@ function slot5(slot0, slot1)
 		slot0.isMove = slot3
 		slot3 = slot2
 		slot4 = slot0.viewComponent
-		slot4 = slot4.furnitureModals
-		slot4 = slot4[slot3]
+		slot5 = slot4
+		slot4 = slot4.GetFurnitureGo
+		slot6 = slot3
+		slot4 = slot4(slot5, slot6)
 		slot6 = slot4
 		slot5 = slot4.Find
 		slot7 = "childs"
@@ -3936,8 +3853,10 @@ function slot5(slot0, slot1)
 
 	slot0.archId = slot1
 	slot2 = slot0.viewComponent
-	slot2 = slot2.furnitureModals
-	slot2 = slot2[slot1]
+	slot3 = slot2
+	slot2 = slot2.GetFurnitureGo
+	slot4 = slot1
+	slot2 = slot2(slot3, slot4)
 	slot3 = SetParent
 	slot4 = slot0.tf
 	slot6 = slot2
@@ -4009,9 +3928,10 @@ function slot5(slot0)
 
 	if slot1 then
 		slot1 = slot0.viewComponent
-		slot1 = slot1.furnitureModals
-		slot2 = slot0.stageId
-		slot1 = slot1[slot2]
+		slot2 = slot1
+		slot1 = slot1.GetFurnitureGo
+		slot3 = slot0.stageId
+		slot1 = slot1(slot2, slot3)
 		slot2 = SetParent
 		slot3 = slot0.tf
 		slot5 = slot1
@@ -4031,9 +3951,10 @@ function slot5(slot0)
 	end
 
 	slot1 = slot0.viewComponent
-	slot1 = slot1.furnitureModals
-	slot2 = slot0.archId
-	slot1 = slot1[slot2]
+	slot2 = slot1
+	slot1 = slot1.GetFurnitureGo
+	slot3 = slot0.archId
+	slot1 = slot1(slot2, slot3)
 	slot3 = slot1
 	slot2 = slot1.Find
 	slot4 = BackYardConst
@@ -4063,8 +3984,10 @@ slot0.clearArchInterAction = slot5
 
 function slot5(slot0, slot1, slot2)
 	slot3 = slot0.viewComponent
-	slot3 = slot3.furnitureModals
-	slot3 = slot3[slot2]
+	slot4 = slot3
+	slot3 = slot3.GetFurnitureGo
+	slot5 = slot2
+	slot3 = slot3(slot4, slot5)
 	slot5 = slot3
 	slot4 = slot3.Find
 	slot6 = "childs"
@@ -4195,9 +4118,10 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 
 				if slot9 then
 					slot9 = slot0.viewComponent
-					slot9 = slot9.furnitureModals
-					slot10 = slot0.stageId
-					slot9 = slot9[slot10]
+					slot10 = slot9
+					slot9 = slot9.GetFurnitureGo
+					slot11 = slot0.stageId
+					slot9 = slot9(slot10, slot11)
 					slot10 = slot9.localScale
 					slot8 = slot10.x
 				end
@@ -4940,8 +4864,10 @@ function slot5(slot0, slot1, slot2)
 	slot3(slot4, slot5)
 
 	slot3 = slot0.viewComponent
-	slot3 = slot3.furnitureModals
-	slot3 = slot3[slot1]
+	slot4 = slot3
+	slot3 = slot3.GetFurnitureGo
+	slot5 = slot1
+	slot3 = slot3(slot4, slot5)
 	slot4 = slot0.viewComponent
 	slot4 = slot4.furnitureVOs
 	slot4 = slot4[slot1]
@@ -5035,8 +4961,10 @@ function slot5(slot0, slot1, slot2)
 	slot3(slot4, slot5, slot6)
 
 	slot3 = slot0.viewComponent
-	slot3 = slot3.furnitureModals
-	slot3 = slot3[slot1]
+	slot4 = slot3
+	slot3 = slot3.GetFurnitureGo
+	slot5 = slot1
+	slot3 = slot3(slot4, slot5)
 	slot4 = slot0.viewComponent
 	slot4 = slot4.furnitureVOs
 	slot4 = slot4[slot1]
@@ -5087,8 +5015,10 @@ function slot5(slot0, slot1)
 	slot2 = true
 	slot0.isInTransport = slot2
 	slot2 = slot0.viewComponent
-	slot2 = slot2.furnitureModals
-	slot2 = slot2[slot1]
+	slot3 = slot2
+	slot2 = slot2.GetFurnitureGo
+	slot4 = slot1
+	slot2 = slot2(slot3, slot4)
 	slot3 = SetParent
 	slot4 = slot0.tf
 	slot5 = slot2
@@ -5341,8 +5271,10 @@ slot0.InterActionTransport = slot5
 
 function slot5(slot0, slot1)
 	slot2 = slot0.viewComponent
-	slot2 = slot2.furnitureModals
-	slot2 = slot2[slot1]
+	slot3 = slot2
+	slot2 = slot2.GetFurnitureGo
+	slot4 = slot1
+	slot2 = slot2(slot3, slot4)
 	slot3 = slot0.viewComponent
 	slot3 = slot3.furnitureVOs
 	slot3 = slot3[slot1]
@@ -5728,6 +5660,11 @@ end
 slot0.closeBodyMask = slot5
 
 function slot5(slot0)
+	slot1 = removeAllChildren
+	slot2 = slot0.effectContainer
+
+	slot1(slot2)
+
 	slot1 = slot0.timer
 
 	if slot1 then
@@ -5854,5 +5791,19 @@ function slot5(slot0)
 end
 
 slot0.dispose = slot5
+
+function slot5(slot0, slot1)
+	slot0.canvasGroup.alpha = (not slot1 and 1) or 0
+	slot2 = slot0.canvasGroup
+	slot3 = not slot1
+	slot2.blocksRaycasts = slot3
+	slot3 = slot0
+	slot2 = slot0.updateShadowTF
+	slot4 = not slot1
+
+	slot2(slot3, slot4)
+end
+
+slot0.enableTouch = slot5
 
 return slot0

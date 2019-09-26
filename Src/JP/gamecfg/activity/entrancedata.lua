@@ -37,7 +37,10 @@ return {
 			SCENE.COLORING
 		},
 		isShow = function ()
-			return getProxy(ActivityProxy):getActivityById(ActivityConst.MING_PAINT) and not slot0:isEnd()
+			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA) and not slot0:isEnd()
+		end,
+		isTip = function ()
+			return getProxy(ColoringProxy):CheckTodayTip()
 		end
 	},
 	{

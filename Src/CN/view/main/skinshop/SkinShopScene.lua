@@ -1,8 +1,6 @@
-slot0 = class("SkinShopScene", import("..base.BaseUI"))
-slot1 = pg.ship_data_group
-slot2 = pg.skin_page_template
-slot3 = pg.ship_skin_template
-slot4 = pg.shop_template
+slot0 = class("SkinShopScene", import("...base.BaseUI"))
+slot1 = pg.skin_page_template
+slot2 = pg.ship_skin_template
 slot0.SHOP_TYPE_COMMON = 1
 slot0.SHOP_TYPE_TIMELIMIT = 2
 slot0.PAGE_ALL = -1
@@ -10,7 +8,7 @@ slot0.PAGE_TIME_LIMIT = -2
 slot0.MSGBOXNAME = "SkinShopMsgbox"
 slot0.EXSKINNAME = "ExSkinListUI"
 slot0.OVERDUENAME = "SkinOverDueUI"
-slot5 = {
+slot3 = {
 	{
 		"huanzhuangshagndian",
 		"huanzhuangshagndian_en"
@@ -20,86 +18,6 @@ slot5 = {
 		"title_en_01"
 	}
 }
-
-function slot6(slot0)
-	setActive(({
-		_go = slot0,
-		_tf = tf(slot0),
-		_content = ()["_tf"]:Find("content"),
-		_mask = ()["_tf"]:Find("mask"),
-		_icon = ()["_tf"]:Find("content/main/bg/icon"):GetComponent(typeof(Image)),
-		_priceTF = ()["_tf"]:Find("content/main/bg/price"),
-		_priceIcon = ()["_priceTF"]:Find("gem"):GetComponent(typeof(Image)),
-		_priceTxt = ()["_priceTF"]:Find("gem/Text"):GetComponent(typeof(Text)),
-		_opriceTxt = ()["_priceTF"]:Find("originalprice"):GetComponent(typeof(Text)),
-		_tagTFs = {
-			()["_tf"]:Find("content/top/tags/tag_hot"),
-			()["_tf"]:Find("content/top/tags/tag_new"),
-			()["_tf"]:Find("content/top/tags/tag_advice"),
-			()["_tf"]:Find("content/top/tags/tag_activity"),
-			()["_tf"]:Find("content/top/tags/tag_discount"),
-			()["_tf"]:Find("content/top/tags/tag_nothing"),
-			()["_tf"]:Find("content/top/tags/tag_bought"),
-			()["_tf"]:Find("content/top/tags/tag_limit"),
-			()["_tf"]:Find("content/top/tags/tag_timelimit")
-		},
-		update = function (slot0, slot1)
-			slot0.goodsVO = slot1
-			slot0.shipSkinConfig = slot0[slot1:getSkinId()]
-
-			LoadSpriteAsync("shipYardIcon/" .. slot3, function (slot0)
-				slot0._icon.sprite = slot0
-			end)
-
-			for slot7, slot8 in pairs(slot0._tagTFs) do
-				setActive(slot8, false)
-			end
-
-			if slot0.goodsVO.type == Goods.TYPE_SKIN then
-				slot0._priceIcon.sprite = LoadSprite("props/" .. id2res(slot1:getConfig("resource_type")))
-				slot6 = slot1:getConfig("resource_num")
-				slot7 = (100 - slot1:getConfig("discount")) / 100
-
-				if slot1:isDisCount() then
-					slot0._priceTxt.text = slot6 * slot7
-				else
-					slot0._priceTxt.text = slot6
-				end
-
-				slot1._opriceTxt.text = slot6
-
-				setActive(go(slot1._opriceTxt), slot8 and slot7 < 1)
-
-				slot9 = slot1.buyCount == 0
-
-				if slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
-					setActive(slot0._tagTFs[9], true)
-				elseif slot9 then
-					slot11 = slot0.goodsVO:getConfig("tag")
-
-					if slot8 or slot11 == 5 then
-						setText(slot0._tagTFs[5].Find(slot12, "Text"), slot1:getConfig("discount") .. "%")
-						setActive(slot0._tagTFs[5], true)
-					elseif slot0._tagTFs[slot11] then
-						setActive(slot0._tagTFs[slot11], true)
-					else
-						setActive(slot0._tagTFs[6], true)
-					end
-				else
-					setActive(slot0._tagTFs[7], true)
-				end
-			end
-		end,
-		updateSelected = function (slot0, slot1)
-			slot0._content.localPosition = Vector3(0, (slot1 and -26) or -126, 0)
-
-			setActive(slot0._priceTF, slot1 and slot0.goodsVO.type == Goods.TYPE_SKIN)
-			setActive(slot0._mask, not slot1)
-		end
-	})["_priceTF"], false)
-
-	return 
-end
 
 function slot0.getUIName(slot0)
 	return "SkinShopUI"
@@ -119,47 +37,7 @@ function slot0.setPlayer(slot0, slot1)
 end
 
 function slot0.filterSkins(slot0)
-	slot0.skinGoodsVOs = {}
-
-	function slot1(slot0)
-		slot0:updateBuyCount((getProxy(ShipSkinProxy):getSkinById(slot0:getSkinId()) and not slot2:isExpireType() and 1) or 0)
-	end
-
-	for slot5, slot6 in ipairs(pg.shop_template.all) do
-		if pg.shop_template[slot6].genre == ShopArgs.SkinShop or slot7 == ShopArgs.SkinShopTimeLimit then
-			slot1(slot8)
-
-			slot9, slot10 = pg.TimeMgr.GetInstance():inTime(pg.shop_template[slot6].time)
-
-			if slot9 then
-				table.insert(slot0.skinGoodsVOs, slot8)
-			end
-		end
-	end
-
-	slot2 = getProxy(ActivityProxy)
-
-	for slot6, slot7 in ipairs(pg.activity_shop_template.all) do
-		if pg.activity_shop_template[slot7].commodity_type == DROP_TYPE_SKIN and slot2:getActivityById(slot8.activity) and not slot9:isEnd() then
-			slot1(slot10)
-			table.insert(slot0.skinGoodsVOs, Goods.New({
-				shop_id = slot7
-			}, Goods.TYPE_ACTIVITY))
-		end
-	end
-
-	for slot6, slot7 in ipairs(pg.activity_shop_extra.all) do
-		if pg.activity_shop_extra[slot7].commodity_type == DROP_TYPE_SKIN then
-			slot9 = slot2:getActivityById(slot8.activity)
-
-			if (slot8.activity == 0 and pg.TimeMgr.GetInstance():inTime(slot8.time)) or (slot9 and not slot9:isEnd()) then
-				slot1(slot10)
-				table.insert(slot0.skinGoodsVOs, Goods.New({
-					shop_id = slot7
-				}, Goods.TYPE_ACTIVITY_EXTRA))
-			end
-		end
-	end
+	slot0.skinGoodsVOs = getProxy(ShipSkinProxy):GetAllSkins()
 
 	slot0:updateShipRect()
 end
@@ -257,7 +135,7 @@ function slot0.initSkinPage(slot0)
 		slot0.contextData.pageId = slot0
 		slot0.isSwitch = true
 
-		slot0:updateShipRect()
+		slot0:updateShipRect(0)
 		triggerToggle(slot0.skinPageToggles[slot0], true)
 	end
 
@@ -488,9 +366,7 @@ function slot0.updateBuyBtn(slot0, slot1)
 		setActive(slot0.activityBtn, slot1.type == Goods.TYPE_ACTIVITY or slot5 == Goods.TYPE_ACTIVITY_EXTRA)
 		onButton(slot0, slot0.buyBtn, function ()
 			if slot0.type == Goods.TYPE_SKIN then
-				print(slot1.showCardId, "--", slot0.id)
-
-				if print.showCardId == slot0.id then
+				if slot1.showCardId == slot0.id then
 					slot1 = (100 - slot0:getConfig("discount")) / 100
 					slot2 = slot0:getConfig("resource_num")
 
@@ -699,10 +575,9 @@ function slot0.initShips(slot0)
 	slot0.shipRect = slot0.bottomTF:Find("scroll"):GetComponent("LScrollRect")
 
 	function slot0.shipRect.onInitItem(slot0)
-		slot1 = slot0(slot0)
-		slot1.cards[slot0] = slot1
+		slot0.cards[slot0] = ShopSkinCard.New(slot0)
 
-		onButton(slot1, slot1._tf, function ()
+		onButton(slot0, ShopSkinCard.New(slot0)._tf, function ()
 			if slot0.card and slot0.contextData.key == slot1.goodsVO:getKey() then
 				return
 			end
@@ -721,12 +596,18 @@ function slot0.initShips(slot0)
 			slot1.updateSelected.contextData.card = slot1.goodsVO.getKey()
 
 			slot1.updateSelected.contextData:updateMainView(slot1.updateSelected.contextData)
+
+			for slot3, slot4 in ipairs(slot0.displays) do
+				if slot4 == slot0.card.goodsVO then
+					slot0.index = slot3
+				end
+			end
 		end, SFX_PANEL)
 	end
 
 	function slot0.shipRect.onUpdateItem(slot0, slot1)
 		if not slot0.cards[slot1] then
-			slot0.cards[slot1] = slot1(slot1)
+			slot0.cards[slot1] = ShopSkinCard.New(slot1)
 		end
 
 		slot2:update(slot3)
@@ -764,26 +645,29 @@ function slot0.onNext(slot0)
 	if slot1 then
 		slot2 = false
 		slot0.index = math.min(slot1 + 1, #slot0.displays)
-		slot4 = slot0.displays[math.min(slot1 + 1, #slot0.displays)]
+		slot4 = nil
+		slot5 = slot0.displays[math.min(slot1 + 1, #slot0.displays)]
 
-		for slot8, slot9 in pairs(slot0.cards) do
-			if slot9.goodsVO:getKey() == slot4:getKey() then
-				triggerButton(slot9._tf)
+		for slot9, slot10 in pairs(slot0.cards) do
+			if slot10.goodsVO:getKey() == slot5:getKey() and slot10._tf.gameObject.name ~= "-1" then
+				triggerButton(slot10._tf)
 
 				slot2 = true
+				slot4 = slot10
 
 				break
 			end
 		end
 
-		function slot5()
+		function slot6()
 			slot0 = getBounds(slot0.bottomTF:Find("scroll"))
+			slot2 = getBounds(slot0.card._tf)
 
-			return slot0:GetMax().x < getBounds(slot0.bottomTF:Find("scroll/content")).GetMax(slot1).x
+			return getBounds(slot1._tf).GetMax(slot1).x - slot0:GetMax().x > 2
 		end
 
-		if slot2 and slot5() then
-			slot0.shipRect:ScrollTo(slot0.shipRect:HeadIndexToValue(slot3 - 1))
+		if slot2 and slot6() then
+			slot0.shipRect:ScrollTo(slot0.shipRect.value - (slot0.shipRect:HeadIndexToValue(slot3 - 1) - slot0.shipRect:HeadIndexToValue(slot3)))
 		end
 	end
 end
@@ -809,7 +693,7 @@ function slot0.onPrev(slot0)
 		slot4 = slot0.displays[math.max(slot1 - 1, 1)]
 
 		for slot8, slot9 in pairs(slot0.cards) do
-			if slot9.goodsVO:getKey() == slot4:getKey() then
+			if slot9.goodsVO:getKey() == slot4:getKey() and slot9._tf.gameObject.name ~= "-1" then
 				triggerButton(slot9._tf)
 
 				slot2 = true
@@ -830,18 +714,18 @@ function slot0.onPrev(slot0)
 	end
 end
 
-function slot0.updateShipRect(slot0)
+function slot0.updateShipRect(slot0, slot1)
 	slot0.card = nil
 
 	if slot0.contextData.pageId and slot0.shipRect then
 		slot0.displays = {}
 
-		for slot4, slot5 in ipairs(slot0.skinGoodsVOs) do
-			slot8 = (slot0[slot5:getSkinId()].shop_type_id == 0 and 9999) or slot7
-			slot9 = slot5:getConfig("genre") == ShopArgs.SkinShopTimeLimit
+		for slot5, slot6 in ipairs(slot0.skinGoodsVOs) do
+			slot9 = (slot0[slot6:getSkinId()].shop_type_id == 0 and 9999) or slot8
+			slot10 = slot6:getConfig("genre") == ShopArgs.SkinShopTimeLimit
 
-			if (slot0.contextData.pageId == slot1.PAGE_TIME_LIMIT and slot9) or (not slot9 and (slot0.contextData.pageId == slot1.PAGE_ALL or slot8 == slot0.contextData.pageId)) then
-				table.insert(slot0.displays, slot5)
+			if (slot0.contextData.pageId == slot1.PAGE_TIME_LIMIT and slot10) or (not slot10 and (slot0.contextData.pageId == slot1.PAGE_ALL or slot9 == slot0.contextData.pageId)) then
+				table.insert(slot0.displays, slot6)
 			end
 		end
 
@@ -856,7 +740,7 @@ function slot0.updateShipRect(slot0)
 				return slot3 < slot2
 			end
 		end)
-		slot0.shipRect:SetTotalCount(#slot0.displays)
+		slot0.shipRect:SetTotalCount(#slot0.displays, slot1)
 	end
 end
 

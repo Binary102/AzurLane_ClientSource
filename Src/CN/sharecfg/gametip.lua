@@ -1056,6 +1056,14 @@ pg.gametip = {
 		tip = "总计：",
 		key = "battle_result_score_total"
 	},
+	battle_result_total_damage = {
+		tip = "累计伤害：",
+		key = "battle_result_total_damage"
+	},
+	battle_result_contribution = {
+		tip = "获得贡献：",
+		key = "battle_result_contribution"
+	},
 	battle_levelScene_0Oil = {
 		tip = "石油产量为0",
 		key = "battle_levelScene_0Oil"
@@ -2256,17 +2264,21 @@ pg.gametip = {
 5 颜料可通过活动任务累计消耗石油获得；
 6 完成上色可以获得奖励；
 7 各图完成奖励明细如下：
-	完成图1获得随机教材T3 x3；
-	完成图2获得通用部件T3 x4；
-	完成图3获得茗换装「茗_在A1摊位喵！」
+	完成图1获得皮肤体验券 x1；
+	完成图2获得T3随机教材 x2；
+	完成图3获得皮肤体验券x1；
+	完成图4获得T3主炮改造部件 x2；
+	完成图5获得皮肤体验券 x1；
+	完成图6获得T3通用改造部件 x3；
+	完成图7获得丘比特限定换装 x1；
 8 完成全部的绘图日记后解锁一张额外的空白绘图日记；
 9 空白绘图日记没有使用颜料限制，且不会消耗颜料；
 10 空白绘图日记可以使用橡皮擦和全部清除功能；
 11 橡皮擦可以擦除单个单元格上色颜色；
 12 全部清除功能可以擦除绘图日记上色所有颜色；
 13 活动结束后，未消耗的颜料会被清除。
-14 5月22日前每天解锁一个可完成的绘图，空白画板最快
-5月23日解锁；]]
+14 10月2日前每天解锁一个可完成的绘图，空白画板最快
+10月3日解锁。]]
 			}
 		}
 	},
@@ -2922,6 +2934,10 @@ pg.gametip = {
 	stage_beginStage_error_noResource = {
 		tip = "<color=#92fc63>石油</color>不足！",
 		key = "stage_beginStage_error_noResource"
+	},
+	stage_beginStage_error_noTicket = {
+		tip = "特别挑战券数量不足，无法开始哦",
+		key = "stage_beginStage_error_noTicket"
 	},
 	stage_finishStage_error = {
 		tip = "由于不明原因关卡无法结束：",
@@ -8993,11 +9009,11 @@ $3]],
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "黑太子、贝奇、丘比特 建造追加",
+		tip = "莲 建造追加",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "齐柏林、U47、U557 建造追加",
+		tip = "鹩 建造追加",
 		key = "buildship_special_tip"
 	},
 	open_skill_pos = {
@@ -9803,46 +9819,67 @@ $3]],
 		key = "world_boss_help",
 		tip = {
 			{
-				info = "活动说明："
+				info = "<color=#ff5c5c>※注意</color>："
 			},
 			{
-				info = "1. 活动期间，参与演习战斗，当击破敌人、超时或作战失败时，\n根据演习战斗中造成的伤害总量结算贡献值；"
+				info = [[
+1.「EX」演习战斗具有一定难度，可以在「EX」演习的
+舰队选择界面点击<color=#92fc63>「模拟战」</color>按钮进行尝试，「模拟战」
+不消耗石油、心情、「特别挑战券」
+2.进行「EX」演习战斗时，中途掉线或者主动退出等中止
+战斗的情况都会扣除「特别挑战券」且<color=#ff5c5c>不会获得任何奖励</color>
+<color=#ff5c5c>请在网络状态良好的情况下进行「EX」演习战斗</color>
+3.进行「简单」、「普通」、「困难」演习战斗时，中途
+掉线或者主动退出等中止战斗的情况会保留「额外收益次
+数」且不会获得任何奖励
+4.在所有难度的演习战斗中，舰船被击破不会消耗心情值
+其余情况的心情值正常增减
+5.所有难度的演习战斗都会正常消耗石油，正常获得指挥
+官、出战角色和指挥喵经验
+]]
 			},
 			{
-				info = "2. 演习战斗中，造成的伤害越高，获得奖励越丰厚，获得的贡\n献值也越多；"
+				info = [[
+<color=#92fc63>活动说明</color>：
+1.在活动期间，参与演习战斗卡获取<color=#92fc63>「贡献值」</color>,和本服
+玩家协力攻略演习据点，获取据点阶段奖励和个人贡献
+奖励
+2.本次活动分为「简单」、「普通」、「困难」、「EX」
+4个难度的演习
+3.「简单」、「普通」、「困难」演习会获得固定「贡
+献值」,「EX」演习会根据<color=#92fc63>战斗中造成的伤害总量</color>获得
+「贡献值」和奖励，造成伤害越多「贡献值」越多，获得
+奖励越丰厚
+4.「简单」、「普通」、「困难」演习每次通关时可以获
+得额外收益， 额外收益每日有获得次数上限，每日
+「额外收益次数」上限3个难度各为<color=#92fc63>15次</color>
+5.「简单」、「普通」、「困难」演习每日挑战次数无限
+制，「EX」演习需要消耗<color=#92fc63>1个「特别挑战券」</color>才可以挑战
+6.演习战斗的出击队伍可以通过点击不同难度的按钮进行
+编成，允许携带潜艇和指挥喵
+7.活动期间，根据本服所有玩家获得的「贡献值」，消耗
+「演习据点」的耐久
+8.当「演习据点」耐久下降至<color=#92fc63>75%</color>、<color=#92fc63>50%</color>、<color=#92fc63>25%</color>以及<color=#92fc63>完全
+耗尽</color>后，会记录本服达成的里程碑时间，同时，在演习中
+获得过「贡献值」的玩家可以获得相应奖励
+9.奖励将在「演习据点」完全耗尽后，通过邮件发放，如
+果活动结束时耐久未被耗尽，则会根据据点推进进度，为
+在演习中获得过「贡献值」的玩家发放对应进度的奖励
+10.活动期间，可以领取个人贡献奖励，个人贡献奖励需
+要当据点攻略进度和拥有的「贡献值」达到指定要求后才
+能领取
+11.9.26-10.10期间可以参与演习战斗，奖励领取的截止时
+间为10.16]]
 			},
 			{
-				info = "3. 活动期间，根据本服所有玩家获得的贡献值，消耗埃塞克斯\n的演习据点耐久；"
-			},
-			{
-				info = "4. 当演习据点耐久下降至75%、50%、25%、以及耐久完全\n耗尽后，会记录本服达成的里程碑时间。同时，在演习中获得\n过贡献值的玩家可以获得演习奖励；"
-			},
-			{
-				info = "5. 演习奖励将在据点耐久完成耗尽后，通过邮件发放；"
-			},
-			{
-				info = "6. 如果活动结束时耐久未被耗尽，则会根据据点推进进度，为\n获得过贡献值的玩家发放对应进度的奖励；"
-			},
-			{
-				info = "7. 演习战斗的出击队伍可以通过【编队】按钮编组出击队伍，\n允许携带潜艇和指挥喵；"
-			},
-			{
-				info = "8. 演习战斗中，携带香格里拉和独立可以获得额外的总贡献值\n加成。携带香格里拉获得20%的加成，携带独立获得10%的加\n成，同时携带最多可获得30%的贡献值加成；"
-			},
-			{
-				info = "9. 演习战斗中，无法获得指挥舰、出战角色和指挥喵经验；"
-			},
-			{
-				info = "10. 演习战斗中，会正常增减出战角色的心情；"
-			},
-			{
-				info = "11. 随着据点耐久的下降，演习战斗中敌方旗舰的伤害能力会\n逐步提升，同时降低受到的炮击、雷击伤害，但会提高受到的\n航空伤害；"
-			},
-			{
-				info = "12. 活动期间，还可以领取个人贡献奖励，个人贡献奖励需要\n当据点攻略进度和拥有的贡献值达到指定要求后才能领取；"
-			},
-			{
-				info = "13. 2.28~3.7期间可以参与演习战斗，奖励领取的截止时间为\n3.13；"
+				info = [[
+<color=#92fc63>特别挑战券说明</color>：
+1.特别挑战券可以通过活动期间的特殊每日任务获得，数
+量可以累积，活动结束后会被清空
+2.「简单」、「普通」、「困难」演习的「额外收益次数
+」为<color=#92fc63>0</color>的情况下，进行演习战斗时可以消耗<color=#92fc63>1个</color>「特别挑
+战券」增加1次对应难度演习的「额外收益次数」
+3.「EX」演习需要消耗<color=#92fc63>1个</color>「特别挑战券」]]
 			}
 		}
 	},
@@ -10630,7 +10667,7 @@ UID：
 				info = "4.指挥官可以从中选择2名角色作为祈愿角色"
 			},
 			{
-				info = "5.可选名单仅包含3月23日前常驻加入对应建造的角色"
+				info = "5.可选名单仅包含7月26日前常驻加入对应建造的角色"
 			},
 			{
 				info = "6.有建造解锁条件的角色无法被选为祈愿角色，\n不会在祈愿建造中出现。"
@@ -11423,6 +11460,109 @@ TIPS：
 	name_zhanliejahe = {
 		tip = "{namecode:92}(战列)",
 		key = "name_zhanliejahe"
+	},
+	change_skin_secretary_ship_success = {
+		tip = "更换时装并设为秘书舰成功",
+		key = "change_skin_secretary_ship_success"
+	},
+	change_skin_secretary_ship = {
+		tip = "更换同时设为秘书舰",
+		key = "change_skin_secretary_ship"
+	},
+	word_billboard = {
+		tip = "排行榜",
+		key = "word_billboard"
+	},
+	word_easy = {
+		tip = "简单",
+		key = "word_easy"
+	},
+	word_normal_junhe = {
+		tip = "普通",
+		key = "word_normal_junhe"
+	},
+	word_hard = {
+		tip = "困难",
+		key = "word_hard"
+	},
+	tip_exchange_ticket = {
+		tip = "是否消耗一张特别挑战券增加一次$1难度额外收益次数",
+		key = "tip_exchange_ticket"
+	},
+	dont_remind = {
+		tip = "不再提示",
+		key = "dont_remind"
+	},
+	worldbossex_help = {
+		key = "worldbossex_help",
+		tip = {
+			{
+				info = [[
+<color=#FF5C5C>※注意</color>：
+1.「EX」演习难度较高，可以点击舰队选择界面的「模拟
+战」按钮进行尝试 
+2.模拟战不消耗石油、不消耗心情、不消耗「特别挑战券
+」、不计入出击次数、不会获得任何奖励
+3.进行「EX」演习战斗时，中途掉线或者主动退出等中止
+战斗的情况都会扣除「特别挑战券」且不会获得任何奖励
+请在网络状态良好的情况下进行「EX」演习战斗
+4.「特别挑战券」还可用于增加「简单」、「普通」、
+「困难」演习的「额外收益次数」
+ 5.「EX」演习无战斗评价，根据战斗中造成的伤害总量
+获得「贡献值」和奖励，造成伤害越多「贡献值」越多，
+获得奖励越丰厚
+]]
+			},
+			helpPos = {
+				y = 53.1
+			},
+			windowSize = {
+				y = 790
+			},
+			windowPos = {
+				y = -85.05
+			}
+		}
+	},
+	ship_formationUI_fleetName_easy = {
+		tip = "简单舰队",
+		key = "ship_formationUI_fleetName_easy"
+	},
+	ship_formationUI_fleetName_normal = {
+		tip = "普通舰队",
+		key = "ship_formationUI_fleetName_normal"
+	},
+	ship_formationUI_fleetName_hard = {
+		tip = "困难舰队",
+		key = "ship_formationUI_fleetName_hard"
+	},
+	ship_formationUI_fleetName_extra = {
+		tip = "EX舰队",
+		key = "ship_formationUI_fleetName_extra"
+	},
+	ship_formationUI_fleetName_easy_ss = {
+		tip = "简单潜艇编队",
+		key = "ship_formationUI_fleetName_easy_ss"
+	},
+	ship_formationUI_fleetName_normal_ss = {
+		tip = "普通潜艇编队",
+		key = "ship_formationUI_fleetName_normal_ss"
+	},
+	ship_formationUI_fleetName_hard_ss = {
+		tip = "困难潜艇编队",
+		key = "ship_formationUI_fleetName_hard_ss"
+	},
+	ship_formationUI_fleetName_extra_ss = {
+		tip = "EX潜艇编队",
+		key = "ship_formationUI_fleetName_extra_ss"
+	},
+	text_consume = {
+		tip = "消 耗",
+		key = "text_consume"
+	},
+	text_inconsume = {
+		tip = "不消耗",
+		key = "text_inconsume"
 	}
 }
 

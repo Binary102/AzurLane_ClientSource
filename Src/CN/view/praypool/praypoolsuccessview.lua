@@ -52,10 +52,10 @@ function slot0.initUI(slot0)
 	onButton(slot0, slot0.buildBtn, function ()
 		slot0.buildMsgBox:show(math.max(1, _.min({
 			math.floor(slot0.playerProxy:getData().gold / pg.ship_data_create_material[pg.activity_ship_create[slot0.poolType].create_id].use_gold),
-			math.floor(slot0.bagProxy:getItemById(slot0.useItem).count / pg.ship_data_create_material[pg.activity_ship_create[slot0.poolType].create_id].number_1),
+			math.floor(slot0.bagProxy:getItemCountById(slot0.useItem) / pg.ship_data_create_material[pg.activity_ship_create[slot0.poolType].create_id].number_1),
 			MAX_BUILD_WORK_COUNT - table.getCount(slot5)
 		})), function (slot0)
-			if slot0 < slot0 or slot1.gold < slot0 * slot2.use_gold or slot3.count < slot0 * slot2.number_1 then
+			if slot0 < slot0 or slot1.gold < slot0 * slot2.use_gold or slot3 < slot0 * slot2.number_1 then
 				return false
 			end
 

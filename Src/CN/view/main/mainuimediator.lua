@@ -445,6 +445,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:updateActivityEscort()
 	slot0.viewComponent:updateActivityMiniGameBtn(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME))
 	slot0.viewComponent:updateVoteBtn(slot7:GetVoteActivity(), getProxy(VoteProxy):GetOrderBook())
+	slot0.viewComponent:updateActivityBossBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2))
 end
 
 function slot0.onBluePrintNotify(slot0)

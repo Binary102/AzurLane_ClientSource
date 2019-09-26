@@ -77061,7 +77061,7 @@ pg.task_data_template = {
 		type = 26,
 		name = "送大潮礼服活动任务3",
 		count_inherit = 0,
-		desc = "退役舰娘2次 ",
+		desc = "退役舰船2次 ",
 		target_id_2 = "",
 		sub_type = 31,
 		added_tip = 0,
@@ -77125,7 +77125,7 @@ pg.task_data_template = {
 		type = 26,
 		name = "送大潮礼服活动任务4",
 		count_inherit = 0,
-		desc = "强化舰娘5次 ",
+		desc = "强化舰船5次 ",
 		target_id_2 = "",
 		sub_type = 34,
 		added_tip = 0,
@@ -77372,6 +77372,1426 @@ pg.task_data_template = {
 				301642,
 				1
 			}
+		}
+	},
+	[15007] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91791,
+		type = 6,
+		name = "TV纪念填色累计耗油1",
+		count_inherit = 15008,
+		desc = "累计消耗石油500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15008",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15007,
+		target_num = 500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				140
+			},
+			{
+				2,
+				59931,
+				100
+			},
+			{
+				2,
+				59934,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15008] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91792,
+		type = 6,
+		name = "TV纪念填色累计耗油2",
+		count_inherit = 15009,
+		desc = "累计消耗石油1000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15009",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15008,
+		target_num = 1000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59936,
+				80
+			},
+			{
+				2,
+				59931,
+				100
+			},
+			{
+				2,
+				59935,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15009] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91793,
+		type = 6,
+		name = "TV纪念填色累计耗油3",
+		count_inherit = 15010,
+		desc = "累计消耗石油1500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15010",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15009,
+		target_num = 1500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				140
+			},
+			{
+				2,
+				59930,
+				60
+			},
+			{
+				2,
+				59934,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15010] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91794,
+		type = 6,
+		name = "TV纪念填色累计耗油4",
+		count_inherit = 15011,
+		desc = "累计消耗石油2000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15011",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15010,
+		target_num = 2000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59936,
+				80
+			},
+			{
+				2,
+				59931,
+				100
+			},
+			{
+				2,
+				59933,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15011] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91795,
+		type = 6,
+		name = "TV纪念填色累计耗油5",
+		count_inherit = 15012,
+		desc = "累计消耗石油2500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15012",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15011,
+		target_num = 2500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				140
+			},
+			{
+				2,
+				59930,
+				77
+			},
+			{
+				2,
+				59934,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15012] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91796,
+		type = 6,
+		name = "TV纪念填色累计耗油6",
+		count_inherit = 15013,
+		desc = "累计消耗石油3000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15013",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15012,
+		target_num = 3000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				140
+			},
+			{
+				2,
+				59937,
+				60
+			},
+			{
+				2,
+				59935,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15013] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91797,
+		type = 6,
+		name = "TV纪念填色累计耗油7",
+		count_inherit = 15014,
+		desc = "累计消耗石油4000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15014",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15013,
+		target_num = 4000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				140
+			},
+			{
+				2,
+				59931,
+				100
+			},
+			{
+				2,
+				59933,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15014] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91798,
+		type = 6,
+		name = "TV纪念填色累计耗油8",
+		count_inherit = 15015,
+		desc = "累计消耗石油5000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15015",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15014,
+		target_num = 5000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59936,
+				80
+			},
+			{
+				2,
+				59937,
+				50
+			},
+			{
+				2,
+				59934,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15015] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91799,
+		type = 6,
+		name = "TV纪念填色累计耗油9",
+		count_inherit = 15016,
+		desc = "累计消耗石油6000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15016",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15015,
+		target_num = 6000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				140
+			},
+			{
+				2,
+				59931,
+				100
+			},
+			{
+				2,
+				59933,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15016] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91800,
+		type = 6,
+		name = "TV纪念填色累计耗油10",
+		count_inherit = 15017,
+		desc = "累计消耗石油7000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15017",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15016,
+		target_num = 7000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				120
+			},
+			{
+				2,
+				59936,
+				92
+			},
+			{
+				2,
+				59934,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15017] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91801,
+		type = 6,
+		name = "TV纪念填色累计耗油11",
+		count_inherit = 15018,
+		desc = "累计消耗石油8000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15018",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15017,
+		target_num = 8000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				140
+			},
+			{
+				2,
+				59937,
+				50
+			},
+			{
+				2,
+				59934,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15018] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91802,
+		type = 6,
+		name = "TV纪念填色累计耗油12",
+		count_inherit = 15019,
+		desc = "累计消耗石油9000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15019",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15018,
+		target_num = 9000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				140
+			},
+			{
+				2,
+				59931,
+				100
+			},
+			{
+				2,
+				59933,
+				22
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15019] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91803,
+		type = 6,
+		name = "TV纪念填色累计耗油13",
+		count_inherit = 15020,
+		desc = "累计消耗石油10000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15020",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15019,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				140
+			},
+			{
+				2,
+				59931,
+				100
+			},
+			{
+				2,
+				59934,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15020] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91804,
+		type = 6,
+		name = "TV纪念填色累计耗油14",
+		count_inherit = 15021,
+		desc = "累计消耗石油11000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15021",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15020,
+		target_num = 11000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				100
+			},
+			{
+				2,
+				59937,
+				37
+			},
+			{
+				2,
+				59936,
+				56
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15021] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91805,
+		type = 6,
+		name = "TV纪念填色累计耗油15",
+		count_inherit = 15022,
+		desc = "累计消耗石油12000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15022",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15021,
+		target_num = 12000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				100
+			},
+			{
+				2,
+				59931,
+				100
+			},
+			{
+				2,
+				59935,
+				59
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15022] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91806,
+		type = 6,
+		name = "TV纪念填色累计耗油16",
+		count_inherit = 15023,
+		desc = "累计消耗石油13000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15023",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15022,
+		target_num = 13000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				90
+			},
+			{
+				2,
+				59931,
+				100
+			},
+			{
+				2,
+				59934,
+				71
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15023] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91807,
+		type = 6,
+		name = "TV纪念填色累计耗油17",
+		count_inherit = 15024,
+		desc = "累计消耗石油14000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15024",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15023,
+		target_num = 14000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				90
+			},
+			{
+				2,
+				59931,
+				71
+			},
+			{
+				2,
+				59936,
+				20
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15024] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91808,
+		type = 6,
+		name = "TV纪念填色累计耗油18",
+		count_inherit = 0,
+		desc = "累计消耗石油15000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15024,
+		target_num = 15000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59932,
+				103
+			},
+			{
+				2,
+				59937,
+				12
+			},
+			{
+				2,
+				59936,
+				23
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15026] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91816,
+		type = 36,
+		name = "骏河世界BOSS挑战券任务1",
+		count_inherit = 0,
+		desc = "登录游戏",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15026,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2003,
+				1
+			}
+		}
+	},
+	[15027] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91817,
+		type = 36,
+		name = "骏河世界BOSS挑战券任务2",
+		count_inherit = 0,
+		desc = "通关1次任意困难关卡",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15027,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2003,
+				1
+			}
+		}
+	},
+	[15028] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91818,
+		type = 36,
+		name = "骏河世界BOSS挑战券任务3",
+		count_inherit = 0,
+		desc = "通关3次任意困难关卡",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15028,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2003,
+				1
+			}
+		}
+	},
+	[15029] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91819,
+		type = 36,
+		name = "骏河世界BOSS挑战券任务4",
+		count_inherit = 0,
+		desc = "通关5次『穿越彼方的水线』任意难度关卡",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15029,
+		target_num = 5,
+		fix_task = 0,
+		target_id = {
+			1260001,
+			1260002,
+			1260003,
+			1260004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2003,
+				1
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE"
+		}
+	},
+	[15030] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91820,
+		type = 36,
+		name = "骏河世界BOSS挑战券任务5",
+		count_inherit = 0,
+		desc = "通关10次『穿越彼方的水线』任意难度关卡",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15030,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1260001,
+			1260002,
+			1260003,
+			1260004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2003,
+				1
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE"
+		}
+	},
+	[15031] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91821,
+		type = 26,
+		name = "牙买加皮肤任务1",
+		count_inherit = 0,
+		desc = "击沉任意敌人100艘",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15031,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15032] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91822,
+		type = 26,
+		name = "牙买加皮肤任务2",
+		count_inherit = 0,
+		desc = "击沉任意敌人150艘",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15032,
+		target_num = 150,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				5
+			}
+		}
+	},
+	[15033] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91823,
+		type = 26,
+		name = "牙买加皮肤任务3",
+		count_inherit = 0,
+		desc = "击沉任意敌人150艘",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15033,
+		target_num = 150,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				300
+			}
+		}
+	},
+	[15034] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91824,
+		type = 26,
+		name = "牙买加皮肤任务4",
+		count_inherit = 0,
+		desc = "击沉任意敌人200艘",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15034,
+		target_num = 200,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				5
+			}
+		}
+	},
+	[15035] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91825,
+		type = 26,
+		name = "牙买加皮肤任务5",
+		count_inherit = 0,
+		desc = "击沉任意敌人250艘",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15035,
+		target_num = 250,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				500
+			}
+		}
+	},
+	[15036] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91826,
+		type = 26,
+		name = "牙买加皮肤任务6",
+		count_inherit = 0,
+		desc = "击沉任意敌人300艘",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15036,
+		target_num = 300,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				10
+			}
+		}
+	},
+	[15037] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91827,
+		type = 26,
+		name = "牙买加皮肤任务7",
+		count_inherit = 0,
+		desc = "击沉任意敌人300艘",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15037,
+		target_num = 300,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				7,
+				202172,
+				1
+			}
+		}
+	},
+	[15038] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91845,
+		type = 36,
+		name = "骏河世界BOSS投票任务1",
+		count_inherit = 0,
+		desc = "通关1次『穿越彼方的水线』任意难度关卡",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15038,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1260001,
+			1260002,
+			1260003,
+			1260004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1001,
+				100
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE"
+		}
+	},
+	[15039] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91846,
+		type = 36,
+		name = "骏河世界BOSS投票任务2",
+		count_inherit = 0,
+		desc = "通关5次『穿越彼方的水线』任意难度关卡",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15039,
+		target_num = 5,
+		fix_task = 0,
+		target_id = {
+			1260001,
+			1260002,
+			1260003,
+			1260004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1001,
+				200
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE"
+		}
+	},
+	[15040] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91847,
+		type = 36,
+		name = "骏河世界BOSS投票任务3",
+		count_inherit = 0,
+		desc = "通关10次『穿越彼方的水线』任意难度关卡",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15040,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1260001,
+			1260002,
+			1260003,
+			1260004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1001,
+				400
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE"
+		}
+	},
+	[15041] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91848,
+		type = 36,
+		name = "骏河世界BOSS投票任务4",
+		count_inherit = 0,
+		desc = "通关15次『穿越彼方的水线』任意难度关卡",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15041,
+		target_num = 15,
+		fix_task = 0,
+		target_id = {
+			1260001,
+			1260002,
+			1260003,
+			1260004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1001,
+				900
+			}
+		},
+		scene = {
+			"ACT_BOSS_BATTLE"
 		}
 	},
 	[30101] = {
@@ -86894,6 +88314,40 @@ pg.task_data_template = {
 		15004,
 		15005,
 		15006,
+		15007,
+		15008,
+		15009,
+		15010,
+		15011,
+		15012,
+		15013,
+		15014,
+		15015,
+		15016,
+		15017,
+		15018,
+		15019,
+		15020,
+		15021,
+		15022,
+		15023,
+		15024,
+		15026,
+		15027,
+		15028,
+		15029,
+		15030,
+		15031,
+		15032,
+		15033,
+		15034,
+		15035,
+		15036,
+		15037,
+		15038,
+		15039,
+		15040,
+		15041,
 		30101,
 		30102,
 		30103,

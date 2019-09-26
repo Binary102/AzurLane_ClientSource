@@ -4,11 +4,20 @@ slot0.ON_EXIT = "NewSkinMediator:ON_EXIT"
 
 function slot0.register(slot0)
 	slot0.viewComponent:setSkin(slot0.contextData.skinId)
-	slot0:bind(slot0.SET_SKIN, function (slot0, slot1)
-		for slot5, slot6 in ipairs(slot1) do
+	slot0:bind(slot0.SET_SKIN, function (slot0, slot1, slot2)
+		for slot6, slot7 in ipairs(slot1) do
 			slot0:sendNotification(GAME.SET_SHIP_SKIN, {
-				shipId = slot6,
+				shipId = slot7,
 				skinId = slot0.contextData.skinId
+			})
+		end
+
+		getProxy(SettingsProxy):SetFlagShip(slot2)
+
+		if slot2 then
+			slot0:sendNotification(GAME.CHANGE_PLAYER_ICON, {
+				skinPage = true,
+				characterId = slot1[1]
 			})
 		end
 

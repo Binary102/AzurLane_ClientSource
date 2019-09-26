@@ -1232,6 +1232,19 @@ pg.memory_group = {
 			933
 		}
 	},
+	[169] = {
+		title = "穿越彼方的水线",
+		type = 2,
+		id = 169,
+		icon = "title_event",
+		memories = {
+			934,
+			935,
+			936,
+			937,
+			938
+		}
+	},
 	[501] = {
 		title = "{namecode:98}的委托",
 		type = 3,
@@ -1980,6 +1993,7 @@ pg.memory_group = {
 		166,
 		167,
 		168,
+		169,
 		501,
 		502,
 		503,

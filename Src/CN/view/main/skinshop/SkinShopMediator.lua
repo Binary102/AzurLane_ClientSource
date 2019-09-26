@@ -1,4 +1,4 @@
-slot0 = class("SkinShopMediator", import("..base.ContextMediator"))
+slot0 = class("SkinShopMediator", import("...base.ContextMediator"))
 slot0.ON_SHOPPING = "SkinShopMediator:ON_SHOPPING"
 slot0.GO_SHOPS_LAYER = "SkinShopMediator:GO_SHOPS_LAYER"
 slot0.OPEN_SCENE = "SkinShopMediator:OPEN_SCENE"

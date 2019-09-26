@@ -10354,6 +10354,366 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[3200] = {
+		name = "VH装甲钢板",
+		type = 10,
+		id = 3200,
+		tech = 0,
+		nationality = 3,
+		speciality = "无",
+		range = 0,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "3200",
+		value_1 = "350",
+		angle = 0,
+		avoid_extra = 0,
+		rarity = 5,
+		scatter = "无",
+		is_siren = 0,
+		ammo = "无",
+		descrip = "『VC装甲钢板』的改进型，用新工艺取代了表面渗碳的过程，提高了装甲板硬度",
+		value_3 = 0,
+		attribute_1 = "durability",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6460
+		},
+		part_main = {
+			4,
+			5,
+			7,
+			10,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[3201] = {
+		id = 3201,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "380",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3202] = {
+		id = 3202,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "410",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3203] = {
+		id = 3203,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "440",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3204] = {
+		id = 3204,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "470",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3205] = {
+		id = 3205,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "500",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3206] = {
+		id = 3206,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "530",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3207] = {
+		id = 3207,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "560",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3208] = {
+		id = 3208,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "590",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3209] = {
+		id = 3209,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "620",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3210] = {
+		id = 3210,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "650",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3220] = {
+		name = "VC装甲钢板",
+		type = 10,
+		id = 3220,
+		tech = 0,
+		nationality = 3,
+		speciality = "无",
+		range = 0,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "3220",
+		value_1 = "220",
+		angle = 0,
+		avoid_extra = 0,
+		rarity = 4,
+		scatter = "无",
+		is_siren = 0,
+		ammo = "无",
+		descrip = "重樱帝国引进皇家表面渗碳硬化技术制作的装甲钢板，对穿甲弹的防护性能较好",
+		value_3 = 0,
+		attribute_1 = "durability",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6470
+		},
+		part_main = {
+			4,
+			5,
+			7,
+			10,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[3221] = {
+		id = 3221,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "250",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3222] = {
+		id = 3222,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "280",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3223] = {
+		id = 3223,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "310",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3224] = {
+		id = 3224,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "340",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3225] = {
+		id = 3225,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "370",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3226] = {
+		id = 3226,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "400",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3227] = {
+		id = 3227,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "430",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3228] = {
+		id = 3228,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "460",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3229] = {
+		id = 3229,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "490",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3230] = {
+		id = 3230,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "520",
+		torpedo_ammo = 0,
+		equip_parameters = {},
+		property_rate = {}
+	},
+	[3300] = {
+		name = "四神之印",
+		type = 10,
+		id = 3300,
+		tech = 0,
+		nationality = 5,
+		speciality = "无",
+		range = 0,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "3300",
+		value_1 = "250",
+		angle = 0,
+		avoid_extra = 0,
+		rarity = 5,
+		scatter = "无",
+		is_siren = 0,
+		ammo = "无",
+		descrip = "雕刻着东煌古国四神兽的徽章，似乎蕴含着来自东方的神秘力量",
+		value_3 = 0,
+		attribute_1 = "durability",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6480
+		},
+		part_main = {
+			1
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[3301] = {
+		id = 3301,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "280",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3302] = {
+		id = 3302,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "310",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3303] = {
+		id = 3303,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "340",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3304] = {
+		id = 3304,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "370",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3305] = {
+		id = 3305,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "400",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3306] = {
+		id = 3306,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "430",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3307] = {
+		id = 3307,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "460",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3308] = {
+		id = 3308,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "490",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3309] = {
+		id = 3309,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "520",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3310] = {
+		id = 3310,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "550",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[4000] = {
 		name = "基础深弹投射器",
 		type = 14,
@@ -35969,7 +36329,7 @@ pg.equip_data_statistics = {
 		nationality = 2,
 		ammo = "通常",
 		is_siren = 0,
-		descrip = "说明未填写",
+		descrip = "由海燕式舰载机发展而来的多功能舰载机，可搭载4门20mm机炮及2枚1000磅炸弹",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -70708,6 +71068,39 @@ pg.equip_data_statistics = {
 		3148,
 		3149,
 		3150,
+		3200,
+		3201,
+		3202,
+		3203,
+		3204,
+		3205,
+		3206,
+		3207,
+		3208,
+		3209,
+		3210,
+		3220,
+		3221,
+		3222,
+		3223,
+		3224,
+		3225,
+		3226,
+		3227,
+		3228,
+		3229,
+		3230,
+		3300,
+		3301,
+		3302,
+		3303,
+		3304,
+		3305,
+		3306,
+		3307,
+		3308,
+		3309,
+		3310,
 		4000,
 		4001,
 		4002,

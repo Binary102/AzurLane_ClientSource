@@ -19150,17 +19150,17 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "用相传从月宫里摘下来的桂花制成的糕点，香甜可口！ <color=#92fc63>（提高经验加成5%，持续60分钟）</color>",
+		display = "甜咖喱还是辣咖喱，这是一个问题！ <color=#92fc63>（提高经验加成5%，持续60分钟）</color>",
 		rarity = 2,
 		type = 3,
-		name = "桂花糕",
+		name = "海军咖喱",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		virtual_type = 0,
 		replace_item = 0,
 		link_id = 0,
 		id = 50004,
-		icon = "Props/guihuagao",
+		icon = "Props/haijungali",
 		display_icon = {},
 		price = {
 			1,
@@ -71509,6 +71509,132 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[57707] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57707,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				3,
+				1
+			},
+			{
+				2,
+				27,
+				1
+			},
+			{
+				2,
+				47,
+				1
+			},
+			{
+				2,
+				10053,
+				1
+			},
+			{
+				2,
+				10060,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57708] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57708,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10067,
+				1
+			},
+			{
+				2,
+				10068,
+				1
+			},
+			{
+				2,
+				10070,
+				1
+			},
+			{
+				2,
+				10087,
+				1
+			},
+			{
+				2,
+				10088,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57709] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57709,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10052,
+				1
+			},
+			{
+				2,
+				10057,
+				1
+			},
+			{
+				2,
+				10060,
+				1
+			},
+			{
+				2,
+				10068,
+				1
+			},
+			{
+				2,
+				11033,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[59000] = {
 		display = "参与角色将获得经验值",
 		rarity = 2,
@@ -72257,6 +72383,38 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 59140,
 		icon = "Props/skinTicket",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59141] = {
+		display = "参与『穿越彼方的水线』获得的点数，累计一定程度可以领取报酬",
+		rarity = 2,
+		type = 98,
+		name = "贡献值",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59141,
+		icon = "Props/junhe_pt",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59142] = {
+		display = "参与『穿越彼方的水线』EX关的必要道具，也可以用来增加普通关额外奖励次数",
+		rarity = 4,
+		type = 98,
+		name = "特别挑战券",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59142,
+		icon = "Props/special_ticket",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -74955,6 +75113,134 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59930] = {
+		display = "颜料A，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料A",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 387,
+		id = 59930,
+		icon = "props/draw_a",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59931] = {
+		display = "颜料B，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料B",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 387,
+		id = 59931,
+		icon = "props/draw_b",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59932] = {
+		display = "颜料C，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料C",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 387,
+		id = 59932,
+		icon = "props/draw_c",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59933] = {
+		display = "颜料D，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料D",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 387,
+		id = 59933,
+		icon = "props/draw_d",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59934] = {
+		display = "颜料E，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料E",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 387,
+		id = 59934,
+		icon = "props/draw_e",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59935] = {
+		display = "颜料F，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料F",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 387,
+		id = 59935,
+		icon = "props/draw_f",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59936] = {
+		display = "颜料G，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料G",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 387,
+		id = 59936,
+		icon = "props/draw_g",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59937] = {
+		display = "颜料G，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料H",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 387,
+		id = 59937,
+		icon = "props/draw_h",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[60001] = {
 		display = "这是说明说明说明",
 		rarity = 3,
@@ -77200,6 +77486,9 @@ pg.item_data_statistics = {
 		57703,
 		57704,
 		57705,
+		57707,
+		57708,
+		57709,
 		59000,
 		59001,
 		59002,
@@ -77247,6 +77536,8 @@ pg.item_data_statistics = {
 		59138,
 		59139,
 		59140,
+		59141,
+		59142,
 		59601,
 		59602,
 		59603,
@@ -77408,6 +77699,14 @@ pg.item_data_statistics = {
 		59923,
 		59924,
 		59925,
+		59930,
+		59931,
+		59932,
+		59933,
+		59934,
+		59935,
+		59936,
+		59937,
 		60001,
 		60002,
 		60003,

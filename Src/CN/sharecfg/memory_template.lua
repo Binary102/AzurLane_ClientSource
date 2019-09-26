@@ -9988,6 +9988,61 @@ pg.memory_template = {
 		icon = "memory_dachaolifu",
 		is_open = 0
 	},
+	[934] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "鲪、登场！",
+		condition = "开始「穿越彼方的水线」活动",
+		story = "JUNHEBOSS1",
+		id = 934,
+		icon = "memory_junheboss",
+		is_open = 0
+	},
+	[935] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "幸运舰的激励",
+		condition = "「穿越彼方的水线」活动进度达到25%",
+		story = "JUNHEBOSS2",
+		id = 935,
+		icon = "memory_junheboss",
+		is_open = 0
+	},
+	[936] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "领导能力",
+		condition = "「穿越彼方的水线」活动进度达到50%",
+		story = "JUNHEBOSS3",
+		id = 936,
+		icon = "memory_junheboss",
+		is_open = 0
+	},
+	[937] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "交错的水线",
+		condition = "「穿越彼方的水线」活动进度达到75%",
+		story = "JUNHEBOSS4",
+		id = 937,
+		icon = "memory_junheboss",
+		is_open = 0
+	},
+	[938] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "鲪SIDE",
+		condition = "「穿越彼方的水线」活动进度达到100%",
+		story = "JUNHEBOSS5",
+		id = 938,
+		icon = "memory_junheboss",
+		is_open = 0
+	},
 	[10011] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -11524,6 +11579,11 @@ pg.memory_template = {
 		931,
 		932,
 		933,
+		934,
+		935,
+		936,
+		937,
+		938,
 		10011,
 		10012,
 		10013,

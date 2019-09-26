@@ -230,7 +230,23 @@ pg.player_resource = {
 		name = "contribution_worldboss",
 		itemid = 59122
 	},
+	[2002] = {
+		id = 2002,
+		name = "contribution_worldboss926",
+		itemid = 59141
+	},
+	[2003] = {
+		id = 2003,
+		name = "worldboss926_ticket",
+		itemid = 59142
+	},
 	get_id_list_by_name = {
+		worldboss926_ticket = {
+			2003
+		},
+		contribution_worldboss926 = {
+			2002
+		},
 		contribution_worldboss = {
 			2001
 		},
@@ -416,7 +432,9 @@ pg.player_resource = {
 		135,
 		136,
 		1001,
-		2001
+		2001,
+		2002,
+		2003
 	}
 }
 

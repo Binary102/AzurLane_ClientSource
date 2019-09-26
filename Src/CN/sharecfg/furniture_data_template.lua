@@ -3279,6 +3279,55 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[153] = {
+		advice = 0,
+		name = "啾啾收音机",
+		count = 1,
+		type = 7,
+		dir = 0,
+		gain_by = "",
+		is_get_time_note = 0,
+		belong = 1,
+		can_rotate = 0,
+		effect = "",
+		dorm_icon_price = 500,
+		not_for_sale = 1,
+		icon = "70yearsicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 5,
+		tag = 6,
+		picture = "",
+		canputon = 0,
+		discount = 0,
+		id = 153,
+		comfortable = 0,
+		describe = "就着令人感到怀念的音调，一起回忆那些美好的点点滴滴吧",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"70years",
+				"actionl"
+			}
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		can_rotate = 0,
 		name = "本ID禁用，后端固定会删除",
@@ -4018,6 +4067,114 @@ pg.furniture_data_template = {
 			{
 				"8yueqiandaoCharControl",
 				"8yueqiandaoCharControl2"
+			}
+		},
+		interAction_group = {}
+	},
+	[100009] = {
+		can_rotate = 0,
+		name = "机关舞台",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "qiandaowutai2icon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 6,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 100009,
+		comfortable = 0,
+		describe = "全新的Live Show，开始了！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			10,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xingguangwutaiB",
+				"normal"
+			},
+			{
+				"xingguangwutaiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk1",
+						0,
+						"walk"
+					},
+					{
+						"dance",
+						0,
+						"stand2"
+					},
+					{
+						"walk2",
+						0,
+						"walk"
+					},
+					{
+						"motou",
+						0,
+						"dance"
+					},
+					{
+						"dance2",
+						0,
+						"dance"
+					},
+					{
+						"normal",
+						0,
+						"walk"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"xingguangwutaiCharControl"
 			}
 		},
 		interAction_group = {}
@@ -94403,7 +94560,7 @@ pg.furniture_data_template = {
 		dir = 0,
 		belong = 1,
 		is_get_time_note = 0,
-		count = 3,
+		count = 1,
 		advice = 0,
 		effect = "",
 		dorm_icon_price = 40,
@@ -94466,7 +94623,7 @@ pg.furniture_data_template = {
 	[49117] = {
 		advice = 0,
 		name = "指挥官办公椅",
-		count = 1,
+		count = 3,
 		type = 2,
 		dir = 0,
 		effect = "",
@@ -95237,6 +95394,1840 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[50001] = {
+		can_rotate = 0,
+		name = "公路之旅·地板",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "dibanjcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 4,
+		rarity = 4,
+		picture = "jiche/dibanjc",
+		canputon = 0,
+		discount = 0,
+		id = 50001,
+		comfortable = 4,
+		describe = "准备好坐骑和行囊，开始这场公路之旅吧~",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50002] = {
+		can_rotate = 0,
+		name = "公路之旅·墙纸",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "qiangbijcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 3,
+		rarity = 4,
+		picture = "jiche/qiangbijc",
+		canputon = 0,
+		discount = 0,
+		id = 50002,
+		comfortable = 4,
+		describe = "准备好坐骑和行囊，开始这场公路之旅吧~",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50101] = {
+		can_rotate = 1,
+		name = "啾啾热狗店",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "cantingjcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 4,
+		picture = "jiche/cantingjc",
+		canputon = 0,
+		discount = 0,
+		id = 50101,
+		comfortable = 4,
+		describe = "来份香喷喷的热狗，顺带一杯可乐啾？",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			10,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50102] = {
+		can_rotate = 0,
+		name = "风滚草",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "caojcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "jiche/caojc",
+		canputon = 0,
+		discount = 0,
+		id = 50102,
+		comfortable = 2,
+		describe = "呼~~咻~~~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50103] = {
+		can_rotate = 0,
+		name = "加油站",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jiayoujcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "jiche/jiayoujc",
+		canputon = 0,
+		discount = 0,
+		id = 50103,
+		comfortable = 2,
+		describe = "不注意油量，是跑不完全程的…啾！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50104] = {
+		can_rotate = 0,
+		name = "饮料贩卖机",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "jiqijcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "jiche/jiqijc",
+		canputon = 0,
+		discount = 0,
+		id = 50104,
+		comfortable = 3,
+		describe = "唔…喝点什么好呢…",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50105] = {
+		can_rotate = 1,
+		name = "铁道路障",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "lanjiejcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "jiche/lanjiejc",
+		canputon = 0,
+		discount = 0,
+		id = 50105,
+		comfortable = 2,
+		describe = "抢时的话，可是要付出生命的代价的哦？",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50106] = {
+		can_rotate = 0,
+		name = "公路路面",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "lujcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "jiche/lujc",
+		canputon = 0,
+		discount = 0,
+		id = 50106,
+		comfortable = 3,
+		describe = "养护得很好，在上面驰骋应该非常舒服吧",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50107] = {
+		can_rotate = 1,
+		name = "限速牌",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "lupai1jcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 1,
+		picture = "jiche/lupai1jc",
+		canputon = 0,
+		discount = 0,
+		id = 50107,
+		comfortable = 1,
+		describe = "超过限速，可是要接受惩罚的哦？",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50108] = {
+		can_rotate = 1,
+		name = "公路道标1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "lupai2jcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 1,
+		picture = "jiche/lupai2jc",
+		canputon = 0,
+		discount = 0,
+		id = 50108,
+		comfortable = 1,
+		describe = "66号公路，从这里开始。",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50109] = {
+		can_rotate = 1,
+		name = "公路道标2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "lupai3jcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 1,
+		picture = "jiche/lupai3jc",
+		canputon = 0,
+		discount = 0,
+		id = 50109,
+		comfortable = 1,
+		describe = "一路向西，驶向生命的彼方",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50110] = {
+		can_rotate = 1,
+		name = "公路道标组",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "lupai4jcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 1,
+		picture = "jiche/lupai4jc",
+		canputon = 0,
+		discount = 0,
+		id = 50110,
+		comfortable = 1,
+		describe = "信息量略大，请仔细查阅。",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50111] = {
+		can_rotate = 1,
+		name = "养路工人啾",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "luzhangjcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "jiche/luzhangjc",
+		canputon = 0,
+		discount = 0,
+		id = 50111,
+		comfortable = 3,
+		describe = "这一道现在禁止通行…啾！",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50112] = {
+		can_rotate = 1,
+		name = "停车场路牌",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "pjcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 1,
+		picture = "jiche/pjc",
+		canputon = 0,
+		discount = 0,
+		id = 50112,
+		comfortable = 1,
+		describe = "适当地休息，才能走得更远",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50113] = {
+		can_rotate = 0,
+		name = "岩石地形",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 3,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "shijcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "jiche/shijc",
+		canputon = 0,
+		discount = 0,
+		id = 50113,
+		comfortable = 2,
+		describe = "注意崎岖地段哦~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50114] = {
+		can_rotate = 0,
+		name = "枯叶树木",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "shu1jcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "jiche/shu1jc",
+		canputon = 0,
+		discount = 0,
+		id = 50114,
+		comfortable = 2,
+		describe = "与黄沙十分相配的树木。",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50115] = {
+		can_rotate = 0,
+		name = "茂盛树木",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "shu2jcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "jiche/shu2jc",
+		canputon = 0,
+		discount = 0,
+		id = 50115,
+		comfortable = 2,
+		describe = "充满了生命力的绿树。",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50116] = {
+		can_rotate = 0,
+		name = "仙人掌",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "shu3jcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "jiche/shu3jc",
+		canputon = 0,
+		discount = 0,
+		id = 50116,
+		comfortable = 2,
+		describe = "沙漠中的生命之泉。",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50117] = {
+		advice = 0,
+		name = "荒野水塘",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "jiche/shuichijc",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "shuichijcicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 50117,
+		comfortable = 3,
+		describe = "茫茫荒野中的一湾水塘~",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-73.6,
+					-64.2
+				},
+				{
+					1,
+					1
+				},
+				"jiche/shuichi_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50118] = {
+		can_rotate = 0,
+		name = "停车位",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "tingchejcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "jiche/tingchejc",
+		canputon = 0,
+		discount = 0,
+		id = 50118,
+		comfortable = 3,
+		describe = "停个车，去补充点食物吧~",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50119] = {
+		can_rotate = 0,
+		name = "铁栅栏",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "wangjcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "jiche/wangjc",
+		canputon = 0,
+		discount = 0,
+		id = 50119,
+		comfortable = 2,
+		describe = "禁止翻越哦！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50120] = {
+		can_rotate = 0,
+		name = "公路护栏",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "zhalanjcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "jiche/zhalanjc",
+		canputon = 0,
+		discount = 0,
+		id = 50120,
+		comfortable = 2,
+		describe = "注意行车安全，可别撞上了。",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50121] = {
+		advice = 0,
+		name = "野营帐篷",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "jiche/zhangpengjc",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "zhangpengjcicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 50121,
+		comfortable = 3,
+		describe = "今天就在这儿睡了，晚安！",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-42.8,
+					-48.7
+				},
+				{
+					1,
+					1
+				},
+				"jiche/zhangpengjc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50122] = {
+		can_rotate = 1,
+		name = "热狗店宣传杆",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "zhaopaijcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "jiche/zhaopaijc",
+		canputon = 0,
+		discount = 0,
+		id = 50122,
+		comfortable = 2,
+		describe = "来份香喷喷的热狗吧～",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50123] = {
+		can_rotate = 0,
+		name = "交通锥",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "zhuijcicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "jiche/zhuijc",
+		canputon = 0,
+		discount = 0,
+		id = 50123,
+		comfortable = 2,
+		describe = "前面路段施工~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[50124] = {
+		can_rotate = 0,
+		name = "下坡路段",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "jichejcicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 50124,
+		comfortable = 4,
+		describe = "危机就是转机…在这里一口气超车…！",
+		dorm_id = 0,
+		gem_price = 150,
+		themeId = 50,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			20,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jicheB",
+				"normal"
+			},
+			{
+				"jicheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"jicheCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -95297,6 +97288,7 @@ pg.furniture_data_template = {
 		148,
 		149,
 		151,
+		153,
 		100001,
 		100002,
 		100003,
@@ -95305,6 +97297,7 @@ pg.furniture_data_template = {
 		100006,
 		100007,
 		100008,
+		100009,
 		1001,
 		1002,
 		1101,
@@ -96666,7 +98659,33 @@ pg.furniture_data_template = {
 		49302,
 		49303,
 		49304,
-		49305
+		49305,
+		50001,
+		50002,
+		50101,
+		50102,
+		50103,
+		50104,
+		50105,
+		50106,
+		50107,
+		50108,
+		50109,
+		50110,
+		50111,
+		50112,
+		50113,
+		50114,
+		50115,
+		50116,
+		50117,
+		50118,
+		50119,
+		50120,
+		50121,
+		50122,
+		50123,
+		50124
 	}
 }
 

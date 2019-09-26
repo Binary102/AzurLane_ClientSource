@@ -29,7 +29,7 @@ class("ActivityNewPtOPCommand", pm.SimpleCommand).execute = function (slot0, slo
 				awards = slot1
 			})
 		else
-			print(slot0.result)
+			print(errorTip("", slot0.result))
 		end
 	end)
 end

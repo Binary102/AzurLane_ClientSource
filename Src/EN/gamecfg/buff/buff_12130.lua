@@ -20,13 +20,6 @@ return {
 	color = "yellow",
 	icon = 12130,
 	last_effect = "",
-	limit = {
-		SYSTEM_SCENARIO,
-		SYSTEM_ROUTINE,
-		SYSTEM_SHAM,
-		SYSTEM_CHALLENGE,
-		SYSTEM_ACT_BOSS
-	},
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",
@@ -34,7 +27,7 @@ return {
 				"onFlagShip"
 			},
 			arg_list = {
-				skill_id = 12130
+				skill_id = 12135
 			}
 		}
 	}

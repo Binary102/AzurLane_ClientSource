@@ -1005,6 +1005,8 @@ function slot0.OnExitChapter(slot0, slot1)
 				if not _.detect(getProxy(SkirmishProxy).getRawData(slot2), function (slot0)
 					return tonumber(slot0:getConfig("event")) == slot0
 				end) then
+					slot0()
+
 					return
 				end
 

@@ -38130,6 +38130,2591 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[27001] = {
+		can_rotate = 0,
+		name = "Summer Park Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		belong = 0,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "dibanslyicon",
+		deblocking = 1,
+		level = 5,
+		tag = 4,
+		rarity = 4,
+		picture = "shuileyuan/dibansly",
+		canputon = 0,
+		discount = 0,
+		id = 27001,
+		comfortable = 4,
+		describe = "Let's hope it's designed to prevent slipping, otherwise the dorm accident rate is going to skyrocket.",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27002] = {
+		can_rotate = 0,
+		name = "Summer Park Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		belong = 0,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "qiangbislyicon",
+		deblocking = 1,
+		level = 1,
+		tag = 3,
+		rarity = 4,
+		picture = "shuileyuan/qiangbisly",
+		canputon = 0,
+		discount = 0,
+		id = 27002,
+		comfortable = 4,
+		describe = "So realistic you'll almost forget you're indoors. Just don't try to go beyond the room's boundaries.",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27101] = {
+		advice = 0,
+		name = "Yellow Pool Ball",
+		count = 1,
+		type = 3,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "shuileyuan/dengzi2sly",
+		can_rotate = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "dengzi2slyicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		tag = 2,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 27101,
+		comfortable = 1,
+		describe = "Not *that* kind of pool ball. Easy mistake to make, though.",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-11,
+					48
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27102] = {
+		advice = 0,
+		name = "Blue Pool Ball",
+		count = 1,
+		type = 3,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "shuileyuan/dengzisly",
+		can_rotate = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "dengzislyicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		tag = 2,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 27102,
+		comfortable = 1,
+		describe = "Look, you'd need a pool table to play billiards. And new balls, these ones are much too large and floaty.",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-11,
+					48
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27103] = {
+		can_rotate = 1,
+		name = "White and Blue Blanket",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "ditanslyicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 1,
+		picture = "shuileyuan/ditansly",
+		canputon = 0,
+		discount = 0,
+		id = 27103,
+		comfortable = 1,
+		describe = "This blanket retired from active beach duty and now spends its days drying the feet of pool visitors.",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27104] = {
+		advice = 0,
+		name = "Lifeguard Station",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "shuileyuan/jiushengyisly",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "jiushengyislyicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 27104,
+		comfortable = 3,
+		describe = "\"I volunteer for the task! Somebody needs to keep a watchful eye on these adorable destroyers!\"",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					25,
+					83
+				},
+				{
+					1,
+					1
+				},
+				"shuileyuan/jiushengyisly_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27105] = {
+		can_rotate = 0,
+		name = "Restricted Pool Area",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 10,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "shuichislyicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "shuileyuan/shuichisly",
+		canputon = 1,
+		discount = 0,
+		id = 27105,
+		comfortable = 2,
+		describe = "This area of the pool is effectively lava; you can't enter without a swim ring or other floatation device.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			6
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				0,
+				3
+			},
+			{
+				0,
+				4
+			},
+			{
+				0,
+				5
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				1,
+				4
+			},
+			{
+				1,
+				5
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				2,
+				4
+			},
+			{
+				2,
+				5
+			},
+			{
+				3,
+				0
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				4
+			},
+			{
+				3,
+				5
+			},
+			{
+				4,
+				0
+			},
+			{
+				4,
+				1
+			},
+			{
+				4,
+				2
+			},
+			{
+				4,
+				3
+			},
+			{
+				4,
+				4
+			},
+			{
+				4,
+				5
+			},
+			{
+				5,
+				0
+			},
+			{
+				5,
+				1
+			},
+			{
+				5,
+				2
+			},
+			{
+				5,
+				3
+			},
+			{
+				5,
+				4
+			},
+			{
+				5,
+				5
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27106] = {
+		advice = 0,
+		name = "Pool Step Ladder",
+		count = 1,
+		type = 3,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "shuileyuan/pajiasly",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "pajiaslyicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 2,
+		tag = 2,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 27106,
+		comfortable = 2,
+		describe = "A certain Sardegnian shipgirl can frequently be found here, refusing to either get in or out of the pool properly.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					2,
+					68
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27107] = {
+		can_rotate = 0,
+		name = "Underwater Manjuu",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "qianshuijiuslyicon",
+		deblocking = 1,
+		level = 2,
+		tag = 2,
+		rarity = 3,
+		picture = "shuileyuan/qianshuijiusly",
+		canputon = 0,
+		discount = 0,
+		id = 27107,
+		comfortable = 3,
+		describe = "It's top-secret, but this Manjuu is training to become a submarine tender.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27108] = {
+		advice = 0,
+		name = "Water Ball",
+		count = 1,
+		type = 3,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "shuileyuan/qiusly",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "qiuslyicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 3,
+		tag = 2,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 27108,
+		comfortable = 3,
+		describe = "Allows you to briefly become a human wrecking ball!",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					1,
+					-83
+				},
+				{
+					1,
+					1
+				},
+				"shuileyuan/qiusly_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27109] = {
+		can_rotate = 0,
+		name = "Parasol",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "sanslyicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "shuileyuan/sansly",
+		canputon = 0,
+		discount = 0,
+		id = 27109,
+		comfortable = 3,
+		describe = "\"Who'd need this?! It's an INDOOR pool! You're not going to get a sunburn from the ceiling lamps!\"",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27110] = {
+		can_rotate = 0,
+		name = "Parasol and Table Combo",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "san2slyicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "shuileyuan/san2sly",
+		canputon = 1,
+		discount = 0,
+		id = 27110,
+		comfortable = 3,
+		describe = "A peachy parasol positioned in a pretty place, purportedly pining for people's personal property.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {
+			0,
+			13.79
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				3,
+				2
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27111] = {
+		advice = 0,
+		name = "Inflatable Pool Seat",
+		count = 1,
+		type = 3,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "shuileyuan/shafasly",
+		can_rotate = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "shafaslyicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 4,
+		tag = 2,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 27111,
+		comfortable = 4,
+		describe = "Any nation can rule the waves, but it takes a true marine monarch to rule the pool.",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					15,
+					-3
+				},
+				{
+					1,
+					1
+				},
+				"shuileyuan/shafasly_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27112] = {
+		can_rotate = 0,
+		name = "Rainbow Parfait",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "shiwuslyicon",
+		deblocking = 1,
+		level = 2,
+		tag = 2,
+		rarity = 2,
+		picture = "shuileyuan/shiwusly",
+		canputon = 0,
+		discount = 0,
+		id = 27112,
+		comfortable = 2,
+		describe = "Parfait, parfeat, parfeating.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27113] = {
+		advice = 0,
+		name = "Inflatable Watermelon Slice",
+		count = 1,
+		type = 3,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "shuileyuan/tangyi2sly",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "tangyi2slyicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 3,
+		tag = 2,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 27113,
+		comfortable = 3,
+		describe = "Regular watermelons are made of 91% water, but this one is made of 100% plastic.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					5,
+					22
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27114] = {
+		advice = 0,
+		name = "Inflatable Unicorn",
+		count = 1,
+		type = 3,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "shuileyuan/tangyi3sly",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "tangyi3slyicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 3,
+		tag = 2,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 27114,
+		comfortable = 3,
+		describe = "As with horses and glue, as with unicorns and pool toys...",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					6,
+					1
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27115] = {
+		advice = 0,
+		name = "Beach Chair",
+		count = 2,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "shuileyuan/tangyi4sly",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "tangyi4slyicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 27115,
+		comfortable = 3,
+		describe = "Just the thing for you if basking in the glow of ceiling lamps is your thing.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					48,
+					-21
+				},
+				{
+					1,
+					1
+				},
+				"shuileyuan/tangyi4sly_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27116] = {
+		advice = 0,
+		name = "Inflatable Cactus",
+		count = 1,
+		type = 3,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "shuileyuan/tangyisly",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "tangyislyicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 3,
+		tag = 2,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 27116,
+		comfortable = 3,
+		describe = "A cactus without prickles is like a rose without thorns; gentle, but insincere.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					11.4,
+					17.7
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27117] = {
+		can_rotate = 0,
+		name = "Palm Tree",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "yezishuslyicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "shuileyuan/yezishusly",
+		canputon = 0,
+		discount = 0,
+		id = 27117,
+		comfortable = 3,
+		describe = "Did you know? \"Palm\" is an anagram of \"lamp.\"",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27118] = {
+		advice = 0,
+		name = "Coconut Bathtub",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "shuileyuan/yezisly",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "yezislyicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 27118,
+		comfortable = 3,
+		describe = "In Northern Parliament, tropical drink sips you.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					4,
+					-17
+				},
+				{
+					-1,
+					1
+				},
+				"shuileyuan/yezisly_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27119] = {
+		advice = 0,
+		name = "Striped Swim Ring",
+		count = 1,
+		type = 3,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "shuileyuan/yongquansly",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "yongquanslyicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 2,
+		tag = 2,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 27119,
+		comfortable = 2,
+		describe = "Keeps you afloat, but should not be used as a lifebuoy.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-21,
+					31
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27120] = {
+		advice = 0,
+		name = "Yellow Swim Ring",
+		count = 1,
+		type = 3,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "shuileyuan/yongquan2sly",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "yongquan2slyicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 2,
+		tag = 2,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 27120,
+		comfortable = 2,
+		describe = "It is inflatable and a tube of sorts, but it's neither wacky nor does it have waving arms.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-21,
+					31
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27121] = {
+		advice = 0,
+		name = "Showering Unit",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "shuileyuan/yuchisly",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "yuchislyicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 27121,
+		comfortable = 3,
+		describe = "Offers less privacy than the Shower Room, but some people see that as a good thing.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					0,
+					-54
+				},
+				{
+					1,
+					1
+				},
+				"shuileyuan/yuchisly_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27122] = {
+		advice = 0,
+		name = "Rainbow Cloud",
+		count = 1,
+		type = 3,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "shuileyuan/zuoyi1sly",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "zuoyi1slyicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 2,
+		tag = 2,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 27122,
+		comfortable = 2,
+		describe = "♫ Somewhere, over the rainbow ♫",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-61,
+					5
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-1,
+					-30
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27123] = {
+		advice = 0,
+		name = "Shower Room",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "shuileyuan/linyusly",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "linyuslyicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 27123,
+		comfortable = 2,
+		describe = "Don't be a dork; shower before going into the pool.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-7,
+					-92
+				},
+				{
+					-1,
+					1
+				},
+				"shuileyuan/linyusly_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27124] = {
+		can_rotate = 0,
+		name = "Shark Slide",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		picture = "shuileyuan/",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "shayuhuatislyicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 27124,
+		comfortable = 4,
+		describe = "People willingly climbing into the jaws of a shark only to be spit out! What a sight!",
+		dorm_id = 0,
+		gem_price = 150,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			13,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shayuhuatiB",
+				"normal"
+			},
+			{
+				"shayuhuatiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					},
+					{
+						"sit"
+					},
+					{
+						"yun"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				-1,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"shayuhuaticharcontroller"
+			}
+		},
+		interAction_group = {}
+	},
+	[27125] = {
+		advice = 0,
+		name = "Manjuu Fountain",
+		count = 1,
+		type = 3,
+		dir = 0,
+		gain_by = "",
+		is_get_time_note = 0,
+		belong = 1,
+		can_rotate = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "manjuupengquanslyicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 4,
+		tag = 2,
+		picture = "shuileyuan/manjuupengquan",
+		canputon = 0,
+		discount = 0,
+		id = 27125,
+		comfortable = 4,
+		describe = "That's one wet birb.",
+		dorm_id = 0,
+		gem_price = 150,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"manjuupengquan",
+				"normal"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27126] = {
+		advice = 0,
+		name = "Unrestricted Pool Area",
+		count = 2,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "shuileyuan/shuichisly",
+		can_rotate = 0,
+		dorm_icon_price = 60,
+		not_for_sale = 0,
+		icon = "shuichislyicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 27126,
+		comfortable = 2,
+		describe = "It's a free-for-all! Come on in whether you have a swim ring or not!",
+		dorm_id = 0,
+		gem_price = 180,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			6
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-78,
+					-78
+				},
+				{
+					1,
+					1
+				},
+				"shuileyuan/shuichisly_using1",
+				0,
+				{
+					{
+						90,
+						280
+					},
+					{
+						680,
+						390
+					}
+				}
+			},
+			{
+				"wash",
+				{
+					73,
+					-28
+				},
+				{
+					-1,
+					1
+				},
+				"shuileyuan/shuichisly_using2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27201] = {
+		can_rotate = 0,
+		name = "Naval Beer",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "pijiuslyicon",
+		deblocking = 1,
+		level = 2,
+		tag = 2,
+		rarity = 1,
+		picture = "shuileyuan/pijiusly",
+		canputon = 0,
+		discount = 0,
+		id = 27201,
+		comfortable = 1,
+		describe = "Respect the beer. It deserves its own swim ring as much as anybody else.",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27202] = {
+		can_rotate = 0,
+		name = "Frozen Watermelon",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "xiguaslyicon",
+		deblocking = 1,
+		level = 2,
+		tag = 2,
+		rarity = 1,
+		picture = "shuileyuan/xiguasly",
+		canputon = 0,
+		discount = 0,
+		id = 27202,
+		comfortable = 1,
+		describe = "Can't let summer pass without having some of this.",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[27301] = {
+		can_rotate = 0,
+		name = "Window with Curtains",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chaungslyicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 3,
+		picture = "shuileyuan/chaungsly",
+		canputon = 0,
+		discount = 0,
+		id = 27301,
+		comfortable = 3,
+		describe = "Is what lies beyond the real deal, or just part of the wallpaper? Only one way to find out.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 27,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[35001] = {
 		can_rotate = 0,
 		name = "Ghostly Wilderness",
@@ -70528,6 +73113,37 @@ pg.furniture_data_template = {
 		24304,
 		24305,
 		24306,
+		27001,
+		27002,
+		27101,
+		27102,
+		27103,
+		27104,
+		27105,
+		27106,
+		27107,
+		27108,
+		27109,
+		27110,
+		27111,
+		27112,
+		27113,
+		27114,
+		27115,
+		27116,
+		27117,
+		27118,
+		27119,
+		27120,
+		27121,
+		27122,
+		27123,
+		27124,
+		27125,
+		27126,
+		27201,
+		27202,
+		27301,
 		35001,
 		35002,
 		35101,

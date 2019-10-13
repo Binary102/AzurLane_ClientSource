@@ -12013,7 +12013,6 @@ pg.ship_data_template = {
 			10130
 		},
 		hide_buff_list = {
-			10131,
 			55
 		}
 	},
@@ -12056,7 +12055,6 @@ pg.ship_data_template = {
 			10130
 		},
 		hide_buff_list = {
-			10131,
 			55,
 			1
 		}
@@ -12100,7 +12098,6 @@ pg.ship_data_template = {
 			10130
 		},
 		hide_buff_list = {
-			10131,
 			55,
 			1
 		}
@@ -12144,7 +12141,6 @@ pg.ship_data_template = {
 			10130
 		},
 		hide_buff_list = {
-			10131,
 			55,
 			2
 		}
@@ -25986,7 +25982,6 @@ pg.ship_data_template = {
 			10290
 		},
 		hide_buff_list = {
-			10291,
 			54
 		}
 	},
@@ -26029,7 +26024,6 @@ pg.ship_data_template = {
 			10290
 		},
 		hide_buff_list = {
-			10291,
 			54,
 			1
 		}
@@ -26073,7 +26067,6 @@ pg.ship_data_template = {
 			10290
 		},
 		hide_buff_list = {
-			10291,
 			54,
 			1
 		}
@@ -26117,7 +26110,6 @@ pg.ship_data_template = {
 			10290
 		},
 		hide_buff_list = {
-			10291,
 			54,
 			2
 		}
@@ -26864,7 +26856,6 @@ pg.ship_data_template = {
 			12160
 		},
 		hide_buff_list = {
-			12170,
 			55
 		}
 	},
@@ -26910,7 +26901,6 @@ pg.ship_data_template = {
 			12160
 		},
 		hide_buff_list = {
-			12170,
 			55,
 			1
 		}
@@ -26957,7 +26947,6 @@ pg.ship_data_template = {
 			12160
 		},
 		hide_buff_list = {
-			12170,
 			55,
 			1
 		}
@@ -27004,7 +26993,6 @@ pg.ship_data_template = {
 			12160
 		},
 		hide_buff_list = {
-			12170,
 			55,
 			2
 		}
@@ -50273,8 +50261,7 @@ pg.ship_data_template = {
 			12140
 		},
 		hide_buff_list = {
-			55,
-			12135
+			55
 		}
 	},
 	[405012] = {
@@ -50323,7 +50310,6 @@ pg.ship_data_template = {
 		},
 		hide_buff_list = {
 			55,
-			12135,
 			1
 		}
 	},
@@ -50373,7 +50359,6 @@ pg.ship_data_template = {
 		},
 		hide_buff_list = {
 			55,
-			12135,
 			1
 		}
 	},
@@ -50423,7 +50408,6 @@ pg.ship_data_template = {
 		},
 		hide_buff_list = {
 			55,
-			12135,
 			2
 		}
 	},
@@ -53767,7 +53751,6 @@ pg.ship_data_template = {
 			12610
 		},
 		hide_buff_list = {
-			12605,
 			55
 		}
 	},
@@ -53813,7 +53796,6 @@ pg.ship_data_template = {
 			12610
 		},
 		hide_buff_list = {
-			12605,
 			55,
 			1
 		}
@@ -53860,7 +53842,6 @@ pg.ship_data_template = {
 			12610
 		},
 		hide_buff_list = {
-			12605,
 			55,
 			1
 		}
@@ -53907,7 +53888,6 @@ pg.ship_data_template = {
 			12610
 		},
 		hide_buff_list = {
-			12605,
 			55,
 			2
 		}

@@ -1,23 +1,20 @@
 slot0 = class("Dorm", import(".BaseVO"))
-slot0.comforChatContentWord = {
-	"backyard_backyardScene_comforChatContent1",
-	"backyard_backyardScene_comforChatContent1",
-	"backyard_backyardScene_comforChatContent1"
-}
 slot0.comforChatState = {
 	i18n("backyard_backyardScene_comforChatContent1_1"),
 	i18n("backyard_backyardScene_comforChatContent2_2"),
 	i18n("backyard_backyardScene_comforChatContent3_3")
 }
 
-function slot0.comforChatContent(slot0, slot1)
-	slot4 = 0
+function slot0.comforChatContent(slot0)
+	slot3 = 0
 
 	if pg.gameset.dorm_exp_ratio_comfort_degree.key_value + slot0:getComfortable() ~= 0 then
-		slot4 = slot3 / (slot2 + slot3) * 100
+		slot3 = slot2 / (slot1 + slot2) * 100
 	end
 
-	return i18n(slot0.comforChatContentWord[slot1], string.format("%d", slot4), slot0:getConfig("comfortable_count")[5][2])
+	return i18n("backyard_backyardScene_comforChatContent2", slot0.comforChatState[slot0:getComBGIndex()], string.format("%d", slot3), slot0.level - 1) .. i18n("backyard_backyardScene_comforChatContent1", unpack(_.map(slot4, function (slot0)
+		return slot0[2]
+	end)))
 end
 
 slot0.MAX_FLOOR = 2

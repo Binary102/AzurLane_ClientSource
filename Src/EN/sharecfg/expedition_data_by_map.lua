@@ -1363,6 +1363,47 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1070100] = {
+		map = 1070100,
+		name = "The Pursuit of Graf Spee|| | S.P. ||S.P. ",
+		bgm = "level02",
+		type = 3,
+		on_activity = 30230,
+		title = "SP",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "purple",
+		bg = "Map_1070000",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1070200] = {
 		map = 1070200,
 		name = "The Pursuit of Graf Spee|| | S.P. ||S.P. ",
@@ -3888,6 +3929,7 @@ pg.expedition_data_by_map = {
 		1040010,
 		1040011,
 		1050010,
+		1070100,
 		1070200,
 		1080000,
 		1080010,

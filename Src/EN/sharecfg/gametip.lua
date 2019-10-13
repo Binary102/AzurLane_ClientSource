@@ -1511,8 +1511,22 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_buy_max_count"
 	},
 	backyard_backyardScene_comforChatContent1 = {
-		tip = "<size=22>EXP Gain <color=#5FD500>+$1%</color></size><size=22>\n<Happiness is the sum of Comfort derived from the top most n cozy furnitures and floors <color=#5FD500>$2</color>) (n represents the number each type of furniture can be arranged). Furniture arrangement has no effect on results.>\n</size>",
+		tip = [[
+<size=28>The total comfort is currently affected by the
+number of furniture items in the following slots:
+Wallpaper:<color=#92fc63>$2</color>/Floor:<color=#92fc63>$5</color>/Furniture:<color=#92fc63>$3</color>
+Décor:<color=#92fc63>$4</color>/Carpet:<color=#92fc63>$6</color>/Wall Décor:<color=#92fc63>$7</color></size>]],
 		key = "backyard_backyardScene_comforChatContent1"
+	},
+	backyard_backyardScene_comforChatContent2 = {
+		tip = [[
+<size=37>$1</size><size=28>
+Bonus EXP Gain:<color=#92fc63>+$2%</color></size><size=28>
+The dorm's total happiness is calculated as a sum of 
+the <color=#92fc63>n</color> highest-comfort pieces of furniture in each slot. The number of pieces of furniture included in this count increases depending on how many times the dorm has been expanded. Furniture does not have to be placed to contribute comfort.
+Current expansions: <color=#92fc63>$3</color>
+</size>]],
+		key = "backyard_backyardScene_comforChatContent2"
 	},
 	backyard_buyExtendItem_question = {
 		tip = "This will cost <color=#92fc63>$1</color>. Are you sure you want to continue?",
@@ -8884,7 +8898,7 @@ with Anti-Sub gear.
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
-		tip = "Heavy: Heavy Cruisers, Monitors, Battlecruisers, Battleships, and more!",
+		tip = "Rate Up characters: Admiral Graf Spee",
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
@@ -9695,8 +9709,8 @@ Once the mission is completed, all players who participated will be rewarded wit
 			{
 				info = [[
 <color=#92fc63>- About Reward Sorties and Bonus Tickets:</color>
-1. Your first <color=#92fc63>30 battles</color> on Easy, Normal, or Hard difficulty of each day are treated as <color=#92fc63>Reward Sorties</color>, which will give you better clear rewards than usual.
-2. If you've <color=#92fc63>used up</color> your 30 daily Reward Sorties, you can use <color=#92fc63>Bonus Tickets</color> to gain access to more Reward Sorties.
+1. Your first <color=#92fc63>15 battles</color> on Easy, Normal, or Hard difficulty of each day are treated as <color=#92fc63>Reward Sorties</color>, which will give you better clear rewards than usual.
+2. If you've <color=#92fc63>used up</color> your 15 daily Reward Sorties, you can use <color=#92fc63>Bonus Tickets</color> to gain access to more Reward Sorties.
 3. <color=#92fc63>Bonus Tickets</color> are also used to gain access to EX difficulty.
 4. <color=#92fc63>Bonus Tickets</color> can be acquired through <color=#92fc63>missions</color> available during the event period.
 ]]
@@ -9706,7 +9720,7 @@ Once the mission is completed, all players who participated will be rewarded wit
 <color=#ff5c5c>- Miscellaneous Info:</color>
 1. If you abort an EX difficulty run halfway through, your Bonus Ticket will still be consumed, but you will <color=#ff5c5c>not receive any rewards or CP</color>.
 2. We recommend you play the game on <color=#92fc63>Manual Mode</color> when doing a run on EX difficulty.
-3. A Reward Sortie will <color=#92fc63>not be deducted from your daily 30</color> if you choose to abort a run halfway through on Easy, Normal, or Hard difficulty.
+3. A Reward Sortie will <color=#92fc63>not be deducted from your daily 15</color> if you choose to abort a run halfway through on Easy, Normal, or Hard difficulty.
 4. We urge you to keep an eye on your ships' Morale and Affinity and to not sortie too much. <color=#92fc63>Please be considerate!</color>
 5. The number of clears required for any given server to complete the event will differ based on the combined user data of that server.]]
 			}
@@ -11087,11 +11101,11 @@ depends on the amount of damage dealt to the boss.
 		key = "ship_formationUI_fleetName_extra_ss"
 	},
 	text_consume = {
-		tip = "Cancel ",
+		tip = "YES",
 		key = "text_consume"
 	},
 	text_inconsume = {
-		tip = "Exchange ",
+		tip = "NO",
 		key = "text_inconsume"
 	}
 }

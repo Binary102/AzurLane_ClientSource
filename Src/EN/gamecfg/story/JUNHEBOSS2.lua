@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Suruga, how is does the battle fare?",
+			say = "Suruga, how does the battle fare?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			actor = 900200,
 			nameColor = "#a9f548",
-			say = "We are in an engagement on the frontlines. As for how it's faring... not quite as expected. Our opponents are advancing faster than I expected.——",
+			say = "We are in an engagement on the frontlines. As for how it's faring... not quite as expected. Our opponents are advancing faster than I expected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

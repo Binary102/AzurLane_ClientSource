@@ -138,6 +138,7 @@ pg.activity_event_worldboss = {
 	{
 		group_num = 1,
 		ticket = 2003,
+		time = "stop",
 		submarine_num = 1,
 		damage_resource = 2002,
 		id = 2,
@@ -169,32 +170,6 @@ pg.activity_event_worldboss = {
 			500,
 			0,
 			0
-		},
-		time = {
-			{
-				{
-					2019,
-					9,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		formula = {
 			10,

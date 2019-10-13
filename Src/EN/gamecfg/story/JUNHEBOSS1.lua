@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
-			say = "That was a rousing speech, Suruga. I knew it wasn't a mistake to summon you here.。",
+			say = "That was a rousing speech, Suruga. I knew it wasn't a mistake to summon you here.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "Hmm, very well. We must do our best for my Commander, after all.。",
+			say = "Hmm, very well. We must do our best for my Commander, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -28541,6 +28541,115 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[203071] = {
+		ship_group = 20307,
+		name = "Truth Seeker",
+		bullet_skin_main = "",
+		desc = "The school has recently been consumed by a series of Mysteries... there must be some Mastermind lurking behind the scenes. Yes, another Tribulation awaits me! I shall part the veil and reveal all Truths!",
+		illustrator2 = -1,
+		id = 203071,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "yueke_2",
+		air_bullet_skin = "",
+		shop_type_id = 4,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "103",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yueke_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70250,
+		voice_actor = 23,
+		air_bomb_skin = "",
+		illustrator = 18,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.666,
+					0.998,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.638,
+					1,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.003,
+					0.011,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.614,
+					0.999,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.414,
+							2.501,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[203079] = {
 		ship_group = 20307,
 		name = "York (Retrofit)",
@@ -35632,7 +35741,7 @@ pg.ship_skin_template = {
 		ship_group = 30111,
 		name = "Ikazuchi",
 		bullet_skin_main = "",
-		desc = "Type III {namecode:11}-class destroyer number three - {namecode:11}.",
+		desc = "Type III Akatsuki-class destroyer number three - Ikazuchi. ",
 		illustrator2 = -1,
 		id = 301110,
 		bullet_skin_secondary = "",
@@ -35980,7 +36089,7 @@ pg.ship_skin_template = {
 		ship_group = 30112,
 		name = "Inazuma",
 		bullet_skin_main = "",
-		desc = "Type III {namecode:11}-class destroyer number four - {namecode:11}.",
+		desc = "Type III Akatsuki-class destroyer number four - Inazuma. ",
 		illustrator2 = -1,
 		id = 301120,
 		bullet_skin_secondary = "",
@@ -49818,6 +49927,115 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[305026] = {
+		ship_group = 30502,
+		name = "Street Corner Offensive!",
+		bullet_skin_main = "",
+		desc = "Uwaah! M-Milord?! I'm so, so sorry... You didn't get hurt, did you? Um... This is my school uniform. Fusou tailored it for me, hehe~ ... Awawa! I should head off to class now! See you later!",
+		illustrator2 = -1,
+		id = 305026,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "shancheng_6",
+		air_bullet_skin = "",
+		shop_type_id = 4,
+		hand_id = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "103",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "shancheng_6",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70251,
+		voice_actor = 71,
+		air_bomb_skin = "",
+		illustrator = 22,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.666,
+					0.827,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.632,
+					0.836,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.007,
+					-0.001,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.675,
+					0.832,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.36,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[305028] = {
 		ship_group = 30502,
 		name = "Bridal Attack! ",
@@ -54945,7 +55163,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 16,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -55038,7 +55256,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 16,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -64457,7 +64675,7 @@ pg.ship_skin_template = {
 			mail = 0.5,
 			propose = 3,
 			main_1 = 0.5,
-			login = 0.5,
+			login = 14.17,
 			expedition = 0.5,
 			home = 0.5,
 			mission_complete = 0.5,
@@ -66253,8 +66471,8 @@ pg.ship_skin_template = {
 			2
 		},
 		live2d_offset = {
-			50,
-			-50,
+			20,
+			-140,
 			0
 		},
 		fx_container = {
@@ -78819,6 +79037,7 @@ pg.ship_skin_template = {
 		203050,
 		203060,
 		203070,
+		203071,
 		203079,
 		203080,
 		203089,
@@ -79014,6 +79233,7 @@ pg.ship_skin_template = {
 		305021,
 		305022,
 		305023,
+		305026,
 		305028,
 		305029,
 		305030,

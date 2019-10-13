@@ -14975,7 +14975,7 @@ pg.task_data_template = {
 		type = 5,
 		name = "It's a Date!",
 		count_inherit = 0,
-		desc = "Complete 1 SOS.",
+		desc = "Complete 1 Rescure mission.",
 		target_id_2 = "",
 		sub_type = 21,
 		added_tip = 1,
@@ -15231,7 +15231,7 @@ pg.task_data_template = {
 		type = 5,
 		name = "Mistakes Were Made!",
 		count_inherit = 0,
-		desc = "Complete 1 SOS.",
+		desc = "Complete 1 Rescure mission.",
 		target_id_2 = "",
 		sub_type = 21,
 		added_tip = 1,
@@ -22814,6 +22814,376 @@ pg.task_data_template = {
 				59104,
 				200
 			}
+		}
+	},
+	[10421] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8182,
+		type = 6,
+		name = "围剿斯佩伯爵1",
+		count_inherit = 0,
+		desc = "Clear SP1.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "10422",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1070101,
+		id = 10421,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1070101",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[10422] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8183,
+		type = 6,
+		name = "围剿斯佩伯爵2",
+		count_inherit = 0,
+		desc = "Clear SP2.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "10423",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1070102,
+		id = 10422,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1070102",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[10423] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8184,
+		type = 6,
+		name = "围剿斯佩伯爵3",
+		count_inherit = 0,
+		desc = "Clear SP3.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1070103,
+		id = 10423,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1070103",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[10424] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8185,
+		type = 6,
+		name = "围剿斯佩伯爵1",
+		count_inherit = 0,
+		desc = "Complete SP1 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "10425",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1070101,
+		id = 10424,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1070101",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[10425] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8185,
+		type = 6,
+		name = "围剿斯佩伯爵2",
+		count_inherit = 0,
+		desc = "Complete SP2 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "10426",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1070102,
+		id = 10425,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1070102",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[10426] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8186,
+		type = 6,
+		name = "围剿斯佩伯爵3",
+		count_inherit = 0,
+		desc = "Complete SP3 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1070103,
+		id = 10426,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1070103",
+		open_need = {},
+		award_display = {
+			{
+				3,
+				43140,
+				1
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[10427] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8187,
+		type = 6,
+		name = "斯佩1",
+		count_inherit = 0,
+		desc = "Clear SP3 10 times.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1070103,
+		id = 10427,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "1070103",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18012,
+				2
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[10428] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8188,
+		type = 6,
+		name = "斯佩2",
+		count_inherit = 0,
+		desc = "Clear SP3 20 times.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1070103,
+		id = 10428,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "1070103",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18012,
+				2
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[10429] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8189,
+		type = 6,
+		name = "斯佩3",
+		count_inherit = 0,
+		desc = "Clear SP3 40 times.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1070103,
+		id = 10429,
+		target_num = 40,
+		fix_task = 0,
+		target_id = "1070103",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				2
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[10430] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8190,
+		type = 6,
+		name = "斯佩4",
+		count_inherit = 0,
+		desc = "Clear SP3 60 times.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1070103,
+		id = 10430,
+		target_num = 60,
+		fix_task = 0,
+		target_id = "1070103",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				403051,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
 		}
 	},
 	[10441] = {
@@ -48028,6 +48398,38 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14671] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91191,
+		type = 6,
+		name = "『限界挑战II』-积分任务",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 103,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14671,
+		target_num = 8800,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				14,
+				202,
+				1
+			}
+		}
+	},
 	[14757] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -60840,6 +61242,16 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		10413,
 		10414,
 		10415,
+		10421,
+		10422,
+		10423,
+		10424,
+		10425,
+		10426,
+		10427,
+		10428,
+		10429,
+		10430,
 		10441,
 		10442,
 		10443,
@@ -61549,6 +61961,7 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		14657,
 		14658,
 		14670,
+		14671,
 		14757,
 		14758,
 		14759,

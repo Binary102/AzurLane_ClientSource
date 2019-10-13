@@ -89,7 +89,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "だが……",
+			say = "However...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

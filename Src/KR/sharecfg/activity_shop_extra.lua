@@ -432,6 +432,42 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
+	[35] = {
+		num_limit = 1,
+		activity = 20284,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 202172,
+		scene = "",
+		id = 35,
+		order = 1,
+		time = {
+			{
+				{
+					2019,
+					9,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		7,
 		8,
@@ -444,7 +480,8 @@ pg.activity_shop_extra = {
 		26,
 		27,
 		28,
-		29
+		29,
+		35
 	}
 }
 

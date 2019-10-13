@@ -93,7 +93,7 @@ return {
 			},
 			options = {
 				{
-					content = "答应",
+					content = "허락한다",
 					flag = 1
 				}
 			}

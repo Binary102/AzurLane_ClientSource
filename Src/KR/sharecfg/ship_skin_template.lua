@@ -5079,6 +5079,110 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[101351] = {
+		ship_group = 10135,
+		name = "럭셔리 스피드 스타",
+		id = 101351,
+		desc = "흐흥, 지휘관 봤지! 이 듬직함, 그리고 이 화려하면서도 패셔너블한 컬러! 마지막으로 배시가 특별 준비한 장비! 후후후… 지금의 배시는 모항의 가장 화려한 스피드 스타라고!",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "beiqi_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "118",
+		isSwimsuit = 0,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "beiqi_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70246,
+		voice_actor = 204,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.018,
+					0.921,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.993,
+					0.918,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.25,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101360] = {
 		ship_group = 10136,
 		name = "하비",
@@ -7974,6 +8078,117 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[102093] = {
+		ship_group = 10209,
+		name = "Road·Traveler",
+		id = 102093,
+		desc = "마침 잘 왔어! 새로운 파트너와 도로 여행을 준비하고 있거든! 지휘관도 같이 갈래?",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "kelifulan_4",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "118",
+		isSwimsuit = 0,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "kelifulan_4",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70211,
+		voice_actor = 40,
+		air_bomb_skin = "",
+		illustrator = 8,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			47,
+			-197,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.127,
+					0.986,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.103,
+					0.955,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.012,
+					0.024,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.051,
+					0.947,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.47,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[102098] = {
 		ship_group = 10209,
 		name = "가슴 떨리는 순간 ",
@@ -9035,7 +9250,7 @@ pg.ship_skin_template = {
 		bullet_skin_main = "",
 		bullet_skin_secondary = "",
 		painting = "shengluyisi_2",
-		painting_hx = "",
+		painting_hx = "shengluyisi_2_hx",
 		air_bullet_skin = "",
 		shop_type_id = 3,
 		hand_id = 9,
@@ -17126,6 +17341,103 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[107063] = {
+		ship_group = 10706,
+		name = "Anniversary Drive!",
+		id = 107063,
+		desc = "「Happy anniversary！」…… 지휘관, 오늘은 제대로 축하하자고! 그리고 우리가 항상 승리하기를 같이 기도하자——",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "qiye_4",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "118",
+		isSwimsuit = 0,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "qiye_4",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70217,
+		voice_actor = 31,
+		air_bomb_skin = "",
+		illustrator = 8,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.949,
+					1.064,
+					0
+				}
+			},
+			plane = {
+				{
+					0.913,
+					1.087,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.551,
+							2.421,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[107068] = {
 		ship_group = 10706,
 		name = "서약의 별빛",
@@ -17596,6 +17908,103 @@ pg.ship_skin_template = {
 				{
 					1.09,
 					1.32,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.37,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[107091] = {
+		ship_group = 10709,
+		name = "66번 국도 여행",
+		id = 107091,
+		desc = "종점만을 향하는 것이 아닌 주변 풍경을 즐기는 여행이라, 굉장히 재미있어 보입니다. 지휘관님, 함께 도로 여행의 즐거움을 느껴봅시다.",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "aisaikesi_3",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "118",
+		isSwimsuit = 0,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "aisaikesi_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70245,
+		voice_actor = 149,
+		air_bomb_skin = "",
+		illustrator = 8,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.93,
+					1.151,
+					0
+				}
+			},
+			plane = {
+				{
+					0.906,
+					1.168,
 					0
 				}
 			}
@@ -23397,6 +23806,117 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[201241] = {
+		ship_group = 20124,
+		name = "방송 대기 중",
+		id = 201241,
+		desc = "지휘관, 좋은 저녁이야. 오늘 새로운 프로그램이 방송될 거라는데, 같이 TV 볼래?",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "qiubite_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "109",
+		isSwimsuit = 0,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "qiubite_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 102,
+		air_bomb_skin = "",
+		illustrator = 40,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.963,
+					0.745,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.001,
+					0.726,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.09,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.936,
+					0.79,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.271,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[201260] = {
 		ship_group = 20126,
 		name = "매치리스",
@@ -26387,6 +26907,117 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[202172] = {
+		ship_group = 20217,
+		name = "Highway·Star",
+		id = 202172,
+		desc = "보스, 봐. 아카시가 선물해준 새 바이크다. 나에게 신제품의 ‘모델’을 하라고 했던가…… 모델, 하하. 꽤 멋있게 들리는군.",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "yamaijia_3",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		hand_id = 16,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "118",
+		isSwimsuit = 0,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yamaijia_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 93,
+		air_bomb_skin = "",
+		illustrator = 6,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.816,
+					1.118,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.822,
+					1.139,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.021,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.798,
+					1.188,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.468,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202180] = {
 		ship_group = 20218,
 		name = "꼬마 벨파스트",
@@ -28798,6 +29429,117 @@ pg.ship_skin_template = {
 						{
 							0.502,
 							0.433,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[203071] = {
+		ship_group = 20307,
+		name = "truth seeker",
+		id = 203071,
+		desc = "학교 내에서 알 수 없는 사건<†미스터리†>들이 발생했어요, 배후에 분명 커다란 흑막<†마스터 마인드†>이 있을거에요. 이건 저에게 부여된 시련<†트리뷸레이션†>! 좋아, 제가 배후에 숨겨진 모든 진상<†트루스†>을 파헤쳐주겠어요!",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "yueke_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 4,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "103",
+		isSwimsuit = 0,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yueke_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70250,
+		voice_actor = 23,
+		air_bomb_skin = "",
+		illustrator = 18,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.666,
+					0.998,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.638,
+					1,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.003,
+					0.011,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.614,
+					0.999,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.414,
+							2.501,
 							0
 						}
 					}
@@ -35932,6 +36674,117 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[301092] = {
+		ship_group = 30109,
+		name = "오토바이 닌자, 출격!",
+		id = 301092,
+		desc = "보았소, 지휘관 나리? 이 새로운 자태, 새로운 파트너! 지금의 아카츠키는 그냥 닌자가 아니라 ‘오토바이 닌자’라오!",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "xiao_3",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		hand_id = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "118",
+		isSwimsuit = 0,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "xiao_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70248,
+		voice_actor = 24,
+		air_bomb_skin = "",
+		illustrator = 2,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.685,
+					0.982,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.723,
+					0.99,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.006,
+					0.017,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.731,
+					0.95,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.58,
+							2.39,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301110] = {
 		ship_group = 30111,
 		name = "이카즈치",
@@ -37614,6 +38467,108 @@ pg.ship_skin_template = {
 				{
 					0.96,
 					0.76,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.327,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301159] = {
+		ship_group = 30115,
+		name = "시구레·改",
+		id = 301159,
+		desc = "흐흥, 이 {namecode:17}님을 개조하다니, 아주 탁월한 선택이야! 앞으로도 나의 힘과 행운에 의지하라고. 행운의 바보 지휘관~",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "shiyu_g",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		isSwimsuit = 0,
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "shiyu_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 13,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.065,
+					1.181,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.069,
+					1.196,
 					0
 				}
 			}
@@ -39710,6 +40665,115 @@ pg.ship_skin_template = {
 				{
 					1.014,
 					0.768,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.47,
+							2.29,
+							-0.99
+						}
+					}
+				}
+			}
+		}
+	},
+	[301269] = {
+		ship_group = 30126,
+		name = "유구레·改",
+		id = 301269,
+		desc = "{namecode:31}급 구축함, {namecode:32}, 개조 완료되었습니다. 에헤헤, 이제부터 저와… 언니를 잘 부탁드립니다. 지휘관님.",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "ximu_g",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		isSwimsuit = 0,
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "ximu_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 51,
+		air_bomb_skin = "",
+		illustrator = 27,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.512,
+					0.78,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.513,
+					0.83,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.038,
+					-0.043,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.577,
+					0.804,
 					0
 				}
 			}
@@ -50936,6 +52000,117 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[305026] = {
+		ship_group = 30502,
+		name = "모퉁이 공세！",
+		id = 305026,
+		desc = "우왁, 나, 나리!? 죄죄죄죄송합니다, 다치지 않으셨죠....? 아, 이건 제 교복이에요, 언니가 손수 짜줬어요~ 헤헷.....우와악 그럼 전 이만 수업 들으러 갈게요! 이따 봐요!",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "shancheng_6",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 4,
+		hand_id = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "103",
+		isSwimsuit = 0,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "shancheng_6",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70251,
+		voice_actor = 71,
+		air_bomb_skin = "",
+		illustrator = 22,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.666,
+					0.827,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.632,
+					0.836,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.007,
+					-0.001,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.675,
+					0.832,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.36,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[305028] = {
 		ship_group = 30502,
 		name = "백무구 대작전?! ",
@@ -55219,8 +56394,8 @@ pg.ship_skin_template = {
 			2
 		},
 		live2d_offset = {
-			30,
-			-85,
+			0,
+			-10,
 			0
 		},
 		fx_container = {
@@ -56181,7 +57356,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 16,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -56276,7 +57451,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 16,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -66371,7 +67546,7 @@ pg.ship_skin_template = {
 			mail = 0.5,
 			propose = 3,
 			main_1 = 0.5,
-			login = 0.5,
+			login = 14.17,
 			expedition = 0.5,
 			home = 0.5,
 			mission_complete = 0.5,
@@ -67940,6 +69115,131 @@ pg.ship_skin_template = {
 					}
 				}
 			}
+		}
+	},
+	[808011] = {
+		ship_group = 80801,
+		name = "쇼핑 타임!",
+		id = 808011,
+		desc = "아? 지휘관도 쇼핑하러 왔어? 그럼 우리들과 함께 할래? …… 응? 지휘관은 당연히 못 앉지? 교통 법규 위반이라구.",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "xukufu_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		hand_id = 1,
+		lip_smoothing = 0,
+		bg = "118",
+		isSwimsuit = 0,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "xukufu_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70249,
+		voice_actor = 85,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			20,
+			-140,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.951,
+					0.661,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.971,
+					0.727,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.138,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.969,
+					0.906,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
 		}
 	},
 	[901010] = {
@@ -76755,6 +78055,108 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[900200] = {
+		ship_group = 900200,
+		name = "스루가 ",
+		id = 900200,
+		desc = "스루가 ",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "junhe",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		isSwimsuit = 0,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "junhe",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.601,
+					1.611,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.585,
+					1.681,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.561,
+					1.745,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.654,
+							2.41,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[900094] = {
 		ship_group = 900094,
 		name = "재블린",
@@ -82851,15 +84253,15 @@ pg.ship_skin_template = {
 		bound_bone = {
 			cannon = {
 				{
-					0.56,
-					0.867,
+					0.759,
+					0.967,
 					0
 				}
 			},
 			vicegun = {
 				{
-					0.505,
-					0.908,
+					0.75,
+					0.984,
 					0
 				}
 			},
@@ -82872,8 +84274,8 @@ pg.ship_skin_template = {
 			},
 			antiaircraft = {
 				{
-					0.598,
-					0.862,
+					0.92,
+					0.977,
 					0
 				}
 			}
@@ -84173,6 +85575,7 @@ pg.ship_skin_template = {
 		101330,
 		101340,
 		101350,
+		101351,
 		101360,
 		101361,
 		101370,
@@ -84199,6 +85602,7 @@ pg.ship_skin_template = {
 		102090,
 		102091,
 		102092,
+		102093,
 		102098,
 		102100,
 		102110,
@@ -84282,11 +85686,13 @@ pg.ship_skin_template = {
 		107060,
 		107061,
 		107062,
+		107063,
 		107068,
 		107070,
 		107071,
 		107080,
 		107090,
+		107091,
 		107170,
 		107220,
 		107221,
@@ -84340,6 +85746,7 @@ pg.ship_skin_template = {
 		201233,
 		201238,
 		201240,
+		201241,
 		201260,
 		201270,
 		201290,
@@ -84366,6 +85773,7 @@ pg.ship_skin_template = {
 		202152,
 		202160,
 		202170,
+		202172,
 		202180,
 		202190,
 		202191,
@@ -84387,6 +85795,7 @@ pg.ship_skin_template = {
 		203050,
 		203060,
 		203070,
+		203071,
 		203079,
 		203080,
 		203089,
@@ -84451,6 +85860,7 @@ pg.ship_skin_template = {
 		301058,
 		301059,
 		301090,
+		301092,
 		301110,
 		301111,
 		301112,
@@ -84466,6 +85876,7 @@ pg.ship_skin_template = {
 		301150,
 		301151,
 		301152,
+		301159,
 		301160,
 		301161,
 		301168,
@@ -84485,6 +85896,7 @@ pg.ship_skin_template = {
 		301261,
 		301262,
 		301263,
+		301269,
 		301270,
 		301280,
 		301300,
@@ -84586,6 +85998,7 @@ pg.ship_skin_template = {
 		305021,
 		305022,
 		305023,
+		305026,
 		305028,
 		305029,
 		305030,
@@ -84743,6 +86156,7 @@ pg.ship_skin_template = {
 		802010,
 		802011,
 		808010,
+		808011,
 		901010,
 		901011,
 		901019,
@@ -84821,6 +86235,7 @@ pg.ship_skin_template = {
 		900197,
 		900198,
 		900199,
+		900200,
 		900094,
 		900095,
 		900096,

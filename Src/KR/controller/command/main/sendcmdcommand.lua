@@ -2,6 +2,8 @@ class("SendCmdCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	if slot1:getBody().cmd == "local" then
 		if slot2.arg1 == "debug" then
 			DebugMgr.Inst:Active()
+		elseif slot2.arg1 == "sdkexit" then
+			SDKLogouted(99)
 		elseif slot2.arg1 == "notification" then
 			slot3 = pg.TimeMgr.GetInstance():GetServerTime() + 60
 		elseif slot2.arg1 == "time" then

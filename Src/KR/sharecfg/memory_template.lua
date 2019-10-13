@@ -8558,6 +8558,61 @@ pg.memory_template = {
 		icon = "memory_dachaolifu",
 		is_open = 0
 	},
+	[934] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "스루가、등장!",
+		condition = "「저편을 건너온 물결」 이벤트 시작",
+		story = "JUNHEBOSS1",
+		id = 934,
+		icon = "memory_junheboss",
+		is_open = 0
+	},
+	[935] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "행운함의 격려",
+		condition = "「저편을 건너온 물결」 이벤트 진도 25% 달성",
+		story = "JUNHEBOSS2",
+		id = 935,
+		icon = "memory_junheboss",
+		is_open = 0
+	},
+	[936] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "리더십",
+		condition = "「저편을 건너온 물결」 이벤트 진도 50% 달성",
+		story = "JUNHEBOSS3",
+		id = 936,
+		icon = "memory_junheboss",
+		is_open = 0
+	},
+	[937] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "뒤얽힌 수선",
+		condition = "「저편을 건너온 물결」 이벤트 진도 75% 달성",
+		story = "JUNHEBOSS4",
+		id = 937,
+		icon = "memory_junheboss",
+		is_open = 0
+	},
+	[938] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "스루가 시점",
+		condition = "「저편을 건너온 물결」 이벤트 진도 100% 달성",
+		story = "JUNHEBOSS5",
+		id = 938,
+		icon = "memory_junheboss",
+		is_open = 0
+	},
 	[10000] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -10074,6 +10129,11 @@ pg.memory_template = {
 		931,
 		932,
 		933,
+		934,
+		935,
+		936,
+		937,
+		938,
 		10000,
 		10001,
 		10002,

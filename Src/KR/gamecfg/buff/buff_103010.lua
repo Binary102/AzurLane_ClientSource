@@ -55,6 +55,17 @@ return {
 			}
 		},
 		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onStartGame"
+			},
+			arg_list = {
+				buff_id = 103014,
+				ammoType = 7,
+				ammoIndex = 1
+			}
+		},
+		{
 			type = "BattleBuffCastSkill",
 			trigger = {
 				"onStartGame"

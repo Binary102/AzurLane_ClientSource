@@ -46,6 +46,7 @@ function slot0.init(slot0)
 	slot0.shipContent = slot0:findTF("window/sliders/scroll_rect/content", slot0.selectPanel)
 	slot0.shipCardTpl = slot0._tf:GetComponent("ItemList").prefabItem[0]
 	slot0.confirmChangeBtn = slot0:findTF("window/exchange_btn", slot0.selectPanel)
+	slot0.flagShipToggle = slot0:findTF("window/flag_ship", slot0.selectPanel)
 
 	setActive(slot0.selectPanel, false)
 
@@ -168,14 +169,18 @@ function slot0.didEnter(slot0)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.selectPanel, function ()
 		slot0:closeSelectPanel()
-	end)
+	end, SFX_PANEL)
+	onToggle(slot0, slot0.flagShipToggle, function (slot0)
+		slot0.flagShipMark = slot0
+	end, SFX_PANEL)
+	triggerToggle(slot0.flagShipToggle, slot2)
 	slot0:onSwitch(slot0.changeSkinBtn, table.getCount(slot0.sameShipVOs) > 0)
 
-	slot2 = slot0:loadUISync("getrole")
-	slot2.layer = LayerMask.NameToLayer("UI")
-	slot2.transform.localPosition = Vector3(0, 0, -10)
+	slot3 = slot0:loadUISync("getrole")
+	slot3.layer = LayerMask.NameToLayer("UI")
+	slot3.transform.localPosition = Vector3(0, 0, -10)
 
-	setParent(slot2, slot0._tf, false)
+	setParent(slot3, slot0._tf, false)
 	playSoundEffect(SFX_UI_DOCKYARD_CHARGET)
 end
 
@@ -392,7 +397,7 @@ function slot0.openSelectPanel(slot0)
 			return
 		end
 
-		slot0:emit(NewSkinMediator.SET_SKIN, slot0.selectIds)
+		slot0:emit(NewSkinMediator.SET_SKIN, slot0.selectIds, slot0.flagShipMark)
 	end)
 	onButton(slot0, slot0.selectPanelCloseBtn, function ()
 		slot0:closeSelectPanel()

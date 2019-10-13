@@ -51,6 +51,7 @@ pg.fleet_tech_ship_class = {
 			10130,
 			10131,
 			10135,
+			10141,
 			10114,
 			10115,
 			10112,
@@ -1742,7 +1743,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70201] = {
 		shiptype = 2,
-		name = "아브로라급",
+		name = "디아나급 ",
 		t_level = 1,
 		id = 70201,
 		t_level_1 = 130,

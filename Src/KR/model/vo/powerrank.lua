@@ -74,7 +74,7 @@ slot0.typeInfo = {
 			7,
 			4
 		},
-		act_type = ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE
+		act_type = ActivityConst.ACTIVITY_TYPE_BOSS_RANK
 	},
 	{
 		title_word = {

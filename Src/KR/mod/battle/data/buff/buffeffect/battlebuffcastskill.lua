@@ -90,6 +90,10 @@ function ys.Battle.BattleBuffCastSkill.castSkill(slot0, slot1, slot2)
 		end
 	end
 
+	if slot0._attrInterval and not slot0:attrIntervalRequire(slot0.Battle.BattleAttr.GetBase(slot1, slot0._attrInterval)) then
+		return "check"
+	end
+
 	if slot0._streak and not slot1.GetWinningStreak(slot0._streak) then
 		return "check"
 	end

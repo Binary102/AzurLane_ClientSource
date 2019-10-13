@@ -4091,7 +4091,7 @@ pg.expedition_data_by_map = {
 	},
 	[2100000] = {
 		map = 2100000,
-		name = "검게 물든 강철의 벚꽃 (상)|| ||EX. CHAPTER||EX.",
+		name = "『홍염의 방문자』-전편|| ||CHAPTER EX||E.X.",
 		bgm = "level02",
 		type = 4,
 		on_activity = 0,
@@ -4132,7 +4132,7 @@ pg.expedition_data_by_map = {
 	},
 	[2100001] = {
 		map = 2100001,
-		name = "검게 물든 강철의 벚꽃 (하)|| ||EX. CHAPTER||EX.",
+		name = "『홍염의 방문자』-후편|| ||CHAPTER EX||E.X.",
 		bgm = "level02",
 		type = 4,
 		on_activity = 0,
@@ -4173,7 +4173,7 @@ pg.expedition_data_by_map = {
 	},
 	[2100010] = {
 		map = 2100010,
-		name = "검게 물든 강철의 벚꽃 (상)|| ||EX. CHAPTER||EX.",
+		name = "『홍염의 방문자』-전편|| ||CHAPTER EX||E.X.",
 		bgm = "level02",
 		type = 5,
 		on_activity = 0,
@@ -4214,7 +4214,7 @@ pg.expedition_data_by_map = {
 	},
 	[2100011] = {
 		map = 2100011,
-		name = "검게 물든 강철의 벚꽃 (하)|| ||EX. CHAPTER||EX.",
+		name = "『홍염의 방문자』-후편|| ||CHAPTER EX||E.X.",
 		bgm = "level02",
 		type = 5,
 		on_activity = 0,

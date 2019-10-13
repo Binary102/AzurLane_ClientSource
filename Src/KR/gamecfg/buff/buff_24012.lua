@@ -27,12 +27,12 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffCastSkill",
+			type = "BattleBuffAddBuff",
 			trigger = {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				skill_id = 24012,
+				buff_id = 24016,
 				target = "TargetSelf",
 				countType = 24010
 			}

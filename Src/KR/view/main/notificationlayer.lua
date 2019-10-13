@@ -494,7 +494,7 @@ function slot0.appendOthers(slot0, slot1, slot2)
 		slot5 = slot0.prefabSelf
 		slot1.isSelf = true
 		slot1.player = setmetatable(Clone(slot0.player), {
-			__index = slot1.player
+			__index = slot1.player.__index
 		})
 	end
 

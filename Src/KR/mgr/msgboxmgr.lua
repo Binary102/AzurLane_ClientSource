@@ -19,6 +19,8 @@ slot2 = 6
 slot1.BUTTON_PREPAGE = slot2
 slot2 = 7
 slot1.BUTTON_NEXTPAGE = slot2
+slot2 = 8
+slot1.BUTTON_BLUE_WITH_ICON = slot2
 slot2 = "get_items"
 slot1.TITLE_GET_ITEMS = slot2
 slot2 = "infomation"
@@ -844,6 +846,7 @@ end
 function slot3(slot0, slot1)
 	slot0.enable = true
 
+	slot0:commonSetting(slot1)
 	slot0.DelegateInfo.New(slot0)
 
 	slot0.settings = slot1
@@ -2264,9 +2267,15 @@ function slot7(slot0, slot1)
 end
 
 function slot8(slot0, slot1)
-	slot2 = true
+	slot2 = defaultValue
+	slot3 = slot1.hideNo
+	slot4 = true
+	slot2 = slot2(slot3, slot4)
 	slot1.hideNo = slot2
-	slot2 = true
+	slot2 = defaultValue
+	slot3 = slot1.hideYes
+	slot4 = true
+	slot2 = slot2(slot3, slot4)
 	slot1.hideYes = slot2
 	slot3 = slot0
 	slot2 = slot0.commonSetting

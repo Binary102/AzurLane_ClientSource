@@ -20,9 +20,6 @@ return {
 	color = "red",
 	icon = 12150,
 	last_effect = "",
-	limit = {
-		SYSTEM_DUEL
-	},
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",
@@ -31,7 +28,7 @@ return {
 			},
 			arg_list = {
 				minWeaponNumber = 1,
-				skill_id = 12170,
+				skill_id = 12150,
 				check_weapon = true,
 				weapon_group = {
 					24000,
@@ -47,7 +44,7 @@ return {
 			},
 			arg_list = {
 				maxWeaponNumber = 0,
-				skill_id = 12173,
+				skill_id = 12153,
 				check_weapon = true,
 				weapon_group = {
 					24000,

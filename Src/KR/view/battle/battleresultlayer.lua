@@ -76,8 +76,6 @@ end
 
 function slot0.init(slot0)
 	slot0._grade = slot0:findTF("grade")
-	slot0._gradeLabel = slot0:findTF("label", slot0._grade)
-	slot0._gradeLabelImg = slot0._gradeLabel:GetComponent(typeof(Image))
 	slot0._levelText = slot0:findTF("chapterName/Text22", slot0._grade)
 	slot0.clearFX = slot0:findTF("clear")
 	slot0._main = slot0:findTF("main")
@@ -118,9 +116,20 @@ function slot0.init(slot0)
 	slot0._conditionContainer = slot0:findTF("bg16/list", slot0._conditions)
 	slot0._conditionTpl = slot0:findTF("bg16/conditionTpl", slot0._conditions)
 	slot0._conditionSubTpl = slot0:findTF("bg16/conditionSubTpl", slot0._conditions)
+	slot0._conditionContributeTpl = slot0:findTF("bg16/conditionContributeTpl", slot0._conditions)
+	slot0._conditionBGNormal = slot0:findTF("bg16/bg_normal", slot0._conditions)
+	slot0._conditionBGContribute = slot0:findTF("bg16/bg_contribute", slot0._conditions)
 	slot0._cmdExp = slot0:findTF("commanderExp", slot0._leftPanel)
 	slot0._cmdContainer = slot0:findTF("commander_container", slot0._cmdExp)
 	slot0._cmdTpl = slot0:findTF("commander_tpl", slot0._cmdExp)
+
+	slot0:setGradeLabel()
+	SetActive(slot0._levelText, false)
+
+	slot0._delayLeanList = {}
+end
+
+function slot0.setGradeLabel(slot0)
 	slot1 = {
 		"d",
 		"c",
@@ -153,10 +162,6 @@ function slot0.init(slot0)
 
 	LoadImageSpriteAsync(slot4, slot2, false)
 	LoadImageSpriteAsync(slot5, slot3, false)
-	SetActive(slot0._levelText, false)
-	LoadImageSpriteAsync("battlescore/grade_label_" .. (slot8 or slot6), slot0._gradeLabel, false)
-
-	slot0._delayLeanList = {}
 end
 
 function slot0.displayerCommanders(slot0, slot1)
@@ -194,7 +199,6 @@ function slot0.didEnter(slot0)
 
 	slot0._gradeUpperLeftPos = rtf(slot0._grade).localPosition
 	rtf(slot0._grade).localPosition = Vector3(0, 25, 0)
-	slot0._gradeLabelImg.color = Color.New(1, 1, 1, 1)
 
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
@@ -367,8 +371,6 @@ function slot0.showRewardInfo(slot0)
 end
 
 function slot0.displayBG(slot0)
-	SetActive(slot0:findTF("Xyz", slot0._grade), false)
-	SetActive(slot0:findTF("label", slot0._grade), true)
 	LeanTween.moveX(rtf(slot0._conditions), 1300, slot0.DURATION_MOVE)
 	LeanTween.scale(slot0._grade, Vector3(0.6, 0.6, 0), slot0.DURATION_MOVE)
 	LeanTween.moveLocal(go(slot1), slot0._gradeUpperLeftPos, slot0.DURATION_MOVE):setOnComplete(System.Action(function ()
@@ -441,7 +443,7 @@ function slot0.displayShips(slot0)
 	end
 
 	slot4, slot5 = nil
-	slot5 = (slot3.mvpShipID == 0 or slot3[slot3.mvpShipID].output) and 0
+	slot5 = (not slot3.mvpShipID or slot3.mvpShipID == 0 or slot3[slot3.mvpShipID].output) and 0
 	slot0._atkFuncs = {}
 	slot0._commonAtkTplList = {}
 	slot0._subAtkTplList = {}

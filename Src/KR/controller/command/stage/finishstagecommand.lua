@@ -170,52 +170,52 @@ function slot0.GeneralLoot(slot0, slot1)
 	return slot2, slot3
 end
 
-function slot0.ScenarioCommanderExp(slot0)
-	slot2 = getProxy(CommanderProxy)
-	slot3 = getProxy(ChapterProxy):getActiveChapter().fleet:getCommanders()
-	slot4 = {}
+function slot0.GenerateCommanderExp(slot0, slot1)
+	slot3 = getProxy(CommanderProxy)
+	slot4 = slot1:getCommanders()
+	slot5 = {}
 
-	for slot8, slot9 in ipairs(slot1) do
-		slot12 = slot2:getCommanderById(slot10)
-		slot13 = slot12.exp
+	for slot9, slot10 in ipairs(slot2) do
+		slot13 = slot3:getCommanderById(slot11)
+		slot14 = slot13.exp
 
-		slot12:addExp(slot11)
-		slot2:updateCommander(slot12)
+		slot13:addExp(slot12)
+		slot3:updateCommander(slot13)
 
-		if slot12:isMaxLevel() then
-			table.insert(slot4, {
+		if slot13:isMaxLevel() then
+			table.insert(slot5, {
 				exp = 0,
-				commander_id = slot10,
-				curExp = slot13
+				commander_id = slot11,
+				curExp = slot14
 			})
 		else
-			table.insert(slot4, {
-				commander_id = slot10,
-				exp = slot9.exp,
-				curExp = slot13
+			table.insert(slot5, {
+				commander_id = slot11,
+				exp = slot10.exp,
+				curExp = slot14
 			})
 		end
 	end
 
-	slot5 = {}
 	slot6 = {}
 	slot7 = {}
+	slot8 = {}
 
-	for slot11, slot12 in pairs(slot3) do
-		table.insert(slot7, slot12.id)
+	for slot12, slot13 in pairs(slot4) do
+		table.insert(slot8, slot13.id)
 	end
 
-	for slot11, slot12 in ipairs(slot4) do
-		if table.contains(slot7, slot12.commander_id) then
-			table.insert(slot5, slot12)
+	for slot12, slot13 in ipairs(slot5) do
+		if table.contains(slot8, slot13.commander_id) then
+			table.insert(slot6, slot13)
 		else
-			table.insert(slot6, slot12)
+			table.insert(slot7, slot13)
 		end
 	end
 
 	return {
-		surfaceCMD = slot5,
-		submarineCMD = slot6
+		surfaceCMD = slot6,
+		submarineCMD = slot7
 	}
 end
 

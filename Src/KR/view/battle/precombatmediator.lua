@@ -18,36 +18,36 @@ function slot0.register(slot0)
 
 	slot0.viewComponent:SetShips(slot0.ships)
 
-	slot2 = getProxy(FleetProxy)
-	slot3 = nil
+	slot3 = getProxy(FleetProxy)
+	slot4 = nil
 
-	if slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS then
-		slot3 = slot2:getActivityFleets()[slot0.contextData.actID]
+	if slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS or slot2 == SYSTEM_BOSS_EXPERIMENT or slot2 == SYSTEM_ACT_BOSS then
+		slot4 = slot0.contextData.fleets
 	else
-		slot3 = slot2:getData()
+		slot4 = slot3:getData()
 
-		if slot2.EdittingFleet ~= nil then
-			slot3[slot2.EdittingFleet.id] = slot2.EdittingFleet
+		if slot3.EdittingFleet ~= nil then
+			slot4[slot3.EdittingFleet.id] = slot3.EdittingFleet
 		end
 	end
 
-	slot0.viewComponent:SetFleets(slot3)
-	slot0.viewComponent:SetPlayerInfo(slot5)
+	slot0.viewComponent:SetFleets(slot4)
+	slot0.viewComponent:SetPlayerInfo(slot6)
 	slot0:bind(slot0.ON_ABORT_EDIT, function (slot0)
 		slot0:abortEditting()
 		slot0:syncFleet()
 	end)
 
-	if slot0.contextData.system == SYSTEM_DUEL then
+	if slot2 == SYSTEM_DUEL then
 		slot0.viewComponent:SetCurrentFleet(FleetProxy.PVP_FLEET_ID)
-	elseif slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS then
-		slot0.viewComponent:SetCurrentFleet(1)
-	elseif slot0.contextData.system == SYSTEM_SUB_ROUTINE then
+	elseif slot2 == SYSTEM_HP_SHARE_ACT_BOSS or slot2 == SYSTEM_BOSS_EXPERIMENT or slot2 == SYSTEM_ACT_BOSS then
+		slot0.viewComponent:SetCurrentFleet(slot4[1].id)
+	elseif slot2 == SYSTEM_SUB_ROUTINE then
 		slot0.viewComponent:SetStageID(slot0.contextData.stageId)
 		slot0.viewComponent:SetCurrentFleet(slot0.contextData.fleetID)
 	else
 		slot0.viewComponent:SetStageID(slot0.contextData.stageId)
-		slot0.viewComponent:SetCurrentFleet(slot4.combatFleetId)
+		slot0.viewComponent:SetCurrentFleet(slot5.combatFleetId)
 	end
 
 	slot0:bind(slot0.ON_CHANGE_FLEET, function (slot0, slot1)
@@ -96,7 +96,7 @@ function slot0.register(slot0)
 			slot6 = slot1.id
 		end
 
-		slot7 = slot0.contextData.system == SYSTEM_DUEL
+		slot7 = slot1 == SYSTEM_DUEL
 
 		if slot2.id == FleetProxy.PVP_FLEET_ID then
 			for slot12, slot13 in pairs(slot8) do
@@ -161,34 +161,48 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.ON_START, function (slot0, slot1)
 		function slot2()
-			if slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS then
+			if slot0.contextData.customFleet then
 				slot0.contextData.func()
 			else
-				(not slot0.contextData.rivalId or slot0.contextData.rivalId) and slot0.contextData.stageId:sendNotification(GAME.BEGIN_STAGE, {
-					stageId = (not slot0.contextData.rivalId or slot0.contextData.rivalId) and slot0.contextData.stageId,
-					mainFleetId = slot1,
-					system = (not slot0.contextData.rivalId or slot0.contextData.rivalId) and slot0.contextData.stageId.contextData.system,
-					rivalId = (not slot0.contextData.rivalId or slot0.contextData.rivalId) and slot0.contextData.stageId.contextData.rivalId
+				slot0 = (not slot0.contextData.rivalId or slot0.contextData.rivalId) and slot0.contextData.stageId
+
+				seriesAsync({
+					function (slot0)
+						if slot0.contextData.OnConfirm then
+							slot0.contextData.OnConfirm(slot0)
+						else
+							slot0()
+						end
+					end,
+					function ()
+						slot0:sendNotification(GAME.BEGIN_STAGE, {
+							stageId = slot1,
+							mainFleetId = slot2,
+							system = slot0.contextData.system,
+							actID = slot0.contextData.actID,
+							rivalId = slot0.contextData.rivalId
+						})
+					end
 				})
 			end
 		end
 
-		if slot0.contextData.system == SYSTEM_DUEL then
+		if slot1 == SYSTEM_DUEL then
 			slot2()
 		else
 			slot3, slot4 = nil
 
-			if slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS then
-				slot3 = slot1:getActivityFleets()[slot0.contextData.actID][1]
+			if slot1 == SYSTEM_HP_SHARE_ACT_BOSS or slot1 == SYSTEM_BOSS_EXPERIMENT or slot1 == SYSTEM_ACT_BOSS then
+				slot3 = slot2[1]
 				slot4 = "ship_energy_low_warn_no_exp"
 			else
-				slot3 = slot1:getFleetById(slot1)
+				slot3 = slot3:getFleetById(slot1)
 			end
 
 			slot5 = {}
 
 			for slot9, slot10 in ipairs(slot3.ships) do
-				table.insert(slot5, slot2:getShipById(slot10))
+				table.insert(slot5, slot4:getShipById(slot10))
 			end
 
 			if slot3.name == "" or slot6 == nil then
@@ -227,7 +241,7 @@ end
 
 function slot0.commitEdit(slot0, slot1)
 	if getProxy(FleetProxy).EdittingFleet == nil or slot3:isFirstFleet() or slot3:isLegalToFight() == true then
-		if slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS then
+		if slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS or slot0.contextData.system == SYSTEM_ACT_BOSS or slot0.contextData.system == SYSTEM_BOSS_EXPERIMENT then
 			slot2:commitActivityFleet(slot0.contextData.actID)
 			slot1()
 		else

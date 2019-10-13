@@ -720,25 +720,45 @@ function slot0.initOtherPanel(slot0)
 		setActive(slot0.redeem, false)
 	end
 
-	onButton(slot0, slot2, function ()
+	slot0.notchPanel = slot0:findTF("main/options/scroll_view/Viewport/content/notch_setting")
+	slot4 = 2
+
+	if 2 < Screen.width / Screen.height - 0.001 then
+		setActive(slot0.notchPanel, true)
+
+		slot0.notchSlider = slot0:findTF("slider", slot0.notchPanel)
+
+		setSlider(slot0.notchSlider, slot4, slot2, getProxy(SettingsProxy):GetScreenRatio())
+		slot0:initSoundSlider(slot0.notchSlider, function (slot0)
+			slot0:SetScreenRatio(slot0)
+
+			NotchAdapt.CheckNotchRatio = slot0
+
+			NotchAdapt.AdjustUI()
+		end)
+	else
+		setActive(slot0.notchPanel, false)
+	end
+
+	onButton(slot0, slot5, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = i18n("secondary_password_help")
 		})
 	end)
 
-	slot3 = slot0:findTF("secondpwd", slot0.otherContent)
-	slot6 = pg.SecondaryPWDMgr.GetInstance()
-	slot8 = getProxy(SecondaryPWDProxy).getRawData(slot7)
+	slot6 = slot0:findTF("secondpwd", slot0.otherContent)
+	slot9 = pg.SecondaryPWDMgr.GetInstance()
+	slot11 = getProxy(SecondaryPWDProxy).getRawData(slot10)
 
-	onButton(slot0, slot4, function ()
+	onButton(slot0, slot7, function ()
 		if slot0.state > 0 then
 			slot1:ChangeSetting({}, function ()
 				slot0:updateOtherPanel()
 			end)
 		end
 	end, SFX_UI_TAG)
-	onButton(slot0, slot5, function ()
+	onButton(slot0, slot8, function ()
 		if slot0.state <= 0 then
 			function slot0()
 				slot0:SetPassword(function ()
@@ -761,17 +781,17 @@ function slot0.initOtherPanel(slot0)
 		end
 	end, SFX_UI_TAG)
 
-	slot9 = slot0:findTF("limited_operations/options", slot0.otherContent)
-	slot10 = slot0:findTF("notify_tpl")
+	slot12 = slot0:findTF("limited_operations/options", slot0.otherContent)
+	slot13 = slot0:findTF("notify_tpl")
 	slot0.secPwdOpts = {}
 
-	for slot14, slot15 in ipairs(slot0()) do
-		if table.contains(slot6.LIMITED_OPERATION, slot14) then
-			slot16 = cloneTplTo(slot10, slot9)
-			slot0.secPwdOpts[slot14] = slot16
+	for slot17, slot18 in ipairs(slot0()) do
+		if table.contains(slot9.LIMITED_OPERATION, slot17) then
+			slot19 = cloneTplTo(slot13, slot12)
+			slot0.secPwdOpts[slot17] = slot19
 
-			setText(slot0:findTF("Text", slot16), slot15.title)
-			onButton(slot0, slot16, function ()
+			setText(slot0:findTF("Text", slot19), slot18.title)
+			onButton(slot0, slot19, function ()
 				slot1 = nil
 
 				if not table.contains(slot0.system_list, ) then

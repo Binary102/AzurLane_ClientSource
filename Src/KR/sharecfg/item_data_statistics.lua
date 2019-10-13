@@ -3873,10 +3873,10 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[13011] = {
-		display = "40mm 연장 보포스 해즐미어T0설계도 ",
+		display = "40mm 연장 보포스 해즐미어 T0 설계도 ",
 		rarity = 4,
 		type = 9,
-		name = "40mm 연장 보포스 해즐미어T0설계도 ",
+		name = "40mm 연장 보포스 해즐미어 T0 설계도 ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12359,7 +12359,7 @@ pg.item_data_statistics = {
 		display = "스페셜 프로젝트 함선 「아즈마」, 「프리드리히 데어 그로세」의 강화 유닛을 선택하여 획득할 수 있습니다.",
 		rarity = 5,
 		type = 13,
-		name = "상급 지향형 지향형 강화 유닛 - 제2기",
+		name = "상급 지향형 강화 유닛 - 제2기",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -63397,6 +63397,132 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[57707] = {
+		display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+		rarity = 1,
+		type = 99,
+		name = "랜덤 캐릭터",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57707,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				3,
+				1
+			},
+			{
+				2,
+				27,
+				1
+			},
+			{
+				2,
+				47,
+				1
+			},
+			{
+				2,
+				10053,
+				1
+			},
+			{
+				2,
+				10060,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57708] = {
+		display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+		rarity = 1,
+		type = 99,
+		name = "랜덤 캐릭터",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57708,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10067,
+				1
+			},
+			{
+				2,
+				10068,
+				1
+			},
+			{
+				2,
+				10070,
+				1
+			},
+			{
+				2,
+				10087,
+				1
+			},
+			{
+				2,
+				10088,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57709] = {
+		display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+		rarity = 1,
+		type = 99,
+		name = "랜덤 캐릭터",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57709,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10052,
+				1
+			},
+			{
+				2,
+				10057,
+				1
+			},
+			{
+				2,
+				10060,
+				1
+			},
+			{
+				2,
+				10068,
+				1
+			},
+			{
+				2,
+				11033,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[59000] = {
 		display = "참가한 캐릭터는 경험치를 획득할 수 있습니다.",
 		rarity = 2,
@@ -64001,6 +64127,38 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 59140,
 		icon = "Props/skinTicket",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59141] = {
+		display = "[저편을 건너온 물결]에서 누적 획득한 포인트가 일정 수량에 도달하면 보상을 수령할 수 있습니다. ",
+		rarity = 2,
+		type = 98,
+		name = "공헌도",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59141,
+		icon = "Props/junhe_pt",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59142] = {
+		display = "[저편을 건너온 물결] EX스테이지에 참여하는데 필요한 아이템. 일반 스테이지의 추가 보상 횟수를 늘리는데 사용할 수도 있다. ",
+		rarity = 4,
+		type = 98,
+		name = "특별 도전권",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59142,
+		icon = "Props/special_ticket",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -66523,6 +66681,134 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59930] = {
+		display = "물감 A, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+		rarity = 2,
+		type = 0,
+		name = "물감 A",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 20281,
+		id = 59930,
+		icon = "props/draw_a",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59931] = {
+		display = "물감 B, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+		rarity = 2,
+		type = 0,
+		name = "물감 B",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 20281,
+		id = 59931,
+		icon = "props/draw_b",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59932] = {
+		display = "물감 C, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+		rarity = 2,
+		type = 0,
+		name = "물감 C",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 20281,
+		id = 59932,
+		icon = "props/draw_c",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59933] = {
+		display = "물감 D, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+		rarity = 2,
+		type = 0,
+		name = "물감 D",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 20281,
+		id = 59933,
+		icon = "props/draw_d",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59934] = {
+		display = "물감 E, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+		rarity = 2,
+		type = 0,
+		name = "물감 E",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 20281,
+		id = 59934,
+		icon = "props/draw_e",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59935] = {
+		display = "물감 F, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+		rarity = 2,
+		type = 0,
+		name = "물감 F",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 20281,
+		id = 59935,
+		icon = "props/draw_f",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59936] = {
+		display = "물감 G, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+		rarity = 2,
+		type = 0,
+		name = "물감 G",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 20281,
+		id = 59936,
+		icon = "props/draw_g",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59937] = {
+		display = "물감 H, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+		rarity = 2,
+		type = 0,
+		name = "물감 H",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 20281,
+		id = 59937,
+		icon = "props/draw_h",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[60011] = {
 		display = "10초 만에 1 경험치를 얻을 수 있는 슈퍼 스킬 교본.",
 		rarity = 5,
@@ -68493,6 +68779,9 @@ pg.item_data_statistics = {
 		57703,
 		57704,
 		57705,
+		57707,
+		57708,
+		57709,
 		59000,
 		59001,
 		59002,
@@ -68531,6 +68820,8 @@ pg.item_data_statistics = {
 		59138,
 		59139,
 		59140,
+		59141,
+		59142,
 		59601,
 		59602,
 		59603,
@@ -68681,6 +68972,14 @@ pg.item_data_statistics = {
 		59923,
 		59924,
 		59925,
+		59930,
+		59931,
+		59932,
+		59933,
+		59934,
+		59935,
+		59936,
+		59937,
 		60011,
 		60012,
 		69901,

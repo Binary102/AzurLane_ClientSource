@@ -20,13 +20,6 @@ return {
 	color = "red",
 	icon = 19160,
 	last_effect = "",
-	limit = {
-		SYSTEM_SCENARIO,
-		SYSTEM_ROUTINE,
-		SYSTEM_SHAM,
-		SYSTEM_CHALLENGE,
-		SYSTEM_ACT_BOSS
-	},
 	effect_list = {
 		{
 			type = "BattleBuffAddBuff",
@@ -34,7 +27,7 @@ return {
 				"onChargeWeaponFire"
 			},
 			arg_list = {
-				buff_id = 19162,
+				buff_id = 19163,
 				target = "TargetSelf"
 			}
 		}

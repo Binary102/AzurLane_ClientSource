@@ -29,10 +29,16 @@ slot0.DEFAULT_NAME_FOR_DOCKYARD = {
 	[12] = i18n("ship_formationUI_fleetName2"),
 	[101] = i18n("ship_formationUI_exercise_fleetName")
 }
+slot0.DEFAULT_NAME_BOSS_ACT = {
+	i18n("ship_formationUI_fleetName_easy"),
+	i18n("ship_formationUI_fleetName_normal"),
+	i18n("ship_formationUI_fleetName_hard"),
+	i18n("ship_formationUI_fleetName_extra")
+}
 slot0.REGULAR_FLEET_ID = 1
 slot0.REGULAR_FLEET_NUMS = 6
 slot0.SUBMARINE_FLEET_ID = 11
-slot0.SUBMARINE_FLEET_NUMS = 2
+slot0.SUBMARINE_FLEET_NUMS = 4
 
 function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
@@ -96,11 +102,11 @@ end
 function slot0.updateCommanderByPos(slot0, slot1, slot2)
 	if slot2 then
 		slot0.commanderIds[slot1] = slot2.id
-
-		slot0:updateCommanderSkills()
 	else
 		slot0.commanderIds[slot1] = nil
 	end
+
+	slot0:updateCommanderSkills()
 end
 
 function slot0.getCommandersAddition(slot0)
@@ -157,10 +163,20 @@ function slot0.findCommanderBySkillId(slot0, slot1)
 end
 
 function slot0.updateCommanderSkills(slot0)
-	for slot5, slot6 in pairs(slot1) do
-		for slot10, slot11 in ipairs(slot6:getSkills()) do
-			for slot15, slot16 in ipairs(slot11:getTacticSkill()) do
-				table.insert(slot0.skills, FleetSkill.New(FleetSkill.SystemCommanderNeko, slot16))
+	slot1 = #slot0.skills
+
+	while slot1 > 0 do
+		if not slot0:findCommanderBySkillId(slot0.skills[slot1].id) and slot2:GetSystem() == FleetSkill.SystemCommanderNeko then
+			table.remove(slot0.skills, slot1)
+		end
+
+		slot1 = slot1 - 1
+	end
+
+	for slot6, slot7 in pairs(slot2) do
+		for slot11, slot12 in ipairs(slot7:getSkills()) do
+			for slot16, slot17 in ipairs(slot12:getTacticSkill()) do
+				table.insert(slot0.skills, FleetSkill.New(FleetSkill.SystemCommanderNeko, slot17))
 			end
 		end
 	end
@@ -656,6 +672,73 @@ function slot0.getFleetAirDominanceValue(slot0)
 	end
 
 	return slot3
+end
+
+function slot0.RemoveUnusedItems(slot0)
+	slot2 = getProxy(BayProxy)
+
+	for slot6, slot7 in ipairs(slot1) do
+		if not slot2:getShipById(slot7) then
+			slot0:removeShipById(slot7)
+		end
+	end
+
+	slot3 = getProxy(CommanderProxy)
+	slot4 = {}
+
+	for slot8, slot9 in pairs(slot0.commanderIds) do
+		if not slot3:getCommanderById(slot9) then
+			table.insert(slot4, slot8)
+		end
+	end
+
+	if #slot4 > 0 then
+		for slot8, slot9 in pairs(slot4) do
+			slot0.commanderIds[slot9] = nil
+		end
+
+		slot0.skills = {}
+
+		slot0:updateCommanderSkills()
+	end
+end
+
+function slot0.removeShipById(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.ships) do
+		if slot6 == slot1 then
+			table.remove(slot0.ships, slot5)
+
+			break
+		end
+	end
+
+	for slot5, slot6 in ipairs(slot0.vanguardShips) do
+		if slot6 == slot1 then
+			return table.remove(slot0.vanguardShips, slot5), slot0.VANGUARD
+		end
+	end
+
+	for slot5, slot6 in ipairs(slot0.mainShips) do
+		if slot6 == slot1 then
+			return table.remove(slot0.mainShips, slot5), slot0.MAIN
+		end
+	end
+
+	for slot5, slot6 in ipairs(slot0.subShips) do
+		if slot6 == slot1 then
+			return table.remove(slot0.subShips, slot5), slot0.SUBMARINE
+		end
+	end
+end
+
+function slot0.HaveShipsInEvent(slot0)
+	slot1 = getProxy(BayProxy):getRawData()
+
+	for slot5, slot6 in ipairs(slot0.ships) do
+		if slot1[slot6].inEvent then
+			return true, i18n("elite_disable_ship_escort")
+		end
+	end
 end
 
 return slot0

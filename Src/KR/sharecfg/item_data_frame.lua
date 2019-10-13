@@ -32,6 +32,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>모든 용기를 내어 극한에 도전하는 지휘관 여러분께 바칩니다.</color>\n「한계 챌린지」 참여를 통해 획득할 수 있습니다. （19.08.15-19.10.6）",
 		scene = {}
 	},
+	[203] = {
+		name = "한계 챌린저 III",
+		time_second = 0,
+		id = 203,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>모든 용기를 내어 극한에 도전하는 지휘관 여러분께 바칩니다.</color>\n「한계 챌린지」 참여를 통해 획득할 수 있습니다. （19.10.10-19.12.08）",
+		scene = {}
+	},
 	[300] = {
 		name = "소환자",
 		time_second = 2592000,
@@ -69,7 +77,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 304,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「세계에 사르데냐 엠파이어의 영광과 위엄을 알리자!」 </Color>\n이벤트에서 획득",
+		desc = "<color=#ffffff>「세계에 사르데냐 엠파이어의 영광과 위엄을 알리자!」 </Color>\n [디바인 트래지코미디] 이벤트에서 획득 가능",
 		scene = {}
 	},
 	all = {
@@ -77,6 +85,7 @@ pg.item_data_frame = {
 		101,
 		201,
 		202,
+		203,
 		300,
 		301,
 		302,

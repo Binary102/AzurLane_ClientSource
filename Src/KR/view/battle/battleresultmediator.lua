@@ -33,7 +33,7 @@ function slot0.register(slot0)
 
 		slot0.viewComponent:setChallengeInfo(slot10:getUserChallengeInfo(slot0.contextData.mode), slot10:userSeaonExpire(slot0.contextData.mode))
 	else
-		if slot9 == SYSTEM_SCENARIO or slot9 == SYSTEM_ROUTINE or slot9 == SYSTEM_ACT_BOSS or slot9 == SYSTEM_SUB_ROUTINE then
+		if slot9 == SYSTEM_SCENARIO or slot9 == SYSTEM_ROUTINE or slot9 == SYSTEM_ACT_BOSS or slot9 == SYSTEM_HP_SHARE_ACT_BOSS or slot9 == SYSTEM_SUB_ROUTINE then
 			slot0.viewComponent:setExpBuff(slot8:getBuffList()[1], slot8:getBuffShipList())
 		end
 
@@ -109,12 +109,20 @@ function slot0.register(slot0)
 		end)
 	elseif slot9 == SYSTEM_DODGEM then
 	elseif slot9 == SYSTEM_SUBMARINE_RUN then
+	elseif slot9 == SYSTEM_HP_SHARE_ACT_BOSS or slot9 == SYSTEM_ACT_BOSS or slot9 == SYSTEM_BOSS_EXPERIMENT then
+		slot11 = slot0.contextData.actId
+
+		if slot9 == SYSTEM_HP_SHARE_ACT_BOSS then
+			slot0.viewComponent:setActId(slot11)
+		end
+
+		slot10 = slot6:getShipsByFleet(slot13)
+
+		for slot19, slot20 in ipairs(slot15) do
+			table.insert(slot10, slot20)
+		end
 	else
 		slot10 = slot6:getShipsByFleet(slot5:getFleetById(slot11))
-	end
-
-	if slot9 == SYSTEM_HP_SHARE_ACT_BOSS then
-		slot0.viewComponent:setActId(slot0.contextData.actId)
 	end
 
 	slot0.viewComponent:setShips(slot10)
@@ -122,7 +130,7 @@ function slot0.register(slot0)
 		slot2 = getProxy(ContextProxy)
 
 		if slot0 == SYSTEM_ACT_BOSS then
-			if slot2:getContextByMediator(ActivityBossBattleMediator) then
+			if slot2:getContextByMediator(ActivityBossBattleMediator3) then
 				slot3:removeChild(slot3:getContextByMediator(PreCombatMediator))
 			end
 		elseif slot0 == SYSTEM_ROUTINE or slot0 == SYSTEM_SUB_ROUTINE then
@@ -182,7 +190,7 @@ function slot0.register(slot0)
 				slot7:removeChild(slot7:getContextByMediator(ChallengePreCombatMediator))
 			end
 		elseif slot0 == SYSTEM_HP_SHARE_ACT_BOSS then
-			if slot2:getContextByMediator(ActivityBossBattleMediator2):getContextByMediator(PreCombatMediator) then
+			if slot2:getContextByMediator(ActivityBossBattleMediator3):getContextByMediator(PreCombatMediator) then
 				slot3:removeChild(slot4)
 			end
 		elseif slot2:getContextByMediator(LevelMediator2) then

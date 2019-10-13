@@ -70,9 +70,6 @@ return {
 	color = "red",
 	icon = 10130,
 	last_effect = "",
-	limit = {
-		SYSTEM_DUEL
-	},
 	effect_list = {
 		{
 			type = "BattleBuffAddBuff",
@@ -80,7 +77,7 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				buff_id = 10133,
+				buff_id = 10132,
 				time = 20,
 				target = "TargetSelf"
 			}

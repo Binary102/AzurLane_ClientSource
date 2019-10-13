@@ -12,8 +12,8 @@ pg.activity_banner = {
 			{
 				{
 					2019,
-					9,
-					26
+					10,
+					10
 				},
 				{
 					0,
@@ -38,19 +38,16 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 2,
-		pic = "temp4",
+		pic = "temp5",
 		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
+			"scene coloring"
 		},
 		time = {
 			{
 				{
 					2019,
 					9,
-					26
+					29
 				},
 				{
 					0,
@@ -75,11 +72,11 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 3,
-		pic = "temp14",
+		pic = "temp6",
 		param = {
-			"scene charge",
+			"scene get boat",
 			{
-				wrap = 4
+				page = 5
 			}
 		},
 		time = {
@@ -87,7 +84,7 @@ pg.activity_banner = {
 				{
 					2019,
 					9,
-					26
+					29
 				},
 				{
 					0,
@@ -110,16 +107,18 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "20272",
-		type = 3,
+		type = 2,
 		id = 4,
-		pic = "temp1",
+		pic = "temp7",
+		param = {
+			"scene back yard"
+		},
 		time = {
 			{
 				{
 					2019,
 					9,
-					19
+					29
 				},
 				{
 					0,
@@ -131,7 +130,7 @@ pg.activity_banner = {
 				{
 					2019,
 					10,
-					3
+					16
 				},
 				{
 					23,
@@ -144,11 +143,11 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 5,
-		pic = "temp9",
+		pic = "temp4",
 		param = {
-			"scene get boat",
+			"scene charge",
 			{
-				projectName = "new"
+				wrap = 4
 			}
 		},
 		time = {
@@ -156,7 +155,7 @@ pg.activity_banner = {
 				{
 					2019,
 					9,
-					19
+					29
 				},
 				{
 					0,
@@ -168,7 +167,7 @@ pg.activity_banner = {
 				{
 					2019,
 					10,
-					3
+					16
 				},
 				{
 					23,
@@ -179,16 +178,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "20273",
-		type = 3,
+		type = 2,
 		id = 6,
-		pic = "temp6",
+		pic = "temp14",
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
 		time = {
 			{
 				{
 					2019,
 					9,
-					19
+					29
 				},
 				{
 					0,
@@ -200,7 +204,7 @@ pg.activity_banner = {
 				{
 					2019,
 					10,
-					3
+					16
 				},
 				{
 					23,
@@ -211,11 +215,38 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "0",
-		time = "always",
-		type = 3,
+		type = 2,
 		id = 7,
-		pic = "temp11"
+		pic = "temp8",
+		param = {
+			"scene back yard"
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	all = {
 		1,

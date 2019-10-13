@@ -92467,7 +92467,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yukikaze"
+		}
 	},
 	[301162] = {
 		name = "유키카제 ",
@@ -92595,7 +92597,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yukikaze"
+		}
 	},
 	[301163] = {
 		name = "유키카제 ",
@@ -92723,7 +92727,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yukikaze"
+		}
 	},
 	[301164] = {
 		name = "유키카제 ",
@@ -92851,7 +92857,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Yukikaze"
+		}
 	},
 	[301171] = {
 		name = "카게로",
@@ -162444,7 +162452,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Qinglong",
+			"Anshan-Class"
+		}
 	},
 	[501012] = {
 		name = "안샨 ",
@@ -162572,7 +162583,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Qinglong",
+			"Anshan-Class"
+		}
 	},
 	[501013] = {
 		name = "안샨 ",
@@ -162700,7 +162714,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Qinglong",
+			"Anshan-Class"
+		}
 	},
 	[501014] = {
 		name = "안샨 ",
@@ -162828,7 +162845,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Qinglong",
+			"Anshan-Class"
+		}
 	},
 	[501021] = {
 		name = "푸슌 ",
@@ -162956,7 +162976,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Zhuque",
+			"Anshan-Class"
+		}
 	},
 	[501022] = {
 		name = "푸슌 ",
@@ -163084,7 +163107,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Zhuque",
+			"Anshan-Class"
+		}
 	},
 	[501023] = {
 		name = "푸슌 ",
@@ -163212,7 +163238,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Zhuque",
+			"Anshan-Class"
+		}
 	},
 	[501024] = {
 		name = "푸슌 ",
@@ -163340,7 +163369,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Zhuque",
+			"Anshan-Class"
+		}
 	},
 	[501031] = {
 		name = "창춘 ",
@@ -163468,7 +163500,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Baihu",
+			"Anshan-Class"
+		}
 	},
 	[501032] = {
 		name = "창춘 ",
@@ -163596,7 +163631,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Baihu",
+			"Anshan-Class"
+		}
 	},
 	[501033] = {
 		name = "창춘 ",
@@ -163724,7 +163762,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Baihu",
+			"Anshan-Class"
+		}
 	},
 	[501034] = {
 		name = "창춘 ",
@@ -163852,7 +163893,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Baihu",
+			"Anshan-Class"
+		}
 	},
 	[501041] = {
 		name = "타이위안 ",
@@ -163980,7 +164024,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Xuanwu",
+			"Anshan-Class"
+		}
 	},
 	[501042] = {
 		name = "타이위안 ",
@@ -164108,7 +164155,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Xuanwu",
+			"Anshan-Class"
+		}
 	},
 	[501043] = {
 		name = "타이위안 ",
@@ -164236,7 +164286,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Xuanwu",
+			"Anshan-Class"
+		}
 	},
 	[501044] = {
 		name = "타이위안 ",
@@ -164364,7 +164417,10 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Xuanwu",
+			"Anshan-Class"
+		}
 	},
 	[502011] = {
 		name = "얏센 ",

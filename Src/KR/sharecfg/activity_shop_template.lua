@@ -3036,6 +3036,18 @@ pg.activity_shop_template = {
 		resource_num = 500,
 		order = 1
 	},
+	[10031] = {
+		commodity_id = 39300,
+		resource_category = 2,
+		activity = 0,
+		num = 1,
+		num_limit = 1,
+		commodity_type = 3,
+		resource_type = 59900,
+		id = 10031,
+		resource_num = 500,
+		order = 0
+	},
 	all = {
 		1,
 		2,
@@ -3289,7 +3301,8 @@ pg.activity_shop_template = {
 		10026,
 		10028,
 		10029,
-		10030
+		10030,
+		10031
 	}
 }
 

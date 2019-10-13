@@ -330,6 +330,8 @@ function slot0.updateBuildShip(slot0, slot1, slot2)
 end
 
 function slot0.removeBuildShipByIndex(slot0, slot1)
+	slot0.lastPoolType = slot0.data[slot1].type
+
 	table.remove(slot0.data, slot1)
 	slot0.facade:sendNotification(slot0.REMOVED, {
 		index = slot1,
@@ -343,6 +345,10 @@ end
 
 function slot0.setSkipBatchBuildFlag(slot0, slot1)
 	slot0.skipBatchFlag = slot1
+end
+
+function slot0.getLastBuildShipPoolType(slot0)
+	return slot0.lastPoolType or 0
 end
 
 return slot0

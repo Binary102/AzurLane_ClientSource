@@ -266,41 +266,16 @@ function slot0.setMode(slot0)
 
 			return
 		end, SFX_PANEL)
-
-		function slot1()
-			return LeanTween.scale(rtf(slot0.comforTableChat), Vector3(0, 0, 0), 0.2):setOnComplete(System.Action(function ()
-				if not IsNil(slot0.comforBtn) then
-					setButtonEnabled(slot0.comforBtn, true)
-					setActive(slot0.comforTableChat, false)
-				end
-
-				return
-			end)):setOnStart(System.Action(function ()
-				setActive(slot0.clickTF, false)
-
-				setActive.isShowConfortableMsg = nil
-
-				return
-			end))
-		end
-
 		onButton(slot0, slot0.comforBtn, function ()
-			setActive(slot0.clickTF, true)
-			setActive(slot0.comforTableChat, true)
-			setButtonEnabled(slot0.comforBtn, false)
-			LeanTween.scale(rtf(slot0.comforTableChat), Vector3(1, 1, 1), 0.3):setOnComplete(System.Action(function ()
-				slot0():setDelay(9)
-
-				return
-			end))
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				hideNo = true,
+				content = slot0.dormVO:comforChatContent()
+			})
 
 			return
 		end, SFX_PANEL)
 		setActive(slot0.clickTF, false)
 		onButton(slot0, slot0.clickTF, function ()
-			LeanTween.cancel(go(slot0.comforTableChat))
-			go()
-
 			return
 		end, SFX_PANEL)
 		slot0:registerNoFoodBoxEvent()
@@ -628,12 +603,7 @@ function slot0.updateDrom(slot0, slot1)
 
 	setText(slot0.comfortable, slot1:getComfortable())
 	setText(slot0:findTF("stock_bar/Text", slot0.stock), math.ceil(slot1.food) .. "/" .. pg.dorm_data_template[slot1.id].capacity + slot1.dorm_food_max)
-
-	slot3 = slot0.dormVO:getComBGIndex()
-
-	slot0:setSpriteTo(slot0.comfortableBG[slot3], slot0.comforExpress)
-	setText(slot0:findTF("Text", slot0.comforTableChat), slot0.dormVO:comforChatContent(slot3))
-	setText(slot0:findTF("state", slot0.comforTableChat), slot0.dormVO.comforChatState[slot3])
+	slot0:setSpriteTo(slot0.comfortableBG[slot0.dormVO:getComBGIndex()], slot0.comforExpress)
 
 	if slot0.isVisitMode then
 		setActive(slot0.leftTimeTF, false)

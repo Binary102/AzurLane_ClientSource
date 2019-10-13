@@ -1057,6 +1057,14 @@ pg.gametip = {
 		tip = "총 계:",
 		key = "battle_result_score_total"
 	},
+	battle_result_total_damage = {
+		tip = "누적 데미지:",
+		key = "battle_result_total_damage"
+	},
+	battle_result_contribution = {
+		tip = "공훈 획득:",
+		key = "battle_result_contribution"
+	},
 	battle_levelScene_0Oil = {
 		tip = "연료 포인트가 0이 되었습니다.",
 		key = "battle_levelScene_0Oil"
@@ -1354,8 +1362,17 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_buy_max_count"
 	},
 	backyard_backyardScene_comforChatContent1 = {
-		tip = "<size=31>경험치<color=#A9EE48>+$1%</color></size><size=25>\n총합 쾌적도는 각 카테고리(카펫류 제외) 중 쾌적도가 높은 가구부터 순서대로, <color=#A9EE48>배치 가능한 가구들의</color> 총 합계치와 카펫류 가구 중 쾌적도가 높은 순서대로 <color=#92fc63>$2</color>번째 가구까지의 쾌적도를 더한 합계치가 적용됩니다.\n</size>",
+		tip = "<size=30>현재 각 카테고리 가구 쾌적도에 도달하는 수량：\n벽지:<color=#92fc63>$1</color>/바닥:<color=#92fc63>$4</color>/가구:<color=#92fc63>$2</color>/장식:<color=#92fc63>$3</color>/카펫:<color=#92fc63>$5</color>/벽장식:<color=#92fc63>$6</color>/수집품:<color=#92fc63>$7</color>\n</size> ",
 		key = "backyard_backyardScene_comforChatContent1"
+	},
+	backyard_backyardScene_comforChatContent2 = {
+		tip = [[
+<size=30>$1</size>
+현재 경험치<color=#92fc63>+$2%</color><size=30>
+<color=#92fc63>쾌적도</color>는 가구 배치에 영향을 받지 않으며，<color=#92fc63>각 카테고리 가구</color>중 
+쾌적도가 가장 높은<color=#92fc63>상위 n건</color>의 합계치를 계산합니다 각 카테고리 가구의 n치는 숙소 확장 횟수의 영향을 받습니다. 현재 횟수:<color=#92fc63>$3</color>
+</size>]],
+		key = "backyard_backyardScene_comforChatContent2"
 	},
 	backyard_buyExtendItem_question = {
 		tip = "<color=#92fc63>$1</color>을(를) 소비합니다. 진행하시겠습니까?",
@@ -2246,30 +2263,38 @@ pg.gametip = {
 		tip = {
 			{
 				info = [[
-<size=26>플레이 방법</size>
-・[그림 교실] 에선, 색깔칸에 지정된 번호의 물감을 
+<size=36>플레이 방법</size>
+1. 그림 일기의 칸마다 대응되는 물감 번호가 나타나며 
+색깔칸에 지정된 번호의 물감을 
 선택하여 터치하면 칸에 색깔을 칠할 수 있습니다.
-・스케치북은 핀치 조작으로 확대 및 축소가 가능합니다.
-・색깔을 채워넣을 땐, 같은 색깔칸이 완전히 칠해지거나,
+2. 스케치북은 핀치 조작으로 확대 및 축소가 가능합니다.
+3. 색깔을 채워넣을 땐, 같은 색깔칸이 완전히 칠해지거나,
 물감을 전부 소진할 때까지 자동으로 색칠이 진행됩니다.
-・색깔을 칠할 때는 [물감]이 소비됩니다. 물감의 잔량이 
+4. 색깔을 칠할 때는 [물감]이 소비됩니다. 물감의 잔량이 
 0이 되면,해당 색깔칸에 색깔을 채울 수 없게 됩니다.
-・[물감]은 이벤트 한정 임무 '연료 누적 소비량'의 보수로 
-획득합니다. 색깔을 전부 채워 그림을 완성하면, 보수를 
+5. [물감]은 이벤트 한정 임무 '연료 누적 소비량'의 보수로 
+획득합니다.
+6. 색깔을 전부 채워 그림을 완성하면, 보수를 
 입수할 수 있습니다.
-・그림 교실 완성 보수 일람：
- No.1 랜덤 교본 T3 *3 
- No.2 법용 부속T3 *4 
- No.3 아카시 스킨「아카시 특별 판매중이다냥!」・모든 그림을 
+7. 그림 교실 완성 보수 일람：
+ No.1 스킨 체험권*1 
+ No.2 랜덤 교본T3*2 
+ No.3 스킨 체험권*1 
+ No.4 함포 부속T3*2 
+ No.5 스킨 체험권*1 
+ No.6 범용 부속T3*3 
+ No.7 주피터 한정 코스튬*1
+8. 모든 그림을 
 완성시키면, ‘백지’ 를 사용할 수 있게 됩니다.
-・백지에는 물감 제한없이 자유 사용이 가능하나, 획득 보수가 
+9. 백지에는 물감 제한없이 자유 사용이 가능하나, 획득 보수가 
 없습니다.
-・백지에는 [지우개]와 [리셋] 기능으로 색칠을 지울 수 
-있습니다.[지우개]는 한 칸의 색깔을 지울 수 있습니다.
-・[리셋]은 현재 그림의 모든 색칠을 전부 지울 수 있습니다.
-・이벤트 종료 후 미사용한 물감은 전부 리셋됩니다.
-・5/22(수)까지 매일 새로운 그림이 하나씩 개방됩니다.
-・백지는 5/23(목) 이후 부터 개방됩니다.]]
+10. 백지에는 [지우개]와 [리셋] 기능으로 색칠을 지울 수 
+있습니다.
+11.[지우개]는 한 칸의 색깔을 지울 수 있습니다.
+12. [리셋]은 현재 그림의 모든 색칠을 전부 지울 수 있습니다.
+13. 이벤트 종료 후 미사용한 물감은 전부 리셋됩니다.
+14. 10/5까지 매일 새로운 그림이 하나씩 개방됩니다.
+・백지는 10/6 이후 부터 개방됩니다.]]
 			}
 		}
 	},
@@ -2736,7 +2761,7 @@ pg.gametip = {
 		key = "ship_newSkinLayer_get"
 	},
 	ship_newSkin_name = {
-		tip = "스킨 「$1」",
+		tip = "「$1」",
 		key = "ship_newSkin_name"
 	},
 	ship_shipInfoMediator_destory = {
@@ -2922,6 +2947,10 @@ pg.gametip = {
 	stage_beginStage_error_noResource = {
 		tip = "<color=#92fc63>연료</color>가 부족합니다!",
 		key = "stage_beginStage_error_noResource"
+	},
+	stage_beginStage_error_noTicket = {
+		tip = "특별 도전권이 부족해 시작할 수 없어요. ",
+		key = "stage_beginStage_error_noTicket"
 	},
 	stage_finishStage_error = {
 		tip = "스테이지 클리어 도중 에러가 발생했습니다.",
@@ -3602,7 +3631,7 @@ pg.gametip = {
 		key = "several_minutes_before"
 	},
 	several_hours_before = {
-		tip = "<color=#92fc63>$1</color>시간 전",
+		tip = "<color=#92fc63>$1시간</color> 전",
 		key = "several_hours_before"
 	},
 	several_days_before = {
@@ -6086,7 +6115,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "common_elite_no_quota"
 	},
 	common_food = {
-		tip = "보유 중",
+		tip = "보충 양 ",
 		key = "common_food"
 	},
 	common_no_limit = {
@@ -7821,6 +7850,10 @@ B평가:<color=#92fc63>70</color>점
 		tip = "현재와 동일한 닉네임은 사용할 수 없습니다.",
 		key = "same_player_name_tip"
 	},
+	task_is_not_existence = {
+		tip = "존재하지 않은 임무$1 ",
+		key = "task_is_not_existence"
+	},
 	cannot_build_multiple_printblue = {
 		tip = "현재 진행 중인 <color=#92fc63>$1</color>의 개발을 잠시 중단하고, 개발 함선을 <color=#92fc63>$2</color>으로 변경하시겠습니까? 개발 진행도는 유지됩니다.\n개발 개시 혹은 재시작 후 <color=#92fc63>24시간 이내에는 </color>의 개발 대상을 변경하실 수 없습니다.",
 		key = "cannot_build_multiple_printblue"
@@ -8873,7 +8906,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "collection_way_is_unopen"
 	},
 	commander_can_not_select_same_group = {
-		tip = "같은 함대에 편성 중인 지휘냥을 선택할 수 없습니다",
+		tip = "해당 함대에 이미 동일한 지휘냥이 편성되어 있습니다.",
 		key = "commander_can_not_select_same_group"
 	},
 	commander_capcity_is_max = {
@@ -8921,11 +8954,11 @@ B평가:<color=#92fc63>70</color>점
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "블랙 프린스、배시、주피터 건조추가 ",
+		tip = "유키카제 상시건조 추가",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "특형함 : 중순양함, 경항모, 정규항모, 공작함, 잠수함 등을 건조 가능",
+		tip = "다이호 상시건조 추가",
 		key = "buildship_special_tip"
 	},
 	open_skill_pos = {
@@ -9758,50 +9791,72 @@ B평가:<color=#92fc63>70</color>점
 		key = "world_boss_help",
 		tip = {
 			{
-				info = "이벤트 설명："
-			},
-			{
-				info = " 1. 이벤트 기간동안, 훈련 전투 참여, 적군 격파, 시간을 초과하거나\n 작전 실패했을때， 훈련 전투에 따른 총 피해량에 따라서 작용한다；"
-			},
-			{
-				info = " 2. 훈련 전투중，피해를 입힐수록 높아지고，받는 보상도\n 올라간다，획득한 공헌 포인트에 따라 \n 더 올라간다；"
-			},
-			{
-				info = " 3. 이벤트 기간，본 서버의 모든 플레이어가 획득한 공헌 포인트에\n 따라, 에식스 의 연습 거점 내구가 소모된다；"
+				info = "<color=#ff5c5c>※주의:</color> "
 			},
 			{
 				info = [[
- 4. 훈련거점 내구력이 75%,50%,25% 로 떨어졌을 때 내구가
- 완전히 소진된 후 본 서버의 달성되는 이정표 시간이 기록된다.
- 동시에 연습에 받은
- 공헌 수치를 확득한 플레이어는 보너스를
- 받을수 있다.；]]
-			},
-			{
-				info = " 5. 연습 보너스 거점 내구 소진 완료 후 우편을 통해 배부；"
-			},
-			{
-				info = " 6. 이벤트 종료시 내구력이 소진되지 않았으면, 거점에\n 따라 진도를 따라 추진하여 경험치를 획득한 플레이어는 진도에\n 따라 보상을 지급합니다.；"
-			},
-			{
-				info = " 7. 훈련 전투의 출격하는 함선은 [편성]버튼을 통해 대열을 편성할 수\n 있다， 잠수함 추기 및 지휘냥 허용；"
+1. 「EX」연습 전투 시, 네트워크 끊김 또는 중도 퇴장 등으로 
+전투가 중단될 경우 「특별 도전권」이 소모되지만 <color=#ff5c5c>어떠한 
+보상도 획득할 수 없습니다.</color> <color=#ff5c5c>반드시 원활한 네트워크 환경에서 
+「EX」 연습 전투를 진행해주세요.</color>
+2. 「이지」, 「노멀」, 「하드」 연습 전투 시, 네트워크 
+끊김 또는 중도 퇴장 등으로 전투가 중단될 경우 「추가 보상 
+횟 수」는 유지되지만 어떠한 보상도 획득할 수 없습니다. 
+3. 모든 난이도의 연습 전투에서 정상적으로 연료를 소모하며, 
+출전한 캐릭터의 기분이 증감되고, 지휘관, 출전한 캐릭터, 
+지휘냥의 경험치를 획득합니다.
+]]
 			},
 			{
 				info = [[
- 8. 훈련 전투 중, 샹그릴라와 인디펜던스를 휴대하면 추가적인 총 
-공헌 포인트를 
- 더 얻는다. 상그릴라를 가지고 20%의 더 얻는다. 인디펜던스를
- 가지고 10%를 더 얻는다. 동시에 최대 30%의 공헌 포인트를 추가로 
- 얻는다.；]]
+<color=#92fc63>이벤트 설명</color>：
+1. 이벤트 기간 동안, 연습 전투에 참여 시 <color=#92fc63>「공헌도」</color>를 
+획득하며, 유저들과 훈련 거점을 협공하여 거점 단계 보상 및 
+개인 공헌 보상을 획득할 수 있습니다.
+2. 이번 이벤트는 총 4개, <color=#92fc63>「이지」</color>、<color=#92fc63>「노멀」</color>、<color=#92fc63>「하드」</color>、
+<color=#92fc63>「EX」</color>의 난이도로 나뉘어집니다.
+3.「이지」, 「노멀」, 「하드」 연습전에서는 고정된 「공
+헌도」를 획득하며, 「EX」연습전에서는 <color=#92fc63>전투 중 입힌 
+데미지 총량</color>에 따라 「공헌도」와 보상을 획득합니다. 입힌 
+데미지가 높을수록 「공헌도」도 증가하며, 보상도
+풍부해집니다.
+4. 「이지」, 「노멀」, 「하드」 연습전은 클리어 시마다 
+추가 보상을 획득하며, 추가 보상 횟수는 매일 상한선이 
+있습니다. 매일 「추가 보상 횟수」는 3가지 난이도마다 각각 
+<color=#92fc63>30회</color>입니다.
+5.「이지」, 「노멀」, 「하드」 연습전의 매일 도전 횟수
+<color=#92fc63>는 제한이 없으며</color>, 「EX」 연습전은 <color=#92fc63>「특별 도전권」</color>1장을 
+소모해야 도전할 수 있습니다.
+6. 연습 전투의 출격 함대는 각각 난이도의 버튼을 터치해 
+편성할 수 있으며, <color=#92fc63>잠수함</color>과<color=#92fc63>지휘냥</color>을 편성 가능합니다.
+7. 이벤트 기간 동안, 서버의 모든 유저가 획득한 「공헌도」
+에 따라, 「훈련 거점」의 내구도가 감소합니다.
+8. 「훈련 거점」의 내구도가 <color=#92fc63>75%</color>, <color=#92fc63>50%</color>, <color=#92fc63>25%</color>이하 및<color=#92fc63>완전히
+0이된</color>후, 서버의 달성 이정표 시간에 기록됩니다. 또한, 연습 
+전투에서<color=#92fc63>「공헌도」를 획득한</color>유저들은 상응하는 보상을 
+획득할 수 있습니다.
+9. 보상은 「훈련 거점」이 소멸된 후, 우편을 통해 발송되며, 
+만 약 이벤트가 종료될 때 내구도가 남아 있다면, 거점 
+진행도에 따라 연습 전투에서<color=#92fc63>「공헌도」를 획득한</color> 유저에게 
+보상이 지급됩니다.
+10. 이벤트 기간 동안, 개인 공헌 보상을 수령할 수 있으며, 
+개인 공헌 보상은 <color=#92fc63>거점 공략 진도</color>와 <color=#92fc63>보유한 「공헌도」</color>가 지정 
+요구 수치까지 도달해야만 수령 가능합니다.
+]]
 			},
 			{
-				info = " 9. 거점의 내구력이 저하됨에 따라 훈련 전투에서 적의 기함의 피해\n 능력은 향상된다. 동시에 받는 포격 벼락 피해, 하지만 항공피해를\n 높일 수 있다.；"
-			},
-			{
-				info = " 10. 이벤트 기간 동안, 개인 공헌 보상도 받을수 있다. 개인 공헌 보상\n 거점 공략 진도와 보유 공헌 포인트가 지정된 요구 사항에 도달한\n 후에 받을 수 있다.；"
-			},
-			{
-				info = " 11. 2.28~3.7기간 동안 연습 전투에 참여할\n 수 있다, 보너스 수령 마감은\n 3.13 23:59:59 ；"
+				info = [[
+<color=#92fc63>특별 도전권 설명</color>：
+1. 특별 도전권은 <color=#92fc63>이벤트 기간 내 매일 특수 임무</color>를 통해 
+획득할 수 있습니다. 수량은 누적되지만, 이벤트 종료 후 
+소실됩니다.
+2. 「이지」, 「노멀」, 「하드」 연습전의 「추가 보상 횟수
+」가 <color=#92fc63>0</color>일 경우, 연습 전투 시 <color=#92fc63>「특별 도 전권」</color>을 1장 소모하여 
+해당 난이도 연습전의 「추가 보상 횟수」를 1회 증가시킬 수 
+있습니다.
+3. 「EX」 연습전은 <color=#92fc63>「특별 도전권」</color>을 1장 소모해야 합니다.
+
+]]
 			}
 		}
 	},
@@ -10462,11 +10517,11 @@ P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
 		key = "limit_skin_time_day"
 	},
 	limit_skin_time_day_min = {
-		tip = "남은 시간: $1시간 $2",
+		tip = "남은 시간: $1시간 $2분",
 		key = "limit_skin_time_day_min"
 	},
 	limit_skin_time_min = {
-		tip = "남은 시간: $분",
+		tip = "남은 시간: $1분",
 		key = "limit_skin_time_min"
 	},
 	limit_skin_time_overtime = {
@@ -10597,10 +10652,10 @@ UID와 빠르게 매칭합니다.:
 				info = "4. 지휘관은 해당 건조 내 캐릭터 2명을 희망 캐릭터로 \n설정하실 수 있습니다."
 			},
 			{
-				info = "5. 3월 23일 전에 상시건조로 추가된 캐릭터들만 선택하실 \n수 있습니다."
+				info = "5. 7월 29일 전에 상시건조로 추가된 캐릭터들만 선택하실 \n수 있습니다."
 			},
 			{
-				info = "6. 건조 조건이 따로 있는 캐릭터는 희망 캐릭터로 선택하실 \n수 없으며,희망 건조 캐릭터 리스트에 출현하지 않습니다."
+				info = "6. 건조 조건이 따로 있는 캐릭터는 희망 캐릭터로 선택하실 \n수 없으며, 희망 건조 캐릭터 리스트에 출현하지 않습니다."
 			},
 			{
 				info = "7. 선택한 희망 캐릭터의 건조 확률은 레어도에 따라 \n상이합니다."
@@ -10612,10 +10667,10 @@ UID와 빠르게 매칭합니다.:
 				info = "8. 2명의 캐릭터를 선택 완료하면 희망 건조 구성이 \n성공적으로 완료되는 것으로 간주됩니다."
 			},
 			{
-				info = "9. 희망 건조 구성완료 후, 이벤트 기간 동안 수정하실 \n수 없습니다."
+				info = "9. 희망 건조 구성 완료 후, 이벤트 기간 동안 수정하실 \n수 없습니다."
 			},
 			{
-				info = "10. 희망 건조에 소모되는 자원은 선택한 건조 종류와 \n동일하며,캐릭터는 건조 대열에 추가됩니다. 고속건조재를 \n사용하여 건조를 즉시 완료하실 수 있습니다."
+				info = "10. 희망 건조에 소모되는 자원은 선택한 건조 종류와 \n동일하며, 캐릭터는 건조 대열에 추가됩니다. 고속건조재를 \n사용하여 건조를 즉시 완료하실 수 있습니다."
 			}
 		}
 	},
@@ -11298,6 +11353,113 @@ TIPS:
 	tag_level_narrative = {
 		tip = "스토리 ",
 		key = "tag_level_narrative"
+	},
+	change_skin_secretary_ship_success = {
+		tip = "스킨 변경 및 비서함 설정 성공 ",
+		key = "change_skin_secretary_ship_success"
+	},
+	change_skin_secretary_ship = {
+		tip = "변경 및 비서함 설정 성공",
+		key = "change_skin_secretary_ship"
+	},
+	word_billboard = {
+		tip = "랭킹",
+		key = "word_billboard"
+	},
+	word_easy = {
+		tip = "이지",
+		key = "word_easy"
+	},
+	word_normal_junhe = {
+		tip = "노멀",
+		key = "word_normal_junhe"
+	},
+	word_hard = {
+		tip = "하드",
+		key = "word_hard"
+	},
+	tip_exchange_ticket = {
+		tip = "특별 도전권을 한 장 사용해 $1 난이도의 추가 보상 횟수를 늘리시겠습니까? ",
+		key = "tip_exchange_ticket"
+	},
+	dont_remind = {
+		tip = "다시 보지 않기 ",
+		key = "dont_remind"
+	},
+	worldbossex_help = {
+		key = "worldbossex_help",
+		tip = {
+			{
+				info = [[
+※주의: 
+1. 「EX」 연습 전투의 난이도가 높습니다. 함대 선택 화면의 
+「모의전」 버튼을 터치해 모의 전투를 진행할 수 있습니다.
+2. 모의전은 연료, 기분, 「특별 도전권」을 소모하지 않으며
+, 출격 횟수에 포함되지 않아 보상을 획득할 수 없습니다.
+3. 「EX」 연습 전투 진행 시, 네트워크 끊김 또는 중도 퇴장 
+등으로 전투가 중단될 경우 「특별 도전권」이 소모되지만 
+보상은 획득할 수 없습니다.
+반드시 원활한 네트워크 환경에서 
+「EX」 연습 전투를 진행해주세요.
+4. 「특별 도전권」은 「이지」, 「노멀」, 「하드」 연습 
+전투의 「추가 보상 횟수」를 늘리는 용도로 사용할 수 있습니다.
+5. 「EX」 연습 
+전투는 전투 평가가 없습니다. 전투 중 입힌 
+총 데미지에 맞춰 「공헌도」와 보상을 획득합니다. 많은 
+데미지를 입힐수록 더 많은 「공헌도」와 더욱 풍성한 보상을 
+획득합니다.
+]]
+			},
+			helpPos = {
+				y = 53.1
+			},
+			windowSize = {
+				y = 790
+			},
+			windowPos = {
+				y = -85.05
+			}
+		}
+	},
+	ship_formationUI_fleetName_easy = {
+		tip = "이지 함대",
+		key = "ship_formationUI_fleetName_easy"
+	},
+	ship_formationUI_fleetName_normal = {
+		tip = "노멀 함대",
+		key = "ship_formationUI_fleetName_normal"
+	},
+	ship_formationUI_fleetName_hard = {
+		tip = "하드 함대",
+		key = "ship_formationUI_fleetName_hard"
+	},
+	ship_formationUI_fleetName_extra = {
+		tip = "EX 함대",
+		key = "ship_formationUI_fleetName_extra"
+	},
+	ship_formationUI_fleetName_easy_ss = {
+		tip = "이지 잠수 함대",
+		key = "ship_formationUI_fleetName_easy_ss"
+	},
+	ship_formationUI_fleetName_normal_ss = {
+		tip = "노멀 잠수 함대",
+		key = "ship_formationUI_fleetName_normal_ss"
+	},
+	ship_formationUI_fleetName_hard_ss = {
+		tip = "하드 잠수 함대",
+		key = "ship_formationUI_fleetName_hard_ss"
+	},
+	ship_formationUI_fleetName_extra_ss = {
+		tip = "EX 잠수 함대",
+		key = "ship_formationUI_fleetName_extra_ss"
+	},
+	text_consume = {
+		tip = "소비 ",
+		key = "text_consume"
+	},
+	text_inconsume = {
+		tip = "비소비 ",
+		key = "text_inconsume"
 	}
 }
 

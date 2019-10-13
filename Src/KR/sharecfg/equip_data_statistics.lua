@@ -3297,7 +3297,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[680] = {
-		name = "귀항 표지 ",
+		name = "호밍 비컨",
 		type = 10,
 		id = 680,
 		tech = 0,
@@ -3408,6 +3408,121 @@ pg.equip_data_statistics = {
 		base = 680,
 		is_siren = 0,
 		value_1 = "60",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[700] = {
+		name = "98식 발포지연장치 ",
+		type = 10,
+		id = 700,
+		tech = 0,
+		nationality = 3,
+		speciality = "없음",
+		range = 0,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "700",
+		value_1 = "12",
+		angle = 0,
+		avoid_extra = 0,
+		rarity = 4,
+		scatter = "없음",
+		is_siren = 0,
+		ammo = "없음",
+		descrip = "98식 발포지연장치. 각 함포 사격 간에 미세한 시간차를 두어 포탄의 상호 간섭을 줄여 포격이 분산되는 것을 막는다. ",
+		value_3 = 0,
+		attribute_1 = "cannon",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6360
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[701] = {
+		id = 701,
+		base = 700,
+		is_siren = 0,
+		value_1 = "14",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[702] = {
+		id = 702,
+		base = 700,
+		is_siren = 0,
+		value_1 = "16",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[703] = {
+		id = 703,
+		base = 700,
+		is_siren = 0,
+		value_1 = "18",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[704] = {
+		id = 704,
+		base = 700,
+		is_siren = 0,
+		value_1 = "20",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[705] = {
+		id = 705,
+		base = 700,
+		is_siren = 0,
+		value_1 = "22",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[706] = {
+		id = 706,
+		base = 700,
+		is_siren = 0,
+		value_1 = "24",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[707] = {
+		id = 707,
+		base = 700,
+		is_siren = 0,
+		value_1 = "26",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[708] = {
+		id = 708,
+		base = 700,
+		is_siren = 0,
+		value_1 = "28",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[709] = {
+		id = 709,
+		base = 700,
+		is_siren = 0,
+		value_1 = "30",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[710] = {
+		id = 710,
+		base = 700,
+		is_siren = 0,
+		value_1 = "32",
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
@@ -10293,6 +10408,366 @@ pg.equip_data_statistics = {
 		skill_id = {
 			6291
 		},
+		property_rate = {}
+	},
+	[3200] = {
+		name = "VH 장갑 강판 ",
+		type = 10,
+		id = 3200,
+		tech = 0,
+		nationality = 3,
+		speciality = "없음",
+		range = 0,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "3200",
+		value_1 = "350",
+		angle = 0,
+		avoid_extra = 0,
+		rarity = 5,
+		scatter = "없음",
+		is_siren = 0,
+		ammo = "없음",
+		descrip = "『VC 장갑 강판』의 개조형. 표면 연질화 과정을 새로운 공정으로 대체해 장갑의 경도를 높였다. ",
+		value_3 = 0,
+		attribute_1 = "durability",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6460
+		},
+		part_main = {
+			4,
+			5,
+			7,
+			10,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[3201] = {
+		id = 3201,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "380",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3202] = {
+		id = 3202,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "410",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3203] = {
+		id = 3203,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "440",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3204] = {
+		id = 3204,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "470",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3205] = {
+		id = 3205,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "500",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3206] = {
+		id = 3206,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "530",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3207] = {
+		id = 3207,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "560",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3208] = {
+		id = 3208,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "590",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3209] = {
+		id = 3209,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "620",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3210] = {
+		id = 3210,
+		base = 3200,
+		is_siren = 0,
+		value_1 = "650",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3220] = {
+		name = "VC 장갑 강판 ",
+		type = 10,
+		id = 3220,
+		tech = 0,
+		nationality = 3,
+		speciality = "없음",
+		range = 0,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "3220",
+		value_1 = "220",
+		angle = 0,
+		avoid_extra = 0,
+		rarity = 4,
+		scatter = "없음",
+		is_siren = 0,
+		ammo = "없음",
+		descrip = "사쿠라 엠파이어 제국이 로열의 표면 연질화 기술을 받아들여 제작한 장갑 강판. 철갑탄을 효과적으로 방어한다. ",
+		value_3 = 0,
+		attribute_1 = "durability",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6470
+		},
+		part_main = {
+			4,
+			5,
+			7,
+			10,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[3221] = {
+		id = 3221,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "250",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3222] = {
+		id = 3222,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "280",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3223] = {
+		id = 3223,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "310",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3224] = {
+		id = 3224,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "340",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3225] = {
+		id = 3225,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "370",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3226] = {
+		id = 3226,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "400",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3227] = {
+		id = 3227,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "430",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3228] = {
+		id = 3228,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "460",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3229] = {
+		id = 3229,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "490",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3230] = {
+		id = 3230,
+		base = 3220,
+		is_siren = 0,
+		value_1 = "520",
+		torpedo_ammo = 0,
+		equip_parameters = {},
+		property_rate = {}
+	},
+	[3300] = {
+		name = "四神之印",
+		type = 10,
+		id = 3300,
+		tech = 0,
+		nationality = 5,
+		speciality = "无",
+		range = 0,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "3300",
+		value_1 = "250",
+		angle = 0,
+		avoid_extra = 0,
+		rarity = 5,
+		scatter = "无",
+		is_siren = 0,
+		ammo = "无",
+		descrip = "雕刻着东煌古国四神兽的玉器，似乎蕴含着来自东方的神秘力量",
+		value_3 = 0,
+		attribute_1 = "durability",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6480
+		},
+		part_main = {
+			1
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[3301] = {
+		id = 3301,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "280",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3302] = {
+		id = 3302,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "310",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3303] = {
+		id = 3303,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "340",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3304] = {
+		id = 3304,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "370",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3305] = {
+		id = 3305,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "400",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3306] = {
+		id = 3306,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "430",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3307] = {
+		id = 3307,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "460",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3308] = {
+		id = 3308,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "490",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3309] = {
+		id = 3309,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "520",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3310] = {
+		id = 3310,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "550",
+		torpedo_ammo = 0,
 		property_rate = {}
 	},
 	[4000] = {
@@ -22004,7 +22479,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 45,
 		icon = "17060",
-		value_1 = "28/轮",
+		value_1 = "28/회",
 		attribute_2 = "air",
 		avoid_extra = 0,
 		rarity = 5,
@@ -22035,7 +22510,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[17061] = {
-		value_1 = "32/轮",
+		value_1 = "32/회",
 		id = 17061,
 		base = 17060,
 		is_siren = 0,
@@ -22047,7 +22522,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17062] = {
-		value_1 = "34/轮",
+		value_1 = "34/회",
 		id = 17062,
 		base = 17060,
 		is_siren = 0,
@@ -22059,7 +22534,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17063] = {
-		value_1 = "36/轮",
+		value_1 = "36/회",
 		id = 17063,
 		base = 17060,
 		is_siren = 0,
@@ -22071,7 +22546,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17064] = {
-		value_1 = "38/轮",
+		value_1 = "38/회",
 		id = 17064,
 		base = 17060,
 		is_siren = 0,
@@ -22083,7 +22558,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17065] = {
-		value_1 = "40/轮",
+		value_1 = "40/회",
 		id = 17065,
 		base = 17060,
 		is_siren = 0,
@@ -22095,7 +22570,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17066] = {
-		value_1 = "42/轮",
+		value_1 = "42/회",
 		id = 17066,
 		base = 17060,
 		is_siren = 0,
@@ -22107,7 +22582,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17067] = {
-		value_1 = "44/轮",
+		value_1 = "44/회",
 		id = 17067,
 		base = 17060,
 		is_siren = 0,
@@ -22119,7 +22594,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17068] = {
-		value_1 = "46/轮",
+		value_1 = "46/회",
 		id = 17068,
 		base = 17060,
 		is_siren = 0,
@@ -22131,7 +22606,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17069] = {
-		value_1 = "48/轮",
+		value_1 = "48/회",
 		id = 17069,
 		base = 17060,
 		is_siren = 0,
@@ -22143,7 +22618,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17070] = {
-		value_1 = "50/轮",
+		value_1 = "50/회",
 		id = 17070,
 		base = 17060,
 		is_siren = 0,
@@ -48478,6 +48953,156 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[39300] = {
+		name = "세이란 ",
+		type = 12,
+		id = 39300,
+		tech = 0,
+		speciality = "폭격",
+		range = 90,
+		scatter = "8",
+		ambush_extra = 0,
+		value_2 = 25,
+		icon = "39300",
+		value_1 = "171 x 1",
+		attribute_2 = "air",
+		avoid_extra = 0,
+		rarity = 4,
+		angle = 90,
+		nationality = 3,
+		ammo = "통상탄",
+		is_siren = 0,
+		descrip = "Aichi M6A1 Seiran 세이란식 특수 공격기. 13MM 기관총과 1600파운드 폭탄을 탑재했다. ",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			39300
+		},
+		skill_id = {
+			6370
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"ST",
+			"SCOUT"
+		}
+	},
+	[39301] = {
+		value_1 = "196 x 1",
+		id = 39301,
+		base = 39300,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			39301
+		},
+		property_rate = {}
+	},
+	[39302] = {
+		value_1 = "221 x 1",
+		id = 39302,
+		base = 39300,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			39302
+		},
+		property_rate = {}
+	},
+	[39303] = {
+		value_1 = "247 x 1",
+		id = 39303,
+		base = 39300,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			39303
+		},
+		property_rate = {}
+	},
+	[39304] = {
+		value_1 = "273 x 1",
+		id = 39304,
+		base = 39300,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			39304
+		},
+		property_rate = {}
+	},
+	[39305] = {
+		value_1 = "299 x 1",
+		id = 39305,
+		base = 39300,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			39305
+		},
+		property_rate = {}
+	},
+	[39306] = {
+		value_1 = "325 x 1",
+		id = 39306,
+		base = 39300,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			39306
+		},
+		property_rate = {}
+	},
+	[39307] = {
+		value_1 = "351 x 1",
+		id = 39307,
+		base = 39300,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			39307
+		},
+		property_rate = {}
+	},
+	[39308] = {
+		value_1 = "377 x 1",
+		id = 39308,
+		base = 39300,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			39308
+		},
+		property_rate = {}
+	},
+	[39309] = {
+		value_1 = "403 x 1",
+		id = 39309,
+		base = 39300,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			39309
+		},
+		property_rate = {}
+	},
+	[39310] = {
+		value_1 = "429 x 1",
+		id = 39310,
+		base = 39300,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			39310
+		},
+		property_rate = {}
+	},
 	[41000] = {
 		name = "127mm 단장포",
 		type = 1,
@@ -67227,7 +67852,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 12,
 		icon = "55100",
-		value_1 = "34/轮",
+		value_1 = "34/회",
 		attribute_2 = "antiaircraft",
 		avoid_extra = 0,
 		rarity = 3,
@@ -67255,7 +67880,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95101] = {
-		value_1 = "38/轮",
+		value_1 = "38/회",
 		id = 95101,
 		base = 95100,
 		is_siren = 0,
@@ -67266,7 +67891,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95102] = {
-		value_1 = "42/轮",
+		value_1 = "42/회",
 		id = 95102,
 		base = 95100,
 		is_siren = 0,
@@ -67277,7 +67902,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95103] = {
-		value_1 = "46/轮",
+		value_1 = "46/회",
 		id = 95103,
 		base = 95100,
 		is_siren = 0,
@@ -67288,7 +67913,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95104] = {
-		value_1 = "51/轮",
+		value_1 = "51/회",
 		id = 95104,
 		base = 95100,
 		is_siren = 0,
@@ -67299,7 +67924,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95105] = {
-		value_1 = "56/轮",
+		value_1 = "56/회",
 		id = 95105,
 		base = 95100,
 		is_siren = 0,
@@ -67310,7 +67935,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95106] = {
-		value_1 = "61/轮",
+		value_1 = "61/회",
 		id = 95106,
 		base = 95100,
 		is_siren = 0,
@@ -67331,7 +67956,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 25,
 		icon = "55100",
-		value_1 = "35/轮",
+		value_1 = "35/회",
 		attribute_2 = "antiaircraft",
 		avoid_extra = 0,
 		rarity = 4,
@@ -67359,7 +67984,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95121] = {
-		value_1 = "39/轮",
+		value_1 = "39/회",
 		id = 95121,
 		base = 95120,
 		is_siren = 0,
@@ -67370,7 +67995,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95122] = {
-		value_1 = "44/轮",
+		value_1 = "44/회",
 		id = 95122,
 		base = 95120,
 		is_siren = 0,
@@ -67381,7 +68006,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95123] = {
-		value_1 = "49/轮",
+		value_1 = "49/회",
 		id = 95123,
 		base = 95120,
 		is_siren = 0,
@@ -67392,7 +68017,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95124] = {
-		value_1 = "54/轮",
+		value_1 = "54/회",
 		id = 95124,
 		base = 95120,
 		is_siren = 0,
@@ -67403,7 +68028,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95125] = {
-		value_1 = "59/轮",
+		value_1 = "59/회",
 		id = 95125,
 		base = 95120,
 		is_siren = 0,
@@ -67414,7 +68039,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95126] = {
-		value_1 = "65/轮",
+		value_1 = "65/회",
 		id = 95126,
 		base = 95120,
 		is_siren = 0,
@@ -67425,7 +68050,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95127] = {
-		value_1 = "71/轮",
+		value_1 = "71/회",
 		id = 95127,
 		base = 95120,
 		is_siren = 0,
@@ -67436,7 +68061,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95128] = {
-		value_1 = "77/轮",
+		value_1 = "77/회",
 		id = 95128,
 		base = 95120,
 		is_siren = 0,
@@ -67447,7 +68072,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95129] = {
-		value_1 = "83/轮",
+		value_1 = "83/회",
 		id = 95129,
 		base = 95120,
 		is_siren = 0,
@@ -67458,7 +68083,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95130] = {
-		value_1 = "90/轮",
+		value_1 = "90/회",
 		id = 95130,
 		base = 95120,
 		is_siren = 0,
@@ -67479,7 +68104,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 45,
 		icon = "55100",
-		value_1 = "40/轮",
+		value_1 = "40/회",
 		attribute_2 = "antiaircraft",
 		avoid_extra = 0,
 		rarity = 5,
@@ -67507,7 +68132,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95141] = {
-		value_1 = "45/轮",
+		value_1 = "45/회",
 		id = 95141,
 		base = 95140,
 		is_siren = 0,
@@ -67518,7 +68143,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95142] = {
-		value_1 = "50/轮",
+		value_1 = "50/회",
 		id = 95142,
 		base = 95140,
 		is_siren = 0,
@@ -67529,7 +68154,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95143] = {
-		value_1 = "56/轮",
+		value_1 = "56/회",
 		id = 95143,
 		base = 95140,
 		is_siren = 0,
@@ -67540,7 +68165,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95144] = {
-		value_1 = "62/轮",
+		value_1 = "62/회",
 		id = 95144,
 		base = 95140,
 		is_siren = 0,
@@ -67551,7 +68176,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95145] = {
-		value_1 = "68/轮",
+		value_1 = "68/회",
 		id = 95145,
 		base = 95140,
 		is_siren = 0,
@@ -67562,7 +68187,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95146] = {
-		value_1 = "74/轮",
+		value_1 = "74/회",
 		id = 95146,
 		base = 95140,
 		is_siren = 0,
@@ -67573,7 +68198,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95147] = {
-		value_1 = "80/轮",
+		value_1 = "80/회",
 		id = 95147,
 		base = 95140,
 		is_siren = 0,
@@ -67584,7 +68209,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95148] = {
-		value_1 = "86/轮",
+		value_1 = "86/회",
 		id = 95148,
 		base = 95140,
 		is_siren = 0,
@@ -67595,7 +68220,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95149] = {
-		value_1 = "92/轮",
+		value_1 = "92/회",
 		id = 95149,
 		base = 95140,
 		is_siren = 0,
@@ -67606,7 +68231,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95150] = {
-		value_1 = "98/轮",
+		value_1 = "98/회",
 		id = 95150,
 		base = 95140,
 		is_siren = 0,
@@ -67896,7 +68521,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		angle = 39,
 		nationality = 6,
-		ammo = "반철갑탄 ",
+		ammo = "반철갑탄(SAP탄) ",
 		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
@@ -68949,7 +69574,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 5,
 		icon = "55500",
-		value_1 = "15/轮",
+		value_1 = "15/회",
 		attribute_2 = "antiaircraft",
 		avoid_extra = 0,
 		rarity = 2,
@@ -68977,7 +69602,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95501] = {
-		value_1 = "17/轮",
+		value_1 = "17/회",
 		id = 95501,
 		base = 95500,
 		is_siren = 0,
@@ -68988,7 +69613,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95502] = {
-		value_1 = "19/轮",
+		value_1 = "19/회",
 		id = 95502,
 		base = 95500,
 		is_siren = 0,
@@ -68999,7 +69624,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95503] = {
-		value_1 = "22/轮",
+		value_1 = "22/회",
 		id = 95503,
 		base = 95500,
 		is_siren = 0,
@@ -69020,7 +69645,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 12,
 		icon = "55500",
-		value_1 = "17/轮",
+		value_1 = "17/회",
 		attribute_2 = "antiaircraft",
 		avoid_extra = 0,
 		rarity = 3,
@@ -69048,7 +69673,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95521] = {
-		value_1 = "19/轮",
+		value_1 = "19/회",
 		id = 95521,
 		base = 95520,
 		is_siren = 0,
@@ -69059,7 +69684,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95522] = {
-		value_1 = "22/轮",
+		value_1 = "22/회",
 		id = 95522,
 		base = 95520,
 		is_siren = 0,
@@ -69070,7 +69695,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95523] = {
-		value_1 = "25/轮",
+		value_1 = "25/회",
 		id = 95523,
 		base = 95520,
 		is_siren = 0,
@@ -69081,7 +69706,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95524] = {
-		value_1 = "28/轮",
+		value_1 = "28/회",
 		id = 95524,
 		base = 95520,
 		is_siren = 0,
@@ -69092,7 +69717,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95525] = {
-		value_1 = "31/轮",
+		value_1 = "31/회",
 		id = 95525,
 		base = 95520,
 		is_siren = 0,
@@ -69103,7 +69728,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95526] = {
-		value_1 = "34/轮",
+		value_1 = "34/회",
 		id = 95526,
 		base = 95520,
 		is_siren = 0,
@@ -69124,7 +69749,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 25,
 		icon = "55500",
-		value_1 = "20/轮",
+		value_1 = "20/회",
 		attribute_2 = "antiaircraft",
 		avoid_extra = 0,
 		rarity = 4,
@@ -69152,7 +69777,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[95541] = {
-		value_1 = "23/轮",
+		value_1 = "23/회",
 		id = 95541,
 		base = 95540,
 		is_siren = 0,
@@ -69163,7 +69788,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95542] = {
-		value_1 = "26/轮",
+		value_1 = "26/회",
 		id = 95542,
 		base = 95540,
 		is_siren = 0,
@@ -69174,7 +69799,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95543] = {
-		value_1 = "29/轮",
+		value_1 = "29/회",
 		id = 95543,
 		base = 95540,
 		is_siren = 0,
@@ -69185,7 +69810,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95544] = {
-		value_1 = "32/轮",
+		value_1 = "32/회",
 		id = 95544,
 		base = 95540,
 		is_siren = 0,
@@ -69196,7 +69821,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95545] = {
-		value_1 = "35/轮",
+		value_1 = "35/회",
 		id = 95545,
 		base = 95540,
 		is_siren = 0,
@@ -69207,7 +69832,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95546] = {
-		value_1 = "38/轮",
+		value_1 = "38/회",
 		id = 95546,
 		base = 95540,
 		is_siren = 0,
@@ -69218,7 +69843,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95547] = {
-		value_1 = "41/轮",
+		value_1 = "41/회",
 		id = 95547,
 		base = 95540,
 		is_siren = 0,
@@ -69229,7 +69854,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95548] = {
-		value_1 = "44/轮",
+		value_1 = "44/회",
 		id = 95548,
 		base = 95540,
 		is_siren = 0,
@@ -69240,7 +69865,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95549] = {
-		value_1 = "47/轮",
+		value_1 = "47/회",
 		id = 95549,
 		base = 95540,
 		is_siren = 0,
@@ -69251,7 +69876,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[95550] = {
-		value_1 = "50/轮",
+		value_1 = "50/회",
 		id = 95550,
 		base = 95540,
 		is_siren = 0,
@@ -69744,6 +70369,17 @@ pg.equip_data_statistics = {
 		688,
 		689,
 		690,
+		700,
+		701,
+		702,
+		703,
+		704,
+		705,
+		706,
+		707,
+		708,
+		709,
+		710,
 		720,
 		721,
 		722,
@@ -70323,6 +70959,39 @@ pg.equip_data_statistics = {
 		3148,
 		3149,
 		3150,
+		3200,
+		3201,
+		3202,
+		3203,
+		3204,
+		3205,
+		3206,
+		3207,
+		3208,
+		3209,
+		3210,
+		3220,
+		3221,
+		3222,
+		3223,
+		3224,
+		3225,
+		3226,
+		3227,
+		3228,
+		3229,
+		3230,
+		3300,
+		3301,
+		3302,
+		3303,
+		3304,
+		3305,
+		3306,
+		3307,
+		3308,
+		3309,
+		3310,
 		4000,
 		4001,
 		4002,
@@ -72865,6 +73534,17 @@ pg.equip_data_statistics = {
 		39248,
 		39249,
 		39250,
+		39300,
+		39301,
+		39302,
+		39303,
+		39304,
+		39305,
+		39306,
+		39307,
+		39308,
+		39309,
+		39310,
 		41000,
 		41001,
 		41002,

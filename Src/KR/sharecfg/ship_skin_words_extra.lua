@@ -62,7 +62,7 @@ pg.ship_skin_words_extra = {
 		mission_complete = {
 			{
 				100,
-				"주의, 미완료 임무 확인. 아아…!"
+				"주의, 임무 보수의 도착을 확인, 아아...!"
 			}
 		},
 		mail = {

@@ -1,4 +1,4 @@
-slot0 = class("ActivityBossBattleMediator", import("..base.ContextMediator"))
+slot0 = class("ActivityBossBattleMediator", import("view.base.ContextMediator"))
 slot0.ON_STAGE = "ActivityBossBattleMediator:ON_STAGE"
 slot0.ON_GET = "ActivityBossBattleMediator:ON_GET"
 slot0.ON_RANK = "ActivityBossBattleMediator:ON_RANK"

@@ -541,7 +541,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ff5c5c",
-			say = "타란토 항 결전에서 일러스트리어스는 아마 사정을 봐준 것 같습니다.",
+			say = "타란토 항 결전에서 일러스트리어스는 아마 사정을 봐준 것 같아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

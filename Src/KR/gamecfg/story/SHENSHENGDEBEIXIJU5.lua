@@ -207,7 +207,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "워스파이트",
-			say = "로열 본섬에서 여기까지 오는 길에, 이미 세이렌의 출몰과 해류의 상관관계를 분석했어. 세이렌이 지중해의 동남부에서 왔다는 것을 확인했지.",
+			say = "세이렌이 지중해의 동남부에서 왔다는 것을 확인했지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 605020,
-			say = "(조만간… 조만간!))",
+			say = "(조만간… 조만간!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

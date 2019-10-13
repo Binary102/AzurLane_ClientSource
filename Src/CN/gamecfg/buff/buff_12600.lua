@@ -20,13 +20,6 @@ return {
 	color = "red",
 	icon = 12600,
 	last_effect = "",
-	limit = {
-		SYSTEM_SCENARIO,
-		SYSTEM_ROUTINE,
-		SYSTEM_SHAM,
-		SYSTEM_CHALLENGE,
-		SYSTEM_ACT_BOSS
-	},
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",
@@ -35,7 +28,7 @@ return {
 			},
 			arg_list = {
 				minWeaponNumber = 1,
-				skill_id = 12600,
+				skill_id = 12605,
 				check_weapon = true,
 				weapon_group = {
 					95000,
@@ -51,7 +44,7 @@ return {
 			},
 			arg_list = {
 				maxWeaponNumber = 0,
-				skill_id = 12602,
+				skill_id = 12607,
 				check_weapon = true,
 				weapon_group = {
 					95000,

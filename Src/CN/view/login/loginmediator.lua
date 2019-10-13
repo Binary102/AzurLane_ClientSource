@@ -47,24 +47,27 @@ function slot0.loginProcessHandler(slot0)
 
 		if coroutine.yield.contextData.code then
 			if slot1.contextData.code ~= 0 then
-				slot1(pg.MsgboxMgr.GetInstance(), {
-					modal = true,
-					hideNo = true,
-					content = ({
-						i18n("login_loginMediator_kickOtherLogin"),
-						i18n("login_loginMediator_kickServerClose"),
-						i18n("login_loginMediator_kickIntError"),
-						i18n("login_loginMediator_kickTimeError"),
-						i18n("login_loginMediator_kickLoginOut"),
-						i18n("login_loginMediator_serverLoginErro"),
-						i18n("login_loginMediator_vertifyFail"),
-						[99] = i18n("login_loginMediator_dataExpired")
-					})[slot1.contextData.code] or i18n("login_loginMediator_kickUndefined", slot1.contextData.code),
-					onYes = function ()
-						slot0.process()
-					end
-				})
-				coroutine.yield()
+				if slot1.contextData.code == SDK_EXIT_CODE then
+				else
+					slot1(pg.MsgboxMgr.GetInstance(), {
+						modal = true,
+						hideNo = true,
+						content = ({
+							i18n("login_loginMediator_kickOtherLogin"),
+							i18n("login_loginMediator_kickServerClose"),
+							i18n("login_loginMediator_kickIntError"),
+							i18n("login_loginMediator_kickTimeError"),
+							i18n("login_loginMediator_kickLoginOut"),
+							i18n("login_loginMediator_serverLoginErro"),
+							i18n("login_loginMediator_vertifyFail"),
+							[99] = i18n("login_loginMediator_dataExpired")
+						})[slot1.contextData.code] or i18n("login_loginMediator_kickUndefined", slot1.contextData.code),
+						onYes = function ()
+							slot0.process()
+						end
+					})
+					coroutine.yield()
+				end
 			end
 
 			if slot0 then

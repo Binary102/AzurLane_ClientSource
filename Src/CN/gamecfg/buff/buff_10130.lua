@@ -70,13 +70,6 @@ return {
 	color = "red",
 	icon = 10130,
 	last_effect = "",
-	limit = {
-		SYSTEM_SCENARIO,
-		SYSTEM_ROUTINE,
-		SYSTEM_SHAM,
-		SYSTEM_CHALLENGE,
-		SYSTEM_ACT_BOSS
-	},
 	effect_list = {
 		{
 			type = "BattleBuffAddBuff",
@@ -84,7 +77,7 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				buff_id = 10132,
+				buff_id = 10133,
 				time = 20,
 				target = "TargetSelf"
 			}

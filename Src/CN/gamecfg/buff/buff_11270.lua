@@ -8,7 +8,7 @@ return {
 				},
 				arg_list = {
 					rant = 3000,
-					skill_id = 11270,
+					skill_id = 11271,
 					target = "TargetSelf",
 					time = 12
 				}
@@ -34,7 +34,7 @@ return {
 				},
 				arg_list = {
 					rant = 3300,
-					skill_id = 11270,
+					skill_id = 11271,
 					target = "TargetSelf",
 					time = 12
 				}
@@ -60,7 +60,7 @@ return {
 				},
 				arg_list = {
 					rant = 3600,
-					skill_id = 11270,
+					skill_id = 11271,
 					target = "TargetSelf",
 					time = 12
 				}
@@ -86,7 +86,7 @@ return {
 				},
 				arg_list = {
 					rant = 3900,
-					skill_id = 11270,
+					skill_id = 11271,
 					target = "TargetSelf",
 					time = 12
 				}
@@ -112,7 +112,7 @@ return {
 				},
 				arg_list = {
 					rant = 4200,
-					skill_id = 11270,
+					skill_id = 11271,
 					target = "TargetSelf",
 					time = 12
 				}
@@ -138,7 +138,7 @@ return {
 				},
 				arg_list = {
 					rant = 4500,
-					skill_id = 11270,
+					skill_id = 11271,
 					target = "TargetSelf",
 					time = 12
 				}
@@ -164,7 +164,7 @@ return {
 				},
 				arg_list = {
 					rant = 4800,
-					skill_id = 11270,
+					skill_id = 11271,
 					target = "TargetSelf",
 					time = 12
 				}
@@ -190,7 +190,7 @@ return {
 				},
 				arg_list = {
 					rant = 5200,
-					skill_id = 11270,
+					skill_id = 11271,
 					target = "TargetSelf",
 					time = 12
 				}
@@ -216,7 +216,7 @@ return {
 				},
 				arg_list = {
 					rant = 5600,
-					skill_id = 11270,
+					skill_id = 11271,
 					target = "TargetSelf",
 					time = 12
 				}
@@ -242,7 +242,7 @@ return {
 				},
 				arg_list = {
 					rant = 6000,
-					skill_id = 11270,
+					skill_id = 11271,
 					target = "TargetSelf",
 					time = 12
 				}
@@ -270,13 +270,6 @@ return {
 	color = "red",
 	icon = 11270,
 	last_effect = "",
-	limit = {
-		SYSTEM_SCENARIO,
-		SYSTEM_ROUTINE,
-		SYSTEM_SHAM,
-		SYSTEM_CHALLENGE,
-		SYSTEM_ACT_BOSS
-	},
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",
@@ -285,7 +278,7 @@ return {
 			},
 			arg_list = {
 				rant = 3000,
-				skill_id = 11270,
+				skill_id = 11271,
 				target = "TargetSelf",
 				time = 12
 			}

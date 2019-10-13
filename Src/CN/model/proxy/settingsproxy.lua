@@ -9,6 +9,8 @@ function slot0.onRegister(slot0)
 	slot0._showMaxLevelHelp = PlayerPrefs.GetInt("maxLevelHelp", 0) > 0
 	slot0.nextTipAoutBattleTime = PlayerPrefs.GetInt("AutoBattleTip", 0)
 	slot0._setFlagShip = PlayerPrefs.GetInt("setFlagShip", 0) > 0
+	slot0._screenRatio = PlayerPrefs.GetFloat("SetScreenRatio", 2)
+	NotchAdapt.CheckNotchRatio = slot0._screenRatio
 	slot0.nextTipActBossExchangeTicket = nil
 
 	slot0:resetEquipSceneIndex()
@@ -192,6 +194,23 @@ end
 
 function slot0.isTipActBossExchangeTicket(slot0)
 	return slot0.nextTipActBossExchangeTicket
+end
+
+function slot0.SetScreenRatio(slot0, slot1)
+	if slot0._screenRatio ~= slot1 then
+		slot0._screenRatio = slot1
+
+		PlayerPrefs.SetFloat("SetScreenRatio", slot1)
+		PlayerPrefs.Save()
+	end
+end
+
+function slot0.GetScreenRatio(slot0)
+	return slot0._screenRatio
+end
+
+function slot0.CheckLargeScreen(slot0)
+	return Screen.width / Screen.height > 2
 end
 
 return slot0

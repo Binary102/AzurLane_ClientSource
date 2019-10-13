@@ -7970,16 +7970,7 @@ pg.skill_data_template = {
 		max_level = 10,
 		id = 10130,
 		system_transform = {
-			10131,
-			10131,
-			nil,
-			10131,
-			nil,
-			10131,
-			nil,
-			10131,
-			10131,
-			[95.0] = 10131
+			[3.0] = 10131
 		},
 		desc_get_add = {
 			{
@@ -8985,16 +8976,7 @@ pg.skill_data_template = {
 		max_level = 10,
 		id = 10290,
 		system_transform = {
-			10291,
-			10291,
-			nil,
-			10291,
-			nil,
-			10291,
-			nil,
-			10291,
-			10291,
-			[95.0] = 10291
+			[3.0] = 10291
 		},
 		desc_get_add = {
 			{
@@ -14058,16 +14040,7 @@ pg.skill_data_template = {
 		max_level = 10,
 		id = 11000,
 		system_transform = {
-			11001,
-			11001,
-			nil,
-			11001,
-			nil,
-			11001,
-			nil,
-			11001,
-			11001,
-			[95.0] = 11001
+			[3.0] = 11001
 		},
 		desc_get_add = {},
 		desc_add = {
@@ -16151,16 +16124,7 @@ pg.skill_data_template = {
 		max_level = 10,
 		id = 11270,
 		system_transform = {
-			11271,
-			11271,
-			nil,
-			11271,
-			nil,
-			11271,
-			nil,
-			11271,
-			11271,
-			[95.0] = 11271
+			[3.0] = 11271
 		},
 		desc_get_add = {
 			{
@@ -20570,16 +20534,7 @@ pg.skill_data_template = {
 		max_level = 10,
 		id = 11810,
 		system_transform = {
-			11811,
-			11811,
-			nil,
-			11811,
-			nil,
-			11811,
-			nil,
-			11811,
-			11811,
-			[95.0] = 11811
+			[3.0] = 11811
 		},
 		desc_get_add = {
 			{
@@ -23057,16 +23012,7 @@ pg.skill_data_template = {
 		max_level = 10,
 		id = 12130,
 		system_transform = {
-			12135,
-			12135,
-			nil,
-			12135,
-			nil,
-			12135,
-			nil,
-			12135,
-			12135,
-			[95.0] = 12135
+			[3.0] = 12135
 		},
 		desc_get_add = {
 			{
@@ -23319,16 +23265,7 @@ pg.skill_data_template = {
 		max_level = 10,
 		id = 12150,
 		system_transform = {
-			12170,
-			12170,
-			nil,
-			12170,
-			nil,
-			12170,
-			nil,
-			12170,
-			12170,
-			[95.0] = 12170
+			[3.0] = 12170
 		},
 		desc_get_add = {
 			{
@@ -27238,16 +27175,7 @@ pg.skill_data_template = {
 		max_level = 10,
 		id = 12600,
 		system_transform = {
-			12605,
-			12605,
-			nil,
-			12605,
-			nil,
-			12605,
-			nil,
-			12605,
-			12605,
-			[95.0] = 12605
+			[3.0] = 12605
 		},
 		desc_get_add = {
 			{
@@ -28431,16 +28359,7 @@ pg.skill_data_template = {
 		max_level = 10,
 		id = 18070,
 		system_transform = {
-			18071,
-			18071,
-			nil,
-			18071,
-			nil,
-			18071,
-			nil,
-			18071,
-			18071,
-			[95.0] = 18071
+			[3.0] = 18071
 		},
 		desc_get_add = {
 			{
@@ -28796,16 +28715,7 @@ pg.skill_data_template = {
 		max_level = 10,
 		id = 19030,
 		system_transform = {
-			19031,
-			19031,
-			nil,
-			19031,
-			nil,
-			19031,
-			nil,
-			19031,
-			19031,
-			[95.0] = 19031
+			[3.0] = 19031
 		},
 		desc_get_add = {
 			{
@@ -29772,16 +29682,7 @@ pg.skill_data_template = {
 		max_level = 10,
 		id = 19160,
 		system_transform = {
-			19161,
-			19161,
-			nil,
-			19161,
-			nil,
-			19161,
-			nil,
-			19161,
-			19161,
-			[95.0] = 12161
+			[3.0] = 19161
 		},
 		desc_get_add = {
 			{
@@ -30293,16 +30194,7 @@ pg.skill_data_template = {
 		max_level = 10,
 		id = 19220,
 		system_transform = {
-			19221,
-			19221,
-			nil,
-			19221,
-			nil,
-			19221,
-			nil,
-			19221,
-			19221,
-			[95.0] = 19221
+			[3.0] = 19221
 		},
 		desc_get_add = {
 			{
@@ -30666,16 +30558,7 @@ pg.skill_data_template = {
 		max_level = 10,
 		id = 19260,
 		system_transform = {
-			19261,
-			19261,
-			nil,
-			19261,
-			nil,
-			19261,
-			nil,
-			19261,
-			19261,
-			[95.0] = 19261
+			[3.0] = 19261
 		},
 		desc_get_add = {
 			{

@@ -3323,7 +3323,11 @@ pg.furniture_data_template = {
 		spine = {
 			{
 				"70years",
-				"actionl"
+				"normal",
+				{
+					"action",
+					true
+				}
 			}
 		},
 		interAction_group = {}

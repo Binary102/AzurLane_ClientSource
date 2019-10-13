@@ -30737,6 +30737,114 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[203071] = {
+		name = "真理探寻者/truth seeker",
+		bg = "103",
+		ship_group = 20307,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		id = 203071,
+		painting = "yueke_2",
+		air_bullet_skin = "",
+		hand_id = 13,
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yueke_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70250,
+		desc = "学园里发生的一系列神秘事件（mystery），背后一定有着幕后黑手（Mastermind）的操纵。这是给予我的试炼（Tribulation）！很好，就让我来解开背后所有的真相（Truth）吧！",
+		voice_actor = 23,
+		air_bomb_skin = "",
+		illustrator = 18,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.666,
+					0.998,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.638,
+					1,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.003,
+					0.011,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.614,
+					0.999,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.414,
+							2.501,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[203079] = {
 		name = "约克.改",
 		bg = "",
@@ -53918,6 +54026,114 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[305026] = {
+		name = "制服攻势！",
+		bg = "103",
+		ship_group = 30502,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		id = 305026,
+		painting = "shancheng_6",
+		air_bullet_skin = "",
+		hand_id = 14,
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "shancheng_6",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70251,
+		desc = "呜哇，殿、殿下！？对对对对不起，我没有撞伤你吧？……啊，这是我的校服哦，姐姐亲手缝的~嘿嘿……哇哇哇，那我去上课了！回见！",
+		voice_actor = 71,
+		air_bomb_skin = "",
+		illustrator = 22,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.666,
+					0.827,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.632,
+					0.836,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.007,
+					-0.001,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.675,
+					0.832,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.36,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[305028] = {
 		name = "花嫁攻势！",
 		bg = "",
@@ -59209,7 +59425,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "巡潜乙型改二型潜水舰伊56",
-		voice_actor = -1,
+		voice_actor = 16,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -59301,7 +59517,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "学校，真是一个好地方。我可以安静地躲在角落里，不和别人说话也没有关系…",
-		voice_actor = -1,
+		voice_actor = 16,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -69315,7 +69531,7 @@ pg.ship_skin_template = {
 			mail = 0.5,
 			propose = 3,
 			main_1 = 0.5,
-			login = 0.5,
+			login = 14.17,
 			expedition = 0.5,
 			home = 0.5,
 			mission_complete = 0.5,
@@ -71307,8 +71523,8 @@ pg.ship_skin_template = {
 			2
 		},
 		live2d_offset = {
-			50,
-			-50,
+			20,
+			-140,
 			0
 		},
 		fx_container = {
@@ -86010,6 +86226,7 @@ pg.ship_skin_template = {
 		203050,
 		203060,
 		203070,
+		203071,
 		203079,
 		203080,
 		203089,
@@ -86225,6 +86442,7 @@ pg.ship_skin_template = {
 		305022,
 		305023,
 		305024,
+		305026,
 		305028,
 		305029,
 		305030,

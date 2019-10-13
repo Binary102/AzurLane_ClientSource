@@ -17,7 +17,7 @@ class("EditActivityFleetCommand", pm.SimpleCommand).execute = function (slot0, s
 
 		slot12 = {}
 
-		for slot16, slot17 in ipairs(slot10.commanderIds) do
+		for slot16, slot17 in pairs(slot10.commanderIds) do
 			table.insert(slot12, {
 				pos = slot16,
 				id = slot17

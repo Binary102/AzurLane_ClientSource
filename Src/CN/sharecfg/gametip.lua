@@ -1361,8 +1361,18 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_buy_max_count"
 	},
 	backyard_backyardScene_comforChatContent1 = {
-		tip = "<size=26>经验收益<material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>+$1%</color></material></size><size=22>\n<舒适度计算<material=outline c=#3D3D3DFF x1y=1><color=#92fc63FF>各类家具</color></material>中舒适度最高的<material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>前n件</color></material>(n依据各类家具<material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>可摆放数量</color></material>，地垫为<material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>$2</color></material>)的总和，不受摆放影响></size>",
+		tip = "<size=30>当前各类家具计入舒适度的数量：\n墙纸:<color=#92fc63>$1</color>/地板:<color=#92fc63>$4</color>/家具:<color=#92fc63>$2</color>/装饰:<color=#92fc63>$3</color>/地垫:<color=#92fc63>$5</color>/墙饰:<color=#92fc63>$6</color>/收藏:<color=#92fc63>$7</color>\n</size>",
 		key = "backyard_backyardScene_comforChatContent1"
+	},
+	backyard_backyardScene_comforChatContent2 = {
+		tip = [[
+<size=45>$1</size>
+当前经验收益<color=#92fc63>+$2%</color><size=30>
+
+<color=#92fc63>舒适度</color>不受摆放影响，计算<color=#92fc63>各类家具</color>中舒适度最高的<color=#92fc63>前n件</color>总和
+各类家具的n值受后宅扩建次数影响  当前次数:<color=#92fc63>$3</color>
+</size>]],
+		key = "backyard_backyardScene_comforChatContent2"
 	},
 	backyard_buyExtendItem_question = {
 		tip = "将花费<color=#92fc63>$1</color>,是否继续？",

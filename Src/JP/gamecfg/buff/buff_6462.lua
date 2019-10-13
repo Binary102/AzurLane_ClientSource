@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				number = 3,
-				attr = "armor"
+				value = 3,
+				attr = "armorType"
 			}
 		}
 	}

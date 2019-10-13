@@ -7,9 +7,9 @@ pg.pay_data_display = {
 		descrip = "ダイヤ$1個+30日間毎日資源が貰える",
 		subject = "貿易許可証（30日間）",
 		extra_service = 2,
-		money = 960,
+		money = 980,
 		tag = 2,
-		gem = 500,
+		gem = 510,
 		limit_type = 1,
 		time = "always",
 		picture = "month",
@@ -119,9 +119,9 @@ pg.pay_data_display = {
 		descrip = "+おまけ$1個",
 		subject = "ダイヤ一握り",
 		extra_service = 0,
-		money = 600,
+		money = 610,
 		tag = 0,
-		gem = 300,
+		gem = 305,
 		limit_type = 99,
 		time = "always",
 		picture = "2",
@@ -140,9 +140,9 @@ pg.pay_data_display = {
 		descrip = "+おまけ$1個",
 		subject = "ダイヤ一袋",
 		extra_service = 0,
-		money = 1200,
+		money = 1220,
 		tag = 0,
-		gem = 600,
+		gem = 610,
 		limit_type = 0,
 		time = "always",
 		picture = "3",
@@ -161,9 +161,9 @@ pg.pay_data_display = {
 		descrip = "+おまけ$1個",
 		subject = "ダイヤ小箱",
 		extra_service = 0,
-		money = 2400,
+		money = 2440,
 		tag = 0,
-		gem = 1200,
+		gem = 1220,
 		limit_type = 0,
 		time = "always",
 		picture = "4",
@@ -182,9 +182,9 @@ pg.pay_data_display = {
 		descrip = "+おまけ$1個",
 		subject = "ダイヤ大箱",
 		extra_service = 0,
-		money = 4800,
+		money = 4900,
 		tag = 0,
-		gem = 2400,
+		gem = 2450,
 		limit_type = 0,
 		time = "always",
 		picture = "5",
@@ -203,9 +203,9 @@ pg.pay_data_display = {
 		descrip = "+おまけ$1個",
 		subject = "ダイヤ一船",
 		extra_service = 0,
-		money = 9800,
+		money = 10000,
 		tag = 1,
-		gem = 4900,
+		gem = 5000,
 		limit_type = 0,
 		time = "always",
 		picture = "6",
@@ -781,7 +781,7 @@ pg.pay_data_display = {
 		descrip = "アイテム・資源とランダムにドレスシリーズの着せ替え衣装を入手可能",
 		subject = "二週年福袋",
 		extra_service = 3,
-		money = 3600,
+		money = 3680,
 		tag = 2,
 		gem = 0,
 		limit_type = 2,
@@ -794,13 +794,13 @@ pg.pay_data_display = {
 		extra_service_item = {
 			{
 				2,
-				69906,
+				69907,
 				1
 			},
 			{
 				1,
 				4,
-				2019
+				2059
 			},
 			{
 				2,
@@ -852,13 +852,13 @@ pg.pay_data_display = {
 		display = {
 			{
 				2,
-				69906,
+				69907,
 				1
 			},
 			{
 				1,
 				4,
-				2019
+				2059
 			},
 			{
 				2,

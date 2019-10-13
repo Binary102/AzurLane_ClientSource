@@ -1376,8 +1376,16 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_buy_max_count"
 	},
 	backyard_backyardScene_comforChatContent1 = {
-		tip = "<size=27>経験値<color=#A9EE48>+$1%</color></size><size=24>\n合計快適度は1Fの各カテゴリー（マット系除く）快適度が上から<color=#A9EE48>配置可能数分</color>の家具の合計値+マット系の家具は上から<color=#92fc63>$2</color>番目まで高い家具の合計値になります</size>",
+		tip = "<size=30>快適度計算時に適用される家具数：\n壁紙:<color=#92fc63>$1</color>/床:<color=#92fc63>$4</color>/家具:<color=#92fc63>$2</color>/雑貨:<color=#92fc63>$3</color>/マット:<color=#92fc63>$5</color>/壁飾り:<color=#92fc63>$6</color>/蒐集品:<color=#92fc63>$7</color>\n</size>",
 		key = "backyard_backyardScene_comforChatContent1"
+	},
+	backyard_backyardScene_comforChatContent2 = {
+		tip = [[
+<size=45>$1</size>
+経験値<color=#92fc63>+$2%</color><size=30>
+合計快適度は所持家具の各カテゴリーにおける快適度が上からn番目までの家具を合算した数値になります。合算に適用される家具数は寮舎の拡張回数によって決まります。
+</size>]],
+		key = "backyard_backyardScene_comforChatContent2"
 	},
 	backyard_buyExtendItem_question = {
 		tip = "<color=#92fc63>$1</color>を消費します。続けますか？",
@@ -11638,7 +11646,7 @@ staff）にて告知されます。
 		key = "change_skin_secretary_ship_success"
 	},
 	change_skin_secretary_ship = {
-		tip = "秘書官に設定する",
+		tip = "秘書艦に設定する",
 		key = "change_skin_secretary_ship"
 	},
 	word_billboard = {

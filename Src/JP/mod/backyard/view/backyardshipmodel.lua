@@ -49,6 +49,12 @@ slot5 = {
 	46129
 }
 slot4[7] = slot5
+slot5 = {
+	"sit",
+	4.333,
+	50124
+}
+slot4[8] = slot5
 
 function slot5(slot0, slot1, slot2)
 	slot3 = pg
@@ -2197,78 +2203,102 @@ function slot5(slot0, slot1)
 	slot7 = slot1
 	slot6 = slot1.hasSpineMask
 	slot6 = slot6(slot7)
-	slot7 = 0
-	slot8 = {}
-	slot0.roles = slot8
-	slot9 = slot1
-	slot8 = slot1.getBreakAnim
-	slot8 = slot8(slot9)
-	slot0.breakActionName = slot8
+	slot7 = {}
+	slot0.roles = slot7
+	slot8 = slot1
+	slot7 = slot1.getBreakAnim
+	slot7 = slot7(slot8)
+	slot0.breakActionName = slot7
+	slot7 = table
+	slot7 = slot7.insert
+	slot8 = slot0.roles
+	slot9 = slot0.spineAnimUI
+
+	slot7(slot8, slot9)
+
+	slot7 = GetOrAddComponent
+	slot9 = slot2
+	slot8 = slot2.Find
+	slot10 = "icon/spine"
+	slot8 = slot8(slot9, slot10)
+	slot9 = typeof
+	slot10 = SpineAnimUI
+	slot7 = slot7(slot8, slot9(slot10))
 	slot8 = table
 	slot8 = slot8.insert
 	slot9 = slot0.roles
-	slot10 = slot0.spineAnimUI
+	slot10 = slot7
 
 	slot8(slot9, slot10)
 
-	slot8 = GetOrAddComponent
-	slot10 = slot2
-	slot9 = slot2.Find
-	slot11 = "icon/spine"
-	slot9 = slot9(slot10, slot11)
-	slot10 = typeof
-	slot11 = SpineAnimUI
-	slot8 = slot8(slot9, slot10(slot11))
-	slot9 = table
-	slot9 = slot9.insert
-	slot10 = slot0.roles
-	slot11 = slot8
-
-	slot9(slot10, slot11)
-
 	if slot6 then
+		slot8 = SetActive
+		slot9 = slot5
+		slot10 = true
+
+		slot8(slot9, slot10)
+
+		slot9 = slot5
+		slot8 = slot5.SetAsLastSibling
+
+		slot8(slot9)
+
+		slot8 = GetOrAddComponent
 		slot10 = slot5
-		slot9 = slot5.GetSiblingIndex
-		slot9 = slot9(slot10)
-		slot7 = slot9
-		slot9 = SetActive
-		slot10 = slot5
-		slot11 = true
+		slot9 = slot5.Find
+		slot11 = "spine"
+		slot9 = slot9(slot10, slot11)
+		slot10 = typeof
+		slot11 = SpineAnimUI
+		slot8 = slot8(slot9, slot10(slot11))
+		slot9 = table
+		slot9 = slot9.insert
+		slot10 = slot0.roles
+		slot11 = slot8
 
 		slot9(slot10, slot11)
-
-		slot10 = slot5
-		slot9 = slot5.SetAsLastSibling
-
-		slot9(slot10)
-
-		slot9 = GetOrAddComponent
-		slot11 = slot5
-		slot10 = slot5.Find
-		slot12 = "spine"
-		slot10 = slot10(slot11, slot12)
-		slot11 = typeof
-		slot12 = SpineAnimUI
-		slot9 = slot9(slot10, slot11(slot12))
-		slot10 = table
-		slot10 = slot10.insert
-		slot11 = slot0.roles
-		slot12 = slot9
-
-		slot10(slot11, slot12)
 	end
 
-	slot10 = slot1
-	slot9 = slot1.hasTailAction
-	slot9 = slot9(slot10)
+	slot8 = pairs
+	slot9 = slot0.roles
+	slot8, slot9, slot10 = slot8(slot9)
 
-	if slot9 then
-		slot9 = slot0.viewComponent
-		slot10 = true
-		slot9.blockEvent = slot10
+	for slot11, slot12 in slot8, slot9, slot10 do
+		slot14 = slot0
+		slot13 = slot0.getSpineNormalAction
+		slot15 = slot12
+		slot13 = slot13(slot14, slot15)
+		slot15 = slot12
+		slot14 = slot12.SetAction
+		slot16 = slot13
+		slot17 = 0
+
+		slot14(slot15, slot16, slot17)
+
+		slot14 = setActive
+		slot15 = slot12.gameObject
+		slot16 = false
+
+		slot14(slot15, slot16)
+
+		slot14 = setActive
+		slot15 = slot12.gameObject
+		slot16 = true
+
+		slot14(slot15, slot16)
 	end
 
-	function slot9()
+	slot9 = slot1
+	slot8 = slot1.hasTailAction
+	slot8 = slot8(slot9)
+
+	if slot8 then
+		slot8 = slot0.viewComponent
+		slot9 = true
+		slot8.blockEvent = slot9
+	end
+
+	function slot8()
 		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.hasAnimator
@@ -2305,22 +2335,22 @@ function slot5(slot0, slot1)
 		end
 	end
 
-	slot11 = slot1
-	slot10 = slot1.getPreheatAnim
-	slot10 = slot10(slot11)
+	slot10 = slot1
+	slot9 = slot1.getPreheatAnim
+	slot9 = slot9(slot10)
 
-	if slot10 then
-		slot12 = slot0
-		slot11 = slot0.playPreHeatAnim
-		slot13 = slot1
-		slot14 = slot10
-		slot15 = slot9
+	if slot9 then
+		slot11 = slot0
+		slot10 = slot0.playPreHeatAnim
+		slot12 = slot1
+		slot13 = slot9
+		slot14 = slot8
 
-		slot11(slot12, slot13, slot14, slot15)
+		slot10(slot11, slot12, slot13, slot14)
 	else
-		slot11 = slot9
+		slot10 = slot8
 
-		slot11()
+		slot10()
 	end
 end
 

@@ -5163,7 +5163,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 70246,
 		desc = "むっふっふー、見たか指揮官！この重量感とビューティフルな塗装、そしてそしてバッチが準備した特殊装備！むふふふ、今母港一のスピードスターはこのバッチよ！",
-		voice_actor = 151,
+		voice_actor = 204,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -30130,6 +30130,114 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[203071] = {
+		name = "真理を求めし者",
+		bg = "103",
+		ship_group = 20307,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		id = 203071,
+		painting = "yueke_2",
+		air_bullet_skin = "",
+		hand_id = 13,
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "yueke_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70250,
+		desc = "学園で起きた数々の不思議<†ミステリー†>、それを操る黒幕<†マスターマインド†>……これが私への試練<†トリビュレーション†>というのなら、全ての真実<†トゥルース†>を見つけるまで！",
+		voice_actor = 23,
+		air_bomb_skin = "",
+		illustrator = 18,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.666,
+					0.998,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.638,
+					1,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.003,
+					0.011,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.614,
+					0.999,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.414,
+							2.501,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[203079] = {
 		name = "ヨーク改",
 		bg = "",
@@ -53134,6 +53242,114 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[305026] = {
+		name = "制服大作戦！",
+		bg = "103",
+		ship_group = 30502,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		id = 305026,
+		painting = "shancheng_6",
+		air_bullet_skin = "",
+		hand_id = 14,
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "shancheng_6",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70251,
+		desc = "あわわわ！と、殿様！？ごめんなさい！怪我していませんよね…？あっ、この制服はええと、扶桑姉さまが仕立ててくださいました！も、もう学園に行きますね、すみません！",
+		voice_actor = 71,
+		air_bomb_skin = "",
+		illustrator = 22,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.666,
+					0.827,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.632,
+					0.836,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.007,
+					-0.001,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.675,
+					0.832,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.36,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[305028] = {
 		name = "白無垢大作戦？",
 		bg = "",
@@ -58427,7 +58643,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "巡潜乙型改二伊号第五十六潜水艦",
-		voice_actor = -1,
+		voice_actor = 16,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -58519,7 +58735,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "学園っていいよね…隅っこにいると、誰とも話すことなくずっとこのまま……うん……",
-		voice_actor = -1,
+		voice_actor = 16,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -68436,7 +68652,7 @@ pg.ship_skin_template = {
 			mail = 0.5,
 			propose = 3,
 			main_1 = 0.5,
-			login = 0.5,
+			login = 14.17,
 			expedition = 0.5,
 			home = 0.5,
 			mission_complete = 0.5,
@@ -70429,8 +70645,8 @@ pg.ship_skin_template = {
 			2
 		},
 		live2d_offset = {
-			50,
-			-50,
+			20,
+			-140,
 			0
 		},
 		fx_container = {
@@ -85155,6 +85371,7 @@ pg.ship_skin_template = {
 		203050,
 		203060,
 		203070,
+		203071,
 		203079,
 		203080,
 		203089,
@@ -85368,6 +85585,7 @@ pg.ship_skin_template = {
 		305022,
 		305023,
 		305024,
+		305026,
 		305028,
 		305029,
 		305030,

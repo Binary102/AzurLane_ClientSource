@@ -20,13 +20,6 @@ return {
 	color = "red",
 	icon = 19220,
 	last_effect = "",
-	limit = {
-		SYSTEM_SCENARIO,
-		SYSTEM_ROUTINE,
-		SYSTEM_SHAM,
-		SYSTEM_CHALLENGE,
-		SYSTEM_ACT_BOSS
-	},
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",
@@ -38,7 +31,7 @@ return {
 				range = 85,
 				check_target = "TargetHarmNearest",
 				quota = 1,
-				skill_id = 19222
+				skill_id = 19223
 			}
 		},
 		{
@@ -49,7 +42,7 @@ return {
 			arg_list = {
 				hpUpperBound = 1,
 				quota = 1,
-				skill_id = 19222
+				skill_id = 19223
 			}
 		}
 	}

@@ -383,6 +383,7 @@ pg.activity_template = {
 	[359] = {
 		mark = 20190905,
 		title_res_tag = "sitanli",
+		time = "stop",
 		type = 3,
 		login_pop = 3,
 		config_id = 10,
@@ -390,33 +391,6 @@ pg.activity_template = {
 		config_client = "",
 		id = 359,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					9,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/sitanli_login"
 		}
@@ -786,6 +760,7 @@ pg.activity_template = {
 	[371] = {
 		mark = 20190911,
 		title_res_tag = "zhaodaizhuang",
+		time = "stop",
 		type = 3,
 		login_pop = 2,
 		config_id = 11,
@@ -793,33 +768,6 @@ pg.activity_template = {
 		config_client = "",
 		id = 371,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					9,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/zhaodaizhuang"
 		}
@@ -1076,6 +1024,7 @@ pg.activity_template = {
 	[378] = {
 		mark = 20190919,
 		title_res_tag = "chuixue_wuzi",
+		time = "stop",
 		type = 54,
 		login_pop = 0,
 		config_id = 378,
@@ -1083,33 +1032,6 @@ pg.activity_template = {
 		config_client = "",
 		id = 378,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					9,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/chuixuefuke_bg"
 		}
@@ -1117,6 +1039,7 @@ pg.activity_template = {
 	[379] = {
 		mark = 20190919,
 		title_res_tag = "shancheng_oil",
+		time = "stop",
 		type = 54,
 		login_pop = 0,
 		config_id = 379,
@@ -1124,33 +1047,6 @@ pg.activity_template = {
 		config_client = "",
 		id = 379,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					9,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/activity_bg_shancheng_oil"
 		}
@@ -1246,6 +1142,7 @@ pg.activity_template = {
 	[381] = {
 		mark = 20190919,
 		title_res_tag = "erzhounianhuizong",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -1253,33 +1150,6 @@ pg.activity_template = {
 		config_client = "",
 		id = 381,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					9,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/activity_bg_erzhounian"
 		}
@@ -1287,6 +1157,7 @@ pg.activity_template = {
 	[382] = {
 		mark = 20190919,
 		title_res_tag = "atrejiaju",
+		time = "stop",
 		type = 3,
 		login_pop = 3,
 		config_id = 12,
@@ -1294,33 +1165,6 @@ pg.activity_template = {
 		config_client = "",
 		id = 382,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					9,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/atrejiaju_login"
 		}
@@ -1511,6 +1355,7 @@ pg.activity_template = {
 	[387] = {
 		mark = 20190926,
 		title_res_tag = "tvtianse",
+		time = "stop",
 		type = 43,
 		login_pop = 0,
 		config_id = 0,
@@ -1551,33 +1396,6 @@ pg.activity_template = {
 				0
 			}
 		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					9,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/activity_tvtianse"
 		}
@@ -1585,6 +1403,7 @@ pg.activity_template = {
 	[388] = {
 		mark = 20190926,
 		title_res_tag = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -1611,38 +1430,12 @@ pg.activity_template = {
 			15022,
 			15023,
 			15024
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					9,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[389] = {
 		mark = 20190926,
 		title_res_tag = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -1656,38 +1449,12 @@ pg.activity_template = {
 			15028,
 			15029,
 			15030
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					9,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[390] = {
 		mark = 20190926,
 		title_res_tag = "yamaijia",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
@@ -1717,14 +1484,69 @@ pg.activity_template = {
 			{
 				15037
 			}
+		}
+	},
+	[391] = {
+		mark = 20191010,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 391,
+		config_data = {
+			14672
 		},
 		time = {
 			timer,
 			{
 				{
 					2019,
-					9,
-					26
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[392] = {
+		mark = 20191010,
+		title_res_tag = "",
+		type = 24,
+		login_pop = 0,
+		config_id = 393,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 392,
+		config_data = {
+			7
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					7
 				},
 				{
 					0,
@@ -1736,7 +1558,54 @@ pg.activity_template = {
 				{
 					2019,
 					10,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			},
+			1,
+			1,
+			{
+				times,
+				9
+			}
+		}
+	},
+	[393] = {
+		mark = 20191010,
+		title_res_tag = "",
+		type = 37,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 393,
+		config_data = {
+			391
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
 					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					8
 				},
 				{
 					23,
@@ -3997,6 +3866,9 @@ pg.activity_template = {
 		388,
 		389,
 		390,
+		391,
+		392,
+		393,
 		10006,
 		10056,
 		10123,

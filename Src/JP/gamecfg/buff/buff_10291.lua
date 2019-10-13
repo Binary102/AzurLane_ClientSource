@@ -13,7 +13,7 @@ return {
 				},
 				arg_list = {
 					rant = 4000,
-					skill_id = 10291,
+					skill_id = 10290,
 					target = "TargetSelf",
 					time = 12
 				}
@@ -34,7 +34,7 @@ return {
 				},
 				arg_list = {
 					rant = 4300,
-					skill_id = 10291,
+					skill_id = 10290,
 					target = "TargetSelf",
 					time = 12
 				}
@@ -55,7 +55,7 @@ return {
 				},
 				arg_list = {
 					rant = 4600,
-					skill_id = 10291,
+					skill_id = 10290,
 					target = "TargetSelf",
 					time = 12
 				}
@@ -76,7 +76,7 @@ return {
 				},
 				arg_list = {
 					rant = 4900,
-					skill_id = 10291,
+					skill_id = 10290,
 					target = "TargetSelf",
 					time = 12
 				}
@@ -97,7 +97,7 @@ return {
 				},
 				arg_list = {
 					rant = 5200,
-					skill_id = 10291,
+					skill_id = 10290,
 					target = "TargetSelf",
 					time = 12
 				}
@@ -118,7 +118,7 @@ return {
 				},
 				arg_list = {
 					rant = 5500,
-					skill_id = 10291,
+					skill_id = 10290,
 					target = "TargetSelf",
 					time = 12
 				}
@@ -139,7 +139,7 @@ return {
 				},
 				arg_list = {
 					rant = 5800,
-					skill_id = 10291,
+					skill_id = 10290,
 					target = "TargetSelf",
 					time = 12
 				}
@@ -160,7 +160,7 @@ return {
 				},
 				arg_list = {
 					rant = 6200,
-					skill_id = 10291,
+					skill_id = 10290,
 					target = "TargetSelf",
 					time = 12
 				}
@@ -181,7 +181,7 @@ return {
 				},
 				arg_list = {
 					rant = 6600,
-					skill_id = 10291,
+					skill_id = 10290,
 					target = "TargetSelf",
 					time = 12
 				}
@@ -202,7 +202,7 @@ return {
 				},
 				arg_list = {
 					rant = 7000,
-					skill_id = 10291,
+					skill_id = 10290,
 					target = "TargetSelf",
 					time = 12
 				}
@@ -220,9 +220,6 @@ return {
 	color = "red",
 	icon = 10291,
 	last_effect = "",
-	limit = {
-		SYSTEM_DUEL
-	},
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",
@@ -231,7 +228,7 @@ return {
 			},
 			arg_list = {
 				rant = 4000,
-				skill_id = 10291,
+				skill_id = 10290,
 				target = "TargetSelf",
 				time = 12
 			}

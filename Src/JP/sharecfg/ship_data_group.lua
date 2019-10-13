@@ -7376,6 +7376,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			},
+			{
 				"イベント：紅染の来訪者",
 				{
 					""
@@ -9055,9 +9066,13 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"期間限定建造",
+				"特型艦建造",
 				{
-					""
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}

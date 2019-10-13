@@ -224,6 +224,22 @@ slot1 = {
 	[ActivityConst.ACTIVITY_JAMAICA_SKIN_PAGE] = {
 		className = "JamaicaSkinPage",
 		uiName = "jamaicaskinpage"
+	},
+	[ActivityConst.TWCELEBRATION_1] = {
+		className = "TWCelebrationPage1",
+		uiName = "twcelebration1"
+	},
+	[ActivityConst.TWCELEBRATION_2] = {
+		className = "TWCelebrationPage2",
+		uiName = "twcelebration2"
+	},
+	[ActivityConst.TWCELEBRATION_3] = {
+		className = "TWCelebrationPage3",
+		uiName = "twcelebration3"
+	},
+	[ActivityConst.TWCELEBRATION_4] = {
+		className = "TWCelebrationPage4",
+		uiName = "twcelebration4"
 	}
 }
 slot2 = {}

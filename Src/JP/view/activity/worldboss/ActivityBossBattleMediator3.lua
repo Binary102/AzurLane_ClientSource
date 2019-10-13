@@ -94,17 +94,25 @@ function slot0.BindEvent(slot0)
 			return
 		end
 
-		slot3, slot4 = nil
-		slot5 = {
+		slot3, slot4 = slot2[slot1]:HaveShipsInEvent()
+
+		if slot3 then
+			pg.TipsMgr.GetInstance():ShowTips(slot4)
+
+			return
+		end
+
+		slot5, slot6 = nil
+		slot7 = {
 			slot2[slot1]
 		}
-		slot3 = SYSTEM_ACT_BOSS
-		slot4 = slot2.contextData.normalStageIDs[slot1]
+		slot5 = SYSTEM_ACT_BOSS
+		slot6 = slot2.contextData.normalStageIDs[slot1]
 
 		slot2[slot1 + 10]:RemoveUnusedItems()
 
 		if slot2[slot1 + 10]:isLegalToFight() == true then
-			table.insert(slot5, slot2[slot1 + 10])
+			table.insert(slot7, slot2[slot1 + 10])
 		end
 
 		slot2:RequestAndUpdateView(function ()
@@ -178,6 +186,14 @@ function slot0.BindEvent(slot0)
 
 		if slot3[slot1]:isLegalToFight() ~= true then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("elite_disable_formation_unsatisfied"))
+
+			return
+		end
+
+		slot4, slot5 = slot3[slot1]:HaveShipsInEvent()
+
+		if slot4 then
+			pg.TipsMgr.GetInstance():ShowTips(slot5)
 
 			return
 		end

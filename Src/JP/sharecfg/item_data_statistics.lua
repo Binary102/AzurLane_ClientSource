@@ -7561,6 +7561,53 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[40907] = {
+		display = "ランダムにドレスシリーズの着せ替え衣装、メンタルユニット×50、ダイヤ×2059、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
+		rarity = 4,
+		type = 5,
+		name = "二週年福袋",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 40907,
+		icon = "Props/lihe2",
+		display_icon = {
+			{
+				2,
+				69907,
+				1
+			},
+			{
+				1,
+				4,
+				2059
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[41001] = {
 		display = "明石からのバレンタインプレゼン",
 		rarity = 8,
@@ -73570,6 +73617,35 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[69907] = {
+		display = [[
+下記の着せ替えをランダム入手できます。（すでに所持している場合、購入時に消費した分の無償ダイヤに変換されます）
+各衣装の出現割合：
+（<color=#92fc63>7.0%</color>）翔鶴：風と舞う鶴（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9.2%</color>）U-47：Eigenen Raum；
+（<color=#92fc63>9.2%</color>）プリンツ・オイゲン：ヴァイン・コーンブルメ；
+（<color=#92fc63>9.2%</color>）ティルピッツ：鉄血の氷風；
+（<color=#92fc63>9.2%</color>）伊吹：宴のかざばな；
+（<color=#92fc63>9.2%</color>）シアトル：ゴージャスパーティー；
+（<color=#92fc63>9.2%</color>）夕立：お肉パーティー！；
+（<color=#92fc63>9.2%</color>）ベルファスト：優雅にして高貴な従者；
+（<color=#92fc63>9.2%</color>）ジャン・バール：不羈なブラッドストーン；
+（<color=#92fc63>9.2%</color>）ローン：灰と紅の微笑み；
+（<color=#92fc63>10.2%</color>）ドイッチュラント：魔姫の夜宴；]],
+		rarity = 4,
+		type = 98,
+		name = "ランダム衣装",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69907,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[70000] = {
 		display = "「AIメモリアル」No.1開放用",
 		rarity = 4,
@@ -74310,6 +74386,7 @@ pg.item_data_statistics = {
 		40904,
 		40905,
 		40906,
+		40907,
 		41001,
 		41002,
 		41003,
@@ -75767,6 +75844,7 @@ pg.item_data_statistics = {
 		69904,
 		69905,
 		69906,
+		69907,
 		70000,
 		70001,
 		70002,

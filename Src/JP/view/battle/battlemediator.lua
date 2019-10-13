@@ -239,13 +239,10 @@ function slot1(slot0, slot1, slot2, slot3)
 	slot5 = ys.Battle.BattleDataFunction.GenerateHiddenBuff(slot1.configId)
 
 	for slot9, slot10 in pairs(slot1.skills) do
-		if slot10 and slot10.id == 11720 and not slot1.transforms[3612] then
-		else
-			slot5[({
-				level = slot10.level,
-				id = ys.Battle.BattleDataFunction.SkillTranform(slot0, slot10.id)
-			})["id"]] = 
-		end
+		slot5[({
+			level = slot10.level,
+			id = ys.Battle.BattleDataFunction.SkillTranform(slot0, slot10.id)
+		})["id"]] = 
 	end
 
 	for slot9, slot10 in pairs(slot1:getTriggerSkills()) do

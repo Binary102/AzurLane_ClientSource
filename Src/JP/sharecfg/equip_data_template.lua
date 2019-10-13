@@ -22028,7 +22028,7 @@ pg.equip_data_template = {
 		trans_use_item = {
 			{
 				17001,
-				1
+				2
 			}
 		},
 		destory_item = {
@@ -22051,7 +22051,7 @@ pg.equip_data_template = {
 		trans_use_item = {
 			{
 				17001,
-				3
+				5
 			}
 		},
 		destory_item = {
@@ -22083,7 +22083,7 @@ pg.equip_data_template = {
 		trans_use_item = {
 			{
 				17001,
-				5
+				8
 			}
 		},
 		destory_item = {
@@ -22115,7 +22115,7 @@ pg.equip_data_template = {
 		trans_use_item = {
 			{
 				17002,
-				8
+				12
 			}
 		},
 		destory_item = {
@@ -22147,7 +22147,7 @@ pg.equip_data_template = {
 		trans_use_item = {
 			{
 				17002,
-				11
+				16
 			}
 		},
 		destory_item = {
@@ -22187,7 +22187,7 @@ pg.equip_data_template = {
 		trans_use_item = {
 			{
 				17002,
-				14
+				21
 			}
 		},
 		destory_item = {
@@ -22227,7 +22227,7 @@ pg.equip_data_template = {
 		trans_use_item = {
 			{
 				17003,
-				18
+				27
 			}
 		},
 		destory_item = {
@@ -22267,7 +22267,7 @@ pg.equip_data_template = {
 		trans_use_item = {
 			{
 				17003,
-				22
+				33
 			}
 		},
 		destory_item = {
@@ -22311,7 +22311,7 @@ pg.equip_data_template = {
 		trans_use_item = {
 			{
 				17003,
-				26
+				39
 			}
 		},
 		destory_item = {
@@ -22355,7 +22355,7 @@ pg.equip_data_template = {
 		trans_use_item = {
 			{
 				17003,
-				30
+				45
 			}
 		},
 		destory_item = {
@@ -22870,7 +22870,7 @@ pg.equip_data_template = {
 		trans_use_item = {
 			{
 				17001,
-				1
+				2
 			}
 		},
 		destory_item = {
@@ -22893,7 +22893,7 @@ pg.equip_data_template = {
 		trans_use_item = {
 			{
 				17001,
-				3
+				5
 			}
 		},
 		destory_item = {
@@ -22925,7 +22925,7 @@ pg.equip_data_template = {
 		trans_use_item = {
 			{
 				17001,
-				5
+				8
 			}
 		},
 		destory_item = {
@@ -22957,7 +22957,7 @@ pg.equip_data_template = {
 		trans_use_item = {
 			{
 				17002,
-				8
+				12
 			}
 		},
 		destory_item = {
@@ -22989,7 +22989,7 @@ pg.equip_data_template = {
 		trans_use_item = {
 			{
 				17002,
-				11
+				16
 			}
 		},
 		destory_item = {
@@ -23029,7 +23029,7 @@ pg.equip_data_template = {
 		trans_use_item = {
 			{
 				17002,
-				14
+				21
 			}
 		},
 		destory_item = {
@@ -23069,7 +23069,7 @@ pg.equip_data_template = {
 		trans_use_item = {
 			{
 				17003,
-				18
+				27
 			}
 		},
 		destory_item = {
@@ -23109,7 +23109,7 @@ pg.equip_data_template = {
 		trans_use_item = {
 			{
 				17003,
-				22
+				33
 			}
 		},
 		destory_item = {
@@ -23153,7 +23153,7 @@ pg.equip_data_template = {
 		trans_use_item = {
 			{
 				17003,
-				26
+				39
 			}
 		},
 		destory_item = {
@@ -23197,7 +23197,7 @@ pg.equip_data_template = {
 		trans_use_item = {
 			{
 				17003,
-				30
+				45
 			}
 		},
 		destory_item = {

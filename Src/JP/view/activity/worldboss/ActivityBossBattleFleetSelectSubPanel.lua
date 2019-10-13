@@ -223,6 +223,7 @@ function slot0.updateShips(slot0, slot1, slot2, slot3, slot4)
 
 		if slot10 then
 			updateShip(slot12, slot10)
+			setActive(slot12:Find("event_block"), slot10.inEvent)
 		end
 
 		setActive(slot0:findTF("ship_type", slot12), false)
@@ -231,7 +232,14 @@ function slot0.updateShips(slot0, slot1, slot2, slot3, slot4)
 
 		slot13.onClicked:RemoveAllListeners()
 		slot13.onLongPressed:RemoveAllListeners()
-		slot13.onClicked:AddListener(slot14)
+		onButton(slot0, slot14, function ()
+			slot0:emit(ActivityBossBattleMediator3.ON_OPEN_DOCK, {
+				fleet = slot1,
+				shipVO = slot2,
+				fleetIndex = slot3,
+				teamType = slot3
+			})
+		end)
 		slot13.onLongPressed:AddListener(function ()
 			if slot0 then
 				slot1:OnLongPressShip(slot2[slot3], slot4)

@@ -26,6 +26,7 @@ end
 slot4 = require("view.equipment.EquipmentSortCfg")
 
 function slot0.init(slot0)
+	slot1 = slot0.contextData
 	slot0.topItems = slot0:findTF("topItems")
 	slot0.equipmentView = slot0:findTF("equipment_scrollview")
 	slot0.blurPanel = slot0:findTF("blur_panel")
@@ -45,40 +46,47 @@ function slot0.init(slot0)
 	setActive(slot0.sortTpl, false)
 
 	slot0.itemView = slot0:findTF("item_scrollview")
-	slot0.equipmentView:Find("equipment_grid"):GetComponent(typeof(GridLayoutGroup)).constraintCount = (slot0.itemView.rect.width > 2000 and 8) or 7
-	slot0.itemView:Find("item_grid"):GetComponent(typeof(GridLayoutGroup)).constraintCount = (slot0.itemView.rect.width > 2000 and 8) or 7
-	slot0.decBtn = findTF(slot0.topPanel, "buttons/dec_btn")
-	slot0.sortImgAsc = findTF(slot0.decBtn, "asc")
-	slot0.sortImgDec = findTF(slot0.decBtn, "desc")
-	slot0.equipmentBtn = slot0:findTF("blur_panel/adapt/left_length/frame/toggle_root/equipment")
-	slot0.equipmentSkinBtn = slot0:findTF("blur_panel/adapt/left_length/frame/toggle_root/skin")
-	slot0.filterBusyToggle = slot0:findTF("blur_panel/adapt/left_length/frame/toggle_equip")
+	slot2 = false
+	slot3 = getProxy(SettingsProxy)
 
-	setActive(slot0.filterBusyToggle, false)
+	if NotchAdapt.CheckNotchRatio == 2 or not slot3:CheckLargeScreen() then
+		slot2 = slot0.itemView.rect.width > 2000
+	else
+		slot0.equipmentView:Find("equipment_grid"):GetComponent(typeof(GridLayoutGroup)).constraintCount = (NotchAdapt.CheckNotchRatio >= 2 and 8) or 7
+		slot0.itemView:Find("item_grid"):GetComponent(typeof(GridLayoutGroup)).constraintCount = (NotchAdapt.CheckNotchRatio >= 2 and 8) or 7
+		slot0.decBtn = findTF(slot0.topPanel, "buttons/dec_btn")
+		slot0.sortImgAsc = findTF(slot0.decBtn, "asc")
+		slot0.sortImgDec = findTF(slot0.decBtn, "desc")
+		slot0.equipmentBtn = slot0:findTF("blur_panel/adapt/left_length/frame/toggle_root/equipment")
+		slot0.equipmentSkinBtn = slot0:findTF("blur_panel/adapt/left_length/frame/toggle_root/skin")
+		slot0.filterBusyToggle = slot0:findTF("blur_panel/adapt/left_length/frame/toggle_equip")
 
-	slot0.bottomBack = slot0:findTF("bottom_back", slot0.topItems)
-	slot0.bottomPanel = slot0:findTF("types", slot0.bottomBack)
-	slot0.materialToggle = slot0.bottomPanel:Find("material")
-	slot0.weaponToggle = slot0.bottomPanel:Find("weapon")
-	slot0.designToggle = slot0.bottomPanel:Find("design")
-	slot0.capacityTF = slot0:findTF("bottom_left/tip/capcity/Text", slot0.bottomBack)
-	slot0.tipTF = slot0:findTF("bottom_left/tip", slot0.bottomBack)
-	slot0.tip = slot0.tipTF:Find("label")
-	slot0.helpBtn = slot0:findTF("help_btn", slot0.topItems)
+		setActive(slot0.filterBusyToggle, false)
 
-	setActive(slot0.helpBtn, true)
+		slot0.bottomBack = slot0:findTF("bottom_back", slot0.topItems)
+		slot0.bottomPanel = slot0:findTF("types", slot0.bottomBack)
+		slot0.materialToggle = slot0.bottomPanel:Find("material")
+		slot0.weaponToggle = slot0.bottomPanel:Find("weapon")
+		slot0.designToggle = slot0.bottomPanel:Find("design")
+		slot0.capacityTF = slot0:findTF("bottom_left/tip/capcity/Text", slot0.bottomBack)
+		slot0.tipTF = slot0:findTF("bottom_left/tip", slot0.bottomBack)
+		slot0.tip = slot0.tipTF:Find("label")
+		slot0.helpBtn = slot0:findTF("help_btn", slot0.topItems)
 
-	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back_btn")
-	slot0.selectedMin = defaultValue(slot0.contextData.selectedMin, 1)
-	slot0.selectedMax = defaultValue(slot0.contextData.selectedMax, pg.gameset.equip_select_limit.key_value or 0)
-	slot0.selectedIds = Clone(slot0.contextData.selectedIds or {})
-	slot0.checkEquipment = slot0.contextData.onEquipment or function (slot0)
-		return true
+		setActive(slot0.helpBtn, true)
+
+		slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back_btn")
+		slot0.selectedMin = defaultValue(slot1.selectedMin, 1)
+		slot0.selectedMax = defaultValue(slot1.selectedMax, pg.gameset.equip_select_limit.key_value or 0)
+		slot0.selectedIds = Clone(slot1.selectedIds or {})
+		slot0.checkEquipment = slot1.onEquipment or function (slot0)
+			return true
+		end
+		slot0.onSelected = slot1.onSelected or function ()
+			warning("not implemented.")
+		end
+		slot0.BatchDisposeBtn = slot0:findTF("dispos", slot0.bottomPanel)
 	end
-	slot0.onSelected = slot0.contextData.onSelected or function ()
-		warning("not implemented.")
-	end
-	slot0.BatchDisposeBtn = slot0:findTF("dispos", slot0.bottomPanel)
 
 	if not slot0.BatchDisposeBtn then
 		slot0.BatchDisposeBtn = slot0:findTF("dispos", slot0.bottomBack)

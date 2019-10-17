@@ -26,14 +26,18 @@ function slot0.Update(slot0, slot1)
 
 	setActive(slot0.title1, slot0.phase == VoteGroup.VOTE_STAGE or slot0.phase == VoteGroup.STTLEMENT_STAGE)
 	setActive(slot0.title2, slot0.phase == VoteGroup.DISPLAY_STAGE)
+	slot0:UpdateList()
+end
+
+function slot0.UpdateList(slot0)
 	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			setText(slot2:Find("number"), slot1 + 1)
 			setText(slot2:Find("name"), shortenString(slot0[slot1 + 1].getShipName(slot3), 6))
-			setText(slot2:Find("Text"), slot1:GetVotes(slot0[slot1 + 1]))
+			setText(slot2:Find("Text"), slot1.voteGroup:GetVotes(slot0[slot1 + 1]))
 		end
 	end)
-	slot0.uilist:align(#slot1:getList())
+	slot0.uilist:align(#slot0.voteGroup:getList())
 end
 
 function slot0.OnDestroy(slot0)

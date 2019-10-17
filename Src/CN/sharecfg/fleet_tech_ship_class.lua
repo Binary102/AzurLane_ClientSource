@@ -1670,10 +1670,21 @@ pg.fleet_tech_ship_class = {
 		name = "IXC型",
 		t_level = 7,
 		id = 40803,
-		t_level_1 = 140,
+		t_level_1 = 141,
 		nation = 4,
 		ships = {
 			40807
+		}
+	},
+	[40804] = {
+		shiptype = 8,
+		name = "IXB型",
+		t_level = 7,
+		id = 40804,
+		t_level_1 = 140,
+		nation = 4,
+		ships = {
+			40808
 		}
 	},
 	[50101] = {
@@ -2030,6 +2041,7 @@ pg.fleet_tech_ship_class = {
 		40801,
 		40802,
 		40803,
+		40804,
 		50101,
 		50201,
 		50202,

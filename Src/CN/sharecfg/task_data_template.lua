@@ -78826,6 +78826,374 @@ pg.task_data_template = {
 			"ACT_BOSS_BATTLE"
 		}
 	},
+	[15050] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91890,
+		type = 6,
+		name = "SP1·通过任务 U110",
+		count_inherit = 0,
+		desc = "通关SP1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15051",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1270001,
+		id = 15050,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1270001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18012,
+				1
+			},
+			{
+				3,
+				2920,
+				1
+			},
+			{
+				3,
+				4040,
+				2
+			},
+			{
+				1,
+				2,
+				200
+			}
+		}
+	},
+	[15051] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91891,
+		type = 6,
+		name = "SP2·通过任务 U110",
+		count_inherit = 0,
+		desc = "通关SP2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15052",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1270002,
+		id = 15051,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1270002",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[15052] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91892,
+		type = 6,
+		name = "SP3·通过任务 U110",
+		count_inherit = 0,
+		desc = "通关SP3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1270003,
+		id = 15052,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1270003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		}
+	},
+	[15053] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91893,
+		type = 6,
+		name = "SP1·三星任务 U110",
+		count_inherit = 0,
+		desc = "完成SP1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15054",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1270001,
+		id = 15053,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1270001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[15054] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91894,
+		type = 6,
+		name = "SP2·三星任务 U110",
+		count_inherit = 0,
+		desc = "完成SP2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15055",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1270002,
+		id = 15054,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1270002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[15055] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91895,
+		type = 6,
+		name = "SP3·三星任务 U110",
+		count_inherit = 0,
+		desc = "完成SP3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1270003,
+		id = 15055,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1270003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[15056] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91896,
+		type = 6,
+		name = "U110sp3累计1",
+		count_inherit = 0,
+		desc = "通关10次SP3",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1270003,
+		id = 15056,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "1270003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				136,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15057] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91897,
+		type = 6,
+		name = "U110sp3累计2",
+		count_inherit = 0,
+		desc = "通关20次SP3",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1270003,
+		id = 15057,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "1270003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18012,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15058] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91898,
+		type = 6,
+		name = "U110sp3累计3",
+		count_inherit = 0,
+		desc = "通关40次SP3",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1270003,
+		id = 15058,
+		target_num = 40,
+		fix_task = 0,
+		target_id = "1270003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15059] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91899,
+		type = 6,
+		name = "U110sp3累计4",
+		count_inherit = 0,
+		desc = "通关60次SP3",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1270003,
+		id = 15059,
+		target_num = 60,
+		fix_task = 0,
+		target_id = "1270003",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				408081,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
 	[30101] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -88381,6 +88749,16 @@ pg.task_data_template = {
 		15039,
 		15040,
 		15041,
+		15050,
+		15051,
+		15052,
+		15053,
+		15054,
+		15055,
+		15056,
+		15057,
+		15058,
+		15059,
 		30101,
 		30102,
 		30103,

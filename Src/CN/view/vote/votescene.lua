@@ -30,6 +30,7 @@ function slot0.init(slot0)
 	slot0.title = slot0:findTF("main/right_panel/title/main"):GetComponent(typeof(Text))
 	slot0.titleBg1 = slot0:findTF("main/right_panel/title/title_bg1")
 	slot0.titleBg2 = slot0:findTF("main/right_panel/title/title_bg2")
+	slot0.titleBg3 = slot0:findTF("main/right_panel/title/title_bg3")
 	slot0.subTitle = slot0:findTF("main/right_panel/title/Text"):GetComponent(typeof(Text))
 	slot0.tagtimeTF = slot0:findTF("main/right_panel/title/sub"):GetComponent(typeof(Text))
 	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back_btn")
@@ -72,6 +73,10 @@ function slot0.didEnter(slot0)
 		[12] = {
 			VoteGroupRaceShipPage,
 			VoteGroupRaceRankPage
+		},
+		[13] = {
+			VoteFinalsRaceShipsPage,
+			VoteFinalsRaceRankPage
 		}
 	}
 	slot0.shipsPage = slot0.PAGES[slot0.voteGroup.id][1].New(slot0:findTF("main/right_panel"), slot0.event)
@@ -121,8 +126,9 @@ function slot0.UpdateMode(slot0)
 
 	setActive(slot0.filterBtn, not slot1)
 	setActive(slot0.urlBtn, slot1)
-	setActive(slot0.titleBg1, not slot1)
+	setActive(slot0.titleBg1, not slot1 and not slot0.voteGroup:isFinalsRace())
 	setActive(slot0.titleBg2, slot1)
+	setActive(slot0.titleBg3, slot0.voteGroup.isFinalsRace())
 end
 
 function slot0.OnVote(slot0, slot1, slot2)
@@ -168,7 +174,11 @@ end
 function slot0.initTitles(slot0)
 	slot1 = slot0.voteGroup:getConfig("time_vote")
 	slot0.tagtimeTF.text = slot0.voteGroup:getTimeDesc()
-	slot0.title.text = slot0.voteGroup:getConfig("name")
+
+	if not slot0.voteGroup:isFinalsRace() then
+		slot0.title.text = slot0.voteGroup:getConfig("name")
+	end
+
 	slot0.subTitle.text = slot0.voteGroup:getConfig("desc")
 end
 

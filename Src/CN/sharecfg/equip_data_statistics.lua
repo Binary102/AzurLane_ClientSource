@@ -62908,6 +62908,49 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[73321] = {
+		name = "全弹发射-Type IXB型I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "无",
+		descrip = "技能弹幕",
+		value_3 = 0,
+		id = 73321,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			73321
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[73322] = {
+		id = 73322,
+		name = "全弹发射-Type IXB型II",
+		base = 73321,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			73322
+		},
+		property_rate = {}
+	},
 	[73411] = {
 		name = "全弹发射-Type VIIB型I",
 		type = 1,
@@ -74473,6 +74516,8 @@ pg.equip_data_statistics = {
 		73222,
 		73311,
 		73312,
+		73321,
+		73322,
 		73411,
 		73412,
 		73511,

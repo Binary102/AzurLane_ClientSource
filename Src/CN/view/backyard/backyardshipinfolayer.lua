@@ -172,11 +172,14 @@ function slot0.init(slot0)
 	slot0.uiList = UIItemList.New(slot0:findTF("main/frame/panel/scrollview/ships"), slot0:findTF("main/frame/panel/scrollview/ships/tpl"))
 	slot0.panelDesc = slot0:findTF("main/frame/panel/desc"):GetComponent(typeof(Text))
 	slot0.backyardui = GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)")
+	slot0.backyardEffect = GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui/effects")
 end
 
 function slot0.EnableUI(slot0, slot1)
 	GetOrAddComponent(slot0._tf, typeof(CanvasGroup)).blocksRaycasts = slot1
 	GetOrAddComponent(slot0.backyardui, typeof(CanvasGroup)).blocksRaycasts = slot1
+
+	setActive(slot0.backyardEffect, slot1)
 end
 
 function slot0.didEnter(slot0)

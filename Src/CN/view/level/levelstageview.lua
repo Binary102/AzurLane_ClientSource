@@ -1429,13 +1429,15 @@ function slot0.tryAutoAction(slot0, slot1)
 				end
 
 				if slot0 then
-					slot0:doPlayAnim(slot0, function (slot0)
-						setActive(slot0, false)
-						slot0()
+					slot0:emit(LevelUIConst.DO_PLAY_ANIM, {
+						name = slot0,
+						callback = function (slot0)
+							setActive(slot0, false)
+							slot0()
 
-						return
-					end)
-					coroutine.yield()
+							return
+						end
+					})
 				end
 
 				if slot4:getSpAppearStory() and #slot1 > 0 then

@@ -312,12 +312,14 @@ function slot0.initHelpMsg(slot0)
 				end
 			end
 
-			for slot8 = 1, #slot1.rate_tip, 1 do
-				slot9 = nil
+			slot6 = (getProxy(ActivityProxy):getBuildTipActivityByID(slot1.id) and slot5) or slot1.rate_tip
 
-				if (slot8 > slot3 or slot0.tipListTF:GetChild(slot8 - 1)) and cloneTplTo(slot0.tipListTpl, slot0.tipListTF) then
-					setActive(slot9, true)
-					setText(slot9, slot4[slot8])
+			for slot10 = 1, #slot6, 1 do
+				slot11 = nil
+
+				if (slot10 > slot3 or slot0.tipListTF:GetChild(slot10 - 1)) and cloneTplTo(slot0.tipListTpl, slot0.tipListTF) then
+					setActive(slot11, true)
+					setText(slot11, slot6[slot10])
 				end
 			end
 

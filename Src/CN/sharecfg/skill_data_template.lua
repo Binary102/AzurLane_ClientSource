@@ -28132,6 +28132,55 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[12690] = {
+		desc_get = "",
+		name = "Enigma",
+		desc = "进入战斗时，随机为我方在场的所有铁血阵营角色提供一种增益$1，持续至战斗结束",
+		type = 3,
+		max_level = 10,
+		id = 12690,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV型穿甲弹 +",
@@ -32246,6 +32295,28 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 23312,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[23321] = {
+		desc_get = "",
+		name = "全弹发射I",
+		desc = "进入战斗时，触发全弹发射-Type IXB型I",
+		type = 1,
+		max_level = 1,
+		id = 23321,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[23322] = {
+		desc_get = "",
+		name = "全弹发射II",
+		desc = "进入战斗时，触发全弹发射-Type IXB型II",
+		type = 1,
+		max_level = 1,
+		id = 23322,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -36716,6 +36787,7 @@ pg.skill_data_template = {
 		12660,
 		12670,
 		12680,
+		12690,
 		18010,
 		18040,
 		18050,
@@ -36896,6 +36968,8 @@ pg.skill_data_template = {
 		23222,
 		23311,
 		23312,
+		23321,
+		23322,
 		23411,
 		23412,
 		23511,

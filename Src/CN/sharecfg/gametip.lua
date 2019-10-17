@@ -9015,15 +9015,15 @@ $3]],
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
-		tip = "鳗 建造追加",
+		tip = "鳗 建造追加！",
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "莲 建造追加",
+		tip = "莲 建造追加！",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "鹩 建造追加",
+		tip = "鹩 建造追加！",
 		key = "buildship_special_tip"
 	},
 	open_skill_pos = {

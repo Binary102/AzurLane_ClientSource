@@ -3140,6 +3140,16 @@ function slot5(slot0, slot1)
 			slot11 = true
 
 			slot7(slot8, slot9, slot10, slot11)
+
+			slot7 = slot3.tfBufficons
+
+			if slot7 then
+				slot8 = setActive
+				slot9 = slot7
+				slot10 = false
+
+				slot8(slot9, slot10)
+			end
 		else
 			setActive(slot3.tfFighting, slot5 and slot2:existEnemy(ChapterConst.SubjectChampion, slot4.row, slot4.column))
 

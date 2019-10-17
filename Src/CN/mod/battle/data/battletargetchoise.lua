@@ -413,6 +413,27 @@ ys.Battle.BattleTargetChoise = {
 
 		return slot4
 	end,
+	TargetInsideArea = function (slot0, slot1, slot2)
+		slot3 = slot2 or slot0:TargetAllHarm()
+		slot5 = slot1.lineX
+		slot6 = {}
+
+		if (slot1.dir or ys.Battle.BattleConst.UnitDir.RIGHT) == ys.Battle.BattleConst.UnitDir.RIGHT then
+			for slot10, slot11 in ipairs(slot3) do
+				if slot5 <= slot11:GetPosition().x then
+					table.insert(slot6, slot11)
+				end
+			end
+		elseif slot4 == ys.Battle.BattleConst.UnitDir.LEFT then
+			for slot10, slot11 in ipairs(slot3) do
+				if slot11:GetPosition().x <= slot5 then
+					table.insert(slot6, slot11)
+				end
+			end
+		end
+
+		return slot6
+	end,
 	TargetAircraftHelp = function (slot0)
 		slot2 = {}
 		slot3 = slot0:GetIFF()

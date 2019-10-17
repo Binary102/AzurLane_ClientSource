@@ -1172,6 +1172,7 @@ pg.activity_template = {
 	[383] = {
 		mark = 20190926,
 		title_res_tag = "",
+		time = "stop",
 		type = 55,
 		login_pop = 0,
 		config_id = 0,
@@ -1183,33 +1184,6 @@ pg.activity_template = {
 			1,
 			2,
 			3
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					9,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[384] = {
@@ -1612,6 +1586,190 @@ pg.activity_template = {
 					59,
 					59
 				}
+			}
+		}
+	},
+	[394] = {
+		mark = 20191017,
+		title_res_tag = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 394,
+		config_data = {
+			1270001,
+			1270002,
+			1270003
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[395] = {
+		mark = 20191017,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 395,
+		config_data = {
+			15050,
+			15051,
+			15052,
+			15053,
+			15054,
+			15055
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[396] = {
+		mark = 20191017,
+		title_res_tag = "leiji_u110",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 10,
+		config_client = "",
+		id = 396,
+		config_data = {
+			15056,
+			15057,
+			15058,
+			15059
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_u110leiji"
+		}
+	},
+	[397] = {
+		mark = 20191017,
+		title_res_tag = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_397",
+		bg = "",
+		id = 397,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 1,
+			bg = "loadingbg/bg_build_1_act",
+			rate_tip = {
+				"<color=#ffde38>SSレア</color>：7%",
+				"<color=#d797ff>Sレア</color>：12%",
+				"<color=#3dc6ff>レア</color>：26%",
+				"ノーマル：55%",
+				"<color=#d797ff>U110</color>：1.4%<color=#92FC63>(up!)</color>"
 			}
 		}
 	},
@@ -3869,6 +4027,10 @@ pg.activity_template = {
 		391,
 		392,
 		393,
+		394,
+		395,
+		396,
+		397,
 		10006,
 		10056,
 		10123,

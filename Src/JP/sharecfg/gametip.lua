@@ -8998,7 +8998,7 @@ pg.gametip = {
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "「大鳳」常設追加！",
+		tip = "U-110の出現率UP!",
 		key = "buildship_special_tip"
 	},
 	open_skill_pos = {

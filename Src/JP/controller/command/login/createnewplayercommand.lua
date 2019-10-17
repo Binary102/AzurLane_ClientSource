@@ -12,7 +12,7 @@ class("CreateNewPlayerCommand", pm.SimpleCommand).execute = function (slot0, slo
 	}, 10025, function (slot0)
 		if slot0.result == 0 then
 			print("created new player: " .. slot0.user_id)
-			pg.TrackerMgr.GetInstance():Tracking(TRACKING_ROLE_CREATE)
+			pg.TrackerMgr.GetInstance():Tracking(TRACKING_ROLE_CREATE, nil, slot0.user_id)
 			pg.TrackerMgr.GetInstance():Tracking(TRACKING_ROLE_CREATE)
 
 			slot1 = getProxy(SettingsProxy)

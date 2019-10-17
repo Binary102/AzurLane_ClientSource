@@ -553,17 +553,17 @@ function slot6.FilterRange(slot0, slot1)
 end
 
 function slot6.FilterSquare(slot0, slot1)
-	slot2 = slot0.Battle.BattleTargetChoise.TargetWeightiest(slot0._host, nil, slot1)
+	slot6 = slot0.Battle.BattleTargetChoise.TargetWeightiest(slot0._host, nil, slot5)
 
-	for slot6 = #slot1, 1, -1 do
-		if slot0:IsOutOfSquare(slot1[slot6]) then
-			table.remove(slot1, slot6)
+	for slot10 = #slot1, 1, -1 do
+		if slot0:IsOutOfSquare(slot1[slot10]) then
+			table.remove(slot1, slot10)
 		end
 	end
 
-	for slot6 = #slot1, 1, -1 do
-		if not table.contains(slot2, slot1[slot6]) then
-			table.remove(slot1, slot6)
+	for slot10 = #slot1, 1, -1 do
+		if not table.contains(slot6, slot1[slot10]) then
+			table.remove(slot1, slot10)
 		end
 	end
 
@@ -618,9 +618,16 @@ end
 
 function slot6.IsOutOfSquare(slot0, slot1)
 	slot3 = false
+	slot4 = (slot1:GetPosition().x - slot0._hostPos.x) * slot0:GetDirection()
 
-	if ((slot1:GetPosition().x - slot0._hostPos.x) * slot0:GetDirection() > 0 and slot4 <= slot0._frontRange) or (slot4 < 0 and math.abs(slot4) < slot0._backRange) then
-		slot3 = true
+	if slot0._backRange < 0 then
+		if slot4 > 0 and slot4 <= slot0._frontRange and math.abs(slot0._backRange) <= slot4 then
+			slot3 = true
+		end
+	else
+		if (slot4 > 0 and slot4 <= slot0._frontRange) or (slot4 < 0 and math.abs(slot4) < slot0._backRange) then
+			slot3 = true
+		end
 	end
 
 	if not slot3 then

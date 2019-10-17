@@ -240,6 +240,10 @@ slot1 = {
 	[ActivityConst.TWCELEBRATION_4] = {
 		className = "TWCelebrationPage4",
 		uiName = "twcelebration4"
+	},
+	[ActivityConst.ACTIVITY_U110_BATTLE_PAGE] = {
+		className = "U110BattlePage",
+		uiName = "U110BattlePage"
 	}
 }
 slot2 = {}

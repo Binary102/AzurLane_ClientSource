@@ -55,6 +55,12 @@ slot5 = {
 	50124
 }
 slot4[8] = slot5
+slot5 = {
+	"dance",
+	2,
+	100009
+}
+slot4[9] = slot5
 
 function slot5(slot0, slot1, slot2)
 	slot3 = pg

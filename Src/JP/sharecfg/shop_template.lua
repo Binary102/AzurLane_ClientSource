@@ -6821,6 +6821,60 @@ pg.shop_template = {
 			}
 		}
 	},
+	[60171] = {
+		group_type = 0,
+		resource_num = 120,
+		desc = "120钻石购买限时攻略补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60171,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				2
+			}
+		},
+		effect_args = {
+			40117
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[61001] = {
 		group_type = 0,
 		resource_num = 200,
@@ -19494,6 +19548,55 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70252] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：U110JK",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 1,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70252,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			408081
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[90001] = {
 		group_type = 0,
 		resource_num = 1,
@@ -20084,6 +20187,7 @@ pg.shop_template = {
 		tag = 0,
 		time_second = 172800,
 		order = 2,
+		time = "stop",
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -20094,32 +20198,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			203071
-		},
-		time = {
-			{
-				{
-					2019,
-					10,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[90023] = {
@@ -20133,6 +20211,7 @@ pg.shop_template = {
 		tag = 0,
 		time_second = 172800,
 		order = 1,
+		time = "stop",
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -20143,32 +20222,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			305026
-		},
-		time = {
-			{
-				{
-					2019,
-					10,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[90024] = {
@@ -20182,6 +20235,7 @@ pg.shop_template = {
 		tag = 0,
 		time_second = 172800,
 		order = 3,
+		time = "stop",
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -20192,13 +20246,36 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			206032
+		}
+	},
+	[90025] = {
+		group_type = 0,
+		resource_num = 1,
+		desc = "限时皮肤体验：U110JK",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 172800,
+		order = 1,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 136,
+		id = 90025,
+		genre = "skin_shop_timelimit",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			408081
 		},
 		time = {
 			{
 				{
 					2019,
 					10,
-					10
+					17
 				},
 				{
 					0,
@@ -20210,7 +20287,105 @@ pg.shop_template = {
 				{
 					2019,
 					10,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[90026] = {
+		group_type = 0,
+		resource_num = 1,
+		desc = "限时皮肤体验：光辉的舞会",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 172800,
+		order = 2,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 136,
+		id = 90026,
+		genre = "skin_shop_timelimit",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			207032
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
 					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[90027] = {
+		group_type = 0,
+		resource_num = 1,
+		desc = "限时皮肤体验：乐队型鬼神",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 172800,
+		order = 3,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 136,
+		id = 90027,
+		genre = "skin_shop_timelimit",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			301053
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					24
 				},
 				{
 					23,
@@ -20435,6 +20610,7 @@ pg.shop_template = {
 		60168,
 		60169,
 		60170,
+		60171,
 		61001,
 		61002,
 		61003,
@@ -20691,6 +20867,7 @@ pg.shop_template = {
 		70249,
 		70250,
 		70251,
+		70252,
 		90001,
 		90002,
 		90003,
@@ -20714,7 +20891,10 @@ pg.shop_template = {
 		90021,
 		90022,
 		90023,
-		90024
+		90024,
+		90025,
+		90026,
+		90027
 	}
 }
 

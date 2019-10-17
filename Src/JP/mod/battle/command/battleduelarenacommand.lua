@@ -55,6 +55,12 @@ function slot3.DoPrologue(slot0)
 
 	for slot8, slot9 in pairs(slot4) do
 		slot9:FleetWarcry()
+
+		for slot14, slot15 in ipairs(slot10) do
+			for slot21, slot22 in ipairs(slot17) do
+				slot15:AddBuff(slot0.Battle.BattleBuffUnit.New(slot22))
+			end
+		end
 	end
 
 	slot0._uiMediator:EnableWeaponButton(false)

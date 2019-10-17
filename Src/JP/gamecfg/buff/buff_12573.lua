@@ -4,7 +4,8 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					rant = 7000,
@@ -19,7 +20,8 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					rant = 7330,
@@ -34,7 +36,8 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					rant = 7660,
@@ -49,7 +52,8 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					rant = 7990,
@@ -64,7 +68,8 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					rant = 8320,
@@ -79,7 +84,8 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					rant = 8650,
@@ -94,7 +100,8 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					rant = 8980,
@@ -109,7 +116,8 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					rant = 9310,
@@ -124,7 +132,8 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					rant = 9640,
@@ -139,7 +148,8 @@ return {
 			{
 				type = "BattleBuffCastSkill",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onStack"
 				},
 				arg_list = {
 					rant = 10000,
@@ -155,7 +165,7 @@ return {
 	id = 12573,
 	picture = "",
 	desc = "概率触发器",
-	stack = 1,
+	stack = 2,
 	color = "red",
 	icon = 12570,
 	last_effect = "",

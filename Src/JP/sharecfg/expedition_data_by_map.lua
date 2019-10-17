@@ -4763,6 +4763,47 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1270001] = {
+		map = 1270001,
+		name = "鉄血鮫とエニグマ|| ||CHAPTER SP||S.P.",
+		bgm = "level02",
+		type = 3,
+		on_activity = 394,
+		title = "SP",
+		drop_by_map_display = "",
+		enter_story = "ZUIZHENGUIDEBAOWU1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "purple",
+		bg = "Map_1250001",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『紅染の来訪者』-前編|| ||CHAPTER EX||E.X.",
@@ -5413,6 +5454,7 @@ pg.expedition_data_by_map = {
 		1260012,
 		1260025,
 		1260026,
+		1270001,
 		2100000,
 		2100001,
 		2100010,

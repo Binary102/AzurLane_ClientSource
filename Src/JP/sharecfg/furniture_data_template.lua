@@ -3474,7 +3474,7 @@ pg.furniture_data_template = {
 		interAction_group = {}
 	},
 	[100009] = {
-		can_rotate = 0,
+		can_rotate = 1,
 		name = "カラクリステージ",
 		gain_by = "",
 		type = 7,
@@ -3500,14 +3500,13 @@ pg.furniture_data_template = {
 		dorm_id = 0,
 		gem_price = 120,
 		themeId = 0,
-		spine_extra = "",
 		time = "always",
 		spine_action_replace = "",
 		new = 1,
 		discount_time = "",
 		size = {
-			10,
-			8
+			18,
+			10
 		},
 		offset = {},
 		canputonGrid = {},
@@ -3516,11 +3515,11 @@ pg.furniture_data_template = {
 		},
 		spine = {
 			{
-				"xingguangwutaiB",
+				"manjuustageB",
 				"normal"
 			},
 			{
-				"xingguangwutaiT"
+				"manjuustageT"
 			},
 			{
 				{
@@ -3529,54 +3528,49 @@ pg.furniture_data_template = {
 				},
 				{
 					{
-						"walk1",
-						0,
-						"walk"
-					},
-					{
-						"dance",
-						0,
-						"stand2"
-					},
-					{
-						"walk2",
-						0,
-						"walk"
-					},
-					{
-						"motou",
-						0,
 						"dance"
-					},
-					{
-						"dance2",
-						0,
-						"dance"
-					},
-					{
-						"normal",
-						0,
-						"walk"
 					}
 				},
 				{},
 				{
-					0
+					1
 				}
 			},
 			{},
 			{
 				0,
 				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
 			},
 			{
-				1,
-				1
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
 			}
 		},
 		animator = {
 			{
-				"xingguangwutaiCharControl"
+				"manjuustageCharControl",
+				"manjuustageCharControl2",
+				"manjuustageCharControl3"
 			}
 		},
 		interAction_group = {}

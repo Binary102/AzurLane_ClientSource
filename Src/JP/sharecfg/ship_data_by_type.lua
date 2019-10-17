@@ -29,6 +29,9 @@ pg.ship_data_by_type = {
 			6,
 			7,
 			12
+		},
+		arena_buff = {
+			51
 		}
 	},
 	{
@@ -60,6 +63,9 @@ pg.ship_data_by_type = {
 			6,
 			7,
 			12
+		},
+		arena_buff = {
+			52
 		}
 	},
 	{
@@ -91,6 +97,9 @@ pg.ship_data_by_type = {
 			6,
 			7,
 			12
+		},
+		arena_buff = {
+			53
 		}
 	},
 	{
@@ -122,6 +131,9 @@ pg.ship_data_by_type = {
 			6,
 			7,
 			12
+		},
+		arena_buff = {
+			54
 		}
 	},
 	{
@@ -153,6 +165,9 @@ pg.ship_data_by_type = {
 			6,
 			7,
 			12
+		},
+		arena_buff = {
+			55
 		}
 	},
 	{
@@ -184,6 +199,9 @@ pg.ship_data_by_type = {
 			13,
 			8,
 			12
+		},
+		arena_buff = {
+			56
 		}
 	},
 	{
@@ -215,6 +233,9 @@ pg.ship_data_by_type = {
 			13,
 			8,
 			12
+		},
+		arena_buff = {
+			57
 		}
 	},
 	{
@@ -246,7 +267,8 @@ pg.ship_data_by_type = {
 			6,
 			7,
 			12
-		}
+		},
+		arena_buff = {}
 	},
 	{
 		distory_resource_gold_ratio = 55,
@@ -277,6 +299,9 @@ pg.ship_data_by_type = {
 			3,
 			8,
 			12
+		},
+		arena_buff = {
+			53
 		}
 	},
 	{
@@ -308,6 +333,9 @@ pg.ship_data_by_type = {
 			3,
 			8,
 			12
+		},
+		arena_buff = {
+			55
 		}
 	},
 	{
@@ -339,6 +367,9 @@ pg.ship_data_by_type = {
 			6,
 			7,
 			12
+		},
+		arena_buff = {
+			52
 		}
 	},
 	{
@@ -370,7 +401,8 @@ pg.ship_data_by_type = {
 			6,
 			7,
 			12
-		}
+		},
+		arena_buff = {}
 	},
 	{
 		distory_resource_gold_ratio = 30,
@@ -401,7 +433,8 @@ pg.ship_data_by_type = {
 			6,
 			7,
 			12
-		}
+		},
+		arena_buff = {}
 	},
 	[17] = {
 		distory_resource_gold_ratio = 10,
@@ -432,7 +465,8 @@ pg.ship_data_by_type = {
 			10,
 			9,
 			12
-		}
+		},
+		arena_buff = {}
 	},
 	[18] = {
 		distory_resource_gold_ratio = 60,
@@ -463,6 +497,9 @@ pg.ship_data_by_type = {
 			6,
 			7,
 			12
+		},
+		arena_buff = {
+			53
 		}
 	},
 	all = {

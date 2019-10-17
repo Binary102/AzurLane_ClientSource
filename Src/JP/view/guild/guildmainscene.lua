@@ -202,14 +202,10 @@ function slot0.initToggles(slot0)
 				slot0:closePage(slot0.closePage)
 			end
 		end, SFX_PANEL)
-
-		if slot6 == slot1 then
-			setActive(slot0.toggles[slot6], false)
-		end
 	end
 
 	slot0:updateEventBtn(getProxy(GuildProxy).eventTip)
-	setActive(slot0.toggles[], slot0.activity and not slot0.activity:isEnd())
+	slot1(slot0.toggles[slot1], slot0.activity and not slot0.activity:isEnd())
 end
 
 function slot0.updateEventBtn(slot0, slot1)
@@ -480,7 +476,7 @@ function slot0.updateModifyPanel(slot0)
 			return
 		end
 
-		if not nameValidityCheck(slot1, 0, 20, {
+		if slot0.guildVO:getName() ~= slot1 and not nameValidityCheck(slot1, 0, 20, {
 			"spece_illegal_tip",
 			"login_newPlayerScene_name_tooShort",
 			"login_newPlayerScene_name_tooLong",

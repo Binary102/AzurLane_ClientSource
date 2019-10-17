@@ -28113,6 +28113,55 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[12690] = {
+		desc_get = "",
+		name = "暗号当てゲーム",
+		desc = "戦闘開始時、ランダムで鉄血艦隊に一種類の強化効果$1を付与する。この強化効果は戦闘終了時まで持続する",
+		type = 3,
+		max_level = 10,
+		id = 12690,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV徹甲弾 +",
@@ -32060,7 +32109,7 @@ pg.skill_data_template = {
 	},
 	[22311] = {
 		desc_get = "",
-		name = "全弾発射Ⅰ",
+		name = "全弾発射-伊号潜水艦Ⅰ",
 		desc = "戦闘開始時、全弾発射-伊号潜水艦Ⅰを発動する",
 		type = 1,
 		max_level = 1,
@@ -32071,7 +32120,7 @@ pg.skill_data_template = {
 	},
 	[22312] = {
 		desc_get = "",
-		name = "全弾発射Ⅱ",
+		name = "全弾発射-伊号潜水艦Ⅱ",
 		desc = "戦闘開始時、全弾発射-伊号潜水艦Ⅱを発動する",
 		type = 1,
 		max_level = 1,
@@ -32278,6 +32327,28 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[23321] = {
+		desc_get = "",
+		name = "全弾発射-Type IXB型I",
+		desc = "戦闘開始時、全弾発射-Type IXB型Ⅰを発動する",
+		type = 1,
+		max_level = 1,
+		id = 23321,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[23322] = {
+		desc_get = "",
+		name = "全弾発射-Type IXB型II",
+		desc = "戦闘開始時、全弾発射-Type IXB型Ⅱを発動する",
+		type = 1,
+		max_level = 1,
+		id = 23322,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[23411] = {
 		desc_get = "",
 		name = "全弾発射-Type VIIB型I",
@@ -32302,7 +32373,7 @@ pg.skill_data_template = {
 	},
 	[23511] = {
 		desc_get = "",
-		name = "全弾発射I-Type IXC型I",
+		name = "全弾発射-Type IXC型I",
 		desc = "戦闘開始時、全弾発射-Type IXC型Iを発動する",
 		type = 1,
 		max_level = 1,
@@ -32313,7 +32384,7 @@ pg.skill_data_template = {
 	},
 	[23512] = {
 		desc_get = "",
-		name = "全弾発射II-Type IXC型II",
+		name = "全弾発射-Type IXC型II",
 		desc = "戦闘開始時、全弾発射-Type IXC型IIを発動する",
 		type = 1,
 		max_level = 1,
@@ -36536,6 +36607,7 @@ pg.skill_data_template = {
 		12660,
 		12670,
 		12680,
+		12690,
 		18010,
 		18040,
 		18050,
@@ -36716,6 +36788,8 @@ pg.skill_data_template = {
 		23222,
 		23311,
 		23312,
+		23321,
+		23322,
 		23411,
 		23412,
 		23511,

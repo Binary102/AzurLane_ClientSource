@@ -1,5 +1,5 @@
 return {
-	id = "NG0010",
+	id = "NG0012",
 	once = true,
 	events = {
 		{

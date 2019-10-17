@@ -3229,6 +3229,211 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1190000] = {
+		map = 1190000,
+		name = "싸늘한 겨울의 왕관 - 전편|| ||EXTRA CHAPTER||EX.",
+		bgm = "Story-6",
+		type = 4,
+		on_activity = 20289,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "LINGDONG01",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "icestorm",
+		cloud_suffix = "",
+		bg = "Map_1090000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1190010,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1190001] = {
+		map = 1190001,
+		name = "싸늘한 겨울의 왕관 - 후편|| ||EXTRA CHAPTER||EX.",
+		bgm = "level03",
+		type = 4,
+		on_activity = 20290,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "LINGDONG11",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "icestorm_hard",
+		cloud_suffix = "",
+		bg = "Map_1090001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1190011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1190010] = {
+		map = 1190010,
+		name = "싸늘한 겨울의 왕관 - 전편|| ||EXTRA CHAPTER||EX.",
+		bgm = "Story-6",
+		type = 5,
+		on_activity = 20289,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "LINGDONG01",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "icestorm",
+		cloud_suffix = "",
+		bg = "Map_1090000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1190000,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1190011] = {
+		map = 1190011,
+		name = "싸늘한 겨울의 왕관 - 후편|| ||EXTRA CHAPTER||EX.",
+		bgm = "level03",
+		type = 5,
+		on_activity = 20290,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "LINGDONG11",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "icestorm_hard",
+		cloud_suffix = "",
+		bg = "Map_1090001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1190001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1190021] = {
+		map = 1190021,
+		name = "싸늘한 겨울의 왕관 - 엑스트라|| ||EXTRA CHAPTER||EX.",
+		bgm = "level03",
+		type = 8,
+		on_activity = 20290,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "icestorm_hard",
+		cloud_suffix = "",
+		bg = "Map_1090001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1190011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1200100] = {
 		map = 1200100,
 		name = "피오르드의 별|| ||CHAPTER SP||S.P. ",
@@ -4513,6 +4718,11 @@ pg.expedition_data_by_map = {
 		1180011,
 		1180012,
 		1180021,
+		1190000,
+		1190001,
+		1190010,
+		1190011,
+		1190021,
 		1200100,
 		1220001,
 		1220021,

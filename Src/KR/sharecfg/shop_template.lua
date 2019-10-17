@@ -2737,6 +2737,32 @@ pg.shop_template = {
 			30312
 		}
 	},
+	[31990] = {
+		group_type = 0,
+		resource_num = 7000,
+		desc = "7000物资兑换1个外观装备箱",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 0,
+		order = 0,
+		time = "always",
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 1,
+		id = 31990,
+		genre = "shopping_street",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			30311
+		}
+	},
 	[31991] = {
 		group_type = 0,
 		resource_num = 7000,
@@ -6476,6 +6502,118 @@ pg.shop_template = {
 					2019,
 					6,
 					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[60164] = {
+		group_type = 0,
+		resource_num = 120,
+		desc = "120钻石购买限时攻略补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 60164,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				5
+			}
+		},
+		effect_args = {
+			40117
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[60165] = {
+		group_type = 0,
+		resource_num = 980,
+		desc = "980钻石购买限时建造补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 60165,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			40118
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					30
 				},
 				{
 					23,
@@ -12566,6 +12704,261 @@ pg.shop_template = {
 			301211
 		}
 	},
+	[70141] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤：胜利-常服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 824,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70141,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			207041
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70142] = {
+		group_type = 0,
+		resource_num = 700,
+		desc = "购买皮肤：谢菲尔德-常服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 823,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70142,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			202081
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70143] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤：约克公爵-晚礼服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 820,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70143,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			205072
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70144] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：牙买加-常服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 822,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70144,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			202171
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70145] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤：天狼星-晚礼服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 821,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70145,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			202201
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70146] = {
 		group_type = 0,
 		resource_num = 1180,
@@ -17501,6 +17894,7 @@ pg.shop_template = {
 		tag = 0,
 		time_second = 172800,
 		order = 1,
+		time = "stop",
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -17513,32 +17907,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			203071
-		},
-		time = {
-			{
-				{
-					2019,
-					10,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[90023] = {
@@ -17552,6 +17920,7 @@ pg.shop_template = {
 		tag = 0,
 		time_second = 172800,
 		order = 2,
+		time = "stop",
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -17564,32 +17933,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			305026
-		},
-		time = {
-			{
-				{
-					2019,
-					10,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[90024] = {
@@ -17603,6 +17946,7 @@ pg.shop_template = {
 		tag = 0,
 		time_second = 172800,
 		order = 3,
+		time = "stop",
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -17615,32 +17959,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			206032
-		},
-		time = {
-			{
-				{
-					2019,
-					10,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[99001] = {
@@ -18131,6 +18449,159 @@ pg.shop_template = {
 			202151
 		}
 	},
+	[99014] = {
+		group_type = 0,
+		resource_num = 1,
+		desc = "限时皮肤体验：天狼星",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 172800,
+		order = 2,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 136,
+		id = 99014,
+		genre = "skin_shop_timelimit",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			202201
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[99015] = {
+		group_type = 0,
+		resource_num = 1,
+		desc = "限时皮肤体验：约克公爵",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 172800,
+		order = 1,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 136,
+		id = 99015,
+		genre = "skin_shop_timelimit",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			205072
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[99016] = {
+		group_type = 0,
+		resource_num = 1,
+		desc = "限时皮肤体验：胜利",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 172800,
+		order = 3,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 136,
+		id = 99016,
+		genre = "skin_shop_timelimit",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			207041
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -18235,6 +18706,7 @@ pg.shop_template = {
 		31987,
 		31988,
 		31989,
+		31990,
 		31991,
 		31992,
 		31993,
@@ -18325,6 +18797,8 @@ pg.shop_template = {
 		60161,
 		60162,
 		60163,
+		60164,
+		60165,
 		60166,
 		60167,
 		60168,
@@ -18477,6 +18951,11 @@ pg.shop_template = {
 		70137,
 		70138,
 		70139,
+		70141,
+		70142,
+		70143,
+		70144,
+		70145,
 		70146,
 		70147,
 		70148,
@@ -18591,7 +19070,10 @@ pg.shop_template = {
 		99010,
 		99011,
 		99012,
-		99013
+		99013,
+		99014,
+		99015,
+		99016
 	}
 }
 

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=45>六 谢菲尔德的心意·上</size>",
+					"탄환과, 사랑을 담아\n\n<size=45>6. 셰필드의 마음-상</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·卧室",
+			say = "모항-자신의 방",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			actor = 202080,
 			nameColor = "#92fc63",
-			say = "早上好，主人。早饭已经准备好了，请洗漱吧。",
+			say = "좋은 아침입니다. 주인님. 아침을 준비해두었습니다. 먼저 씻으세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			},
 			options = {
 				{
-					content = "精神奕奕地打招呼",
+					content = "기운차게 인사한다.",
 					flag = 1
 				}
 			}
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "请不要带着奇怪的高扬感来打招呼，您就这么期待着我来吗",
+			say = "이상하게 높은 텐션으로 인사하지 말아 주세요. 그렇게 저를 기다리신 겁니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,23 +91,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在逐渐习惯了谢菲的打扫服务之后，每到休息日甚至开始有些期待起睁开眼能够见到谢菲了",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202080,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#92fc63",
-			dir = 1,
-			say = "……没想到主人居然会这么堕落，大意了",
+			say = "셰피가 청소해주는 것에 익숙해지니까, 휴일이 되면 눈을 떴을 때 셰피를 만날 수 있다는 것에 기대가 되기 시작했다고요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +107,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "不能这么惯着主人，今天早饭吃完后的餐具自己收拾吧",
+			say = "……주인님이 이렇게까지 타락했을지 몰랐군요. 심각합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +123,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "还是说您就像成为一个永远要靠女仆收拾屋子照顾的废柴主人吗？",
+			say = "이런 주인님을 그냥 둘 순 없으니 오늘 아침 식사 후 식기는 직접 치우시길.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202080,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#92fc63",
+			dir = 1,
+			say = "아니면 식기마저 평생 메이드가 치워줘야 하는 쓸모없는 주인님이 되려는 것은 아니시겠죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "（要是这样的生活能持续下去就好了……）",
+			say = "(이런 생활이 계속되면 참 좋겠는데……)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			stopbgm = true,
-			say = "数日后，港区·卧室",
+			say = "며칠 뒤, 모항-자신의 방",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "早晨醒得早了些，时间…似乎还很早，应该还能睡会……",
+			say = "평소보다 일찍 눈이 떠졌다. 시간은… 아직 많이 이른 것 같으니 조금 더 자도 되겠는데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "朦胧中听到房门外似乎有谈话声——",
+			say = "몽롱한 가운데 문밖에서 이야기하는 소리가 들려왔다——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,12 +224,12 @@ return {
 			}
 		},
 		{
-			actorName = "纽卡斯尔",
+			actorName = "뉴캐슬",
 			side = 1,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
-			say = "……真的好吗？",
+			say = "……정말 괜찮은가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,12 +240,12 @@ return {
 			}
 		},
 		{
-			actorName = "谢菲尔德",
+			actorName = "셰필드",
 			side = 0,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
-			say = "女仆就该是这个样子的，我可没有贝尔法斯特那么贪心。",
+			say = "메이드는 이래야 합니다. 저는 벨파스트만큼 욕심이 있지는 않아요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,12 +256,12 @@ return {
 			}
 		},
 		{
-			actorName = "纽卡斯尔",
+			actorName = "뉴캐슬",
 			side = 1,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
-			say = "……但是谢菲“想要这样”的心情是不会就这样平复的哦",
+			say = "……하지만 셰피의 ‘이렇게 하고 싶다’라는 마음은 이리 평범할 리 없잖아요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,12 +272,12 @@ return {
 			}
 		},
 		{
-			actorName = "谢菲尔德",
+			actorName = "셰필드",
 			side = 0,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
-			say = "我……",
+			say = "저는……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,12 +288,12 @@ return {
 			}
 		},
 		{
-			actorName = "纽卡斯尔",
+			actorName = "뉴캐슬",
 			side = 1,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
-			say = "即便是要追求平稳，我还是觉得能够不用隐藏自己心情的“平稳”才是更好的吧",
+			say = "안정을 추구하더라도, 저는 자신의 마음을 속이지 않아도 되는 ‘안정’이 더 좋다고 생각해요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "似乎听到了一些很难懂的对话……",
+			say = "이해하기 힘든 이야기를 들은 것 같은데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

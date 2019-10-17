@@ -384,7 +384,7 @@ function slot0.update(slot0, slot1)
 end
 
 function slot0.retreat(slot0, slot1)
-	if slot1 then
+	if slot1 or slot0:isPlayingWithBombEnemy() or slot0:existOni() then
 		slot0.todayDefeatCount = slot0.todayDefeatCount + 1
 
 		slot0:updateTodayDefeatCount()

@@ -4519,7 +4519,7 @@ function slot0.tryAutoAction(slot0)
 				if slot0:getSpAppearStory() and #slot5 > 0 then
 					pg.StoryMgr.GetInstance():Play(slot5, function ()
 						if slot0:getSpAppearGuide() and #slot0 > 0 then
-							pg.GuideMgr:GetInstance():play(slot0, nil, onNextTick(pg.GuideMgr.GetInstance().play))
+							pg.SystemGuideMgr:GetInstance():PlayByGuideId(slot0, {}, onNextTick(pg.SystemGuideMgr.GetInstance().PlayByGuideId))
 						else
 							onNextTick(onNextTick)
 						end

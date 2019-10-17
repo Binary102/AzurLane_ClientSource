@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=45>三 女仆的兴趣</size>",
+					"탄환과, 사랑을 담아\n\n<size=45>3. 메이드의 취미</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
-			say = "主人对我们女仆队平时的生活状态有兴趣？",
+			say = "주인님께서는 저희 메이드단의 평소 생활에 관심이 있으신 모양이군요.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -62,7 +62,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "…既然如此，请在假日的时候来看看吧，毕竟是主人，还是会招待您一下的——",
+			say = "…그렇다면 휴일에 한 번 와서 보시겠습니까? 아무래도 주인님이시니 초대해 드리겠습니다——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "如此这般，在休息日敲响了谢菲尔德宿舍的门",
+			say = "이런 경위로 휴일에 셰필드의 기숙사 문을 두드리게 되었다.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "…是主人啊，姑且问一句，来找我有什么事吗？",
+			say = "…주인님이시군요. 잠시, 무슨 용건이라도 있으십니까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "开玩笑的，请进吧",
+			say = "장난입니다. 들어오세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "不愧是谢菲尔德的房间，整洁无比，看不到一丝污垢",
+			say = "역시 셰필드의 방이다. 너무 깨끗해서 먼지 한 톨도 보이지 않아.",
 			flashout = {
 				dur = 0.25,
 				black = true,
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "主人，请用红茶",
+			say = "주인님, 홍차입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,37 +211,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……不愧是皇家女仆，泡出来的红茶水平都有水准以上",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202080,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#92fc63",
-			dir = 1,
-			say = "那么，请您自便，主人。想要待多久就待多久吧",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "总觉得自己完全没被当成主人看待？",
+			say = "……역시 로열의 메이드답게 홍차 역시나 수준급이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +227,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "…您想多了，“想待多久就呆多久”可是主人的特权",
+			say = "그렇다면 주인님, 편히 계시길. 있고 싶으신 만큼 있으셔도 괜찮습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,21 +241,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…也就是说是其他人就会直接送客吗，不愧是谢菲尔德。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "桌上似乎放着什么，这是…拆卸到一半的手枪？",
+			say = "아무리 생각해도 전혀 주인 취급이 아닌 것 같은데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +257,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "枪械也是需要保养的，如果不保养，就会像懒惰的主人一样慢慢生锈。",
+			say = "…생각이 많으십니다. ‘있고 싶은 만큼 있을 수 있는 것’은 주인님의 특권이니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,39 +271,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…还是一如既往地不客气啊……不过，这手枪和谢菲尔德的舰装有点像呢",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202080,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#92fc63",
-			dir = 1,
-			say = "枪械只是一点点个人的兴趣而已，不过如果主人有兴趣的话……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202080,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#92fc63",
-			dir = 1,
-			say = "我来教您“工作用”枪械的选择、分解、维护、配件和射击的技巧吧",
+			say = "…라는 것은 다른 사람이라면 바로 배웅해버린다는 건가. 역시 셰필드다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +285,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "谢菲尔德的教学吗…似乎还挺有趣的…",
+			say = "탁자에 무언가 놓여있는 것 같다. 이건… 절반 정도 분해된 권총?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +301,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "…是吗，既然如此，请做好心理准备吧，我会一点一滴、好好地“锻炼”您的",
+			say = "총기도 관리가 필요하니까요. 관리하지 않으면 게으른 주인님처럼 서서히 녹이 슬게 됩니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +315,83 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "感觉到谢菲尔德背后有火焰在静静地燃烧…",
+			say = "…역시 가차 없네…… 하지만 이 권총, 셰필드와 닮은 것 같아.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202080,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#92fc63",
+			dir = 1,
+			say = "총기는 개인의 취미일 뿐입니다. 하지만 주인님께서 흥미가 있으시다면……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202080,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#92fc63",
+			dir = 1,
+			say = "‘업무용’ 총기의 선택, 분해, 관리, 부품과 사격 노하우에 대해 알려드리겠습니다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "셰필드의 수업인가… 꽤 흥미로운데…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202080,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#92fc63",
+			dir = 1,
+			say = "…그렇습니까. 기왕이면 마음의 준비를 해두시길. 조금씩, 천천히 ‘단련’시켜드리겠습니다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "셰필드의 등 뒤에서 조용히 타오르는 불길이 보이는 것 같다…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "于是，休息日多了一门枪械课程",
+			say = "그렇게 휴일에 총기 수업이 하나 추가됐다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

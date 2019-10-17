@@ -158881,10 +158881,6 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				59106
-			},
-			{
-				2,
 				54012
 			}
 		},
@@ -159750,10 +159746,6 @@ pg.expedition_data_template = {
 			{
 				2,
 				54023
-			},
-			{
-				2,
-				59106
 			},
 			{
 				2,
@@ -160625,10 +160617,6 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				59106
-			},
-			{
-				2,
 				54012
 			}
 		},
@@ -161494,10 +161482,6 @@ pg.expedition_data_template = {
 			{
 				2,
 				54023
-			},
-			{
-				2,
-				59106
 			},
 			{
 				2,
@@ -162369,10 +162353,6 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				59106
-			},
-			{
-				2,
 				54012
 			}
 		},
@@ -163238,10 +163218,6 @@ pg.expedition_data_template = {
 			{
 				2,
 				54023
-			},
-			{
-				2,
-				59106
 			},
 			{
 				2,
@@ -164113,10 +164089,6 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				59106
-			},
-			{
-				2,
 				54013
 			}
 		},
@@ -164982,10 +164954,6 @@ pg.expedition_data_template = {
 			{
 				2,
 				54024
-			},
-			{
-				2,
-				59106
 			},
 			{
 				2,
@@ -165857,10 +165825,6 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				59106
-			},
-			{
-				2,
 				54013
 			}
 		},
@@ -166726,10 +166690,6 @@ pg.expedition_data_template = {
 			{
 				2,
 				54024
-			},
-			{
-				2,
-				59106
 			},
 			{
 				2,
@@ -167601,10 +167561,6 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				59106
-			},
-			{
-				2,
 				54013
 			}
 		},
@@ -168470,10 +168426,6 @@ pg.expedition_data_template = {
 			{
 				2,
 				54024
-			},
-			{
-				2,
-				59106
 			},
 			{
 				2,
@@ -170627,7 +170579,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -170683,7 +170635,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -170739,7 +170691,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -170795,7 +170747,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -170851,7 +170803,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -170907,7 +170859,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -170963,7 +170915,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -171019,7 +170971,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -171075,7 +171027,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -171131,7 +171083,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -171187,7 +171139,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -171243,7 +171195,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -171299,7 +171251,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -171355,7 +171307,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 0,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -171411,7 +171363,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -171467,7 +171419,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -171523,7 +171475,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -171579,7 +171531,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -171635,7 +171587,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -171691,7 +171643,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -171747,7 +171699,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -171803,7 +171755,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -171859,7 +171811,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -171915,7 +171867,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -171971,7 +171923,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -172027,7 +171979,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -172083,7 +172035,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,
@@ -172139,7 +172091,7 @@ pg.expedition_data_template = {
 		type = 98,
 		ai_mov = 0,
 		add_icon = "",
-		name = "精英舰队",
+		name = "엘리트 함대",
 		exp_commander = 1,
 		time_limit = 120,
 		exp_commander_ratio = 30,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=45>五 休息日的约定</size>",
+					"탄환과, 사랑을 담아\n\n<size=45>5. 휴일의 약속</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "港区·卧室",
+			say = "모항-자신의 방",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -53,7 +53,7 @@ return {
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
-			say = "人，主人……",
+			say = "인님, 주인님……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
-			say = "……没办法——",
+			say = "……어쩔 수 없나——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "（砰！）",
+			say = "(펑!)",
 			flashN = {
 				color = {
 					1,
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			say = "敌、敌袭？！！",
+			say = "적, 적의 습격?!!",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -142,7 +142,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "早上好，主人。",
+			say = "좋은 아침입니다. 주인님.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			withoutActorName = true,
 			actor = 202080,
 			nameColor = "#92fc63",
-			say = "睁开眼看到的，是谢菲尔德冷淡的表情，看来响声是她开的枪",
+			say = "눈을 뜨자 보이는 것은 셰필드의 차가운 얼굴이었다. 방금 그 소리는 셰필드가 쏜 총소리인 것 같다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问谢菲尔德为何在这里",
+					content = "셰필드에게 왜 여기 있냐고 묻는다.",
 					flag = 1
 				}
 			}
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "主人，您睡迷糊了吗，从这个休息日起，您的房间就由我来打扫了。",
+			say = "주인님, 아직 잠이 덜 깨셨군요. 이번 휴일부터 주인님의 방은 제가 청소하기로 했었습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "这么说来……",
+			say = "그렇다면……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			actor = 202080,
 			nameColor = "#92fc63",
-			say = "主人的房间想必也是和主人一样乱糟糟的，不好好清扫一番可不行。",
+			say = "주인님의 방도 분명 주인님처럼 난잡할 테니 한번 제대로 청소를 해야겠지요.",
 			effects = {
 				{
 					active = true,
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "好像确实有这么一回事",
+			say = "분명 그런 말을 했던 것 같기도 하다.",
 			effects = {
 				{
 					active = false,
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "真是让人没辙的主人。另外，顺便帮您做了一些简单的早餐",
+			say = "정말 구제 불능인 주인님이군요. 그리고 오는 길에 간단한 아침을 준비했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "虽然不如贝尔法斯特丰盛，不过应付主人应该足够了",
+			say = "벨파스트의 것만큼은 아니지만, 주인님에게는 충분하리라 생각합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…难怪刚才就闻到了一股香味",
+			say = "…어쩐지 뭔가 냄새가 나더라니.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……虽然谢菲尔德那么说，果然还是很美味的早餐。",
+			say = "……셰필드는 그렇게 말했지만 역시나 맛있는 아침이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "主人，用餐完毕了吗，请不要乱动，餐具等会我再收拾，交给主人只会把一切搞得更乱",
+			say = "주인님, 식사는 끝나셨습니까. 움직이지 마세요. 식기는 제가 잠시 뒤에 수거하겠습니다. 주인님께 맡겨두면 오히려 어지르기만 할 테니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在客厅中打扫的谢菲尔德看了这边一眼，就回到了工作之中。",
+			say = "거실에서 청소하던 셰필드는 이쪽을 흘끗 보더니 다시 할 일을 하기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…不愧是谢菲尔德，感觉整个房间都焕然一新了",
+			say = "…역시 셰필드야. 방이 완전 새롭게 변신했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示感谢",
+					content = "감사를 표한다",
 					flag = 1
 				}
 			}
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "这只是女仆的职责。另外……",
+			say = "메이드가 해야할 일일 뿐입니다. 그리고……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "看起来接下来和主人的接触会越来越多，方便起见——",
+			say = "앞으로 주인님과 함께 할 시간이 많을 것 같군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			blackBg = true,
 			actor = 202080,
 			nameColor = "#92fc63",
-			say = "主人就用谢菲来称呼我吧。",
+			say = "편하게 셰피라고 불러주세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

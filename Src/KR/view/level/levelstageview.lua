@@ -1197,7 +1197,7 @@ function slot0.updateStageStrategy(slot0)
 		return
 	end, SFX_PANEL)
 	onButton(slot0, slot8, function ()
-		shiftPanel(shiftPanel, 0, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+		shiftPanel(shiftPanel, 30, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 		shiftPanel(shiftPanel, slot1.rect.width + 200, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 
 		return
@@ -1429,19 +1429,22 @@ function slot0.tryAutoAction(slot0, slot1)
 				end
 
 				if slot0 then
-					slot0:doPlayAnim(slot0, function (slot0)
-						setActive(slot0, false)
-						slot0()
+					slot0:emit(LevelUIConst.DO_PLAY_ANIM, {
+						name = slot0,
+						callback = function (slot0)
+							setActive(slot0, false)
+							slot0()
 
-						return
-					end)
+							return
+						end
+					})
 					coroutine.yield()
 				end
 
 				if slot4:getSpAppearStory() and #slot1 > 0 then
 					pg.StoryMgr.GetInstance():Play(slot1, function ()
 						if slot0:getSpAppearGuide() and #slot0 > 0 then
-							pg.GuideMgr.GetInstance():play(slot0, nil, onNextTick(pg.GuideMgr.GetInstance().play))
+							pg.SystemGuideMgr:GetInstance():PlayByGuideId(slot0, {}, onNextTick(pg.SystemGuideMgr.GetInstance().PlayByGuideId))
 						else
 							onNextTick(onNextTick)
 						end
@@ -1559,7 +1562,7 @@ function slot0.CheckFleetChange(slot0)
 	end) then
 		slot0:emit(LevelMediator2.ON_OP, {
 			type = ChapterConst.OpRetreat,
-			id = slot4.id
+			id = f.id
 		})
 	end
 
@@ -1721,7 +1724,7 @@ function slot0.DoBreakAction(slot0)
 							slot5()
 						else
 							if slot3 == ChapterConst.ReasonDefeatBomb then
-								slot5()
+								slot5(true)
 							else
 								if slot3 == ChapterConst.ReasonVictorySham then
 									function slot6()
@@ -1789,23 +1792,189 @@ end
 function slot0.SafeCheck(slot0)
 	slot2 = slot0.contextData.chapterVO.getDataType(slot1)
 	slot3 = slot0.contextData.chapterVO.fleet
-	slot4, slot5 = slot0.contextData.chapterVO.CheckChapterWin(slot1)
+	slot4 = slot0.contextData.chapterVO.CheckTransportState(slot1)
+	slot6 = false
 
-	if slot4 then
-		return true, slot5
+	for slot10, slot11 in pairs(slot5) do
+		if slot11.type == 1 then
+			slot13 = 0
+
+			_.each(slot1:findChapterCells(ChapterConst.AttachBoss), function (slot0)
+				if slot0 and slot0.flag == 1 then
+					slot0 = slot0 + 1
+				end
+
+				return
+			end)
+
+			if not slot6 then
+				if slot11.param > slot13 then
+					slot6 = false
+				else
+					slot6 = true
+				end
+			end
+		else
+			if slot11.type == 2 then
+				if not slot6 then
+					if slot11.param > slot1:GetDefeatCount() then
+						slot6 = false
+					else
+						slot6 = true
+					end
+				end
+			else
+				if slot11.type == 3 then
+					if not slot6 then
+						if slot4 ~= 1 then
+							slot6 = false
+						else
+							slot6 = true
+						end
+					end
+				else
+					if slot11.type == 4 then
+						if not slot6 then
+							if slot11.param >= slot1:getRoundNum() then
+								slot6 = false
+							else
+								slot6 = true
+							end
+						end
+					else
+						if slot11.type == 5 then
+							slot12 = slot11.param
+
+							if not _.any(slot1.champions, function (slot0)
+								if slot0.attachmentId ~= slot0 then
+									slot1 = false
+								else
+									slot1 = true
+								end
+
+								for slot5, slot6 in pairs(slot0.idList) do
+									if not slot1 then
+										if slot6 ~= slot0 then
+											slot1 = false
+										else
+											slot1 = true
+										end
+									end
+								end
+
+								if slot1 then
+									if slot0.flag == 1 then
+										slot2 = false
+									else
+										slot2 = true
+									end
+								end
+
+								return slot2
+							end) then
+								slot13 = _.any(slot1.cells, function (slot0)
+									if slot0.attachmentId ~= slot0 then
+										slot1 = false
+									else
+										slot1 = true
+									end
+
+									for slot5, slot6 in pairs(slot0.idList) do
+										if not slot1 then
+											if slot6 ~= slot0 then
+												slot1 = false
+											else
+												slot1 = true
+											end
+										end
+									end
+
+									if slot1 then
+										if slot0.flag == 1 then
+											slot2 = false
+										else
+											slot2 = true
+										end
+									end
+
+									return slot2
+								end)
+							end
+
+							if not slot6 then
+								slot6 = not slot13
+							end
+						end
+					end
+				end
+			end
+		end
+
+		if slot6 then
+			return true, ChapterConst.ReasonVictory
+		end
 	end
 
-	slot6, slot7 = slot1:CheckChapterLose()
+	slot8 = false
+	slot9 = ChapterConst.ReasonDefeat
 
-	if slot6 then
-		return true, slot7
+	for slot13, slot14 in pairs(slot7) do
+		if slot14.type == 1 then
+			slot15 = _.any(slot1.fleets, function (slot0)
+				if slot0:getFleetType() == FleetType.Normal then
+					slot1 = slot0:isValid()
+				else
+					slot1 = false
+
+					if false then
+						slot1 = true
+					end
+				end
+
+				return slot1
+			end)
+
+			if not slot8 then
+				slot8 = not slot15
+			end
+		else
+			if slot14.type == 2 then
+				if not slot8 then
+					if slot1.BaseHP > 0 then
+						slot8 = false
+					else
+						slot8 = true
+					end
+				end
+
+				if slot8 then
+					slot9 = ChapterConst.ReasonDefeatDefense
+				end
+			end
+		end
+
+		if slot8 then
+			break
+		end
+	end
+
+	if slot1:getPlayType() == ChapterConst.TypeTransport and not slot8 then
+		if slot4 ~= -1 then
+			slot8 = false
+		else
+			slot8 = true
+		end
+	end
+
+	if slot8 then
+		return true, slot9
 	end
 
 	if slot1:existOni() then
 		if slot1:checkOniState() == 1 then
 			return true, ChapterConst.ReasonVictoryOni
 		else
-			if slot8 == 2 then
+			if slot10 == 2 then
 				return true, ChapterConst.ReasonDefeatOni
 			end
 		end
@@ -1829,9 +1998,9 @@ function slot0.SafeCheck(slot0)
 		return true, ChapterConst.ReasonOutTime
 	end
 
-	slot8 = slot1:getConfig("act_id")
+	slot10 = slot1:getConfig("act_id")
 
-	if not slot0.contextData.map:isRemaster() and slot8 ~= 0 and (not getProxy(ActivityProxy):getActivityById(slot8) or slot10:isEnd()) then
+	if not slot0.contextData.map:isRemaster() and slot10 ~= 0 and (not getProxy(ActivityProxy):getActivityById(slot10) or slot12:isEnd()) then
 		return true, ChapterConst.ReasonActivityOutTime
 	end
 

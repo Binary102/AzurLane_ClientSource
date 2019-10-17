@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=45>二 一切为了“清扫”</size>",
+					"탄환과, 사랑을 담아\n\n<size=45>2. 모든 것은 ‘청소’를 위해</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·商店",
+			say = "모항-상점",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "因为补给确认方面的事务来到了{namecode:98}的商店，不过似乎有人先来了的样子",
+			say = "보급 문제를 확인하기 위해 아카시의 상점에 들렀다. 그런데 누군가 먼저 와있는 듯하다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "谢菲尔德的要求真的差点难倒{namecode:98}了喵！不过…哼哼，最后还是完成了喵！",
+			say = "셰필드의 요청은 정말 아카시도 곤란했다냥! 하지만… 흥흥, 역시나 해냈다냥!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			nameColor = "#92fc63",
-			say = "将将——这就是“{namecode:98}特制清洁弹“喵！",
+			say = "쨔쟌—— 이게 바로 ‘아카시 특제 청결탄’이다냥!",
 			effects = {
 				{
 					active = true,
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			actor = 202080,
 			nameColor = "#92fc63",
-			say = "…{namecode:98}小姐，了不起",
+			say = "…아카시씨, 대단합니다.",
 			effects = {
 				{
 					active = false,
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "似乎能感觉到谢菲尔德淡漠的眼神中闪耀着一丝兴奋的光芒，不过…",
+			say = "셰필드의 쌀쌀맞은 눈빛 속에서 한줄기 흥분의 빛을 느낄 수 있었다. 하지만…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问清洁弹是什么",
+					content = "청결탄이 무엇인지 묻는다",
 					flag = 1
 				}
 			}
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "…是主人吗",
+			say = "…주인님이시군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "哼哼哼，那边的客人，你看起来一脸困惑的样子喵？那就让{namecode:98}来——",
+			say = "후후후. 그쪽의 손님, 당혹스러운 것 같다냥? 그렇다면 아카시가——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "（砰——！）",
+			say = "(펑——!)",
 			dialogShake = {
 				speed = 0.09,
 				delay = 0.5,
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "谢菲尔德直接往墙角开了一枪",
+			say = "셰필드가 직접 벽을 향해 총을 쏘았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			nameColor = "#92fc63",
-			say = "喵！？吓了一跳喵！谢菲尔德你也太直接了喵！",
+			say = "냥?! 깜짝이다냥! 셰필드, 너무 갑자기인 것 아니냥!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "与其解释那么多，不如直接实践一下更方便",
+			say = "설명하는 것보다는 직접 보여드리는 것이 더 편리합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "谢菲尔德射击的地方出现了些许蓝色的泡沫，难道说……",
+			say = "셰필드가 총을 쏜 곳에 푸른색 거품이 일어났다. 설마……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "嗯，我拜托{namecode:98}小姐制作了包含清洁剂的子弹",
+			say = "네. 아카시씨에게 세제를 넣은 포탄을 주문했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "弹头是特殊材料制成的喵，一旦受到冲击就会释放出清洁剂喵！",
+			say = "특수 재료로 만들어진 탄두다냥. 일단 충격을 받으면 세제가 나오는거다냥!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "这样一来，平时一些不好打扫的地方也能到轻易地解决了",
+			say = "이러면 평소에 청소하기 힘든 곳도 쉽게 해결할 수 있습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "感觉又是好像很厉害，又好像没什么所谓的道具…",
+			say = "굉장한 것 같지만 듣고 보면 별로 대단하지도 않은 도구다…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "不过，难得看到谢菲尔德高兴(?)的样子，就这样吧",
+			say = "하지만 모처럼 셰필드가 즐거워(?) 보이니 이걸로 괜찮겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -244,6 +244,10 @@ slot1 = {
 	[ActivityConst.TWCELEBRATION_4] = {
 		className = "TWCelebrationPage4",
 		uiName = "twcelebration4"
+	},
+	[ActivityConst.LINDONG_REMAKE_KR] = {
+		className = "LindongMainPage",
+		uiName = "lindongmainpage"
 	}
 }
 slot2 = {}

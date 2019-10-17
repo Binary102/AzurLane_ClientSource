@@ -4178,6 +4178,29 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[93] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 93,
+		type = 1,
+		index_id = 114,
+		group_type = 20113,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 싸늘한 겨울의 왕관",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[94] = {
 		nationality = 2,
 		hide = 0,
@@ -4958,6 +4981,29 @@ pg.ship_data_group = {
 						projectName = "light",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[371] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 371,
+		type = 2,
+		index_id = 138,
+		group_type = 20220,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 싸늘한 겨울의 왕관",
+				{
+					""
 				},
 				0
 			}
@@ -11292,6 +11338,7 @@ pg.ship_data_group = {
 		389,
 		91,
 		92,
+		93,
 		94,
 		96,
 		100,
@@ -11314,6 +11361,7 @@ pg.ship_data_group = {
 		114,
 		115,
 		335,
+		371,
 		408,
 		327,
 		328,

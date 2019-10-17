@@ -2346,6 +2346,471 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[140] = {
+		bullet_name = "zidan_cup",
+		name = "홍차 포탄",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "우아한 오후의 티타임",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91311",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 140,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[141] = {
+		bullet_name = "zidan_cookie",
+		name = "쿠키 포탄",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "이 쿠키… 조금 딱딱한 거 같은데……?",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91312",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 141,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[142] = {
+		bullet_name = "zidan_buding",
+		name = "푸딩 포탄",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "정말 맛있어 보이는데~",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91313",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 142,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[143] = {
+		bullet_name = "paodan_benzhong",
+		name = "시계탑 포탄",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "땡~ 자정을 알리는 종이 울립니다~",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91314",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 143,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[144] = {
+		bullet_name = "paodan_huangjialiaoli",
+		name = "로열 요리 포탄",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "바라보는 눈빛에 슬픔이 느껴집니다……",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91315",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 144,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[145] = {
+		bullet_name = "paodan_dianhuating",
+		name = "전화 부스 포탄",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「여보세요?」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91316",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 145,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[146] = {
+		bullet_name = "yulei_guaizhang",
+		name = "지팡이 어뢰",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "로열 젠틀맨의 첫 번째 필수품 ",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91321",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 146,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[147] = {
+		bullet_name = "yulei_yandou",
+		name = "파이프 어뢰",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "로열 젠틀맨의 두 번째 필수품",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91322",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 147,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[148] = {
+		bullet_name = "yulei_mingjiu",
+		name = "명주 어뢰",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "로열의 명주 한 입 해보는 건 어떠실지?",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91323",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 148,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[149] = {
+		bullet_name = "feiji_reqiqiu",
+		name = "로열 열기구(뇌격)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「목표 발견, 공격 준비다쥬!」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91331",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 149,
+		derivate_torpedo = "yulei_yandou",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[150] = {
+		bullet_name = "feiji_reqiqiu",
+		name = "로열 열기구(전투)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「목표 발견, 공격 준비다쥬!」",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_huangjialiaoli",
+		icon = "91331",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 150,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[151] = {
+		bullet_name = "feiji_reqiqiu",
+		name = "로열 열기구(폭격)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「목표 발견, 공격 준비다쥬!」",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_huangjialiaoli",
+		icon = "91331",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 151,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[152] = {
+		bullet_name = "feiji_tieta",
+		name = "로열 철탑(뇌격)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「우리 철탑은 제트식이다쥬!」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91332",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 152,
+		derivate_torpedo = "yulei_mingjiu",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[153] = {
+		bullet_name = "feiji_tieta",
+		name = "로열 철탑(전투)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「우리 철탑은 제트식이다쥬!」",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_benzhong",
+		icon = "91332",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 153,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[154] = {
+		bullet_name = "feiji_tieta",
+		name = "로열 철탑(폭격)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「우리 철탑은 제트식이다쥬!」",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_benzhong",
+		icon = "91332",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 154,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[155] = {
+		bullet_name = "feiji_bashi",
+		name = "이층 버스(뇌격)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「전방에 기류 발생, 흔들림에 주의하라쥬!」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91333",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 155,
+		derivate_torpedo = "yulei_guaizhang",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[156] = {
+		bullet_name = "feiji_bashi",
+		name = "이층 버스(전투)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「전방에 기류 발생, 흔들림에 주의하라쥬!」",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_dianhuating",
+		icon = "91333",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 156,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[157] = {
+		bullet_name = "feiji_bashi",
+		name = "이층 버스(폭격)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「전방에 기류 발생, 흔들림에 주의하라쥬!」",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_dianhuating",
+		icon = "91333",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 157,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[160] = {
 		bullet_name = "zidan_rongyan",
 		name = "용암탄",
@@ -4251,6 +4716,24 @@ pg.equip_skin_template = {
 		135,
 		136,
 		137,
+		140,
+		141,
+		142,
+		143,
+		144,
+		145,
+		146,
+		147,
+		148,
+		149,
+		150,
+		151,
+		152,
+		153,
+		154,
+		155,
+		156,
+		157,
 		160,
 		161,
 		162,

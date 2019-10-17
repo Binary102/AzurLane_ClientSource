@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=45>一 女仆队，清扫中</size>",
+					"탄환과, 사랑을 담아\n\n<size=45>1. 메이드단, 청소 중</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "虽然是休息日，不过也没有特别想做的事情，就在港区随便逛逛吧",
+			say = "휴일이지만 딱히 하고 싶은 일이 있는 것도 아니고.. 모항을 이리저리 돌아다녀보자.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actorName = "？？？",
-			say = "萨福克，我们来比比谁先跑到那边的走廊吧！",
+			say = "서포크, 저쪽 복도까지 달리기 시합하자!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "欸，我才不要，反正我也跑不过你，让我再发会儿呆…",
+			say = "엑, 싫어. 어차피 이기지도 못하는데 그냥 쉬고 있을래…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "你们两个，我只是稍微离开了一会儿就变成这样了……",
+			say = "두 사람, 잠시 자리를 비웠을 뿐인데 이러고 있다니…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "皇家的宿舍里传来了萨福克和肯特的声音，还有一个声音是——",
+			say = "로열의 기숙사에서 서포크와 켄트의 목소리가 들려왔다. 그리고 나머지 하나는——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			},
 			options = {
 				{
-					content = "过去看看",
+					content = "가서 확인한다",
 					flag = 1
 				}
 			}
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 202080,
 			nameColor = "#92fc63",
-			say = "肯特，虽然你跑得很勤，但是在拖过的地面上跑多少次都不会变干净的。",
+			say = "켄트, 아무리 부지런히 뛰어다녀도 닦은 바닥 위를 다시 밟는다면 깨끗해지지 않습니다.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			actor = 203030,
 			nameColor = "#92fc63",
-			say = "呜！…是——",
+			say = "윽! … 그게——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "…萨福克，我刚才离开的时候你就已经在那里了吧？",
+			say = "…서포크, 제가 방금 자리를 비웠을 때도 거기에 있었던 것 같은데요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			actor = 203040,
 			nameColor = "#92fc63",
-			say = "诶？怎怎怎么会呢！我已经动过了哦！",
+			say = "엑? 그그그그럴리가요! 분명 움직였는데!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "果然，是最近担任秘书舰的谢菲尔德",
+			say = "역시, 최근에 비서함을 맡았던 셰필드다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "…？是主人啊…有什么事吗？",
+			say = "…? 주인님이시군요. 무슨 일이라도?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "……只是随便逛逛吗",
+			say = "……그저 돌아다니고 있으실 뿐이군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "那请您后退几步，那里的地板刚刚拖过",
+			say = "그렇다면 뒤로 물러나 주시지 않겠습니까. 조금 전에 닦은 곳이라서요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,23 +302,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "和工作的时候一样，毫不留情呢…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202080,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#92fc63",
-			dir = 1,
-			say = "另外，若只是闲逛的话，请随便找个别的地方去，现在这一带正在清扫中",
+			say = "일 할 때와 마찬가지로 가차 없네…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +318,23 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "……要是大约一小时后回来的话，我还能为您泡一杯红茶或是准备一些点心，或许",
+			say = "그리고 그저 돌아다닐 곳이 필요하시다면 이곳 말고 다른 곳으로 가주시기 바랍니다. 이곳은 지금 청소 중이니까요.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202080,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#92fc63",
+			dir = 1,
+			say = "……한 시간 정도 뒤에 돌아오시면 주인님을 위해서 홍차나 간단한 디저트 정도는 내어드릴 수 있을지 모릅니다. 아마도요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "说着谢菲尔德又开始了清扫，不愧是连贝尔法斯特都赞不绝口的职业精神…",
+			say = "말을 하면서 셰필드는 다시 청소 하기 시작했다. 역시 벨파스트도 칭찬한 직업 정신…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "……似乎确实也没什么事，稍后再来吧",
+			say = "……확실히 별로 할 일도 없으니 조금 뒤에 다시 오자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

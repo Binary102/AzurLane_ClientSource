@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=45>四 习惯成自然</size>",
+					"탄환과, 사랑을 담아\n\n<size=45>4. 자연스러운 습관</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "모항-지휘실",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "主人，请把脚稍微抬一下。",
+			say = "주인님. 발을 조금 올려주시겠습니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,51 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在处理秘书舰的工作之余，谢菲尔德一如既往地热衷于指挥室的清扫中",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202080,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#92fc63",
-			dir = 1,
-			say = "清扫很快乐，没有比看到一切都井井有条更让人高兴的事了",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "确实，自从谢菲尔德担任秘书舰以来，指挥室的环境一直是干净的地板能反光的状态",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "工作效率也确实提高了，不过……",
+			say = "비서함의 일을 처리하는 것 외에도 셰필드는 평소처럼 지휘실 청소에 여념이 없었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +85,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "顺便一提，唯一不井井有条的就只有时不时会发呆的主人您了。",
+			say = "청소는 즐겁습니다. 모든 것이 가지런한 것만큼 즐거운 것은 없지요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +99,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不知该说是环境的整洁还是谢菲尔德的严格带来的效率呢……",
+			say = "확실히 셰필드가 비서함을 담당한 이후부터 지휘실은 언제나 깨끗했다. 바닥의 빛이 반짝반짝 반사될 만큼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,44 +110,10 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "打扰了，主人。贝尔法斯特拜托我把这份文件转交给您。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202190,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#92fc63",
-			dir = 1,
-			say = "不用客气，这是我分内的事情，另外也是顺便来看看女仆队的同僚…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202190,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#92fc63",
-			dir = 1,
-			say = "谢菲，看起来秘书舰的工作相当合你的心意呢",
+			say = "일의 효율도 확실히 늘어났지만……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +129,21 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "请不要突然说一些不着边际的话。",
+			say = "그나저나, 유일하게 정돈되지 않은 것은 시시때때로 멍을 때리는 주인님뿐이군요.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "환경 탓인지, 셰필드의 엄격함 탓인지 모르겠군……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +159,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "呵呵，原本还有些不放心，现在看来是不用操心了呢~",
+			say = "실례합니다, 주인님. 벨파스트가 서류를 전달해 드리라고 부탁을 해서요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +175,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "主人，虽然谢菲平时说话很不客气，不过正因如此，她是绝不会做自己不喜欢做的事情的",
+			say = "감사는요 무슨~ 이 역시도 제 일이니까요. 겸사겸사 메이드단의 동료를 보러 온 것이기도 하고요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,24 +186,12 @@ return {
 			}
 		},
 		{
+			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
+			nameColor = "#92fc63",
 			dir = 1,
-			say = "…也就是说",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "（砰！）",
+			say = "셰피, 비서함의 일이 잘 맞는 것 같네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,51 +207,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "这里、稍微、有些脏了",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "感觉到一阵凉风从耳边吹过，刚才那个，是清洁弹…吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "谢菲尔德一脸平静地走向射击的位置",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202080,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#92fc63",
-			dir = 1,
-			say = "刚刚才清洁过这里？不，还是有些灰尘，看来我还是不够仔细呢",
+			say = "뜬금없는 말은 하지 말아주세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +223,127 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "呵呵…看来我说了多余的话呢，主人、谢菲，就请你们继续好好相处咯？",
+			say = "후후, 사실 조금 불안했지만 지금 보니 걱정할 필요는 없는 것 같군요~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202190,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#92fc63",
+			dir = 1,
+			say = "주인님, 셰피가 평소에 조금 무례하기는 하지만. 그렇기 때문에 싫어하는 일은 절대 하지 않는답니다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "…그렇다는 건.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "(펑!)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202080,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#92fc63",
+			dir = 1,
+			say = "여기가, 조금, 더럽네요.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "귓가를 스치는 차가운 바람이 느껴졌다. 방금 그거, 청결탄…이지?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "셰필드는 평온한 얼굴을 한 채 총을 쏜 자리로 향했다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202080,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#92fc63",
+			dir = 1,
+			say = "조금 전에 청소한 것 같은데요? 하지만 여전히 먼지가 있네요. 조금 더 꼼꼼히 봐야겠군요.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202190,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#92fc63",
+			dir = 1,
+			say = "후후… 제가 괜한 말을 했네요. 주인님, 셰피. 두분 앞으로도 쭉 사이좋게 지내시길.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "纽卡斯尔带着颇有深意的笑容走出了指挥室",
+			say = "뉴캐슬은 꽤 의미심장한 미소를 지으며 지휘실을 나섰다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,11 +1,10 @@
 return {
-	id = "NG0010",
-	once = true,
+	id = "NG0014",
 	events = {
 		{
 			action = {
 				say = {
-					text = "이번 작전에 새로 추가된 다양한 전투 시스템은 도움말 버튼을 눌러 설명을 확인할 수 있어!",
+					text = "这次活动新增了敌方单位「岸防炮」！点击帮助按钮查看详情吧～",
 					style = {
 						posY = -110,
 						mode = 1,
@@ -17,7 +16,6 @@ return {
 			}
 		},
 		{
-			finish = true,
 			action = {
 				ui = {
 					path = "/OverlayCamera/Overlay/UIMain/top/bottom_stage/help_button"

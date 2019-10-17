@@ -6661,6 +6661,65 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[201131] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 20113,
+		breakout_id = 201132,
+		breakout_view = "스킬 습득 - 전탄 발사 I / 주포 효율 +5%",
+		id = 201131,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			71051
+		}
+	},
+	[201132] = {
+		use_gold = 1500,
+		pre_id = 201131,
+		use_char_num = 1,
+		use_char = 20113,
+		breakout_id = 201133,
+		breakout_view = "어뢰 발사 수 +1 / 어뢰 탑재량 +1 / 주포 효율 +10%",
+		id = 201132,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			108,
+			108
+		}
+	},
+	[201133] = {
+		use_gold = 2500,
+		pre_id = 201132,
+		use_char_num = 2,
+		use_char = 20113,
+		breakout_id = 201134,
+		breakout_view = "전탄 발사 스킬 강화 / 모든 무기 효율 +5%",
+		id = 201133,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			71052
+		}
+	},
+	[201134] = {
+		use_gold = 0,
+		pre_id = 201133,
+		use_char_num = 0,
+		use_char = 20113,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 201134,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[201141] = {
 		use_gold = 500,
 		pre_id = 0,
@@ -8072,6 +8131,65 @@ pg.ship_data_breakout = {
 		breakout_id = 0,
 		breakout_view = "없음",
 		id = 202194,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[202201] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 20220,
+		breakout_id = 202202,
+		breakout_view = "스킬 습득 - 특수 탄막 I / 주포 효율 +5%",
+		id = 202201,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			79361
+		}
+	},
+	[202202] = {
+		use_gold = 3000,
+		pre_id = 202201,
+		use_char_num = 1,
+		use_char = 20220,
+		breakout_id = 202203,
+		breakout_view = "어뢰 발사 수 +1 / 어뢰 탑재량 +1 / 어뢰 효율 +10%",
+		id = 202202,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[202203] = {
+		use_gold = 10000,
+		pre_id = 202202,
+		use_char_num = 2,
+		use_char = 20220,
+		breakout_id = 202204,
+		breakout_view = "특수 탄막 강화 / 주포 효율 +15%",
+		id = 202203,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			79362
+		}
+	},
+	[202204] = {
+		use_gold = 0,
+		pre_id = 202203,
+		use_char_num = 0,
+		use_char = 20220,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 202204,
 		icon = "10001",
 		level = 0,
 		use_item = {},
@@ -21962,6 +22080,10 @@ pg.ship_data_breakout = {
 		201122,
 		201123,
 		201124,
+		201131,
+		201132,
+		201133,
+		201134,
 		201141,
 		201142,
 		201143,
@@ -22058,6 +22180,10 @@ pg.ship_data_breakout = {
 		202192,
 		202193,
 		202194,
+		202201,
+		202202,
+		202203,
+		202204,
 		202211,
 		202212,
 		202213,

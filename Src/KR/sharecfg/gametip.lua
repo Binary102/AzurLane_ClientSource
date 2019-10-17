@@ -3157,31 +3157,13 @@ pg.gametip = {
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/sphunt_1"
+					atlas = "helpbg/spboom_1"
 				}
 			},
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/sphunt_2"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/sphunt_3"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/sphunt_4"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/sphunt_5"
+					atlas = "helpbg/spboom_2"
 				}
 			},
 			disableScroll = true,
@@ -8946,7 +8928,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "포미더블、차라、줄리오 체사레 출현 확률UP！ ",
+		tip = "빅토리어스、 시리우스、 매치리스、 셰필드、 자메이카 출현 확률UP！ ",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -9415,7 +9397,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "commander_rename_success_tip"
 	},
 	amercian_notice_1 = {
-		tip = "배틀 스타를 <color=#92fc63>$1</color>개 소비하여 보급을 <color=#92fc63>$2</color>회 진행하시겠습니까?",
+		tip = "여왕의 훈장 <color=#92fc63>$1</color>개를 소비하여 보급을 <color=#92fc63>$2</color>회 진행하시겠습니까? ",
 		key = "amercian_notice_1"
 	},
 	amercian_notice_2 = {
@@ -9423,7 +9405,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "amercian_notice_2"
 	},
 	amercian_notice_3 = {
-		tip = "이벤트 기간：2018.10.25~11.21",
+		tip = "이벤트 기간：2019.10.17~10.30",
 		key = "amercian_notice_3"
 	},
 	amercian_notice_4 = {

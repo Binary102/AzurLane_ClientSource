@@ -450,6 +450,18 @@ pg.memory_group = {
 			259
 		}
 	},
+	[126] = {
+		title = "The War God's Return ",
+		type = 2,
+		id = 126,
+		icon = "title_event",
+		memories = {
+			10018,
+			10019,
+			10020,
+			10021
+		}
+	},
 	[128] = {
 		title = "Year 36 Z Class Z23-Sensei",
 		type = 2,
@@ -560,6 +572,18 @@ pg.memory_group = {
 			404,
 			405,
 			406
+		}
+	},
+	[136] = {
+		title = "Mikasa's Model Museum ",
+		type = 2,
+		id = 136,
+		icon = "title_event",
+		memories = {
+			407,
+			408,
+			409,
+			410
 		}
 	},
 	[137] = {
@@ -1236,6 +1260,21 @@ pg.memory_group = {
 			400
 		}
 	},
+	[520] = {
+		title = "Hiei's Banquet ",
+		type = 3,
+		id = 520,
+		icon = "title_chara_birui",
+		memories = {
+			411,
+			412,
+			413,
+			414,
+			415,
+			416,
+			417
+		}
+	},
 	[522] = {
 		title = "Submarine Subterfuge!",
 		type = 3,
@@ -1565,6 +1604,7 @@ pg.memory_group = {
 		123,
 		124,
 		125,
+		126,
 		128,
 		129,
 		131,
@@ -1572,6 +1612,7 @@ pg.memory_group = {
 		133,
 		134,
 		135,
+		136,
 		137,
 		138,
 		139,
@@ -1612,6 +1653,7 @@ pg.memory_group = {
 		516,
 		517,
 		519,
+		520,
 		522,
 		523,
 		524,

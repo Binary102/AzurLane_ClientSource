@@ -6814,6 +6814,52 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[177] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 177,
+		type = 1,
+		index_id = 204,
+		group_type = 30127,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Return and Reborn",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[178] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 178,
+		type = 1,
+		index_id = 205,
+		group_type = 30128,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Return and Reborn",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[166] = {
 		nationality = 3,
 		hide = 0,
@@ -6887,6 +6933,38 @@ pg.ship_data_group = {
 		description = {
 			{
 				"Monthly Sign-in",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[318] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 301619,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 318,
+		type = 1,
+		index_id = 209,
+		group_type = 30161,
+		trans_type = 1,
+		trans_radar_chart = {
+			"C",
+			"A",
+			"E",
+			"A",
+			"D",
+			"C"
+		},
+		trans_skill = {
+			4071
+		},
+		description = {
+			{
+				"Event: Return and Reborn",
 				{
 					""
 				},
@@ -7190,13 +7268,6 @@ pg.ship_data_group = {
 						projectName = "heavy",
 						page = 1
 					}
-				},
-				0
-			},
-			{
-				"Event: Battery Support Plan",
-				{
-					""
 				},
 				0
 			}
@@ -7721,6 +7792,29 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[205] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 205,
+		type = 4,
+		index_id = 240,
+		group_type = 30402,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Return and Reborn",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[206] = {
 		nationality = 3,
 		hide = 0,
@@ -7806,6 +7900,29 @@ pg.ship_data_group = {
 		description = {
 			{
 				"Event: Crimson Echoes",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[320] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 320,
+		type = 5,
+		index_id = 245,
+		group_type = 30511,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Return and Reborn",
 				{
 					""
 				},
@@ -10590,9 +10707,12 @@ pg.ship_data_group = {
 		333,
 		167,
 		168,
+		177,
+		178,
 		166,
 		316,
 		317,
+		318,
 		319,
 		170,
 		370,
@@ -10622,10 +10742,12 @@ pg.ship_data_group = {
 		202,
 		203,
 		204,
+		205,
 		206,
 		207,
 		383,
 		367,
+		320,
 		208,
 		209,
 		210,

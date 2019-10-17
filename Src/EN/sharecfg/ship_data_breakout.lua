@@ -10876,6 +10876,21 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[301271] = {
+		use_gold = 300,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 30127,
+		breakout_id = 301272,
+		breakout_view = "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+		id = 301271,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			72051
+		}
+	},
 	[301272] = {
 		use_gold = 800,
 		pre_id = 301271,
@@ -20877,6 +20892,7 @@ pg.ship_data_breakout = {
 		301262,
 		301263,
 		301264,
+		301271,
 		301272,
 		301273,
 		301274,

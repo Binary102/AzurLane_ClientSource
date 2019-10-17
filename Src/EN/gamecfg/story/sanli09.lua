@@ -6,12 +6,12 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "三笠大先輩,昨日の宴会はどうもありがとうございました。…でも大先輩が言ってたこと,私にはまだちょっとよく分からなくて……",
+			say = "Mikasa, I wanted to thank you for yesterday. Admittedly, there were a few things you mentioned I didn't quite understand...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,11 +22,11 @@ return {
 			}
 		},
 		{
-			say = "なら,我と一回演習で勝負でもしてみるか？",
+			say = "In that case, why don't we have a friendly duel?",
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -42,12 +42,12 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "三笠大先輩と…ですか？",
+			say = "A duel... with you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,12 +58,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "うむ。切磋琢磨は重要だ。何かがひらめくかも知れぬぞ。",
+			say = "With whom else? Rigorous training builds character. You might even learn a thing or two.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,12 +74,12 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "はい！全力で行かせていただきます！演習海域はちょうど空いていますから,三笠大先輩,今から行きましょう！",
+			say = "Okay! I'll try not to hold myself back! Say, the exercise area is vacant right now, so how about we go there right now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,12 +90,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "我はここでも構わぬが……まあ良い。では演習海域に出航しよう。って瑞鶴,ちょっと待てーー",
+			say = "We could just as well do it here... but very well. Let's head over then. Oh, Zuikaku, before I forget...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,12 +106,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "（あの時,ダンスは苦手だと言ったのに,我の足を一回も踏まなかったな……）",
+			say = "(She said dancing isn't her forte, but she didn't step on my toes at any point during the dance...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			}
 		},
 		{
-			say = "一刻後",
+			say = "A short while later...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -146,12 +146,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "瑞鶴！セイレーンとの戦いでの勢いはどうした！",
+			say = "Come on, Zuikaku! Where'd your vigor from the battle with the Siren go?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,12 +162,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "攻撃が全てわざとらしすぎる！どこを狙っているかひと目でわかるぞ！",
+			say = "Your attacks are all too stilted! With but one glance, I can predict where you're aiming!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,12 +178,12 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "やっぱり,大先輩には勝てない……か……",
+			say = "So I really don't stand a chance against you after all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,12 +194,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "そんなことあるか！今のはお主の全力ではあるまい！",
+			say = "What hogwash! You aren't fighting me earnestly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,12 +210,12 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "……兵装には問題ないはず,でもなぜ……大先輩相手にはやっぱり……",
+			say = "... There's nothing wrong with my equipment, so why... Why do I struggle against you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,12 +226,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "まだ気づいておらぬか。お主は我と戦う時,そしてセイレーン・エンタープライズと戦う時と比べて決定的な差があるーー",
+			say = "Your wit still fails you, I see. Compared to when you fight the Sirens or Enterprise, there is a decisive difference in how you approach a battle with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,12 +242,12 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "……？",
+			say = "...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,12 +258,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "我を傷つけるのを恐れるあまり,全ての攻撃前に躊躇しているのだ。",
+			say = "You are afraid to injure me, thus all your attacks are muddled by hesitation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,12 +274,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "…戦いを単純に考えすぎる者もいるが,お主はその逆だ。戦闘に入ったら,余計なことを考えるな！",
+			say = "Some simply overthink war, and then there's the other side of the coin - you. Once on the battlefield, focus only on the battle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,12 +290,12 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "そう言われても……！",
+			say = "That's easier said than done...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,12 +306,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "お主が気にすることもわかる。しかしだ,お主が自分の道を決めない限り,誰もがそれを決められまい。",
+			say = "I understand your anxiety. However, if you cannot even choose your own path, then nobody else will be able to help you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,12 +322,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "我の後を追っかけるのも構わぬ。だが――「全てを賭ける」と決めているのなら,最後まで貫け！",
+			say = "It is your decision if you wish to stay in my shadow. But if you pledge to \"wager everything,\" then commit to seeing it through!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,12 +338,12 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "私の,全て……わかりました。三笠大先輩！またいつかお手合わせお願いできませんか？",
+			say = "Commit to it... I understand now. Mikasa, would you please have another duel with me someday?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,12 +354,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "構わぬぞ。お主のためなら,我はその第一歩となろう。",
+			say = "Absolutely. My guidance shall serve as a stepping stone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,12 +370,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "…ただ,あまり長く待たせるでないぞ。その後はお主の努力が必要になるのだからな――",
+			say = "But, do not rely on me as a crutch. Afterwards, you must move forward through your own strength.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,9 +416,9 @@ return {
 			actorName = "{namecode:82}",
 			side = 1,
 			dir = -1,
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
-			say = "ふぅ……ここだな。",
+			say = "Phew... here we are.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -446,12 +446,12 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:95}",
-			say = "この旗は,一体……？",
+			say = "What is this flag for...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,12 +462,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "かつて我を勝利に導いた旗だ。",
+			say = "This flag once led me to victory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,12 +478,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "この旗さえあれば,お主らはきっと勝利への道を見つけ出せる。",
+			say = "And with it, you too will surely find your own path to victory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,12 +494,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "威厳で敵勢を挫き,勇気で性能差を補い,信念と根性で最後の最後まで粘り勝つ。",
+			say = "Dishearten the enemy with your dignity, bolster your shortcomings with your courage, and seize victory in the very end with your conviction and willpower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,12 +510,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "かの時代でもここでも「奇跡」は起こりえぬ。だが「奇跡的な勝利」は確かにあるのだ。この旗は,我が信念とともに,お主に預けるとしよう！",
+			say = "Miracles have never existed; not in my time, and certainly not now. Miraculous victories, however, do exist. And now, I leave my flag, as well as my conviction, in your hands!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

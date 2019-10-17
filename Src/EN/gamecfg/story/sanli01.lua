@@ -11,7 +11,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "啊…真头疼呐，进入镜面海域后居然连坐标和方位识别能力都会出现故障。",
+			say = "Shoot... Of course our instruments would stop working inside a Mirror Sea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "这下可难办了，{namecode:95}姐…",
+			say = "Now, what do we do, sis...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			}
 		},
 		{
-			say = "“迷路什么的是不可能的，我可是祥瑞加身的幸运舰啊！”——十分钟前你的那股自信劲儿哪里去了？",
+			say = "What happened to the boastful girl who said she'd \"never get us lost\" because she's \"the auspicious crane, after all\"?",
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -63,7 +63,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:95}",
-			say = "哎…",
+			say = "*Sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:95}",
-			say = "我早已派出了侦查机往9个方向去探索情报了，希望它们能带回有用的情报",
+			say = "I launched a few scout planes earlier in case something like this happened. We'll need intel on how to get out of here if we want to go home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:95}",
-			say = "在这之前你就给我在这好好呆着反省一下自己的行为！",
+			say = "So, until my scout planes return, you'll stand here and reflect on your actions!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "嘻嘻~果然是{namecode:95}姐最可靠了",
+			say = "My bad, my bad. I'm glad that you're so dependable though, sis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:95}",
-			say = "不过，居然这么误打误撞的进入了镜面海域，只能希望不要遇到…",
+			say = "But, while we're stuck here... I just hope we're lucky enough to not run into any Sirens...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:6}",
-			say = "警告…前方…复数敌影出现，舰体识别…塞壬…",
+			say = "Attention, please... Readings indicate several targets to our front. Identifying... It seems they're Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "姐姐还是一如既往的说啥撞啥呀哈哈哈",
+			say = "Welp, it looks like you jinxed it, sis, hahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:95}",
-			say = "……！（瞪）",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "…我错了…全，全军准备迎敌！",
+			say = "Oops, sorry! That just kinda slipped out of me... Anyway, uhh, all ships, prepare to engage!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

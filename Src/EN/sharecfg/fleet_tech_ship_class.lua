@@ -928,8 +928,11 @@ pg.fleet_tech_ship_class = {
 			30117,
 			30118,
 			30116,
+			30127,
+			30128,
 			30159,
 			30160,
+			30161,
 			30162,
 			30120
 		}
@@ -1147,6 +1150,7 @@ pg.fleet_tech_ship_class = {
 		nation = 3,
 		ships = {
 			30401,
+			30402,
 			30403,
 			30404
 		}
@@ -1207,6 +1211,17 @@ pg.fleet_tech_ship_class = {
 		nation = 3,
 		ships = {
 			30507
+		}
+	},
+	[30505] = {
+		shiptype = 5,
+		name = "Mikasa-Class",
+		t_level = 1,
+		id = 30505,
+		t_level_1 = 97,
+		nation = 3,
+		ships = {
+			30511
 		}
 	},
 	[30506] = {
@@ -1860,6 +1875,7 @@ pg.fleet_tech_ship_class = {
 		30502,
 		30503,
 		30504,
+		30505,
 		30506,
 		30601,
 		30602,

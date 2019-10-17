@@ -3,6 +3,8 @@ ys.Battle.BattleGatePerform = slot0
 slot0.__name = "BattleGatePerform"
 
 function slot0.Entrance(slot0, slot1)
+	print(slot2)
+
 	slot5 = {
 		prefabFleet = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(slot3).fleet_prefab,
 		stageId = slot0.stageId,

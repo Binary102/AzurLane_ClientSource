@@ -6,12 +6,12 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 304024,
+			actor = 304020,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:71}",
-			say = "榛名の協力はありませんが,本日の祝宴会の献立もこの比叡の逸品ぞろいでございます。皆様,戦いの疲れをお忘れになって,思う存分お楽しみくださいませ～",
+			say = "Sadly, Haruna wasn't able to help, but I'm pleased to present to you this banquet's buffet, made by yours truly. Everyone, please rest your weary bones from the battle and enjoy yourselves to your heart's content~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,9 +25,9 @@ return {
 			actorName = "{namecode:96}",
 			side = 2,
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
-			say = "三笠大先輩はこういうことが苦手だと思っていました…",
+			say = "I thought you'd feel out of place in a party like this, Mikasa.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,11 +55,11 @@ return {
 			}
 		},
 		{
-			say = "あはは,美酒佳肴（びしゅかこう）にどんちゃん騒ぎ,嫌うものはそうあるまい。バルト海の戦のあとは三日三晩騒いたぞ。",
+			say = "Ahahah! I have no distaste for fine wine, gourmet food, and partying. The celebration after the Battle of Tsushima lasted 3 days and nights!",
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -75,12 +75,12 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "三笠大先輩がどんちゃん騒ぎする姿……ちょっとイメージしづらいですね…",
+			say = "Maybe it's just me... but I'm struggling to imagine how you'd look when partying...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,12 +91,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "この我をそう堅い人間だと思うかな？それより瑞鶴,比叡が用意した宴会は気に入ったか？",
+			say = "Do you really take me for such a stuffy person? No matter... What do you think of Hiei's banquets, Zuikaku?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,12 +107,12 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "もちろん好きですよ？でないと訓練の時間に来るわけ――あ,定常訓練ではなく,自主練の時間です！",
+			say = "Of course I love them! If I didn't, then I wouldn't show up to training when- Oh, I'm referring to training in my free time, not regular training!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,12 +123,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "自主練……か。ここにいる子たちはみな努力しているな。",
+			say = "So you train in your spare time... It's good to see how many hard workers there are here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,12 +139,12 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "はい。まあ頑張りすぎな子も何人かいますけど……まあ,「セイレーン」相手の戦いだもの,全てを賭けなきゃ！",
+			say = "It does. Although some of us work TOO hard... Still, with the Sirens as our enemy, we need to wager all we have!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,12 +155,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "全てを賭けて……瑞鶴,お主にとって一番大切な,守りたいものはなんだ？",
+			say = "Wager all you have... Zuikaku, what is the dearest, most important thing you want to protect at any cost?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,12 +171,12 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "一番大切なものですか？えっと……たくさんありますね…翔鶴姉,重桜のみんな……それといつかあのグレイゴーストにも勝ちたいし,どれも捨てがたい……うぅ,私こういう話はちょっと苦手かも……",
+			say = "The most important thing to me? Umm... There are a lot of things... Like Shoukaku, my friends... or a victory against the Grey Ghost. It's hard to choose just one... I don't think I even can.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,12 +187,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "では聞き方を改めよう。勝利のために全てを賭けるのは至極当然の考えだ。だがお主にとって「全て」は一体なんだろうか？",
+			say = "Then let me rephrase my question. I don't doubt that you would wager everything to be victorious, but what is that \"everything\" to you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,12 +203,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "「この世界のために戦う」と息巻いている間,その心には力が溢れるのか？",
+			say = "In the moment you exclaim, \"I will fight for this world,\" is there a force welling up from within your heart?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,12 +219,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "絶望の時,己の無力さを感じる時,「人類の存亡」だの「世界」だのより,仲間とライバル,こうして祝宴が開ける時間こそ,お主にとっての「全て」ではなかろうか。",
+			say = "And when you feel hopeless or in despair, is your \"everything\" not \"the fate of humanity and the world,\" but rather your friends, rivals, and celebratory moments like this banquet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,12 +235,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "そんな「己の全て」を捨て去るのはすなわち「己の存在」を否定するものであり……己の存在も否定する者は己の限界を越えることは出来るはずがあるまい。",
+			say = "To discard that \"everything\" is to disavow yourself of your being. And those who reject their very being cannot hope to ever overcome their limits.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,12 +251,12 @@ return {
 			}
 		},
 		{
-			actor = 304024,
+			actor = 304020,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:71}",
-			say = "……お二人さん？そろそろダンスが始まりますよ？",
+			say = "... Not to interrupt your conversation, but the dance is starting soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,12 +267,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "すまんすまん…むっ,相手が……瑞鶴,一曲付き合ってくれるか？",
+			say = "Ah, I lost track of time... Now, I need a dance partner... Zuikaku, would you oblige me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,12 +283,12 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "えええ！？わ,私ダンスはあまり……",
+			say = "M-me?! B-but I'm not a good dancer...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,12 +299,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:82}",
-			say = "そう固くするでない～どれ,難しい所は我の足を踏んでも構わんぞ",
+			say = "You needn't be so coy! Come! I won't be angry at you even if you step on my toes during the more difficult parts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

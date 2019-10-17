@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:71}的宴会\n\n<size=45>四 准备</size>",
+					"Hiei's Banquet\n\n<size=45>Chapter 4: Preparations</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "最后还是帮忙{namecode:71}一起准备宴会了…",
+			say = "In the end, I decided to help with Hiei's banquet preparations.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "宴会需要的茶已经拜托{namecode:70}姐了，接下来要做的是…",
+			say = "Kongou and the others are busy with their errands, so next up is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "食物的准备…和发邀请函…了吧~",
+			say = "Finalizing our menu and sending out the rest of the invitations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "港区·商店",
+			say = "Port - Shop",
 			flashout = {
 				dur = 0.7,
 				black = true,
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欢迎光临喵~",
+			say = "Can I help you, nya~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼喵？原来是指挥官喵…啊，{namecode:71}也来了喵",
+			say = "Hm... nya?! Commander... and Hiei as well, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			}
 		},
 		{
-			say = "拜托你帮忙调度的东西，都准备好了吧~{namecode:98}？",
+			say = "Akashi, did you manage to get what I asked you for?",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -170,7 +170,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然喵！老样子的食物和饮料喵，早就准备妥当了喵~",
+			say = "Of course, nya! I've got all the food ingredients and drinks taken care of, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "每次都谢谢惠顾了喵~",
+			say = "Thanks for your patronyage, nya~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我才要感谢{namecode:98}哦，不光是宴会的食物和饮料，平时的资材调度也辛苦你了呢~",
+			say = "The pleasure is mine. Thank you for handling all my orders so diligently every time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，这个，请收下吧~",
+			say = "Hehe~ Here you go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "呼喵？！这个是…邀请函喵？{namecode:98}也要参加宴会喵？",
+			say = "Nya? This is... an invitation, nya! Akashi is also invited?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，宴会当然是人越多越热闹啦~记得也叫上{namecode:20}哦~",
+			say = "Of course. The more, the merrier. Oh, would you also mind asking Shiranui if she wants to come?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			actor = 304010,
 			nameColor = "#a9f548",
-			say = "所以说不用再来叫我们一次了嘛……放心吧，我们一定会准时参加的",
+			say = "Look, you don't need to keep calling us... I know, just take it easy, we'll be there on time.",
 			flashout = {
 				dur = 0.7,
 				black = true,
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:71}姐的宴会啊，每次都很让人期待呢～",
+			say = "Waiting for one of Hiei's banquets to start always makes me excited~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			}
 		},
 		{
-			say = "哈啊…{namecode:73}你不要又“添乱”就好了",
+			say = "*sigh*... As long as you don't make a mess of things~",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，我可不记得我有给宴会添过什么乱啊",
+			say = "Huh? I don't remember doing anything...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，这不是{namecode:73}的过错啦。不过每次有余兴节目的时候都会莫名其妙的热闹起来呢。",
+			say = "Hehe, it's not your fault, Kirishima. There's bound to be craziness when we have an open bar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈…没办法，大家都那么热情，也不好拒绝嘛。这回我稍微注意点吧",
+			say = "Well, um... my bad, I guess. It's hard to say no when so many people are goading me on. I'll make sure to watch myself this time though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 304020,
 			nameColor = "#a9f548",
-			say = "这样事前准备就差不多了呢。宴会准备也要靠你多多帮忙了，指挥官♪",
+			say = "I wonder if everything is in order now... Thanks for helping with the preparations, Commander~♪",
 			flashout = {
 				dur = 0.7,
 				black = true,

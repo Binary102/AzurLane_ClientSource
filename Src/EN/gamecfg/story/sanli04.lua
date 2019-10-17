@@ -11,7 +11,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "没想到在这个时代还能听到如此振奋人心的发言，真是一群出色的后辈们呀！",
+			say = "It warms my heart to hear those words in this day and age... I see that the fleet has been entrusted to capable hands!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			say = "看来是赶上了呢，多亏发现了{namecode:95}放出的侦察机~",
+			say = "We made it just in time. And we have Shoukaku's scout planes to thank for it.",
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -47,7 +47,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "？？？",
-			say = "就是那个会在天上飞的玩意吗？…真是跟不上时代了呀哈哈哈",
+			say = "\"Scout planes\" is what they call those mechanical birds in the sky? ... My word, how the times have changed, ahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:95}",
-			say = "…这个声音…",
+			say = "... Isn't that...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "这个传说中的旗帜…",
+			say = "Wait, that flag...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "难道真的是…",
+			say = "Is that who I think it is?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			actorName = "{namecode:95}&{namecode:96}",
-			say = "！！…重樱联合曾经的大旗舰——",
+			say = "The former flagship of the Combined Fleet, the War God herself!",
 			effects = {
 				{
 					active = true,
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			mode = 3,
-			say = "<size=52.5>{namecode:82}！！</size>",
+			say = "<size=52.5>It's Mikasa!</size>",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			mode = 3,
-			say = "后辈们，拿出你们的气势来！战斗才刚刚开始！！！",
+			say = "Now, my juniors, show me the valor of the Sakura Empire! The true battle has only just begun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			mode = 3,
-			say = "绳锯木断，滴水穿石，今日的努力将被未来铭记",
+			say = "Unto the righteous that pray, Heaven shall grant righteous aid!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			mode = 3,
-			say = "而未来，将因你们今日的努力改变",
+			say = "Our actions here, guided by our beliefs and devotion, shall lead us into the future!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			mode = 3,
-			say = "再次一起奋战吧！",
+			say = "My sistren! The fate of our nation depends on this battle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			mode = 3,
-			say = "今日晴空万里，波澜壮阔——",
+			say = "The clear skies and roaring seas stretch as far as the eye can see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			mode = 3,
-			say = "新生重樱联合",
+			say = "I am Mikasa, the flagship of the Combined Fleet, forged anew!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			mode = 3,
-			say = "——出击！",
+			say = "Brace yourself, Siren!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

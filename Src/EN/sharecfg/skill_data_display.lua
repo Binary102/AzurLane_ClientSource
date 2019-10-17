@@ -526,7 +526,7 @@ pg.skill_data_display = {
 	},
 	[6231] = {
 		id = 6231,
-		name = "Zの正義"
+		name = "Z Flag"
 	},
 	[6240] = {
 		id = 6240,
@@ -558,7 +558,7 @@ pg.skill_data_display = {
 	},
 	[8521] = {
 		id = 8521,
-		name = "新生重樱联合"
+		name = "Reborn Combined Fleet Flagship"
 	},
 	[8640] = {
 		id = 8640,

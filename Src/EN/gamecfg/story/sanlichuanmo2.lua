@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:82}前辈的收藏大公开\n\n<size=45>二　宽容的大前辈</size>",
+					"Mikasa's Model Museum\n\n<size=45>Chapter 2: The Patient Veteran</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 305110,
 			nameColor = "#a9f548",
-			say = "真是大受打击。",
+			say = "How could this have happened?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "收藏室一瞬间全没了——（泣），在那之后也让后辈们见笑了。",
+			say = "My whole collection, gone in the blink of an eye. Waaaahh! And now I've got nothing to show the kids.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…在那里的是…{namecode:33}？",
+			say = "Hey... you over there... Mutsuki, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜呜……又闯了大祸。",
+			say = "Ummm... I did... something bad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			actor = 301320,
 			nameColor = "#a9f548",
-			say = "{namecode:82}前辈对不起呜呜呜…{namecode:33}又干了坏事哇啊啊啊啊——",
+			say = "I'm so sorry, Miss Mikasaaa! Waaaahhh... I'm sorry I'm such a bad girl! Waaaaaahhhhh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,14 +115,6 @@ return {
 				time = 1
 			},
 			action = {
-				{
-					y = 45,
-					type = "shake",
-					delay = 0.2,
-					dur = 0.1,
-					x = 0,
-					number = 2
-				},
 				{
 					y = 15,
 					type = "shake",
@@ -134,7 +126,7 @@ return {
 			}
 		},
 		{
-			say = "唉……好啦好啦，小{namecode:33}不哭啦。来来来……小{namecode:33}要笑起来。笑起来有糖果哦~（挠）",
+			say = "Oy... It's okay, now. Settle down. No more crying, Mutsuki. There there... show me a smile. Smile for a candy~ Coochee coochee coo!",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -159,7 +151,7 @@ return {
 			dir = 1,
 			actor = 301320,
 			nameColor = "#a9f548",
-			say = "好痒……好痒……啊哈哈哈。",
+			say = "That tickles! Ahahaha... it tickles!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +185,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过大前辈真的……真的不怪{namecode:33}吗。",
+			say = "But, Miss Mikasa, you really... You're not mad at me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +201,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "屋子和船模既然都已经损坏了，也没办法……",
+			say = "What's done is done. Getting mad wouldn't help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +217,7 @@ return {
 			dir = 1,
 			actor = 301320,
 			nameColor = "#a9f548",
-			say = "唔……{namecode:33}，{namecode:33}犯了那么大的错，一定会想办法弥补过错的！",
+			say = "Um... since I did something bad... I have to find some way to help fix it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +243,7 @@ return {
 			dir = 1,
 			actor = 301320,
 			nameColor = "#a9f548",
-			say = "嘿咻……嘿咻，{namecode:33}也想多搬点东西。",
+			say = "Unnnff... Nnngg... I just have to move this... over there!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -289,7 +281,7 @@ return {
 			}
 		},
 		{
-			say = "呵呵，挺能干呢，小{namecode:33}！",
+			say = "Oh my, look at you, Mutsuki!",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -314,7 +306,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎，小{namecode:33}当心啊！箱子要掉下来了。",
+			say = "Hey, be careful! That box is going to fall!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +322,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不怕不怕……{namecode:33}，很擅长运输任务的！",
+			say = "Don't worry... I'm good at transport missions!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +336,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "稍晚点的时候，{namecode:33}酱又到了另外一边。",
+			say = "Before long, Mutsuki had made it across the port.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -373,7 +365,7 @@ return {
 			dir = 1,
 			actor = 301320,
 			nameColor = "#a9f548",
-			say = "{namecode:33}也来帮忙修补！",
+			say = "I'm here to help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +386,7 @@ return {
 			}
 		},
 		{
-			say = "真有干劲啊，小{namecode:33}越来越熟练了。",
+			say = "You're so enthusiastic. Our little Mutsuki is growing up.",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -419,7 +411,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:33}……要让{namecode:82}大前辈开心起来！",
+			say = "I have to cheer Mikasa up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +427,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "慢慢来吧。来，张嘴！给你一块水果硬糖。",
+			say = "You'll get there. Now open your mouth! I think someone's earned a candy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +443,7 @@ return {
 			dir = 1,
 			actor = 301320,
 			nameColor = "#a9f548",
-			say = "啊——橘子味的糖果，好次！",
+			say = "Oooh! Orange flavor! I love it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +464,7 @@ return {
 			}
 		},
 		{
-			say = "不过，工作还有很多很多啊。",
+			say = "But I still have a lot of work to do...",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -495,7 +487,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "第二天",
+			say = "The next day...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -524,7 +516,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎……{namecode:33}，别走那么急啦。",
+			say = "Um... Mutsuki, you don't have to walk so fast.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +527,7 @@ return {
 			}
 		},
 		{
-			say = "哦！{namecode:33}酱今天劲头好足。",
+			say = "Wow! Mutsuki's really pushing it today.",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -560,7 +552,7 @@ return {
 			dir = -1,
 			actor = 301350,
 			nameColor = "#a9f548",
-			say = "慢……慢点。哈……哈，好累。",
+			say = "W... wait up. *Pant*... *pant*... so fast...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +578,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家，一起来帮忙搬东西吧！",
+			say = "Come on! Everybody pitch in and help me move these!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +594,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "糖果……糖果，刚才{namecode:82}大前辈给的糖果，大家都有份的！",
+			say = "Candy! Candy! Everyone who helps gets a piece of Miss Mikasa's candy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +605,7 @@ return {
 			}
 		},
 		{
-			say = "哦~{namecode:33}居然把糖果分给我们了……",
+			say = "Wow~ Mutsuki actually shared her candy with us...",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -638,7 +630,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了早日修复大前辈的收藏室，加油哦！",
+			say = "Let's do our best, everyone! We'll fix up the model museum as soon as we can!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,7 +648,7 @@ return {
 			dir = 1,
 			actor = 301330,
 			actorName = "{namecode:133}&{namecode:137}&{namecode:34}",
-			say = "哦——",
+			say = "Okaaaay!",
 			subActors = {
 				{
 					actor = 301370,
@@ -685,7 +677,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:33}级的帮忙大作战，持续进行中！",
+			say = "And so began the Mutsukis' monumental task.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -248,6 +248,14 @@ slot1 = {
 	[ActivityConst.TWCELEBRATION_4] = {
 		className = "TWCelebrationPage4",
 		uiName = "twcelebration4"
+	},
+	[ActivityConst.MIKASA_REPAIRE_ACTIVITY] = {
+		className = "MikasaRepairePage",
+		uiName = "mikasarepairePage"
+	},
+	[ActivityConst.MIKASA_MAIN_ACTIVITY] = {
+		className = "MikasaPreviewPage",
+		uiName = "mikasamainPage"
 	}
 }
 slot2 = {}

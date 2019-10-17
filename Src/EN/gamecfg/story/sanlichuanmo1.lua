@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:82}前辈的收藏大公开\n\n<size=45>一　收藏室、崩坏</size>",
+					"Mikasa's Model Museum\n\n<size=45>Chapter 1: A Collection Destroyed</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "某日的港区",
+			say = "One day, at the port...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "呜哇…这就是传说中的——",
+			say = "Wow... So this is the legendary...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:82}前辈的收藏！",
+			say = "Mikasa's model collection!",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯哼~其实老早就想分享给大家看了，又有些不好意思……",
+			say = "Mhm! I've been wanting to show it off for a while. But the thought of it going public makes me a little hesitant...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,11 +119,11 @@ return {
 		},
 		{
 			nameColor = "#a9f548",
-			bgName = "bg_sanli_cg_1",
 			side = 2,
+			bgName = "bg_sanli_cg_1",
 			dir = 1,
-			actorName = "{namecode:82}",
-			say = "最近终于想通了。来！尽情欣赏吧！这些可都是我千辛万苦才收集到的收藏品哦！",
+			actorName = "Mikasa",
+			say = "However, I have finally overcome all that! Step up! Have a look-see! Feast your eyes upon the collection I poured my blood, sweat, and tears into!",
 			effects = {
 				{
 					active = true,
@@ -133,15 +133,19 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		},
 		{
-			actorName = "{namecode:82}",
+			actorName = "Mikasa",
 			side = 2,
 			bgName = "bg_sanli_cg_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看这完美的结构！小巧而极致还原的炮塔，还有这些高耸的的舰桥！",
+			say = "Make sure you look at the finer details! See that painstakingly restored gun turret? How about the features on that bridge?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,13 +156,12 @@ return {
 			}
 		},
 		{
-			withoutPainting = true,
 			side = 2,
-			bgName = "bg_sanli_cg_1",
+			bgName = "bg_story_task",
 			dir = 1,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "哇啊——没想到{namecode:82}前辈一直在收集着这些船模呢！",
+			say = "This is incredible! Who knew Mikasa was collecting all these model ships?",
 			effects = {
 				{
 					active = false,
@@ -175,13 +178,112 @@ return {
 			}
 		},
 		{
-			withoutPainting = true,
-			side = 2,
-			bgName = "bg_sanli_cg_1",
-			dir = 1,
 			actor = 307060,
+			side = 2,
+			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			say = "不过看到自己的船模，总觉得有点害羞呢…",
+			dir = 1,
+			say = "Seeing a model of myself is a little embarrassing though...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			say = "She's even got models of our esteemed seeeniors from the First Carrier Division~",
+			side = 1,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
+			paintingFadeOut = {
+				time = 0.5,
+				side = 0
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307050,
+			side = 1,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Just looking at them gives me the urge to scoop them up and do... \"something.\" Hehehe~♪",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307060,
+			side = 0,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Erm, Shoukaku...?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 304020,
+			side = 0,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Mikasa, your collection is quite impressive... (whispering) I would love to throw a party in this room...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307050,
+			side = 1,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Hiei, do you mean...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Haha! Gather 'round now, kids! I'll give you a little tour. See, these here are your ships that were forged in the crucible of war, and these over here are your standard aircraft carriers...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,11 +295,11 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "bg_story_task",
+			bgName = "bg_sanli_cg_2",
 			dir = 1,
-			actor = 307050,
 			nameColor = "#a9f548",
-			say = "哎呀，竟然还有一航战的“前·辈·们”的模型呢",
+			actorName = "Kisaragi",
+			say = "Mu-Mutsuki, let go...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -225,27 +327,11 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			actorName = "Mutsuki",
 			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			bgName = "bg_sanli_cg_2",
+			say = "Hurry, Kisaragi, c'mere! She's got models of us Mutsuki-class ships~",
 			dir = 1,
-			say = "让人忍不住想要对她们做点什么呢，呵呵呵",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			say = "姐，姐姐……",
-			side = 0,
-			bgName = "bg_story_task",
-			dir = 1,
-			actor = 307060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -261,131 +347,44 @@ return {
 			}
 		},
 		{
-			actor = 304020,
-			side = 0,
+			actorName = "Kisaragi",
+			side = 2,
+			bgName = "bg_sanli_cg_2",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Wooooww! Miss Mikasa... she's so cool~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Mikasa",
+			side = 2,
+			bgName = "bg_sanli_cg_2",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Hehehe, the little Mutsukis are here! Have a look around. But watch your feet and don't trip.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是{namecode:82}前辈的收藏室…要是能在这里开个宴会就好了…（小声）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 307050,
-			side = 1,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "{namecode:71}你……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			withoutPainting = true,
-			side = 2,
-			bgName = "bg_sanli_cg_1",
-			dir = 1,
-			actor = 305110,
-			nameColor = "#a9f548",
-			say = "哈哈，大家都是我可爱的后辈呀！我来介绍一下吧，这边是我们这些经受过战火考验的战舰的模型，那边是正规空母——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_sanli_cg_2",
-			dir = 1,
-			nameColor = "#a9f548",
-			actorName = "{namecode:34}",
-			say = "{namecode:33}，不要拉我啦…",
-			flashout = {
-				dur = 0.7,
-				black = true,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 0.7,
-				dur = 0.7,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "{namecode:34}快看快看，我们{namecode:33}级的模型在那边呢~",
-			actorName = "{namecode:33}",
-			bgName = "bg_sanli_cg_2",
-			side = 2,
-			dir = 1,
-			nameColor = "#a9f548",
-			paintingFadeOut = {
-				time = 0.5,
-				side = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "{namecode:34}",
-			side = 2,
-			bgName = "bg_sanli_cg_2",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "哇啊…{namecode:82}大前辈，真的好厉害~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "{namecode:82}",
-			side = 2,
-			bgName = "bg_sanli_cg_2",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "呵呵呵，小{namecode:33}你们也来啦~尽管参观吧！当心脚下不要摔倒了哦~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			withoutPainting = true,
-			side = 2,
-			bgName = "bg_sanli_cg_2",
-			dir = 1,
-			actor = 305110,
-			nameColor = "#a9f548",
-			say = "对了，这个收藏室姑且还是设置了防止入侵以及保护船模的装置，所以大家还是要小心不要误碰了哦",
+			say = "I almost forgot, my little collection room here still has its alarms all wired up. So everybody be careful about what you touch. Don't put your hands all over everything!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,10 +399,10 @@ return {
 			bgName = "bg_sanli_cg_3",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:33}",
-			say = "咦？那是什么？",
+			actorName = "Mutsuki",
+			say = "Huh? What's that?",
 			flashout = {
-				dur = 0.7,
+				dur = 1,
 				black = true,
 				alpha = {
 					0,
@@ -411,8 +410,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.7,
-				dur = 0.7,
+				delay = 1,
+				dur = 1,
 				black = true,
 				alpha = {
 					1,
@@ -422,13 +421,17 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		},
 		{
-			say = "哇啊啊，{namecode:33}，不可以啦……按钮旁写着“危险，禁止触摸”呢…",
-			actorName = "{namecode:34}",
-			bgName = "bg_sanli_cg_2",
+			actorName = "Kisaragi",
 			side = 2,
+			bgName = "bg_sanli_cg_2",
+			say = "Aaaahhh! Mu-Mutsuki, don't push it... That button says \"Danger, do not push\"...",
 			dir = 1,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
@@ -438,15 +441,19 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		},
 		{
-			actorName = "{namecode:33}",
+			actorName = "Mutsuki",
 			side = 2,
 			bgName = "bg_sanli_cg_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿咻……嘿咻~好高啊。嗯？“禁、止触摸”？",
+			say = "Unnnfff... Uughhhh... It's so high. Huh? \"Do... not push\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,12 +464,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:33}",
+			actorName = "Mutsuki",
 			side = 2,
 			bgName = "bg_sanli_cg_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…越是这么说，就越让人想摸摸呢…我按！",
+			say = "Hm... They have to know that only makes people want to push it... I'm gonna push it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,9 +480,9 @@ return {
 			}
 		},
 		{
-			say = "轰隆隆隆隆的声音伴随着震动从脚下传来",
 			stopbgm = true,
-			bgName = "bg_sanli_cg_3",
+			bgName = "bg_sanli_cg_2",
+			say = "A heavy rumbling sound echoed throughout the room as the floor began to shake violently.",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom1",
@@ -523,7 +530,7 @@ return {
 			soundeffect = "event:/battle/boom1",
 			actor = 305110,
 			nameColor = "#a9f548",
-			say = "这、这声音，难道是自毁装置启动了！？",
+			say = "Oh no. That sound... it's the self-destruct system?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +556,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "为、为什么收藏室会有自毁装置啦！！",
+			say = "Wh-why does your collection have a self-destruct system?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +577,7 @@ return {
 			}
 		},
 		{
-			say = "为了……为了预防万一嘛……",
+			say = "For... well... you need to be prepared, just in case...",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -597,7 +604,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom1",
 			actor = 305110,
-			say = "{namecode:82}前辈危险！",
+			say = "Look out, Mikasa!",
 			flashN = {
 				color = {
 					1,
@@ -670,7 +677,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "呜哇！",
+			say = "Aaaagh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -680,7 +687,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "伴随着轰鸣，{namecode:82}的收藏室变成了一片废墟。",
+			say = "With another loud rumble, the entire collection room began to crumble.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +699,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "前辈的收藏室，变成一片废墟了…",
+			say = "Her collection... it's been reduced to a pile of rubble...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -709,8 +716,8 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_sanli_cg_4",
 			bgm = "story-1",
-			actorName = "{namecode:82}",
-			say = "怎么会……怎么会这样……（泣）",
+			actorName = "Mikasa",
+			say = "But... but why...? Waaaahhhh!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -738,12 +745,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:82}",
+			actorName = "Mikasa",
 			side = 2,
 			bgName = "bg_sanli_cg_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我的心血…可爱的后辈们的模型…全都…（瘫）",
+			say = "My pride and joy... All my models of the sweet little kids... They're all... Waaahhhh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,12 +761,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:96}",
+			actorName = "Zuikaku",
 			side = 2,
 			bgName = "bg_sanli_cg_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊啊！前辈！！请振作点！！",
+			say = "Hey now, Mikasa! Pull yourself together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -770,30 +777,12 @@ return {
 			}
 		},
 		{
-			withoutPainting = true,
-			side = 2,
-			bgName = "bg_sanli_cg_4",
-			dir = 1,
 			actor = 307050,
-			nameColor = "#a9f548",
-			say = "哎…在这边不知所措也没用，还是想想怎么善后跟补救吧…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			withoutPainting = true,
 			side = 2,
-			bgName = "bg_sanli_cg_4",
-			dir = 1,
-			actor = 307050,
+			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			say = "好啦，{namecode:33}{namecode:34}也不要哭啦，{namecode:96}，你去找人来一起帮忙，接下来有得忙了",
+			dir = 1,
+			say = "She's right. Now isn't the time for a breakdown. Let's think about how to fix this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -804,10 +793,25 @@ return {
 			}
 		},
 		{
-			withoutPainting = true,
+			actor = 307050,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Now now, Mutsuki and Kisaragi, we don't need you crying either. Zuikaku, you go get help. We have a lot to do here.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			say = "Good idea, Shoukaku! I'm on my way!",
 			side = 0,
-			bgName = "bg_sanli_cg_4",
-			say = "姐姐…嗯！我这就去！",
+			bgName = "bg_story_task",
 			dir = 1,
 			actor = 307060,
 			nameColor = "#a9f548",
@@ -838,24 +842,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "结果{namecode:82}一整天都没能振作起来…",
-			flashout = {
-				dur = 1,
-				black = true,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 1,
-				dur = 1,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			},
+			say = "Mikasa spent the entire day completely inconsolable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -865,7 +852,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "而{namecode:96}则将这件事告诉了重樱的其他伙伴们，大家决定齐心协力，将大前辈的收藏室和船模们悉数修复！",
+			say = "When Zuikaku brought news of what had happened to the other Sakura ships, they all came together for the common purpose of restoring their former flagship's collection to its former glory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -19,6 +19,13 @@ function slot0.initBtn(slot0)
 				})
 			end)
 		end,
+		academy = function (slot0)
+			onButton(slot0, slot0, function ()
+				slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.NAVALACADEMYSCENE, {
+					page = "activity"
+				})
+			end)
+		end,
 		shop = function (slot0)
 			slot1 = _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
 				return slot0:getConfig("config_client").pt_id == pg.gameset.activity_res_id.key_value

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:71}的宴会\n\n<size=45>七 心声</size>",
+					"Hiei's Banquet\n\n<size=45>Chapter 7: Moonlit Appassionata</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "宴会结束后……",
+			say = "The banquet was drawing to a close.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们走了喵~谢谢你的邀请喵~",
+			say = "Thanks for everything~ Bye bye, nya~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，确实是场不错的宴会。让人不禁期待起下次了呢",
+			say = "That was a splendid banquet. I'll be looking forward to the next one",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "毕竟是{namecode:71}姐办的宴会，每次大家不都玩得很开心嘛~",
+			say = "Hiei throws the best banquets after all. Of course everyone was having a great time~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家都玩得很尽兴呢",
+			say = "It helps that she has such a good reputation too~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，回去的路上当心点呢~",
+			say = "Hehe. Please be careful on your way back~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			bgm = "story-2",
 			actor = 304020,
 			nameColor = "#a9f548",
-			say = "呼…结束了呢",
+			say = "Phew... I guess it's over now...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -170,7 +170,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然宴会越是开心，结束的时候越会觉得有点寂寞呢…",
+			say = "The more joyous the occasion, the more bittersweet it is when it comes to an end...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官也这么觉得吗？",
+			say = "Wouldn't you agree, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			actor = 304020,
 			nameColor = "#a9f548",
-			say = "呵呵，不过即使如此，我还是喜欢这样热闹的宴会呢",
+			say = "Hehe~♪ That's not the important thing though. Ultimately, I just want to see everyone get excited and have a great time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问喜欢开宴会的理由",
+					content = "\"Why do you like banquets so much?\"",
 					flag = 1
 				}
 			}
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是呀，为什么呢？明明办个宴会需要各种准备，又没有报酬，结束的时候还很寂寞",
+			say = "Hmm, how should I put this... The preparations are grueling, you get no compensation for doing it, and when it's over, you feel lonely...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，举办宴会的时候，大家都很开心",
+			say = "However, during the banquet, you can see how happy everyone is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家平常都忙于作战或是任务，自然会感到疲惫…",
+			say = "We all build up so much stress during our everyday missions... If there's anything I can do to help alleviate some of that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这时候有那么件事能让大家放松下来享受一下…不是再好不过了吗？",
+			say = "If you think of these banquets as a form of healing, doesn't that make them seem much more marvelous?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然准备宴会也不是件那么容易的事情",
+			say = "Of course, setting up a banquet is no easy feat...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，看到宴会上大家露出的笑容时，就觉得一切的准备都是值得的了～",
+			say = "But being able to see everyone's happiness makes me forget all about the hard work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "银色的月光洒落在港区，今夜是个晴朗的夜晚…",
+			say = "The silver moonlight falls gently across the harbor. The moon is beautiful tonight...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "不由得想起刚才在宴会上的{namecode:71}的舞姿。",
+			say = "I recalled the dance I shared with Hiei earlier at the banquet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			actor = 304020,
 			nameColor = "#a9f548",
-			say = "跳舞…现在吗？宴会已经结束了哟？也没有音乐呢…",
+			say = "Another dance... right now? The banquet's already over though, and the music...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -371,7 +371,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "——没关系，夜晚还很长。",
+			say = "Don't worry. Banquet or not, our appassionata is always playing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "夜晚还很长…吗？",
+			say = "Hehe. You're right, the night is still young...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵…那就开始吧～只属于我们两个人的，月夜的巡游～",
+			say = "Very well then. Let's begin our moonlit cruise... just the two of us~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

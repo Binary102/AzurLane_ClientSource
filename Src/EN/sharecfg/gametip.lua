@@ -3425,7 +3425,7 @@ Current expansions: <color=#92fc63>$3</color>
 		key = "levelScene_coastalgun_help_tip"
 	},
 	tack_tickets_max_warning = {
-		tip = "所持<color=#ffde38>档案密钥</color>数量达到上限，完成任务后只能获得<color=#ff5c5c>$1</color>份<color=#ffde38>档案密钥</color>，是否确认领取？",
+		tip = "You already have the maximum amount of <color=#ffde38>Data Keys</color>. You will receive <color=#ff5c5c>$1</color> Data Key(s) if you proceed. Would you still like to collect these rewards? ",
 		key = "tack_tickets_max_warning"
 	},
 	error_refresh_sub_chapter = {
@@ -8651,29 +8651,29 @@ with Anti-Sub gear.
 		key = "skin_remain_time"
 	},
 	word_museum_1 = {
-		tip = "今天的修理任务都完成啦，明天再来吧",
+		tip = "No more Model Parts can be obtained today. ",
 		key = "word_museum_1"
 	},
 	word_museum_help = {
 		key = "word_museum_help",
 		tip = {
 			{
-				info = "活动说明："
+				info = "Event Details:"
 			},
 			{
-				info = "    1.活动期间，每日刷新三个活动日常任务，完成活动日常任\n       务获取零件；"
+				info = " 1. During the event, three new event missions appear daily.\n Complete them to earn “Model Parts.”"
 			},
 			{
-				info = "    2.当天未完成的活动日常任务不消失，完成全部三个任务后\n       刷新下一批活动日常任务；"
+				info = " 2. Missions do not disappear if you do not complete them \nin time. The next day’s missions will unlock after you \nfinish your current missions."
 			},
 			{
-				info = "    3.活动日常任务每日获得一次刷新次数，可以累积，总计可\n       获得7次；"
+				info = " 3. Every day, you may reroll 1 event mission. You may \nhave a total of 7 rerolls."
 			},
 			{
-				info = "    4.使用零件帮助三笠修复船模，每完成一个舰种的修复可以\n       获得一份奖励；"
+				info = " 4. Use “Model Parts” to help repair Mikasa’s collection. \nFinish repairing a ship model to collect the reward."
 			},
 			{
-				info = "    5.修复全部四个舰种的的船模后，可以获得限定家具【鲐号\n       船模】；"
+				info = " 5. Repair all four ship models to earn the limited \n furniture, “Mikasa Ship Model.”"
 			}
 		}
 	},
@@ -8894,7 +8894,7 @@ with Anti-Sub gear.
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "Rate Up characters: Formidable, Zara, Giulio Cesare",
+		tip = "Rate Up characters: Mikasa, Hiei, Hamakaze, Kuroshio, Oyashio",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {

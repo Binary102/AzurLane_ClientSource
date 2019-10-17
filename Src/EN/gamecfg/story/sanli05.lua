@@ -11,28 +11,8 @@ return {
 			dir = 1,
 			soundeffect = "event:/ui/alarm",
 			actor = 900011,
-			actorName = "测试者α",
-			say = "（warning…warning…warning…受到伤害超出损害控制速度范围）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			say = "！？什么情况…【自然演算系统】里没有对应的记录！？",
-			side = 2,
-			nameColor = "#ff0000",
-			dir = 1,
-			actor = 900011,
-			actorName = "测试者α",
-			paintingFadeOut = {
-				time = 0.5,
-				side = 0
-			},
+			actorName = "Tester-α",
+			say = "*WARNING: DAMAGE LEVELS CRITICAL. CONTROL SYSTEMS DESTROYED.*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,8 +27,24 @@ return {
 			nameColor = "#ff0000",
 			side = 2,
 			dir = 1,
-			actorName = "测试者α",
-			say = "明明是一堆老掉牙的铁古董居然…",
+			actorName = "Tester-α",
+			say = "What...?! The Simulations said nothing of this!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900011,
+			nameColor = "#ff0000",
+			side = 2,
+			dir = 1,
+			actorName = "Tester-α",
+			say = "How could an ancient, outdated battleship do this to me?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +60,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "百发百中的一门大炮，胜过百门百发一中的大炮",
+			say = "A cannon that lands its every shot fights on even ground against a hundred cannons that only land one-hundredths of theirs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +76,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "影响战斗结果的，可不仅仅是装备的性能！",
+			say = "The difference in firepower between us is not the decisive factor!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,8 +91,8 @@ return {
 			nameColor = "#ff0000",
 			side = 2,
 			dir = 1,
-			actorName = "测试者α",
-			say = "有趣，出现了计算之外的厉害角色，看来今天就只能陪你们玩到这儿了",
+			actorName = "Tester-α",
+			say = "Fascinating... A miscalculation has reared itself. I'll forgive you for now and take my leave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,8 +107,8 @@ return {
 			nameColor = "#ff0000",
 			side = 2,
 			dir = 1,
-			actorName = "测试者α",
-			say = "离开镜面海域的水道，我已经给你们打开了",
+			actorName = "Tester-α",
+			say = "I've prepared an escape route for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,8 +123,8 @@ return {
 			nameColor = "#ff0000",
 			side = 2,
 			dir = 1,
-			actorName = "测试者α",
-			say = "去吧，改变现有的时代",
+			actorName = "Tester-α",
+			say = "If you hope to change history, then go ahead and try.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,8 +139,8 @@ return {
 			nameColor = "#ff0000",
 			side = 2,
 			dir = 1,
-			actorName = "测试者α",
-			say = "记住，我们会一直观察着你们的",
+			actorName = "Tester-α",
+			say = "However, there is one thing you should remember: we are always watching you... Ahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +156,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "等等，别想逃！！",
+			say = "Wait! Get back here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +167,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:96}，停下！现在还不是时候！！",
+			say = "No, Zuikaku! There's no point in pursuing her!",
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -195,8 +191,8 @@ return {
 			nameColor = "#ff0000",
 			side = 2,
 			dir = 1,
-			actorName = "测试者α",
-			say = "呵呵呵，正确的判断，恭喜你们捡回了一次性命～",
+			actorName = "Tester-α",
+			say = "Hahaha! You would do well to listen to her, unless you're that eager to throw away the life I just spared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,8 +207,8 @@ return {
 			nameColor = "#ff0000",
 			side = 2,
 			dir = 1,
-			actorName = "测试者α",
-			say = "下次来访时，记得提前预约哟，回头见了，小动物们～",
+			actorName = "Tester-α",
+			say = "Oh, and next time, make a reservation before coming here, will you? Bye-bye, little ones~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

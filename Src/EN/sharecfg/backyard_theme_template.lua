@@ -907,6 +907,27 @@ pg.backyard_theme_template = {
 			27301
 		}
 	},
+	[31] = {
+		Cfg_1 = 5,
+		name = "Atré Akihabara",
+		desc = "Atré Series",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 0,
+		discount = 0,
+		id = 31,
+		icon = "atrethemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			31101,
+			31102,
+			31103,
+			31104
+		}
+	},
 	[35] = {
 		Cfg_1 = 5,
 		name = "Ghostly Witch House ",
@@ -1554,6 +1575,7 @@ pg.backyard_theme_template = {
 		23,
 		24,
 		27,
+		31,
 		35,
 		37,
 		38,

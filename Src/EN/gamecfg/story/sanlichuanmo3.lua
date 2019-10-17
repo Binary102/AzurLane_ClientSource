@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:82}前辈的收藏大公开\n\n<size=45>三　努力的后辈们</size>",
+					"Mikasa's Model Museum\n\n<size=45>Chapter 3: The Hardworking Kids</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			bgm = "story-1",
-			say = "在众人的努力下，收藏室开始逐步重建，船模也在逐步修复中。",
+			say = "With everyone pitching in, little by little, the room was starting to come together. Even Mikasa's model ships were slowly being rebuilt.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "同时，越来越多的重樱成员加入了帮忙的行列",
+			say = "At the same time, more volunteers from the Sakura Empire were showing up to help out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这种时候就该{namecode:98}登场了喵！",
+			say = "No repair operation is complete without Akashi, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			say = "事情的经过已经很清楚了…就让我们也来帮一点忙吧",
+			say = "The situation is clear... we should offer our assistance.",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -97,7 +97,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "需要的物资调度就交给我们了喵！费用就找指挥官报销喵！",
+			say = "You just let Akashi handle the material procurement, nya! Then send the bill to the Commander, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…大家都很热情高涨的样子呢",
+			say = "Everyone certainly seems to be in high spirits.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿咻，嘿咻，到最高点啦！{namecode:34}，把刷子扔上来啦，我要开始工作了。",
+			say = "Unnnfff! Nnnng! Almost there! Kisaragi, pass me the brush. I need it up here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			say = "哦——接住！",
+			say = "Oh... Okay!",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -175,7 +175,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊——小{namecode:33}，小{namecode:34}，你们要注意安全哦~",
+			say = "Hey! Mutsuki, Kisaragi, you two be careful!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			actor = 301010,
 			nameColor = "#a9f548",
-			say = "我们也来帮忙吧~",
+			say = "We're here to help too!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -229,7 +229,7 @@ return {
 			}
 		},
 		{
-			say = "从L.I.小姐那里习得的模型组装技巧…是时候实践一下了…",
+			say = "I learned a little bit about model building from L.I... It's time to put those skills to use...",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -254,7 +254,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "组装吗…好像很有趣的样子——",
+			say = "Models, huh...? Sounds interesting...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			nameColor = "#a9f548",
-			say = "我们也来了~不算太晚吧？",
+			say = "We're here! I hope we're not too late?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -298,7 +298,7 @@ return {
 			}
 		},
 		{
-			say = "我们给大家准备了午餐哦~想吃什么尽管来拿~",
+			say = "We made lunch for everyone~ Tada~! Come and help yourselves~!",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "哦！来的真及时~正好肚子饿了呢~",
+			say = "Oh! Right on time. I was just getting hungry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:96}，不要一看到吃的就两眼放光呀",
+			say = "Now now, Zuikaku, let's not be greedy.",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -369,7 +369,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过也是时候休息一下了呢…",
+			say = "But you do have a point. We should take a break right about now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊~{namecode:79}{namecode:79}~有糖果吃吗？",
+			say = "Ooooh! Yamashiro! Yamashiro! Did you bring any candy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			}
 		},
 		{
-			say = "糖果不能当午餐的啦，{namecode:33}…",
+			say = "Mutsuki, you can't eat candy for lunch...",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -419,7 +419,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "不远处，{namecode:82}望着活跃在废墟上的后辈们的身姿，露出了欣慰的笑容…",
+			say = "Not far off, Mikasa watched the youngsters working hard on the ruins of her collection with a proud smile on her face...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -448,7 +448,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然收藏室毁了很让人伤心…不过也多亏了这个，让我看到了重樱的希望和活力呢",
+			say = "I was sad to see my model ships destroyed... But I'm also glad I got to see the Sakura girls come together like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			blackBg = true,
 			actor = 305110,
 			nameColor = "#a9f548",
-			say = "我在暗处的努力也算有了回报呢。谢谢啦，后辈们…",
+			say = "All that work I put in certainly didn't go to waste. Thanks to these kids...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

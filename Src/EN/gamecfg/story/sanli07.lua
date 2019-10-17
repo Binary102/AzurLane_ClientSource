@@ -6,12 +6,12 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301174,
+			actor = 301170,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:19}",
-			say = "た,大変じゃ！なんかすっごく偉そうな人が港に来たのじゃ！",
+			say = "L-listen, everyone! A person with an incredible air of grandeur has just shown up in the harbor!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,11 +22,11 @@ return {
 			}
 		},
 		{
-			say = "偉そうな人…うぅ……ど,どういうこと？",
+			say = "An air of grandeur...? Wh-what does that mean?",
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301134,
+			actor = 301130,
 			actorName = "{namecode:15}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -42,12 +42,12 @@ return {
 			}
 		},
 		{
-			actor = 301174,
+			actor = 301170,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:19}",
-			say = "…むむむ…つ,つまり偉い人じゃ！かの大戦に参加してた大先輩なのじゃ！",
+			say = "It means... Well, it basically means they're a grandiose person! She's a veteran from the war!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,12 +58,12 @@ return {
 			}
 		},
 		{
-			actor = 301134,
+			actor = 301130,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:15}",
-			say = "おおーよくわからないけど,でも偉いのがわかった！",
+			say = "Oooh! I don't really get the hype, but I know what grandiose means!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,12 +74,12 @@ return {
 			}
 		},
 		{
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:17}",
-			say = "だーかーら三笠大先輩が戻ってきたって特型の子たちからとっくに聞いたの！",
+			say = "Old news! Ayanami told me about that ages ago!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,12 +90,12 @@ return {
 			}
 		},
 		{
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:17}",
-			say = "巡洋艦と戦艦のみんなはもう港に迎えに行ってるけど…ったく,本当にそんなに偉そうなわけ？",
+			say = "I heard all the cruisers and battleships are already on their way to meet her, but... is she seriously that big of a deal?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,12 +106,12 @@ return {
 			}
 		},
 		{
-			actor = 301174,
+			actor = 301170,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:19}",
-			say = "もちろんじゃ！三笠大先輩はかの連合艦隊の旗艦を務めたのじゃ！吾輩も記念写真が欲しいぐらいカッコイイのじゃ！",
+			say = "Of course she is! She was the Combined Fleet's flagship during the first war! She's amazing, and I want to take a photo with her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,12 +122,12 @@ return {
 			}
 		},
 		{
-			actor = 301184,
+			actor = 301180,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:20}",
-			say = "うふふふ…儲けの匂いがするでございます……",
+			say = "Ehehe... This smells like a good business opportunity...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,12 +138,12 @@ return {
 			}
 		},
 		{
-			actor = 301144,
+			actor = 301140,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:16}",
-			say = "あ！食堂が早く閉まったのはそのためか！ちくしょー腹減ったのにー",
+			say = "Is she the reason why the canteen closed early?! That's animal cruelty! I'm starving here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,12 +154,12 @@ return {
 			}
 		},
 		{
-			actor = 301114,
+			actor = 301110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:13}",
-			say = "なるほどね！…でもあの大戦に参加した大先輩たちはほとんど姿を消したって聞いたけど…",
+			say = "Hmm, I see! But I thought most who fought in the war went off somewhere, never to be seen again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,12 +170,12 @@ return {
 			}
 		},
 		{
-			actor = 301124,
+			actor = 301120,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:14}",
-			say = "急に来たと言われても…ちょっとおかしいかも…？",
+			say = "Don't you think it's strange that she's come here all of a sudden...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,12 +186,12 @@ return {
 			}
 		},
 		{
-			actor = 301134,
+			actor = 301130,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:15}",
-			say = "ZZZZZzzzzz…",
+			say = "Zzzzzzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,12 +202,12 @@ return {
 			}
 		},
 		{
-			actor = 301174,
+			actor = 301170,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:19}",
-			say = "もういいのじゃ！吾輩は先に港のほうに行くのじゃ！",
+			say = "Well, if you're not coming with me, so be it! I'll head to the harbor on my own!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			}
 		},
 		{
-			say = "母港・発着場",
+			say = "Port - Docking Area",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -242,12 +242,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "おおーこれもまた立派なものだ！",
+			say = "Ohh! What magnificence!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,12 +258,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "位置取りは要衝（ようしょう）,施設は至り尽くせり,物資輜重の備蓄も十分…",
+			say = "Located in a strategic position, equipped with every facility one could desire, and stockpiled with supplies and items of all manner...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,12 +274,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "うむ,軍港としては申し分ないぞ。",
+			say = "Mhm. It has everything a naval port should have.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,11 +290,11 @@ return {
 			}
 		},
 		{
-			say = "軍港として,ですか？",
+			say = "As a naval port, specifically?",
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -310,12 +310,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "うむ,我が活躍していた頃は多くの港に寄港したことがあってな…それより,やっぱりこの時代のものは見慣れぬものは多いな…",
+			say = "Indeed. Back in my day, I made many visits to naval and civilian ports alike, you see... That aside, I must say, there are many things unfamiliar to me in this new age...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,12 +326,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "特に空を飛ぶ…たしか…「ヒコウキ」だったな？",
+			say = "Especially these soaring... what did you call them, \"ear-playings\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,12 +342,12 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:95}",
-			say = "えっと…飛行機のことですか？",
+			say = "You mean... airplanes, I believe?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,12 +358,12 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:95}",
-			say = "確かに大先輩の時代と違い,私たちの時代では大砲より飛行機が大いに活躍していますね…この前の戦闘も……",
+			say = "Yes, compared to your time in service, airplanes are much more pivotal to controlling the flow of combat than cannons. Like in the battle the other day...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,12 +374,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "ふふ,そうかしこまるでない。この「時代遅れ」をそこまで気にしなくとも良いぞ！ほら,元気出して！",
+			say = "Hah, you don't need to be so demure. I may be behind on the times, but there's no need to worry so much about me! Here, cheer up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,12 +390,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "この前の「セイレーン」との戦いでは,確かに時代の差を感じた。",
+			say = "I'll admit, I could feel my age in our battle with that \"Siren\" individual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,12 +406,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "だが戦場でのあの雰囲気と高揚感は昔と同じだ。",
+			say = "But the thrill of battle hasn't changed after all this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,12 +422,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "肌で感じる殺気,砲火交える硝煙の匂い,重なる炎の熱さ,軋む鋼鉄の「悲鳴」…",
+			say = "The chills from your enemy's murderous intent, the smell of gunpowder, the heat of a salvo, the shriek of clashing metal...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,12 +438,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "この全ては実に変わっていないのだ。",
+			say = "All these things have stayed just the same.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,12 +454,12 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:96}",
-			say = "さすがは三笠大先輩……私,すごく憧れます！",
+			say = "You really live up to your name as a veteran... I deeply admire you, Mikasa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,12 +470,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "ま,まあ…そう褒めるでない！我々はあの時代に生きたものとして,やるべきことをやったまでだ。",
+			say = "N-now, now... There's no need for excessive praise. I, and all the others of my time, merely did what was necessary of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,12 +486,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "むしろお主のような後輩がいてくれてよかった。うむ,先日の戦いはまさしく大儀であったぞ。",
+			say = "If anything, it is you young ones who deserve praise. Your valiant effort during that battle was truly astounding.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,12 +502,12 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:96}",
-			say = "三笠大先輩！あの…大先輩のように強くなれる方法を知りたいです！",
+			say = "Um, I have a question, if you don't mind! I'd like to know how I can become as strong as you, Mikasa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,12 +518,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "これはまた単刀直入だな…装備以前にお主たちに一つ大切なものが欠けている。",
+			say = "You're quite the straightforward one... Very well. There is one critical thing that you are missing, that has nothing to do with your armaments.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,12 +534,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "最後に勝利するにはどうしても必要なもの,だ。",
+			say = "Something indispensable to ultimately achieving victory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,12 +550,12 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:96}",
-			say = "！！「最後の勝利」…もしかして三笠大先輩,すごい特訓のやり方をご存知ですか？装備じゃないといえば,やっぱり戦技のほうでは――",
+			say = "\"Ultimate victory\"...! You know of a secret, special training method? If it isn't about our equipment, then I assume it has to be something like-",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,12 +566,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "それは違う。旧式艦である我に言わせてみれば,お主たちは多少納得せんかもしれぬが……。",
+			say = "Nay. You may be ill-disposed to understand it, but, if you ask an old-timer battleship like me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,12 +582,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "――性能も戦技も局地的な戦局を覆せても,最後の勝敗を決することはありえぬ。",
+			say = "What truly determines who emerges victorious in a battle is not equipment, tactics, or logistics.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,12 +598,12 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "最後の勝利を決するのは…「心」だ。",
+			say = "The thing that it ultimately comes down to... is the strength of your convictions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

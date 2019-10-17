@@ -11,7 +11,7 @@ return {
 			side = 2,
 			dir = -1,
 			actorName = "{namecode:67}",
-			say = "哎呀呀，就算是传闻中拥有海神力量的塞壬也不过是如此程度嘛~",
+			say = "Dear me, after all that talk about the Sirens possessing the power of Poseidon, this is all they amount to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			say = "毕竟不过是一群没有灵魂的躯壳——",
+			say = "A fitting end for these soulless husks...",
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -47,7 +47,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:66}",
-			say = "没有坚定的信念，怎么可能是我利刃的对手！",
+			say = "The unrighteous shall not stand before my blade!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:95}",
-			say = "呼，还好只是一群量产型的【棋子】，要是遇到那些家伙的话可就麻烦了…",
+			say = "Phew... Thank goodness these were just mass-produced Pawns... I'd hate to come across one of their leaders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:6}",
-			say = "警告…前方…单个大型敌影出现，舰体识别…【测试者α】",
+			say = "Attention, detecting a large target to our front... Signal identified as... Tester-α.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:95}",
-			say = "…",
+			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "姐姐…我觉得你还是先不要说话为好…",
+			say = "Yeah, uh, sis... might be best if you'd keep quiet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,8 +126,8 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actorName = "测试者α",
-			say = "真是出乎意料，居然会有这么可爱的客人来访，而且居然不是【碧蓝航线】里的那帮家伙——",
+			actorName = "Tester-α",
+			say = "Well, well, it seems we have guests... I was expecting to see the Azur Lane, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "你们就是{namecode:91}她们口中所谓的“神明”么？！",
+			say = "Are you the \"Creator\" Akagi spoke of?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,8 +158,8 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actorName = "测试者α",
-			say = "“神明”这个词并不准确，我们只不过是…给予了你们选择的权力罢了",
+			actorName = "Tester-α",
+			say = "Ahaha, I am no Creator. My kin and I are simply here to offer humanity, as well as your kind, a choice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,8 +174,8 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actorName = "测试者α",
-			say = "选择是和我们一起探索“进化”的定义——牺牲现在，拯救未来",
+			actorName = "Tester-α",
+			say = "Either join us and sacrifice the present in the search for evolution, preventing a future of certain doom...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,8 +190,8 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actorName = "测试者α",
-			say = "亦或是…选择“灭亡”",
+			actorName = "Tester-α",
+			say = "Or reject change and proceed down the path of annihilation, like you have before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "我们是不会和你合作的，快回到你们黑暗的深海去吧！",
+			say = "Sorry, we're not interested in cooperating with the likes of you. Go back to whatever abyss you crawled out of!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,8 +222,8 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actorName = "测试者α",
-			say = "从上次的“圣域”中，我们已经收集到了很多有趣的数据",
+			actorName = "Tester-α",
+			say = "We learned much about you from your time in the Sanctuary. Indeed, we have already gathered a lot of fascinating data.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,8 +238,8 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actorName = "测试者α",
-			say = "甚至你们现在这样的回答，也不过是【自然演算系统】计算之中的情况",
+			actorName = "Tester-α",
+			say = "But unfortunately for you, your current selves have yet to exceed our Simulations' output.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,8 +254,8 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actorName = "测试者α",
-			say = "也许你们尚且不能理解，正是那成百上千次重复的过程，铸就了你们现在的灵魂的本质",
+			actorName = "Tester-α",
+			say = "Your cuboid souls were shaped by thousands upon thousands of simulations. That is the core of your existence...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,8 +270,8 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actorName = "测试者α",
-			say = "没错…闪闪发亮、抗拒一切心中所认为的“恶”，充满自信的年轻的灵魂——",
+			actorName = "Tester-α",
+			say = "Your steadfast \"soul\" brims with confidence, driving you to reject what you perceive as \"evil.\" Yet you lack the capacity to understand your true nature...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "一派胡言乱语，完全不知道你在说什么，要打就快打吧！我已经等不及教训一下你这条丑陋的魔鬼鱼了！",
+			say = "All you do is spout a bunch of nonsense... If it's a fight you're looking for, then just say it! When I'm done with you, maybe you'll learn to stay home next time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,8 +302,8 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actorName = "测试者α",
-			say = "既然难得有客人造访，就让身为主人的我们再来进行一次【测试】吧~",
+			actorName = "Tester-α",
+			say = "Ahaha... Well, we don't have guests here every day, so I suppose it's time we conduct another experiment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,8 +318,8 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actorName = "测试者α",
-			say = "那么，让我看看你们的全力吧！",
+			actorName = "Tester-α",
+			say = "Come! Show me what you're worth!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

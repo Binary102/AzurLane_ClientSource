@@ -7288,7 +7288,7 @@ pg.activity_template = {
 	[30209] = {
 		mark = 20190911,
 		title_res_tag = "story_award",
-		time = "stop",
+		time = "always",
 		type = 59,
 		login_pop = 0,
 		config_id = 30209,
@@ -8226,6 +8226,416 @@ pg.activity_template = {
 			}
 		}
 	},
+	[30237] = {
+		mark = 20191017,
+		title_res_tag = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30237,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30238] = {
+		mark = 20191017,
+		title_res_tag = "",
+		type = 18,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 27,
+		id = 30238,
+		config_data = {
+			51001,
+			51002,
+			51003,
+			51004
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_sanli_main"
+		},
+		config_client = {
+			{
+				groupId = 30511,
+				configId = 305111,
+				id = 10000030511.0
+			}
+		}
+	},
+	[30239] = {
+		mark = 20191017,
+		title_res_tag = "",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30239,
+		config_data = {
+			{
+				13739,
+				13740,
+				13741
+			},
+			{
+				13742,
+				13743,
+				13744
+			},
+			{
+				13745,
+				13746,
+				13747
+			},
+			{
+				13748,
+				13749,
+				13750
+			},
+			{
+				13751,
+				13752,
+				13753
+			},
+			{
+				13754,
+				13755,
+				13756
+			},
+			{
+				13757,
+				13758,
+				13759
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30240] = {
+		mark = 20191017,
+		title_res_tag = "",
+		type = 41,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30240,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30241] = {
+		mark = 20191017,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 26,
+		id = 30241,
+		config_data = {
+			13760,
+			13761,
+			13762,
+			13763,
+			13764,
+			13765,
+			13766,
+			13767,
+			13768,
+			13769,
+			13770,
+			13771,
+			13772,
+			13773,
+			13774,
+			13775,
+			13776
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_sanlijinianguan"
+		},
+		config_client = {
+			story = {
+				{
+					13776,
+					0,
+					"SANLICHUANMO1"
+				},
+				{
+					13776,
+					1,
+					"SANLICHUANMO2"
+				},
+				{
+					13776,
+					3,
+					"SANLICHUANMO3"
+				},
+				{
+					13776,
+					4,
+					"SANLICHUANMO4"
+				}
+			}
+		}
+	},
+	[30242] = {
+		mark = 20191017,
+		title_res_tag = "chuixue_wuzi",
+		type = 54,
+		login_pop = 0,
+		config_id = 30242,
+		is_show = 25,
+		config_client = "",
+		id = 30242,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/chuixuefuke_bg"
+		}
+	},
+	[30243] = {
+		mark = 20191017,
+		title_res_tag = "shancheng_oil",
+		type = 54,
+		login_pop = 0,
+		config_id = 30243,
+		is_show = 24,
+		config_client = "",
+		id = 30243,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_shancheng_oil"
+		}
+	},
+	[30244] = {
+		mark = 20191017,
+		title_res_tag = "atrejiaju",
+		type = 3,
+		login_pop = 3,
+		config_id = 12,
+		is_show = 23,
+		config_client = "",
+		id = 30244,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/atrejiaju_login"
+		}
+	},
 	[30500] = {
 		mark = 20181030,
 		title_res_tag = "",
@@ -8754,6 +9164,22 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[30533] = {
+		mark = 20191017,
+		title_res_tag = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5221,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30533,
+		config_data = {
+			0,
+			{}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -9024,6 +9450,14 @@ pg.activity_template = {
 		30234,
 		30235,
 		30236,
+		30237,
+		30238,
+		30239,
+		30240,
+		30241,
+		30242,
+		30243,
+		30244,
 		30500,
 		30501,
 		30502,
@@ -9056,7 +9490,8 @@ pg.activity_template = {
 		30529,
 		30530,
 		30531,
-		30532
+		30532,
+		30533
 	}
 }
 

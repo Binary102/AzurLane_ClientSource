@@ -688,6 +688,49 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	{
+		can_rotate = 0,
+		name = "Mikasa Ship Model",
+		gain_by = "Mikasa's Model Museum ",
+		type = 7,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 2000,
+		not_for_sale = 1,
+		icon = "sanliicon",
+		deblocking = 1,
+		level = 1,
+		tag = 6,
+		rarity = 3,
+		picture = "chuanmo/sanli",
+		canputon = 0,
+		discount = 0,
+		id = 17,
+		comfortable = 3,
+		describe = "Special Furniture: Scale model of the Shikishima-class Battleship, Mikasa (1:100)",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[102] = {
 		can_rotate = 0,
 		name = "Forgotten Memory",
@@ -40715,6 +40758,244 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[31101] = {
+		can_rotate = 0,
+		name = "Battoriship",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		icon = "atre_1icon",
+		deblocking = 1,
+		level = 1,
+		tag = 6,
+		rarity = 3,
+		picture = "atre/atre_1",
+		canputon = 0,
+		discount = 0,
+		id = 31101,
+		comfortable = 3,
+		describe = "Here to protect the peace of Atré Akihabara! And the port too, I guess!",
+		dorm_id = 0,
+		gem_price = 1000,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[31102] = {
+		can_rotate = 0,
+		name = "Waittoriess",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		icon = "atre_4icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "atre/atre_4",
+		canputon = 0,
+		discount = 0,
+		id = 31102,
+		comfortable = 3,
+		describe = "She's actually a maid, but let's not split hairs. What matters is that she's wise and reliable.",
+		dorm_id = 0,
+		gem_price = 1000,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[31103] = {
+		can_rotate = 1,
+		name = "7-Stori Building",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		icon = "atre_5icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "atre/atre_5",
+		canputon = 0,
+		discount = 0,
+		id = 31103,
+		comfortable = 3,
+		describe = "Where Atré is. It's right above Akihabara Station; you can't miss it!",
+		dorm_id = 0,
+		gem_price = 1000,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			14,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[31104] = {
+		can_rotate = 1,
+		name = "Coo-coo Train",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		icon = "atre_6icon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 31104,
+		comfortable = 4,
+		describe = "Choo-choo, coo-coo! All aboard the train to Atré Akihabara!",
+		dorm_id = 0,
+		gem_price = 1000,
+		themeId = 0,
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			14,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xiaohuocheB",
+				"normal"
+			},
+			{
+				"xiaohuocheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				-80.8,
+				-75
+			},
+			{
+				-1,
+				1
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					54,
+					-16
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					183,
+					50
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"xiaohuocheCharControl",
+				"xiaohuocheCharControl2",
+				"xiaohuocheCharControl3"
+			}
+		},
+		interAction_group = {}
+	},
 	[35001] = {
 		can_rotate = 0,
 		name = "Ghostly Wilderness",
@@ -72535,6 +72816,7 @@ pg.furniture_data_template = {
 		14,
 		15,
 		16,
+		17,
 		102,
 		104,
 		105,
@@ -73144,6 +73426,10 @@ pg.furniture_data_template = {
 		27201,
 		27202,
 		27301,
+		31101,
+		31102,
+		31103,
+		31104,
 		35001,
 		35002,
 		35101,

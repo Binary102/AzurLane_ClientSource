@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:71}的宴会\n\n<size=45>五 宴会·上</size>",
+					"Hiei's Banquet\n\n<size=45>Chapter 5: Different Strokes for Different Folks</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·海军食堂",
+			say = "Port - Canteen",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家都到齐了吧？",
+			say = "Have all our guests arrived?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，我宣布，重樱慰劳宴会，正式开始~",
+			say = "Thank you so much for coming here tonight, valiant friends of the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家玩得开心~",
+			say = "Please take this opportunity tonight to wash away your fatigue and deepen your friendships. Do enjoy this banquet hosted by yours truly, Hiei.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "伴随着柔和的音乐旋律，{namecode:71}的宴会正式开始了…",
+			say = "As the Manjuu band began to play, Hiei's banquet officially began.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			actor = 301140,
 			nameColor = "#a9f548",
-			say = "肉！嘿嘿嘿，最喜欢{namecode:71}的宴会了~",
+			say = "Meeaaaaat!! Ehehe, I loooove Hiei's banquets~!",
 			flashout = {
 				dur = 0.7,
 				black = true,
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			say = "喂，多少注意点形象啦，{namecode:16}！{namecode:70}她们都在看你了啊",
+			say = "Ewww! Yuudachi, at least make an effort to observe some table manners! Kongou and the others are staring at us!",
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呣呣，就算你这么说我也不会把到手的肉给你的，要的话自己拿",
+			say = "Omnom! Even if that's true, I'm not puttin' this meat down. If you want some, you're gonna have to get your own!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			actor = 301150,
 			nameColor = "#a9f548",
-			say = "你…",
+			say = "You little...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			actor = 304040,
 			nameColor = "#a9f548",
-			say = "一起跳舞？呵呵，可以哦，我非常乐意~",
+			say = "You'd like to dance with me? Hehe, sure. Anything for a beautiful lady like you~☆",
 			flashout = {
 				dur = 0.7,
 				black = true,
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是特意帮我拿的蛋糕吗？谢谢了呢~",
+			say = "You brought this cake just for me? Why, thank you very much~☆",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你也想要和我跳一支吗？可以呀~",
+			say = "You'd like me to keep you company for one more song? Certainly. I don't mind at all~☆",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			actor = 304040,
 			nameColor = "#a9f548",
-			say = "嘻嘻，大家一起来干杯吧？",
+			say = "Hahaha! Everyone, cheeers!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_night",
 			side = 2,
 			dir = 1,
-			say = "宴会一隅，宴会的主办者却在一个人独自旁观着整个的情况",
+			say = "From a distance, the banquet organizer was watching everyone, all by herself.",
 			flashout = {
 				dur = 0.7,
 				black = true,
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，大家都在以自己的方式享受着宴会呢",
+			say = "Hehe. Everyone has their way of enjoying the banquet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "{namecode:71}带着温柔的微笑看着大家",
+			say = "Hiei smiled gently as she surveyed the scene.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			say = "但是并没有去参加到宴会热闹的气氛之中的样子——",
+			say = "However, she was the only person who wasn't participating...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

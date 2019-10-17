@@ -3,7 +3,7 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 1,
-		pic = "temp13",
+		pic = "temp2",
 		param = {
 			"scene skinshop",
 			{}
@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2019,
 					10,
-					10
+					17
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.activity_banner = {
 				{
 					2019,
 					10,
-					16
+					30
 				},
 				{
 					23,
@@ -36,16 +36,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "30232",
+		param = "30238",
 		type = 3,
 		id = 2,
-		pic = "temp1",
+		pic = "temp5",
 		time = {
 			{
 				{
 					2019,
 					10,
-					10
+					17
 				},
 				{
 					0,
@@ -57,7 +57,7 @@ pg.activity_banner = {
 				{
 					2019,
 					10,
-					16
+					30
 				},
 				{
 					23,
@@ -68,21 +68,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "30241",
+		type = 3,
 		id = 3,
-		pic = "temp2",
-		param = {
-			"scene get boat",
-			{
-				page = 1
-			}
-		},
+		pic = "temp6",
 		time = {
 			{
 				{
 					2019,
 					10,
-					10
+					17
 				},
 				{
 					0,
@@ -94,7 +89,7 @@ pg.activity_banner = {
 				{
 					2019,
 					10,
-					16
+					30
 				},
 				{
 					23,
@@ -107,53 +102,19 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 4,
-		pic = "temp5",
-		param = {
-			"scene coloring"
-		},
-		time = {
-			{
-				{
-					2019,
-					9,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 5,
-		pic = "temp6",
+		pic = "temp7",
 		param = {
 			"scene get boat",
 			{
-				page = 5
+				projectName = "new"
 			}
 		},
 		time = {
 			{
 				{
 					2019,
-					9,
-					26
+					10,
+					17
 				},
 				{
 					0,
@@ -165,41 +126,7 @@ pg.activity_banner = {
 				{
 					2019,
 					10,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 6,
-		pic = "temp8",
-		param = {
-			"scene back yard"
-		},
-		time = {
-			{
-				{
-					2019,
-					9,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					14
+					30
 				},
 				{
 					23,
@@ -213,9 +140,7 @@ pg.activity_banner = {
 		1,
 		2,
 		3,
-		4,
-		5,
-		6
+		4
 	}
 }
 

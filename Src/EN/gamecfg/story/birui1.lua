@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:71}的宴会\n\n<size=45>一 好心情的秘书舰</size>",
+					"Hiei's Banquet\n\n<size=45>Chapter 1: The Spirited Secretary</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "Port - Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼~哼哼~",
+			say = "Hum~ hm hmm~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "来到指挥室时，秘书舰{namecode:71}已经在工作了",
+			say = "When I arrived at the office, my secretary, Hiei, had already started working.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，指挥官您来啦？不好意思刚才叫醒您的时候晚了一点呢",
+			say = "Oh my, Commander? I'm terribly sorry for not waking you up sooner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			actor = 304020,
 			nameColor = "#a9f548",
-			say = "不过想到平时指挥官的辛苦，就不由得想让您多休息个10分钟呢",
+			say = "But when I reflected upon how hard you work every day, I thought you deserved to sleep 10 more minutes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			},
 			options = {
 				{
-					content = "对{namecode:71}的体贴表示感谢",
+					content = "\"Thanks for always being so thoughtful.\"",
 					flag = 1
 				}
 			}
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，这是作为秘书舰应该做的",
+			say = "Not at all, it's only natural to look out after you as your secretary ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过这件事还请对其他人保密哟",
+			say = "However... I'd appreciate it if you could keep this a secret from the others.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要是让{namecode:70}姐或是{namecode:72}知道了，估计又要说我太惯着指挥官了呢~",
+			say = "Especially from Haruna and Kongou... If they heard about this, I'd get an earful for \"pampering the Commander too much.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是之前订的红茶，请喝~",
+			say = "Anyway, the tea is now ready. Please do enjoy it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不愧是研究过皇家海军，{namecode:71}泡的红茶比起皇家的也毫不逊色，非常好喝",
+			say = "As expected of someone who studied abroad with the Royal Navy. Hiei's skill at making tea was easily on par with that of the Royal girls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,23 +193,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦~喝完了茶，您也该开始今天的工作了~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 304020,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "这是完成委托获得的物资清单和今天的演习安排",
+			say = "... Since you're done, I'll now go over today's itinerary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +209,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是科研室那边需要的材料和装备清单~",
+			say = "First, here is the inventory for our commission rewards, as well as a roster for today's training exercises...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 304020,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "And here are the material and equipment orders from the research lab.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "无论是行程表还是报告书都整理的十分清楚，无可挑剔，不过——",
+			say = "Hiei's itinerary and reports were flawless as usual. However, there was something I was concerned about...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？指挥官，怎么一直盯着我看，我脸上有什么吗？呵呵…",
+			say = "Hm? What's the matter, Commander? Oh my, is there something stuck on my cheek?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "今天的{namecode:71}似乎心情特别好的样子…",
+			say = "For whatever reason, Hiei seemed to be in an especially good mood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

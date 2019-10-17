@@ -244,7 +244,7 @@ return {
 			side = 2,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "轰——",
+			say = "Kaboom!",
 			flashN = {
 				color = {
 					1,

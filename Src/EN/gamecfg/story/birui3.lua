@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:71}的宴会\n\n<size=45>三 缘由</size>",
+					"Hiei's Banquet\n\n<size=45>Chapter 3: Reasons</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 304020,
 			nameColor = "#a9f548",
-			say = "指挥官果然不记得了吗？之前还跟您说过这件事呢~",
+			say = "Do you remember now? The thing we were talking about before...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在{namecode:71}笑容的注视下，似乎想起了什么…",
+			say = "That's right, you mentioned something about a banquet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
-			say = "数日前·港区近海",
+			say = "A few days prior, near the Port",
 			flashout = {
 				dur = 0.7,
 				black = true,
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海域…确认完毕，没有发现异常",
+			say = "That's the end of the sea patrol... All right, nothing out of the ordinary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			}
 		},
 		{
-			say = "嗯…~虽然也不是说喜欢战斗啦，不过，像这样的日常巡逻还是有点没意思啊…",
+			say = "I'm not exactly a fan of fighting, but it gets boring when all our regular patrols are this uneventful...",
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要珍惜每一个和平的时刻呀~毕竟…随时可能有新的战斗在等着我们呢",
+			say = "We should cherish the peace we have today. Nobody knows when it will be shattered by war.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，{namecode:72}你这么无聊，要不要我们来对练一下？",
+			say = "Haruna, if you're that bored, why don't we go spar a bit?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			actor = 304030,
 			nameColor = "#a9f548",
-			say = "哼，来呀！我可不会输给你！",
+			say = "Hmph! Come at me! I'll take you on any time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀呀，真是有精神呢…咳咳，现在还在巡逻任务中哟，这么松懈可不行。要玩也等到任务完成以后再玩",
+			say = "I'm glad you two are in good spirits... but we're still on a mission. Would you mind putting it off until after we return to port?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			actor = 304040,
 			actorName = "{namecode:73}&{namecode:72}",
-			say = "是…",
+			say = "Yes, ma'am...",
 			subActors = {
 				{
 					actor = 304030,
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "看上去一副温柔模样的{namecode:71}，却意外地有震慑他人的气场",
+			say = "Though Hiei's words were gentle, she had an unexpectedly intimidating aura.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "目标海域巡逻完毕，准备返航吧~",
+			say = "Phew... I suppose that settles it. Let's start heading back to port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			actor = 304020,
 			nameColor = "#a9f548",
-			say = "呵呵，大家都辛苦了呢~",
+			say = "Good work, everyone~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			},
 			options = {
 				{
-					content = "慰劳大家",
+					content = "\"You all did a great job.\"",
 					flag = 1
 				}
 			}
@@ -284,7 +284,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵…指挥官也辛苦了。对了…说到慰劳…",
+			say = "Hehe~ Commander, the same goes for you. Speaking of which...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不如来开个宴会吧！",
+			say = "What better way to reward everyone's hard work than with a banquet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "哦哦哦！{namecode:71}姐的宴会！",
+			say = "Hooray! It's banquet time!!",
 			effects = {
 				{
 					active = true,
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "说起来，似乎是有这么一件事…",
+			say = "Now that I think about it, something like that did happen...",
 			effects = {
 				{
 					active = false,
@@ -387,7 +387,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀呀，指挥官还真是…",
+			say = "How forgetful you are, Commander~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…本来还以为指挥官会记得，并且来帮忙的呢",
+			say = "And I was looking forward to you helping me this time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "有种微妙的罪恶感…",
+			say = "Sorry about that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

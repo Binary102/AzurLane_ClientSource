@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			actorName = "하디",
 			bgName = "bg_story_naerweike",
 			say = "끝입니다!",
@@ -40,7 +40,7 @@ return {
 			say = "…!! 하디!",
 			dir = 1,
 			actor = 201200,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			actorPosition = {
 				x = -1500,
 				y = 0
@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
@@ -113,7 +113,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actor = 201160,
@@ -132,7 +132,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 201160,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "큭, 지원군!? 빨리 퇴각을…!",
 			typewriter = {
 				speed = 0.05,

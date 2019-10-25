@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgm = "story-1",
 			actor = 808010,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "응…… 지휘관, 좋은 아침…",
 			flashout = {
 				dur = 1,
@@ -65,7 +65,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "?! 벌써 이런 시간!?",
 			typewriter = {
@@ -81,7 +81,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "지휘관, 미안해! 저기, 점심시간이 끝날 때쯤 깨우려고 했는데 지휘관이 너무 행복하게 자고 있어서, 나도 무심코……",
 			typewriter = {
@@ -97,7 +97,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "일부러 안 깨운 게 아니야. 화, 화내지 마…… 응?",
 			typewriter = {
@@ -129,7 +129,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "그건…… 오늘 업무?",
 			typewriter = {
@@ -145,7 +145,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "전부 다 했잖아! 지휘관은 역시 대단해!",
 			typewriter = {
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 808010,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "근데 내가 안 도와줘도 이렇게까지 할 수 있으니까…… 나, 비서함 실격일지도……",
 			typewriter = {
 				speed = 0.05,
@@ -183,7 +183,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "저, 정말…? 나, 자고 있던 것뿐인데…?",
 			typewriter = {
@@ -199,7 +199,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "혹시, 내가 자는 것만으로도 지휘관의 도움이 되는 거야…?",
 			typewriter = {
@@ -215,7 +215,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "……뭐 상관없나♪ 지휘관이 내 덕분이라고 하면 내 덕분!",
 			typewriter = {
@@ -231,7 +231,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "오늘도 비서함으로서 열심히 했다! 쉬르쿠프, 장하다!",
 			typewriter = {

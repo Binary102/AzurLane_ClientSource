@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"행운의 학\n\n<size=45>6 깊은 밤의 간주곡</size>",
+					"행운의 학\n\n<size=45>6 깊은 밤의 대화</size>",
 					1
 				}
 			}

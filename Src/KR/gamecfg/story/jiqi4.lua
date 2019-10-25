@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"어린 애가 아니야!\n\n<size=45>4. 의외</size>",
+					"어린 애가 아니야!\n\n<size=45>4. 의외!</size>",
 					1
 				}
 			}
@@ -610,7 +610,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "으흥, 내가 일등이다! 둘이 절대로 쫓아올 수 없다고…… 에?… 이상한데?",
+			say = "호호, 괜찮아. 하나 말해주자면, {namecode:96}, 우선 적과 아군은 분명하게 구별하고 공격해야지! 너 방금 너무 긴장했었어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

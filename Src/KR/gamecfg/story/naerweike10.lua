@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgm = "battle-boss-1",
 			actor = 201200,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "따라잡혔네……",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -72,7 +72,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -88,7 +88,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actor = 201160,

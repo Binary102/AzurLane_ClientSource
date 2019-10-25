@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "회색 유령이 한 것 보다 맛있다고? 고마워, 지휘관!",
+			say = "그레이 고스트가 한 것 보다 맛있다고? 고마워, 지휘관!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			blackBg = true,
 			actor = 307060,
 			nameColor = "#92fc63",
-			say = "흐흠~♪회색 유령한테 이겼다~♪",
+			say = "흐흠~♪그레이 고스트한테 이겼다~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

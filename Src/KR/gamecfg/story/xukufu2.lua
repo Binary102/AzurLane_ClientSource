@@ -49,7 +49,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "응…… 어라…… 여기…… 어디?",
 			typewriter = {
@@ -65,7 +65,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "집무실……?",
 			typewriter = {
@@ -82,7 +82,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 808010,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "어라? 나 지휘관을 깨우러 갔을 텐데…… 역시 이건 꿈이구나~ ……좋아, 다시 자야지~",
 			typewriter = {
 				speed = 0.05,
@@ -113,7 +113,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "그러니까 지휘관은, 나를 집무실까지 안아서 옮겼다는 말이야?",
 			typewriter = {
@@ -129,7 +129,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "에헤헤, 그러며언, 지휘관은 이것저것 이득이었겠네?",
 			typewriter = {
@@ -145,7 +145,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "오히려 난 손해잖아. 왜냐면 지휘관한테 안겨있을 때 어떤 느낌이었는지 기억이 안 나는걸.",
 			typewriter = {
@@ -161,7 +161,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "그러니까 지휘관, 공주님 안기! 원 모어 찬스!",
 			typewriter = {
@@ -193,7 +193,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "아얏! 설마 진짜로 때릴 줄은……",
 			typewriter = {

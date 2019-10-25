@@ -49,7 +49,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "하아아아암……",
 			typewriter = {
@@ -66,7 +66,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 808010,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "밥도 먹었고, 낮잠 시간이네.",
 			typewriter = {
 				speed = 0.05,
@@ -87,7 +87,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "아, 지휘관도 낮잠?",
 			typewriter = {
@@ -103,7 +103,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "흐흥, 오전 중에는 쉬지도 않고 일했으니까, 잘 쉬지 않으면 오후 업무가 힘들어질 거야.",
 			typewriter = {
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 808010,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "그러니까 지휘관은 낮잠 자고 있어. 쉬는 시간이 끝나면 깨워줄 테니까!",
 			typewriter = {
 				speed = 0.05,
@@ -220,7 +220,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "하아… 정말, 잔다고 하자마자 푹 잠들어버렸네.",
 			typewriter = {
@@ -236,7 +236,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "하지만 평소에 바쁘니까. 피곤한 것도 어쩔 수 없지. 응. 수고했어, 지휘관.",
 			typewriter = {
@@ -262,7 +262,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "이렇게 지휘관을 관찰하는 건 처음이네. 후후, 확실히 눈에 새겨둬야지~",
 			typewriter = {

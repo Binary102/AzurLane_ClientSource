@@ -50,7 +50,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 808010,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "지휘관, 고기 완자하고 문어 비엔나, 그리고 이거…… 응, 이것도, 이것도! 줘!",
 			typewriter = {
 				speed = 0.05,
@@ -71,7 +71,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "뭐야~! 지휘관이랑 완전 다른 반찬만 고른 건 바꿔 먹으려고 그런 건데!",
 			typewriter = {
@@ -87,7 +87,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "지휘관도 내 반찬 가져가도 돼. 자자, 이거랑, 이거랑 이거, 이건…… 좀 아깝지만, 지휘관에게 줄게!",
 			typewriter = {
@@ -103,7 +103,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "흐흥, 이제 비서함의 좋은 점을 알았느냐~!",
 			typewriter = {
@@ -121,7 +121,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 904010,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "어머, 오늘도 지휘관하고 같이 점심이야? 사이 좋네.",
 			typewriter = {
 				speed = 0.05,
@@ -136,7 +136,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "아, 됭케르크 안녕, 이 아니라 나 비서함이잖아! 지휘관하고 같이 밥을 먹는 건 당연하잖아!",
 			typewriter = {
@@ -154,7 +154,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 904010,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "후후, 그러네. 아, 오늘은 과자를 좀 만들었어. 먹고 싶으면 나중에 또 와.",
 			typewriter = {
 				speed = 0.05,
@@ -170,7 +170,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 808010,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "정말? 잘됐다~ 지휘관, 일 끝나면 됭케르크네에 과자 먹으러 가자!",
 			typewriter = {
 				speed = 0.05,

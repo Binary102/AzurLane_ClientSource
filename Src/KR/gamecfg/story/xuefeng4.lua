@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			actor = 0,
 			actorName = "？？？",
-			say = "와! 역시 행운의 전함이네! 다음번에 가서 {namecode:22}에 대고 빌어봐야지...",
+			say = "와! 역시 행운함이네! 다음번에 가서 {namecode:22}에 대고 빌어봐야지...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
-			say = "언니가 샌디에이고는 운이 좋다고 했거든...그러니까... {namecode:22}, 미안해!",
+			say = "언니가 듣기에 샌디에이고의 운이 좋다고 했거든...그러니까... {namecode:22}, 미안해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			actor = 301330,
 			actorName = "{namecode:34}",
-			say = "{namecode:34} 도 행운이 필요해...",
+			say = "{namecode:34}도 행운이 필요해...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = ", 동양의 나라의 얼음 폭풍 <SnowFrost>이여! 네 행운<RealLuck>을 나에게 바쳐라!",
+			say = "동양의 나라의 얼음 폭풍 <SnowFrost>이여! 네 행운<RealLuck>을 나에게 바쳐라!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

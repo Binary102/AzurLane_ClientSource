@@ -9,7 +9,7 @@ return {
 		{
 			expression = 2,
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 201200,
 			stopbgm = true,
@@ -26,7 +26,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = -1,
 			say = "생각보다 빠르네요… 적의 수는?",
 			typewriter = {
@@ -41,7 +41,7 @@ return {
 		{
 			actor = 201200,
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "이런 폭설이라, 수까지는…… 어쩌면 우리들보다 많을지도.",
 			typewriter = {
@@ -56,9 +56,9 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = -1,
-			say = "좀 더 피해를 주고 싶지만… 어쩔 수 없네요. 할 수 있는 만큼은 했어요.",
+			say = "虽然还想再给敌人多造成点损失，不过…看来也只能做到这一步了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 		{
 			actor = 201200,
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "응, 이젠 무사하게 귀환할 수 있으면 좋겠는데……",
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -101,7 +101,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actor = 201160,
@@ -117,7 +117,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actor = 201160,
@@ -133,7 +133,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -149,7 +149,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actor = 201160,
@@ -166,7 +166,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = -1,
 			say = "……헌터, 눈이란 건 진짜 아름답나요?",
 			typewriter = {
@@ -180,7 +180,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -195,9 +195,9 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = -1,
 			say = "……옛날에는 그런 건 신경 쓴 적도 없었지만.",
 			typewriter = {
@@ -211,7 +211,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actor = 201160,
@@ -227,10 +227,10 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "약속…이야.",
 			typewriter = {
 				speed = 0.05,
@@ -243,7 +243,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actor = 201160,

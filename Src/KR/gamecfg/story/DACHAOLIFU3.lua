@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			actor = 408041,
 			nameColor = "#a9f548",
-			say = "……사람 많은 곳은 익숙하지 않아. 그쪽은 너희에게 맡겨둘게.",
+			say = "에이~ 그러면 재미없잖아~ 같이 맛있는 거 찾으러 가자~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

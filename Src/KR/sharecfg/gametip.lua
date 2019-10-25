@@ -9008,27 +9008,27 @@ B평가:<color=#92fc63>70</color>점
 		key = "newplayer_notice_8"
 	},
 	apply_permission_camera_tip1 = {
-		tip = "为了ar录像的使用，需要有权限访问录音功能",
+		tip = "AR녹화를 사용하려면, 녹음 기능의 방문 권한이 필요합니다.",
 		key = "apply_permission_camera_tip1"
 	},
 	apply_permission_camera_tip2 = {
-		tip = "您关闭了录音权限，需要到setting界面确认权限开启",
+		tip = "녹음 권한 차단. setting화면에서 권한 허용의 확인이 필요합니다.",
 		key = "apply_permission_camera_tip2"
 	},
 	apply_permission_camera_tip3 = {
-		tip = "您拒绝授予录音权限，这导致您无法使用ar录像",
+		tip = "녹음 권한 수여 거절. AR녹화를 사용할 수 없습니다.",
 		key = "apply_permission_camera_tip3"
 	},
 	apply_permission_record_audio_tip1 = {
-		tip = "为了ar相机的使用，需要有权限访问相机",
+		tip = "AR카메라를 사용하려면, 카메라의 방문 권한이 필요합니다.",
 		key = "apply_permission_record_audio_tip1"
 	},
 	apply_permission_record_audio_tip2 = {
-		tip = "您关闭了相机权限，需要到setting界面确认权限开启",
+		tip = "카메라 권한 차단. setting화면에서 권한 허용의 확인이 필요합니다.",
 		key = "apply_permission_record_audio_tip2"
 	},
 	apply_permission_record_audio_tip3 = {
-		tip = "您拒绝授权相机权限，这导致您无法使用ar相机",
+		tip = "카메라 권한 수여 거절. AR카메라를 사용할 수 없습니다.",
 		key = "apply_permission_record_audio_tip3"
 	},
 	nine_choose_one = {
@@ -9805,7 +9805,7 @@ B평가:<color=#92fc63>70</color>점
 4. 「이지」, 「노멀」, 「하드」 연습전은 클리어 시마다 
 추가 보상을 획득하며, 추가 보상 횟수는 매일 상한선이 
 있습니다. 매일 「추가 보상 횟수」는 3가지 난이도마다 각각 
-<color=#92fc63>30회</color>입니다.
+<color=#92fc63>15회</color>입니다.
 5.「이지」, 「노멀」, 「하드」 연습전의 매일 도전 횟수
 <color=#92fc63>는 제한이 없으며</color>, 「EX」 연습전은 <color=#92fc63>「특별 도전권」</color>1장을 
 소모해야 도전할 수 있습니다.
@@ -10200,7 +10200,7 @@ P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
 		key = "refuse_friend"
 	},
 	refuse_and_add_into_bl = {
-		tip = "거절 및 차단했습니다.",
+		tip = "거절 및 차단하기 ",
 		key = "refuse_and_add_into_bl"
 	},
 	tech_simulate_closed = {

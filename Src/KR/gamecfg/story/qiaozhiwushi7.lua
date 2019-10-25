@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"또 한 명의 카리스마?\n\n<size=45>7. 바라는 소망은</size>",
+					"또 다른 지도자?\n\n<size=45>7. 염원</size>",
 					1
 				}
 			}

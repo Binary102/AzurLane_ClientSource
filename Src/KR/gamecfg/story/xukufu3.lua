@@ -50,7 +50,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 808010,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "지휘관, 지루해……",
 			typewriter = {
 				speed = 0.05,
@@ -71,7 +71,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "아, 아직 30분!? 벌써 1세기 정도는 지난 줄 알았어!",
 			typewriter = {
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 808010,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "에헤헤~ 지휘관은 바빠? 한가해? 한가하면 수다 떨자~",
 			typewriter = {
 				speed = 0.05,
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			actor = 808010,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "그럼 내가 말하고 지휘관은 듣기만 해도 돼~",
 			typewriter = {
 				speed = 0.05,
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			actor = 808010,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "잘됐다♪",
 			typewriter = {
 				speed = 0.05,
@@ -157,7 +157,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "지휘관은 말야, 내 콜라병 몸매에 이끌려서 날 비서함으로 둔 거지?",
 			typewriter = {
@@ -173,7 +173,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "다들 관심 있어 하고, 지휘관도 그렇다면 내가 매력적이라는 거네. 에헤헤~",
 			typewriter = {
@@ -199,7 +199,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "지휘관, 난 수상기를 탑재할 수 있는 얼마 안 되는 잠수함이라는 거 말했었나?",
 			typewriter = {
@@ -215,7 +215,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "잠깐 기다려봐, 자랑스러운…… 어라? 파스파르투가 어디 갔지?",
 			typewriter = {
@@ -231,7 +231,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "아! 아침에 지휘관을 깨우러 갔던 때에 깜빡했다…… 뭐 됐어. 평소에 잘 안 쓰니까.",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "지휘관, 봐봐! 이 수영복, 나한테 엄청 어울릴 것 같아!",
 			typewriter = {
@@ -273,7 +273,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "게다가 여름 시즌의 신상품! ……응응, 다음에 월급 나오면 인터넷 쇼핑으로 사서 지휘관에게 보여줄게!",
 			typewriter = {
@@ -299,7 +299,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "그러고 보니 지휘관, 함대의 깃발 색은 어떤 색이 좋아?",
 			typewriter = {

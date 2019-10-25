@@ -220,7 +220,7 @@ return {
 			bgName = "bg_xiangting_cg1",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "심지어 주동적으로 \"그녀\"를 내 앞에 데려왔어",
+			say = "심지어 주동적으로 \"...\"를 내 앞에 데려왔어",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_xiangting_cg1",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "안심해, \"그녀\"에게는 아무 짓도 하지 않아.",
+			say = "안심해, \"...\"에게는 아무 짓도 하지 않아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "bg_xiangting_cg1",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "최소, \"그녀\"가 깨어나 내 질문에 답하기 전까진…",
+			say = "최소, \"...\"가 깨어나 내 질문에 답하기 전까진…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

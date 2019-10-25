@@ -1428,7 +1428,7 @@ pg.memory_group = {
 		}
 	},
 	[527] = {
-		title = "호놀룰루 미니 스토리",
+		title = "호놀룰루의 사소한 일들",
 		type = 3,
 		id = 527,
 		icon = "title_chara_huonululu",

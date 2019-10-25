@@ -378,7 +378,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“정의는 결석하지 않아!” 비버즈의 대장이 이렇게 말 했다구!",
+			say = "“정의는 항상 존재해!” 비버즈의 대장이 이렇게 말 했다구!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

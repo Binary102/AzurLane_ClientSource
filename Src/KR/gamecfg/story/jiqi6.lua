@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"어린 애가 아니야!\n\n<size=45>六 成熟！</size>",
+					"어린 애가 아니야!\n\n<size=45>6 성숙!</size>",
 					1
 				}
 			}

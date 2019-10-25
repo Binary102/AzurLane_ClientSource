@@ -9,7 +9,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 201200,
 			stopbgm = true,
@@ -38,7 +38,7 @@ return {
 			say = "다행이다! 눈을 떴군요!",
 			dir = -1,
 			actor = 201160,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -65,7 +65,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = -1,
 			say = "여긴 오포트피오르 밖이에요…… 내 연료도 떨어져서, 여기까지밖에 끌고 오지 못했어요……",
 			typewriter = {
@@ -79,7 +79,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -96,7 +96,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = -1,
 			say = "미안해요, 헌터. 내가 공격에 집착한 탓에 크게 다쳐버려서……",
 			typewriter = {
@@ -110,7 +110,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -127,7 +127,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = -1,
 			say = "구조 신호를 발신했으니까, 곧 아군이 구출하러 올 거에요! 그러니까……",
 			typewriter = {
@@ -141,7 +141,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -160,7 +160,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201160,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "왜 그러세요?",
 			typewriter = {
 				speed = 0.05,
@@ -183,7 +183,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -200,7 +200,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = -1,
 			say = "눈……",
 			typewriter = {
@@ -214,7 +214,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -231,7 +231,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = -1,
 			say = "모르겠어요…… 모르겠지만, 뭔가 하얗고, 차분한 느낌…… 이것이 '눈'……",
 			typewriter = {
@@ -245,7 +245,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -261,7 +261,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			actor = 201160,
@@ -277,7 +277,7 @@ return {
 		},
 		{
 			actorName = "헌터",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -293,7 +293,7 @@ return {
 		},
 		{
 			actorName = "하디",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
 			blackBg = true,

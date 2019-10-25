@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"호놀룰루 미니 스토리\n\n<size=45>걱정도 팔자?</size>",
+					"호놀룰루의 사소한 일들\n\n<size=45>걱정도 팔자?</size>",
 					1
 				}
 			}

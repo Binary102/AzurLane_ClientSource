@@ -72,7 +72,7 @@ return {
 			},
 			options = {
 				{
-					content = "선택지",
+					content = "산책",
 					flag = 1
 				}
 			}

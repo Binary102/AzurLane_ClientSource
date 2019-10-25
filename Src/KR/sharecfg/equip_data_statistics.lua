@@ -1173,6 +1173,42 @@ pg.equip_data_statistics = {
 			"DC"
 		}
 	},
+	[144] = {
+		name = "默认潜母水侦",
+		type = 12,
+		id = 144,
+		tech = 1,
+		speciality = "轰炸",
+		range = 90,
+		attribute_3 = "air",
+		scatter = "8",
+		ambush_extra = 0,
+		value_2 = 5,
+		icon = "39200",
+		angle = 90,
+		value_1 = "80 x 1",
+		avoid_extra = 0,
+		rarity = 1,
+		nationality = 3,
+		ammo = "통상탄",
+		is_siren = 0,
+		descrip = "默认装备",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			144
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"SCOUT"
+		}
+	},
 	[201] = {
 		name = "0",
 		type = 1,
@@ -3182,7 +3218,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[660] = {
-		name = "100/150호 항공 연료 ",
+		name = "100/150호 항공 연료",
 		type = 10,
 		id = 660,
 		tech = 0,
@@ -3412,7 +3448,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[700] = {
-		name = "98식 발포지연장치 ",
+		name = "98식 발포지연장치",
 		type = 10,
 		id = 700,
 		tech = 0,
@@ -10062,7 +10098,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3100] = {
-		name = "산소 봄베 ",
+		name = "산소 봄베",
 		type = 10,
 		id = 3100,
 		tech = 0,
@@ -10411,7 +10447,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3200] = {
-		name = "VH 장갑 강판 ",
+		name = "VH 장갑 강판",
 		type = 10,
 		id = 3200,
 		tech = 0,
@@ -10532,7 +10568,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3220] = {
-		name = "VC 장갑 강판 ",
+		name = "VC 장갑 강판",
 		type = 10,
 		id = 3220,
 		tech = 0,
@@ -15446,7 +15482,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7340] = {
-		name = "잠수함용 203mm 연장포 Mle 1924 ",
+		name = "잠수함용 203mm 연장포 Mle 1924",
 		type = 3,
 		id = 7340,
 		tech = 0,
@@ -48954,7 +48990,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39300] = {
-		name = "세이란 ",
+		name = "세이란",
 		type = 12,
 		id = 39300,
 		tech = 0,
@@ -62403,6 +62439,94 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[72254] = {
+		name = "全弹发射-最上级铃谷型I",
+		type = 1,
+		nationality = 0,
+		rarity = 1,
+		tech = 1,
+		speciality = "없음",
+		base = 72251,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		angle = 0,
+		avoid_extra = 0,
+		range = 0,
+		scatter = "0",
+		is_siren = 0,
+		ammo = "없음",
+		descrip = "技能弹幕",
+		value_3 = 0,
+		id = 72254,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			72254
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[72255] = {
+		id = 72255,
+		name = "全弹发射-最上级铃谷型II",
+		base = 72251,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			72255
+		},
+		property_rate = {}
+	},
+	[72256] = {
+		name = "全弹发射-最上级铃谷型I增强",
+		type = 1,
+		nationality = 0,
+		rarity = 1,
+		tech = 1,
+		speciality = "无",
+		base = 72251,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		angle = 0,
+		avoid_extra = 0,
+		range = 0,
+		scatter = "0",
+		is_siren = 0,
+		ammo = "无",
+		descrip = "技能弹幕",
+		value_3 = 0,
+		id = 72256,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			72256
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[72257] = {
+		id = 72257,
+		name = "全弹发射-最上级铃谷型II增强",
+		base = 72251,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			72257
+		},
+		property_rate = {}
+	},
 	[72261] = {
 		name = "0",
 		type = 1,
@@ -64768,6 +64892,92 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[79361] = {
+		name = "专属弹幕-天狼星I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "无",
+		descrip = "技能弹幕",
+		value_3 = 0,
+		id = 79361,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			79361
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[79362] = {
+		id = 79362,
+		name = "专属弹幕-天狼星II",
+		base = 79361,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			79362
+		},
+		property_rate = {}
+	},
+	[79371] = {
+		name = "专属弹幕-I13I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "无",
+		descrip = "技能弹幕",
+		value_3 = 0,
+		id = 79371,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			79371
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[79372] = {
+		id = 79372,
+		name = "专属弹幕-I13II",
+		base = 79371,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			79372
+		},
+		property_rate = {}
+	},
 	[79381] = {
 		name = "专属弹幕-北风I",
 		type = 1,
@@ -65113,7 +65323,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89000] = {
-		name = "랜덤 워드 생성기 ",
+		name = "랜덤 워드 생성기",
 		type = 10,
 		id = 89000,
 		tech = 0,
@@ -65237,7 +65447,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89020] = {
-		name = "표코표코 ",
+		name = "표코표코",
 		type = 10,
 		id = 89020,
 		tech = 0,
@@ -65363,7 +65573,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89040] = {
-		name = "인텔리젼트 칩 ",
+		name = "인텔리젼트 칩",
 		type = 10,
 		id = 89040,
 		tech = 0,
@@ -65488,7 +65698,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90000] = {
-		name = "130mm 단장포 Mle 1924 ",
+		name = "130mm 단장포 Mle 1924",
 		type = 1,
 		id = 90000,
 		tech = 1,
@@ -65565,7 +65775,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90020] = {
-		name = "130mm 단장포 Mle 1924 ",
+		name = "130mm 단장포 Mle 1924",
 		type = 1,
 		id = 90020,
 		tech = 2,
@@ -65643,7 +65853,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90040] = {
-		name = "130mm 단장포 Mle 1924 ",
+		name = "130mm 단장포 Mle 1924",
 		type = 1,
 		id = 90040,
 		tech = 3,
@@ -65754,7 +65964,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90100] = {
-		name = "138.6mm 단장포 Mle 1929 ",
+		name = "138.6mm 단장포 Mle 1929",
 		type = 1,
 		id = 90100,
 		tech = 1,
@@ -65865,7 +66075,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90120] = {
-		name = "138.6mm 단장포 Mle 1929 ",
+		name = "138.6mm 단장포 Mle 1929",
 		type = 1,
 		id = 90120,
 		tech = 2,
@@ -66021,7 +66231,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90140] = {
-		name = "138.6mm 단장포 Mle 1929 ",
+		name = "138.6mm 단장포 Mle 1929",
 		type = 1,
 		id = 90140,
 		tech = 3,
@@ -66177,7 +66387,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90200] = {
-		name = "152mm 3연장포 Mle 1930 ",
+		name = "152mm 3연장포 Mle 1930",
 		type = 2,
 		id = 90200,
 		tech = 1,
@@ -66253,7 +66463,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90220] = {
-		name = "152mm 3연장포 Mle 1930 ",
+		name = "152mm 3연장포 Mle 1930",
 		type = 2,
 		id = 90220,
 		tech = 2,
@@ -66330,7 +66540,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90240] = {
-		name = "152mm 3연장포 Mle 1930 ",
+		name = "152mm 3연장포 Mle 1930",
 		type = 2,
 		id = 90240,
 		tech = 3,
@@ -66441,7 +66651,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90300] = {
-		name = "330mm 4연장포 Mle 1931 ",
+		name = "330mm 4연장포 Mle 1931",
 		type = 4,
 		id = 90300,
 		tech = 1,
@@ -66517,7 +66727,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90320] = {
-		name = "330mm 4연장포 Mle 1931 ",
+		name = "330mm 4연장포 Mle 1931",
 		type = 4,
 		id = 90320,
 		tech = 2,
@@ -66626,7 +66836,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90340] = {
-		name = "330mm 4연장포 Mle 1931 ",
+		name = "330mm 4연장포 Mle 1931",
 		type = 4,
 		id = 90340,
 		tech = 3,
@@ -66780,7 +66990,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90400] = {
-		name = "380mm 4연장포 Mle 1935 ",
+		name = "380mm 4연장포 Mle 1935",
 		type = 4,
 		id = 90400,
 		tech = 1,
@@ -66890,7 +67100,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90420] = {
-		name = "380mm 4연장포 Mle 1935 ",
+		name = "380mm 4연장포 Mle 1935",
 		type = 4,
 		id = 90420,
 		tech = 2,
@@ -67044,7 +67254,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90440] = {
-		name = "380mm 4연장포 Mle 1935 ",
+		name = "380mm 4연장포 Mle 1935",
 		type = 4,
 		id = 90440,
 		tech = 3,
@@ -67275,7 +67485,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90600] = {
-		name = "2연장 37mm 고사포 Mle1936 ",
+		name = "2연장 37mm 고사포 Mle1936",
 		type = 6,
 		id = 90600,
 		tech = 0,
@@ -70207,6 +70417,7 @@ pg.equip_data_statistics = {
 		123,
 		140,
 		141,
+		144,
 		201,
 		202,
 		203,
@@ -74338,6 +74549,10 @@ pg.equip_data_statistics = {
 		72242,
 		72251,
 		72252,
+		72254,
+		72255,
+		72256,
+		72257,
 		72261,
 		72262,
 		72311,
@@ -74448,6 +74663,10 @@ pg.equip_data_statistics = {
 		79332,
 		79341,
 		79342,
+		79361,
+		79362,
+		79371,
+		79372,
 		79381,
 		79382,
 		79383,

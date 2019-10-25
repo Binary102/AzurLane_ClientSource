@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"어린 애가 아니야!\n\n<size=45>5. 스토리!</size>",
+					"어린 애가 아니야!\n\n<size=45>5. 이야기!</size>",
 					1
 				}
 			}
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "오늘은 데이스도 알바코어도 모두 나를 찾지 않았다. 다른 잠수함도 모두 각자 일이 있는 것 같았다.",
+			say = "오늘은 데이스도 알바코어도 모두 나를 찾지 않네, 다른 잠수함들도 모두 각자 일이 있는 것 같아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

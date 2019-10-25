@@ -1202,7 +1202,7 @@ return {
 			blackBg = true,
 			actor = 900189,
 			actorName = "？？？",
-			say = "그 사람의 곁에, 분명 \"그녀\"가 있겠지. 때가 되면 어쩔 셈인가？",
+			say = "그 사람의 곁에, 분명 \"...\"가 있겠지. 때가 되면 어쩔 셈인가？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

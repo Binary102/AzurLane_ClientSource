@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"나는 {namecode:22}님이다! \n\n<size=45>1 천재 {namecode:22}님</size>",
+					"나는 {namecode:22}님이다! \n\n<size=45>2 천재 유키카제님</size>",
 					1
 				}
 			}

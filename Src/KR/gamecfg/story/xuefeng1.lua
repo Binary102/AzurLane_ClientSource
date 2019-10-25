@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"나는 {namecode:22}님이다! \n\n<size=45>一 {namecode:22}님 등장</size>",
+					"나는 {namecode:22}님이다! \n\n<size=45>1 유키카제님 등장</size>",
 					1
 				}
 			}
@@ -285,7 +285,7 @@ return {
 			dir = -1,
 			actor = 301600,
 			actorName = "{namecode:143}",
-			say = "머, 멋있다...{namecode:142}, {namecode:143}한테도 이런 \"남쪽 스타일 자기소개\"를 만들어주자!",
+			say = "머, 멋있다...{namecode:142}, {namecode:143}한테도 이런 \"남만 스타일 자기소개\"를 만들어줘!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

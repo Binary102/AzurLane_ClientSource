@@ -46323,11 +46323,7 @@ pg.task_data_template = {
 			10801,
 			10802,
 			10803,
-			10804,
-			10901,
-			10902,
-			10903,
-			10904
+			10804
 		},
 		open_need = {},
 		award_display = {
@@ -63400,7 +63396,7 @@ pg.task_data_template = {
 		type = 36,
 		name = "骏河世界BOSS挑战券任务4",
 		count_inherit = 0,
-		desc = "『저편을 건너온 물결』 어려움 해역 5회 클리어",
+		desc = "『저편을 건너온 물결』 임의의 난이도 해역 5회 클리어 ",
 		target_id_2 = "",
 		sub_type = 20,
 		added_tip = 0,
@@ -63439,7 +63435,7 @@ pg.task_data_template = {
 		type = 36,
 		name = "骏河世界BOSS挑战券任务5",
 		count_inherit = 0,
-		desc = "『저편을 건너온 물결』 어려움 해역 10회 클리어",
+		desc = "『저편을 건너온 물결』 임의의 난이도 해역 10회 클리어 ",
 		target_id_2 = "",
 		sub_type = 20,
 		added_tip = 0,

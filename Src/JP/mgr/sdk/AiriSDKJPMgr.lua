@@ -32,16 +32,9 @@ function AiriLogin(slot0)
 	pg.UIMgr.GetInstance():LoadingOff()
 
 	if slot0.AiriResultCodeHandler(slot0.R_CODE) then
-		function ()
-			pg.m02:sendNotification(GAME.PLATFORM_LOGIN_DONE, {
-				user = User.New({
-					type = 1,
-					arg1 = PLATFORM_AIRIJP,
-					arg2 = slot0.UID,
-					arg3 = slot0.ACCESS_TOKEN
-				})
-			})
-		end()
+		slot1()
+
+		slot0.isCache = true
 	else
 		print("AiriLogin failed")
 	end
@@ -126,6 +119,7 @@ end
 return {
 	OnAiriBuying = -1,
 	BuyingLimit = 60,
+	isCache = false,
 	CheckAudit = function ()
 		return NetConst.GATEWAY_PORT == 20001 and NetConst.GATEWAY_HOST == "blhxjpauditapi.azurlane.jp"
 	end,
@@ -145,19 +139,26 @@ return {
 		print("CSharpVersion:" .. tostring(CSharpVersion))
 	end,
 	AiriLogin = function ()
-		slot0:Login()
+		pg.UIMgr.GetInstance():LoadingOn()
+		pg.UIMgr.GetInstance().LoadingOn:Login()
+	end,
+	LoginWithDevice = function ()
+		pg.UIMgr.GetInstance():LoadingOn()
+		pg.UIMgr.GetInstance().LoadingOn:LoginWithDevice()
 	end,
 	LoginWithSocial = function (slot0, slot1, slot2)
+		pg.UIMgr.GetInstance():LoadingOn()
+
 		if slot0 == AIRI_PLATFORM_FACEBOOK then
 			slot0:LoginWithFB()
 		elseif slot0 == AIRI_PLATFORM_TWITTER then
 			slot0:LoginWithTW()
 		elseif slot0 == AIRI_PLATFORM_YOSTAR then
-			pg.UIMgr.GetInstance():LoadingOn()
 			slot0:LoginWithSDKAccount(slot1, slot2)
 		end
 	end,
 	LoginWithTranscode = function (slot0, slot1)
+		pg.UIMgr.GetInstance():LoadingOn()
 		slot0:LoginWithTranscode(slot0, slot1)
 	end,
 	TranscodeRequest = function ()
@@ -277,16 +278,23 @@ return {
 			return false
 		end
 	end,
+	CheckHadAccountCache = function ()
+		if CSharpVersion >= 33 then
+			if slot0.GetIsPlatform() then
+				return slot1:CheckHadAccountCache() or slot0.isCache
+			else
+				return true
+			end
+		else
+			return true
+		end
+	end,
 	AiriResultCodeHandler = function (slot0)
 		slot2 = ":" .. slot0:ToInt()
 
 		if slot0.ToInt() == 0 then
 			return true
 		else
-			if slot1 == 100110 then
-				slot0.ClearAccountCache()
-			end
-
 			print("SDK Error Code:" .. slot1)
 
 			if string.find(i18n("new_airi_error_code_" .. slot1), "UndefinedLanguage") then

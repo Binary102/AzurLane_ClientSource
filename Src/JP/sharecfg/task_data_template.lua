@@ -46927,7 +46927,8 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			2,
-			3
+			3,
+			18
 		},
 		open_need = {},
 		award_display = {
@@ -73895,6 +73896,491 @@ pg.task_data_template = {
 			"ACTIVITY_MAP"
 		}
 	},
+	[15060] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91900,
+		type = 26,
+		name = "贝利万圣节皮肤复刻1",
+		count_inherit = 0,
+		desc = "艦隊を出撃させ、10回S評価で勝利せよ！",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15060,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			}
+		}
+	},
+	[15061] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91901,
+		type = 26,
+		name = "贝利万圣节皮肤复刻1",
+		count_inherit = 0,
+		desc = "装備を2回強化する",
+		target_id_2 = "",
+		sub_type = 40,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15061,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15062] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91902,
+		type = 26,
+		name = "贝利万圣节皮肤复刻2",
+		count_inherit = 0,
+		desc = "軍事委託を2回行う",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15062,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				100
+			}
+		}
+	},
+	[15063] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91903,
+		type = 26,
+		name = "贝利万圣节皮肤复刻2",
+		count_inherit = 0,
+		desc = "艦を2隻「建造」せよ！",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15063,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15064] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91904,
+		type = 26,
+		name = "贝利万圣节皮肤复刻3",
+		count_inherit = 0,
+		desc = "艦を2隻退役する",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15064,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	},
+	[15065] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91905,
+		type = 26,
+		name = "贝利万圣节皮肤复刻3",
+		count_inherit = 0,
+		desc = "デイリーチャレンジを3回遂行せよ！",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15065,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15066] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91906,
+		type = 26,
+		name = "贝利万圣节皮肤复刻4",
+		count_inherit = 0,
+		desc = "通常海域ハードを2回クリアする",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15066,
+		target_num = 2,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				2
+			}
+		}
+	},
+	[15067] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91907,
+		type = 26,
+		name = "贝利万圣节皮肤复刻4",
+		count_inherit = 0,
+		desc = "艦を5回強化する",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15067,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15068] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91908,
+		type = 26,
+		name = "贝利万圣节皮肤复刻5",
+		count_inherit = 0,
+		desc = "寮舎で食糧を5回補充する",
+		target_id_2 = "",
+		sub_type = 61,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15068,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50003,
+				5
+			}
+		}
+	},
+	[15069] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91909,
+		type = 26,
+		name = "贝利万圣节皮肤复刻5",
+		count_inherit = 0,
+		desc = "任意の敵艦を20隻撃破する",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15069,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15070] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91910,
+		type = 26,
+		name = "贝利万圣节皮肤复刻6",
+		count_inherit = 0,
+		desc = "建造を2回行う",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15070,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	},
+	[15071] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91911,
+		type = 26,
+		name = "贝利万圣节皮肤复刻6",
+		count_inherit = 0,
+		desc = "艦隊を出撃させ、10回S評価で勝利せよ！",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15071,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15072] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91912,
+		type = 26,
+		name = "贝利万圣节皮肤复刻7",
+		count_inherit = 0,
+		desc = "艦隊を出撃させ、敵中枢艦隊を3回撃破せよ！",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15072,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54016,
+				5
+			}
+		}
+	},
+	[15073] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91913,
+		type = 26,
+		name = "贝利万圣节皮肤复刻7",
+		count_inherit = 0,
+		desc = "戦術教室で戦術訓練を2回行う",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15073,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				7,
+				101271,
+				1
+			}
+		}
+	},
 	[30201] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -77773,6 +78259,10 @@ pg.task_data_template = {
 			{
 				2,
 				3
+			},
+			{
+				2,
+				18
 			}
 		},
 		open_need = {},
@@ -77808,6 +78298,10 @@ pg.task_data_template = {
 			{
 				2,
 				3
+			},
+			{
+				2,
+				18
 			}
 		},
 		open_need = {},
@@ -77899,6 +78393,10 @@ pg.task_data_template = {
 			{
 				2,
 				3
+			},
+			{
+				2,
+				18
 			}
 		},
 		open_need = {
@@ -78355,6 +78853,10 @@ pg.task_data_template = {
 			{
 				3,
 				3
+			},
+			{
+				3,
+				18
 			}
 		},
 		open_need = {},
@@ -78390,6 +78892,10 @@ pg.task_data_template = {
 			{
 				3,
 				3
+			},
+			{
+				3,
+				18
 			}
 		},
 		open_need = {},
@@ -78481,6 +78987,10 @@ pg.task_data_template = {
 			{
 				3,
 				3
+			},
+			{
+				3,
+				18
 			}
 		},
 		open_need = {
@@ -78937,6 +79447,10 @@ pg.task_data_template = {
 			{
 				4,
 				3
+			},
+			{
+				4,
+				18
 			}
 		},
 		open_need = {},
@@ -78972,6 +79486,10 @@ pg.task_data_template = {
 			{
 				4,
 				3
+			},
+			{
+				4,
+				18
 			}
 		},
 		open_need = {},
@@ -79063,6 +79581,10 @@ pg.task_data_template = {
 			{
 				4,
 				3
+			},
+			{
+				4,
+				18
 			}
 		},
 		open_need = {
@@ -79214,6 +79736,10 @@ pg.task_data_template = {
 			{
 				1,
 				3
+			},
+			{
+				1,
+				18
 			}
 		},
 		open_need = {},
@@ -79249,6 +79775,10 @@ pg.task_data_template = {
 			{
 				1,
 				3
+			},
+			{
+				1,
+				18
 			}
 		},
 		open_need = {},
@@ -79340,6 +79870,10 @@ pg.task_data_template = {
 			{
 				1,
 				3
+			},
+			{
+				1,
+				18
 			}
 		},
 		open_need = {
@@ -79517,6 +80051,10 @@ pg.task_data_template = {
 			{
 				1,
 				3
+			},
+			{
+				1,
+				18
 			}
 		},
 		open_need = {},
@@ -79612,6 +80150,10 @@ pg.task_data_template = {
 			{
 				1,
 				3
+			},
+			{
+				1,
+				18
 			}
 		},
 		open_need = {
@@ -83450,6 +83992,20 @@ pg.task_data_template = {
 		15057,
 		15058,
 		15059,
+		15060,
+		15061,
+		15062,
+		15063,
+		15064,
+		15065,
+		15066,
+		15067,
+		15068,
+		15069,
+		15070,
+		15071,
+		15072,
+		15073,
 		30201,
 		30202,
 		31001,

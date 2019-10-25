@@ -55,6 +55,12 @@ function slot0.getVoice(slot0)
 	end
 end
 
+function slot0.GetVoiceAnim(slot0)
+	if slot0:isSpine() and slot0:existVoice() then
+		return "normal", slot0:getConfig("can_trigger")[3]
+	end
+end
+
 function slot0.getShipExtra(slot0)
 	return slot0.spineExtra
 end
@@ -777,7 +783,11 @@ function slot0.isConflictPos(slot0, slot1)
 end
 
 function slot0.isShowDesc(slot0)
-	return #slot0:getConfig("can_trigger") > 0 and slot1[1] == 1
+	return #slot0:getConfig("can_trigger") > 0 and slot1[1] > 0
+end
+
+function slot0.descVoiceType(slot0)
+	return slot0:getConfig("can_trigger")[1]
 end
 
 function slot0.isTouchSpine(slot0)

@@ -40,6 +40,12 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.item = nil
 end
 
+function slot0.PlayAnim(slot0, slot1)
+	if slot0.furnitureVO:isSpine() then
+		slot0.spineAnimUI:SetAction(slot1, 0)
+	end
+end
+
 function slot0.UpdateScale(slot0, slot1)
 	slot2 = 1
 

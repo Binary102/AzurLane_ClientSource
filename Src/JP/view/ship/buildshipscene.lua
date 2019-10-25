@@ -411,12 +411,17 @@ function slot0.switchProject(slot0, slot1)
 	BuildShipScene.projectName = slot1
 
 	slot0:setSpriteTo("resources/sub_title_" .. slot1, slot0:findTF("gallery/bg/type", slot0.mainTF), true)
-	setText(slot0:findTF("gallery/bg/type_intro/title", slot0.mainTF), i18n("buildship_" .. slot1 .. "_tip"))
 
-	slot0:findTF("gallery/bg", slot0.mainTF):GetComponent(typeof(Image)).sprite = LoadSprite((getProxy(ActivityProxy).getBuildBgActivityByID(slot3, slot0[slot0:getCreateId(slot1)].id) and slot4) or "loadingbg/bg_" .. slot2.icon)
+	slot0:findTF("gallery/bg", slot0.mainTF):GetComponent(typeof(Image)).sprite = LoadSprite((getProxy(ActivityProxy).getBuildActivityCfgByID(slot3, slot0[slot0:getCreateId(slot1)].id) and slot4.bg) or "loadingbg/bg_" .. slot2.icon)
+	slot7 = i18n("buildship_" .. slot1 .. "_tip")
 
-	setText(slot7, slot2.number_1)
-	setText(slot8, slot2.use_gold)
+	if slot4 and slot4.buildship_tip then
+		slot7 = slot4.buildship_tip
+	end
+
+	setText(slot0:findTF("gallery/bg/type_intro/title", slot0.mainTF), HXSet.hxLan(slot7))
+	setText(slot8, slot2.number_1)
+	setText(slot9, slot2.use_gold)
 	onButton(slot0, slot0:findTF("gallery/start_btn", slot0.mainTF), function ()
 		slot0.msgbox:show(math.max(1, _.min({
 			math.floor(slot0.player.gold / slot1.use_gold),

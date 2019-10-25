@@ -247670,7 +247670,7 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				17023
+				17013
 			},
 			{
 				2,
@@ -247726,7 +247726,7 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				17023
+				17013
 			},
 			{
 				2,
@@ -247782,7 +247782,7 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				17023
+				17013
 			},
 			{
 				2,
@@ -247838,7 +247838,7 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				17023
+				17043
 			},
 			{
 				2,
@@ -247894,7 +247894,7 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				17023
+				17043
 			},
 			{
 				2,
@@ -247950,7 +247950,7 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				17023
+				17043
 			},
 			{
 				2,

@@ -80,7 +80,7 @@ function slot0.GetStage(slot0)
 end
 
 function slot0.getTimeDesc(slot0)
-	return table.concat(slot0:getConfig("time_vote")[1][1], ".") .. ((slot0:getConfig("type") == 1 and i18n("word_maintain")) or "(00:00)") .. " ~ " .. table.concat(slot1[2][1], ".") .. "(23:59)"
+	return table.concat(slot0:getConfig("time_vote")[1][1], ".") .. ((slot0:getConfig("type") == 1 and i18n("word_maintain")) or "(" .. string.format("%02u:%02u", slot1[1][2][1], slot1[1][2][2]) .. ")") .. " ~ " .. table.concat(slot1[2][1], ".") .. "(" .. string.format("%02u:%02u", slot1[2][2][1], slot1[2][2][2]) .. ")"
 end
 
 function slot0.GetVotes(slot0, slot1)

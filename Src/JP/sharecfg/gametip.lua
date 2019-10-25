@@ -7046,134 +7046,6 @@ pg.gametip = {
 		tip = "$1は所持していません",
 		key = "err_cloth_change_noship"
 	},
-	airi_error_code_500 = {
-		tip = "エラーが発生しました:HTTPリクエスト",
-		key = "airi_error_code_500"
-	},
-	airi_error_code_1100 = {
-		tip = "誕生日はまだ設定されていません",
-		key = "airi_error_code_1100"
-	},
-	airi_error_code_1101 = {
-		tip = "エラーが発生しました:AirSDKでは商品IDを確認できません",
-		key = "airi_error_code_1101"
-	},
-	airi_error_code_1102 = {
-		tip = "設定されている誕生日ではこれ以上購入できません",
-		key = "airi_error_code_1102"
-	},
-	airi_error_code_1103 = {
-		tip = "エラーが発生しました:AirSDKではショップ情報を確認できません",
-		key = "airi_error_code_1103"
-	},
-	airi_error_code_1104 = {
-		tip = "エラーが発生しました:アプリストアのレシートを確認できませんでした",
-		key = "airi_error_code_1104"
-	},
-	airi_error_code_1105 = {
-		tip = "エラーが発生しました:AirSDKでは違法な購入リクエストです",
-		key = "airi_error_code_1105"
-	},
-	airi_error_code_1106 = {
-		tip = "エラーが発生しました:違法な購入リクエストです",
-		key = "airi_error_code_1106"
-	},
-	airi_error_code_1107 = {
-		tip = "決済時間が長すぎです",
-		key = "airi_error_code_1107"
-	},
-	airi_error_code_1108 = {
-		tip = "アプリストアの商品情報を確認できませんでした",
-		key = "airi_error_code_1108"
-	},
-	airi_error_code_1109 = {
-		tip = "決済が失敗しました",
-		key = "airi_error_code_1109"
-	},
-	airi_error_code_1110 = {
-		tip = "決済がキャンセルされました",
-		key = "airi_error_code_1110"
-	},
-	airi_error_code_10001 = {
-		tip = "サポートしていない決済プラットフォームです",
-		key = "airi_error_code_10001"
-	},
-	airi_error_code_10002 = {
-		tip = "決済情報にエラーが発生しました",
-		key = "airi_error_code_10002"
-	},
-	airi_error_code_10003 = {
-		tip = "SDKバージョンとは不適合です",
-		key = "airi_error_code_10003"
-	},
-	airi_error_code_10101 = {
-		tip = "SDKが適用されていません",
-		key = "airi_error_code_10101"
-	},
-	airi_error_code_10102 = {
-		tip = "ショップ初期化に失敗しました",
-		key = "airi_error_code_10102"
-	},
-	airi_error_code_100000 = {
-		tip = "エラーが発生しました:tokenが無効になっています",
-		key = "airi_error_code_100000"
-	},
-	airi_error_code_100200 = {
-		tip = "ほかの端末でログインされました。新しいアカウントでログインします",
-		key = "airi_error_code_100200"
-	},
-	airi_error_code_100210 = {
-		tip = "SDKサーバーはツイッター連携をサポートしていません",
-		key = "airi_error_code_100210"
-	},
-	airi_error_code_100211 = {
-		tip = "ゲームデータと連携していないツイッターアカウントです",
-		key = "airi_error_code_100211"
-	},
-	airi_error_code_100212 = {
-		tip = "ツイッター連携時にエラーが発生しました",
-		key = "airi_error_code_100212"
-	},
-	airi_error_code_100400 = {
-		tip = "UIDまたは引継ぎコードが間違っています",
-		key = "airi_error_code_100400"
-	},
-	airi_error_code_100500 = {
-		tip = "誕生日は既に設定されています",
-		key = "airi_error_code_100500"
-	},
-	airi_error_code_100501 = {
-		tip = "誕生日入力が間違っています",
-		key = "airi_error_code_100501"
-	},
-	airi_error_code_100610 = {
-		tip = "SDKサーバーはツイッター連携をサポートしていません",
-		key = "airi_error_code_100610"
-	},
-	airi_error_code_100611 = {
-		tip = "ほかのゲームデータと連携済みです",
-		key = "airi_error_code_100611"
-	},
-	airi_error_code_100612 = {
-		tip = "ツイッター連携時にエラーが発生しました",
-		key = "airi_error_code_100612"
-	},
-	airi_error_code_100710 = {
-		tip = "このサーバーではツイッター連携を利用できません",
-		key = "airi_error_code_100710"
-	},
-	airi_error_code_100711 = {
-		tip = "不正か、未連携のツイッターアカウントです",
-		key = "airi_error_code_100711"
-	},
-	airi_error_code_100712 = {
-		tip = "ツイッターにログインできませんでした",
-		key = "airi_error_code_100712"
-	},
-	airi_error_code_other = {
-		tip = "不明エラーが発生しました",
-		key = "airi_error_code_other"
-	},
 	new_airi_error_code_100100 = {
 		tip = "ゲーム利用は制限されています（デバイス）",
 		key = "new_airi_error_code_100100"
@@ -7223,7 +7095,7 @@ pg.gametip = {
 		key = "new_airi_error_code_100140"
 	},
 	new_airi_error_code_100150 = {
-		tip = "引継コードとUIDが一致しません",
+		tip = "引継コードとUIDが一致しません。もう一度お試しください",
 		key = "new_airi_error_code_100150"
 	},
 	new_airi_error_code_100160 = {
@@ -7365,6 +7237,58 @@ pg.gametip = {
 	new_airi_error_code_200230 = {
 		tip = "決済システムへの通信がキャンセルされました",
 		key = "new_airi_error_code_200230"
+	},
+	new_airi_error_code_200240 = {
+		tip = "購入リクエストは現バージョンで処理できません",
+		key = "new_airi_error_code_200240"
+	},
+	new_airi_error_code_200250 = {
+		tip = "無効なパラメータ",
+		key = "new_airi_error_code_200250"
+	},
+	new_airi_error_code_200260 = {
+		tip = "購入手続きに致命的なエラーが発生しました",
+		key = "new_airi_error_code_200260"
+	},
+	new_airi_error_code_200270 = {
+		tip = "端末のGoogle Play Storeは該当リクエストを処理できません",
+		key = "new_airi_error_code_200270"
+	},
+	new_airi_error_code_200280 = {
+		tip = "既に該当商品を所有し且つ使用していないため、購入できません",
+		key = "new_airi_error_code_200280"
+	},
+	new_airi_error_code_200290 = {
+		tip = "既に該当商品を所有し且つ使用失敗したため、購入できません",
+		key = "new_airi_error_code_200290"
+	},
+	new_airi_error_code_200300 = {
+		tip = "該当商品を購入できません",
+		key = "new_airi_error_code_200300"
+	},
+	new_airi_error_code_200310 = {
+		tip = "Google Playに接続できません",
+		key = "new_airi_error_code_200310"
+	},
+	new_airi_error_code_200320 = {
+		tip = "タイムオーバー",
+		key = "new_airi_error_code_200320"
+	},
+	new_airi_error_code_200330 = {
+		tip = "ネット環境はありません",
+		key = "new_airi_error_code_200330"
+	},
+	new_airi_error_code_200340 = {
+		tip = "支払いキャンセル",
+		key = "new_airi_error_code_200340"
+	},
+	new_airi_error_code_200350 = {
+		tip = "商品ID確認できません",
+		key = "new_airi_error_code_200350"
+	},
+	new_airi_error_code_200360 = {
+		tip = "Play servicesに接続できません",
+		key = "new_airi_error_code_200360"
 	},
 	new_airi_error_code_300100 = {
 		tip = "シェアに失敗しました",
@@ -8994,11 +8918,11 @@ pg.gametip = {
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "「雪風」常設追加！",
+		tip = "「スモーリー」、「若葉」常設追加！",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "U-110の出現率UP!",
+		tip = "「大鳳」常設追加！",
 		key = "buildship_special_tip"
 	},
 	open_skill_pos = {
@@ -11739,6 +11663,14 @@ staff）にて告知されます。
 	text_inconsume = {
 		tip = "いいえ",
 		key = "text_inconsume"
+	},
+	pt_ship_now = {
+		tip = "撃破数合計：",
+		key = "pt_ship_now"
+	},
+	pt_ship_goal = {
+		tip = "撃破数：",
+		key = "pt_ship_goal"
 	}
 }
 

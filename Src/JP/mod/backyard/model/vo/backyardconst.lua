@@ -16,6 +16,8 @@ slot0.DEBUG = false
 slot0.ARCH_MASK_NAME = "icon_front_arch"
 slot0.FURNITRUE_MASK_NAME = "icon_front"
 slot0.FURNITRUE_MASK_ORDER_NAME = "icon_front_"
+slot0.SOUND_TYPE_EFFECT = 1
+slot0.SOUND_TYPE_BG = 2
 slot1 = {
 	Vector2(216, -136),
 	Vector2(190, -282),

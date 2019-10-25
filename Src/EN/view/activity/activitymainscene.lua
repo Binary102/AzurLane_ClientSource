@@ -256,6 +256,30 @@ slot1 = {
 	[ActivityConst.MIKASA_MAIN_ACTIVITY] = {
 		className = "MikasaPreviewPage",
 		uiName = "mikasamainPage"
+	},
+	[ActivityConst.ACTIVITY_U110_BATTLE_PAGE] = {
+		className = "U110BattlePage",
+		uiName = "U110BattlePage"
+	},
+	[ActivityConst.LINDONG_REMAKE_KR] = {
+		className = "LindongMainPage",
+		uiName = "lindongmainpage"
+	},
+	[ActivityConst.CYGENT_SWIMSUIT] = {
+		className = "CygentSwimsuitPage",
+		uiName = "cygentswimsuit"
+	},
+	[ActivityConst.TWHALLOWEENSKIN] = {
+		className = "HalloweenSkinPage",
+		uiName = "HalloweenSkinUI"
+	},
+	[ActivityConst.BAILEY_HALLOWEEN_REMAKE] = {
+		className = "BaileyHalloweenPage",
+		uiName = "baileyhalloweenpage"
+	},
+	[ActivityConst.MEMPHIS_HALLOWEEN] = {
+		className = "MemphisHalloweenPage",
+		uiName = "memphishalloweenpage"
 	}
 }
 slot2 = {}

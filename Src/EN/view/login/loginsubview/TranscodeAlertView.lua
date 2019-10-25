@@ -34,7 +34,6 @@ function slot0.InitEvent(slot0)
 			})
 		else
 			pg.SdkMgr.GetInstance():LoginWithTranscode(slot0, slot1)
-			pg.UIMgr.GetInstance():LoadingOn()
 		end
 	end)
 	onButton(slot0, slot0.transcodeAlert, function ()

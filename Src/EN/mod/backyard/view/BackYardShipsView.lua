@@ -230,9 +230,7 @@ function slot0.AddSpineExtra(slot0, slot1, slot2, slot3)
 			for slot11, slot12 in ipairs(slot5:getShipExtra()) do
 				slot13 = slot0.shipModels[slot12]
 
-				if slot12 ~= slot2 then
-					slot13:pauseAnim(slot11)
-				else
+				if slot12 == slot2 then
 					slot13:addSpineExtra(slot1, slot11)
 					slot7:registerActionCB(slot12, function (slot0)
 						slot0:setAction(slot0, 0)

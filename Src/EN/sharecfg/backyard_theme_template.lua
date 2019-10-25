@@ -933,15 +933,14 @@ pg.backyard_theme_template = {
 		name = "Ghostly Witch House ",
 		desc = "Welcome to the Halloween Park! ",
 		deblocking = 1,
-		new = 1,
+		new = 0,
 		hot = 1,
 		Cfg_2 = 8,
 		is_view = 1,
-		discount = 0,
+		discount = 20,
 		id = 35,
 		icon = "hl2themeicon",
 		comfortable = 0,
-		discount_time = "",
 		ids = {
 			35001,
 			35002,
@@ -980,6 +979,32 @@ pg.backyard_theme_template = {
 			35301,
 			35302,
 			35303
+		},
+		discount_time = {
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[37] = {
@@ -1555,6 +1580,43 @@ pg.backyard_theme_template = {
 			50123
 		}
 	},
+	[52] = {
+		Cfg_1 = 5,
+		name = "Halloween Spirit",
+		desc = "It's Halloween! Time for tricks and treats, thrills and chills, and spooks and zoinks!",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 52,
+		icon = "hl3themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			52001,
+			52002,
+			52101,
+			52102,
+			52103,
+			52104,
+			52105,
+			52106,
+			52107,
+			52108,
+			52109,
+			52110,
+			52111,
+			52112,
+			52113,
+			52114,
+			52115,
+			52116,
+			52117,
+			52118
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1588,7 +1650,8 @@ pg.backyard_theme_template = {
 		47,
 		48,
 		49,
-		50
+		50,
+		52
 	}
 }
 

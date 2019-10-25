@@ -1960,6 +1960,34 @@ pg.skill_data_display = {
 		id = 12670,
 		name = "Fuoco di Copertura! "
 	},
+	[12690] = {
+		id = 12690,
+		name = "Codebreaking Game"
+	},
+	[12691] = {
+		id = 12691,
+		name = "Passcode: Offense Boost"
+	},
+	[12692] = {
+		id = 12692,
+		name = "Passcode: Defense Boost"
+	},
+	[12693] = {
+		id = 12693,
+		name = "Passcode: Battle Focus"
+	},
+	[12694] = {
+		id = 12694,
+		name = "Passcode: Ballistics Calculation"
+	},
+	[12695] = {
+		id = 12695,
+		name = "Passcode: Anti-Air Support"
+	},
+	[12696] = {
+		id = 12696,
+		name = "Passcode: Evasion Increase"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shell +"
@@ -3655,6 +3683,13 @@ pg.skill_data_display = {
 		12651,
 		12660,
 		12670,
+		12690,
+		12691,
+		12692,
+		12693,
+		12694,
+		12695,
+		12696,
 		18010,
 		18040,
 		18041,

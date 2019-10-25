@@ -40,7 +40,7 @@ function slot0.execute(slot0, slot1)
 					slot1:sendNotification(GAME.SERVER_LOGIN_SUCCESS, {
 						uid = slot0.user_id
 					})
-					pg.TrackerMgr.GetInstance():Tracking(TRACKING_ROLE_LOGIN)
+					pg.TrackerMgr.GetInstance():Tracking(TRACKING_ROLE_LOGIN, nil, slot0.user_id)
 
 					if slot0.user_id == 0 then
 						pg.SdkMgr.GetInstance():ChooseServer(tostring(slot0.id), slot0.name)

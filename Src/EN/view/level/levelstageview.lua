@@ -122,11 +122,14 @@ function slot0.AddListener(slot0)
 	onButton(slot0, slot0.retreatBtn, function ()
 		slot1 = slot0.contextData.map
 		slot2 = "levelScene_whether_to_retreat"
+		slot3 = nil
 
 		if slot0.contextData.chapterVO:existOni() then
 			slot2 = "levelScene_oni_retreat"
+			slot3 = true
 		elseif slot0:isPlayingWithBombEnemy() then
 			slot2 = "levelScene_bomb_retreat"
+			slot3 = true
 		elseif slot0:getPlayType() == ChapterConst.TypeTransport and not slot1:isSkirmish() then
 			slot2 = "levelScene_escort_retreat"
 		end
@@ -135,7 +138,8 @@ function slot0.AddListener(slot0)
 			content = i18n(slot2),
 			onYes = function ()
 				slot0:emit(LevelMediator2.ON_OP, {
-					type = ChapterConst.OpRetreat
+					type = ChapterConst.OpRetreat,
+					win = slot0
 				})
 			end
 		})
@@ -1429,13 +1433,15 @@ function slot0.tryAutoAction(slot0, slot1)
 				end
 
 				if slot0 then
-					slot0:doPlayAnim(slot0, function (slot0)
-						setActive(slot0, false)
-						slot0()
+					slot0:emit(LevelUIConst.DO_PLAY_ANIM, {
+						name = slot0,
+						callback = function (slot0)
+							setActive(slot0, false)
+							slot0()
 
-						return
-					end)
-					coroutine.yield()
+							return
+						end
+					})
 				end
 
 				if slot4:getSpAppearStory() and #slot1 > 0 then

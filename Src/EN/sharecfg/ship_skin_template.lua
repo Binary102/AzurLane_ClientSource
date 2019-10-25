@@ -2328,7 +2328,6 @@ pg.ship_skin_template = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -2549,7 +2548,6 @@ pg.ship_skin_template = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -3663,7 +3661,6 @@ pg.ship_skin_template = {
 		shop_type_id = 2,
 		hand_id = 14,
 		lip_smoothing = 0,
-		l2d_animations = "",
 		bg = "101",
 		skin_type = 0,
 		bg_sp = "",
@@ -3749,6 +3746,20 @@ pg.ship_skin_template = {
 					}
 				}
 			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
 		},
 		l2d_voice_calibrate = {
 			login = 2.2,
@@ -5981,6 +5992,208 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[101420] = {
+		ship_group = 10142,
+		name = "Smalley",
+		bullet_skin_main = "",
+		desc = "Destroyer Smalley, reporting in. Interests: kickboxing.",
+		illustrator2 = -1,
+		id = 101420,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "simoli",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "simoli",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 180,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.239,
+					1.032,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.24,
+					1.099,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.008,
+					0.008,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.31,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[101421] = {
+		ship_group = 10142,
+		name = "Candy Courier",
+		bullet_skin_main = "",
+		desc = "I am the courier of the night. In other words, it's my job to bring stuff straight to you, Commander. Here you go, this jack-o-lantern is for you.",
+		illustrator2 = -1,
+		id = 101421,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "simoli_3",
+		air_bullet_skin = "",
+		shop_type_id = 8,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "119",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "simoli_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70257,
+		voice_actor = 180,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.834,
+					1.348,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.841,
+					1.371,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.068,
+					-0.05,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.31,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[102010] = {
 		ship_group = 10201,
 		name = "Omaha",
@@ -7729,6 +7942,7 @@ pg.ship_skin_template = {
 		shop_type_id = 9,
 		hand_id = 13,
 		lip_smoothing = 0,
+		l2d_animations = "",
 		bg = "118",
 		skin_type = 0,
 		bg_sp = "",
@@ -7821,20 +8035,6 @@ pg.ship_skin_template = {
 					}
 				}
 			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
 		}
 	},
 	[102098] = {
@@ -8506,7 +8706,6 @@ pg.ship_skin_template = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -8990,7 +9189,6 @@ pg.ship_skin_template = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -9117,7 +9315,6 @@ pg.ship_skin_template = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		}
 	},
@@ -20114,7 +20311,7 @@ pg.ship_skin_template = {
 		shop_type_id = 2,
 		hand_id = 13,
 		lip_smoothing = 0,
-		l2d_animations = "0",
+		l2d_animations = "",
 		bg = "101",
 		skin_type = 0,
 		bg_sp = "",
@@ -21408,7 +21605,6 @@ pg.ship_skin_template = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -24907,6 +25103,115 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[202112] = {
+		ship_group = 20211,
+		name = "Candy Maid",
+		bullet_skin_main = "",
+		desc = "Ahem! I made this special candy just for Halloween! Here, Commander, take some! Wooaaooah! Wh-who put this pumpkin here? It, it was me?!",
+		illustrator2 = -1,
+		id = 202112,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "aidingbao_3",
+		air_bullet_skin = "",
+		shop_type_id = 8,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "119",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "aidingbao_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70254,
+		voice_actor = 75,
+		air_bomb_skin = "",
+		illustrator = 20,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.279,
+					0.463,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.319,
+					0.484,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.454,
+					0.433,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202120] = {
 		ship_group = 20212,
 		name = "Belfast",
@@ -25146,7 +25451,6 @@ pg.ship_skin_template = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -31769,7 +32073,6 @@ pg.ship_skin_template = {
 		shop_type_id = 9,
 		hand_id = 13,
 		lip_smoothing = 0,
-		l2d_animations = "",
 		bg = "108",
 		skin_type = 0,
 		bg_sp = "",
@@ -31869,6 +32172,20 @@ pg.ship_skin_template = {
 					}
 				}
 			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
 		},
 		l2d_voice_calibrate = {
 			propose = 2.5,
@@ -32773,7 +33090,6 @@ pg.ship_skin_template = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -34061,6 +34377,108 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[213012] = {
+		ship_group = 21301,
+		name = "Wardrobe Witchery",
+		bullet_skin_main = "",
+		desc = "\"I am the witch of Hallow's Eve, here to guide your soul into the ever darkness\"... that's what the concept of the Halloween witch is about, right?",
+		illustrator2 = -1,
+		id = 213012,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "heianjie_3",
+		air_bullet_skin = "",
+		shop_type_id = 8,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "119",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "heianjie_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70255,
+		voice_actor = 40,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.346,
+					0.811,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.352,
+					0.753,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.402,
+					0.772,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.264,
+							2.121,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[213020] = {
 		ship_group = 21302,
 		name = "Terror",
@@ -34407,6 +34825,115 @@ pg.ship_skin_template = {
 						{
 							-0.5,
 							2.25,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[213041] = {
+		ship_group = 21304,
+		name = "Pumpkin Blast!",
+		bullet_skin_main = "",
+		desc = "Kabooom! You thought it was a pumpkin, but it was me, Abercrombie, with my Mark I! Commander, did I scare you senseless? Muahaha!",
+		illustrator2 = -1,
+		id = 213041,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "abeikelongbi_2",
+		air_bullet_skin = "",
+		shop_type_id = 8,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "119",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "abeikelongbi_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70256,
+		voice_actor = 105,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.868,
+					3.337,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.723,
+					3.272,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.006,
+					-0.002,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.795,
+					3.137,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.346,
+							2.301,
 							0
 						}
 					}
@@ -34978,7 +35505,6 @@ pg.ship_skin_template = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -37625,7 +38151,6 @@ pg.ship_skin_template = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -41366,6 +41891,115 @@ pg.ship_skin_template = {
 				{
 					0.88,
 					0.61,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301411] = {
+		ship_group = 30141,
+		name = "Sweet Zombie",
+		bullet_skin_main = "",
+		desc = "Mikazuki is supposed to be... a jiangshi? Um... hip... hop... Commander, trick or treaaaaat~",
+		illustrator2 = -1,
+		id = 301411,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "sanriyue_2",
+		air_bullet_skin = "",
+		shop_type_id = 8,
+		hand_id = 6,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "119",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "sanriyue_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70258,
+		voice_actor = 119,
+		air_bomb_skin = "",
+		illustrator = 34,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.505,
+					1.415,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.468,
+					1.427,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.009,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.505,
+					1.458,
 					0
 				}
 			}
@@ -47833,7 +48467,6 @@ pg.ship_skin_template = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -56396,7 +57029,6 @@ pg.ship_skin_template = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -57530,7 +58162,6 @@ pg.ship_skin_template = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -58649,7 +59280,6 @@ pg.ship_skin_template = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -60393,7 +61023,6 @@ pg.ship_skin_template = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -61182,6 +61811,134 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[404021] = {
+		ship_group = 40402,
+		name = "Nightmarish Succubus",
+		bullet_skin_main = "",
+		desc = "These Halloween festivities are quite interesting, in a good way. Getting dressed up in these costumes isn't such a bad experience either. Commander, what do you think of my costume?",
+		illustrator2 = -1,
+		id = 404021,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "genaisennao_2",
+		air_bullet_skin = "",
+		shop_type_id = 8,
+		hand_id = 1,
+		lip_smoothing = 0,
+		bg = "119",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "genaisennao_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70253,
+		voice_actor = 26,
+		air_bomb_skin = "",
+		illustrator = 32,
+		rarity_bg = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			5,
+			-50,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.591,
+					1.331,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.597,
+					1.336,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.007,
+					0.002,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.617,
+					1.369,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.474,
+							2.44,
+							-0.73
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-30,
+				30
+			}
+		}
+	},
 	[405010] = {
 		ship_group = 40501,
 		name = "Bismarck ",
@@ -61409,7 +62166,6 @@ pg.ship_skin_template = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		}
 	},
@@ -61652,7 +62408,6 @@ pg.ship_skin_template = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -61980,7 +62735,6 @@ pg.ship_skin_template = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -63109,6 +63863,194 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[408080] = {
+		ship_group = 40808,
+		name = "U-110",
+		bullet_skin_main = "",
+		desc = "Raaaawr. U-110 is a shaaaark. Fear meeee. Mess with me and I'll bite yooouuu.",
+		illustrator2 = -1,
+		id = 408080,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "U110",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "U110",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.393,
+					0.92,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.055,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.48,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408081] = {
+		ship_group = 40808,
+		name = "Kleiner Hai",
+		bullet_skin_main = "",
+		desc = "Whenever I play games with Bulldog, I always end up losing. Frustratinggg. That's why... I'll study hard. One day, I'll winnnn.",
+		illustrator2 = -1,
+		id = 408081,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "U110_2",
+		air_bullet_skin = "",
+		shop_type_id = 4,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "103",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "U110_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70252,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.909,
+					0.897,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.109,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.48,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[501010] = {
 		ship_group = 50101,
 		name = "An Shan ",
@@ -63765,7 +64707,6 @@ pg.ship_skin_template = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -67200,7 +68141,6 @@ pg.ship_skin_template = {
 		shop_type_id = 9,
 		hand_id = 1,
 		lip_smoothing = 0,
-		l2d_animations = "",
 		bg = "118",
 		skin_type = 0,
 		bg_sp = "",
@@ -67294,6 +68234,20 @@ pg.ship_skin_template = {
 					}
 				}
 			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
 		}
 	},
 	[901010] = {
@@ -76247,6 +77201,233 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[900201] = {
+		ship_group = 900201,
+		name = "？？？",
+		bullet_skin_main = "",
+		desc = "B级驱逐舰—大斗犬，舷号H91",
+		illustrator2 = -1,
+		id = 900201,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "dadouquan_dark_shadow",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "dadouquan",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 63,
+		air_bomb_skin = "",
+		illustrator = 16,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.61,
+					0.92,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.61,
+					0.92,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.43,
+					0.39,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.61,
+					0.92,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.83,
+							2.61,
+							-1.03
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.42,
+							0.49,
+							-0.12
+						}
+					}
+				}
+			}
+		}
+	},
+	[900202] = {
+		ship_group = 900202,
+		name = "大鲨鱼神",
+		bullet_skin_main = "",
+		desc = "B级驱大鲨鱼神立绘",
+		illustrator2 = -1,
+		id = 900202,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "abeikelongbi_2_dark_shadow",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "abeikelongbi_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 63,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.868,
+					3.337,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.723,
+					3.272,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.006,
+					-0.002,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.795,
+					3.137,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.346,
+							2.301,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[10100010] = {
 		ship_group = 1010001,
 		name = "Neptune",
@@ -79584,6 +80765,8 @@ pg.ship_skin_template = {
 		101400,
 		101401,
 		101410,
+		101420,
+		101421,
 		102010,
 		102020,
 		102030,
@@ -79758,6 +80941,7 @@ pg.ship_skin_template = {
 		202082,
 		202110,
 		202111,
+		202112,
 		202120,
 		202121,
 		202123,
@@ -79841,9 +81025,11 @@ pg.ship_skin_template = {
 		207061,
 		213010,
 		213011,
+		213012,
 		213020,
 		213021,
 		213040,
+		213041,
 		301010,
 		301011,
 		301012,
@@ -79908,6 +81094,7 @@ pg.ship_skin_template = {
 		301380,
 		301381,
 		301410,
+		301411,
 		301490,
 		301491,
 		301540,
@@ -80092,6 +81279,7 @@ pg.ship_skin_template = {
 		403053,
 		404010,
 		404020,
+		404021,
 		405010,
 		405011,
 		405020,
@@ -80111,6 +81299,8 @@ pg.ship_skin_template = {
 		408060,
 		408061,
 		408070,
+		408080,
+		408081,
 		501010,
 		501020,
 		501030,
@@ -80230,6 +81420,8 @@ pg.ship_skin_template = {
 		900198,
 		900199,
 		900200,
+		900201,
+		900202,
 		10100010,
 		10100020,
 		10100030,

@@ -6964,7 +6964,7 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 		key = "vote_rank_in_current_server"
 	},
 	words_auto_battle_label = {
-		tip = "Auto Combat Alert",
+		tip = "Auto Combat Alert ",
 		key = "words_auto_battle_label"
 	},
 	words_show_ship_name_label = {
@@ -7098,134 +7098,6 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 	err_cloth_change_noship = {
 		tip = "Not received: $1",
 		key = "err_cloth_change_noship"
-	},
-	airi_error_code_500 = {
-		tip = "HTTP request error",
-		key = "airi_error_code_500"
-	},
-	airi_error_code_1100 = {
-		tip = "Player has not set their birthday. Unable to purchase.",
-		key = "airi_error_code_1100"
-	},
-	airi_error_code_1101 = {
-		tip = "Unable to find ProductID in AiriSDK background.",
-		key = "airi_error_code_1101"
-	},
-	airi_error_code_1102 = {
-		tip = "Account has too many play hours.",
-		key = "airi_error_code_1102"
-	},
-	airi_error_code_1103 = {
-		tip = "Error occurred in AiriSDK backend config store info.",
-		key = "airi_error_code_1103"
-	},
-	airi_error_code_1104 = {
-		tip = "AppStore or Google Play verification failed.",
-		key = "airi_error_code_1104"
-	},
-	airi_error_code_1105 = {
-		tip = "Purchase request marked as invalid by AiriSDK.",
-		key = "airi_error_code_1105"
-	},
-	airi_error_code_1106 = {
-		tip = "Game server marked payment as invalid.",
-		key = "airi_error_code_1106"
-	},
-	airi_error_code_1107 = {
-		tip = "Payment timed out.",
-		key = "airi_error_code_1107"
-	},
-	airi_error_code_1108 = {
-		tip = "Unable to find this item in AppStore or Google Play backends.",
-		key = "airi_error_code_1108"
-	},
-	airi_error_code_1109 = {
-		tip = "Shop purchase failed.",
-		key = "airi_error_code_1109"
-	},
-	airi_error_code_1110 = {
-		tip = "Payment canceled by user.",
-		key = "airi_error_code_1110"
-	},
-	airi_error_code_10001 = {
-		tip = "Unsupported platform.",
-		key = "airi_error_code_10001"
-	},
-	airi_error_code_10002 = {
-		tip = "Unable to resolve information from server.",
-		key = "airi_error_code_10002"
-	},
-	airi_error_code_10003 = {
-		tip = "Parameter returned from server is missing. Potential SDK version mismatch detected.",
-		key = "airi_error_code_10003"
-	},
-	airi_error_code_10101 = {
-		tip = "SDK is not logged in.",
-		key = "airi_error_code_10101"
-	},
-	airi_error_code_10102 = {
-		tip = "Failed to initialize payment system.",
-		key = "airi_error_code_10102"
-	},
-	airi_error_code_100000 = {
-		tip = "User token invalid. Account has moved or illegal access was detected.",
-		key = "airi_error_code_100000"
-	},
-	airi_error_code_100200 = {
-		tip = "This account is currently logged into on another device.",
-		key = "airi_error_code_100200"
-	},
-	airi_error_code_100210 = {
-		tip = "Twitter login not supported by this SDK.",
-		key = "airi_error_code_100210"
-	},
-	airi_error_code_100211 = {
-		tip = "This Twitter account is not linked to any game account.",
-		key = "airi_error_code_100211"
-	},
-	airi_error_code_100212 = {
-		tip = "Error occurred while logging in with Twitter.",
-		key = "airi_error_code_100212"
-	},
-	airi_error_code_100400 = {
-		tip = "UID or transfer code error.",
-		key = "airi_error_code_100400"
-	},
-	airi_error_code_100500 = {
-		tip = "User has already set their birthday.",
-		key = "airi_error_code_100500"
-	},
-	airi_error_code_100501 = {
-		tip = "Birthday format error.",
-		key = "airi_error_code_100501"
-	},
-	airi_error_code_100610 = {
-		tip = "Twitter login not supported by this SDK.",
-		key = "airi_error_code_100610"
-	},
-	airi_error_code_100611 = {
-		tip = "This Twitter account has been linked to another account.",
-		key = "airi_error_code_100611"
-	},
-	airi_error_code_100612 = {
-		tip = "An error occurred while logging in with Twitter. Unable to connect.",
-		key = "airi_error_code_100612"
-	},
-	airi_error_code_100710 = {
-		tip = "このサーバーではツイッター連携を利用できません",
-		key = "airi_error_code_100710"
-	},
-	airi_error_code_100711 = {
-		tip = "The twitter account is illeagl invalid or unbound.",
-		key = "airi_error_code_100711"
-	},
-	airi_error_code_100712 = {
-		tip = "ツイッターにログインできませんでした",
-		key = "airi_error_code_100712"
-	},
-	airi_error_code_other = {
-		tip = "Unknown error.",
-		key = "airi_error_code_other"
 	},
 	["new_airi_error_code_-1"] = {
 		tip = "Unknown Error",
@@ -7418,6 +7290,58 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 	new_airi_error_code_200230 = {
 		tip = "GooglePay / AppStorePay / Molpay cancelled",
 		key = "new_airi_error_code_200230"
+	},
+	new_airi_error_code_200240 = {
+		tip = "请求的类型不支持结算API版本",
+		key = "new_airi_error_code_200240"
+	},
+	new_airi_error_code_200250 = {
+		tip = "提供给API的参数无效",
+		key = "new_airi_error_code_200250"
+	},
+	new_airi_error_code_200260 = {
+		tip = "API操作期间发生致命错误",
+		key = "new_airi_error_code_200260"
+	},
+	new_airi_error_code_200270 = {
+		tip = "当前设备上的Play商店不支持请求的功能",
+		key = "new_airi_error_code_200270"
+	},
+	new_airi_error_code_200280 = {
+		tip = "由于物品已经拥有，未消耗",
+		key = "new_airi_error_code_200280"
+	},
+	new_airi_error_code_200290 = {
+		tip = "由于物品已经拥有，并且消耗失败",
+		key = "new_airi_error_code_200290"
+	},
+	new_airi_error_code_200300 = {
+		tip = "请求的产品无法购买",
+		key = "new_airi_error_code_200300"
+	},
+	new_airi_error_code_200310 = {
+		tip = "Google Play服务无法连接",
+		key = "new_airi_error_code_200310"
+	},
+	new_airi_error_code_200320 = {
+		tip = "在Google Play响应之前，请求已达到最大超时时间",
+		key = "new_airi_error_code_200320"
+	},
+	new_airi_error_code_200330 = {
+		tip = "网络连接已关闭",
+		key = "new_airi_error_code_200330"
+	},
+	new_airi_error_code_200340 = {
+		tip = "用户取消了支付",
+		key = "new_airi_error_code_200340"
+	},
+	new_airi_error_code_200350 = {
+		tip = "查询商品ID失败",
+		key = "new_airi_error_code_200350"
+	},
+	new_airi_error_code_200360 = {
+		tip = "连接Play services失败",
+		key = "new_airi_error_code_200360"
 	},
 	new_airi_error_code_300100 = {
 		tip = "Sharing failed",
@@ -8332,45 +8256,24 @@ Fate Simulation:
 			{
 				info = [[
 About Distress Signals:
-- You can receive Distress Signals at random from any 
-Chapter on the world map.
-Even when you're logged out, you can still receive Distress 
-Signals.
-- You must first clear the final stage (X-4) of a Chapter 
-before you can receive Distress Signals from it.
+- You can receive Distress Signals at random from any Chapter on the world map.Even when you're logged out, you can still receive Distress Signals.
+- You must first clear the final stage (X-4) of a Chapter before you can receive Distress Signals from it.
 
 About The Find Source Button:
-- When you tap this button, you will locate which Chapter 
-the Distress Signal is coming from.
-- Once you've located the signal's source, you can initiate 
-a Rescue Mission.
-- You can only have 1 Rescue Mission active per Chapter. 
-You must complete the Rescue Mission or let its timer 
-run out before you can get another Rescue Mission for 
-the same Chapter.
-- A Rescue Mission will disappear once you've cleared it 
-or 12 hours have passed.
+- When you tap this button, you will locate which Chapter the Distress Signal is coming from.
+- Once you've located the signal's source, you can initiate a Rescue Mission.
+- You can only have 1 Rescue Mission active per Chapter. You must complete the Rescue Mission or let its timer run out before you can get another Rescue Mission for the same Chapter.
+- A Rescue Mission will disappear once you've cleared it or 12 hours have passed.
 
 Signal Sensitivity:
-- Your Signal Sensitivity dictates which Chapters you may 
-receive Distress Signals from.
-- At Sensitivity level 1, Rescue Missions will only appear in 
-Chapter 3.
-- As you increase your Signal Sensitivity level, you will gain 
-access to Rescue Missions in higher Chapters on the 
-world map.
-- You can increase your Signal Sensitivity by 1 level by 
-S-Ranking the Boss Node on your currently highest level 
-available Rescue Mission. Your Signal Sensitivity caps out 
-at level 8.
-- Additionally, the higher your Sensitivity level, the better 
-the rewards you may receive from clearing the Boss Node.
+- Your Signal Sensitivity dictates which Chapters you may receive Distress Signals from.
+- At Sensitivity level 1, Rescue Missions will only appear in Chapter 3.
+- As you increase your Signal Sensitivity level, you will gain access to Rescue Missions in higher Chapters on the world map.
+- You can increase your Signal Sensitivity by 1 level by S-Ranking the Boss Node on your currently highest level available Rescue Mission. Your Signal Sensitivity caps out at level 8.
+- Additionally, the higher your Sensitivity level, the better the rewards you may receive from clearing the Boss Node.
 
 Combat Details:
-- You will encounter enemy Submarines during Rescue 
-Missions. Before you attempt a Rescue Mission, it's 
-recommended that you first equip your DDs and CLs 
-with Anti-Sub gear.
+- You will encounter enemy Submarines during Rescue Missions. Before you attempt a Rescue Mission, it's recommended that you first equip your DDs and CLs with Anti-Sub gear.
 
 ]]
 			}
@@ -8661,19 +8564,19 @@ with Anti-Sub gear.
 				info = "Event Details:"
 			},
 			{
-				info = " 1. During the event, three new event missions appear daily.\n Complete them to earn “Model Parts.”"
+				info = " 1. During the event, three new event missions appear daily. Complete them to earn “Model Parts.”"
 			},
 			{
-				info = " 2. Missions do not disappear if you do not complete them \nin time. The next day’s missions will unlock after you \nfinish your current missions."
+				info = " 2. Missions do not disappear if you do not complete them in time. The next day’s missions will unlock after you finish your current missions."
 			},
 			{
-				info = " 3. Every day, you may reroll 1 event mission. You may \nhave a total of 7 rerolls."
+				info = " 3. Every day, you may reroll 1 event mission. You may have a total of 7 rerolls."
 			},
 			{
-				info = " 4. Use “Model Parts” to help repair Mikasa’s collection. \nFinish repairing a ship model to collect the reward."
+				info = " 4. Use “Model Parts” to help repair Mikasa’s collection. Finish repairing a ship model to collect the reward."
 			},
 			{
-				info = " 5. Repair all four ship models to earn the limited \n furniture, “Mikasa Ship Model.”"
+				info = " 5. Repair all four ship models to earn the limited furniture, “Mikasa Ship Model.”"
 			}
 		}
 	},
@@ -8898,7 +8801,7 @@ with Anti-Sub gear.
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
-		tip = "Rate Up characters: Admiral Graf Spee",
+		tip = "Heavy: Heavy Cruisers, Monitors, Battlecruisers, Battleships, and more!",
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
@@ -11107,6 +11010,14 @@ depends on the amount of damage dealt to the boss.
 	text_inconsume = {
 		tip = "NO",
 		key = "text_inconsume"
+	},
+	pt_ship_now = {
+		tip = "Enemies Defeated:",
+		key = "pt_ship_now"
+	},
+	pt_ship_goal = {
+		tip = "Goal:",
+		key = "pt_ship_goal"
 	}
 }
 

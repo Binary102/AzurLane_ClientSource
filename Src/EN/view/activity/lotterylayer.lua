@@ -161,7 +161,7 @@ function slot2(slot0)
 	slot0.resource = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "right_panel/launch_one_btn"
+	slot3 = "left_panel/launch_one_btn"
 	slot1 = slot1(slot2, slot3)
 	slot0.launchOneBtn = slot1
 	slot2 = slot0
@@ -177,7 +177,7 @@ function slot2(slot0)
 	slot0.launchOneBtnTxt = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "right_panel/launch_ten_btn"
+	slot3 = "left_panel/launch_ten_btn"
 	slot1 = slot1(slot2, slot3)
 	slot0.launchTenBtn = slot1
 	slot2 = slot0
@@ -191,22 +191,6 @@ function slot2(slot0)
 	slot4 = Text
 	slot1 = slot1(slot2, slot3(slot4))
 	slot0.launchTenBtnTxt = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "right_panel/launch_max_btn"
-	slot1 = slot1(slot2, slot3)
-	slot0.launchMaxBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "res/Text"
-	slot4 = slot0.launchMaxBtn
-	slot1 = slot1(slot2, slot3, slot4)
-	slot2 = slot1
-	slot1 = slot1.GetComponent
-	slot3 = typeof
-	slot4 = Text
-	slot1 = slot1(slot2, slot3(slot4))
-	slot0.launchMaxBtnTxt = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
 	slot3 = "right_panel/count_container/Text"
@@ -227,16 +211,6 @@ function slot2(slot0)
 	slot4 = Image
 	slot1 = slot1(slot2, slot3(slot4))
 	slot0.bgTF = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "right_panel/tip0"
-	slot1 = slot1(slot2, slot3)
-	slot0.tip0 = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "right_panel/tip"
-	slot1 = slot1(slot2, slot3)
-	slot0.tip = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
 	slot3 = "right_panel/desc_btn"
@@ -593,20 +567,6 @@ function slot2(slot0)
 
 	slot3(slot4, slot5, slot6)
 
-	slot3 = setText
-	slot4 = slot0.tip0
-	slot5 = i18n
-	slot6 = "amercian_notice_2"
-
-	slot3(slot4, slot5(slot6))
-
-	slot3 = setText
-	slot4 = slot0.tip
-	slot5 = i18n
-	slot6 = "amercian_notice_3"
-
-	slot3(slot4, slot5(slot6))
-
 	slot3 = {}
 	slot0.bgs = slot3
 	slot3 = {}
@@ -844,7 +804,7 @@ function slot2(slot0, slot1)
 
 	if not slot4 then
 		slot5 = LoadSprite
-		slot6 = "lotterybg/en_re_"
+		slot6 = "lotterybg/kr_re_"
 		slot7 = slot2.index
 		slot6 = slot6 .. slot7
 		slot5 = slot5(slot6)

@@ -1022,6 +1022,24 @@ pg.memory_group = {
 			938
 		}
 	},
+	[170] = {
+		title = "The Enigma and the Shark ",
+		type = 2,
+		id = 170,
+		icon = "title_event",
+		memories = {
+			940,
+			941,
+			942,
+			943,
+			944,
+			945,
+			946,
+			947,
+			948,
+			949
+		}
+	},
 	[501] = {
 		title = "{namecode:98}'s Commission",
 		type = 3,
@@ -1638,6 +1656,7 @@ pg.memory_group = {
 		167,
 		168,
 		169,
+		170,
 		501,
 		502,
 		503,

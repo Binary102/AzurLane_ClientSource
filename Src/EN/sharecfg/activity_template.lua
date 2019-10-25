@@ -503,7 +503,7 @@ pg.activity_template = {
 					24
 				},
 				{
-					0,
+					14,
 					0,
 					0
 				}
@@ -796,10 +796,10 @@ pg.activity_template = {
 				{
 					2019,
 					10,
-					23
+					24
 				},
 				{
-					23,
+					13,
 					59,
 					59
 				}
@@ -828,7 +828,7 @@ pg.activity_template = {
 					24
 				},
 				{
-					0,
+					14,
 					0,
 					0
 				}
@@ -1183,7 +1183,7 @@ pg.activity_template = {
 					24
 				},
 				{
-					0,
+					14,
 					0,
 					0
 				}
@@ -7563,6 +7563,7 @@ pg.activity_template = {
 	[30221] = {
 		mark = 20190926,
 		title_res_tag = "",
+		time = "stop",
 		type = 55,
 		login_pop = 0,
 		config_id = 0,
@@ -7574,38 +7575,12 @@ pg.activity_template = {
 			1,
 			2,
 			3
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					9,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[30222] = {
 		mark = 20190926,
 		title_res_tag = "",
+		time = "stop",
 		type = 52,
 		login_pop = 0,
 		config_id = 2,
@@ -7613,33 +7588,6 @@ pg.activity_template = {
 		bg = "",
 		id = 30222,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					9,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			story = {
 				{
@@ -7668,6 +7616,7 @@ pg.activity_template = {
 	[30223] = {
 		mark = 20190926,
 		title_res_tag = "",
+		time = "stop",
 		type = 46,
 		login_pop = 0,
 		config_id = 2002,
@@ -7675,38 +7624,12 @@ pg.activity_template = {
 		config_data = "100",
 		config_client = "",
 		bg = "",
-		id = 30223,
-		time = {
-			timer,
-			{
-				{
-					2019,
-					9,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 30223
 	},
 	[30224] = {
 		mark = 20190926,
 		title_res_tag = "",
+		time = "stop",
 		type = 54,
 		login_pop = 0,
 		config_id = 30224,
@@ -7714,34 +7637,7 @@ pg.activity_template = {
 		config_client = "",
 		bg = "",
 		id = 30224,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					9,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[30225] = {
 		mark = 20190926,
@@ -7921,6 +7817,7 @@ pg.activity_template = {
 	[30230] = {
 		mark = 20191010,
 		title_res_tag = "",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -7932,33 +7829,6 @@ pg.activity_template = {
 			1070102,
 			1070103
 		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					10,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/sipeibojue"
 		}
@@ -7966,6 +7836,7 @@ pg.activity_template = {
 	[30231] = {
 		mark = 20191010,
 		title_res_tag = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -7980,38 +7851,12 @@ pg.activity_template = {
 			10424,
 			10425,
 			10426
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					10,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[30232] = {
 		mark = 20191010,
 		title_res_tag = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -8024,33 +7869,6 @@ pg.activity_template = {
 			10429,
 			10430
 		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					10,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/sipeitaskpage"
 		}
@@ -8058,6 +7876,7 @@ pg.activity_template = {
 	[30233] = {
 		mark = 20191010,
 		title_res_tag = "",
+		time = "stop",
 		type = 26,
 		login_pop = 0,
 		config_id = 0,
@@ -8065,33 +7884,6 @@ pg.activity_template = {
 		config_data = "activity_drop_30233",
 		bg = "",
 		id = 30233,
-		time = {
-			timer,
-			{
-				{
-					2019,
-					10,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 3,
 			bg = "loadingbg/bg_build_3_act"
@@ -8634,6 +8426,335 @@ pg.activity_template = {
 		},
 		bg = {
 			"clutter/atrejiaju_login"
+		}
+	},
+	[30245] = {
+		mark = 20191023,
+		title_res_tag = "beiliwanshengjie",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 28,
+		id = 30245,
+		config_data = {
+			{
+				15060,
+				15061
+			},
+			{
+				15062,
+				15063
+			},
+			{
+				15064,
+				15065
+			},
+			{
+				15066,
+				15067
+			},
+			{
+				15068,
+				15069
+			},
+			{
+				15070,
+				15071
+			},
+			{
+				15072,
+				15073
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/skin_beili"
+		},
+		config_client = {
+			story = {
+				{
+					"BEILIWANSHENGJIE1"
+				},
+				{
+					"BEILIWANSHENGJIE2"
+				},
+				{
+					"BEILIWANSHENGJIE3"
+				},
+				{
+					"BEILIWANSHENGJIE4"
+				},
+				{
+					"BEILIWANSHENGJIE5"
+				},
+				{
+					"BEILIWANSHENGJIE6"
+				},
+				{
+					"BEILIWANSHENGJIE7"
+				}
+			}
+		}
+	},
+	[30246] = {
+		mark = 20191023,
+		title_res_tag = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30246,
+		config_data = {
+			1270001,
+			1270002,
+			1270003
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30247] = {
+		mark = 20191023,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30247,
+		config_data = {
+			15050,
+			15051,
+			15052,
+			15053,
+			15054,
+			15055
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30248] = {
+		mark = 20191023,
+		title_res_tag = "activity2_text",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 29,
+		config_client = "",
+		id = 30248,
+		config_data = {
+			15056,
+			15057,
+			15058,
+			15059
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_u110leiji"
+		}
+	},
+	[30249] = {
+		mark = 20191023,
+		title_res_tag = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_30249",
+		bg = "",
+		id = 30249,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 1,
+			bg = "loadingbg/bg_build_1_act",
+			buildship_tip = "Rate Up characters: U-110",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>：7%",
+				"<color=#d797ff>Elite</color>：12%",
+				"<color=#3dc6ff>Rare</color>：51%",
+				"Common：30%",
+				"<color=#d797ff>U-110</color>：1.4%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[30250] = {
+		mark = 20191023,
+		title_res_tag = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_30250",
+		bg = "",
+		id = 30250,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 2,
+			bg = "loadingbg/bg_build_2_act",
+			buildship_tip = "Rate Up characters: Smalley",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>：7%",
+				"<color=#d797ff>Elite</color>：12%",
+				"<color=#3dc6ff>Rare</color>：26%",
+				"Common：55%",
+				"<color=#3dc6ff>Smalley</color>：5.0%<color=#92FC63>(up!)</color>"
+			}
 		}
 	},
 	[30500] = {
@@ -9458,6 +9579,12 @@ pg.activity_template = {
 		30242,
 		30243,
 		30244,
+		30245,
+		30246,
+		30247,
+		30248,
+		30249,
+		30250,
 		30500,
 		30501,
 		30502,

@@ -4734,7 +4734,7 @@ pg.skill_data_template = {
 	[4101] = {
 		desc_get = "",
 		name = "Smokescreen: Light Cruisers",
-		desc = "10s after the battle begins and 20.0% chance every 20s after that: deploys a smokescreen that increases Evasion Rate by $1 (this effect does not stack with other smokescreen skills) and decreases enemy aircraft DMG by $2 for all your ships in it. Smokescr",
+		desc = "10s after the battle begins and 20.0% chance every 20s after that: deploys a smokescreen that increases Evasion Rate by $1 and decreases DMG taken from enemy aircraft by $2 for all your ships inside it. Smokescreen lasts for 10s, and does not stack with other smokescreens. ",
 		type = 2,
 		max_level = 10,
 		id = 4101,
@@ -13788,7 +13788,7 @@ pg.skill_data_template = {
 	[11010] = {
 		desc_get = "",
 		name = "Night of the Iron Bottom Sound",
-		desc = "Activates when your South Dakota's HP falls below 30.0%: increases this ship's DMG by $1, absorbs 30.0% of the DMG South Dakota takes (ignores South Dakota's \"The Strongest Shield\" skill) and makes South Dakota invulnerable for 5s. Can only activate onc",
+		desc = "Activates when your South Dakota's HP falls below 30.0%: increases this ship's DMG by $1, absorbs 30.0% of the DMG South Dakota takes (ignores South Dakota's \"The Strongest Shield\" skill) and makes South Dakota invulnerable for 5s. Can only activate once per battle",
 		type = 2,
 		max_level = 10,
 		id = 11010,
@@ -25494,6 +25494,55 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[12690] = {
+		desc_get = "",
+		name = "Codebreaking Game ",
+		desc = "After entering the battle, applies a random $1 buff to all your Iron Blood ships which lasts until the end of the battle. ",
+		type = 3,
+		max_level = 10,
+		id = 12690,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shell +",
@@ -28296,6 +28345,28 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 23312,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[23321] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Type IXB immediately after entering the battle.",
+		type = 1,
+		max_level = 1,
+		id = 23321,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[23322] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Type IXB immediately after entering the battle.",
+		type = 1,
+		max_level = 1,
+		id = 23322,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -31735,6 +31806,7 @@ pg.skill_data_template = {
 		12650,
 		12660,
 		12670,
+		12690,
 		18010,
 		18040,
 		18050,
@@ -31899,6 +31971,8 @@ pg.skill_data_template = {
 		23222,
 		23311,
 		23312,
+		23321,
+		23322,
 		23411,
 		23412,
 		23511,

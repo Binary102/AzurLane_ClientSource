@@ -27,7 +27,7 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				buff_id = 19221
+				buff_id = 19220
 			}
 		}
 	}

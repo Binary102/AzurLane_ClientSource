@@ -15212,6 +15212,526 @@ pg.ship_data_statistics = {
 			"Fletcher"
 		}
 	},
+	[101421] = {
+		name = "Smalley",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 101421,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Smalley",
+		skin_id = 101420,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			338,
+			16,
+			53,
+			35,
+			0,
+			74,
+			0,
+			72,
+			59,
+			42,
+			65,
+			52
+		},
+		attrs_growth = {
+			8235,
+			160,
+			520,
+			692,
+			0,
+			370,
+			0,
+			1068,
+			876,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.2,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101422] = {
+		name = "Smalley",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 101422,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Smalley",
+		skin_id = 101420,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			420,
+			20,
+			66,
+			44,
+			0,
+			74,
+			0,
+			72,
+			59,
+			42,
+			65,
+			65
+		},
+		attrs_growth = {
+			8235,
+			160,
+			520,
+			692,
+			0,
+			370,
+			0,
+			1068,
+			876,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.12,
+			1.22,
+			1.27
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101423] = {
+		name = "Smalley",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 101423,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Smalley",
+		skin_id = 101420,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			585,
+			28,
+			92,
+			61,
+			0,
+			74,
+			0,
+			72,
+			59,
+			42,
+			65,
+			90
+		},
+		attrs_growth = {
+			8235,
+			160,
+			520,
+			692,
+			0,
+			370,
+			0,
+			1068,
+			876,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.25,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101424] = {
+		name = "Smalley",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 101424,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Smalley",
+		skin_id = 101420,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			832,
+			40,
+			131,
+			87,
+			0,
+			74,
+			0,
+			72,
+			59,
+			42,
+			65,
+			129
+		},
+		attrs_growth = {
+			8235,
+			160,
+			520,
+			692,
+			0,
+			370,
+			0,
+			1068,
+			876,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			8235,
+			373,
+			1136,
+			471,
+			0,
+			875,
+			0,
+			-626,
+			-614,
+			0,
+			0,
+			448
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.3,
+			1.35
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
 	[102011] = {
 		name = "Omaha",
 		type = 2,
@@ -159627,6 +160147,1002 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[408081] = {
+		name = "U-110",
+		type = 8,
+		personality = 2,
+		oxy_max = 208,
+		oxy_cost = 10,
+		huntingrange_level = 1,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 4,
+		rarity = 4,
+		ammo = 2,
+		id = 408081,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-110",
+		skin_id = 408080,
+		painting_dir = 1,
+		attack_duration = 4,
+		ignite_accuracy = 0,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			236,
+			9,
+			96,
+			0,
+			0,
+			30,
+			0,
+			61,
+			7,
+			14.4,
+			28,
+			0
+		},
+		attrs_growth = {
+			5750,
+			86,
+			954,
+			0,
+			0,
+			150,
+			0,
+			900,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.05,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-3
+				},
+				{
+					2,
+					-2
+				}
+			},
+			{
+				{
+					1,
+					3
+				},
+				{
+					2,
+					-3
+				},
+				{
+					2,
+					3
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408082] = {
+		name = "U-110",
+		type = 8,
+		personality = 2,
+		oxy_max = 208,
+		oxy_cost = 10,
+		huntingrange_level = 1,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 4,
+		rarity = 4,
+		ammo = 2,
+		id = 408082,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-110",
+		skin_id = 408080,
+		painting_dir = 1,
+		attack_duration = 4,
+		ignite_accuracy = 0,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			294,
+			11,
+			120,
+			0,
+			0,
+			30,
+			0,
+			61,
+			7,
+			14.4,
+			28,
+			0
+		},
+		attrs_growth = {
+			5750,
+			86,
+			954,
+			0,
+			0,
+			150,
+			0,
+			900,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.1,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-3
+				},
+				{
+					2,
+					-2
+				}
+			},
+			{
+				{
+					1,
+					3
+				},
+				{
+					2,
+					-3
+				},
+				{
+					2,
+					3
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408083] = {
+		name = "U-110",
+		type = 8,
+		personality = 2,
+		oxy_max = 208,
+		oxy_cost = 10,
+		huntingrange_level = 2,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 4,
+		rarity = 4,
+		ammo = 2,
+		id = 408083,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-110",
+		skin_id = 408080,
+		painting_dir = 1,
+		attack_duration = 4,
+		ignite_accuracy = 0,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			409,
+			15,
+			168,
+			0,
+			0,
+			30,
+			0,
+			61,
+			7,
+			14.4,
+			28,
+			0
+		},
+		attrs_growth = {
+			5750,
+			86,
+			954,
+			0,
+			0,
+			150,
+			0,
+			900,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.1,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-3
+				},
+				{
+					2,
+					-2
+				}
+			},
+			{
+				{
+					1,
+					3
+				},
+				{
+					2,
+					-3
+				},
+				{
+					2,
+					3
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408084] = {
+		name = "U-110",
+		type = 8,
+		personality = 2,
+		oxy_max = 208,
+		oxy_cost = 10,
+		huntingrange_level = 2,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 4,
+		rarity = 4,
+		ammo = 2,
+		id = 408084,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-110",
+		skin_id = 408080,
+		painting_dir = 1,
+		attack_duration = 4,
+		ignite_accuracy = 0,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			581,
+			22,
+			239,
+			0,
+			0,
+			30,
+			0,
+			61,
+			7,
+			14.4,
+			28,
+			0
+		},
+		attrs_growth = {
+			5750,
+			86,
+			954,
+			0,
+			0,
+			150,
+			0,
+			900,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			5750,
+			207,
+			1186,
+			0,
+			0,
+			353,
+			0,
+			-1,
+			777,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.2,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-3
+				},
+				{
+					2,
+					-2
+				}
+			},
+			{
+				{
+					1,
+					3
+				},
+				{
+					2,
+					-3
+				},
+				{
+					2,
+					3
+				}
+			},
+			{
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					2
+				}
+			}
+		},
+		tag_list = {}
+	},
 	[501011] = {
 		name = "An Shan",
 		type = 1,
@@ -201281,6 +202797,10 @@ pg.ship_data_statistics = {
 		101412,
 		101413,
 		101414,
+		101421,
+		101422,
+		101423,
+		101424,
 		102011,
 		102012,
 		102013,
@@ -202345,6 +203865,10 @@ pg.ship_data_statistics = {
 		408072,
 		408073,
 		408074,
+		408081,
+		408082,
+		408083,
+		408084,
 		501011,
 		501012,
 		501013,

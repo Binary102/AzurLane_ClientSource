@@ -143,11 +143,10 @@ return {
 									setAI = 10007
 								},
 								{
-									switchType = 1,
-									dive = "STATE_FLOAT",
 									index = 1,
+									switchType = 1,
 									switchParam = 999,
-									setAI = 10007
+									dive = "STATE_FLOAT"
 								}
 							}
 						}

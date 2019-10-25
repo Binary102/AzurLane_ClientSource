@@ -1263,6 +1263,19 @@ pg.memory_group = {
 			949
 		}
 	},
+	[171] = {
+		title = "混沌的万圣之夜",
+		type = 2,
+		id = 171,
+		icon = "title_event",
+		memories = {
+			950,
+			951,
+			952,
+			953,
+			954
+		}
+	},
 	[501] = {
 		title = "{namecode:98}的委托",
 		type = 3,
@@ -2013,6 +2026,7 @@ pg.memory_group = {
 		168,
 		169,
 		170,
+		171,
 		501,
 		502,
 		503,

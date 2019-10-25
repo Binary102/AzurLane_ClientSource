@@ -255220,15 +255220,15 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				17002
+				17003
 			},
 			{
 				2,
-				17022
+				17023
 			},
 			{
 				2,
-				17032
+				17033
 			}
 		},
 		objective_1 = {
@@ -255276,15 +255276,15 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				17002
+				17003
 			},
 			{
 				2,
-				17022
+				17023
 			},
 			{
 				2,
-				17032
+				17033
 			}
 		},
 		objective_1 = {
@@ -255332,15 +255332,15 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				17002
+				17003
 			},
 			{
 				2,
-				17022
+				17023
 			},
 			{
 				2,
-				17032
+				17033
 			}
 		},
 		objective_1 = {
@@ -255388,15 +255388,15 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				17002
+				17003
 			},
 			{
 				2,
-				17012
+				17013
 			},
 			{
 				2,
-				17032
+				17033
 			}
 		},
 		objective_1 = {
@@ -255444,15 +255444,15 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				17002
+				17003
 			},
 			{
 				2,
-				17012
+				17013
 			},
 			{
 				2,
-				17032
+				17033
 			}
 		},
 		objective_1 = {
@@ -255500,15 +255500,15 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				17002
+				17003
 			},
 			{
 				2,
-				17012
+				17013
 			},
 			{
 				2,
-				17032
+				17033
 			}
 		},
 		objective_1 = {
@@ -255556,15 +255556,15 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				17002
+				17003
 			},
 			{
 				2,
-				17042
+				17043
 			},
 			{
 				2,
-				17032
+				17033
 			}
 		},
 		objective_1 = {
@@ -255612,15 +255612,15 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				17002
+				17003
 			},
 			{
 				2,
-				17042
+				17043
 			},
 			{
 				2,
-				17032
+				17033
 			}
 		},
 		objective_1 = {
@@ -255668,15 +255668,15 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				17002
+				17003
 			},
 			{
 				2,
-				17042
+				17043
 			},
 			{
 				2,
-				17032
+				17033
 			}
 		},
 		objective_1 = {
@@ -255724,7 +255724,7 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54012
+				54013
 			}
 		},
 		objective_1 = {
@@ -255772,7 +255772,7 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54012
+				54013
 			}
 		},
 		objective_1 = {
@@ -255820,7 +255820,7 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54012
+				54013
 			}
 		},
 		objective_1 = {
@@ -255872,7 +255872,7 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54015
+				54016
 			}
 		},
 		objective_1 = {
@@ -256264,7 +256264,7 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54015
+				54016
 			}
 		},
 		objective_1 = {
@@ -256320,7 +256320,7 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				54015
+				54016
 			}
 		},
 		objective_1 = {

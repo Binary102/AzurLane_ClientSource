@@ -10153,6 +10153,61 @@ pg.memory_template = {
 		icon = "memory_zuizhenguidebaowu",
 		is_open = 0
 	},
+	[950] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "一 井然有序的准备",
+		condition = "解锁「混沌的万圣之夜」DAY1",
+		story = "MENGFEISIWANSHENG1",
+		id = 950,
+		icon = "memory_mengfeisiwansheng",
+		is_open = 0
+	},
+	[951] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "二 魔女快递、绝赞开张中",
+		condition = "解锁「混沌的万圣之夜」DAY2",
+		story = "MENGFEISIWANSHENG2",
+		id = 951,
+		icon = "memory_mengfeisiwansheng",
+		is_open = 0
+	},
+	[952] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "三 惯例的恶作剧",
+		condition = "解锁「混沌的万圣之夜」DAY4",
+		story = "MENGFEISIWANSHENG3",
+		id = 952,
+		icon = "memory_mengfeisiwansheng",
+		is_open = 0
+	},
+	[953] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "四 狂欢前的换装",
+		condition = "解锁「混沌的万圣之夜」DAY6",
+		story = "MENGFEISIWANSHENG4",
+		id = 953,
+		icon = "memory_mengfeisiwansheng",
+		is_open = 0
+	},
+	[954] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "五 混沌的狂欢",
+		condition = "解锁「混沌的万圣之夜」DAY7",
+		story = "MENGFEISIWANSHENG5",
+		id = 954,
+		icon = "memory_mengfeisiwansheng",
+		is_open = 0
+	},
 	[10011] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -11704,6 +11759,11 @@ pg.memory_template = {
 		947,
 		948,
 		949,
+		950,
+		951,
+		952,
+		953,
+		954,
 		10011,
 		10012,
 		10013,

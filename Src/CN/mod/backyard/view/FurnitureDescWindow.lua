@@ -16,6 +16,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.maxdate = findTF(slot0.maxPanel, "desc/container/frame/date_container/Text"):GetComponent(typeof(Text))
 	slot0.descPanelParent = slot0.descPanel.parent
 	slot0.descPanelVoiceBtn = findTF(slot0.maxPanel, "desc/container/frame/voice")
+	slot0.descPanelBgVoiceBtn = findTF(slot0.maxPanel, "desc/container/frame/bg_voice")
 
 	slot0:Init()
 end
@@ -32,16 +33,29 @@ function slot0.Init(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1)
+function slot0.Show(slot0, slot1, slot2)
 	slot0.furnitureVO = slot1
 
-	setActive(slot0.descPanelVoiceBtn, slot1:existVoice())
+	setActive(slot0.descPanelVoiceBtn, slot1:existVoice() and slot1:descVoiceType() == BackYardConst.SOUND_TYPE_EFFECT)
+	setActive(slot0.descPanelBgVoiceBtn, slot3 and slot1.descVoiceType() == BackYardConst.SOUND_TYPE_BG)
 	setActive(slot0.descPanel, true)
 	SetActive(slot0.maxFrame, false)
 
-	if slot1:existVoice() then
+	if slot3 and slot4 == BackYardConst.SOUND_TYPE_EFFECT then
 		onButton(slot0, slot0.descPanelVoiceBtn, function ()
 			slot0:playFurnitureVoice(slot0)
+
+			if slot0 then
+				slot2(true)
+			end
+		end, SFX_PANEL)
+	elseif slot3 and slot4 == BackYardConst.SOUND_TYPE_BG then
+		onToggle(slot0, slot0.descPanelBgVoiceBtn, function (slot0)
+			playBGM((slot0 and slot0:getVoice()) or "backyard")
+
+			if (slot0 and slot0.getVoice()) or "backyard" then
+				slot1(slot0)
+			end
 		end, SFX_PANEL)
 	end
 

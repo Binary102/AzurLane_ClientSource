@@ -61694,9 +61694,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -61706,9 +61706,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -61759,9 +61759,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -61771,9 +61771,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -61827,9 +61827,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -61839,9 +61839,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -61909,9 +61909,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -61921,9 +61921,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -61977,9 +61977,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -61989,9 +61989,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -62045,9 +62045,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -62057,9 +62057,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -62113,9 +62113,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -62125,9 +62125,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -62181,9 +62181,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -62193,9 +62193,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -62249,9 +62249,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -62261,9 +62261,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -62317,9 +62317,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -62329,9 +62329,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -62385,9 +62385,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -62397,9 +62397,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -62453,9 +62453,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -62465,9 +62465,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -62521,9 +62521,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -62533,9 +62533,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -62615,9 +62615,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -62627,9 +62627,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -62683,9 +62683,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -62695,9 +62695,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -62751,9 +62751,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -62763,9 +62763,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -62819,9 +62819,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -62831,9 +62831,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -62887,9 +62887,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -62899,9 +62899,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -62969,9 +62969,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -62981,9 +62981,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -63037,9 +63037,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -63049,9 +63049,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -63118,9 +63118,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -63130,9 +63130,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -63186,9 +63186,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -63198,9 +63198,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -63267,9 +63267,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -63279,9 +63279,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -63348,9 +63348,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -63360,9 +63360,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -63429,9 +63429,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -63441,9 +63441,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -63510,9 +63510,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -63522,9 +63522,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -63591,9 +63591,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -63603,9 +63603,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -63685,9 +63685,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -63697,9 +63697,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -63785,9 +63785,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -63797,9 +63797,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -63863,9 +63863,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -63875,9 +63875,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -63963,9 +63963,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -63975,9 +63975,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -64031,9 +64031,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -64043,9 +64043,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -64099,9 +64099,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -64111,9 +64111,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -64167,9 +64167,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -64179,9 +64179,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -64235,9 +64235,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -64247,9 +64247,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -64303,9 +64303,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -64315,9 +64315,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -64371,9 +64371,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -64383,9 +64383,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -64439,9 +64439,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -64451,9 +64451,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -64507,9 +64507,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					23
 				},
 				{
 					0,
@@ -64519,9 +64519,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
-					13
+					6
 				},
 				{
 					23,
@@ -97226,6 +97226,1640 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[52001] = {
+		can_rotate = 0,
+		name = "惊叫小镇地板",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "dibanhl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 4,
+		rarity = 4,
+		picture = "hl3/dibanhl3",
+		canputon = 0,
+		discount = 0,
+		id = 52001,
+		comfortable = 4,
+		describe = "Happy Halloween！",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52002] = {
+		can_rotate = 0,
+		name = "惊叫小镇墙纸",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "qiangbihl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 3,
+		rarity = 4,
+		picture = "hl3/qiangbihl3",
+		canputon = 0,
+		discount = 0,
+		id = 52002,
+		comfortable = 4,
+		describe = "Happy Halloween！",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52101] = {
+		advice = 0,
+		name = "惊叫地堡",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "hl3/baoleihl3",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "baoleihl3icon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 52101,
+		comfortable = 3,
+		describe = "里面藏着什么呢~进去之前可要做好心理准备哦~",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					-89,
+					212
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"dance",
+				{
+					7,
+					86
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52102] = {
+		can_rotate = 1,
+		name = "万圣糖果车",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "che2hl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "hl3/che2hl3",
+		canputon = 0,
+		discount = 0,
+		id = 52102,
+		comfortable = 2,
+		describe = "万圣之夜限定美味~你也来一颗糖果吧？",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52103] = {
+		can_rotate = 1,
+		name = "万圣小食摊",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "chehl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "hl3/chehl3",
+		canputon = 0,
+		discount = 0,
+		id = 52103,
+		comfortable = 2,
+		describe = "万圣之夜限定美味~要来个南瓜派吗？",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52104] = {
+		advice = 0,
+		name = "啾啾救护队",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "hl3/chuanghl3",
+		can_rotate = 1,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chuanghl3icon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 52104,
+		comfortable = 3,
+		describe = "这边又有一名吓晕了！快快快！",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-21,
+					-21
+				},
+				{
+					1,
+					1
+				},
+				"hl3/chuanghl3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52105] = {
+		can_rotate = 1,
+		name = "惊叫小镇门牌",
+		gain_by = "",
+		type = 9,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dengpaihl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "hl3/dengpaihl3",
+		canputon = 1,
+		discount = 0,
+		id = 52105,
+		comfortable = 2,
+		describe = "开始今夜的狂欢吧~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			7
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				0,
+				3
+			},
+			{
+				0,
+				4
+			},
+			{
+				0,
+				5
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52106] = {
+		can_rotate = 0,
+		name = "蝙蝠纹路地毯",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 4,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "ditanhl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "hl3/ditanhl3",
+		canputon = 0,
+		discount = 0,
+		id = 52106,
+		comfortable = 3,
+		describe = "细致地绣着蝙蝠造型纹路的地毯",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52107] = {
+		can_rotate = 0,
+		name = "南瓜灯",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "guahl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "hl3/guahl3",
+		canputon = 0,
+		discount = 0,
+		id = 52107,
+		comfortable = 2,
+		describe = "嘎嘎嘎~是不是很有节日的氛围",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52108] = {
+		can_rotate = 0,
+		name = "僵尸啾",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jiu2hl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "hl3/jiu2hl3",
+		canputon = 0,
+		discount = 0,
+		id = 52108,
+		comfortable = 2,
+		describe = "我跳！我跳！啾！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52109] = {
+		can_rotate = 0,
+		name = "幽灵啾",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jiu3hl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "hl3/jiu3hl3",
+		canputon = 0,
+		discount = 0,
+		id = 52109,
+		comfortable = 2,
+		describe = "唔…好像飘不起来…啾",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52110] = {
+		can_rotate = 0,
+		name = "啾造啾",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jiuhl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "hl3/jiuhl3",
+		canputon = 0,
+		discount = 0,
+		id = 52110,
+		comfortable = 2,
+		describe = "缝合线…要补一下了…啾",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52111] = {
+		can_rotate = 1,
+		name = "啾啾墓碑",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "mudihl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "hl3/mudihl3",
+		canputon = 0,
+		discount = 0,
+		id = 52111,
+		comfortable = 3,
+		describe = "每到深夜，就会有啾从土里爬出来…",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52112] = {
+		can_rotate = 0,
+		name = "惊叫木桶",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "mutonghl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "hl3/mutonghl3",
+		canputon = 0,
+		discount = 0,
+		id = 52112,
+		comfortable = 2,
+		describe = "里面装着什么呢~？嘿嘿…",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52113] = {
+		can_rotate = 0,
+		name = "惊叫枯木",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "shu2hl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "hl3/shu2hl3",
+		canputon = 0,
+		discount = 0,
+		id = 52113,
+		comfortable = 2,
+		describe = "很有节日氛围的枯木",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52114] = {
+		can_rotate = 0,
+		name = "彩灯树",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "shuhl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "hl3/shuhl3",
+		canputon = 0,
+		discount = 0,
+		id = 52114,
+		comfortable = 2,
+		describe = "装饰着彩灯的树",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52115] = {
+		can_rotate = 0,
+		name = "惊叫饮料摊",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "tanwei2hl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "hl3/tanwei2hl3",
+		canputon = 0,
+		discount = 0,
+		id = 52115,
+		comfortable = 2,
+		describe = "万圣之夜限定美味~要来一瓶“魔女的药剂”吗？",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52116] = {
+		can_rotate = 0,
+		name = "南瓜灯摊位",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "tanweihl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "hl3/tanweihl3",
+		canputon = 0,
+		discount = 0,
+		id = 52116,
+		comfortable = 2,
+		describe = "看看想要哪种造型的南瓜灯~?",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52117] = {
+		can_rotate = 0,
+		name = "糖果南瓜屋",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "wuhl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "hl3/wuhl3",
+		canputon = 0,
+		discount = 0,
+		id = 52117,
+		comfortable = 3,
+		describe = "欢迎自取~",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52118] = {
+		can_rotate = 0,
+		name = "惊叫告示牌",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 4,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "zhalanhl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 1,
+		picture = "hl3/zhalanhl3",
+		canputon = 0,
+		discount = 0,
+		id = 52118,
+		comfortable = 1,
+		describe = "今晚的特别游行时间是…",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52119] = {
+		can_rotate = 0,
+		name = "惊叫贵宾车",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "che3hl3icon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 52119,
+		comfortable = 4,
+		describe = "加长型轿车，附啾啾司机~？",
+		dorm_id = 0,
+		gem_price = 150,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			11
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"ghostcarB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"ghostcarT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"ghostcarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[52120] = {
+		can_rotate = 0,
+		name = "惊叫放映机",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "fangyingjihl3",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 52120,
+		comfortable = 4,
+		describe = "胆小鬼请谨慎观影~",
+		dorm_id = 0,
+		gem_price = 150,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"ghostmovie",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"ghostmovieCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -98683,7 +100317,29 @@ pg.furniture_data_template = {
 		50121,
 		50122,
 		50123,
-		50124
+		50124,
+		52001,
+		52002,
+		52101,
+		52102,
+		52103,
+		52104,
+		52105,
+		52106,
+		52107,
+		52108,
+		52109,
+		52110,
+		52111,
+		52112,
+		52113,
+		52114,
+		52115,
+		52116,
+		52117,
+		52118,
+		52119,
+		52120
 	}
 }
 

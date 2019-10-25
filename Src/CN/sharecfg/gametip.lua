@@ -6838,7 +6838,7 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		key = "vote_rank_in_current_server"
 	},
 	words_auto_battle_label = {
-		tip = "自律战斗提醒",
+		tip = "自律战斗结束时震动提醒",
 		key = "words_auto_battle_label"
 	},
 	words_show_ship_name_label = {
@@ -7033,6 +7033,14 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		tip = "Facebook login cancelled",
 		key = "new_airi_error_code_100220"
 	},
+	new_airi_error_code_100221 = {
+		tip = "フェイスブック連携承認に失敗しました",
+		key = "new_airi_error_code_100221"
+	},
+	new_airi_error_code_100222 = {
+		tip = "ツイッター連携承認に失敗しました",
+		key = "new_airi_error_code_100222"
+	},
 	new_airi_error_code_100230 = {
 		tip = "Initialization failed",
 		key = "new_airi_error_code_100230"
@@ -7124,6 +7132,58 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 	new_airi_error_code_200230 = {
 		tip = "GooglePay / AppStorePay / Molpay cancelled",
 		key = "new_airi_error_code_200230"
+	},
+	new_airi_error_code_200240 = {
+		tip = "请求的类型不支持结算API版本",
+		key = "new_airi_error_code_200240"
+	},
+	new_airi_error_code_200250 = {
+		tip = "提供给API的参数无效",
+		key = "new_airi_error_code_200250"
+	},
+	new_airi_error_code_200260 = {
+		tip = "API操作期间发生致命错误",
+		key = "new_airi_error_code_200260"
+	},
+	new_airi_error_code_200270 = {
+		tip = "当前设备上的Play商店不支持请求的功能",
+		key = "new_airi_error_code_200270"
+	},
+	new_airi_error_code_200280 = {
+		tip = "由于物品已经拥有，未消耗",
+		key = "new_airi_error_code_200280"
+	},
+	new_airi_error_code_200290 = {
+		tip = "由于物品已经拥有，并且消耗失败",
+		key = "new_airi_error_code_200290"
+	},
+	new_airi_error_code_200300 = {
+		tip = "请求的产品无法购买",
+		key = "new_airi_error_code_200300"
+	},
+	new_airi_error_code_200310 = {
+		tip = "Google Play服务无法连接",
+		key = "new_airi_error_code_200310"
+	},
+	new_airi_error_code_200320 = {
+		tip = "在Google Play响应之前，请求已达到最大超时时间",
+		key = "new_airi_error_code_200320"
+	},
+	new_airi_error_code_200330 = {
+		tip = "网络连接已关闭",
+		key = "new_airi_error_code_200330"
+	},
+	new_airi_error_code_200340 = {
+		tip = "用户取消了支付",
+		key = "new_airi_error_code_200340"
+	},
+	new_airi_error_code_200350 = {
+		tip = "查询商品ID失败",
+		key = "new_airi_error_code_200350"
+	},
+	new_airi_error_code_200360 = {
+		tip = "连接Play services失败",
+		key = "new_airi_error_code_200360"
 	},
 	new_airi_error_code_300100 = {
 		tip = "Sharing failed",
@@ -9015,15 +9075,15 @@ $3]],
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
-		tip = "鳗 建造追加！",
+		tip = "{namecode:73} 建造追加！",
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "莲 建造追加！",
+		tip = "斯莫利、{namecode:141} 建造追加！",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "鹩 建造追加！",
+		tip = "{namecode:97} 建造追加！",
 		key = "buildship_special_tip"
 	},
 	open_skill_pos = {
@@ -11573,6 +11633,14 @@ TIPS：
 	text_inconsume = {
 		tip = "不消耗",
 		key = "text_inconsume"
+	},
+	pt_ship_now = {
+		tip = "当前击沉：",
+		key = "pt_ship_now"
+	},
+	pt_ship_goal = {
+		tip = "目标击沉：",
+		key = "pt_ship_goal"
 	}
 }
 

@@ -329,6 +329,16 @@ function slot0.getBuildTipActivityByID(slot0, slot1)
 	return nil
 end
 
+function slot0.getBuildActivityCfgByID(slot0, slot1)
+	for slot6, slot7 in ipairs(slot2) do
+		if not slot7:isEnd() and slot7:getConfig("config_client") and slot8.id == slot1 then
+			return slot8
+		end
+	end
+
+	return nil
+end
+
 function slot0.getBuffList(slot0)
 	_.each(slot2, function (slot0)
 		if slot0 and not slot0:isEnd() then

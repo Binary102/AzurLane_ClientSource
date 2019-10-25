@@ -71,6 +71,7 @@ function slot0.findUI(slot0)
 	slot0.rightContainer = slot0:findTF("Adapt/Right/ViewPort/Container")
 	slot0.headItem = slot0:findTF("HeadItem")
 	slot0.rowHeight = slot0.headItem.rect.height
+	slot0.maxRowHeight = 853.5
 end
 
 function slot0.onBackPressed(slot0)
@@ -298,16 +299,27 @@ function slot0.updateTecItemList(slot0)
 				if slot1.rowHeight < GetComponent(slot0, "LayoutElement").preferredHeight then
 					slot1.rightLSC.enabled = true
 					slot2 = slot1:findTF(slot0, slot1.rightContainer)
-					slot4 = slot1:findTF("ShipContainer", slot2)
+					slot4 = slot1:findTF("ShipScrollView/Viewport/ShipContainer", slot2)
 					GetComponent(slot2, "LayoutElement").preferredHeight = slot1.rowHeight
+					slot1:findTF("ShipScrollView", slot2):GetComponent("ScrollRect").verticalNormalizedPosition = 1
+					slot1:findTF("ShipScrollView", slot2):GetComponent("ScrollRect").enabled = false
+					slot1:findTF("Adapt/Right/Scrollbar"):GetComponent("Scrollbar").interactable = true
 
+					setActive(slot1:findTF("ShipScrollView/Scrollbar", slot2), false)
 					setLocalRotation(slot1:findTF("ClickBtn/ArrowBtn", slot2), {
 						z = 180
 					})
 				else
 					slot1.rightLSC:ScrollTo(slot2)
 
-					GetComponent(slot1:findTF(slot0, slot1.rightContainer), "LayoutElement").preferredHeight = slot1:findTF("ShipContainer", slot1.findTF(slot0, slot1.rightContainer)).rect.height
+					slot3 = slot1:findTF(slot0, slot1.rightContainer)
+					slot4 = slot1:findTF("ClickBtn/ArrowBtn", slot3)
+					GetComponent(slot3, "LayoutElement").preferredHeight = math.min(slot1:findTF("ShipScrollView/Viewport/ShipContainer", slot3).rect.height, slot1.maxRowHeight)
+					slot1:findTF("Adapt/Right/Scrollbar"):GetComponent("Scrollbar").interactable = false
+
+					if #pg.fleet_tech_ship_class[slot3].ships > 15 then
+						slot1:findTF("ShipScrollView", slot3):GetComponent("ScrollRect").enabled = true
+					end
 
 					setLocalRotation(slot4, {
 						z = 0
@@ -320,7 +332,7 @@ function slot0.updateTecItemList(slot0)
 			setActive(slot6, false)
 		end
 
-		slot0:updateShipItemList(slot8, slot0:findTF("ShipContainer", slot1))
+		slot0:updateShipItemList(slot8, slot0:findTF("ShipScrollView/Viewport/ShipContainer", slot1))
 	end
 
 	function slot0.rightLSC.onReturnItem(slot0, slot1)

@@ -476,7 +476,7 @@ function slot0.updateModifyPanel(slot0)
 			return
 		end
 
-		if not nameValidityCheck(slot1, 0, 20, {
+		if slot0.guildVO:getName() ~= slot1 and not nameValidityCheck(slot1, 0, 20, {
 			"spece_illegal_tip",
 			"login_newPlayerScene_name_tooShort",
 			"login_newPlayerScene_name_tooLong",

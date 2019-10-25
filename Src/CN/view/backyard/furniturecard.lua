@@ -45,16 +45,13 @@ function slot0.update(slot0, slot1, slot2)
 		setActive(slot0.maskBought, not (slot1.inTheme() and slot2.level < pg.backyard_theme_template[slot1.getConfig("themeId")].deblocking) and not slot1:canPurchase())
 
 		if not IsNil(slot0.tags) then
-			eachChild(slot0.tags, function (slot0)
-				if go(slot0).name == "tag_new" then
-					setActive(slot0, slot0:getConfig("new") == 1)
-				elseif go(slot0).name == "tag_discount" then
-					setActive(slot0, slot0:isDisCount())
-					setText(findTF(slot0, "Text"), slot0:getConfig("discount") .. "%off")
-				else
-					setActive(slot0, false)
-				end
-			end)
+			setActive(slot0.tags, true)
+			setActive(slot0.tags:Find("tag_new"), slot1:getConfig("new") == 1)
+			setActive(slot0.tags:Find("tag_discount"), slot1:isDisCount())
+
+			if slot1.isDisCount() then
+				setText(findTF(slot11, "Text"), slot1:getConfig("discount") .. "%off")
+			end
 		end
 
 		if slot1:getConfig("count") > 1 then

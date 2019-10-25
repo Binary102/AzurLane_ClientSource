@@ -40,14 +40,17 @@ function slot0.Show(slot0, slot1)
 	slot3 = slot1.targets
 	slot4 = slot1.level
 	slot5 = slot1.count
-	slot7 = pg.item_data_statistics[id2ItemId(slot1.resId)].name
+	slot8 = (slot1.type == 3 and "") or pg.item_data_statistics[id2ItemId(slot1.resId)].name
 
-	if slot1.type == 2 then
-		slot0.cntTitle = i18n("pt_total_count", i18n("pt_cosume", slot7))
-		slot0.resTitle = i18n("pt_count", i18n("pt_cosume", slot7))
+	if slot7 == 2 then
+		slot0.cntTitle = i18n("pt_total_count", i18n("pt_cosume", slot8))
+		slot0.resTitle = i18n("pt_count", i18n("pt_cosume", slot8))
+	elseif slot7 == 3 then
+		slot0.cntTitle = i18n("pt_ship_now")
+		slot0.resTitle = i18n("pt_ship_goal")
 	else
-		slot0.cntTitle = i18n("pt_total_count", slot7)
-		slot0.resTitle = i18n("pt_count", slot7)
+		slot0.cntTitle = i18n("pt_total_count", slot8)
+		slot0.resTitle = i18n("pt_count", slot8)
 	end
 
 	slot0(slot0, slot2, slot3, slot4)

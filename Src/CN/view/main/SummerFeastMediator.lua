@@ -1,4 +1,4 @@
-slot0 = class("SummerFeastMediator", import("..base.ContextMediator"))
+slot0 = class("SummerFeastMediator", import("view.base.ContextMediator"))
 slot0.MINI_GAME_OPERATOR = "SummerFeastMediator:MINI_GAME_OPERATOR"
 
 function slot0.register(slot0)

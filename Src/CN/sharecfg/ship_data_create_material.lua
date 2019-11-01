@@ -70,10 +70,13 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>精锐舰船</color>：12%",
 			"<color=#3dc6ff>稀有舰船</color>：51%",
 			"普通舰船：30%",
-			"<color=#ffde38>可畏</color>：2%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>扎拉</color>：2%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>利托里奥</color>：0.5%",
-			"<color=#d797ff>朱利奥·凯撒</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>加斯科涅(μ兵装)</color>：2%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#ffde38>{namecode:176}</color>：2%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#d797ff>克利夫兰(μ兵装)</color>：2.5%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#d797ff>希佩尔海军上将(μ兵装)</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

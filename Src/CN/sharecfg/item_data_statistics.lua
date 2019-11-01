@@ -6704,6 +6704,116 @@ pg.item_data_statistics = {
 		},
 		index = {}
 	},
+	[30315] = {
+		display = "可以获得一件随机的外观装备",
+		rarity = 4,
+		type = 11,
+		name = "外观装备箱(激奏)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 30315,
+		icon = "Props/appearanceboxouxiang",
+		display_icon = {
+			{
+				9,
+				180,
+				1
+			},
+			{
+				9,
+				181,
+				1
+			},
+			{
+				9,
+				182,
+				1
+			},
+			{
+				9,
+				183,
+				1
+			},
+			{
+				9,
+				184,
+				1
+			},
+			{
+				9,
+				185,
+				1
+			},
+			{
+				9,
+				186,
+				1
+			},
+			{
+				9,
+				187,
+				1
+			},
+			{
+				9,
+				188,
+				1
+			},
+			{
+				9,
+				189,
+				1
+			},
+			{
+				9,
+				190,
+				1
+			},
+			{
+				9,
+				191,
+				1
+			},
+			{
+				9,
+				192,
+				1
+			},
+			{
+				9,
+				193,
+				1
+			},
+			{
+				9,
+				194,
+				1
+			},
+			{
+				9,
+				195,
+				1
+			},
+			{
+				9,
+				196,
+				1
+			},
+			{
+				9,
+				197,
+				1
+			}
+		},
+		price = {
+			1,
+			7000
+		},
+		index = {}
+	},
 	[40001] = {
 		display = "购买礼包可获得大量材料奖励",
 		rarity = 4,
@@ -19150,17 +19260,17 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "不给糖就捣乱~ <color=#92fc63>（提高经验加成5%，持续60分钟）</color>",
+		display = "甜咖喱还是辣咖喱，这是一个问题！ <color=#92fc63>（提高经验加成5%，持续60分钟）</color>",
 		rarity = 2,
 		type = 3,
-		name = "万圣节南瓜",
+		name = "海军咖喱",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		virtual_type = 0,
 		replace_item = 0,
 		link_id = 0,
 		id = 50004,
-		icon = "Props/nangua",
+		icon = "Props/haijungali",
 		display_icon = {},
 		price = {
 			1,
@@ -72263,6 +72373,1369 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[57720] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57720,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10035,
+				1
+			},
+			{
+				2,
+				10016,
+				1
+			},
+			{
+				2,
+				46,
+				1
+			},
+			{
+				2,
+				21,
+				1
+			},
+			{
+				2,
+				1,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57721] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57721,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10073,
+				1
+			},
+			{
+				2,
+				10059,
+				1
+			},
+			{
+				2,
+				10053,
+				1
+			},
+			{
+				2,
+				47,
+				1
+			},
+			{
+				2,
+				36,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57722] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57722,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10082,
+				1
+			},
+			{
+				2,
+				10080,
+				1
+			},
+			{
+				2,
+				10078,
+				1
+			},
+			{
+				2,
+				10077,
+				1
+			},
+			{
+				2,
+				32,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57723] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57723,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10093,
+				1
+			},
+			{
+				2,
+				10092,
+				1
+			},
+			{
+				2,
+				10053,
+				1
+			},
+			{
+				2,
+				10026,
+				1
+			},
+			{
+				2,
+				10024,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57724] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57724,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				11039,
+				1
+			},
+			{
+				2,
+				10103,
+				1
+			},
+			{
+				2,
+				10101,
+				1
+			},
+			{
+				2,
+				10027,
+				1
+			},
+			{
+				2,
+				10024,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57725] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57725,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				11039,
+				1
+			},
+			{
+				2,
+				10103,
+				1
+			},
+			{
+				2,
+				10101,
+				1
+			},
+			{
+				2,
+				10027,
+				1
+			},
+			{
+				2,
+				10024,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57726] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57726,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10035,
+				1
+			},
+			{
+				2,
+				10016,
+				1
+			},
+			{
+				2,
+				46,
+				1
+			},
+			{
+				2,
+				21,
+				1
+			},
+			{
+				2,
+				1,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57727] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57727,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10073,
+				1
+			},
+			{
+				2,
+				10059,
+				1
+			},
+			{
+				2,
+				10053,
+				1
+			},
+			{
+				2,
+				47,
+				1
+			},
+			{
+				2,
+				36,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57728] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57728,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10082,
+				1
+			},
+			{
+				2,
+				10080,
+				1
+			},
+			{
+				2,
+				10078,
+				1
+			},
+			{
+				2,
+				10077,
+				1
+			},
+			{
+				2,
+				32,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57729] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57729,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10093,
+				1
+			},
+			{
+				2,
+				10092,
+				1
+			},
+			{
+				2,
+				10053,
+				1
+			},
+			{
+				2,
+				10026,
+				1
+			},
+			{
+				2,
+				10024,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57730] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57730,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10103,
+				1
+			},
+			{
+				2,
+				10101,
+				1
+			},
+			{
+				2,
+				10027,
+				1
+			},
+			{
+				2,
+				10024,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57731] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57731,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10103,
+				1
+			},
+			{
+				2,
+				10101,
+				1
+			},
+			{
+				2,
+				10027,
+				1
+			},
+			{
+				2,
+				10024,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57732] = {
+		display = "当前关卡有几率获得以下角色",
+		rarity = 1,
+		type = 99,
+		name = "未知角色",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57732,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				201211,
+				1
+			},
+			{
+				4,
+				101171,
+				1
+			},
+			{
+				4,
+				102071,
+				1
+			},
+			{
+				4,
+				102061,
+				1
+			},
+			{
+				4,
+				101121,
+				1
+			},
+			{
+				4,
+				101091,
+				1
+			},
+			{
+				4,
+				101051,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				106021,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101041,
+				1
+			},
+			{
+				4,
+				101031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57733] = {
+		display = "当前关卡有几率获得以下角色",
+		rarity = 1,
+		type = 99,
+		name = "未知角色",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57733,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				401231,
+				1
+			},
+			{
+				4,
+				201141,
+				1
+			},
+			{
+				4,
+				202031,
+				1
+			},
+			{
+				4,
+				202021,
+				1
+			},
+			{
+				4,
+				301171,
+				1
+			},
+			{
+				4,
+				301131,
+				1
+			},
+			{
+				4,
+				201121,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				302091,
+				1
+			},
+			{
+				4,
+				301181,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57734] = {
+		display = "当前关卡有几率获得以下角色",
+		rarity = 1,
+		type = 99,
+		name = "未知角色",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57734,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				401011,
+				1
+			},
+			{
+				4,
+				103071,
+				1
+			},
+			{
+				4,
+				303081,
+				1
+			},
+			{
+				4,
+				303071,
+				1
+			},
+			{
+				4,
+				203031,
+				1
+			},
+			{
+				4,
+				203021,
+				1
+			},
+			{
+				4,
+				103061,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				302091,
+				1
+			},
+			{
+				4,
+				301181,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57735] = {
+		display = "当前关卡有几率获得以下角色",
+		rarity = 1,
+		type = 99,
+		name = "未知角色",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57735,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				301151,
+				1
+			},
+			{
+				4,
+				101111,
+				1
+			},
+			{
+				4,
+				103031,
+				1
+			},
+			{
+				4,
+				102041,
+				1
+			},
+			{
+				4,
+				102031,
+				1
+			},
+			{
+				4,
+				101251,
+				1
+			},
+			{
+				4,
+				101241,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				106021,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101041,
+				1
+			},
+			{
+				4,
+				101031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57736] = {
+		display = "当前关卡有几率获得以下角色",
+		rarity = 1,
+		type = 99,
+		name = "未知角色",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57736,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				205031,
+				1
+			},
+			{
+				4,
+				105041,
+				1
+			},
+			{
+				4,
+				305021,
+				1
+			},
+			{
+				4,
+				305011,
+				1
+			},
+			{
+				4,
+				204021,
+				1
+			},
+			{
+				4,
+				203051,
+				1
+			},
+			{
+				4,
+				203041,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				302091,
+				1
+			},
+			{
+				4,
+				301181,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57737] = {
+		display = "当前关卡有几率获得以下角色",
+		rarity = 1,
+		type = 99,
+		name = "未知角色",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57737,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				205031,
+				1
+			},
+			{
+				4,
+				105041,
+				1
+			},
+			{
+				4,
+				305021,
+				1
+			},
+			{
+				4,
+				305011,
+				1
+			},
+			{
+				4,
+				204021,
+				1
+			},
+			{
+				4,
+				203051,
+				1
+			},
+			{
+				4,
+				203041,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				302091,
+				1
+			},
+			{
+				4,
+				301181,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57738] = {
+		display = "有几率获得外观装备箱，获得以下装备外观之一",
+		rarity = 4,
+		type = 99,
+		name = "偶像活动外观装备箱",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57738,
+		icon = "Props/appearanceboxouxiang",
+		display_icon = {
+			{
+				9,
+				180,
+				1
+			},
+			{
+				9,
+				181,
+				1
+			},
+			{
+				9,
+				182,
+				1
+			},
+			{
+				9,
+				183,
+				1
+			},
+			{
+				9,
+				184,
+				1
+			},
+			{
+				9,
+				185,
+				1
+			},
+			{
+				9,
+				186,
+				1
+			},
+			{
+				9,
+				187,
+				1
+			},
+			{
+				9,
+				188,
+				1
+			},
+			{
+				9,
+				189,
+				1
+			},
+			{
+				9,
+				190,
+				1
+			},
+			{
+				9,
+				191,
+				1
+			},
+			{
+				9,
+				192,
+				1
+			},
+			{
+				9,
+				193,
+				1
+			},
+			{
+				9,
+				194,
+				1
+			},
+			{
+				9,
+				195,
+				1
+			},
+			{
+				9,
+				196,
+				1
+			},
+			{
+				9,
+				197,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[59000] = {
 		display = "参与角色将获得经验值",
 		rarity = 2,
@@ -73043,6 +74516,22 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 59142,
 		icon = "Props/special_ticket",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59143] = {
+		display = "用于『激奏的Polaris』活动兑换，活动结束后将会消失",
+		rarity = 2,
+		type = 98,
+		name = "激奏徽章",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59143,
+		icon = "Props/music_pt",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -74911,6 +76400,38 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59784] = {
+		display = "收集7次后，可以得到限定角色「谢菲尔德(μ兵装)」",
+		rarity = 2,
+		type = 0,
+		name = "演奏力",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59784,
+		icon = "props/music_stage",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59785] = {
+		display = "可以看到更多的JUUs新动态",
+		rarity = 3,
+		type = 0,
+		name = "JUUs动态",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 10,
+		replace_item = 0,
+		link_id = 0,
+		id = 59785,
+		icon = "Props/juus",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59801] = {
 		display = "拼图A-1",
 		rarity = 2,
@@ -76490,6 +78011,246 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[70024] = {
+		display = "可用于解锁「海报·加斯科涅」",
+		rarity = 4,
+		type = 0,
+		name = "海报·加斯科涅",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 413,
+		id = 70024,
+		icon = "Props/music_jiasikenie",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70025] = {
+		display = "可用于解锁「贴纸·加斯科涅」",
+		rarity = 4,
+		type = 0,
+		name = "贴纸·加斯科涅",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 413,
+		id = 70025,
+		icon = "Props/music_jiasikenie",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70026] = {
+		display = "可用于解锁「徽章·加斯科涅」",
+		rarity = 4,
+		type = 0,
+		name = "徽章·加斯科涅",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 413,
+		id = 70026,
+		icon = "Props/music_jiasikenie",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70027] = {
+		display = "可用于解锁「海报·克利夫兰」",
+		rarity = 4,
+		type = 0,
+		name = "海报·克利夫兰",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 413,
+		id = 70027,
+		icon = "Props/music_kelifulan",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70028] = {
+		display = "可用于解锁「贴纸·克利夫兰」",
+		rarity = 4,
+		type = 0,
+		name = "贴纸·克利夫兰",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 413,
+		id = 70028,
+		icon = "Props/music_kelifulan",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70029] = {
+		display = "可用于解锁「徽章·克利夫兰」",
+		rarity = 4,
+		type = 0,
+		name = "徽章·克利夫兰",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 413,
+		id = 70029,
+		icon = "Props/music_kelifulan",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70030] = {
+		display = "可用于解锁「海报·谢菲尔德」",
+		rarity = 4,
+		type = 0,
+		name = "海报·谢菲尔德",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 413,
+		id = 70030,
+		icon = "Props/music_xiefei",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70031] = {
+		display = "可用于解锁「贴纸·谢菲尔德」",
+		rarity = 4,
+		type = 0,
+		name = "贴纸·谢菲尔德",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 413,
+		id = 70031,
+		icon = "Props/music_xiefei",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70032] = {
+		display = "可用于解锁「徽章·谢菲尔德」",
+		rarity = 4,
+		type = 0,
+		name = "徽章·谢菲尔德",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 413,
+		id = 70032,
+		icon = "Props/music_xiefei",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70033] = {
+		display = "可用于解锁「海报·希佩尔」",
+		rarity = 4,
+		type = 0,
+		name = "海报·希佩尔",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 413,
+		id = 70033,
+		icon = "Props/music_xipeier",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70034] = {
+		display = "可用于解锁「贴纸·希佩尔」",
+		rarity = 4,
+		type = 0,
+		name = "贴纸·希佩尔",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 413,
+		id = 70034,
+		icon = "Props/music_xipeier",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70035] = {
+		display = "可用于解锁「徽章·希佩尔」",
+		rarity = 4,
+		type = 0,
+		name = "徽章·希佩尔",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 413,
+		id = 70035,
+		icon = "Props/music_xipeier",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70036] = {
+		display = "可用于解锁「海报·{namecode:91}」",
+		rarity = 4,
+		type = 0,
+		name = "海报·{namecode:91}",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 413,
+		id = 70036,
+		icon = "Props/music_chicheng",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70037] = {
+		display = "可用于解锁「贴纸·{namecode:91}」",
+		rarity = 4,
+		type = 0,
+		name = "贴纸·{namecode:91}",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 413,
+		id = 70037,
+		icon = "Props/music_chicheng",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70038] = {
+		display = "可用于解锁「徽章·{namecode:91}」",
+		rarity = 4,
+		type = 0,
+		name = "徽章·{namecode:91}",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 413,
+		id = 70038,
+		icon = "Props/music_chicheng",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	all = {
 		1,
 		2,
@@ -76830,6 +78591,7 @@ pg.item_data_statistics = {
 		30312,
 		30313,
 		30314,
+		30315,
 		40001,
 		40002,
 		40003,
@@ -78126,6 +79888,25 @@ pg.item_data_statistics = {
 		57716,
 		57717,
 		57718,
+		57720,
+		57721,
+		57722,
+		57723,
+		57724,
+		57725,
+		57726,
+		57727,
+		57728,
+		57729,
+		57730,
+		57731,
+		57732,
+		57733,
+		57734,
+		57735,
+		57736,
+		57737,
+		57738,
 		59000,
 		59001,
 		59002,
@@ -78175,6 +79956,7 @@ pg.item_data_statistics = {
 		59140,
 		59141,
 		59142,
+		59143,
 		59601,
 		59602,
 		59603,
@@ -78287,6 +80069,8 @@ pg.item_data_statistics = {
 		59781,
 		59782,
 		59783,
+		59784,
+		59785,
 		59801,
 		59802,
 		59803,
@@ -78378,7 +80162,22 @@ pg.item_data_statistics = {
 		70020,
 		70021,
 		70022,
-		70023
+		70023,
+		70024,
+		70025,
+		70026,
+		70027,
+		70028,
+		70029,
+		70030,
+		70031,
+		70032,
+		70033,
+		70034,
+		70035,
+		70036,
+		70037,
+		70038
 	}
 }
 

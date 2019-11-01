@@ -33,7 +33,11 @@ function slot0.setPlayer(slot0, slot1)
 	slot0.playerVO = slot1
 	slot0.skinTicket = slot0.playerVO:getSkinTicket()
 
-	slot0._resPanel:setResources(slot1)
+	slot0._resPanel:setResources(slot1, {
+		false,
+		false,
+		true
+	})
 end
 
 function slot0.filterSkins(slot0)
@@ -48,6 +52,7 @@ function slot0.init(slot0)
 	slot0.leftPanel = slot0:findTF("noadapt/left_panel")
 	slot0.title = slot0:findTF("title", slot0.topTF)
 	slot0.titleEn = slot0:findTF("title_en", slot0.topTF)
+	slot0.live2dFilter = slot0.topTF:Find("live2d")
 	slot0.mainPanel = slot0:findTF("noadapt/main_panel")
 	slot0.namePanel = slot0:findTF("name_bg", slot0.mainPanel)
 	slot0.nameTxt = slot0:findTF("name_bg/name", slot0.mainPanel):GetComponent(typeof(Text))
@@ -70,6 +75,7 @@ function slot0.init(slot0)
 	slot0.timelimtPanel = slot0:findTF("timelimt", slot0.rightPanel)
 	slot0.timelimitBtn = slot0:findTF("timelimit_btn", slot0.timelimtPanel)
 	slot0.timelimitPriceTxt = slot0:findTF("consume/Text", slot0.timelimtPanel):GetComponent(typeof(Text))
+	slot0.bgRoot = slot0:findTF("bg")
 	slot0.bg1 = slot0:findTF("bg/bg_1")
 	slot0.bg2 = slot0:findTF("bg/bg_2")
 	slot0.bgType = false
@@ -103,6 +109,49 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.bottomTF:Find("bg/left_arr"), function ()
 		slot0:onPrev()
 	end, SFX_PANEL)
+
+	slot0.isShowLive2dOnly = false
+
+	onButton(slot0, slot0.live2dFilter, function ()
+		if #slot0.displays == 0 or not _.any(slot0.displays, function (slot0)
+			return slot0:isLive2DSkin(slot0:getSkinId())
+		end) then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("skinshop_live2d_fliter_failed"))
+
+			return
+		end
+
+		if slot0.card then
+			slot0 = slot0:isLive2DSkin(slot0.card.shipSkinConfig.id)
+		end
+
+		slot0:UpdateLive2dBtn(not slot0.isShowLive2dOnly)
+		slot0:updateShipRect()
+
+		if not slot0 then
+			slot0:UpdateSelected()
+		end
+	end, SFX_PANEL)
+end
+
+function slot0.UpdateLive2dBtn(slot0, slot1)
+	slot0.isShowLive2dOnly = slot1
+
+	setActive(slot0.live2dFilter:Find("selected"), slot0.isShowLive2dOnly)
+end
+
+function slot0.UpdateSelected(slot0)
+	if slot0.isShowLive2dOnly then
+		slot1 = slot0.displays[1]
+
+		for slot5, slot6 in pairs(slot0.cards) do
+			if slot6.goodsVO.id == slot1.id then
+				triggerButton(slot6._tf)
+
+				break
+			end
+		end
+	end
 end
 
 function slot0.initSkinPage(slot0)
@@ -159,7 +208,8 @@ function slot0.initSkinPage(slot0)
 	end
 
 	function slot7()
-		slot0[go](tonumber(go(slot0[go]).name))
+		slot0:UpdateLive2dBtn(false)
+		slot1(tonumber(go(slot1[]).name))
 	end
 
 	slot8 = slot1.parent:Find("0")
@@ -261,25 +311,7 @@ function slot0.updateMainView(slot0, slot1)
 
 		setActive(slot0, slot2)
 	end)
-
-	slot8 = Ship.New({
-		configId = slot3.id,
-		skin_id = slot2.id
-	})
-
-	if slot8:getShipBgPrint() ~= slot8:rarity2bgPrintForGet() then
-		GetSpriteFromAtlasAsync("bg/star_level_bg_" .. slot9, "", function (slot0)
-			if not slot0.exited then
-				setImageSprite(slot0:GetCurBgTransform(), slot0)
-				slot0:AnimBg()
-			end
-		end)
-	else
-		setImageSprite(slot0:GetCurBgTransform(), slot0.defaultBg)
-		slot0:AnimBg()
-	end
-
-	slot0:setBg(slot3, slot2, slot6)
+	slot0:setBg(slot3, slot2, PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot5 .. "_n")))
 	slot0:updatePrice(slot1.goodsVO)
 	slot0:removeShopTimer()
 	slot0:addShopTimer(slot1)
@@ -297,11 +329,10 @@ function slot0.setBg(slot0, slot1, slot2, slot3)
 	end
 
 	if slot5 ~= slot4:rarity2bgPrintForGet() then
-		GetSpriteFromAtlasAsync("bg/star_level_bg_" .. slot5, "", function (slot0)
-			if not slot0.exited then
-				setImageSprite(slot0:GetCurBgTransform(), slot0)
-				slot0:AnimBg()
-			end
+		pg.DynamicBgMgr.GetInstance():LoadBg(slot0, slot5, slot0.bgRoot, slot0:GetCurBgTransform(), function (slot0)
+			return
+		end, function (slot0)
+			slot0:AnimBg()
 		end)
 	else
 		setImageSprite(slot0:GetCurBgTransform(), slot0.defaultBg)
@@ -327,6 +358,9 @@ function slot0.AnimBg(slot0)
 		slot2 = slot0.bg2
 	end
 
+	LeanTween.cancel(go(slot0.bg2))
+	LeanTween.cancel(go(slot0.bg1))
+	setActive(slot1, true)
 	slot1:SetAsLastSibling()
 	LeanTween.alpha(slot1, 1, 0.8):setFrom(0):setOnComplete(System.Action(function ()
 		setImageAlpha(setImageAlpha, 1)
@@ -714,19 +748,27 @@ function slot0.onPrev(slot0)
 	end
 end
 
+function slot0.isLive2DSkin(slot0, slot1)
+	return table.contains(pg.ship_skin_template[slot1].tag, 1)
+end
+
 function slot0.updateShipRect(slot0, slot1)
 	slot0.card = nil
 
 	if slot0.contextData.pageId and slot0.shipRect then
 		slot0.displays = {}
 
-		for slot5, slot6 in ipairs(slot0.skinGoodsVOs) do
-			slot9 = (slot0[slot6:getSkinId()].shop_type_id == 0 and 9999) or slot8
-			slot10 = slot6:getConfig("genre") == ShopArgs.SkinShopTimeLimit
-
-			if (slot0.contextData.pageId == slot1.PAGE_TIME_LIMIT and slot10) or (not slot10 and (slot0.contextData.pageId == slot1.PAGE_ALL or slot9 == slot0.contextData.pageId)) then
-				table.insert(slot0.displays, slot6)
+		function slot2(slot0)
+			if slot0.isShowLive2dOnly and not slot0:isLive2DSkin(slot0) then
+				return false
+			else
+				return true
 			end
+		end
+
+		for slot6, slot7 in ipairs(slot0.skinGoodsVOs) do
+			slot10 = (slot0[slot7:getSkinId()].shop_type_id == 0 and 9999) or slot9
+			slot11 = slot7:getConfig("genre") == ShopArgs.SkinShopTimeLimit
 		end
 
 		table.sort(slot0.displays, function (slot0, slot1)

@@ -1537,6 +1537,35 @@ pg.map_data = {
 			r = 0.03
 		}
 	},
+	[50039] = {
+		long_speed = 0.5,
+		long_pos = "-14.5, -58.6, 204.0",
+		close_pos = "140.7, -22.8, 134.4;-14.6, -22.0, 134.4;88.0, -22.0, 134.4;40.3, -23.6, 134.4",
+		long_scale = "5.0, 5.0, 5.0",
+		sky_pos = "-30.3, -80.8, 260.5;-46.0, -34.1, 164.4",
+		map_id = 50039,
+		sea_shot = "sea_ouxiang;gelidai",
+		close_scale = "6.0, 6.0, 6.0;6.0, 6.0, 6.0;6.0, 6.0, 6.0;6.0, 6.0, 6.0",
+		sea_pos = "-43.0, -1.0, 52.8;-27.1, -5.6, 54.0",
+		sea_scale = "22.5, 1.0, 12.2;9.4, 23.9, 28.4",
+		range_left = -200,
+		range_right = 244.6,
+		sky_scale = "12.6, 9.1, 1.2;-1120.0, 3.7, 0.9",
+		mid_scale = "6.0, 6.0, 6.0;6.0, 6.0, 6.0;6.0, 6.0, 6.0;6.0, 6.0, 6.0",
+		close_shot = "ouxiang_jinjing02;ouxiang_jinjing01;ouxiang_jinjing01;ouxiang_jinjing02",
+		long_shot = "ouxiang_yuanjing01",
+		sky_shot = "sky_ouxiang;wuqiyinghuaeasy",
+		mid_pos = "41.1, -29.5, 154.0;-41.1, -30.2, 154.0;104.6, -29.5, 154.0;156.0, -30.2, 154.0",
+		mid_shot = "ouxiang_zhongjing01;ouxiang_zhongjing02;ouxiang_zhongjing01;ouxiang_zhongjing02",
+		mid_speed = 2.34,
+		close_speed = 4.29,
+		diving_filter = {
+			g = 0.03,
+			a = 0.35,
+			b = 0.23,
+			r = 0.03
+		}
+	},
 	[90000] = {
 		long_speed = 1,
 		long_pos = "4.3, -57.6, 204.0;32.9, -57.7, 204.0;52.6, -57.6, 204.0;90.8, -57.7, 204.0;123.6, -57.6, 204.0;169.9, -57.7, 204.0;-69.0, -57.7, 204.0;-37.7, -57.6, 204.0;-7.5, -57.7, 204.0",
@@ -1765,6 +1794,7 @@ pg.map_data = {
 		50036,
 		50037,
 		50038,
+		50039,
 		90000,
 		90001,
 		90002,

@@ -195,6 +195,9 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot3 == SCENE.SUMMER_FEAST then
 			slot4.mediator = SummerFeastMediator
 			slot4.viewComponent = SummerFeastScene
+		elseif slot3 == SCENE.MUSIC_FESTIVAL then
+			slot4.mediator = MusicFestivalMediator
+			slot4.viewComponent = MusicFestivalScene
 		elseif slot3 == SCENE.TECHNOLOGY_TREE_SCENE then
 			slot4.mediator = TechnologyTreeMediator
 			slot4.viewComponent = TechnologyTreeScene

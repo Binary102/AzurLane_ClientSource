@@ -1694,7 +1694,7 @@ pg.gametip = {
 		key = "exercise_rule_tip"
 	},
 	exercise_award_tip = {
-		tip = "   当赛季第一次达到对应段位时，将会发放对应奖励，奖励对应如下：",
+		tip = "   当赛季第一次达到对应段位时，将会发放对应奖励，奖励及到达段位所需条件对应如下：",
 		key = "exercise_award_tip"
 	},
 	dock_yard_left_tips = {
@@ -7874,7 +7874,7 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		}
 	},
 	shop_street_activity_tip = {
-		tip = "*活动期间(<color=#A1E400FF>19.9.11-19.9.25</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>",
+		tip = "*活动期间(<color=#A1E400FF>19.10.31-19.11.13</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>",
 		key = "shop_street_activity_tip"
 	},
 	battle_result_boss_destruct = {
@@ -8513,6 +8513,18 @@ $3]],
 			{
 				icon = {
 					path = "",
+					atlas = "helpbg/battle_fc_1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/battle_fc_2"
+				}
+			},
+			{
+				icon = {
+					path = "",
 					atlas = "helpbg/level_ui_help_1"
 				}
 			},
@@ -9071,7 +9083,7 @@ $3]],
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "可畏、扎拉、朱利奥·凯撒出现概率UP！",
+		tip = "加斯科涅(μ兵装)、{namecode:176}等角色出现概率UP！",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -11641,6 +11653,150 @@ TIPS：
 	pt_ship_goal = {
 		tip = "目标击沉：",
 		key = "pt_ship_goal"
+	},
+	music_collection = {
+		key = "music_collection",
+		tip = {
+			{
+				info = "活动说明："
+			},
+			{
+				info = "1.活动期间，参与活动收集「周边」，收集全部<color=#92fc63>15</color>个周边\n后可获得限定家具「激奏纪念章」"
+			},
+			{
+				info = "2.参与以下内容可以收集「周边」：\n   通过活动关卡、完成活动任务、累积激奏徽章"
+			},
+			{
+				info = "3.通过一次高难关后重返SP1—SP5，收集全新的周边吧！"
+			}
+		}
+	},
+	music_main = {
+		key = "music_main",
+		tip = {
+			{
+				info = "<color=#92fc63>10.31-11.14</color>期间开启限时活动「激奏的Polaris」"
+			},
+			{
+				info = "1.通过特别作战获取「激奏徽章」，在「徽章收集」和\n「补给商店」处兑换丰厚奖励"
+			},
+			{
+				info = "2.完成「特型偶像」的七日任务，获取「桐」限定换装"
+			},
+			{
+				info = [[
+3.在「激奏舞台」完成音乐小游戏，获取B评价以上时
+可以提高「演奏力」，收集<color=#92fc63>7</color>次「演奏力」可以获得限
+定角色「谢菲尔德(μ兵装)」
+<color=#92fc63>注意：</color>每日可获得一次机会，可累计，未达到B评价以上
+时不会消耗次数，次数用尽后仍然可以进行音乐小游戏]]
+			},
+			{
+				info = [[
+4.在活动中收集全部<color=#92fc63>15</color>个「周边」道具后，可在「纪念
+章」处获取「激奏纪念章」
+  详细获取条件可在「纪念章」界面查看
+5.每隔一段时间「Polaris」角色会在「JUUs」中发布
+新的动态，通过「徽章收集」获取「JUUs动态」，拥有
+的「JUUs动态」越多可以查看的动态越多
+  详细说明可在「JUUs」界面查看
+6.点击「限时建造」可以前往建造界面
+7.点击「换装商店」可以前往换装商店界面]]
+			}
+		}
+	},
+	music_juus = {
+		key = "music_juus",
+		tip = {
+			{
+				info = "「JUUs」说明："
+			},
+			{
+				info = "1.活动期间，每隔一段时间「Polaris」角色会发布新的\n动态，通过「徽章收集」获取「JUUs动态」来查看"
+			},
+			{
+				info = "2.拥有的「JUUs动态」越多，可以查看的动态就越多"
+			},
+			{
+				info = "3.「JUUs」可能还会出现其他角色的互动，不要忘记\n查看哦"
+			},
+			{
+				info = [[
+4.主界面、Live会场以及「徽章收集」界面均可以进入
+「JUUs」
+5.当有新的信息可以查看时，「JUUs」入口处会有提示
+6.您可以通过点赞、转发、评论操作参与互动
+<color=#92fc63>注意：</color>点赞后不可取消点赞，进行评论后经过一段时间
+可以收到回复
+7.「徽章收集」界面会统计「Polaris」角色的热度值，
+在「JUUs」中进行点赞操作来增加她们的热度值吧！]]
+			}
+		}
+	},
+	ins_word_day = {
+		tip = "$1天前",
+		key = "ins_word_day"
+	},
+	ins_word_hour = {
+		tip = "$1小时前",
+		key = "ins_word_hour"
+	},
+	ins_word_minu = {
+		tip = "$1分钟前",
+		key = "ins_word_minu"
+	},
+	ins_word_like = {
+		tip = "$1 次赞",
+		key = "ins_word_like"
+	},
+	ins_click_like_success = {
+		tip = "点赞成功",
+		key = "ins_click_like_success"
+	},
+	ins_push_comment_success = {
+		tip = "评论成功",
+		key = "ins_push_comment_success"
+	},
+	skinshop_live2d_fliter_failed = {
+		tip = "当前没有匹配换装可筛选",
+		key = "skinshop_live2d_fliter_failed"
+	},
+	help_music_game = {
+		key = "help_music_game",
+		tip = {
+			{
+				info = [[
+<size=31><color=#92fc63>TIPS：
+没有演奏次数也可以进行游戏，但无法提升演奏力</color></size>
+
+1.点击开始演奏，在5秒的倒计时后开始游戏，完成<color=#92fc63>B</color>以
+上评价即可累计演奏力
+2.当音符到达谱面最中间时，按下对应按键进行演奏
+3.简单模式：
+3.1.所有音符单击屏幕即可演奏
+3.2.无论点击左右半屏均可进行演奏
+4.困难模式：
+4.1.屏幕左右半屏分边对应左侧(红色)、右侧(蓝色)音符
+4.2.音符后跟随的白色长条代表需要长按直至长条结束
+4.3.黄色音符需要两侧同时点击
+5.在歌曲选择界面，可以调整音符的平移速度，1x为最
+慢，4x为最快
+6.根据演奏时机，会有不同的评价，perfect获得<color=#92fc63>600</color>分，
+good获得<color=#92fc63>300</color>分，miss不得分
+7.perfect和good为有效演奏，均可累计combo，累计
+combo达到10/20/40/60/80/100时，分别为每次有效
+演奏额外附加<color=#92fc63>100</color>分
+8.FullCombo额外获得<color=#92fc63>5000</color>分]]
+			}
+		}
+	},
+	restart_music_game = {
+		tip = "重新开始将失去已经获得的分数，是否确认？",
+		key = "restart_music_game"
+	},
+	reselect_music_game = {
+		tip = "返回选歌将失去已经获得的分数，是否确认？",
+		key = "reselect_music_game"
 	}
 }
 

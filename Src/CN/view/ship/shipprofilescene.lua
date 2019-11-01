@@ -104,6 +104,7 @@ end
 function slot0.init(slot0)
 	slot0.maskTxts = {}
 	slot0.bg = slot0:findTF("bg")
+	slot0.staticBg = slot0.bg:Find("static_bg")
 	slot0.painting = slot0:findTF("paint")
 	slot0.paintingInitPos = slot0.painting.transform.localPosition
 	slot0.chat = slot0:findTF("chat", slot0.painting)
@@ -830,39 +831,48 @@ function slot0.loadSkinBg(slot0, slot1)
 
 	if slot0.shipSkinBg ~= slot1 then
 		slot0.shipSkinBg = slot1
+		slot2 = "bg/star_level_bg_" .. slot1
+		slot3 = "ui/star_level_bg_" .. slot1
 
-		GetSpriteFromAtlasAsync("bg/star_level_bg_" .. slot1, "", function (slot0)
-			if not slot0.exited and slot0.shipSkinBg ==  then
-				setImageSprite(slot0.bg, slot0)
+		pg.DynamicBgMgr.GetInstance():LoadBg(slot0, slot1, slot0.bg, slot0.staticBg, function (slot0)
+			rtf(slot0).localPosition = Vector3(0, 0, 200)
+		end, function (slot0)
+			if slot0.bluePintBg and slot1 == slot0.bluePintBg then
+				if slot0.designBg and slot0.designName ~= "raritydesign" .. slot0.shipGroup:getRarity(slot0.showTrans) then
+					PoolMgr.GetInstance():ReturnUI(slot0.designName, slot0.designBg)
+
+					slot0.designBg = nil
+				end
+
+				if not slot0.designBg then
+					PoolMgr.GetInstance():GetUI("raritydesign" .. slot0.shipGroup:getRarity(slot0.showTrans), true, function (slot0)
+						slot0.designBg = slot0
+						slot0.designName = "raritydesign" .. slot0.shipGroup:getRarity(slot0.showTrans)
+
+						slot0.transform:SetParent(slot0.staticBg, false)
+
+						slot0.transform.localPosition = Vector3(1, 1, 1)
+						slot0.transform.localScale = Vector3(1, 1, 1)
+
+						slot0.transform:SetSiblingIndex(1)
+						setActive(slot0, true)
+					end)
+				else
+					setActive(slot0.designBg, true)
+				end
+			elseif slot0.designBg then
+				setActive(slot0.designBg, false)
 			end
 		end)
+	end
+end
 
-		if slot0.bluePintBg and slot1 == slot0.bluePintBg then
-			if slot0.designBg and slot0.designName ~= "raritydesign" .. slot0.shipGroup:getRarity(slot0.showTrans) then
-				PoolMgr.GetInstance():ReturnUI(slot0.designName, slot0.designBg)
+function slot0.ClearDyBg(slot0)
+	if slot0.dyBg ~= nil then
+		slot0.dyBg:GetComponent(typeof(CriManaEffectUI)):Pause(true)
+		PoolMgr.GetInstance():ReturnPrefab(slot0.dSourcePath, "", slot0.dyBg)
 
-				slot0.designBg = nil
-			end
-
-			if not slot0.designBg then
-				PoolMgr.GetInstance():GetUI("raritydesign" .. slot0.shipGroup:getRarity(slot0.showTrans), true, function (slot0)
-					slot0.designBg = slot0
-					slot0.designName = "raritydesign" .. slot0.shipGroup:getRarity(slot0.showTrans)
-
-					slot0.transform:SetParent(slot0.bg, false)
-
-					slot0.transform.localPosition = Vector3(1, 1, 1)
-					slot0.transform.localScale = Vector3(1, 1, 1)
-
-					slot0.transform:SetSiblingIndex(1)
-					setActive(slot0, true)
-				end)
-			else
-				setActive(slot0.designBg, true)
-			end
-		elseif slot0.designBg then
-			setActive(slot0.designBg, false)
-		end
+		slot0.dyBg = nil
 	end
 end
 
@@ -1376,6 +1386,8 @@ function slot0.willExit(slot0)
 	end
 
 	slot0.skinTimers = nil
+
+	slot0:ClearDyBg()
 
 	return
 end

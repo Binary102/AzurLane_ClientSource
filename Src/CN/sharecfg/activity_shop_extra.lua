@@ -1051,7 +1051,7 @@ pg.activity_shop_extra = {
 		commodity_id = 101271,
 		scene = "",
 		id = 36,
-		order = 4,
+		order = 6,
 		time = {
 			{
 				{
@@ -1087,7 +1087,7 @@ pg.activity_shop_extra = {
 		commodity_id = 102162,
 		scene = "",
 		id = 37,
-		order = 4,
+		order = 6,
 		time = {
 			{
 				{
@@ -1106,6 +1106,78 @@ pg.activity_shop_extra = {
 					2019,
 					11,
 					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[38] = {
+		num_limit = 1,
+		activity = 409,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 201216,
+		scene = "",
+		id = 38,
+		order = 3,
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[39] = {
+		num_limit = 1,
+		activity = 416,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 301014,
+		scene = "",
+		id = 39,
+		order = 3,
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					14
 				},
 				{
 					23,
@@ -1150,7 +1222,9 @@ pg.activity_shop_extra = {
 		34,
 		35,
 		36,
-		37
+		37,
+		38,
+		39
 	}
 }
 

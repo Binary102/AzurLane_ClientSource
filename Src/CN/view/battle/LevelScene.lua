@@ -2255,10 +2255,6 @@ function slot0.switchToMap(slot0)
 
 		return
 	end):setOnComplete(System.Action(function ()
-		if not slot0.contextData.chapterVO and slot0.levelStageView then
-			slot0.levelStageView:Destroy()
-		end
-
 		slot0:unfrozen()
 
 		return
@@ -2283,7 +2279,13 @@ function slot0.switchToMap(slot0)
 	shiftPanel(slot0.leftChapter, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 	shiftPanel(slot0.rightChapter, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 	shiftPanel(slot0.topChapter, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
-	slot0.levelStageView:ShiftStagePanelOut()
+	slot0.levelStageView:ShiftStagePanelOut(function ()
+		if not slot0.contextData.chapterVO and slot0.levelStageView then
+			slot0.levelStageView:Destroy()
+		end
+
+		return
+	end)
 
 	if slot0.contextData.map:getConfig("bg") and #slot7 > 0 then
 		slot0.currentBG = slot7
@@ -3748,11 +3750,10 @@ function slot0.willExit(slot0)
 	slot0:destroyTracking()
 	slot0:destroyCloudAnimator()
 	slot0:destroyUIAnims()
-	PoolMgr.GetInstance():DestroyPrefab("chapter/cell_quad", "cell_quad")
-	PoolMgr.GetInstance():DestroyPrefab("chapter/cell", "cell")
 	PoolMgr.GetInstance():DestroyPrefab("chapter/cell_quad_mark", "")
 	PoolMgr.GetInstance():DestroyPrefab("chapter/cell_quad", "")
 	PoolMgr.GetInstance():DestroyPrefab("chapter/cell", "")
+	PoolMgr.GetInstance():DestroyPrefab("effect/juguangdeng_SLG", "")
 
 	for slot4, slot5 in pairs(slot0.mbDict) do
 		slot5:Destroy()

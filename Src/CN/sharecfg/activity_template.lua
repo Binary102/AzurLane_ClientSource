@@ -852,8 +852,8 @@ pg.activity_template = {
 			rate_tip = {
 				"<color=#ffde38>超稀有舰船</color>：7%",
 				"<color=#d797ff>精锐舰船</color>：12%",
-				"<color=#3dc6ff>稀有舰船</color>：26%",
-				"普通舰船：55%",
+				"<color=#3dc6ff>稀有舰船</color>：51%",
+				"普通舰船：30%",
 				"<color=#d797ff>U110</color>：1.4%<color=#92FC63>(up!)</color>"
 			}
 		}
@@ -864,7 +864,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 8,
+		is_show = 5,
 		id = 398,
 		config_data = {
 			{
@@ -958,7 +958,7 @@ pg.activity_template = {
 		type = 54,
 		login_pop = 0,
 		config_id = 399,
-		is_show = 9,
+		is_show = 6,
 		id = 399,
 		config_data = {},
 		time = {
@@ -1016,6 +1016,7 @@ pg.activity_template = {
 	[400] = {
 		mark = 20191023,
 		title_res_tag = "",
+		time = "stop",
 		type = 26,
 		login_pop = 0,
 		config_id = 0,
@@ -1023,33 +1024,6 @@ pg.activity_template = {
 		config_data = "activity_drop_400",
 		bg = "",
 		id = 400,
-		time = {
-			timer,
-			{
-				{
-					2019,
-					10,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					31
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 2,
 			bg = "loadingbg/bg_build_2_act",
@@ -1060,6 +1034,740 @@ pg.activity_template = {
 				"<color=#3dc6ff>稀有舰船</color>：26%",
 				"普通舰船：55%",
 				"<color=#3dc6ff>斯莫利</color>：5%(<color=#92fc63>up!</color>)"
+			}
+		}
+	},
+	[405] = {
+		mark = 20191031,
+		title_res_tag = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 405,
+		config_data = {
+			1280001,
+			1280002,
+			1280003,
+			1280004,
+			1280005,
+			1280031,
+			1280041
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[406] = {
+		mark = 20191031,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 406,
+		config_data = {
+			15100,
+			15101,
+			15102,
+			15103,
+			15104,
+			15105,
+			15106,
+			15107,
+			15108,
+			15109,
+			15110,
+			15125,
+			15126,
+			15127,
+			15129,
+			15130,
+			15131
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[407] = {
+		mark = 20191031,
+		title_res_tag = "donghuadenglu",
+		type = 3,
+		login_pop = 3,
+		config_id = 13,
+		is_show = 7,
+		config_client = "",
+		id = 407,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					11,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/donghua_login"
+		}
+	},
+	[408] = {
+		mark = 20191031,
+		title_res_tag = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31986,100}]",
+		config_client = "",
+		bg = "",
+		id = 408,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[409] = {
+		mark = 20191031,
+		title_res_tag = "ouxiangleiji_pt",
+		type = 54,
+		login_pop = 0,
+		config_id = 409,
+		is_show = 10,
+		config_client = "",
+		id = 409,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_ouxiang_pt"
+		}
+	},
+	[410] = {
+		mark = 20191031,
+		title_res_tag = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		bg = "",
+		id = 410,
+		config_data = {
+			972,
+			973,
+			974,
+			975,
+			976,
+			977,
+			978,
+			979,
+			980,
+			981,
+			982,
+			983,
+			984,
+			985,
+			986,
+			987,
+			988,
+			989,
+			990,
+			991,
+			992
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_ouxiang",
+			{
+				0.176,
+				0.164,
+				0.274,
+				1
+			},
+			pt_id = 137,
+			painting = "jiasikenie_pt"
+		}
+	},
+	[411] = {
+		mark = 20191031,
+		title_res_tag = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 411,
+		config_data = {
+			1281301,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[412] = {
+		mark = 20191031,
+		title_res_tag = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 137,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		bg = "",
+		id = 412,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[413] = {
+		mark = 20191031,
+		title_res_tag = "",
+		type = 21,
+		login_pop = 0,
+		config_id = 91946,
+		is_show = 0,
+		bg = "",
+		id = 413,
+		config_data = {
+			70025,
+			70024,
+			70026,
+			70028,
+			70027,
+			70029,
+			70031,
+			70030,
+			70032,
+			70034,
+			70033,
+			70035,
+			70037,
+			70036,
+			70038
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			unlock_desc = {
+				"通过「收获的InterHalf」",
+				"三星通关SP5",
+				"？？？",
+				"完成「特型偶像」第3日",
+				"三星通关SP1",
+				"？？？",
+				"累计获得激奏徽章10500枚",
+				"三星通关SP2",
+				"？？？",
+				"完成「特型偶像」第5日",
+				"三星通关SP4",
+				"？？？",
+				"进行10次建造",
+				"三星通关SP3",
+				"？？？"
+			}
+		}
+	},
+	[414] = {
+		mark = 20191031,
+		title_res_tag = "jizoupolaris",
+		type = 57,
+		login_pop = 0,
+		config_id = 2,
+		is_show = 9,
+		config_data = "0",
+		id = 414,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/music_xiefeier_idol"
+		},
+		config_client = {
+			stage_on_ship = {
+				"jiasikenie_idol",
+				"xipeier_idol",
+				"kelifulan_idol",
+				"chicheng_idol",
+				action = {
+					"idol"
+				}
+			},
+			stage_off_ship = {
+				"pinghai_4",
+				"ninghai_4",
+				"aierdeliqi_5",
+				"lingbo_7",
+				"lafei_6",
+				"z23_5",
+				"sipeibojue_5"
+			}
+		}
+	},
+	[415] = {
+		mark = 20191031,
+		title_res_tag = "",
+		type = 60,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 415,
+		config_data = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			14,
+			15,
+			16,
+			17,
+			18,
+			19,
+			20
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[416] = {
+		mark = 20191031,
+		title_res_tag = "chuixueouxiang",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 8,
+		id = 416,
+		config_data = {
+			{
+				15111,
+				15112
+			},
+			{
+				15113,
+				15114
+			},
+			{
+				15115,
+				15116
+			},
+			{
+				15117,
+				15118
+			},
+			{
+				15119,
+				15120
+			},
+			{
+				15121,
+				15122
+			},
+			{
+				15123,
+				15124
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/skin_chuixueouxiang"
+		},
+		config_client = {
+			story = {
+				{
+					"OUXIANGHUODONG1"
+				},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			}
+		}
+	},
+	[417] = {
+		mark = 20191031,
+		title_res_tag = "",
+		type = 23,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 417,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[418] = {
+		mark = 20191031,
+		title_res_tag = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 418,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
@@ -2987,6 +3695,20 @@ pg.activity_template = {
 		398,
 		399,
 		400,
+		405,
+		406,
+		407,
+		408,
+		409,
+		410,
+		411,
+		412,
+		413,
+		414,
+		415,
+		416,
+		417,
+		418,
 		1011,
 		1012,
 		1013,

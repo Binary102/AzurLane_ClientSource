@@ -12,12 +12,5 @@ return {
 	"hongsebuff",
 	"ginbuli_skill",
 	"kinbuli_skill",
-	"Pojia01",
-	"zhihuiRing02",
-	"fangkongRing02",
-	"zhihuiRing02_buff",
-	"bisimai_buff",
-	"nuofukedanchuan_buff_01",
-	"guanghuidanchuan_buff_01",
-	"yilishabaidanchuan_buff_01"
+	"Pojia01"
 }

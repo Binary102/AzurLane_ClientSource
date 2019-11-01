@@ -280,6 +280,41 @@ pg.box_data_template = {
 		icon = "event5",
 		effect_id = 90831
 	},
+	[10105] = {
+		name = "徽章·克利夫兰",
+		type = 1,
+		id = 10105,
+		icon = "event5",
+		effect_id = 92023
+	},
+	[10106] = {
+		name = "徽章·谢菲尔德",
+		type = 1,
+		id = 10106,
+		icon = "event5",
+		effect_id = 92024
+	},
+	[10107] = {
+		name = "徽章·{namecode:91}",
+		type = 1,
+		id = 10107,
+		icon = "event5",
+		effect_id = 92025
+	},
+	[10108] = {
+		name = "徽章·希佩尔",
+		type = 1,
+		id = 10108,
+		icon = "event5",
+		effect_id = 92026
+	},
+	[10109] = {
+		name = "徽章·加斯科涅",
+		type = 1,
+		id = 10109,
+		icon = "event5",
+		effect_id = 92027
+	},
 	[20001] = {
 		name = "障碍物",
 		type = 0,
@@ -328,6 +363,11 @@ pg.box_data_template = {
 		10102,
 		10103,
 		10104,
+		10105,
+		10106,
+		10107,
+		10108,
+		10109,
 		20001
 	}
 }

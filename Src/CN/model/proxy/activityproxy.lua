@@ -21,7 +21,7 @@ function slot0.register(slot0)
 			if not pg.activity_template[slot5.id] then
 				Debugger.LogError("活动acvitity_template不存在: " .. slot5.id)
 			else
-				if Activity.New(slot5).getConfig(slot6, "type") == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 or slot7 == ActivityConst.ACTIVITY_TYPE_CHALLENGE then
+				if Activity.Create(slot5).getConfig(slot6, "type") == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 or slot7 == ActivityConst.ACTIVITY_TYPE_CHALLENGE then
 					slot0:updateActivityFleet(slot5)
 				end
 
@@ -57,7 +57,7 @@ function slot0.register(slot0)
 		end
 	end)
 	slot0:on(11201, function (slot0)
-		if not slot0.data[Activity.New(slot0.activity_info).id] then
+		if not slot0.data[Activity.Create(slot0.activity_info).id] then
 			slot0:addActivity(slot1)
 		else
 			slot0:updateActivity(slot1)
@@ -71,6 +71,8 @@ function slot0.register(slot0)
 			activity = slot1
 		})
 	end)
+
+	slot0.requestTime = {}
 end
 
 function slot0.getActivityByType(slot0, slot1)
@@ -484,6 +486,73 @@ function slot0.InitActivityBossData(slot0, slot1)
 	end
 
 	return
+end
+
+function slot0.AddInstagramTimer(slot0, slot1)
+	slot0:RemoveInstagramTimer()
+
+	function slot6()
+		if slot0:GetNextId() then
+			slot1:sendNotification(GAME.ACT_INSTAGRAM_OP, {
+				isActivate = true,
+				arg2 = 0,
+				activity_id = slot2,
+				cmd = ActivityConst.INSTAGRAM_OP_ACTIVE,
+				arg1 = slot0
+			})
+		end
+
+		return
+	end
+
+	if slot0.data[slot1].GetNextPustTime(slot2) - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
+		slot6()
+	else
+		slot0.instagramTimer = Timer.New(function ()
+			slot0()
+			slot1:RemoveInstagramTimer()
+
+			return
+		end, slot5, 1)
+
+		slot0.instagramTimer:Start()
+	end
+
+	return
+end
+
+function slot0.RemoveInstagramTimer(slot0)
+	if slot0.instagramTimer then
+		slot0.instagramTimer:Stop()
+
+		slot0.instagramTimer = nil
+	end
+
+	return
+end
+
+function slot0.RegisterRequestTime(slot0, slot1, slot2)
+	if not slot1 or slot1 <= 0 then
+		return
+	end
+
+	slot0.requestTime[slot1] = slot2
+
+	return
+end
+
+function slot0.remove(slot0)
+	slot0:RemoveInstagramTimer()
+
+	return
+end
+
+function slot0.ShouldShowInsTip(slot0)
+	if not slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_INSTAGRAM) or slot1:isEnd() then
+		return false
+	end
+
+	return slot1:ShouldShowTip()
 end
 
 return slot0

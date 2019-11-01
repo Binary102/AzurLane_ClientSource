@@ -85,7 +85,7 @@ if Application.isEditor then
 	end
 end
 
-function slot1.Queue(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+function slot1.Queue(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	table.insert(slot0.toSends, {
 		slot1,
 		slot2,
@@ -104,7 +104,8 @@ function slot1.Queue(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 			end
 		end,
 		slot5,
-		slot6
+		slot6,
+		slot7
 	})
 
 	if slot0.isSending then
@@ -122,7 +123,7 @@ function slot1.StartSend(slot0)
 	end
 end
 
-function slot1.Send(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+function slot1.Send(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	slot0.isSending = true
 	slot0.currentCS = slot1
 
@@ -144,14 +145,15 @@ function slot1.Send(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 
 	slot5 = defaultValue(slot5, true)
 	slot6 = defaultValue(slot6, true)
-	slot8 = slot0:getPacketIdx()
+	slot7 = defaultValue(slot7, SEND_TIMEOUT)
+	slot9 = slot0:getPacketIdx()
 
 	if slot3 ~= nil then
 		slot0.UIMgr.GetInstance():LoadingOn()
 
-		slot9 = nil
+		slot10 = nil
 
-		slot1[(slot5 and slot3 .. "_" .. slot8) or slot3] = function (slot0)
+		slot1[(slot5 and slot3 .. "_" .. slot9) or slot3] = function (slot0)
 			slot0.isSending = false
 
 			slot0.UIMgr.GetInstance():LoadingOff()
@@ -188,7 +190,7 @@ function slot1.Send(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 			slot3.retryCount = slot3.retryCount + 1
 
 			slot3:StartSend()
-		end, SEND_TIMEOUT, 1)
+		end, slot7, 1)
 
 		slot0.timer:Start()
 	else
@@ -209,14 +211,14 @@ function slot1.Send(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 				slot0[slot5] = slot6
 			end
 		end
-	end(slot0.Packer.GetInstance():GetProtocolWithName("cs_" .. slot1).GetMessage(slot9), slot2)
+	end(slot0.Packer.GetInstance():GetProtocolWithName("cs_" .. slot1).GetMessage(slot10), slot2)
 
 	if slot5 then
-		slot7:Send(slot0.Packer.GetInstance():Pack(slot8, slot9:GetId(), slot11))
-		print("Network sent protocol: " .. slot1 .. " with idx: " .. slot8)
+		slot8:Send(slot0.Packer.GetInstance():Pack(slot9, slot10:GetId(), slot12))
+		print("Network sent protocol: " .. slot1 .. " with idx: " .. slot9)
 		slot0:incPacketIdx()
 	else
-		slot7:Send(slot0.Packer.GetInstance():Pack(0, slot9:GetId(), slot11))
+		slot8:Send(slot0.Packer.GetInstance():Pack(0, slot10:GetId(), slot12))
 		print("Network sent protocol: " .. slot1 .. " without idx")
 	end
 

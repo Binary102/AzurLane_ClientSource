@@ -216,7 +216,7 @@ function pg.ConnectionMgr.onError(slot0)
 	end
 end
 
-function pg.ConnectionMgr.Send(slot0, slot1, slot2, slot3, slot4, slot5)
+function pg.ConnectionMgr.Send(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	if not slot0 then
 		warning("Network is not connected. msgid " .. slot1)
 		slot1.m02:sendNotification(GAME.LOGOUT, {
@@ -226,7 +226,7 @@ function pg.ConnectionMgr.Send(slot0, slot1, slot2, slot3, slot4, slot5)
 		return
 	end
 
-	slot2:Queue(slot1, slot2, slot3, slot4, slot5)
+	slot2:Queue(slot1, slot2, slot3, slot4, slot5, nil, slot6)
 end
 
 function pg.ConnectionMgr.setPacketIdx(slot0, slot1)

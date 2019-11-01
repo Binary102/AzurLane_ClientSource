@@ -145,12 +145,13 @@ return {
 		slot0:Login()
 	end,
 	LoginWithSocial = function (slot0, slot1, slot2)
+		pg.UIMgr.GetInstance():LoadingOn()
+
 		if slot0 == AIRI_PLATFORM_FACEBOOK then
 			slot0:LoginWithFB()
 		elseif slot0 == AIRI_PLATFORM_TWITTER then
 			slot0:LoginWithTW()
 		elseif slot0 == AIRI_PLATFORM_YOSTAR then
-			pg.UIMgr.GetInstance():LoadingOn()
 			slot0:LoginWithSDKAccount(slot1, slot2)
 		end
 	end,

@@ -54,6 +54,12 @@ pg.skin_page_template = {
 		res = "jidianxilie",
 		english_name = "Festival"
 	},
+	[11] = {
+		id = 11,
+		name = "Live",
+		res = "live",
+		english_name = "live"
+	},
 	[9999] = {
 		id = 9999,
 		name = "其他",
@@ -70,6 +76,7 @@ pg.skin_page_template = {
 		8,
 		9,
 		10,
+		11,
 		9999
 	}
 }

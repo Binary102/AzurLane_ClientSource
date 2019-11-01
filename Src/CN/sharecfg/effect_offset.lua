@@ -1,9 +1,10 @@
 pg = pg or {}
 pg.effect_offset = {
 	bossguangxiao = {
-		id = "bossguangxiao",
-		container_index = 3,
 		mirror = false,
+		y_scale = false,
+		container_index = 3,
+		id = "bossguangxiao",
 		offset = {
 			0,
 			0,
@@ -11,9 +12,10 @@ pg.effect_offset = {
 		}
 	},
 	bossguangxiaobig = {
-		id = "bossguangxiaobig",
-		container_index = 3,
 		mirror = false,
+		y_scale = false,
+		container_index = 3,
+		id = "bossguangxiaobig",
 		offset = {
 			-1.14,
 			0,
@@ -21,9 +23,10 @@ pg.effect_offset = {
 		}
 	},
 	bossguangxiaobig2 = {
-		id = "bossguangxiaobig2",
-		container_index = 3,
 		mirror = false,
+		y_scale = false,
+		container_index = 3,
+		id = "bossguangxiaobig2",
 		offset = {
 			0,
 			0,
@@ -31,9 +34,10 @@ pg.effect_offset = {
 		}
 	},
 	danchuanlanghuaxiao = {
-		id = "danchuanlanghuaxiao",
-		container_index = 3,
 		mirror = false,
+		y_scale = false,
+		container_index = 3,
+		id = "danchuanlanghuaxiao",
 		offset = {
 			0,
 			0,
@@ -41,9 +45,10 @@ pg.effect_offset = {
 		}
 	},
 	danchuanlanghuazhong1 = {
-		id = "danchuanlanghuazhong1",
-		container_index = 3,
 		mirror = false,
+		y_scale = false,
+		container_index = 3,
+		id = "danchuanlanghuazhong1",
 		offset = {
 			0,
 			0,
@@ -51,9 +56,10 @@ pg.effect_offset = {
 		}
 	},
 	danchuanlanghuazhong2 = {
-		id = "danchuanlanghuazhong2",
-		container_index = 3,
 		mirror = false,
+		y_scale = false,
+		container_index = 3,
+		id = "danchuanlanghuazhong2",
 		offset = {
 			-0.76,
 			-0.83,
@@ -61,9 +67,10 @@ pg.effect_offset = {
 		}
 	},
 	danchuanlanghuazhong3 = {
-		id = "danchuanlanghuazhong3",
-		container_index = 3,
 		mirror = false,
+		y_scale = false,
+		container_index = 3,
+		id = "danchuanlanghuazhong3",
 		offset = {
 			0,
 			0,
@@ -71,9 +78,10 @@ pg.effect_offset = {
 		}
 	},
 	danchuanlanghuada = {
-		id = "danchuanlanghuada",
-		container_index = 3,
 		mirror = false,
+		y_scale = false,
+		container_index = 3,
+		id = "danchuanlanghuada",
 		offset = {
 			0,
 			0,
@@ -81,9 +89,10 @@ pg.effect_offset = {
 		}
 	},
 	movewave = {
-		id = "movewave",
-		container_index = 3,
 		mirror = false,
+		y_scale = false,
+		container_index = 3,
+		id = "movewave",
 		offset = {
 			0,
 			-2,
@@ -91,9 +100,10 @@ pg.effect_offset = {
 		}
 	},
 	gongjiBUFF = {
-		id = "gongjiBUFF",
-		container_index = 2,
 		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		id = "gongjiBUFF",
 		offset = {
 			0,
 			5,
@@ -101,9 +111,10 @@ pg.effect_offset = {
 		}
 	},
 	feijiyingzi = {
-		id = "feijiyingzi",
-		container_index = 3,
 		mirror = false,
+		y_scale = false,
+		container_index = 3,
+		id = "feijiyingzi",
 		offset = {
 			0,
 			0,
@@ -111,9 +122,10 @@ pg.effect_offset = {
 		}
 	},
 	fangyuBUFF = {
-		id = "fangyuBUFF",
-		container_index = 2,
 		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		id = "fangyuBUFF",
 		offset = {
 			0,
 			5,
@@ -121,9 +133,10 @@ pg.effect_offset = {
 		}
 	},
 	jiasuBUFF = {
-		id = "jiasuBUFF",
-		container_index = 2,
 		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		id = "jiasuBUFF",
 		offset = {
 			0,
 			5,
@@ -131,9 +144,10 @@ pg.effect_offset = {
 		}
 	},
 	Darkness = {
-		id = "Darkness",
-		container_index = 2,
 		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		id = "Darkness",
 		offset = {
 			0,
 			3,
@@ -141,9 +155,10 @@ pg.effect_offset = {
 		}
 	},
 	ATK = {
-		id = "ATK",
-		container_index = 2,
 		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		id = "ATK",
 		offset = {
 			0,
 			5,
@@ -151,9 +166,10 @@ pg.effect_offset = {
 		}
 	},
 	lansebuff = {
-		id = "lansebuff",
-		container_index = 3,
 		mirror = false,
+		y_scale = false,
+		container_index = 3,
+		id = "lansebuff",
 		offset = {
 			0,
 			-0.69,
@@ -161,9 +177,10 @@ pg.effect_offset = {
 		}
 	},
 	Shield = {
-		id = "Shield",
-		container_index = 1,
 		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		id = "Shield",
 		offset = {
 			0,
 			-1.25,
@@ -171,9 +188,10 @@ pg.effect_offset = {
 		}
 	},
 	DEF = {
-		id = "DEF",
-		container_index = 2,
 		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		id = "DEF",
 		offset = {
 			0,
 			5,
@@ -181,9 +199,10 @@ pg.effect_offset = {
 		}
 	},
 	SPD = {
-		id = "SPD",
-		container_index = 2,
 		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		id = "SPD",
 		offset = {
 			0,
 			5,
@@ -191,9 +210,10 @@ pg.effect_offset = {
 		}
 	},
 	Heart = {
-		id = "Heart",
-		container_index = 2,
 		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		id = "Heart",
 		offset = {
 			0,
 			5,
@@ -201,9 +221,10 @@ pg.effect_offset = {
 		}
 	},
 	zhuoshao = {
-		id = "zhuoshao",
-		container_index = 1,
 		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		id = "zhuoshao",
 		offset = {
 			-0.225,
 			0.8,
@@ -211,9 +232,10 @@ pg.effect_offset = {
 		}
 	},
 	hongsebuff = {
-		id = "hongsebuff",
-		container_index = 2,
 		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		id = "hongsebuff",
 		offset = {
 			0,
 			0,
@@ -221,9 +243,10 @@ pg.effect_offset = {
 		}
 	},
 	caisedian = {
-		id = "caisedian",
-		container_index = 2,
 		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		id = "caisedian",
 		offset = {
 			0,
 			5,
@@ -231,9 +254,10 @@ pg.effect_offset = {
 		}
 	},
 	lingxing = {
-		id = "lingxing",
-		container_index = 2,
 		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		id = "lingxing",
 		offset = {
 			0,
 			5,
@@ -241,9 +265,10 @@ pg.effect_offset = {
 		}
 	},
 	Star = {
-		id = "Star",
-		container_index = 2,
 		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		id = "Star",
 		offset = {
 			0,
 			5,
@@ -251,9 +276,10 @@ pg.effect_offset = {
 		}
 	},
 	fensebuff = {
-		id = "fensebuff",
-		container_index = 2,
 		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		id = "fensebuff",
 		offset = {
 			0,
 			5,
@@ -261,9 +287,10 @@ pg.effect_offset = {
 		}
 	},
 	kulou = {
-		id = "kulou",
-		container_index = 2,
 		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		id = "kulou",
 		offset = {
 			0,
 			5,
@@ -271,9 +298,10 @@ pg.effect_offset = {
 		}
 	},
 	bigbang = {
-		id = "bigbang",
-		container_index = 1,
 		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		id = "bigbang",
 		offset = {
 			0,
 			-1.25,
@@ -281,9 +309,10 @@ pg.effect_offset = {
 		}
 	},
 	gantanhao = {
-		id = "gantanhao",
-		container_index = 2,
 		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		id = "gantanhao",
 		offset = {
 			0,
 			3,
@@ -291,9 +320,10 @@ pg.effect_offset = {
 		}
 	},
 	jinengchufablue = {
-		id = "jinengchufablue",
-		container_index = 2,
 		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		id = "jinengchufablue",
 		offset = {
 			0,
 			1.8,
@@ -301,9 +331,10 @@ pg.effect_offset = {
 		}
 	},
 	jinengchufared = {
-		id = "jinengchufared",
-		container_index = 2,
 		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		id = "jinengchufared",
 		offset = {
 			0,
 			1.8,
@@ -311,9 +342,10 @@ pg.effect_offset = {
 		}
 	},
 	jingyingguaibuffbaise = {
-		id = "jingyingguaibuffbaise",
-		container_index = 1,
 		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		id = "jingyingguaibuffbaise",
 		offset = {
 			0,
 			0,
@@ -321,9 +353,10 @@ pg.effect_offset = {
 		}
 	},
 	jingyingguaibuffzise = {
-		id = "jingyingguaibuffzise",
-		container_index = 1,
 		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		id = "jingyingguaibuffzise",
 		offset = {
 			0,
 			0,
@@ -331,9 +364,10 @@ pg.effect_offset = {
 		}
 	},
 	jingyingguaibuffhongse = {
-		id = "jingyingguaibuffhongse",
-		container_index = 1,
 		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		id = "jingyingguaibuffhongse",
 		offset = {
 			0,
 			0,
@@ -341,9 +375,10 @@ pg.effect_offset = {
 		}
 	},
 	jingyingguaibuffjinse = {
-		id = "jingyingguaibuffjinse",
-		container_index = 1,
 		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		id = "jingyingguaibuffjinse",
 		offset = {
 			0,
 			0,
@@ -351,9 +386,10 @@ pg.effect_offset = {
 		}
 	},
 	Bossbomb = {
-		id = "Bossbomb",
-		container_index = 1,
 		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		id = "Bossbomb",
 		offset = {
 			0,
 			-1.25,
@@ -361,9 +397,10 @@ pg.effect_offset = {
 		}
 	},
 	fangkongpaohuoshe2 = {
-		id = "fangkongpaohuoshe2",
-		container_index = 1,
 		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		id = "fangkongpaohuoshe2",
 		offset = {
 			0,
 			0,
@@ -371,9 +408,10 @@ pg.effect_offset = {
 		}
 	},
 	pofang = {
-		id = "pofang",
-		container_index = 1,
 		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		id = "pofang",
 		offset = {
 			0,
 			0,
@@ -381,9 +419,10 @@ pg.effect_offset = {
 		}
 	},
 	shield02 = {
-		id = "shield02",
-		container_index = 1,
 		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		id = "shield02",
 		offset = {
 			0,
 			0,
@@ -391,9 +430,10 @@ pg.effect_offset = {
 		}
 	},
 	shield05 = {
-		id = "shield05",
-		container_index = 1,
 		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		id = "shield05",
 		offset = {
 			0,
 			0,
@@ -401,9 +441,10 @@ pg.effect_offset = {
 		}
 	},
 	appearbig = {
-		id = "appearbig",
-		container_index = 1,
 		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		id = "appearbig",
 		offset = {
 			0,
 			0,
@@ -411,9 +452,10 @@ pg.effect_offset = {
 		}
 	},
 	appearQ = {
-		id = "appearQ",
-		container_index = 1,
 		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		id = "appearQ",
 		offset = {
 			0,
 			0,
@@ -421,9 +463,10 @@ pg.effect_offset = {
 		}
 	},
 	appearsmall = {
-		id = "appearsmall",
-		container_index = 1,
 		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		id = "appearsmall",
 		offset = {
 			0,
 			0,
@@ -431,9 +474,10 @@ pg.effect_offset = {
 		}
 	},
 	jineng = {
-		id = "jineng",
-		container_index = 1,
 		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		id = "jineng",
 		offset = {
 			0,
 			-1.5,
@@ -441,9 +485,10 @@ pg.effect_offset = {
 		}
 	},
 	jinengenemy = {
-		id = "jinengenemy",
-		container_index = 1,
 		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		id = "jinengenemy",
 		offset = {
 			0,
 			1.5,
@@ -451,9 +496,10 @@ pg.effect_offset = {
 		}
 	},
 	Health = {
-		id = "Health",
-		container_index = 2,
 		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		id = "Health",
 		offset = {
 			0,
 			0,
@@ -461,9 +507,10 @@ pg.effect_offset = {
 		}
 	},
 	jiguang_shouji = {
-		id = "jiguang_shouji",
-		container_index = 1,
 		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		id = "jiguang_shouji",
 		offset = {
 			0.49,
 			0.56,
@@ -471,9 +518,10 @@ pg.effect_offset = {
 		}
 	},
 	bubble = {
-		id = "bubble",
-		container_index = -1,
 		mirror = false,
+		y_scale = false,
+		container_index = -1,
+		id = "bubble",
 		offset = {
 			0,
 			0.1,
@@ -481,9 +529,10 @@ pg.effect_offset = {
 		}
 	},
 	hit_bubble = {
-		id = "hit_bubble",
-		container_index = 2,
 		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		id = "hit_bubble",
 		offset = {
 			0,
 			1.8,
@@ -491,9 +540,10 @@ pg.effect_offset = {
 		}
 	},
 	EVDdowm = {
-		id = "EVDdowm",
-		container_index = 2,
 		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		id = "EVDdowm",
 		offset = {
 			-0.75,
 			2.31,
@@ -501,9 +551,10 @@ pg.effect_offset = {
 		}
 	},
 	baiquan = {
-		id = "baiquan",
-		container_index = 1,
 		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		id = "baiquan",
 		offset = {
 			0,
 			0,
@@ -511,9 +562,10 @@ pg.effect_offset = {
 		}
 	},
 	kinbuli_skill = {
-		id = "kinbuli_skill",
-		container_index = 1,
 		mirror = true,
+		y_scale = false,
+		container_index = 1,
+		id = "kinbuli_skill",
 		offset = {
 			-0.12,
 			-2.41,
@@ -521,9 +573,10 @@ pg.effect_offset = {
 		}
 	},
 	ginbuli_skill = {
-		id = "ginbuli_skill",
-		container_index = 1,
 		mirror = true,
+		y_scale = false,
+		container_index = 1,
+		id = "ginbuli_skill",
 		offset = {
 			-0.28,
 			-2.02,
@@ -531,9 +584,10 @@ pg.effect_offset = {
 		}
 	},
 	shock = {
-		id = "shock",
-		container_index = 1,
 		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		id = "shock",
 		offset = {
 			-1.5,
 			2,
@@ -541,9 +595,10 @@ pg.effect_offset = {
 		}
 	},
 	Pojia01 = {
-		id = "Pojia01",
-		container_index = -1,
 		mirror = false,
+		y_scale = false,
+		container_index = -1,
+		id = "Pojia01",
 		offset = {
 			0,
 			1,
@@ -551,9 +606,10 @@ pg.effect_offset = {
 		}
 	},
 	zhihuiRing02 = {
-		id = "zhihuiRing02",
-		container_index = 4,
 		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		id = "zhihuiRing02",
 		offset = {
 			0,
 			-0.5,
@@ -561,9 +617,10 @@ pg.effect_offset = {
 		}
 	},
 	zhihuiRing02_buff = {
-		id = "zhihuiRing02_buff",
-		container_index = 4,
 		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		id = "zhihuiRing02_buff",
 		offset = {
 			0,
 			0,
@@ -571,9 +628,10 @@ pg.effect_offset = {
 		}
 	},
 	fangkongRing02 = {
-		id = "fangkongRing02",
-		container_index = 4,
 		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		id = "fangkongRing02",
 		offset = {
 			0,
 			-0.5,
@@ -581,9 +639,10 @@ pg.effect_offset = {
 		}
 	},
 	shield03 = {
-		id = "shield03",
-		container_index = 1,
 		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		id = "shield03",
 		offset = {
 			0,
 			0,
@@ -591,9 +650,10 @@ pg.effect_offset = {
 		}
 	},
 	shield03_1 = {
-		id = "shield03_1",
-		container_index = 1,
 		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		id = "shield03_1",
 		offset = {
 			0,
 			0,
@@ -601,9 +661,10 @@ pg.effect_offset = {
 		}
 	},
 	bisimai_buff = {
-		id = "bisimai_buff",
-		container_index = 1,
 		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		id = "bisimai_buff",
 		offset = {
 			0,
 			1,
@@ -611,12 +672,90 @@ pg.effect_offset = {
 		}
 	},
 	shengdiyage_chuchang = {
-		id = "shengdiyage_chuchang",
-		container_index = 1,
 		mirror = true,
+		y_scale = false,
+		container_index = 1,
+		id = "shengdiyage_chuchang",
 		offset = {
 			0,
 			-2.8,
+			0
+		}
+	},
+	music_AlertArea = {
+		mirror = false,
+		y_scale = true,
+		container_index = -1,
+		id = "music_AlertArea",
+		offset = {
+			0,
+			0,
+			0
+		}
+	},
+	juguangdeng_STG = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		id = "juguangdeng_STG",
+		offset = {
+			-5,
+			8,
+			0
+		}
+	},
+	juguangdeng_BOSS = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		id = "juguangdeng_BOSS",
+		offset = {
+			-3,
+			2,
+			0
+		}
+	},
+	music_huanraoyinfu_changliangdanchuan = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		id = "music_huanraoyinfu_changliangdanchuan",
+		offset = {
+			0,
+			0.2,
+			0
+		}
+	},
+	music_huanraoyinfu_fusangdanchuan = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		id = "music_huanraoyinfu_fusangdanchuan",
+		offset = {
+			0,
+			0.2,
+			0
+		}
+	},
+	music_huanraoyinfu_gaoxiongdanchuan = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		id = "music_huanraoyinfu_gaoxiongdanchuan",
+		offset = {
+			0,
+			0.2,
+			0
+		}
+	},
+	music_huanraoyinfu_yishidanchuan = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		id = "music_huanraoyinfu_yishidanchuan",
+		offset = {
+			0,
+			0.2,
 			0
 		}
 	}

@@ -866,67 +866,14 @@ function slot5.GetStageResource(slot0)
 			if slot13.triggerType == slot0.Battle.BattleConst.WaveTriggerType.NORMAL then
 				for slot17, slot18 in ipairs(slot13.spawn) do
 					for slot23, slot24 in ipairs(slot19) do
-						slot2[#slot2 + 1] = slot24
-					end
-
-					slot20 = Clone(slot0.Battle.BattleDataFunction.GetMonsterTmpDataFromID(slot18.monsterTemplateID).equipment_list)
-					slot21 = Clone(slot18.buffList) or {}
-
-					if slot18.phase then
-						for slot25, slot26 in ipairs(slot18.phase) do
-							if slot26.addWeapon then
-								for slot30, slot31 in ipairs(slot26.addWeapon) do
-									slot20[#slot20 + 1] = slot31
-								end
-							end
-
-							if slot26.addBuff then
-								for slot30, slot31 in ipairs(slot26.addBuff) do
-									slot21[#slot21 + 1] = slot31
-								end
-							end
-						end
-					end
-
-					for slot25, slot26 in ipairs(slot21) do
-						for slot31, slot32 in pairs(slot0.Battle.BattleDataFunction.GetBuffTemplate(slot26, 1).effect_list) do
-							if slot32.arg_list.skill_id and slot0.Battle.BattleDataFunction.NeedSkillPainting(slot33) then
-								slot2[#slot2 + 1] = slot1.GetPaintingPath(slot2.GetMonsterTmpDataFromID(slot18.monsterTemplateID).icon)
-
-								break
-							end
-						end
-					end
-
-					for slot25, slot26 in ipairs(slot20) do
-						for slot31, slot32 in ipairs(slot27) do
-							slot2[#slot2 + 1] = slot32
-						end
+						table.insert(slot2, slot24)
 					end
 				end
 
 				if slot13.reinforcement then
 					for slot17, slot18 in ipairs(slot13.reinforcement) do
 						for slot23, slot24 in ipairs(slot19) do
-							slot2[#slot2 + 1] = slot24
-						end
-
-						slot20 = slot18.buffList or {}
-
-						for slot24, slot25 in ipairs(slot20) do
-							for slot30, slot31 in pairs(slot0.Battle.BattleDataFunction.GetBuffTemplate(slot25, 1).effect_list) do
-								if slot31.arg_list.skill_id and slot0.Battle.BattleDataFunction.NeedSkillPainting(slot32) then
-									slot2[#slot2 + 1] = slot1.GetPaintingPath(slot2.GetMonsterTmpDataFromID(slot18.monsterTemplateID).icon)
-
-									break
-								end
-							end
-						end
-
-						for slot25, slot26 in ipairs(slot21) do
-							for slot31, slot32 in ipairs(slot27) do
-								slot2[#slot2 + 1] = slot32
-							end
+							table.insert(slot2, slot24)
 						end
 					end
 				end
@@ -967,6 +914,55 @@ function slot5.GetStageResource(slot0)
 	end
 
 	return slot2, slot3
+end
+
+function slot5.GetMonsterRes(slot0)
+	slot1 = {}
+
+	for slot6, slot7 in ipairs(slot2) do
+		slot1[#slot1 + 1] = slot7
+	end
+
+	slot3 = Clone(slot1.Battle.BattleDataFunction.GetMonsterTmpDataFromID(slot0.monsterTemplateID).equipment_list)
+	slot4 = Clone(slot0.buffList) or {}
+
+	if slot0.phase then
+		for slot8, slot9 in ipairs(slot0.phase) do
+			if slot9.addWeapon then
+				for slot13, slot14 in ipairs(slot9.addWeapon) do
+					slot3[#slot3 + 1] = slot14
+				end
+			end
+
+			if slot9.addBuff then
+				for slot13, slot14 in ipairs(slot9.addBuff) do
+					slot4[#slot4 + 1] = slot14
+				end
+			end
+		end
+	end
+
+	for slot8, slot9 in ipairs(slot4) do
+		for slot14, slot15 in ipairs(slot10) do
+			slot1[#slot1 + 1] = slot15
+		end
+
+		for slot15, slot16 in pairs(slot1.Battle.BattleDataFunction.GetBuffTemplate(slot9, 1).effect_list) do
+			if slot16.arg_list.skill_id and slot1.Battle.BattleDataFunction.NeedSkillPainting(slot17) then
+				slot1[#slot1 + 1] = slot0.GetPaintingPath(slot2.GetMonsterTmpDataFromID(slot0.monsterTemplateID).icon)
+
+				break
+			end
+		end
+	end
+
+	for slot8, slot9 in ipairs(slot3) do
+		for slot14, slot15 in ipairs(slot10) do
+			slot1[#slot1 + 1] = slot15
+		end
+	end
+
+	return slot1
 end
 
 function slot5.GetKizunaJammingUI()

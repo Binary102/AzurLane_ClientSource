@@ -49,13 +49,13 @@ class("AddItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 					slot6:updateActivity(slot7)
 				end
-			elseif slot5 == 10 then
-				slot6 = getProxy(ActivityProxy)
+			elseif slot5 == 10 and getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_INSTAGRAM) and not slot7:isEnd() then
+				slot7.data1 = slot7.data1 + slot2.count
 
-				if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MEMORYBOOK) and not table.contains(slot7.data1_list, slot2.id) then
-					table.insert(slot7.data1_list, slot2.id)
-					slot6:updateActivity(slot7)
-				end
+				slot6:updateActivity(slot7)
+				slot0:sendNotification(GAME.ACTIVITY_BE_UPDATED, {
+					activity = slot7
+				})
 			end
 		else
 			slot3:addItemById(slot2.id, slot2.count)

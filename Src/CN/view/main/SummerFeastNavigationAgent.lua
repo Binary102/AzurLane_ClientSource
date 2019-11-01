@@ -35,7 +35,7 @@ function slot0.updateStudent(slot0, slot1)
 		slot0.targetPoint = slot0.pathFinder:getPoint(slot3)
 		slot0._tf.anchoredPosition = Vector2.New(slot0.currentPoint.x, slot0.currentPoint.y)
 
-		if slot0.onTransEdge then
+		if slot0.onTransEdge and slot3 then
 			slot0:onTransEdge(table.indexof(slot0.pathFinder.points, slot0.currentPoint), slot3)
 		end
 

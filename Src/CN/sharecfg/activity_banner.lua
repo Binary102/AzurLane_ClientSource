@@ -3,17 +3,16 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 1,
-		pic = "temp13",
+		pic = "temp8",
 		param = {
-			"scene skinshop",
-			{}
+			"music festival"
 		},
 		time = {
 			{
 				{
 					2019,
 					10,
-					23
+					31
 				},
 				{
 					0,
@@ -24,8 +23,8 @@ pg.activity_banner = {
 			{
 				{
 					2019,
-					10,
-					31
+					11,
+					14
 				},
 				{
 					23,
@@ -42,7 +41,7 @@ pg.activity_banner = {
 		param = {
 			"scene get boat",
 			{
-				projectName = "light"
+				projectName = "new"
 			}
 		},
 		time = {
@@ -50,7 +49,7 @@ pg.activity_banner = {
 				{
 					2019,
 					10,
-					23
+					31
 				},
 				{
 					0,
@@ -61,8 +60,8 @@ pg.activity_banner = {
 			{
 				{
 					2019,
-					10,
-					31
+					11,
+					14
 				},
 				{
 					23,
@@ -75,16 +74,17 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 3,
-		pic = "temp3",
+		pic = "temp13",
 		param = {
-			"scene back yard"
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
 				{
 					2019,
 					10,
-					23
+					31
 				},
 				{
 					0,
@@ -95,8 +95,116 @@ pg.activity_banner = {
 			{
 				{
 					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 4,
+		pic = "temp3",
+		param = {
+			"scene back yard"
+		},
+		time = {
+			{
+				{
+					2019,
 					10,
 					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 5,
+		pic = "temp4",
+		param = {
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 6,
+		pic = "temp7",
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
 				},
 				{
 					23,
@@ -109,7 +217,7 @@ pg.activity_banner = {
 	{
 		param = "399",
 		type = 3,
-		id = 4,
+		id = 7,
 		pic = "temp5",
 		time = {
 			{
@@ -141,7 +249,7 @@ pg.activity_banner = {
 	{
 		param = "398",
 		type = 3,
-		id = 5,
+		id = 8,
 		pic = "temp6",
 		time = {
 			{
@@ -170,50 +278,15 @@ pg.activity_banner = {
 			}
 		}
 	},
-	{
-		type = 2,
-		id = 6,
-		pic = "temp8",
-		param = {
-			"scene get boat",
-			{
-				projectName = "special"
-			}
-		},
-		time = {
-			{
-				{
-					2019,
-					10,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
 	all = {
 		1,
 		2,
 		3,
 		4,
 		5,
-		6
+		6,
+		7,
+		8
 	}
 }
 

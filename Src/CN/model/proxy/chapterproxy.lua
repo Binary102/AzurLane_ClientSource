@@ -142,7 +142,7 @@ function slot0.register(slot0)
 					end
 				end)
 
-				slot2 = bit.bor(slot2, bit.bor(ChapterConst.DirtyAttachment, ChapterConst.DirtyAutoAction))
+				slot2 = bit.bor(slot2, ChapterConst.DirtyAttachment, ChapterConst.DirtyAutoAction)
 			end
 
 			if #slot0.ai_list > 0 then
@@ -150,7 +150,7 @@ function slot0.register(slot0)
 					slot0:mergeChampion(ChapterChampionPackage.New(slot0))
 				end)
 
-				slot2 = bit.bor(slot2, bit.bor(ChapterConst.DirtyChampion, ChapterConst.DirtyAutoAction))
+				slot2 = bit.bor(slot2, ChapterConst.DirtyChampion, ChapterConst.DirtyAutoAction)
 			end
 
 			if #slot0.add_flag_list > 0 or #slot0.del_flag_list > 0 then
@@ -242,6 +242,8 @@ function slot0.register(slot0)
 	slot0.subNextReqTime = 0
 	slot0.subRefreshCount = 0
 	slot0.subProgress = 1
+	slot0.defeatedEnemiesBuffer = {}
+	slot0.comboHistoryBuffer = {}
 end
 
 function slot0.buildRemasterMaps(slot0)
@@ -1096,6 +1098,22 @@ function slot0.getSubAidFlag(slot0)
 	else
 		return slot1.AID_EMPTY
 	end
+end
+
+function slot0.RecordLastDefeatedEnemy(slot0, slot1, slot2)
+	if not slot1 or slot1 <= 0 then
+		return
+	end
+
+	slot0.defeatedEnemiesBuffer[slot1] = slot2
+end
+
+function slot0.RecordComboHistory(slot0, slot1, slot2)
+	if not slot1 or slot1 <= 0 then
+		return
+	end
+
+	slot0.comboHistoryBuffer[slot1] = slot2
 end
 
 function slot0.ifShowRemasterTip(slot0)

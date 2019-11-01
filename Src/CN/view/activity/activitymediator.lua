@@ -24,6 +24,8 @@ slot0.SPECIAL_BATTLE_OPERA = "special battle opera"
 slot0.GO_PRAY_POOL = "go pray pool"
 slot0.SELECT_ACTIVITY = "event select activity"
 slot0.OPEN_VOTEBOOK = "event open vote book"
+slot0.FETCH_INSTARGRAM = "fetch instagram"
+slot0.MUSIC_GAME_OPERATOR = "get music game final prize"
 slot0.SHOW_NEXT_ACTIVITY = "show next activity"
 
 function slot0.register(slot0)
@@ -216,6 +218,12 @@ function slot0.register(slot0)
 			goToPray = true
 		})
 	end)
+	slot0:bind(slot0.FETCH_INSTARGRAM, function (slot0, ...)
+		slot0:sendNotification(GAME.ACT_INSTAGRAM_FETCH, ...)
+	end)
+	slot0:bind(slot0.MUSIC_GAME_OPERATOR, function (slot0, ...)
+		slot0:sendNotification(GAME.SEND_MINI_GAME_OP, ...)
+	end)
 	slot0:bind(slot0.SELECT_ACTIVITY, function (slot0, slot1)
 		slot0.viewComponent:verifyTabs(slot1)
 	end)
@@ -254,7 +262,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.RETURN_AWARD_OP_DONE,
 		VoteProxy.VOTE_ORDER_BOOK_DELETE,
 		VoteProxy.VOTE_ORDER_BOOK_UPDATE,
-		GAME.REMOVE_LAYERS
+		GAME.REMOVE_LAYERS,
+		GAME.SEND_MINI_GAME_OP_DONE
 	}
 end
 
@@ -303,8 +312,27 @@ function slot0.handleNotification(slot0, slot1)
 		if slot0.viewComponent.pageDic or {}[ActivityConst.VOTE_ORDER_BOOK_PHASE_1] or slot0.viewComponent.pageDic or [ActivityConst.VOTE_ORDER_BOOK_PHASE_2] or slot0.viewComponent.pageDic or [ActivityConst.VOTE_ORDER_BOOK_PHASE_3] or slot0.viewComponent.pageDic or [ActivityConst.VOTE_ORDER_BOOK_PHASE_4] or slot0.viewComponent.pageDic or [ActivityConst.VOTE_ORDER_BOOK_PHASE_5] or slot0.viewComponent.pageDic or [ActivityConst.VOTE_ORDER_BOOK_PHASE_6] or slot0.viewComponent.pageDic or [ActivityConst.VOTE_ORDER_BOOK_PHASE_7] or slot0.viewComponent.pageDic or [ActivityConst.VOTE_ORDER_BOOK_PHASE_8] then
 			slot5:UpdateOrderBookBtn(slot3)
 		end
-	elseif slot2 == GAME.REMOVE_LAYERS and slot3.context.mediator == VoteFameHallMediator then
-		slot0.viewComponent:updateEntrances()
+	elseif slot2 == GAME.REMOVE_LAYERS then
+		if slot3.context.mediator == VoteFameHallMediator then
+			slot0.viewComponent:updateEntrances()
+		end
+	elseif slot2 == GAME.SEND_MINI_GAME_OP_DONE then
+		seriesAsync({
+			function (slot0)
+				if #slot0.awards > 0 then
+					if slot1.viewComponent then
+						slot1.viewComponent:emit(BaseUI.ON_ACHIEVE, slot1, slot0)
+					else
+						slot1:emit(BaseUI.ON_ACHIEVE, slot1, slot0)
+					end
+				else
+					slot0()
+				end
+			end,
+			function (slot0)
+				return
+			end
+		})
 	end
 end
 

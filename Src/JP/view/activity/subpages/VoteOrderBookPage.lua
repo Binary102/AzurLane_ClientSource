@@ -26,7 +26,7 @@ function slot0.OnInit(slot0)
 	slot4 = ""
 
 	if _.detect(pg.activity_vote.all, function (slot0)
-		return pg.TimeMgr.GetInstance():inTime(pg.activity_vote[slot0].time_vote) and slot1.is_in_game == 1
+		return #pg.activity_vote[slot0].time_show > 0 and pg.TimeMgr.GetInstance():inTime(slot2) and slot1.is_in_game == 1
 	end) then
 		slot3 = pg.activity_vote[slot1].is_on_web == 1
 		slot0.voteTime = slot5.time_vote

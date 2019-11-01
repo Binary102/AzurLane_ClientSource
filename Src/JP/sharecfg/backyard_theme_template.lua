@@ -1896,6 +1896,43 @@ pg.backyard_theme_template = {
 			52118
 		}
 	},
+	[53] = {
+		Cfg_1 = 5,
+		name = "激奏ライブ！",
+		desc = "ライブスタート！",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 53,
+		icon = "idothemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			53001,
+			53002,
+			53101,
+			53102,
+			53103,
+			53104,
+			53105,
+			53106,
+			53107,
+			53108,
+			53109,
+			53111,
+			53112,
+			53113,
+			53114,
+			53119,
+			53301,
+			53302,
+			53303,
+			53304
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1937,7 +1974,8 @@ pg.backyard_theme_template = {
 		48,
 		49,
 		50,
-		52
+		52,
+		53
 	}
 }
 

@@ -91,6 +91,15 @@ pg.strategy_data_template = {
 		desc = "危機回避～！戦闘中おじゃまニセキズナアイが出現しなくなります",
 		arg = {}
 	},
+	[8650] = {
+		buff_id = 8650,
+		name = "聚光灯",
+		type = 10,
+		id = 8650,
+		icon = "",
+		desc = "聚光灯效果",
+		arg = {}
+	},
 	[9500] = {
 		buff_id = 9500,
 		name = "キューブ活性化 ",
@@ -183,6 +192,7 @@ pg.strategy_data_template = {
 		11,
 		90,
 		91,
+		8650,
 		9500,
 		10001,
 		10002,

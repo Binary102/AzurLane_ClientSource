@@ -68,7 +68,7 @@ class("LoadPlayerDataCommand", pm.SimpleCommand).execute = function (slot0, slot
 		pg.SdkMgr.GetInstance():BindCPU()
 		getProxy(PlayerProxy).setInited(slot7, true)
 		pg.SecondaryPWDMgr.GetInstance():FetchData()
-	end)
+	end, nil, 60)
 end
 
 return class("LoadPlayerDataCommand", pm.SimpleCommand)

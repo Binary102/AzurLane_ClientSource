@@ -980,76 +980,93 @@ function slot1(slot0)
 	slot5 = slot2
 	slot6 = "upgrade_rank_tip/level"
 	slot4 = slot4(slot5, slot6)
-	slot5 = SeasonInfo
-	slot5 = slot5.getMilitaryRank
-	slot6 = slot1
-	slot7 = slot0.seasonInfo
-	slot7 = slot7.rank
+	slot5 = findTF
+	slot6 = slot2
+	slot7 = "upgrade_score_tip/level"
 	slot5 = slot5(slot6, slot7)
 	slot6 = SeasonInfo
-	slot6 = slot6.getEmblem
+	slot6 = slot6.getMilitaryRank
 	slot7 = slot1
 	slot8 = slot0.seasonInfo
 	slot8 = slot8.rank
 	slot6 = slot6(slot7, slot8)
-	slot7 = LoadImageSpriteAsync
-	slot8 = "emblem/"
-	slot9 = slot6
-	slot8 = slot8 .. slot9
-	slot9 = findTF
-	slot10 = slot2
-	slot11 = "medal_bg/medal"
-	slot9 = slot9(slot10, slot11)
-	slot10 = true
-
-	slot7(slot8, slot9, slot10)
-
-	slot7 = LoadImageSpriteAsync
-	slot8 = "emblem/n_"
-	slot9 = slot6
-	slot8 = slot8 .. slot9
-	slot9 = findTF
-	slot10 = slot2
-	slot11 = "medal_bg/Text"
-	slot9 = slot9(slot10, slot11)
-	slot10 = true
-
-	slot7(slot8, slot9, slot10)
-
-	slot7 = findTF
-	slot8 = slot2
-	slot9 = "exp_slider"
+	slot7 = SeasonInfo
+	slot7 = slot7.getEmblem
+	slot8 = slot1
+	slot9 = slot0.seasonInfo
+	slot9 = slot9.rank
 	slot7 = slot7(slot8, slot9)
-	slot8 = slot7
-	slot7 = slot7.GetComponent
-	slot9 = "Slider"
-	slot7 = slot7(slot8, slot9)
-	slot8 = SeasonInfo
-	slot8 = slot8.getNextMilitaryRank
-	slot9 = slot1
-	slot10 = slot0.seasonInfo
-	slot10 = slot10.rank
-	slot8, slot9 = slot8(slot9, slot10)
-	slot10 = math
-	slot10 = slot10.min
-	slot11 = slot9
-	slot12 = slot1
+	slot8 = LoadImageSpriteAsync
+	slot9 = "emblem/"
+	slot10 = slot7
+	slot9 = slot9 .. slot10
+	slot10 = findTF
+	slot11 = slot2
+	slot12 = "medal_bg/medal"
 	slot10 = slot10(slot11, slot12)
-	slot1 = slot10
-	slot10 = setText
-	slot11 = slot3
-	slot12 = slot8
+	slot11 = true
 
-	slot10(slot11, slot12)
+	slot8(slot9, slot10, slot11)
 
-	slot10 = setText
-	slot11 = slot4
-	slot12 = slot9 - slot1
+	slot8 = LoadImageSpriteAsync
+	slot9 = "emblem/n_"
+	slot10 = slot7
+	slot9 = slot9 .. slot10
+	slot10 = findTF
+	slot11 = slot2
+	slot12 = "medal_bg/Text"
+	slot10 = slot10(slot11, slot12)
+	slot11 = true
 
-	slot10(slot11, slot12)
+	slot8(slot9, slot10, slot11)
 
-	slot10 = slot1 / slot9
-	slot7.value = slot10
+	slot8 = findTF
+	slot9 = slot2
+	slot10 = "exp_slider"
+	slot8 = slot8(slot9, slot10)
+	slot9 = slot8
+	slot8 = slot8.GetComponent
+	slot10 = "Slider"
+	slot8 = slot8(slot9, slot10)
+	slot9 = SeasonInfo
+	slot9 = slot9.getNextMilitaryRank
+	slot10 = slot1
+	slot11 = slot0.seasonInfo
+	slot11 = slot11.rank
+	slot9, slot10, slot11 = slot9(slot10, slot11)
+	slot12 = math
+	slot12 = slot12.min
+	slot13 = slot10
+	slot14 = slot1
+	slot12 = slot12(slot13, slot14)
+	slot1 = slot12
+	slot12 = setText
+	slot13 = slot3
+	slot14 = slot9
+
+	slot12(slot13, slot14)
+
+	slot12 = setText
+	slot13 = slot5
+	slot14 = slot10
+
+	slot12(slot13, slot14)
+
+	slot12 = setText
+	slot13 = slot4
+	slot14 = 0
+	slot14 = (slot11 > slot14 and slot11) or "-"
+
+	slot12(slot13, slot14)
+
+	slot12 = slot1 / slot10
+	slot8.value = slot12
+
+	return
+
+	if not slot11 then
+		slot14 = "-"
+	end
 end
 
 slot0.initPlayerInfo = slot1
@@ -1078,9 +1095,23 @@ function slot1(slot0)
 	slot3 = 1
 
 	for slot4 = slot1, slot2, slot3 do
-		setActive(slot0.rivalTFs[slot4], slot4 <= #slot0.rivalVOs)
+		slot5 = slot0.rivalTFs
+		slot5 = slot5[slot4]
+		slot6 = setActive
+		slot7 = slot5
+		slot8 = slot0.rivalVOs
+		slot8 = #slot8
 
-		slot6 = #slot0.rivalVOs
+		if slot4 > slot8 then
+			slot8 = false
+		else
+			slot8 = true
+		end
+
+		slot6(slot7, slot8)
+
+		slot6 = slot0.rivalVOs
+		slot6 = #slot6
 
 		if slot4 <= slot6 then
 			slot7 = slot0
@@ -1090,6 +1121,8 @@ function slot1(slot0)
 			slot6(slot7, slot8)
 		end
 	end
+
+	return
 end
 
 slot0.updateRivals = slot1
@@ -1231,11 +1264,15 @@ function slot1(slot0, slot1)
 		slot3 = slot1
 
 		slot0(slot1, slot2, slot3)
+
+		return
 	end
 
 	slot11 = SFX_PANEL
 
 	slot7(slot8, slot9, slot10, slot11)
+
+	return
 end
 
 slot0.updateRival = slot1
@@ -1261,6 +1298,8 @@ function slot1(slot0)
 		slot0 = slot0.closeAwards
 
 		slot0(slot1)
+
+		return
 	end
 
 	slot5 = SFX_CANCEL
@@ -1409,12 +1448,43 @@ function slot1(slot0)
 				end
 
 				slot0(slot1, slot2, slot3)
+
+				return
 			end
 
 			slot14 = SFX_PANEL
 
 			slot10(slot11, slot12, slot13, slot14)
 		end
+
+		slot4 = setText
+		slot5 = findTF
+		slot6 = slot0
+		slot7 = "upgrade_score_tip/level"
+		slot5 = slot5(slot6, slot7)
+		slot6 = slot3.point
+
+		slot4(slot5, slot6)
+
+		slot4 = setText
+		slot5 = findTF
+		slot6 = slot0
+		slot7 = "upgrade_rank_tip/level"
+		slot5 = slot5(slot6, slot7)
+		slot6 = slot3.order
+		slot7 = 0
+
+		if slot6 > slot7 then
+			slot6 = slot3.order
+
+			if not slot6 then
+				slot6 = "-"
+			end
+		end
+
+		slot4(slot5, slot6)
+
+		return
 	end
 
 	slot9 = slot0.rankCfg
@@ -1450,6 +1520,8 @@ function slot1(slot0)
 			slot14(slot15, slot16)
 		end
 	end
+
+	return
 end
 
 slot0.initAwards = slot1
@@ -1477,6 +1549,8 @@ function slot1(slot0)
 
 		slot1(slot2, slot3, slot4)
 	end
+
+	return
 end
 
 slot0.closeAwards = slot1
@@ -1502,6 +1576,8 @@ function slot1(slot0)
 
 		slot1(slot2, slot3)
 	end
+
+	return
 end
 
 slot0.onBackPressed = slot1
@@ -1559,6 +1635,8 @@ function slot1(slot0)
 		slot1 = nil
 		slot0.resPanel = slot1
 	end
+
+	return
 end
 
 slot0.willExit = slot1

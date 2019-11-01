@@ -89,5 +89,16 @@ return {
 				return {}
 			end
 		}
+	},
+	InstagramLayer = {
+		{
+			id = "NG0018",
+			condition = function ()
+				return true
+			end,
+			args = function ()
+				return {}
+			end
+		}
 	}
 }

@@ -50,6 +50,11 @@ function slot7(slot0, slot1)
 		slot1 = slot0
 		slot1._go = slot0
 		slot1 = slot0
+		slot2 = slot0
+		slot2 = slot2._go
+		slot2 = slot2.transform
+		slot1._tf = slot2
+		slot1 = slot0
 		slot1 = slot1._go
 		slot2 = slot1
 		slot1 = slot1.SetActive
@@ -1261,7 +1266,7 @@ function slot7(slot0, slot1, slot2, slot3)
 				slot5 = slot0
 				slot4 = slot4(slot5)
 				slot5 = slot0
-				slot5 = slot5.UIOverlay
+				slot5 = slot5._tf
 				slot6 = slot1
 				slot6 = slot6.style
 				slot6 = slot6.ui

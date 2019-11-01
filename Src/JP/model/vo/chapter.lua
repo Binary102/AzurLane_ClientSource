@@ -24,6 +24,18 @@ function slot0.Ctor(slot0, slot1)
 		defaultValue(slot1.kill_enemy_count, 0),
 		defaultValue(slot1.take_box_count, 0)
 	}
+	slot0.achieves = {}
+
+	for slot6 = 1, 3, 1 do
+		if slot0:getConfig("star_require_" .. slot6) > 0 then
+			table.insert(slot0.achieves, {
+				type = slot7,
+				config = slot0:getConfig("num_" .. slot6),
+				count = slot2[slot6]
+			})
+		end
+	end
+
 	slot0.winConditions = {}
 
 	for slot7, slot8 in pairs(slot3) do
@@ -40,18 +52,6 @@ function slot0.Ctor(slot0, slot1)
 			type = slot9[1],
 			param = slot9[2]
 		})
-	end
-
-	slot0.achieves = {}
-
-	for slot8 = 1, 3, 1 do
-		if slot0:getConfig("star_require_" .. slot8) > 0 then
-			table.insert(slot0.achieves, {
-				type = slot9,
-				config = slot0:getConfig("num_" .. slot8),
-				count = slot2[slot8]
-			})
-		end
 	end
 
 	slot0.dropShipIdList = {}
@@ -372,6 +372,19 @@ function slot0.update(slot0, slot1)
 	slot0.defeatEnemies = slot1.kill_count or 0
 	slot0.BaseHP = slot1.chapter_hp or 0
 	slot0.orignalShipCount = slot1.init_ship_count or 0
+	slot0.combo = slot1.continuous_kill_count or 0
+	slot0.scoreHistory = slot0.scoreHistory or {}
+
+	for slot11 = ys.Battle.BattleConst.BattleScore.D, ys.Battle.BattleConst.BattleScore.S, 1 do
+		slot0.scoreHistory[slot11] = 0
+	end
+
+	if slot1.battle_statistics then
+		for slot11, slot12 in ipairs(slot1.battle_statistics) do
+			slot0.scoreHistory[slot12.id] = slot12.count
+		end
+	end
+
 	slot8 = {}
 
 	if slot1.chapter_strategy_list then
@@ -399,6 +412,8 @@ function slot0.retreat(slot0, slot1)
 	slot0.cellAttachments = {}
 	slot0.round = 0
 	slot0.airDominanceStatus = nil
+
+	getProxy(ChapterProxy):RecordLastDefeatedEnemy(slot0.id, nil)
 end
 
 function slot0.clearSubChapter(slot0)
@@ -2130,9 +2145,11 @@ function slot0.writeBack(slot0, slot1, slot2)
 		end
 	end
 
-	if slot1 then
-		slot5 = nil
+	slot0:UpdateComboHistory(slot2.statistics._battleScore)
 
+	slot5 = nil
+
+	if slot1 then
 		if _.detect(slot0.champions, function (slot0)
 			return slot0.id == slot0.stageId and slot0.row == slot1.line.row and slot0.column == slot1.line.column and slot0.flag ~= 1
 		end) then
@@ -2149,9 +2166,9 @@ function slot0.writeBack(slot0, slot1, slot2)
 		end
 
 		if slot5 == ChapterConst.AttachEnemy or slot5 == ChapterConst.AttachElite or slot5 == ChapterConst.AttachChampion then
-			if _.detect(slot0.achieves, function (slot0)
+			if (not slot6 or slot6.flag == 1) and _.detect(slot0.achieves, function (slot0)
 				return slot0.type == ChapterConst.AchieveType2
-			end) and (not slot6 or slot6.flag == 1) then
+			end) then
 				slot7.count = slot7.count + 1
 			end
 		elseif slot5 == ChapterConst.AttachBoss and _.detect(slot0.achieves, function (slot0)
@@ -2178,10 +2195,15 @@ function slot0.writeBack(slot0, slot1, slot2)
 					if slot0.orignalShipCount <= slot0.config then
 						slot0.count = slot0.count + 1
 					end
-				elseif slot0.type == ChapterConst.AchieveType5 and not _.any(slot0:getShips(), function (slot0)
-					return slot0:getShipType() == slot0.config
-				end) then
-					slot0.count = slot0.count + 1
+				elseif slot0.type == ChapterConst.AchieveType5 then
+					if not _.any(slot0:getShips(), function (slot0)
+						return slot0:getShipType() == slot0.config
+					end) then
+						slot0.count = slot0.count + 1
+					end
+				elseif slot0.type == ChapterConst.AchieveType6 then
+					slot2 = slot0.scoreHistory[1] or 0
+					slot0.count = math.max(((slot0.scoreHistory[0] or 0) + math.max <= 0 and slot0.combo) or 0, slot0.count or 0)
 				end
 			end)
 
@@ -2211,6 +2233,33 @@ function slot0.writeBack(slot0, slot1, slot2)
 		if slot0:getPlayType() == ChapterConst.TypeMainSub and slot5 == ChapterConst.AttachBoss and slot2.statistics._battleScore == ys.Battle.BattleConst.BattleScore.S then
 			getProxy(ChapterProxy).subProgress = math.max(getProxy(ChapterProxy).subProgress, table.indexof(slot8, slot0:getConfig("map")) + 1)
 		end
+	end
+
+	if slot5 ~= ChapterConst.AttachBoss then
+		getProxy(ChapterProxy):RecordLastDefeatedEnemy(slot0.id, {
+			score = slot2.statistics._battleScore,
+			line = {
+				row = slot3.line.row,
+				column = slot3.line.column
+			},
+			type = slot5
+		})
+	end
+end
+
+function slot0.UpdateComboHistory(slot0, slot1)
+	getProxy(ChapterProxy):RecordComboHistory(slot0.id, {
+		scoreHistory = Clone(slot0.scoreHistory),
+		combo = Clone(slot0.combo)
+	})
+
+	slot0.scoreHistory = slot0.scoreHistory or {}
+	slot0.scoreHistory[slot1] = (slot0.scoreHistory[slot1] or 0) + 1
+
+	if slot1 <= ys.Battle.BattleConst.BattleScore.C then
+		slot0.combo = 0
+	else
+		slot0.combo = (slot0.combo or 0) + 1
 	end
 end
 

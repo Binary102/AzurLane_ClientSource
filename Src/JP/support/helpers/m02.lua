@@ -2542,6 +2542,42 @@ function skinTimeStamp(slot0)
 	return
 end
 
+function InstagramTimeStamp(slot0)
+	if (pg.TimeMgr.GetInstance():GetServerTime() - slot0) / 86400 > 1 then
+		return i18n("ins_word_day", math.floor(slot3))
+	else
+		if slot2 / 3600 > 1 then
+			return i18n("ins_word_hour", math.floor(slot4))
+		else
+			if slot2 / 60 > 1 then
+				return i18n("ins_word_minu", math.floor(slot5))
+			else
+				return i18n("ins_word_minu", 1)
+			end
+		end
+	end
+
+	return
+end
+
+function InstagramReplyTimeStamp(slot0)
+	if (pg.TimeMgr.GetInstance():GetServerTime() - slot0) / 86400 > 1 then
+		return i18n1(math.floor(slot3) .. "d")
+	else
+		if slot2 / 3600 > 1 then
+			return i18n1(math.floor(slot4) .. "h")
+		else
+			if slot2 / 60 > 1 then
+				return i18n1(math.floor(slot5) .. "min")
+			else
+				return i18n1("1min")
+			end
+		end
+	end
+
+	return
+end
+
 function attireTimeStamp(slot0)
 	slot1, slot2, slot3, slot4 = pg.TimeMgr.GetInstance():parseTimeFrom(slot0)
 

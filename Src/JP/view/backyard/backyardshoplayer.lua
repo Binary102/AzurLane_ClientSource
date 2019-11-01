@@ -44,12 +44,12 @@ function slot0.SORT_FURNITURE_FUNC(slot0, slot1, slot2, slot3)
 					if ((slot0:isLock(slot2) and 1) or 0) == ((slot1:isLock(slot2) and 1) or 0) then
 						if slot3 == 1 then
 							slot12 = {
-								slot0.id < slot1.id
+								slot1.id < slot0.id
 							}
 
 							if not slot12 then
 								slot12 = {
-									slot1.id < slot0.id
+									slot0.id < slot1.id
 								}
 							end
 						end

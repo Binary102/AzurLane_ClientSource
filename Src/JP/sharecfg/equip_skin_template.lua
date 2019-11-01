@@ -3276,6 +3276,471 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[180] = {
+		bullet_name = "zidan_xiangshui",
+		name = "香水砲弾",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "女の子の必須アイテム！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91811",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 180,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[181] = {
+		bullet_name = "zidan_guangpan",
+		name = "ディスク砲弾",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "初回限定のシングルCD",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91812",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 181,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[182] = {
+		bullet_name = "zidan_guashi",
+		name = "キーホルダー弾",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "限定グッズ・キーホルダー",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91813",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 182,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[183] = {
+		bullet_name = "paodan_maojin",
+		name = "タオル砲弾",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "限定グッズ・ロゴ入りタオル",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91814",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 183,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[184] = {
+		bullet_name = "paodan_woshouquan",
+		name = "握手券砲弾",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「むふふふ、これで回収するにゃ…」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91815",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 184,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[185] = {
+		bullet_name = "paodan_yinxiang",
+		name = "音響砲弾",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "サウンドバスター（物理）",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91816",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 185,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[186] = {
+		bullet_name = "yulei_maikefeng",
+		name = "マイク魚雷",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "限定グッズ・高級マイク",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91821",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 186,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[187] = {
+		bullet_name = "yulei_shanzi",
+		name = "うちわ魚雷",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "限定…ノベルティ・うちわ",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91822",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 187,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[188] = {
+		bullet_name = "yulei_menpiao",
+		name = "入場券魚雷",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「物販よりこちらのほうが大事でございますね」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91823",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 188,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[189] = {
+		bullet_name = "feiji_yingyuanfeiji",
+		name = "饅頭チャーター便（攻撃）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "タレントたちを運ぶチャーター便。実はレシプロ機",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91831",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 189,
+		derivate_torpedo = "yulei_maikefeng",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[190] = {
+		bullet_name = "feiji_yingyuanfeiji",
+		name = "饅頭チャーター便（戦闘）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "タレントたちを運ぶチャーター便。実はレシプロ機",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_yinxiang",
+		icon = "91831",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 190,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[191] = {
+		bullet_name = "feiji_yingyuanfeiji",
+		name = "饅頭チャーター便（爆撃）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "タレントたちを運ぶチャーター便。実はレシプロ機",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_yinxiang",
+		icon = "91831",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 191,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[192] = {
+		bullet_name = "feiji_yingyuanreqiqiu",
+		name = "饅頭空援団（攻撃）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "この饅頭…落ちながらコールしてる…！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91832",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 192,
+		derivate_torpedo = "yulei_menpiao",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[193] = {
+		bullet_name = "feiji_yingyuanreqiqiu",
+		name = "饅頭空援団（戦闘）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "この饅頭…落ちながらコールしてる…！",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_woshouquan",
+		icon = "91832",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 193,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[194] = {
+		bullet_name = "feiji_yingyuanreqiqiu",
+		name = "饅頭空援団（爆撃）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "この饅頭…落ちながらコールしてる…！",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_woshouquan",
+		icon = "91832",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 194,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[195] = {
+		bullet_name = "feiji_idolfeiji",
+		name = "スター饅頭（攻撃）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "謎の力で移動する危険な饅頭",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91833",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 195,
+		derivate_torpedo = "yulei_shanzi",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[196] = {
+		bullet_name = "feiji_idolfeiji",
+		name = "スター饅頭（戦闘）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "謎の力で移動する危険な饅頭",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_maojin",
+		icon = "91833",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 196,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[197] = {
+		bullet_name = "feiji_idolfeiji",
+		name = "スター饅頭（爆撃）",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "謎の力で移動する危険な饅頭",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_maojin",
+		icon = "91833",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 197,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		bullet_name = "Nep_bullet_shizi",
 		name = "十字キー砲弾（P）",
@@ -4752,6 +5217,24 @@ pg.equip_skin_template = {
 		175,
 		176,
 		177,
+		180,
+		181,
+		182,
+		183,
+		184,
+		185,
+		186,
+		187,
+		188,
+		189,
+		190,
+		191,
+		192,
+		193,
+		194,
+		195,
+		196,
+		197,
 		1001,
 		1002,
 		1003,

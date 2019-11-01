@@ -183,6 +183,18 @@ class("TaskGoCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		if slot14 == 2 then
 			slot0:sendNotification(TaskMediator.TASK_FILTER, "weekly")
 		end
+	elseif slot13 == 10 then
+		if (slot14 == 4 or slot14 == 5) and getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_INSTAGRAM) and not slot15:isEnd() then
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.MAINUI, {
+				subContext = Context.New({
+					viewComponent = InstagramLayer,
+					mediator = InstagramMediator,
+					data = {
+						id = slot15.id
+					}
+				})
+			})
+		end
 	elseif slot13 == 11 then
 		if slot14 == 0 then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.TECHNOLOGY)

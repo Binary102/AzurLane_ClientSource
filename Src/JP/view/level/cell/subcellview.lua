@@ -22,8 +22,6 @@ function slot0.LoadEffectShuihua(slot0)
 
 	ResourceMgr.Inst:getAssetAsync("Effect/" .. slot1, "qianting_01", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 		if not slot0.validate then
-			Object.Destroy(slot0)
-
 			return
 		end
 
@@ -60,14 +58,14 @@ end
 
 function slot0.clear(slot0)
 	if slot0.effect_shuihua then
-		Object.Destroy(slot0.effect_shuihua)
+		Destroy(slot0.effect_shuihua)
 
 		slot0.effect_shuihua = nil
 	end
 
 	slot0.showFlag = nil
 
-	slot0.super:clear()
+	slot0.super.clear(slot0)
 end
 
 return slot0

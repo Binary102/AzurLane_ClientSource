@@ -441,6 +441,30 @@ function pg.PoolMgr.DestroyAllSprite(slot0)
 	ResourceMgr.Inst:unloadUnusedAssetBundles()
 end
 
+function pg.PoolMgr.DisplayPoolPacks(slot0)
+	slot1 = ""
+
+	for slot5, slot6 in pairs(slot0.pools_pack) do
+		for slot10, slot11 in pairs(slot6.items) do
+			if #slot1 > 0 then
+				slot1 = slot1 .. "\n"
+			end
+
+			slot1 = slot1 .. " " .. table.concat(_.map({
+				slot5,
+				"assetName:",
+				slot10,
+				"type:",
+				slot6.type.FullName
+			}, function (slot0)
+				return tostring(slot0)
+			end), " ")
+		end
+	end
+
+	warning(slot1)
+end
+
 function pg.PoolMgr.SpriteMemUsage(slot0)
 	slot1 = 0
 	slot2 = 9.5367431640625e-07
@@ -481,10 +505,10 @@ slot10 = {
 	"world/"
 }
 
-function pg.PoolMgr.GetPrefab(slot0, slot1, slot2, slot3, slot4)
-	slot5 = slot1 .. slot2
+function pg.PoolMgr.GetPrefab(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot6 = slot1 .. slot2
 
-	slot0:FromPlural(slot1, slot2, slot3, slot0, function (slot0)
+	slot0:FromPlural(slot1, slot2, slot3, slot5 or slot0, function (slot0)
 		if string.find(slot0, "emoji/") == 1 and slot0:GetComponent(typeof(CriManaEffectUI)) then
 			slot1:Pause(false)
 		end

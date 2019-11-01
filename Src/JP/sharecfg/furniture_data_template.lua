@@ -2904,6 +2904,62 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[155] = {
+		advice = 0,
+		name = "激奏の記念章",
+		count = 1,
+		type = 7,
+		dir = 0,
+		gain_by = "激奏のポラリス",
+		is_get_time_note = 1,
+		belong = 1,
+		can_rotate = 1,
+		effect = "",
+		dorm_icon_price = 500,
+		not_for_sale = 1,
+		icon = "ido_dalaoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 5,
+		tag = 6,
+		picture = "",
+		canputon = 0,
+		discount = 0,
+		id = 155,
+		comfortable = 0,
+		describe = "「μ兵装試験作戦」完遂の指揮官に贈られるレアアイテム――イベント『激奏のポラリス』参加記念",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			2,
+			"azumaster",
+			"action",
+			"idol_medal"
+		},
+		spine = {
+			{
+				"ido_dalao",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		can_rotate = 0,
 		name = "友情の空気ポンプ",
@@ -3377,6 +3433,89 @@ pg.furniture_data_template = {
 		animator = {
 			{
 				"xingguangwutaiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[100007] = {
+		can_rotate = 0,
+		name = "奥義のマジックブースター",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "mofatongicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 6,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 100007,
+		comfortable = 0,
+		describe = "謎のギミックが仕込まれている筒。あまりにも強い破壊力のため一時期製造が規制されていた",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"7yuetongB",
+				"normal"
+			},
+			{
+				"7yuetongT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"yun"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"7yuetongBCharControl"
 			}
 		},
 		interAction_group = {}
@@ -89583,6 +89722,1915 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[53001] = {
+		can_rotate = 0,
+		name = "激奏ハウス床",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "dibanidoicon",
+		deblocking = 1,
+		level = 1,
+		tag = 4,
+		rarity = 4,
+		picture = "ido/dibanido",
+		canputon = 0,
+		discount = 0,
+		id = 53001,
+		comfortable = 4,
+		describe = "ライブスタート！",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 53,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[53002] = {
+		can_rotate = 0,
+		name = "激奏ハウス壁",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "qiangbiidoicon",
+		deblocking = 1,
+		level = 1,
+		tag = 3,
+		rarity = 4,
+		picture = "ido/qiangbiido",
+		canputon = 0,
+		discount = 0,
+		id = 53002,
+		comfortable = 4,
+		describe = "ライブスタート！",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 53,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[53101] = {
+		advice = 0,
+		name = "饅頭風呂カー",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "ido/cheido",
+		can_rotate = 1,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "cheidoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 53101,
+		comfortable = 3,
+		describe = "「露天風呂（！？）併設のアドトラック……って何に使うの！？」",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 53,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-42,
+					35
+				},
+				{
+					1,
+					1
+				},
+				"ido/cheido_using1"
+			},
+			{
+				"sit",
+				{
+					91,
+					-50
+				},
+				{
+					1,
+					1
+				},
+				"ido/cheido_using2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[53102] = {
+		can_rotate = 0,
+		name = "楽屋のカーペット",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "ditanidoicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "ido/ditanido",
+		canputon = 0,
+		discount = 0,
+		id = 53102,
+		comfortable = 2,
+		describe = "「上に立っていると、スターになったような気がする～」",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 53,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[53103] = {
+		can_rotate = 0,
+		name = "スターブロック・青",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "dizhuan2idoicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 1,
+		picture = "ido/dizhuan2ido",
+		canputon = 0,
+		discount = 0,
+		id = 53103,
+		comfortable = 1,
+		describe = "「歌って踊れるスターアイドル、登場！」",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 53,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[53104] = {
+		can_rotate = 0,
+		name = "スターブロック・黄",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "dizhuanidoicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 1,
+		picture = "ido/dizhuanido",
+		canputon = 0,
+		discount = 0,
+		id = 53104,
+		comfortable = 1,
+		describe = "「魔眼操りしスターアイドル、参上ッ！」",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 53,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[53105] = {
+		advice = 0,
+		name = "激奏のドラム",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "ido/guido",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "guidoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 53105,
+		comfortable = 2,
+		describe = "「μ兵装のホログラムより叩いてる感じがするな！」",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 53,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-14,
+					42
+				},
+				{
+					1,
+					1
+				},
+				"ido/guido"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[53106] = {
+		can_rotate = 0,
+		name = "ライブ衣装ハンガー",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jiaidoicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "ido/jiaido",
+		canputon = 0,
+		discount = 0,
+		id = 53106,
+		comfortable = 2,
+		describe = "「衣装の管理、キュラソーとカーリューにお願いしておけばよかったですね」",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 53,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[53107] = {
+		advice = 0,
+		name = "激奏のキーボード",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "ido/jianpanido",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jianpanidoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 53107,
+		comfortable = 2,
+		describe = "「晩鐘…ではなく、輝きの調べを」",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 53,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					-35,
+					-17
+				},
+				{
+					1,
+					1
+				},
+				"ido/jianpanido_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[53108] = {
+		advice = 0,
+		name = "スターラダー",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "ido/jietiido",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jietiidoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 53108,
+		comfortable = 2,
+		describe = "「頑張ってシグニット、べ、別に緊張することなんてないよ！」",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 53,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-32,
+					22
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[53109] = {
+		can_rotate = 0,
+		name = "激奏のエレキギター",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jitaidoicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "ido/jitaido",
+		canputon = 0,
+		discount = 0,
+		id = 53109,
+		comfortable = 2,
+		describe = "「やっぱりこの色のほうがかっこいいっての！」",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 53,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[53110] = {
+		can_rotate = 1,
+		name = "饅頭ライブ看板",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 1,
+		icon = "paiidoicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "ido/paiido",
+		canputon = 0,
+		discount = 0,
+		id = 53110,
+		comfortable = 3,
+		describe = "「今夜のライブは饅頭がやるらしいです。饅頭、演奏できるです…？」",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 53,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[53111] = {
+		advice = 0,
+		name = "激奏のサイン会",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "ido/tai2ido",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "tai2idoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 53111,
+		comfortable = 2,
+		describe = "「ラフィー！寝てないで早く色紙を回してよ！」",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 53,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					60,
+					82
+				},
+				{
+					-1,
+					1
+				},
+				"ido/tai2ido_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[53112] = {
+		advice = 0,
+		name = "楽屋の化粧台",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "ido/tai3ido",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "tai3idoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 53112,
+		comfortable = 2,
+		describe = "「サラトガちゃん？化粧中の子にイタズラしちゃだめよ？」",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 53,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-75,
+					-101
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[53113] = {
+		advice = 0,
+		name = "上手の階段",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "ido/taiido",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "taiidoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 53113,
+		comfortable = 3,
+		describe = "「サラトガちゃんを撮るには最ッ高のポジションね！」",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 53,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					51,
+					39
+				},
+				{
+					1,
+					1
+				},
+				"ido/taiido_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[53114] = {
+		advice = 0,
+		name = "饅頭エレキステージ",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "ido/wutaiido",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "wutaiidoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 53114,
+		comfortable = 3,
+		describe = "「ドイッチュラント姉ちゃん、どこ…？流石にわからないよね…」",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 53,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			9,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					-89,
+					35
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"dance",
+				{
+					89,
+					21
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[53115] = {
+		can_rotate = 0,
+		name = "激奏のスピーカー",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "yinxiangidoicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "ido/yinxiangido",
+		canputon = 0,
+		discount = 0,
+		id = 53115,
+		comfortable = 2,
+		describe = "「ウサウサ星名物爆音ライブ、このベンソンちゃんがお届け！」",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 53,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[53119] = {
+		can_rotate = 0,
+		name = "整列用ポール",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "zhalanidoicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 1,
+		picture = "ido/zhalanido",
+		canputon = 0,
+		discount = 0,
+		id = 53119,
+		comfortable = 1,
+		describe = "「むふふ、この動員人数なら大儲けだにゃ…」",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 53,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[53116] = {
+		can_rotate = 0,
+		name = "楽屋のスタンドミラー",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "jingziidoicon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "ido/jingziido",
+		canputon = 0,
+		discount = 0,
+		id = 53116,
+		comfortable = 2,
+		describe = "「えへへ♪サラトガちゃんがもっとキレイにしてあげる♪」",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 53,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[53117] = {
+		advice = 0,
+		name = "饅頭応援団",
+		count = 1,
+		type = 2,
+		dir = 0,
+		gain_by = "",
+		is_get_time_note = 0,
+		belong = 1,
+		can_rotate = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "jiuidoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		picture = "",
+		canputon = 0,
+		discount = 0,
+		id = 53117,
+		comfortable = 4,
+		describe = "「おーみんな吹雪のライブを見に来たのかな？ち、違うの！？」",
+		dorm_id = 0,
+		gem_price = 150,
+		themeId = 53,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"calljiu",
+				"action"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[53118] = {
+		can_rotate = 1,
+		name = "激奏ステージ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "dawutaiidoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 53118,
+		comfortable = 4,
+		describe = "「私たちの新曲、聞いてください！」",
+		dorm_id = 0,
+		gem_price = 150,
+		themeId = 53,
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			14,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"idostageB",
+				"normal"
+			},
+			{
+				"idostageT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"idostageCharControl",
+				"idostageCharControl2",
+				"idostageCharControl3",
+				"idostageCharControl4"
+			}
+		},
+		interAction_group = {}
+	},
+	[53301] = {
+		can_rotate = 1,
+		name = "ロゴ装飾ランプ",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 4,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dengidoicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 2,
+		picture = "ido/dengido",
+		canputon = 0,
+		discount = 0,
+		id = 53301,
+		comfortable = 2,
+		describe = "「碧藍航線！」「平海！そっちじゃない！」",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 53,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[53302] = {
+		can_rotate = 0,
+		name = "激奏の華道",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "guodaidoicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 2,
+		picture = "ido/guodaido",
+		canputon = 0,
+		discount = 0,
+		id = 53302,
+		comfortable = 2,
+		describe = "「指揮官さまに一番キレイな私を見せますわ～」",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 53,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[53303] = {
+		can_rotate = 0,
+		name = "ハウスゲート",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "menidoicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 2,
+		picture = "ido/menido",
+		canputon = 0,
+		discount = 0,
+		id = 53303,
+		comfortable = 2,
+		describe = "「ラフィー、みんなに来てもらいたいなんて思ってない…うん、思ってない」",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 53,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[53304] = {
+		can_rotate = 0,
+		name = "饅頭プロジェクター",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "pingmuidoicon",
+		deblocking = 1,
+		level = 5,
+		tag = 5,
+		rarity = 3,
+		picture = "ido/pingmuido",
+		canputon = 0,
+		discount = 0,
+		id = 53304,
+		comfortable = 3,
+		describe = "「ビリビリで、放送中……」",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 53,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -89637,11 +91685,13 @@ pg.furniture_data_template = {
 		148,
 		149,
 		151,
+		155,
 		100002,
 		100003,
 		100004,
 		100005,
 		100006,
+		100007,
 		100008,
 		100009,
 		1001,
@@ -90895,7 +92945,32 @@ pg.furniture_data_template = {
 		52117,
 		52118,
 		52119,
-		52120
+		52120,
+		53001,
+		53002,
+		53101,
+		53102,
+		53103,
+		53104,
+		53105,
+		53106,
+		53107,
+		53108,
+		53109,
+		53110,
+		53111,
+		53112,
+		53113,
+		53114,
+		53115,
+		53119,
+		53116,
+		53117,
+		53118,
+		53301,
+		53302,
+		53303,
+		53304
 	}
 }
 

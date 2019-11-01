@@ -136,7 +136,7 @@ end
 
 function slot0.ReSort(slot0)
 	for slot4, slot5 in pairs(slot0.shipModels) do
-		if slot0.boatVOs[slot4]:getPosition() and not slot0.boatVOs[slot4]:hasInterActionFurnitrue() and not slot0.boatVOs[slot4]:hasSpineInterAction() then
+		if slot0.boatVOs[slot4]:getPosition() and not slot0.boatVOs[slot4]:hasInterActionFurnitrue() and not slot0.boatVOs[slot4]:hasSpineInterAction() and not slot0.boatVOs[slot4]:hasSpineExtra() then
 			slot5:removeItem()
 			slot5:createItem(slot6)
 		end

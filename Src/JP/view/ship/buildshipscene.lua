@@ -319,7 +319,7 @@ function slot0.initHelpMsg(slot0)
 
 				if (slot10 > slot3 or slot0.tipListTF:GetChild(slot10 - 1)) and cloneTplTo(slot0.tipListTpl, slot0.tipListTF) then
 					setActive(slot11, true)
-					setText(slot11, slot6[slot10])
+					setText(slot11, HXSet.hxLan(slot6[slot10]))
 				end
 			end
 

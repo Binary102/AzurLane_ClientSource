@@ -795,6 +795,10 @@ pg.voice_actor_CN = {
 	[204] = {
 		actor_name = "金子彩花",
 		code = 204
+	},
+	[205] = {
+		actor_name = "紫苑雪",
+		code = 205
 	}
 }
 

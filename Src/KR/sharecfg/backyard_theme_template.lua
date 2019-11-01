@@ -458,10 +458,11 @@ pg.backyard_theme_template = {
 		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
-		discount = 20,
+		discount = 0,
 		id = 16,
 		icon = "crthemeicon",
 		comfortable = 0,
+		discount_time = "",
 		ids = {
 			16001,
 			16002,
@@ -491,32 +492,6 @@ pg.backyard_theme_template = {
 			16304,
 			16305,
 			16306
-		},
-		discount_time = {
-			{
-				{
-					2018,
-					12,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					12,
-					26
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[17] = {
@@ -528,10 +503,11 @@ pg.backyard_theme_template = {
 		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
-		discount = 20,
+		discount = 0,
 		id = 17,
 		icon = "mhthemeicon",
 		comfortable = 0,
+		discount_time = "",
 		ids = {
 			17001,
 			17002,
@@ -558,32 +534,6 @@ pg.backyard_theme_template = {
 			17202,
 			17203,
 			17301
-		},
-		discount_time = {
-			{
-				{
-					2018,
-					12,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					1,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[18] = {
@@ -636,10 +586,11 @@ pg.backyard_theme_template = {
 		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
-		discount = 20,
+		discount = 0,
 		id = 19,
 		icon = "cjthemeicon",
 		comfortable = 0,
+		discount_time = "",
 		ids = {
 			19001,
 			19002,
@@ -671,32 +622,6 @@ pg.backyard_theme_template = {
 			19305,
 			19306,
 			19307
-		},
-		discount_time = {
-			{
-				{
-					2019,
-					1,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					2,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20] = {
@@ -1110,15 +1035,14 @@ pg.backyard_theme_template = {
 		name = "핼러윈 나이트 ",
 		desc = "핼러윈 파크에 어서오세요! ",
 		deblocking = 1,
-		new = 1,
+		new = 0,
 		hot = 1,
 		Cfg_2 = 8,
 		is_view = 1,
-		discount = 0,
+		discount = 20,
 		id = 35,
 		icon = "hl2themeicon",
 		comfortable = 0,
-		discount_time = "",
 		ids = {
 			35001,
 			35002,
@@ -1157,6 +1081,32 @@ pg.backyard_theme_template = {
 			35301,
 			35302,
 			35303
+		},
+		discount_time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[36] = {
@@ -1804,6 +1754,43 @@ pg.backyard_theme_template = {
 			50123
 		}
 	},
+	[52] = {
+		Cfg_1 = 5,
+		name = "스크리밍 타운 ",
+		desc = "Happy Halloween！",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 52,
+		icon = "hl3themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			52001,
+			52002,
+			52101,
+			52102,
+			52103,
+			52104,
+			52105,
+			52106,
+			52107,
+			52108,
+			52109,
+			52110,
+			52111,
+			52112,
+			52113,
+			52114,
+			52115,
+			52116,
+			52117,
+			52118
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1842,7 +1829,8 @@ pg.backyard_theme_template = {
 		46,
 		48,
 		49,
-		50
+		50,
+		52
 	}
 }
 

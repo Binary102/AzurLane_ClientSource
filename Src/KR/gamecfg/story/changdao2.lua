@@ -16,9 +16,9 @@ return {
 			}
 		},
 		{
-			actor = 106010,
+			actor = 106011,
 			side = 2,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "꿀꺽꿀꺽… 푸하~ 역시 콜라엔 감자칩이지~",
 			typewriter = {

@@ -3200,6 +3200,108 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100009] = {
+		can_rotate = 1,
+		name = "기관 무대",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "qiandaowutai2icon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 6,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 100009,
+		comfortable = 0,
+		describe = "완전히 새로운 Live Show, 시작합니다!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 0,
+		time = "always",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			18,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"manjuustageB",
+				"normal"
+			},
+			{
+				"manjuustageT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"manjuustageCharControl",
+				"manjuustageCharControl2",
+				"manjuustageCharControl3"
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		can_rotate = 0,
 		name = "낡은 바닥",
@@ -49815,7 +49917,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {},
 		offset = {},
@@ -49826,9 +49928,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -49838,7 +49940,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -49880,7 +49982,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {},
 		offset = {},
@@ -49891,9 +49993,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -49903,7 +50005,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -49945,7 +50047,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			2,
@@ -49959,9 +50061,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -49971,7 +50073,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -50013,7 +50115,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			3,
@@ -50041,9 +50143,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -50053,7 +50155,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -50095,7 +50197,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			3,
@@ -50109,9 +50211,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -50121,7 +50223,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -50163,7 +50265,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			8,
@@ -50177,9 +50279,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -50189,7 +50291,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -50231,7 +50333,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			4,
@@ -50245,9 +50347,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -50257,7 +50359,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -50299,7 +50401,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			2,
@@ -50313,9 +50415,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -50325,7 +50427,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -50367,7 +50469,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			7,
@@ -50381,9 +50483,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -50393,7 +50495,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -50435,7 +50537,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			1,
@@ -50449,9 +50551,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -50461,7 +50563,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -50503,7 +50605,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			7,
@@ -50517,9 +50619,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -50529,7 +50631,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -50571,7 +50673,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			2,
@@ -50585,9 +50687,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -50597,7 +50699,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -50639,7 +50741,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			2,
@@ -50653,9 +50755,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -50665,7 +50767,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -50707,7 +50809,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			4,
@@ -50747,9 +50849,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -50759,7 +50861,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -50801,7 +50903,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			1,
@@ -50815,9 +50917,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -50827,7 +50929,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -50869,7 +50971,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			1,
@@ -50883,9 +50985,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -50895,7 +50997,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -50937,7 +51039,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			2,
@@ -50951,9 +51053,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -50963,7 +51065,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -51005,7 +51107,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			5,
@@ -51019,9 +51121,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -51031,7 +51133,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -51073,7 +51175,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			4,
@@ -51101,9 +51203,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -51113,7 +51215,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -51155,7 +51257,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			2,
@@ -51169,9 +51271,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -51181,7 +51283,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -51223,7 +51325,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			2,
@@ -51250,9 +51352,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -51262,7 +51364,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -51304,7 +51406,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			3,
@@ -51318,9 +51420,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -51330,7 +51432,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -51372,7 +51474,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			6,
@@ -51399,9 +51501,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -51411,7 +51513,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -51453,7 +51555,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			2,
@@ -51480,9 +51582,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -51492,7 +51594,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -51534,7 +51636,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			2,
@@ -51561,9 +51663,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -51573,7 +51675,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -51615,7 +51717,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			4,
@@ -51642,9 +51744,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -51654,7 +51756,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -51696,7 +51798,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			6,
@@ -51723,9 +51825,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -51735,7 +51837,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -51777,7 +51879,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			4,
@@ -51817,9 +51919,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -51829,7 +51931,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -51871,7 +51973,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			8,
@@ -51917,9 +52019,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -51929,7 +52031,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -51971,7 +52073,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			2,
@@ -51995,9 +52097,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -52007,7 +52109,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -52049,7 +52151,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			4,
@@ -52095,9 +52197,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -52107,7 +52209,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -52149,7 +52251,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			1,
@@ -52163,9 +52265,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -52175,7 +52277,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -52217,7 +52319,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			1,
@@ -52231,9 +52333,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -52243,7 +52345,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -52285,7 +52387,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			1,
@@ -52299,9 +52401,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -52311,7 +52413,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -52353,7 +52455,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			1,
@@ -52367,9 +52469,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -52379,7 +52481,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -52421,7 +52523,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			1,
@@ -52435,9 +52537,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -52447,7 +52549,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -52489,7 +52591,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			8,
@@ -52503,9 +52605,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -52515,7 +52617,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -52557,7 +52659,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			2,
@@ -52571,9 +52673,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -52583,7 +52685,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -52625,7 +52727,7 @@ pg.furniture_data_template = {
 		themeId = 35,
 		spine_extra = "",
 		spine_action_replace = "",
-		new = 1,
+		new = 20,
 		discount_time = "",
 		size = {
 			4,
@@ -52639,9 +52741,9 @@ pg.furniture_data_template = {
 		time = {
 			{
 				{
-					2018,
+					2019,
 					10,
-					30
+					31
 				},
 				{
 					0,
@@ -52651,7 +52753,7 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					11,
 					13
 				},
@@ -85358,6 +85460,1640 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[52001] = {
+		can_rotate = 0,
+		name = "스크리밍 타운 바닥",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "dibanhl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 4,
+		rarity = 4,
+		picture = "hl3/dibanhl3",
+		canputon = 0,
+		discount = 0,
+		id = 52001,
+		comfortable = 4,
+		describe = "Happy Halloween!",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52002] = {
+		can_rotate = 0,
+		name = "스크리밍 타운 벽지",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "qiangbihl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 3,
+		rarity = 4,
+		picture = "hl3/qiangbihl3",
+		canputon = 0,
+		discount = 0,
+		id = 52002,
+		comfortable = 4,
+		describe = "Happy Halloween!",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52101] = {
+		advice = 0,
+		name = "스크리밍 벙커",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "hl3/baoleihl3",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "baoleihl3icon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 52101,
+		comfortable = 3,
+		describe = "안에 뭐가 들어 있을까~ 들어가기 전에 마음의 준비를 해야 해~",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					-89,
+					212
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"dance",
+				{
+					7,
+					86
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52102] = {
+		can_rotate = 1,
+		name = "핼러윈 캔디카",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "che2hl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "hl3/che2hl3",
+		canputon = 0,
+		discount = 0,
+		id = 52102,
+		comfortable = 2,
+		describe = "핼러윈 나이트 한정판 맛~ 너도 사탕 하나 먹을래?",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52103] = {
+		can_rotate = 1,
+		name = "핼러윈 스낵바",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "chehl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "hl3/chehl3",
+		canputon = 0,
+		discount = 0,
+		id = 52103,
+		comfortable = 2,
+		describe = "핼러윈 나이트 한정판 맛~ 호박파이 하나 먹을래?",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52104] = {
+		advice = 0,
+		name = "쥬쥬 구호대",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "hl3/chuanghl3",
+		can_rotate = 1,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chuanghl3icon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 52104,
+		comfortable = 3,
+		describe = "여기에 또 기절한 사람이 있어! 어서, 서둘러!",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-21,
+					-21
+				},
+				{
+					1,
+					1
+				},
+				"hl3/chuanghl3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52105] = {
+		can_rotate = 1,
+		name = "스크리밍 타운 간판",
+		gain_by = "",
+		type = 9,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dengpaihl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "hl3/dengpaihl3",
+		canputon = 1,
+		discount = 0,
+		id = 52105,
+		comfortable = 2,
+		describe = "오늘밤 신나는 파티를 시작하자~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			7
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				0,
+				3
+			},
+			{
+				0,
+				4
+			},
+			{
+				0,
+				5
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52106] = {
+		can_rotate = 0,
+		name = "박쥐 무늬 카펫",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 4,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "ditanhl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "hl3/ditanhl3",
+		canputon = 0,
+		discount = 0,
+		id = 52106,
+		comfortable = 3,
+		describe = "박쥐 무늬가 섬세하게 수놓아진 카펫",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52107] = {
+		can_rotate = 0,
+		name = "호박 램프",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "guahl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "hl3/guahl3",
+		canputon = 0,
+		discount = 0,
+		id = 52107,
+		comfortable = 2,
+		describe = "꺄르르~ 축제 분위기가 물씬 풍기지?",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52108] = {
+		can_rotate = 0,
+		name = "강시쥬",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jiu2hl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "hl3/jiu2hl3",
+		canputon = 0,
+		discount = 0,
+		id = 52108,
+		comfortable = 2,
+		describe = "폴짝! 폴짝! 쥬!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52109] = {
+		can_rotate = 0,
+		name = "유령쥬",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jiu3hl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "hl3/jiu3hl3",
+		canputon = 0,
+		discount = 0,
+		id = 52109,
+		comfortable = 2,
+		describe = "음... 떠다니지 못하겠어... 쥬.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52110] = {
+		can_rotate = 0,
+		name = "프랑켄 요정",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jiuhl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "hl3/jiuhl3",
+		canputon = 0,
+		discount = 0,
+		id = 52110,
+		comfortable = 2,
+		describe = "봉합선을... 다시 손봐야겠다... 쥬.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52111] = {
+		can_rotate = 1,
+		name = "쥬쥬 묘비",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "mudihl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "hl3/mudihl3",
+		canputon = 0,
+		discount = 0,
+		id = 52111,
+		comfortable = 3,
+		describe = "매일 한밤중이 되면 땅에서 쥬가 기어 나오지...",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52112] = {
+		can_rotate = 0,
+		name = "스크리밍 나무통",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "mutonghl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "hl3/mutonghl3",
+		canputon = 0,
+		discount = 0,
+		id = 52112,
+		comfortable = 2,
+		describe = "안에 뭐가 들어 있을까~? 헤헷...",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52113] = {
+		can_rotate = 0,
+		name = "스크리밍 나무",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "shu2hl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "hl3/shu2hl3",
+		canputon = 0,
+		discount = 0,
+		id = 52113,
+		comfortable = 2,
+		describe = "축제 분위기를 물씬 풍기는 나무",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52114] = {
+		can_rotate = 0,
+		name = "전등 나무",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "shuhl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "hl3/shuhl3",
+		canputon = 0,
+		discount = 0,
+		id = 52114,
+		comfortable = 2,
+		describe = "등불이 장식되어 있는 나무",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52115] = {
+		can_rotate = 0,
+		name = "스크리밍 카페",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "tanwei2hl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "hl3/tanwei2hl3",
+		canputon = 0,
+		discount = 0,
+		id = 52115,
+		comfortable = 2,
+		describe = "핼러윈 나이트 한정판 맛~ \"위치 포션\" 하나 마실래?",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52116] = {
+		can_rotate = 0,
+		name = "호박 램프 노점",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "tanweihl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 2,
+		picture = "hl3/tanweihl3",
+		canputon = 0,
+		discount = 0,
+		id = 52116,
+		comfortable = 2,
+		describe = "어떤 호박 램프 줄까~?",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52117] = {
+		can_rotate = 0,
+		name = "호박 캔디바스켓",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "wuhl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 3,
+		picture = "hl3/wuhl3",
+		canputon = 0,
+		discount = 0,
+		id = 52117,
+		comfortable = 3,
+		describe = "와서 가져가세요~",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52118] = {
+		can_rotate = 0,
+		name = "스크리밍 광고판",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 4,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "zhalanhl3icon",
+		deblocking = 1,
+		level = 1,
+		tag = 1,
+		rarity = 1,
+		picture = "hl3/zhalanhl3",
+		canputon = 0,
+		discount = 0,
+		id = 52118,
+		comfortable = 1,
+		describe = "오늘 밤 특별 퍼레이드 시간은...",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[52119] = {
+		can_rotate = 0,
+		name = "스크리밍 VIP 리무진",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "che3hl3icon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 52119,
+		comfortable = 4,
+		describe = "리무진, 쥬쥬 기사도 붙여줘~?",
+		dorm_id = 0,
+		gem_price = 150,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			11
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"ghostcarB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"ghostcarT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"ghostcarCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[52120] = {
+		can_rotate = 0,
+		name = "스크리밍 영사기",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "fangyingjihl3",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		tag = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 52120,
+		comfortable = 4,
+		describe = "겁쟁이는 영화 볼지 신중하게 생각해~",
+		dorm_id = 0,
+		gem_price = 150,
+		themeId = 52,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"ghostmovie",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"ghostmovieCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -85414,6 +87150,7 @@ pg.furniture_data_template = {
 		100006,
 		100007,
 		100008,
+		100009,
 		1001,
 		1002,
 		1101,
@@ -86614,7 +88351,29 @@ pg.furniture_data_template = {
 		50121,
 		50122,
 		50123,
-		50124
+		50124,
+		52001,
+		52002,
+		52101,
+		52102,
+		52103,
+		52104,
+		52105,
+		52106,
+		52107,
+		52108,
+		52109,
+		52110,
+		52111,
+		52112,
+		52113,
+		52114,
+		52115,
+		52116,
+		52117,
+		52118,
+		52119,
+		52120
 	}
 }
 

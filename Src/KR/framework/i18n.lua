@@ -28,4 +28,20 @@ function i18n1(slot0, ...)
 	return string.format(l10n(slot0), ...)
 end
 
+function i18n2(slot0, ...)
+	if pg.gameset_language_client[slot0] then
+		slot2 = slot1.value
+
+		for slot6, slot7 in ipairs({
+			...
+		}) do
+			slot2 = string.gsub(slot2, "$" .. slot6, slot7)
+		end
+
+		return slot2
+	else
+		return slot0
+	end
+end
+
 return

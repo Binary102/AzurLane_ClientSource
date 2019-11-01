@@ -55,31 +55,65 @@ function pg.TrackerMgr.Call(slot0, slot1, ...)
 	end
 end
 
-function pg.TrackerMgr.Tracking(slot0, slot1, slot2)
-	slot8 = getProxy(ServerProxy).getLastServer(slot6, slot5).id
+function pg.TrackerMgr.Tracking(slot0, slot1, slot2, slot3)
+	if getProxy(UserProxy) == nil or not slot4:getData() then
+		slot5 = nil
+	end
+
+	if slot5 == nil or not slot5.uid then
+		slot6 = nil
+	end
+
+	if slot6 == nil then
+		return
+
+		if getProxy(PlayerProxy) == nil or not slot7:getData() then
+			slot8 = nil
+
+			if not (getProxy(PlayerProxy) ~= nil and slot7.getData()) or nil.id then
+				slot9 = nil
+
+				if not slot9 then
+					slot9 = slot3
+				end
+			end
+		end
+	end
+
+	slot8 = (getProxy(PlayerProxy) ~= nil and slot7.getData()) or nil
+
+	if ((((((getProxy(PlayerProxy) ~= nil and slot7.getData()) or nil) ~= nil and (getProxy(PlayerProxy) ~= nil and slot7.getData()) or nil.id) or nil) ~= nil and ((((getProxy(PlayerProxy) ~= nil and slot7.getData()) or nil) ~= nil and (getProxy(PlayerProxy) ~= nil and slot7.getData()) or nil.id) or nil)) or slot3) == nil then
+		return
+	end
+
+	slot12 = getProxy(ServerProxy).getLastServer(slot10, slot6).id
 
 	if slot1 == TRACKING_2D_RETENTION or slot1 == TRACKING_7D_RETENTION then
-		if PlayerPrefs.GetInt(slot9, 0) <= 0 then
-			print("tracking type : " .. slot1 .. "   user_id:" .. slot5)
-			PlayerPrefs.SetInt(slot9, 1)
+		if PlayerPrefs.GetInt(slot13, 0) <= 0 then
+			print("tracking type : " .. slot1 .. "   user_id:" .. slot9)
+			PlayerPrefs.SetInt(slot13, 1)
 			PlayerPrefs.Save()
-			slot0:Call("Tracking", slot1, slot5, slot2)
+			slot0:Call("Tracking", slot1, slot9, slot2)
 		end
 	else
-		print("tracking type : " .. slot1 .. ",   user_id:" .. slot5 .. ",   data:" .. (slot2 or "nil"))
-		slot0:Call("Tracking", slot1, slot5, slot2, slot8)
+		print("tracking type : " .. slot1 .. ",   user_id:" .. slot9 .. ",   data:" .. (slot2 or "nil"))
+		slot0:Call("Tracking", slot1, slot9, slot2, slot12)
+
+		slot19 = "nil"
 	end
 
 	if slot1 == TRACKING_PURCHASE_CLICK then
 		if slot2 == 1 then
-			print("tracking type : " .. TRACKING_PURCHASE_CLICK_MONTHLYCARD .. "   user_id:" .. slot5)
-			slot0:Call("Tracking", TRACKING_PURCHASE_CLICK_MONTHLYCARD, slot5)
-		elseif slot2 == 2 then
-			print("tracking type : " .. TRACKING_PURCHASE_CLICK_GIFTBAG .. "   user_id:" .. slot5)
-			slot0:Call("Tracking", TRACKING_PURCHASE_CLICK_GIFTBAG, slot5)
+			print("tracking type : " .. TRACKING_PURCHASE_CLICK_MONTHLYCARD .. "   user_id:" .. slot9)
+			slot0:Call("Tracking", TRACKING_PURCHASE_CLICK_MONTHLYCARD, slot9)
 		else
-			print("tracking type : " .. TRACKING_PURCHASE_CLICK_DIAMOND .. "   user_id:" .. slot5)
-			slot0:Call("Tracking", TRACKING_PURCHASE_CLICK_DIAMOND, slot5)
+			if slot2 == 2 then
+				print("tracking type : " .. TRACKING_PURCHASE_CLICK_GIFTBAG .. "   user_id:" .. slot9)
+				slot0:Call("Tracking", TRACKING_PURCHASE_CLICK_GIFTBAG, slot9)
+			else
+				print("tracking type : " .. TRACKING_PURCHASE_CLICK_DIAMOND .. "   user_id:" .. slot9)
+				slot0:Call("Tracking", TRACKING_PURCHASE_CLICK_DIAMOND, slot9)
+			end
 		end
 	end
 end

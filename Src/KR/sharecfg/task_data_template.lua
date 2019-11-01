@@ -39688,7 +39688,8 @@ pg.task_data_template = {
 		fix_task = 0,
 		target_id = {
 			2,
-			3
+			3,
+			18
 		},
 		open_need = {},
 		award_display = {
@@ -63847,6 +63848,859 @@ pg.task_data_template = {
 			"ACT_BOSS_BATTLE"
 		}
 	},
+	[15050] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91890,
+		type = 6,
+		name = "SP1·通过任务 U110",
+		count_inherit = 0,
+		desc = "SP1 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15051",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1270001,
+		id = 15050,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1270001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18012,
+				1
+			},
+			{
+				3,
+				2920,
+				1
+			},
+			{
+				3,
+				4040,
+				2
+			},
+			{
+				1,
+				2,
+				200
+			}
+		}
+	},
+	[15051] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91891,
+		type = 6,
+		name = "SP2·通过任务 U110",
+		count_inherit = 0,
+		desc = "SP2 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15052",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1270002,
+		id = 15051,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1270002",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[15052] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91892,
+		type = 6,
+		name = "SP3·通过任务 U110",
+		count_inherit = 0,
+		desc = "SP3 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1270003,
+		id = 15052,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1270003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		}
+	},
+	[15053] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91893,
+		type = 6,
+		name = "SP1·三星任务 U110",
+		count_inherit = 0,
+		desc = "SP1의 모든 작전목표(★3)를 달성하라!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15054",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1270001,
+		id = 15053,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1270001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[15054] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91894,
+		type = 6,
+		name = "SP2·三星任务 U110",
+		count_inherit = 0,
+		desc = "SP2의 모든 작전목표(★3)를 달성하라!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15055",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1270002,
+		id = 15054,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1270002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[15055] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91895,
+		type = 6,
+		name = "SP3·三星任务 U110",
+		count_inherit = 0,
+		desc = "SP3의 모든 작전목표(★3)를 달성하라!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1270003,
+		id = 15055,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1270003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[15056] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91896,
+		type = 6,
+		name = "U110sp3累计1",
+		count_inherit = 0,
+		desc = "SP3을 10회 클리어한다.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1270003,
+		id = 15056,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "1270003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				136,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15057] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91897,
+		type = 6,
+		name = "U110sp3累计2",
+		count_inherit = 0,
+		desc = "SP3을 20회 클리어한다.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1270003,
+		id = 15057,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "1270003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18012,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15058] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91898,
+		type = 6,
+		name = "U110sp3累计3",
+		count_inherit = 0,
+		desc = "SP3을 40회 클리어한다.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1270003,
+		id = 15058,
+		target_num = 40,
+		fix_task = 0,
+		target_id = "1270003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15059] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91899,
+		type = 6,
+		name = "U110sp3累计4",
+		count_inherit = 0,
+		desc = "SP3을 60회 클리어한다.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1270003,
+		id = 15059,
+		target_num = 60,
+		fix_task = 0,
+		target_id = "1270003",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				408081,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15060] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91900,
+		type = 26,
+		name = "贝利万圣节皮肤复刻1",
+		count_inherit = 0,
+		desc = "함대를 출격시켜, 10회 S랭크로 승리하라!",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15060,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			}
+		}
+	},
+	[15061] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91901,
+		type = 26,
+		name = "贝利万圣节皮肤复刻1",
+		count_inherit = 0,
+		desc = "장비를 2회 강화한다",
+		target_id_2 = "",
+		sub_type = 40,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15061,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15062] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91902,
+		type = 26,
+		name = "贝利万圣节皮肤复刻2",
+		count_inherit = 0,
+		desc = "군사의뢰를 2회 진행한다",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15062,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				100
+			}
+		}
+	},
+	[15063] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91903,
+		type = 26,
+		name = "贝利万圣节皮肤复刻2",
+		count_inherit = 0,
+		desc = "함선 건조를 2회 진행한다",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15063,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15064] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91904,
+		type = 26,
+		name = "贝利万圣节皮肤复刻3",
+		count_inherit = 0,
+		desc = "함선 퇴역을 2회 진행한다",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15064,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	},
+	[15065] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91905,
+		type = 26,
+		name = "贝利万圣节皮肤复刻3",
+		count_inherit = 0,
+		desc = "데일리 챌린지를 3회 완료한다",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15065,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15066] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91906,
+		type = 26,
+		name = "贝利万圣节皮肤复刻4",
+		count_inherit = 0,
+		desc = "임의의 통상 해역 어려움 스테이지 2회 클리어",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15066,
+		target_num = 2,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				2
+			}
+		}
+	},
+	[15067] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91907,
+		type = 26,
+		name = "贝利万圣节皮肤复刻4",
+		count_inherit = 0,
+		desc = "함선 강화를 5회 진행한다",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15067,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15068] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91908,
+		type = 26,
+		name = "贝利万圣节皮肤复刻5",
+		count_inherit = 0,
+		desc = "숙소에서 식량을 5회 보급한다",
+		target_id_2 = "",
+		sub_type = 61,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15068,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50003,
+				5
+			}
+		}
+	},
+	[15069] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91909,
+		type = 26,
+		name = "贝利万圣节皮肤复刻5",
+		count_inherit = 0,
+		desc = "임의의 적 함을 20척 격파한다",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15069,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15070] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91910,
+		type = 26,
+		name = "贝利万圣节皮肤复刻6",
+		count_inherit = 0,
+		desc = "함선 건조를 2회 진행한다",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15070,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	},
+	[15071] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91911,
+		type = 26,
+		name = "贝利万圣节皮肤复刻6",
+		count_inherit = 0,
+		desc = "함대를 출격시켜, 10회 S랭크로 승리하라!",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15071,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15072] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91912,
+		type = 26,
+		name = "贝利万圣节皮肤复刻7",
+		count_inherit = 0,
+		desc = "함대를 출격시켜, 적 주력함대를 3번 격파하라!",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15072,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54016,
+				5
+			}
+		}
+	},
+	[15073] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91913,
+		type = 26,
+		name = "贝利万圣节皮肤复刻7",
+		count_inherit = 0,
+		desc = "전술학원에서 전술훈련을 2회 진행한다",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15073,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				7,
+				101271,
+				1
+			}
+		}
+	},
 	[30201] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -66087,6 +66941,10 @@ pg.task_data_template = {
 			{
 				2,
 				3
+			},
+			{
+				2,
+				18
 			}
 		},
 		open_need = {},
@@ -66122,6 +66980,10 @@ pg.task_data_template = {
 			{
 				2,
 				3
+			},
+			{
+				2,
+				18
 			}
 		},
 		open_need = {},
@@ -66213,6 +67075,10 @@ pg.task_data_template = {
 			{
 				2,
 				3
+			},
+			{
+				2,
+				18
 			}
 		},
 		open_need = {
@@ -66669,6 +67535,10 @@ pg.task_data_template = {
 			{
 				3,
 				3
+			},
+			{
+				3,
+				18
 			}
 		},
 		open_need = {},
@@ -66704,6 +67574,10 @@ pg.task_data_template = {
 			{
 				3,
 				3
+			},
+			{
+				3,
+				18
 			}
 		},
 		open_need = {},
@@ -66795,6 +67669,10 @@ pg.task_data_template = {
 			{
 				3,
 				3
+			},
+			{
+				3,
+				18
 			}
 		},
 		open_need = {
@@ -67251,6 +68129,10 @@ pg.task_data_template = {
 			{
 				4,
 				3
+			},
+			{
+				4,
+				18
 			}
 		},
 		open_need = {},
@@ -67286,6 +68168,10 @@ pg.task_data_template = {
 			{
 				4,
 				3
+			},
+			{
+				4,
+				18
 			}
 		},
 		open_need = {},
@@ -67377,6 +68263,10 @@ pg.task_data_template = {
 			{
 				4,
 				3
+			},
+			{
+				4,
+				18
 			}
 		},
 		open_need = {
@@ -67528,6 +68418,10 @@ pg.task_data_template = {
 			{
 				1,
 				3
+			},
+			{
+				1,
+				18
 			}
 		},
 		open_need = {},
@@ -67563,6 +68457,10 @@ pg.task_data_template = {
 			{
 				1,
 				3
+			},
+			{
+				1,
+				18
 			}
 		},
 		open_need = {},
@@ -67654,6 +68552,10 @@ pg.task_data_template = {
 			{
 				1,
 				3
+			},
+			{
+				1,
+				18
 			}
 		},
 		open_need = {
@@ -67831,6 +68733,10 @@ pg.task_data_template = {
 			{
 				1,
 				3
+			},
+			{
+				1,
+				18
 			}
 		},
 		open_need = {},
@@ -67926,6 +68832,10 @@ pg.task_data_template = {
 			{
 				1,
 				3
+			},
+			{
+				1,
+				18
 			}
 		},
 		open_need = {
@@ -72252,6 +73162,30 @@ pg.task_data_template = {
 		15039,
 		15040,
 		15041,
+		15050,
+		15051,
+		15052,
+		15053,
+		15054,
+		15055,
+		15056,
+		15057,
+		15058,
+		15059,
+		15060,
+		15061,
+		15062,
+		15063,
+		15064,
+		15065,
+		15066,
+		15067,
+		15068,
+		15069,
+		15070,
+		15071,
+		15072,
+		15073,
 		30201,
 		30202,
 		30203,

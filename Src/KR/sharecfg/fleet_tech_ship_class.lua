@@ -57,6 +57,7 @@ pg.fleet_tech_ship_class = {
 			10112,
 			10133,
 			10134,
+			10142,
 			10113,
 			10111,
 			10138,
@@ -987,6 +988,7 @@ pg.fleet_tech_ship_class = {
 		nation = 3,
 		ships = {
 			30121,
+			30123,
 			30125,
 			30126
 		}
@@ -1644,7 +1646,7 @@ pg.fleet_tech_ship_class = {
 		name = "IXC형 ",
 		t_level = 7,
 		id = 40803,
-		t_level_1 = 140,
+		t_level_1 = 141,
 		nation = 4,
 		ships = {
 			40807

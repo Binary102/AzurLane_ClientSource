@@ -52,6 +52,7 @@ function slot0.init(slot0)
 	slot0.userAgreenMainTF = slot0:findTF("UserAgreement/window")
 	slot0.closeUserAgreenTF = slot0.userAgreenTF:Find("window/close_btn")
 	slot0.userAgreenConfirmTF = slot0:findTF("UserAgreement/window/accept_btn")
+	slot0.userDisagreeConfirmTF = slot0:findTF("UserAgreement/window/disagree_btn")
 
 	setActive(slot0.userAgreenTF, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.userAgreenTF, slot0._tf)
@@ -251,11 +252,24 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.closeUserAgreenTF, function ()
-		setActive(slot0.userAgreenMainTF, false)
-		onNextTick(function ()
-			setActive(slot0.userAgreenMainTF, true)
-		end)
+		if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
+			setActive(slot0.userAgreenTF, false)
+			pg.UIMgr.GetInstance():UnblurPanel(slot0.userAgreenTF, slot0._tf)
+		else
+			setActive(slot0.userAgreenMainTF, false)
+			onNextTick(function ()
+				setActive(slot0.userAgreenMainTF, true)
+			end)
+		end
 	end, SFX_CANCEL)
+
+	if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
+		onButton(slot0, slot0.userDisagreeConfirmTF, function ()
+			setActive(slot0.userAgreenTF, false)
+			pg.UIMgr.GetInstance():UnblurPanel(slot0.userAgreenTF, slot0._tf)
+		end)
+	end
+
 	setActive(slot0.serviceBtn, PLATFORM_CODE == PLATFORM_KR)
 	onButton(slot0, slot0.serviceBtn, function ()
 		if PLATFORM_CODE == PLATFORM_KR then
@@ -303,8 +317,14 @@ function slot0.didEnter(slot0)
 			return
 		end
 
+		if not getProxy(SettingsProxy):getUserAgreement() and PLATFORM_KR ~= PLATFORM_CODE then
+			slot0.event:emit(LoginMediator.ON_LOGIN_PROCESS)
+
+			return
+		end
+
 		if go(slot0.pressToLogin).activeSelf then
-			if slot0(slot0.serverList or {}) == 0 then
+			if table.getCount(slot0.serverList or {}) == 0 then
 				slot1()
 
 				return

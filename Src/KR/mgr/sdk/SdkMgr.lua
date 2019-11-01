@@ -149,6 +149,10 @@ function pg.SdkMgr.LoginWithSocial(slot0, slot1, slot2, slot3)
 	slot0:Call("LoginWithSocial", slot1, slot2, slot3)
 end
 
+function pg.SdkMgr.LoginWithDevice(slot0)
+	slot0:Call("LoginWithDevice")
+end
+
 function pg.SdkMgr.AiriBuy(slot0, slot1, slot2, slot3)
 	slot0:Call("AiriBuy", slot1, slot2, slot3)
 end
@@ -211,6 +215,22 @@ end
 
 function pg.SdkMgr.UserEventUpload(slot0, slot1)
 	slot0:Call("UserEventUpload", slot1)
+end
+
+function pg.SdkMgr.CheckAiriCanBuy(slot0)
+	if PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
+		return slot0:Get("CheckAiriCanBuy")
+	else
+		return true
+	end
+end
+
+function pg.SdkMgr.CheckHadAccountCache(slot0)
+	if PLATFORM_CODE == PLATFORM_JP then
+		return slot0:Get("CheckHadAccountCache")
+	else
+		return true
+	end
 end
 
 AIRI_LAST_GEN_TIME = 0

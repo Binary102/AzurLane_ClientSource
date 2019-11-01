@@ -122,11 +122,14 @@ function slot0.AddListener(slot0)
 	onButton(slot0, slot0.retreatBtn, function ()
 		slot1 = slot0.contextData.map
 		slot2 = "levelScene_whether_to_retreat"
+		slot3 = nil
 
 		if slot0.contextData.chapterVO:existOni() then
 			slot2 = "levelScene_oni_retreat"
+			slot3 = true
 		elseif slot0:isPlayingWithBombEnemy() then
 			slot2 = "levelScene_bomb_retreat"
+			slot3 = true
 		elseif slot0:getPlayType() == ChapterConst.TypeTransport and not slot1:isSkirmish() then
 			slot2 = "levelScene_escort_retreat"
 		end
@@ -135,7 +138,8 @@ function slot0.AddListener(slot0)
 			content = i18n(slot2),
 			onYes = function ()
 				slot0:emit(LevelMediator2.ON_OP, {
-					type = ChapterConst.OpRetreat
+					type = ChapterConst.OpRetreat,
+					win = slot0
 				})
 			end
 		})
@@ -1438,7 +1442,6 @@ function slot0.tryAutoAction(slot0, slot1)
 							return
 						end
 					})
-					coroutine.yield()
 				end
 
 				if slot4:getSpAppearStory() and #slot1 > 0 then
@@ -1915,66 +1918,17 @@ function slot0.SafeCheck(slot0)
 		end
 	end
 
-	slot8 = false
-	slot9 = ChapterConst.ReasonDefeat
+	slot7, slot8 = slot1:CheckChapterLose()
 
-	for slot13, slot14 in pairs(slot7) do
-		if slot14.type == 1 then
-			slot15 = _.any(slot1.fleets, function (slot0)
-				if slot0:getFleetType() == FleetType.Normal then
-					slot1 = slot0:isValid()
-				else
-					slot1 = false
-
-					if false then
-						slot1 = true
-					end
-				end
-
-				return slot1
-			end)
-
-			if not slot8 then
-				slot8 = not slot15
-			end
-		else
-			if slot14.type == 2 then
-				if not slot8 then
-					if slot1.BaseHP > 0 then
-						slot8 = false
-					else
-						slot8 = true
-					end
-				end
-
-				if slot8 then
-					slot9 = ChapterConst.ReasonDefeatDefense
-				end
-			end
-		end
-
-		if slot8 then
-			break
-		end
-	end
-
-	if slot1:getPlayType() == ChapterConst.TypeTransport and not slot8 then
-		if slot4 ~= -1 then
-			slot8 = false
-		else
-			slot8 = true
-		end
-	end
-
-	if slot8 then
-		return true, slot9
+	if slot7 then
+		return true, slot8
 	end
 
 	if slot1:existOni() then
 		if slot1:checkOniState() == 1 then
 			return true, ChapterConst.ReasonVictoryOni
 		else
-			if slot10 == 2 then
+			if slot9 == 2 then
 				return true, ChapterConst.ReasonDefeatOni
 			end
 		end
@@ -1998,9 +1952,9 @@ function slot0.SafeCheck(slot0)
 		return true, ChapterConst.ReasonOutTime
 	end
 
-	slot10 = slot1:getConfig("act_id")
+	slot9 = slot1:getConfig("act_id")
 
-	if not slot0.contextData.map:isRemaster() and slot10 ~= 0 and (not getProxy(ActivityProxy):getActivityById(slot10) or slot12:isEnd()) then
+	if not slot0.contextData.map:isRemaster() and slot9 ~= 0 and (not getProxy(ActivityProxy):getActivityById(slot9) or slot11:isEnd()) then
 		return true, ChapterConst.ReasonActivityOutTime
 	end
 

@@ -6808,7 +6808,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "vote_rank_in_current_server"
 	},
 	words_auto_battle_label = {
-		tip = "자율전투 안내",
+		tip = "자율 전투 종료 시 진동 알림 ",
 		key = "words_auto_battle_label"
 	},
 	words_show_ship_name_label = {
@@ -6943,134 +6943,6 @@ B평가:<color=#92fc63>70</color>점
 		tip = "$1은(는) 가지고 있지 않습니다.",
 		key = "err_cloth_change_noship"
 	},
-	airi_error_code_500 = {
-		tip = "에러가 발생했습니다.：HTTP 요청",
-		key = "airi_error_code_500"
-	},
-	airi_error_code_1100 = {
-		tip = "생일이 설정되어 있지 않습니다.",
-		key = "airi_error_code_1100"
-	},
-	airi_error_code_1101 = {
-		tip = "에러가 발생했습니다.：AirSDK에서 상품 ID를 확인할 수 없습니다.",
-		key = "airi_error_code_1101"
-	},
-	airi_error_code_1102 = {
-		tip = "설정된 생일에 의해 더 이상 구입할 수 없습니다.",
-		key = "airi_error_code_1102"
-	},
-	airi_error_code_1103 = {
-		tip = "에러가 발생했습니다.：AirSDK에서 상점 정보를 확인할 수 없습니다.",
-		key = "airi_error_code_1103"
-	},
-	airi_error_code_1104 = {
-		tip = "에러가 발생했습니다.：플레이스토어의 결제정보를 확인하지 못했습니다.",
-		key = "airi_error_code_1104"
-	},
-	airi_error_code_1105 = {
-		tip = "에러가 발생했습니다.：AirSDK에서 비정상적인 구입 요청입니다.",
-		key = "airi_error_code_1105"
-	},
-	airi_error_code_1106 = {
-		tip = "에러가 발생했습니다.：비정상적인 구입 요청입니다.",
-		key = "airi_error_code_1106"
-	},
-	airi_error_code_1107 = {
-		tip = "결제 시간이 너무 깁니다.",
-		key = "airi_error_code_1107"
-	},
-	airi_error_code_1108 = {
-		tip = "플레이스토어의 상품 정보를 확인하지 못했습니다.",
-		key = "airi_error_code_1108"
-	},
-	airi_error_code_1109 = {
-		tip = "결제에 실패했습니다.",
-		key = "airi_error_code_1109"
-	},
-	airi_error_code_1110 = {
-		tip = "결제가 취소되었습니다.",
-		key = "airi_error_code_1110"
-	},
-	airi_error_code_10001 = {
-		tip = "지원하지 않는 유형의 결제 플랫폼입니다.",
-		key = "airi_error_code_10001"
-	},
-	airi_error_code_10002 = {
-		tip = "결제 정보에 에러가 발생했습니다.",
-		key = "airi_error_code_10002"
-	},
-	airi_error_code_10003 = {
-		tip = "SDK 버전과 호환되지 않습니다.",
-		key = "airi_error_code_10003"
-	},
-	airi_error_code_10101 = {
-		tip = "SDK가 적용되어 있지 않습니다.",
-		key = "airi_error_code_10101"
-	},
-	airi_error_code_10102 = {
-		tip = "상점의 초기화에 실패했습니다.",
-		key = "airi_error_code_10102"
-	},
-	airi_error_code_100000 = {
-		tip = "에러가 발생했습니다.：Token이 효력을 잃었습니다.",
-		key = "airi_error_code_100000"
-	},
-	airi_error_code_100200 = {
-		tip = "다른 단말기에서 로그인되었습니다. 새로운 계정으로 로그인합니다.",
-		key = "airi_error_code_100200"
-	},
-	airi_error_code_100210 = {
-		tip = "SDK 서버는 트위터 연동을 지원하지 않습니다.(100210)",
-		key = "airi_error_code_100210"
-	},
-	airi_error_code_100211 = {
-		tip = "게임 데이터와 연동되어 있지 않은 트위터 계정입니다.(100211)",
-		key = "airi_error_code_100211"
-	},
-	airi_error_code_100212 = {
-		tip = "트위터 연동 중 에러가 발생했습니다.(100212)",
-		key = "airi_error_code_100212"
-	},
-	airi_error_code_100400 = {
-		tip = "UID 혹은 인계 코드를 잘못 입력하셨습니다.",
-		key = "airi_error_code_100400"
-	},
-	airi_error_code_100500 = {
-		tip = "이미 생일이 설정되어 있습니다.",
-		key = "airi_error_code_100500"
-	},
-	airi_error_code_100501 = {
-		tip = "생일을 잘못 입력하셨습니다.",
-		key = "airi_error_code_100501"
-	},
-	airi_error_code_100610 = {
-		tip = "SDK 서버는 트위터 연동을 지원하지 않습니다.(100610)",
-		key = "airi_error_code_100610"
-	},
-	airi_error_code_100611 = {
-		tip = "다른 게임 데이터와 연동되어 있습니다.(100611)",
-		key = "airi_error_code_100611"
-	},
-	airi_error_code_100612 = {
-		tip = "트위터 연동 중 에러가 발생했습니다.(100612)",
-		key = "airi_error_code_100612"
-	},
-	airi_error_code_100710 = {
-		tip = "该SDK服务器不支持解除推特绑定",
-		key = "airi_error_code_100710"
-	},
-	airi_error_code_100711 = {
-		tip = "验证的Twitter账号不匹配或账号没有绑定过",
-		key = "airi_error_code_100711"
-	},
-	airi_error_code_100712 = {
-		tip = "Twitter登陆时发生错误，推特解绑失败",
-		key = "airi_error_code_100712"
-	},
-	airi_error_code_other = {
-		tip = "알 수 없는 에러가 발생했습니다...",
-		key = "airi_error_code_other"
-	},
 	["new_airi_error_code_-1"] = {
 		tip = "Unknown Error",
 		key = "new_airi_error_code_-1"
@@ -7171,6 +7043,14 @@ B평가:<color=#92fc63>70</color>점
 		tip = "Facebook login cancelled",
 		key = "new_airi_error_code_100220"
 	},
+	new_airi_error_code_100221 = {
+		tip = "フェイスブック連携承認に失敗しました",
+		key = "new_airi_error_code_100221"
+	},
+	new_airi_error_code_100222 = {
+		tip = "ツイッター連携承認に失敗しました",
+		key = "new_airi_error_code_100222"
+	},
 	new_airi_error_code_100230 = {
 		tip = "Initialization failed",
 		key = "new_airi_error_code_100230"
@@ -7262,6 +7142,58 @@ B평가:<color=#92fc63>70</color>점
 	new_airi_error_code_200230 = {
 		tip = "GooglePay / AppStorePay / Molpay cancelled",
 		key = "new_airi_error_code_200230"
+	},
+	new_airi_error_code_200240 = {
+		tip = "请求的类型不支持结算API版本",
+		key = "new_airi_error_code_200240"
+	},
+	new_airi_error_code_200250 = {
+		tip = "提供给API的参数无效",
+		key = "new_airi_error_code_200250"
+	},
+	new_airi_error_code_200260 = {
+		tip = "API操作期间发生致命错误",
+		key = "new_airi_error_code_200260"
+	},
+	new_airi_error_code_200270 = {
+		tip = "当前设备上的Play商店不支持请求的功能",
+		key = "new_airi_error_code_200270"
+	},
+	new_airi_error_code_200280 = {
+		tip = "由于物品已经拥有，未消耗",
+		key = "new_airi_error_code_200280"
+	},
+	new_airi_error_code_200290 = {
+		tip = "由于物品已经拥有，并且消耗失败",
+		key = "new_airi_error_code_200290"
+	},
+	new_airi_error_code_200300 = {
+		tip = "请求的产品无法购买",
+		key = "new_airi_error_code_200300"
+	},
+	new_airi_error_code_200310 = {
+		tip = "Google Play服务无法连接",
+		key = "new_airi_error_code_200310"
+	},
+	new_airi_error_code_200320 = {
+		tip = "在Google Play响应之前，请求已达到最大超时时间",
+		key = "new_airi_error_code_200320"
+	},
+	new_airi_error_code_200330 = {
+		tip = "网络连接已关闭",
+		key = "new_airi_error_code_200330"
+	},
+	new_airi_error_code_200340 = {
+		tip = "用户取消了支付",
+		key = "new_airi_error_code_200340"
+	},
+	new_airi_error_code_200350 = {
+		tip = "查询商品ID失败",
+		key = "new_airi_error_code_200350"
+	},
+	new_airi_error_code_200360 = {
+		tip = "连接Play services失败",
+		key = "new_airi_error_code_200360"
 	},
 	new_airi_error_code_300100 = {
 		tip = "Sharing failed",
@@ -11442,6 +11374,14 @@ TIPS:
 	text_inconsume = {
 		tip = "비소비 ",
 		key = "text_inconsume"
+	},
+	pt_ship_now = {
+		tip = "현재 격침:",
+		key = "pt_ship_now"
+	},
+	pt_ship_goal = {
+		tip = "목표 격침:",
+		key = "pt_ship_goal"
 	}
 }
 

@@ -28,7 +28,7 @@ return {
 			},
 			arg_list = {
 				buff_id_list = {
-					19221
+					19220
 				}
 			}
 		},

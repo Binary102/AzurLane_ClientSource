@@ -24,7 +24,7 @@ return {
 			actorName = "{namecode:48}",
 			bgm = "story-1",
 			actor = 302051,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			bgName = "bg_night",
 			say = "겨우 착지했네……",
 			flashout = {
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 101271,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "드디어 찾았다, 길 잃은 유령!",
 			typewriter = {
 				speed = 0.05,
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 101271,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "…어라? 하얀 천이랑 램프를 얹은 함재기…? 엥? 왜 다들 여기 있는 거야?!",
 			typewriter = {
 				speed = 0.05,
@@ -101,7 +101,7 @@ return {
 			actor = 107030,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "어땠어? 새러토가의 천재적인 함재기 컨트롤 실력은!",
 			typewriter = {
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 101271,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "유령은 새러토가의 장난이었구나…",
 			typewriter = {
 				speed = 0.05,
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "그런 거지! 뭐 나도 거들었지만 말야~♪",
 			typewriter = {
 				speed = 0.05,
@@ -160,7 +160,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 108020,
 			actorName = "???",
@@ -178,7 +178,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 108020,
 			actorName = "???",
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 101271,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "전부 알바코어 목소리였어?!",
 			typewriter = {
 				speed = 0.05,
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "내 연기 실력, 꽤 괜찮지? 에헤헤~",
 			typewriter = {
 				speed = 0.05,
@@ -239,7 +239,7 @@ return {
 			actor = 205031,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "잠깐만, 유령은 그냥 장난이었다고 해도, 그 하늘을 나는 빗자루는……어라, 빗자루는?",
 			typewriter = {
@@ -255,7 +255,7 @@ return {
 			actor = 213021,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "빗자루는, 유바리가 회수했어요…다음 실험에 쓰기 위해……",
 			typewriter = {
@@ -268,7 +268,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_night",
 			hideOther = true,
@@ -314,7 +314,7 @@ return {
 			actor = 205031,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "하아……그러니까, 이 핼러윈 장난은 테러도 모항의 과학부도 다 한패였다 이거네…",
 			typewriter = {
@@ -330,7 +330,7 @@ return {
 			actor = 101271,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "그 빗자루로 하늘 나는 거, 정말 재밌더라! 한 번 더 타고 싶다아~!",
 			typewriter = {
@@ -346,7 +346,7 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 302051,
 			actorName = "{namecode:48}",
@@ -364,7 +364,7 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "유령 같은 건 처음부터 없었다냥. 아무튼 '핼러윈 장난 신병기 테스트 작전' 이 무사히 종료되어 다행이다냥.",
 			typewriter = {
@@ -380,7 +380,7 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "카게로가 만든 호박파이도 가져왔으니냥, 다 같이 먹자냥~",
 			typewriter = {
@@ -396,7 +396,7 @@ return {
 			actor = 205040,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "언니, 빗자루로 날아본 감상은 어때요?",
 			typewriter = {
@@ -414,7 +414,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 205031,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "의, 의외로 나쁘지 않던데……가 아니지, 로드니! 너 처음부터 알고 있었지!",
 			typewriter = {
 				speed = 0.05,
@@ -439,7 +439,7 @@ return {
 			actor = 205040,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "그럼요~ 아카시에게 핼러윈 의상을 받을 때부터 알고 있었죠. 딱히 괜찮지 않나요, 언니도 무척 즐기신 거 같고…후훗",
 			typewriter = {
@@ -455,7 +455,7 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "그렇다냥~ 이렇게까지 홍보를 했으면 핼러윈 굿즈 판매는 분명 대박일 거다냥. 아카시는 역시 천재다냥~",
 			typewriter = {
@@ -472,7 +472,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 205031,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "이 일의 흑막은 아카시였군……",
 			typewriter = {
 				speed = 0.05,
@@ -497,7 +497,7 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "냐냥?! 해, 핼러윈이 끝나기 전까진 아직 시간이 남았다냥! 아카시는 신경 쓰지 말고 모두 즐겨주길 바랄게냥~!",
 			typewriter = {
@@ -510,7 +510,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_night",
 			hideOther = true,
@@ -548,7 +548,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 205031,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "잠깐! 갑자기 딴 얘기 하지 말라고~!!",
 			typewriter = {
 				speed = 0.05,

@@ -8690,6 +8690,61 @@ pg.memory_template = {
 		icon = "memory_junheboss",
 		is_open = 0
 	},
+	[950] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "질서 정연한 준비 ",
+		condition = "「혼돈의 핼러윈 나이트」DAY1 해제",
+		story = "MENGFEISIWANSHENG1",
+		id = 950,
+		icon = "memory_mengfeisiwansheng",
+		is_open = 0
+	},
+	[951] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "위치 딜리버리, 성왕리에 개장 중 ",
+		condition = "「혼돈의 핼러윈 나이트」DAY2 해제",
+		story = "MENGFEISIWANSHENG2",
+		id = 951,
+		icon = "memory_mengfeisiwansheng",
+		is_open = 0
+	},
+	[952] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "관례적인 장난 ",
+		condition = "「혼돈의 핼러윈 나이트」DAY4 해제",
+		story = "MENGFEISIWANSHENG3",
+		id = 952,
+		icon = "memory_mengfeisiwansheng",
+		is_open = 0
+	},
+	[953] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "파티 전 변장 ",
+		condition = "「혼돈의 핼러윈 나이트」DAY6 해제",
+		story = "MENGFEISIWANSHENG4",
+		id = 953,
+		icon = "memory_mengfeisiwansheng",
+		is_open = 0
+	},
+	[954] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "혼돈의 축제 ",
+		condition = "「혼돈의 핼러윈 나이트」DAY7 해제",
+		story = "MENGFEISIWANSHENG5",
+		id = 954,
+		icon = "memory_mengfeisiwansheng",
+		is_open = 0
+	},
 	[10000] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -10218,6 +10273,11 @@ pg.memory_template = {
 		936,
 		937,
 		938,
+		950,
+		951,
+		952,
+		953,
+		954,
 		10000,
 		10001,
 		10002,

@@ -15,7 +15,7 @@ function slot0.preload(slot0, slot1)
 
 	parallelAsync({
 		function (slot0)
-			GetSpriteFromAtlasAsync("bg/star_level_bg_" .. slot0:getShipBgPrint(), "", slot0)
+			GetSpriteFromAtlasAsync("bg/star_level_bg_" .. slot0:rarity2bgPrintForGet(), "", slot0)
 		end,
 		function (slot0)
 			if not PoolMgr.GetInstance():HasCacheUI("ShipDetailView") then

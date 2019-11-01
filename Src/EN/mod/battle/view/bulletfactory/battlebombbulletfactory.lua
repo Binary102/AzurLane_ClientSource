@@ -371,36 +371,51 @@ function slot2(slot0)
 	slot1 = slot1(slot2)
 	slot1 = slot1.hit_type
 	slot1 = slot1.range
-	slot2 = slot0
-	slot2 = slot2.Battle
-	slot2 = slot2.BattleFXPool
-	slot2 = slot2.GetInstance
-	slot2 = slot2()
-	slot3 = slot2
-	slot2 = slot2.GetFX
-	slot5 = slot0
-	slot4 = slot0.GetTemplate
-	slot4 = slot4(slot5)
-	slot4 = slot4.alert_fx
-	slot2 = slot2(slot3, slot4)
-	slot3 = slot2.transform
-	slot4 = Vector3
-	slot5 = slot1
-	slot6 = 0
-	slot7 = slot1
-	slot4 = slot4(slot5, slot6, slot7)
-	slot3.localScale = slot4
-	slot4 = pg
-	slot4 = slot4.EffectMgr
-	slot4 = slot4.GetInstance
-	slot4 = slot4()
-	slot5 = slot4
-	slot4 = slot4.PlayBattleEffect
-	slot6 = slot2
-	slot8 = slot0
-	slot7 = slot0.GetExplodePostion
+	slot3 = slot0
+	slot2 = slot0.GetTemplate
+	slot2 = slot2(slot3)
+	slot2 = slot2.alert_fx
+	slot3 = slot0
+	slot3 = slot3.Battle
+	slot3 = slot3.BattleFXPool
+	slot3 = slot3.GetInstance
+	slot3 = slot3()
+	slot4 = slot3
+	slot3 = slot3.GetFX
+	slot5 = slot2
+	slot3 = slot3(slot4, slot5)
+	slot4 = slot3.transform
+	slot5 = 0
+	slot6 = pg
+	slot6 = slot6.effect_offset
+	slot7 = slot6[slot2]
 
-	slot4(slot5, slot6, slot7(slot8))
+	if slot7 then
+		slot7 = slot6[slot2]
+		slot7 = slot7.y_scale
+
+		if slot7 == true then
+			slot5 = slot1
+		end
+	end
+
+	slot7 = Vector3
+	slot8 = slot1
+	slot9 = slot5
+	slot10 = slot1
+	slot7 = slot7(slot8, slot9, slot10)
+	slot4.localScale = slot7
+	slot7 = pg
+	slot7 = slot7.EffectMgr
+	slot7 = slot7.GetInstance
+	slot7 = slot7()
+	slot8 = slot7
+	slot7 = slot7.PlayBattleEffect
+	slot9 = slot3
+	slot11 = slot0
+	slot10 = slot0.GetExplodePostion
+
+	slot7(slot8, slot9, slot10(slot11))
 end
 
 slot1.CreateBulletAlert = slot2

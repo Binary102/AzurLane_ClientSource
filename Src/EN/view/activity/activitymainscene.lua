@@ -185,6 +185,10 @@ slot1 = {
 		className = "SitanliLoginPage",
 		uiName = "sitanliloginpage"
 	},
+	[ActivityConst.AVRORA_TW_CBT] = {
+		className = "AvroraTWCBTPage",
+		uiName = "avroratwcbtpage"
+	},
 	[ActivityConst.ACTIVITY_ID_STORY_AWARD] = {
 		className = "StoryAwardPage",
 		uiName = "storyawardpage"
@@ -257,6 +261,10 @@ slot1 = {
 		className = "MikasaPreviewPage",
 		uiName = "mikasamainPage"
 	},
+	[ActivityConst.CYGENT_SWIMSUIT] = {
+		className = "CygentSwimsuitPage",
+		uiName = "cygentswimsuit"
+	},
 	[ActivityConst.ACTIVITY_U110_BATTLE_PAGE] = {
 		className = "U110BattlePage",
 		uiName = "U110BattlePage"
@@ -280,9 +288,31 @@ slot1 = {
 	[ActivityConst.MEMPHIS_HALLOWEEN] = {
 		className = "MemphisHalloweenPage",
 		uiName = "memphishalloweenpage"
+	},
+	[ActivityConst.BAILEY_HALLOWEEN] = {
+		className = "BaileyHalloweenPage",
+		uiName = "baileyhalloweenpage"
+	},
+	[ActivityConst.IDOL_PT_ID] = {
+		className = "IdolPTPage",
+		uiName = "idolptpage"
+	},
+	[ActivityConst.MUSIC_CHUIXUE7DAY_ID] = {
+		className = "Chuixue7daySkinPage",
+		uiName = "chuixue7dayskinpage"
+	},
+	[ActivityConst.ANIME_LOGIN] = {
+		className = "AnimeLoginPage",
+		uiName = "AnimeLoginPage"
+	},
+	[ActivityConst.MUSIC_FESTIVAL_ID] = {
+		className = "XiefeierIdolMusicPage",
+		uiName = "xiefeieridolmusicpage"
 	}
 }
-slot2 = {}
+slot2 = {
+	[ActivityConst.IDOL_INS_ID] = ActivityConst.IDOL_PT_ID
+}
 
 function slot0.preload(slot0, slot1)
 	slot1()

@@ -28,6 +28,7 @@ function slot0.init(slot0)
 	slot0._shake = slot0:findTF("shake_panel")
 	slot0._shade = slot0:findTF("shade")
 	slot0._bg = slot0._shake:Find("bg")
+	slot0._staticBg = slot0._bg:Find("static_bg")
 	slot0._paintingTF = slot0._shake:Find("paint")
 	slot0._dialogue = slot0._shake:Find("dialogue")
 	slot0._skinName = slot0._dialogue:Find("name"):GetComponent(typeof(Text))
@@ -102,15 +103,20 @@ function slot0.setSkin(slot0, slot1)
 	slot4 = nil
 	slot4 = (not slot0._skinConfig.bg_sp or slot0._skinConfig.bg_sp == "" or slot0._skinConfig.bg_sp) and ((slot0._skinConfig.bg and #slot0._skinConfig.bg > 0 and slot0._skinConfig.bg) or (slot0._skinConfig.rarity_bg and #slot0._skinConfig.rarity_bg > 0 and slot0._skinConfig.rarity_bg))
 
-	if not slot4 or not ("bg/star_level_bg_" .. slot4) then
-		slot4 = "newshipbg/bg_" .. ((ShipGroup.IsBluePrintGroup(slot2) and "0") or "") .. ShipRarity.Rarity2Print(slot3.rarity)
+	if slot4 then
+		pg.DynamicBgMgr.GetInstance():LoadBg(slot0, slot4, slot0._bg, slot0._staticBg, function (slot0)
+			slot0.isLoadBg = true
+		end, function (slot0)
+			slot0.isLoadBg = true
+		end)
+	else
+		GetSpriteFromAtlasAsync("newshipbg/bg_" .. ((ShipGroup.IsBluePrintGroup(slot2) and "0") or "") .. ShipRarity.Rarity2Print(slot3.rarity), "", function (slot0)
+			setImageSprite(slot0._staticBg, slot0, true)
+
+			slot0.isLoadBg = true
+		end)
 	end
 
-	GetSpriteFromAtlasAsync(slot4, "", function (slot0)
-		setImageSprite(slot0._bg, slot0, true)
-
-		slot0.isLoadBg = true
-	end)
 	setPaintingPrefabAsync(slot0._paintingTF, slot0._skinConfig.painting, "huode")
 
 	slot0._skinName.text = i18n("ship_newSkin_name", HXSet.hxLan(slot0._skinConfig.name))

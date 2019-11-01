@@ -124,4 +124,12 @@ function GCThread.WatchStep(slot0)
 	end
 end
 
+function GCThread.MarkMemory(slot0, slot1)
+	slot2 = collectgarbage("count")
+
+	warning(slot1 or "MemoryMark", slot2, slot2 - (slot0.lastMem or 0))
+
+	slot0.lastMem = slot2
+end
+
 return GCThread

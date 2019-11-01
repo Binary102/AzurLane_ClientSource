@@ -9629,9 +9629,9 @@ pg.ship_skin_template = {
 	},
 	[102160] = {
 		ship_group = 10216,
-		name = "孟菲斯",
+		name = "Memphis ",
 		bullet_skin_main = "",
-		desc = "奥马哈级轻巡洋舰—孟菲斯，舷号CL-12",
+		desc = "Omaha-class light cruiser – Memphis, Hull Number CL-12. ",
 		illustrator2 = -1,
 		id = 102160,
 		bullet_skin_secondary = "",
@@ -10254,7 +10254,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 205,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -17715,7 +17715,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 161,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -17808,7 +17808,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70210,
-		voice_actor = -1,
+		voice_actor = 161,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -57580,6 +57580,106 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[401019] = {
+		ship_group = 40101,
+		name = "Z1 (Retrofit) ",
+		bullet_skin_main = "",
+		desc = "Hmm... So this is a retrofit, huh? Not bad! Rejoice once more, Commander, for no task or enemy is too daunting for the new and improved Z1! ",
+		illustrator2 = -1,
+		id = 401019,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "Z1_g",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "Z1_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 17,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.68,
+					0.96,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.011,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.61,
+					0.87,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[401180] = {
 		ship_group = 40118,
 		name = "Z18",
@@ -59973,6 +60073,113 @@ pg.ship_skin_template = {
 						{
 							-0.64,
 							2.606,
+							-0.472
+						}
+					}
+				}
+			}
+		}
+	},
+	[402049] = {
+		ship_group = 40204,
+		name = "Leipzig (Retrofit)",
+		bullet_skin_main = "",
+		desc = "I feel like Fishy is a lot more capable than before, but I don't feel much different... M-maybe Fishy was the one to get a retrofit instead of me?!",
+		illustrator2 = -1,
+		id = 402049,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "laibixi_g",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "laibixi_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 78,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.19,
+					1.15,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.19,
+					1.15,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.239,
+					-0.109,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.19,
+					1.17,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.462,
 							-0.472
 						}
 					}
@@ -63022,6 +63229,194 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[408020] = {
+		ship_group = 40802,
+		name = "U-47",
+		bullet_skin_main = "",
+		desc = "Iron Blood Type VIIB submarine – U-47. ",
+		illustrator2 = -1,
+		id = 408020,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "U47",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "U47",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 160,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.98,
+					0.37,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.57,
+					0.1,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.58,
+							2.1,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408021] = {
+		ship_group = 40802,
+		name = "Rookie Rider",
+		bullet_skin_main = "",
+		desc = "I haven't seen much of the world on land... Commander, want to explore it with me?",
+		illustrator2 = -1,
+		id = 408021,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "U47_2",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "105",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "U47_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70079,
+		voice_actor = 160,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.05,
+					0.31,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.99,
+					0.23,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[408022] = {
 		ship_group = 40802,
 		name = "U-47",
@@ -63030,7 +63425,7 @@ pg.ship_skin_template = {
 		illustrator2 = -1,
 		id = 408022,
 		bullet_skin_secondary = "",
-		no_showing = "0",
+		no_showing = "1",
 		painting = "U47_3",
 		air_bullet_skin = "",
 		shop_type_id = 7,
@@ -63121,7 +63516,7 @@ pg.ship_skin_template = {
 		ship_group = 40803,
 		name = "U-557",
 		bullet_skin_main = "",
-		desc = "铁血VIIC型潜艇U-557",
+		desc = "Iron Blood Type VIIC submarine – U-557. ",
 		illustrator2 = -1,
 		id = 408030,
 		bullet_skin_secondary = "",
@@ -81242,6 +81637,7 @@ pg.ship_skin_template = {
 		312013,
 		401010,
 		401011,
+		401019,
 		401180,
 		401190,
 		401200,
@@ -81263,6 +81659,7 @@ pg.ship_skin_template = {
 		402030,
 		402039,
 		402040,
+		402049,
 		403010,
 		403030,
 		403031,
@@ -81290,6 +81687,8 @@ pg.ship_skin_template = {
 		407020,
 		408010,
 		408011,
+		408020,
+		408021,
 		408022,
 		408030,
 		408040,

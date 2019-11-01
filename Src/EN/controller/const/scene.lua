@@ -28,6 +28,7 @@ SCENE = {
 	SHOP = "scene shop",
 	TECHNOLOGY_TREE_SCENE = "TECHNOLOGY_TREE_SCENE",
 	ATTIRE = "scene attire",
+	MUSIC_FESTIVAL = "music festival",
 	DAILYLEVEL = "scene dailylevel",
 	SHIP_PROFILE = "ship profile",
 	TECHNOLOGY = "technology",

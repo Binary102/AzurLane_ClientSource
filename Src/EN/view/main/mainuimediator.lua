@@ -43,6 +43,7 @@ slot0.OPEN_COMMANDER = "MainUIMediator:OPEN_COMMANDER"
 slot0.OPEN_BULLETINBOARD = "MainUIMediator:OPEN_BULLETINBOARD"
 slot0.OPEN_ESCORT = "event open escort"
 slot0.ON_VOTE_BOOK = "event on vote book"
+slot0.OPEN_INS = "MainUIMediator:OPEN_INS"
 slot0.OPEN_TECHNOLOGY = "MainUIMediator:OPEN_TECHNOLOGY"
 slot0.ON_BOSS_BATTLE = "MainUIMediator:ON_BOSS_BATTLE"
 slot0.ON_MONOPOLY = "MainUIMediator:ON_MONOPOLY"
@@ -103,6 +104,7 @@ function slot0.register(slot0)
 	slot0:updateCommissionNotices()
 	slot0:updateSettingsNotice()
 	slot0:updateExSkinNotice()
+	slot0:UpdateInsNotice()
 	slot0:updateCommanderNotices(getProxy(CommanderProxy).haveFinishedBox(slot16))
 	slot0:bind(slot0.ON_MONOPOLY, function (slot0)
 		slot0:addSubLayers(Context.New({
@@ -174,6 +176,19 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.BIANDUI, {
 			fleetId = slot1
 		})
+	end)
+	slot0:bind(slot0.OPEN_INS, function (slot0)
+		if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_INSTAGRAM) or slot1:isEnd() then
+			return
+		end
+
+		slot0:addSubLayers(Context.New({
+			viewComponent = InstagramLayer,
+			mediator = InstagramMediator,
+			data = {
+				id = slot1.id
+			}
+		}))
 	end)
 	slot0:bind(slot0.OPEN_BACKYARD, function (slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.BACKYARD, {
@@ -359,9 +374,6 @@ function slot0.register(slot0)
 			id = slot1
 		})
 	end)
-	slot0:bind(slot0.ON_ANNIVERSARY, function ()
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.ANNIVERSARY)
-	end)
 	slot0:bind(slot0.ON_LOTTERY, function (slot0, slot1)
 		slot0:addSubLayers(Context.New({
 			viewComponent = LotteryLayer,
@@ -445,8 +457,11 @@ function slot0.register(slot0)
 	slot0.viewComponent:updateActivityMapBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT))
 	slot0.viewComponent:updateActivityEscort()
 	slot0.viewComponent:updateVoteBtn(slot7:GetVoteActivity(), getProxy(VoteProxy):GetOrderBook())
-	slot0.viewComponent:updateAnniversaryBtn(slot7:getActivityById(ActivityConst.ANNIVERSARY_TASK_LIST_ID))
-	slot0.viewComponent:updateActivityBossBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2))
+	slot0.viewComponent:updateActivityMusicFestivalBtn(getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_FESTIVAL_ID))
+end
+
+function slot0.UpdateInsNotice(slot0)
+	slot0.viewComponent:UpdateInsActBtn(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_INSTAGRAM))
 end
 
 function slot0.onBluePrintNotify(slot0)
@@ -731,6 +746,9 @@ function slot0.handleNotification(slot0, slot1)
 			slot0:tryPlayGuide()
 		elseif slot3.context.mediator == CommissionInfoMediator then
 			slot0.viewComponent:resetCommissionBtn()
+		elseif slot3.context.mediator == InstagramMediator then
+			slot0:UpdateInsNotice()
+			slot0.viewComponent:updateActivityMusicFestivalBtn(getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_FESTIVAL_ID))
 		end
 
 		slot0.viewComponent:updateTraningCampBtn()
@@ -786,6 +804,8 @@ function slot0.handleNotification(slot0, slot1)
 				end
 			})
 		end
+	elseif slot2 == MiniGameProxy.ON_HUB_DATA_UPDATE then
+		slot0.viewComponent:updateActivityMusicFestivalBtn(getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_FESTIVAL_ID))
 	elseif slot2 == VoteProxy.VOTE_ORDER_BOOK_DELETE or VoteProxy.VOTE_ORDER_BOOK_UPDATE == slot2 then
 		slot0.viewComponent:updateVoteBookBtn(slot3)
 	end
@@ -843,6 +863,10 @@ function slot0.handleEnterMainUI(slot0)
 					mediator = BulletinBoardMediator,
 					viewComponent = BulletinBoardLayer
 				}))
+			elseif slot0.contextData.subContext then
+				slot0:addSubLayers(slot0.contextData.subContext)
+
+				slot0.contextData.subContext = nil
 			else
 				slot0:tryPlayGuide()
 			end
@@ -862,7 +886,6 @@ function slot0.handleEnterMainUI(slot0)
 			slot0:handlingActivityBtn()
 			slot0:handleOverdueAttire()
 			slot0:updateExSkinOverDue()
-			slot0:updateAnniversaryBtnTip()
 		end))
 	end
 end
@@ -944,6 +967,14 @@ function slot0.playStroys(slot0, slot1)
 		if type(slot7:getConfig("config_client")) == "table" and slot8[2] and type(slot8[2]) == "string" and not pg.StoryMgr.GetInstance():IsPlayed(slot8[2]) then
 			table.insert(slot3, function (slot0)
 				slot0:Play(slot1[2], slot0, true, true)
+			end)
+		end
+	end
+
+	if getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_CHUIXUE7DAY_ID) and not slot8:isEnd() then
+		if slot8:getConfig("config_client").story[1][1] and not pg.StoryMgr.GetInstance():IsPlayed(slot10) then
+			table.insert(slot3, function (slot0)
+				slot0:Play(slot0.Play, slot0, true, true)
 			end)
 		end
 	end
@@ -1146,12 +1177,6 @@ end
 
 function slot0.handlingActivityBtn(slot0)
 	slot0:sendNotification(GAME.MAINUI_ACT_BTN)
-
-	return
-end
-
-function slot0.updateAnniversaryBtnTip(slot0)
-	slot0.viewComponent:notifyAnniversary(getProxy(ActivityProxy):getActivityById(ActivityConst.ANNIVERSARY_TASK_LIST_ID) and not slot2:isEnd() and slot2:readyToAchieve())
 
 	return
 end

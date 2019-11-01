@@ -815,6 +815,10 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Sayaka Kaneko",
 		code = 204
+	},
+	{
+		actor_name = "Yuki Shion ",
+		code = 205
 	}
 }
 

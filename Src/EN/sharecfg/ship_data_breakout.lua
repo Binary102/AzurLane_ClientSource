@@ -2681,6 +2681,65 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[102161] = {
+		use_gold = 300,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 10216,
+		breakout_id = 102162,
+		breakout_view = "Unlock All Out Assault Ⅰ/All weapons' efficiency +2%",
+		id = 102161,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			70111
+		}
+	},
+	[102162] = {
+		use_gold = 800,
+		pre_id = 102161,
+		use_char_num = 1,
+		use_char = 10216,
+		breakout_id = 102163,
+		breakout_view = "Torpedo base +1/Torpedo preload +1/All weapons' efficiency +3%",
+		id = 102162,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[102163] = {
+		use_gold = 1500,
+		pre_id = 102162,
+		use_char_num = 2,
+		use_char = 10216,
+		breakout_id = 102164,
+		breakout_view = "Improve All Out Assault/All weapons' efficiency +5%",
+		id = 102163,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			70112
+		}
+	},
+	[102164] = {
+		use_gold = 0,
+		pre_id = 102163,
+		use_char_num = 0,
+		use_char = 10216,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 102164,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[102171] = {
 		use_gold = 1000,
 		pre_id = 0,
@@ -17595,6 +17654,128 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[408021] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 40802,
+		breakout_id = 408022,
+		breakout_view = "Unlock EX Barrage Ⅰ/Torpedo efficiency +5%",
+		id = 408021,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			79311
+		}
+	},
+	[408022] = {
+		use_gold = 3000,
+		pre_id = 408021,
+		use_char_num = 1,
+		use_char = 40802,
+		breakout_id = 408023,
+		breakout_view = "Torpedo base +1/Improve Hunting range",
+		id = 408022,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			140,
+			140,
+			140,
+			140
+		}
+	},
+	[408023] = {
+		use_gold = 10000,
+		pre_id = 408022,
+		use_char_num = 2,
+		use_char = 40802,
+		breakout_id = 408024,
+		breakout_view = "Improve EX Barrage/Torpedo efficiency +10%",
+		id = 408023,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			79312
+		}
+	},
+	[408024] = {
+		use_gold = 0,
+		pre_id = 408023,
+		use_char_num = 0,
+		use_char = 40802,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 408024,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[408031] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 40803,
+		breakout_id = 408032,
+		breakout_view = "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+		id = 408031,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			73311
+		}
+	},
+	[408032] = {
+		use_gold = 1500,
+		pre_id = 408031,
+		use_char_num = 1,
+		use_char = 40803,
+		breakout_id = 408033,
+		breakout_view = "Torpedo base +1/Improve Hunting range",
+		id = 408032,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			140,
+			140,
+			140,
+			140
+		}
+	},
+	[408033] = {
+		use_gold = 2500,
+		pre_id = 408032,
+		use_char_num = 2,
+		use_char = 40803,
+		breakout_id = 408034,
+		breakout_view = "Improve All Out Assault/Torpedo efficiency +10%",
+		id = 408033,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			73312
+		}
+	},
+	[408034] = {
+		use_gold = 0,
+		pre_id = 408033,
+		use_char_num = 0,
+		use_char = 40803,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 408034,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[408041] = {
 		use_gold = 500,
 		pre_id = 0,
@@ -20472,6 +20653,10 @@ pg.ship_data_breakout = {
 		102152,
 		102153,
 		102154,
+		102161,
+		102162,
+		102163,
+		102164,
 		102171,
 		102172,
 		102173,
@@ -21456,6 +21641,14 @@ pg.ship_data_breakout = {
 		408012,
 		408013,
 		408014,
+		408021,
+		408022,
+		408023,
+		408024,
+		408031,
+		408032,
+		408033,
+		408034,
 		408041,
 		408042,
 		408043,

@@ -153,7 +153,6 @@ return {
 		elseif slot0 == AIRI_PLATFORM_TWITTER then
 			slot0:LoginWithTW()
 		elseif slot0 == AIRI_PLATFORM_YOSTAR then
-			pg.UIMgr.GetInstance():LoadingOn()
 			slot0:LoginWithSDKAccount(slot1, slot2)
 		end
 	end,

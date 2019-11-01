@@ -57846,7 +57846,7 @@ pg.task_data_template = {
 		type = 26,
 		name = "贝利万圣节皮肤复刻4",
 		count_inherit = 0,
-		desc = "Clear 2 main storyline stages on hard\nmode.",
+		desc = "Clear 2 main storyline stages on hard mode.",
 		target_id_2 = "",
 		sub_type = 21,
 		added_tip = 0,
@@ -63125,6 +63125,786 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 			}
 		}
 	},
+	[999950] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8549,
+		type = 6,
+		name = "\"Dichotomous Chess\" - Opening",
+		count_inherit = 0,
+		desc = "Clear A1 or C1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999951",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999950,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920001,
+			9920011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				1,
+				110,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999951] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8550,
+		type = 6,
+		name = "\"Dichotomous Chess\" - Development",
+		count_inherit = 0,
+		desc = "Clear A2 or C2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999952",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999951,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920002,
+			9920012
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				1,
+				110,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999952] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8551,
+		type = 6,
+		name = "\"Dichotomous Chess\" - Initiative",
+		count_inherit = 0,
+		desc = "Clear A3 or C3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999953",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999952,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920003,
+			9920013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				1,
+				110,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999953] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8552,
+		type = 6,
+		name = "\"Dichotomous Chess\" - Promotion",
+		count_inherit = 0,
+		desc = "Clear A4 or C4",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999954",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999953,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920004,
+			9920014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				1,
+				110,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999954] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8553,
+		type = 6,
+		name = "\"Dichotomous Chess\" - Sacrifice",
+		count_inherit = 0,
+		desc = "Clear B1 or D1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999955",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999954,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920005,
+			9920015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				1,
+				110,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999955] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8554,
+		type = 6,
+		name = "\"Dichotomous Chess\" - Intuition",
+		count_inherit = 0,
+		desc = "Clear B2 or D2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999956",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999955,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920006,
+			9920016
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				1,
+				110,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999956] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8555,
+		type = 6,
+		name = "\"Dichotomous Chess\" - Trap",
+		count_inherit = 0,
+		desc = "Clear B3 or D3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "[999957,999958]",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999956,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920007,
+			9920017
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				1,
+				110,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999957] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8556,
+		type = 6,
+		name = "\"Dichotomous Chess\" - Checkmate",
+		count_inherit = 0,
+		desc = "Clear B4 or D4",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999957,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920008,
+			9920018
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				404011,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				1,
+				110,
+				1000
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999958] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8557,
+		type = 6,
+		name = "\"Dichotomous Chess\" - Commemoration Medal",
+		count_inherit = 0,
+		desc = "Clear D4 <color=#92fc63>(This medal cannot be earned\nmore than once)</color>",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 9920018,
+		id = 999958,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "9920018",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				106,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999959] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8558,
+		type = 6,
+		name = "\"Dichotomous Chess\" - Opening",
+		count_inherit = 0,
+		desc = "Complete A1 or C1 with 3 stars",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999960",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999959,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920001,
+			9920011
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			},
+			{
+				4,
+				401201,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999960] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8559,
+		type = 6,
+		name = "\"Dichotomous Chess\" - Development",
+		count_inherit = 0,
+		desc = "Complete A2 or C2 with 3 stars",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999961",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999960,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920002,
+			9920012
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			},
+			{
+				4,
+				401211,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999961] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8560,
+		type = 6,
+		name = "\"Dichotomous Chess\" - Initiative",
+		count_inherit = 0,
+		desc = "Complete A3 or C3 with 3 stars",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999962",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999961,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920003,
+			9920013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999962] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8561,
+		type = 6,
+		name = "\"Dichotomous Chess\" - Promotion",
+		count_inherit = 0,
+		desc = "Complete A4 or C4 with 3 stars",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999963",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999962,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920004,
+			9920014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				2
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999963] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8562,
+		type = 6,
+		name = "\"Dichotomous Chess\" - Sacrifice",
+		count_inherit = 0,
+		desc = "Complete B1 or D1 with 3 stars",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999964",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999963,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920005,
+			9920015
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999964] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8563,
+		type = 6,
+		name = "\"Dichotomous Chess\" - Intuition",
+		count_inherit = 0,
+		desc = "Complete B2 or D2 with 3 stars",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999965",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999964,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920006,
+			9920016
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999965] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8564,
+		type = 6,
+		name = "\"Dichotomous Chess\" - Trap",
+		count_inherit = 0,
+		desc = "Complete B3 or D3 with 3 stars",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "999966",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999965,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920007,
+			9920017
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999966] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8565,
+		type = 6,
+		name = "\"Dichotomous Chess\" - Checkmate",
+		count_inherit = 0,
+		desc = "Complete B4 or D4 with 3 stars",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999966,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			9920008,
+			9920018
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				2
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[999967] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8566,
+		type = 36,
+		name = "\"Dichotomous Chess\" - Daily Construction",
+		count_inherit = 0,
+		desc = "Construct 3 ships",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999967,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				110,
+				300
+			}
+		}
+	},
+	[999968] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8567,
+		type = 36,
+		name = "\"Dichotomous Chess\" - Daily Sortie",
+		count_inherit = 0,
+		desc = "Sortie and obtain 15 victories",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999968,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				110,
+				300
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -64879,7 +65659,26 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		99926,
 		99927,
 		99928,
-		99929
+		99929,
+		999950,
+		999951,
+		999952,
+		999953,
+		999954,
+		999955,
+		999956,
+		999957,
+		999958,
+		999959,
+		999960,
+		999961,
+		999962,
+		999963,
+		999964,
+		999965,
+		999966,
+		999967,
+		999968
 	}
 }
 

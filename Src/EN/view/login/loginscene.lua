@@ -357,6 +357,17 @@ function slot0.didEnter(slot0)
 				slot0:playOpening(true)
 			end
 		end)
+
+		if PlayerPrefs.GetString("op_ver", "") ~= OP_VERSION then
+			slot0:playOpening(true, function ()
+				PlayerPrefs.SetString("op_ver", OP_VERSION)
+				PlayerPrefs.SetString:playExtraVoice()
+
+				PlayerPrefs.SetString.playExtraVoice.initFinished = true
+			end)
+
+			return
+		end
 	end
 
 	slot0:playExtraVoice()
@@ -591,6 +602,8 @@ end
 function slot0.playOpening(slot0, slot1, slot2, slot3)
 	slot0.onPlayingOP = true
 
+	pg.CriMgr.GetInstance():stopBGM()
+
 	function slot4()
 		if not slot0.openingTF then
 			return
@@ -625,10 +638,7 @@ function slot0.playOpening(slot0, slot1, slot2, slot3)
 		end
 
 		slot0.cg.alpha = 0
-
-		setActive(slot0.openingTF, true)
-
-		setActive.openingAni.enabled = true
+		slot0.cg.openingAni.enabled = true
 
 		onButton(onButton, slot0.openingTF, function ()
 			if slot0 then
@@ -640,6 +650,7 @@ function slot0.playOpening(slot0, slot1, slot2, slot3)
 
 		slot0:SetStartEvent(function (slot0)
 			if slot0.criAni then
+				slot0.criAni.player:SetVolume(PlayerPrefs.GetFloat("bgm_vol", DEFAULT_BGMVOLUME))
 				slot0.criAni:Play()
 			end
 		end)
@@ -657,7 +668,7 @@ function slot0.playOpening(slot0, slot1, slot2, slot3)
 
 			pg.UIMgr.GetInstance():OverlayPanel(slot0.openingTF.transform)
 
-			slot0.criAni = slot0.openingTF:GetComponent("CriManaEffectUI")
+			slot0.criAni = tf(slot0.openingTF):Find("usm"):GetComponent("CriManaEffectUI")
 
 			setActive(slot0.openingTF, false)
 

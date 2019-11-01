@@ -1250,7 +1250,7 @@ pg.skill_data_display = {
 	},
 	[11440] = {
 		id = 11440,
-		name = "斯卡帕湾之牛"
+		name = "The Bull of Scapa Flow "
 	},
 	[11450] = {
 		id = 11450,
@@ -1258,11 +1258,11 @@ pg.skill_data_display = {
 	},
 	[11460] = {
 		id = 11460,
-		name = "独狼"
+		name = "Lone Wolf "
 	},
 	[11461] = {
 		id = 11461,
-		name = "独狼"
+		name = "Lone Wolf "
 	},
 	[11470] = {
 		id = 11470,
@@ -1664,6 +1664,18 @@ pg.skill_data_display = {
 		id = 12210,
 		name = "Kolibri Assault "
 	},
+	[12280] = {
+		id = 12280,
+		name = "Destruction Mode - Prototype"
+	},
+	[12290] = {
+		id = 12290,
+		name = "Safety First!"
+	},
+	[12291] = {
+		id = 12291,
+		name = "Safety First!"
+	},
 	[12220] = {
 		id = 12220,
 		name = "Youthful Light "
@@ -1959,6 +1971,10 @@ pg.skill_data_display = {
 	[12670] = {
 		id = 12670,
 		name = "Fuoco di Copertura! "
+	},
+	[12680] = {
+		id = 12680,
+		name = "风雨舞踏"
 	},
 	[12690] = {
 		id = 12690,
@@ -3609,6 +3625,9 @@ pg.skill_data_display = {
 		12191,
 		12200,
 		12210,
+		12280,
+		12290,
+		12291,
 		12220,
 		12230,
 		12233,
@@ -3683,6 +3702,7 @@ pg.skill_data_display = {
 		12651,
 		12660,
 		12670,
+		12680,
 		12690,
 		12691,
 		12692,

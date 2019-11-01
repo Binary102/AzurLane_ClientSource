@@ -73,6 +73,17 @@ class("ChapterOpCommand", import(".ChapterOpRoutine")).execute = function (slot0
 		slot5.restAmmo = math.max(slot5.restAmmo - 1, 0)
 
 		slot3:updateChapter(slot4)
+
+		if slot7 ~= ChapterConst.AttachBoss then
+			slot3:RecordLastDefeatedEnemy(slot4.id, {
+				score = ys.Battle.BattleConst.BattleScore.S,
+				line = {
+					row = slot5.line.row,
+					column = slot5.line.column
+				},
+				type = slot7
+			})
+		end
 	end
 
 	pg.ConnectionMgr.GetInstance():Send(13103, {

@@ -1848,7 +1848,7 @@ Current expansions: <color=#92fc63>$3</color>
 		key = "exercise_rule_tip"
 	},
 	exercise_award_tip = {
-		tip = "Rewards will be sent when the next round of the season begins. Rewards:",
+		tip = "The first time you reach a new tier within the season, the corresponding rewards will be sent to your inbox. Conditions for the reward tiers are as follows: ",
 		key = "exercise_award_tip"
 	},
 	dock_yard_left_tips = {
@@ -8797,7 +8797,7 @@ Combat Details:
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "Rate Up characters: Mikasa, Hiei, Hamakaze, Kuroshio, Oyashio",
+		tip = "Rate Up characters: Graf Zeppelin, Z46, U-47, Admiral Hipper, Z25, Z35, Z19",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -11018,6 +11018,10 @@ depends on the amount of damage dealt to the boss.
 	pt_ship_goal = {
 		tip = "Goal:",
 		key = "pt_ship_goal"
+	},
+	skinshop_live2d_fliter_failed = {
+		tip = "No outfits to display under current filter settings ",
+		key = "skinshop_live2d_fliter_failed"
 	}
 }
 

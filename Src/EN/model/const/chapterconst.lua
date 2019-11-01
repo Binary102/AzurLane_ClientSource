@@ -1,5 +1,4 @@
 slot0 = class("ChapterConst")
-slot0.__DEBUG__ = false
 slot0.ExitFromChapter = 0
 slot0.ExitFromMap = 1
 slot0.TypeNone = 0
@@ -182,6 +181,7 @@ slot0.AchieveType2 = 2
 slot0.AchieveType3 = 3
 slot0.AchieveType4 = 4
 slot0.AchieveType5 = 5
+slot0.AchieveType6 = 6
 
 function slot0.IsAchieved(slot0)
 	slot1 = false
@@ -208,6 +208,8 @@ function slot0.GetAchieveDesc(slot0, slot1)
 		return string.format("Deployed ships≤ %d", slot3.config)
 	elseif slot3.type == slot0.AchieveType5 then
 		return string.format("XX not deployed", ShipType.Type2Name(slot3.config))
+	elseif slot3.type == slot0.AchieveType6 then
+		return "Full Combo完成关卡"
 	end
 
 	return slot2

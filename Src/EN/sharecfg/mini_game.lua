@@ -127,12 +127,151 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		name = "音乐小游戏",
+		view_name = "MusicGameView",
+		mediator_name = "MiniHubMediator",
+		type = 2,
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 6,
+		hub_id = 2,
+		request_data = 0,
+		simple_config_data = {
+			combo = 100,
+			goodtime = 0.25,
+			perfecttime = 0.1,
+			good = 300,
+			latergoodtime = 0.2,
+			special_combo = 0,
+			speed_min = 60,
+			misstime = 0.35,
+			perfect = 600,
+			speed_max = 100,
+			miss = 0,
+			special_score = 5000,
+			laterperfecttime = 0.1,
+			story = {
+				{
+					"OUXIANGRICHANG1"
+				},
+				{},
+				{},
+				{
+					"OUXIANGRICHANG2"
+				},
+				{},
+				{},
+				{
+					"OUXIANGRICHANG3"
+				}
+			},
+			combo_interval = {
+				10,
+				20,
+				40,
+				60,
+				80,
+				100
+			},
+			Blist = {
+				{
+					27640,
+					55960
+				},
+				{
+					16480,
+					23080
+				},
+				{
+					16700,
+					52360
+				},
+				{
+					24760,
+					55480
+				},
+				{
+					24280,
+					43960
+				}
+			},
+			Alist = {
+				{
+					55280,
+					111920
+				},
+				{
+					32960,
+					46160
+				},
+				{
+					33400,
+					104720
+				},
+				{
+					49520,
+					110960
+				},
+				{
+					48560,
+					87920
+				}
+			},
+			Slist = {
+				{
+					82920,
+					167880
+				},
+				{
+					49440,
+					69240
+				},
+				{
+					50100,
+					157080
+				},
+				{
+					74280,
+					166440
+				},
+				{
+					72840,
+					131880
+				}
+			},
+			SSlist = {
+				{
+					110560,
+					223840
+				},
+				{
+					65920,
+					92320
+				},
+				{
+					66800,
+					209440
+				},
+				{
+					99040,
+					221920
+				},
+				{
+					97120,
+					175840
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
 		3,
 		4,
-		5
+		5,
+		6
 	}
 }
 

@@ -155047,6 +155047,1034 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[408021] = {
+		name = "U-47",
+		type = 8,
+		personality = 2,
+		oxy_max = 193,
+		oxy_cost = 10,
+		huntingrange_level = 1,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 4,
+		rarity = 5,
+		ammo = 2,
+		id = 408021,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-47",
+		skin_id = 408020,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			209,
+			9,
+			102,
+			0,
+			0,
+			41,
+			0,
+			61,
+			7,
+			14.4,
+			32,
+			0
+		},
+		attrs_growth = {
+			5100,
+			88,
+			1012,
+			0,
+			0,
+			202,
+			0,
+			900,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.1,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					2,
+					2
+				},
+				{
+					3,
+					0
+				}
+			},
+			{
+				{
+					3,
+					-1
+				},
+				{
+					3,
+					1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408022] = {
+		name = "U-47",
+		type = 8,
+		personality = 2,
+		oxy_max = 193,
+		oxy_cost = 10,
+		huntingrange_level = 1,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 4,
+		rarity = 5,
+		ammo = 2,
+		id = 408022,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-47",
+		skin_id = 408020,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			260,
+			11,
+			127,
+			0,
+			0,
+			41,
+			0,
+			61,
+			7,
+			14.4,
+			32,
+			0
+		},
+		attrs_growth = {
+			5100,
+			88,
+			1012,
+			0,
+			0,
+			202,
+			0,
+			900,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.15,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					2,
+					2
+				},
+				{
+					3,
+					0
+				}
+			},
+			{
+				{
+					3,
+					-1
+				},
+				{
+					3,
+					1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408023] = {
+		name = "U-47",
+		type = 8,
+		personality = 2,
+		oxy_max = 193,
+		oxy_cost = 10,
+		huntingrange_level = 2,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 4,
+		rarity = 5,
+		ammo = 2,
+		id = 408023,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-47",
+		skin_id = 408020,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			362,
+			16,
+			178,
+			0,
+			0,
+			41,
+			0,
+			61,
+			7,
+			14.4,
+			32,
+			0
+		},
+		attrs_growth = {
+			5100,
+			88,
+			1012,
+			0,
+			0,
+			202,
+			0,
+			900,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.15,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					2,
+					2
+				},
+				{
+					3,
+					0
+				}
+			},
+			{
+				{
+					3,
+					-1
+				},
+				{
+					3,
+					1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[408024] = {
+		name = "U-47",
+		type = 8,
+		personality = 2,
+		oxy_max = 193,
+		oxy_cost = 10,
+		huntingrange_level = 2,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 4,
+		rarity = 5,
+		ammo = 2,
+		id = 408024,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-47",
+		skin_id = 408020,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 4,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			515,
+			22,
+			254,
+			0,
+			0,
+			41,
+			0,
+			61,
+			7,
+			14.4,
+			32,
+			0
+		},
+		attrs_growth = {
+			5100,
+			88,
+			1012,
+			0,
+			0,
+			202,
+			0,
+			900,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			5090,
+			205,
+			1263,
+			0,
+			0,
+			473,
+			0,
+			-1,
+			777,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.25,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					2,
+					2
+				},
+				{
+					3,
+					0
+				}
+			},
+			{
+				{
+					3,
+					-1
+				},
+				{
+					3,
+					1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				}
+			}
+		},
+		tag_list = {}
+	},
 	[408031] = {
 		name = "U-557",
 		type = 8,
@@ -203845,6 +204873,10 @@ pg.ship_data_statistics = {
 		408012,
 		408013,
 		408014,
+		408021,
+		408022,
+		408023,
+		408024,
 		408031,
 		408032,
 		408033,

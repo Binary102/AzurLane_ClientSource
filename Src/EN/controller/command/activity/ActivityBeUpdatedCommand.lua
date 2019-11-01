@@ -6,6 +6,8 @@ class("ActivityBeUpdatedCommand", pm.SimpleCommand).execute = function (slot0, s
 
 		getProxy(VoteProxy).SetOrderBook(slot10, slot9)
 		slot0:sendNotification(GAME.VOTE_BOOK_BE_UPDATED_DONE)
+	elseif slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_INSTAGRAM and slot3:CanBeActivated() then
+		getProxy(ActivityProxy):AddInstagramTimer(slot3.id)
 	end
 end
 

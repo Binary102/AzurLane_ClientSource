@@ -116,7 +116,7 @@ function slot0.getMilitaryRank(slot0, slot1)
 end
 
 function slot0.getNextMilitaryRank(slot0, slot1)
-	return pg.arena_data_rank[slot0:getMilitaryRank(slot1).id + 1] or pg.arena_data_rank[#pg.arena_data_rank.all].name, pg.arena_data_rank[slot0.getMilitaryRank(slot1).id + 1] or pg.arena_data_rank[#pg.arena_data_rank.all].point
+	return pg.arena_data_rank[slot0:getMilitaryRank(slot1).id + 1] or pg.arena_data_rank[#pg.arena_data_rank.all].name, pg.arena_data_rank[slot0.getMilitaryRank(slot1).id + 1] or pg.arena_data_rank[#pg.arena_data_rank.all].point, pg.arena_data_rank[slot0.getMilitaryRank(slot1).id + 1] or pg.arena_data_rank[#pg.arena_data_rank.all].order
 end
 
 function slot0.maxRankScore()

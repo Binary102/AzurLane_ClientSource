@@ -61,11 +61,8 @@ function pg.PushNotificationMgr.isEnableShipName(slot0)
 end
 
 function pg.PushNotificationMgr.Push(slot0, slot1, slot2, slot3)
-	if PLATFORM_CODE == PLATFORM_CH and CSharpVersion < 30 and PLATFORM == PLATFORM_ANDROID and slot0.SdkMgr.GetInstance():GetChannelUID() ~= nil and slot4 ~= "0" and slot4 == "cps" then
-	end
-
-	NotificationMgr.Inst:ScheduleLocalNotification(slot1, slot2, slot3)
-	slot0:log(slot1, slot2, slot3)
+	NotificationMgr.Inst:ScheduleLocalNotification(slot1, slot2, slot5)
+	slot0:log(slot1, slot2, os.time() + slot3 - slot0.TimeMgr.GetInstance():GetServerTime())
 end
 
 function pg.PushNotificationMgr.cancelAll(slot0)
@@ -221,7 +218,7 @@ function pg.PushNotificationMgr.PushCommander(slot0)
 end
 
 function pg.PushNotificationMgr.log(slot0, slot1, slot2, slot3)
-	print(slot1, " - ", slot2, " - ", slot3 - slot0.TimeMgr.GetInstance():GetServerTime(), "s后推送")
+	print(slot1, " - ", slot2, " - ", slot3 - os.time(), "s后推送")
 end
 
 return

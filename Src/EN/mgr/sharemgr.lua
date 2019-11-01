@@ -11,6 +11,7 @@ pg.ShareMgr.TypeReflux = 8
 pg.ShareMgr.TypeCommander = 9
 pg.ShareMgr.TypeColoring = 10
 pg.ShareMgr.TypeChallenge = 11
+pg.ShareMgr.TypeInstagram = 12
 pg.ShareMgr.PANEL_TYPE_BLACK = 1
 pg.ShareMgr.PANEL_TYPE_PINK = 2
 pg.ShareMgr.ANCHORS_TYPE = {

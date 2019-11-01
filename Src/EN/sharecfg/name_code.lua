@@ -874,6 +874,21 @@ pg.name_code = {
 		id = 175,
 		name = "Suruga ",
 		code = "Suruga "
+	},
+	{
+		id = 176,
+		name = "Akagiμ",
+		code = "Akagiμ"
+	},
+	{
+		id = 177,
+		name = "Ise Production",
+		code = "Ise Production"
+	},
+	{
+		id = 178,
+		name = "Fusou Production",
+		code = "Fusou Production"
 	}
 }
 

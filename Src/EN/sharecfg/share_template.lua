@@ -198,6 +198,20 @@ pg.share_template = {
 			381
 		}
 	},
+	{
+		description = "#AzurLane#",
+		name = "ins分享",
+		deck = 1,
+		hidden_comps = "",
+		move_comps = "",
+		camera = "OverlayCamera",
+		show_comps = "",
+		id = 12,
+		qrcode_location = {
+			373,
+			120
+		}
+	},
 	all = {
 		1,
 		2,
@@ -209,7 +223,8 @@ pg.share_template = {
 		8,
 		9,
 		10,
-		11
+		11,
+		12
 	}
 }
 

@@ -37,7 +37,8 @@ function slot0.listNotificationInterests(slot0)
 	return {
 		MiniGameProxy.ON_HUB_DATA_UPDATE,
 		GAME.SEND_MINI_GAME_OP_DONE,
-		GAME.MODIFY_MINI_GAME_DATA_DONE
+		GAME.MODIFY_MINI_GAME_DATA_DONE,
+		GAME.ON_APPLICATION_PAUSE
 	}
 end
 
@@ -51,6 +52,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:OnSendMiniGameOPDone(slot3.argList)
 	elseif slot2 == GAME.MODIFY_MINI_GAME_DATA_DONE then
 		slot0.viewComponent:OnModifyMiniGameDataDone(slot3)
+	elseif slot2 == GAME.ON_APPLICATION_PAUSE then
+		slot0.viewComponent:OnApplicationPaused(slot3)
 	end
 end
 
